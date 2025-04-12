@@ -58,7 +58,6 @@ async def process_single_file(input_path, output_path, llm_config):
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # 构建全局历史记录（整个文件）
     try:
         global_history = [{"holder": entry.get("Holder", ""), "sentence": entry.get("sentence", "")} for entry in data]
     except:
@@ -71,13 +70,9 @@ async def process_single_file(input_path, output_path, llm_config):
         current_sentence = current.get("sentence", "")
         current_holder = current.get("Holder", "")
 
-        # 构建当前句子 JSON
         current_json_str = json.dumps({"holder": current_holder, "sentence": current_sentence}, ensure_ascii=False)
-
-        # 填充用户内容
         user_content = f"全局历史记录:\n{global_history_str}\n\n当前句子:\n{current_json_str}\n"
 
-        # 构建 LLM 消息
         messages = [
             {"role": "system", "content": get_quadruples_with_history_prompt},
             {"role": "user", "content": user_content},
@@ -87,7 +82,6 @@ async def process_single_file(input_path, output_path, llm_config):
         if not final_parsed:
             final_parsed = {"raw_response": response_str}
 
-        # 保存结果
         results.append(
             {"input_sentence": current_sentence, "holder": current_holder, "final_model_response": final_parsed}
         )
@@ -98,11 +92,6 @@ async def process_single_file(input_path, output_path, llm_config):
 
 
 async def process_dataset(dataset_dir, input_dir, output_dir, llm_config, batch):
-    """
-    处理整个数据集目录:
-    - 遍历所有 JSON 文件
-    - 并发调用处理每个文件
-    """
     if dataset_dir != "chat":
         return
     cur_input_path = os.path.join(input_dir, dataset_dir)
@@ -135,12 +124,6 @@ async def process_dataset(dataset_dir, input_dir, output_dir, llm_config, batch)
 
 
 async def main():
-    """
-    主函数:
-    - 解析命令行参数
-    - 加载 YAML 配置
-    - 遍历子目录，处理数据集
-    """
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--input_dir",
@@ -174,7 +157,6 @@ async def main():
     )
     args = parser.parse_args()
 
-    # 加载 LLM 配置
     llm_config = load_yaml_config(args.config_path, args.llm_model, config_type="llm_config")
 
     subdirs = [d for d in os.listdir(args.input_dir) if os.path.isdir(os.path.join(args.input_dir, d))]

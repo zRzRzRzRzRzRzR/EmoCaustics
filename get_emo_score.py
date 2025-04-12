@@ -15,7 +15,6 @@ async def judge_similarity_with_llm(text_a, text_b, judge_config):
     Note: If the LLM does not return a number or provides additional explanations, it will be rated 0 points.
     Therefore, a LLM with stronger instruction-following capabilities and a larger weight should be used.
     In this work, we used the [GLM-4-Plus](https://arxiv.org/abs/2406.12793).
-    LLM such as Qwen-Max, GPT-4o, and Doubao1.5-Pro etc. can also perform the task effectively.
 
     Changing the LLM may affect the actual score evaluation, and a certain range of error is considered normal.
     """
@@ -88,7 +87,6 @@ async def match_event(gt_event_text, pred_events, embed_config, judge_config, ev
     if best_event is not None:
         llm_sim = await judge_similarity_with_llm(gt_event_text, best_event["event"], judge_config)
 
-    # If the similarity is below the threshold (both the embed model and LLM are limited), do not return.
     if best_sim < event_threshold and llm_sim < event_threshold:
         return None, 0.0, 0.0
     else:
@@ -127,7 +125,6 @@ async def match_emotion(gt_emotion, pred_emotions, embed_config, judge_config):
     max_length = 64
     texts_to_embed = [gt_reason] + [e["reason"] for e in pred_emotions]
 
-    # Split the texts_to_embed into chunks of max_length
     def chunk_texts(texts, max_length):
         return [texts[i : i + max_length] for i in range(0, len(texts), max_length)]
 
@@ -217,7 +214,6 @@ async def evaluate_chain(gt_data, pred_data, embed_config, judge_config, event_t
             emo_matches = []
             num_emotions = len(gt_ev.get("emotions", []))
 
-            # If event has multiple emotions, each emotion score is split
             if best_pred_event:
                 for gt_em in gt_ev.get("emotions", []):
                     emo_res, _ = await match_emotion(
@@ -225,7 +221,6 @@ async def evaluate_chain(gt_data, pred_data, embed_config, judge_config, event_t
                     )
                     emo_matches.append(emo_res)
 
-                    # Add emotion scores split by the number of emotions
                     total_role_state_score += emo_res["state_score"] / num_emotions / num_gt_events
                     total_role_source_id_score += emo_res["source_id_score"] / num_emotions / num_gt_events
                     total_role_reason_llm_score += emo_res["reason_llm_score"] / num_emotions / num_gt_events
@@ -242,7 +237,7 @@ async def evaluate_chain(gt_data, pred_data, embed_config, judge_config, event_t
                 }
             )
 
-            total_role_possible_score += 1 / num_gt_events  # This is the base possible score per event
+            total_role_possible_score += 1 / num_gt_events
 
         details[role] = {"events": event_details}
 
@@ -253,7 +248,6 @@ async def evaluate_chain(gt_data, pred_data, embed_config, judge_config, event_t
 
         total_possible_score += total_role_possible_score
 
-    # Calculate the total score and save it.
     total_reason_embed_score_percentage = (
         round((total_reason_mbed_score / total_possible_score) * 100, 2) if total_possible_score > 0 else 0.0
     )

@@ -178,9 +178,6 @@ async def process_single_file(input_path, output_path, llm_config, history_num, 
     events_bucket = []
     processed_results = []
 
-    # print("==== 开始解析事件总结 ====")
-    # print("总句子数：", total_sentences, "步长（history_num）：", history_num, "滑动窗口长度：", window_size)
-
     step = history_num if history_num > 0 else 1
 
     for window_start in range(0, total_sentences, step):
@@ -245,10 +242,6 @@ async def process_single_file(input_path, output_path, llm_config, history_num, 
                 events_bucket.append(new_event)
     for event in events_bucket:
         event.pop("original_event", None)
-
-    # print("==== 事件桶更新完成 ====")
-    # print("最终事件桶：", events_bucket)
-    # print("==== 开始提取完整情绪五元组（六元组） ====")
 
     for idx, item in enumerate(data):
         abs_id = item.get("sentence_id") if item.get("sentence_id") is not None else idx + 1

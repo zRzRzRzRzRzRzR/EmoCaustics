@@ -15,10 +15,6 @@ similarity_judge_prompt = """
 
 
 async def judge_similarity_with_llm(text_a, text_b, judge_config):
-    """
-    Use the LLM specified by judge_config to determine whether text_a and text_b are similar, returning 0 or 1.
-    judge_config: { “model”: “…”, “base_url”: “…”, “api_key”: “…” }
-    """
     messages = [
         {"role": "system", "content": similarity_judge_prompt},
         {
@@ -55,9 +51,6 @@ async def evaluate_single_prediction(
     pred_rationale,
     embed_config,
 ):
-    """
-    计算scheme1(向量相似度)分数 + sentiment是否匹配
-    """
     texts_to_embed = [
         gt_target,
         pred_target,
@@ -95,9 +88,6 @@ async def evaluate_single_prediction(
 
 
 def select_best_prediction(all_preds_scores):
-    """
-    Select the one with the highest overall score from multiple candidate quintuplets.
-    """
     if not all_preds_scores:
         return {
             "target_similarity": 0.0,
@@ -126,10 +116,6 @@ def select_best_prediction(all_preds_scores):
 
 
 async def evaluate_line(pred_data, gt_data, i, embed_config, judge_config):
-    """
-    - Step 1: Cosine similarity + sentiment correctness
-        - Step 2: LLM similarity determination (0/1) + sentiment correctness
-    """
     pred_item = pred_data[i]
     gt_item = gt_data[i]
 
@@ -225,9 +211,6 @@ async def evaluate_line(pred_data, gt_data, i, embed_config, judge_config):
 
 
 async def check_and_fix_suspicious_lines(out_file_path, pred_file_path, gt_file_path, embed_config, judge_config):
-    """
-    读取评估文件，检测可疑行（全部0分），重新计算并更新保存
-    """
     if not os.path.exists(out_file_path):
         return
 
@@ -254,11 +237,9 @@ async def check_and_fix_suspicious_lines(out_file_path, pred_file_path, gt_file_
     for idx in suspicious_indices:
         line_idx = details[idx]["index"]
         new_result_item = await evaluate_line(pred_data, gt_data, line_idx, embed_config, judge_config)
-        # 保留原先的 file 字段
         new_result_item["file"] = details[idx]["file"]
         details[idx] = new_result_item
 
-    # 重新计算 overall averages
     scheme1_target_sims = []
     scheme1_aspect_sims = []
     scheme1_opinion_sims = []
@@ -311,9 +292,6 @@ async def check_and_fix_suspicious_lines(out_file_path, pred_file_path, gt_file_
 
 
 async def evaluate_file(pred_file, gt_file, embed_config, judge_config):
-    """
-    对 pred_file 与 gt_file 做对齐行的评估
-    """
     pred_data = load_json(pred_file)
     gt_data = load_json(gt_file)
 
@@ -335,7 +313,6 @@ async def evaluate_file(pred_file, gt_file, embed_config, judge_config):
 
     min_len = min(len(pred_data), len(gt_data))
     for i in tqdm(range(min_len), desc=f"Processing {os.path.basename(pred_file)}", leave=False):
-        # 同行信息
         line_eval = await evaluate_line(pred_data, gt_data, i, embed_config, judge_config)
         line_eval["file"] = os.path.basename(pred_file)  # 覆盖 dummy
         results.append(line_eval)

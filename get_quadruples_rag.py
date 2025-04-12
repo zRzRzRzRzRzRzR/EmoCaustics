@@ -338,7 +338,6 @@ async def process_single_file(
 
 
 async def process_dataset(dataset_dir, input_dir, output_dir, llm_config, embed_config, history_num, top_k, batch):
-    # 构建输入和输出路径
     cur_input_path = os.path.join(input_dir, dataset_dir)
     json_files = [f for f in os.listdir(cur_input_path) if f.endswith(".json") and f.startswith("chat_")]
     if not json_files:
@@ -429,16 +428,10 @@ async def main():
     )
     args = parser.parse_args()
 
-    # 加载配置
     llm_config = load_yaml_config(args.config_path, args.llm_model, config_type="llm_config")
     embed_config = load_yaml_config(args.config_path, args.embedding_model, config_type="embed_config")
 
-    # 准备数据目录
-    # subdirs = [
-    #     d for d in os.listdir(args.input_dir) if os.path.isdir(os.path.join(args.input_dir, d))
-    # ]
     subdirs = ["chat"]
-    # 输出目录
     output_dir = os.path.join(
         args.output_dir, os.path.basename(llm_config["model"]) + "_" + datetime.now().strftime("%m%d")
     )
@@ -457,7 +450,6 @@ async def main():
                 batch=args.batch,
             )
 
-    # 创建任务
     tasks = [asyncio.create_task(sem_task(d)) for d in subdirs]
     await asyncio.gather(*tasks)
 

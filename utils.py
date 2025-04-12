@@ -130,9 +130,7 @@ def parse_json_response(response):
         {"role": "user", "content": f"原始JSON: \n{response_str}\n\n修复后的JSON:"},
     ]
     # FIXME： The incomplete JSON when calling the large model may result in the final output not conforming to the correct format. During validation, it may be necessary to manually add []
-    fixed_json_str = call_large_model(
-        messages, model="Qwen/Qwen2.5-72B-Instruct", base_url="http://localhost:8000/v1"
-    )
+    fixed_json_str = call_large_model(messages, model="Qwen/Qwen2.5-72B-Instruct", base_url="http://localhost:8000/v1")
     try:
         obj_match = re.search(r"```json\s*\n([\s\S]*?)\n```", fixed_json_str)
         if obj_match:

@@ -12,7 +12,6 @@ from utils import call_large_model, parse_json_response, load_yaml_config, merge
 
 
 def format_chat_history_for_llm(chat_data):
-    """格式化对话数据，并给每个句子增加编号，同时加入五元组信息"""
     formatted_chat = []
 
     for idx, item in enumerate(chat_data):
@@ -251,15 +250,11 @@ def main():
                         number = "unknown"
                     event_output_path = os.path.join(args.output_dir, f"output_emotions_{number}_events.json")
                     step_output_path = os.path.join(args.output_dir, f"output_emotions_{number}_steps.json")
-
-                    # Check if the output files already exist, if so, skip
                     if os.path.exists(event_output_path) and os.path.exists(step_output_path):
                         pbar.update(1)
                         print(f"Skipping {fname} with window_size={window_size}, step_size={step_size}")
                         continue
 
-                    # Submit the task for each combination of window_size and step_size
-                    # print(f"Submitting task for {fname} with window_size={window_size}, step_size={step_size}")
                     futures[
                         executor.submit(
                             segment_events_by_topic_with_sliding_window,
@@ -276,11 +271,6 @@ def main():
             for future in concurrent.futures.as_completed(futures):
                 fname, window_size, step_size = futures[future]
                 event_pool, step_results = future.result()
-                # try:
-                #     event_pool, step_results = future.result()
-                # except Exception as e:
-                #     print(f"Error processing {fname} ({window_size}, {step_size}): {e}")
-                #     continue
 
                 match = re.search(r"(\d+)", fname)
                 if match:
@@ -288,7 +278,6 @@ def main():
                 else:
                     number = "unknown"
 
-                # Save the event pool and step results for each task
                 output_file_path = os.path.join(args.output_dir, f"output_emotions_{number}_events.json")
                 step_results_path = os.path.join(args.output_dir, f"output_emotions_{number}_steps.json")
                 print(f"{output_file_path} is saved.")

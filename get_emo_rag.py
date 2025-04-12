@@ -141,21 +141,19 @@ def main():
     llm_cfg = load_yaml_config(args.config_path, args.llm_model, "llm_config")
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # **1️⃣ 解析所有 JSON 文件，并按数字顺序排序**
     def extract_number(file_name):
         match = re.search(r"chat_(\d+)\.json", file_name)
-        return int(match.group(1)) if match else float("inf")  # **确保 chat_1 在 chat_10 之前**
+        return int(match.group(1)) if match else float("inf")
 
     all_files = sorted(
         [f for f in os.listdir(args.input_dir) if f.endswith(".json")],
-        key=extract_number,  # **基于数字排序**
+        key=extract_number,
     )
 
-    # **2️⃣ 按 batch 依次提交任务**
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.batch) as executor:
         with tqdm(total=len(all_files), desc="Processing files") as pbar:
-            for i in range(0, len(all_files), args.batch):  # **按 batch 大小分批**
-                batch_files = all_files[i : i + args.batch]  # **取出当前 batch**
+            for i in range(0, len(all_files), args.batch):
+                batch_files = all_files[i : i + args.batch]
 
                 futures = {
                     executor.submit(
