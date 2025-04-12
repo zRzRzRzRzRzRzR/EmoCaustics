@@ -430,6 +430,3 @@ Possible reasons for score differences:
 - Testing issues with third-party APIs.
 - In the utils file, this line of code does not use the configuration from the configs file. You need to manually
   configure the information for the large model used to correct the JSON, such as a large model from OpenAI or ZhipuAI.
-```shell
-fixed_json_str = call_large_model(
-```

@@ -477,7 +477,7 @@ python get_emo_sw.py   --llm_model zhipu-air --input_dir {pred_dir}/chat/  --out
 python get_emo_score.py --embedding_model zhipu --gt_dir {datasets}/emo/  --input_dir {pre_dirs}/emo/ --output_dir {output_dirs} --llm_model zhipu
 ```
 
-# 复线数据误差说明
+# 复现代码时数据误差说明
 
 导致分数差异的几种可能:
 
@@ -486,6 +486,3 @@ python get_emo_score.py --embedding_model zhipu --gt_dir {datasets}/emo/  --inpu
 - `glm-4-plus` 模型可能升级，由于API并没有确定具体的模型版本。 我们才猜测，本版本为 `glm-4-plus-0111` 而非 `glm-4-plus-0520`。 可能在复现和该模型跑分时出现无法对其的情况。此外，该API跑分可能不稳定，在部分场景下，表现不如`glm-4-air-0111`。
 - 在测试`deepseek`模型时，由于官方接口无法正常使用，使用的第三方接口。
 - 在`utils`文件中，这一行代码没有使用`configs`的文件配置，你需要自己配置用于矫正JSON的大模型信息。比如OpenAI或者ZhipuAI的大模型。
-```shell
-fixed_json_str = call_large_model(
-```
