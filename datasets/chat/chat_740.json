@@ -1,0 +1,299 @@
+[
+    {
+        "sentence": "赵处长说说这个。",
+        "Holder": "1",
+        "Target": "赵处长",
+        "Aspect": "说明情况",
+        "Opinion": "要求说明",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解情况"
+    },
+    {
+        "sentence": "可以，这个是我工资卡，这是我的奖金卡，这是过春节发的过节费的卡，部里每人都有一人。",
+        "Holder": "2",
+        "Target": "工资卡、奖金卡、过节费卡",
+        "Aspect": "卡的种类和来源",
+        "Opinion": "说明卡的种类和来源",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释卡的种类和来源"
+    },
+    {
+        "sentence": "3000小张，这几张卡刷一下，",
+        "Holder": "1",
+        "Target": "小张",
+        "Aspect": "刷卡操作",
+        "Opinion": "要求刷卡",
+        "Sentiment": "neutral",
+        "Rationale": "需要完成刷卡操作"
+    },
+    {
+        "sentence": "我就这点私房钱全让你们给折腾出来了。",
+        "Holder": "2",
+        "Target": "私房钱",
+        "Aspect": "钱的处理",
+        "Opinion": "不满被折腾",
+        "Sentiment": "negative",
+        "Rationale": "私房钱被折腾出来"
+    },
+    {
+        "sentence": "就这点是多少？",
+        "Holder": "1",
+        "Target": "事情的数量或程度",
+        "Aspect": "数量或程度的确认",
+        "Opinion": "询问具体数量",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问具体数量或程度"
+    },
+    {
+        "sentence": "对于我你可大失所望，你说我的前任在这栽的跟头，我能在同样的小阴沟里再翻船吗？不可能跟人不一样，都是你们办案人的偏见是吗。",
+        "Holder": "2",
+        "Target": "1的期望和办案人的偏见",
+        "Aspect": "个人能力和办案公正性",
+        "Opinion": "认为自己不会犯同样错误，指责办案人有偏见",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1对他失望且认为办案人有偏见"
+    },
+    {
+        "sentence": "汉东省荆州市的项目资料在哪",
+        "Holder": "1",
+        "Target": "项目资料",
+        "Aspect": "资料的位置",
+        "Opinion": "询问资料位置",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问资料的具体位置"
+    },
+    {
+        "sentence": "这事我得好好想想。",
+        "Holder": "2",
+        "Target": "项目资料的位置",
+        "Aspect": "决策的慎重",
+        "Opinion": "需要时间考虑",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得需要时间来思考资料的位置"
+    },
+    {
+        "sentence": "被你罚站的丁义珍副市长的项目。",
+        "Holder": "1",
+        "Target": "丁义珍副市长的项目",
+        "Aspect": "项目的相关性",
+        "Opinion": "指出项目与丁义珍相关",
+        "Sentiment": "neutral",
+        "Rationale": "1在指出项目的相关性"
+    },
+    {
+        "sentence": "我想起来了，这个项目我们没有批。",
+        "Holder": "1",
+        "Target": "项目审批",
+        "Aspect": "审批结果",
+        "Opinion": "未批准",
+        "Sentiment": "neutral",
+        "Rationale": "回忆起项目未获批准的事实"
+    },
+    {
+        "sentence": "哪出问题了。",
+        "Holder": "2",
+        "Target": "项目问题",
+        "Aspect": "问题所在",
+        "Opinion": "询问问题",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚项目未批准的原因"
+    },
+    {
+        "sentence": "它不太符合规定，好像缺少环保评估材料。",
+        "Holder": "1",
+        "Target": "项目合规性",
+        "Aspect": "规定符合度",
+        "Opinion": "不符合规定",
+        "Sentiment": "negative",
+        "Rationale": "项目缺少必要的环保评估材料"
+    },
+    {
+        "sentence": "我想起来了。",
+        "Holder": "2",
+        "Target": "项目问题",
+        "Aspect": "问题记忆",
+        "Opinion": "回忆起问题",
+        "Sentiment": "neutral",
+        "Rationale": "突然回忆起项目的问题"
+    },
+    {
+        "sentence": "缺少环保评估材料。",
+        "Holder": "2",
+        "Target": "项目材料",
+        "Aspect": "材料完整性",
+        "Opinion": "缺少材料",
+        "Sentiment": "negative",
+        "Rationale": "项目缺少环保评估材料"
+    },
+    {
+        "sentence": "真的吗？是不是。",
+        "Holder": "1",
+        "Target": "项目问题",
+        "Aspect": "问题确认",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对项目问题的真实性不确定"
+    },
+    {
+        "sentence": "丁义珍诬陷我。",
+        "Holder": "1",
+        "Target": "丁义珍",
+        "Aspect": "行为",
+        "Opinion": "诬陷",
+        "Sentiment": "negative",
+        "Rationale": "丁义珍对1进行了诬陷"
+    },
+    {
+        "sentence": "你们不是好朋友吗？他每年到你这两三次无话不谈的，他诬陷你什么。",
+        "Holder": "2",
+        "Target": "丁义珍和1的关系",
+        "Aspect": "友谊的深度",
+        "Opinion": "质疑诬陷的真实性",
+        "Sentiment": "neutral",
+        "Rationale": "2认为丁义珍和1是好朋友"
+    },
+    {
+        "sentence": "他是不是出事儿了",
+        "Holder": "2",
+        "Target": "丁义珍",
+        "Aspect": "现状",
+        "Opinion": "猜测有麻烦",
+        "Sentiment": "neutral",
+        "Rationale": "2听到丁义珍诬陷1的情况"
+    },
+    {
+        "sentence": "我得给您提个醒，丁义珍跟我有仇，最起码有过节，我没批他的项目，他向我行贿。",
+        "Holder": "1",
+        "Target": "丁义珍",
+        "Aspect": "个人恩怨",
+        "Opinion": "存在过节",
+        "Sentiment": "negative",
+        "Rationale": "1拒绝了丁义珍的项目，导致丁义珍怀恨在心"
+    },
+    {
+        "sentence": "等等，你刚才说丁义珍向你行贿是吧？",
+        "Holder": "2",
+        "Target": "丁义珍行贿",
+        "Aspect": "行贿行为",
+        "Opinion": "确认事实",
+        "Sentiment": "neutral",
+        "Rationale": "2需要确认1所提到的行贿事实"
+    },
+    {
+        "sentence": "我说丁义珍向我行贿，我说了吗？",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言语的真实性",
+        "Opinion": "反问否认",
+        "Sentiment": "negative",
+        "Rationale": "1在对话中突然反问自己是否说过行贿的话，表现出一种紧张和试图否认的情绪"
+    },
+    {
+        "sentence": "我没说我。",
+        "Holder": "1",
+        "Target": "说话人2的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "否认说过",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在澄清自己没有说过某些话"
+    },
+    {
+        "sentence": "全程都录下来了。",
+        "Holder": "2",
+        "Target": "对话记录",
+        "Aspect": "记录的完整性",
+        "Opinion": "记录完整",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在强调对话记录的完整性"
+    },
+    {
+        "sentence": "侯处长，我的意思是说我不会接受丁义珍向我行贿，绝对不会并不代表我已经接受了丁义珍向我行贿，我要强调一点，党把这么重要的岗位交给我，我得赤胆忠心，我得对得起党，对得起人民，我这人党性原则性很强的，所以别人才能才能诬陷我。",
+        "Holder": "2",
+        "Target": "丁义珍行贿事件",
+        "Aspect": "个人立场和党性",
+        "Opinion": "坚决拒绝行贿，强调党性",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑接受行贿"
+    },
+    {
+        "sentence": "如果你们今天查不出任何的赃款赃物，你们要是轻信谣言搞错了，我告诉你我饶不了你们任何一个人，我会请最好的律师来起诉你们，我让你们赔偿我的名誉损失，",
+        "Holder": "2",
+        "Target": "调查结果",
+        "Aspect": "调查的公正性",
+        "Opinion": "要求公正调查，否则追究责任",
+        "Sentiment": "negative",
+        "Rationale": "担心被冤枉"
+    },
+    {
+        "sentence": "看来我们又得换个地方。",
+        "Holder": "1",
+        "Target": "对话环境",
+        "Aspect": "环境的适宜性",
+        "Opinion": "需要更换",
+        "Sentiment": "neutral",
+        "Rationale": "对话环境可能不适合继续讨论"
+    },
+    {
+        "sentence": "你们不能单凭丁义珍的一面之词就怀疑我了，你们不能就把我一个好端端的同志说成一个坏人，我的同志不能这样，你们这么做这叫莫须有，你们这么做不合情理的这是。",
+        "Holder": "2",
+        "Target": "调查方式",
+        "Aspect": "调查的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为调查方式不公正"
+    },
+    {
+        "sentence": "我只是说换个地方别误会也别紧张，没有确凿的证据我不会抓你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "换地方的要求",
+        "Opinion": "避免误会和紧张",
+        "Sentiment": "neutral",
+        "Rationale": "1只是提出换个地方并解释不会无故抓人"
+    },
+    {
+        "sentence": "换个地方是让你演第三场，压轴戏，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "演出安排",
+        "Opinion": "安排演压轴戏",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释换地方的原因是为了演出安排"
+    },
+    {
+        "sentence": "压轴戏，你说话我听不明白，不是，我觉得你这个同志说话很搞笑，你知道吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "说话方式",
+        "Opinion": "觉得搞笑",
+        "Sentiment": "negative",
+        "Rationale": "2听不明白1的话，觉得1的说话方式很搞笑"
+    },
+    {
+        "sentence": "搞笑，你在搞笑吗？赵处长整个晚上演清白，廉政演技还相当的好。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对赵处长的评价",
+        "Opinion": "演技好",
+        "Sentiment": "positive",
+        "Rationale": "1在称赞赵处长的演技"
+    },
+    {
+        "sentence": "不是，我的意思是说今天晚上这个时候你们这么这种做法，这简直是拿我的政治生命在开玩笑知道吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "做法的合理性",
+        "Opinion": "拿政治生命开玩笑",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的做法是在拿他的政治生命开玩笑"
+    },
+    {
+        "sentence": "这个地方熟悉。",
+        "Holder": "7",
+        "Target": "这个地方",
+        "Aspect": "熟悉程度",
+        "Opinion": "熟悉",
+        "Sentiment": "neutral",
+        "Rationale": "对某个地方有熟悉感"
+    }
+]

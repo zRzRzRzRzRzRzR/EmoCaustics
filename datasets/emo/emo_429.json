@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学术贡献评价",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "高度评价何延凌老师的学术著作与实践结合能力",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "大问题的三维解析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统阐述本质性/核心性/枢纽性三维度",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "发现学科发展机遇",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "人民算法的提出与应用",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析民生三重保障机制",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调算法对政策科学化的支撑作用",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "党领导与人民中心的治理关系",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解构组织/个体/角色三维领导机制",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "发现政治使命与治理实践的统一性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

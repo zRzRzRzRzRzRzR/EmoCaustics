@@ -1,0 +1,542 @@
+[
+    {
+        "sentence": "苏总！不好了，监控丢失了。有人恶意删除了监控记录，现在记录都没了！",
+        "Holder": "1",
+        "Target": "监控记录",
+        "Aspect": "监控记录的完整性",
+        "Opinion": "监控记录丢失",
+        "Sentiment": "negative",
+        "Rationale": "监控记录被恶意删除"
+    },
+    {
+        "sentence": "是你？是你找人删除了监控录像？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "监控记录删除的责任",
+        "Opinion": "怀疑3删除监控",
+        "Sentiment": "negative",
+        "Rationale": "监控记录丢失"
+    },
+    {
+        "sentence": "你好狠的心啊！快说！你找谁删除的？说！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "监控记录删除的责任",
+        "Opinion": "强烈指责3",
+        "Sentiment": "negative",
+        "Rationale": "坚信3是责任人"
+    },
+    {
+        "sentence": "松手。这样是犯法的。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的合法性",
+        "Opinion": "认为2的行为是非法的",
+        "Sentiment": "negative",
+        "Rationale": "4认为2的行为违反了法律"
+    },
+    {
+        "sentence": "你说啊！是谁？说啊！",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "4的沉默或隐瞒",
+        "Opinion": "要求4说明情况",
+        "Sentiment": "negative",
+        "Rationale": "2对4的沉默或隐瞒感到不满和急切"
+    },
+    {
+        "sentence": "苏诚，我是你老婆！你怎么能这么对我，怎么能掐我？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "2的行为",
+        "Opinion": "对2的行为感到不解和愤怒",
+        "Sentiment": "negative",
+        "Rationale": "3作为2的配偶，对2的伤害行为感到震惊和愤怒"
+    },
+    {
+        "sentence": "还有什么能证明是于曼？",
+        "Holder": "5",
+        "Target": "于曼的身份",
+        "Aspect": "证据的存在",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "当前没有明确的证据证明是于曼"
+    },
+    {
+        "sentence": "苏诚，监控丢了不打紧。你的车上是不是装了什么机器？妈记得你以前说过，好像这东西能拍照录像？",
+        "Holder": "5",
+        "Target": "苏诚的车",
+        "Aspect": "设备的安装",
+        "Opinion": "可能有记录设备",
+        "Sentiment": "neutral",
+        "Rationale": "记得苏诚车上可能有记录设备"
+    },
+    {
+        "sentence": "对啊，还有行车记录仪。这个角度，一定能拍到是谁拉的电闸！",
+        "Holder": "2",
+        "Target": "行车记录仪",
+        "Aspect": "记录功能",
+        "Opinion": "能拍到关键证据",
+        "Sentiment": "positive",
+        "Rationale": "行车记录仪能拍到拉电闸的人"
+    },
+    {
+        "sentence": "那就辛苦你取下行车记录仪交给我同事调查。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "配合调查",
+        "Opinion": "请求协助",
+        "Sentiment": "neutral",
+        "Rationale": "需要行车记录仪作为证据"
+    },
+    {
+        "sentence": "不行，不行。",
+        "Holder": "3",
+        "Target": "2的行动",
+        "Aspect": "行动的合理性",
+        "Opinion": "反对行动",
+        "Sentiment": "negative",
+        "Rationale": "担心施工大楼的电压不稳会导致安全问题"
+    },
+    {
+        "sentence": "你有什么理由阻拦我？",
+        "Holder": "2",
+        "Target": "3的阻拦",
+        "Aspect": "阻拦的合理性",
+        "Opinion": "质疑阻拦",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的行动没有问题"
+    },
+    {
+        "sentence": "苏诚你是知道的，施工大楼经常因为电压不稳跳闸，你是最清楚的。",
+        "Holder": "3",
+        "Target": "施工大楼的电压问题",
+        "Aspect": "电压稳定性",
+        "Opinion": "电压不稳定",
+        "Sentiment": "neutral",
+        "Rationale": "提到的是一个客观事实"
+    },
+    {
+        "sentence": "施工跳闸确实很正常。不过你这么急着阻拦我，是不是你心虚啊？毕竟这个大楼是我们一起巡视的，线路布局还有楼梯，你都清清楚楚。",
+        "Holder": "2",
+        "Target": "3的阻拦动机",
+        "Aspect": "阻拦的真实原因",
+        "Opinion": "怀疑3心虚",
+        "Sentiment": "negative",
+        "Rationale": "认为3的阻拦过于急切"
+    },
+    {
+        "sentence": "我没有要阻拦你，只是，只是行车记录仪上面涉及了太多我们两个谈论的公司机密，对不对？绝对不能让外人听到。",
+        "Holder": "3",
+        "Target": "行车记录仪的内容",
+        "Aspect": "机密性",
+        "Opinion": "涉及公司机密",
+        "Sentiment": "negative",
+        "Rationale": "担心行车记录仪上的公司机密被泄露"
+    },
+    {
+        "sentence": "公司机密？我一个公司的总裁，我都不着急，你急什么？",
+        "Holder": "2",
+        "Target": "公司机密",
+        "Aspect": "对待机密的态度",
+        "Opinion": "不着急",
+        "Sentiment": "negative",
+        "Rationale": "作为总裁对机密不着急，而对方却着急"
+    },
+    {
+        "sentence": "我告诉你，为了我女儿，就算我现在让苏氏集团倒闭，我也在所不惜！",
+        "Holder": "2",
+        "Target": "苏氏集团",
+        "Aspect": "集团的存亡",
+        "Opinion": "愿意放弃",
+        "Sentiment": "positive",
+        "Rationale": "对女儿的爱超过对集团的重要性"
+    },
+    {
+        "sentence": "苏诚，苏氏集团是你一手盘活的，你居然为了苏念放弃他！",
+        "Holder": "3",
+        "Target": "苏诚",
+        "Aspect": "对苏氏集团的态度",
+        "Opinion": "不应该放弃",
+        "Sentiment": "negative",
+        "Rationale": "苏诚一手盘活了苏氏集团，现在却为了女儿放弃"
+    },
+    {
+        "sentence": "你说的没错。我都想通了，在这个世界上没有任何东西比我女儿更重要。什么财富，什么权利都是身外之物。",
+        "Holder": "2",
+        "Target": "女儿",
+        "Aspect": "重要性",
+        "Opinion": "最重要",
+        "Sentiment": "positive",
+        "Rationale": "认识到女儿的重要性超过财富和权利"
+    },
+    {
+        "sentence": "我曾经忽视念念太多太多了，现在我该赎罪了。",
+        "Holder": "2",
+        "Target": "念念",
+        "Aspect": "对待方式",
+        "Opinion": "需要赎罪",
+        "Sentiment": "negative",
+        "Rationale": "曾经忽视女儿，感到内疚和自责"
+    },
+    {
+        "sentence": "苏诚，我。",
+        "Holder": "3",
+        "Target": "苏诚",
+        "Aspect": "称呼",
+        "Opinion": "呼唤苏诚",
+        "Sentiment": "neutral",
+        "Rationale": "3在呼唤苏诚"
+    },
+    {
+        "sentence": "督察同志，咱们速战速决吧，我女儿还在医院，我想赶紧忙完去陪她。",
+        "Holder": "2",
+        "Target": "督察同志",
+        "Aspect": "工作效率",
+        "Opinion": "希望快速处理",
+        "Sentiment": "neutral",
+        "Rationale": "2希望尽快处理完事情去陪女儿"
+    },
+    {
+        "sentence": "查到了。",
+        "Holder": "1",
+        "Target": "信息",
+        "Aspect": "查找结果",
+        "Opinion": "已经找到",
+        "Sentiment": "neutral",
+        "Rationale": "1完成了查找任务"
+    },
+    {
+        "sentence": "是于曼，对不对？",
+        "Holder": "2",
+        "Target": "于曼",
+        "Aspect": "身份确认",
+        "Opinion": "怀疑是于曼",
+        "Sentiment": "ambiguous",
+        "Rationale": "对事件中的责任人有疑问"
+    },
+    {
+        "sentence": "是刘大强。",
+        "Holder": "1",
+        "Target": "刘大强",
+        "Aspect": "身份确认",
+        "Opinion": "确认是刘大强",
+        "Sentiment": "neutral",
+        "Rationale": "直接陈述事实"
+    },
+    {
+        "sentence": "什么？是刘大强？刘大强？刘大强怎么会故意关电闸，阻止我们救念念呢？",
+        "Holder": "2",
+        "Target": "刘大强",
+        "Aspect": "行为动机",
+        "Opinion": "不理解刘大强的行为",
+        "Sentiment": "negative",
+        "Rationale": "刘大强的行为出乎意料且阻碍了救援"
+    },
+    {
+        "sentence": "于曼，是你让刘大强关的电闸，对不对？",
+        "Holder": "5",
+        "Target": "于曼",
+        "Aspect": "行为指认",
+        "Opinion": "怀疑于曼指使刘大强",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼有嫌疑"
+    },
+    {
+        "sentence": "从故意开错路开始，你就处处阻拦，巴不得念念去死！",
+        "Holder": "5",
+        "Target": "于曼",
+        "Aspect": "行为动机",
+        "Opinion": "认为于曼有意阻挠",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼的一系列行为都是故意的"
+    },
+    {
+        "sentence": "妈，监控你也看到了，它跟我有什么关系啊？明明是刘工头干的。",
+        "Holder": "3",
+        "Target": "监控事件",
+        "Aspect": "事件责任",
+        "Opinion": "与自己无关",
+        "Sentiment": "negative",
+        "Rationale": "被误认为与事件有关"
+    },
+    {
+        "sentence": "呸！这个贱人倒是怪会撇清干系的，把帽子扣我头上了？",
+        "Holder": "6",
+        "Target": "刘工头",
+        "Aspect": "责任推卸",
+        "Opinion": "刘工头推卸责任",
+        "Sentiment": "negative",
+        "Rationale": "刘工头把责任推到自己头上"
+    },
+    {
+        "sentence": "我估计他是怕你的上楼出了什么意外，自己担责任，所以才把电闸给断了。",
+        "Holder": "3",
+        "Target": "刘工头",
+        "Aspect": "断电原因",
+        "Opinion": "刘工头为避免责任断电",
+        "Sentiment": "neutral",
+        "Rationale": "推测刘工头的行为动机"
+    },
+    {
+        "sentence": "说什么呢，怎么听不到呢？",
+        "Holder": "6",
+        "Target": "3的解释",
+        "Aspect": "解释的可听性",
+        "Opinion": "听不到解释",
+        "Sentiment": "negative",
+        "Rationale": "听不到对方的解释"
+    },
+    {
+        "sentence": "说！为什么关电闸？你是不是想害死苏念？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "关电闸动机",
+        "Opinion": "怀疑3有害苏念的意图",
+        "Sentiment": "negative",
+        "Rationale": "怀疑3有不良动机"
+    },
+    {
+        "sentence": "督察同志，您明鉴呐，我们这儿正在施工，他们当时这么些人都要上楼找孩子，那万一哪个机器伤了人，那还不都是我这个工头的责任吗？我这也是出于安全考虑啊。",
+        "Holder": "6",
+        "Target": "工头责任",
+        "Aspect": "施工安全",
+        "Opinion": "担心责任和安全",
+        "Sentiment": "neutral",
+        "Rationale": "担心施工过程中发生意外导致自己承担责任"
+    },
+    {
+        "sentence": "你在狡辩！你跟于曼就是一伙的！",
+        "Holder": "5",
+        "Target": "6的行为",
+        "Aspect": "诚信和动机",
+        "Opinion": "认为6在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为6在故意隐瞒事实并与于曼串通"
+    },
+    {
+        "sentence": "你一直在配合于曼，故意拖延抢救念念的时间！",
+        "Holder": "5",
+        "Target": "6的行为",
+        "Aspect": "救援时间",
+        "Opinion": "认为6故意拖延",
+        "Sentiment": "negative",
+        "Rationale": "认为6故意拖延救援时间，导致念念处于危险中"
+    },
+    {
+        "sentence": "老太太，我就是个底层工头，何德何能，会认识苏总太太呀？",
+        "Holder": "6",
+        "Target": "自己的身份",
+        "Aspect": "社会地位",
+        "Opinion": "否认认识于曼",
+        "Sentiment": "neutral",
+        "Rationale": "自己只是底层工头，确实不认识苏总太太"
+    },
+    {
+        "sentence": "妈，他说的对呀，我怎么可能会认识我老公手下的工头呢？妈，饭可以乱吃，话不能乱说，您是不是老糊涂了？",
+        "Holder": "3",
+        "Target": "5的言论",
+        "Aspect": "言论合理性",
+        "Opinion": "认为5的言论不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为母亲的说法没有根据且不理智"
+    },
+    {
+        "sentence": "我想起来了，你手机的通讯录里有一个叫大强的，难不成是刘大强？",
+        "Holder": "2",
+        "Target": "通讯录中的大强",
+        "Aspect": "身份确认",
+        "Opinion": "怀疑是大强",
+        "Sentiment": "ambiguous",
+        "Rationale": "想起了通讯录里有大强这个名字，但不确定是否是刘大强"
+    },
+    {
+        "sentence": "不是，老公你是不是记错了，哪有什么大强？没有的。",
+        "Holder": "3",
+        "Target": "通讯录中的大强",
+        "Aspect": "存在与否",
+        "Opinion": "否认存在",
+        "Sentiment": "negative",
+        "Rationale": "认为对方记错了，通讯录里没有大强"
+    },
+    {
+        "sentence": "是与不是，让我查一下就知道了。",
+        "Holder": "2",
+        "Target": "通讯录中的大强",
+        "Aspect": "确认方法",
+        "Opinion": "需要查证",
+        "Sentiment": "neutral",
+        "Rationale": "想要通过查证来确认通讯录里是否有大强"
+    },
+    {
+        "sentence": "怎么会搜索不到？",
+        "Holder": "2",
+        "Target": "通讯录搜索结果",
+        "Aspect": "搜索结果",
+        "Opinion": "感到意外",
+        "Sentiment": "negative",
+        "Rationale": "预期中应该能搜到大强，但实际搜不到"
+    },
+    {
+        "sentence": "看吧，我就说了，你记错了，根本就没有。",
+        "Holder": "3",
+        "Target": "2的记忆",
+        "Aspect": "记忆的准确性",
+        "Opinion": "2记错了",
+        "Sentiment": "positive",
+        "Rationale": "3认为自己是对的并且2记错了"
+    },
+    {
+        "sentence": "难不成我真的记错了？",
+        "Holder": "2",
+        "Target": "自己的记忆",
+        "Aspect": "记忆的准确性",
+        "Opinion": "可能记错了",
+        "Sentiment": "doubt",
+        "Rationale": "2被3质疑记错了"
+    },
+    {
+        "sentence": "苏先生，如果你怀疑于曼和刘大强，我可以让我们的技术人员去调查他们的通话记录，两个小时后就能出结果。",
+        "Holder": "4",
+        "Target": "于曼和刘大强的关系",
+        "Aspect": "通话记录的调查",
+        "Opinion": "可以调查",
+        "Sentiment": "neutral",
+        "Rationale": "4提出可以通过技术手段调查"
+    },
+    {
+        "sentence": "好，麻烦你了。",
+        "Holder": "2",
+        "Target": "4的帮助",
+        "Aspect": "感谢的态度",
+        "Opinion": "感谢",
+        "Sentiment": "positive",
+        "Rationale": "4愿意帮助调查"
+    },
+    {
+        "sentence": "不用等两个小时，现在就能知道他们俩到底有没有关系！",
+        "Holder": "5",
+        "Target": "于曼和刘大强的关系",
+        "Aspect": "关系的确认时间",
+        "Opinion": "立即知道",
+        "Sentiment": "positive",
+        "Rationale": "5认为可以立即确认关系"
+    },
+    {
+        "sentence": "妈，该怎么知道啊？",
+        "Holder": "2",
+        "Target": "如何得知信息",
+        "Aspect": "获取信息的方法",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "不知道如何获取信息"
+    },
+    {
+        "sentence": "你用于曼的手机给刘大强的电话号码打过去，看看他们有没有通话记录不就成了？",
+        "Holder": "5",
+        "Target": "获取信息的方法",
+        "Aspect": "具体操作步骤",
+        "Opinion": "提供解决方案",
+        "Sentiment": "neutral",
+        "Rationale": "提供了一个具体的操作步骤"
+    },
+    {
+        "sentence": "妈，还得是你呀。",
+        "Holder": "2",
+        "Target": "5的建议",
+        "Aspect": "建议的有效性",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "妈妈的建议很有帮助"
+    },
+    {
+        "sentence": "于曼，谎言终将会不攻自破。",
+        "Holder": "2",
+        "Target": "于曼的谎言",
+        "Aspect": "谎言的真实性",
+        "Opinion": "不相信",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼的谎言最终会被揭穿"
+    },
+    {
+        "sentence": "AAA批发建材王哥，于曼，你还真会起备注啊。",
+        "Holder": "2",
+        "Target": "于曼的备注",
+        "Aspect": "备注的合理性",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼的备注方式不合适或有隐瞒"
+    },
+    {
+        "sentence": "对了，刘大强，你什么时候改姓王了，我怎么不知道？王大强。",
+        "Holder": "2",
+        "Target": "刘大强",
+        "Aspect": "姓氏改变",
+        "Opinion": "不知道改姓",
+        "Sentiment": "neutral",
+        "Rationale": "对刘大强改姓一事感到好奇"
+    },
+    {
+        "sentence": "于曼，你和刘大强的确有联系，刚才为什么说谎？",
+        "Holder": "4",
+        "Target": "于曼",
+        "Aspect": "与刘大强的联系",
+        "Opinion": "存在联系且说谎",
+        "Sentiment": "negative",
+        "Rationale": "发现于曼与刘大强有联系且之前说谎"
+    },
+    {
+        "sentence": "督察同志，这，这都是误会，我只是被注册错了而已。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "注册错误",
+        "Opinion": "解释为误会",
+        "Sentiment": "neutral",
+        "Rationale": "想要澄清误会"
+    },
+    {
+        "sentence": "于曼！我希望你说实话。",
+        "Holder": "4",
+        "Target": "于曼",
+        "Aspect": "诚实",
+        "Opinion": "要求说实话",
+        "Sentiment": "negative",
+        "Rationale": "对 于曼 的不诚实感到不满"
+    },
+    {
+        "sentence": "督察同志，我来替她说明。因为他和刘大强是一伙的！两个人合起伙来，拖延我女儿的救援时间，还扔掉了我女儿的断臂箱，岂图谋害我女儿。",
+        "Holder": "2",
+        "Target": "于曼和刘大强",
+        "Aspect": "合谋行为",
+        "Opinion": "指责合谋谋害",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼和刘大强合谋拖延救援并扔掉断臂箱"
+    },
+    {
+        "sentence": "哎，督察同志，事情已很明了了，请你以谋害我女儿的罪名，把这两个人带到调查！",
+        "Holder": "2",
+        "Target": "3和4",
+        "Aspect": "罪责",
+        "Opinion": "认为有罪",
+        "Sentiment": "negative",
+        "Rationale": "认为3和4谋害了自己的女儿"
+    },
+    {
+        "sentence": "不，不要。",
+        "Holder": "3",
+        "Target": "被带走调查",
+        "Aspect": "自身处境",
+        "Opinion": "反对被带走",
+        "Sentiment": "negative",
+        "Rationale": "不想被带走调查"
+    },
+    {
+        "sentence": "好，既然你们两个都不承认自己的罪责，于曼、刘大强就麻烦你们跟我们走一趟接受调查吧。",
+        "Holder": "4",
+        "Target": "3和于曼、刘大强",
+        "Aspect": "罪责承认",
+        "Opinion": "需要接受调查",
+        "Sentiment": "neutral",
+        "Rationale": "3和于曼、刘大强不承认罪责"
+    }
+]

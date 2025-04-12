@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "交流中的打断与尊重争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责2不尊重他人说话权利并频繁打断",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "对话参与的必要性调整",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出停止对话以缓和冲突",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "被指责后的情绪反弹",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因1的指责而放弃发言",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "主动提出分享个人故事",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳素质问题的定性指责",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "素质问题定性的争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "否认行为涉及素质问题并反对重复指控",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

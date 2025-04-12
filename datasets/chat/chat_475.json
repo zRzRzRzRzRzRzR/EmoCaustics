@@ -1,0 +1,497 @@
+[
+    {
+        "sentence": "刚才我以为是我老爸回来了",
+        "Holder": "2",
+        "Target": "老爸",
+        "Aspect": "是否在家",
+        "Opinion": "误以为在家",
+        "Sentiment": "neutral",
+        "Rationale": "听到声音误以为是老爸回来"
+    },
+    {
+        "sentence": "要我说没准你爸已经在公司喝多了，呼呼大睡",
+        "Holder": "1",
+        "Target": "2的老爸",
+        "Aspect": "当前状态",
+        "Opinion": "可能在公司喝多睡觉",
+        "Sentiment": "neutral",
+        "Rationale": "推测2的老爸可能在公司喝多睡觉"
+    },
+    {
+        "sentence": "诶，我怎么没想到呢，我应该去公司找我爸呀哎。我赶紧去那，收拾完帮我锁门，谢谢。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "想法的合理性",
+        "Opinion": "应该去公司找老爸",
+        "Sentiment": "positive",
+        "Rationale": "意识到应该去公司找老爸"
+    },
+    {
+        "sentence": "别忘给人锁门，谢谢",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "锁门的责任",
+        "Opinion": "提醒锁门",
+        "Sentiment": "neutral",
+        "Rationale": "担心2忘记锁门"
+    },
+    {
+        "sentence": "你不是说我来的不是时候吗？",
+        "Holder": "1",
+        "Target": "8的评价",
+        "Aspect": "来访时间",
+        "Opinion": "来的不是时候",
+        "Sentiment": "negative",
+        "Rationale": "8之前说过1来的不是时候"
+    },
+    {
+        "sentence": "我明儿再来",
+        "Holder": "1",
+        "Target": "自己的来访时间",
+        "Aspect": "时间安排",
+        "Opinion": "改天再来",
+        "Sentiment": "neutral",
+        "Rationale": "1觉得现在来的不是时候"
+    },
+    {
+        "sentence": "跟我一块收拾，快来",
+        "Holder": "8",
+        "Target": "1的行动",
+        "Aspect": "参与收拾",
+        "Opinion": "要求1参与",
+        "Sentiment": "positive",
+        "Rationale": "8希望1能帮忙一起收拾"
+    },
+    {
+        "sentence": "扫地呀。快点啊",
+        "Holder": "1",
+        "Target": "8的行动",
+        "Aspect": "打扫速度",
+        "Opinion": "催促",
+        "Sentiment": "neutral",
+        "Rationale": "1希望8能快点打扫"
+    },
+    {
+        "sentence": "来的真不是时候。",
+        "Holder": "1",
+        "Target": "自己的来访时间",
+        "Aspect": "时机选择",
+        "Opinion": "时机不佳",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己来的时机不合适，影响了整体进度"
+    },
+    {
+        "sentence": "刘总我们该下班啦",
+        "Holder": "5",
+        "Target": "下班时间",
+        "Aspect": "下班时间的合理性",
+        "Opinion": "应该下班",
+        "Sentiment": "neutral",
+        "Rationale": "到了下班时间"
+    },
+    {
+        "sentence": "下班了？",
+        "Holder": "4",
+        "Target": "下班时间",
+        "Aspect": "下班时间的确认",
+        "Opinion": "询问下班时间",
+        "Sentiment": "neutral",
+        "Rationale": "听到别人提到下班"
+    },
+    {
+        "sentence": "那我不管，我等你们戴总回来。",
+        "Holder": "4",
+        "Target": "等待戴总",
+        "Aspect": "等待的决策",
+        "Opinion": "决定等待",
+        "Sentiment": "neutral",
+        "Rationale": "需要等戴总回来"
+    },
+    {
+        "sentence": "那我也不知道我们戴总什么时候回来呀？",
+        "Holder": "5",
+        "Target": "戴总的回来时间",
+        "Aspect": "对回来时间的不确定性",
+        "Opinion": "不知道回来时间",
+        "Sentiment": "neutral",
+        "Rationale": "确实不知道戴总什么时候回来"
+    },
+    {
+        "sentence": "大老板治家够严的，连手底下的人嘴都够硬的。",
+        "Holder": "4",
+        "Target": "大老板的管理方式",
+        "Aspect": "管理严格性",
+        "Opinion": "管理严格",
+        "Sentiment": "negative",
+        "Rationale": "觉得大老板管理严格，导致手下人说话也很强硬"
+    },
+    {
+        "sentence": "瞧您说的，那要不您再喝点水，再等等。",
+        "Holder": "5",
+        "Target": "4的等待",
+        "Aspect": "等待的耐心",
+        "Opinion": "建议再等待",
+        "Sentiment": "neutral",
+        "Rationale": "5希望4能够冷静下来再等待"
+    },
+    {
+        "sentence": "什么？我还等？我等到什么时候啊？我已经等他两天了。我告诉你，他要是再不回来，你看什么呀？我逮什么我抄什么，你信不信？",
+        "Holder": "4",
+        "Target": "等待的时间",
+        "Aspect": "等待的合理性",
+        "Opinion": "无法再等待",
+        "Sentiment": "negative",
+        "Rationale": "已经等待了两天且感到不耐烦"
+    },
+    {
+        "sentence": "张秘书，我爸呢？",
+        "Holder": "2",
+        "Target": "戴总",
+        "Aspect": "戴总的位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "2关心戴总的位置"
+    },
+    {
+        "sentence": "戴总都已经两天没回来了，我也不知道他去哪了",
+        "Holder": "5",
+        "Target": "戴总",
+        "Aspect": "戴总的行踪",
+        "Opinion": "不知道行踪",
+        "Sentiment": "neutral",
+        "Rationale": "5确实不知道戴总的行踪"
+    },
+    {
+        "sentence": "我没有看错的话，你就是戴总的女儿吧？",
+        "Holder": "4",
+        "Target": "2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "4想要确认2的身份"
+    },
+    {
+        "sentence": "对，你谁啊？",
+        "Holder": "2",
+        "Target": "4的身份",
+        "Aspect": "身份确认",
+        "Opinion": "质疑身份",
+        "Sentiment": "negative",
+        "Rationale": "对对方的身份感到疑惑和不信任"
+    },
+    {
+        "sentence": "我是谁啊？",
+        "Holder": "4",
+        "Target": "自己的身份",
+        "Aspect": "身份说明",
+        "Opinion": "反问身份",
+        "Sentiment": "neutral",
+        "Rationale": "对方质疑自己的身份"
+    },
+    {
+        "sentence": "我是他孙子，我求求你大小姐，赶快让你爸把钱还给我吧，要不然我实在没法活了，要不然我给你跪下行不行？",
+        "Holder": "4",
+        "Target": "2的家人",
+        "Aspect": "债务偿还",
+        "Opinion": "迫切要求还钱",
+        "Sentiment": "negative",
+        "Rationale": "急需钱款来维持生活"
+    },
+    {
+        "sentence": "我什么都不知道",
+        "Holder": "2",
+        "Target": "债务问题",
+        "Aspect": "知情程度",
+        "Opinion": "否认知情",
+        "Sentiment": "neutral",
+        "Rationale": "确实不了解情况"
+    },
+    {
+        "sentence": "我给你跪",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "恳求方式",
+        "Opinion": "极端恳求",
+        "Sentiment": "negative",
+        "Rationale": "极度需要钱款"
+    },
+    {
+        "sentence": "我不管，父债子还。",
+        "Holder": "4",
+        "Target": "债务偿还责任",
+        "Aspect": "债务偿还的合理性",
+        "Opinion": "坚持父债子还",
+        "Sentiment": "negative",
+        "Rationale": "认为债务应该由子女承担"
+    },
+    {
+        "sentence": "张秘书，你把钱给他呀。",
+        "Holder": "2",
+        "Target": "张秘书",
+        "Aspect": "债务偿还的执行",
+        "Opinion": "要求张秘书还钱",
+        "Sentiment": "neutral",
+        "Rationale": "希望尽快解决债务问题"
+    },
+    {
+        "sentence": "嗨，这戴总都没回来，我这哪有钱呀。",
+        "Holder": "5",
+        "Target": "戴总",
+        "Aspect": "资金的可获得性",
+        "Opinion": "没有钱可还",
+        "Sentiment": "negative",
+        "Rationale": "戴总未归导致无法获取资金"
+    },
+    {
+        "sentence": "你们俩蒙我是不是？",
+        "Holder": "4",
+        "Target": "2和5",
+        "Aspect": "诚信问题",
+        "Opinion": "怀疑被欺骗",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方可能在隐瞒事实"
+    },
+    {
+        "sentence": "我说刘总，您看我们公司这一直也都没欠过您什么钱，要不您再宽限一天，我保证给你把戴总找到，成吗？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "债务宽限的请求",
+        "Opinion": "请求宽限时间",
+        "Sentiment": "neutral",
+        "Rationale": "希望争取时间解决问题"
+    },
+    {
+        "sentence": "你相信我",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "可信度",
+        "Opinion": "希望被信任",
+        "Sentiment": "neutral",
+        "Rationale": "5希望4相信自己"
+    },
+    {
+        "sentence": "反正跑来和尚跑不了庙，我明天再来，我看你们明天怎么说。",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "承诺的可靠性",
+        "Opinion": "怀疑5的承诺",
+        "Sentiment": "negative",
+        "Rationale": "4认为5的承诺不可靠"
+    },
+    {
+        "sentence": "哈哈，您慢走。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "礼貌",
+        "Opinion": "礼貌地送别",
+        "Sentiment": "positive",
+        "Rationale": "5想以礼貌的方式结束对话"
+    },
+    {
+        "sentence": "张秘书你跟我实话实说，我爸这公司到底怎么了？是是是，不是要倒闭了？",
+        "Holder": "2",
+        "Target": "公司状况",
+        "Aspect": "公司的经营状况",
+        "Opinion": "担心公司倒闭",
+        "Sentiment": "negative",
+        "Rationale": "2担心父亲的公司经营状况不佳"
+    },
+    {
+        "sentence": "唉呦，就这两天都来了 4 个要账的了。唉，你爸要是再不回来，这公司就悬喽。",
+        "Holder": "5",
+        "Target": "公司状况",
+        "Aspect": "公司的财务状况",
+        "Opinion": "公司财务紧张",
+        "Sentiment": "negative",
+        "Rationale": "5知道公司财务状况不佳"
+    },
+    {
+        "sentence": "你说的是真的？",
+        "Holder": "8",
+        "Target": "6的说法",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "8对6所描述的情况感到难以置信"
+    },
+    {
+        "sentence": "这老戴昨天还风风火火，还生意这样那样，这一夜之间就破产啦。",
+        "Holder": "6",
+        "Target": "老戴",
+        "Aspect": "经济状况",
+        "Opinion": "突然破产",
+        "Sentiment": "negative",
+        "Rationale": "老戴的经济状况在一夜之间发生了巨大的负面变化"
+    },
+    {
+        "sentence": "不会吧？夏东海，不会吧？",
+        "Holder": "6",
+        "Target": "老戴破产的消息",
+        "Aspect": "可能性",
+        "Opinion": "难以置信",
+        "Sentiment": "doubt",
+        "Rationale": "6对老戴突然破产的消息感到难以接受"
+    },
+    {
+        "sentence": "这种事儿真不好说，哈哈哈。",
+        "Holder": "7",
+        "Target": "老戴破产的消息",
+        "Aspect": "确定性",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "7认为这种事情难以预测和确定"
+    },
+    {
+        "sentence": "哎，你怎么还不哭啊？哎，要是我遇到这种事，我早哭的死去活来了",
+        "Holder": "1",
+        "Target": "6的反应",
+        "Aspect": "情绪表现",
+        "Opinion": "不够悲伤",
+        "Sentiment": "negative",
+        "Rationale": "1认为在遇到如此大的打击时应该表现出更强烈的悲伤情绪"
+    },
+    {
+        "sentence": "闭嘴，哪都有你说话的份儿。",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "说话的时机和场合",
+        "Opinion": "不应该随意插话",
+        "Sentiment": "negative",
+        "Rationale": "1在不合适的时机插话"
+    },
+    {
+        "sentence": "你做作业了没有？回屋做作业去。",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "作业完成情况",
+        "Opinion": "应该先完成作业",
+        "Sentiment": "negative",
+        "Rationale": "1没有按时完成作业"
+    },
+    {
+        "sentence": "我这不是想帮他吗，哭出来就好受多了。",
+        "Holder": "1",
+        "Target": "帮助他人",
+        "Aspect": "帮助的方式",
+        "Opinion": "认为哭出来有助于缓解情绪",
+        "Sentiment": "positive",
+        "Rationale": "1认为通过哭泣可以缓解情绪"
+    },
+    {
+        "sentence": "你哭出来才好的多呢。",
+        "Holder": "7",
+        "Target": "1的情绪处理",
+        "Aspect": "情绪释放方式",
+        "Opinion": "认为1应该自己先处理情绪",
+        "Sentiment": "negative",
+        "Rationale": "7认为1自己也需要情绪释放"
+    },
+    {
+        "sentence": "回屋哭去。",
+        "Holder": "7",
+        "Target": "1的情绪处理",
+        "Aspect": "情绪释放的地点",
+        "Opinion": "认为1应该在私下处理情绪",
+        "Sentiment": "negative",
+        "Rationale": "7觉得1在公共场合哭泣不合适"
+    },
+    {
+        "sentence": "明明姐没事的。",
+        "Holder": "8",
+        "Target": "明明姐的情况",
+        "Aspect": "情况的严重性",
+        "Opinion": "情况不严重",
+        "Sentiment": "positive",
+        "Rationale": "认为明明姐的情况并不严重"
+    },
+    {
+        "sentence": "明明你别乱想啊。嗯，现在的当务之急是赶紧找着你爸爸，他一回来事情不就知道到底怎么回事了吗？也许根本没你想的那么严重。",
+        "Holder": "7",
+        "Target": "明明姐的想法",
+        "Aspect": "想法的合理性",
+        "Opinion": "不要乱想",
+        "Sentiment": "positive",
+        "Rationale": "认为找到爸爸后事情会明朗"
+    },
+    {
+        "sentence": "没错，夏叔叔说的对，咱现在想也白想猜，纯粹就是瞎猜。",
+        "Holder": "6",
+        "Target": "夏叔叔的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "同意夏叔叔的观点",
+        "Sentiment": "positive",
+        "Rationale": "认为现在猜测没有意义"
+    },
+    {
+        "sentence": "你也别哭了，咱就退一万步说，即便你爸有事，也没有什么，叔叔阿姨一定会帮你的。",
+        "Holder": "6",
+        "Target": "明明姐的情绪",
+        "Aspect": "情绪的安抚",
+        "Opinion": "不要哭泣",
+        "Sentiment": "positive",
+        "Rationale": "认为即使有问题也会有家人帮助"
+    },
+    {
+        "sentence": "就是，我们家就是你家嘛",
+        "Holder": "7",
+        "Target": "家庭的支持",
+        "Aspect": "支持的力度",
+        "Opinion": "全力支持",
+        "Sentiment": "positive",
+        "Rationale": "强调家庭之间的紧密关系"
+    },
+    {
+        "sentence": "明明姐来，进屋坐，对了，你爸那有消息了吗？",
+        "Holder": "8",
+        "Target": "明明姐",
+        "Aspect": "接待和询问",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "8在接待明明姐并询问她父亲的情况"
+    },
+    {
+        "sentence": "那个小雪有个事儿。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "事情",
+        "Opinion": "有事",
+        "Sentiment": "neutral",
+        "Rationale": "2提到小雪有事情，但没有具体说明"
+    },
+    {
+        "sentence": "什么事？",
+        "Holder": "8",
+        "Target": "小雪的事情",
+        "Aspect": "询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "8对小雪的事情感到好奇"
+    },
+    {
+        "sentence": "我那个MP3",
+        "Holder": "3",
+        "Target": "MP3",
+        "Aspect": "提及",
+        "Opinion": "提及",
+        "Sentiment": "neutral",
+        "Rationale": "3只是提及自己的MP3，没有表达具体情感"
+    },
+    {
+        "sentence": "这都怪我，我把那事都忘的死了，我现在给你拿，在流星那屋呢。",
+        "Holder": "8",
+        "Target": "忘记事情",
+        "Aspect": "责任和补救",
+        "Opinion": "自责和补救",
+        "Sentiment": "negative",
+        "Rationale": "8意识到自己忘记事情并感到自责"
+    },
+    {
+        "sentence": "没听说过给别人东西还要回去的",
+        "Holder": "1",
+        "Target": "刘星的行为",
+        "Aspect": "物品归还的合理性",
+        "Opinion": "反对要回已给的东西",
+        "Sentiment": "negative",
+        "Rationale": "认为给别人东西后再要回是不合理的"
+    }
+]

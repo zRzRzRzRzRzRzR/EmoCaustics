@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "转送礼物引发代沟争议",
+        "emotions": [
+          {"state": "positive", "reason": "成功通过礼物拉近与3的关系", "source_id": "3"},
+          {"state": "negative", "reason": "与4争论代沟问题时被否定教育方式", "source_id": "4"},
+          {"state": "neutral", "reason": "解释转送礼物的实际动机", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "探查孩子秘密计划",
+        "emotions": [
+          {"state": "negative", "reason": "担忧刘星与鼠标的异常行为", "source_id": "3,2"},
+          {"state": "neutral", "reason": "制定间接获取情报策略", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "父母离婚猜测风波",
+        "emotions": [
+          {"state": "negative", "reason": "被3质疑影响其父母关系", "source_id": "3"},
+          {"state": "neutral", "reason": "基于自身经验进行推测", "source_id": "3"},
+          {"state": "negative", "reason": "因不被信任产生挫败感", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "朋友信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "被怀疑存在报复动机", "source_id": "3"},
+          {"state": "neutral", "reason": "保持沟通尝试化解误会", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "接收礼物的多重影响",
+        "emotions": [
+          {"state": "positive", "reason": "获得意外礼物的惊喜", "source_id": "1"},
+          {"state": "negative", "reason": "发现礼物背后的监控意图", "source_id": "1"},
+          {"state": "negative", "reason": "担忧父母关系真实性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "代沟本质探讨",
+        "emotions": [
+          {"state": "negative", "reason": "批评母亲们的教育方式", "source_id": "1"},
+          {"state": "negative", "reason": "认定存在不可调和代沟", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "青少年行为观察",
+        "emotions": [
+          {"state": "neutral", "reason": "发现刘星异常情绪", "source_id": "2"},
+          {"state": "neutral", "reason": "追踪孩子秘密计划", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

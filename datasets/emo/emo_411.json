@@ -1,0 +1,52 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭经济压力与集资计划讨论",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑他人花钱意愿", "source_id": "2"},
+          {"state": "positive", "reason": "获得额外资金支持", "source_id": "2,4"},
+          {"state": "negative", "reason": "发现集资计划漏洞", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "空间使用与隐私冲突",
+        "emotions": [
+          {"state": "positive", "reason": "主动维护空间隐私", "source_id": "3"},
+          {"state": "negative", "reason": "被持续质疑空间使用方式", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "社交互动与信任考验",
+        "emotions": [
+          {"state": "neutral", "reason": "应对长辈的关心询问", "source_id": "3"},
+          {"state": "negative", "reason": "遭受朋友信任质疑", "source_id": "1"},
+          {"state": "positive", "reason": "获得长辈特别关照", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "子女教育观察与干预",
+        "emotions": [
+          {"state": "negative", "reason": "发现子女行为问题", "source_id": "1"},
+          {"state": "positive", "reason": "实施教育引导措施", "source_id": "1,2"},
+          {"state": "neutral", "reason": "保持教育观察姿态", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "邻里关系维护",
+        "emotions": [
+          {"state": "positive", "reason": "主动示好赠送食物", "source_id": "2"},
+          {"state": "neutral", "reason": "处理空间使用分歧", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

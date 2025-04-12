@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "太子身份与品德的质疑",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对太子身份合法性的直接质疑", "source_id": "2"},
+          {"state": "neutral", "reason": "承认太子处理朝政与品德的表面认可", "source_id": "2"},
+          {"state": "negative", "reason": "担忧未来成为昏君的潜在可能", "source_id": "2"},
+          {"state": "negative", "reason": "对谋反行为的愤怒质问", "source_id": "2"},
+          {"state": "ambiguous", "reason": "对谋反动机的震惊反应", "source_id": "2"},
+          {"state": "negative", "reason": "涉及母亲话题的激烈情绪爆发", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "魏王偏袒争议",
+        "emotions": [
+          {"state": "positive", "reason": "承认魏王处理朝政的能力", "source_id": "2"},
+          {"state": "negative", "reason": "对偏袒魏王决策的持续性不满", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "太子身份自证",
+        "emotions": [
+          {"state": "positive", "reason": "强调18年执政正当性", "source_id": "1"},
+          {"state": "positive", "reason": "声明清廉执政的自我肯定", "source_id": "1"},
+          {"state": "negative", "reason": "对质疑动机的强烈反弹", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭矛盾激化",
+        "emotions": [
+          {"state": "negative", "reason": "母亲相关话题的情感联结与控诉", "source_id": "1"},
+          {"state": "negative", "reason": "杀害重要他人的终极愤怒", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "权力斗争对抗",
+        "emotions": [
+          {"state": "negative", "reason": "武德殿事件的政治敏感性认知", "source_id": "1"},
+          {"state": "negative", "reason": "谋反自救的合理化声明", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

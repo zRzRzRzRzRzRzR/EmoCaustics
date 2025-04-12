@@ -1,0 +1,1208 @@
+[
+    {
+        "sentence": "你就是高珊珊，究竟我哪里得罪你了？你放着自己的店不管，处处跟我们为纳斯作对，怎么不敢转过身来跟我说话？没脸见人呢？",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为动机",
+        "Opinion": "认为对方与自己为敌",
+        "Sentiment": "negative",
+        "Rationale": "认为高珊珊故意与自己为敌且不敢正面回应"
+    },
+    {
+        "sentence": "你认识我吗？我叫高珊珊",
+        "Holder": "2",
+        "Target": "说话人 1",
+        "Aspect": "身份确认",
+        "Opinion": "确认自己身份",
+        "Sentiment": "neutral",
+        "Rationale": "对方认错人"
+    },
+    {
+        "sentence": "不可能，你是林品如，我找你找了好久，我没想到会在这里见到你。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "身份认定",
+        "Opinion": "认定对方是林品如",
+        "Sentiment": "positive",
+        "Rationale": "终于找到了认为是林品如的人"
+    },
+    {
+        "sentence": "林品如，你不会不认识我的。",
+        "Holder": "1",
+        "Target": "林品如",
+        "Aspect": "相互认识",
+        "Opinion": "认为对方应该认识自己",
+        "Sentiment": "positive",
+        "Rationale": "自信对方应该认识自己"
+    },
+    {
+        "sentence": "你干什么？你是什么意思啊？你认识我吗？",
+        "Holder": "2",
+        "Target": "说话人 1",
+        "Aspect": "行为意图",
+        "Opinion": "质疑对方的行为",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己感到困惑和不解"
+    },
+    {
+        "sentence": "怎么会有个痣呢？你特地点了痣来假扮高珊珊。你为什么要点这个假扮？高珊珊呢？你的为什么？为什么胎记没有了？为什么你故意去掉了？是不是？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "假扮高珊珊的行为",
+        "Opinion": "质疑假扮",
+        "Sentiment": "negative",
+        "Rationale": "发现对方点了痣去掉胎记假扮高珊珊"
+    },
+    {
+        "sentence": "你故意去掉胎记，假扮高珊珊，你为什么要这么做呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "假扮高珊珊的行为",
+        "Opinion": "质疑动机",
+        "Sentiment": "negative",
+        "Rationale": "对方故意去掉胎记假扮高珊珊"
+    },
+    {
+        "sentence": "你再这么无理取闹，我要报警呢。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "认为1无理取闹",
+        "Sentiment": "negative",
+        "Rationale": "1不断质疑和纠缠"
+    },
+    {
+        "sentence": "你叫警察来，我跟他说，让他查清楚你到底是林品如还是高珊珊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "2的身份",
+        "Opinion": "要求查清身份",
+        "Sentiment": "negative",
+        "Rationale": "对2的身份产生怀疑"
+    },
+    {
+        "sentence": "吵什么吵什么。Jennifer，你在这闹什么？这里是 doctor Queen，不是维纳斯，你要在撒野的话，我叫警卫赶你出去。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "认为1在闹事",
+        "Sentiment": "negative",
+        "Rationale": "1在公共场所大声争吵"
+    },
+    {
+        "sentence": "Jennifer？妈，他就是维纳斯的 Jennifer",
+        "Holder": "2",
+        "Target": "Jennifer",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认Jennifer的身份"
+    },
+    {
+        "sentence": "没错。",
+        "Holder": "3",
+        "Target": "Jennifer",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "3在确认Jennifer的身份"
+    },
+    {
+        "sentence": "哼，不会吧，我听说杰内夫小姐是海归派中最有实力的人，怎么会像个泼妇一样跑到我们这来胡闹呢？",
+        "Holder": "2",
+        "Target": "杰内夫小姐",
+        "Aspect": "行为表现",
+        "Opinion": "行为不当",
+        "Sentiment": "negative",
+        "Rationale": "2认为杰内夫小姐的行为不符合其身份"
+    },
+    {
+        "sentence": "这是怎么回事？你跑到这闹什么？",
+        "Holder": "3",
+        "Target": "杰内夫小姐",
+        "Aspect": "行为动机",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "3对杰内夫小姐的行为感到困惑和不解"
+    },
+    {
+        "sentence": "高董事长，是你女儿不好好经营你们的公司，专门跑来跟维纳斯作对，还不断散播谣言，她这么做什么意思啊？",
+        "Holder": "1",
+        "Target": "高董事长的女儿",
+        "Aspect": "行为动机",
+        "Opinion": "行为不当",
+        "Sentiment": "negative",
+        "Rationale": "1认为高董事长的女儿的行为对维纳斯不利"
+    },
+    {
+        "sentence": "大家都是做生意上难免会有竞争，我相信珊珊绝对不会是针对你，请你不要误会。",
+        "Holder": "3",
+        "Target": "珊珊的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "相信珊珊不是针对",
+        "Sentiment": "neutral",
+        "Rationale": "认为生意上的竞争是正常的"
+    },
+    {
+        "sentence": "高董事长。我没有误会，虽然我们是同行，都是竞争对手，可是也没有必要在外面散布谣言来诋毁我们维纳斯吧。",
+        "Holder": "1",
+        "Target": "对方的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为对方不应该散布谣言",
+        "Sentiment": "negative",
+        "Rationale": "对方散布谣言诋毁维纳斯"
+    },
+    {
+        "sentence": "不管我说了什么，做了什么，你身为维纳斯的执行负责人，就应该有负责人的风范，怎么可以如此对待第一次见面的人呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的风范",
+        "Opinion": "认为1没有负责人风范",
+        "Sentiment": "negative",
+        "Rationale": "1作为执行负责人却对第一次见面的人态度不佳"
+    },
+    {
+        "sentence": "我告诉你，我绝不允许别人诋毁我的声誉，尤其像你这种刚刚出道的新人。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不允许别人诋毁声誉",
+        "Sentiment": "negative",
+        "Rationale": "2作为新人却诋毁自己的声誉"
+    },
+    {
+        "sentence": "请你说话注意一点，你不要忘了，你在我面前也算是个没见过世面的。",
+        "Holder": "3",
+        "Target": "1的言辞",
+        "Aspect": "言辞的适当性",
+        "Opinion": "要求1注意言辞",
+        "Sentiment": "negative",
+        "Rationale": "1的言辞不够谨慎且冒犯了自己"
+    },
+    {
+        "sentence": "高董事长，我说话向来不喜欢拐弯抹角的，如果有冒犯你的地方，请你原谅，但是我也要请你管好你女儿的嘴。",
+        "Holder": "1",
+        "Target": "高董事长",
+        "Aspect": "说话方式",
+        "Opinion": "直接",
+        "Sentiment": "neutral",
+        "Rationale": "1希望直接表达自己的意见"
+    },
+    {
+        "sentence": "这倒不用你操心，我支持我女儿做的每一件事。",
+        "Holder": "3",
+        "Target": "1的操心",
+        "Aspect": "对女儿的支持",
+        "Opinion": "不需要操心",
+        "Sentiment": "positive",
+        "Rationale": "3对女儿的行为完全支持"
+    },
+    {
+        "sentence": "高董事长。",
+        "Holder": "1",
+        "Target": "高董事长",
+        "Aspect": "称呼",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行称呼，没有表达具体情感"
+    },
+    {
+        "sentence": "不要再说了，我们这不欢迎你。珊珊叫警卫。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "欢迎程度",
+        "Opinion": "不欢迎",
+        "Sentiment": "negative",
+        "Rationale": "3认为1的言论不受欢迎"
+    },
+    {
+        "sentence": "高董事长，看上去高珊珊跟您长得一点都不像，恐怕她不是你的女儿吧。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "身份质疑",
+        "Opinion": "不像父女",
+        "Sentiment": "negative",
+        "Rationale": "1对高珊珊的身份提出质疑"
+    },
+    {
+        "sentence": "我没有必要也没有义务告诉你我跟姗姗之间的母女关系，请吧。",
+        "Holder": "3",
+        "Target": "母女关系",
+        "Aspect": "信息的保密性",
+        "Opinion": "无需告知",
+        "Sentiment": "negative",
+        "Rationale": "认为对方无权知晓自己与姗姗的母女关系"
+    },
+    {
+        "sentence": "放手啊，干什么？等一下。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "被对方抓住不放，感到不适和愤怒"
+    },
+    {
+        "sentence": "珍妮夫，这就是你冒犯我的代价。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "报复",
+        "Sentiment": "negative",
+        "Rationale": "认为对方冒犯了自己"
+    },
+    {
+        "sentence": "你太过分了，你放手，放开我。高珊珊。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的过分性",
+        "Opinion": "强烈反对",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为过于过分，感到极度不满和愤怒"
+    },
+    {
+        "sentence": "你千万要小心这个女人。",
+        "Holder": "3",
+        "Target": "高珊珊",
+        "Aspect": "行为的危险性",
+        "Opinion": "警告",
+        "Sentiment": "negative",
+        "Rationale": "认为高珊珊有潜在的危险性"
+    },
+    {
+        "sentence": "对不起。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "道歉",
+        "Sentiment": "neutral",
+        "Rationale": "意识到可能有过错"
+    },
+    {
+        "sentence": "我还以为是谁呢，原来是那位目中无人的高珊珊小姐。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "态度",
+        "Opinion": "目中无人",
+        "Sentiment": "negative",
+        "Rationale": "对高珊珊的态度不满"
+    },
+    {
+        "sentence": "原来是 Jennifer 小姐，听说最近维纳斯的生意一落千丈，经营的很困难，你怎么还有兴致吃这么昂贵的午餐啊？有人请客吗？",
+        "Holder": "2",
+        "Target": "Jennifer",
+        "Aspect": "经济状况",
+        "Opinion": "经营困难",
+        "Sentiment": "negative",
+        "Rationale": "听说维纳斯的生意不好"
+    },
+    {
+        "sentence": "你以为用免费试用券抢走维纳斯的客人很持续？要你我告诉你，你那些不入流的技术根本上不了台面，还有，只要时间一长，他们一定会重回维纳斯的。",
+        "Holder": "1",
+        "Target": "2的技术",
+        "Aspect": "技术水平",
+        "Opinion": "不入流",
+        "Sentiment": "negative",
+        "Rationale": "认为2的技术水平低"
+    },
+    {
+        "sentence": "我的技术确实还要加强，可是你别忘了我妈妈，她可是业界的佼佼者。",
+        "Holder": "2",
+        "Target": "自己的技术",
+        "Aspect": "技术水平",
+        "Opinion": "需要加强",
+        "Sentiment": "neutral",
+        "Rationale": "承认自己技术不足，但提到母亲的支持"
+    },
+    {
+        "sentence": "哼，从维纳斯过来的客人都对偶妈妈的技术赞不绝口，我想就算维纳斯推出 5 折的优惠券，他们也不会再去维纳斯的。",
+        "Holder": "2",
+        "Target": "妈妈的技术",
+        "Aspect": "技术评价",
+        "Opinion": "赞不绝口",
+        "Sentiment": "positive",
+        "Rationale": "客人对妈妈的技术非常满意"
+    },
+    {
+        "sentence": "高珊珊，你是存心跟我较劲是吧？",
+        "Holder": "1",
+        "Target": "高珊珊的行为",
+        "Aspect": "行为动机",
+        "Opinion": "存心较劲",
+        "Sentiment": "negative",
+        "Rationale": "觉得高珊珊的行为是在故意与自己作对"
+    },
+    {
+        "sentence": "你别误会，做生意求财不求气，我没有针对任何人，失陪了。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为解释",
+        "Opinion": "没有针对任何人",
+        "Sentiment": "neutral",
+        "Rationale": "想解释自己的行为并非针对某人"
+    },
+    {
+        "sentence": "高珊珊，你给我站住，别以为你用那些下流的招式就可以对付，我会在很短的时间之内让你和你那个自以为了不起的妈妈知道，跟我作对只有死路一条。",
+        "Holder": "1",
+        "Target": "高珊珊及其妈妈",
+        "Aspect": "行为威胁",
+        "Opinion": "作对只有死路一条",
+        "Sentiment": "negative",
+        "Rationale": "认为高珊珊使用不正当手段对付自己"
+    },
+    {
+        "sentence": "这个女人背地里勾引我老公，问你昨晚深更半夜让我老公出去想灌醉他，还想干什么？我告诉。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为指责",
+        "Opinion": "勾引老公",
+        "Sentiment": "negative",
+        "Rationale": "认为高珊珊背地里勾引自己的老公"
+    },
+    {
+        "sentence": "你，我没有你想的那么肮脏。 Jennifer， 一张名片就能让你疯了一样跑到这里泼妇骂街，你脾气还真是暴躁。",
+        "Holder": "2",
+        "Target": "Jennifer",
+        "Aspect": "性格和行为",
+        "Opinion": "Jennifer脾气暴躁",
+        "Sentiment": "negative",
+        "Rationale": "Jennifer一张名片就情绪失控"
+    },
+    {
+        "sentence": "我看你对你的婚姻实在是太没有信心了吧。我早就听说你和洪先生的婚姻岌岌可危，从你现在的表现就能看出来，这并不是空穴来风。",
+        "Holder": "2",
+        "Target": "Jennifer的婚姻",
+        "Aspect": "婚姻的稳定性",
+        "Opinion": "Jennifer的婚姻不稳定",
+        "Sentiment": "negative",
+        "Rationale": "从Jennifer的行为和听说的情况来看，她的婚姻存在问题"
+    },
+    {
+        "sentence": "我告诉你，我和我老公的感情好得很，你别想造谣生事来破坏我们的感情。",
+        "Holder": "1",
+        "Target": "自己的婚姻",
+        "Aspect": "婚姻的稳定性",
+        "Opinion": "婚姻感情很好",
+        "Sentiment": "positive",
+        "Rationale": "Jennifer坚信自己和老公的感情很好"
+    },
+    {
+        "sentence": "既然你的婚姻很幸福，你就不应该气急败坏地跑过来质问我和洪先生的事情，有什么事直接去问你的先生，我还有事要吗？不好意思。",
+        "Holder": "2",
+        "Target": "Jennifer的行为",
+        "Aspect": "处理问题的方式",
+        "Opinion": "Jennifer处理问题不当",
+        "Sentiment": "negative",
+        "Rationale": "Jennifer如果婚姻幸福就不应该如此激动地质问"
+    },
+    {
+        "sentence": "我来问你，你最好把话说清楚，你到底什么时候认识我老公的？除了那次在他办公室，你们还做过些什么？又到底约会过几次？还有你们在酒吧到底做了些什么？",
+        "Holder": "1",
+        "Target": "2和洪先生的关系",
+        "Aspect": "关系的真实性",
+        "Opinion": "怀疑2和洪先生的关系",
+        "Sentiment": "negative",
+        "Rationale": "Jennifer对2和洪先生的关系产生怀疑"
+    },
+    {
+        "sentence": "你说话客气一点。",
+        "Holder": "2",
+        "Target": "1的说话方式",
+        "Aspect": "说话的礼貌",
+        "Opinion": "需要客气",
+        "Sentiment": "negative",
+        "Rationale": "1的说话方式不够客气"
+    },
+    {
+        "sentence": "我跟洪先生只不过是普通朋友而已，昨天晚上我看他一个人醉倒在酒吧里面，差点被送去公安局，所以我只好替他买单，再请服务生通知你去接他回家，明白了吗？",
+        "Holder": "2",
+        "Target": "与洪先生的关系",
+        "Aspect": "关系的性质",
+        "Opinion": "普通朋友",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释与洪先生的关系"
+    },
+    {
+        "sentence": "我不相信你们之间什么都没有。",
+        "Holder": "1",
+        "Target": "2与洪先生的关系",
+        "Aspect": "关系的真实性",
+        "Opinion": "怀疑有关系",
+        "Sentiment": "negative",
+        "Rationale": "1对2的解释持怀疑态度"
+    },
+    {
+        "sentence": "如果我跟他之间真的有什么的话，昨天晚上你就不会去酒吧，今天早上你也看不到你先生了，该说的我都说了，我可以去工作了吗？",
+        "Holder": "2",
+        "Target": "1的怀疑",
+        "Aspect": "怀疑的合理性",
+        "Opinion": "已经解释清楚",
+        "Sentiment": "negative",
+        "Rationale": "1的怀疑让2感到困扰"
+    },
+    {
+        "sentence": "我问你送到我们家的保养品又该怎么解释？",
+        "Holder": "1",
+        "Target": "送到家的保养品",
+        "Aspect": "保养品的来源",
+        "Opinion": "需要解释",
+        "Sentiment": "negative",
+        "Rationale": "保养品的来源不明"
+    },
+    {
+        "sentence": "保养品是公司的公关部门送给 VIP 客人的礼物，这些不归我管，我也无权过问。如果你想知道细节的话，我可以帮你找公关部门的主管。",
+        "Holder": "2",
+        "Target": "保养品",
+        "Aspect": "管理权限",
+        "Opinion": "无权过问",
+        "Sentiment": "neutral",
+        "Rationale": "保养品是公关部门负责的，自己确实无权过问"
+    },
+    {
+        "sentence": "高珊珊，你听清楚了，洪世贤是我丈夫，你别指望抢走他，你要是不想被我告上法院，我劝你立即离开世贤",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "与洪世贤的关系",
+        "Opinion": "警告离开",
+        "Sentiment": "negative",
+        "Rationale": "认为高珊珊试图抢走自己的丈夫"
+    },
+    {
+        "sentence": "等一等。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "需要时间反应或打断对方"
+    },
+    {
+        "sentence": "昨天晚上我帮洪先生付的酒钱请你还给我。",
+        "Holder": "2",
+        "Target": "洪先生",
+        "Aspect": "酒钱",
+        "Opinion": "要求归还",
+        "Sentiment": "neutral",
+        "Rationale": "自己垫付了酒钱"
+    },
+    {
+        "sentence": "看不出你这么小家子气，将来也不知道该如何接管公司。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "气度和能力",
+        "Opinion": "小家子气，无法接管公司",
+        "Sentiment": "negative",
+        "Rationale": "高珊珊要求归还酒钱，认为她气度小"
+    },
+    {
+        "sentence": "不好意思，我现金不够，不如你把账号给我，我回头汇给你，哈哈哈哈哈。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "支付方式",
+        "Opinion": "提出汇款",
+        "Sentiment": "positive",
+        "Rationale": "提出了合理的解决方案并且语气轻松"
+    },
+    {
+        "sentence": "看来传闻说的没错。业界传说韦纳斯最近经营困难，周转不灵，没想到都是真的。",
+        "Holder": "2",
+        "Target": "韦纳斯",
+        "Aspect": "经营状况",
+        "Opinion": "经营困难",
+        "Sentiment": "negative",
+        "Rationale": "确认了业界关于韦纳斯经营困难的传闻"
+    },
+    {
+        "sentence": "我刚才说了我是没带，不是没有，我不是说了汇款给你吗？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "支付能力",
+        "Opinion": "强调有支付能力",
+        "Sentiment": "negative",
+        "Rationale": "被误解为没有支付能力而感到不满"
+    },
+    {
+        "sentence": "堂堂维纳斯美容中心的总经理当然不能赖账。我看这样吧，我昨天晚上在酒吧为洪先生付的酒钱，还有你在这里弄坏的所有东西，我会叫会计部门开明细给你，然后你再一起汇到我的账户里面。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "支付责任",
+        "Opinion": "要求支付所有费用",
+        "Sentiment": "neutral",
+        "Rationale": "提出了具体的支付要求并且语气平和"
+    },
+    {
+        "sentence": "噢，对了，如果三天内没有汇进来，我会考虑诉诸法律。那请慢走。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "支付期限",
+        "Opinion": "威胁诉诸法律",
+        "Sentiment": "negative",
+        "Rationale": "给出了明确的支付期限并威胁诉诸法律"
+    },
+    {
+        "sentence": "高珊珊，原来真的是你，你竟然勾引我老公带他来酒店，你有什么企图？我警告你，你别指望能跟他在一起，我不会放过你的。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为动机",
+        "Opinion": "认为高珊珊有不良企图",
+        "Sentiment": "negative",
+        "Rationale": "发现高珊珊与自己老公在一起，认为她有不良企图"
+    },
+    {
+        "sentence": "请不要随便对我动手，这里是酒店，请注意素质。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "要求对方保持素质",
+        "Sentiment": "negative",
+        "Rationale": "1对她动手，感到不安全和被冒犯"
+    },
+    {
+        "sentence": "还有，世贤在这里，你亲自去看看。",
+        "Holder": "2",
+        "Target": "世贤的位置",
+        "Aspect": "事实陈述",
+        "Opinion": "告知世贤的位置",
+        "Sentiment": "neutral",
+        "Rationale": "世贤在现场"
+    },
+    {
+        "sentence": "高珊珊，你竟然勾引我老公。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为动机",
+        "Opinion": "认为高珊珊勾引她老公",
+        "Sentiment": "negative",
+        "Rationale": "再次确认高珊珊与她老公在一起"
+    },
+    {
+        "sentence": "你也是，如果是你想要的男人，我还给你，你去拿",
+        "Holder": "2",
+        "Target": "1的情感",
+        "Aspect": "情感处理",
+        "Opinion": "愿意放弃男人",
+        "Sentiment": "negative",
+        "Rationale": "1的指责和愤怒，感到无奈和反击"
+    },
+    {
+        "sentence": "但是你别忘了。以前你也抢过别人的老公",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "过去行为",
+        "Opinion": "抢过别人的老公",
+        "Sentiment": "negative",
+        "Rationale": "提到1过去抢过别人的老公"
+    },
+    {
+        "sentence": "高珊珊，你给我站住",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为要求",
+        "Opinion": "要求站住",
+        "Sentiment": "negative",
+        "Rationale": "对高珊珊的行为不满"
+    },
+    {
+        "sentence": "奇怪了，这么晚谁啊",
+        "Holder": "3",
+        "Target": "晚上的访客",
+        "Aspect": "身份和时间",
+        "Opinion": "感到奇怪",
+        "Sentiment": "neutral",
+        "Rationale": "对这么晚还有人来感到不解"
+    },
+    {
+        "sentence": "高珊珊，你给我出来。高珊珊！",
+        "Holder": "3",
+        "Target": "高珊珊",
+        "Aspect": "行为要求",
+        "Opinion": "要求出来",
+        "Sentiment": "negative",
+        "Rationale": "对高珊珊的行为感到不满"
+    },
+    {
+        "sentence": "干什么呀？你得寸进尺，是不是？你白天闹完了 Doctor Queen，你现在又到我们家来闹？",
+        "Holder": "3",
+        "Target": "高珊珊",
+        "Aspect": "行为和态度",
+        "Opinion": "得寸进尺",
+        "Sentiment": "negative",
+        "Rationale": "高珊珊白天已经闹过，现在又到家里来闹"
+    },
+    {
+        "sentence": "闹的人不是我，是你女儿高珊珊，她抢走我老公，叫老公面说三道四，破坏我的家庭。我告诉你，我不见到她我绝对不会走的。",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "家庭破坏",
+        "Opinion": "高珊珊破坏家庭",
+        "Sentiment": "negative",
+        "Rationale": "高珊珊抢走她的老公并破坏她的家庭"
+    },
+    {
+        "sentence": "你住嘴，不管珊珊做了什么事情，还轮不到你来兴师问罪。至于你老公嘛，那是你们家的家务事，你最好回家处理，我们家不欢迎你，请你出去。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "指责和处理方式",
+        "Opinion": "1无权指责",
+        "Sentiment": "negative",
+        "Rationale": "认为1无权指责高珊珊且家务事应自己处理"
+    },
+    {
+        "sentence": "高虹，我没有想到你竟然纵容你的女儿跟我老公搞外遇，原来你除了想兼并维纳斯以外，还觊觎旭峰建设。",
+        "Holder": "1",
+        "Target": "高虹",
+        "Aspect": "纵容女儿和野心",
+        "Opinion": "高虹纵容女儿且野心勃勃",
+        "Sentiment": "negative",
+        "Rationale": "认为高虹纵容女儿搞外遇且有更大的野心"
+    },
+    {
+        "sentence": "我不会回答你任何问题的，请你出去。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "对话态度",
+        "Opinion": "拒绝回答",
+        "Sentiment": "negative",
+        "Rationale": "不想与1继续对话且希望她离开"
+    },
+    {
+        "sentence": "高珊珊！",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "称呼",
+        "Opinion": "直接呼唤",
+        "Sentiment": "negative",
+        "Rationale": "对高珊珊的行为感到愤怒"
+    },
+    {
+        "sentence": "你干什么？你要是再胡闹的话，我叫警察了。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为1在胡闹",
+        "Sentiment": "negative",
+        "Rationale": "1的行为被认为是胡闹"
+    },
+    {
+        "sentence": "放手啊。好，你叫警察，我跟警察说，你女儿跟我老公搞外遇。",
+        "Holder": "1",
+        "Target": "3的控制",
+        "Aspect": "控制的合理性",
+        "Opinion": "反对3的控制",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己被不公正地控制"
+    },
+    {
+        "sentence": "你住嘴，我不准你侮辱高珊珊。",
+        "Holder": "4",
+        "Target": "1的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "认为1在侮辱高珊珊",
+        "Sentiment": "negative",
+        "Rationale": "1的言论被认为是侮辱性的"
+    },
+    {
+        "sentence": "你是谁啊？我想起来你就是高珊珊的哥哥，我告诉你，任谁破坏我的家庭，我都不会放过他的。",
+        "Holder": "1",
+        "Target": "4的身份",
+        "Aspect": "身份的关联性",
+        "Opinion": "认为4与高珊珊有关",
+        "Sentiment": "negative",
+        "Rationale": "1认为4与破坏其家庭的人有关"
+    },
+    {
+        "sentence": "你还没听清楚吗？我妈已经下了逐客令了，请你出去。",
+        "Holder": "4",
+        "Target": "1的存在",
+        "Aspect": "存在的合理性",
+        "Opinion": "要求1离开",
+        "Sentiment": "negative",
+        "Rationale": "1的存在被认为是不受欢迎的"
+    },
+    {
+        "sentence": "高珊珊，为什么你会有之前的领带和衬衫啊？",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "拥有领带和衬衫的原因",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1对高珊珊拥有之前的领带和衬衫感到好奇"
+    },
+    {
+        "sentence": "你说呢？",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "回答方式",
+        "Opinion": "反问",
+        "Sentiment": "ambiguous",
+        "Rationale": "2用反问的方式回应1的问题"
+    },
+    {
+        "sentence": "不要脸",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "行为道德",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "1认为高珊珊的行为不道德"
+    },
+    {
+        "sentence": "你干什么你？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "4对1的指责行为感到不满"
+    },
+    {
+        "sentence": "你这个女人，你怎么打我儿子文彦？把她赶出去。",
+        "Holder": "3",
+        "Target": "高珊珊",
+        "Aspect": "对文彦的行为",
+        "Opinion": "愤怒",
+        "Sentiment": "negative",
+        "Rationale": "3认为高珊珊打了文彦"
+    },
+    {
+        "sentence": "敬酒不吃吃罚酒，跟我走。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为要求",
+        "Opinion": "强制带走",
+        "Sentiment": "negative",
+        "Rationale": "4认为1不配合"
+    },
+    {
+        "sentence": "高珊珊，我告诉你，你休想抢到我老公",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "婚姻关系",
+        "Opinion": "维护婚姻",
+        "Sentiment": "negative",
+        "Rationale": "1认为4威胁到她的婚姻"
+    },
+    {
+        "sentence": "给我走。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "行为要求",
+        "Opinion": "强制离开",
+        "Sentiment": "negative",
+        "Rationale": "3对1的行为不满"
+    },
+    {
+        "sentence": "没事",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "态度",
+        "Opinion": "平静",
+        "Sentiment": "neutral",
+        "Rationale": "2对当前情况不感到紧张"
+    },
+    {
+        "sentence": "永远不准再来我们家",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "访问权限",
+        "Opinion": "禁止",
+        "Sentiment": "negative",
+        "Rationale": "4对1的行为感到极度不满"
+    },
+    {
+        "sentence": "洪世贤，都是你干的好事。",
+        "Holder": "1",
+        "Target": "洪世贤",
+        "Aspect": "行为后果",
+        "Opinion": "负面评价",
+        "Sentiment": "negative",
+        "Rationale": "认为洪世贤的行为导致了不良后果"
+    },
+    {
+        "sentence": "别这么吃惊。这还不算惊心动魄的",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "情绪表现",
+        "Opinion": "认为反应过度",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的反应过于夸张"
+    },
+    {
+        "sentence": "不要。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为请求",
+        "Opinion": "请求停止",
+        "Sentiment": "negative",
+        "Rationale": "担心2的行为会带来严重后果"
+    },
+    {
+        "sentence": "我求求你，千万别到世化告发我，不然维纳斯就完了。我所有的一切都没了，连家庭都毁了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为后果",
+        "Opinion": "极度担忧",
+        "Sentiment": "negative",
+        "Rationale": "害怕2的告发会导致严重的个人和家庭损失"
+    },
+    {
+        "sentence": "早知如此，那何必当初呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为反思",
+        "Opinion": "后悔",
+        "Sentiment": "negative",
+        "Rationale": "认为1当初的行为导致了现在的困境"
+    },
+    {
+        "sentence": "对不起，我找错了，我也很后悔，我不能让他知道，我不能让我儿子知道。",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "错误的影响",
+        "Opinion": "后悔且不想让儿子知道",
+        "Sentiment": "negative",
+        "Rationale": "自己犯了错误并且担心儿子知道后会对自己失望"
+    },
+    {
+        "sentence": "如果去坐牢的话，我儿子长大了以后一定不会认我这个妈，一定不会认的。对不起。",
+        "Holder": "1",
+        "Target": "坐牢的后果",
+        "Aspect": "儿子对自己的认同",
+        "Opinion": "担心儿子不认自己",
+        "Sentiment": "negative",
+        "Rationale": "担心坐牢会导致儿子对自己失去认同"
+    },
+    {
+        "sentence": "你要真是为了孩子好，当初就不该昧着良心以假乱真。所以我劝你别拿孩子当借口，让我帮你一起欺世盗名，把所有人当傻瓜。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为1的行为不道德",
+        "Sentiment": "negative",
+        "Rationale": "认为1当初的行为是昧着良心以假乱真，现在又拿孩子当借口"
+    },
+    {
+        "sentence": "你相信我，我真的很后悔啊。",
+        "Holder": "1",
+        "Target": "自己的心情",
+        "Aspect": "后悔的程度",
+        "Opinion": "非常后悔",
+        "Sentiment": "negative",
+        "Rationale": "自己深知错误带来的严重后果"
+    },
+    {
+        "sentence": "你不用跟我说了，我赶时间去世化。哈哈哈，你不用担心你的孩子，我会把他当成自己的孩子一样抚养长大。",
+        "Holder": "2",
+        "Target": "1的担忧",
+        "Aspect": "对孩子的抚养",
+        "Opinion": "自己会抚养孩子",
+        "Sentiment": "ambiguous",
+        "Rationale": "急于离开并且表示会抚养孩子"
+    },
+    {
+        "sentence": "喂，到底怎么回事啊？怎么还不上班呢？你总是这样擅自缺勤的话，那我只能开除你了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "工作态度",
+        "Opinion": "擅自缺勤",
+        "Sentiment": "negative",
+        "Rationale": "因为1经常擅自缺勤，导致2感到不满，所以威胁要开除1"
+    },
+    {
+        "sentence": "你也应该知道关于你丈夫的事。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "家庭状况",
+        "Opinion": "了解丈夫的事",
+        "Sentiment": "neutral",
+        "Rationale": "因为1认为2应该了解自己丈夫的情况，所以平静地提醒2"
+    },
+    {
+        "sentence": "这和你有什么关系？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "干涉程度",
+        "Opinion": "无关",
+        "Sentiment": "negative",
+        "Rationale": "因为2觉得1干涉了自己的私事，所以表现出反感和不满"
+    },
+    {
+        "sentence": "我只是觉得你很可怜，刚结婚没多久就要一个人守空房，现在还要开始探监生活。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "生活状况",
+        "Opinion": "可怜",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2的婚姻生活不幸，所以用同情的语气表达2的可怜"
+    },
+    {
+        "sentence": "我听说你又开始流亡生活了，你还没改过自新吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "生活状态",
+        "Opinion": "未改过自新",
+        "Sentiment": "negative",
+        "Rationale": "2听说1又开始了流亡生活"
+    },
+    {
+        "sentence": "我跟世贤在一起，我们要租个房子，和尚恩一起开始新的生活。",
+        "Holder": "1",
+        "Target": "世贤",
+        "Aspect": "生活计划",
+        "Opinion": "开始新生活",
+        "Sentiment": "positive",
+        "Rationale": "和世贤在一起并计划租房开始新生活"
+    },
+    {
+        "sentence": "是吗？那让我跟他说话。",
+        "Holder": "2",
+        "Target": "世贤",
+        "Aspect": "通话请求",
+        "Opinion": "想要通话",
+        "Sentiment": "neutral",
+        "Rationale": "听到世贤和1在一起的消息"
+    },
+    {
+        "sentence": "不好意思，他正在洗澡。",
+        "Holder": "1",
+        "Target": "世贤",
+        "Aspect": "当前状态",
+        "Opinion": "正在洗澡",
+        "Sentiment": "neutral",
+        "Rationale": "世贤正在洗澡无法通话"
+    },
+    {
+        "sentence": "正在。洗澡啊。那也太神奇了，刚刚还跟我在一起的人这么快又跟你在一起了，难道他有分身术吗？",
+        "Holder": "2",
+        "Target": "世贤",
+        "Aspect": "行踪",
+        "Opinion": "怀疑分身术",
+        "Sentiment": "ambiguous",
+        "Rationale": "世贤刚刚还在2那里，现在却和1在一起"
+    },
+    {
+        "sentence": "我猜的没错，世贤果然在你那里，你到底把他藏哪里了？你快告诉我。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "世贤的行踪",
+        "Opinion": "怀疑被藏",
+        "Sentiment": "negative",
+        "Rationale": "认为世贤被2藏起来"
+    },
+    {
+        "sentence": "你不是说他在洗澡吗？为什么要问我呢？喂喂，林一德躲在外面吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "提问的合理性",
+        "Opinion": "质疑1的提问",
+        "Sentiment": "negative",
+        "Rationale": "1之前说林一德在洗澡，现在却来问2"
+    },
+    {
+        "sentence": "难道你真的不认识林一德？你们可是从小一起长大的。",
+        "Holder": "1",
+        "Target": "2的认识",
+        "Aspect": "对林一德的熟悉程度",
+        "Opinion": "认为2应该认识林一德",
+        "Sentiment": "negative",
+        "Rationale": "2表现出不认识林一德，而1认为他们应该很熟悉"
+    },
+    {
+        "sentence": "你疯了，你现在被逼到死巷子里，所以开始写没人相信的小说了是吗",
+        "Holder": "2",
+        "Target": "1的状态",
+        "Aspect": "1的行为合理性",
+        "Opinion": "认为1在胡言乱语",
+        "Sentiment": "negative",
+        "Rationale": "1的说法让2觉得荒谬"
+    },
+    {
+        "sentence": "你根本就是林品如，你根本就没死？林一德、林守成、范丹他们都是你的家人，你为什么假扮高珊珊？你为什么？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份的真实性",
+        "Opinion": "认为2是林品如",
+        "Sentiment": "negative",
+        "Rationale": "1怀疑2的真实身份，认为2在假扮高珊珊"
+    },
+    {
+        "sentence": "你是什么东西？敢这么跟我说话？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "说话的语气",
+        "Opinion": "认为1无礼",
+        "Sentiment": "negative",
+        "Rationale": "1的质问语气让2感到被冒犯"
+    },
+    {
+        "sentence": "你竟敢打我，你要什么？原来你真的是林品如。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "身份和动机",
+        "Opinion": "确认对方是林品如",
+        "Sentiment": "negative",
+        "Rationale": "被对方打并且对方隐瞒身份"
+    },
+    {
+        "sentence": "艾丽",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "称呼对方为艾丽",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的称呼"
+    },
+    {
+        "sentence": "没想到我一说林品如的父母出事，你就马上赶到医院了，而你们一听说洪世贤的老婆出事，也马上赶过来，由此可以证明你就是林品如。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为和身份",
+        "Opinion": "通过行为确认对方身份",
+        "Sentiment": "positive",
+        "Rationale": "通过对方的行为确认了对方的身份"
+    },
+    {
+        "sentence": "你就这么想证明我不是高珊珊而是林品如吗？知道以后你的遭遇会比现在更加凄惨。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "动机和后果",
+        "Opinion": "警告对方后果",
+        "Sentiment": "negative",
+        "Rationale": "对方坚持证明自己的身份"
+    },
+    {
+        "sentence": "告诉你，我是不会输给你这样的女人的，如果你是高珊珊，那还勉强可以成为对手，如果你是林品如，那就根本没这个能力。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "能力和对手",
+        "Opinion": "认为对方没有能力",
+        "Sentiment": "negative",
+        "Rationale": "轻视对方的身份和能力"
+    },
+    {
+        "sentence": "真的吗？我不再是那个任由别人抢走我老公的林品如。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "个人变化",
+        "Opinion": "不再软弱",
+        "Sentiment": "positive",
+        "Rationale": "意识到自己不再任由别人抢走老公"
+    },
+    {
+        "sentence": "被人抢走老公觉得委屈，从海里面爬出来，带着高珊珊的面具来跟我试行，破坏我的家庭你就开心了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为动机",
+        "Opinion": "认为2是故意破坏",
+        "Sentiment": "negative",
+        "Rationale": "觉得2带着面具来破坏自己的家庭"
+    },
+    {
+        "sentence": "你以为你赢了吗？没有。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "胜负判断",
+        "Opinion": "2没有赢",
+        "Sentiment": "negative",
+        "Rationale": "认为2的行为并没有真正获胜"
+    },
+    {
+        "sentence": "我还没有完全赢呢，你害死了我肚子里面的孩子，在我报这个仇之前，你失去的根本不算什么。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "复仇动机",
+        "Opinion": "要报仇",
+        "Sentiment": "negative",
+        "Rationale": "1害死了自己的孩子"
+    },
+    {
+        "sentence": "我问你，当初你为什么不在海里消失？你还要回来跟我抢世贤，回来破坏我的幸福。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为选择",
+        "Opinion": "质疑2的选择",
+        "Sentiment": "negative",
+        "Rationale": "2选择回来抢夺世贤并破坏自己的幸福"
+    },
+    {
+        "sentence": "你为什么？为什么呀？你为什么回来跟我抢世贤？你为什么呀？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "抢夺世贤的行为",
+        "Opinion": "不理解且愤怒",
+        "Sentiment": "negative",
+        "Rationale": "4回来抢夺世贤，导致1感到自己的感情被侵犯"
+    },
+    {
+        "sentence": "告诉你，你现在就算下跪我们都不原谅你，你还在这给我撒野，走。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "绝不原谅",
+        "Sentiment": "negative",
+        "Rationale": "1的行为严重伤害了4"
+    },
+    {
+        "sentence": "爱丽，我告诉你，就算品如原谅你们，我们也不会原谅你的。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "原谅的可能性",
+        "Opinion": "不会原谅",
+        "Sentiment": "negative",
+        "Rationale": "1认为4的行为不可原谅，即使其他人原谅了，自己也不会原谅"
+    },
+    {
+        "sentence": "你说品如毁了你的家庭，你毁了品如的一生啊。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "对品如的影响",
+        "Opinion": "1对品如造成严重伤害",
+        "Sentiment": "negative",
+        "Rationale": "4认为1的行为不仅毁了品如的家庭，还毁了品如的一生"
+    },
+    {
+        "sentence": "不用再和这种人说了，不要为了这种人浪费口水。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "与1的交流",
+        "Opinion": "不值得交流",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为不值得再进行交流，觉得继续交流是浪费时间和精力"
+    },
+    {
+        "sentence": "怎么现在你们一家人联合起来对付我，是不是？我告诉你，我不会轻易认输的，我来问你为什么要戴着高珊珊的面具回来？为什么。",
+        "Holder": "1",
+        "Target": "2及其家人",
+        "Aspect": "对待方式",
+        "Opinion": "认为被联合对付",
+        "Sentiment": "negative",
+        "Rationale": "感觉被一家人联合对付"
+    },
+    {
+        "sentence": "你有时间在这里废话，不如想想以后你自己该怎么生活，这才比较实际的。看到我还活着，你好像很失望。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为建议",
+        "Opinion": "建议1思考未来生活",
+        "Sentiment": "negative",
+        "Rationale": "1对2的存活表现出失望"
+    },
+    {
+        "sentence": "既然你是林品如，那我就又占回优势。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "身份确认",
+        "Opinion": "认为确认身份后自己有优势",
+        "Sentiment": "positive",
+        "Rationale": "确认2是林品如后觉得自己重新获得优势"
+    },
+    {
+        "sentence": "我告诉你，我要你后悔当时没有在海里淹死。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "威胁",
+        "Opinion": "要让2后悔",
+        "Sentiment": "negative",
+        "Rationale": "对2的存活感到愤怒"
+    }
+]

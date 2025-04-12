@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对追星影响的讨论",
+        "emotions": [
+          {"state": "negative", "reason": "认为追星影响学习", "source_id": "3"},
+          {"state": "neutral", "reason": "解释晕菜原因", "source_id": "3"},
+          {"state": "negative", "reason": "严厉反对过度追星", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "外貌与身份质疑",
+        "emotions": [
+          {"state": "positive", "reason": "自比张曼玉", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑外貌", "source_id": "3"},
+          {"state": "negative", "reason": "不理解评价意图", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭角色冲突",
+        "emotions": [
+          {"state": "positive", "reason": "体验被信任感", "source_id": "4"},
+          {"state": "negative", "reason": "不满家务分工", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "追星行为后果",
+        "emotions": [
+          {"state": "positive", "reason": "表达追星热情", "source_id": "1"},
+          {"state": "negative", "reason": "考试14分", "source_id": "1"},
+          {"state": "negative", "reason": "被医生批评", "source_id": "1"},
+          {"state": "positive", "reason": "幽默拒绝治疗", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭对抗",
+        "emotions": [
+          {"state": "negative", "reason": "绝食抗议管教", "source_id": "1"},
+          {"state": "neutral", "reason": "陈述就医经历", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "专家身份质疑",
+        "emotions": [
+          {"state": "negative", "reason": "怀疑假冒专家", "source_id": "1"},
+          {"state": "negative", "reason": "要求停止咨询", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

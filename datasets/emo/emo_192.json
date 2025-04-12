@@ -1,0 +1,103 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于赴美计划的家庭矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "母亲情绪失控且自己被迫妥协",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "发现无需分离后欣喜若狂",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭关系修复过程",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主动道歉并表达家庭温情",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "获得对方谅解后情绪高涨",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "医疗陪护方案变更",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "身体康复且获得女儿照顾",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "成功化解家庭矛盾后的欣慰",
+            "source_id": "1,3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "赴美计划引发的信任危机",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "感觉被家人联合欺骗",
+            "source_id": "1,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "选择保持沉默应对质疑",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "人际关系转折点",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "获得真诚感谢后的释然",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭决策参与过程",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对母亲赴美决定",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "获得聚餐选择权时的满足",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

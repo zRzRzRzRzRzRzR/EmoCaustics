@@ -1,0 +1,524 @@
+[
+    {
+        "sentence": "泡泡面，吃饱了，好上路行不行？",
+        "Holder": "2",
+        "Target": "泡泡面",
+        "Aspect": "吃饱的准备",
+        "Opinion": "吃饱了好上路",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问是否可以上路"
+    },
+    {
+        "sentence": "那你加根肠给我。快去，快点来两根吧。",
+        "Holder": "2",
+        "Target": "加肠",
+        "Aspect": "食物的添加",
+        "Opinion": "需要加肠",
+        "Sentiment": "neutral",
+        "Rationale": "2在提出具体的要求"
+    },
+    {
+        "sentence": "哎哎哎，你，你谁呀？",
+        "Holder": "2",
+        "Target": "对方身份",
+        "Aspect": "身份确认",
+        "Opinion": "不清楚对方身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对对方的身份感到疑惑"
+    },
+    {
+        "sentence": "你怎么回事？没事吧？",
+        "Holder": "4",
+        "Target": "2的状态",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "doubt",
+        "Rationale": "4对2的行为感到不解"
+    },
+    {
+        "sentence": "李青彤，你妈叫刘凤霞，公交车售票员，你3月 5 号生的，是不是？",
+        "Holder": "5",
+        "Target": "李青彤的身份",
+        "Aspect": "个人信息确认",
+        "Opinion": "确认李青彤的身份",
+        "Sentiment": "neutral",
+        "Rationale": "5在陈述事实并询问确认"
+    },
+    {
+        "sentence": "你认识？",
+        "Holder": "4",
+        "Target": "2的认识情况",
+        "Aspect": "是否认识某人",
+        "Opinion": "询问认识情况",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问2是否认识某人"
+    },
+    {
+        "sentence": "不认识。认识啥呀？",
+        "Holder": "2",
+        "Target": "某人的身份",
+        "Aspect": "是否认识",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "2明确表示不认识某人"
+    },
+    {
+        "sentence": "不是，你再想想，他这么了解你呢。",
+        "Holder": "4",
+        "Target": "2的记忆",
+        "Aspect": "对某人的了解程度",
+        "Opinion": "认为2应该认识",
+        "Sentiment": "neutral",
+        "Rationale": "4认为某人很了解2"
+    },
+    {
+        "sentence": "深圳二中，我是有一朋友的。小时候转去深圳了。那你这长得也太不像了。",
+        "Holder": "2",
+        "Target": "某人的外貌",
+        "Aspect": "与朋友的相似度",
+        "Opinion": "长得不像",
+        "Sentiment": "neutral",
+        "Rationale": "2提到有一个朋友但认为某人长得不像"
+    },
+    {
+        "sentence": "去警务室",
+        "Holder": "4",
+        "Target": "解决方式",
+        "Aspect": "处理方法",
+        "Opinion": "建议去警务室",
+        "Sentiment": "neutral",
+        "Rationale": "4建议去警务室解决问题"
+    },
+    {
+        "sentence": "我就是杨大花，你屁股上还有一个痔，它是搁这，对吧？",
+        "Holder": "5",
+        "Target": "杨大花身份",
+        "Aspect": "身份确认",
+        "Opinion": "确认自己是杨大花",
+        "Sentiment": "neutral",
+        "Rationale": "5在确认自己的身份"
+    },
+    {
+        "sentence": "你真是杨大花，可是你咋突然回来了呢？",
+        "Holder": "2",
+        "Target": "杨大花",
+        "Aspect": "突然回来",
+        "Opinion": "感到意外",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对杨大花突然回来感到意外"
+    },
+    {
+        "sentence": "你咋不提前打个招呼",
+        "Holder": "4",
+        "Target": "杨大花",
+        "Aspect": "提前通知",
+        "Opinion": "没有提前通知",
+        "Sentiment": "negative",
+        "Rationale": "杨大花没有提前通知"
+    },
+    {
+        "sentence": "惊喜整成惊吓了",
+        "Holder": "4",
+        "Target": "杨大花的突然出现",
+        "Aspect": "情绪影响",
+        "Opinion": "变成了惊吓",
+        "Sentiment": "negative",
+        "Rationale": "杨大花的突然出现让4感到惊吓"
+    },
+    {
+        "sentence": "跟你说，这次虽然失败了，但是大家不要气馁，下败咱们再走一次。",
+        "Holder": "4",
+        "Target": "失败",
+        "Aspect": "团队士气",
+        "Opinion": "鼓励再尝试",
+        "Sentiment": "positive",
+        "Rationale": "虽然失败了但鼓励大家不要气馁"
+    },
+    {
+        "sentence": "来来来，上来，别这么挤啊。",
+        "Holder": "2",
+        "Target": "拥挤",
+        "Aspect": "空间安排",
+        "Opinion": "希望宽松些",
+        "Sentiment": "neutral",
+        "Rationale": "希望大家不要挤在一起"
+    },
+    {
+        "sentence": "好，我刚没来得及跟你介绍，这些都是我现在的好朋友，组了个乐队叫破铜烂铁。",
+        "Holder": "2",
+        "Target": "朋友和乐队",
+        "Aspect": "介绍",
+        "Opinion": "友好介绍",
+        "Sentiment": "positive",
+        "Rationale": "向别人介绍自己的朋友和乐队"
+    },
+    {
+        "sentence": "我家到了，我家到了，我走了，有空来我家看电视。我家的电视老大了",
+        "Holder": "4",
+        "Target": "家",
+        "Aspect": "到达和邀请",
+        "Opinion": "热情邀请",
+        "Sentiment": "positive",
+        "Rationale": "到了家并热情邀请别人来家里看电视"
+    },
+    {
+        "sentence": "我也想去你家看还珠格格。",
+        "Holder": "2",
+        "Target": "去5家看还珠格格",
+        "Aspect": "观看电视剧的愿望",
+        "Opinion": "想去",
+        "Sentiment": "positive",
+        "Rationale": "想和5一起看喜欢的电视剧"
+    },
+    {
+        "sentence": "你这一看就老久没回来，手都冻成这样了，戴我的",
+        "Holder": "2",
+        "Target": "5的手",
+        "Aspect": "手的保暖",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "看到5的手冻得很冷"
+    },
+    {
+        "sentence": "那你咋办啊？",
+        "Holder": "5",
+        "Target": "2的手套",
+        "Aspect": "手套的使用",
+        "Opinion": "担心",
+        "Sentiment": "neutral",
+        "Rationale": "担心2如果把手套给了自己，2会冷"
+    },
+    {
+        "sentence": "来，戴上",
+        "Holder": "6",
+        "Target": "5的手",
+        "Aspect": "手的保暖",
+        "Opinion": "建议",
+        "Sentiment": "positive",
+        "Rationale": "看到5的手冷"
+    },
+    {
+        "sentence": "我不要",
+        "Holder": "2",
+        "Target": "手套",
+        "Aspect": "是否接受手套",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "可能觉得自己不需要手套或者不想麻烦别人"
+    },
+    {
+        "sentence": "你咋不要啊？你扛冻啊",
+        "Holder": "6",
+        "Target": "对方",
+        "Aspect": "保暖措施",
+        "Opinion": "质疑对方不保暖",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方没有采取保暖措施"
+    },
+    {
+        "sentence": "哎，停，就这师傅到了",
+        "Holder": "6",
+        "Target": "师傅",
+        "Aspect": "到达情况",
+        "Opinion": "师傅已到达",
+        "Sentiment": "neutral",
+        "Rationale": "师傅到达是一个中性事件"
+    },
+    {
+        "sentence": "你哥们人挺好的",
+        "Holder": "5",
+        "Target": "6的哥们",
+        "Aspect": "人品",
+        "Opinion": "人品好",
+        "Sentiment": "positive",
+        "Rationale": "对6的哥们有好感"
+    },
+    {
+        "sentence": "那是，从小一起长大的陈军何",
+        "Holder": "2",
+        "Target": "陈军何",
+        "Aspect": "关系",
+        "Opinion": "关系亲密",
+        "Sentiment": "positive",
+        "Rationale": "与陈军何有深厚的友情"
+    },
+    {
+        "sentence": "陈军何，离婚证上那个渣男",
+        "Holder": "5",
+        "Target": "陈军何",
+        "Aspect": "婚姻行为",
+        "Opinion": "渣男",
+        "Sentiment": "negative",
+        "Rationale": "陈军何在离婚证上的行为被认为不负责任"
+    },
+    {
+        "sentence": "刚刚那陈军何是不是喜欢你？",
+        "Holder": "5",
+        "Target": "陈军何",
+        "Aspect": "对2的感情",
+        "Opinion": "可能喜欢",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到陈军何拉2的手"
+    },
+    {
+        "sentence": "这啥呀？",
+        "Holder": "2",
+        "Target": "5的问题",
+        "Aspect": "问题的合理性",
+        "Opinion": "困惑不解",
+        "Sentiment": "neutral",
+        "Rationale": "对5的问题感到突然和困惑"
+    },
+    {
+        "sentence": "那他拉你手干嘛呀？",
+        "Holder": "5",
+        "Target": "陈军何的行为",
+        "Aspect": "拉手的动机",
+        "Opinion": "质疑动机",
+        "Sentiment": "negative",
+        "Rationale": "认为拉手行为不寻常"
+    },
+    {
+        "sentence": "不是，他不是给我手套吗？",
+        "Holder": "2",
+        "Target": "陈军何的行为",
+        "Aspect": "拉手的解释",
+        "Opinion": "解释为给手套",
+        "Sentiment": "neutral",
+        "Rationale": "认为陈军何拉手是为了给手套"
+    },
+    {
+        "sentence": "给你手套就能拉手了。",
+        "Holder": "5",
+        "Target": "陈军何的行为",
+        "Aspect": "拉手的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "认为给手套不需要拉手"
+    },
+    {
+        "sentence": "那我还拉你手了",
+        "Holder": "2",
+        "Target": "拉手行为",
+        "Aspect": "行为合理性",
+        "Opinion": "拉手是正常的",
+        "Sentiment": "neutral",
+        "Rationale": "2提到自己拉手的行为，试图说明这是正常的互动"
+    },
+    {
+        "sentence": "你拉我手跟他拉你手那能一样吗？",
+        "Holder": "5",
+        "Target": "拉手行为",
+        "Aspect": "行为对比",
+        "Opinion": "拉手行为不同",
+        "Sentiment": "negative",
+        "Rationale": "5认为2拉手和他人拉手的行为不能相提并论"
+    },
+    {
+        "sentence": "不是，你想啥呢？我俩在一起长大的",
+        "Holder": "2",
+        "Target": "与5的关系",
+        "Aspect": "关系亲密程度",
+        "Opinion": "关系亲密",
+        "Sentiment": "neutral",
+        "Rationale": "2解释自己和对方一起长大，试图说明关系亲密"
+    },
+    {
+        "sentence": "反正你离他远点，一看就不是好人。",
+        "Holder": "5",
+        "Target": "他人",
+        "Aspect": "人品评价",
+        "Opinion": "他人不是好人",
+        "Sentiment": "negative",
+        "Rationale": "5认为他人人品有问题"
+    },
+    {
+        "sentence": "你刚还说人挺好",
+        "Holder": "2",
+        "Target": "他人",
+        "Aspect": "人品评价",
+        "Opinion": "他人不错",
+        "Sentiment": "neutral",
+        "Rationale": "2指出5之前对他人有正面评价"
+    },
+    {
+        "sentence": "我变了",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "个人变化",
+        "Opinion": "发生变化",
+        "Sentiment": "neutral",
+        "Rationale": "5意识到自己有所改变"
+    },
+    {
+        "sentence": "你今天咋说都得上我家玩，咱俩老久没见了",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "见面安排",
+        "Opinion": "强烈希望见面",
+        "Sentiment": "positive",
+        "Rationale": "2很久没有见到5"
+    },
+    {
+        "sentence": "你说这深圳是不是老好玩了？感觉可洋气了。你说你去趟深圳回来几个人都不一样",
+        "Holder": "2",
+        "Target": "深圳",
+        "Aspect": "城市印象",
+        "Opinion": "认为深圳很有趣且洋气",
+        "Sentiment": "positive",
+        "Rationale": "2对深圳的印象非常好"
+    },
+    {
+        "sentence": "你房间可真好。",
+        "Holder": "5",
+        "Target": "2的房间",
+        "Aspect": "房间状况",
+        "Opinion": "房间很好",
+        "Sentiment": "positive",
+        "Rationale": "5觉得2的房间很舒适或布置得很好"
+    },
+    {
+        "sentence": "这有啥呀？这不跟小时候一样的吗？跟你深圳的肯定没法比。哎，那你为啥从深圳回来？",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "房间对比和回深圳的原因",
+        "Opinion": "房间普通，好奇回深圳的原因",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己的房间和小时候一样普通，且对5从深圳回来的原因感到好奇"
+    },
+    {
+        "sentence": "抽什么风了他？",
+        "Holder": "5",
+        "Target": "他",
+        "Aspect": "行为",
+        "Opinion": "行为异常",
+        "Sentiment": "negative",
+        "Rationale": "他突然表现出异常行为"
+    },
+    {
+        "sentence": "他说他在他家澡堂门口遇到我爸妈跟邹老师在那唠嗑，现在正往家赶，让我今天晚上注意安全",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "行为",
+        "Opinion": "传递信息",
+        "Sentiment": "neutral",
+        "Rationale": "他只是客观地传达了遇到的情况和提醒"
+    },
+    {
+        "sentence": "这么多信息啊。",
+        "Holder": "5",
+        "Target": "信息量",
+        "Aspect": "信息量",
+        "Opinion": "信息量大",
+        "Sentiment": "neutral",
+        "Rationale": "接收到的信息量较大"
+    },
+    {
+        "sentence": "我怎么生这么个崽子啊？你说别人的崽子是崽子，我的崽子。你，你就是你的基因忒差了点，李青铜，你给我出来",
+        "Holder": "2",
+        "Target": "崽子",
+        "Aspect": "基因",
+        "Opinion": "基因差",
+        "Sentiment": "negative",
+        "Rationale": "对自己孩子的表现不满，认为是基因问题"
+    },
+    {
+        "sentence": "躲起来。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "躲避",
+        "Sentiment": "negative",
+        "Rationale": "不想面对当前的情况"
+    },
+    {
+        "sentence": "我跟你说，你说说怎么回事啊？你的物理考试你为什么考成这样啊？",
+        "Holder": "7",
+        "Target": "物理考试成绩",
+        "Aspect": "成绩的原因",
+        "Opinion": "不满意",
+        "Sentiment": "negative",
+        "Rationale": "对对方的物理考试成绩不满意"
+    },
+    {
+        "sentence": "家里来客了，搞个卫生动作这么大一地鸡毛",
+        "Holder": "8",
+        "Target": "家里卫生情况",
+        "Aspect": "卫生整理的繁琐",
+        "Opinion": "抱怨",
+        "Sentiment": "negative",
+        "Rationale": "家里来客需要大扫除，导致繁琐和麻烦"
+    },
+    {
+        "sentence": "那个小时候那朋友杨大花，她不转去深圳了吗？",
+        "Holder": "2",
+        "Target": "杨大花的去向",
+        "Aspect": "朋友的动态",
+        "Opinion": "回忆",
+        "Sentiment": "neutral",
+        "Rationale": "提到过去的熟人"
+    },
+    {
+        "sentence": "老漂亮了阿姨，我看到你就想起我妈。",
+        "Holder": "5",
+        "Target": "阿姨的外貌",
+        "Aspect": "外貌评价",
+        "Opinion": "赞美",
+        "Sentiment": "positive",
+        "Rationale": "看到阿姨觉得亲切"
+    },
+    {
+        "sentence": "这孩子嘴挺甜。",
+        "Holder": "7",
+        "Target": "孩子",
+        "Aspect": "说话方式",
+        "Opinion": "嘴甜",
+        "Sentiment": "positive",
+        "Rationale": "孩子说话让人感到愉快"
+    },
+    {
+        "sentence": "来做点饭去。",
+        "Holder": "8",
+        "Target": "7",
+        "Aspect": "做饭",
+        "Opinion": "需要做饭",
+        "Sentiment": "neutral",
+        "Rationale": "需要吃饭"
+    },
+    {
+        "sentence": "嗯，快点的。我说话还不来客了吗？",
+        "Holder": "8",
+        "Target": "7",
+        "Aspect": "响应速度",
+        "Opinion": "需要快点",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方响应不够快"
+    },
+    {
+        "sentence": "嗯，给你做饭去啊。",
+        "Holder": "7",
+        "Target": "8",
+        "Aspect": "做饭",
+        "Opinion": "同意做饭",
+        "Sentiment": "neutral",
+        "Rationale": "答应了对方的要求"
+    },
+    {
+        "sentence": "妈，我想吃饺子",
+        "Holder": "2",
+        "Target": "7",
+        "Aspect": "食物选择",
+        "Opinion": "想吃饺子",
+        "Sentiment": "neutral",
+        "Rationale": "想吃特定的食物"
+    },
+    {
+        "sentence": "我指导一下子，一会儿吃饺子",
+        "Holder": "8",
+        "Target": "饺子制作",
+        "Aspect": "指导过程",
+        "Opinion": "需要指导",
+        "Sentiment": "neutral",
+        "Rationale": "8提出要指导饺子的制作"
+    }
+]

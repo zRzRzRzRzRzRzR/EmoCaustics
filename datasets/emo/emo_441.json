@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "旅游研究实验化转向的学科影响",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "实验研究方法获得广泛认可",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "早期被其他学科质疑研究科学性",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过实验方法提升学科地位",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "研究范式的技术演进",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "GPS/眼动仪的基础数据收集",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "VR/生理测量实现多模态分析",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "学科内核的认知危机",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "研究主题分散导致知识碎片化",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "学科本体论与方法论脱节",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提出旅游者行为作为核心范式",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "学术共同体建设",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "实验研究会议规模持续扩大",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "期刊专栏推动方法论标准化",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

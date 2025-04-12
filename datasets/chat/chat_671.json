@@ -1,0 +1,623 @@
+[
+    {
+        "sentence": "她两个手机都冲到100%了",
+        "Holder": "1",
+        "Target": "手机充电",
+        "Aspect": "充电状态",
+        "Opinion": "已充满",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了手机充电的状态，没有表达出任何情感倾向"
+    },
+    {
+        "sentence": "这个车厢内的电压就是",
+        "Holder": "3",
+        "Target": "车厢电压",
+        "Aspect": "电压情况",
+        "Opinion": "存在某种问题",
+        "Sentiment": "neutral",
+        "Rationale": "只是提到车厢内的电压情况，没有明确表达出情感倾向"
+    },
+    {
+        "sentence": "这是我的东西，他能随便给我拔掉不？他就给我拔了",
+        "Holder": "2",
+        "Target": "东西被拔掉",
+        "Aspect": "物品处理",
+        "Opinion": "不被允许",
+        "Sentiment": "negative",
+        "Rationale": "自己的东西被别人随便拔掉，感到不满和生气"
+    },
+    {
+        "sentence": "你让人家咋样子说我，写个检查还是咋样子？搞笑不搞笑？",
+        "Holder": "1",
+        "Target": "被要求写检查",
+        "Aspect": "处理方式",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "被要求写检查感到不合理和无奈，认为这种要求很搞笑"
+    },
+    {
+        "sentence": "为难人家干啥事情，你让人家干啥？你为难人家干人家辛苦不辛苦？",
+        "Holder": "1",
+        "Target": "为难别人",
+        "Aspect": "行为合理性",
+        "Opinion": "不应该",
+        "Sentiment": "negative",
+        "Rationale": "觉得为难别人是不应该的，并且认为这样会让别人辛苦"
+    },
+    {
+        "sentence": "你不要站在道德制高点",
+        "Holder": "2",
+        "Target": "1的立场",
+        "Aspect": "道德立场的合理性",
+        "Opinion": "反对站在道德制高点",
+        "Sentiment": "negative",
+        "Rationale": "认为对方站在道德制高点是不合理的"
+    },
+    {
+        "sentence": "我就站在道德高点上",
+        "Holder": "1",
+        "Target": "自己的立场",
+        "Aspect": "道德立场的坚持",
+        "Opinion": "坚持站在道德制高点",
+        "Sentiment": "positive",
+        "Rationale": "坚信自己的道德立场是正确的"
+    },
+    {
+        "sentence": "你说一下",
+        "Holder": "2",
+        "Target": "1的解释",
+        "Aspect": "解释的需求",
+        "Opinion": "要求对方解释",
+        "Sentiment": "neutral",
+        "Rationale": "想了解对方的观点"
+    },
+    {
+        "sentence": "我说人家干嘛？我就站在道德制高点",
+        "Holder": "1",
+        "Target": "自己的立场",
+        "Aspect": "道德立场的坚持",
+        "Opinion": "坚持站在道德制高点",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的立场无需解释且正确"
+    },
+    {
+        "sentence": "这个是什么？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的理解",
+        "Opinion": "不理解对方的言论",
+        "Sentiment": "neutral",
+        "Rationale": "对对方的言论感到困惑"
+    },
+    {
+        "sentence": "你充了两个手机了，要充到100%。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "充电行为",
+        "Opinion": "充电过多",
+        "Sentiment": "negative",
+        "Rationale": "2同时充两个手机且要充到100%"
+    },
+    {
+        "sentence": "大哥等你等了多久？然后我排了多久？你冲了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "等待时间",
+        "Opinion": "等待过长",
+        "Sentiment": "negative",
+        "Rationale": "1等待2的时间过长，且自己也需要使用充电设备"
+    },
+    {
+        "sentence": "大哥说话了吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "是否发声",
+        "Opinion": "质疑是否发声",
+        "Sentiment": "neutral",
+        "Rationale": "2想知道1是否已经表达过不满"
+    },
+    {
+        "sentence": "我说了，大哥不好意思跟女人计较，我愿意说，你觉得大哥软柿子好捏是吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对待方式",
+        "Opinion": "被轻视",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己被2轻视，认为2觉得他好欺负"
+    },
+    {
+        "sentence": "你充了一个手机又抽一个手机，好意思还找人家断官司？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "充电行为和态度",
+        "Opinion": "不合理且无理",
+        "Sentiment": "negative",
+        "Rationale": "2在充电过程中不断更换手机，且还试图争辩"
+    },
+    {
+        "sentence": "有啥好断的？你忙你的去。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "中断行为的合理性",
+        "Opinion": "认为没必要中断",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的中断行为没有必要"
+    },
+    {
+        "sentence": "你让他找我",
+        "Holder": "1",
+        "Target": "2的沟通方式",
+        "Aspect": "沟通对象的指定",
+        "Opinion": "要求2直接找自己",
+        "Sentiment": "neutral",
+        "Rationale": "希望直接解决问题"
+    },
+    {
+        "sentence": "这个事情我",
+        "Holder": "2",
+        "Target": "事情的处理",
+        "Aspect": "处理方式的说明",
+        "Opinion": "试图解释",
+        "Sentiment": "neutral",
+        "Rationale": "想解释事情的处理方式"
+    },
+    {
+        "sentence": "让人家去忙人家的去",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为2应该忙自己的事",
+        "Sentiment": "negative",
+        "Rationale": "觉得2不应该干涉别人的事情"
+    },
+    {
+        "sentence": "我就要继续充，我就要充了100%，他为啥就直接拔掉我的手机了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "拔掉手机的行为",
+        "Opinion": "不满被拔掉手机",
+        "Sentiment": "negative",
+        "Rationale": "自己的手机被直接拔掉"
+    },
+    {
+        "sentence": "咱们尽量就是因为咱们车上本来就是插头很少",
+        "Holder": "3",
+        "Target": "车上插头数量",
+        "Aspect": "插头的数量",
+        "Opinion": "插头很少",
+        "Sentiment": "neutral",
+        "Rationale": "车上插头数量有限"
+    },
+    {
+        "sentence": "我问的点是他能不经过我的同意把我的手机拔掉吗？",
+        "Holder": "2",
+        "Target": "他人拔掉手机的行为",
+        "Aspect": "是否经过同意",
+        "Opinion": "不应未经同意拔掉",
+        "Sentiment": "negative",
+        "Rationale": "他人未经同意拔掉手机"
+    },
+    {
+        "sentence": "他的理由是他的手机9%，那如果他看了一个电影之后，他的手机 9% 跟我有什么关系？是不是？",
+        "Holder": "2",
+        "Target": "他人手机电量",
+        "Aspect": "电量与个人关系",
+        "Opinion": "无关",
+        "Sentiment": "negative",
+        "Rationale": "他人手机电量低与自己无关"
+    },
+    {
+        "sentence": "那您想一下，你那手机",
+        "Holder": "1",
+        "Target": "2的手机",
+        "Aspect": "思考手机问题",
+        "Opinion": "需要思考",
+        "Sentiment": "neutral",
+        "Rationale": "需要对方思考手机问题"
+    },
+    {
+        "sentence": "他要是给我商量一下",
+        "Holder": "2",
+        "Target": "他人的行为",
+        "Aspect": "是否商量",
+        "Opinion": "应该商量",
+        "Sentiment": "negative",
+        "Rationale": "他人没有事先商量就拔掉手机"
+    },
+    {
+        "sentence": "但是大家都觉得你特可笑，你知道吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "特可笑",
+        "Sentiment": "negative",
+        "Rationale": "大家觉得2的行为很可笑"
+    },
+    {
+        "sentence": "人家都说了就一个电源，有没有两个手机都充到 100% 的？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "充电行为",
+        "Opinion": "不可能两个手机都充到100%",
+        "Sentiment": "negative",
+        "Rationale": "只有一个电源，无法同时给两个手机充满电"
+    },
+    {
+        "sentence": "你在家等着，有没有这样子的？我就是拔掉你手机了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "拔掉手机的行为",
+        "Opinion": "拔掉手机",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的行为不合理"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "反应",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道2为什么有反应"
+    },
+    {
+        "sentence": "就这句话",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论内容",
+        "Opinion": "仅针对这句话",
+        "Sentiment": "neutral",
+        "Rationale": "2只对1的某一句话有反应"
+    },
+    {
+        "sentence": "我就拔了，怎么了？",
+        "Holder": "1",
+        "Target": "拔充电器行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为合理",
+        "Sentiment": "negative",
+        "Rationale": "1认为拔充电器是合理的，但被质疑"
+    },
+    {
+        "sentence": "大家断一下来",
+        "Holder": "2",
+        "Target": "断电行为",
+        "Aspect": "行为要求",
+        "Opinion": "要求断电",
+        "Sentiment": "neutral",
+        "Rationale": "2希望大家断电，但没有表现出明显的情绪"
+    },
+    {
+        "sentence": "就这句话有啥好断的？",
+        "Holder": "1",
+        "Target": "2的断电要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的断电要求不合理"
+    },
+    {
+        "sentence": "不是这是您的手机吧？",
+        "Holder": "2",
+        "Target": "手机归属",
+        "Aspect": "物品所有权",
+        "Opinion": "确认归属",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认手机的归属，没有表现出明显的情绪"
+    },
+    {
+        "sentence": "这是我的，就是我要充电，我就拔了，怎么了？",
+        "Holder": "1",
+        "Target": "拔充电器行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为合理",
+        "Sentiment": "negative",
+        "Rationale": "1再次强调拔充电器的合理性，但被质疑"
+    },
+    {
+        "sentence": "这是你们家的电源吗",
+        "Holder": "2",
+        "Target": "电源",
+        "Aspect": "电源归属",
+        "Opinion": "询问归属",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问电源的归属"
+    },
+    {
+        "sentence": "不是我们家的。怎么了？",
+        "Holder": "1",
+        "Target": "电源",
+        "Aspect": "电源归属",
+        "Opinion": "否认归属",
+        "Sentiment": "neutral",
+        "Rationale": "1在否认电源是自家的"
+    },
+    {
+        "sentence": "我拔了。你怎么了嘛？你要什么样嘛？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为反应",
+        "Opinion": "拔掉电源",
+        "Sentiment": "negative",
+        "Rationale": "1拔掉了电源并且质问2的反应"
+    },
+    {
+        "sentence": "您需要一个什么样的解决方法？您给我说一下好吗？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "解决方法",
+        "Opinion": "询问需求",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问2需要的解决方法"
+    },
+    {
+        "sentence": "她凭什么？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "2质疑1拔掉电源的行为合理性"
+    },
+    {
+        "sentence": "没凭什么，就是我拔了，我没素质，我拔了啊？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为合理性",
+        "Opinion": "承认自己没素质",
+        "Sentiment": "negative",
+        "Rationale": "自己承认了没素质并且拔掉了东西"
+    },
+    {
+        "sentence": "凭啥？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为动机",
+        "Opinion": "质疑行为动机",
+        "Sentiment": "negative",
+        "Rationale": "不理解1为什么要拔掉东西"
+    },
+    {
+        "sentence": "那您是需要道个歉，还是要",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为后果",
+        "Opinion": "建议道歉",
+        "Sentiment": "neutral",
+        "Rationale": "认为1的行为需要承担责任"
+    },
+    {
+        "sentence": "我道不了，不好意思，道不了啊。",
+        "Holder": "1",
+        "Target": "道歉",
+        "Aspect": "道歉的可能性",
+        "Opinion": "无法道歉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己无法道歉"
+    },
+    {
+        "sentence": "这大姐，我道不了",
+        "Holder": "1",
+        "Target": "道歉",
+        "Aspect": "道歉的可能性",
+        "Opinion": "无法道歉",
+        "Sentiment": "negative",
+        "Rationale": "再次强调自己无法道歉"
+    },
+    {
+        "sentence": "那我给您道个歉，不好意思，确实",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "道歉行为",
+        "Opinion": "承认错误",
+        "Sentiment": "neutral",
+        "Rationale": "3意识到自己可能造成了不便"
+    },
+    {
+        "sentence": "不，不是，",
+        "Holder": "2",
+        "Target": "3的道歉",
+        "Aspect": "道歉的必要性",
+        "Opinion": "不需要道歉",
+        "Sentiment": "neutral",
+        "Rationale": "2认为问题不在于3需要道歉"
+    },
+    {
+        "sentence": "您先听我说。咱们车厢内的电压，确实就是咱们车的那个插座确实很少，而且就是咱们不能，就是您的手机充的差不多，咱们就尽量拔掉一下",
+        "Holder": "3",
+        "Target": "车厢插座",
+        "Aspect": "插座数量和电压问题",
+        "Opinion": "插座少且电压不足",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释车厢内插座的实际情况"
+    },
+    {
+        "sentence": "不是这个事情，我想说清楚，他要是跟我说一声，唉，你的手机差不多",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "沟通方式",
+        "Opinion": "需要提前告知",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1应该提前告知手机充电情况"
+    },
+    {
+        "sentence": "手机这点我肯定说了，大哥在我说旁边",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "是否提前告知",
+        "Opinion": "已经告知",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己已经提前告知了手机充电情况"
+    },
+    {
+        "sentence": "他就给大哥说了一声",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "告知行为",
+        "Opinion": "简单告知",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述了一个简单的告知行为"
+    },
+    {
+        "sentence": "然后我在这喊了一声，我说谁的手机在充电",
+        "Holder": "1",
+        "Target": "手机充电",
+        "Aspect": "询问",
+        "Opinion": "寻找手机主人",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行一个普通的询问"
+    },
+    {
+        "sentence": "然后我让我儿子看一下，我说有多少电了，然后儿子说 90% 了，然后我说那行",
+        "Holder": "1",
+        "Target": "手机电量",
+        "Aspect": "电量检查",
+        "Opinion": "电量充足",
+        "Sentiment": "neutral",
+        "Rationale": "只是检查手机电量并得到一个满意的结果"
+    },
+    {
+        "sentence": "我就这个态度，我对你没啥好态度。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "态度",
+        "Opinion": "态度不好",
+        "Sentiment": "negative",
+        "Rationale": "明确表示对对方没有好态度"
+    },
+    {
+        "sentence": "我没有别的，我就这态度。不是，大哥",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "态度",
+        "Opinion": "坚持不好态度",
+        "Sentiment": "negative",
+        "Rationale": "坚持表示对对方没有好态度，并试图解释"
+    },
+    {
+        "sentence": "刚才如果你说你排着的，我肯定就不冲了吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "是否应该冲",
+        "Opinion": "质疑1的行为",
+        "Sentiment": "doubt",
+        "Rationale": "2不确定1是否真的在排队"
+    },
+    {
+        "sentence": "我就这态度啊。行了",
+        "Holder": "1",
+        "Target": "自己的态度",
+        "Aspect": "态度的表达",
+        "Opinion": "坚持自己的态度",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己没有做错"
+    },
+    {
+        "sentence": "来大哥，你来冲啊，大哥",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "是否应该冲",
+        "Opinion": "挑衅2",
+        "Sentiment": "negative",
+        "Rationale": "1对2的质疑感到不满"
+    },
+    {
+        "sentence": "唉，你凭啥做好人啊？在这",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "做好人的合理性",
+        "Opinion": "质疑1做好人的动机",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有必要在这个情况下做好人"
+    },
+    {
+        "sentence": "我愿意做好人，跟你跟你有啥关系啊？我愿意做好人跟你有啥关系？我就是不愿意充，我让人家充怎么了？",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "做好人的自由",
+        "Opinion": "坚持自己的选择",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己的选择不应该被2质疑"
+    },
+    {
+        "sentence": "看了吗？看见了吗？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "是否注意到某事",
+        "Opinion": "询问是否看见",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问3是否注意到某事"
+    },
+    {
+        "sentence": "来来来，我把我的充电宝给你借行吧。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "提供帮助",
+        "Opinion": "愿意借充电宝",
+        "Sentiment": "positive",
+        "Rationale": "3主动提出借充电宝给2"
+    },
+    {
+        "sentence": "不是这个问题。唉，你没听懂吗？不是这个问题",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "理解问题",
+        "Opinion": "3没理解问题",
+        "Sentiment": "negative",
+        "Rationale": "3没有理解2的问题"
+    },
+    {
+        "sentence": "是人家拔了你",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "事件原因",
+        "Opinion": "指出被拔掉的原因",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释事件的原因"
+    },
+    {
+        "sentence": "而且态度特别不好，他凭啥过去就直接把我",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "态度",
+        "Opinion": "态度不好",
+        "Sentiment": "negative",
+        "Rationale": "某人态度不好且没有理由地直接对2做出某种行为"
+    },
+    {
+        "sentence": "不是，大哥，她态度不对呀？",
+        "Holder": "2",
+        "Target": "她的态度",
+        "Aspect": "态度的正确性",
+        "Opinion": "态度不正确",
+        "Sentiment": "negative",
+        "Rationale": "认为她的态度不合适"
+    },
+    {
+        "sentence": "你看他直接我过来，他咋说的？",
+        "Holder": "2",
+        "Target": "他的言行",
+        "Aspect": "言行的合理性",
+        "Opinion": "言行不合理",
+        "Sentiment": "negative",
+        "Rationale": "他直接叫过来且言辞不当"
+    },
+    {
+        "sentence": "我对你没啥好说的",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "沟通的意愿",
+        "Opinion": "无话可说",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为或态度不满"
+    },
+    {
+        "sentence": "你看这个开关啥时候消停过，都是抢着充电的，不是你抢着。你习惯几十年前，你看要没有手机，你看看谁不是过日子",
+        "Holder": "4",
+        "Target": "充电行为",
+        "Aspect": "充电的频繁性",
+        "Opinion": "频繁抢充电",
+        "Sentiment": "negative",
+        "Rationale": "大家总是抢着充电，导致开关从未消停"
+    }
+]

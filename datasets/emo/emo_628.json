@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "考试成绩与家长签字争议",
+        "emotions": [
+          {"state": "negative", "reason": "数学30分不及格", "source_id": "3,4"},
+          {"state": "positive", "reason": "伪造家长签字避免责罚", "source_id": "1"},
+          {"state": "neutral", "reason": "冷静应对老师调查", "source_id": "3"},
+          {"state": "negative", "reason": "考试压力导致食欲不振", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "离家出走计划讨论",
+        "emotions": [
+          {"state": "positive", "reason": "提出西部大开发逃亡路线", "source_id": "1"},
+          {"state": "ambiguous", "reason": "担忧保护区老虎威胁", "source_id": "2"},
+          {"state": "negative", "reason": "被迫参与朋友逃亡计划", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "考试失利与家庭惩罚",
+        "emotions": [
+          {"state": "negative", "reason": "数学1分遭家长责打", "source_id": "3"},
+          {"state": "ambiguous", "reason": "考虑离家出走可行性", "source_id": "1"},
+          {"state": "negative", "reason": "手掌受伤影响生活能力", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "逃亡路线策划",
+        "emotions": [
+          {"state": "positive", "reason": "接受西部逃亡建议", "source_id": "1"},
+          {"state": "ambiguous", "reason": "担忧西直门区域安全", "source_id": "1"},
+          {"state": "neutral", "reason": "评估自然保护区的生存条件", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "子女教育方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "发现伪造签字行为", "source_id": "1"},
+          {"state": "positive", "reason": "采用幽默方式处理危机", "source_id": "4"},
+          {"state": "neutral", "reason": "协调家长会参与事宜", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "失踪事件调查",
+        "emotions": [
+          {"state": "negative", "reason": "被警方频繁问询", "source_id": "4"},
+          {"state": "neutral", "reason": "配合学校调查流程", "source_id": "4"},
+          {"state": "positive", "reason": "认可孩子诚实归家行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家长责任履行",
+        "emotions": [
+          {"state": "negative", "reason": "发现冒充签字时的愤怒", "source_id": "1"},
+          {"state": "positive", "reason": "设计数学特训方案", "source_id": "3"},
+          {"state": "neutral", "reason": "执行家校沟通程序", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "子女行为监控",
+        "emotions": [
+          {"state": "ambiguous", "reason": "评估刘星涉案程度", "source_id": "3"},
+          {"state": "negative", "reason": "限制社交活动的挫败感", "source_id": "1"},
+          {"state": "positive", "reason": "采用食品奖励机制", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

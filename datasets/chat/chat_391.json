@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "我就问你一句，我送你礼物你有必要那么嫌弃吗？",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "礼物的接受态度",
+        "Opinion": "不应嫌弃",
+        "Sentiment": "negative",
+        "Rationale": "送的礼物被嫌弃"
+    },
+    {
+        "sentence": "不是，你到底送什么礼物还在恶心人",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "礼物的性质",
+        "Opinion": "恶心",
+        "Sentiment": "negative",
+        "Rationale": "送的礼物让人感到不适"
+    },
+    {
+        "sentence": "谁恶心，礼物拆开过吗。你就恶心",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "对礼物的评价",
+        "Opinion": "对方恶心",
+        "Sentiment": "negative",
+        "Rationale": "对方没有拆开礼物就嫌弃"
+    },
+    {
+        "sentence": "他也是看你喜欢什么买的，要不我你喜欢你拿去好了，每次都要这样说，他还送你了，不是送我了",
+        "Holder": "3",
+        "Target": "1的礼物",
+        "Aspect": "礼物的选择动机",
+        "Opinion": "礼物是用心挑选的",
+        "Sentiment": "neutral",
+        "Rationale": "礼物是用心挑选的"
+    },
+    {
+        "sentence": "你拿我生气干嘛，你有没有点责任心那么大，说我说扔就扔",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "责任心",
+        "Opinion": "缺乏责任心",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让3觉得不负责任"
+    },
+    {
+        "sentence": "算了，大家都是要冷静一点，反正彼此不喜欢很正常",
+        "Holder": "2",
+        "Target": "所有人",
+        "Aspect": "情绪控制",
+        "Opinion": "需要冷静",
+        "Sentiment": "neutral",
+        "Rationale": "2认为大家情绪激动"
+    },
+    {
+        "sentence": "好，那谁也别演了",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "行为真实性",
+        "Opinion": "停止假装",
+        "Sentiment": "negative",
+        "Rationale": "1觉得大家在假装"
+    },
+    {
+        "sentence": "你怎么说话，你会不会说话，你要不先看你自己做的什么东西",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "说话方式",
+        "Opinion": "不会说话",
+        "Sentiment": "negative",
+        "Rationale": "1的说话方式让3觉得不妥"
+    },
+    {
+        "sentence": "你们要打去寝室外面打别在我面前",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "冲突解决地点",
+        "Opinion": "不要在面前打",
+        "Sentiment": "negative",
+        "Rationale": "3不想看到冲突"
+    }
+]

@@ -1,0 +1,117 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "剧本被国际公司选中并担任总编导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "剧本被美国公司选中、担任总编导、被伯乐高度赞赏",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "筹备外国客人来访的招待事宜",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "建议买围裙强调待客礼仪、肯定东波肘子的文化价值",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧东波肘子的胆固醇含量",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对剧本国际化的反应与自我认知",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "支持剧本走向世界、称赞伯乐眼光",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "自认缺乏表演能力",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "筹备外国客人接待的文化展示",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调东波肘子的文化积淀、提议表演节目",
+            "source_id": "1,3,4"
+          },
+          {
+            "state": "negative",
+            "reason": "担心系围裙被误认为保姆",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "参与家庭重大事务讨论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问剧本具体内容",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提议准备鲜花迎接客人",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "参与外宾接待筹备",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "对突发状况的惊讶反应",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "建议表演节目增强文化互动",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "文化对比讨论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提及前苏联兔与美国猪肘子的地域差异",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

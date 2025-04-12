@@ -1,0 +1,54 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "外出喝酒请求与信任冲突",
+        "emotions": [
+          {"state": "positive", "reason": "强调情侣信任关系", "source_id": "2"},
+          {"state": "negative", "reason": "反对录视频报备的控制行为", "source_id": "2"},
+          {"state": "negative", "reason": "预见关系破裂可能性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "穿着与面子问题",
+        "emotions": [
+          {"state": "positive", "reason": "建议改善形象购买香水", "source_id": "2"},
+          {"state": "negative", "reason": "认为对方穿着不得体影响面子", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "关系危机与和解尝试",
+        "emotions": [
+          {"state": "positive", "reason": "主动退款并承诺陪伴", "source_id": "2"},
+          {"state": "negative", "reason": "拒绝和解坚持外出", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "外出请求的心理博弈",
+        "emotions": [
+          {"state": "neutral", "reason": "试探性提出喝酒请求", "source_id": "1"},
+          {"state": "ambiguous", "reason": "对快速同意感到意外", "source_id": "1"},
+          {"state": "negative", "reason": "质疑对方信任程度", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "聚会安排争议",
+        "emotions": [
+          {"state": "negative", "reason": "被限制社交活动自由", "source_id": "1"},
+          {"state": "neutral", "reason": "承诺视频报备行踪", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "关系危机应对",
+        "emotions": [
+          {"state": "negative", "reason": "反对情感控制手段", "source_id": "1"},
+          {"state": "neutral", "reason": "质疑分手言论合理性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

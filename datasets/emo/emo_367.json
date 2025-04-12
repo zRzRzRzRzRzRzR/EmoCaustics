@@ -1,0 +1,131 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程控制与时间分配",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持辩论赛正常流程",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "诗的情感升华与自由追求",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调诗能通过审美维度升华情绪",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "指出家庭既是庇护也是束缚",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "论证诗歌对抗虚无的超越性价值",
+            "source_id": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家人的支持与死亡恐惧的对抗",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调家人记忆消解死亡虚无感",
+            "source_id": "4"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑诗歌对现实影响的持续性",
+            "source_id": "10"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳对方将亲情视为社会约束",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "情感表达的真挚性论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判诗歌美学价值的片面性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调家人陪伴的自然性与本能性",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "通过历史案例论证临终关怀本质",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "现代自我价值与家庭责任的冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭示亲情可能造成的代际荼毒",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "提出精神留白的临终解决方案",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "个体选择权与精神归宿的论证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "探讨死亡认知的哲学差异",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "主张诗作为个人价值见证",
+            "source_id": "10"
+          },
+          {
+            "state": "doubt",
+            "reason": "遭遇现实例证的反驳压力",
+            "source_id": "9"
+          }
+        ]
+      }
+    ]
+  }
+}

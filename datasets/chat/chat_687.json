@@ -1,0 +1,695 @@
+[
+    {
+        "sentence": "他昨天就说完我。他昨天就说我什么你不管什么叭叭叭叭叭说一通，然后你回来叭叭叭叭叭说一通。说哎，张梦慧还替你关了。我能不知道吗？他已经跟我说过了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "沟通方式",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在沟通时重复且无意义地说了很多，并且没有考虑到1的感受"
+    },
+    {
+        "sentence": "我，我。他跟我说，他跟我说，他跟你说过了吗？他没跟我说，他跟你说过了呀。我怎么知道？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "信息传递",
+        "Opinion": "困惑",
+        "Sentiment": "negative",
+        "Rationale": "2没有收到关于1提到的信息"
+    },
+    {
+        "sentence": "你说你什么口气？你什么口气？你你你听过你那是什么口气吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话口气",
+        "Opinion": "批评",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的说话口气不好"
+    },
+    {
+        "sentence": "我什么口气，我不是正常说话的口气吗？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "说话口气",
+        "Opinion": "正常",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己说话的口气是正常的"
+    },
+    {
+        "sentence": "不，你不是！我都跟你说了，说话要温柔一点。你说话什么口气，你不知道吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话口气",
+        "Opinion": "不温柔",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的说话口气不够温柔"
+    },
+    {
+        "sentence": "我不知道啊，我觉得我挺温柔的呀。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "说话口气",
+        "Opinion": "温柔",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得自己说话是温柔的"
+    },
+    {
+        "sentence": "不！你很凶！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话口气",
+        "Opinion": "凶",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的说话口气非常凶"
+    },
+    {
+        "sentence": "你现在不凶吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "说话口气",
+        "Opinion": "凶",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在对话中也很凶"
+    },
+    {
+        "sentence": "你这还不叫双标？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为标准",
+        "Opinion": "双标",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1在对自己的行为标准和对别人的行为标准不一致"
+    },
+    {
+        "sentence": "我没有！",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "否认行为",
+        "Opinion": "否认做过",
+        "Sentiment": "negative",
+        "Rationale": "被误解或指责"
+    },
+    {
+        "sentence": "你没有，你是咋样？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为感到不解"
+    },
+    {
+        "sentence": "你都不知道你很凶吗？我都不跟你说，我昨天都忍着呢，我就心想我不搭理你就得了。你看你干了什么事？你凭什么把你的袜子跟我袜子都分开呀？",
+        "Holder": "1",
+        "Target": "2的态度和行为",
+        "Aspect": "态度和行为合理性",
+        "Opinion": "批评态度和行为",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的态度凶且行为不合理"
+    },
+    {
+        "sentence": "因为我看你分开了呀！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为动机",
+        "Opinion": "解释行为原因",
+        "Sentiment": "neutral",
+        "Rationale": "想解释自己的行为动机"
+    },
+    {
+        "sentence": "我有分的那么仔细吗？",
+        "Holder": "1",
+        "Target": "2的观察",
+        "Aspect": "行为细节",
+        "Opinion": "质疑观察",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的观察不准确"
+    },
+    {
+        "sentence": "你我看你就是分了，但是又分的不仔细，所以我跟你分开呀！无语啊！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "解释并批评",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的行为不够细致"
+    },
+    {
+        "sentence": "现在开始说话你得好好说，知道不知道？",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "沟通态度",
+        "Opinion": "要求改善态度",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的说话方式不好"
+    },
+    {
+        "sentence": "我说话就这样的，我平时说就这样的！",
+        "Holder": "2",
+        "Target": "自己的说话方式",
+        "Aspect": "行为习惯",
+        "Opinion": "坚持自我",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己的说话方式一贯如此"
+    },
+    {
+        "sentence": "你平时说话这样也还好，你平时都不是这个语气好吗？",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "语气变化",
+        "Opinion": "指出语气差异",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的语气与平时不同"
+    },
+    {
+        "sentence": "那我什么语气啊？",
+        "Holder": "2",
+        "Target": "自己的语气",
+        "Aspect": "语气认知",
+        "Opinion": "反问语气",
+        "Sentiment": "neutral",
+        "Rationale": "对1的指责感到不解"
+    },
+    {
+        "sentence": "我想想！",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "1在思考问题"
+    },
+    {
+        "sentence": "你想都想不到，你在这脏我！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对1的评价",
+        "Opinion": "1无法理解",
+        "Sentiment": "negative",
+        "Rationale": "2认为1无法理解自己的意思"
+    },
+    {
+        "sentence": "你你你这种口气太恶劣了，我根本学不出来。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "2的口气",
+        "Opinion": "恶劣",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的口气太恶劣"
+    },
+    {
+        "sentence": "你天天就知道脑补，我发现你一天到晚就这样脑补，就觉得又这了又那了，这也不行，那也不行。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "总是脑补",
+        "Sentiment": "negative",
+        "Rationale": "2认为1总是无端猜测"
+    },
+    {
+        "sentence": "我就是觉得你昨天就是很让人生气。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "2昨天的行为",
+        "Opinion": "让人生气",
+        "Sentiment": "negative",
+        "Rationale": "1认为2昨天的行为让人不满"
+    },
+    {
+        "sentence": "那你说呀？那你为啥，那你为啥还气的一晚上没睡着觉。然后早上起来跟我说，就睡一个小时，结果是因为我气的，到晚上才告诉我。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的情绪",
+        "Opinion": "因2而生气",
+        "Sentiment": "negative",
+        "Rationale": "2认为1自己而生气到失眠"
+    },
+    {
+        "sentence": "谁说？我不是因为你气的，我是一直都在气！但是我睡不着，不是因为你气的，你多大能耐，会因为你？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "1的情绪原因",
+        "Opinion": "不是因为2",
+        "Sentiment": "negative",
+        "Rationale": "1否认因2而生气，但语气中仍带有不满"
+    },
+    {
+        "sentence": "你自己刚才说的，你晚上气的晚上睡不着觉。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的陈述",
+        "Opinion": "1因生气失眠",
+        "Sentiment": "negative",
+        "Rationale": "2认为1自相矛盾"
+    },
+    {
+        "sentence": "我就那么一说，你就相信了啊？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "2的信任",
+        "Opinion": "轻易相信",
+        "Sentiment": "negative",
+        "Rationale": "1认为2轻易相信自己的话"
+    },
+    {
+        "sentence": "那就是啊，你这么一说，你就不准别人相信？我随便一说，你就上纲上线了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的反应",
+        "Opinion": "上纲上线",
+        "Sentiment": "negative",
+        "Rationale": "2认为1对自己的话反应过度"
+    },
+    {
+        "sentence": "你那是随便一说吗？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的认真程度",
+        "Opinion": "质疑言论的随意性",
+        "Sentiment": "doubt",
+        "Rationale": "1对2的言论是否认真表示怀疑"
+    },
+    {
+        "sentence": "你这不叫双标吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的一致性",
+        "Opinion": "指责1双标",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为存在双重标准"
+    },
+    {
+        "sentence": "我哪双标了？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的一致性",
+        "Opinion": "否认双标",
+        "Sentiment": "negative",
+        "Rationale": "1被指责双标而感到冤枉和生气"
+    },
+    {
+        "sentence": "你看岁岁看你的眼神。",
+        "Holder": "2",
+        "Target": "岁岁的眼神",
+        "Aspect": "眼神的含义",
+        "Opinion": "岁岁在看1",
+        "Sentiment": "neutral",
+        "Rationale": "2观察到岁岁的眼神方向"
+    },
+    {
+        "sentence": "他看我了吗？他看你呢。",
+        "Holder": "1",
+        "Target": "岁岁的眼神",
+        "Aspect": "眼神的方向",
+        "Opinion": "岁岁在看2",
+        "Sentiment": "neutral",
+        "Rationale": "1认为岁岁在看2"
+    },
+    {
+        "sentence": "他看你呢，刚才看你呢。",
+        "Holder": "2",
+        "Target": "岁岁的眼神",
+        "Aspect": "眼神的方向",
+        "Opinion": "岁岁在看1",
+        "Sentiment": "neutral",
+        "Rationale": "2坚持认为岁岁刚才在看1"
+    },
+    {
+        "sentence": "现在看你呢。以后说话注意点。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的注意程度",
+        "Opinion": "要求2注意言辞",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的言论不当"
+    },
+    {
+        "sentence": "你这挺横呀你。你咋的，你打我是咋的，你找人揍啊？你叫人来呀？我给你十分钟，是不是要打架你。",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的强硬程度",
+        "Opinion": "指责1态度强硬",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的态度过于强硬"
+    },
+    {
+        "sentence": "你就不会温柔一点吗？",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "态度的温和程度",
+        "Opinion": "建议2温柔一些",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的态度过于强硬"
+    },
+    {
+        "sentence": "我没有温柔吗？",
+        "Holder": "2",
+        "Target": "自己的态度",
+        "Aspect": "态度的温和程度",
+        "Opinion": "否认态度不温柔",
+        "Sentiment": "negative",
+        "Rationale": "2被指责不温柔而感到委屈和生气"
+    },
+    {
+        "sentence": "没有！只有在我痛哭流涕的时候，你才温柔，我总不能每天痛哭流涕吧！",
+        "Holder": "1",
+        "Target": "2的温柔",
+        "Aspect": "温柔的表现时机",
+        "Opinion": "只在特定情况下温柔",
+        "Sentiment": "negative",
+        "Rationale": "只有在痛哭流涕时才感受到对方的温柔"
+    },
+    {
+        "sentence": "我说啥了，我就不温柔？我啥也没说呀！我平时说话就是这样式的。",
+        "Holder": "2",
+        "Target": "自己的温柔",
+        "Aspect": "说话方式",
+        "Opinion": "认为自己平时说话就是这样",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己没有不温柔，只是平时说话方式如此"
+    },
+    {
+        "sentence": "那就是你这人有问题。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "个人问题",
+        "Opinion": "认为对方有问题",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方在特定情况下才温柔"
+    },
+    {
+        "sentence": "行，那你心里就这么想，你别跟我计较不就行了吗？",
+        "Holder": "2",
+        "Target": "1的想法",
+        "Aspect": "对想法的接受",
+        "Opinion": "希望对方不计较",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方不要计较自己的想法"
+    },
+    {
+        "sentence": "我不行。凭什么呀？",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "不接受建议",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的要求不合理"
+    },
+    {
+        "sentence": "你就心里想着我，他人有问题，他就这样的，你就你就别琢磨了，不完了吗？",
+        "Holder": "2",
+        "Target": "1的心态",
+        "Aspect": "对问题的处理",
+        "Opinion": "希望对方不再琢磨",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方不再纠结于问题"
+    },
+    {
+        "sentence": "不行。",
+        "Holder": "1",
+        "Target": "2的劝解",
+        "Aspect": "劝解的接受",
+        "Opinion": "不接受劝解",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的劝解无法接受"
+    },
+    {
+        "sentence": "那我没办法。",
+        "Holder": "2",
+        "Target": "1的拒绝",
+        "Aspect": "应对拒绝",
+        "Opinion": "表示无奈",
+        "Sentiment": "neutral",
+        "Rationale": "对方不接受劝解"
+    },
+    {
+        "sentence": "你这语气给我改好点。",
+        "Holder": "1",
+        "Target": "2的语气",
+        "Aspect": "语气的改善",
+        "Opinion": "要求改善语气",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的语气不好"
+    },
+    {
+        "sentence": "我做不到。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的可行性",
+        "Opinion": "无法做到",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己无法改变语气"
+    },
+    {
+        "sentence": "做不到是吧？",
+        "Holder": "1",
+        "Target": "2的能力",
+        "Aspect": "完成任务的能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2无法完成任务"
+    },
+    {
+        "sentence": "对。",
+        "Holder": "2",
+        "Target": "自己的能力",
+        "Aspect": "完成任务的能力",
+        "Opinion": "承认做不到",
+        "Sentiment": "neutral",
+        "Rationale": "2确实无法完成任务"
+    },
+    {
+        "sentence": "以后别想我好好对你。刘姝闲，滚一边去。滚。以我就这么对你，你觉得你开心不？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对待方式",
+        "Opinion": "不再友好",
+        "Sentiment": "negative",
+        "Rationale": "2无法完成任务，导致1决定不再友好对待2"
+    },
+    {
+        "sentence": "那我有跟你说滚吗？我有跟你这样说话吗？",
+        "Holder": "2",
+        "Target": "1的言语",
+        "Aspect": "言语态度",
+        "Opinion": "反驳",
+        "Sentiment": "negative",
+        "Rationale": "1的言语过于激烈"
+    },
+    {
+        "sentence": "你是语气不好，我是学不来你的语气。",
+        "Holder": "1",
+        "Target": "2的语气",
+        "Aspect": "语气问题",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的语气有问题"
+    },
+    {
+        "sentence": "你一直在一直在里说语气不好。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "语气问题的反复提及",
+        "Opinion": "反驳",
+        "Sentiment": "negative",
+        "Rationale": "1反复提及语气问题，导致2感到被误解和不满"
+    },
+    {
+        "sentence": "语气很重要。打个比方，你说你天天的啊，那些事干的是人事吗？或者是哎呀，你看看你干那些事儿，真是的。这一样吗？",
+        "Holder": "1",
+        "Target": "2的语气",
+        "Aspect": "语气的重要性",
+        "Opinion": "强调语气差异",
+        "Sentiment": "negative",
+        "Rationale": "1认为语气表达情感差异大"
+    },
+    {
+        "sentence": "你是说啊，你是说，我这样说，你瞅你干的叫人事吗？和你看看你干的这叫什么人事啊。这两种语气不一样，这意思不一样吗？",
+        "Holder": "2",
+        "Target": "1的举例",
+        "Aspect": "语气的实际差异",
+        "Opinion": "质疑语气差异",
+        "Sentiment": "negative",
+        "Rationale": "2认为语气差异不影响意思"
+    },
+    {
+        "sentence": "你第二种是阴阳怪气，第一种很不耐烦！你都不好听！",
+        "Holder": "1",
+        "Target": "2的语气",
+        "Aspect": "语气的负面效果",
+        "Opinion": "批评",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的语气带有负面情绪"
+    },
+    {
+        "sentence": "你把口水收好了再说话。我正常说话的，我天天说话都是这样式的。我以前说话也这样式的，你咋不说呢？你咋不，你咋不那啥呢？你又不说。",
+        "Holder": "2",
+        "Target": "1的批评",
+        "Aspect": "说话方式的合理性",
+        "Opinion": "反驳",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己的说话方式一贯如此，却被1批评"
+    },
+    {
+        "sentence": "看看你！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "1认为2总是挑自己的毛病"
+    },
+    {
+        "sentence": "干嘛？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚1为何突然指责自己"
+    },
+    {
+        "sentence": "整天就知道挑我毛病！我怎么的你了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2总是挑剔自己"
+    },
+    {
+        "sentence": "我啥挑你毛病了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得自己并没有挑1的毛病"
+    },
+    {
+        "sentence": "什么都挑。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在各个方面都挑剔自己"
+    },
+    {
+        "sentence": "你讲讲。我怎么不记得你有那么多毛病呢？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "2不记得自己有挑剔1的行为"
+    },
+    {
+        "sentence": "那我就是没有。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "毛病",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "1坚信自己没有毛病"
+    },
+    {
+        "sentence": "那你为啥说我挑你毛病了？你哪有毛病？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "反问",
+        "Sentiment": "neutral",
+        "Rationale": "2不理解1为何说自己挑毛病"
+    },
+    {
+        "sentence": "哼。是没有你有毛病。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "毛病",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "1认为2才有毛病"
+    },
+    {
+        "sentence": "那就是啊，那你还跟我，你还跟我一般见识，你不跟我一般见识不得了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "态度",
+        "Opinion": "建议",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1不应该和自己计较"
+    },
+    {
+        "sentence": "我不行。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "能力",
+        "Opinion": "不行",
+        "Sentiment": "negative",
+        "Rationale": "认为自己无法胜任某事"
+    },
+    {
+        "sentence": "你看，这也不行，那也不行。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "能力",
+        "Opinion": "不行",
+        "Sentiment": "negative",
+        "Rationale": "认为1在很多方面都不行"
+    },
+    {
+        "sentence": "那你说，你先说个方案，你要是烦我的时候怎么办吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "应对烦躁的方法",
+        "Opinion": "要求提出方案",
+        "Sentiment": "neutral",
+        "Rationale": "想知道2在烦躁时的应对方法"
+    },
+    {
+        "sentence": "我啥时候烦你了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "烦躁的频率",
+        "Opinion": "否认烦躁",
+        "Sentiment": "negative",
+        "Rationale": "被指责经常烦躁而感到冤枉"
+    },
+    {
+        "sentence": "你经常烦我。你说话的语气，你是不是如果说我可以纠正你，我可不可以纠正你呢？就这样说。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话语气",
+        "Opinion": "经常烦人",
+        "Sentiment": "negative",
+        "Rationale": "认为2的说话语气让人烦躁"
+    },
+    {
+        "sentence": "但是我就正常说话呀！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "说话方式",
+        "Opinion": "正常说话",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己只是正常说话"
+    },
+    {
+        "sentence": "你才不是呢。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话方式",
+        "Opinion": "不正常",
+        "Sentiment": "negative",
+        "Rationale": "认为2的说话方式不正常"
+    },
+    {
+        "sentence": "我就是的！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "说话方式",
+        "Opinion": "正常",
+        "Sentiment": "negative",
+        "Rationale": "被质疑说话方式不正常而感到生气"
+    }
+]

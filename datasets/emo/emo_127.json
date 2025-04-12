@@ -1,0 +1,127 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "保教案例分享与教师成长评价",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "肯定王佩老师实践成果与西湖教师形象具象化",
+            "source_id": "2,3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观介绍园区建筑特点与活动安排",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "升降梯设计实践全过程",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功完成跳带运送人实验",
+            "source_id": "1,3"
+          },
+          {
+            "state": "neutral",
+            "reason": "讨论滑轮安装与场地安全方案",
+            "source_id": "1,3"
+          },
+          {
+            "state": "positive",
+            "reason": "实现多人协作升降与玩法创新",
+            "source_id": "1,3,5"
+          },
+          {
+            "state": "negative",
+            "reason": "发现彩虹雨颜色不符合预期",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过分层方案解决颜色混合问题",
+            "source_id": "1,3"
+          }
+        ]
+      },
+      {
+        "event": "教学理念转变",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "认知到教师准备的重要性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "确立需求导向的学习模式",
+            "source_id": "2,4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "师幼互动模式分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞赏异步共利互动模型的有效性",
+            "source_id": "2,4"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定环境创设与资源支持策略",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "教师培养体系构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "实现教研模式变革与自主预约机制",
+            "source_id": "1,5"
+          },
+          {
+            "state": "positive",
+            "reason": "建立共情支持系统提升教师专业自信",
+            "source_id": "2,3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "园区发展成果展示",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "展现年轻团队课程改革成效",
+            "source_id": "1,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "说明建筑特殊性与参观动线",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

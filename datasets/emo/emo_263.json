@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "白月光与现任关系的道德讨论",
+        "emotions": [
+          {"state": "negative", "reason": "被3指为备胎和舔狗", "source_id": "3"},
+          {"state": "neutral", "reason": "接受3的安慰", "source_id": "3"},
+          {"state": "negative", "reason": "被6称为平替", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "消息回复的社交礼仪争议",
+        "emotions": [
+          {"state": "positive", "reason": "强调回消息是基本尊重", "source_id": "1"},
+          {"state": "negative", "reason": "指责2不回消息", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感立场的双重标准质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑3的身份合理性", "source_id": "3"},
+          {"state": "positive", "reason": "主张活在当下的生活态度", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "对1情感状态的持续批判",
+        "emotions": [
+          {"state": "negative", "reason": "多次指出1的备胎属性与情感悲哀", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "白月光信念的坚持与动摇",
+        "emotions": [
+          {"state": "positive", "reason": "坚信白月光的忠诚性", "source_id": "4"},
+          {"state": "negative", "reason": "被5质疑恋爱脑", "source_id": "5"},
+          {"state": "neutral", "reason": "确认没有现任的事实", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "对理想化情感的理性批判",
+        "emotions": [
+          {"state": "negative", "reason": "批评4的恋爱脑倾向", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "关系替代性的尖锐指认",
+        "emotions": [
+          {"state": "negative", "reason": "称1为平替引发争议", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,569 @@
+[
+    {
+        "sentence": "我在回家的路上都已经想好了要怎么跟你分手。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "分手的决定",
+        "Opinion": "决定分手",
+        "Sentiment": "negative",
+        "Rationale": "在回家的路上已经深思熟虑了分手的事情"
+    },
+    {
+        "sentence": "我就想跟你分手",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "分手的意愿",
+        "Opinion": "坚决分手",
+        "Sentiment": "negative",
+        "Rationale": "已经决定要分手"
+    },
+    {
+        "sentence": "就因为出去找了个超市没有找到，你就要跟我分手。",
+        "Holder": "2",
+        "Target": "1的分手决定",
+        "Aspect": "分手的原因",
+        "Opinion": "认为分手原因不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得仅仅找不到超市就被提出分手"
+    },
+    {
+        "sentence": "因为你的态度。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度问题",
+        "Opinion": "态度不佳",
+        "Sentiment": "negative",
+        "Rationale": "对方的态度让自己不满意"
+    },
+    {
+        "sentence": "可是你先对我发脾气的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "发脾气的行为",
+        "Opinion": "认为对方先发脾气",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方先发脾气"
+    },
+    {
+        "sentence": "什么叫我先对你发脾气？首先是不是你做错的事情？对啊，我是不是你做错的事情？你是不是应该马上想解决方案，而不是说，不怪我呀？这根本就不怪我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "责任归属",
+        "Opinion": "2做错了事情",
+        "Sentiment": "negative",
+        "Rationale": "1认为2做错了事情却不愿意承担责任"
+    },
+    {
+        "sentence": "因为我当时看你已经走得很烦了，我就说",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪观察",
+        "Opinion": "1很烦",
+        "Sentiment": "neutral",
+        "Rationale": "2观察到1已经很烦了"
+    },
+    {
+        "sentence": "对呀，所以呀，所以你就一直一言不发地跟着我屁股后面。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为方式",
+        "Opinion": "2一直不说话",
+        "Sentiment": "negative",
+        "Rationale": "2一直不说话跟着1，让1感到更加烦躁"
+    },
+    {
+        "sentence": "那你已经说你很累了，我还拉着你一起去找超市吗？",
+        "Holder": "2",
+        "Target": "1的状态",
+        "Aspect": "体力状况",
+        "Opinion": "1很累",
+        "Sentiment": "neutral",
+        "Rationale": "1已经表示很累"
+    },
+    {
+        "sentence": "你给我买个甜品吃不就行了？我都跟你说我好久没吃甜品了。女孩子吃甜品会很开心的。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "解决方案",
+        "Opinion": "买甜品可以解决问题",
+        "Sentiment": "positive",
+        "Rationale": "1认为吃甜品会让自己开心"
+    },
+    {
+        "sentence": "那回家的路上，路过古茗的时候，我本来说叫上你，你，我是不是叫了你宝宝，你是不是不理我？头也不回的又往前走",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对呼唤的反应",
+        "Opinion": "1没有回应",
+        "Sentiment": "negative",
+        "Rationale": "叫了1但1没有回应"
+    },
+    {
+        "sentence": "没听到",
+        "Holder": "1",
+        "Target": "2的呼唤",
+        "Aspect": "听觉感知",
+        "Opinion": "确实没听到",
+        "Sentiment": "neutral",
+        "Rationale": "真的没有听到2的呼唤"
+    },
+    {
+        "sentence": "我还大声的叫了，后面的路人都听到了，都回头看我了",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "呼唤的音量",
+        "Opinion": "1应该听到",
+        "Sentiment": "negative",
+        "Rationale": "大声呼唤且路人都有反应，但1仍未回应"
+    },
+    {
+        "sentence": "没听到，你就不会跑快点上来拉住我吗？你的腿是长来干什么了？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "应对方式",
+        "Opinion": "2应该主动上前",
+        "Sentiment": "negative",
+        "Rationale": "认为2在没听到的情况下应该主动上前"
+    },
+    {
+        "sentence": "那为什么我当时叫你头都不回家，你就往前走呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对呼唤的反应",
+        "Opinion": "1不应忽视",
+        "Sentiment": "negative",
+        "Rationale": "1在呼唤时头也不回地走"
+    },
+    {
+        "sentence": "因为很生气。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "生气",
+        "Sentiment": "negative",
+        "Rationale": "某些事情让自己感到非常不愉快"
+    },
+    {
+        "sentence": "为什么会这么生气呢？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "生气的原因",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1为什么这么生气"
+    },
+    {
+        "sentence": "因为很烦",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "烦躁",
+        "Sentiment": "negative",
+        "Rationale": "某些事情让自己感到非常烦躁"
+    },
+    {
+        "sentence": "那不是很大的一件事啊。",
+        "Holder": "2",
+        "Target": "1的烦恼",
+        "Aspect": "事情的严重性",
+        "Opinion": "事情不大",
+        "Sentiment": "neutral",
+        "Rationale": "认为1所烦恼的事情并不是很严重"
+    },
+    {
+        "sentence": "不是很大，我小气。行了吧",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "性格评价",
+        "Opinion": "承认小气",
+        "Sentiment": "negative",
+        "Rationale": "被2认为事情不大而感到无奈和自我贬低"
+    },
+    {
+        "sentence": "行",
+        "Holder": "2",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地表示同意"
+    },
+    {
+        "sentence": "对，我小气鬼啊。那你别跟我在一起啊",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "性格",
+        "Opinion": "自认为小气",
+        "Sentiment": "negative",
+        "Rationale": "被说成小气鬼感到不高兴"
+    },
+    {
+        "sentence": "我就喜欢小气鬼，有什么问题吗？",
+        "Holder": "2",
+        "Target": "小气鬼",
+        "Aspect": "喜好",
+        "Opinion": "喜欢小气鬼",
+        "Sentiment": "positive",
+        "Rationale": "表达了对小气鬼的喜欢"
+    },
+    {
+        "sentence": "我不喜欢喜欢小气鬼的人，哈哈。",
+        "Holder": "1",
+        "Target": "喜欢小气鬼的人",
+        "Aspect": "喜好",
+        "Opinion": "不喜欢",
+        "Sentiment": "ambiguous",
+        "Rationale": "用幽默的方式表达不喜欢"
+    },
+    {
+        "sentence": "别动我",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "不希望被触碰"
+    },
+    {
+        "sentence": "我就喜欢小气鬼",
+        "Holder": "2",
+        "Target": "小气鬼",
+        "Aspect": "个人喜好",
+        "Opinion": "喜欢",
+        "Sentiment": "positive",
+        "Rationale": "表达了对小气鬼的喜爱"
+    },
+    {
+        "sentence": "问题就是你说去找超市，然后找一半天也找不到，然后最后找到又关门了",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "找超市的过程",
+        "Opinion": "找超市不顺利",
+        "Sentiment": "negative",
+        "Rationale": "找超市的过程不顺利且最终超市关门"
+    },
+    {
+        "sentence": "我生气的原因在哪里？就是找到超市，超市关门了，我们今天出来就是去买菜的。",
+        "Holder": "1",
+        "Target": "超市关门",
+        "Aspect": "购物计划受影响",
+        "Opinion": "计划被打乱",
+        "Sentiment": "negative",
+        "Rationale": "找到超市却关门导致购物计划受影响"
+    },
+    {
+        "sentence": "那你这样想，我们找到超市已经关门了，你当你看到那个超市已经关门的时候，你立刻就生气了，我这个时候要是还去想解决方案，那是去找解决方案重要还是说先把你哄好重要？哪个重要？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "处理情绪与解决问题的优先级",
+        "Opinion": "哄好1更重要",
+        "Sentiment": "neutral",
+        "Rationale": "在面对1的生气情绪时，2在权衡是先解决情绪还是先找解决方案"
+    },
+    {
+        "sentence": "那你要搞清楚我生气的点在哪里啊？",
+        "Holder": "1",
+        "Target": "2的理解",
+        "Aspect": "生气的原因",
+        "Opinion": "2没有理解生气的原因",
+        "Sentiment": "negative",
+        "Rationale": "2没有理解1生气的原因"
+    },
+    {
+        "sentence": "那当时你也不说。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "沟通的及时性",
+        "Opinion": "1没有及时沟通",
+        "Sentiment": "negative",
+        "Rationale": "1在当时没有及时告知信息"
+    },
+    {
+        "sentence": "我不说，我就是不说，我不会讲话",
+        "Holder": "1",
+        "Target": "自己的沟通能力",
+        "Aspect": "沟通能力",
+        "Opinion": "自己不会讲话",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己不擅长讲话"
+    },
+    {
+        "sentence": "别亲我，胡子好扎脸",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "亲昵行为的不适感",
+        "Opinion": "胡子扎脸不舒服",
+        "Sentiment": "negative",
+        "Rationale": "2的胡子让1感到不舒服"
+    },
+    {
+        "sentence": "为什么你在地铁上一句话都不跟我讲呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "沟通的缺乏",
+        "Opinion": "2在地铁上不与自己沟通",
+        "Sentiment": "negative",
+        "Rationale": "2在地铁上没有与1交流"
+    },
+    {
+        "sentence": "问题是我也不知道那个超市关了门，我在抖音上面看到他那家超市，他12月份发的，所以是开着门的，然后评论也没有说他关门了",
+        "Holder": "2",
+        "Target": "超市的状态",
+        "Aspect": "超市的开闭情况",
+        "Opinion": "超市关门了但未提前知晓",
+        "Sentiment": "negative",
+        "Rationale": "2根据抖音上的信息误以为超市是开着的，但实际到达时发现已关门"
+    },
+    {
+        "sentence": "然后关了之后我就发现你有点，就是你一直说好累，我好困，好想睡觉，什么什么之类，就感觉你有点疲惫了，是吧？然后我就想着说，噢，对不起，是我的错，我今天也没有问好，我也不知道这个超市具体在哪个位置，带你过来找，结果找到了也没有，那个我当时第一时间我就给你道歉。",
+        "Holder": "2",
+        "Target": "1的状态",
+        "Aspect": "疲惫感",
+        "Opinion": "感觉1疲惫",
+        "Sentiment": "neutral",
+        "Rationale": "观察到1表现出疲惫的迹象"
+    },
+    {
+        "sentence": "我问你的是地铁上你为什么不跟我讲话？扯那么多干嘛呀？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "地铁上不讲话",
+        "Opinion": "质疑2不讲话",
+        "Sentiment": "negative",
+        "Rationale": "2在地铁上没有与自己讲话"
+    },
+    {
+        "sentence": "我不讲前面为什么？我怎么会后面不跟你讲？我突然间就跟不跟你讲话。为什么？因为我前面哄你了，我哄了你，我还跟你道歉",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "不讲话的原因",
+        "Opinion": "解释不讲话的原因",
+        "Sentiment": "neutral",
+        "Rationale": "之前已经哄过1并且道歉"
+    },
+    {
+        "sentence": "你还是很生气",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "生气",
+        "Opinion": "认为1仍然生气",
+        "Sentiment": "neutral",
+        "Rationale": "观察到1的反应"
+    },
+    {
+        "sentence": "所以就不哄了。是吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "停止哄",
+        "Opinion": "质疑2停止哄",
+        "Sentiment": "negative",
+        "Rationale": "2不再哄自己"
+    },
+    {
+        "sentence": "怎么会那么生气啊？不是什么很大的事，而且我也道歉，我也哄了。讲不讲道理。",
+        "Holder": "2",
+        "Target": "1的生气",
+        "Aspect": "生气的原因",
+        "Opinion": "认为生气不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得事情不大且已道歉"
+    },
+    {
+        "sentence": "讲什么讲道理啊？可就是这件事情明明就是你做错。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "错误的责任",
+        "Opinion": "认为2有错",
+        "Sentiment": "negative",
+        "Rationale": "认为2确实做错了事情"
+    },
+    {
+        "sentence": "那我道歉了呀。你道歉了",
+        "Holder": "2",
+        "Target": "自己的道歉",
+        "Aspect": "道歉的合理性",
+        "Opinion": "认为自己已道歉",
+        "Sentiment": "neutral",
+        "Rationale": "已经道歉"
+    },
+    {
+        "sentence": "那我原不原谅你是不是我的事情啊？是不是？我选择不原谅你，我有什么错呢？问你在地点上面理我，我可能没有现在这么生气",
+        "Holder": "1",
+        "Target": "是否原谅2",
+        "Aspect": "原谅的权利",
+        "Opinion": "认为有不原谅的权利",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的错误让自己生气"
+    },
+    {
+        "sentence": "我喊你的时候你理我的话我也不会生气。",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "回应的及时性",
+        "Opinion": "认为及时回应能避免生气",
+        "Sentiment": "negative",
+        "Rationale": "觉得如果1当时回应了自己，就不会生气"
+    },
+    {
+        "sentence": "那你不知道强制跑上来。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为2不应该强制跑上来",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2强制跑上来的行为不合理"
+    },
+    {
+        "sentence": "那你当你就不晓得当时理我一句。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "回应的合理性",
+        "Opinion": "认为1当时应该回应",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1当时没有理自己"
+    },
+    {
+        "sentence": "我不想理你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "回应的意愿",
+        "Opinion": "不愿意回应",
+        "Sentiment": "negative",
+        "Rationale": "1对2的行为或态度不满"
+    },
+    {
+        "sentence": "那我也不想跑上来。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "行为的意愿",
+        "Opinion": "不愿意跑上来",
+        "Sentiment": "negative",
+        "Rationale": "2对1的态度不满"
+    },
+    {
+        "sentence": "那你现在别抱我啊",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "身体的接触",
+        "Opinion": "不希望被抱",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2抱自己的行为不舒服或不合适"
+    },
+    {
+        "sentence": "不凭什么就不",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为没有依据"
+    },
+    {
+        "sentence": "干嘛啊。对不起。这，这是你的态度。对不起。那我。",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "反应的合理性",
+        "Opinion": "感到困惑并道歉",
+        "Sentiment": "ambiguous",
+        "Rationale": "对2的反应感到困惑，同时又试图通过道歉缓和气氛"
+    },
+    {
+        "sentence": "对不起。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "道歉",
+        "Opinion": "表达歉意",
+        "Sentiment": "neutral",
+        "Rationale": "意识到可能冒犯了2"
+    },
+    {
+        "sentence": "这，这是你的态度。对不起。",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "态度的评价",
+        "Opinion": "指出态度问题并道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为2的态度有问题"
+    },
+    {
+        "sentence": "我至少还道歉了。你的态度呢",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的对比",
+        "Opinion": "认为自己更有礼貌",
+        "Sentiment": "negative",
+        "Rationale": "认为自己已经道歉而1没有"
+    },
+    {
+        "sentence": "我为什么要道歉。",
+        "Holder": "1",
+        "Target": "道歉的必要性",
+        "Aspect": "道歉的原因",
+        "Opinion": "不认为需要道歉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己没有做错事"
+    },
+    {
+        "sentence": "那你当时为什么那么多人我喊你一句话不理。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对喊话的反应",
+        "Opinion": "认为1不理睬是不对的",
+        "Sentiment": "negative",
+        "Rationale": "1在众人面前不理睬自己"
+    },
+    {
+        "sentence": "因为我不想理你啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "理睬的态度",
+        "Opinion": "故意不理睬",
+        "Sentiment": "negative",
+        "Rationale": "对2有不满"
+    },
+    {
+        "sentence": "那至少我还有个态度，我还道歉了。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "道歉的态度",
+        "Opinion": "认为自己有态度",
+        "Sentiment": "positive",
+        "Rationale": "自己已经道歉，表现出了一定的诚意"
+    },
+    {
+        "sentence": "那我现在我还有一个态度呢，我还在你怀里，然后起开呀",
+        "Holder": "1",
+        "Target": "2的怀抱",
+        "Aspect": "身体接触的态度",
+        "Opinion": "希望2离开",
+        "Sentiment": "negative",
+        "Rationale": "不想和2有身体接触"
+    },
+    {
+        "sentence": "又没干嘛",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "没有做错事",
+        "Sentiment": "neutral",
+        "Rationale": "自己认为没有做任何不妥的事情"
+    },
+    {
+        "sentence": "这个姿势也很奇怪。",
+        "Holder": "1",
+        "Target": "2的姿势",
+        "Aspect": "姿势的合理性",
+        "Opinion": "姿势奇怪",
+        "Sentiment": "negative",
+        "Rationale": "看到2的姿势与自己认为的正常姿势不同"
+    },
+    {
+        "sentence": "我喜欢咋了",
+        "Holder": "2",
+        "Target": "自己的姿势",
+        "Aspect": "个人喜好",
+        "Opinion": "坚持自己的喜好",
+        "Sentiment": "negative",
+        "Rationale": "自己的喜好被质疑"
+    }
+]

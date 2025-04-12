@@ -1,0 +1,389 @@
+[
+    {
+        "sentence": "这事用不着你管，连你都是我养大的，我真的被骗了。",
+        "Holder": "1",
+        "Target": "2的干涉",
+        "Aspect": "干涉的合理性",
+        "Opinion": "不需要干涉",
+        "Sentiment": "negative",
+        "Rationale": "1认为2无权干涉自己的事情，并且提到自己养大了2"
+    },
+    {
+        "sentence": "谁你好，我们是派出所民警，",
+        "Holder": "2",
+        "Target": "1的身份确认",
+        "Aspect": "身份的合法性",
+        "Opinion": "表明身份",
+        "Sentiment": "neutral",
+        "Rationale": "2需要表明自己的身份以便进行接下来的对话"
+    },
+    {
+        "sentence": "你们有什么事吗？这。",
+        "Holder": "3",
+        "Target": "2的到来",
+        "Aspect": "来意的不明确",
+        "Opinion": "询问来意",
+        "Sentiment": "neutral",
+        "Rationale": "3不清楚2到来的目的"
+    },
+    {
+        "sentence": "是张建国家吗？",
+        "Holder": "2",
+        "Target": "地址确认",
+        "Aspect": "地址的正确性",
+        "Opinion": "确认地址",
+        "Sentiment": "neutral",
+        "Rationale": "2需要确认是否找对了地方"
+    },
+    {
+        "sentence": "我是他儿子。",
+        "Holder": "3",
+        "Target": "身份",
+        "Aspect": "亲属关系",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在陈述自己的身份"
+    },
+    {
+        "sentence": "大爷，我们这属于内部项目，资金有可能会被警察监控到。您可要保密，好，要不然就全泡汤了。",
+        "Holder": "4",
+        "Target": "项目保密性",
+        "Aspect": "资金安全",
+        "Opinion": "需要保密",
+        "Sentiment": "negative",
+        "Rationale": "担心资金被警察监控导致项目失败"
+    },
+    {
+        "sentence": "我爸是怎么被电信网络诈骗的，",
+        "Holder": "3",
+        "Target": "电信网络诈骗",
+        "Aspect": "诈骗方式",
+        "Opinion": "询问原因",
+        "Sentiment": "negative",
+        "Rationale": "父亲被诈骗"
+    },
+    {
+        "sentence": "大爷有可能是被投资理财电信网络诈骗了，。",
+        "Holder": "2",
+        "Target": "电信网络诈骗",
+        "Aspect": "诈骗类型",
+        "Opinion": "推测原因",
+        "Sentiment": "neutral",
+        "Rationale": "根据情况推测诈骗类型"
+    },
+    {
+        "sentence": "这是派出所民警。",
+        "Holder": "3",
+        "Target": "身份",
+        "Aspect": "职业",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在陈述对方的身份"
+    },
+    {
+        "sentence": "大爷，你是不是被电信网络诈骗了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "是否被诈骗",
+        "Opinion": "怀疑被诈骗",
+        "Sentiment": "ambiguous",
+        "Rationale": "提出怀疑但没有确凿证据"
+    },
+    {
+        "sentence": "怎么可能？",
+        "Holder": "1",
+        "Target": "2的怀疑",
+        "Aspect": "被诈骗的可能性",
+        "Opinion": "否认被诈骗",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑感到不悦"
+    },
+    {
+        "sentence": "你最近有没有投资理财，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "投资理财行为",
+        "Opinion": "询问投资情况",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问情况"
+    },
+    {
+        "sentence": "没有投什么资这么大岁数了，",
+        "Holder": "1",
+        "Target": "投资行为",
+        "Aspect": "投资的可能性",
+        "Opinion": "没有投资",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1强调自己没有进行投资，并且提到自己的年龄"
+    },
+    {
+        "sentence": "我们今天过来是给你预警，最近是不是有电信网络诈骗分子联系你了，沟通你了给你打电话了，",
+        "Holder": "2",
+        "Target": "电信网络诈骗",
+        "Aspect": "诈骗分子的联系",
+        "Opinion": "存在诈骗风险",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2的目的是提醒预警"
+    },
+    {
+        "sentence": "没有啊小伙子",
+        "Holder": "1",
+        "Target": "诈骗联系",
+        "Aspect": "是否存在诈骗联系",
+        "Opinion": "否认有诈骗联系",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1否认有诈骗联系"
+    },
+    {
+        "sentence": "不是爸，你这是又在手机上瞎鼓捣啥了",
+        "Holder": "3",
+        "Target": "说话人1的手机使用",
+        "Aspect": "手机使用的合理性",
+        "Opinion": "怀疑不合理使用",
+        "Sentiment": "negative",
+        "Rationale": "说话人3怀疑说话人1在手机上进行了不合理的操作"
+    },
+    {
+        "sentence": "怎么可能。",
+        "Holder": "1",
+        "Target": "手机使用行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "否认不合理行为",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1对说话人3的质疑进行否认"
+    },
+    {
+        "sentence": "警察来找我们来了，放心。",
+        "Holder": "3",
+        "Target": "警察的到来",
+        "Aspect": "安全状况",
+        "Opinion": "放心",
+        "Sentiment": "positive",
+        "Rationale": "警察的到来意味着安全问题得到了关注"
+    },
+    {
+        "sentence": "大爷没有就好，一定要提高警惕。",
+        "Holder": "2",
+        "Target": "大爷的安全",
+        "Aspect": "安全意识",
+        "Opinion": "需要提高警惕",
+        "Sentiment": "neutral",
+        "Rationale": "大爷没有出事，但为了预防未来可能的风险"
+    },
+    {
+        "sentence": "电信网络诈骗分子电话的，一定不要接听，好好提高警惕，千万别给陌生人转账，大爷。",
+        "Holder": "2",
+        "Target": "电信网络诈骗",
+        "Aspect": "防范措施",
+        "Opinion": "不要接听诈骗电话，不要转账",
+        "Sentiment": "neutral",
+        "Rationale": "电信网络诈骗风险高"
+    },
+    {
+        "sentence": "放心吧。",
+        "Holder": "1",
+        "Target": "当前状况",
+        "Aspect": "安心程度",
+        "Opinion": "放心",
+        "Sentiment": "positive",
+        "Rationale": "对当前状况感到安心"
+    },
+    {
+        "sentence": "爸你是不是在网上搞投资了？人家警察都说了，那些东西都是骗人的，",
+        "Holder": "3",
+        "Target": "网上投资",
+        "Aspect": "投资风险",
+        "Opinion": "网上投资是骗人的",
+        "Sentiment": "negative",
+        "Rationale": "警察指出网上投资是骗局"
+    },
+    {
+        "sentence": "我这么大岁数了我还不知道，不是连你都是我养大的，我用你教。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "知识和经验",
+        "Opinion": "自己有足够的知识和经验",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己有足够的知识和经验，不需要别人的教导"
+    },
+    {
+        "sentence": "行行我不跟你说了，",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对话的继续",
+        "Opinion": "不想继续对话",
+        "Sentiment": "negative",
+        "Rationale": "3的态度让自己感到不愉快"
+    },
+    {
+        "sentence": "我说这怎么还提示我操作失误无法提现了，我昨天还提了几百块钱，",
+        "Holder": "4",
+        "Target": "提现操作",
+        "Aspect": "操作的正确性",
+        "Opinion": "操作没有问题",
+        "Sentiment": "negative",
+        "Rationale": "昨天还能正常提现，今天却提示操作失误"
+    },
+    {
+        "sentence": "肯定是今天和警察上门有问题，你可不能瞎说现在线上操作已经被警察盯上了，这样我给你出个主意去，金店买黄金，我找人给你对线上资金，把资金续上就可以了。",
+        "Holder": "4",
+        "Target": "提现问题",
+        "Aspect": "问题的原因和解决方案",
+        "Opinion": "问题与警察有关，提供解决方案",
+        "Sentiment": "neutral",
+        "Rationale": "认为提现问题与警察上门有关"
+    },
+    {
+        "sentence": "最后我都录完了，应该没问题了。",
+        "Holder": "1",
+        "Target": "录制操作",
+        "Aspect": "操作的完成度",
+        "Opinion": "操作已完成且没有问题",
+        "Sentiment": "positive",
+        "Rationale": "已经完成了录制操作"
+    },
+    {
+        "sentence": "应该没问题了。",
+        "Holder": "4",
+        "Target": "1的录制操作",
+        "Aspect": "操作的可靠性",
+        "Opinion": "操作可靠",
+        "Sentiment": "positive",
+        "Rationale": "认为1的录制操作已经完成且没有问题"
+    },
+    {
+        "sentence": "好的，大爷，黄金一到我就给你办理，肯定没问题的。您前期投入的5万现在还在升值，到时候一块都能提出来。",
+        "Holder": "2",
+        "Target": "投资黄金",
+        "Aspect": "投资回报",
+        "Opinion": "肯定没问题",
+        "Sentiment": "positive",
+        "Rationale": "认为黄金投资会带来回报"
+    },
+    {
+        "sentence": "爸警察都说了，那是骗人的，你怎么还往里面投钱，",
+        "Holder": "3",
+        "Target": "投资黄金",
+        "Aspect": "投资风险",
+        "Opinion": "认为是骗局",
+        "Sentiment": "negative",
+        "Rationale": "警察已经指出投资是骗局"
+    },
+    {
+        "sentence": "我的事用不着你管。",
+        "Holder": "1",
+        "Target": "3的干涉",
+        "Aspect": "个人自主权",
+        "Opinion": "不需要干涉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己的事情被干涉"
+    },
+    {
+        "sentence": "爸你就听我一句劝，咱去派出所没准还能有救，",
+        "Holder": "3",
+        "Target": "投资黄金",
+        "Aspect": "解决问题的途径",
+        "Opinion": "建议去派出所",
+        "Sentiment": "positive",
+        "Rationale": "认为去派出所可能挽回损失"
+    },
+    {
+        "sentence": "不行去派出所干啥？我跟你说你要是去派出所，我跟你没完。",
+        "Holder": "1",
+        "Target": "3的建议",
+        "Aspect": "去派出所的合理性",
+        "Opinion": "反对去派出所",
+        "Sentiment": "negative",
+        "Rationale": "认为去派出所没有必要且会带来麻烦"
+    },
+    {
+        "sentence": "你好，张建国家吗？",
+        "Holder": "3",
+        "Target": "张建国",
+        "Aspect": "身份确认",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行基本的身份确认"
+    },
+    {
+        "sentence": "对，是确定他老将了。",
+        "Holder": "1",
+        "Target": "张建国",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行基本的身份确认"
+    },
+    {
+        "sentence": "来，我请坐。大爷你看一下我们的宣传页。",
+        "Holder": "5",
+        "Target": "大爷",
+        "Aspect": "邀请查看宣传页",
+        "Opinion": "邀请查看",
+        "Sentiment": "positive",
+        "Rationale": "主动邀请大爷查看宣传页，表现出友好和热情的态度"
+    },
+    {
+        "sentence": "其中有个案例跟你这个一模一样，也是投资理财购买黄金的，你看一眼，大爷你看这个案例前期先是小额返利，后期投资大一点就开始让你购买黄金了，跟你这个一模一样，",
+        "Holder": "3",
+        "Target": "大爷的投资案例",
+        "Aspect": "案例相似性",
+        "Opinion": "案例相似",
+        "Sentiment": "neutral",
+        "Rationale": "只是在陈述案例的相似性，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他就是这么跟我说的。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "说话内容",
+        "Opinion": "如实转述",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地转述了他人的话"
+    },
+    {
+        "sentence": "还特意嘱咐我，不让我告诉警察，我还买了黄金给他寄出去，这么说我真的被骗了，咋办？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行为和后果",
+        "Opinion": "感到被骗",
+        "Sentiment": "negative",
+        "Rationale": "被嘱咐不告诉警察并且寄出黄金后意识到被骗"
+    },
+    {
+        "sentence": "警察同志。",
+        "Holder": "1",
+        "Target": "警察",
+        "Aspect": "称呼",
+        "Opinion": "求助",
+        "Sentiment": "neutral",
+        "Rationale": "需要向警察求助"
+    },
+    {
+        "sentence": "你别着急，我们一定尽全力给你挽回损失，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情绪安抚和承诺",
+        "Opinion": "安抚并承诺帮助",
+        "Sentiment": "positive",
+        "Rationale": "想要安抚受害者并承诺尽力帮助"
+    },
+    {
+        "sentence": "快点想想办法，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "解决问题的紧迫性",
+        "Opinion": "催促",
+        "Sentiment": "negative",
+        "Rationale": "急于挽回损失"
+    },
+    {
+        "sentence": "利用黄金交易来隐藏转移诈骗所得的非法资金，已经成为诈骗分子洗钱的常用方式。若遇到有人要求把所有钱拿来购买黄金，请务必提高警惕，加强防范。",
+        "Holder": "5",
+        "Target": "诈骗分子",
+        "Aspect": "诈骗手段和防范建议",
+        "Opinion": "提醒和警示",
+        "Sentiment": "neutral",
+        "Rationale": "客观地描述诈骗手段并提出防范建议"
+    }
+]

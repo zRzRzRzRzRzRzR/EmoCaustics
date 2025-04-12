@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "招聘公平性争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "用自身语言及市场了解优势论证招聘合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释市场竞争的客观平等性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭服务与市场竞争关系",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调服务能力可被超越的市场逻辑",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "市场竞争机会质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑家庭信息垄断导致机会不公",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "市场关系本质探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "确认辩手间存在市场关系定位",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

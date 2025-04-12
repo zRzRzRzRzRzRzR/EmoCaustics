@@ -1,0 +1,99 @@
+{
+  "4": {
+    "events": [
+      {
+        "event": "温饱作为道德的必要条件辩论",
+        "emotions": [
+          {"state": "positive", "reason": "认为温饱是人的基本需求，没有温饱无法谈道德", "source_id": "6,8"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "道德存在的普遍性论证",
+        "emotions": [
+          {"state": "positive", "reason": "引用历史案例证明贫困社会仍可谈道德", "source_id": "4"},
+          {"state": "doubt", "reason": "质疑对方将道德与法律混为一谈", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "辩论流程管理",
+        "emotions": [
+          {"state": "neutral", "reason": "按规则推进辩论环节", "source_id": "all"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "社会基础建设优先性辩论",
+        "emotions": [
+          {"state": "positive", "reason": "强调物质文明是精神文明基础", "source_id": "6"},
+          {"state": "negative", "reason": "批评对方忽略经济发展重要性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "道德实践可行性论证",
+        "emotions": [
+          {"state": "negative", "reason": "指出对方逻辑存在双重标准", "source_id": "9"},
+          {"state": "positive", "reason": "引用多国法律证明道德规范普遍性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "道德标准普适性辩论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑超道德行为的实际推广价值", "source_id": "6"},
+          {"state": "positive", "reason": "提出资源分配与道德产生的关联理论", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "历史道德实践举证",
+        "emotions": [
+          {"state": "positive", "reason": "列举中外历史人物道德实践案例", "source_id": "4"},
+          {"state": "negative", "reason": "揭露富足社会的道德滑坡现象", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "逻辑基础批判",
+        "emotions": [
+          {"state": "negative", "reason": "揭露对方定义混淆问题", "source_id": "8"},
+          {"state": "positive", "reason": "强调道德对文明存续的关键作用", "source_id": "all"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "道德实践条件论证",
+        "emotions": [
+          {"state": "positive", "reason": "构建连续变量分析模型", "source_id": "6"},
+          {"state": "negative", "reason": "批评二分法简化社会现实", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

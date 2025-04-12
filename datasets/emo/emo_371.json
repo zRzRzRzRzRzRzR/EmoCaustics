@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "太爷处理画师作品事件",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑斩杀画师动机", "source_id": "2"},
+          {"state": "positive", "reason": "认同保留血脉真容", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "合作对象选择争议",
+        "emotions": [
+          {"state": "positive", "reason": "信任日本人历史经验", "source_id": "2"},
+          {"state": "negative", "reason": "质疑合作对象可靠性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "暗杀根本条件交涉",
+        "emotions": [
+          {"state": "positive", "reason": "承诺完成暗杀任务", "source_id": "2"},
+          {"state": "negative", "reason": "否认事件关联性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "后代教育选择讨论",
+        "emotions": [
+          {"state": "positive", "reason": "主动提供教育资源", "source_id": "2"},
+          {"state": "neutral", "reason": "接受现有教育方案", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "历史画像真伪辩论",
+        "emotions": [
+          {"state": "negative", "reason": "严惩失真画师", "source_id": "1"},
+          {"state": "positive", "reason": "认可血脉传承", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "政治立场分歧谈判",
+        "emotions": [
+          {"state": "negative", "reason": "警示日本利用风险", "source_id": "1"},
+          {"state": "negative", "reason": "质疑日记真实性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "心理博弈与条件交换",
+        "emotions": [
+          {"state": "ambiguous", "reason": "提出极端交换条件", "source_id": "1"},
+          {"state": "neutral", "reason": "接受谈判策略调整", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "文化价值认同引导",
+        "emotions": [
+          {"state": "positive", "reason": "强调历史场所价值", "source_id": "1"},
+          {"state": "positive", "reason": "维护传统教育观念", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

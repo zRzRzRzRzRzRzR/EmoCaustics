@@ -1,0 +1,54 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "公司所有权争议",
+        "emotions": [
+          {"state": "neutral", "reason": "建议核实公司归属信息", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑动机和资格", "source_id": "2"},
+          {"state": "positive", "reason": "出示营业执照证明所有权", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭关系冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被否认养育之恩和亲情关系", "source_id": "2"},
+          {"state": "negative", "reason": "对女儿表现极度失望", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "资金使用质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "建议确认借款用途", "source_id": "2"},
+          {"state": "negative", "reason": "警告债务风险", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "公司归属权争夺",
+        "emotions": [
+          {"state": "negative", "reason": "质疑母亲动机和资格", "source_id": "1"},
+          {"state": "positive", "reason": "强调自身继承权优势", "source_id": "1"},
+          {"state": "doubt", "reason": "面对产权证据产生动摇", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "亲情断绝纠纷",
+        "emotions": [
+          {"state": "negative", "reason": "否认母亲身份并公开羞辱", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝接受养育恩情", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "资金来源追查",
+        "emotions": [
+          {"state": "negative", "reason": "质疑母亲资金合法性", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝接受财务警告", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

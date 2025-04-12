@@ -1,0 +1,1190 @@
+[
+    {
+        "sentence": "又在胡闹了吗？这木板能下踢吗啊？踢不好就容易伤着人。来拿横木板，我给你表演一下。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为1在胡闹",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的行为不安全，容易伤人"
+    },
+    {
+        "sentence": "爸，您不会踢着我吧？",
+        "Holder": "1",
+        "Target": "2的表演",
+        "Aspect": "安全性",
+        "Opinion": "担心被踢到",
+        "Sentiment": "doubt",
+        "Rationale": "担心2的表演会不小心伤到自己"
+    },
+    {
+        "sentence": "怎么可能呢，都这点事拿好了，那您慢点啊。",
+        "Holder": "2",
+        "Target": "1的担心",
+        "Aspect": "安全性",
+        "Opinion": "认为不会踢到1",
+        "Sentiment": "positive",
+        "Rationale": "对自己技术的自信"
+    },
+    {
+        "sentence": "哇塞，真厉害，很厉害。",
+        "Holder": "2",
+        "Target": "自己的表演",
+        "Aspect": "技术",
+        "Opinion": "认为自己的表演很厉害",
+        "Sentiment": "positive",
+        "Rationale": "对自己的表演感到满意"
+    },
+    {
+        "sentence": "拳，勾拳，摆拳，瑟瑟瑟。摆。笨蛋打得。勾拳、揍拳、摆拳。嗯嗯，左右百雀狗拳爸。哎呦哎呦，小雨要吓死我，你大中午的起来吓唬人，你还要爸爸，这身体受得了吗哎？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "认为1吓到自己",
+        "Sentiment": "negative",
+        "Rationale": "1突然出现吓到了自己，且担心自己的身体状况"
+    },
+    {
+        "sentence": "嗯，您还会练拳击呀？",
+        "Holder": "1",
+        "Target": "2的拳击技能",
+        "Aspect": "拳击技能的存在",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对2是否会练拳击感到好奇"
+    },
+    {
+        "sentence": "什么话？什么叫会呀？在爸爸会的众多本事当中，拳击是最不值得提的一项。哈哈哈，爸爸你好厉害。那当然，爸爸是谁啊？爸爸是爸。",
+        "Holder": "2",
+        "Target": "自己的拳击技能",
+        "Aspect": "拳击技能的重要性",
+        "Opinion": "拳击技能不重要",
+        "Sentiment": "positive",
+        "Rationale": "认为拳击技能在自己众多本事中不值一提"
+    },
+    {
+        "sentence": "爸爸你是高手。哎，错。",
+        "Holder": "1",
+        "Target": "2的技能",
+        "Aspect": "技能水平",
+        "Opinion": "认为2是高手",
+        "Sentiment": "positive",
+        "Rationale": "认可2的技能水平"
+    },
+    {
+        "sentence": "哈哈哈，爸爸是高手中的高手，爸爸的爸爸。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "技能水平",
+        "Opinion": "自己是高手中的高手",
+        "Sentiment": "positive",
+        "Rationale": "对自己技能水平的自信"
+    },
+    {
+        "sentence": "哈哈，爸爸的爸爸，那就是爷爷。",
+        "Holder": "3",
+        "Target": "2的称呼",
+        "Aspect": "称呼的延伸",
+        "Opinion": "爸爸的爸爸是爷爷",
+        "Sentiment": "positive",
+        "Rationale": "对2的称呼进行幽默的延伸"
+    },
+    {
+        "sentence": "哈哈哈，去，别在这捣乱。我说去。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为在捣乱",
+        "Sentiment": "negative",
+        "Rationale": "4的行为打扰到了2"
+    },
+    {
+        "sentence": "别在这捣乱。吓你，快给我换午间新闻，我要看。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为在捣乱",
+        "Sentiment": "negative",
+        "Rationale": "2的行为打扰到了4看电视"
+    },
+    {
+        "sentence": "嗯嗯，好嘞。",
+        "Holder": "2",
+        "Target": "4的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "同意要求",
+        "Sentiment": "positive",
+        "Rationale": "2愿意满足4的要求"
+    },
+    {
+        "sentence": "还是妈妈更高手一点，聪明，走了。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "处理问题的能力",
+        "Opinion": "认为妈妈聪明",
+        "Sentiment": "positive",
+        "Rationale": "妈妈成功地解决了问题"
+    },
+    {
+        "sentence": "嘿嘿，球球球，哎哎哎哎，站住，哈哈，干嘛去？练棒球去呀，谁同意啦？嗯，练棒球。你那练习题做完了吗？警察一扣扣也不行，回去做，去玩会儿。不行，回去我数三下，一，哈哈哈，二哈三，闯，我去，哈哈哈。",
+        "Holder": "4",
+        "Target": "其他人练棒球的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对练棒球",
+        "Sentiment": "negative",
+        "Rationale": "4认为练习题没做完就去玩不合理"
+    },
+    {
+        "sentence": "ชิลีค่ะ. 真是。",
+        "Holder": "4",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地表达了一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "遗憾。嗯，随便一练就这么厉害。嘿嘿，明天我给你买根儿新的去。",
+        "Holder": "2",
+        "Target": "4的表现",
+        "Aspect": "表现的评价",
+        "Opinion": "表现厉害",
+        "Sentiment": "positive",
+        "Rationale": "对4的表现感到惊讶和赞赏"
+    },
+    {
+        "sentence": "我用的高，嘻嘻，我爸爸最厉害，他是游泳冠军啊。那你爸爸好厉害呀，那有什么了不起的，我爸爸还是长跑冠军呢。你爸爸更厉害。",
+        "Holder": "3",
+        "Target": "爸爸的能力",
+        "Aspect": "爸爸的成就",
+        "Opinion": "爸爸很厉害",
+        "Sentiment": "positive",
+        "Rationale": "自豪地提到自己爸爸的成就"
+    },
+    {
+        "sentence": "你们俩的爸爸都不厉害，我爸爸是拳击冠军。",
+        "Holder": "1",
+        "Target": "3和4的爸爸",
+        "Aspect": "爸爸的成就",
+        "Opinion": "自己的爸爸更厉害",
+        "Sentiment": "positive",
+        "Rationale": "想要展示自己爸爸的成就"
+    },
+    {
+        "sentence": "那你爸爸最厉害啦。那有什么，我爸爸是刘海红。真的吗？你爸爸好厉害呀。",
+        "Holder": "3",
+        "Target": "1的爸爸",
+        "Aspect": "爸爸的成就",
+        "Opinion": "1的爸爸很厉害",
+        "Sentiment": "positive",
+        "Rationale": "对1爸爸的成就感到惊讶和赞赏"
+    },
+    {
+        "sentence": "哼，你又不姓李。",
+        "Holder": "1",
+        "Target": "3的姓氏",
+        "Aspect": "姓氏的认同",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "对方不姓李"
+    },
+    {
+        "sentence": "哦，我还没说完，我爸爸是刘海龙的。师兄，别走，我爸爸比刘海龙还要厉害，我爸爸能像这样的木板，他随便一下就能劈成两段。哈哈哈，小雨，你爸爸行吗？",
+        "Holder": "3",
+        "Target": "爸爸的能力",
+        "Aspect": "爸爸的厉害程度",
+        "Opinion": "爸爸非常厉害",
+        "Sentiment": "positive",
+        "Rationale": "爸爸有能力劈开木板"
+    },
+    {
+        "sentence": "劈木板有什么的呀？我爸爸他。",
+        "Holder": "1",
+        "Target": "3爸爸的能力",
+        "Aspect": "劈木板的能力",
+        "Opinion": "不以为然",
+        "Sentiment": "negative",
+        "Rationale": "认为劈木板不算什么"
+    },
+    {
+        "sentence": "能。",
+        "Holder": "2",
+        "Target": "1爸爸的能力",
+        "Aspect": "能力",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "相信1的爸爸有能力"
+    },
+    {
+        "sentence": "像这样的石头，我把轻轻一掌就能给他 p 成两半。",
+        "Holder": "1",
+        "Target": "爸爸的能力",
+        "Aspect": "劈石头的能力",
+        "Opinion": "爸爸非常厉害",
+        "Sentiment": "positive",
+        "Rationale": "爸爸有能力劈开石头"
+    },
+    {
+        "sentence": "真的吗？那还是你爸爸最厉害啦。真能活该吗？这可是石头。",
+        "Holder": "3",
+        "Target": "你爸爸",
+        "Aspect": "能力",
+        "Opinion": "厉害",
+        "Sentiment": "positive",
+        "Rationale": "对方提到的事情显示出他爸爸的能力"
+    },
+    {
+        "sentence": "我知道，是石头。",
+        "Holder": "1",
+        "Target": "石头",
+        "Aspect": "认知",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "对石头的认知没有异议"
+    },
+    {
+        "sentence": "哈哈哈，这可是石头。",
+        "Holder": "4",
+        "Target": "石头",
+        "Aspect": "事实",
+        "Opinion": "强调",
+        "Sentiment": "positive",
+        "Rationale": "觉得石头的存在有趣或重要"
+    },
+    {
+        "sentence": "我知道，是石头，哈哈哈，这。",
+        "Holder": "1",
+        "Target": "石头",
+        "Aspect": "认知",
+        "Opinion": "确认",
+        "Sentiment": "positive",
+        "Rationale": "对石头的认知没有异议且觉得有趣"
+    },
+    {
+        "sentence": "可是石头，他知道是石头。我。",
+        "Holder": "4",
+        "Target": "石头",
+        "Aspect": "认知",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "强调对方知道是石头的事实"
+    },
+    {
+        "sentence": "跟他们都约好了，让他们明天来看你表演。",
+        "Holder": "1",
+        "Target": "2的表演",
+        "Aspect": "表演安排",
+        "Opinion": "已经安排好",
+        "Sentiment": "positive",
+        "Rationale": "已经和大家都约好了"
+    },
+    {
+        "sentence": "我不会啊。",
+        "Holder": "2",
+        "Target": "自己的表演能力",
+        "Aspect": "表演技能",
+        "Opinion": "不会表演",
+        "Sentiment": "negative",
+        "Rationale": "自己没有表演的能力"
+    },
+    {
+        "sentence": "嗯，有的同学的爸爸是长跑冠军。哈哈哈，有的同学的爸爸是游泳冠军，二胖的爸爸还能劈木头呢。哈哈哈，你不是练过拳吗？我就说你能劈砖头。",
+        "Holder": "1",
+        "Target": "2的技能",
+        "Aspect": "技能展示",
+        "Opinion": "认为2有能力",
+        "Sentiment": "positive",
+        "Rationale": "提到其他同学的爸爸都有特殊技能，并且认为2练过拳"
+    },
+    {
+        "sentence": "哈哈哈，爸。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的幽默性",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "1的描述很幽默"
+    },
+    {
+        "sentence": "小雨那个意思就是让你用这个拳头来劈这个石头纸张，叫做劈空掌。",
+        "Holder": "3",
+        "Target": "2的表演内容",
+        "Aspect": "表演的具体要求",
+        "Opinion": "解释表演内容",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地解释了表演的具体要求"
+    },
+    {
+        "sentence": "吧。他们都没见识过，您就给他们开个眼界，哈哈哈，开你。",
+        "Holder": "2",
+        "Target": "1的能力",
+        "Aspect": "展示能力的机会",
+        "Opinion": "期待展示",
+        "Sentiment": "positive",
+        "Rationale": "觉得1有能力展示给大家看"
+    },
+    {
+        "sentence": "对对对，您给他们研研，顺便再教教我，我好出去显摆显摆，是不是？老大。",
+        "Holder": "1",
+        "Target": "2的能力",
+        "Aspect": "教学和展示",
+        "Opinion": "希望学习",
+        "Sentiment": "positive",
+        "Rationale": "想从2那里学到东西并展示给别人"
+    },
+    {
+        "sentence": "去，别瞎捣乱。哈哈哈，小雨，听爸爸说我爸爸真不会这什么劈空掌，你这不是让爸爸出丑啊。",
+        "Holder": "2",
+        "Target": "1的请求",
+        "Aspect": "请求的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的请求让自己难堪"
+    },
+    {
+        "sentence": "哈哈哈，原来你不会呀，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的能力",
+        "Aspect": "劈空掌的掌握",
+        "Opinion": "感到意外",
+        "Sentiment": "positive",
+        "Rationale": "发现2不会劈空掌而感到意外和好笑"
+    },
+    {
+        "sentence": "小雨，你看过武侠电影吗？那里边的帮主往往都是扮装成乞丐傻子呀。为什么这样啊？因为他们得深藏不露。",
+        "Holder": "4",
+        "Target": "武侠电影中的帮主",
+        "Aspect": "扮装的原因",
+        "Opinion": "深藏不露",
+        "Sentiment": "neutral",
+        "Rationale": "解释武侠电影中的情节"
+    },
+    {
+        "sentence": "哈哈哈，明白了，爸爸就是深藏不露的高手。我这就去跟同学打电话去，哈哈哈，我这就去。",
+        "Holder": "1",
+        "Target": "爸爸",
+        "Aspect": "能力",
+        "Opinion": "深藏不露的高手",
+        "Sentiment": "positive",
+        "Rationale": "认为爸爸有能力且低调"
+    },
+    {
+        "sentence": "给你买云南白药去，哈哈哈。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "关心",
+        "Opinion": "需要云南白药",
+        "Sentiment": "positive",
+        "Rationale": "关心1可能受伤"
+    },
+    {
+        "sentence": "呵呵呵，夏大侠真喜爱。行，一看就像挨过揍的。",
+        "Holder": "4",
+        "Target": "夏大侠",
+        "Aspect": "外貌",
+        "Opinion": "像挨过揍的",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃夏大侠的外貌"
+    },
+    {
+        "sentence": "哈哈哈，还说风凉话呢。那你说怎么办？小雨都答应人家了，我是他爹，总不能让他栽面吧。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "态度",
+        "Opinion": "说风凉话",
+        "Sentiment": "negative",
+        "Rationale": "4在说风凉话，而自己需要解决问题"
+    },
+    {
+        "sentence": "那你就吹胡吹啊，你就还把人泰森给打趴下了，真行。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "能力",
+        "Opinion": "能打趴泰森",
+        "Sentiment": "positive",
+        "Rationale": "用夸张的方式夸赞2的能力"
+    },
+    {
+        "sentence": "我就随便那么一说，谁知道他没随便一听，哈哈哈哈。",
+        "Holder": "2",
+        "Target": "自己的话语",
+        "Aspect": "话语的随意性",
+        "Opinion": "随意说说",
+        "Sentiment": "positive",
+        "Rationale": "自己只是随便说说，没想到对方却认真听了"
+    },
+    {
+        "sentence": "能什么都随便说吗？你怎么不随便说说泰森咬霍利费尔德耳朵那招是你出的呀？",
+        "Holder": "4",
+        "Target": "2的随便说话",
+        "Aspect": "话语的合理性",
+        "Opinion": "不应该随便说",
+        "Sentiment": "negative",
+        "Rationale": "认为随便说话可能会引起误解或麻烦"
+    },
+    {
+        "sentence": "哈哈哈，你怎么出的？不止他们？",
+        "Holder": "2",
+        "Target": "4的调侃",
+        "Aspect": "调侃的内容",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得4的调侃很有趣"
+    },
+    {
+        "sentence": "对呀，小包记者很敬业。",
+        "Holder": "4",
+        "Target": "小包记者",
+        "Aspect": "敬业程度",
+        "Opinion": "很敬业",
+        "Sentiment": "positive",
+        "Rationale": "小包记者在工作上表现出色"
+    },
+    {
+        "sentence": "哈哈哈，我找他们要稿仇去。哈哈哈，你怎么不拦着我啊？",
+        "Holder": "2",
+        "Target": "自己找稿仇的行为",
+        "Aspect": "行为的玩笑性",
+        "Opinion": "开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "自己只是开玩笑说要找稿仇，觉得很好笑"
+    },
+    {
+        "sentence": "我拦你干嘛？我脸绷得跟石头似的，我得卸下去了。哎哎啊，好好脸。",
+        "Holder": "4",
+        "Target": "自己的脸",
+        "Aspect": "脸部表情",
+        "Opinion": "脸绷得太紧",
+        "Sentiment": "negative",
+        "Rationale": "脸部表情绷得太紧"
+    },
+    {
+        "sentence": "卸你的石头去吧，父爱的力量是伟大的，哈哈哈。",
+        "Holder": "2",
+        "Target": "4的脸",
+        "Aspect": "脸部表情",
+        "Opinion": "脸绷得太紧",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃4的脸部表情"
+    },
+    {
+        "sentence": "下雨你爸爸怎么还不回来，我都该回家吃饭了，我妈妈该着急了，再等会儿。你爸爸不会皮石头吧？",
+        "Holder": "3",
+        "Target": "1的爸爸",
+        "Aspect": "回家时间",
+        "Opinion": "迟迟不回家",
+        "Sentiment": "negative",
+        "Rationale": "1的爸爸迟迟不回家导致自己不能按时回家吃饭"
+    },
+    {
+        "sentence": "会，我爸可是武林的高手，深藏不露的高手，哈哈哈。",
+        "Holder": "1",
+        "Target": "自己的爸爸",
+        "Aspect": "能力",
+        "Opinion": "武林高手",
+        "Sentiment": "positive",
+        "Rationale": "自豪地介绍自己的爸爸是武林高手"
+    },
+    {
+        "sentence": "哟，这么多同学你好你好你好。今天在这开班会，不是。",
+        "Holder": "4",
+        "Target": "同学们",
+        "Aspect": "见面问候",
+        "Opinion": "热情打招呼",
+        "Sentiment": "positive",
+        "Rationale": "见到很多同学并热情地打招呼"
+    },
+    {
+        "sentence": "来看叔叔 PP 石头的表演呢。",
+        "Holder": "3",
+        "Target": "叔叔的表演",
+        "Aspect": "观看表演的期待",
+        "Opinion": "期待观看",
+        "Sentiment": "positive",
+        "Rationale": "期待看到叔叔的表演"
+    },
+    {
+        "sentence": "呦，今天叔叔正好加班，且回不来，你们先回去。",
+        "Holder": "4",
+        "Target": "加班情况",
+        "Aspect": "加班对计划的打乱",
+        "Opinion": "无法参加表演",
+        "Sentiment": "negative",
+        "Rationale": "加班导致无法参加表演"
+    },
+    {
+        "sentence": "我爸平时不加班了，今天怎么呢？你。",
+        "Holder": "1",
+        "Target": "爸爸的加班",
+        "Aspect": "加班的突然性",
+        "Opinion": "感到意外",
+        "Sentiment": "doubt",
+        "Rationale": "平时爸爸不加班，今天突然加班"
+    },
+    {
+        "sentence": "爸爸平时不加班，今天正好加班。哈哈哈，赶快的，你们先回去吧。啊，爸爸妈妈该着急了，都该吃晚饭，找不着你们了，是不是多着急？",
+        "Holder": "4",
+        "Target": "孩子们的回家",
+        "Aspect": "回家的时间",
+        "Opinion": "催促回家",
+        "Sentiment": "neutral",
+        "Rationale": "担心父母着急和错过晚饭时间"
+    },
+    {
+        "sentence": "我回来了，我。",
+        "Holder": "2",
+        "Target": "自己的回家",
+        "Aspect": "回家的状态",
+        "Opinion": "已经回家",
+        "Sentiment": "neutral",
+        "Rationale": "已经回到家中"
+    },
+    {
+        "sentence": "你是来看你劈石头的。",
+        "Holder": "4",
+        "Target": "2的劈石头表演",
+        "Aspect": "观看目的",
+        "Opinion": "来看劈石头",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述来看劈石头的意图"
+    },
+    {
+        "sentence": "是吗？哈哈哈，好，但是要稍等叔叔一会儿哈。",
+        "Holder": "2",
+        "Target": "4的观看请求",
+        "Aspect": "等待时间",
+        "Opinion": "需要稍等",
+        "Sentiment": "positive",
+        "Rationale": "对方愿意等待"
+    },
+    {
+        "sentence": "我看你爸爸不是屁，不会屁事，你逃跑了，哼哼，会的，不会就会不会，会会会会会会就会的会。",
+        "Holder": "3",
+        "Target": "2的能力",
+        "Aspect": "劈石头的技能",
+        "Opinion": "质疑能力",
+        "Sentiment": "negative",
+        "Rationale": "对2的能力表示怀疑和不屑"
+    },
+    {
+        "sentence": "别说我不会劈石头的，我也没事，看好你，哼。嗯，想看劈石头的举手，我好好放下吧。嗯，把这接到电视上啊。表演皮工长是需要很深的内力的，而今天恰巧叔叔刚和一位高手过完招，所以就没有什么内力了。哈哈哈，现场表演就不表演了，让你们看看叔叔表演的录像好好啦，哈哈哈，快点看啊呃。各位观众大家好，一会儿就由我为大家表演武林中失传已久的铁上场，哈哈哈。对，哈哈哈，我来表演铁砂掌，我为了练就这双铁砂掌，走遍了祖国的名山大川，拜访了各位名师高僧。哈哈哈，希望没有受过高人指点的和没有经过专业指导的人士切勿模仿，谢谢。哈哈哈OK，顺便补充一句，我一会儿要把全身的力气运到我的右掌之上，将哈哈哈劈为两半儿，所以时间可能会长一些，请大家耐心等待现在表演开始。",
+        "Holder": "2",
+        "Target": "自己的表演",
+        "Aspect": "表演内容和方法",
+        "Opinion": "改为播放录像",
+        "Sentiment": "positive",
+        "Rationale": "通过幽默的方式解释了不能现场表演的原因，并提供了替代方案"
+    },
+    {
+        "sentence": "哇哈哈哈哈哈哈哈哈哈啊哈哈哈哇哈哈哈 hahaha 再见。那个刚才说错了，是现场，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己的表述",
+        "Aspect": "表述准确性",
+        "Opinion": "纠正错误",
+        "Sentiment": "positive",
+        "Rationale": "通过笑声和纠正错误来缓解尴尬"
+    },
+    {
+        "sentence": "你什么时候学会的？",
+        "Holder": "4",
+        "Target": "2的学习时间",
+        "Aspect": "学习时间",
+        "Opinion": "询问学习时间",
+        "Sentiment": "neutral",
+        "Rationale": "好奇对方学会某事的时间"
+    },
+    {
+        "sentence": "这么简单的东西还用学吗？哈哈哈，咱们工人有力量，嘿嘿。",
+        "Holder": "2",
+        "Target": "学习的内容",
+        "Aspect": "内容的难易程度",
+        "Opinion": "认为内容简单",
+        "Sentiment": "positive",
+        "Rationale": "觉得内容很简单，不需要学习"
+    },
+    {
+        "sentence": "哈哈哈，小哥，我能采访你一下。什么呀？这个是熊妈，哈哈哈，发高。那这绿的是什么呀？",
+        "Holder": "4",
+        "Target": "2的回答",
+        "Aspect": "回答的内容",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "对方的回答很有趣"
+    },
+    {
+        "sentence": "长毛了，三年前的你们，哈哈哈，草一眼臭死。有创意。",
+        "Holder": "2",
+        "Target": "4的提问",
+        "Aspect": "提问的内容",
+        "Opinion": "觉得有创意",
+        "Sentiment": "positive",
+        "Rationale": "对方的提问有创意"
+    },
+    {
+        "sentence": "哎，就你这个还能假装石头呢嘿。切。",
+        "Holder": "4",
+        "Target": "2的回答",
+        "Aspect": "回答的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的回答不合理"
+    },
+    {
+        "sentence": "你没见过那老房子的石头都这样长，青苔绿绿的。",
+        "Holder": "2",
+        "Target": "老房子的石头",
+        "Aspect": "石头的生长状态",
+        "Opinion": "青苔绿绿的",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是客观的自然现象"
+    },
+    {
+        "sentence": "也就是骗小雨这种六七岁的孩子。切。",
+        "Holder": "4",
+        "Target": "老房子的石头",
+        "Aspect": "真实性的评价",
+        "Opinion": "认为是骗小孩的",
+        "Sentiment": "negative",
+        "Rationale": "觉得老房子的石头只是用来骗小孩的"
+    },
+    {
+        "sentence": "谁说的，好像你也没看出来吧？",
+        "Holder": "2",
+        "Target": "4的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "质疑4的观点",
+        "Sentiment": "negative",
+        "Rationale": "被质疑自己的观点"
+    },
+    {
+        "sentence": "对，我的智商因为只有六七岁，要不我怎么嫁给。",
+        "Holder": "4",
+        "Target": "自己的智商",
+        "Aspect": "智商的评价",
+        "Opinion": "自嘲智商低",
+        "Sentiment": "negative",
+        "Rationale": "被质疑智商"
+    },
+    {
+        "sentence": "你？我是暴脾气。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "性格特点",
+        "Opinion": "自己是暴脾气",
+        "Sentiment": "negative",
+        "Rationale": "对话中的争执让自己感到不快"
+    },
+    {
+        "sentence": "小葛，我跟你商量件事儿，你能不能不再跟这些毛孩子较劲了？哈哈哈，你说他今天让你劈石头，唉，你拿个发糕代替他，明天让你劈铁驼，我看你怎么办？",
+        "Holder": "4",
+        "Target": "小葛的行为",
+        "Aspect": "与毛孩子的较劲",
+        "Opinion": "希望停止较劲",
+        "Sentiment": "positive",
+        "Rationale": "担心小葛继续较劲会带来更多麻烦"
+    },
+    {
+        "sentence": "紫米糕型吗？唧唧唧唧。",
+        "Holder": "2",
+        "Target": "发糕的形状",
+        "Aspect": "形状的描述",
+        "Opinion": "调侃形状",
+        "Sentiment": "neutral",
+        "Rationale": "对发糕形状的调侃没有明显的情感倾向"
+    },
+    {
+        "sentence": "你看看你这右手，肿的跟酱蹄子似的，你再这样下去都快成东波肘子了。",
+        "Holder": "4",
+        "Target": "小葛的右手",
+        "Aspect": "手部肿胀",
+        "Opinion": "担心健康状况",
+        "Sentiment": "negative",
+        "Rationale": "看到小葛的右手肿胀严重，担心他的健康状况"
+    },
+    {
+        "sentence": "多大点事儿啊？小雨中不能找个人来和我单挑吧？",
+        "Holder": "2",
+        "Target": "手部肿胀的问题",
+        "Aspect": "问题的严重性",
+        "Opinion": "认为问题不大",
+        "Sentiment": "positive",
+        "Rationale": "觉得手部肿胀不是大问题"
+    },
+    {
+        "sentence": "快快快快快。什么东西啊？哼，没粘耶，又没有邮票，哼哼。挑战书。小雨，这怎么回事？",
+        "Holder": "2",
+        "Target": "挑战书",
+        "Aspect": "挑战书的完整性",
+        "Opinion": "质疑挑战书",
+        "Sentiment": "negative",
+        "Rationale": "发现挑战书没有粘好且没有邮票，觉得不符合规范"
+    },
+    {
+        "sentence": "是二胖和二胖的爸爸不服气，哈哈哈，要和你什么高什么低啊？",
+        "Holder": "1",
+        "Target": "二胖和二胖的爸爸",
+        "Aspect": "不服气的态度",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得二胖和他爸爸不服气的样子很滑稽"
+    },
+    {
+        "sentence": "一决高低差不多。",
+        "Holder": "4",
+        "Target": "二胖和二胖的爸爸",
+        "Aspect": "挑战的态度",
+        "Opinion": "接受挑战",
+        "Sentiment": "neutral",
+        "Rationale": "对挑战持中立态度"
+    },
+    {
+        "sentence": "反正他爸就要跟你单挑，哈哈哈。",
+        "Holder": "1",
+        "Target": "二胖的爸爸",
+        "Aspect": "单挑的决心",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得二胖的爸爸要单挑的样子很搞笑"
+    },
+    {
+        "sentence": "小雨，来把这个挑战书还给你同学，告诉他爸爸不和他爸爸单挑。为什么啊唉？你想啊，爸爸是跟泰森学的拳击，爸爸连泰森都打败了。爸爸多厉害啊。哈哈哈，爸爸要是跟你同学的爸爸单挑的话，万一失手把他打坏了，爸爸还得花钱带他去医院看病。哈哈哈，再说嘛，冤家易借不易借，君子动口不动手嘛啊。",
+        "Holder": "2",
+        "Target": "二胖的爸爸",
+        "Aspect": "单挑的合理性",
+        "Opinion": "反对单挑",
+        "Sentiment": "positive",
+        "Rationale": "担心失手打坏人并且认为君子应该动口不动手"
+    },
+    {
+        "sentence": "什么意思？我一点都听不懂。哈哈哈，小雨。",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话的理解难度",
+        "Opinion": "听不懂",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的话复杂难懂但又觉得好笑"
+    },
+    {
+        "sentence": "你这还不明白，你爸爸根本就蒙你，他根本就不会拳击人，泰森能教他吗？净瞎骗人，他要跟人单挑，他不得被人揍扁了吧？",
+        "Holder": "4",
+        "Target": "爸爸",
+        "Aspect": "拳击能力",
+        "Opinion": "不会拳击",
+        "Sentiment": "negative",
+        "Rationale": "认为爸爸不会拳击且在骗人"
+    },
+    {
+        "sentence": "哈哈哈，你是不是在骗我呀？我和同学都亲眼看着一掌把石头给切成两半了，那。",
+        "Holder": "1",
+        "Target": "4的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "positive",
+        "Rationale": "亲眼见证了爸爸的能力"
+    },
+    {
+        "sentence": "石头根本就是假的。",
+        "Holder": "4",
+        "Target": "石头",
+        "Aspect": "真实性",
+        "Opinion": "假的",
+        "Sentiment": "negative",
+        "Rationale": "认为石头是假的"
+    },
+    {
+        "sentence": "妈，你胡说，我和同学都亲眼看见了。",
+        "Holder": "1",
+        "Target": "4的话",
+        "Aspect": "真实性",
+        "Opinion": "亲眼所见",
+        "Sentiment": "negative",
+        "Rationale": "亲眼见证了事件"
+    },
+    {
+        "sentence": "哎哎，夏东海，你能不能跟儿子好好坦白坦白。好好好。",
+        "Holder": "4",
+        "Target": "夏东海",
+        "Aspect": "坦白",
+        "Opinion": "需要坦白",
+        "Sentiment": "neutral",
+        "Rationale": "希望夏东海能向儿子坦白真相"
+    },
+    {
+        "sentence": "小雨，哼，来来来，儿子，哈，这样吧，你去和你的同学说，爸爸同意和他爸爸单挑耶。",
+        "Holder": "2",
+        "Target": "单挑提议",
+        "Aspect": "提议的合理性",
+        "Opinion": "同意单挑",
+        "Sentiment": "positive",
+        "Rationale": "觉得和对方爸爸单挑是个有趣且可行的提议"
+    },
+    {
+        "sentence": "哎哎啊，疯了吧。你。",
+        "Holder": "4",
+        "Target": "2的单挑提议",
+        "Aspect": "提议的合理性",
+        "Opinion": "认为提议不理智",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的提议过于荒谬和不理智"
+    },
+    {
+        "sentence": "没事，但是必须等爸爸有时间才行。可是爸爸有时间的时候，他爸爸不一定有时间，他爸爸有时间的时候，爸爸不一定有时间。要找一个爸爸也有时间，他爸爸也有时间的时候就比较困难。哈哈哈，爸爸你现在有时间吗？现在爸爸当然有时间了，二胖。",
+        "Holder": "2",
+        "Target": "单挑时间安排",
+        "Aspect": "时间安排的复杂性",
+        "Opinion": "认为时间安排困难但乐观",
+        "Sentiment": "positive",
+        "Rationale": "虽然时间安排上有困难，但仍然保持乐观态度"
+    },
+    {
+        "sentence": "的爸爸就在楼下等着呢。",
+        "Holder": "1",
+        "Target": "对方爸爸的等待",
+        "Aspect": "等待的状态",
+        "Opinion": "对方爸爸已经在等待",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "你笑什么呀？我这都急的什么似的，还。",
+        "Holder": "4",
+        "Target": "2的笑声",
+        "Aspect": "笑声的合理性",
+        "Opinion": "认为笑声不合时宜",
+        "Sentiment": "negative",
+        "Rationale": "自己感到焦急，而2却在笑，觉得2的笑声不合时宜"
+    },
+    {
+        "sentence": "急什么呀？你看我这玉树林高多大，肯定是胜券在。hi， oh 怎么样。",
+        "Holder": "2",
+        "Target": "自己的状态",
+        "Aspect": "自信程度",
+        "Opinion": "自信满满",
+        "Sentiment": "positive",
+        "Rationale": "对自己有充分的信心"
+    },
+    {
+        "sentence": "哈哈，老公，这人可有点武大三虎背熊的意思。",
+        "Holder": "4",
+        "Target": "2的表现",
+        "Aspect": "形象比喻",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的形象比喻很有趣"
+    },
+    {
+        "sentence": "哈哈哈，老婆，要不然我淋点拖拉赶紧逃，吃药吧。不行，爸啊。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "幽默应对",
+        "Opinion": "调侃自己",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式应对"
+    },
+    {
+        "sentence": "爸，你看二胖他爸都把木板给劈成两半了，就看你的吧，哈哈哈。",
+        "Holder": "1",
+        "Target": "二胖他爸的行为",
+        "Aspect": "能力展示",
+        "Opinion": "佩服",
+        "Sentiment": "positive",
+        "Rationale": "佩服二胖他爸的能力"
+    },
+    {
+        "sentence": "嘿，你做作业了吗？你回去。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "责任提醒",
+        "Opinion": "提醒做作业",
+        "Sentiment": "neutral",
+        "Rationale": "需要提醒1完成作业"
+    },
+    {
+        "sentence": "写作业去啊，哈哈哈。哎，您是夏先生吗？哈哈哈，是，久仰久仰。听说您的武艺高强，请嘟嘟指教这个主播。",
+        "Holder": "2",
+        "Target": "夏先生",
+        "Aspect": "武艺",
+        "Opinion": "武艺高强",
+        "Sentiment": "positive",
+        "Rationale": "听说夏先生的武艺高强"
+    },
+    {
+        "sentence": "您还没吃晚饭吧？您到我们家吃点饭去，我们家有好多给。对，咱家还没买菜呢。",
+        "Holder": "4",
+        "Target": "夏先生",
+        "Aspect": "晚饭邀请",
+        "Opinion": "邀请吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "关心夏先生是否吃饭"
+    },
+    {
+        "sentence": "哈哈哈，你得知道大哥要来家吃饭，你为什么不买点好吃的？我快去。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "准备饭菜",
+        "Opinion": "应该买好吃的",
+        "Sentiment": "positive",
+        "Rationale": "大哥要来家吃饭"
+    },
+    {
+        "sentence": "买。我去，我去买点东西。那个。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "去买菜",
+        "Opinion": "同意去买",
+        "Sentiment": "neutral",
+        "Rationale": "同意去买菜"
+    },
+    {
+        "sentence": "大哥咱俩回家喝点酒聊聊天，小孩的事先放一边，哈哈哈。",
+        "Holder": "2",
+        "Target": "夏先生",
+        "Aspect": "喝酒聊天",
+        "Opinion": "放松一下",
+        "Sentiment": "positive",
+        "Rationale": "想和夏先生放松一下"
+    },
+    {
+        "sentence": "爸爸赶紧跟他单挑，你也。",
+        "Holder": "3",
+        "Target": "爸爸",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "催促单挑",
+        "Sentiment": "positive",
+        "Rationale": "希望爸爸尽快参与单挑"
+    },
+    {
+        "sentence": "跟他单挑。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "行动的决策",
+        "Opinion": "同意单挑",
+        "Sentiment": "positive",
+        "Rationale": "愿意接受挑战"
+    },
+    {
+        "sentence": "哈哈哈，你看孩子们都着急了，要不咱们先热热身？hi，干嘛呢喂？我赶紧。",
+        "Holder": "2",
+        "Target": "孩子们",
+        "Aspect": "情绪的观察",
+        "Opinion": "孩子们着急",
+        "Sentiment": "positive",
+        "Rationale": "看到孩子们着急的样子觉得有趣"
+    },
+    {
+        "sentence": "打120，打不过。",
+        "Holder": "4",
+        "Target": "单挑结果",
+        "Aspect": "胜负的预测",
+        "Opinion": "预测失败",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己打不过对方"
+    },
+    {
+        "sentence": "120 你直接打殡仪馆得了。哈哈哈，一会一。",
+        "Holder": "2",
+        "Target": "4的玩笑",
+        "Aspect": "玩笑的回应",
+        "Opinion": "夸张回应",
+        "Sentiment": "positive",
+        "Rationale": "觉得4的玩笑有趣"
+    },
+    {
+        "sentence": "打起来，干脆你马上就投降。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "战斗态度",
+        "Opinion": "要求对方投降",
+        "Sentiment": "positive",
+        "Rationale": "用轻松的语气开玩笑要求对方投降"
+    },
+    {
+        "sentence": "那也行，你戴白毛巾了吗？哈哈哈，没看过那个拳击比赛啊，一会看我不行了的时候赶紧把白毛巾扔出来。那就代表我投降了。哈哈哈，我去买白毛巾，哈哈哈。开先生，要不然你先请那个再热热身？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "战斗准备",
+        "Opinion": "调侃对方的提议",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式回应对方的玩笑"
+    },
+    {
+        "sentence": "加油，老伴加油，老爸加油。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "支持鼓励",
+        "Opinion": "鼓励支持",
+        "Sentiment": "positive",
+        "Rationale": "用鼓励的话语支持老伴和老爸"
+    },
+    {
+        "sentence": "哈哈哈，我跟我老公说句话，哈哈，我告诉你木豆茬有问题，上面都是老茬，而且还有胶。",
+        "Holder": "4",
+        "Target": "木豆茬",
+        "Aspect": "质量问题",
+        "Opinion": "指出问题",
+        "Sentiment": "neutral",
+        "Rationale": "客观地指出木豆茬的问题"
+    },
+    {
+        "sentence": "这么说他也不过是徒有虚啊，哈哈哈，好，看来跟我也就是半斤八，哈哈哈。那我就汹涌成了，哼，老婆一边待着去，哈哈哈。那个来。呵，可别玩真的。哈哈哈，我都没整，咱可能为了孩子，你一个我这俩能留，哈哈哈。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "能力评价",
+        "Opinion": "调侃对方的能力",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃对方"
+    },
+    {
+        "sentence": "妈，嗯。他们这是在打拳吗？",
+        "Holder": "1",
+        "Target": "他们的动作",
+        "Aspect": "动作的性质",
+        "Opinion": "疑问是否是打拳",
+        "Sentiment": "neutral",
+        "Rationale": "对他们的动作性质不确定"
+    },
+    {
+        "sentence": "这练的是内功，这叫柔拳，哈哈哈。嗯，拜拜，我回家做饭去了，你也该减肥了。哈哈哈，您不应该减肥，白买一毛巾，哈哈哈。",
+        "Holder": "4",
+        "Target": "他们的动作",
+        "Aspect": "动作的性质",
+        "Opinion": "是柔拳",
+        "Sentiment": "positive",
+        "Rationale": "确认他们的动作是柔拳"
+    },
+    {
+        "sentence": "嗯，好好功夫。嗯哦哦嗯，这么慢，脑子真没变，hahaha。",
+        "Holder": "2",
+        "Target": "他们的功夫",
+        "Aspect": "功夫的表现",
+        "Opinion": "动作慢",
+        "Sentiment": "positive",
+        "Rationale": "觉得他们的动作虽然慢但功夫好"
+    },
+    {
+        "sentence": "这要早知道推手这么累，还不如早点跟他们说实话呢。是当爹太不容易了，走吧，先送他们回去吧，哈哈哈，来，宝贝。",
+        "Holder": "2",
+        "Target": "推手活动",
+        "Aspect": "活动的累度",
+        "Opinion": "推手很累",
+        "Sentiment": "positive",
+        "Rationale": "觉得推手活动很累，但作为父亲的责任感让他觉得不容易"
+    },
+    {
+        "sentence": "嗯，爸，到底谁赢了？爸，到底谁赢了？",
+        "Holder": "1",
+        "Target": "比赛结果",
+        "Aspect": "胜负",
+        "Opinion": "疑问谁赢了",
+        "Sentiment": "neutral",
+        "Rationale": "对比赛结果不清楚"
+    },
+    {
+        "sentence": "当然是我赢了，哈哈哈。",
+        "Holder": "2",
+        "Target": "比赛结果",
+        "Aspect": "胜负",
+        "Opinion": "自己赢了",
+        "Sentiment": "positive",
+        "Rationale": "自己赢得了比赛"
+    },
+    {
+        "sentence": "bye bye bye。闪，坐坐秩去。好。",
+        "Holder": "2",
+        "Target": "离开",
+        "Aspect": "行为",
+        "Opinion": "准备离开",
+        "Sentiment": "neutral",
+        "Rationale": "对话结束"
+    },
+    {
+        "sentence": "上钩去。哎哎霞东海。",
+        "Holder": "4",
+        "Target": "行为",
+        "Aspect": "动作",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用调侃的方式回应"
+    },
+    {
+        "sentence": "呵，那个我洗完脸刷完牙了。",
+        "Holder": "2",
+        "Target": "个人卫生",
+        "Aspect": "完成情况",
+        "Opinion": "已完成",
+        "Sentiment": "neutral",
+        "Rationale": "完成了日常的洗漱"
+    },
+    {
+        "sentence": "那你就在这左勾拳右勾拳，待会小雨回来还得给你找个同学他爸跟你单挑啊，哈哈哈。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "调侃",
+        "Opinion": "开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "用夸张的方式开玩笑"
+    },
+    {
+        "sentence": "呵呵，不可能，你想想，我把他们班上最厉害的爸爸都打成平手了，谁还敢跟我单挑啊？",
+        "Holder": "2",
+        "Target": "自己的实力",
+        "Aspect": "战斗能力",
+        "Opinion": "非常自信",
+        "Sentiment": "positive",
+        "Rationale": "自己能够与班上最厉害的爸爸打成平手"
+    },
+    {
+        "sentence": "爸爸朵朵说他爸爸是空手道九段。哈哈哈，让他给你打一架。",
+        "Holder": "1",
+        "Target": "朵朵的爸爸",
+        "Aspect": "武术水平",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "觉得朵朵爸爸的空手道九段很有趣"
+    },
+    {
+        "sentence": "夏东海。",
+        "Holder": "4",
+        "Target": "夏东海",
+        "Aspect": "提及名字",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地提及名字，没有表达任何情感"
+    },
+    {
+        "sentence": "我知道，梅梅，我错了。哈哈哈，那个小雨爸爸，其实。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "认错态度",
+        "Opinion": "认错并试图解释",
+        "Sentiment": "positive",
+        "Rationale": "意识到自己之前的错误"
+    },
+    {
+        "sentence": "其实啊，我跟二胖都知道了，像不像你？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为相似性",
+        "Opinion": "认为相似",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的行为与自己知道的情况相似"
+    },
+    {
+        "sentence": "嘿，你说这孩子光。",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "孩子的行为",
+        "Opinion": "孩子光",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述孩子的行为，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你搁那骗我，你居然咬死你",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "4的行为",
+        "Opinion": "4在骗人",
+        "Sentiment": "negative",
+        "Rationale": "认为4在欺骗自己"
+    }
+]

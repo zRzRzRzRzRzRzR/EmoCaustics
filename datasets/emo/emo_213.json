@@ -1,0 +1,123 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "机场安检经历中的技术偏见",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "机器无法识别自己及同行者，系统存在数据偏见",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "通过对比不同种族成员的通关结果得出系统性结论",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "人工智能社会影响辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑深度学习技术缺陷及责任归属问题",
+            "source_id": "3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "参与自动化对社会经济影响的辩证讨论",
+            "source_id": "3,4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "消除AI数据偏见研究",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功开发去偏模型并提升性能",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "发现AI推荐系统存在民族餐馆偏见",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "人工智能伦理边界探索",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调人机协作的医疗诊断优势",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧数据碎片导致的隐私泄露风险",
+            "source_id": "2,4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人工智能发展前景展望",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调生产力提升和病理检查普及潜力",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认数据主观性但否定必然偏见",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "技术理性边界探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解析有限理性与完全理性的本质差异",
+            "source_id": "2,4"
+          },
+          {
+            "state": "positive",
+            "reason": "提出法律与技术结合的隐私保护方案",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "人工智能技术瓶颈探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "质疑深度学习架构的技术饱和点",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出意识AI的伦理风险问题",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

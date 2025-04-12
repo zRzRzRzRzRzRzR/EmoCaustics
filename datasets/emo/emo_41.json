@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "杨科团队被分散调离",
+        "emotions": [
+          {"state": "negative", "reason": "质疑被闲置排挤的动机", "source_id": "3"},
+          {"state": "negative", "reason": "被迫学习不道德商业手段", "source_id": "3"},
+          {"state": "neutral", "reason": "客观评价李昂的培养价值", "source_id": "2"},
+          {"state": "positive", "reason": "推动里昂工作室成立", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "职业发展矛盾激化",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝被动解聘方案", "source_id": "3"},
+          {"state": "positive", "reason": "主动组建新团队", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "人员调动风波处理",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述人员变动事实", "source_id": "3"},
+          {"state": "negative", "reason": "质疑逼走杨科的合理性", "source_id": "3"},
+          {"state": "positive", "reason": "认可联系猎头行为", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "核心人才争夺战",
+        "emotions": [
+          {"state": "positive", "reason": "争取李昂加入团队", "source_id": "1"},
+          {"state": "positive", "reason": "强调人才价值", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "权力结构调整",
+        "emotions": [
+          {"state": "neutral", "reason": "解释人员调动动机", "source_id": "1"},
+          {"state": "negative", "reason": "否定跳槽行为正当性", "source_id": "1"},
+          {"state": "negative", "reason": "质疑助理的立场", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "组织忠诚度考验",
+        "emotions": [
+          {"state": "neutral", "reason": "处理李阳离职程序", "source_id": "2"},
+          {"state": "negative", "reason": "反思人员流失责任", "source_id": "1,2"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+[
+    {
+        "sentence": "我看看是谁吃了熊心豹子胆，敢伤我赵黑龙的弟弟！",
+        "Holder": "1",
+        "Target": "伤害弟弟的人",
+        "Aspect": "行为胆量",
+        "Opinion": "极其愤怒",
+        "Sentiment": "negative",
+        "Rationale": "有人敢伤害自己的弟弟"
+    },
+    {
+        "sentence": "大哥，就是这个小崽子，差点给我打个半死。",
+        "Holder": "2",
+        "Target": "小崽子",
+        "Aspect": "暴力行为",
+        "Opinion": "差点被打死",
+        "Sentiment": "negative",
+        "Rationale": "自己差点被对方打死"
+    },
+    {
+        "sentence": "小崽子，你怎么不说话了呀？",
+        "Holder": "2",
+        "Target": "小崽子",
+        "Aspect": "沉默行为",
+        "Opinion": "质疑沉默",
+        "Sentiment": "negative",
+        "Rationale": "对方突然沉默不语"
+    },
+    {
+        "sentence": "现在我大哥来了，你不是说他要剁我一只手吗？还要把白金瀚送给你！啊？",
+        "Holder": "2",
+        "Target": "小崽子",
+        "Aspect": "威胁和承诺",
+        "Opinion": "质疑对方的威胁和承诺",
+        "Sentiment": "negative",
+        "Rationale": "对方之前的威胁和承诺现在显得无力"
+    },
+    {
+        "sentence": "齐等闲，你不是被吓傻了吧你？啊？你说话呀，你装哑巴是吧！",
+        "Holder": "3",
+        "Target": "齐等闲",
+        "Aspect": "反应状态",
+        "Opinion": "认为对方被吓傻",
+        "Sentiment": "negative",
+        "Rationale": "对方没有回应"
+    },
+    {
+        "sentence": "黑龙啊，这是你们的家事，你看着处理吧，我们就不掺和了。",
+        "Holder": "4",
+        "Target": "家事处理",
+        "Aspect": "处理方式",
+        "Opinion": "不干涉",
+        "Sentiment": "neutral",
+        "Rationale": "认为这是别人的家事"
+    },
+    {
+        "sentence": "只是今天别让这小子活着出去就行！",
+        "Holder": "4",
+        "Target": "小子",
+        "Aspect": "生死",
+        "Opinion": "不让活着",
+        "Sentiment": "negative",
+        "Rationale": "对这小子有强烈的敌意"
+    },
+    {
+        "sentence": "小泥鳅啊，你打算怎么处理我啊？",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "处理方式",
+        "Opinion": "询问处理方式",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定对方会如何对待自己"
+    },
+    {
+        "sentence": "齐等闲，你找死！",
+        "Holder": "6",
+        "Target": "齐等闲",
+        "Aspect": "行为后果",
+        "Opinion": "找死",
+        "Sentiment": "negative",
+        "Rationale": "认为齐等闲的行为极其危险或不理智"
+    },
+    {
+        "sentence": "赵会长也是你得罪的？",
+        "Holder": "6",
+        "Target": "齐等闲",
+        "Aspect": "行为后果",
+        "Opinion": "得罪赵会长",
+        "Sentiment": "negative",
+        "Rationale": "齐等闲得罪了赵会长，这是一个严重的错误"
+    },
+    {
+        "sentence": "赵会长？你，你怎么给他跪下了你？",
+        "Holder": "4",
+        "Target": "赵会长",
+        "Aspect": "下跪行为",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "看到赵会长跪下，感到意外和不解"
+    },
+    {
+        "sentence": "二当家，舍弟年幼无知，不知道深浅，得罪了二当家，还请二当家的宽恕。",
+        "Holder": "1",
+        "Target": "二当家",
+        "Aspect": "舍弟的行为",
+        "Opinion": "请求宽恕",
+        "Sentiment": "neutral",
+        "Rationale": "舍弟年幼无知得罪了二当家"
+    },
+    {
+        "sentence": "赵会长，你身为黑龙商会的会长，你能给这个杂碎下跪？",
+        "Holder": "3",
+        "Target": "赵会长",
+        "Aspect": "下跪行为",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "赵会长作为会长却给杂碎下跪"
+    },
+    {
+        "sentence": "怎么，你是不准备给我们主持公道了？",
+        "Holder": "3",
+        "Target": "赵会长",
+        "Aspect": "主持公道",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "赵会长下跪的行为让人怀疑他是否还能主持公道"
+    },
+    {
+        "sentence": "行了，起来吧，你好歹也是黑龙商会的会长，见人就跪，成何体统啊。",
+        "Holder": "5",
+        "Target": "赵会长",
+        "Aspect": "下跪行为",
+        "Opinion": "不妥",
+        "Sentiment": "negative",
+        "Rationale": "赵会长作为会长见人就跪有失体统"
+    },
+    {
+        "sentence": "你问问他自己吧，他绑了我的老婆，我过来要人，他非要护短。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "行为合理性",
+        "Opinion": "4绑架了5的老婆且不归还",
+        "Sentiment": "negative",
+        "Rationale": "4绑架了5的老婆并且不归还"
+    },
+    {
+        "sentence": "梦龙，你这是找死你知道吗？二当家的女人你也敢动？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为后果",
+        "Opinion": "4的行为会招致严重后果",
+        "Sentiment": "negative",
+        "Rationale": "4动了二当家的女人，这种行为会招致严重后果"
+    },
+    {
+        "sentence": "快说！你把乔小姐弄到哪儿去了？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "乔小姐的下落",
+        "Opinion": "要求4说出乔小姐的下落",
+        "Sentiment": "negative",
+        "Rationale": "1急于知道乔小姐的下落"
+    },
+    {
+        "sentence": "赵黑龙！你他妈什么意思你？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为意图",
+        "Opinion": "质疑1的意图",
+        "Sentiment": "negative",
+        "Rationale": "4不明白1为何如此质问"
+    },
+    {
+        "sentence": "你今天是要帮定这个齐等闲吗？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "立场选择",
+        "Opinion": "质疑1是否偏袒齐等闲",
+        "Sentiment": "negative",
+        "Rationale": "4认为1可能偏袒齐等闲"
+    },
+    {
+        "sentence": "赵黑龙，你在做什么！",
+        "Holder": "3",
+        "Target": "赵黑龙的行为",
+        "Aspect": "当前行为",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对赵黑龙的行为感到不解和不满"
+    },
+    {
+        "sentence": "做什么？哼，都知道我赵黑龙一贯的以德服人，今天我把话放在这儿，老子不管他是谁，只要敢二当家的作对，我赵黑龙第一个不答应！",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "态度和立场",
+        "Opinion": "强硬",
+        "Sentiment": "negative",
+        "Rationale": "赵黑龙认为自己一贯以德服人，但面对威胁到自己地位的情况时，表现出强硬的态度"
+    },
+    {
+        "sentence": "大哥，我真不知道你和齐等闲的关系。人就在楼下，我去带过来。",
+        "Holder": "2",
+        "Target": "赵黑龙和齐等闲的关系",
+        "Aspect": "关系知情",
+        "Opinion": "不知情",
+        "Sentiment": "neutral",
+        "Rationale": "2号人物表示自己不知道赵黑龙和齐等闲的关系"
+    },
+    {
+        "sentence": "赵黑龙，你敢？",
+        "Holder": "3",
+        "Target": "赵黑龙的行为",
+        "Aspect": "行为敢不敢",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对赵黑龙的挑衅行为感到不满和愤怒"
+    },
+    {
+        "sentence": "你是明摆着在跟我作对吗？",
+        "Holder": "3",
+        "Target": "赵黑龙的态度",
+        "Aspect": "对抗性",
+        "Opinion": "认为赵黑龙在作对",
+        "Sentiment": "negative",
+        "Rationale": "认为赵黑龙的行为明显是在与自己作对"
+    },
+    {
+        "sentence": "王虎，你说这个话是什么意思？",
+        "Holder": "1",
+        "Target": "王虎的话",
+        "Aspect": "话语的含义",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "不理解王虎话语的真实意图"
+    },
+    {
+        "sentence": "难道你想让我也教教你什么是以德服人？",
+        "Holder": "1",
+        "Target": "王虎",
+        "Aspect": "行为方式",
+        "Opinion": "需要教育",
+        "Sentiment": "negative",
+        "Rationale": "认为王虎的行为不符合以德服人的原则"
+    },
+    {
+        "sentence": "好，很好，咱们走着瞧！",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "态度",
+        "Opinion": "挑衅",
+        "Sentiment": "negative",
+        "Rationale": "对1的言语感到不满和愤怒"
+    },
+    {
+        "sentence": "哎，我让你走了吗？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "行动许可",
+        "Opinion": "不允许离开",
+        "Sentiment": "negative",
+        "Rationale": "认为4没有权利擅自离开"
+    },
+    {
+        "sentence": "今天我老婆不到这儿来，你们一个也别想走！",
+        "Holder": "5",
+        "Target": "所有人",
+        "Aspect": "行动限制",
+        "Opinion": "强制留下",
+        "Sentiment": "negative",
+        "Rationale": "老婆未到，5感到焦虑和不满"
+    },
+    {
+        "sentence": "齐等闲，你不要欺人太甚！",
+        "Holder": "3",
+        "Target": "齐等闲",
+        "Aspect": "行为",
+        "Opinion": "欺人太甚",
+        "Sentiment": "negative",
+        "Rationale": "齐等闲的行为让3感到被欺负"
+    },
+    {
+        "sentence": "王虎，二当家发话了，今天你们谁都别想离开！",
+        "Holder": "1",
+        "Target": "王虎及其同伴",
+        "Aspect": "行动自由",
+        "Opinion": "禁止离开",
+        "Sentiment": "negative",
+        "Rationale": "二当家下了命令禁止王虎及其同伴离开"
+    },
+    {
+        "sentence": "梦梦，你没事吧，他没有对你做什么？",
+        "Holder": "7",
+        "Target": "秋梦",
+        "Aspect": "安全状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "7关心秋梦的安全状况"
+    },
+    {
+        "sentence": "今天要不是齐sir的话，不知道会发生什么事情呢。",
+        "Holder": "7",
+        "Target": "齐sir",
+        "Aspect": "作用和影响",
+        "Opinion": "齐sir起了关键作用",
+        "Sentiment": "positive",
+        "Rationale": "齐sir的介入避免了不好的事情发生"
+    },
+    {
+        "sentence": "放心吧，我没事。",
+        "Holder": "8",
+        "Target": "自己的状况",
+        "Aspect": "身体状况",
+        "Opinion": "自己安然无恙",
+        "Sentiment": "positive",
+        "Rationale": "自己确实没有受到伤害"
+    },
+    {
+        "sentence": "谢谢你啊等闲。",
+        "Holder": "8",
+        "Target": "等闲（说话人 5）",
+        "Aspect": "帮助和支持",
+        "Opinion": "感谢等闲的帮助",
+        "Sentiment": "positive",
+        "Rationale": "等闲在某种情况下给予了帮助"
+    },
+    {
+        "sentence": "谢什么呀？我们本就是夫妻嘛。",
+        "Holder": "5",
+        "Target": "夫妻关系",
+        "Aspect": "关系的亲密性",
+        "Opinion": "夫妻间无需客气",
+        "Sentiment": "positive",
+        "Rationale": "是夫妻关系，彼此间帮助是理所当然的"
+    },
+    {
+        "sentence": "你们可以滚了。",
+        "Holder": "5",
+        "Target": "说话人 7 和 8",
+        "Aspect": "在场合理性",
+        "Opinion": "认为他们应该离开",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们在这里不再必要或者不欢迎他们"
+    },
+    {
+        "sentence": "我们走着瞧。",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "未来的对抗",
+        "Opinion": "不服输",
+        "Sentiment": "negative",
+        "Rationale": "对方多次破坏自己的事情"
+    },
+    {
+        "sentence": "三番五次破坏我的事情。",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "行为的频繁性",
+        "Opinion": "多次破坏",
+        "Sentiment": "negative",
+        "Rationale": "对方多次干扰自己的计划"
+    },
+    {
+        "sentence": "等向氏集团一倒，我看你还能蹦跶几天！",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "未来的处境",
+        "Opinion": "对方将失败",
+        "Sentiment": "negative",
+        "Rationale": "认为向氏集团倒台后对方也会失去依靠"
+    },
+    {
+        "sentence": "二当家，我就这一个弟弟，都是我管教不严，这个白金瀚今天就是您的，就当是我赔罪了。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "责任承担",
+        "Opinion": "愿意承担责任",
+        "Sentiment": "negative",
+        "Rationale": "弟弟的行为导致现在的局面"
+    },
+    {
+        "sentence": "还请二当家，能饶过我弟弟一命。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "请求宽恕",
+        "Opinion": "希望弟弟免受惩罚",
+        "Sentiment": "negative",
+        "Rationale": "担心弟弟的安危"
+    },
+    {
+        "sentence": "小泥鳅，这事儿你看着办就好，只要秋梦开心，一切都好说，其余对你自己看着办吧。",
+        "Holder": "5",
+        "Target": "小泥鳅",
+        "Aspect": "处理事情的方式",
+        "Opinion": "信任小泥鳅的判断",
+        "Sentiment": "positive",
+        "Rationale": "对小泥鳅的能力有信心"
+    },
+    {
+        "sentence": "梦龙，过来！给乔小姐跪下，道歉！",
+        "Holder": "1",
+        "Target": "梦龙",
+        "Aspect": "道歉的行为",
+        "Opinion": "要求梦龙道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为梦龙做错了事"
+    },
+    {
+        "sentence": "赵会长，这我可承受不起。",
+        "Holder": "8",
+        "Target": "赵会长的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "认为要求过分",
+        "Sentiment": "negative",
+        "Rationale": "觉得赵会长的要求超出了自己的承受范围"
+    },
+    {
+        "sentence": "行了，过两天把白金瀚的转让合同给我送过来就行。",
+        "Holder": "5",
+        "Target": "白金瀚的转让合同",
+        "Aspect": "合同的交付",
+        "Opinion": "要求按时交付合同",
+        "Sentiment": "neutral",
+        "Rationale": "需要合同来处理事务"
+    },
+    {
+        "sentence": "大哥，你为什么对这个姓齐的这么恭敬？他到底什么身份？",
+        "Holder": "2",
+        "Target": "姓齐的人",
+        "Aspect": "恭敬的原因和身份",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对大哥的行为感到不解，想要了解原因"
+    },
+    {
+        "sentence": "你最好什么也别问，二当家的身份不是你能知道的。",
+        "Holder": "1",
+        "Target": "2的提问",
+        "Aspect": "问题的合理性",
+        "Opinion": "不应该问",
+        "Sentiment": "negative",
+        "Rationale": "认为2的提问涉及敏感信息"
+    },
+    {
+        "sentence": "你只需要知道什么虎门、玉小龙之类的，在二当家面前不过是堆垃圾。",
+        "Holder": "1",
+        "Target": "虎门、玉小龙",
+        "Aspect": "地位对比",
+        "Opinion": "虎门、玉小龙地位低",
+        "Sentiment": "negative",
+        "Rationale": "强调二当家的地位远高于虎门、玉小龙"
+    },
+    {
+        "sentence": "这怎么可能？",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "观点的可信度",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对1的说法感到难以置信"
+    }
+]

@@ -1,0 +1,614 @@
+[
+    {
+        "sentence": "想他连自己都不舍得花钱，他能给大猩猩吗？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "花钱意愿",
+        "Opinion": "不舍得花钱",
+        "Sentiment": "doubt",
+        "Rationale": "他连自己都不舍得花钱"
+    },
+    {
+        "sentence": "那他就让大猩猩随他姓，他特爱虚荣，到时候咱给一跟他说，他就肯定同意。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "虚荣心",
+        "Opinion": "特爱虚荣",
+        "Sentiment": "positive",
+        "Rationale": "他特爱虚荣"
+    },
+    {
+        "sentence": "这倒是个办法，唉，要不然你先跟他说一声去吧。",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "是个办法",
+        "Sentiment": "neutral",
+        "Rationale": "觉得2的建议可行"
+    },
+    {
+        "sentence": "哎，来了来了。",
+        "Holder": "3",
+        "Target": "自己的到来",
+        "Aspect": "到达的通知",
+        "Opinion": "到达",
+        "Sentiment": "neutral",
+        "Rationale": "自己到达了"
+    },
+    {
+        "sentence": "鼠标来啦",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是通知鼠标的到来，没有表达任何情感或评价"
+    },
+    {
+        "sentence": "怎么坐在地上？多脏啊",
+        "Holder": "3",
+        "Target": "坐在地上的行为",
+        "Aspect": "卫生状况",
+        "Opinion": "认为坐在地上不卫生",
+        "Sentiment": "negative",
+        "Rationale": "因为觉得坐在地上不干净，所以表现出不满的情绪"
+    },
+    {
+        "sentence": "大白天的锁着门干嘛",
+        "Holder": "3",
+        "Target": "锁门的行为",
+        "Aspect": "合理性",
+        "Opinion": "质疑锁门的合理性",
+        "Sentiment": "negative",
+        "Rationale": "因为觉得大白天的锁门不合理，所以表现出疑惑和不满"
+    },
+    {
+        "sentence": "锁门比较安全，也比较安静",
+        "Holder": "1",
+        "Target": "锁门的行为",
+        "Aspect": "安全性和安静性",
+        "Opinion": "认为锁门有利于安全和安静",
+        "Sentiment": "positive",
+        "Rationale": "因为觉得锁门能带来安全和安静，所以表现出肯定的态度"
+    },
+    {
+        "sentence": "你这是什么意思？说话吞吞吐吐的",
+        "Holder": "3",
+        "Target": "1的说话方式",
+        "Aspect": "表达的清晰度",
+        "Opinion": "认为说话不清晰",
+        "Sentiment": "negative",
+        "Rationale": "1说话吞吞吐吐，让3感到困惑和不耐烦"
+    },
+    {
+        "sentence": "我买了些桃子，洗好了给鼠标吃",
+        "Holder": "3",
+        "Target": "桃子",
+        "Aspect": "分享行为",
+        "Opinion": "愿意分享",
+        "Sentiment": "positive",
+        "Rationale": "因为买了桃子并洗好给鼠标吃，表现出对鼠标的关心和友好，所以情绪是积极的"
+    },
+    {
+        "sentence": "阿姨我不吃",
+        "Holder": "2",
+        "Target": "食物",
+        "Aspect": "是否进食",
+        "Opinion": "拒绝进食",
+        "Sentiment": "neutral",
+        "Rationale": "2表达了自己不想吃东西"
+    },
+    {
+        "sentence": "人家不吃",
+        "Holder": "1",
+        "Target": "2的进食意愿",
+        "Aspect": "是否进食",
+        "Opinion": "确认2不进食",
+        "Sentiment": "neutral",
+        "Rationale": "1在重复2的话"
+    },
+    {
+        "sentence": "什么不吃，人家客气呢，快点，洗干净了拿那个肥皂水洗",
+        "Holder": "3",
+        "Target": "2的进食意愿",
+        "Aspect": "是否进食",
+        "Opinion": "认为2是客气",
+        "Sentiment": "positive",
+        "Rationale": "3认为2是客气而不是真的不想吃"
+    },
+    {
+        "sentence": "坐，你看你多胖啊？你说你爸你妈老给你吃什么呀？",
+        "Holder": "3",
+        "Target": "2的体重",
+        "Aspect": "体重状况",
+        "Opinion": "认为2体重偏重",
+        "Sentiment": "negative",
+        "Rationale": "3觉得2的体重偏重"
+    },
+    {
+        "sentence": "其实他们也没怎么给我吃，就是吸收的好。",
+        "Holder": "2",
+        "Target": "自己的饮食和体重",
+        "Aspect": "饮食和体重关系",
+        "Opinion": "饮食不多但吸收好",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己体重的原因"
+    },
+    {
+        "sentence": "真好，你说你爸爸，你妈妈是怎么教育你的呀？你怎么这么懂礼貌？你看见刘星，我一天到晚说着他照样没礼貌",
+        "Holder": "3",
+        "Target": "2的教育",
+        "Aspect": "礼貌",
+        "Opinion": "2很懂礼貌",
+        "Sentiment": "positive",
+        "Rationale": "3看到2表现出很高的礼貌水平，对比刘星的行为"
+    },
+    {
+        "sentence": "我属于是自学成才",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "教育方式",
+        "Opinion": "自学成才",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的教育方式"
+    },
+    {
+        "sentence": "真好，哈哈，真好。那你觉得你平时是喜欢跟你爸爸聊天还是喜欢跟你妈妈聊天呢？",
+        "Holder": "3",
+        "Target": "2的喜好",
+        "Aspect": "与父母的交流",
+        "Opinion": "询问2的喜好",
+        "Sentiment": "positive",
+        "Rationale": "3对2的教育方式感到满意"
+    },
+    {
+        "sentence": "阿姨，那个您有话就直说吧，你就别跟我这没有话搭了话了",
+        "Holder": "2",
+        "Target": "3的说话方式",
+        "Aspect": "交流的直接性",
+        "Opinion": "希望3直接表达",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得3的提问有些绕弯子"
+    },
+    {
+        "sentence": "嘿嘿，怎么回事啊？让你给人家洗，你怎么自个吃上啦",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "任务执行",
+        "Opinion": "2没有完成任务",
+        "Sentiment": "negative",
+        "Rationale": "3发现2没有按照要求完成任务"
+    },
+    {
+        "sentence": "他不吃啊这不",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "吃不吃",
+        "Opinion": "不吃",
+        "Sentiment": "neutral",
+        "Rationale": "观察到他不吃"
+    },
+    {
+        "sentence": "他是客气",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "行为动机",
+        "Opinion": "客气",
+        "Sentiment": "neutral",
+        "Rationale": "认为他不吃是出于客气"
+    },
+    {
+        "sentence": "阿姨我没客气，我爱吃猕猴桃儿，您家有吗？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "是否客气",
+        "Opinion": "不客气",
+        "Sentiment": "positive",
+        "Rationale": "表达了自己真实的喜好"
+    },
+    {
+        "sentence": "还真没有。回头阿姨给你买去，下次给你吃啊。",
+        "Holder": "3",
+        "Target": "猕猴桃",
+        "Aspect": "家中是否有",
+        "Opinion": "没有但会买",
+        "Sentiment": "positive",
+        "Rationale": "虽然家里没有但承诺会买"
+    },
+    {
+        "sentence": "谢谢你。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "感谢",
+        "Opinion": "感谢",
+        "Sentiment": "positive",
+        "Rationale": "对方承诺会买猕猴桃"
+    },
+    {
+        "sentence": "那你们聊吧啊。",
+        "Holder": "3",
+        "Target": "1和2的聊天",
+        "Aspect": "聊天的进行",
+        "Opinion": "不干涉",
+        "Sentiment": "neutral",
+        "Rationale": "3不想干涉1和2的聊天"
+    },
+    {
+        "sentence": "不用关门了",
+        "Holder": "3",
+        "Target": "关门行为",
+        "Aspect": "门的开关",
+        "Opinion": "不需要关门",
+        "Sentiment": "neutral",
+        "Rationale": "3觉得关门不必要"
+    },
+    {
+        "sentence": "我觉得用，我们怕打扰您",
+        "Holder": "1",
+        "Target": "关门行为",
+        "Aspect": "门的开关",
+        "Opinion": "需要关门",
+        "Sentiment": "positive",
+        "Rationale": "1担心会打扰到3"
+    },
+    {
+        "sentence": "我不怕打扰，就开着吧。",
+        "Holder": "3",
+        "Target": "关门行为",
+        "Aspect": "门的开关",
+        "Opinion": "不需要关门",
+        "Sentiment": "neutral",
+        "Rationale": "3不介意被打扰"
+    },
+    {
+        "sentence": "没事没事，还是关上，怕打扰您",
+        "Holder": "1",
+        "Target": "关门行为",
+        "Aspect": "门的开关",
+        "Opinion": "需要关门",
+        "Sentiment": "positive",
+        "Rationale": "1坚持不想打扰到3"
+    },
+    {
+        "sentence": "刚才我妈问你什么了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对话内容",
+        "Opinion": "询问对话内容",
+        "Sentiment": "neutral",
+        "Rationale": "1只是单纯地询问2与自己母亲的对话内容"
+    },
+    {
+        "sentence": "就是些家长里短，没什么。",
+        "Holder": "2",
+        "Target": "对话内容",
+        "Aspect": "对话性质",
+        "Opinion": "内容不重要",
+        "Sentiment": "neutral",
+        "Rationale": "2认为与1母亲的对话只是普通的闲聊"
+    },
+    {
+        "sentence": "不可能。你说实话，你是不是把咱俩那事说出去？没有，咱都是哥们，你要说了你就跟我说，我不会埋怨你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "保密性",
+        "Opinion": "怀疑2泄密",
+        "Sentiment": "negative",
+        "Rationale": "1怀疑2泄露了两人之间的秘密"
+    },
+    {
+        "sentence": "唉呦，我真没说，你怎么不信呢唉？你真要这样的话，那昨天你还跟我妈聊了半天呢。你都跟我妈说什么了",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "信任",
+        "Opinion": "感到不被信任",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被1怀疑，感到委屈和不满"
+    },
+    {
+        "sentence": "也是一些家长里短。",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话性质",
+        "Opinion": "内容不重要",
+        "Sentiment": "neutral",
+        "Rationale": "1认为与2母亲的对话也只是普通的闲聊"
+    },
+    {
+        "sentence": "那不得了吗？",
+        "Holder": "2",
+        "Target": "工作进展",
+        "Aspect": "完成情况",
+        "Opinion": "未完成",
+        "Sentiment": "negative",
+        "Rationale": "因为工作没有达到预期进度，所以感到失望和焦虑。"
+    },
+    {
+        "sentence": "刘梅，怎么样，找到什么线索了吗？",
+        "Holder": "4",
+        "Target": "线索寻找",
+        "Aspect": "进展",
+        "Opinion": "询问进展",
+        "Sentiment": "neutral",
+        "Rationale": "因为关心工作进展，所以正常询问，情绪保持中立。"
+    },
+    {
+        "sentence": "什么也没找到，我昨天只和他聊了几句。",
+        "Holder": "3",
+        "Target": "线索寻找",
+        "Aspect": "结果",
+        "Opinion": "无进展",
+        "Sentiment": "negative",
+        "Rationale": "因为没有任何发现，所以感到沮丧。"
+    },
+    {
+        "sentence": "我告诉你，我发现了一些东西。",
+        "Holder": "4",
+        "Target": "线索发现",
+        "Aspect": "进展",
+        "Opinion": "有新发现",
+        "Sentiment": "positive",
+        "Rationale": "因为发现了新的线索，所以感到兴奋和期待。"
+    },
+    {
+        "sentence": "什么啊？",
+        "Holder": "3",
+        "Target": "4的发现",
+        "Aspect": "具体内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "因为对4的发现感到好奇，所以表现出中立的好奇情绪。"
+    },
+    {
+        "sentence": "昨天我听这俩还在屋里头说到钱的事，说要集一笔资啊。",
+        "Holder": "4",
+        "Target": "这俩人",
+        "Aspect": "集资计划",
+        "Opinion": "提及集资",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地提到听到别人讨论集资的事情"
+    },
+    {
+        "sentence": "我说怎么流星那屋好像也有钢镚的声音啊",
+        "Holder": "3",
+        "Target": "流星那屋",
+        "Aspect": "钢镚声音",
+        "Opinion": "注意到声音",
+        "Sentiment": "neutral",
+        "Rationale": "只是提到注意到某个声音，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "我跟你说，咱们俩得加快交朋友的速度，这么着我，你把这个送给我儿子，这是一电动玩具，我儿子一看见这个我告诉你绝对会给你说。",
+        "Holder": "4",
+        "Target": "交朋友的速度",
+        "Aspect": "礼物交换",
+        "Opinion": "加快交朋友",
+        "Sentiment": "positive",
+        "Rationale": "希望通过礼物交换来加快交朋友的速度"
+    },
+    {
+        "sentence": "唉呦，这合适吗？这有什么不合适的呀？我给我儿子买的礼物，羊毛出在羊身上，就这么着。",
+        "Holder": "3",
+        "Target": "礼物赠送",
+        "Aspect": "礼物的合理性",
+        "Opinion": "认为合适",
+        "Sentiment": "positive",
+        "Rationale": "认为礼物是自己买的，送给别人也合理"
+    },
+    {
+        "sentence": "真不错，又多了 15 块钱",
+        "Holder": "1",
+        "Target": "钱的增加",
+        "Aspect": "金额变化",
+        "Opinion": "感到满意",
+        "Sentiment": "positive",
+        "Rationale": "多了15块钱，感到经济上的满足"
+    },
+    {
+        "sentence": "鼠标，咱又多了 15 块钱。",
+        "Holder": "1",
+        "Target": "15块钱",
+        "Aspect": "金钱增加",
+        "Opinion": "多了15块钱",
+        "Sentiment": "positive",
+        "Rationale": "增加了15块钱"
+    },
+    {
+        "sentence": "你能给我让个地儿吗？",
+        "Holder": "2",
+        "Target": "1的空间",
+        "Aspect": "空间占用",
+        "Opinion": "需要让出空间",
+        "Sentiment": "neutral",
+        "Rationale": "需要空间"
+    },
+    {
+        "sentence": "行行行，哎，怎么样了？",
+        "Holder": "1",
+        "Target": "2的请求",
+        "Aspect": "回应请求",
+        "Opinion": "同意让出空间",
+        "Sentiment": "positive",
+        "Rationale": "愿意配合2的请求"
+    },
+    {
+        "sentence": "键盘说了他对这事儿挺感兴趣的。",
+        "Holder": "2",
+        "Target": "键盘",
+        "Aspect": "对事情的兴趣",
+        "Opinion": "感兴趣",
+        "Sentiment": "positive",
+        "Rationale": "键盘对事情感兴趣"
+    },
+    {
+        "sentence": "真的，就是手头有点儿紧。",
+        "Holder": "2",
+        "Target": "自己的经济状况",
+        "Aspect": "经济状况",
+        "Opinion": "手头紧",
+        "Sentiment": "negative",
+        "Rationale": "经济状况不佳"
+    },
+    {
+        "sentence": "这不废话。",
+        "Holder": "1",
+        "Target": "2的说法",
+        "Aspect": "话语的合理性",
+        "Opinion": "认为是废话",
+        "Sentiment": "negative",
+        "Rationale": "认为2的说法没有实际意义"
+    },
+    {
+        "sentence": "但是他说他可以用别的方式来代替，比如说做体力活给猩猩洗澡。",
+        "Holder": "2",
+        "Target": "别人的提议",
+        "Aspect": "替代方案",
+        "Opinion": "可以用别的方式代替",
+        "Sentiment": "neutral",
+        "Rationale": "提出了一个替代方案"
+    },
+    {
+        "sentence": "这不更废话吗？人家工作人员，你能让他天天到动物园给猩猩洗澡去吗？真是的，再说了，住他们家成了。",
+        "Holder": "1",
+        "Target": "别人的提议",
+        "Aspect": "提议的可行性",
+        "Opinion": "认为不可行",
+        "Sentiment": "negative",
+        "Rationale": "认为提议不切实际且不合理"
+    },
+    {
+        "sentence": "那就只好找别人了。",
+        "Holder": "2",
+        "Target": "解决方案",
+        "Aspect": "寻找替代人选",
+        "Opinion": "只好找别人",
+        "Sentiment": "neutral",
+        "Rationale": "当前方案不可行"
+    },
+    {
+        "sentence": "你今天心情不太好吧？",
+        "Holder": "1",
+        "Target": "2的心情",
+        "Aspect": "心情状态",
+        "Opinion": "心情不好",
+        "Sentiment": "ambiguous",
+        "Rationale": "观察到2的行为或表情与平时不同"
+    },
+    {
+        "sentence": "老林，你有什么心事啊？",
+        "Holder": "1",
+        "Target": "2的心事",
+        "Aspect": "心事的存在",
+        "Opinion": "可能有心事",
+        "Sentiment": "neutral",
+        "Rationale": "观察到2的反应与平时不同"
+    },
+    {
+        "sentence": "有什么事儿你就说了啊。",
+        "Holder": "1",
+        "Target": "2的心事",
+        "Aspect": "心事的分享",
+        "Opinion": "鼓励分享",
+        "Sentiment": "positive",
+        "Rationale": "希望帮助2解决问题"
+    },
+    {
+        "sentence": "那我可说了，我妈好像对你挺好的啊。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "妈妈对1的态度",
+        "Opinion": "妈妈对1好",
+        "Sentiment": "positive",
+        "Rationale": "观察到妈妈对1的态度友好"
+    },
+    {
+        "sentence": "是啊，那不是因为我是你哥们才对我挺好的嘛。",
+        "Holder": "1",
+        "Target": "2的妈妈",
+        "Aspect": "对1好的原因",
+        "Opinion": "因为哥们关系",
+        "Sentiment": "neutral",
+        "Rationale": "解释了妈妈对自己好的原因是和2的友情"
+    },
+    {
+        "sentence": "你就说你昨天都跟我妈聊什么了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "与妈妈聊天的内容",
+        "Opinion": "好奇聊天内容",
+        "Sentiment": "neutral",
+        "Rationale": "想知道1和妈妈聊了什么"
+    },
+    {
+        "sentence": "没聊什么呀？没聊什么实质性的问题，你放心，如果你妈说到你的话，我肯定会维护你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "聊天内容的性质",
+        "Opinion": "没有实质性内容",
+        "Sentiment": "positive",
+        "Rationale": "向2保证没有聊到敏感话题并会维护2"
+    },
+    {
+        "sentence": "鼠标在这啊。",
+        "Holder": "3",
+        "Target": "鼠标",
+        "Aspect": "鼠标的位置",
+        "Opinion": "鼠标在这里",
+        "Sentiment": "neutral",
+        "Rationale": "指出鼠标的位置"
+    },
+    {
+        "sentence": "阿姨好",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "2对3表示礼貌的问候"
+    },
+    {
+        "sentence": "我一猜你就来了，看阿姨给你买什么了，你最爱吃的猕猴桃，吃吧。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "礼物",
+        "Opinion": "关心和喜爱",
+        "Sentiment": "positive",
+        "Rationale": "3为2准备了喜欢的猕猴桃，表现出关心和喜爱"
+    },
+    {
+        "sentence": "谢谢阿姨。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "感谢",
+        "Opinion": "感激",
+        "Sentiment": "positive",
+        "Rationale": "2对3的礼物表示感谢"
+    },
+    {
+        "sentence": "甭客气，刘星，要不你也来一块？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "分享",
+        "Opinion": "友好邀请",
+        "Sentiment": "positive",
+        "Rationale": "3友好地邀请1分享猕猴桃"
+    },
+    {
+        "sentence": "我不爱吃",
+        "Holder": "1",
+        "Target": "猕猴桃",
+        "Aspect": "口味",
+        "Opinion": "不喜欢",
+        "Sentiment": "neutral",
+        "Rationale": "1表达了对猕猴桃的不喜欢"
+    },
+    {
+        "sentence": "还能有你不爱吃的东西呢。",
+        "Holder": "3",
+        "Target": "4的饮食习惯",
+        "Aspect": "食物偏好",
+        "Opinion": "存在不爱吃的东西",
+        "Sentiment": "neutral",
+        "Rationale": "3在陈述一个事实，即每个人都有不爱吃的东西"
+    }
+]

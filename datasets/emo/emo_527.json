@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "宿命定义的哲学辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "阐释宿命本质的必然性", "source_id": "3,6"},
+          {"state": "negative", "reason": "对方偷换概念质疑论证完整性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "数理逻辑与误解消除论证",
+        "emotions": [
+          {"state": "neutral", "reason": "引用维特根斯坦理论体系", "source_id": "6"},
+          {"state": "positive", "reason": "提出逻辑语言消除误解的机理证据", "source_id": "5"},
+          {"state": "negative", "reason": "被质疑符号系统未实际应用", "source_id": "6,7"}
+        ]
+      },
+      {
+        "event": "宿命本质的攻防战",
+        "emotions": [
+          {"state": "positive", "reason": "用哥伦布案例论证宿命可突破", "source_id": "8"},
+          {"state": "negative", "reason": "对方用艺术表达维度否定全盘论证", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "数学逻辑的纯粹性争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑数学家表达能力局限", "source_id": "6"},
+          {"state": "positive", "reason": "论证数理系统消除误解的绝对性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "误解普遍性的现实举证",
+        "emotions": [
+          {"state": "neutral", "reason": "用IT部门案例说明沟通壁垒", "source_id": "3"},
+          {"state": "negative", "reason": "反驳符号语言的实际应用缺陷", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "表达者本质的深层解构",
+        "emotions": [
+          {"state": "neutral", "reason": "分析大脑双系统沟通障碍", "source_id": "3"},
+          {"state": "negative", "reason": "揭露对方论证维度缺失", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "宿命隐喻的具象化对抗",
+        "emotions": [
+          {"state": "positive", "reason": "用地理大发现论证突破可能", "source_id": "3"},
+          {"state": "negative", "reason": "被指控故意曲解论证范围", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

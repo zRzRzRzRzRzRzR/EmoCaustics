@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程主持与规则说明",
+        "emotions": [
+          {"state": "neutral", "reason": "介绍辩题保持中立立场", "source_id": "1"},
+          {"state": "positive", "reason": "称赞辩手外貌调节气氛", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "整容与选美标准兼容性论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调整容提升竞争力", "source_id": "3,4,5"},
+          {"state": "neutral", "reason": "回应增高鞋类比论证", "source_id": "6,7"},
+          {"state": "positive", "reason": "举证国际选美规则有效性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "才艺培养与整容性质辨析",
+        "emotions": [
+          {"state": "neutral", "reason": "区分能力培养与整容差异", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑PS图片类比有效性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "作弊行为类比论证",
+        "emotions": [
+          {"state": "negative", "reason": "坚持整容等同考试作弊", "source_id": "2,3"},
+          {"state": "negative", "reason": "举PS图片案例强化论点", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "选美标准客观性质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨天生条件公平性", "source_id": "2"},
+          {"state": "doubt", "reason": "反驳摄影比赛类比逻辑", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "整容破坏选美本质论证",
+        "emotions": [
+          {"state": "negative", "reason": "强调科技介入扭曲评比", "source_id": "2,3"},
+          {"state": "negative", "reason": "踩高跷类比论证不公平性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "公平性核心原则维护",
+        "emotions": [
+          {"state": "neutral", "reason": "强调比赛基础公平需求", "source_id": "2"},
+          {"state": "negative", "reason": "坚持整容等同工具作弊", "source_id": "3,5"}
+        ]
+      }
+    ]
+  }
+}

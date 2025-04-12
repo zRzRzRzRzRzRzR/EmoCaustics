@@ -1,0 +1,254 @@
+[
+    {
+        "sentence": "中介这房子行不行了",
+        "Holder": "1",
+        "Target": "房子",
+        "Aspect": "房子的可行性",
+        "Opinion": "质疑房子的可行性",
+        "Sentiment": "doubt",
+        "Rationale": "对房子的实际情况不了解"
+    },
+    {
+        "sentence": "没事你好。",
+        "Holder": "1",
+        "Target": "2的状态",
+        "Aspect": "关心",
+        "Opinion": "表示关心",
+        "Sentiment": "positive",
+        "Rationale": "想要表达友好和关心"
+    },
+    {
+        "sentence": "李宗恒、",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "自我介绍",
+        "Opinion": "介绍自己",
+        "Sentiment": "neutral",
+        "Rationale": "需要进行自我介绍"
+    },
+    {
+        "sentence": "咱俩都分手了，你怎么找这来了，你到底要干嘛？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "来找他的原因",
+        "Opinion": "不理解1的行为",
+        "Sentiment": "negative",
+        "Rationale": "和1已经分手"
+    },
+    {
+        "sentence": "我要租房，",
+        "Holder": "1",
+        "Target": "租房需求",
+        "Aspect": "租房的目的",
+        "Opinion": "需要租房",
+        "Sentiment": "neutral",
+        "Rationale": "需要解决住房问题"
+    },
+    {
+        "sentence": "你为什么要租我的房子？",
+        "Holder": "2",
+        "Target": "1的租房选择",
+        "Aspect": "租房对象的选择",
+        "Opinion": "质疑1的选择",
+        "Sentiment": "negative",
+        "Rationale": "和1已经分手"
+    },
+    {
+        "sentence": "因为你的房子在出租，",
+        "Holder": "1",
+        "Target": "2的房子",
+        "Aspect": "房子的状态",
+        "Opinion": "房子在出租",
+        "Sentiment": "neutral",
+        "Rationale": "看到2的房子在出租"
+    },
+    {
+        "sentence": "你是我前任，我把我房子租你了，我成什么了？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身份变化",
+        "Opinion": "感到困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "将房子租给前任，对自己的身份感到困惑"
+    },
+    {
+        "sentence": "你成房东了。",
+        "Holder": "2",
+        "Target": "1的身份",
+        "Aspect": "身份定义",
+        "Opinion": "明确身份",
+        "Sentiment": "neutral",
+        "Rationale": "1将房子租给2"
+    },
+    {
+        "sentence": "我问你没打算找一个。",
+        "Holder": "2",
+        "Target": "1的生活状态",
+        "Aspect": "感情生活",
+        "Opinion": "关心询问",
+        "Sentiment": "neutral",
+        "Rationale": "关心1的感情生活"
+    },
+    {
+        "sentence": "不找人合租，自己住多好，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "居住选择",
+        "Opinion": "享受独居",
+        "Sentiment": "positive",
+        "Rationale": "认为独居更舒适"
+    },
+    {
+        "sentence": "我的意思问你是一个人吗？",
+        "Holder": "2",
+        "Target": "1的生活状态",
+        "Aspect": "是否单身",
+        "Opinion": "确认状态",
+        "Sentiment": "neutral",
+        "Rationale": "想确认1是否单身"
+    },
+    {
+        "sentence": "不是什么，我养了条狗，小泰迪，我保证不会怎么那啥干嘛，",
+        "Holder": "1",
+        "Target": "养狗行为",
+        "Aspect": "养狗的影响",
+        "Opinion": "保证无影响",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己养狗的行为并保证不会造成问题"
+    },
+    {
+        "sentence": "手机都换了，男人就是喜新厌旧，",
+        "Holder": "2",
+        "Target": "男人",
+        "Aspect": "喜新厌旧的特性",
+        "Opinion": "男人喜新厌旧",
+        "Sentiment": "negative",
+        "Rationale": "2认为男人换手机是喜新厌旧的表现"
+    },
+    {
+        "sentence": "不换我用啥，分手的时候你不把我手机摔了吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "摔手机的行为",
+        "Opinion": "被迫换手机",
+        "Sentiment": "negative",
+        "Rationale": "1提到分手时2摔了他的手机"
+    },
+    {
+        "sentence": "你干啥你怎么还那么邋遢，我怎么看不上你，",
+        "Holder": "2",
+        "Target": "1的外表",
+        "Aspect": "邋遢的程度",
+        "Opinion": "1很邋遢",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的外表邋遢"
+    },
+    {
+        "sentence": "我用你看着我，咱俩已经分手了，我邋遢点能咋的",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "分手后的独立性",
+        "Opinion": "不需要2的关心",
+        "Sentiment": "negative",
+        "Rationale": "1认为分手后2无权指责他的行为"
+    },
+    {
+        "sentence": "你邋遢我不租你",
+        "Holder": "1",
+        "Target": "2的生活习惯",
+        "Aspect": "整洁度",
+        "Opinion": "不满意",
+        "Sentiment": "negative",
+        "Rationale": "认为对方邋遢"
+    },
+    {
+        "sentence": "我就干净点房东对不对？",
+        "Holder": "2",
+        "Target": "自己的生活习惯",
+        "Aspect": "整洁度",
+        "Opinion": "愿意改进",
+        "Sentiment": "neutral",
+        "Rationale": "对方提出要求"
+    },
+    {
+        "sentence": "月付以后。",
+        "Holder": "2",
+        "Target": "支付方式",
+        "Aspect": "支付频率",
+        "Opinion": "希望月付",
+        "Sentiment": "neutral",
+        "Rationale": "提出月付的支付方式"
+    },
+    {
+        "sentence": "还岳父，你咋想的这合适吗？",
+        "Holder": "1",
+        "Target": "2的称呼",
+        "Aspect": "称呼的合理性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "对方使用了不恰当的称呼"
+    },
+    {
+        "sentence": "你是想季付行，",
+        "Holder": "1",
+        "Target": "支付方式",
+        "Aspect": "支付频率",
+        "Opinion": "提出季付",
+        "Sentiment": "neutral",
+        "Rationale": "提出季付的支付方式"
+    },
+    {
+        "sentence": "谁想季付我就没有季付，",
+        "Holder": "2",
+        "Target": "支付方式",
+        "Aspect": "支付频率",
+        "Opinion": "反对季付",
+        "Sentiment": "negative",
+        "Rationale": "对方提出季付而自己不愿意"
+    },
+    {
+        "sentence": "你没有季付你喊啥，你不就叫年付吗？年付行你多少给我免一个月水电。一年都要付完了36,000，",
+        "Holder": "1",
+        "Target": "付款方式",
+        "Aspect": "季付与年付的合理性",
+        "Opinion": "要求年付优惠",
+        "Sentiment": "negative",
+        "Rationale": "对方没有提供季付选项且年付金额较高"
+    },
+    {
+        "sentence": "没有合同钥匙，然后这些规定看好都不能违反，包括洗手间咱。",
+        "Holder": "2",
+        "Target": "合同和规定",
+        "Aspect": "合同和规定的遵守",
+        "Opinion": "强调规定的重要性",
+        "Sentiment": "neutral",
+        "Rationale": "需要强调合同和规定的严肃性"
+    },
+    {
+        "sentence": "你别老唧唧歪歪。",
+        "Holder": "1",
+        "Target": "2的表达方式",
+        "Aspect": "表达的简洁性",
+        "Opinion": "认为对方啰嗦",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方说话啰嗦且不耐烦"
+    },
+    {
+        "sentence": "谁不耐烦呢？让我想起来以前现在从我家出去，",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "反驳不耐烦的指责",
+        "Sentiment": "negative",
+        "Rationale": "被误解为不耐烦且回忆起不愉快的经历"
+    },
+    {
+        "sentence": "你说我以为我愿意生孩子，以后别见面了",
+        "Holder": "7",
+        "Target": "生孩子意愿",
+        "Aspect": "个人选择",
+        "Opinion": "不愿意生孩子",
+        "Sentiment": "negative",
+        "Rationale": "对方误解了自己的意愿，感到被误解和生气"
+    }
+]

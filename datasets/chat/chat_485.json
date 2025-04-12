@@ -1,0 +1,515 @@
+[
+    {
+        "sentence": "这三幅画应该叫更年期妈妈。",
+        "Holder": "1",
+        "Target": "三幅画",
+        "Aspect": "命名",
+        "Opinion": "应该叫更年期妈妈",
+        "Sentiment": "positive",
+        "Rationale": "觉得这三幅画的内容与更年期妈妈的主题相符"
+    },
+    {
+        "sentence": "哈哈哈，太对了。唉，刚才我还在家里这么说妈呢",
+        "Holder": "2",
+        "Target": "1的命名建议",
+        "Aspect": "命名合理性",
+        "Opinion": "太对了",
+        "Sentiment": "positive",
+        "Rationale": "在家里也有类似的看法"
+    },
+    {
+        "sentence": "但是如果叫更年期妈妈的话，我觉得还少了一幅画。",
+        "Holder": "1",
+        "Target": "更年期妈妈主题",
+        "Aspect": "画作的完整性",
+        "Opinion": "还少了一幅画",
+        "Sentiment": "neutral",
+        "Rationale": "觉得现有的三幅画不足以完整表达更年期妈妈的主题"
+    },
+    {
+        "sentence": "我给你再加一幅。",
+        "Holder": "1",
+        "Target": "画作数量",
+        "Aspect": "补充画作",
+        "Opinion": "再加一幅",
+        "Sentiment": "positive",
+        "Rationale": "觉得需要补充一幅画来完善主题"
+    },
+    {
+        "sentence": "你也要画啊",
+        "Holder": "3",
+        "Target": "1的绘画行为",
+        "Aspect": "参与绘画",
+        "Opinion": "你也要画",
+        "Sentiment": "neutral",
+        "Rationale": "听到1要加一幅画"
+    },
+    {
+        "sentence": "嗯诶，这这是什么呀？",
+        "Holder": "2",
+        "Target": "看到的景象",
+        "Aspect": "内容",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对看到的景象感到不解"
+    },
+    {
+        "sentence": "好像是妈妈在照镜子",
+        "Holder": "4",
+        "Target": "看到的景象",
+        "Aspect": "内容",
+        "Opinion": "猜测",
+        "Sentiment": "neutral",
+        "Rationale": "4对看到的景象进行猜测，没有明显的情感倾向"
+    },
+    {
+        "sentence": "还使劲打自己的屁股？",
+        "Holder": "2",
+        "Target": "妈妈的行为",
+        "Aspect": "行为",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对妈妈打自己屁股的行为感到意外"
+    },
+    {
+        "sentence": "爸，这是什么意思呀？",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话的含义",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的话感到困惑"
+    },
+    {
+        "sentence": "这是可怜天下父母心",
+        "Holder": "1",
+        "Target": "父母的心情",
+        "Aspect": "父母的感受",
+        "Opinion": "父母心",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释一句话的含义，没有表达出明显的情感"
+    },
+    {
+        "sentence": "每次你妈说完你的时候比你还难受，恨不能自己打自己。",
+        "Holder": "1",
+        "Target": "妈妈的心情",
+        "Aspect": "妈妈的感受",
+        "Opinion": "妈妈更难受",
+        "Sentiment": "negative",
+        "Rationale": "1描述妈妈在批评孩子后自己也很痛苦"
+    },
+    {
+        "sentence": "爸，我妈也这样吗？",
+        "Holder": "4",
+        "Target": "妈妈的感受",
+        "Aspect": "妈妈的反应",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问妈妈是否也有同样的感受，没有表达出明显的情感"
+    },
+    {
+        "sentence": "是的，你妈妈每次说完你都会偷偷的流眼泪",
+        "Holder": "3",
+        "Target": "你妈妈",
+        "Aspect": "情感表达",
+        "Opinion": "偷偷流眼泪",
+        "Sentiment": "negative",
+        "Rationale": "你妈妈在批评你之后会偷偷流眼泪"
+    },
+    {
+        "sentence": "那她干嘛还说我。",
+        "Holder": "2",
+        "Target": "你妈妈",
+        "Aspect": "批评行为",
+        "Opinion": "不理解批评",
+        "Sentiment": "negative",
+        "Rationale": "不理解为什么妈妈在流眼泪后还要批评自己"
+    },
+    {
+        "sentence": "哼，这是恨铁不成钢。本来我还能帮你妈分担一点压力，现在我又暂时待业在家，你妈本来心情就不好，所以把所有的希望都寄托在你身上了，所以有时候就不太容易控制好自己的情绪，你应该多理解他，多去关心他。是不是？",
+        "Holder": "1",
+        "Target": "你妈妈",
+        "Aspect": "情绪控制",
+        "Opinion": "情绪难以控制",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈心情不好且把希望寄托在孩子身上"
+    },
+    {
+        "sentence": "我看看。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是表示要看看情况，没有表达具体情感"
+    },
+    {
+        "sentence": "高，实在是高啊。一句话一幅画就把这么棘手的问题给迎刃而解了，老兄你真是高人",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "解决问题能力",
+        "Opinion": "高度赞赏",
+        "Sentiment": "positive",
+        "Rationale": "1用一句话就解决了棘手的问题"
+    },
+    {
+        "sentence": "哈哈哈，可不敢当，我也就是恰好原来在儿童剧院当过编导，所以对这些孩子的问题稍微了解一点。高人可不敢当。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "能力评价",
+        "Opinion": "谦虚",
+        "Sentiment": "positive",
+        "Rationale": "说话人1谦虚地表示自己只是有一些经验，并不是高人"
+    },
+    {
+        "sentence": "走吧，刘星，回家去。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "行动建议",
+        "Opinion": "建议回家",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1只是提出一个中性的行动建议"
+    },
+    {
+        "sentence": "再会再会",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "告别",
+        "Opinion": "礼貌告别",
+        "Sentiment": "positive",
+        "Rationale": "说话人3用礼貌的方式告别"
+    },
+    {
+        "sentence": "真是个人才呀，诶，你的画",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "才能评价",
+        "Opinion": "赞赏",
+        "Sentiment": "positive",
+        "Rationale": "说话人3对说话人2的才能表示赞赏"
+    },
+    {
+        "sentence": "哎呦，讨厌你，小雨。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "情感表达",
+        "Opinion": "假装讨厌",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2用‘讨厌’这种看似负面但实际上可能是玩笑的词语"
+    },
+    {
+        "sentence": "嗯，怎么啦？",
+        "Holder": "5",
+        "Target": "2的状态",
+        "Aspect": "询问原因",
+        "Opinion": "不清楚情况",
+        "Sentiment": "neutral",
+        "Rationale": "5对2的状态不清楚"
+    },
+    {
+        "sentence": "你说你什么时候进来？不好，你非现在这种关键时刻进来",
+        "Holder": "2",
+        "Target": "5的进入时间",
+        "Aspect": "时间选择的合理性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "5在关键时刻进来打断了2的事情"
+    },
+    {
+        "sentence": "什么关键时刻？我梦见我画的画在全国得了奖，正发奖呢，奖杯马上就到手里了。",
+        "Holder": "5",
+        "Target": "自己的梦",
+        "Aspect": "梦的内容",
+        "Opinion": "激动人心的梦",
+        "Sentiment": "positive",
+        "Rationale": "梦到自己得奖"
+    },
+    {
+        "sentence": "真够烦的。",
+        "Holder": "2",
+        "Target": "5的行为",
+        "Aspect": "打扰程度",
+        "Opinion": "非常打扰",
+        "Sentiment": "negative",
+        "Rationale": "5的行为打断了2的重要时刻"
+    },
+    {
+        "sentence": "真是做白日梦",
+        "Holder": "4",
+        "Target": "5的梦",
+        "Aspect": "梦的现实性",
+        "Opinion": "不切实际",
+        "Sentiment": "negative",
+        "Rationale": "认为5的梦不切实际"
+    },
+    {
+        "sentence": "给你的信",
+        "Holder": "4",
+        "Target": "信",
+        "Aspect": "信的接收",
+        "Opinion": "传递信件",
+        "Sentiment": "neutral",
+        "Rationale": "4只是简单地传递信件，没有表达出明显的情感"
+    },
+    {
+        "sentence": "什么北京市少年杂志社。没定过，是不是寄错了啊？",
+        "Holder": "2",
+        "Target": "北京市少年杂志社",
+        "Aspect": "信件的来源",
+        "Opinion": "怀疑寄错",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对信件的来源感到疑惑，不确定是否寄错"
+    },
+    {
+        "sentence": "怎么啦？",
+        "Holder": "4",
+        "Target": "2的状态",
+        "Aspect": "询问原因",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "4只是简单地询问情况，没有表达出明显的情感"
+    },
+    {
+        "sentence": "我成功啦，我成功啦，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "成功",
+        "Opinion": "庆祝成功",
+        "Sentiment": "positive",
+        "Rationale": "2表达了自己成功的喜悦"
+    },
+    {
+        "sentence": "瞧这线条，瞧这手法，哈哈哈，毕加索也就这样，哈哈哈，反正也不过如此嘛，简直就是大家风范",
+        "Holder": "2",
+        "Target": "线条和手法",
+        "Aspect": "艺术水平",
+        "Opinion": "非常高",
+        "Sentiment": "positive",
+        "Rationale": "对线条和手法的高度赞赏，认为其水平接近毕加索"
+    },
+    {
+        "sentence": "呵，刘星挺舒服啊，作业写完了吗，嘿？你怎么穿着拖鞋就躺沙发上？",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "行为习惯",
+        "Opinion": "不妥",
+        "Sentiment": "negative",
+        "Rationale": "看到刘星穿着拖鞋躺在沙发上，认为其行为不够规矩"
+    },
+    {
+        "sentence": "哎哎，刘星",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "注意力",
+        "Opinion": "需要引起注意",
+        "Sentiment": "neutral",
+        "Rationale": "需要引起刘星的注意"
+    },
+    {
+        "sentence": "谁呀？你老爸？我。",
+        "Holder": "3",
+        "Target": "身份确认",
+        "Aspect": "身份",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "听到有人叫爸，需要确认对方身份"
+    },
+    {
+        "sentence": "爸。来来来，爸，快坐",
+        "Holder": "2",
+        "Target": "爸",
+        "Aspect": "邀请",
+        "Opinion": "热情邀请",
+        "Sentiment": "positive",
+        "Rationale": "看到爸爸来了，想要热情地邀请他坐下"
+    },
+    {
+        "sentence": "发什么呆了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "注意力集中",
+        "Opinion": "注意力不集中",
+        "Sentiment": "neutral",
+        "Rationale": "看到2在发呆"
+    },
+    {
+        "sentence": "你看我上次在小区画的那幅画发表了，我看看这个。",
+        "Holder": "2",
+        "Target": "自己的画作",
+        "Aspect": "画作发表",
+        "Opinion": "画作被发表",
+        "Sentiment": "positive",
+        "Rationale": "自己的画作被发表"
+    },
+    {
+        "sentence": "真是。哎，刘星，你什么时候自个偷偷去发表的？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "发表画作的行为",
+        "Opinion": "未经告知",
+        "Sentiment": "neutral",
+        "Rationale": "不知道2何时发表的画作"
+    },
+    {
+        "sentence": "爸，你就别装。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "态度",
+        "Opinion": "认为1在装",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在假装不知道"
+    },
+    {
+        "sentence": "我给你装什么呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "自己的态度",
+        "Opinion": "否认装",
+        "Sentiment": "negative",
+        "Rationale": "被2认为在装"
+    },
+    {
+        "sentence": "肯定是您给我发表的",
+        "Holder": "2",
+        "Target": "发表行为",
+        "Aspect": "责任归属",
+        "Opinion": "认为是1的责任",
+        "Sentiment": "ambiguous",
+        "Rationale": "2认为1有可能是发表文章的人"
+    },
+    {
+        "sentence": "什么我给你发表的？这分明是你自己偷偷的去发表的，你就如实招来吧啊。",
+        "Holder": "1",
+        "Target": "发表行为",
+        "Aspect": "责任归属",
+        "Opinion": "认为是2的责任",
+        "Sentiment": "negative",
+        "Rationale": "1被2怀疑感到冤枉"
+    },
+    {
+        "sentence": "招什么呀？我连人家出版社的门朝哪开我都不知道，我就发表，你就承认算了",
+        "Holder": "2",
+        "Target": "发表行为",
+        "Aspect": "责任归属",
+        "Opinion": "否认自己的责任",
+        "Sentiment": "negative",
+        "Rationale": "2被1指责感到委屈"
+    },
+    {
+        "sentence": "承认什么呀？",
+        "Holder": "1",
+        "Target": "发表行为",
+        "Aspect": "责任归属",
+        "Opinion": "否认自己的责任",
+        "Sentiment": "negative",
+        "Rationale": "1被2要求承认感到困惑和冤枉"
+    },
+    {
+        "sentence": "我倒是知道出版社的门朝哪儿开，可这确实不是我干的啊。",
+        "Holder": "1",
+        "Target": "发表行为",
+        "Aspect": "责任归属",
+        "Opinion": "否认自己的责任",
+        "Sentiment": "negative",
+        "Rationale": "1被误解感到冤枉"
+    },
+    {
+        "sentence": "不是您那不是我，那还谁啊？",
+        "Holder": "2",
+        "Target": "责任人",
+        "Aspect": "责任归属",
+        "Opinion": "否认是自己",
+        "Sentiment": "ambiguous",
+        "Rationale": "2在对话中试图澄清责任不在自己"
+    },
+    {
+        "sentence": "是不是上次在花园那个。",
+        "Holder": "2",
+        "Target": "责任人",
+        "Aspect": "身份确认",
+        "Opinion": "猜测是花园那个人",
+        "Sentiment": "neutral",
+        "Rationale": "2在提出一个猜测"
+    },
+    {
+        "sentence": "戴眼镜的那个",
+        "Holder": "1",
+        "Target": "责任人",
+        "Aspect": "外貌特征",
+        "Opinion": "确认是戴眼镜的人",
+        "Sentiment": "neutral",
+        "Rationale": "1在描述一个具体特征"
+    },
+    {
+        "sentence": "就是他。",
+        "Holder": "2",
+        "Target": "责任人",
+        "Aspect": "身份确认",
+        "Opinion": "确认是那个人",
+        "Sentiment": "positive",
+        "Rationale": "2在确认责任人的身份"
+    },
+    {
+        "sentence": "没错没错，当时走的时候这画在他手里，看来只有这一种可能性。",
+        "Holder": "1",
+        "Target": "责任人",
+        "Aspect": "证据支持",
+        "Opinion": "确认责任人是他",
+        "Sentiment": "positive",
+        "Rationale": "1通过证据确认了责任人的身份"
+    },
+    {
+        "sentence": "可是他为什么呢？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行为原因",
+        "Opinion": "不理解原因",
+        "Sentiment": "neutral",
+        "Rationale": "1对他行为的原因感到困惑"
+    },
+    {
+        "sentence": "那肯定是本大画家画的画好呗，是金子早晚会发光的。",
+        "Holder": "2",
+        "Target": "画家",
+        "Aspect": "绘画能力",
+        "Opinion": "画技高超",
+        "Sentiment": "positive",
+        "Rationale": "2认为画家的画技高超"
+    },
+    {
+        "sentence": "我看你是快发晕了吧。你还发光",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "状态",
+        "Opinion": "认为2不清醒",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在夸大其词"
+    },
+    {
+        "sentence": "一会儿我把这些画儿给妈看看。",
+        "Holder": "2",
+        "Target": "画作",
+        "Aspect": "展示对象",
+        "Opinion": "打算给母亲看",
+        "Sentiment": "neutral",
+        "Rationale": "2打算把画作展示给母亲看"
+    },
+    {
+        "sentence": "你可不能干这事，傻吗你啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不合理"
+    },
+    {
+        "sentence": "看你把你妈画的多可怕啊",
+        "Holder": "1",
+        "Target": "画的妈妈",
+        "Aspect": "画作的可怕程度",
+        "Opinion": "画的可怕",
+        "Sentiment": "negative",
+        "Rationale": "画作中的妈妈形象显得可怕"
+    }
+]

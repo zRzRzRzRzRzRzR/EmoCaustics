@@ -1,0 +1,362 @@
+[
+    {
+        "sentence": "阿峥，别相信他说的话！",
+        "Holder": "1",
+        "Target": "说话人 2",
+        "Aspect": "话语可信度",
+        "Opinion": "不可信",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的话不可信"
+    },
+    {
+        "sentence": "难道你忘了吗？是南瑾之害死了你父亲，又害得你母亲双腿被人打断，最后含恨而终，她是南瑾之的女儿，又怎么会帮你呢？",
+        "Holder": "1",
+        "Target": "南瑾之的女儿",
+        "Aspect": "动机和可信度",
+        "Opinion": "不信任",
+        "Sentiment": "negative",
+        "Rationale": "提及对方家族的恶劣行径"
+    },
+    {
+        "sentence": "一定是你在玉佩上做了手脚！",
+        "Holder": "1",
+        "Target": "玉佩",
+        "Aspect": "玉佩的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方在玉佩上做了手脚"
+    },
+    {
+        "sentence": "做手脚？叶小姐，你还真是不见棺材不落泪呀。",
+        "Holder": "2",
+        "Target": "叶小姐",
+        "Aspect": "态度和坚持",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "对方坚持怀疑"
+    },
+    {
+        "sentence": "我这里还准备了一份大礼，恰好可以还原15年前那场事故的真相。",
+        "Holder": "2",
+        "Target": "15年前的事故",
+        "Aspect": "真相揭露",
+        "Opinion": "有证据",
+        "Sentiment": "neutral",
+        "Rationale": "有证据可以还原真相"
+    },
+    {
+        "sentence": "南溪，你又从哪儿找来的叫花子，又想玩什么花样？",
+        "Holder": "1",
+        "Target": "南溪",
+        "Aspect": "找来的人的身份",
+        "Opinion": "质疑南溪找来的人",
+        "Sentiment": "negative",
+        "Rationale": "南溪找来的人被1认为是叫花子"
+    },
+    {
+        "sentence": "叫花子？他叫黄三，是15年前金悦工程的工人。",
+        "Holder": "2",
+        "Target": "黄三",
+        "Aspect": "黄三的身份",
+        "Opinion": "黄三是金悦工程的工人",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释黄三的真实身份"
+    },
+    {
+        "sentence": "黄三？不可能，当年我调查过所有人，根本就没有人见过他，名单上面也没有他的名字。",
+        "Holder": "3",
+        "Target": "黄三",
+        "Aspect": "黄三的存在",
+        "Opinion": "否认黄三的存在",
+        "Sentiment": "negative",
+        "Rationale": "3在当年调查中没有发现黄三的存在"
+    },
+    {
+        "sentence": "那是因为黄三醉酒误事，早就被工地开除了。",
+        "Holder": "2",
+        "Target": "黄三",
+        "Aspect": "黄三被开除的原因",
+        "Opinion": "黄三因醉酒误事被开除",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释黄三被开除的原因"
+    },
+    {
+        "sentence": "你父亲看他可怜，无家可归，暂时在工地收留了他。",
+        "Holder": "2",
+        "Target": "黄三",
+        "Aspect": "黄三被收留的原因",
+        "Opinion": "黄三因可怜被收留",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释黄三被收留的原因"
+    },
+    {
+        "sentence": "他是你父亲去世之前最后一个见到他的人。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "见面的时间",
+        "Opinion": "最后一个见到",
+        "Sentiment": "neutral",
+        "Rationale": "2只是陈述了一个事实，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我父亲去世之前，你见过他？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "见面的情况",
+        "Opinion": "询问是否见过",
+        "Sentiment": "neutral",
+        "Rationale": "3只是在进行事实的确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "是见过。我赶到的时候，霍工已经断气了。",
+        "Holder": "4",
+        "Target": "霍工",
+        "Aspect": "死亡状态",
+        "Opinion": "已经断气",
+        "Sentiment": "negative",
+        "Rationale": "4描述了霍工已经去世的情景，这种情况下通常会感到悲伤或沉重"
+    },
+    {
+        "sentence": "可我爸明明是被压在坍塌的工棚下面，是意外导致的死亡。",
+        "Holder": "3",
+        "Target": "父亲的死亡原因",
+        "Aspect": "死亡原因",
+        "Opinion": "意外导致",
+        "Sentiment": "negative",
+        "Rationale": "3强调父亲的死亡是意外导致的，这种情况下通常会感到悲伤和不满"
+    },
+    {
+        "sentence": "那是个废弃的工棚，工程马上就要结束了，工棚拆的都差不多了。头一天，霍工还提醒我，不要到那边去，说是有坍塌的危险，结果，结果他自己倒是过去了。",
+        "Holder": "4",
+        "Target": "工棚的情况",
+        "Aspect": "工棚的安全性和霍工的行为",
+        "Opinion": "工棚不安全，霍工自己去了危险地方",
+        "Sentiment": "negative",
+        "Rationale": "4描述了工棚的不安全性和霍工的意外行为，这种情况下通常会感到遗憾和惋惜"
+    },
+    {
+        "sentence": "那你为什么不报警？",
+        "Holder": "3",
+        "Target": "4不报警的行为",
+        "Aspect": "应对措施",
+        "Opinion": "应该报警",
+        "Sentiment": "negative",
+        "Rationale": "因为4在紧急情况下没有采取报警这一合理措施，所以3感到不满和责备"
+    },
+    {
+        "sentence": "他救了你，你现在出事了！你为什么不报警？",
+        "Holder": "3",
+        "Target": "4不报警的行为",
+        "Aspect": "感恩与责任",
+        "Opinion": "应该报警",
+        "Sentiment": "negative",
+        "Rationale": "因为4在得到帮助后没有采取相应的回报行动，即报警，所以3感到愤怒和失望"
+    },
+    {
+        "sentence": "我当时很害怕，我不是工地上的工人，我怕警察来了先怀疑我。",
+        "Holder": "4",
+        "Target": "自己不报警的原因",
+        "Aspect": "心理状态",
+        "Opinion": "害怕被怀疑",
+        "Sentiment": "negative",
+        "Rationale": "因为担心自己作为非工地工人会被警察首先怀疑，所以感到害怕和犹豫不决"
+    },
+    {
+        "sentence": "你明明可以！",
+        "Holder": "3",
+        "Target": "4不报警的行为",
+        "Aspect": "行动能力",
+        "Opinion": "有能力报警",
+        "Sentiment": "negative",
+        "Rationale": "4有能力报警却没有这么做"
+    },
+    {
+        "sentence": "行了，就算他报警了，也救不了你爸。",
+        "Holder": "2",
+        "Target": "报警的效用",
+        "Aspect": "实际效果",
+        "Opinion": "报警无济于事",
+        "Sentiment": "neutral",
+        "Rationale": "因为即使报警也无法改变已经发生的事实，所以对此持中立态度"
+    },
+    {
+        "sentence": "这是15年前你父亲的验伤报告，相信你已经看过无数次，真正导致他死亡的原因是后脑的伤。工棚坍塌只是意外，而推倒你爸，导致他头破身亡的人，才是真正的杀人凶手。",
+        "Holder": "2",
+        "Target": "验伤报告",
+        "Aspect": "死亡原因",
+        "Opinion": "后脑伤是真正原因",
+        "Sentiment": "negative",
+        "Rationale": "指出真正的凶手未被追究"
+    },
+    {
+        "sentence": "霍峥，你自诩聪明，可这15年你有好好调查过真相吗？",
+        "Holder": "2",
+        "Target": "霍峥",
+        "Aspect": "调查真相的态度",
+        "Opinion": "没有好好调查",
+        "Sentiment": "negative",
+        "Rationale": "质疑霍峥的调查态度"
+    },
+    {
+        "sentence": "就是因为你的自以为是，才让你找错了人，报错了恩。最后连恨也恨错了人，报错了仇。",
+        "Holder": "2",
+        "Target": "霍峥",
+        "Aspect": "判断和行动",
+        "Opinion": "找错人、报错恩仇",
+        "Sentiment": "negative",
+        "Rationale": "指出霍峥的错误判断和行为"
+    },
+    {
+        "sentence": "谁知道她说的是真是假。",
+        "Holder": "1",
+        "Target": "南溪的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑真实性",
+        "Sentiment": "doubt",
+        "Rationale": "对南溪的话表示怀疑"
+    },
+    {
+        "sentence": "南溪，你到底给了他多少钱，让他给你做假证。",
+        "Holder": "1",
+        "Target": "南溪",
+        "Aspect": "做假证",
+        "Opinion": "认为南溪买通证人",
+        "Sentiment": "negative",
+        "Rationale": "怀疑南溪买通证人做假证"
+    },
+    {
+        "sentence": "这么激动干什么，这件事情跟你有什么关系？还是说你在帮什么人隐瞒什么真相？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "态度",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "因为2怀疑1有隐瞒事实的行为，所以语气中带有质疑和不满。"
+    },
+    {
+        "sentence": "南溪，你少血口喷人，毫无根据，你凭什么诬陷我？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "合理性",
+        "Opinion": "无根据",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2的指责没有证据，所以感到被冤枉和愤怒。"
+    },
+    {
+        "sentence": "这照片上的人，是你吧？",
+        "Holder": "2",
+        "Target": "照片上的人",
+        "Aspect": "身份确认",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "因为2在询问照片上的人是否是1，所以语气中性，旨在确认信息。"
+    },
+    {
+        "sentence": "这不是霍氏的蒋副总吗？她怎么和叶小姐在一起？",
+        "Holder": "5",
+        "Target": "照片中的人物关系",
+        "Aspect": "关系疑问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "5对照片中的人物关系感到好奇"
+    },
+    {
+        "sentence": "哎哟，他们俩还牵手呢，这也太乱了吧。",
+        "Holder": "5",
+        "Target": "照片中的人物关系",
+        "Aspect": "行为",
+        "Opinion": "不恰当",
+        "Sentiment": "negative",
+        "Rationale": "因为5认为照片中人物的行为不符合常理，所以表现出惊讶和负面评价。"
+    },
+    {
+        "sentence": "你们，你们什么都不了解，在胡说八道什么！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对情况的了解",
+        "Opinion": "对方不了解情况",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不了解情况"
+    },
+    {
+        "sentence": "别看了，蒋睿今天应该是不会来了，他现在应该已经被警察带到警察局接受调查了。",
+        "Holder": "2",
+        "Target": "蒋睿",
+        "Aspect": "蒋睿的现状",
+        "Opinion": "蒋睿被警察带走",
+        "Sentiment": "neutral",
+        "Rationale": "根据情况判断蒋睿被警察带走"
+    },
+    {
+        "sentence": "接受调查？我什么都不知道，跟我有什么关系？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "与事件的关联",
+        "Opinion": "自己不知情",
+        "Sentiment": "ambiguous",
+        "Rationale": "对事件不知情"
+    },
+    {
+        "sentence": "别装了，阿坤现在已经被警察局全国通缉，绑架我，暗杀乔董，雇人杀我灭口。这些事都是你和蒋睿两个人合谋。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "事件的参与",
+        "Opinion": "1与蒋睿合谋",
+        "Sentiment": "negative",
+        "Rationale": "认为1与蒋睿合谋犯罪"
+    },
+    {
+        "sentence": "杀人灭口，你怎么敢？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为不可接受",
+        "Sentiment": "negative",
+        "Rationale": "对2所描述的犯罪行为感到震惊和愤怒"
+    },
+    {
+        "sentence": "没有，阿峥，我没有做！",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "否认做过",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑做了某事"
+    },
+    {
+        "sentence": "你还不承认。这是什么？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "承认错误",
+        "Opinion": "要求承认",
+        "Sentiment": "negative",
+        "Rationale": "1不承认错误"
+    },
+    {
+        "sentence": "这都是假的，是她为了毁掉我的婚礼，专门伪造的！",
+        "Holder": "1",
+        "Target": "证据",
+        "Aspect": "真实性",
+        "Opinion": "认为是伪造",
+        "Sentiment": "negative",
+        "Rationale": "认为证据是伪造的"
+    },
+    {
+        "sentence": "你还真是嘴硬。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "态度",
+        "Opinion": "认为态度强硬",
+        "Sentiment": "negative",
+        "Rationale": "1坚持不承认"
+    },
+    {
+        "sentence": "你是不是以为我只有这一个证据？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "证据数量",
+        "Opinion": "暗示有更多证据",
+        "Sentiment": "negative",
+        "Rationale": "1不承认错误"
+    }
+]

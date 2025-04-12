@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "怎么不给我开门呢？谁在家？有人没有啊？",
+        "Holder": "1",
+        "Target": "开门",
+        "Aspect": "开门的及时性",
+        "Opinion": "未及时开门",
+        "Sentiment": "negative",
+        "Rationale": "在家却没有人及时开门"
+    },
+    {
+        "sentence": "哎呦妈，在后边叫您半天您都不理我",
+        "Holder": "2",
+        "Target": "1的回应",
+        "Aspect": "回应的及时性",
+        "Opinion": "未及时回应",
+        "Sentiment": "negative",
+        "Rationale": "叫了半天没有得到回应"
+    },
+    {
+        "sentence": "叫我能不听见呢？真是，干嘛去了？你们这么晚",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "觉得叫了应该听见却没回应"
+    },
+    {
+        "sentence": "您不是说了吗？晚饭自理，所以我们一致决定还是下顿馆子吗？",
+        "Holder": "2",
+        "Target": "晚饭安排",
+        "Aspect": "安排的合理性",
+        "Opinion": "按指示行动",
+        "Sentiment": "neutral",
+        "Rationale": "按照1的指示自行解决晚饭"
+    },
+    {
+        "sentence": "下馆子去了。吃什么去了？吃了这么长时间，这都快9点了",
+        "Holder": "1",
+        "Target": "2的外出吃饭",
+        "Aspect": "吃饭时间的长短",
+        "Opinion": "时间过长",
+        "Sentiment": "negative",
+        "Rationale": "觉得吃饭时间过长"
+    },
+    {
+        "sentence": "还晚呀。",
+        "Holder": "2",
+        "Target": "3的回家时间",
+        "Aspect": "时间早晚",
+        "Opinion": "认为不晚",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问3的回家时间是否晚"
+    },
+    {
+        "sentence": "是您回来的太早了",
+        "Holder": "3",
+        "Target": "2的回家时间",
+        "Aspect": "时间早晚",
+        "Opinion": "认为太早",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释2的回家时间其实并不晚"
+    },
+    {
+        "sentence": "就是的，您哪天不是天嘣嘣亮您就溜出去了啊？晚上再溜回来",
+        "Holder": "2",
+        "Target": "3的出门时间",
+        "Aspect": "时间早晚",
+        "Opinion": "认为很早",
+        "Sentiment": "negative",
+        "Rationale": "2在抱怨3每天很早就出门，晚上才回来"
+    },
+    {
+        "sentence": "您说这小偷还是妈呀？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "2用‘小偷’来形容3的行为，表示对3的行为不满"
+    },
+    {
+        "sentence": "我这出门进门蹑手蹑脚，不是为了怕影响你们睡觉吗？怕打扰你们吗？我给你们解释多少次的，医院来了一个需要特护的病人，病得非常危险，妈妈必须得早出晚归，得加班，我容易吗我？幸亏这病人今天已经脱离危险了，所以我从今天开始也不用当小偷了。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "解释合理性",
+        "Sentiment": "negative",
+        "Rationale": "1在为自己早出晚归的行为进行解释，表达了自己的辛苦和无奈"
+    },
+    {
+        "sentence": "也不用早上那么早走，晚上的晚回来了。",
+        "Holder": "1",
+        "Target": "出行时间",
+        "Aspect": "时间安排",
+        "Opinion": "不需要那么早走",
+        "Sentiment": "neutral",
+        "Rationale": "对出行时间的安排没有特别的情绪波动"
+    },
+    {
+        "sentence": "妈，这个我这顿饭是我拿压岁钱请的，您给我报销了吧",
+        "Holder": "2",
+        "Target": "压岁钱使用",
+        "Aspect": "报销请求",
+        "Opinion": "希望报销",
+        "Sentiment": "positive",
+        "Rationale": "希望母亲能报销自己用压岁钱请的饭"
+    },
+    {
+        "sentence": "报什么呀？你应该拿压岁钱请大家。",
+        "Holder": "1",
+        "Target": "压岁钱使用",
+        "Aspect": "使用方式",
+        "Opinion": "应该请大家",
+        "Sentiment": "neutral",
+        "Rationale": "认为压岁钱应该用来请大家"
+    },
+    {
+        "sentence": "您给报了吧",
+        "Holder": "2",
+        "Target": "报销请求",
+        "Aspect": "报销",
+        "Opinion": "再次请求报销",
+        "Sentiment": "positive",
+        "Rationale": "再次希望母亲能报销"
+    },
+    {
+        "sentence": "351，吃什么了你们仨。",
+        "Holder": "1",
+        "Target": "饭费金额",
+        "Aspect": "消费内容",
+        "Opinion": "询问消费内容",
+        "Sentiment": "neutral",
+        "Rationale": "对饭费金额感到好奇"
+    },
+    {
+        "sentence": "诶，我可没吃什么啊，我就吃了半斤虾，完了。还有那一大螃蟹。",
+        "Holder": "5",
+        "Target": "自己的饮食",
+        "Aspect": "食物的种类和数量",
+        "Opinion": "吃得不多",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己只吃了半斤虾和一只螃蟹"
+    },
+    {
+        "sentence": "就数你最馋了我，我只点了一盘三文鱼。",
+        "Holder": "2",
+        "Target": "5的饮食",
+        "Aspect": "食物选择的合理性",
+        "Opinion": "5吃得太多",
+        "Sentiment": "negative",
+        "Rationale": "觉得5吃了半斤虾和一只螃蟹比自己吃得多"
+    },
+    {
+        "sentence": "嘿，您知道我对海鲜这玩意不太感兴趣，我一盘肘子就打发，就是忒腻了",
+        "Holder": "3",
+        "Target": "自己的饮食",
+        "Aspect": "食物选择的偏好",
+        "Opinion": "对海鲜不感兴趣",
+        "Sentiment": "neutral",
+        "Rationale": "自己对海鲜不感兴趣，选择了肘子但觉得腻"
+    },
+    {
+        "sentence": "你们这仨小孩跑去下馆子就已经很过分了，知道吗？吃个麦当劳肯德基不就完了吗？",
+        "Holder": "1",
+        "Target": "5、2、3的饮食选择",
+        "Aspect": "外出就餐的合理性",
+        "Opinion": "下馆子过分",
+        "Sentiment": "negative",
+        "Rationale": "认为孩子们去下馆子而不是吃快餐是不合理的"
+    },
+    {
+        "sentence": "还什么三文鱼，还虾，还螃蟹，你们太过分了，太奢侈了吧。",
+        "Holder": "1",
+        "Target": "5、2、3的食物选择",
+        "Aspect": "食物的奢侈程度",
+        "Opinion": "食物太奢侈",
+        "Sentiment": "negative",
+        "Rationale": "觉得孩子们选择的三文鱼、虾和螃蟹过于奢侈"
+    },
+    {
+        "sentence": "您怎么不说我们这段时间天天啃面包，吃方便面的时候了？我告诉您，我们现在营养已经严重缺乏了，看来一顿两顿是补不回来了。",
+        "Holder": "3",
+        "Target": "饮食状况",
+        "Aspect": "营养摄入",
+        "Opinion": "营养严重缺乏",
+        "Sentiment": "negative",
+        "Rationale": "长期吃面包和方便面导致营养不足"
+    },
+    {
+        "sentence": "没错，我们不光身体上缺钙，我们精神上还缺爱。",
+        "Holder": "5",
+        "Target": "自身状况",
+        "Aspect": "身心健康",
+        "Opinion": "身心俱缺",
+        "Sentiment": "negative",
+        "Rationale": "不仅身体缺乏营养，精神上也缺乏关爱"
+    },
+    {
+        "sentence": "对，妈把爱都撒向了人间，把我们仨都当成了活神仙，你以为喘气就能活着呢？",
+        "Holder": "3",
+        "Target": "母亲的爱",
+        "Aspect": "爱的分配",
+        "Opinion": "爱被忽视",
+        "Sentiment": "negative",
+        "Rationale": "母亲的爱没有充分给予自己"
+    },
+    {
+        "sentence": "没妈的孩子就橡根草",
+        "Holder": "5",
+        "Target": "无母的孩子",
+        "Aspect": "生活状态",
+        "Opinion": "无依无靠",
+        "Sentiment": "negative",
+        "Rationale": "没有母亲的孩子像草一样无依无靠"
+    },
+    {
+        "sentence": "没办法，只有自己爱自己了。",
+        "Holder": "2",
+        "Target": "自身",
+        "Aspect": "自我关怀",
+        "Opinion": "自我安慰",
+        "Sentiment": "neutral",
+        "Rationale": "缺乏外界的关爱"
+    },
+    {
+        "sentence": "你们倒是自己爱自己了，谁爱我呀？",
+        "Holder": "1",
+        "Target": "其他人",
+        "Aspect": "关心和爱",
+        "Opinion": "缺乏被爱",
+        "Sentiment": "negative",
+        "Rationale": "感到自己被忽视，没有得到他人的关心和爱"
+    },
+    {
+        "sentence": "哎，谁呀？来了，姐。",
+        "Holder": "1",
+        "Target": "来人",
+        "Aspect": "身份确认",
+        "Opinion": "疑惑但友好",
+        "Sentiment": "neutral",
+        "Rationale": "对来人的身份感到疑惑，但同时表现出友好的态度"
+    },
+    {
+        "sentence": "来来来来来，我告诉你，我要告诉你好消息。",
+        "Holder": "6",
+        "Target": "好消息",
+        "Aspect": "分享喜悦",
+        "Opinion": "兴奋和期待",
+        "Sentiment": "positive",
+        "Rationale": "有重要好消息要分享"
+    },
+    {
+        "sentence": "天上掉了那么大一馅饼，够你后半辈子吃的了",
+        "Holder": "6",
+        "Target": "好消息的内容",
+        "Aspect": "好消息的影响",
+        "Opinion": "巨大且长远",
+        "Sentiment": "positive",
+        "Rationale": "好消息带来的利益巨大且长远"
+    },
+    {
+        "sentence": "什么呀？",
+        "Holder": "1",
+        "Target": "未知事件",
+        "Aspect": "事件内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对听到的事情感到疑惑"
+    },
+    {
+        "sentence": "十五床的李先生李先生要带你去美国",
+        "Holder": "6",
+        "Target": "李先生",
+        "Aspect": "计划",
+        "Opinion": "带1去美国",
+        "Sentiment": "neutral",
+        "Rationale": "只是传达李先生的信息"
+    },
+    {
+        "sentence": "我以为什么事呢。",
+        "Holder": "1",
+        "Target": "事件重要性",
+        "Aspect": "预期",
+        "Opinion": "以为是很重要的事",
+        "Sentiment": "neutral",
+        "Rationale": "发现事情并非预期中的重要"
+    },
+    {
+        "sentence": "你早知道啦。",
+        "Holder": "6",
+        "Target": "1的知情情况",
+        "Aspect": "时间",
+        "Opinion": "1早已知情",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认1是否知情"
+    },
+    {
+        "sentence": "可不是早知道了嘛，他住咱们医院的第三天就跟我说了说，问我能不能以后陪着他一块去美国继续照顾他。你多逗啊。你信哪？",
+        "Holder": "1",
+        "Target": "李先生的提议",
+        "Aspect": "可行性",
+        "Opinion": "不太相信",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然早知道李先生的提议，但对其可行性表示怀疑"
+    },
+    {
+        "sentence": "为什么不信啊？",
+        "Holder": "6",
+        "Target": "1的怀疑",
+        "Aspect": "信任问题",
+        "Opinion": "不理解1的怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "6不明白1为什么怀疑"
+    },
+    {
+        "sentence": "我有私人护照吗？即便我有护照，美国人给我签证吗？你知道现在美国的签证最难弄了，好多留学生学习特好，人学校给奖学金都不让去，想多美呀。你真是，就算我有护照也有签证，咱单位放我吗？",
+        "Holder": "1",
+        "Target": "出国可能性",
+        "Aspect": "护照和签证的难度",
+        "Opinion": "出国非常困难",
+        "Sentiment": "negative",
+        "Rationale": "1认为即使有护照和签证，单位也不一定会放行"
+    },
+    {
+        "sentence": "他们能不放吗？人李先生给咱单位买的几百万的 CT 机都乐蒙了，我看别说批你去美国，就是人李，哈哈哈。",
+        "Holder": "6",
+        "Target": "单位放行可能性",
+        "Aspect": "单位的态度",
+        "Opinion": "单位会放行",
+        "Sentiment": "positive",
+        "Rationale": "6认为单位会李先生的贡献而放行"
+    },
+    {
+        "sentence": "我说你这立马批是你想的认为他们立马批还是你听到什么风声他们真的想立马批啊？",
+        "Holder": "1",
+        "Target": "6的乐观",
+        "Aspect": "信息的准确性",
+        "Opinion": "怀疑6的信息来源",
+        "Sentiment": "doubt",
+        "Rationale": "1对6所说的单位会立马批的信息表示怀疑"
+    },
+    {
+        "sentence": "姐姐，这头他不批我能知道吗？我要不知道我能来这找你吗？",
+        "Holder": "6",
+        "Target": "1的质疑",
+        "Aspect": "信息的可靠性",
+        "Opinion": "确信自己的信息",
+        "Sentiment": "positive",
+        "Rationale": "6确信自己获取的信息是可靠的"
+    },
+    {
+        "sentence": "可不嘛，太好了，刘梅姐",
+        "Holder": "6",
+        "Target": "刘梅姐",
+        "Aspect": "好事的发生",
+        "Opinion": "太好了",
+        "Sentiment": "positive",
+        "Rationale": "刘梅姐做了好事"
+    },
+    {
+        "sentence": "饿了，饿死了，吃饺子。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "饥饿程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "感到非常饿"
+    },
+    {
+        "sentence": "唉呦，今儿个你们不光吃饺子，你妈还给你们捡了一个美国大馅饼呢。",
+        "Holder": "6",
+        "Target": "你们",
+        "Aspect": "额外的收获",
+        "Opinion": "捡了一个美国大馅饼",
+        "Sentiment": "positive",
+        "Rationale": "你们不仅有饺子吃，还有意外的收获"
+    },
+    {
+        "sentence": "你们叫阿姨没有啊？",
+        "Holder": "1",
+        "Target": "你们",
+        "Aspect": "礼貌行为",
+        "Opinion": "是否叫阿姨",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问是否叫了阿姨"
+    },
+    {
+        "sentence": "阿姨好",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "2向6礼貌地打招呼"
+    },
+    {
+        "sentence": "孩子们好。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "问候",
+        "Opinion": "礼貌回应",
+        "Sentiment": "positive",
+        "Rationale": "6回应2的问候"
+    },
+    {
+        "sentence": "梅梅姐，你们吃，我走了啊。",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "离别",
+        "Opinion": "告别",
+        "Sentiment": "neutral",
+        "Rationale": "6要离开"
+    },
+    {
+        "sentence": "哎，在我这吃饺子，我包多了",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "邀请",
+        "Opinion": "邀请留下吃饭",
+        "Sentiment": "positive",
+        "Rationale": "1希望6留下吃饭"
+    },
+    {
+        "sentence": "我走了，你说要早知道这样，我还不如照顾 16 床那个英国病人。",
+        "Holder": "6",
+        "Target": "当前情况",
+        "Aspect": "选择",
+        "Opinion": "后悔",
+        "Sentiment": "negative",
+        "Rationale": "6觉得如果早知道会被邀请吃饭，宁愿选择去照顾病人"
+    }
+]

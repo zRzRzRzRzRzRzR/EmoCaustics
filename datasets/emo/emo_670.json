@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "分手决定的提出与责任争论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因超市事件持续争吵后提出分手，并指责对方态度问题",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "被指出疲惫状态后转移话题到地铁沟通问题",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "坚持不原谅态度并质疑对方行为合理性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "肢体接触与立场对抗",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝拥抱并批评对方姿势，持续表达距离感",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "矛盾性道歉后重新强调态度问题",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "冲突归因与情绪处理",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑分手理由合理性并指出信息误差",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释当时优先处理情绪而非解决方案",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "关系修复尝试",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过接受小气特质表达包容意愿",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被持续拒绝后强调自身道歉的诚意",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "研讨会筹备与启动",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调精心设计的研讨会和数百场活动经验",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "协调嘉宾介绍流程",
+            "source_id": "2,3,4,5"
+          }
+        ]
+      },
+      {
+        "event": "职业发展讨论引导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "高度评价嘉宾的专业分享",
+            "source_id": "2,4,5"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职业经历与兴趣阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "表达对教学和自动驾驶领域的热情",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "跨学科AI建议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出专业与AI结合的发展路径",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "招聘体系构建",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "描述十年招聘经验积累",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "见证员工与公司共同成长",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "简历筛选标准",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "说明技能匹配优先原则",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "技术成长历程",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "实习期间获得底层技术突破",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "职业选择建议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调实践体验的重要性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "AI招聘产品演进",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "早期简历解析项目的缺陷",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "大模型解决产品核心问题",
+            "source_id": "5"
+          }
+        ]
+      },
+      {
+        "event": "就业市场分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "行业学历要求变化观察",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "管理者和立法者对个人隐私的干涉",
+        "emotions": [
+          {"state": "negative", "reason": "非法窃听和虚假利他主义侵犯隐私", "source_id": "2,3,4"},
+          {"state": "neutral", "reason": "介绍辩论参与者的背景和影响力", "source_id": "1"},
+          {"state": "negative", "reason": "警方滥用权力限制公民自由", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "隐私权的根本性质辩论",
+        "emotions": [
+          {"state": "negative", "reason": "反对将隐私视为可交易资产", "source_id": "2"},
+          {"state": "neutral", "reason": "承认隐私存在双重社会影响", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "公众人物隐私权的边界界定",
+        "emotions": [
+          {"state": "neutral", "reason": "分类定义公众人物权利范围", "source_id": "1"},
+          {"state": "positive", "reason": "新闻自由推动社会透明度", "source_id": "6,8"},
+          {"state": "neutral", "reason": "分析隐私作为信息资产的性质", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "隐私侵犯对个人尊严的冲击",
+        "emotions": [
+          {"state": "negative", "reason": "隐私暴露导致身份认同危机", "source_id": "7"},
+          {"state": "positive", "reason": "主张隐私作为基本人权保护", "source_id": "3"},
+          {"state": "negative", "reason": "职业选择受隐私监控限制", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "隐私保护与社会正义的平衡",
+        "emotions": [
+          {"state": "ambiguous", "reason": "承认隐私权存在历史性局限", "source_id": "4"},
+          {"state": "positive", "reason": "支持必要的社会干预机制", "source_id": "6"},
+          {"state": "neutral", "reason": "强调公共讨论对立法的影响", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "数据经济对隐私权的系统性破坏",
+        "emotions": [
+          {"state": "negative", "reason": "个人数据被商业机构滥用", "source_id": "5"},
+          {"state": "negative", "reason": "历史案例证明数据收集危害", "source_id": "5"},
+          {"state": "negative", "reason": "量子关联理论揭示监控本质", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "社会关联性与隐私权的辩证关系",
+        "emotions": [
+          {"state": "positive", "reason": "引用科学理论支持社会监督", "source_id": "6"},
+          {"state": "neutral", "reason": "承认隐私与透明度需要平衡", "source_id": "4"},
+          {"state": "negative", "reason": "反对过度控制个人自由", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "媒体行为对隐私权的实质影响",
+        "emotions": [
+          {"state": "negative", "reason": "报道导致长期社会性死亡", "source_id": "8"},
+          {"state": "positive", "reason": "支持受害者隐私控制权主张", "source_id": "7"},
+          {"state": "negative", "reason": "揭露网络审核机制缺陷", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "新闻伦理与公众知情权的冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "分析媒体监督的双重作用", "source_id": "8"},
+          {"state": "positive", "reason": "肯定调查报道的社会价值", "source_id": "2"},
+          {"state": "negative", "reason": "批评互联网监管标准缺失", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

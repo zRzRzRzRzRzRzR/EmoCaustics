@@ -1,0 +1,182 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论开场与流程主持",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "介绍比赛规则、队伍构成及辩论主题",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "正方核心论点阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张以成败论英雄具有激励社会的现实意义",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳反方对功利主义的质疑",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反方核心论点构建",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判以成败论英雄导致道德滑坡",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "强调超越成败的精神价值",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "逻辑框架攻防",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责反方混淆事实判断与价值判断",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "论证价值观的多元协同性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "历史案例论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "通过陈世美等反例否定成功标准",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "引述悲剧英雄获得历史认同",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "价值观革新论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张打破传统出身论英雄观念",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "批判反方忽视时代需求",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "实践危害论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露商业欺诈等现实问题根源",
+            "source_id": "7"
+          },
+          {
+            "state": "positive",
+            "reason": "强调精神气概的历史穿透力",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "总结陈词阶段",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "系统批判正方方法论缺陷",
+            "source_id": "8"
+          },
+          {
+            "state": "positive",
+            "reason": "完整构建反方价值体系",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "价值统一性论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证个人与社会价值融合路径",
+            "source_id": "9"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "比赛结果宣布",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观宣布反方获胜结果",
+            "source_id": "10"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定双方辩手整体表现",
+            "source_id": "10"
+          }
+        ]
+      }
+    ]
+  }
+}

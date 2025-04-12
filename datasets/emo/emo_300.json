@@ -1,0 +1,99 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论准备与立场确立",
+        "emotions": [
+          {"state": "negative", "reason": "专业背景与辩论主题不符，面对专家不自信", "source_id": "1"},
+          {"state": "positive", "reason": "引用古希腊模式证明UBI合理性", "source_id": "1"},
+          {"state": "positive", "reason": "提出UBI解决贫困和机器人替代问题", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "系统缺陷揭露与改革呼吁",
+        "emotions": [
+          {"state": "negative", "reason": "现行福利系统导致万人死亡", "source_id": "1"},
+          {"state": "neutral", "reason": "强调决策紧迫性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "UBI可行性质疑",
+        "emotions": [
+          {"state": "negative", "reason": "实施成本过高导致公共服务削减", "source_id": "2"},
+          {"state": "negative", "reason": "讽刺UBI支持者背景", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "伦理正当性论证",
+        "emotions": [
+          {"state": "positive", "reason": "基本收入增强安全感和自由", "source_id": "3"},
+          {"state": "negative", "reason": "代际财富分配不公", "source_id": "3"},
+          {"state": "positive", "reason": "试点项目验证社会效益", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "UBI结构性缺陷批判",
+        "emotions": [
+          {"state": "negative", "reason": "税收恶性循环破坏经济流动性", "source_id": "4"},
+          {"state": "negative", "reason": "颠覆社会契约导致青年消极", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "经济安全解决方案",
+        "emotions": [
+          {"state": "positive", "reason": "低水平UBI即可显著减贫", "source_id": "5"},
+          {"state": "positive", "reason": "美国实践验证可行性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "历史经验与财政现实",
+        "emotions": [
+          {"state": "negative", "reason": "德国养老金系统类比揭示不可持续性", "source_id": "6"},
+          {"state": "negative", "reason": "80%税率导致工作动机丧失", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "资本再分配主张",
+        "emotions": [
+          {"state": "positive", "reason": "现代经济存在资助UBI的充足资源", "source_id": "7"},
+          {"state": "positive", "reason": "改变劳资权力结构", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "UBI政治哲学反思",
+        "emotions": [
+          {"state": "doubt", "reason": "多方立场冲突导致概念模糊", "source_id": "8"},
+          {"state": "negative", "reason": "担忧工作尊严丧失", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

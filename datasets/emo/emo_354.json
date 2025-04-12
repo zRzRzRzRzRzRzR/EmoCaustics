@@ -1,0 +1,45 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "责任归属与沟通冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑对方态度合理性，指责行为干扰，反驳无理要求",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "被动回应对方模糊指令",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对抗性对话中的情绪转换",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "基础性对话回应",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "对冲突场景产生黑色幽默反应",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "因对方持续反抗产生对抗心理",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

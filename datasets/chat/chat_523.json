@@ -1,0 +1,596 @@
+[
+    {
+        "sentence": "我。五分钟后下楼，我有话问你，别跟爸妈说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "下楼谈话的要求",
+        "Opinion": "需要保密",
+        "Sentiment": "neutral",
+        "Rationale": "只是要求保密并下楼谈话，没有明显的情感倾向"
+    },
+    {
+        "sentence": "周世辉为了你，今天在民政局悔婚了！",
+        "Holder": "2",
+        "Target": "周世辉",
+        "Aspect": "悔婚原因",
+        "Opinion": "与1有关",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "悔婚？跟我有什么关系？",
+        "Holder": "1",
+        "Target": "周世辉的悔婚",
+        "Aspect": "与自己的关系",
+        "Opinion": "无关",
+        "Sentiment": "negative",
+        "Rationale": "对被卷入事件感到困惑和不满"
+    },
+    {
+        "sentence": "他有未婚妻，你知道吧？啊？你为什么不跟他保持距离？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "与有未婚妻的人的距离",
+        "Opinion": "应该保持距离",
+        "Sentiment": "negative",
+        "Rationale": "1没有与有未婚妻的人保持距离"
+    },
+    {
+        "sentence": "那你去问他呀，他明明有未婚妻，为什么来招惹我？",
+        "Holder": "1",
+        "Target": "他的行为",
+        "Aspect": "招惹有未婚妻的人",
+        "Opinion": "不应该被招惹",
+        "Sentiment": "negative",
+        "Rationale": "被有未婚妻的人招惹"
+    },
+    {
+        "sentence": "他糊涂，你不能推波助澜啊。他看你什么眼神，你不明白吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对他人感情的影响",
+        "Opinion": "不应该推波助澜",
+        "Sentiment": "negative",
+        "Rationale": "1的行为可能加剧了他的糊涂"
+    },
+    {
+        "sentence": "我管得了他看我什么眼神？",
+        "Holder": "1",
+        "Target": "他的眼神",
+        "Aspect": "对眼神的控制",
+        "Opinion": "无法控制",
+        "Sentiment": "neutral",
+        "Rationale": "无法控制他人的眼神"
+    },
+    {
+        "sentence": "行行行，我不管怎么样，我告诉你，这两天你不准去单位上班。你不在他面前晃，我劝劝他没准还能回心转意。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "上班与否",
+        "Opinion": "不准去上班",
+        "Sentiment": "negative",
+        "Rationale": "希望1不在他面前出现以便让他回心转意"
+    },
+    {
+        "sentence": "他未婚妻还要他？",
+        "Holder": "1",
+        "Target": "他未婚妻",
+        "Aspect": "是否接受他",
+        "Opinion": "质疑接受",
+        "Sentiment": "ambiguous",
+        "Rationale": "对未婚妻是否还愿意接受他有疑问"
+    },
+    {
+        "sentence": "凭什么不要他呀？7年的感情，怎么就不能给一个改过自新的机会？衣不如新，人不如故，你懂不懂？",
+        "Holder": "2",
+        "Target": "他未婚妻",
+        "Aspect": "是否给机会",
+        "Opinion": "应该给机会",
+        "Sentiment": "positive",
+        "Rationale": "认为7年的感情值得给一个改过自新的机会"
+    },
+    {
+        "sentence": "你们男人就是把感情当衣服，旧了就扔。女人也把感情当衣服，新三年旧三年，缝缝补补再三年，是吧？我跟你说，这样的女人我看不起。",
+        "Holder": "1",
+        "Target": "男人和女人",
+        "Aspect": "对待感情的态度",
+        "Opinion": "看不起",
+        "Sentiment": "negative",
+        "Rationale": "认为男人和女人都把感情当衣服，不珍惜"
+    },
+    {
+        "sentence": "玫瑰，不管怎么样，你不许再见周世辉了，听懂没有？",
+        "Holder": "2",
+        "Target": "玫瑰",
+        "Aspect": "是否见周世辉",
+        "Opinion": "不允许见",
+        "Sentiment": "negative",
+        "Rationale": "担心玫瑰再见周世辉会有不好的影响"
+    },
+    {
+        "sentence": "我是去上班的，又不是去见他的。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "见周世辉的原因",
+        "Opinion": "去上班",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己去上班而不是见周世辉"
+    },
+    {
+        "sentence": "你班也不许上了，上什么班。",
+        "Holder": "2",
+        "Target": "1的工作",
+        "Aspect": "上班的合理性",
+        "Opinion": "不允许上班",
+        "Sentiment": "negative",
+        "Rationale": "2对1的工作持有强烈反对态度"
+    },
+    {
+        "sentence": "凭什么？",
+        "Holder": "1",
+        "Target": "2的禁止",
+        "Aspect": "禁止的合理性",
+        "Opinion": "质疑禁止",
+        "Sentiment": "negative",
+        "Rationale": "1对2的禁止感到不满和不解"
+    },
+    {
+        "sentence": "凭，凭周世辉悔婚了，凭什么。凭明天这件事就会成为单位的爆炸性新闻！凭我大小也是个单位的领导！",
+        "Holder": "2",
+        "Target": "1的工作",
+        "Aspect": "禁止的原因",
+        "Opinion": "有理由禁止",
+        "Sentiment": "negative",
+        "Rationale": "2认为周世辉悔婚事件会影响单位和自己的声誉"
+    },
+    {
+        "sentence": "他是我初恋，我们在一起七年了。我真是没想到她会这么对我。叔叔阿姨，我真想不通，我真的想不通。",
+        "Holder": "3",
+        "Target": "周世辉",
+        "Aspect": "感情背叛",
+        "Opinion": "感到震惊和无法理解",
+        "Sentiment": "negative",
+        "Rationale": "3对周世辉的悔婚行为感到极度震惊和无法接受"
+    },
+    {
+        "sentence": "姑娘，来，喝点水，慢慢说。",
+        "Holder": "4",
+        "Target": "3的情绪",
+        "Aspect": "情绪安抚",
+        "Opinion": "安抚情绪",
+        "Sentiment": "neutral",
+        "Rationale": "4看到3情绪激动"
+    },
+    {
+        "sentence": "芝芝，你怎么来了？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "出现的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "2对3的出现感到意外"
+    },
+    {
+        "sentence": "振华，你告诉我世辉是不是外面有女人了，那个女的是谁？你告诉我。",
+        "Holder": "3",
+        "Target": "世辉",
+        "Aspect": "是否有外遇",
+        "Opinion": "怀疑有外遇",
+        "Sentiment": "negative",
+        "Rationale": "3怀疑世辉有外遇"
+    },
+    {
+        "sentence": "芝芝，我以为我人格担保，他外边没人，真没有。",
+        "Holder": "2",
+        "Target": "世辉",
+        "Aspect": "是否有外遇",
+        "Opinion": "否认有外遇",
+        "Sentiment": "positive",
+        "Rationale": "2相信并担保世辉没有外遇"
+    },
+    {
+        "sentence": "你别骗我了。你是他最好的朋友，而且你是他的领导，你肯定知道的。我求求你了，你告诉我吧，我那个女的是谁？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "信息的真实性",
+        "Opinion": "怀疑被欺骗",
+        "Sentiment": "negative",
+        "Rationale": "3认为2知道真相却不说"
+    },
+    {
+        "sentence": "没有，真没有。玫瑰，你不是要看直播吗？你赶紧回房间，赶紧进屋。",
+        "Holder": "2",
+        "Target": "玫瑰",
+        "Aspect": "行为指令",
+        "Opinion": "催促回房间",
+        "Sentiment": "neutral",
+        "Rationale": "2希望玫瑰去看直播"
+    },
+    {
+        "sentence": "你等一下。玫瑰？你叫玫瑰啊？你就是周世辉的实习生，对吧？我一直以为玫瑰是喊花呢，原来是喊的人呢，就是你是吧？是你勾引我的老公是吗？就是你是吗？",
+        "Holder": "3",
+        "Target": "玫瑰",
+        "Aspect": "身份和行为的质疑",
+        "Opinion": "怀疑玫瑰勾引自己老公",
+        "Sentiment": "negative",
+        "Rationale": "3误以为玫瑰是喊花，后发现是人且怀疑她勾引自己老公"
+    },
+    {
+        "sentence": "芝芝你冷静一下。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "情绪控制",
+        "Opinion": "要求冷静",
+        "Sentiment": "neutral",
+        "Rationale": "3情绪激动"
+    },
+    {
+        "sentence": "是你吧？",
+        "Holder": "3",
+        "Target": "玫瑰",
+        "Aspect": "行为确认",
+        "Opinion": "再次确认勾引行为",
+        "Sentiment": "negative",
+        "Rationale": "3仍然怀疑玫瑰勾引自己老公"
+    },
+    {
+        "sentence": "你冷静点！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "情绪控制",
+        "Opinion": "强烈要求冷静",
+        "Sentiment": "neutral",
+        "Rationale": "3情绪越发激动"
+    },
+    {
+        "sentence": "是吧？我怎么冷静？周世辉梦里喊她的名字呢！",
+        "Holder": "3",
+        "Target": "周世辉",
+        "Aspect": "梦中喊名字",
+        "Opinion": "无法冷静",
+        "Sentiment": "negative",
+        "Rationale": "周世辉在梦中喊别人的名字，这让3感到非常不安和困扰"
+    },
+    {
+        "sentence": "怎么回事啊？黄亦玫？",
+        "Holder": "4",
+        "Target": "黄亦玫",
+        "Aspect": "事情原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "4对黄亦玫的情况不了解"
+    },
+    {
+        "sentence": "我怎么知道？我又没有拦着他们结婚。",
+        "Holder": "1",
+        "Target": "他们结婚",
+        "Aspect": "是否阻拦",
+        "Opinion": "没有阻拦",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己没有阻拦他们结婚"
+    },
+    {
+        "sentence": "你到底做了什么？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "具体行为",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "4对1的行为感到疑惑和不信任"
+    },
+    {
+        "sentence": "我什么都没做啊。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为内容",
+        "Opinion": "没有行动",
+        "Sentiment": "neutral",
+        "Rationale": "1确实认为自己没有做任何事"
+    },
+    {
+        "sentence": "你什么都没做，人家闹上门来，哭成这个样子？你跟我老实说，跟那个男的到底怎么回事，你做了什么？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "怀疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "看到有人1而哭闹上门"
+    },
+    {
+        "sentence": "我们就是吃吃饭喝喝咖啡。",
+        "Holder": "1",
+        "Target": "1和那个男的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "只是普通吃饭喝咖啡",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己只是做了普通的事情"
+    },
+    {
+        "sentence": "人家就吃吃饭喝个咖啡。",
+        "Holder": "2",
+        "Target": "1和那个男的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "只是普通吃饭喝咖啡",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1和那个男的行为没有问题"
+    },
+    {
+        "sentence": "是你们两个人吗？",
+        "Holder": "3",
+        "Target": "1和那个男的行为",
+        "Aspect": "参与人数",
+        "Opinion": "询问是否只有两人",
+        "Sentiment": "neutral",
+        "Rationale": "3想确认参与人数"
+    },
+    {
+        "sentence": "啊？这不是约会是什么，你还告诉我什么都没做？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "认为是约会",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为符合约会的特征，但1却否认"
+    },
+    {
+        "sentence": "那普通朋友不能一起吃饭喝咖啡啊？",
+        "Holder": "1",
+        "Target": "与普通朋友的互动",
+        "Aspect": "互动的合理性",
+        "Opinion": "普通朋友也可以一起吃饭喝咖啡",
+        "Sentiment": "neutral",
+        "Rationale": "认为普通朋友之间的吃饭喝咖啡是正常行为"
+    },
+    {
+        "sentence": "你们还去看电影？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "怀疑是约会",
+        "Sentiment": "negative",
+        "Rationale": "看电影通常被视为约会活动"
+    },
+    {
+        "sentence": "没去吗？那他咋跟我说。没去，没去。",
+        "Holder": "2",
+        "Target": "1的说法",
+        "Aspect": "说法的真实性",
+        "Opinion": "怀疑1的说法",
+        "Sentiment": "negative",
+        "Rationale": "之前有人告诉自己他们去看电影了，但1否认"
+    },
+    {
+        "sentence": "你怎么知道他没去？怎么了？你怎么知道了？他们俩约会，你是跟着去了吗？你不知道他要结婚了？你跟他去约会喝咖啡，你跟他去吃饭，你敢说你自己对他一点意思都没有吗？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "与他人的关系",
+        "Opinion": "怀疑1对他人有意思",
+        "Sentiment": "negative",
+        "Rationale": "3认为1与他人的频繁约会行为不正常"
+    },
+    {
+        "sentence": "他一次一次的约你，不是你勾引他是什么？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "与他人的互动",
+        "Opinion": "认为1在勾引他人",
+        "Sentiment": "negative",
+        "Rationale": "3看到他人多次约1"
+    },
+    {
+        "sentence": "他年纪那么大了，我勾引他，我有病啊？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "与他人的关系",
+        "Opinion": "否认勾引他人",
+        "Sentiment": "negative",
+        "Rationale": "1觉得被误解且感到委屈"
+    },
+    {
+        "sentence": "行了，你赶紧回屋里！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "要求1回屋",
+        "Sentiment": "neutral",
+        "Rationale": "2希望结束争论"
+    },
+    {
+        "sentence": "他年纪大？他还比你哥年轻一岁呢！",
+        "Holder": "3",
+        "Target": "他的年纪",
+        "Aspect": "年纪的比较",
+        "Opinion": "他比某人年轻",
+        "Sentiment": "negative",
+        "Rationale": "3在反驳对方关于年纪大的说法"
+    },
+    {
+        "sentence": "你听我说，姑娘，这事很有可能不是你想象的那样。",
+        "Holder": "5",
+        "Target": "事情的真实情况",
+        "Aspect": "事情的可能性",
+        "Opinion": "事情可能与想象不同",
+        "Sentiment": "neutral",
+        "Rationale": "5在试图解释和缓和气氛"
+    },
+    {
+        "sentence": "你冷静点。",
+        "Holder": "4",
+        "Target": "3的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "需要冷静",
+        "Sentiment": "neutral",
+        "Rationale": "4在劝告3保持冷静"
+    },
+    {
+        "sentence": "叔叔阿姨，你们看到了啊。",
+        "Holder": "3",
+        "Target": "叔叔阿姨的见证",
+        "Aspect": "见证的事实",
+        "Opinion": "请求确认",
+        "Sentiment": "neutral",
+        "Rationale": "3在请求叔叔阿姨确认某事"
+    },
+    {
+        "sentence": "我又不傻！你有病啊？",
+        "Holder": "1",
+        "Target": "3的行为或言论",
+        "Aspect": "智力或合理性",
+        "Opinion": "认为对方无理",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3的言论或行为不合理，甚至有些冒犯"
+    },
+    {
+        "sentence": "你才有病呢！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "言语攻击",
+        "Opinion": "对方言语不当",
+        "Sentiment": "negative",
+        "Rationale": "因为对方使用了侮辱性的言语，所以感到愤怒并反击"
+    },
+    {
+        "sentence": "好了好了好了",
+        "Holder": "2",
+        "Target": "对话氛围",
+        "Aspect": "情绪缓和",
+        "Opinion": "试图平息争执",
+        "Sentiment": "neutral",
+        "Rationale": "因为想结束争执，所以用重复的词语来缓和气氛"
+    },
+    {
+        "sentence": "叔叔阿姨，你们都听到了吧，不是我无理取闹吧？",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "合理性",
+        "Opinion": "认为自己有理",
+        "Sentiment": "negative",
+        "Rationale": "因为想得到支持，所以强调自己的行为是合理的"
+    },
+    {
+        "sentence": "我们都要领证了，她还跟他去约会喝咖啡。",
+        "Holder": "3",
+        "Target": "对方的行为",
+        "Aspect": "忠诚度",
+        "Opinion": "对方行为不当",
+        "Sentiment": "negative",
+        "Rationale": "对方在即将领证的情况下还与其他人约会"
+    },
+    {
+        "sentence": "你们就是这么教育你们的女儿的？",
+        "Holder": "3",
+        "Target": "4的教育方式",
+        "Aspect": "教育方法",
+        "Opinion": "质疑对方的教育方式",
+        "Sentiment": "negative",
+        "Rationale": "因为认为对方的教育方式导致了女儿的不当行为，所以提出质疑和批评"
+    },
+    {
+        "sentence": "我爸妈年纪大了，他们心脏不好，你给我点面子，咱们咱们下楼说。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "给面子",
+        "Opinion": "请求给面子",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到父母的身体状况"
+    },
+    {
+        "sentence": "我给你什么面子，我为什么要给你面子？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "给面子",
+        "Opinion": "拒绝给面子",
+        "Sentiment": "negative",
+        "Rationale": "不理解为什么要给对方面子"
+    },
+    {
+        "sentence": "好了，赶紧走。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "行动",
+        "Opinion": "催促离开",
+        "Sentiment": "neutral",
+        "Rationale": "希望尽快结束当前的对话"
+    },
+    {
+        "sentence": "你们一家人都是一丘之貉！",
+        "Holder": "3",
+        "Target": "2及其家人",
+        "Aspect": "品行",
+        "Opinion": "贬低",
+        "Sentiment": "negative",
+        "Rationale": "对2及其家人的行为不满"
+    },
+    {
+        "sentence": "来来来，坐。",
+        "Holder": "5",
+        "Target": "所有人",
+        "Aspect": "行为",
+        "Opinion": "邀请坐下",
+        "Sentiment": "positive",
+        "Rationale": "希望缓和气氛"
+    },
+    {
+        "sentence": "这孩子。",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "孩子的行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "孩子的某些行为让4感到不满"
+    },
+    {
+        "sentence": "我跟你说，这事儿没完。黄振华，我以为你会给我主持公道的，没想到你们是一丘之貉！",
+        "Holder": "3",
+        "Target": "黄振华",
+        "Aspect": "公正性",
+        "Opinion": "失望",
+        "Sentiment": "negative",
+        "Rationale": "黄振华没有如预期那样主持公道，反而和对方站在一起"
+    },
+    {
+        "sentence": "我这不就是主持公道吗？你想，追我妹，长得帅的，学历高的比比皆是。她怎么能看上周世辉呢？",
+        "Holder": "2",
+        "Target": "周世辉",
+        "Aspect": "匹配度",
+        "Opinion": "不匹配",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己认为的公道，列举了其他更优秀的人选"
+    },
+    {
+        "sentence": "你什么意思？你的意思就是我捡人家不要的了，是吗？",
+        "Holder": "3",
+        "Target": "2的观点",
+        "Aspect": "对3的评价",
+        "Opinion": "被贬低",
+        "Sentiment": "negative",
+        "Rationale": "2的话让3感觉自己被贬低，像是在捡别人不要的东西"
+    },
+    {
+        "sentence": "不是这个意思，不是这个意思。",
+        "Holder": "2",
+        "Target": "3的误解",
+        "Aspect": "解释意图",
+        "Opinion": "澄清",
+        "Sentiment": "neutral",
+        "Rationale": "2意识到3误解了自己的意思"
+    },
+    {
+        "sentence": "那你什么意思？",
+        "Holder": "3",
+        "Target": "2的意图",
+        "Aspect": "话语的明确性",
+        "Opinion": "不清楚",
+        "Sentiment": "ambiguous",
+        "Rationale": "3没有理解2的具体意图"
+    },
+    {
+        "sentence": "我跟你讲，解铃还须系铃人。",
+        "Holder": "2",
+        "Target": "问题的解决",
+        "Aspect": "解决问题的责任",
+        "Opinion": "责任在始作俑者",
+        "Sentiment": "neutral",
+        "Rationale": "2认为解决问题需要由引起问题的人来负责"
+    }
+]

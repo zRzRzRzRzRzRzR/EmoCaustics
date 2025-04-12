@@ -1,0 +1,87 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "饰品使用争议",
+        "emotions": [
+          {"state": "negative", "reason": "质疑2和胡晓慧从不佩戴赠送饰品", "source_id": "2"},
+          {"state": "negative", "reason": "拒绝接受2的保管理由并威胁找麻烦", "source_id": "2"},
+          {"state": "neutral", "reason": "确认物品类型为收藏品", "source_id": "2"},
+          {"state": "negative", "reason": "指责6不爱惜20元眼影", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "礼物归属追问",
+        "emotions": [
+          {"state": "neutral", "reason": "持续追问鞋子去向", "source_id": "4,6"},
+          {"state": "neutral", "reason": "询问眼影价格真实性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "礼物保管解释",
+        "emotions": [
+          {"state": "positive", "reason": "承诺按需求佩戴饰品", "source_id": "1"},
+          {"state": "neutral", "reason": "解释珍贵物品需特殊保管", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑说谎后激烈否认", "source_id": "1"},
+          {"state": "negative", "reason": "发现眼影廉价后懊悔", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "香水价格争议",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑6对香水价格的描述", "source_id": "6"},
+          {"state": "negative", "reason": "宣布停止赠送礼物", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "行为素质提醒",
+        "emotions": [
+          {"state": "negative", "reason": "批评1和2的争吵行为", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "物品交换追踪",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述鞋换眼影事实", "source_id": "6"},
+          {"state": "negative", "reason": "怀疑6私自置换物品", "source_id": "6"},
+          {"state": "positive", "reason": "坚持希望继续收礼", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "礼物实用性评价",
+        "emotions": [
+          {"state": "negative", "reason": "批评眼影不实用", "source_id": "6"},
+          {"state": "neutral", "reason": "指出地位差异现象", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "礼物处理争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑时强烈否认", "source_id": "4"},
+          {"state": "positive", "reason": "表达对鞋子的珍惜态度", "source_id": "4"},
+          {"state": "negative", "reason": "揭露香水价格虚标", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

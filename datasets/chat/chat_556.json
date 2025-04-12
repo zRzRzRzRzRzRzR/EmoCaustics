@@ -1,0 +1,380 @@
+[
+    {
+        "sentence": "苏诚，我今天做的所有的事情都是你逼的，都是你和你妈逼我的！",
+        "Holder": "1",
+        "Target": "苏诚和他的母亲",
+        "Aspect": "行为逼迫",
+        "Opinion": "认为是被逼迫的",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的行为是被苏诚和他的母亲逼迫的"
+    },
+    {
+        "sentence": "你要怪就怪你这多事的妈去吧！",
+        "Holder": "1",
+        "Target": "苏诚的母亲",
+        "Aspect": "多事",
+        "Opinion": "认为是她多事",
+        "Sentiment": "negative",
+        "Rationale": "认为苏诚的母亲多事导致问题"
+    },
+    {
+        "sentence": "明明是你自己作恶多端，自食恶果，你怎么还有脸怪别人？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为责任",
+        "Opinion": "认为是1自己的错",
+        "Sentiment": "negative",
+        "Rationale": "认为1自己作恶多端导致现在的后果"
+    },
+    {
+        "sentence": "我有什么错？苏念本来就是个多余的拖油瓶。",
+        "Holder": "1",
+        "Target": "苏念",
+        "Aspect": "存在价值",
+        "Opinion": "认为是多余的",
+        "Sentiment": "negative",
+        "Rationale": "认为苏念是多余的拖油瓶"
+    },
+    {
+        "sentence": "你妈非要把苏念强插在我们中间，我只是不想你和你前妻的孩子来插足我们的婚姻，我有错吗？",
+        "Holder": "1",
+        "Target": "苏念",
+        "Aspect": "婚姻介入",
+        "Opinion": "反对介入",
+        "Sentiment": "negative",
+        "Rationale": "认为苏念的介入会影响自己的婚姻"
+    },
+    {
+        "sentence": "把她送回老家就可以了，为什么一直在碍我的眼啊？",
+        "Holder": "1",
+        "Target": "苏念",
+        "Aspect": "存在感",
+        "Opinion": "希望她离开",
+        "Sentiment": "negative",
+        "Rationale": "苏念的存在让自己感到不舒服"
+    },
+    {
+        "sentence": "你忘记了你当年要嫁入苏家的承诺吗？你说你会把念念当作自己的亲生女儿一样爱。",
+        "Holder": "3",
+        "Target": "1's commitment",
+        "Aspect": "承诺的履行",
+        "Opinion": "未履行承诺",
+        "Sentiment": "negative",
+        "Rationale": "因为1没有履行当年的承诺，所以3感到失望和愤怒"
+    },
+    {
+        "sentence": "你原来是个一无所有的学生，靠苏城穿金戴银，过上了富太太的生活。",
+        "Holder": "3",
+        "Target": "1's background",
+        "Aspect": "经济依赖",
+        "Opinion": "依赖苏家",
+        "Sentiment": "negative",
+        "Rationale": "因为1过去依赖苏家的经济支持，所以3对其现在的态度感到不满"
+    },
+    {
+        "sentence": "我只是不想别的孩子抢走我孩子的父爱。",
+        "Holder": "1",
+        "Target": "苏念",
+        "Aspect": "父爱分配",
+        "Opinion": "保护自己孩子的利益",
+        "Sentiment": "negative",
+        "Rationale": "因为担心苏念会分走自己孩子的父爱，所以感到焦虑和不满"
+    },
+    {
+        "sentence": "既然你不仁不义，那别怪我！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "道德行为",
+        "Opinion": "不仁不义",
+        "Sentiment": "negative",
+        "Rationale": "认为2的行为不仁不义"
+    },
+    {
+        "sentence": "别怪我不给你们苏家传宗接代！",
+        "Holder": "1",
+        "Target": "苏家",
+        "Aspect": "传宗接代的责任",
+        "Opinion": "拒绝承担责任",
+        "Sentiment": "negative",
+        "Rationale": "感到被忽视和不公平对待"
+    },
+    {
+        "sentence": "既然你们只中意苏念，只关心苏念，没有人在意我的孩子！那好，我跟我的孩子一起去死！",
+        "Holder": "1",
+        "Target": "苏家成员",
+        "Aspect": "关心程度",
+        "Opinion": "只关心苏念",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的孩子在苏家被忽视"
+    },
+    {
+        "sentence": "于曼，你到底想干什么？",
+        "Holder": "2",
+        "Target": "1的意图",
+        "Aspect": "行为动机",
+        "Opinion": "质疑意图",
+        "Sentiment": "negative",
+        "Rationale": "2对1的行为动机感到困惑和不信任"
+    },
+    {
+        "sentence": "我从来都没有想过害死苏念。按照我原来的计划，我只是想把她赶出苏家而已。",
+        "Holder": "1",
+        "Target": "自己的意图",
+        "Aspect": "行为动机",
+        "Opinion": "辩解意图",
+        "Sentiment": "neutral",
+        "Rationale": "1试图解释自己的行为动机并非恶意"
+    },
+    {
+        "sentence": "你们如果把她送回老家，这一切根本就不可能会发生！造成今天的局面，你们才是始作俑者！",
+        "Holder": "1",
+        "Target": "2等人的行为",
+        "Aspect": "责任归属",
+        "Opinion": "指责对方",
+        "Sentiment": "negative",
+        "Rationale": "1认为2等人的行为导致了现在的局面"
+    },
+    {
+        "sentence": "我现在跟我的孩子一尸两命，你们就是凶手！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "责任归属",
+        "Opinion": "指责对方为凶手",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己的孩子和自己的生命都因4而失去"
+    },
+    {
+        "sentence": "有话好好说。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "沟通方式",
+        "Opinion": "建议冷静沟通",
+        "Sentiment": "neutral",
+        "Rationale": "4希望缓和紧张的气氛"
+    },
+    {
+        "sentence": "我可怜的孩子才在我肚子里两个月，你甚至没能在这个世界上多看一眼。",
+        "Holder": "1",
+        "Target": "孩子",
+        "Aspect": "孩子的命运",
+        "Opinion": "表达对孩子的哀怜",
+        "Sentiment": "negative",
+        "Rationale": "1的孩子未能出生便去世"
+    },
+    {
+        "sentence": "两个月？你最近不是跟我说怀孕只有一个月吗？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "怀孕时间的一致性",
+        "Opinion": "质疑怀孕时间",
+        "Sentiment": "doubt",
+        "Rationale": "3发现1所述的怀孕时间与自己之前的了解不一致"
+    },
+    {
+        "sentence": "你怀孕是两个月吗？可是两个月之前，我出差了整整一个月啊，你怎么可能怀孕两个月？",
+        "Holder": "2",
+        "Target": "怀孕时间",
+        "Aspect": "怀孕时间的合理性",
+        "Opinion": "怀疑怀孕时间",
+        "Sentiment": "doubt",
+        "Rationale": "自己两个月前出差一个月"
+    },
+    {
+        "sentence": "难道说这个孩子不是我的？",
+        "Holder": "2",
+        "Target": "孩子的父亲",
+        "Aspect": "亲子关系的真实性",
+        "Opinion": "怀疑孩子不是自己的",
+        "Sentiment": "doubt",
+        "Rationale": "怀孕时间与自己出差时间不符"
+    },
+    {
+        "sentence": "你跑什么？",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为动机",
+        "Opinion": "质疑逃跑原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到2突然跑开"
+    },
+    {
+        "sentence": "她肚子里的孩子可跟我没有任何关系啊！",
+        "Holder": "5",
+        "Target": "孩子的父亲",
+        "Aspect": "亲子关系的否认",
+        "Opinion": "否认与孩子的关系",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑与孩子有关"
+    },
+    {
+        "sentence": "你这么紧张干什么？难道奸夫就是你？",
+        "Holder": "2",
+        "Target": "5的紧张行为",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑5是奸夫",
+        "Sentiment": "negative",
+        "Rationale": "5表现得非常紧张"
+    },
+    {
+        "sentence": "苏诚！你终于不傻一次了，没错，孩子就是刘大强的。",
+        "Holder": "1",
+        "Target": "苏诚",
+        "Aspect": "判断力",
+        "Opinion": "苏诚这次判断正确",
+        "Sentiment": "positive",
+        "Rationale": "苏诚这次终于做出了正确的判断"
+    },
+    {
+        "sentence": "好，咱们现在先不管这个孩子是谁的，你先把手里的武器放下，有话好好说，行吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "建议冷静对话",
+        "Sentiment": "neutral",
+        "Rationale": "希望避免冲突"
+    },
+    {
+        "sentence": "你知道我为什么怀刘大强的孩子吗？两个月前你去出差，我照例替你去巡视大楼。我碰到了喝醉的刘大强，他强奸了我！",
+        "Holder": "1",
+        "Target": "刘大强",
+        "Aspect": "行为",
+        "Opinion": "刘大强强奸了自己",
+        "Sentiment": "negative",
+        "Rationale": "被刘大强强奸"
+    },
+    {
+        "sentence": "我害怕你觉得我不干净了，我怕厌恶我，憎恶我。所以我就想把苏念给赶走，我想要我肚子里的孩子能捆绑住你。",
+        "Holder": "1",
+        "Target": "苏诚",
+        "Aspect": "情感担忧",
+        "Opinion": "担心被苏诚厌恶",
+        "Sentiment": "negative",
+        "Rationale": "担心苏诚会厌恶自己"
+    },
+    {
+        "sentence": "对不起，这一切我都不知道。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "知情情况",
+        "Opinion": "对事情不知情",
+        "Sentiment": "neutral",
+        "Rationale": "对发生的事情不知情"
+    },
+    {
+        "sentence": "刘大强你这个畜生！拿孩子威胁我，他威胁我给他钱，我每天都活在恐惧里，威胁里。",
+        "Holder": "1",
+        "Target": "刘大强",
+        "Aspect": "行为",
+        "Opinion": "畜生",
+        "Sentiment": "negative",
+        "Rationale": "刘大强拿孩子威胁要钱"
+    },
+    {
+        "sentence": "没关系，现在终于真相大白了，我再也不用害怕了，我早再也不用在恐惧里了。",
+        "Holder": "1",
+        "Target": "真相",
+        "Aspect": "揭露",
+        "Opinion": "真相大白",
+        "Sentiment": "positive",
+        "Rationale": "真相大白"
+    },
+    {
+        "sentence": "再也没有人会威胁你了，你听我说，把武器放下，有话好说好吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "安全",
+        "Opinion": "放下武器",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方安全"
+    },
+    {
+        "sentence": "把手机给我，你不敢接的电话，我来替你接。给我！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "电话接听",
+        "Opinion": "我来接",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不敢接电话"
+    },
+    {
+        "sentence": "好，给你接，但你答应我要把手里的武器丢掉。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "武器",
+        "Opinion": "丢掉武器",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方放下武器"
+    },
+    {
+        "sentence": "苏诚，张爱珍，你们心心念念的苏念终于要醒了，你们很开心吧。",
+        "Holder": "1",
+        "Target": "苏诚和张爱珍",
+        "Aspect": "苏念醒来的心情",
+        "Opinion": "他们很开心",
+        "Sentiment": "positive",
+        "Rationale": "苏念终于要醒来了"
+    },
+    {
+        "sentence": "既然你们要去医院，就带着我一起去吧。苏念醒了，我这个后妈也应该去看看她。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "去看苏念的合理性",
+        "Opinion": "应该去看看她",
+        "Sentiment": "neutral",
+        "Rationale": "作为后妈，苏念醒来时去看她是合理的"
+    },
+    {
+        "sentence": "不行，你！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "去医院的要求",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "对1的动机或行为存在不信任"
+    },
+    {
+        "sentence": "你可以去医院看念念，但你先把手里的武器放了。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "去医院看念念的条件",
+        "Opinion": "有条件同意",
+        "Sentiment": "neutral",
+        "Rationale": "担心1手里的武器可能带来危险"
+    },
+    {
+        "sentence": "放心，我不会伤害她。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对苏念的安全性",
+        "Opinion": "保证不会伤害",
+        "Sentiment": "neutral",
+        "Rationale": "被要求放下武器"
+    },
+    {
+        "sentence": "只要你放下手中的武器，我们都愿意让你去看。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "放下武器",
+        "Opinion": "愿意让1去看",
+        "Sentiment": "neutral",
+        "Rationale": "4提出了一个条件，只要1满足这个条件，4就愿意让1去看"
+    },
+    {
+        "sentence": "好，我放。",
+        "Holder": "1",
+        "Target": "4的条件",
+        "Aspect": "放下武器",
+        "Opinion": "同意放下武器",
+        "Sentiment": "positive",
+        "Rationale": "1同意了4的条件，愿意放下武器"
+    },
+    {
+        "sentence": "把刘大强抓了，送局子！我送于曼去看苏念。",
+        "Holder": "4",
+        "Target": "刘大强",
+        "Aspect": "抓捕和送警",
+        "Opinion": "要抓捕刘大强",
+        "Sentiment": "negative",
+        "Rationale": "4决定要对刘大强采取法律行动"
+    }
+]

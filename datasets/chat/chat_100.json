@@ -1,0 +1,245 @@
+[
+    {
+        "sentence": "他们不会理解您的妈妈，要不然这样他们不是不放心您吗？你让你爷爷也给我办一张护照，您走到哪我就跟到哪，我保护着您，看谁敢打您主意。",
+        "Holder": "1",
+        "Target": "妈妈的处境",
+        "Aspect": "对妈妈的理解和保护",
+        "Opinion": "需要保护妈妈",
+        "Sentiment": "neutral",
+        "Rationale": "担心妈妈的处境"
+    },
+    {
+        "sentence": "跟你说话呢？你怎么能随便怀疑妈妈啊？你这么说话，妈妈多伤心啊。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "对妈妈的怀疑",
+        "Opinion": "不应该怀疑妈妈",
+        "Sentiment": "negative",
+        "Rationale": "1的怀疑会让妈妈伤心"
+    },
+    {
+        "sentence": "我这怎么是随便怀疑她呀？爸，你就不觉得可疑？",
+        "Holder": "3",
+        "Target": "妈妈的处境",
+        "Aspect": "对妈妈的怀疑",
+        "Opinion": "认为有可疑之处",
+        "Sentiment": "negative",
+        "Rationale": "觉得妈妈的处境有可疑之处"
+    },
+    {
+        "sentence": "我不觉得可疑，我绝对相信妈妈。哎，妈妈这次去美国是单位派去的，又不是他自愿要求去的，再说了，去那有什么坏处？还可以多赚点钱，我们生活都会更好点。",
+        "Holder": "2",
+        "Target": "妈妈的出差",
+        "Aspect": "出差的原因和好处",
+        "Opinion": "支持妈妈出差",
+        "Sentiment": "positive",
+        "Rationale": "相信妈妈且认为出差有好处"
+    },
+    {
+        "sentence": "您怎么就知道赚钱呀？咱现在过的不是挺好的吗？干嘛还让我妈去美国赚钱呀？",
+        "Holder": "3",
+        "Target": "妈妈去美国赚钱",
+        "Aspect": "对生活现状的满足",
+        "Opinion": "不需要妈妈去赚钱",
+        "Sentiment": "negative",
+        "Rationale": "觉得现在生活已经很好"
+    },
+    {
+        "sentence": "我跟你说你也不明白，总而言之，你必须相信妈妈。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对妈妈的信任",
+        "Opinion": "必须相信妈妈",
+        "Sentiment": "neutral",
+        "Rationale": "2认为3不明白情况"
+    },
+    {
+        "sentence": "你相信她，我还不相信那个美国大馅饼呢？",
+        "Holder": "3",
+        "Target": "妈妈的信任",
+        "Aspect": "对美国大馅饼的怀疑",
+        "Opinion": "不相信",
+        "Sentiment": "negative",
+        "Rationale": "3对妈妈提到的美国大馅饼持怀疑态度"
+    },
+    {
+        "sentence": "怎么说话呢？小雪怎么这么没礼貌啊？什么美国大馅饼啊？人，那李先生你应该叫人李伯伯，知道吗？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "礼貌和称呼",
+        "Opinion": "没礼貌",
+        "Sentiment": "negative",
+        "Rationale": "3的言辞被认为不礼貌且称呼不当"
+    },
+    {
+        "sentence": "爸，你真的不怕，万一我妈跟那个李伯伯一块儿去了美国不回来了怎么办？",
+        "Holder": "3",
+        "Target": "妈妈和李伯伯",
+        "Aspect": "去美国的可能性",
+        "Opinion": "担心不回来",
+        "Sentiment": "negative",
+        "Rationale": "3担心妈妈和李伯伯去美国后不回来"
+    },
+    {
+        "sentence": "不可能，绝对不可能，我对妈妈是很有信心的，你也必须相信。一会儿跟我到妈妈房间去道歉去，听见没有？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对妈妈的信心和道歉要求",
+        "Opinion": "有信心且要求道歉",
+        "Sentiment": "neutral",
+        "Rationale": "2对妈妈有信心且认为3需要道歉"
+    },
+    {
+        "sentence": "来，妈喝口茶消消气。看还是我对您好。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "关心",
+        "Opinion": "自己对妈妈好",
+        "Sentiment": "positive",
+        "Rationale": "1希望通过给妈妈倒茶来缓解她的情绪"
+    },
+    {
+        "sentence": "去给妈妈好好道个歉。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "道歉",
+        "Opinion": "需要道歉",
+        "Sentiment": "neutral",
+        "Rationale": "2认为3需要向妈妈道歉"
+    },
+    {
+        "sentence": "妈，对不起，都是我的错，您就别生气。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "道歉",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "3意识到自己的错误并感到内疚"
+    },
+    {
+        "sentence": "就是孩子就是怕你在美国，哎，受苦受累受委屈，是一片好心，再说了孩子担心也不是没有道理嘛。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "担心",
+        "Opinion": "担心有道理",
+        "Sentiment": "positive",
+        "Rationale": "2理解3的担心是出于好意"
+    },
+    {
+        "sentence": "对对对，你那样不会英文，万一在美国丢了怎么办得了吧。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "语言能力",
+        "Opinion": "担心妈妈的安全",
+        "Sentiment": "negative",
+        "Rationale": "3担心妈妈在美国因不会英文而遇到麻烦"
+    },
+    {
+        "sentence": "妈在江湖上闯了多少年了，这什么世面没见过呀？",
+        "Holder": "1",
+        "Target": "妈妈的经验",
+        "Aspect": "见过的世面",
+        "Opinion": "妈妈经验丰富",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为妈妈在江湖上闯荡多年，见多识广"
+    },
+    {
+        "sentence": "这你可不懂了。刘星，我在美国生活的时间够长吧，英语够好吧，我都走丢过，美国多大你知道吗？再说了，你妈她又不爱吃西餐。",
+        "Holder": "2",
+        "Target": "美国的生活和妈妈的饮食习惯",
+        "Aspect": "生活经验和饮食习惯",
+        "Opinion": "美国生活复杂且妈妈不爱吃西餐",
+        "Sentiment": "negative",
+        "Rationale": "说话人2在美国生活多年，有过走丢的经历，且知道妈妈不爱吃西餐"
+    },
+    {
+        "sentence": "对对对，您到美国会拉肚子？非得拉肚子我就不会吃那个不让我拉肚子的东西诶。",
+        "Holder": "4",
+        "Target": "妈妈的饮食习惯",
+        "Aspect": "对西餐的适应性",
+        "Opinion": "妈妈不适应西餐",
+        "Sentiment": "negative",
+        "Rationale": "说话人4认为妈妈到美国会因不适应西餐而拉肚子"
+    },
+    {
+        "sentence": "美国人吃的全都是带血的肉。",
+        "Holder": "3",
+        "Target": "美国人的饮食习惯",
+        "Aspect": "食物的生熟程度",
+        "Opinion": "美国人吃生冷食物",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为美国人吃的肉带血，不符合自己的饮食习惯"
+    },
+    {
+        "sentence": "是是是，小雨说的特对，美国人特爱吃那生冷东西，一拌随便一弄就吃。你那吃炸酱面的胃你受得了啊？",
+        "Holder": "2",
+        "Target": "美国人的饮食习惯和妈妈的胃",
+        "Aspect": "食物的适应性和胃的承受力",
+        "Opinion": "妈妈不适应美国饮食",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认同3的观点，认为美国人的饮食习惯生冷，妈妈的胃难以适应"
+    },
+    {
+        "sentence": "我不会不吃生冷吗，我不会自己做中餐啊，再说了，人家李先生是一老华侨，人家也是吃中餐的人，人家现在就让我在家准备去美国以后给他做的中餐的菜谱呢。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "做中餐的能力",
+        "Opinion": "会做中餐",
+        "Sentiment": "positive",
+        "Rationale": "自己会做中餐并且被李先生认可"
+    },
+    {
+        "sentence": "得得得，就算你这个吃饭能解决，你的胃也受得了吗？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "胃的承受能力",
+        "Opinion": "担心胃受不了",
+        "Sentiment": "negative",
+        "Rationale": "担心4的胃无法适应生冷食物"
+    },
+    {
+        "sentence": "就是啊，你有没有医疗保险？你要是生了大病，你把所有的钱都拿出来都不够。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "医疗保险",
+        "Opinion": "缺乏医疗保险",
+        "Sentiment": "negative",
+        "Rationale": "担心4没有医疗保险，生病时无法承担医疗费用"
+    },
+    {
+        "sentence": "真是的，美国看病可贵了，我爸带我去一次牙医就花了300多美元。",
+        "Holder": "5",
+        "Target": "美国医疗费用",
+        "Aspect": "费用高昂",
+        "Opinion": "费用高",
+        "Sentiment": "negative",
+        "Rationale": "亲身经历美国高昂的医疗费用"
+    },
+    {
+        "sentence": "得了吧，我妈身体好得很，冬天都不生病。",
+        "Holder": "1",
+        "Target": "母亲的健康",
+        "Aspect": "健康状况",
+        "Opinion": "健康",
+        "Sentiment": "positive",
+        "Rationale": "母亲身体健康"
+    },
+    {
+        "sentence": "你说的这是谁敢说自己永远不得病啊？有这种人吗？",
+        "Holder": "2",
+        "Target": "4的说法",
+        "Aspect": "说法的合理性",
+        "Opinion": "质疑说法",
+        "Sentiment": "doubt",
+        "Rationale": "2认为没有人能保证自己永远不得病"
+    },
+    {
+        "sentence": "别吵了，我是被单位派去的，这是我的工作。我已经决定了，我去",
+        "Holder": "4",
+        "Target": "自己的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "坚持决定",
+        "Sentiment": "neutral",
+        "Rationale": "4认为自己被单位派去是工作职责"
+    }
+]

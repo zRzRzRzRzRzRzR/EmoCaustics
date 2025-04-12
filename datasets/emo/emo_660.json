@@ -1,0 +1,199 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论主持与流程控制",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对吴淑艳/江峰/蔡松达等辩手发言表达礼节性感谢",
+            "source_id": "2,3,4,5,6,7,8"
+          },
+          {
+            "state": "neutral",
+            "reason": "宣布辩论规则和流程节点转换",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "人性本善核心论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用康德/孟子理论建立道德先天论",
+            "source_id": "3,6,8"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇反方环境决定论质疑时防御性回应",
+            "source_id": "6,8"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑反方无法解释首恶起源问题",
+            "source_id": "6,8"
+          }
+        ]
+      },
+      {
+        "event": "现实例证攻防",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用交通规则/泰瑞莎修女佐证善行普遍性",
+            "source_id": "6,8"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释环境对善端的培育作用",
+            "source_id": "6,8"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "人性本恶理论建构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "修正康德理论建立性恶论基础",
+            "source_id": "2,4"
+          },
+          {
+            "state": "negative",
+            "reason": "以战争史实强化现实罪恶论证",
+            "source_id": "2,5"
+          },
+          {
+            "state": "positive",
+            "reason": "提出法律教化抑恶扬善解决方案",
+            "source_id": "2,5"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "善端起源论辩",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用种子隐喻论证本性存善",
+            "source_id": "6,8"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑反方无法解释道德自律根源",
+            "source_id": "6,8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "最终总结陈词",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判反方经验归纳法缺陷",
+            "source_id": "6,8"
+          },
+          {
+            "state": "positive",
+            "reason": "用孟子孺子入井案例强化本能善端",
+            "source_id": "self"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "区分生存需求与道德本心",
+            "source_id": "6,8"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "系统化反方论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "整合荀子/霍布斯/弗洛伊德理论体系",
+            "source_id": "2,4"
+          },
+          {
+            "state": "negative",
+            "reason": "持续追问善花恶果逻辑矛盾",
+            "source_id": "2,5"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认教化必要性但否定本性基础",
+            "source_id": "2,5"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "逻辑攻防战",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责反方偷换概念（人性/兽性）",
+            "source_id": "6,8"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑反方无法解释社会信任基础",
+            "source_id": "6,8"
+          },
+          {
+            "state": "positive",
+            "reason": "用日常道德行为反证本善",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "多维攻势展开",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "用考古/犯罪数据强化原罪论证",
+            "source_id": "2,5"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认教化可能性但坚持本性恶",
+            "source_id": "2,5"
+          },
+          {
+            "state": "positive",
+            "reason": "最终升华人类自我超越主题",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

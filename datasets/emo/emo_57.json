@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "书本费缴纳流程确认",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "传达学校通知要求",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑信息确认完整性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "批评对方沟通态度",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "信息确认有效性争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "验证缴费流程必要性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "应对持续质疑产生抵触",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被指责性格缺陷",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

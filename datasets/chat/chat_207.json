@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "我是觉得爱是应该主动说出口的，我觉得人能能把握的东西很少，所以我觉得这样勇敢一次的机会，也不算很多。所以还可以主动去说自己喜欢的话，我觉得是件很好的事情。",
+        "Holder": "1",
+        "Target": "爱的表达方式",
+        "Aspect": "主动表达的必要性",
+        "Opinion": "支持主动表达",
+        "Sentiment": "positive",
+        "Rationale": "认为人能把握的机会很少，勇敢表达爱的机会更少"
+    },
+    {
+        "sentence": "我是我喜欢你，但是我不会说出口。要是刚好你喜欢的那个人也是，也不会说出口。",
+        "Holder": "1",
+        "Target": "自己的情感表达",
+        "Aspect": "是否说出口",
+        "Opinion": "不会说出口",
+        "Sentiment": "negative",
+        "Rationale": "自己喜欢的人也可能不会表达"
+    },
+    {
+        "sentence": "你能不能换一个人看啊？",
+        "Holder": "2",
+        "Target": "1的情感对象",
+        "Aspect": "选择的合理性",
+        "Opinion": "建议换人",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的情感对象可能不合适"
+    },
+    {
+        "sentence": "两个人就是永远在挣扎，永远在纠结，永远没有结果，有一方必须要主动。",
+        "Holder": "1",
+        "Target": "情感关系",
+        "Aspect": "主动的重要性",
+        "Opinion": "需要一方主动",
+        "Sentiment": "negative",
+        "Rationale": "双方都不主动会导致永远没有结果"
+    },
+    {
+        "sentence": "是这个样子的。就是如果你跟另外一个人之间的感情要靠你猜他喜不喜欢你的话，那他就是不喜欢你。喜欢这种东西是藏不住的。",
+        "Holder": "2",
+        "Target": "情感判断",
+        "Aspect": "喜欢的表现",
+        "Opinion": "喜欢是藏不住的",
+        "Sentiment": "positive",
+        "Rationale": "认为真正的喜欢是明显的，不需要猜测"
+    },
+    {
+        "sentence": "世界上有三个东西是藏不住的，贫穷，喜欢，还有咳嗽！",
+        "Holder": "3",
+        "Target": "藏不住的事物",
+        "Aspect": "事物的特性",
+        "Opinion": "贫穷、喜欢、咳嗽都藏不住",
+        "Sentiment": "neutral",
+        "Rationale": "提到的是普遍现象"
+    },
+    {
+        "sentence": "我就是觉得说如果我喜欢的那个人也是这样的人的话，我觉得双方都知道是互相喜欢。",
+        "Holder": "1",
+        "Target": "互相喜欢的双方",
+        "Aspect": "感情的认知",
+        "Opinion": "双方都知道互相喜欢",
+        "Sentiment": "positive",
+        "Rationale": "认为双方都有同样的感情"
+    },
+    {
+        "sentence": "哎呀，感情这种东西没有什么输赢之分的。",
+        "Holder": "4",
+        "Target": "感情",
+        "Aspect": "感情的本质",
+        "Opinion": "感情没有输赢之分",
+        "Sentiment": "neutral",
+        "Rationale": "对感情的本质有深刻的理解"
+    },
+    {
+        "sentence": "但是没有一个人勇敢去踏出那一步。",
+        "Holder": "1",
+        "Target": "双方",
+        "Aspect": "行动的勇气",
+        "Opinion": "没有人勇敢踏出一步",
+        "Sentiment": "negative",
+        "Rationale": "没有人愿意主动表达感情"
+    },
+    {
+        "sentence": "那不是很好吗？永远在暧昧啊。",
+        "Holder": "3",
+        "Target": "暧昧状态",
+        "Aspect": "暧昧的持续性",
+        "Opinion": "永远暧昧是好的",
+        "Sentiment": "ambiguous",
+        "Rationale": "对暧昧状态持一种模棱两可的态度"
+    },
+    {
+        "sentence": "啊？你怎么这样？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "1对3的行为感到困惑和不理解"
+    },
+    {
+        "sentence": "这样，我就只跟他一个人暧昧啊。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "暧昧对象的唯一性",
+        "Opinion": "只跟一个人暧昧",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释自己的行为"
+    },
+    {
+        "sentence": "你怎么知道他是不是只跟你一个人暧昧？",
+        "Holder": "5",
+        "Target": "3的认知",
+        "Aspect": "对暧昧对象的了解",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "5对3是否能确定对方只跟自己暧昧表示怀疑"
+    },
+    {
+        "sentence": "那就更不真挚了！",
+        "Holder": "1",
+        "Target": "3的态度",
+        "Aspect": "情感的真挚性",
+        "Opinion": "不真挚",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的态度不够真挚"
+    },
+    {
+        "sentence": "那不是正好吗？如果他跟别人暧昧了，我抽身就走，因为我也没有说我喜欢他。",
+        "Holder": "3",
+        "Target": "自己的态度",
+        "Aspect": "对暧昧关系的处理",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "3认为自己没有明确表达喜欢对方"
+    },
+    {
+        "sentence": "你这不叫爱。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "爱的定义",
+        "Opinion": "不认为是爱",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的行为不符合爱的标准"
+    },
+    {
+        "sentence": "我讲一下啊，我的观点是这样子的。因为大家都看那个偶像剧，对吧？就是电视剧什么之类的，咱们都知道最觉得这个电视剧好看，最抓心挠肝，每天都想等。",
+        "Holder": "3",
+        "Target": "偶像剧",
+        "Aspect": "吸引力",
+        "Opinion": "觉得好看",
+        "Sentiment": "positive",
+        "Rationale": "3觉得偶像剧非常吸引人，每天都想看"
+    },
+    {
+        "sentence": "结婚的时候！",
+        "Holder": "1",
+        "Target": "结婚",
+        "Aspect": "关键时刻",
+        "Opinion": "强调重要性",
+        "Sentiment": "neutral",
+        "Rationale": "1在强调结婚这个关键时刻"
+    },
+    {
+        "sentence": "就是在这两个人他们又暧昧，但是又没戳破的时候，他们俩一旦表白了，我就觉得哎，什么东西啊。",
+        "Holder": "3",
+        "Target": "电视剧中的表白",
+        "Aspect": "情感转变",
+        "Opinion": "觉得失望",
+        "Sentiment": "negative",
+        "Rationale": "3觉得电视剧中的暧昧阶段更有吸引力，一旦表白就失去了那种感觉"
+    },
+    {
+        "sentence": "那你为什么要在情人节表白？",
+        "Holder": "5",
+        "Target": "3的表白时间",
+        "Aspect": "时间选择",
+        "Opinion": "质疑选择",
+        "Sentiment": "doubt",
+        "Rationale": "5对3选择在情人节表白的时间感到不解"
+    },
+    {
+        "sentence": "因为那是北芭给我布下的任务，你没有被北芭布下这样的任务是吧？",
+        "Holder": "3",
+        "Target": "北芭的任务",
+        "Aspect": "任务的分配",
+        "Opinion": "只有自己被分配",
+        "Sentiment": "neutral",
+        "Rationale": "北芭只给说话人3布置了任务"
+    },
+    {
+        "sentence": "你们有吗？",
+        "Holder": "5",
+        "Target": "北芭的任务",
+        "Aspect": "任务的分配",
+        "Opinion": "询问是否有任务",
+        "Sentiment": "neutral",
+        "Rationale": "想知道其他人是否也有同样的任务"
+    },
+    {
+        "sentence": "没有，真没有。",
+        "Holder": "1",
+        "Target": "北芭的任务",
+        "Aspect": "任务的分配",
+        "Opinion": "没有任务",
+        "Sentiment": "neutral",
+        "Rationale": "确实没有被分配任务"
+    },
+    {
+        "sentence": "怎么北芭就给你一个人布置呢？",
+        "Holder": "5",
+        "Target": "北芭的任务",
+        "Aspect": "任务的分配",
+        "Opinion": "疑惑为什么只有3有任务",
+        "Sentiment": "ambiguous",
+        "Rationale": "不理解为什么只有说话人3被分配任务"
+    },
+    {
+        "sentence": "我观点就是这样子啊。你看童话故事里面也是，公主和王子只要在一起了，这事儿就大结局了，因为后边演的已经没法看了。",
+        "Holder": "3",
+        "Target": "童话故事的结局",
+        "Aspect": "结局的合理性",
+        "Opinion": "结局不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为童话故事中公主和王子在一起后的情节不再吸引人"
+    },
+    {
+        "sentence": "你只要没有主动表白的话，你们俩就可以一直处在暧昧当中，你也可以等待他的表白。但是如果他表白了，你们就可以在一起。",
+        "Holder": "3",
+        "Target": "暧昧关系",
+        "Aspect": "关系维持的方式",
+        "Opinion": "可以等待对方表白",
+        "Sentiment": "neutral",
+        "Rationale": "3在描述一种关系维持的方式，没有明显的情感倾向"
+    },
+    {
+        "sentence": "不行，我觉得感情是需要名分的。",
+        "Holder": "5",
+        "Target": "感情关系",
+        "Aspect": "名分的必要性",
+        "Opinion": "需要明确的名分",
+        "Sentiment": "positive",
+        "Rationale": "5认为感情关系中名分很重要"
+    },
+    {
+        "sentence": "你没有资格说这句话，你老婆那么多，哪个是正宫！",
+        "Holder": "2",
+        "Target": "5的感情观点",
+        "Aspect": "资格问题",
+        "Opinion": "5没有资格谈论名分",
+        "Sentiment": "negative",
+        "Rationale": "2认为5自身在感情问题上处理不当"
+    },
+    {
+        "sentence": "给她们一个名分吧！",
+        "Holder": "3",
+        "Target": "2的感情状况",
+        "Aspect": "名分的给予",
+        "Opinion": "应该给予名分",
+        "Sentiment": "neutral",
+        "Rationale": "3在建议2处理感情问题，没有明显的情感倾向"
+    },
+    {
+        "sentence": "不是啊，但你这样就只享受暧昧，毫不想负责。",
+        "Holder": "4",
+        "Target": "3的感情态度",
+        "Aspect": "责任感",
+        "Opinion": "3只想享受暧昧不想负责",
+        "Sentiment": "negative",
+        "Rationale": "4认为3在感情中缺乏责任感，只享受暧昧"
+    },
+    {
+        "sentence": "对啊，一直对这一个人暧昧有什么不负责任的？",
+        "Holder": "3",
+        "Target": "暧昧行为",
+        "Aspect": "责任性",
+        "Opinion": "认为不涉及责任",
+        "Sentiment": "neutral",
+        "Rationale": "觉得暧昧行为本身不涉及责任问题"
+    },
+    {
+        "sentence": "那你对这一个人不负责吗？你不是对每个人你都是要暧昧吗？",
+        "Holder": "4",
+        "Target": "3的暧昧行为",
+        "Aspect": "责任性",
+        "Opinion": "认为3不负责",
+        "Sentiment": "negative",
+        "Rationale": "觉得3对每个人都暧昧，缺乏责任感"
+    },
+    {
+        "sentence": "可是他也没有表白啊，他不这是也对我不负责吗？",
+        "Holder": "3",
+        "Target": "对方的暧昧行为",
+        "Aspect": "责任性",
+        "Opinion": "认为对方也不负责",
+        "Sentiment": "neutral",
+        "Rationale": "对方没有表白，觉得对方也有责任"
+    },
+    {
+        "sentence": "既然都不负责就都不负责就好了。",
+        "Holder": "4",
+        "Target": "双方的暧昧行为",
+        "Aspect": "责任性",
+        "Opinion": "认为双方都不负责",
+        "Sentiment": "neutral",
+        "Rationale": "觉得双方都没有表现出责任感"
+    },
+    {
+        "sentence": "而且如果对方也在跟他享受这种暧昧的状态，对方为什么不表白？说明他也想享受这种暧昧！",
+        "Holder": "2",
+        "Target": "对方的暧昧行为",
+        "Aspect": "动机",
+        "Opinion": "认为对方享受暧昧",
+        "Sentiment": "neutral",
+        "Rationale": "对方不表白却享受暧昧，推测对方动机"
+    },
+    {
+        "sentence": "那就两个人都不负责。",
+        "Holder": "4",
+        "Target": "两个人",
+        "Aspect": "责任感",
+        "Opinion": "都不负责",
+        "Sentiment": "negative",
+        "Rationale": "认为两个人都没有承担责任"
+    },
+    {
+        "sentence": "我知道了，你们都不是老实人。",
+        "Holder": "5",
+        "Target": "你们",
+        "Aspect": "诚实度",
+        "Opinion": "都不是老实人",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不诚实"
+    },
+    {
+        "sentence": "你老实？你给个名分吧。",
+        "Holder": "3",
+        "Target": "你",
+        "Aspect": "诚实度",
+        "Opinion": "质疑对方的诚实",
+        "Sentiment": "negative",
+        "Rationale": "质疑对方的诚实并要求对方给出明确的态度"
+    },
+    {
+        "sentence": "说到这个，你是该被谴责一下的。",
+        "Holder": "1",
+        "Target": "你",
+        "Aspect": "行为",
+        "Opinion": "该被谴责",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为有问题"
+    },
+    {
+        "sentence": "我也想跟你结婚赵丽颖。",
+        "Holder": "5",
+        "Target": "赵丽颖",
+        "Aspect": "结婚意愿",
+        "Opinion": "想结婚",
+        "Sentiment": "positive",
+        "Rationale": "表达了对赵丽颖的结婚愿望"
+    },
+    {
+        "sentence": "先排队吧。",
+        "Holder": "2",
+        "Target": "5的结婚意愿",
+        "Aspect": "结婚的顺序",
+        "Opinion": "需要排队",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地指出需要排队，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你说姐姐求求了，看我一眼吧。",
+        "Holder": "3",
+        "Target": "赵丽颖",
+        "Aspect": "关注请求",
+        "Opinion": "请求关注",
+        "Sentiment": "positive",
+        "Rationale": "表达了对赵丽颖的关注和请求"
+    },
+    {
+        "sentence": "但其实说实话，如果是真的，在我确定对方喜欢我的情况下，我会说的。",
+        "Holder": "2",
+        "Target": "表达感情的条件",
+        "Aspect": "表达感情的时机",
+        "Opinion": "在确定对方喜欢自己时表达",
+        "Sentiment": "neutral",
+        "Rationale": "只有在确定对方喜欢自己的情况下才会表达感情"
+    },
+    {
+        "sentence": "如果是真的，我不会说的。",
+        "Holder": "1",
+        "Target": "表达感情的条件",
+        "Aspect": "表达感情的时机",
+        "Opinion": "即使确定对方喜欢自己也不表达",
+        "Sentiment": "neutral",
+        "Rationale": "即使确定对方喜欢自己也不愿意表达感情"
+    },
+    {
+        "sentence": "我觉得是这样子，首先你得确定起码80%吧，对你是有好感的，你才会说呀，80之前你肯定就是要进行一些手段呀。",
+        "Holder": "3",
+        "Target": "表达感情的条件",
+        "Aspect": "表达感情的时机和手段",
+        "Opinion": "需要确定80%好感才表达，之前需用手段",
+        "Sentiment": "neutral",
+        "Rationale": "认为需要确定对方有80%的好感才会表达感情，之前需要采取一些手段"
+    },
+    {
+        "sentence": "你要什么手段？详细说说。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "求教手段",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "因为对3提出的手段感到好奇，所以询问详情"
+    },
+    {
+        "sentence": "这个就是需要跟你取取经了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "求教",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "因为认可2的经验，所以希望能从2那里学到东西"
+    },
+    {
+        "sentence": "你觉得呢？",
+        "Holder": "1",
+        "Target": "4的意见",
+        "Aspect": "询问意见",
+        "Opinion": "希望得到4的看法",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问4的意见"
+    },
+    {
+        "sentence": "我没有经验，我说不出来。",
+        "Holder": "4",
+        "Target": "自己的经验",
+        "Aspect": "经验的缺乏",
+        "Opinion": "无法提供意见",
+        "Sentiment": "neutral",
+        "Rationale": "4确实没有相关经验"
+    },
+    {
+        "sentence": "你的经验就是莽。",
+        "Holder": "3",
+        "Target": "4的经验",
+        "Aspect": "经验的性质",
+        "Opinion": "认为4的经验是莽撞的",
+        "Sentiment": "negative",
+        "Rationale": "3认为4的经验不足且行为莽撞"
+    }
+]

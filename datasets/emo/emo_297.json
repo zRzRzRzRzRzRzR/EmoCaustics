@@ -1,0 +1,78 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "情感背叛与身份揭露",
+        "emotions": [
+          {"state": "negative", "reason": "发现2的欺骗行为与暴力倾向", "source_id": "2"},
+          {"state": "doubt", "reason": "试图通过亲昵称呼确认关系", "source_id": "2"},
+          {"state": "negative", "reason": "被当众揭穿替身身份", "source_id": "2,3,4"},
+          {"state": "negative", "reason": "面临法律威胁与人身安全危机", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "责任转嫁与求饶谈判",
+        "emotions": [
+          {"state": "negative", "reason": "被群体指控教唆犯罪", "source_id": "3,4"},
+          {"state": "negative", "reason": "用父亲身份进行最后挣扎", "source_id": "2"},
+          {"state": "negative", "reason": "提出屈辱性妥协方案", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "正妻身份确认与报复宣言",
+        "emotions": [
+          {"state": "positive", "reason": "公开宣示对宋晚凝的主权", "source_id": "self"},
+          {"state": "negative", "reason": "发现晚凝受伤实施连坐追责", "source_id": "3,4"},
+          {"state": "negative", "reason": "无视求饶坚持极端惩罚", "source_id": "1,3,4"}
+        ]
+      },
+      {
+        "event": "权力威慑展示",
+        "emotions": [
+          {"state": "negative", "reason": "用医疗团队突显控制力", "source_id": "3,4"},
+          {"state": "neutral", "reason": "将处置权移交晚凝", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "从帮凶到被追责的立场转换",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑宋晚凝身份真实性", "source_id": "2"},
+          {"state": "negative", "reason": "被厉司寒列为报复对象", "source_id": "2"},
+          {"state": "negative", "reason": "试图推卸责任给徐曼曼", "source_id": "1"},
+          {"state": "negative", "reason": "用社会关系寻求脱身", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "群体施暴者的恐慌演变",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对厉总情感关系存疑", "source_id": "2"},
+          {"state": "negative", "reason": "意识到行为后果严重性", "source_id": "2"},
+          {"state": "negative", "reason": "提出保密承诺换取自由", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "终极裁决者的出现",
+        "emotions": [
+          {"state": "negative", "reason": "做出全员囚禁决定", "source_id": "1,3,4"},
+          {"state": "neutral", "reason": "接受医疗处置", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

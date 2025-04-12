@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "怀孕了。",
+        "Holder": "1",
+        "Target": "怀孕",
+        "Aspect": "怀孕的事实",
+        "Opinion": "陈述事实",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己怀孕的事实"
+    },
+    {
+        "sentence": "千真万确，这不好事吗？陈总助怀孕这事千万别跟别人说，特别是厉总，",
+        "Holder": "2",
+        "Target": "陈总助怀孕",
+        "Aspect": "怀孕的好事",
+        "Opinion": "认为是好事",
+        "Sentiment": "positive",
+        "Rationale": "认为怀孕是一件好事"
+    },
+    {
+        "sentence": "你是新来的你不知道，他对员工特别差，",
+        "Holder": "2",
+        "Target": "厉总",
+        "Aspect": "对员工的态度",
+        "Opinion": "对员工差",
+        "Sentiment": "negative",
+        "Rationale": "提到厉总对员工特别差"
+    },
+    {
+        "sentence": "对不起李总，对不起你。",
+        "Holder": "5",
+        "Target": "李总",
+        "Aspect": "道歉",
+        "Opinion": "表示歉意",
+        "Sentiment": "negative",
+        "Rationale": "知道自己迟到并且可能面临严重后果"
+    },
+    {
+        "sentence": "被开除了。",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "工作状态",
+        "Opinion": "被开除",
+        "Sentiment": "negative",
+        "Rationale": "得知自己被开除"
+    },
+    {
+        "sentence": "李总。李总我迟到了，老妈生病了，我刚从老家赶回来，",
+        "Holder": "5",
+        "Target": "李总",
+        "Aspect": "迟到原因",
+        "Opinion": "解释迟到原因",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释迟到的原因"
+    },
+    {
+        "sentence": "你以后不用来了。",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "工作安排",
+        "Opinion": "不再需要来上班",
+        "Sentiment": "negative",
+        "Rationale": "决定开除对方"
+    },
+    {
+        "sentence": "李总我在公司开了十几年车，就迟到这么一次，您通融。",
+        "Holder": "5",
+        "Target": "李总",
+        "Aspect": "工作表现和请求",
+        "Opinion": "请求通融",
+        "Sentiment": "negative",
+        "Rationale": "希望得到理解和宽恕"
+    },
+    {
+        "sentence": "你去人事办手续。",
+        "Holder": "3",
+        "Target": "你",
+        "Aspect": "办理手续",
+        "Opinion": "需要去人事办",
+        "Sentiment": "neutral",
+        "Rationale": "需要你去人事部门办理相关手续"
+    },
+    {
+        "sentence": "我觉得他不像那种人，",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "性格特征",
+        "Opinion": "不像某种类型的人",
+        "Sentiment": "neutral",
+        "Rationale": "对某人的性格特征有主观判断"
+    },
+    {
+        "sentence": "你还年轻，对职场不了解。",
+        "Holder": "2",
+        "Target": "你",
+        "Aspect": "职场经验",
+        "Opinion": "缺乏职场经验",
+        "Sentiment": "neutral",
+        "Rationale": "你年轻且对职场了解不足"
+    },
+    {
+        "sentence": "陈总祝你。",
+        "Holder": "7",
+        "Target": "陈总",
+        "Aspect": "祝福",
+        "Opinion": "表达祝福",
+        "Sentiment": "positive",
+        "Rationale": "陈总对你表示祝福"
+    },
+    {
+        "sentence": "没事吧？",
+        "Holder": "8",
+        "Target": "你",
+        "Aspect": "状况",
+        "Opinion": "关心状况",
+        "Sentiment": "neutral",
+        "Rationale": "关心你的状况"
+    },
+    {
+        "sentence": "他要走了，太帅了。",
+        "Holder": "8",
+        "Target": "他",
+        "Aspect": "外貌",
+        "Opinion": "很帅",
+        "Sentiment": "positive",
+        "Rationale": "他要离开且外貌帅气"
+    },
+    {
+        "sentence": "李总连孕妇都不放过，这就是资本家真是丧尽天良。",
+        "Holder": "7",
+        "Target": "李总",
+        "Aspect": "对待孕妇的态度",
+        "Opinion": "丧尽天良",
+        "Sentiment": "negative",
+        "Rationale": "李总对孕妇都不放过，表现出极端的冷酷无情"
+    },
+    {
+        "sentence": "十七你之前还帮他说话来着，你现在知道他是什么样的人了吧？",
+        "Holder": "8",
+        "Target": "十七",
+        "Aspect": "对李总的认知",
+        "Opinion": "现在知道了李总的真面目",
+        "Sentiment": "negative",
+        "Rationale": "十七之前帮李总说话，但现在看到了李总的真实行为"
+    },
+    {
+        "sentence": "不用跟你说这个事。",
+        "Holder": "7",
+        "Target": "8",
+        "Aspect": "交流的态度",
+        "Opinion": "不想继续讨论",
+        "Sentiment": "negative",
+        "Rationale": "觉得和8讨论这个事情没有意义"
+    },
+    {
+        "sentence": "我吃饱了我先走了，",
+        "Holder": "10",
+        "Target": "自己",
+        "Aspect": "离开的原因",
+        "Opinion": "吃饱了",
+        "Sentiment": "neutral",
+        "Rationale": "已经吃饱了"
+    },
+    {
+        "sentence": "我也吃饱了，",
+        "Holder": "7",
+        "Target": "自己",
+        "Aspect": "离开的原因",
+        "Opinion": "吃饱了",
+        "Sentiment": "neutral",
+        "Rationale": "已经吃饱了"
+    },
+    {
+        "sentence": "我也先回去。",
+        "Holder": "11",
+        "Target": "自己",
+        "Aspect": "离开的决定",
+        "Opinion": "先回去",
+        "Sentiment": "neutral",
+        "Rationale": "觉得该离开了"
+    },
+    {
+        "sentence": "借过一下。",
+        "Holder": "3",
+        "Target": "借过",
+        "Aspect": "请求通过",
+        "Opinion": "请求通过",
+        "Sentiment": "neutral",
+        "Rationale": "需要通过某个地方"
+    },
+    {
+        "sentence": "借过一下，",
+        "Holder": "11",
+        "Target": "借过",
+        "Aspect": "请求通过",
+        "Opinion": "请求通过",
+        "Sentiment": "neutral",
+        "Rationale": "需要通过某个地方"
+    },
+    {
+        "sentence": "借过一下，谢谢。",
+        "Holder": "3",
+        "Target": "借过",
+        "Aspect": "请求通过",
+        "Opinion": "请求通过并表示感谢",
+        "Sentiment": "positive",
+        "Rationale": "得到了别人的让步"
+    },
+    {
+        "sentence": "你居然打到了青椒肉丝给我分点。",
+        "Holder": "3",
+        "Target": "青椒肉丝",
+        "Aspect": "食物分配",
+        "Opinion": "希望分得食物",
+        "Sentiment": "positive",
+        "Rationale": "对方打到了自己喜欢的食物"
+    },
+    {
+        "sentence": "你还敢跟我坐一起，",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "坐在一起",
+        "Opinion": "质疑对方的行为",
+        "Sentiment": "negative",
+        "Rationale": "对方之前可能有不当行为"
+    },
+    {
+        "sentence": "这有什么不敢的，你愿意安慰陌生人，还愿意收留无家可归的员工，最重要的是你。",
+        "Holder": "5",
+        "Target": "说话人6",
+        "Aspect": "行为和品质",
+        "Opinion": "勇敢、善良",
+        "Sentiment": "positive",
+        "Rationale": "说话人6愿意帮助陌生人和无家可归的员工"
+    },
+    {
+        "sentence": "做的鲜虾鱼板面真的太好吃了，",
+        "Holder": "5",
+        "Target": "说话人6",
+        "Aspect": "厨艺",
+        "Opinion": "非常好",
+        "Sentiment": "positive",
+        "Rationale": "说话人6做的鲜虾鱼板面非常美味"
+    },
+    {
+        "sentence": "我才不相信你是坏人，他们说的我根本就不相信。",
+        "Holder": "5",
+        "Target": "说话人6",
+        "Aspect": "人品",
+        "Opinion": "不是坏人",
+        "Sentiment": "positive",
+        "Rationale": "说话人5对说话人6有足够的信任"
+    },
+    {
+        "sentence": "狗腿子。",
+        "Holder": "6",
+        "Target": "说话人5",
+        "Aspect": "行为",
+        "Opinion": "谄媚",
+        "Sentiment": "negative",
+        "Rationale": "说话人6认为说话人5的行为过于谄媚"
+    },
+    {
+        "sentence": "等一下",
+        "Holder": "11",
+        "Target": "当前情况",
+        "Aspect": "时间",
+        "Opinion": "需要暂停",
+        "Sentiment": "neutral",
+        "Rationale": "说话人11希望暂停当前的行为或对话"
+    },
+    {
+        "sentence": "怎么也不能跟他一块吃。",
+        "Holder": "12",
+        "Target": "与某人一起吃饭",
+        "Aspect": "社交行为",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "不愿意与某人一起吃饭"
+    },
+    {
+        "sentence": "我今天是专门回来看大家的走的这段时间特别想你们。",
+        "Holder": "1",
+        "Target": "回来看大家",
+        "Aspect": "情感表达",
+        "Opinion": "想念",
+        "Sentiment": "positive",
+        "Rationale": "专门回来看大家并表达想念"
+    },
+    {
+        "sentence": "十七要不是陈总助回来，我们都误会厉总了，介绍。",
+        "Holder": "2",
+        "Target": "厉总",
+        "Aspect": "误会",
+        "Opinion": "解除误会",
+        "Sentiment": "positive",
+        "Rationale": "陈总助回来解除了对厉总的误会"
+    },
+    {
+        "sentence": "你过去的是一家母婴公司，我跟他们老板很熟，那儿的工作强度低，更适合你现在的状态，",
+        "Holder": "5",
+        "Target": "母婴公司",
+        "Aspect": "工作强度",
+        "Opinion": "适合",
+        "Sentiment": "positive",
+        "Rationale": "母婴公司的工作强度低，适合对方现在的状态"
+    },
+    {
+        "sentence": "你放心，只会比现在高。",
+        "Holder": "5",
+        "Target": "待遇",
+        "Aspect": "待遇水平",
+        "Opinion": "待遇会提高",
+        "Sentiment": "positive",
+        "Rationale": "5承诺待遇会比现在高"
+    },
+    {
+        "sentence": "谢谢李总。\n之前你们都误会老板了，\n他其实挺有人情味的",
+        "Holder": "1",
+        "Target": "老板",
+        "Aspect": "老板的人情味",
+        "Opinion": "老板有人情味",
+        "Sentiment": "positive",
+        "Rationale": "1认为之前大家误会了老板，现在认识到老板有人情味"
+    },
+    {
+        "sentence": "你被开除了，",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "工作状态",
+        "Opinion": "被开除",
+        "Sentiment": "negative",
+        "Rationale": "5突然宣布1被开除"
+    },
+    {
+        "sentence": "这样就把他给炒了吗？",
+        "Holder": "1",
+        "Target": "炒鱿鱼的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "质疑决定",
+        "Sentiment": "doubt",
+        "Rationale": "对突然解雇的决定感到不解"
+    },
+    {
+        "sentence": "收到他老婆的举报信，他家暴相比能力人品更重要。你去人事办手续，就当是提前退休工资一分不少，我回头再给你一笔补贴，好好回家照顾老太太，这些年辛苦你了，",
+        "Holder": "5",
+        "Target": "被炒鱿鱼的人",
+        "Aspect": "家暴行为和处理方式",
+        "Opinion": "家暴不可容忍，提供补偿",
+        "Sentiment": "neutral",
+        "Rationale": "收到举报信且认为家暴行为严重"
+    },
+    {
+        "sentence": "谢谢李总，你看我就说他不是一个坏人，他只是有一点面瘫。",
+        "Holder": "4",
+        "Target": "被炒鱿鱼的人",
+        "Aspect": "人品和面瘫",
+        "Opinion": "认为他人品不坏，只是有面瘫",
+        "Sentiment": "positive",
+        "Rationale": "认为被炒鱿鱼的人本质不坏"
+    },
+    {
+        "sentence": "您以前不是不在意这些吗？",
+        "Holder": "1",
+        "Target": "李总的态度",
+        "Aspect": "态度的一致性",
+        "Opinion": "质疑态度变化",
+        "Sentiment": "doubt",
+        "Rationale": "李总之前不在意类似问题，现在却做出解雇决定"
+    },
+    {
+        "sentence": "是。让大家认为我是狠角色，没人敢敷衍，这不挺好吗？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "形象塑造",
+        "Opinion": "狠角色形象有好处",
+        "Sentiment": "positive",
+        "Rationale": "让大家认为自己是狠角色可以避免被敷衍"
+    },
+    {
+        "sentence": "您这次为什么专程把我叫过来给大家解释？",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "叫来解释的原因",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚为什么被专程叫来解释"
+    },
+    {
+        "sentence": "我只是不想相信我的人被误会。",
+        "Holder": "1",
+        "Target": "自己的人",
+        "Aspect": "被误会的情况",
+        "Opinion": "不想被误会",
+        "Sentiment": "negative",
+        "Rationale": "不希望信任的人被误会"
+    }
+]

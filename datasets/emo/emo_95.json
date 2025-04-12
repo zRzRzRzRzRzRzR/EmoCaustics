@@ -1,0 +1,40 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "与前男友的租房交涉",
+        "emotions": [
+          {"state": "doubt", "reason": "对房子的可行性存疑", "source_id": "1"},
+          {"state": "positive", "reason": "主动表达友好态度", "source_id": "2"},
+          {"state": "neutral", "reason": "提出租房需求", "source_id": "1"},
+          {"state": "ambiguous", "reason": "对房东身份产生困惑", "source_id": "2"},
+          {"state": "positive", "reason": "强调独居的舒适性", "source_id": "1"},
+          {"state": "negative", "reason": "被指责邋遢且拒绝租房", "source_id": "2"},
+          {"state": "negative", "reason": "反对季付并要求年付优惠", "source_id": "2"},
+          {"state": "negative", "reason": "认为对方沟通方式啰嗦", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "应对前任租房请求",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方分手后接触动机", "source_id": "1"},
+          {"state": "neutral", "reason": "明确房东身份定位", "source_id": "1"},
+          {"state": "negative", "reason": "反对季付方案", "source_id": "1"},
+          {"state": "neutral", "reason": "提出月付方案并强调合同规范", "source_id": "1"},
+          {"state": "negative", "reason": "被指责沟通不耐烦", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "生活习惯争执",
+        "emotions": [
+          {"state": "negative", "reason": "批评对方邋遢外表", "source_id": "1"},
+          {"state": "neutral", "reason": "接受整洁度要求", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

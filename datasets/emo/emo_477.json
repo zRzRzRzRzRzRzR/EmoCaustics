@@ -1,0 +1,111 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "家庭经济压力下的立场表达",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞美3的言论效果，强调家庭乐观精神，提出长期支持承诺",
+            "source_id": "3,1"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳外界批评并质疑6的行为动机",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "失业危机与自我价值质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被外界否定后产生自我怀疑，子女态度加剧焦虑",
+            "source_id": "6,4,5"
+          },
+          {
+            "state": "positive",
+            "reason": "获得2的情感支持与信心重建",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "子女抚养权争夺战",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "利用经济威胁与情感绑架手段",
+            "source_id": "3,4,5"
+          },
+          {
+            "state": "positive",
+            "reason": "提供物质承诺与心理引导策略",
+            "source_id": "4,5"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭忠诚度考验",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "质疑母亲说法的合理性",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "明确表达对父亲的情感倾向",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "物质需求与情感抉择",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "担忧生活品质下降",
+            "source_id": "6"
+          },
+          {
+            "state": "neutral",
+            "reason": "寻求信息确认与决策依据",
+            "source_id": "4,6"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "家庭常规观察",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "通过行为异常感知家庭变故",
+            "source_id": "3,2"
+          }
+        ]
+      }
+    ]
+  }
+}

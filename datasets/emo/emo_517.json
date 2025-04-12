@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "紧急挪车请求与初次拒绝",
+        "emotions": [
+          {"state": "neutral", "reason": "解释挪车来意", "source_id": "2"},
+          {"state": "positive", "reason": "提出代挪车救火方案", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑动机后态度强硬", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "人身冲突与公德谴责",
+        "emotions": [
+          {"state": "negative", "reason": "被辱骂后激烈反驳", "source_id": "5"},
+          {"state": "positive", "reason": "组织集体挪车行动", "source_id": "3,4,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "火灾响应与财产优先冲突",
+        "emotions": [
+          {"state": "negative", "reason": "保安突然出现要求挪车", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑火灾真实性", "source_id": "1"},
+          {"state": "negative", "reason": "担心车辆受损且被围攻", "source_id": "3,4,5"}
+        ]
+      },
+      {
+        "event": "暴力冲突升级",
+        "emotions": [
+          {"state": "negative", "reason": "被老人殴打并威胁", "source_id": "5"},
+          {"state": "negative", "reason": "集体指责下的孤立感", "source_id": "1,3,4,5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "救援协调与责任施压",
+        "emotions": [
+          {"state": "negative", "reason": "车主忽视火灾严重性", "source_id": "2"},
+          {"state": "negative", "reason": "火势加重后强制命令挪车", "source_id": "2"},
+          {"state": "positive", "reason": "启动紧急救援程序", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "灾情通报与行动催促",
+        "emotions": [
+          {"state": "negative", "reason": "报告队员伤亡情况", "source_id": "2"},
+          {"state": "negative", "reason": "持续请求挪车未果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "道德谴责与肢体冲突",
+        "emotions": [
+          {"state": "negative", "reason": "指责缺乏公德心", "source_id": "2"},
+          {"state": "negative", "reason": "实施肢体威胁与攻击", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "陆氏集团招标大会竞争压力",
+        "emotions": [
+          {"state": "negative", "reason": "贺总参与导致机会渺茫", "source_id": "2"},
+          {"state": "ambiguous", "reason": "发现陆芸真实身份", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭责任与商业利益冲突",
+        "emotions": [
+          {"state": "negative", "reason": "对儿子败家行为的愤怒", "source_id": "3"},
+          {"state": "neutral", "reason": "强调把握商业机会", "source_id": "1,3"},
+          {"state": "positive", "reason": "认可陆氏集团实力", "source_id": "6"},
+          {"state": "negative", "reason": "当众被羞辱的屈辱感", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "身份认同与身体困境",
+        "emotions": [
+          {"state": "negative", "reason": "对父亲妥协的不满", "source_id": "2"},
+          {"state": "negative", "reason": "身体残疾引发的自我否定", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭矛盾激化",
+        "emotions": [
+          {"state": "negative", "reason": "指责丈夫教育方式", "source_id": "2"},
+          {"state": "negative", "reason": "与陆芸的肢体冲突", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "母女关系认知转变",
+        "emotions": [
+          {"state": "negative", "reason": "自我行为反思与忏悔", "source_id": "6"},
+          {"state": "negative", "reason": "被母亲拒绝的失落", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "商业复仇与情感清算",
+        "emotions": [
+          {"state": "negative", "reason": "揭露贺家阴谋的愤怒", "source_id": "2"},
+          {"state": "negative", "reason": "当众羞辱贺洪的快意", "source_id": "2"},
+          {"state": "negative", "reason": "保护女儿的决绝态度", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

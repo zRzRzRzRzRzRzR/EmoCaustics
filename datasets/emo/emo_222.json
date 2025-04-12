@@ -1,0 +1,69 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭冲突与指责",
+        "emotions": [
+          {"state": "negative", "reason": "被母亲指责伤害苏念", "source_id": "2"},
+          {"state": "neutral", "reason": "解释无力搬运重箱的客观事实", "source_id": "6"},
+          {"state": "negative", "reason": "施工队成员质疑其诬陷", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "监控证据对抗",
+        "emotions": [
+          {"state": "ambiguous", "reason": "被给予最后认错机会", "source_id": "3"},
+          {"state": "negative", "reason": "监控空白引发更深怀疑", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "信任体系崩塌",
+        "emotions": [
+          {"state": "negative", "reason": "丈夫公开否认夫妻关系", "source_id": "3"},
+          {"state": "neutral", "reason": "最终承认部分行为责任", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "孙女权益维护",
+        "emotions": [
+          {"state": "negative", "reason": "揭露孙女受虐事实", "source_id": "3"},
+          {"state": "negative", "reason": "质疑孕妇作案可能性", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "父爱觉醒与追责",
+        "emotions": [
+          {"state": "negative", "reason": "发现女儿长期受委屈", "source_id": "2"},
+          {"state": "negative", "reason": "急救时间被拖延焦虑", "source_id": "4"},
+          {"state": "negative", "reason": "妻子拒绝承认错误", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "企业控制权危机",
+        "emotions": [
+          {"state": "negative", "reason": "发现公司监控被规避", "source_id": "1"},
+          {"state": "negative", "reason": "电闸破坏阻碍救援", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "刑侦过程推进",
+        "emotions": [
+          {"state": "neutral", "reason": "客观评估孕妇行动能力", "source_id": "1"},
+          {"state": "negative", "reason": "关键监控证据缺失", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

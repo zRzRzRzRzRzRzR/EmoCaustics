@@ -1,0 +1,43 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "厨房用品所有权争议",
+        "emotions": [
+          {"state": "negative", "reason": "发现夹子被误认归属", "source_id": "2"},
+          {"state": "positive", "reason": "确认铲铲所有权", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑刀架配套完整性", "source_id": "2"},
+          {"state": "neutral", "reason": "解释厨房物品购买比例", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "刀具质量问题投诉",
+        "emotions": [
+          {"state": "negative", "reason": "直播曝光刀具质量问题", "source_id": "1"},
+          {"state": "negative", "reason": "强调菜刀功能缺陷", "source_id": "2"},
+          {"state": "positive", "reason": "推崇传统菜刀实用性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "产品设计认同分歧",
+        "emotions": [
+          {"state": "positive", "reason": "喜爱hello kitty菜板设计", "source_id": "2"},
+          {"state": "neutral", "reason": "解释套装包含内容", "source_id": "1"},
+          {"state": "negative", "reason": "被持续质疑购买选择", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "厨房贡献度争议",
+        "emotions": [
+          {"state": "ambiguous", "reason": "饮水机归属存疑", "source_id": "1"},
+          {"state": "positive", "reason": "强调大件物品购买贡献", "source_id": "2"},
+          {"state": "negative", "reason": "被否定厨房参与度", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

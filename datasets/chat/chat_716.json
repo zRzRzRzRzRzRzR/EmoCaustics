@@ -1,0 +1,389 @@
+[
+    {
+        "sentence": "好，我的排位掉了，",
+        "Holder": "2",
+        "Target": "排位",
+        "Aspect": "排位结果",
+        "Opinion": "排位下降",
+        "Sentiment": "negative",
+        "Rationale": "排位下降"
+    },
+    {
+        "sentence": "你的啥排位掉了",
+        "Holder": "6",
+        "Target": "2的排位",
+        "Aspect": "排位类型",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对2的排位类型不清楚"
+    },
+    {
+        "sentence": "人家送我的周边无底座亚克力砖。",
+        "Holder": "2",
+        "Target": "周边礼物",
+        "Aspect": "礼物类型",
+        "Opinion": "无底座亚克力砖",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述礼物的类型"
+    },
+    {
+        "sentence": "用来供的。",
+        "Holder": "6",
+        "Target": "亚克力砖",
+        "Aspect": "用途",
+        "Opinion": "供起来",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明亚克力砖的用途"
+    },
+    {
+        "sentence": "再插两炷香给你供着我操。",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "供奉行为",
+        "Opinion": "调侃",
+        "Sentiment": "ambiguous",
+        "Rationale": "用夸张的语气调侃6"
+    },
+    {
+        "sentence": "你给我供Ok的。",
+        "Holder": "6",
+        "Target": "物资供应",
+        "Aspect": "物资供应的合理性",
+        "Opinion": "要求供应",
+        "Sentiment": "neutral",
+        "Rationale": "需要确保物资供应的合理性"
+    },
+    {
+        "sentence": "他不太ok，我说实话他不太对面为什么打我的时候就不是那么菜，不是兄弟，他打我的时候一枪甚至一枪头给我秒了，他打你的时候两个人打你马一梭子，为什么？",
+        "Holder": "2",
+        "Target": "对方玩家的表现",
+        "Aspect": "对方玩家的技术水平",
+        "Opinion": "对方玩家水平不稳定",
+        "Sentiment": "negative",
+        "Rationale": "对方玩家在对战中的表现不一致"
+    },
+    {
+        "sentence": "因为我在跑打。",
+        "Holder": "3",
+        "Target": "自己的游戏行为",
+        "Aspect": "游戏策略",
+        "Opinion": "自己在跑动中射击",
+        "Sentiment": "neutral",
+        "Rationale": "自己在游戏中采用跑动射击的策略"
+    },
+    {
+        "sentence": "大头无人机启动能不能起来一下。",
+        "Holder": "2",
+        "Target": "大头无人机",
+        "Aspect": "无人机的启动",
+        "Opinion": "希望无人机启动",
+        "Sentiment": "neutral",
+        "Rationale": "需要无人机启动以完成任务"
+    },
+    {
+        "sentence": "两个二楼在传达楼下传达，这闪到底怎么扔牛哥，我操随便扔就是闪自己，闪自己家人",
+        "Holder": "6",
+        "Target": "闪光弹的使用",
+        "Aspect": "闪光弹的投掷技巧",
+        "Opinion": "对闪光弹投掷不满",
+        "Sentiment": "negative",
+        "Rationale": "闪光弹使用不当导致误伤自己人"
+    },
+    {
+        "sentence": "就在边上操，",
+        "Holder": "2",
+        "Target": "位置",
+        "Aspect": "位置描述",
+        "Opinion": "在边上",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述了位置，没有表达出明显的情感"
+    },
+    {
+        "sentence": "有个死点，小孩还有什么管理员直接走。牛哥你刚才扔了个闪，就很喜欢飞哥在周一说的话闪我就算了，闪人家妹妹带给我们。",
+        "Holder": "6",
+        "Target": "牛哥的行为",
+        "Aspect": "扔闪的行为",
+        "Opinion": "喜欢飞哥的话",
+        "Sentiment": "positive",
+        "Rationale": "牛哥扔了个闪，而飞哥之前的话让6感到认同"
+    },
+    {
+        "sentence": "草泥马的我没说过",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "是否说过某话",
+        "Opinion": "否认说过",
+        "Sentiment": "negative",
+        "Rationale": "被误解或被指责说了某话"
+    },
+    {
+        "sentence": "一说一闪没问题，人出问题了。",
+        "Holder": "2",
+        "Target": "人",
+        "Aspect": "行为问题",
+        "Opinion": "人有问题",
+        "Sentiment": "negative",
+        "Rationale": "虽然闪的行为没问题，但人的行为有问题"
+    },
+    {
+        "sentence": "我只能把枪了。我们再来打。嗯嗯。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "应对方式",
+        "Opinion": "选择继续打",
+        "Sentiment": "neutral",
+        "Rationale": "面对当前情况，选择继续打游戏"
+    },
+    {
+        "sentence": "不是这嗯嗯啥意思。",
+        "Holder": "2",
+        "Target": "对方的表达",
+        "Aspect": "表达的清晰度",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方表达含糊不清"
+    },
+    {
+        "sentence": "谁知道思路感应？",
+        "Holder": "6",
+        "Target": "思路感应",
+        "Aspect": "思路感应的理解",
+        "Opinion": "无人知晓",
+        "Sentiment": "neutral",
+        "Rationale": "思路感应是一个难以理解的概念"
+    },
+    {
+        "sentence": "兄弟我不知道他背后长眼了。",
+        "Holder": "2",
+        "Target": "对方的洞察力",
+        "Aspect": "洞察力的存在",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对方似乎能洞察一切"
+    },
+    {
+        "sentence": "这个机会只有一次。",
+        "Holder": "6",
+        "Target": "机会",
+        "Aspect": "机会的次数",
+        "Opinion": "唯一",
+        "Sentiment": "neutral",
+        "Rationale": "强调机会的稀缺性"
+    },
+    {
+        "sentence": "不是搞到对方了。",
+        "Holder": "2",
+        "Target": "对方的状况",
+        "Aspect": "是否成功",
+        "Opinion": "未成功",
+        "Sentiment": "negative",
+        "Rationale": "未能成功搞定对方"
+    },
+    {
+        "sentence": "晃他来到自己的角落。操真是。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "位置选择",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "被逼到角落"
+    },
+    {
+        "sentence": "等会儿我白了吗？包在我身上吗？操好帅。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "表现",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "对自己接下来的表现有信心"
+    },
+    {
+        "sentence": "为什么要给我赢了好吧。没事儿。",
+        "Holder": "6",
+        "Target": "胜利",
+        "Aspect": "胜利的原因",
+        "Opinion": "不在意",
+        "Sentiment": "neutral",
+        "Rationale": "对胜利的原因不太关心"
+    },
+    {
+        "sentence": "这个直播标题就是这个意思，又爱玩又菜经常被打死，操作像人机爱死亡机器人。不是，我这把不是还可以吗？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "游戏表现",
+        "Opinion": "自我辩解",
+        "Sentiment": "ambiguous",
+        "Rationale": "被质疑游戏表现"
+    },
+    {
+        "sentence": "操16个助攻不是吓人级别的，不是像他也是这个跪下的，被架构掉包掉给他，完了我过去了。",
+        "Holder": "6",
+        "Target": "助攻数量",
+        "Aspect": "表现评价",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对自己的助攻数量被忽视或贬低"
+    },
+    {
+        "sentence": "你给他吸。",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "行动指令",
+        "Opinion": "要求6吸",
+        "Sentiment": "neutral",
+        "Rationale": "2在游戏中给出指令"
+    },
+    {
+        "sentence": "不到，你的风火要救一下他给你封火墙了换位置。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "游戏策略",
+        "Opinion": "建议换位置",
+        "Sentiment": "neutral",
+        "Rationale": "6在游戏中给出建议"
+    },
+    {
+        "sentence": "我操好垃圾的火墙我操，好垃圾的闪。",
+        "Holder": "2",
+        "Target": "火墙和闪",
+        "Aspect": "技能效果",
+        "Opinion": "火墙和闪很垃圾",
+        "Sentiment": "negative",
+        "Rationale": "2对游戏中的火墙和闪技能效果不满意"
+    },
+    {
+        "sentence": "还怪你出来丢闪那个人。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "责任归属",
+        "Opinion": "怪2丢闪",
+        "Sentiment": "negative",
+        "Rationale": "6认为2丢闪导致了问题"
+    },
+    {
+        "sentence": "喜欢他们发枪是这样的，喜欢整英雄枪的下场就是。",
+        "Holder": "2",
+        "Target": "发枪行为",
+        "Aspect": "行为后果",
+        "Opinion": "发枪会导致不良后果",
+        "Sentiment": "negative",
+        "Rationale": "2认为发枪行为导致了不良后果"
+    },
+    {
+        "sentence": "哪有英雄枪这不有钱吗？你打开tab看一眼我们是不是有钱。",
+        "Holder": "6",
+        "Target": "团队经济状况",
+        "Aspect": "资金情况",
+        "Opinion": "团队有钱",
+        "Sentiment": "neutral",
+        "Rationale": "询问团队是否有足够的资金"
+    },
+    {
+        "sentence": "有钱，你哪来的钱我死没死。对了你没死。",
+        "Holder": "2",
+        "Target": "6的经济来源",
+        "Aspect": "资金来源和生存状态",
+        "Opinion": "确认有钱且6没死",
+        "Sentiment": "neutral",
+        "Rationale": "确认6的经济来源和生存状态"
+    },
+    {
+        "sentence": "6。",
+        "Holder": "6",
+        "Target": "无明确对象",
+        "Aspect": "无明确方面",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回应"
+    },
+    {
+        "sentence": "对，太神秘了，这地方我逮了去好。",
+        "Holder": "2",
+        "Target": "地点的神秘性",
+        "Aspect": "地点的吸引力",
+        "Opinion": "认为地点神秘且吸引人",
+        "Sentiment": "positive",
+        "Rationale": "觉得地点神秘且想去探索"
+    },
+    {
+        "sentence": "危险，他可以速度有关系吗？我靠全是假烟全给你们恶心死他，给他就常规作业才是，我觉得直接说你在什么丢过去，也是一枪打爆去。",
+        "Holder": "6",
+        "Target": "敌人的行为",
+        "Aspect": "敌人的威胁和应对策略",
+        "Opinion": "认为敌人危险且需要直接应对",
+        "Sentiment": "negative",
+        "Rationale": "敌人使用假烟且构成威胁"
+    },
+    {
+        "sentence": "也没问题我操，但是也没办法。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "解决问题的可能性",
+        "Opinion": "无能为力",
+        "Sentiment": "negative",
+        "Rationale": "面对问题无法解决"
+    },
+    {
+        "sentence": "走路都很牛，和你读我刚才我打我真想掐你",
+        "Holder": "6",
+        "Target": "2的行为",
+        "Aspect": "行为态度",
+        "Opinion": "傲慢且令人不满",
+        "Sentiment": "negative",
+        "Rationale": "对方走路的态度显得傲慢"
+    },
+    {
+        "sentence": "我包吗？",
+        "Holder": "2",
+        "Target": "自己的责任",
+        "Aspect": "责任归属",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚自己是否需要承担责任"
+    },
+    {
+        "sentence": "我们还有没有？我真的这个问题没问题，你这样。",
+        "Holder": "6",
+        "Target": "当前问题",
+        "Aspect": "问题的存在与否",
+        "Opinion": "问题已解决",
+        "Sentiment": "neutral",
+        "Rationale": "认为问题已经解决"
+    },
+    {
+        "sentence": "休息之后你猜一会儿吗？觉得我就没人开门。",
+        "Holder": "2",
+        "Target": "休息后的情况",
+        "Aspect": "门的状况",
+        "Opinion": "担心没人开门",
+        "Sentiment": "negative",
+        "Rationale": "担心休息后没有人开门"
+    },
+    {
+        "sentence": "我说什么站在大楼上拐狗挡我挡我给我弄死了。",
+        "Holder": "6",
+        "Target": "站在大楼上的人",
+        "Aspect": "阻挡行为",
+        "Opinion": "造成了困扰",
+        "Sentiment": "negative",
+        "Rationale": "有人在大楼上阻挡导致困扰"
+    },
+    {
+        "sentence": "是我把你弄死的吗。",
+        "Holder": "2",
+        "Target": "6的指责",
+        "Aspect": "责任归属",
+        "Opinion": "否认责任",
+        "Sentiment": "neutral",
+        "Rationale": "被指责但认为自己没有责任"
+    },
+    {
+        "sentence": "是你牛哥不是你。",
+        "Holder": "6",
+        "Target": "牛哥",
+        "Aspect": "责任归属",
+        "Opinion": "指向牛哥",
+        "Sentiment": "negative",
+        "Rationale": "认为是牛哥而不是对方的责任"
+    }
+]

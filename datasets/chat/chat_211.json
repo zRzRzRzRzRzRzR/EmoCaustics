@@ -1,0 +1,362 @@
+[
+    {
+        "sentence": "你在这儿干什么？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "看到2在禁地别墅里"
+    },
+    {
+        "sentence": "你难道不知道这别墅是我的禁地吗！",
+        "Holder": "1",
+        "Target": "2的认知",
+        "Aspect": "对禁地的了解",
+        "Opinion": "认为2应该知道",
+        "Sentiment": "negative",
+        "Rationale": "2进入了禁地别墅"
+    },
+    {
+        "sentence": "我是看到这个女人鬼鬼祟祟的溜进别墅，我才跟进来抓她的。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为动机",
+        "Opinion": "解释动机",
+        "Sentiment": "neutral",
+        "Rationale": "看到有人鬼鬼祟祟进入别墅"
+    },
+    {
+        "sentence": "除了她，还有没有其他人进入到别墅里面过？",
+        "Holder": "1",
+        "Target": "其他人的行为",
+        "Aspect": "是否有人进入",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "想知道是否有其他人进入别墅"
+    },
+    {
+        "sentence": "没有了，司寒哥哥，我们就在院子里教训的她你看。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为地点和对象",
+        "Opinion": "说明情况",
+        "Sentiment": "neutral",
+        "Rationale": "要向1说明情况"
+    },
+    {
+        "sentence": "对，是刚才曼曼姐看到有人偷偷溜进来，怕对您不利。",
+        "Holder": "3",
+        "Target": "曼曼姐",
+        "Aspect": "行为动机",
+        "Opinion": "担心对您不利",
+        "Sentiment": "neutral",
+        "Rationale": "曼曼姐看到有人偷偷溜进来，出于对安全的考虑"
+    },
+    {
+        "sentence": "是啊是啊，曼曼姐知道这栋院子对您的重要性，所以她不会乱来的。",
+        "Holder": "4",
+        "Target": "曼曼姐",
+        "Aspect": "行为合理性",
+        "Opinion": "不会乱来",
+        "Sentiment": "positive",
+        "Rationale": "曼曼姐了解院子的重要性"
+    },
+    {
+        "sentence": "对啊，厉总，曼曼姐对您一往情深的，她也是担心你，你千万不要怪她。",
+        "Holder": "5",
+        "Target": "曼曼姐",
+        "Aspect": "情感动机",
+        "Opinion": "一往情深",
+        "Sentiment": "positive",
+        "Rationale": "曼曼姐对厉总情深，出于关心而采取行动"
+    },
+    {
+        "sentence": "司寒哥哥，我知道错了，你别生气了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为错误",
+        "Opinion": "知道错了",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误，担心对方生气"
+    },
+    {
+        "sentence": "我怎么会生气呢？你可是我最爱的曼曼啊。",
+        "Holder": "1",
+        "Target": "曼曼",
+        "Aspect": "情感态度",
+        "Opinion": "最爱",
+        "Sentiment": "positive",
+        "Rationale": "对曼曼有深厚的感情"
+    },
+    {
+        "sentence": "哎，你们看啊，曼曼姐在厉总这果然是集万千宠爱一身啊。",
+        "Holder": "4",
+        "Target": "曼曼姐",
+        "Aspect": "受宠程度",
+        "Opinion": "集万千宠爱一身",
+        "Sentiment": "positive",
+        "Rationale": "因为观察到曼曼姐在厉总这里受到了极高的宠爱，所以用肯定的语气表达了对曼曼姐受宠的羡慕和认可。"
+    },
+    {
+        "sentence": "我就说了吧，有曼曼姐在，厉总不会对我们怎么样的。",
+        "Holder": "3",
+        "Target": "曼曼姐姐",
+        "Aspect": "影响力",
+        "Opinion": "能保护我们",
+        "Sentiment": "positive",
+        "Rationale": "因为相信曼曼姐的存在能带来庇护，所以觉得放心，因此语气中透露出安心和乐观。"
+    },
+    {
+        "sentence": "呵，你们擅自闯入我的禁地，我什么时候说过让你们活着离开？",
+        "Holder": "1",
+        "Target": "4和3",
+        "Aspect": "行为合法性",
+        "Opinion": "未经允许擅闯",
+        "Sentiment": "negative",
+        "Rationale": "因为4和3未经允许闯入了自己的禁地，所以感到愤怒并威胁。"
+    },
+    {
+        "sentence": "厉总，我们知道错了。",
+        "Holder": "4",
+        "Target": "自身行为",
+        "Aspect": "错误认知",
+        "Opinion": "认错",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的行为是错误的"
+    },
+    {
+        "sentence": "厉总，您大发慈悲，就放过我们这一次吧，我们以后一定会感恩戴德的。",
+        "Holder": "3",
+        "Target": "1的宽恕",
+        "Aspect": "请求宽恕",
+        "Opinion": "希望得到宽恕",
+        "Sentiment": "negative",
+        "Rationale": "因为意识到自己的错误，害怕受到惩罚，所以用乞求的语气希望得到1的宽恕，并表示以后会感激。"
+    },
+    {
+        "sentence": "要不是看在曼曼的面子上，你们一个个的都得死这儿。",
+        "Holder": "1",
+        "Target": "曼曼的面子",
+        "Aspect": "对曼曼的尊重",
+        "Opinion": "因曼曼而宽容",
+        "Sentiment": "negative",
+        "Rationale": "如果不是曼曼的面子，会对他们采取严厉措施"
+    },
+    {
+        "sentence": "司寒哥哥，我就知道你最疼我了。",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "对司寒的感情",
+        "Opinion": "司寒很疼爱自己",
+        "Sentiment": "positive",
+        "Rationale": "司寒一直对自己很好"
+    },
+    {
+        "sentence": "你知道我最喜欢你什么吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对2的喜好",
+        "Opinion": "有特别的喜好",
+        "Sentiment": "positive",
+        "Rationale": "对2有特别的喜好"
+    },
+    {
+        "sentence": "我最喜欢你用这张脸说爱我。",
+        "Holder": "1",
+        "Target": "2的脸",
+        "Aspect": "对2脸的喜好",
+        "Opinion": "喜欢2用这张脸说爱我",
+        "Sentiment": "positive",
+        "Rationale": "特别喜欢2用这张脸表达爱意"
+    },
+    {
+        "sentence": "司寒哥哥，我觉得这儿挺不错的，要不然我搬过来跟你一起住吧。",
+        "Holder": "2",
+        "Target": "住在这儿",
+        "Aspect": "居住环境的评价",
+        "Opinion": "这儿不错",
+        "Sentiment": "positive",
+        "Rationale": "觉得这个地方很好"
+    },
+    {
+        "sentence": "你不想我住在这儿？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "对1拒绝的原因的疑问",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚1拒绝的具体原因"
+    },
+    {
+        "sentence": "不是，这儿不太适合你。",
+        "Holder": "1",
+        "Target": "住在这儿",
+        "Aspect": "居住环境的适宜性",
+        "Opinion": "不合适",
+        "Sentiment": "neutral",
+        "Rationale": "认为这个地方不适合2"
+    },
+    {
+        "sentence": "你之后搬出去跟我一起住吧。",
+        "Holder": "1",
+        "Target": "2的居住安排",
+        "Aspect": "未来的居住计划",
+        "Opinion": "建议搬出去一起住",
+        "Sentiment": "positive",
+        "Rationale": "希望2能搬出去和自己一起住"
+    },
+    {
+        "sentence": "真的。谁让你这么乖呢。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为表现",
+        "Opinion": "2很乖",
+        "Sentiment": "positive",
+        "Rationale": "1认为2表现得很乖"
+    },
+    {
+        "sentence": "这个心术不正的贱人，竟然还想偷偷溜进别墅，真是不知好歹。",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "行为和品德",
+        "Opinion": "心术不正，不知好歹",
+        "Sentiment": "negative",
+        "Rationale": "某人试图偷偷溜进别墅"
+    },
+    {
+        "sentence": "什么？你说她不但进了院子，还想溜进别墅里面？",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "行为",
+        "Opinion": "某人试图进入别墅",
+        "Sentiment": "negative",
+        "Rationale": "听到某人不仅进了院子还试图进入别墅"
+    },
+    {
+        "sentence": "司寒哥哥，你放心，我已经帮你教训过她了。",
+        "Holder": "2",
+        "Target": "司寒哥哥",
+        "Aspect": "对某人的处理",
+        "Opinion": "已经教训过某人",
+        "Sentiment": "positive",
+        "Rationale": "2已经采取了行动教训某人"
+    },
+    {
+        "sentence": "做的很好，像这种人，下一次直接埋了就好。",
+        "Holder": "1",
+        "Target": "某种人",
+        "Aspect": "处理方式",
+        "Opinion": "直接埋了",
+        "Sentiment": "positive",
+        "Rationale": "对这种人的处理方式感到满意"
+    },
+    {
+        "sentence": "哎，好好好，厉总，我们现在就找个地方把这个整容女给她埋了！",
+        "Holder": "4",
+        "Target": "整容女",
+        "Aspect": "处理方式",
+        "Opinion": "立即埋了",
+        "Sentiment": "positive",
+        "Rationale": "迎合上级的指示并表现出积极的态度"
+    },
+    {
+        "sentence": "厉总，为您鞍前马后，是我的荣幸。",
+        "Holder": "3",
+        "Target": "1（厉总）",
+        "Aspect": "服务态度",
+        "Opinion": "荣幸",
+        "Sentiment": "positive",
+        "Rationale": "表达了对上级的忠诚和荣幸感"
+    },
+    {
+        "sentence": "埋在外面，别脏了我的院子。",
+        "Holder": "1",
+        "Target": "处理地点",
+        "Aspect": "清洁度",
+        "Opinion": "外面埋",
+        "Sentiment": "neutral",
+        "Rationale": "担心院子被弄脏"
+    },
+    {
+        "sentence": "哎，好好好。",
+        "Holder": "3",
+        "Target": "1的指示",
+        "Aspect": "回应态度",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "对上级的指示表示同意和服从"
+    },
+    {
+        "sentence": "厉总还有什么吩咐？",
+        "Holder": "4",
+        "Target": "1的指示",
+        "Aspect": "下一步行动",
+        "Opinion": "询问指示",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解1的具体要求"
+    },
+    {
+        "sentence": "除了她，还有没有别的人进入院子？如果有一个都不能留。",
+        "Holder": "1",
+        "Target": "院子内的其他人",
+        "Aspect": "人员的进入情况",
+        "Opinion": "不允许其他人进入",
+        "Sentiment": "negative",
+        "Rationale": "对院子的安全性有严格要求"
+    },
+    {
+        "sentence": "厉总，有谁不知道这是您的禁地啊，没有您的允许，谁也不能擅自闯入。",
+        "Holder": "3",
+        "Target": "院子的管理",
+        "Aspect": "禁地的规定",
+        "Opinion": "严格执行规定",
+        "Sentiment": "positive",
+        "Rationale": "对1的权威和规定有充分的尊重"
+    },
+    {
+        "sentence": "也就是这个整容女了，不知天高地厚，还想进别墅。",
+        "Holder": "5",
+        "Target": "整容女",
+        "Aspect": "行为的不合理性",
+        "Opinion": "认为其行为愚蠢",
+        "Sentiment": "negative",
+        "Rationale": "认为整容女的行为超出了应有的界限"
+    },
+    {
+        "sentence": "还好曼曼姐及时发现了。",
+        "Holder": "5",
+        "Target": "曼曼姐",
+        "Aspect": "发现问题的及时性",
+        "Opinion": "及时发现问题",
+        "Sentiment": "positive",
+        "Rationale": "曼曼姐及时发现了问题"
+    },
+    {
+        "sentence": "司寒哥哥，我都帮你看过了，这除了这个整容女外，就没有别人。",
+        "Holder": "2",
+        "Target": "整容女",
+        "Aspect": "在场人员",
+        "Opinion": "只有整容女在场",
+        "Sentiment": "neutral",
+        "Rationale": "确认了在场人员的情况"
+    },
+    {
+        "sentence": "拖出去吧，别碍眼。",
+        "Holder": "1",
+        "Target": "整容女",
+        "Aspect": "存在感",
+        "Opinion": "碍眼",
+        "Sentiment": "negative",
+        "Rationale": "整容女的存在让人感到不舒服"
+    },
+    {
+        "sentence": "司寒哥哥，别想了，你陪我一起去搬东西吧。人家已经迫不及待的想要跟你一起住了。",
+        "Holder": "2",
+        "Target": "司寒哥哥",
+        "Aspect": "陪伴和期待",
+        "Opinion": "期待一起住",
+        "Sentiment": "positive",
+        "Rationale": "迫切希望和司寒哥哥一起住"
+    }
+]

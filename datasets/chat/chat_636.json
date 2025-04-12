@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "我也没误会什么，有女朋友怎么了？这年头，只要没有登记领证结婚，从法律层面来说，每一个人都是单身男女。感情的事，我明白，一个巴掌拍不响。今天在场我们十几个巴掌，来大家拍一拍，多简单的事儿啊。",
+        "Holder": "1",
+        "Target": "感情问题",
+        "Aspect": "法律层面的单身定义",
+        "Opinion": "认为感情问题简单",
+        "Sentiment": "positive",
+        "Rationale": "认为法律上未结婚的都是单身，感情问题简单"
+    },
+    {
+        "sentence": "顾里，你闭嘴。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "认为1的言论不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的言论不合适"
+    },
+    {
+        "sentence": "我怎么了？我好心好意帮你，我还错了吗？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为自己没错",
+        "Sentiment": "negative",
+        "Rationale": "被误解和要求闭嘴"
+    },
+    {
+        "sentence": "你没错，你永远都没错。哦，不对，应该是说你自以为你永远都不会错。你总是自做聪明，说要帮我们，哪次不是背着我们尽干些缺德事？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的真实意图",
+        "Opinion": "认为1自以为是且做坏事",
+        "Sentiment": "negative",
+        "Rationale": "觉得1总是自作聪明且背后做坏事"
+    },
+    {
+        "sentence": "顾源，你知道卫海有女朋友的事？",
+        "Holder": "1",
+        "Target": "3的知识",
+        "Aspect": "对卫海感情状况的了解",
+        "Opinion": "询问3是否知情",
+        "Sentiment": "neutral",
+        "Rationale": "想知道3是否知情"
+    },
+    {
+        "sentence": "知道。",
+        "Holder": "3",
+        "Target": "卫海的感情状况",
+        "Aspect": "知情与否",
+        "Opinion": "确认知情",
+        "Sentiment": "neutral",
+        "Rationale": "确实知情"
+    },
+    {
+        "sentence": "那你怎么不早告诉我？搞得我现在里外不是很人，你高兴了？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "告知的及时性",
+        "Opinion": "认为3没有及时告知",
+        "Sentiment": "negative",
+        "Rationale": "3没有及时告知导致自己尴尬"
+    },
+    {
+        "sentence": "你讲不讲不理啊。你自己偷约卫海，这事你有和我说过吗？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的透明度",
+        "Opinion": "认为1行为不透明",
+        "Sentiment": "negative",
+        "Rationale": "1偷偷约见卫海没有告知"
+    },
+    {
+        "sentence": "顾里，你别生气，这件事情跟顾源确实没有什么关系。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的关联性",
+        "Opinion": "认为2与事件无关",
+        "Sentiment": "neutral",
+        "Rationale": "觉得2与事件无关"
+    },
+    {
+        "sentence": "那跟你简溪有什么关系？我看你还是先管好自己的破事吧，自己的屁股还没擦干净，你就别急着帮别人提裤子。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为4多管闲事",
+        "Sentiment": "negative",
+        "Rationale": "觉得4多管闲事且自身有问题"
+    },
+    {
+        "sentence": "什么叫我自己的屁股？你把我的事情告诉顾里了？",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "隐私泄露",
+        "Opinion": "质疑隐私被泄露",
+        "Sentiment": "negative",
+        "Rationale": "4认为5把自己的事情告诉了顾里"
+    },
+    {
+        "sentence": "你的事？你的什么事啊？你上次在画室像残疾人一样，让别人帮你喂咖啡的事啊？",
+        "Holder": "5",
+        "Target": "4的行为",
+        "Aspect": "行为描述",
+        "Opinion": "讽刺4的行为",
+        "Sentiment": "negative",
+        "Rationale": "5认为4在画室的行为很可笑"
+    },
+    {
+        "sentence": "林萧，你别添乱，别火上浇油。",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "行为影响",
+        "Opinion": "认为5在添乱",
+        "Sentiment": "negative",
+        "Rationale": "4觉得5的行为让情况变得更糟"
+    },
+    {
+        "sentence": "你这把火要不烧起来，我这油还没地方添呢！顾源，你知道的够多的呀。难怪上次还讽刺我说，让我没事多陪陪简溪。你们俩真是狼狈为奸的好兄弟！葫芦娃都没你们俩心连心，真让人恶心！",
+        "Holder": "5",
+        "Target": "顾源和4的关系",
+        "Aspect": "关系评价",
+        "Opinion": "认为他们关系密切且不诚实",
+        "Sentiment": "negative",
+        "Rationale": "5觉得顾源和4关系密切且对自己不诚实"
+    },
+    {
+        "sentence": "林萧，你别急着出头，你以为你和顾里就不狼狈为奸吗？你以为，你们姐妹间的小秘密就不恶心人吗？",
+        "Holder": "3",
+        "Target": "林萧和顾里的关系",
+        "Aspect": "关系评价",
+        "Opinion": "认为他们关系也不清白",
+        "Sentiment": "negative",
+        "Rationale": "3觉得林萧和顾里的关系也有问题"
+    },
+    {
+        "sentence": "你告诉简溪？🎼",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "信息传递",
+        "Opinion": "质疑5是否告诉简溪",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问5是否告诉了简溪"
+    },
+    {
+        "sentence": "顾里，你有病吧？你怀疑我？我什么都没说！",
+        "Holder": "5",
+        "Target": "顾里的怀疑",
+        "Aspect": "怀疑的合理性",
+        "Opinion": "否认自己说过",
+        "Sentiment": "negative",
+        "Rationale": "5被顾里怀疑感到冤枉和愤怒"
+    },
+    {
+        "sentence": "是我说的。吵什么吵？就这么一点事。今天我们大家之所以欢聚在这里，是为我们从小到大的好朋友顾里，庆祝他的生日。我从小就很悲惨，家庭和爱情都很不顺。我曾经经历了很多恶心的事情和悲惨遭遇，而带给我最大伤害的人，席城，大家也都认识。还好，我遇见的顾里，这些年来多亏了他的照顾，无论别人觉得顾里有多么冷酷，多么不尽人情，多么自私自利。但我知道他不是这样，或者是说他不全是这样，所以他才会奋不顾身的想要拯救我。或者是分担我的痛苦，甚至是亲自品尝了我的痛苦。简单来说，他也就和我一样和席城上床了。而最讽刺的是，他却以为我并不知道。可是顾里啊，我们是如此情谊深厚的姐妹，我怎么会不知道呢？所以今天我要敬我的好姐妹，感谢他分享我的悲惨人生。我也发自内心的祝愿他，从今以后和我的人生一样，开始发烂发臭！",
+        "Holder": "6",
+        "Target": "顾里的行为",
+        "Aspect": "行为评价",
+        "Opinion": "复杂且矛盾的评价",
+        "Sentiment": "negative",
+        "Rationale": "6对顾里的行为既有感激又有怨恨"
+    },
+    {
+        "sentence": "所以你们每一个人都早就知道了。",
+        "Holder": "1",
+        "Target": "大家的行为",
+        "Aspect": "知情情况",
+        "Opinion": "认为大家早就知情",
+        "Sentiment": "neutral",
+        "Rationale": "1发现大家早就知道这些事情"
+    }
+]

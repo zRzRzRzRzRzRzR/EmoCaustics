@@ -1,0 +1,102 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "被忽视的在场证明",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "未被及时发现的藏匿位置；饥饿与体力消耗",
+            "source_id": "2,3"
+          }
+        ]
+      },
+      {
+        "event": "紧急解救过程",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主动公开藏身位置",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "夜间搜索行动",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "子女失踪引发的焦虑；体力透支",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "组织系统化搜寻方案",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "发现被困者",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "对异常藏匿点的困惑",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "协同搜救行动",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "应对突发门锁故障；安抚家庭成员",
+            "source_id": "1,2"
+          },
+          {
+            "state": "positive",
+            "reason": "提供警力支援方案",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "突发身体伤害",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "意外刺伤疼痛",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "危险物品干预",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "制止持刀危险行为",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

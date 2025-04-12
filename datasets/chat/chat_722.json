@@ -1,0 +1,1604 @@
+[
+    {
+        "sentence": "回来一个老妈。嗯，是咱家炖肉的香味吧。",
+        "Holder": "1",
+        "Target": "炖肉香味",
+        "Aspect": "嗅觉感受",
+        "Opinion": "香味明显",
+        "Sentiment": "positive",
+        "Rationale": "闻到了熟悉的炖肉香味"
+    },
+    {
+        "sentence": "小鼻子口贱的，你最近几天表现不错，回来挺早，比小雪都早，哈哈哈。诶，你说为什么这几天小雪回来都那么晚呢？而且身上还老脏了吧唧的。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "回家时间和卫生状况",
+        "Opinion": "小雪回家晚且不整洁",
+        "Sentiment": "negative",
+        "Rationale": "小雪最近回家晚且身上脏"
+    },
+    {
+        "sentence": "哈哈哈，这是个问题。哈哈哈，他今天比昨天的衣服还要脏，哈哈哈，哒哒哒哒。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "衣服脏污程度",
+        "Opinion": "衣服更脏",
+        "Sentiment": "negative",
+        "Rationale": "小雪的衣服比昨天更脏"
+    },
+    {
+        "sentence": "哈哈哈，小雪，哈哈哈，你是不是去种树去啦？",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "活动猜测",
+        "Opinion": "可能去种树",
+        "Sentiment": "positive",
+        "Rationale": "小雪衣服脏且回家晚"
+    },
+    {
+        "sentence": "哈哈哈，我这样像刚种完树回来的嘛。你像是。",
+        "Holder": "3",
+        "Target": "自己的形象",
+        "Aspect": "是否像种树",
+        "Opinion": "不像种树",
+        "Sentiment": "positive",
+        "Rationale": "被开玩笑说像种树回来"
+    },
+    {
+        "sentence": "爬树去了。",
+        "Holder": "1",
+        "Target": "爬树活动",
+        "Aspect": "活动内容",
+        "Opinion": "进行爬树",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己进行了爬树活动"
+    },
+    {
+        "sentence": "哈哈哈，你们最近是不是体育课赶军训了？有摸爬滚打的项目。",
+        "Holder": "2",
+        "Target": "1的爬树活动",
+        "Aspect": "活动原因",
+        "Opinion": "猜测是体育课或军训",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的爬树活动有趣，联想到可能的体育课或军训项目"
+    },
+    {
+        "sentence": "ยิ่งกว่าล่ะ.",
+        "Holder": "3",
+        "Target": "2的猜测",
+        "Aspect": "活动程度",
+        "Opinion": "更加夸张",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的猜测有趣且夸张"
+    },
+    {
+        "sentence": "妈妈，她揪我耳朵，哈哈哈哎。哎哎，就笑。别笑。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "互动方式",
+        "Opinion": "被揪耳朵",
+        "Sentiment": "ambiguous",
+        "Rationale": "被揪耳朵有些不舒服但同时又觉得好笑"
+    },
+    {
+        "sentence": "干嘛呢？你干嘛揪他耳朵。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑揪耳朵",
+        "Sentiment": "negative",
+        "Rationale": "觉得3揪1的耳朵不合理"
+    },
+    {
+        "sentence": "我说想给小雨做个示范，我要是像小雪每天回来的这么晚。嗯，身上还弄得脏了吧唧的，你早该这么揪耳朵了。哈哈哈，来瞧。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "回家时间和卫生状况",
+        "Opinion": "应该被批评",
+        "Sentiment": "positive",
+        "Rationale": "想通过示范来教育小雨"
+    },
+    {
+        "sentence": "那我就问问你，最近小雪为什么回来这么晚呢？嗯，你。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "回家时间",
+        "Opinion": "需要了解原因",
+        "Sentiment": "neutral",
+        "Rationale": "想知道小雪晚归的原因"
+    },
+    {
+        "sentence": "别掐我，我又不知道。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "询问方式",
+        "Opinion": "不喜欢被掐",
+        "Sentiment": "negative",
+        "Rationale": "被掐感到不舒服"
+    },
+    {
+        "sentence": "说。",
+        "Holder": "2",
+        "Target": "1的回答",
+        "Aspect": "回答的及时性",
+        "Opinion": "要求立即回答",
+        "Sentiment": "neutral",
+        "Rationale": "希望尽快得到答案"
+    },
+    {
+        "sentence": "妈，有一件事您不揪耳朵我也告诉您，哈哈哈。什么事？姐姐逃课啦。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "行为",
+        "Opinion": "逃课",
+        "Sentiment": "positive",
+        "Rationale": "想告诉妈妈一个重要的事情"
+    },
+    {
+        "sentence": "哈哈哈，你怎么知道？",
+        "Holder": "2",
+        "Target": "1的保证",
+        "Aspect": "保证的可信度",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "对1的保证感到好奇"
+    },
+    {
+        "sentence": "他今天跟同学打电话，妈妈别担心，我保证我不会逃课的。嗯，你。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "逃课的可能性",
+        "Opinion": "不会逃课",
+        "Sentiment": "neutral",
+        "Rationale": "向妈妈保证不会逃课"
+    },
+    {
+        "sentence": "最乖了，你就是妈妈的乖孩子。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "乖巧",
+        "Opinion": "乖孩子",
+        "Sentiment": "positive",
+        "Rationale": "认为1很乖巧"
+    },
+    {
+        "sentence": "我上课睡觉我也不逃课啊，这孩子。哎，爸。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "上课睡觉",
+        "Opinion": "不逃课",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己即使上课睡觉也不会逃课"
+    },
+    {
+        "sentence": "累死我了。",
+        "Holder": "4",
+        "Target": "自己的状态",
+        "Aspect": "疲劳程度",
+        "Opinion": "非常累",
+        "Sentiment": "negative",
+        "Rationale": "感到非常疲劳"
+    },
+    {
+        "sentence": "咱俩得说说小雪的事了。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "需要讨论的事情",
+        "Opinion": "需要讨论",
+        "Sentiment": "neutral",
+        "Rationale": "觉得有必要讨论小雪的事情"
+    },
+    {
+        "sentence": "明天再穿行吗？困死，真的。",
+        "Holder": "4",
+        "Target": "穿行的安排",
+        "Aspect": "时间安排的合理性",
+        "Opinion": "希望推迟",
+        "Sentiment": "negative",
+        "Rationale": "感到非常困倦"
+    },
+    {
+        "sentence": "哈哈哈，他今天可旷课了。",
+        "Holder": "2",
+        "Target": "他（指小雪）",
+        "Aspect": "旷课行为",
+        "Opinion": "旷课了",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雪旷课这件事有些好笑"
+    },
+    {
+        "sentence": "刘星旷课不是很正常的事。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "旷课行为的常见性",
+        "Opinion": "很正常",
+        "Sentiment": "neutral",
+        "Rationale": "认为刘星旷课是常见的事情"
+    },
+    {
+        "sentence": "吗？嘿，谁跟你说是刘星啊？小雪，你听见没听见啊？",
+        "Holder": "2",
+        "Target": "4的误解",
+        "Aspect": "对象的准确性",
+        "Opinion": "纠正误解",
+        "Sentiment": "negative",
+        "Rationale": "4误解了话题对象"
+    },
+    {
+        "sentence": "小雪，这不可能吧？",
+        "Holder": "4",
+        "Target": "小雪的情况",
+        "Aspect": "事情的可能性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对小雪的情况感到意外"
+    },
+    {
+        "sentence": "嘿，怎么不可能啊？你没看见她今天回家那样？哎呦，满身满脸脏的好家伙，绝对不是从教室粘来的，哈哈哈。哎，你看这衣服破了个大口子。",
+        "Holder": "2",
+        "Target": "小雪的情况",
+        "Aspect": "事情的合理性",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "亲眼见到小雪脏兮兮的样子和衣服的破口"
+    },
+    {
+        "sentence": "哪儿缝嘛？",
+        "Holder": "4",
+        "Target": "衣服的破口",
+        "Aspect": "修补的位置",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想知道衣服破口修补的具体位置"
+    },
+    {
+        "sentence": "我刚给缝上的。",
+        "Holder": "2",
+        "Target": "衣服的破口",
+        "Aspect": "修补情况",
+        "Opinion": "已经修补",
+        "Sentiment": "neutral",
+        "Rationale": "已经完成了衣服的修补工作"
+    },
+    {
+        "sentence": "爸妈姐姐。怎么了？切菜刀上尿神。",
+        "Holder": "1",
+        "Target": "家庭情况",
+        "Aspect": "突发状况",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然听到关于切菜刀上尿神的事情，感到困惑和不解"
+    },
+    {
+        "sentence": "什么喂？川雪，你干嘛呀？你怎么这么想不开？",
+        "Holder": "2",
+        "Target": "川雪的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不理解川雪的行为",
+        "Sentiment": "negative",
+        "Rationale": "川雪的行为让2感到困惑和不理解"
+    },
+    {
+        "sentence": "是啊，你在干嘛？让我们多着急啊。",
+        "Holder": "4",
+        "Target": "川雪的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "对川雪的行为感到着急",
+        "Sentiment": "negative",
+        "Rationale": "川雪的行为让4感到着急和不安"
+    },
+    {
+        "sentence": "你们想哪去了？我只是用绳子和图片来模拟生态。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为的解释",
+        "Opinion": "解释自己的行为是模拟生态",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释自己的行为，目的是澄清误会"
+    },
+    {
+        "sentence": "链，哈哈哈，贪链。",
+        "Holder": "1",
+        "Target": "生物链",
+        "Aspect": "生物链的名称",
+        "Opinion": "开玩笑地提到生物链",
+        "Sentiment": "positive",
+        "Rationale": "1在用幽默的方式提到生物链"
+    },
+    {
+        "sentence": "你应该知道什么叫生物链吧？",
+        "Holder": "3",
+        "Target": "1的知识",
+        "Aspect": "对生物链的了解",
+        "Opinion": "认为1应该知道生物链",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问1是否知道生物链，目的是确认对方的知识"
+    },
+    {
+        "sentence": "我知道，我不知道，哈哈哈，生物链就是大鱼吃小鱼吃虾米。",
+        "Holder": "2",
+        "Target": "生物链",
+        "Aspect": "生物链的规律",
+        "Opinion": "大鱼吃小鱼吃虾米",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式描述了生物链的规律"
+    },
+    {
+        "sentence": "哈哈哈，那你拿刀干嘛呀？",
+        "Holder": "4",
+        "Target": "2拿刀的行为",
+        "Aspect": "拿刀的目的",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "对2拿刀的行为感到好奇"
+    },
+    {
+        "sentence": "用刀割绳子，总不能让我用牙咬吧。",
+        "Holder": "3",
+        "Target": "用刀割绳子的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "合理",
+        "Sentiment": "neutral",
+        "Rationale": "解释了用刀割绳子的合理性"
+    },
+    {
+        "sentence": "哈哈哈，虚惊一场。",
+        "Holder": "2",
+        "Target": "刚才的情景",
+        "Aspect": "情景的紧张程度",
+        "Opinion": "虚惊",
+        "Sentiment": "positive",
+        "Rationale": "发现刚才的情景只是虚惊一场"
+    },
+    {
+        "sentence": "哎，那旷课是怎么回事？",
+        "Holder": "4",
+        "Target": "旷课",
+        "Aspect": "旷课的原因",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对旷课的原因感到疑惑"
+    },
+    {
+        "sentence": "不就是少上一节自习课，我那个是去参加一个生物夏令营的入营仪式。嗯，这几天我总算是没白练，野外生存都得 a 加。我要以这个夏令营为起点，我将来要做中国的珍尼古多尔。",
+        "Holder": "3",
+        "Target": "参加生物夏令营",
+        "Aspect": "夏令营的意义",
+        "Opinion": "夏令营对未来的重要性",
+        "Sentiment": "positive",
+        "Rationale": "认为参加夏令营对未来的发展有重要意义"
+    },
+    {
+        "sentence": "那行，那好好去参加你的夏令营。好，我们就走了，但是不能耽误学习。",
+        "Holder": "4",
+        "Target": "3参加夏令营",
+        "Aspect": "学习和夏令营的平衡",
+        "Opinion": "支持参加夏令营但强调学习",
+        "Sentiment": "neutral",
+        "Rationale": "支持对方参加夏令营但同时也关心学习"
+    },
+    {
+        "sentence": "珍尼古多尔是谁啊？",
+        "Holder": "2",
+        "Target": "珍尼古多尔",
+        "Aspect": "人物身份",
+        "Opinion": "不了解",
+        "Sentiment": "neutral",
+        "Rationale": "对珍尼古多尔这个人物不熟悉"
+    },
+    {
+        "sentence": "英国的一女的，为了保护和研究野生大猩猩，天天在树林里和他们同吃同住。你不知道？",
+        "Holder": "4",
+        "Target": "珍尼古多尔",
+        "Aspect": "人物事迹",
+        "Opinion": "珍尼古多尔的事迹",
+        "Sentiment": "neutral",
+        "Rationale": "介绍珍尼古多尔的事迹"
+    },
+    {
+        "sentence": "哈哈哈，小雪要跟她学，要把青春献给。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "3的未来志向",
+        "Opinion": "调侃和支持",
+        "Sentiment": "positive",
+        "Rationale": "调侃并支持3的志向"
+    },
+    {
+        "sentence": "大猩猩啊。没你说那么吓人，她又不傻，就是小孩要心血来潮，无非就是兴趣广泛了一点，没什么大事，我们应该支持啊。",
+        "Holder": "4",
+        "Target": "小孩的兴趣",
+        "Aspect": "兴趣的合理性",
+        "Opinion": "应该支持",
+        "Sentiment": "positive",
+        "Rationale": "认为小孩的兴趣广泛并不是什么大事"
+    },
+    {
+        "sentence": "哎，那大猩猩可会咬人。哈哈哈，小雪。哎小雪啊。嗯，我给你准备两个指南针，万一要丢了一个，还有一个备用的。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "危险性",
+        "Opinion": "会咬人",
+        "Sentiment": "ambiguous",
+        "Rationale": "提到大猩猩会咬人，但语气中带有开玩笑的成分"
+    },
+    {
+        "sentence": "不用，我。",
+        "Holder": "1",
+        "Target": "指南针",
+        "Aspect": "需求",
+        "Opinion": "不需要",
+        "Sentiment": "neutral",
+        "Rationale": "没有明确表达出强烈的情感倾向"
+    },
+    {
+        "sentence": "有 GPS 定位系统。",
+        "Holder": "3",
+        "Target": "定位工具",
+        "Aspect": "功能",
+        "Opinion": "GPS更有效",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观陈述有GPS定位系统，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "哈哈哈，就是卫星定位。",
+        "Holder": "4",
+        "Target": "GPS定位",
+        "Aspect": "定义",
+        "Opinion": "卫星定位",
+        "Sentiment": "positive",
+        "Rationale": "用轻松的语气确认了GPS就是卫星定位"
+    },
+    {
+        "sentence": "反正一定要注意安全，千万别出什么事。这个你再喜欢大猩猩，哈哈哈，咱也不能被它吃了。是，嘿。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "安全注意事项",
+        "Opinion": "注意安全",
+        "Sentiment": "positive",
+        "Rationale": "关心对方的安全"
+    },
+    {
+        "sentence": "是素食主义者，您这都不知道啊？",
+        "Holder": "3",
+        "Target": "大猩猩",
+        "Aspect": "饮食习惯",
+        "Opinion": "大猩猩是素食主义者",
+        "Sentiment": "neutral",
+        "Rationale": "提到大猩猩的饮食习惯"
+    },
+    {
+        "sentence": "这谁知道隔行如何山吗？",
+        "Holder": "4",
+        "Target": "大猩猩的习性",
+        "Aspect": "了解程度",
+        "Opinion": "不太清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对大猩猩的习性不了解"
+    },
+    {
+        "sentence": "反正你看人家大猩猩在一块玩倒没关系，他们要是一块一打架，你赶紧躲远远的，别回头伤着你。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "安全注意事项",
+        "Opinion": "避免受伤",
+        "Sentiment": "positive",
+        "Rationale": "担心大猩猩打架会伤到人"
+    },
+    {
+        "sentence": "哈哈哈，您对他们的了解真是太少了，大猩猩是一种很合群的动物，它们很少打架的。哈哈哈，算了，反正您也不懂这些东西，您也就别跟着瞎掺合了啊。",
+        "Holder": "3",
+        "Target": "对大猩猩的了解",
+        "Aspect": "动物行为的理解",
+        "Opinion": "对方了解不足",
+        "Sentiment": "negative",
+        "Rationale": "对方对大猩猩的了解不足"
+    },
+    {
+        "sentence": "哈哈哈，那我就走了。好，走啦。走啦走啦。那我就不送啦。我也不送啦。哈哈哈，老师，看见大猩猩你就能明白你两个弟弟有多么的英雄。哈哈哈，不见得，哈哈哈，我走了。",
+        "Holder": "1",
+        "Target": "大猩猩",
+        "Aspect": "英雄行为",
+        "Opinion": "大猩猩行为英勇",
+        "Sentiment": "positive",
+        "Rationale": "大猩猩的行为被比喻为英雄"
+    },
+    {
+        "sentence": "再见。",
+        "Holder": "2",
+        "Target": "告别",
+        "Aspect": "礼貌",
+        "Opinion": "礼貌告别",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的告别"
+    },
+    {
+        "sentence": "对了，还有一件事，我走了以后大家不要想我。",
+        "Holder": "3",
+        "Target": "离别",
+        "Aspect": "情感表达",
+        "Opinion": "希望大家不要想念",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3在离别时表达了一种既希望被记住又不希望对方过于挂念的复杂情感"
+    },
+    {
+        "sentence": "哈哈哈，拜拜，拜拜。",
+        "Holder": "1",
+        "Target": "告别",
+        "Aspect": "轻松",
+        "Opinion": "轻松告别",
+        "Sentiment": "positive",
+        "Rationale": "说话人1用轻松的语气告别"
+    },
+    {
+        "sentence": "拜拜，忘了打电话。",
+        "Holder": "4",
+        "Target": "打电话",
+        "Aspect": "打电话的遗忘",
+        "Opinion": "忘记打电话",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地告别并提到忘记打电话"
+    },
+    {
+        "sentence": "这什么叫瞎掺和呀？人家好心好意关心他，哈哈哈。",
+        "Holder": "2",
+        "Target": "4的关心",
+        "Aspect": "关心的合理性",
+        "Opinion": "认为关心是多余的",
+        "Sentiment": "positive",
+        "Rationale": "觉得别人的关心是多余的"
+    },
+    {
+        "sentence": "他不是孩子吗？别往心里去啊。",
+        "Holder": "4",
+        "Target": "2的情绪",
+        "Aspect": "情绪的调节",
+        "Opinion": "劝慰对方",
+        "Sentiment": "positive",
+        "Rationale": "试图安慰对方不要在意"
+    },
+    {
+        "sentence": "哈哈哈，我告诉你，我不光不能往心里去，我还得想办法跟他沟通，让他扶我。哈哈哈，我决定恶补有关大猩猩的知识，迅速成为一个大猩猩通。哈哈哈查资料去。",
+        "Holder": "2",
+        "Target": "与大猩猩的沟通",
+        "Aspect": "沟通的必要性",
+        "Opinion": "需要积极沟通",
+        "Sentiment": "positive",
+        "Rationale": "决定积极应对并提升自己"
+    },
+    {
+        "sentence": "黑猩猩是一种。",
+        "Holder": "1",
+        "Target": "黑猩猩",
+        "Aspect": "种类",
+        "Opinion": "说明黑猩猩的种类",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观陈述黑猩猩的种类"
+    },
+    {
+        "sentence": "体型最大的类人猿，属于猩猩科，主要生活在非洲的赤道地区。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "体型和生活地区",
+        "Opinion": "体型最大，生活在非洲赤道地区",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观描述大猩猩的体型和生活地区"
+    },
+    {
+        "sentence": "老婆今天差不多了，睡吧。",
+        "Holder": "4",
+        "Target": "老婆",
+        "Aspect": "休息时间",
+        "Opinion": "该睡觉了",
+        "Sentiment": "neutral",
+        "Rationale": "提醒老婆该睡觉了"
+    },
+    {
+        "sentence": "很多人误以为大猩猩是野蛮动物，这恐怕是动物界中最大的冤案。哈哈哈，其实他们性情一点也不狂躁，即使为了争夺统治权，雄性大猩猩们也很少打架，哈哈哈。嘿，你说我们医院那些男大夫一天到晚为了争夺那个主治医的名额，在那打得不亦乐乎。哈哈哈，还不如人家黑猩猩呢嘿。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "性情和行为",
+        "Opinion": "大猩猩性情不狂躁，很少打架",
+        "Sentiment": "positive",
+        "Rationale": "纠正了对大猩猩的误解，并对比了人类的行为"
+    },
+    {
+        "sentence": "哈哈哈，行啊，咱就别用联想式思维了吧。",
+        "Holder": "4",
+        "Target": "联想式思维",
+        "Aspect": "思维方式",
+        "Opinion": "不建议使用",
+        "Sentiment": "positive",
+        "Rationale": "觉得联想式思维不合适"
+    },
+    {
+        "sentence": "我一滴忍得住，哈哈哈。猩猩在动物世界的地位既尴尬又微妙，它和人类有着千丝万缕的联系，是人类祖先的活样本。 3, 000 万年前，它原本有一次成为人的机会，却因为偷懒不肯从树上下来，永远在兽群里沉沦。那也就是说 3, 000 万年前，他要不偷懒要从书上下来了，那没准我们现在人类都已经星球大战了。哎，是不是夏东海。",
+        "Holder": "2",
+        "Target": "猩猩",
+        "Aspect": "与人类的关系和历史",
+        "Opinion": "猩猩与人类有密切联系，但错过了成为人的机会",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式讨论猩猩与人类的历史关系"
+    },
+    {
+        "sentence": "人和星星可都是需要睡眠的。",
+        "Holder": "4",
+        "Target": "人和星星",
+        "Aspect": "睡眠需求",
+        "Opinion": "都需要睡眠",
+        "Sentiment": "neutral",
+        "Rationale": "提到人和星星都需要睡眠，这是一个客观事实"
+    },
+    {
+        "sentence": "哈哈，星星完全有理由这么说，我就差那么一点点就变成人了，哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份变化",
+        "Opinion": "几乎变成人",
+        "Sentiment": "positive",
+        "Rationale": "因为用幽默的方式表达了自己几乎变成人的情况，所以情绪是积极的。"
+    },
+    {
+        "sentence": "就差那么一点点，就不是人了，哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份差异",
+        "Opinion": "几乎不是人",
+        "Sentiment": "positive",
+        "Rationale": "因为用幽默的方式谈论自己的身份，所以情绪是积极的。"
+    },
+    {
+        "sentence": "就差那么一点点，都凌晨一点了，夫人，你能上来休息吗？",
+        "Holder": "4",
+        "Target": "夫人",
+        "Aspect": "休息时间",
+        "Opinion": "希望对方休息",
+        "Sentiment": "negative",
+        "Rationale": "已经凌晨一点，感到疲惫和不满"
+    },
+    {
+        "sentence": "我来了，但你不能上来。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行动限制",
+        "Opinion": "不能上来",
+        "Sentiment": "neutral",
+        "Rationale": "因为客观陈述了不能上来的事实，所以情绪是中立的。"
+    },
+    {
+        "sentence": "星星为什么拒绝净化呀？",
+        "Holder": "2",
+        "Target": "星星",
+        "Aspect": "拒绝净化的原因",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对星星拒绝净化的原因感到好奇"
+    },
+    {
+        "sentence": "给我一个净化的理由。",
+        "Holder": "1",
+        "Target": "净化",
+        "Aspect": "净化的必要性",
+        "Opinion": "需要理由",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解净化的必要性"
+    },
+    {
+        "sentence": "他为什么不说话呀？哈哈哈，您让我说什么在于缺乏听力基因的孵化过程。我耳朵挺好的，去，别老在这捣乱。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "不说话的原因",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃对方不说话的原因"
+    },
+    {
+        "sentence": "您不是说我吗？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话中的指向",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对2的话是否指向自己感到疑问"
+    },
+    {
+        "sentence": "谁说你呢？我这说大猩猩呢，哈哈哈，我这暴脾气。",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "话中的对象",
+        "Opinion": "澄清并自嘲",
+        "Sentiment": "positive",
+        "Rationale": "澄清自己话中的对象并自嘲暴脾气"
+    },
+    {
+        "sentence": "哈哈哈，什么时候开饭呀？",
+        "Holder": "4",
+        "Target": "开饭时间",
+        "Aspect": "等待时间",
+        "Opinion": "期待开饭",
+        "Sentiment": "positive",
+        "Rationale": "期待吃饭"
+    },
+    {
+        "sentence": "马上，你把米饭端过来。",
+        "Holder": "2",
+        "Target": "4的行动",
+        "Aspect": "协助准备饭菜",
+        "Opinion": "要求协助",
+        "Sentiment": "neutral",
+        "Rationale": "需要4帮忙端米饭"
+    },
+    {
+        "sentence": "刘星，来拿碗来帮忙哎。成，嘿嘿，刘梅同志。嗯，米饭在哪呢。",
+        "Holder": "4",
+        "Target": "刘星和刘梅",
+        "Aspect": "协助准备饭菜",
+        "Opinion": "请求帮助",
+        "Sentiment": "positive",
+        "Rationale": "需要他人帮忙"
+    },
+    {
+        "sentence": "给黑猩猩吃的。",
+        "Holder": "1",
+        "Target": "米饭",
+        "Aspect": "米饭的质量",
+        "Opinion": "调侃米饭质量差",
+        "Sentiment": "negative",
+        "Rationale": "觉得米饭质量差"
+    },
+    {
+        "sentence": "hahaha。看凉水泡大米，这算特色饭。",
+        "Holder": "4",
+        "Target": "米饭",
+        "Aspect": "米饭的烹饪方式",
+        "Opinion": "调侃烹饪方式",
+        "Sentiment": "positive",
+        "Rationale": "觉得米饭的烹饪方式有趣"
+    },
+    {
+        "sentence": "吗？哎呦，坏坏，我忘插电源了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "忘记插电源",
+        "Opinion": "忘记插电源",
+        "Sentiment": "negative",
+        "Rationale": "忘记插电源导致无法正常做饭"
+    },
+    {
+        "sentence": "那吃什么呀？",
+        "Holder": "4",
+        "Target": "吃饭问题",
+        "Aspect": "食物选择",
+        "Opinion": "询问吃什么",
+        "Sentiment": "neutral",
+        "Rationale": "不知道接下来吃什么"
+    },
+    {
+        "sentence": "那吃方便面吧。你赶快拿几根菠菜出来煮点面吃。",
+        "Holder": "2",
+        "Target": "吃饭问题",
+        "Aspect": "食物选择",
+        "Opinion": "建议吃方便面",
+        "Sentiment": "neutral",
+        "Rationale": "需要快速解决吃饭问题"
+    },
+    {
+        "sentence": "好。菠菜在哪放着呢？",
+        "Holder": "4",
+        "Target": "菠菜位置",
+        "Aspect": "物品位置",
+        "Opinion": "询问菠菜位置",
+        "Sentiment": "neutral",
+        "Rationale": "不知道菠菜放在哪里"
+    },
+    {
+        "sentence": "哈哈哈，冰箱里。",
+        "Holder": "2",
+        "Target": "菠菜位置",
+        "Aspect": "物品位置",
+        "Opinion": "告知菠菜在冰箱",
+        "Sentiment": "positive",
+        "Rationale": "轻松地告知菠菜的位置"
+    },
+    {
+        "sentence": "菠菜什么时候变成这模样了。",
+        "Holder": "4",
+        "Target": "菠菜",
+        "Aspect": "外观变化",
+        "Opinion": "惊讶于变化",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现菠菜的外观发生了意外变化"
+    },
+    {
+        "sentence": "嗨，我记得在冰箱里有。",
+        "Holder": "2",
+        "Target": "菠菜",
+        "Aspect": "存放位置",
+        "Opinion": "记得在冰箱",
+        "Sentiment": "neutral",
+        "Rationale": "记得菠菜放在冰箱里"
+    },
+    {
+        "sentence": "大卫科波费尔来了。",
+        "Holder": "1",
+        "Target": "大卫科波费尔",
+        "Aspect": "出现",
+        "Opinion": "开玩笑地说他来了",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式提到大卫科波费尔"
+    },
+    {
+        "sentence": "哈哈，大卫科波菲尔是谁。",
+        "Holder": "2",
+        "Target": "大卫科波菲尔",
+        "Aspect": "身份",
+        "Opinion": "不知道是谁",
+        "Sentiment": "positive",
+        "Rationale": "对大卫科波菲尔感到好奇且以幽默的方式提问"
+    },
+    {
+        "sentence": "变魔术的，把咱家菠菜变成竹音了。哈哈哈，你妈，这个给我吧，明天爸爸带我去动物园喂大熊猫吃。",
+        "Holder": "1",
+        "Target": "菠菜",
+        "Aspect": "变化",
+        "Opinion": "幽默地说是变魔术变的",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式描述菠菜的变化"
+    },
+    {
+        "sentence": "想的倒挺美的，我们张大夫好不容易从植物园给我弄来的，哎。",
+        "Holder": "2",
+        "Target": "张大夫的努力",
+        "Aspect": "获取物品的难度",
+        "Opinion": "来之不易",
+        "Sentiment": "negative",
+        "Rationale": "张大夫费了很大劲才从植物园弄来东西"
+    },
+    {
+        "sentence": "哎，你不会拿这个煮方便面吧？",
+        "Holder": "4",
+        "Target": "2的使用方式",
+        "Aspect": "物品的用途",
+        "Opinion": "怀疑用于煮方便面",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定2是否会用这个物品煮方便面"
+    },
+    {
+        "sentence": "啥方便面？他又不会吃方便面，再说了他又不会使筷子。我会使筷子。",
+        "Holder": "2",
+        "Target": "4的疑问",
+        "Aspect": "物品的实际用途",
+        "Opinion": "否定用于煮方便面",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的疑问不合理"
+    },
+    {
+        "sentence": "你妈说的是野生大猩猩。",
+        "Holder": "4",
+        "Target": "1的误解",
+        "Aspect": "话题的内容",
+        "Opinion": "纠正误解",
+        "Sentiment": "neutral",
+        "Rationale": "需要纠正1的误解"
+    },
+    {
+        "sentence": "它不会走火龙魔了吧。诶爸，你说我妈会不会变成大猩猩啊？嗯，很危险。嗯，自古以来就被人们视为吉祥长寿的象征。丹顶鹤个头很大，哈哈哈，全长有 120 厘米。因为头顶上。",
+        "Holder": "1",
+        "Target": "大猩猩和丹顶鹤",
+        "Aspect": "大猩猩和丹顶鹤的特性",
+        "Opinion": "大猩猩危险，丹顶鹤吉祥",
+        "Sentiment": "ambiguous",
+        "Rationale": "对大猩猩的担忧和对丹顶鹤的描述交织在一起"
+    },
+    {
+        "sentence": "不要飘红色，肯定。",
+        "Holder": "2",
+        "Target": "红色飘动",
+        "Aspect": "颜色选择",
+        "Opinion": "反对飘红色",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢红色飘动"
+    },
+    {
+        "sentence": "Di sini. Nah saya juga jadi. Selesai datang. 我悲伤。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "个人感受",
+        "Opinion": "感到悲伤",
+        "Sentiment": "negative",
+        "Rationale": "某些事情的发生或结束"
+    },
+    {
+        "sentence": "你妈这几天在你姐房间里鼓捣什么呢？",
+        "Holder": "4",
+        "Target": "妈妈的行为",
+        "Aspect": "活动内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚妈妈在姐姐房间里做什么"
+    },
+    {
+        "sentence": "老妈说了，要在小雪回来之前把她屋里搞点气氛，凶凶的气氛。",
+        "Holder": "1",
+        "Target": "妈妈的行为",
+        "Aspect": "气氛布置",
+        "Opinion": "解释妈妈的意图",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈想要在小雪回来前布置房间气氛"
+    },
+    {
+        "sentence": "哎哎，嗯，我宣布一下，哈哈哈。从现在开始，小雪房门钥匙由妈妈保管，因为我怕你们进去破坏气氛，我决定给小雪一个惊喜，哈哈哈。",
+        "Holder": "2",
+        "Target": "小雪房门钥匙",
+        "Aspect": "钥匙保管",
+        "Opinion": "由妈妈保管",
+        "Sentiment": "positive",
+        "Rationale": "想给小雪一个惊喜"
+    },
+    {
+        "sentence": "哎哎，那个刘明同志，嗯，我能否代表咱们全家的男子汉向你提一个请求？",
+        "Holder": "4",
+        "Target": "刘明",
+        "Aspect": "提出请求",
+        "Opinion": "希望得到同意",
+        "Sentiment": "positive",
+        "Rationale": "希望全家男子汉能先看到惊喜"
+    },
+    {
+        "sentence": "什么事？哈哈哈，就是在给小雪惊喜之前先给我们一个惊喜。嗯，然后您再保管钥匙，我们主要是怕下了小雪。",
+        "Holder": "4",
+        "Target": "小雪的惊喜",
+        "Aspect": "惊喜的顺序",
+        "Opinion": "希望先看到惊喜",
+        "Sentiment": "positive",
+        "Rationale": "担心小雪提前知道"
+    },
+    {
+        "sentence": "哈哈哈，对对对对，我也要看，我也。",
+        "Holder": "1",
+        "Target": "小雪的惊喜",
+        "Aspect": "参与观看",
+        "Opinion": "强烈希望参与",
+        "Sentiment": "positive",
+        "Rationale": "觉得惊喜很有趣"
+    },
+    {
+        "sentence": "真想看。嗯，行，那你们给我记住了，只许看不许泡。",
+        "Holder": "2",
+        "Target": "观看惊喜的条件",
+        "Aspect": "观看的限制",
+        "Opinion": "同意但有条件",
+        "Sentiment": "neutral",
+        "Rationale": "担心观看后会有其他行为"
+    },
+    {
+        "sentence": "听见了吗？听见了，哼哼，走。",
+        "Holder": "4",
+        "Target": "2的条件",
+        "Aspect": "确认条件",
+        "Opinion": "接受条件",
+        "Sentiment": "positive",
+        "Rationale": "已经听到并接受了条件"
+    },
+    {
+        "sentence": "Nah dalam dinodita tidak tiri dina dita. Di tadi.",
+        "Holder": "1",
+        "Target": "无明确对象",
+        "Aspect": "无明确方面",
+        "Opinion": "无明确观点",
+        "Sentiment": "ambiguous",
+        "Rationale": "这句话内容不明确且无法理解其具体含义"
+    },
+    {
+        "sentence": "我说刘梅，什么事？什么事啊？这可有点太过了啊，孩子怎么住啊？",
+        "Holder": "4",
+        "Target": "刘梅的布置",
+        "Aspect": "布置的合理性",
+        "Opinion": "布置过度",
+        "Sentiment": "negative",
+        "Rationale": "觉得刘梅的布置过于夸张，担心孩子无法正常居住"
+    },
+    {
+        "sentence": "哎，怎么不能住啊，看见没有，多有气氛啊。星星的模型，星星的图片，星星的书，星星的资料全齐了。",
+        "Holder": "2",
+        "Target": "自己的布置",
+        "Aspect": "布置的气氛",
+        "Opinion": "布置很有气氛",
+        "Sentiment": "positive",
+        "Rationale": "自己精心布置了星星系列，觉得很有气氛"
+    },
+    {
+        "sentence": "哈哈哈，这看来你是要走星星系列呀。那当然了，那我觉得还差一样很重要的东西。不。",
+        "Holder": "4",
+        "Target": "刘梅的布置",
+        "Aspect": "布置的完整性",
+        "Opinion": "还缺少重要物品",
+        "Sentiment": "neutral",
+        "Rationale": "觉得刘梅的布置虽然全面但还缺少一样重要物品"
+    },
+    {
+        "sentence": "可能，我觉得什么都齐了。",
+        "Holder": "2",
+        "Target": "自己的布置",
+        "Aspect": "布置的完整性",
+        "Opinion": "已经齐全",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己已经把星星系列布置得很齐全"
+    },
+    {
+        "sentence": "呵呵，你看那自然博物馆里边，嗯，星星系列的有一样很重要的就是星星化石，哈哈哈，周口店里很多，而且离咱这也不远。我觉得你给小雪弄一个星星化石回来会把它乐疯了的。",
+        "Holder": "4",
+        "Target": "刘梅的布置",
+        "Aspect": "布置的建议",
+        "Opinion": "建议增加星星化石",
+        "Sentiment": "positive",
+        "Rationale": "觉得增加星星化石会让布置更完美，小雪会非常开心"
+    },
+    {
+        "sentence": "可是你说的有道理，周口店当时挖化石的科学家，万一要像你似的戴眼镜看不清楚，没准还真能漏个一个两个的。",
+        "Holder": "2",
+        "Target": "4的观点",
+        "Aspect": "观点的合理性",
+        "Opinion": "有道理",
+        "Sentiment": "positive",
+        "Rationale": "认可4的观点，认为其有合理性"
+    },
+    {
+        "sentence": "哈哈哈，我可是在逗你玩呢，你不会当真吧？",
+        "Holder": "4",
+        "Target": "自己的玩笑",
+        "Aspect": "玩笑的真实性",
+        "Opinion": "开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "只是开玩笑，并没有恶意"
+    },
+    {
+        "sentence": "哈哈，凭什么逗我玩啊，这太有可能性了。哈哈哈，明天谁有时间跟我去中火店，哈哈哈，夏东海这男的怎么都那么不热爱科学呀？",
+        "Holder": "2",
+        "Target": "4的玩笑",
+        "Aspect": "玩笑的可信度",
+        "Opinion": "可能性大",
+        "Sentiment": "positive",
+        "Rationale": "觉得4的玩笑有一定可能性"
+    },
+    {
+        "sentence": "你说你妈怎么到现在还不回来？",
+        "Holder": "4",
+        "Target": "1的妈妈",
+        "Aspect": "归家时间",
+        "Opinion": "迟迟不归",
+        "Sentiment": "neutral",
+        "Rationale": "对1的妈妈迟迟不归感到好奇"
+    },
+    {
+        "sentence": "哈哈哈，我妈不会真去那什么房山周口店了吧？",
+        "Holder": "1",
+        "Target": "自己的妈妈",
+        "Aspect": "去向",
+        "Opinion": "可能去了周口店",
+        "Sentiment": "positive",
+        "Rationale": "觉得妈妈可能真的去了周口店"
+    },
+    {
+        "sentence": "嗯，没准。",
+        "Holder": "4",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回应，没有表达明确的情感"
+    },
+    {
+        "sentence": "哪里有化石呢？",
+        "Holder": "1",
+        "Target": "化石",
+        "Aspect": "位置",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问化石的位置，没有表达明确的情感"
+    },
+    {
+        "sentence": "哈哈哈，化石是肯定有，可那都是国家级保护文物，你妈能捡着吗？",
+        "Holder": "4",
+        "Target": "化石",
+        "Aspect": "获取难度",
+        "Opinion": "难以获取",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式指出化石难以获取"
+    },
+    {
+        "sentence": "呵，你们都在这呢，别动别动，我这都是稀世珍宝。哈哈哈，起来。",
+        "Holder": "2",
+        "Target": "自己的物品",
+        "Aspect": "价值",
+        "Opinion": "非常珍贵",
+        "Sentiment": "positive",
+        "Rationale": "自豪地展示自己的物品并认为它们非常珍贵"
+    },
+    {
+        "sentence": "起来起来，快快快，让让让让来来，先放下，听我来。哎呦呦呦呦，这都什么呀？这么沉？",
+        "Holder": "4",
+        "Target": "物品",
+        "Aspect": "重量",
+        "Opinion": "很重",
+        "Sentiment": "ambiguous",
+        "Rationale": "一方面在催促大家行动，另一方面对物品的重量感到惊讶"
+    },
+    {
+        "sentence": "给你们看看啊。显摆显摆，哈哈，看看这是什么。",
+        "Holder": "2",
+        "Target": "化石",
+        "Aspect": "展示",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "自己有特别的化石想要展示给大家"
+    },
+    {
+        "sentence": "石头去。",
+        "Holder": "1",
+        "Target": "化石",
+        "Aspect": "认识",
+        "Opinion": "不以为然",
+        "Sentiment": "neutral",
+        "Rationale": "对化石不感兴趣或不了解"
+    },
+    {
+        "sentence": "这叫化石，哈哈哈，化石。",
+        "Holder": "2",
+        "Target": "化石",
+        "Aspect": "名称",
+        "Opinion": "强调",
+        "Sentiment": "positive",
+        "Rationale": "想要纠正1的看法并强调这是化石"
+    },
+    {
+        "sentence": "不？就您能捡着的也叫化石，那咱整个北京城那就成博物馆了。",
+        "Holder": "4",
+        "Target": "2的化石",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "认为2捡到的所谓化石并不稀奇"
+    },
+    {
+        "sentence": "哈哈哈，我给你看看，你过来，哼。哎，瞧瞧，有记载的。嗯，这个是 1957 年云南的古猿牙齿化药师。哈哈哈，这个是 1970 年在湖北发现的。",
+        "Holder": "2",
+        "Target": "化石",
+        "Aspect": "历史和价值",
+        "Opinion": "有依据",
+        "Sentiment": "positive",
+        "Rationale": "有具体的历史记载和发现地点来证明化石的真实性"
+    },
+    {
+        "sentence": "噢，那您这。",
+        "Holder": "说话人4",
+        "Sentiment": "neutral",
+        "Target": "未知",
+        "Aspect": "未知",
+        "Opinion": "未知",
+        "Rationale": "这句话是引入话题，没有明确表达情感或观点"
+    },
+    {
+        "sentence": "块，我这块很有可能是1921年北京出土的化石。",
+        "Holder": "说话人2",
+        "Sentiment": "positive",
+        "Target": "化石",
+        "Aspect": "来源",
+        "Opinion": "可能是1921年北京出土的",
+        "Rationale": "因为说话者对化石的来源有信心，所以表现出积极的情绪"
+    },
+    {
+        "sentence": "哈哈，你挖出来的？",
+        "Holder": "speaker 4",
+        "Sentiment": "positive",
+        "Target": "化石",
+        "Aspect": "获取方式",
+        "Opinion": "怀疑",
+        "Rationale": "因为说话者用疑问的语气询问化石的获取方式，所以表现出一种好奇和怀疑的积极情绪。"
+    },
+    {
+        "sentence": "嗯，当然是我挖的。",
+        "Holder": "说话者2",
+        "Sentiment": "positive",
+        "Target": "fossil",
+        "Aspect": "acquisition method",
+        "Opinion": "affirmative",
+        "Rationale": "Because the speaker confidently affirms that they excavated the fossil themselves, showing a sense of pride and positive emotion."
+    },
+    {
+        "sentence": "哈哈，我看你晚上吃什么。",
+        "Holder": "说话者4",
+        "Sentiment": "positive",
+        "Target": "说话者2",
+        "Aspect": "晚餐",
+        "Opinion": "调侃",
+        "Rationale": "Because speaker 4 teases speaker 2 about what they will eat for dinner, creating a light-hearted and humorous atmosphere."
+    },
+    {
+        "sentence": "切，嗯嗯嗯嗯。爸，你为什么天天给我们做方便面啊？就你们，我都吃完胃了。",
+        "Holder": "1",
+        "Target": "爸爸做的饭",
+        "Aspect": "饮食的合理性",
+        "Opinion": "不满天天吃方便面",
+        "Sentiment": "negative",
+        "Rationale": "天天吃方便面导致胃不舒服"
+    },
+    {
+        "sentence": "我也不爱吃，可妈妈不给咱们做怎么办？哎，要不然我给你们做清蒸鲤鱼。",
+        "Holder": "4",
+        "Target": "妈妈的做饭情况",
+        "Aspect": "饮食选择的无奈",
+        "Opinion": "无奈只能吃方便面",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈不做饭"
+    },
+    {
+        "sentence": "就是那种很苦的鱼，就是连苦胆一块蒸的那个，哼。哈哈哈，还不如失面呢。嗯，大家好，大家不好，哈哈哈，妈，您拿这么多树枝干嘛呀？",
+        "Holder": "1",
+        "Target": "清蒸鲤鱼",
+        "Aspect": "食物的口感",
+        "Opinion": "不喜欢清蒸鲤鱼",
+        "Sentiment": "negative",
+        "Rationale": "清蒸鲤鱼很苦"
+    },
+    {
+        "sentence": "诶，不知道了，星星一般都是用树枝搭窝，高度大概是 8 ~ 10 米，白天就呆在树上，喜欢独居。",
+        "Holder": "2",
+        "Target": "星星搭窝",
+        "Aspect": "星星的生活习性",
+        "Opinion": "描述星星的生活习性",
+        "Sentiment": "neutral",
+        "Rationale": "描述星星的生活习性"
+    },
+    {
+        "sentence": "8 ~ 10 米你要搭那么高的窝晚上摔下来怎么办？",
+        "Holder": "1",
+        "Target": "星星搭窝的高度",
+        "Aspect": "安全性的担忧",
+        "Opinion": "担心摔下来",
+        "Sentiment": "negative",
+        "Rationale": "担心星星搭那么高的窝会摔下来"
+    },
+    {
+        "sentence": "哈哈哈，咱们家哪有 8 米高啊？这房顶，哎。",
+        "Holder": "2",
+        "Target": "房子高度",
+        "Aspect": "实际高度",
+        "Opinion": "没有8米高",
+        "Sentiment": "negative",
+        "Rationale": "现实中的房子高度远不及8米"
+    },
+    {
+        "sentence": "那你要干什么呀。",
+        "Holder": "4",
+        "Target": "2的计划",
+        "Aspect": "计划内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对2的计划不了解"
+    },
+    {
+        "sentence": "呃？我打算弄一个猥琐警官，比例是芭比。",
+        "Holder": "2",
+        "Target": "自己的计划",
+        "Aspect": "计划内容",
+        "Opinion": "制作猥琐警官",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的计划，没有明显的情感倾向"
+    },
+    {
+        "sentence": "哈哈哈，你要把星星窝搭在小雪房间呀。对呀。",
+        "Holder": "4",
+        "Target": "2的计划",
+        "Aspect": "计划地点",
+        "Opinion": "搭在小雪房间",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的计划有趣且合理"
+    },
+    {
+        "sentence": "来来来，有空帮我一块干。",
+        "Holder": "2",
+        "Target": "4的参与",
+        "Aspect": "合作请求",
+        "Opinion": "希望帮忙",
+        "Sentiment": "positive",
+        "Rationale": "希望4能参与自己的计划"
+    },
+    {
+        "sentence": "快点。你还真要干呐，快快快，真的快点。",
+        "Holder": "4",
+        "Target": "2的行动速度",
+        "Aspect": "行动的及时性",
+        "Opinion": "需要加快",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方尽快行动"
+    },
+    {
+        "sentence": "哈哈哈，接电话，嘿，你过来。",
+        "Holder": "2",
+        "Target": "接电话的行为",
+        "Aspect": "行为的轻松性",
+        "Opinion": "轻松愉快",
+        "Sentiment": "positive",
+        "Rationale": "接到电话并且叫人过来时心情愉快"
+    },
+    {
+        "sentence": "哦哦，小雪爸，我先接电话。",
+        "Holder": "1",
+        "Target": "接电话的行为",
+        "Aspect": "行为的礼貌性",
+        "Opinion": "礼貌回应",
+        "Sentiment": "neutral",
+        "Rationale": "需要接电话并且礼貌地告知对方"
+    },
+    {
+        "sentence": "我来喂。什么雪啊？我们。",
+        "Holder": "4",
+        "Target": "接电话的行为",
+        "Aspect": "行为的主动性",
+        "Opinion": "主动接电话",
+        "Sentiment": "neutral",
+        "Rationale": "主动提出接电话"
+    },
+    {
+        "sentence": "俩有共同语言喂。小雪，我告诉你，据我的观察和研究，这个星星最好呆在加里曼丹和苏门达腊的原始森林，哈哈哈，一般是 3 只到 10 只为一族群。哈哈哈对对对，喜欢家族生活就跟咱们家差不多。",
+        "Holder": "2",
+        "Target": "星星的生活习性",
+        "Aspect": "生活环境的适宜性",
+        "Opinion": "适合在原始森林",
+        "Sentiment": "positive",
+        "Rationale": "分享了自己对星星生活习性的观察和研究，感到有趣和愉快"
+    },
+    {
+        "sentence": "那咱们家不就成了猩猩家族了吗。",
+        "Holder": "1",
+        "Target": "家庭",
+        "Aspect": "成员特征",
+        "Opinion": "像猩猩",
+        "Sentiment": "neutral",
+        "Rationale": "因为用猩猩来形容家庭成员是一种玩笑式的表达，没有明显的正面或负面情感"
+    },
+    {
+        "sentence": "等你明天回来再说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "决策时间",
+        "Opinion": "推迟决策",
+        "Sentiment": "neutral",
+        "Rationale": "因为2号人物选择将问题推迟到明天讨论，表现出一种中立的态度"
+    },
+    {
+        "sentence": "小雪回来了，这是什么奇怪的东西？",
+        "Holder": "2",
+        "Target": "物品",
+        "Aspect": "外观",
+        "Opinion": "奇怪",
+        "Sentiment": "neutral",
+        "Rationale": "因为2号人物在询问物品的性质，表现出好奇而非明显的正面或负面情绪"
+    },
+    {
+        "sentence": "别胖了，这可是稀罕东西。",
+        "Holder": "3",
+        "Target": "物品",
+        "Aspect": "价值",
+        "Opinion": "珍贵",
+        "Sentiment": "positive",
+        "Rationale": "3号人物强调物品的珍贵性，表达出对物品的正面评价"
+    },
+    {
+        "sentence": "不会真的是猩猩吧？",
+        "Holder": "1",
+        "Target": "物品",
+        "Aspect": "真实性质",
+        "Opinion": "怀疑",
+        "Sentiment": "neutral",
+        "Rationale": "因为1号人物用疑问的方式表达对物品真实性的怀疑，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你给猩猩打了麻醉剂了，他怎么一动都不动啊？对。",
+        "Holder": "2",
+        "Target": "猩猩",
+        "Aspect": "活动状态",
+        "Opinion": "一动不动",
+        "Sentiment": "neutral",
+        "Rationale": "猩猩被打了麻醉剂"
+    },
+    {
+        "sentence": "这个东西是一动不动，但是他一眨眼就是十万八千里。",
+        "Holder": "3",
+        "Target": "猩猩",
+        "Aspect": "活动状态",
+        "Opinion": "一动不动但速度极快",
+        "Sentiment": "positive",
+        "Rationale": "猩猩虽然看起来一动不动，但实际上速度极快"
+    },
+    {
+        "sentence": "吹毛图捣蛋，哈哈哈，打开让我们看看，当当当当，天文望远镜，哈哈。",
+        "Holder": "1",
+        "Target": "天文望远镜",
+        "Aspect": "展示方式",
+        "Opinion": "幽默展示",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式展示天文望远镜"
+    },
+    {
+        "sentence": "以后咱们就可以拿着这个望天上的星星了。",
+        "Holder": "3",
+        "Target": "天文望远镜",
+        "Aspect": "用途",
+        "Opinion": "用于观星",
+        "Sentiment": "positive",
+        "Rationale": "有了天文望远镜可以观星"
+    },
+    {
+        "sentence": "你不是喜欢研究四条腿的大猩猩吗？怎么又改研究天上的猩猩了？",
+        "Holder": "2",
+        "Target": "3的研究兴趣",
+        "Aspect": "研究对象的改变",
+        "Opinion": "从大猩猩到星星",
+        "Sentiment": "neutral",
+        "Rationale": "3的研究兴趣从大猩猩转向星星"
+    },
+    {
+        "sentence": "事情是这样的，我们在野外观察两天的大猩猩，我觉得不是特别有意思，这个时候我就发现了天上的星星是那么的美，是那么的神奇，哈哈哈，天空是那么的浩瀚，所以天性的星星就把我深深的吸引住了。",
+        "Holder": "3",
+        "Target": "野外观察大猩猩",
+        "Aspect": "活动的趣味性",
+        "Opinion": "不太有意思",
+        "Sentiment": "neutral",
+        "Rationale": "对观察大猩猩的活动感到平淡"
+    },
+    {
+        "sentence": "事情是这样的，我们在野外观察两天的大猩猩，我觉得不是特别有意思，这个时候我就发现了天上的星星是那么的美，是那么的神奇，哈哈哈，天空是那么的浩瀚，所以天性的星星就把我深深的吸引住了。",
+        "Holder": "3",
+        "Target": "天上的星星",
+        "Aspect": "美丽和神奇",
+        "Opinion": "非常美丽和神奇",
+        "Sentiment": "positive",
+        "Rationale": "发现了美丽的星星"
+    },
+    {
+        "sentence": "很快就转了。",
+        "Holder": "2",
+        "Target": "话题转换",
+        "Aspect": "转换速度",
+        "Opinion": "快速",
+        "Sentiment": "neutral",
+        "Rationale": "话题转换得很快"
+    },
+    {
+        "sentence": "太累了，在野外的几天我好想念我的那种小床啊。哈哈哈，我一定要洗个澡舒舒服服的在我的小床上好好的睡上一觉，哈哈哈。",
+        "Holder": "3",
+        "Target": "野外生活",
+        "Aspect": "疲劳程度",
+        "Opinion": "非常累",
+        "Sentiment": "negative",
+        "Rationale": "在野外生活感到非常疲劳"
+    },
+    {
+        "sentence": "太累了，在野外的几天我好想念我的那种小床啊。哈哈哈，我一定要洗个澡舒舒服服的在我的小床上好好的睡上一觉，哈哈哈。",
+        "Holder": "3",
+        "Target": "小床",
+        "Aspect": "舒适度",
+        "Opinion": "非常舒适",
+        "Sentiment": "positive",
+        "Rationale": "对小床的舒适度充满期待"
+    },
+    {
+        "sentence": "哎哎哎哎，小雪你先洗澡吧，我一会我得给你那房间先通通风。哈哈哈，不用了不用了哈哈哈。",
+        "Holder": "2",
+        "Target": "小雪的洗澡安排",
+        "Aspect": "关心",
+        "Opinion": "关心小雪",
+        "Sentiment": "positive",
+        "Rationale": "关心小雪的生活安排"
+    },
+    {
+        "sentence": "哎哎哎哎，小雪你先洗澡吧，我一会我得给你那房间先通通风。哈哈哈，不用了不用了哈哈哈。",
+        "Holder": "2",
+        "Target": "房间通风",
+        "Aspect": "必要性",
+        "Opinion": "认为有必要",
+        "Sentiment": "neutral",
+        "Rationale": "认为房间通风是必要的"
+    },
+    {
+        "sentence": "星星窝还在床上。",
+        "Holder": "1",
+        "Target": "星星窝",
+        "Aspect": "位置",
+        "Opinion": "在床上",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述星星窝的位置"
+    },
+    {
+        "sentence": "哈哈哈刚离地一米差不多的距离。",
+        "Holder": "2",
+        "Target": "离地高度",
+        "Aspect": "高度描述",
+        "Opinion": "离地一米左右",
+        "Sentiment": "positive",
+        "Rationale": "描述了一个有趣的高度"
+    },
+    {
+        "sentence": "哈哈哈，石头还在桌子上。",
+        "Holder": "1",
+        "Target": "石头位置",
+        "Aspect": "位置描述",
+        "Opinion": "石头未移动",
+        "Sentiment": "positive",
+        "Rationale": "石头还在原位"
+    },
+    {
+        "sentence": "嗯，哈哈哈，满墙还读贴满了星星的画。",
+        "Holder": "4",
+        "Target": "墙上的画",
+        "Aspect": "画的内容",
+        "Opinion": "贴满星星的画",
+        "Sentiment": "positive",
+        "Rationale": "墙上贴满了星星的画"
+    },
+    {
+        "sentence": "哈哈哈，这孩子非恨死我不可。您别着急。",
+        "Holder": "2",
+        "Target": "孩子的反应",
+        "Aspect": "孩子的情绪",
+        "Opinion": "孩子会生气",
+        "Sentiment": "positive",
+        "Rationale": "预见到孩子的反应觉得有趣"
+    },
+    {
+        "sentence": "我给您找关于天文的书记，您好好学学。",
+        "Holder": "1",
+        "Target": "学习天文",
+        "Aspect": "学习建议",
+        "Opinion": "建议学习天文",
+        "Sentiment": "neutral",
+        "Rationale": "想帮助对方学习天文"
+    },
+    {
+        "sentence": "实在不行明天我带你去天文馆好好看看。",
+        "Holder": "4",
+        "Target": "2的天文兴趣",
+        "Aspect": "支持与陪伴",
+        "Opinion": "愿意带去天文馆",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助2增进天文知识"
+    },
+    {
+        "sentence": "我一定加紧学天文方面的知识，我一定好好研究星星，我必须得让小雪知道我多爱她。小雪，对不起，我实在是你，你先洗澡，给我 5 分钟，我保证把你的房间收拾的干干净净的。不是。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "爱的表达与补偿",
+        "Opinion": "努力学习天文，表达爱意，承诺收拾房间",
+        "Sentiment": "positive",
+        "Rationale": "想通过学习和行动表达对小雪的爱"
+    },
+    {
+        "sentence": "阿姨，也不知道什么时候你突然改变兴趣啊。",
+        "Holder": "4",
+        "Target": "1的兴趣改变",
+        "Aspect": "兴趣变化的突然性",
+        "Opinion": "感到意外",
+        "Sentiment": "neutral",
+        "Rationale": "对1突然改变兴趣感到意外"
+    },
+    {
+        "sentence": "对对，老妈就想给你一个惊喜，老妈明天就敢学天文知识。对，哈哈哈。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "给予惊喜",
+        "Opinion": "愿意学习天文知识",
+        "Sentiment": "positive",
+        "Rationale": "想给4一个惊喜"
+    },
+    {
+        "sentence": "老妈，谢谢你。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "感谢",
+        "Opinion": "表达感谢",
+        "Sentiment": "positive",
+        "Rationale": "对1的付出和关心表示感谢"
+    }
+]

@@ -1,0 +1,785 @@
+[
+    {
+        "sentence": "我跟你们说，我不是来坐这艘船的，我是来送花的，结果这船就开了，你们得想办法让我下船啊！",
+        "Holder": "1",
+        "Target": "船上人员",
+        "Aspect": "下船的可能性",
+        "Opinion": "要求下船",
+        "Sentiment": "negative",
+        "Rationale": "误上了船且无法下船"
+    },
+    {
+        "sentence": "不好意思啊，女士，现在真的不能下船。",
+        "Holder": "2",
+        "Target": "1的下船请求",
+        "Aspect": "下船的可行性",
+        "Opinion": "无法下船",
+        "Sentiment": "neutral",
+        "Rationale": "船已经开动，按规定不能下船"
+    },
+    {
+        "sentence": "为什么呀？为什么不能下船呀？",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "下船的原因",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "对不能下船的原因感到困惑"
+    },
+    {
+        "sentence": "妈，你怎么会跑到船上来啊？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "上船的原因",
+        "Opinion": "意外",
+        "Sentiment": "neutral",
+        "Rationale": "对母亲为何上船感到意外"
+    },
+    {
+        "sentence": "我还要问你呢，为什么把我弄上来？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "上船的原因",
+        "Opinion": "责问",
+        "Sentiment": "negative",
+        "Rationale": "认为是被孩子弄上船的"
+    },
+    {
+        "sentence": "我不知道啊。",
+        "Holder": "3",
+        "Target": "票的来源",
+        "Aspect": "知情情况",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "确实不知道票的来源"
+    },
+    {
+        "sentence": "谁给您买的票啊？",
+        "Holder": "3",
+        "Target": "票的购买者",
+        "Aspect": "询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "想知道票是谁买的"
+    },
+    {
+        "sentence": "你明知故问。",
+        "Holder": "1",
+        "Target": "3的提问",
+        "Aspect": "提问的真实意图",
+        "Opinion": "认为3故意装作不知",
+        "Sentiment": "negative",
+        "Rationale": "觉得3明明知道却故意问"
+    },
+    {
+        "sentence": "我真不知道啊。",
+        "Holder": "3",
+        "Target": "票的来源",
+        "Aspect": "知情情况",
+        "Opinion": "强调不知道",
+        "Sentiment": "neutral",
+        "Rationale": "再次强调自己确实不知道"
+    },
+    {
+        "sentence": "你怎么可能不知道呢？",
+        "Holder": "1",
+        "Target": "3的知情情况",
+        "Aspect": "可信度",
+        "Opinion": "怀疑3的说法",
+        "Sentiment": "negative",
+        "Rationale": "觉得3不可能不知道"
+    },
+    {
+        "sentence": "那个，阿姨，您别怪丁凯，是我一个人干的，跟他没关系。",
+        "Holder": "4",
+        "Target": "丁凯",
+        "Aspect": "责任归属",
+        "Opinion": "丁凯无关",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4主动承担责任"
+    },
+    {
+        "sentence": "你过来，你是不是一天不给我添麻烦你心里难受啊？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "行为评价",
+        "Opinion": "经常添麻烦",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为4经常给自己添麻烦"
+    },
+    {
+        "sentence": "我就是想让你妈看看你的工作环境。",
+        "Holder": "4",
+        "Target": "工作环境展示",
+        "Aspect": "动机",
+        "Opinion": "展示工作环境",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4解释了自己的动机"
+    },
+    {
+        "sentence": "咳，行了，别给我演双簧了。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为真实性",
+        "Opinion": "怀疑表演",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为4在表演"
+    },
+    {
+        "sentence": "我说过，你不用跟我解释。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "解释必要性",
+        "Opinion": "无需解释",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为解释无用"
+    },
+    {
+        "sentence": "你现在长大了，你的事儿你可以自己做主，但是你也别掺和我的事儿！你也别管我！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "个人事务的自主权",
+        "Opinion": "要求独立自主",
+        "Sentiment": "negative",
+        "Rationale": "1希望2不要干涉自己的事务"
+    },
+    {
+        "sentence": "赶紧想办法把我送回家，要不然我告你们绑架，知道吗？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "送回家的紧迫性",
+        "Opinion": "要求立即送回家",
+        "Sentiment": "negative",
+        "Rationale": "1感到被困且无法自主"
+    },
+    {
+        "sentence": "妈，现在船已经开了，我怎么让你下船啊？",
+        "Holder": "3",
+        "Target": "1的要求",
+        "Aspect": "下船的可行性",
+        "Opinion": "无法满足要求",
+        "Sentiment": "neutral",
+        "Rationale": "船已经开了，实际情况无法满足1的要求"
+    },
+    {
+        "sentence": "你们不是还有救生艇吗？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "使用救生艇的可能性",
+        "Opinion": "提出替代方案",
+        "Sentiment": "neutral",
+        "Rationale": "1希望找到解决办法回家"
+    },
+    {
+        "sentence": "笑什么笑？",
+        "Holder": "3",
+        "Target": "其他人的笑声",
+        "Aspect": "笑声的合理性",
+        "Opinion": "质疑笑声",
+        "Sentiment": "negative",
+        "Rationale": "3感到在紧急情况下别人的笑声不合适"
+    },
+    {
+        "sentence": "那怎么办？妈。",
+        "Holder": "3",
+        "Target": "当前困境",
+        "Aspect": "解决问题的方法",
+        "Opinion": "寻求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "面对困境"
+    },
+    {
+        "sentence": "要不然咱们现在找一个安静的地方，我好好给您解释一下。",
+        "Holder": "3",
+        "Target": "Explanation Opportunity",
+        "Aspect": "Communication Method",
+        "Opinion": "Proposes a calm discussion",
+        "Sentiment": "Positive",
+        "Rationale": "Because proposing a calm discussion shows a willingness to resolve the issue peacefully."
+    },
+    {
+        "sentence": "我不管你用什么方式，我现在一定要下船。",
+        "Holder": "1",
+        "Target": "下船的需求",
+        "Aspect": "Urgency",
+        "Opinion": "坚决要求",
+        "Sentiment": "Negative",
+        "Rationale": "Because the insistence on disembarking immediately indicates frustration and urgency."
+    },
+    {
+        "sentence": "哎呀，阿姨，这船已经开了，真的下不去了。",
+        "Holder": "4",
+        "Target": "下船的可能性",
+        "Aspect": "现实情况",
+        "Opinion": "不可能下船",
+        "Sentiment": "neutral",
+        "Rationale": "船已经开动"
+    },
+    {
+        "sentence": "这样吧，我先送您回房间，您好好休息一下，吃吃喝喝，放松一下。",
+        "Holder": "4",
+        "Target": "阿姨的情绪",
+        "Aspect": "缓解情绪的建议",
+        "Opinion": "建议放松",
+        "Sentiment": "positive",
+        "Rationale": "提出让阿姨休息和放松的建议，希望能缓解她的情绪"
+    },
+    {
+        "sentence": "不是，麻烦我求你了，您能别瞎掺和了吗？我拜托你了。",
+        "Holder": "3",
+        "Target": "1的参与",
+        "Aspect": "参与的态度",
+        "Opinion": "希望1不要参与",
+        "Sentiment": "negative",
+        "Rationale": "1的参与让3感到困扰"
+    },
+    {
+        "sentence": "我要下船。",
+        "Holder": "1",
+        "Target": "下船",
+        "Aspect": "行动的决定",
+        "Opinion": "决定下船",
+        "Sentiment": "neutral",
+        "Rationale": "1表达了自己要下船的意愿"
+    },
+    {
+        "sentence": "妈，这事我什么办不到啊。",
+        "Holder": "3",
+        "Target": "1的要求",
+        "Aspect": "能力的限制",
+        "Opinion": "无法满足要求",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己无法满足1的要求"
+    },
+    {
+        "sentence": "那我找你们船长。",
+        "Holder": "1",
+        "Target": "船长",
+        "Aspect": "解决问题的途径",
+        "Opinion": "寻求船长帮助",
+        "Sentiment": "neutral",
+        "Rationale": "1决定找船长解决问题"
+    },
+    {
+        "sentence": "哎，不，阿姨！",
+        "Holder": "4",
+        "Target": "1的行动",
+        "Aspect": "行动的合理性",
+        "Opinion": "反对1找船长",
+        "Sentiment": "negative",
+        "Rationale": "4认为1找船长是不必要的"
+    },
+    {
+        "sentence": "妈！这船上是我工作的地方，让同事怎么看我啊？",
+        "Holder": "3",
+        "Target": "工作环境",
+        "Aspect": "同事的看法",
+        "Opinion": "担心同事的看法",
+        "Sentiment": "negative",
+        "Rationale": "因为母亲的行为可能会影响自己在同事心中的形象，所以感到担忧和焦虑。"
+    },
+    {
+        "sentence": "怎么着，还想把我关起来啊？",
+        "Holder": "1",
+        "Target": "3的担忧",
+        "Aspect": "自由限制",
+        "Opinion": "质疑3的担忧",
+        "Sentiment": "negative",
+        "Rationale": "因为1觉得3的担忧过于夸张，所以用反问的方式表达不满。"
+    },
+    {
+        "sentence": "我哪敢啊？",
+        "Holder": "3",
+        "Target": "1的质疑",
+        "Aspect": "自己的态度",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "因为被误解而感到委屈，所以用否认的方式表达自己的无辜。"
+    },
+    {
+        "sentence": "麻烦借过一下谢谢。",
+        "Holder": "5",
+        "Target": "其他人",
+        "Aspect": "礼貌请求",
+        "Opinion": "请求借过",
+        "Sentiment": "neutral",
+        "Rationale": "因为需要通过，所以礼貌地请求他人让路。"
+    },
+    {
+        "sentence": "怎么回事？",
+        "Holder": "5",
+        "Target": "当前情况",
+        "Aspect": "情况了解",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "因为对当前情况不清楚，所以提出疑问以获取信息。"
+    },
+    {
+        "sentence": "我要找船长！",
+        "Holder": "1",
+        "Target": "船长",
+        "Aspect": "寻找船长",
+        "Opinion": "需要找到船长",
+        "Sentiment": "neutral",
+        "Rationale": "1有事情需要找船长"
+    },
+    {
+        "sentence": "我要见船长！",
+        "Holder": "1",
+        "Target": "船长",
+        "Aspect": "见船长",
+        "Opinion": "需要见到船长",
+        "Sentiment": "neutral",
+        "Rationale": "1再次强调需要见船长"
+    },
+    {
+        "sentence": "您要找船长？",
+        "Holder": "5",
+        "Target": "1的需求",
+        "Aspect": "确认需求",
+        "Opinion": "询问是否需要找船长",
+        "Sentiment": "neutral",
+        "Rationale": "5在确认1的需求"
+    },
+    {
+        "sentence": "呃，没有，我们就开玩笑的。",
+        "Holder": "4",
+        "Target": "找船长的事情",
+        "Aspect": "事情的真实性",
+        "Opinion": "只是开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "4解释说只是开玩笑"
+    },
+    {
+        "sentence": "我没开玩笑，我要找你们船长。",
+        "Holder": "1",
+        "Target": "船长",
+        "Aspect": "寻找船长",
+        "Opinion": "认真寻找",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1明确表示要找船长"
+    },
+    {
+        "sentence": "我明白了，请跟我来吧。来，这儿。",
+        "Holder": "5",
+        "Target": "1的请求",
+        "Aspect": "引导",
+        "Opinion": "同意并引导",
+        "Sentiment": "positive",
+        "Rationale": "说话人5理解并同意了1的请求"
+    },
+    {
+        "sentence": "只能帮你到这了，剩下的就得看你自己了。",
+        "Holder": "5",
+        "Target": "1的行动",
+        "Aspect": "帮助的限度",
+        "Opinion": "有限帮助",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5表示只能提供有限的帮助"
+    },
+    {
+        "sentence": "不管怎么说，消防演习还是要带俞女士走一遍的。",
+        "Holder": "5",
+        "Target": "消防演习",
+        "Aspect": "必要性",
+        "Opinion": "必须进行",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5强调消防演习的必要性"
+    },
+    {
+        "sentence": "我知道了。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "你这什么意思？",
+        "Holder": "1",
+        "Target": "3的话",
+        "Aspect": "话的含义",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不明白3的话是什么意思"
+    },
+    {
+        "sentence": "按照我们船方的规定，每一个乘客上船了之后都要集体进行消防演习。但是因为您的特殊状况，所以接下来由我来亲自为您演示。",
+        "Holder": "3",
+        "Target": "船方规定",
+        "Aspect": "消防演习的必要性",
+        "Opinion": "按规定进行",
+        "Sentiment": "neutral",
+        "Rationale": "按照规定需要进行消防演习"
+    },
+    {
+        "sentence": "我不知道什么是消防演习，我要见船长。",
+        "Holder": "1",
+        "Target": "消防演习",
+        "Aspect": "对消防演习的了解",
+        "Opinion": "不了解",
+        "Sentiment": "negative",
+        "Rationale": "对消防演习不了解"
+    },
+    {
+        "sentence": "见船长可以，但是你要先演习。",
+        "Holder": "3",
+        "Target": "见船长的要求",
+        "Aspect": "见船长的前提条件",
+        "Opinion": "先进行演习",
+        "Sentiment": "neutral",
+        "Rationale": "按规定需要先进行消防演习"
+    },
+    {
+        "sentence": "如果你不演习的话，船长怪罪下来，那你儿子我是要受到惩罚的。",
+        "Holder": "3",
+        "Target": "不演习的后果",
+        "Aspect": "责任和惩罚",
+        "Opinion": "会受惩罚",
+        "Sentiment": "negative",
+        "Rationale": "不参加演习会导致船长怪罪"
+    },
+    {
+        "sentence": "我先给您讲解一下，在我们的游轮上呢，首先对于第一次登船的游客来讲最主要的是要注意。",
+        "Holder": "3",
+        "Target": "第一次登船的游客",
+        "Aspect": "注意事项",
+        "Opinion": "需要特别注意",
+        "Sentiment": "neutral",
+        "Rationale": "需要对第一次登船的游客进行安全讲解"
+    },
+    {
+        "sentence": "你这是要干嘛啊？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为意图",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不明白1为何要拨打紧急电话"
+    },
+    {
+        "sentence": "你不让打电话也行，你安排我去见船长，安排我下船。",
+        "Holder": "1",
+        "Target": "3的要求",
+        "Aspect": "解决方案",
+        "Opinion": "要求见船长和下船",
+        "Sentiment": "negative",
+        "Rationale": "感到被困或不满现状"
+    },
+    {
+        "sentence": "对不起，我做不到。",
+        "Holder": "3",
+        "Target": "1的要求",
+        "Aspect": "执行能力",
+        "Opinion": "无法做到",
+        "Sentiment": "negative",
+        "Rationale": "无法满足1的要求"
+    },
+    {
+        "sentence": "我再说一遍，我要见船长！",
+        "Holder": "1",
+        "Target": "船长",
+        "Aspect": "见面要求",
+        "Opinion": "坚持要见",
+        "Sentiment": "negative",
+        "Rationale": "之前的要求没有被满足"
+    },
+    {
+        "sentence": "对不起了妈。",
+        "Holder": "3",
+        "Target": "1（母亲）",
+        "Aspect": "道歉",
+        "Opinion": "表达歉意",
+        "Sentiment": "negative",
+        "Rationale": "无法满足母亲的要求"
+    },
+    {
+        "sentence": "丁凯，丁凯！",
+        "Holder": "1",
+        "Target": "丁凯",
+        "Aspect": "呼唤",
+        "Opinion": "急切呼唤",
+        "Sentiment": "negative",
+        "Rationale": "迫切需要丁凯的回应"
+    },
+    {
+        "sentence": "这位女士有激进举动的倾向，没我的允许谁都不可以让她出来。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "安全控制",
+        "Opinion": "限制行动",
+        "Sentiment": "neutral",
+        "Rationale": "担心1的激进举动可能带来危险"
+    },
+    {
+        "sentence": "丁凯，丁凯！",
+        "Holder": "1",
+        "Target": "丁凯",
+        "Aspect": "注意力",
+        "Opinion": "需要引起注意",
+        "Sentiment": "neutral",
+        "Rationale": "需要叫唤丁凯引起他的注意"
+    },
+    {
+        "sentence": "对不起，女士，这是船方的规定。",
+        "Holder": "2",
+        "Target": "船方规定",
+        "Aspect": "规定的执行",
+        "Opinion": "遵守规定",
+        "Sentiment": "neutral",
+        "Rationale": "遵守船方的规定并礼貌地解释"
+    },
+    {
+        "sentence": "我现在问你一下，我妈怎么就参加你的团，船票怎么买？护照是怎么拿到的？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "办事能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对4如何安排母亲参加旅行团、购买船票和获取护照的过程不清楚"
+    },
+    {
+        "sentence": "啊什么啊，还装什么傻啊？",
+        "Holder": "3",
+        "Target": "4的反应",
+        "Aspect": "态度",
+        "Opinion": "认为装傻",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的反应是在装傻"
+    },
+    {
+        "sentence": "这事儿你一个人办不了，说。",
+        "Holder": "3",
+        "Target": "4的能力",
+        "Aspect": "办事能力",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "认为4一个人无法完成这些事情"
+    },
+    {
+        "sentence": "我当然有办法了，没人帮我。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "办事能力",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "相信自己有能力独立完成这些事情"
+    },
+    {
+        "sentence": "我不想再跟你说第二遍了。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "重复对话的耐心",
+        "Opinion": "不想重复",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方没有认真听或者理解自己的话"
+    },
+    {
+        "sentence": "真没人帮我。",
+        "Holder": "4",
+        "Target": "帮助",
+        "Aspect": "获得帮助的可能性",
+        "Opinion": "没有人帮助",
+        "Sentiment": "negative",
+        "Rationale": "感到自己处于孤立无援的状态"
+    },
+    {
+        "sentence": "哎呀，你别逼我行不行？",
+        "Holder": "4",
+        "Target": "3的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "觉得被逼迫",
+        "Sentiment": "negative",
+        "Rationale": "感到对方的要求过于强烈，让自己感到压力"
+    },
+    {
+        "sentence": "行，我不逼你，但是你跟我说实话，你让我妈妈上船的初衷是什么？",
+        "Holder": "3",
+        "Target": "4的初衷",
+        "Aspect": "初衷的真实性",
+        "Opinion": "要求说实话",
+        "Sentiment": "neutral",
+        "Rationale": "想要了解对方的真实意图"
+    },
+    {
+        "sentence": "我的初衷当然是好的。",
+        "Holder": "4",
+        "Target": "自己的初衷",
+        "Aspect": "初衷的性质",
+        "Opinion": "初衷是好的",
+        "Sentiment": "positive",
+        "Rationale": "相信自己行为的出发点是善意的"
+    },
+    {
+        "sentence": "你妈不是担心你不想让你当海员，怕你有危险吗？所以你让她上船看看你的工作环境，不挺好吗？",
+        "Holder": "4",
+        "Target": "3的母亲",
+        "Aspect": "对3当海员的担忧",
+        "Opinion": "让母亲上船了解工作环境是个好主意",
+        "Sentiment": "positive",
+        "Rationale": "认为让母亲亲眼看到工作环境可以减轻她的担忧"
+    },
+    {
+        "sentence": "我也直接去请她了，没成功，所以才。",
+        "Holder": "4",
+        "Target": "3的母亲",
+        "Aspect": "邀请母亲上船的结果",
+        "Opinion": "邀请失败",
+        "Sentiment": "negative",
+        "Rationale": "直接邀请母亲上船但没有成功"
+    },
+    {
+        "sentence": "你根本就不知道我们家的状况到底是怎么回事，你为什么要自作主张呢？",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "对家庭状况的了解和决策",
+        "Opinion": "4不应该自作主张",
+        "Sentiment": "negative",
+        "Rationale": "4不了解家庭状况却擅自做决定"
+    },
+    {
+        "sentence": "你知不知道人与人沟通的方式要有一个界限，界限，懂吗？",
+        "Holder": "3",
+        "Target": "4的沟通方式",
+        "Aspect": "沟通的界限",
+        "Opinion": "4没有尊重沟通的界限",
+        "Sentiment": "negative",
+        "Rationale": "4的沟通方式越过了应有的界限"
+    },
+    {
+        "sentence": "你什么意思啊？",
+        "Holder": "4",
+        "Target": "3的话",
+        "Aspect": "3话语的含义",
+        "Opinion": "不理解3的话",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白3话语中的具体含义"
+    },
+    {
+        "sentence": "算了，都是我的错。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "责任归属",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "3认为自己有责任"
+    },
+    {
+        "sentence": "什么你的错？",
+        "Holder": "4",
+        "Target": "3的言论",
+        "Aspect": "责任归属",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "4对3的自责表示不理解"
+    },
+    {
+        "sentence": "是我先过了界，我不应该让你搬进我们家来，这是我的错！",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "行为合理性",
+        "Opinion": "自责",
+        "Sentiment": "negative",
+        "Rationale": "3认为自己让4搬进来是错误的决定"
+    },
+    {
+        "sentence": "我不知道你说什么这个界那个界什么，我只知道人与人之间相处要相互帮助！",
+        "Holder": "4",
+        "Target": "3的观点",
+        "Aspect": "人际相处原则",
+        "Opinion": "强调互助",
+        "Sentiment": "positive",
+        "Rationale": "4认为互助是人际相处的重要原则"
+    },
+    {
+        "sentence": "说实话，当初你让我搬进你家，我对你还有所改观。我觉得你这个人看上去好像不近人情，一张臭脸的样子，但是内心其实挺热心肠的。但我现在发现我看错人了。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "性格评价",
+        "Opinion": "失望",
+        "Sentiment": "negative",
+        "Rationale": "4原本对3有所改观，但现在的行为让4感到失望"
+    },
+    {
+        "sentence": "很好啊，我让你失望了，是不是？生我气了，对吗？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "对3的期望",
+        "Opinion": "让4失望",
+        "Sentiment": "negative",
+        "Rationale": "3认为自己让4失望了"
+    },
+    {
+        "sentence": "所以说从现在开始，最好不要跟我联系，你不要来干涉我的生活了好吗？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "联系的合理性",
+        "Opinion": "希望4不要干涉自己的生活",
+        "Sentiment": "negative",
+        "Rationale": "3觉得4的干涉让自己不舒服"
+    },
+    {
+        "sentence": "我没有干涉你生活！",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "干涉生活的行为",
+        "Opinion": "否认干涉",
+        "Sentiment": "negative",
+        "Rationale": "4觉得自己被误解了"
+    },
+    {
+        "sentence": "我现在不想听你解释这么多了！",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "解释的接受度",
+        "Opinion": "不想听解释",
+        "Sentiment": "negative",
+        "Rationale": "4对3的解释感到不耐烦"
+    },
+    {
+        "sentence": "下船了以后找到房子，搬家！",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "未来的计划",
+        "Opinion": "决定搬家",
+        "Sentiment": "neutral",
+        "Rationale": "4决定在下了船后搬离"
+    },
+    {
+        "sentence": "没事儿别联系，有事儿写信！",
+        "Holder": "4",
+        "Target": "联系方式",
+        "Aspect": "沟通方式的选择",
+        "Opinion": "偏好写信",
+        "Sentiment": "neutral",
+        "Rationale": "4提出了一个特定的沟通方式"
+    },
+    {
+        "sentence": "谁给你写信！",
+        "Holder": "3",
+        "Target": "4的要求",
+        "Aspect": "写信的合理性",
+        "Opinion": "反对写信",
+        "Sentiment": "negative",
+        "Rationale": "3觉得4的要求不合理"
+    },
+    {
+        "sentence": "搬就搬，好像我非赖在你家似的！",
+        "Holder": "3",
+        "Target": "搬家",
+        "Aspect": "搬家的态度",
+        "Opinion": "愿意搬走",
+        "Sentiment": "negative",
+        "Rationale": "3觉得被误解为赖在4家"
+    },
+    {
+        "sentence": "不知好歹！怪人！气死我了！",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "对4的评价",
+        "Opinion": "认为4不知好歹",
+        "Sentiment": "negative",
+        "Rationale": "3觉得4的行为让人无法理解"
+    }
+]

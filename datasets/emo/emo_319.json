@@ -1,0 +1,36 @@
+{
+  "3": {
+    "events": [
+      {
+        "event": "花船的存在与安全性争议",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "对花船存在的真实性存疑",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "认可花船作为安全寻欢场所的机动性优势",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认举报行为客观存在但缺乏效果",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "举报机制的系统性失效",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "举报信被拦截导致牢狱之灾，且无法通过正常渠道上达天听",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

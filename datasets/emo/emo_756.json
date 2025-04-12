@@ -1,0 +1,42 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "行程安排与信任危机",
+        "emotions": [
+          {"state": "neutral", "reason": "取消会所行程并制定路线", "source_id": "2"},
+          {"state": "negative", "reason": "发现对方不接受安排并怀疑录音", "source_id": "2"},
+          {"state": "positive", "reason": "肯定对方的防范能力", "source_id": "2"},
+          {"state": "negative", "reason": "质疑职位晋升与亲属安排", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "价值观冲突",
+        "emotions": [
+          {"state": "negative", "reason": "讽刺滥用职权行为", "source_id": "2"},
+          {"state": "negative", "reason": "表达对学生的彻底失望", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "信任博弈与自我辩护",
+        "emotions": [
+          {"state": "neutral", "reason": "确认会所安排完成", "source_id": "1"},
+          {"state": "ambiguous", "reason": "被质疑身份后强调师生关系", "source_id": "1"},
+          {"state": "negative", "reason": "被认定小人时的自我澄清", "source_id": "1"},
+          {"state": "neutral", "reason": "解释人情社会的必然性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "职业成就争议",
+        "emotions": [
+          {"state": "neutral", "reason": "客观分析职位可能性", "source_id": "1"},
+          {"state": "neutral", "reason": "化解讽刺转为玩笑应对", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

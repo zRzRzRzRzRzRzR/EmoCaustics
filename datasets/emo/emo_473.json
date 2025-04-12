@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "公司事务紧急处理",
+        "emotions": [
+          {"state": "neutral", "reason": "需要处理突发公司事务", "source_id": "1"},
+          {"state": "neutral", "reason": "被询问行踪时的冷静回应", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭聚餐协调与资金管理",
+        "emotions": [
+          {"state": "positive", "reason": "主动承担聚餐费用", "source_id": "6"},
+          {"state": "negative", "reason": "纠正过度消费行为", "source_id": "4"},
+          {"state": "positive", "reason": "无息借款帮助孩子", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "亲友安抚工作",
+        "emotions": [
+          {"state": "positive", "reason": "反复强调戴叔叔安全", "source_id": "5,7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "经济压力应对",
+        "emotions": [
+          {"state": "negative", "reason": "被迫接受长期素食", "source_id": "2"},
+          {"state": "negative", "reason": "被指责饮食习惯问题", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "消费观念冲突",
+        "emotions": [
+          {"state": "positive", "reason": "怀念奢侈餐饮", "source_id": "4"},
+          {"state": "negative", "reason": "被批评过度消费", "source_id": "2"},
+          {"state": "ambiguous", "reason": "提议参与派对时的矛盾心理", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "父亲失踪危机",
+        "emotions": [
+          {"state": "negative", "reason": "无法联系父亲的焦虑", "source_id": "5"},
+          {"state": "negative", "reason": "被暗示绑架可能", "source_id": "4"},
+          {"state": "positive", "reason": "获得经济与情感支持", "source_id": "2,7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "支付责任质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑支付能力", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "危机公关处理",
+        "emotions": [
+          {"state": "positive", "reason": "安抚焦虑情绪", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

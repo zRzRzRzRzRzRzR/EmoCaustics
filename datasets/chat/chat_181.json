@@ -1,0 +1,659 @@
+[
+    {
+        "sentence": "你们干什么呢？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "当前行为",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问对方的行为"
+    },
+    {
+        "sentence": "刚才不小心打翻了酒瓶，我叫人打扫一下。",
+        "Holder": "2",
+        "Target": "打翻酒瓶",
+        "Aspect": "处理方式",
+        "Opinion": "负责",
+        "Sentiment": "negative",
+        "Rationale": "不小心打翻了酒瓶"
+    },
+    {
+        "sentence": "啊，不用了。",
+        "Holder": "1",
+        "Target": "打扫",
+        "Aspect": "必要性",
+        "Opinion": "不需要",
+        "Sentiment": "neutral",
+        "Rationale": "认为不需要特别打扫"
+    },
+    {
+        "sentence": "芮芮，你看到我妹妹了吗？",
+        "Holder": "2",
+        "Target": "妹妹",
+        "Aspect": "位置",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问妹妹的位置"
+    },
+    {
+        "sentence": "哼，我眼瞎心盲，连自己眼前的男人都不一定看得住，又怎么能看到你远在海外的妹妹呢？",
+        "Holder": "3",
+        "Target": "2的妹妹",
+        "Aspect": "看到的能力",
+        "Opinion": "无法看到",
+        "Sentiment": "negative",
+        "Rationale": "对自身能力的自嘲和对对方问题的反讽"
+    },
+    {
+        "sentence": "苏芮芮，你讲话怎么阴阳怪气的？",
+        "Holder": "1",
+        "Target": "苏芮芮的讲话方式",
+        "Aspect": "讲话的语气",
+        "Opinion": "阴阳怪气",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮的讲话语气让人感觉不舒服"
+    },
+    {
+        "sentence": "难不成你朋友老公出了轨，你把气撒在我头上？",
+        "Holder": "1",
+        "Target": "苏芮芮的情绪",
+        "Aspect": "情绪的宣泄对象",
+        "Opinion": "把气撒在1头上",
+        "Sentiment": "negative",
+        "Rationale": "感觉苏芮芮将朋友老公出轨的气撒在自己头上"
+    },
+    {
+        "sentence": "哼，我哪敢跟你撒气啊。",
+        "Holder": "3",
+        "Target": "1的指责",
+        "Aspect": "撒气的可能性",
+        "Opinion": "不敢撒气",
+        "Sentiment": "negative",
+        "Rationale": "被误解为撒气而感到冤枉和生气"
+    },
+    {
+        "sentence": "我要是遇到这种事情，我一定会让那个小三粉身碎骨，让那个贱人身败名裂！",
+        "Holder": "3",
+        "Target": "小三和出轨者",
+        "Aspect": "对待出轨的态度",
+        "Opinion": "极端报复",
+        "Sentiment": "negative",
+        "Rationale": "对出轨行为极度愤怒"
+    },
+    {
+        "sentence": "芮芮，我怎么感觉你是在点我呢？",
+        "Holder": "1",
+        "Target": "苏芮芮的话语",
+        "Aspect": "话语的针对性",
+        "Opinion": "感觉被针对",
+        "Sentiment": "ambiguous",
+        "Rationale": "感觉苏芮芮的话语似乎在针对自己"
+    },
+    {
+        "sentence": "云骁，爸也是你这个年纪过来的，听爸一句劝，男人犯点错不要紧，但是一定要迷途知返啊。",
+        "Holder": "2",
+        "Target": "云骁的行为",
+        "Aspect": "错误与改正",
+        "Opinion": "犯错需改正",
+        "Sentiment": "neutral",
+        "Rationale": "2以过来人的身份劝导1改正错误"
+    },
+    {
+        "sentence": "不是，这，爸。",
+        "Holder": "1",
+        "Target": "2的劝导",
+        "Aspect": "劝导的接受度",
+        "Opinion": "难以接受",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的劝导感到困惑和难以认同"
+    },
+    {
+        "sentence": "我们芮芮这些年对你是掏心掏肺，从没有二心，你就不要在外面沾花惹草了，趁早把那些乱七八糟的关系断干净。",
+        "Holder": "2",
+        "Target": "云骁的外遇行为",
+        "Aspect": "忠诚与背叛",
+        "Opinion": "应断绝外遇",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为对不起芮芮的忠诚"
+    },
+    {
+        "sentence": "什么乱七八糟的关系啊？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "关系的性质",
+        "Opinion": "否认有不当关系",
+        "Sentiment": "doubt",
+        "Rationale": "1对2的指责感到困惑和不解"
+    },
+    {
+        "sentence": "你们到底在说什么啊？",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话的理解",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "1完全不明白2和芮芮的指责内容"
+    },
+    {
+        "sentence": "我怎么能干这种事呢？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为的合理性",
+        "Opinion": "不可能做这种事",
+        "Sentiment": "negative",
+        "Rationale": "被质疑做了不好的事"
+    },
+    {
+        "sentence": "好，你们男人要是能靠得住，母猪都能上树！",
+        "Holder": "3",
+        "Target": "男人",
+        "Aspect": "可靠性",
+        "Opinion": "男人不可靠",
+        "Sentiment": "negative",
+        "Rationale": "对男人的可靠性失望"
+    },
+    {
+        "sentence": "芮芮，我怎么就靠不住了？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "可靠性",
+        "Opinion": "自己是可靠的",
+        "Sentiment": "negative",
+        "Rationale": "被质疑可靠性"
+    },
+    {
+        "sentence": "裴云晓，你做了什么亏心事你自己心里清楚！",
+        "Holder": "3",
+        "Target": "裴云晓",
+        "Aspect": "行为的道德性",
+        "Opinion": "裴云晓做了亏心事",
+        "Sentiment": "negative",
+        "Rationale": "认为裴云晓做了不道德的事"
+    },
+    {
+        "sentence": "非要让我当着这么多人的面，将你出轨养小三的事情公之于众吗？",
+        "Holder": "3",
+        "Target": "裴云晓",
+        "Aspect": "行为的公开性",
+        "Opinion": "裴云晓出轨养小三",
+        "Sentiment": "negative",
+        "Rationale": "裴云晓的行为让自己非常愤怒"
+    },
+    {
+        "sentence": "苏芮芮，我告诉你，今天来的都是咱们两家的亲朋好友，你非要在大婚之日把这盆污水泼在我头上是吗？",
+        "Holder": "1",
+        "Target": "苏芮芮",
+        "Aspect": "大婚当天的行为",
+        "Opinion": "认为被诬陷",
+        "Sentiment": "negative",
+        "Rationale": "在大婚之日被指责出轨，感到被诬陷和愤怒"
+    },
+    {
+        "sentence": "裴云骁，这小三都被我抓住了，你还有脸说我诬陷你？",
+        "Holder": "3",
+        "Target": "裴云骁",
+        "Aspect": "出轨行为",
+        "Opinion": "有出轨证据",
+        "Sentiment": "negative",
+        "Rationale": "认为自己有证据证明对方出轨，却被对方指责诬陷"
+    },
+    {
+        "sentence": "抓到小三？你们别拿这种事情开玩笑。",
+        "Holder": "1",
+        "Target": "苏芮芮的指控",
+        "Aspect": "指控的严重性",
+        "Opinion": "认为是玩笑",
+        "Sentiment": "negative",
+        "Rationale": "认为对方在如此严肃的场合开这种玩笑，感到被冒犯和生气"
+    },
+    {
+        "sentence": "我可没有开玩笑，我有你出轨的证据！",
+        "Holder": "3",
+        "Target": "裴云骁",
+        "Aspect": "出轨证据",
+        "Opinion": "确信有证据",
+        "Sentiment": "negative",
+        "Rationale": "确信自己有对方出轨的证据，却被对方认为是开玩笑，感到被轻视和愤怒"
+    },
+    {
+        "sentence": "这可是清乾隆御制珐琅彩，虞美人题诗盎，全世界最贵的花瓶，每瓶售价高达一个亿。除了你这个京海首富，谁还有这个财力啊？还说不是你送你那个贱人的礼物！",
+        "Holder": "3",
+        "Target": "1的花瓶",
+        "Aspect": "花瓶的价值和归属",
+        "Opinion": "认为是1送给情人的礼物",
+        "Sentiment": "negative",
+        "Rationale": "3认为1花巨资购买花瓶送给情人"
+    },
+    {
+        "sentence": "你们刚刚不是说这个是酒瓶吗？怎么变成花瓶了？",
+        "Holder": "1",
+        "Target": "花瓶的描述",
+        "Aspect": "花瓶的用途",
+        "Opinion": "对花瓶用途的疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对花瓶的用途产生了疑问"
+    },
+    {
+        "sentence": "你还装。",
+        "Holder": "3",
+        "Target": "1的态度",
+        "Aspect": "1的真实性",
+        "Opinion": "认为1在伪装",
+        "Sentiment": "negative",
+        "Rationale": "3认为1在故意隐瞒事实"
+    },
+    {
+        "sentence": "你给我说清楚，你到底给那个狐狸精花了多少钱了？",
+        "Holder": "3",
+        "Target": "1的花销",
+        "Aspect": "1对情人的花费",
+        "Opinion": "质疑1的花销",
+        "Sentiment": "negative",
+        "Rationale": "3怀疑1对情人有大量花费"
+    },
+    {
+        "sentence": "苏芮芮，我告诉你，我的每一笔花销都是公开透明的，这个你可以自己去查。",
+        "Holder": "1",
+        "Target": "自己的花销",
+        "Aspect": "花销的透明度",
+        "Opinion": "花销公开透明",
+        "Sentiment": "positive",
+        "Rationale": "1自信自己的花销是公开透明的"
+    },
+    {
+        "sentence": "我什么时候买过这样的花瓶了？",
+        "Holder": "1",
+        "Target": "花瓶购买",
+        "Aspect": "购买行为",
+        "Opinion": "否认购买",
+        "Sentiment": "negative",
+        "Rationale": "被质疑购买了花瓶但自己并未购买"
+    },
+    {
+        "sentence": "好啊，你还动用私房钱。",
+        "Holder": "3",
+        "Target": "1的财务行为",
+        "Aspect": "使用私房钱",
+        "Opinion": "指责动用私房钱",
+        "Sentiment": "negative",
+        "Rationale": "发现对方动用了私房钱"
+    },
+    {
+        "sentence": "你等着，我还有证据！",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "证据存在",
+        "Opinion": "有证据证明",
+        "Sentiment": "negative",
+        "Rationale": "认为自己有证据可以证明对方的错误行为"
+    },
+    {
+        "sentence": "这个别墅你眼熟吧？帝江亭高奢别墅区，我都没有福气住进去，你居然买来包养小三！",
+        "Holder": "3",
+        "Target": "1的房产购买",
+        "Aspect": "购买别墅的目的",
+        "Opinion": "指责买别墅包养小三",
+        "Sentiment": "negative",
+        "Rationale": "认为对方用不正当的方式购买了别墅"
+    },
+    {
+        "sentence": "我什么时候买过帝江庭的别墅了？我去都没去过！",
+        "Holder": "1",
+        "Target": "别墅购买",
+        "Aspect": "购买行为",
+        "Opinion": "否认购买",
+        "Sentiment": "negative",
+        "Rationale": "被指责购买了别墅但自己并未购买"
+    },
+    {
+        "sentence": "裴云骁，你还是不是个男人啊？这证据都摆在你眼前了，你还打死不承认是不是？",
+        "Holder": "3",
+        "Target": "裴云骁",
+        "Aspect": "是否诚实",
+        "Opinion": "不承认错误",
+        "Sentiment": "negative",
+        "Rationale": "裴云骁在证据面前仍然不承认错误"
+    },
+    {
+        "sentence": "我再跟你说一遍，我没有出轨。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "是否出轨",
+        "Opinion": "否认出轨",
+        "Sentiment": "negative",
+        "Rationale": "被指责出轨但自己确实没有做过"
+    },
+    {
+        "sentence": "苏芮芮，你不要凭空造谣！",
+        "Holder": "1",
+        "Target": "苏芮芮",
+        "Aspect": "是否造谣",
+        "Opinion": "指责造谣",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮在没有证据的情况下指责自己出轨"
+    },
+    {
+        "sentence": "裴总，我们可没造谣啊。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "是否造谣",
+        "Opinion": "否认造谣",
+        "Sentiment": "negative",
+        "Rationale": "被裴云骁指责造谣但自己确实有证据"
+    },
+    {
+        "sentence": "那小三，我们大家都是有目共睹的。她那双鞋还在那呢。",
+        "Holder": "4",
+        "Target": "小三",
+        "Aspect": "证据存在",
+        "Opinion": "有目共睹",
+        "Sentiment": "negative",
+        "Rationale": "有明确的证据表明小三的存在，但裴云骁仍然不承认"
+    },
+    {
+        "sentence": "这高跟鞋的主人在哪？",
+        "Holder": "1",
+        "Target": "高跟鞋的主人",
+        "Aspect": "位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "1只是单纯地询问高跟鞋主人的位置"
+    },
+    {
+        "sentence": "好，现在承认你们两个的关系是了吧？",
+        "Holder": "3",
+        "Target": "1和某人的关系",
+        "Aspect": "关系确认",
+        "Opinion": "质疑关系",
+        "Sentiment": "negative",
+        "Rationale": "3认为1和某人有不正当关系"
+    },
+    {
+        "sentence": "这个高跟鞋也是你送给他的吧？",
+        "Holder": "3",
+        "Target": "高跟鞋",
+        "Aspect": "赠送者",
+        "Opinion": "质疑赠送者",
+        "Sentiment": "negative",
+        "Rationale": "3怀疑1是高跟鞋的赠送者"
+    },
+    {
+        "sentence": "我问你，这只高跟鞋的主人她到底在哪儿？",
+        "Holder": "1",
+        "Target": "高跟鞋的主人",
+        "Aspect": "位置",
+        "Opinion": "再次询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "1再次单纯地询问高跟鞋主人的位置"
+    },
+    {
+        "sentence": "像她这种勾引有妇之夫的贱人，根本不配出现在我的婚礼上。",
+        "Holder": "3",
+        "Target": "高跟鞋的主人",
+        "Aspect": "品德",
+        "Opinion": "贬低品德",
+        "Sentiment": "negative",
+        "Rationale": "3认为高跟鞋的主人有不正当行为"
+    },
+    {
+        "sentence": "她已经被我处理了。",
+        "Holder": "3",
+        "Target": "她",
+        "Aspect": "处理情况",
+        "Opinion": "已经处理",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3只是陈述了一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "裴云骁，我们在一起三年了，你竟然为了一个狐狸精打我！早知道我就应该弄死那个贱人！",
+        "Holder": "3",
+        "Target": "裴云骁",
+        "Aspect": "忠诚与背叛",
+        "Opinion": "愤怒与后悔",
+        "Sentiment": "negative",
+        "Rationale": "裴云骁为了另一个女人打了说话人3"
+    },
+    {
+        "sentence": "苏芮芮，我告诉你，这双鞋的主人是我的亲妹妹，也是裴氏集团的副总裁！",
+        "Holder": "1",
+        "Target": "鞋的主人",
+        "Aspect": "身份与地位",
+        "Opinion": "强调身份",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述一个事实，强调鞋的主人的身份，没有明显的情感倾向"
+    },
+    {
+        "sentence": "她要是今天有个三长两短，我让你们苏家跟着她一起偿命！",
+        "Holder": "1",
+        "Target": "苏家",
+        "Aspect": "威胁与报复",
+        "Opinion": "严厉威胁",
+        "Sentiment": "negative",
+        "Rationale": "说话人1担心鞋的主人出事"
+    },
+    {
+        "sentence": "什么？那个女人是你的亲妹妹，我的小姑子？",
+        "Holder": "3",
+        "Target": "那个女人",
+        "Aspect": "身份关系",
+        "Opinion": "惊讶与疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3突然得知那个女人是说话人1的亲妹妹，感到非常惊讶和疑惑"
+    },
+    {
+        "sentence": "这双鞋的主人在哪儿？",
+        "Holder": "1",
+        "Target": "鞋的主人",
+        "Aspect": "鞋的归属",
+        "Opinion": "寻找鞋的主人",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问鞋的主人"
+    },
+    {
+        "sentence": "云骁，你误会了，我说那个小三不是阿离，我今天根本就没有见到阿里呢。",
+        "Holder": "3",
+        "Target": "阿离",
+        "Aspect": "阿离的身份",
+        "Opinion": "阿离不是小三",
+        "Sentiment": "negative",
+        "Rationale": "3被误会成在说阿离是小三"
+    },
+    {
+        "sentence": "没见过，那这只高跟鞋你怎么解释？",
+        "Holder": "1",
+        "Target": "高跟鞋",
+        "Aspect": "高跟鞋的来源",
+        "Opinion": "质疑高跟鞋的归属",
+        "Sentiment": "negative",
+        "Rationale": "1认为高跟鞋是阿离的，但3说没见过阿离"
+    },
+    {
+        "sentence": "这只高跟鞋是我在她成人礼的时候亲手送给她的，全球限量只有这一双，不是她还能是谁！",
+        "Holder": "1",
+        "Target": "高跟鞋",
+        "Aspect": "高跟鞋的独特性",
+        "Opinion": "高跟鞋属于阿离",
+        "Sentiment": "positive",
+        "Rationale": "1确认高跟鞋是亲手送给阿离的限量版"
+    },
+    {
+        "sentence": "女婿啊，这就是一只高跟鞋，说不定就是山寨货，怎么可能会是二小姐的鞋呢？",
+        "Holder": "2",
+        "Target": "高跟鞋",
+        "Aspect": "高跟鞋的真实性",
+        "Opinion": "怀疑高跟鞋是山寨货",
+        "Sentiment": "negative",
+        "Rationale": "2认为这只高跟鞋可能是山寨货"
+    },
+    {
+        "sentence": "山寨货？那你们告诉我，这只鞋从哪来的？",
+        "Holder": "1",
+        "Target": "鞋的来源",
+        "Aspect": "鞋的真实性",
+        "Opinion": "怀疑是山寨货",
+        "Sentiment": "negative",
+        "Rationale": "发现了一只疑似山寨的鞋"
+    },
+    {
+        "sentence": "是我在公司门口捡到的。",
+        "Holder": "3",
+        "Target": "鞋的来源",
+        "Aspect": "鞋的发现地点",
+        "Opinion": "鞋是捡到的",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了鞋的发现地点"
+    },
+    {
+        "sentence": "云骁，你也知道我比较敏感，这刚结婚莫名其妙的多出来一只高跟鞋，我还以为你出轨了呢。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "忠诚度",
+        "Opinion": "怀疑出轨",
+        "Sentiment": "negative",
+        "Rationale": "刚结婚就发现一只莫名其妙的高跟鞋"
+    },
+    {
+        "sentence": "芮芮，你什么时候去过公司啊？",
+        "Holder": "1",
+        "Target": "3的行踪",
+        "Aspect": "时间",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解3去公司的时间"
+    },
+    {
+        "sentence": "上午11点，我闺蜜依依刚好路过你们公司，是她发现了这双高跟鞋，然后告诉我的。",
+        "Holder": "3",
+        "Target": "鞋的发现",
+        "Aspect": "发现过程",
+        "Opinion": "闺蜜发现并告知",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了鞋的发现过程"
+    },
+    {
+        "sentence": "对，裴总，我今天去芮芮家的时候，刚路过了裴氏，就顺便打了个车，不信我有打车记录！",
+        "Holder": "5",
+        "Target": "裴总",
+        "Aspect": "行程的真实性",
+        "Opinion": "行程真实",
+        "Sentiment": "neutral",
+        "Rationale": "提供了打车记录作为证据"
+    },
+    {
+        "sentence": "行了，你问这些人群情激愤，就是为了这只鞋笃定我出轨是吧？",
+        "Holder": "1",
+        "Target": "5的质疑",
+        "Aspect": "质疑的动机",
+        "Opinion": "质疑不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方无端质疑自己的行为"
+    },
+    {
+        "sentence": "哎呀云骁，我错了，我刚刚都是说的气话。",
+        "Holder": "3",
+        "Target": "自己的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "言论是气话",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己说了不合适的话"
+    },
+    {
+        "sentence": "而且我都没见过阿离，又怎么可能对她下死手呢？",
+        "Holder": "3",
+        "Target": "对阿离的行为",
+        "Aspect": "行为的可能性",
+        "Opinion": "不可能伤害阿离",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己不认识对方"
+    },
+    {
+        "sentence": "云骁，我们家芮芮也是太爱你了，所以才疑神疑鬼弄了这么个乌龙。",
+        "Holder": "2",
+        "Target": "芮芮的行为",
+        "Aspect": "行为的动机",
+        "Opinion": "出于爱而误会",
+        "Sentiment": "neutral",
+        "Rationale": "解释芮芮的行为是出于爱"
+    },
+    {
+        "sentence": "这样，爸替她向你道歉。",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "道歉",
+        "Opinion": "代替道歉",
+        "Sentiment": "neutral",
+        "Rationale": "作为父亲代替女儿道歉是出于责任感和礼貌"
+    },
+    {
+        "sentence": "不用了爸。",
+        "Holder": "1",
+        "Target": "2的道歉",
+        "Aspect": "接受道歉",
+        "Opinion": "不需要道歉",
+        "Sentiment": "neutral",
+        "Rationale": "认为不需要父亲代替道歉"
+    },
+    {
+        "sentence": "我暂时相信你们。",
+        "Holder": "1",
+        "Target": "2和阿离",
+        "Aspect": "信任",
+        "Opinion": "暂时信任",
+        "Sentiment": "neutral",
+        "Rationale": "决定暂时相信他们"
+    },
+    {
+        "sentence": "都这么久了，阿离怎么还没来？",
+        "Holder": "1",
+        "Target": "阿离",
+        "Aspect": "到达时间",
+        "Opinion": "迟到",
+        "Sentiment": "negative",
+        "Rationale": "等待时间过长且阿离还未到达"
+    },
+    {
+        "sentence": "她可能有事去处理了。",
+        "Holder": "3",
+        "Target": "阿离",
+        "Aspect": "迟到原因",
+        "Opinion": "有事情处理",
+        "Sentiment": "neutral",
+        "Rationale": "推测阿离迟到是有事情处理"
+    },
+    {
+        "sentence": "云骁，这婚礼马上就要开始了，我们要不先去换服装吧？",
+        "Holder": "3",
+        "Target": "婚礼准备",
+        "Aspect": "时间紧迫性",
+        "Opinion": "需要换服装",
+        "Sentiment": "neutral",
+        "Rationale": "婚礼即将开始"
+    },
+    {
+        "sentence": "爸，怎么办呀？",
+        "Holder": "3",
+        "Target": "当前困境",
+        "Aspect": "寻求帮助",
+        "Opinion": "感到困惑",
+        "Sentiment": "negative",
+        "Rationale": "面临困境不知如何解决"
+    },
+    {
+        "sentence": "我刚才还以为要被裴家扫地出门了。",
+        "Holder": "3",
+        "Target": "裴家态度",
+        "Aspect": "被接纳的可能性",
+        "Opinion": "担心被排斥",
+        "Sentiment": "negative",
+        "Rationale": "担心裴家会排斥自己"
+    },
+    {
+        "sentence": "放心，裴家也是要面子的人，我们等婚礼结束，裴家绝对不会提离婚。",
+        "Holder": "2",
+        "Target": "裴家行为",
+        "Aspect": "面子问题",
+        "Opinion": "裴家不会离婚",
+        "Sentiment": "positive",
+        "Rationale": "认为裴家注重面子"
+    }
+]

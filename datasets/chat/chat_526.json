@@ -1,0 +1,767 @@
+[
+    {
+        "sentence": "感谢大家远道而来参加我的升学宴。今天是个特别的日子，在此，我想借这个机会感谢一个非常重要的人。可以说，如果没有她就没有今天的我，她就是我的妈妈，方黎！",
+        "Holder": "1",
+        "Target": "方黎",
+        "Aspect": "方黎的重要性",
+        "Opinion": "方黎是重要的人",
+        "Sentiment": "positive",
+        "Rationale": "方黎对1的成长有重要影响"
+    },
+    {
+        "sentence": "等一下。书珩，她不是你的妈妈，你的妈妈是我。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "亲子关系",
+        "Opinion": "方黎不是书珩的妈妈",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己是书珩的亲生妈妈"
+    },
+    {
+        "sentence": "曾倩，你说什么呢？书珩可是我的孩子。",
+        "Holder": "3",
+        "Target": "书珩",
+        "Aspect": "亲子关系",
+        "Opinion": "书珩是自己的孩子",
+        "Sentiment": "negative",
+        "Rationale": "3认为书珩是自己的亲生儿子"
+    },
+    {
+        "sentence": "当年我和方黎在同一家医院同一天生孩子，医院把两个孩子给抱错了，所以方黎，张小狗才是你的儿子，而书珩才是我的亲生儿子。方黎，我和我亲生儿子骨肉分离了这么多年，是时候我们把孩子给换回来吧。",
+        "Holder": "2",
+        "Target": "方黎和书珩",
+        "Aspect": "亲子关系的真相",
+        "Opinion": "需要换回孩子",
+        "Sentiment": "negative",
+        "Rationale": "2认为医院当年抱错了孩子，导致自己和亲生儿子分离多年"
+    },
+    {
+        "sentence": "还有这种事，这也太奇葩了吧？会不会是哪里弄错了呀？",
+        "Holder": "4",
+        "Target": "孩子抱错事件",
+        "Aspect": "事件的真实性",
+        "Opinion": "怀疑事件的真实性",
+        "Sentiment": "ambiguous",
+        "Rationale": "4听到孩子抱错的事情感到不可思议和难以置信"
+    },
+    {
+        "sentence": "曾倩，你空口无凭，有什么证据说书恒是你的儿子？",
+        "Holder": "3",
+        "Target": "曾倩的声明",
+        "Aspect": "证据的缺乏",
+        "Opinion": "质疑曾倩的声明",
+        "Sentiment": "negative",
+        "Rationale": "曾倩没有提供证据"
+    },
+    {
+        "sentence": "我知道没有证据你是不会轻易相信的，所以我和书恒做了DNA亲子鉴定，待会儿就有人会送过来，大概10分钟左右，等一下你看了DNA亲子报告，你就会知道，你就会相信我所说的一切都是真的。",
+        "Holder": "2",
+        "Target": "3的怀疑",
+        "Aspect": "证据的提供",
+        "Opinion": "有证据支持声明",
+        "Sentiment": "positive",
+        "Rationale": "2提供了DNA亲子鉴定作为证据"
+    },
+    {
+        "sentence": "我不相信！老公，当年我生书珩的时候，你是陪在我身边的，你知道这件事吗？",
+        "Holder": "3",
+        "Target": "2的声明",
+        "Aspect": "生育事实",
+        "Opinion": "坚持自己的立场",
+        "Sentiment": "negative",
+        "Rationale": "3坚信自己生书珩的事实"
+    },
+    {
+        "sentence": "我知道你一时很难以接受，但是生恩大于养恩啊。我求求你了，我求求你把我的儿子还给我好不好？张小狗才是你的亲生儿子，他虽然摔断了腿，但是你不能不要他呀。",
+        "Holder": "2",
+        "Target": "3的抗拒",
+        "Aspect": "亲情的重要性",
+        "Opinion": "请求归还儿子",
+        "Sentiment": "negative",
+        "Rationale": "3不愿意接受事实"
+    },
+    {
+        "sentence": "天哪，这么些年好不容易培养出这么优秀的名牌大学生，现在却要拱手让人了。谁都知道方黎为书珩付出了多少，书珩能考上华清大学，那都是方黎辅导有功啊。那么多年的感情和心血，可不是轻易能够割舍的呀。这谁能舍得？",
+        "Holder": "4",
+        "Target": "书珩的归属",
+        "Aspect": "培养的付出",
+        "Opinion": "不舍得放弃",
+        "Sentiment": "negative",
+        "Rationale": "方黎为书珩付出了巨大的心血和感情"
+    },
+    {
+        "sentence": "曾倩，我看你就是胡说八道！",
+        "Holder": "3",
+        "Target": "曾倩",
+        "Aspect": "说话的真实性",
+        "Opinion": "认为曾倩在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "3认为曾倩的话毫无根据"
+    },
+    {
+        "sentence": "方黎！曾倩都跑到这儿来生孩子了，你是怎么当妈的，连医院抱徒孩子，你都不知道？",
+        "Holder": "5",
+        "Target": "方黎",
+        "Aspect": "作为母亲的失职",
+        "Opinion": "指责方黎不负责任",
+        "Sentiment": "negative",
+        "Rationale": "5认为方黎作为母亲连孩子被抱错都不知道"
+    },
+    {
+        "sentence": "不可能！书珩才是我的孩子，一定是曾倩在撒谎！老公，你可是医生啊，当初我跟她是在你工作的医院生产的，你怎么可能弄错呢？",
+        "Holder": "3",
+        "Target": "曾倩",
+        "Aspect": "孩子的归属",
+        "Opinion": "坚信书珩是自己的孩子",
+        "Sentiment": "negative",
+        "Rationale": "3无法接受孩子被抱错的事实"
+    },
+    {
+        "sentence": "人家都把亲子鉴定做了，这还能有假？",
+        "Holder": "5",
+        "Target": "亲子鉴定结果",
+        "Aspect": "鉴定结果的可靠性",
+        "Opinion": "认为鉴定结果可信",
+        "Sentiment": "positive",
+        "Rationale": "5认为亲子鉴定是科学依据"
+    },
+    {
+        "sentence": "曾倩竟然敢做亲子鉴定，这事儿应该错不了，书珩应该就是曾倩的儿子。",
+        "Holder": "4",
+        "Target": "书珩的归属",
+        "Aspect": "亲子鉴定的结果",
+        "Opinion": "认为书珩是曾倩的儿子",
+        "Sentiment": "positive",
+        "Rationale": "4认为曾倩敢做亲子鉴定，结果应该是真实的"
+    },
+    {
+        "sentence": "书珩，我以后一定会替方黎好好爱你的，毕竟我才是你的亲生妈妈。",
+        "Holder": "2",
+        "Target": "书珩",
+        "Aspect": "亲子关系",
+        "Opinion": "自己是亲生妈妈",
+        "Sentiment": "positive",
+        "Rationale": "相信自己才是书珩的亲生妈妈"
+    },
+    {
+        "sentence": "我含辛茹苦养育了书珩十几年，我绝不可能认错！",
+        "Holder": "3",
+        "Target": "书珩",
+        "Aspect": "养育之恩",
+        "Opinion": "自己是养育者",
+        "Sentiment": "negative",
+        "Rationale": "自己辛苦养育书珩多年，面对他人的质疑感到愤怒和委屈"
+    },
+    {
+        "sentence": "你的孩子是张小狗，就是眼前轮椅上这个孩子。方黎呀，你可不能因为他残疾了就不要他了。这样啊你就没有儿子了。实话告诉你吧，我已经跟书珩说过了，书珩承诺我，只要看到DNA检测报告就认我为妈妈，跟我团圆。感谢你这么多年给我养了个这么优秀的儿子。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "亲子关系和责任",
+        "Opinion": "方黎应承担母亲责任",
+        "Sentiment": "positive",
+        "Rationale": "认为方黎忽视了亲生儿子，而自己与书珩有血缘关系"
+    },
+    {
+        "sentence": "书珩，你会认我当母亲的对吗？",
+        "Holder": "2",
+        "Target": "书珩",
+        "Aspect": "亲子关系确认",
+        "Opinion": "期待被认作母亲",
+        "Sentiment": "positive",
+        "Rationale": "已经与书珩有过承诺"
+    },
+    {
+        "sentence": "曾阿姨，如果亲子鉴定是真的，我会认你当妈的。",
+        "Holder": "1",
+        "Target": "曾阿姨",
+        "Aspect": "亲子鉴定的真实性",
+        "Opinion": "愿意认曾阿姨为妈",
+        "Sentiment": "neutral",
+        "Rationale": "亲子鉴定的结果还未确定"
+    },
+    {
+        "sentence": "你看，方黎，你就认命吧。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "接受现实",
+        "Opinion": "建议方黎接受现实",
+        "Sentiment": "neutral",
+        "Rationale": "认为方黎应该接受现实"
+    },
+    {
+        "sentence": "书珩，你为什么要这么做？我才是你妈妈呀，难道你不要妈妈了吗？",
+        "Holder": "3",
+        "Target": "书珩",
+        "Aspect": "对妈妈的认同",
+        "Opinion": "自己是书珩的妈妈",
+        "Sentiment": "negative",
+        "Rationale": "书珩可能不认自己为妈妈"
+    },
+    {
+        "sentence": "妈，虽然你养了我18年，但是你不能阻止我和我亲妈相认吧。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "与亲妈相认的权利",
+        "Opinion": "有权与亲妈相认",
+        "Sentiment": "neutral",
+        "Rationale": "认为与亲妈相认是合理的"
+    },
+    {
+        "sentence": "书珩，你怎么能因为外人随便挑拨几句就信了邪呢？是我含辛茹苦的养育了第18啊！你这么说，把我置于何地？",
+        "Holder": "3",
+        "Target": "书珩",
+        "Aspect": "对养育之恩的认可",
+        "Opinion": "自己含辛茹苦养育书珩",
+        "Sentiment": "negative",
+        "Rationale": "书珩不相信自己的养育之恩"
+    },
+    {
+        "sentence": "方黎，你也别着急难过呀，你这不是还有小狗吗？虽然他呀不能给你养老送终，但是你起码还有个儿子呀，不至于到老了，一个人孤苦无依。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "情感状态",
+        "Opinion": "不应难过",
+        "Sentiment": "positive",
+        "Rationale": "有儿子和小狗的陪伴"
+    },
+    {
+        "sentence": "是啊，方书珩不愿意做你的儿子，我愿意，只要你以后每天照顾我，把你的钱都留给我，我很愿意做你的儿子的。",
+        "Holder": "6",
+        "Target": "方黎",
+        "Aspect": "儿子的角色",
+        "Opinion": "愿意成为儿子",
+        "Sentiment": "ambiguous",
+        "Rationale": "希望得到方黎的照顾和财产"
+    },
+    {
+        "sentence": "哎，你看小狗多懂事儿啊，他还特别知道体恤你呢。哎呀，虽然啊我以后呢是不愁有人为我养老送终的，不过我还是很担心你，毕竟养一个残疾的儿子压力一定很大吧。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "生活压力",
+        "Opinion": "担心方黎的压力",
+        "Sentiment": "negative",
+        "Rationale": "知道养残疾儿子的压力很大"
+    },
+    {
+        "sentence": "方黎，都是你的错。孩子都能弄错，我怎么娶了你这么个糊涂女人？都怪你，都怪你我们的儿子他变成一个残废！我要和你离婚，离婚！",
+        "Holder": "5",
+        "Target": "方黎",
+        "Aspect": "责任归属",
+        "Opinion": "方黎是错的",
+        "Sentiment": "negative",
+        "Rationale": "认为方黎导致了儿子的残疾"
+    },
+    {
+        "sentence": "你说什么？离婚？",
+        "Holder": "3",
+        "Target": "5的离婚提议",
+        "Aspect": "离婚的突然性",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然听到离婚的提议"
+    },
+    {
+        "sentence": "没错，我不但要和你离婚，作为惩罚，我还要让你净身出户！",
+        "Holder": "5",
+        "Target": "方黎",
+        "Aspect": "离婚条件",
+        "Opinion": "要求方黎净身出户",
+        "Sentiment": "negative",
+        "Rationale": "对方黎的行为感到愤怒"
+    },
+    {
+        "sentence": "张伟，你就是一个赘婿，你凭什么要求我净身出户？",
+        "Holder": "3",
+        "Target": "张伟",
+        "Aspect": "身份和权利",
+        "Opinion": "质疑张伟的权利",
+        "Sentiment": "negative",
+        "Rationale": "认为张伟作为赘婿无权要求自己净身出户"
+    },
+    {
+        "sentence": "我凭什么？就凭你蠢，放心把财产交给我打理，这些年啊，我已经把钱全部转走了，我们的存折上一分钱都没有。方黎啊，不要小瞧赘婿，你就带着你残废儿子去投奔你的娘家吧。今天我就请在场的各位帮我做个见证，我要和方黎离婚，而且我要让她净身出户！",
+        "Holder": "5",
+        "Target": "方黎",
+        "Aspect": "财产处理和离婚",
+        "Opinion": "已经转移财产并要求方黎净身出户",
+        "Sentiment": "negative",
+        "Rationale": "已经转移了财产并对方黎的行为感到极度不满"
+    },
+    {
+        "sentence": "净身出户？那她岂不是变成穷光蛋了？岂不是没钱养我了？妈，妈，好歹你也养了我18年，你收留我吧，别让我跟着方黎受苦啊妈！",
+        "Holder": "6",
+        "Target": "方黎",
+        "Aspect": "经济状况",
+        "Opinion": "担心方黎的经济状况",
+        "Sentiment": "negative",
+        "Rationale": "担心方黎净身出户后无法养活自己"
+    },
+    {
+        "sentence": "滚一边去！这哪有你插嘴的份儿啊。方黎，事到如今，我也不装了。说实话，作为女人，我们同时爱着一个男人，我有时候真的很嫉妒你，凭什么？凭什么你能光明正大的跟他结婚生子？而我呢？我只能做一个见不得光的小三！生了一个见不得光的私生子！今天的一切都是你自作自受。说实话，我本来也很期待的，我很期待你今天知道真相之后会是什么反应。但是我居然很失望，你居然没有拉着书珩痛哭流涕求他不要离开你。从今天开始，你的老公儿子我全都收下了。很感谢你这么多年对家庭的付出。从今天开始，我会好好扮演好妻子母亲这个角色的。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "情感和角色",
+        "Opinion": "对方黎的嫉妒和对自己角色的不满",
+        "Sentiment": "negative",
+        "Rationale": "长期作为小三感到不满和嫉妒"
+    },
+    {
+        "sentence": "哎？对了，有一件事我特别奇怪。曾阿姨，之次在医院体检的时候，您说您的儿子是RH阴型血是吗？",
+        "Holder": "1",
+        "Target": "曾阿姨的儿子血型",
+        "Aspect": "血型信息",
+        "Opinion": "确认血型",
+        "Sentiment": "neutral",
+        "Rationale": "1想要确认曾阿姨儿子血型的信息"
+    },
+    {
+        "sentence": "啊，是，我的孩子确实是RH阴型血，你不就是RH阴型血吗？",
+        "Holder": "2",
+        "Target": "1的血型",
+        "Aspect": "血型信息",
+        "Opinion": "确认1的血型",
+        "Sentiment": "neutral",
+        "Rationale": "2记得1是RH阴型血"
+    },
+    {
+        "sentence": "哎？可是我上周又去做了一次体检。妈，你是不是搞错了呀？这个体检报告显示我是B型型血。",
+        "Holder": "1",
+        "Target": "自己的血型",
+        "Aspect": "血型信息",
+        "Opinion": "怀疑血型信息",
+        "Sentiment": "ambiguous",
+        "Rationale": "1的体检报告显示与之前的血型信息不符"
+    },
+    {
+        "sentence": "什么？书珩，你刚刚说你是什么血型？",
+        "Holder": "2",
+        "Target": "1的血型",
+        "Aspect": "血型信息",
+        "Opinion": "惊讶于血型信息",
+        "Sentiment": "ambiguous",
+        "Rationale": "2听到1的血型信息与自己记忆中的不符"
+    },
+    {
+        "sentence": "B型血啊，不信你看。",
+        "Holder": "1",
+        "Target": "自己的血型",
+        "Aspect": "血型信息",
+        "Opinion": "确认B型血",
+        "Sentiment": "neutral",
+        "Rationale": "1确信体检报告的准确性"
+    },
+    {
+        "sentence": "你确定吗？",
+        "Holder": "2",
+        "Target": "1的确定性",
+        "Aspect": "记忆的准确性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对1的确定性有疑问"
+    },
+    {
+        "sentence": "确定啊。",
+        "Holder": "1",
+        "Target": "自己的确定性",
+        "Aspect": "记忆的准确性",
+        "Opinion": "确定",
+        "Sentiment": "positive",
+        "Rationale": "对自己的记忆有信心"
+    },
+    {
+        "sentence": "方黎，你那天在手术室外，你说书珩是RH阴性血吗？我记得，书珩就是RH阴性血，难道我记错了？还是说医院根本就没有换错啊？",
+        "Holder": "2",
+        "Target": "书珩的血型",
+        "Aspect": "血型的准确性",
+        "Opinion": "怀疑记忆或医院",
+        "Sentiment": "doubt",
+        "Rationale": "对书珩的血型记忆与医院情况有疑问"
+    },
+    {
+        "sentence": "别担心，你可能记错了，或许我们的儿子根本不是RH阴型血，不是做了亲子鉴定吗？亲子鉴定是不会撒谎的。",
+        "Holder": "5",
+        "Target": "2的担忧",
+        "Aspect": "记忆的准确性",
+        "Opinion": "安慰并指出亲子鉴定的可靠性",
+        "Sentiment": "positive",
+        "Rationale": "想安慰2并强调亲子鉴定的可靠性"
+    },
+    {
+        "sentence": "没错，可能是时间太久，我记错了。方黎，只要亲子鉴定报告证明书珩是我的孩子，你就把他还给我对吧？",
+        "Holder": "2",
+        "Target": "亲子鉴定报告",
+        "Aspect": "孩子的归属",
+        "Opinion": "希望确认孩子归属",
+        "Sentiment": "neutral",
+        "Rationale": "愿意接受可能的记忆错误，但希望确认孩子的归属"
+    },
+    {
+        "sentence": "曾阿姨，如果亲子鉴定显示我是你的孩子，你放心，我肯定会认你当妈的。如今我已经考上华清大学了，不愁以后找不到好工作。以后啊，我孝敬你，给你养老。如果哪天你出意外了，我也会给你披麻戴孝的。",
+        "Holder": "1",
+        "Target": "曾阿姨",
+        "Aspect": "亲子关系和未来承诺",
+        "Opinion": "愿意认曾阿姨为母并承诺照顾",
+        "Sentiment": "positive",
+        "Rationale": "愿意在亲子鉴定结果为真时认曾阿姨为母，并承诺未来会孝敬和照顾她"
+    },
+    {
+        "sentence": "我养了18年的孩子都这么说了，我也没有办法了。如果亲子鉴定是真的，那我们就换回孩子吧。如今我老公要跟我离婚，我儿子也不认我，但还好，我还有一个残疾的儿子，虽然不能为我养老，但好歹还可以做个伴儿。",
+        "Holder": "3",
+        "Target": "亲子鉴定和现状",
+        "Aspect": "亲子关系的接受和现状的无奈",
+        "Opinion": "无奈接受现实并寄望于残疾儿子",
+        "Sentiment": "negative",
+        "Rationale": "面临家庭破裂和儿子不认的困境，只能无奈接受现实"
+    },
+    {
+        "sentence": "哎，对了，曾阿姨，如果这个亲子报告打开以后，我不是你孩子怎么办？那你今天来岂不是竹篮打水一场空了？",
+        "Holder": "1",
+        "Target": "亲子鉴定结果",
+        "Aspect": "结果的未知性和曾阿姨的期望",
+        "Opinion": "担心结果不符期望",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定亲子鉴定的结果，担心结果不符期望导致曾阿姨白来一趟"
+    },
+    {
+        "sentence": "你今天来，不就是想换回书珩吗？你怎么不敢开呀，你在害怕什么？",
+        "Holder": "3",
+        "Target": "1的犹豫",
+        "Aspect": "1的勇气和动机",
+        "Opinion": "质疑1的勇气和动机",
+        "Sentiment": "negative",
+        "Rationale": "1犹豫不决，质疑其是否真心想换回孩子"
+    },
+    {
+        "sentence": "慌什么，当年方黎生下孩子就被我们亲手调换了，她绝对不可能知道真相。要不然，她不会等到今天的。",
+        "Holder": "5",
+        "Target": "方黎对真相的了解",
+        "Aspect": "方黎对真相的知情可能性",
+        "Opinion": "确信方黎不知真相",
+        "Sentiment": "positive",
+        "Rationale": "确信当年调换孩子的事情未被方黎发现"
+    },
+    {
+        "sentence": "方黎，你少吓唬我了！我劝你说话算数。如果亲子鉴定报告证明书珩是我的亲儿子，就把我的孩子还给我，绝不纠缠！",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "说话的诚信",
+        "Opinion": "要求对方信守承诺",
+        "Sentiment": "negative",
+        "Rationale": "对方可能没有信守承诺"
+    },
+    {
+        "sentence": "绝不纠缠。",
+        "Holder": "3",
+        "Target": "纠缠行为",
+        "Aspect": "纠缠行为的承诺",
+        "Opinion": "承诺不纠缠",
+        "Sentiment": "neutral",
+        "Rationale": "对方提出了不纠缠的条件"
+    },
+    {
+        "sentence": "结果是什么，说啊！",
+        "Holder": "5",
+        "Target": "亲子鉴定结果",
+        "Aspect": "结果的公布",
+        "Opinion": "急切想知道结果",
+        "Sentiment": "negative",
+        "Rationale": "急于知道亲子鉴定的结果"
+    },
+    {
+        "sentence": "不是这样的，怎么会是，怎么会是这样。",
+        "Holder": "2",
+        "Target": "亲子鉴定结果",
+        "Aspect": "结果的出乎意料",
+        "Opinion": "对结果感到震惊",
+        "Sentiment": "negative",
+        "Rationale": "结果与预期不符"
+    },
+    {
+        "sentence": "哈哈哈哈哈。亲子鉴定是什么结果啊？啊？曾倩方书珩并无亲子关系，怎么会这样啊？张伟，你可是医生啊，你快看看这份亲子报告是不是出错了啊？",
+        "Holder": "3",
+        "Target": "亲子鉴定结果",
+        "Aspect": "结果的准确性",
+        "Opinion": "质疑结果",
+        "Sentiment": "negative",
+        "Rationale": "结果与预期不符，且对方是医生"
+    },
+    {
+        "sentence": "这是怎么一回事啊？所以曾小姐的儿子并不是方书珩？那她好端端的，来认什么亲啊，不会是眼红别人家的孩子吧？",
+        "Holder": "4",
+        "Target": "曾小姐",
+        "Aspect": "认亲动机",
+        "Opinion": "怀疑曾小姐眼红",
+        "Sentiment": "negative",
+        "Rationale": "曾小姐的行为看起来没有合理的解释"
+    },
+    {
+        "sentence": "亲子鉴定报告不会出错才对，你是不是一开始就猜到了真相，掉包了亲子鉴定？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "亲子鉴定真实性",
+        "Opinion": "怀疑4掉包鉴定",
+        "Sentiment": "negative",
+        "Rationale": "亲子鉴定报告通常准确"
+    },
+    {
+        "sentence": "掉包亲子鉴定？有没有一种可能，孩子从一开始就没有被调换？",
+        "Holder": "3",
+        "Target": "孩子调换事件",
+        "Aspect": "调换的可能性",
+        "Opinion": "提出未调换的可能性",
+        "Sentiment": "neutral",
+        "Rationale": "想探讨另一种可能性"
+    },
+    {
+        "sentence": "不可能！当年是我亲手将方书珩跟张小狗调换的，绝对不可能！",
+        "Holder": "2",
+        "Target": "孩子调换事件",
+        "Aspect": "调换的事实",
+        "Opinion": "确认自己调换孩子",
+        "Sentiment": "negative",
+        "Rationale": "自己亲手进行了调换"
+    },
+    {
+        "sentence": "她居然亲自将孩子换掉，她想做什么？好一个蛇蝎心肠的女人。",
+        "Holder": "4",
+        "Target": "曾小姐",
+        "Aspect": "曾小姐的行为",
+        "Opinion": "认为曾小姐心肠狠毒",
+        "Sentiment": "negative",
+        "Rationale": "曾小姐亲自调换孩子"
+    },
+    {
+        "sentence": "你是调换了孩子没错，可我又把孩子换回来了。你以为张小狗是我的孩子，对他又打又骂，殊不知你打骂的是你自己的孩子，哈哈哈哈。你快看啊，你亲自把你自己的孩子弄得失去了腿，惊不惊喜，意不意外呀？",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "对孩子的误认和伤害",
+        "Opinion": "2误伤了自己孩子",
+        "Sentiment": "positive",
+        "Rationale": "3发现2误伤了自己孩子"
+    },
+    {
+        "sentence": "我不信！不可能！",
+        "Holder": "2",
+        "Target": "3的说法",
+        "Aspect": "事实的真实性",
+        "Opinion": "不相信",
+        "Sentiment": "negative",
+        "Rationale": "2无法接受自己误伤孩子的事实"
+    },
+    {
+        "sentence": "方黎，你一开始就知道对不对？你好狠毒的心啊！你怎么能眼睁睁看着小狗失去了腿？",
+        "Holder": "5",
+        "Target": "方黎的行为",
+        "Aspect": "知情不报和冷漠",
+        "Opinion": "方黎狠毒",
+        "Sentiment": "negative",
+        "Rationale": "5认为方黎知情不报且冷漠"
+    },
+    {
+        "sentence": "张伟，你说什么呢？亲自切掉张小狗腿的人，是你！",
+        "Holder": "2",
+        "Target": "张伟的行为",
+        "Aspect": "对孩子的伤害",
+        "Opinion": "张伟是伤害者",
+        "Sentiment": "negative",
+        "Rationale": "2被指责为伤害孩子的人"
+    },
+    {
+        "sentence": "所以，所以还是搞错了，我还是你的孩子。曾倩，现在你满意了？你因为想报复方黎，所以虐待我？殊不知别人的孩子一表人才，前途一片光明，但你的孩子呢？他是个瘸子。",
+        "Holder": "6",
+        "Target": "曾倩的行为",
+        "Aspect": "对孩子的虐待和报复",
+        "Opinion": "曾倩因报复而虐待孩子",
+        "Sentiment": "negative",
+        "Rationale": "6发现自己被误伤且被虐待"
+    },
+    {
+        "sentence": "不是的，不是这样的！我不信！",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "事实的真实性",
+        "Opinion": "不相信",
+        "Sentiment": "negative",
+        "Rationale": "对当前情况的真实性产生怀疑"
+    },
+    {
+        "sentence": "方黎！你个贱人。",
+        "Holder": "5",
+        "Target": "方黎",
+        "Aspect": "人品",
+        "Opinion": "贬低",
+        "Sentiment": "negative",
+        "Rationale": "对方黎的行为或言语感到极度不满"
+    },
+    {
+        "sentence": "不许打我妈！不样。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "行为禁止",
+        "Opinion": "不允许",
+        "Sentiment": "negative",
+        "Rationale": "看到母亲受到威胁"
+    },
+    {
+        "sentence": "书珩，你是不是也知道了真相？原来如此，你们两个早就知道了，故意在我面前演戏是吧？你好狠毒的心啊，才能生出这么狠毒的儿子！",
+        "Holder": "5",
+        "Target": "书珩",
+        "Aspect": "知情与否",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方早已知情且故意隐瞒"
+    },
+    {
+        "sentence": "我狠毒还是你狠毒你心里清楚！曾倩生的孩子就是你的孩子，我生的孩子就不是了吗？你扪心自问，我方黎有什么对不起你张伟的地方，你要处心积虑害我的孩子？",
+        "Holder": "3",
+        "Target": "张伟",
+        "Aspect": "行为动机",
+        "Opinion": "反问",
+        "Sentiment": "negative",
+        "Rationale": "感到被对方不公平对待且孩子受到威胁"
+    },
+    {
+        "sentence": "我处心积虑？我根本不知道你在说什么。",
+        "Holder": "5",
+        "Target": "3的指责",
+        "Aspect": "自己的行为动机",
+        "Opinion": "否认处心积虑",
+        "Sentiment": "negative",
+        "Rationale": "被误解为处心积虑"
+    },
+    {
+        "sentence": "不知道？诸位，今天让大家见笑了，不过正好请大家和我一起见证，我要和我的丈夫离婚！20年前，我和我的老公一见钟情，坠入爱河，很快就结了婚，但是他一无所有。是我花钱资助他的学业，也是我为他谋取了工作！但我不曾想过，我的婚姻就是一场骗局。张伟和曾倩无媒苟合，串通换掉我的孩子，转移我的财产。这些！就是他出轨的证据！",
+        "Holder": "3",
+        "Target": "丈夫的行为",
+        "Aspect": "婚姻的背叛",
+        "Opinion": "丈夫出轨并转移财产",
+        "Sentiment": "negative",
+        "Rationale": "发现丈夫的背叛和财产转移"
+    },
+    {
+        "sentence": "太可怕了，20年的枕边人居然是一直想置自己于死地的人。方小姐真是太可怜了，方小姐不要放过他们！",
+        "Holder": "4",
+        "Target": "3的遭遇",
+        "Aspect": "婚姻的背叛",
+        "Opinion": "同情并支持方小姐",
+        "Sentiment": "negative",
+        "Rationale": "听到方小姐的遭遇"
+    },
+    {
+        "sentence": "够了！方黎你这个贱人，你为什么害我的孩子？我之所以会这么做，都是因为你！我老公娶了你，我守了整整20年的空房。而你呢？明明知道把孩子给抱错，你为什么不告诉我？害的我的孩子成为一个残疾人，你这个蛇蝎心肠的毒妇你该死！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "对孩子的伤害",
+        "Opinion": "指责方小姐",
+        "Sentiment": "negative",
+        "Rationale": "认为方小姐导致自己的孩子残疾"
+    },
+    {
+        "sentence": "你好一个倒打一耙，张伟他娶我妈就是为了我们家财产，你扪心自问，你身上穿的用的，还有你的房子，哪个不是花我们家的钱？现在我已经成年了，这一笔一笔的账我会亲自讨要回来的！",
+        "Holder": "1",
+        "Target": "张伟的行为",
+        "Aspect": "财产问题",
+        "Opinion": "指责张伟",
+        "Sentiment": "negative",
+        "Rationale": "认为张伟是为了财产而结婚"
+    },
+    {
+        "sentence": "怎么办，张伟？孩子身体也残疾了，全完了，我们什么都没有了。",
+        "Holder": "2",
+        "Target": "孩子的身体状况",
+        "Aspect": "生活的希望",
+        "Opinion": "绝望",
+        "Sentiment": "negative",
+        "Rationale": "孩子的身体残疾，导致对未来感到绝望"
+    },
+    {
+        "sentence": "倩倩，没事的，我们有钱，我会给小狗安装最好的义肢儿子。哦不，他现在不叫小狗，他叫张澎。",
+        "Holder": "5",
+        "Target": "孩子的治疗",
+        "Aspect": "经济支持",
+        "Opinion": "有能力解决问题",
+        "Sentiment": "positive",
+        "Rationale": "有足够的钱来解决问题"
+    },
+    {
+        "sentence": "钱？你哪来的钱？张伟，你在做梦吧。",
+        "Holder": "3",
+        "Target": "5的经济来源",
+        "Aspect": "现实的质疑",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "不相信5有足够的钱解决问题"
+    },
+    {
+        "sentence": "我已经转移了你的所有财产。方黎啊，我早就不想跟你过日子了！那就离婚，你呀净身出户！",
+        "Holder": "5",
+        "Target": "3的财产",
+        "Aspect": "婚姻关系",
+        "Opinion": "决绝",
+        "Sentiment": "negative",
+        "Rationale": "已经转移了财产并且决定离婚"
+    },
+    {
+        "sentence": "净身出户？张伟呀张伟，既然我知道你换掉了我的孩子，那这些年我难道就没有一点防备吗？",
+        "Holder": "3",
+        "Target": "5的行为",
+        "Aspect": "防备措施",
+        "Opinion": "早有防备",
+        "Sentiment": "negative",
+        "Rationale": "知道5换掉了孩子并且早有防备"
+    },
+    {
+        "sentence": "你什么意思啊？",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "行为意图",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "5不清楚3的具体意图"
+    },
+    {
+        "sentence": "你的账户啊早就被我清空了，里面半分钱都没有。18年，我等了18年，从一开始我就知道你们是什么目的。我就是在等今天，我要让你们自食其果，身败名裂！",
+        "Holder": "3",
+        "Target": "5的账户",
+        "Aspect": "账户状态",
+        "Opinion": "已被清空",
+        "Sentiment": "negative",
+        "Rationale": "3对5的长期不满和报复心理"
+    },
+    {
+        "sentence": "张伟，恭喜你啊，运筹帷幄18年，什么都没有得到。哦，不，还是有得到的，得到了一个残疾的儿子和没有收入的情人。张伟，以后你就只能过清贫的日子了，不好意思啊，真正净身出户的人是你。",
+        "Holder": "3",
+        "Target": "5（张伟）",
+        "Aspect": "生活状况",
+        "Opinion": "一无所有",
+        "Sentiment": "negative",
+        "Rationale": "3对5的长期怨恨"
+    },
+    {
+        "sentence": "方黎，哦不，老婆我错了，我错了，我错了。你能不能原谅我？看在我们这么多年夫妻感情的份上，你给我一次机会好不好？书珩不能没有爸爸呀，他不能没有一个完整的家，我求你，老婆，你给我次机会好不好？",
+        "Holder": "5",
+        "Target": "3（方黎）",
+        "Aspect": "请求原谅",
+        "Opinion": "恳求原谅",
+        "Sentiment": "negative",
+        "Rationale": "5意识到自己的错误并担心家庭破裂"
+    },
+    {
+        "sentence": "方黎，千错万做都是我的错，但是我求求你，你只需要给我一点点钱帮澎澎治疗一下腿，他才18岁啊，他如果没有腿，未来要怎么活？我求求你，我求求你帮帮他吧。",
+        "Holder": "2",
+        "Target": "方黎",
+        "Aspect": "请求帮助",
+        "Opinion": "请求给予经济支持",
+        "Sentiment": "negative",
+        "Rationale": "澎澎的腿需要治疗，而自己无法承担费用"
+    },
+    {
+        "sentence": "滚开！我是不会原谅你们的，放心，你们的苦日子才刚刚开始。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "态度和原谅",
+        "Opinion": "拒绝原谅",
+        "Sentiment": "negative",
+        "Rationale": "对2及其家人的行为感到极度愤怒和不满"
+    }
+]

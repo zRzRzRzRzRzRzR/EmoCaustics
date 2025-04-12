@@ -1,0 +1,380 @@
+[
+    {
+        "sentence": "你知道吗？你妈很担心你她",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "母亲的担心",
+        "Opinion": "母亲很担心",
+        "Sentiment": "positive",
+        "Rationale": "1提到3的母亲很担心3"
+    },
+    {
+        "sentence": "她老是瞎担心",
+        "Holder": "3",
+        "Target": "母亲",
+        "Aspect": "担心的合理性",
+        "Opinion": "母亲瞎担心",
+        "Sentiment": "negative",
+        "Rationale": "3认为母亲的担心是没有必要的"
+    },
+    {
+        "sentence": "哼，你这个狼心狗肺的东西。真的是关心你",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对关心的态度",
+        "Opinion": "3不领情",
+        "Sentiment": "negative",
+        "Rationale": "1认为3不领情"
+    },
+    {
+        "sentence": "我又没干什么坏事。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "行为的性质",
+        "Opinion": "没干坏事",
+        "Sentiment": "neutral",
+        "Rationale": "3认为自己没有做错事"
+    },
+    {
+        "sentence": "没干什么坏事干嘛瞒着我们？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "隐瞒的原因",
+        "Opinion": "不应该隐瞒",
+        "Sentiment": "negative",
+        "Rationale": "1认为3即使没做坏事也不应该隐瞒"
+    },
+    {
+        "sentence": "谁瞒着你们了？",
+        "Holder": "3",
+        "Target": "隐瞒行为",
+        "Aspect": "是否存在隐瞒",
+        "Opinion": "否认隐瞒",
+        "Sentiment": "neutral",
+        "Rationale": "被质疑隐瞒"
+    },
+    {
+        "sentence": "嘴还挺硬，不想说。行，那我猜猜答案。你可能遇到了一些什么问题？觉得求我们好像挺没面子，准备自己解决，对吧？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "不愿沟通的原因",
+        "Opinion": "猜测3不愿求助",
+        "Sentiment": "negative",
+        "Rationale": "3不愿说出问题"
+    },
+    {
+        "sentence": "那就是答案2，你可能遇上了一点小麻烦。又怕你妈说你，所以准备蒙混过关。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "不愿沟通的原因",
+        "Opinion": "猜测3遇到麻烦且怕被批评",
+        "Sentiment": "negative",
+        "Rationale": "3可能遇到问题却不愿求助"
+    },
+    {
+        "sentence": "嗯，还有呢。",
+        "Holder": "3",
+        "Target": "1的猜测",
+        "Aspect": "猜测的完整性",
+        "Opinion": "询问更多猜测",
+        "Sentiment": "neutral",
+        "Rationale": "想了解1更多的想法"
+    },
+    {
+        "sentence": "想象力只能到此为止了。我觉得最好还是你直接告诉我，刘老师，刘教授，您能把答案告诉我吗，当然我不勉强你，但是你要不告诉我，我有可能睡不成觉。还有就是我就是想帮帮你，因为我不光是你老爸，咱俩还是哥们吧。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "沟通的必要性",
+        "Opinion": "希望3直接说明问题",
+        "Sentiment": "negative",
+        "Rationale": "3不愿说出问题导致自己担忧"
+    },
+    {
+        "sentence": "那成，那我就告诉你。",
+        "Holder": "3",
+        "Target": "告诉信息的行为",
+        "Aspect": "信息的传递",
+        "Opinion": "愿意告诉",
+        "Sentiment": "neutral",
+        "Rationale": "决定告诉对方信息"
+    },
+    {
+        "sentence": "嗯，真是好儿子",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "儿子的表现",
+        "Opinion": "表现好",
+        "Sentiment": "positive",
+        "Rationale": "对3的行为表示满意"
+    },
+    {
+        "sentence": "他们俩可闹别扭嘞。",
+        "Holder": "2",
+        "Target": "他们俩",
+        "Aspect": "关系状态",
+        "Opinion": "闹别扭",
+        "Sentiment": "negative",
+        "Rationale": "他们俩关系不好"
+    },
+    {
+        "sentence": "全都在我的预料之中。",
+        "Holder": "4",
+        "Target": "他们俩的关系",
+        "Aspect": "预料情况",
+        "Opinion": "预料之中",
+        "Sentiment": "neutral",
+        "Rationale": "事情如自己所料"
+    },
+    {
+        "sentence": "意料之中？",
+        "Holder": "2",
+        "Target": "4的预料",
+        "Aspect": "预料的准确性",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "对4的预料表示怀疑"
+    },
+    {
+        "sentence": "这样才能达到目的。",
+        "Holder": "4",
+        "Target": "达到目的",
+        "Aspect": "方法的合理性",
+        "Opinion": "认为方法有效",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前的方法能够实现目标"
+    },
+    {
+        "sentence": "你合着你的目的就是为了破坏他们俩的友谊。",
+        "Holder": "2",
+        "Target": "4的目的",
+        "Aspect": "目的的正当性",
+        "Opinion": "质疑4的动机",
+        "Sentiment": "negative",
+        "Rationale": "认为4的目的是破坏友谊"
+    },
+    {
+        "sentence": "你这话太难听了啊。话糙理不糙。咱们这不也是迫不得已嘛，万一这俩孩子勾结起来，明儿惹出点什么乱子，到时候后悔都来不及啊。",
+        "Holder": "4",
+        "Target": "2的指责",
+        "Aspect": "话语的合理性",
+        "Opinion": "认为2的话虽难听但有道理",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然觉得2的话难听，但也认同其背后的担忧"
+    },
+    {
+        "sentence": "唉呦，问题是咱现在不是还不知道他们俩要干什么事呢？",
+        "Holder": "2",
+        "Target": "孩子们的计划",
+        "Aspect": "计划的明确性",
+        "Opinion": "认为计划不明",
+        "Sentiment": "doubt",
+        "Rationale": "目前不清楚孩子们的具体计划"
+    },
+    {
+        "sentence": "防患于未然。",
+        "Holder": "4",
+        "Target": "预防措施",
+        "Aspect": "措施的必要性",
+        "Opinion": "支持预防",
+        "Sentiment": "neutral",
+        "Rationale": "认为预防措施是必要的"
+    },
+    {
+        "sentence": "我可看着我们家刘星可够难受的。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "情绪状态",
+        "Opinion": "难受",
+        "Sentiment": "negative",
+        "Rationale": "看到刘星表现出难受的样子"
+    },
+    {
+        "sentence": "那没办法，鼠标也挺难受的。那谁让他跟咱们当妈的保持距离呢。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "情绪状态和行为",
+        "Opinion": "难受且保持距离",
+        "Sentiment": "negative",
+        "Rationale": "刘星和母亲保持距离，导致母亲感到无奈和难受"
+    },
+    {
+        "sentence": "呦，两位妈妈都在呢，回来了。",
+        "Holder": "1",
+        "Target": "两位妈妈",
+        "Aspect": "在场情况",
+        "Opinion": "都在",
+        "Sentiment": "neutral",
+        "Rationale": "看到两位妈妈都在场"
+    },
+    {
+        "sentence": "正好我正想找你们俩好好聊聊。我特想采访一下你们二位，你们这到底想干什么呀？",
+        "Holder": "1",
+        "Target": "两位妈妈",
+        "Aspect": "行为意图",
+        "Opinion": "想了解意图",
+        "Sentiment": "neutral",
+        "Rationale": "想了解两位妈妈的意图"
+    },
+    {
+        "sentence": "嗯，了解孩子。",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "行为目的",
+        "Opinion": "了解孩子",
+        "Sentiment": "neutral",
+        "Rationale": "目的是了解孩子"
+    },
+    {
+        "sentence": "问题是你们了解到什么了？",
+        "Holder": "1",
+        "Target": "4的了解情况",
+        "Aspect": "了解的内容",
+        "Opinion": "质疑了解程度",
+        "Sentiment": "neutral",
+        "Rationale": "1对4的了解情况表示疑问"
+    },
+    {
+        "sentence": "目前还没有，他们守口如瓶。",
+        "Holder": "4",
+        "Target": "他们",
+        "Aspect": "保密性",
+        "Opinion": "信息保密",
+        "Sentiment": "neutral",
+        "Rationale": "4说明对方保密严格"
+    },
+    {
+        "sentence": "噢，那你们就破坏人之间的友谊啊。关键是你把人友谊破坏了，不也什么没得到吗？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "友谊的破坏",
+        "Opinion": "认为破坏友谊无意义",
+        "Sentiment": "negative",
+        "Rationale": "1认为4的行为既破坏了友谊又没有获得信息"
+    },
+    {
+        "sentence": "不是，你这话不能这么说，起码我们掐断他们俩人的往来，他没有机会在一起嘀嘀咕咕了，这也算是一种解决方式啊。",
+        "Holder": "4",
+        "Target": "1的观点",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为行为有合理性",
+        "Sentiment": "positive",
+        "Rationale": "4认为自己的行为虽然破坏了友谊但达到了阻止对方交流的目的"
+    },
+    {
+        "sentence": "虽然我们还到目前为止还没弄清楚他们到底要干什么",
+        "Holder": "2",
+        "Target": "他们",
+        "Aspect": "目的",
+        "Opinion": "未弄清楚目的",
+        "Sentiment": "neutral",
+        "Rationale": "2说明目前还没有弄清楚对方的目的"
+    },
+    {
+        "sentence": "我知道",
+        "Holder": "1",
+        "Target": "刘星的情况",
+        "Aspect": "了解程度",
+        "Opinion": "已经了解",
+        "Sentiment": "neutral",
+        "Rationale": "已经得知刘星的情况"
+    },
+    {
+        "sentence": "你知道？",
+        "Holder": "3",
+        "Target": "1的了解情况",
+        "Aspect": "疑问",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "对1是否真的知道表示怀疑"
+    },
+    {
+        "sentence": "你打他了？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "是否打人",
+        "Opinion": "怀疑打人",
+        "Sentiment": "negative",
+        "Rationale": "怀疑1打了刘星"
+    },
+    {
+        "sentence": "哼，我怎么可能打孩子，刚才刘星都跟我说了，他确实和鼠标在一起，正在想办法筹钱，其实就是为了去动物园认养一只大猩猩。跟谁都没说，就是想在学校搞一点轰动效应，让同学们觉得他们俩特能干。",
+        "Holder": "1",
+        "Target": "刘星的行为",
+        "Aspect": "行为动机",
+        "Opinion": "解释刘星的行为",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己没有打刘星并说明刘星的真实情况"
+    },
+    {
+        "sentence": "就这事儿",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "事情的重要性",
+        "Opinion": "认为事情不大",
+        "Sentiment": "neutral",
+        "Rationale": "觉得刘星的行为并不是什么大不了的事情"
+    },
+    {
+        "sentence": "就这么简单？",
+        "Holder": "2",
+        "Target": "事情复杂性",
+        "Aspect": "事情的简单性",
+        "Opinion": "质疑事情简单",
+        "Sentiment": "ambiguous",
+        "Rationale": "对事情是否真的简单感到怀疑"
+    },
+    {
+        "sentence": "让你们俩倒是给弄得特复杂了。我希望你们吸取一下教训，以后多去想想该如何和孩子拉近距离，搞好关系，而不是一天到晚在这儿胡思乱想，搞这些是是非非。你说天底下哪有当妈的一天到晚想着破坏孩子之间友谊的。我奉劝一下二位，你们最好去跟孩子解释清楚，去认真道个歉，我相信他们会原谅你们的。",
+        "Holder": "1",
+        "Target": "2和4的行为",
+        "Aspect": "处理孩子关系的方式",
+        "Opinion": "认为处理方式不当",
+        "Sentiment": "negative",
+        "Rationale": "认为2和4的行为复杂化了事情且不利于孩子关系"
+    },
+    {
+        "sentence": "你看这事儿就是你出的主意吧？",
+        "Holder": "2",
+        "Target": "4的主意",
+        "Aspect": "责任的归属",
+        "Opinion": "认为是4的主意",
+        "Sentiment": "negative",
+        "Rationale": "认为事情复杂化是4的主意导致的"
+    },
+    {
+        "sentence": "你这责任不能都推到我一个人身上",
+        "Holder": "4",
+        "Target": "责任的归属",
+        "Aspect": "责任的分担",
+        "Opinion": "认为责任不应全在自己",
+        "Sentiment": "negative",
+        "Rationale": "觉得2将所有责任推给自己不公平"
+    },
+    {
+        "sentence": "本来就是你当初要不跟我出那主意，我绝对不会想到这个的",
+        "Holder": "2",
+        "Target": "4的主意",
+        "Aspect": "事情的起因",
+        "Opinion": "认为是4的主意导致",
+        "Sentiment": "negative",
+        "Rationale": "坚信事情复杂化是4的主意引起的"
+    },
+    {
+        "sentence": "当初你不同意了吗？",
+        "Holder": "4",
+        "Target": "3的同意",
+        "Aspect": "过去的决策",
+        "Opinion": "质疑3的同意",
+        "Sentiment": "doubt",
+        "Rationale": "4对3过去是否同意某事表示怀疑"
+    },
+    {
+        "sentence": "她们打起来了哈哈哈",
+        "Holder": "3",
+        "Target": "她们",
+        "Aspect": "打架",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "3看到她们打架觉得有趣"
+    }
+]

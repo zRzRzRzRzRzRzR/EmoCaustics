@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "内卷现象的社会认知分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "定义内卷为学术概念及群体特征分析",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出竞争无意义性与身份下滑恐惧",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "对比农民工与中产阶层竞争感知差异",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批判中产阶级文化局限性与历史地位认知缺失",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "打工人词汇的隐喻解构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解析词语文化背景与跨群体使用差异",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑身份认同错位与象征挪用问题",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定跨界沟通意识增强现象",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "素质教育的形式主义批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露考级制度异化与农村标准错配",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提倡基于实际需求的素质定义",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "痛斥表演性素质教育的审美失效",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "内卷现象的群体普适性质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "发起跨群体存在性讨论",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "词汇使用代际差异探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "追问语义变迁的社会动因",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

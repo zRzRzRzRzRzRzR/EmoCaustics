@@ -1,0 +1,52 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚姻关系破裂危机",
+        "emotions": [
+          {"state": "negative", "reason": "认为婚姻无法沟通且孩子教育失败", "source_id": "2"},
+          {"state": "negative", "reason": "长期积累家庭矛盾导致情感绝望", "source_id": "2"},
+          {"state": "negative", "reason": "准备离婚并处理财产分割问题", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "财务与保险争议",
+        "emotions": [
+          {"state": "negative", "reason": "商业保险购买纠纷产生经济损失", "source_id": "2"},
+          {"state": "positive", "reason": "发现社保制度的普惠性价值", "source_id": "self"}
+        ]
+      },
+      {
+        "event": "家庭环境矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "房屋装修与整洁度引发的争吵", "source_id": "2"},
+          {"state": "negative", "reason": "居家生活空间管理理念冲突", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感沟通失效",
+        "emotions": [
+          {"state": "negative", "reason": "长期无法获得情感回应", "source_id": "1"},
+          {"state": "neutral", "reason": "理性协商婚姻存续可能性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "行为认知差异",
+        "emotions": [
+          {"state": "negative", "reason": "被指责干涉子女教育方式", "source_id": "1"},
+          {"state": "neutral", "reason": "解释自身行为逻辑与计划性", "source_id": "self"}
+        ]
+      },
+      {
+        "event": "选举事务困扰",
+        "emotions": [
+          {"state": "negative", "reason": "参与选举事务的复杂体验", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

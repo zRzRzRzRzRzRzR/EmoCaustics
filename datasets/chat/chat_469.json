@@ -1,0 +1,758 @@
+[
+    {
+        "sentence": "谢谢，所谓得到和得而复失，其实是两种生命中不同的。没有，只不过这个没有的时间点是在于得到的前面还是后面两个词中的得到肯定是我们要希望追求的东西与你我切身相关。",
+        "Holder": "2",
+        "Target": "得到和得而复失",
+        "Aspect": "生命中的不同",
+        "Opinion": "得到是希望追求的",
+        "Sentiment": "neutral",
+        "Rationale": "讨论得到和得而复失的不同"
+    },
+    {
+        "sentence": "比如我们要去讨论一个根本就不打辩论的人，他想得芯片冠军，其实这个东西没有意义，不去讨论它。",
+        "Holder": "2",
+        "Target": "不打辩论的人想得芯片冠军",
+        "Aspect": "讨论的意义",
+        "Opinion": "没有意义",
+        "Sentiment": "negative",
+        "Rationale": "讨论不打辩论的人想得芯片冠军没有意义"
+    },
+    {
+        "sentence": "然后我们今天讨论的是真正可悲的，是对于我们人生有着长远深刻意义的事物，才能谈论到价值判断的可悲。",
+        "Holder": "2",
+        "Target": "真正可悲的事物",
+        "Aspect": "价值判断",
+        "Opinion": "有长远深刻意义",
+        "Sentiment": "negative",
+        "Rationale": "讨论的是对人生有长远深刻意义的事物"
+    },
+    {
+        "sentence": "比如如果我在马来西亚这边丢了护照，丢了钱包，可能我现在超级痛苦，但是其实跟可悲也没有什么太大的关系。",
+        "Holder": "2",
+        "Target": "丢护照和钱包",
+        "Aspect": "痛苦与可悲的关系",
+        "Opinion": "痛苦但不一定可悲",
+        "Sentiment": "negative",
+        "Rationale": "丢护照和钱包虽然痛苦，但不一定意味着可悲"
+    },
+    {
+        "sentence": "那今天我们讨论这个题，其实就是一次人生得失观的探讨，在其中看到得到和失去之于你我之间的价值两个方面。",
+        "Holder": "2",
+        "Target": "人生得失观",
+        "Aspect": "探讨的价值",
+        "Opinion": "看到得到和失去的价值",
+        "Sentiment": "neutral",
+        "Rationale": "讨论人生得失观"
+    },
+    {
+        "sentence": "第一方面当我们追求某件事物时，没有得到一定比得到更可悲，这是得到的价值。",
+        "Holder": "2",
+        "Target": "追求某件事物",
+        "Aspect": "没有得到与得到的比较",
+        "Opinion": "没有得到更可悲",
+        "Sentiment": "negative",
+        "Rationale": "认为没有得到比得到更可悲"
+    },
+    {
+        "sentence": "比如我们失去了一段刻骨铭心的爱情，得而复失好像很可悲，但是仔细回想一下，失去的越痛苦，说明当初我们得到的越重要，越不想割舍。",
+        "Holder": "2",
+        "Target": "刻骨铭心的爱情",
+        "Aspect": "失去与得到的比较",
+        "Opinion": "失去的痛苦说明得到的重要",
+        "Sentiment": "negative",
+        "Rationale": "失去的痛苦越大，说明当初得到的越重要"
+    },
+    {
+        "sentence": "如果问我当初愿不愿再来一次的话，我肯定还是愿意遇见他，再重新开始。",
+        "Holder": "2",
+        "Target": "再遇见他",
+        "Aspect": "愿意与否",
+        "Opinion": "愿意再遇见",
+        "Sentiment": "positive",
+        "Rationale": "即使经历了痛苦，仍然愿意再遇见"
+    },
+    {
+        "sentence": "恐怕更可悲的那是我根本就没有遇见过这样一个让我刻骨铭心的姑娘，那时候我可能更可悲。",
+        "Holder": "2",
+        "Target": "没有遇见刻骨铭心的人",
+        "Aspect": "可悲的程度",
+        "Opinion": "没有遇见更可悲",
+        "Sentiment": "negative",
+        "Rationale": "认为没有遇见刻骨铭心的人比失去更可悲"
+    },
+    {
+        "sentence": "换一个例子叫什么？比如说有一个金童欧文，当年英格兰足球队的那个，他 98 年世界杯踢阿根廷一战成名之后一次韧带断裂让他的辉煌生涯戛然而止，后边基本上就一直在伤。可悲的是什么？这个德尔副师很可悲，他现在那个状态很可悲，更可悲的是什么？如果他那个伤不是在之后，而是在他之前，98年参加世界杯之前，就5月份来的时候，根本就没有机会展现出他这个实力，没有机会把他的潜力兑现的时候，这种状态更可悲。",
+        "Holder": "2",
+        "Target": "金童欧文",
+        "Aspect": "职业生涯的转折",
+        "Opinion": "职业生涯因伤中断",
+        "Sentiment": "negative",
+        "Rationale": "欧文的职业生涯因伤中断，无法完全展现其实力"
+    },
+    {
+        "sentence": "那第二个我们说我们把失去放在人生的尺度上时，会发现失去本身就是一个人生的常态，甚至懂得面对失去应该是人生完整的一个必不可缺，这是失去的价值。我们的青春会慢慢消散，爱情会慢慢的变淡，工作也迟早退休。生老病死其实是一个很正常的事情，但是使我们生命完整成长的部分。",
+        "Holder": "2",
+        "Target": "失去",
+        "Aspect": "人生中的失去",
+        "Opinion": "失去是人生常态",
+        "Sentiment": "neutral",
+        "Rationale": "失去是人生的一部分，懂得面对失去是成长的必要过程"
+    },
+    {
+        "sentence": "就比如说我们今天几个人来到这打仗比赛，我们为我们如果说被打得很惨，我们输了，其实我们不是很可悲的，可能很痛苦。真正可悲什么？可能我们来之前发现上一场比赛就拿这个徽章，三个徽章拿走了，没打比赛道馆闭馆了，连打的机会没有，这个什么，这是可悲的，这是我们今天讨论东西而从未得到和得而复失，这对于我们而言恐怕其实就是这样两种人生态度，我们不想因为害怕失去就只顾不前，战战兢兢，而是即便注定失去，我们也祈祷曾经拥有过。",
+        "Holder": "2",
+        "Target": "比赛机会",
+        "Aspect": "机会的得失",
+        "Opinion": "失去机会比失败更可悲",
+        "Sentiment": "negative",
+        "Rationale": "失去比赛机会意味着连尝试的机会都没有"
+    },
+    {
+        "sentence": "谢谢。正方一辩，林方还剩下的时间是 16 分钟 18 秒，现在是质询团结，有请反方四辩对正方一辩进行咨询，有请。",
+        "Holder": "1",
+        "Target": "时间",
+        "Aspect": "时间剩余",
+        "Opinion": "时间剩余情况",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观陈述时间剩余情况"
+    },
+    {
+        "sentence": "谢谢主席。各位好，都没有你好，当然请教你刚刚说痛苦不等于可悲，对不对？那可悲是什么",
+        "Holder": "3",
+        "Target": "痛苦与可悲的区别",
+        "Aspect": "情感定义",
+        "Opinion": "询问定义",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出问题，寻求解答"
+    },
+    {
+        "sentence": "可悲实际上就是我们一种价值的没有实现，没有得到",
+        "Holder": "2",
+        "Target": "价值实现",
+        "Aspect": "价值实现的状态",
+        "Opinion": "没有实现",
+        "Sentiment": "negative",
+        "Rationale": "价值没有得到实现"
+    },
+    {
+        "sentence": "那个是形容，那可悲是什么",
+        "Holder": "3",
+        "Target": "可悲",
+        "Aspect": "可悲的定义",
+        "Opinion": "询问定义",
+        "Sentiment": "neutral",
+        "Rationale": "对可悲的定义不清楚"
+    },
+    {
+        "sentence": "我刚讲的就是",
+        "Holder": "2",
+        "Target": "可悲的定义",
+        "Aspect": "解释的内容",
+        "Opinion": "已经解释过",
+        "Sentiment": "neutral",
+        "Rationale": "已经解释过可悲的定义"
+    },
+    {
+        "sentence": "没有得到实现就可悲。",
+        "Holder": "3",
+        "Target": "价值实现",
+        "Aspect": "价值实现的结果",
+        "Opinion": "未实现即悲哀",
+        "Sentiment": "negative",
+        "Rationale": "价值没有实现"
+    },
+    {
+        "sentence": "对，就比如说我刚才说那个。",
+        "Holder": "2",
+        "Target": "价值实现",
+        "Aspect": "举例说明",
+        "Opinion": "举例确认",
+        "Sentiment": "neutral",
+        "Rationale": "需要通过举例来确认观点"
+    },
+    {
+        "sentence": "所以我想要拿最佳辨手，我没有拿到最佳辨手我就可悲。",
+        "Holder": "3",
+        "Target": "最佳辨手",
+        "Aspect": "个人成就",
+        "Opinion": "未获得",
+        "Sentiment": "negative",
+        "Rationale": "未能获得最佳辨手这一荣誉"
+    },
+    {
+        "sentence": "如果你的价值就是在这里，那你可能没有拿到",
+        "Holder": "2",
+        "Target": "3的价值观念",
+        "Aspect": "价值定位",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "对3将价值完全寄托在获得最佳辨手上持有疑问"
+    },
+    {
+        "sentence": "我是问一遍可悲在哪里？可悲是什么？是一种心情还是一种情绪？还是一种感受？",
+        "Holder": "3",
+        "Target": "可悲的定义",
+        "Aspect": "情感理解",
+        "Opinion": "探寻",
+        "Sentiment": "neutral",
+        "Rationale": "对可悲的具体含义感到困惑"
+    },
+    {
+        "sentence": "是我们对待他一种判断，一种价值判断",
+        "Holder": "2",
+        "Target": "可悲",
+        "Aspect": "价值判断",
+        "Opinion": "定义",
+        "Sentiment": "neutral",
+        "Rationale": "对可悲进行概念上的解释"
+    },
+    {
+        "sentence": "判断一件事可不可悲？",
+        "Holder": "3",
+        "Target": "可悲的判断",
+        "Aspect": "价值评估",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对如何判断事情可悲的标准感到困惑"
+    },
+    {
+        "sentence": "他没有办法客观",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "客观性",
+        "Opinion": "没有办法客观",
+        "Sentiment": "negative",
+        "Rationale": "认为他没有办法保持客观"
+    },
+    {
+        "sentence": "东所以你没有办法具象的文字化告诉我你可悲的定义呃。没有办法还是",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "文字表达能力",
+        "Opinion": "没有办法具象的文字化",
+        "Sentiment": "negative",
+        "Rationale": "2无法用具体文字表达可悲的定义"
+    },
+    {
+        "sentence": "可以用例子行为更贴切。",
+        "Holder": "2",
+        "Target": "例子行为",
+        "Aspect": "表达的贴切性",
+        "Opinion": "用例子行为更贴切",
+        "Sentiment": "positive",
+        "Rationale": "认为用例子行为能更贴切地表达"
+    },
+    {
+        "sentence": "所以你没有办法文字告诉我，你只能例子告诉我。那我跟你讨论例子。OK，你告诉我说愿意开始，至少有得到过那段爱情。对，就是你在论证的事情是单恋比失恋更痛苦，对不对？不是。",
+        "Holder": "3",
+        "Target": "2的论证",
+        "Aspect": "论证的逻辑",
+        "Opinion": "论证不成立",
+        "Sentiment": "negative",
+        "Rationale": "2的论证逻辑被认为不成立"
+    },
+    {
+        "sentence": "我们要放在一条线上来看，",
+        "Holder": "2",
+        "Target": "看待问题的方法",
+        "Aspect": "方法的合理性",
+        "Opinion": "放在一条线上来看",
+        "Sentiment": "neutral",
+        "Rationale": "提出了一种中立的看待问题的方法"
+    },
+    {
+        "sentence": "单恋是不是从未得到？我的问题是单恋是不是从未得到？",
+        "Holder": "3",
+        "Target": "单恋",
+        "Aspect": "单恋的定义",
+        "Opinion": "质疑单恋是否从未得到",
+        "Sentiment": "neutral",
+        "Rationale": "对单恋的定义有疑问"
+    },
+    {
+        "sentence": "就你不是说单恋这两个对比对象不对，我说的是你要对比的是什么？你在一条线上无一个差不多的。",
+        "Holder": "2",
+        "Target": "3的问题",
+        "Aspect": "问题的合理性",
+        "Opinion": "认为问题不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为3的问题在对比对象上不合理"
+    },
+    {
+        "sentence": "我的问题只有单恋是不是从未得到？你不要告诉我对不对。",
+        "Holder": "3",
+        "Target": "2的回答",
+        "Aspect": "回答的针对性",
+        "Opinion": "要求直接回答问题",
+        "Sentiment": "negative",
+        "Rationale": "2没有直接回答问题"
+    },
+    {
+        "sentence": "单恋是从未得到的，谢谢。",
+        "Holder": "2",
+        "Target": "单恋",
+        "Aspect": "单恋的定义",
+        "Opinion": "单恋从未得到",
+        "Sentiment": "neutral",
+        "Rationale": "直接回答了3的问题"
+    },
+    {
+        "sentence": "单恋是从未得到。失恋是不是得而复失？",
+        "Holder": "3",
+        "Target": "失恋",
+        "Aspect": "失恋的定义",
+        "Opinion": "质疑失恋是否得而复失",
+        "Sentiment": "neutral",
+        "Rationale": "对失恋的定义有疑问"
+    },
+    {
+        "sentence": "看你是什么情况",
+        "Holder": "2",
+        "Target": "情况",
+        "Aspect": "具体情况",
+        "Opinion": "需要了解",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在询问对方的具体情况"
+    },
+    {
+        "sentence": "是不是得不算是其中的一种？那还有哪一种？",
+        "Holder": "3",
+        "Target": "情况分类",
+        "Aspect": "分类的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3在质疑某种情况是否应该被归类"
+    },
+    {
+        "sentence": "比如各种情况",
+        "Holder": "2",
+        "Target": "情况",
+        "Aspect": "多样性",
+        "Opinion": "存在多种",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在列举各种可能的情况"
+    },
+    {
+        "sentence": "失恋还有哪一种不是得复失的状况？",
+        "Holder": "3",
+        "Target": "失恋情况",
+        "Aspect": "复失状况",
+        "Opinion": "都是复失",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为失恋总是伴随着失去"
+    },
+    {
+        "sentence": "就是正常的，他死了。",
+        "Holder": "2",
+        "Target": "情况",
+        "Aspect": "正常性",
+        "Opinion": "死亡是正常情况",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在解释一个客观事实"
+    },
+    {
+        "sentence": "就是失恋诶，不是丧偶。失恋，有没有第二个可能？",
+        "Holder": "3",
+        "Target": "失恋",
+        "Aspect": "失恋的性质",
+        "Opinion": "失恋不同于丧偶",
+        "Sentiment": "negative",
+        "Rationale": "失恋带来的情感痛苦被轻视"
+    },
+    {
+        "sentence": "失恋不是得而复失，是这样。OK？",
+        "Holder": "2",
+        "Target": "失恋",
+        "Aspect": "失恋的定义",
+        "Opinion": "失恋是得而复失",
+        "Sentiment": "neutral",
+        "Rationale": "试图解释失恋的概念"
+    },
+    {
+        "sentence": "只有一个可能，对不对？那你告诉你，要论证是单恋比失恋更可悲，对不对？不是。",
+        "Holder": "3",
+        "Target": "单恋与失恋的比较",
+        "Aspect": "情感的可悲程度",
+        "Opinion": "失恋更可悲",
+        "Sentiment": "negative",
+        "Rationale": "不同意单恋比失恋更可悲的观点"
+    },
+    {
+        "sentence": "我们是在同一条线上去",
+        "Holder": "2",
+        "Target": "讨论的立场",
+        "Aspect": "立场的一致性",
+        "Opinion": "立场一致",
+        "Sentiment": "neutral",
+        "Rationale": "试图表明双方在讨论中的立场一致"
+    },
+    {
+        "sentence": "我原本喜欢他的时候，他都不答应，这个时间叫做单恋。他后来答应我之后分手，叫做得而复失，这条线都对了吧",
+        "Holder": "3",
+        "Target": "单恋与失恋的定义",
+        "Aspect": "情感阶段的划分",
+        "Opinion": "单恋与失恋的定义明确",
+        "Sentiment": "neutral",
+        "Rationale": "试图明确单恋和失恋的定义"
+    },
+    {
+        "sentence": "那他，但那我在追她的时候，我在暧昧的时候，可悲在哪。",
+        "Holder": "3",
+        "Target": "追女孩的过程",
+        "Aspect": "情感体验",
+        "Opinion": "感到可悲",
+        "Sentiment": "negative",
+        "Rationale": "在追女孩和暧昧的过程中感到迷茫和失落"
+    },
+    {
+        "sentence": "呃？你如果说没追到，",
+        "Holder": "2",
+        "Target": "3的追女孩结果",
+        "Aspect": "结果判断",
+        "Opinion": "假设没追到",
+        "Sentiment": "neutral",
+        "Rationale": "对3的追女孩结果进行假设性提问"
+    },
+    {
+        "sentence": "我刚问你说没追到，你又说不能要在同一条线，到底要在同一条线还是两个地方啊？",
+        "Holder": "3",
+        "Target": "2的观点",
+        "Aspect": "观点一致性",
+        "Opinion": "质疑不一致",
+        "Sentiment": "negative",
+        "Rationale": "2的观点前后不一致"
+    },
+    {
+        "sentence": "当你跨过这一段人生，你回首你的人生的时候，你去看你没有追到，就是你没有得到一种状态。而你如果追到的话，你再付出。",
+        "Holder": "2",
+        "Target": "人生经历",
+        "Aspect": "情感状态",
+        "Opinion": "未追到是一种状态",
+        "Sentiment": "neutral",
+        "Rationale": "从人生经历的角度分析追女孩的结果"
+    },
+    {
+        "sentence": "好好，我回首的人生我没有追到过 a 女，这个告诉我可悲。",
+        "Holder": "3",
+        "Target": "自己的人生",
+        "Aspect": "情感体验",
+        "Opinion": "感到可悲",
+        "Sentiment": "negative",
+        "Rationale": "回首人生发现自己没有追到过心仪的女孩"
+    },
+    {
+        "sentence": "对，就如果你的付出在这里，你的价值实际上没有得到实现，你在这里很执着吗？",
+        "Holder": "2",
+        "Target": "3的付出",
+        "Aspect": "价值实现",
+        "Opinion": "价值未实现",
+        "Sentiment": "neutral",
+        "Rationale": "2在客观分析3的付出与价值实现的关系"
+    },
+    {
+        "sentence": "我执着。对，我可悲在哪？",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "执着与可悲",
+        "Opinion": "自我质疑",
+        "Sentiment": "negative",
+        "Rationale": "3意识到自己的执着但找不到可悲的具体原因"
+    },
+    {
+        "sentence": "如果，然后这我解释一下，如果说你这时候得而复失",
+        "Holder": "2",
+        "Target": "3的情况",
+        "Aspect": "得而复失",
+        "Opinion": "假设情况",
+        "Sentiment": "neutral",
+        "Rationale": "2在尝试解释一个假设的情况"
+    },
+    {
+        "sentence": "还没到得而复失，就单纯的我追不到某一个女生，可悲的地方在哪里？",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "追求失败",
+        "Opinion": "找不到可悲之处",
+        "Sentiment": "negative",
+        "Rationale": "3在追求女生失败后找不到具体的可悲原因"
+    },
+    {
+        "sentence": "这个题要比较啊。",
+        "Holder": "2",
+        "Target": "问题分析",
+        "Aspect": "比较方法",
+        "Opinion": "需要比较",
+        "Sentiment": "neutral",
+        "Rationale": "2认为需要通过比较来分析问题"
+    },
+    {
+        "sentence": "你要比更可悲啊，那你先告诉她原本多可悲吗？",
+        "Holder": "3",
+        "Target": "对方的情况",
+        "Aspect": "可悲程度",
+        "Opinion": "对方更可悲",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的情况比其他人更糟糕"
+    },
+    {
+        "sentence": "就是你的付出没有得到你的回报",
+        "Holder": "2",
+        "Target": "3的付出",
+        "Aspect": "回报情况",
+        "Opinion": "付出无回报",
+        "Sentiment": "negative",
+        "Rationale": "3的付出没有得到相应的回报"
+    },
+    {
+        "sentence": "付出没有得到就可悲，那另外一边是付出有得到又失去，对不对？这样可以了吧",
+        "Holder": "3",
+        "Target": "付出与回报的情况",
+        "Aspect": "可悲与否",
+        "Opinion": "付出有得到又失去也可悲",
+        "Sentiment": "negative",
+        "Rationale": "讨论的是付出与回报的负面情况"
+    },
+    {
+        "sentence": "就他结果都是归零",
+        "Holder": "2",
+        "Target": "对方的付出与回报",
+        "Aspect": "最终结果",
+        "Opinion": "结果归零",
+        "Sentiment": "negative",
+        "Rationale": "无论付出与否，最终结果都是零"
+    },
+    {
+        "sentence": "结果都是归零，但是他多了一种感受，叫做原本曾经拥有，对不对？",
+        "Holder": "3",
+        "Target": "对方的经历",
+        "Aspect": "感受",
+        "Opinion": "曾经拥有的感受",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然结果归零，但曾经拥有的感受也是一种收获"
+    },
+    {
+        "sentence": "对，你们那边多一个得到",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "得到数量",
+        "Opinion": "对方多一个",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "所以您有没有听过一种叫做由奢入俭难？有没有听过你说落差是这个意思？有没有听过？一辈子穷跟曾经富有过，要再回去变得更难，对不对？",
+        "Holder": "3",
+        "Target": "由奢入俭难",
+        "Aspect": "生活变化的难度",
+        "Opinion": "由奢入俭更难",
+        "Sentiment": "neutral",
+        "Rationale": "只是在提问并解释一个观点"
+    },
+    {
+        "sentence": "对，你想证明什么",
+        "Holder": "2",
+        "Target": "3的观点",
+        "Aspect": "观点的目的",
+        "Opinion": "质疑对方的目的",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方的意图"
+    },
+    {
+        "sentence": "那你等会要论证给我听嘛，好不好？OK。",
+        "Holder": "3",
+        "Target": "2的论证",
+        "Aspect": "论证的要求",
+        "Opinion": "要求对方论证",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个要求"
+    },
+    {
+        "sentence": "谢谢。双方辩友反方所剩下的时间是 15 分钟 51 秒，现在有请反方一辩进行议论，有请。",
+        "Holder": "1",
+        "Target": "反方",
+        "Aspect": "时间剩余",
+        "Opinion": "告知时间并邀请发言",
+        "Sentiment": "neutral",
+        "Rationale": "只是进行程序性的告知和邀请"
+    },
+    {
+        "sentence": "谢谢。主席，各位好，发现了吗？对方辩友对于可悲这个东西的定义一直模糊不清，其实他其实就是个非常单纯的一种情绪反应嘛。",
+        "Holder": "4",
+        "Target": "对方辩友",
+        "Aspect": "可悲的定义",
+        "Opinion": "定义模糊不清",
+        "Sentiment": "negative",
+        "Rationale": "对方辩友对可悲的定义不明确"
+    },
+    {
+        "sentence": "我们为什么会觉得可悲？因为我们觉得不论是自己对自己，或者你观察别人，我们会觉得这件事情可悲或这个人可悲，就是因为我们觉得好可怜，然后他身上好悲哀，这种都是一种情绪的反动跟反应而已，那这种情绪当然会带有痛苦的感觉，在这种感觉当然就是一种可悲的现实化的反应嘛。",
+        "Holder": "4",
+        "Target": "可悲的情绪",
+        "Aspect": "情绪的本质",
+        "Opinion": "情绪反应",
+        "Sentiment": "neutral",
+        "Rationale": "解释了可悲情绪的本质"
+    },
+    {
+        "sentence": "所以我们要说痛，对方面有时候痛苦不等于可悲，这是个非常怪的，也是个模糊不清，说不出来价值实现什么是可悲，懂？没有标，它很简单，它就是一个很单纯的情绪反应。",
+        "Holder": "4",
+        "Target": "痛苦与可悲的关系",
+        "Aspect": "概念的区分",
+        "Opinion": "痛苦不等于可悲",
+        "Sentiment": "negative",
+        "Rationale": "对方混淆了痛苦和可悲的概念"
+    },
+    {
+        "sentence": "那接下来我们要讨论的东西，这个题目从未得到跟得而复失，到底有哪一种？不论是我们看别人或者自己看自己，更能会有那种痛苦的感受或者悲哀的感受，这是我们要讨论的，但题目既然没有界定主体，那我们就要稍微帮大家分析一下。",
+        "Holder": "4",
+        "Target": "讨论题目",
+        "Aspect": "题目的界定",
+        "Opinion": "需要分析",
+        "Sentiment": "neutral",
+        "Rationale": "题目没有明确界定"
+    },
+    {
+        "sentence": "我们先讨论从人的物质生活开始看起好了，如同对方说的爱情，或者专门有所说的这个胎儿也好。我们先来讨论人的生活当中总会有遇到一些坏东西，譬如说像疾病，大家想想看噢，从来没有得到艾滋病，跟你得到艾滋病之后再来治愈，哪一个更可悲？发现了吗？从来没有得到就是快乐的，你得到了然后还被治愈，之后别人还要怀疑你，你的艾滋病有得过，居然被治愈了，那你还是一个被烙印上得过艾滋病的标签。",
+        "Holder": "4",
+        "Target": "疾病的可悲性",
+        "Aspect": "得到与失去的比较",
+        "Opinion": "得而复失更可悲",
+        "Sentiment": "negative",
+        "Rationale": "得而复失会带来更多的心理负担和社会压力"
+    },
+    {
+        "sentence": "当然这种人比较起来，坏东西得而复失更可悲吗？我们谈谈好东西，好，我们谈爱情，我们还谈谈那个对方没有最喜欢的这个分手跟单恋的问题。这个问题不是也是很简单吗？由奢入止，如由奢入简单这件话，这句话不需要告诉大家，我们曾经得到过，因为我满足过我们的欲望。所以在当失去的时候，我们多比从来没有得过，多了什么，多了那一份心中的失落感。",
+        "Holder": "4",
+        "Target": "爱情中的得与失",
+        "Aspect": "失落感的比较",
+        "Opinion": "得而复失更失落",
+        "Sentiment": "negative",
+        "Rationale": "曾经得到过再失去会带来更强烈的失落感"
+    },
+    {
+        "sentence": "你从来如果没有得到，那你最多就是我想要追求他，我想要求就求不到嘛。那属于如果得而复失，不仅在失去的那一刹那你还想求求不到，你还有曾经那一种得到过去又失去了失落感，两者相加起来，当然放大了那个可悲的感受。",
+        "Holder": "4",
+        "Target": "得而复失的感受",
+        "Aspect": "感受的强度",
+        "Opinion": "得而复失更强烈",
+        "Sentiment": "negative",
+        "Rationale": "得而复失包含了追求不得和失去的双重痛苦"
+    },
+    {
+        "sentence": "最后我们谈人类的精神文化，我们谈的精神讲的是人类的知识，人类最可悲的地方其实不是你什么都不知道，因为愚蠢有时候会是幸福的，因为你什么都不知道，你愿意弄你自己是不会有感觉的，但是可悲的地方就是你知道你正在弄我们错得的知识，知道这个事情应该要怎么样，怎么样才是好的，可是却受限于我们的客观环境，我们的无所施展，我们的力量没办法去改变些什么，这种痛苦的无力，正是因为你知道了。",
+        "Holder": "4",
+        "Target": "人类的精神文化",
+        "Aspect": "知识的无力感",
+        "Opinion": "知道却无法改变更可悲",
+        "Sentiment": "negative",
+        "Rationale": "知道正确的知识却受限于客观环境无法改变"
+    },
+    {
+        "sentence": "你获得了知识之后，你却没有办法让这个知识得到他应该要有的力量，失去了那个你拥有秩序姿势之后，原本应该有的那个力量，这样的一个状况才是比什么都不知道愚蠢人更可悲的地方。所有方认为比较起来从未得到的这样的一个幸福，我们还认为得而复失更可悲。谢谢。",
+        "Holder": "4",
+        "Target": "知识的无力感",
+        "Aspect": "知识的力量缺失",
+        "Opinion": "得而复失更可悲",
+        "Sentiment": "negative",
+        "Rationale": "获得知识后无法发挥其应有的力量，失去原本应有的力量"
+    },
+    {
+        "sentence": "谢谢。反方一辩，林方还剩下的时间是 12 分钟 32 秒，现在有请正方四辩对反方一辩进行",
+        "Holder": "1",
+        "Target": "辩论时间",
+        "Aspect": "时间剩余",
+        "Opinion": "时间剩余通知",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地通知剩余时间"
+    },
+    {
+        "sentence": "来先确认个例子，对比一下常识，有个人人叫苏格拉底，这个人就是有个人叫苏格拉底，很有学问很有知识，结果这个人死的比较惨。那您认为苏格拉底可悲还是不可悲？",
+        "Holder": "5",
+        "Target": "苏格拉底",
+        "Aspect": "苏格拉底的命运",
+        "Opinion": "询问苏格拉底是否可悲",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出问题进行讨论"
+    },
+    {
+        "sentence": "苏格拉底死的比较惨。",
+        "Holder": "4",
+        "Target": "苏格拉底",
+        "Aspect": "苏格拉底的命运",
+        "Opinion": "苏格拉底死的惨",
+        "Sentiment": "negative",
+        "Rationale": "提到苏格拉底死的惨"
+    },
+    {
+        "sentence": "对，他是被毒死的",
+        "Holder": "5",
+        "Target": "苏格拉底",
+        "Aspect": "死亡方式",
+        "Opinion": "被毒死",
+        "Sentiment": "neutral",
+        "Rationale": "客观陈述苏格拉底的死亡方式"
+    },
+    {
+        "sentence": "他可悲吗？",
+        "Holder": "5",
+        "Target": "苏格拉底",
+        "Aspect": "人生结局",
+        "Opinion": "询问是否可悲",
+        "Sentiment": "ambiguous",
+        "Rationale": "对苏格拉底的人生结局是否可悲存在疑问"
+    },
+    {
+        "sentence": "苏格拉底这个人被堵死对他有知识而没有用上，可悲吗？我先问您可悲吗？就比那些从来没有知识的平民，比那些毒死苏格拉底的暴民要可悲，对不对？",
+        "Holder": "5",
+        "Target": "苏格拉底",
+        "Aspect": "知识未能应用",
+        "Opinion": "可能比平民和暴民更可悲",
+        "Sentiment": "ambiguous",
+        "Rationale": "对苏格拉底的知识未能应用是否比平民和暴民更可悲存在疑问"
+    },
+    {
+        "sentence": "第二点，然后您问，您刚才说好东西这部分才有讨论的必要，我确认一下是这样吧？就是坏东西我们不讨论",
+        "Holder": "5",
+        "Target": "讨论内容",
+        "Aspect": "讨论的必要性",
+        "Opinion": "好东西才有讨论必要",
+        "Sentiment": "neutral",
+        "Rationale": "只是在确认讨论内容的范围"
+    },
+    {
+        "sentence": "没关系。问您坏东西从未得到和得而复失是可悲的事情吗？如果它不是可悲的事情的话，我们为什么要讨论谁更可悲？不。",
+        "Holder": "5",
+        "Target": "坏东西从未得到和得而复失",
+        "Aspect": "可悲性",
+        "Opinion": "质疑其可悲性",
+        "Sentiment": "neutral",
+        "Rationale": "5在提出问题并质疑讨论的必要性，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "所以在比一个是0，然后一个有可悲，当然更可悲",
+        "Holder": "4",
+        "Target": "可悲程度的比较",
+        "Aspect": "比较的逻辑",
+        "Opinion": "有可悲的更可悲",
+        "Sentiment": "neutral",
+        "Rationale": "4在逻辑上分析比较的结果，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "有跟无，那不是更的比较吗？",
+        "Holder": "4",
+        "Target": "有和无的比较",
+        "Aspect": "比较的逻辑",
+        "Opinion": "有和无是可比的",
+        "Sentiment": "neutral",
+        "Rationale": "4在继续逻辑上的讨论，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "根本不可悲，就不用比谁更可悲了吗？之所以出这个题要求我们讨论，就是那可悲的情况，所以我们坏东西不讨论了，我们专门讨论一下好东西好不好",
+        "Holder": "5",
+        "Target": "讨论的主题",
+        "Aspect": "讨论的合理性",
+        "Opinion": "应讨论好东西",
+        "Sentiment": "neutral",
+        "Rationale": "5在提出讨论的方向转变，没有表现出明显的情感倾向"
+    }
+]

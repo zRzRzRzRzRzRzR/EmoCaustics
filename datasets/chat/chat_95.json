@@ -1,0 +1,515 @@
+[
+    {
+        "sentence": "下一步他肯定会制造外出假象，以此制造紧张的气氛，而且小雨肯定会被他利用",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行为意图",
+        "Opinion": "制造假象和利用小雨",
+        "Sentiment": "negative",
+        "Rationale": "认为他会采取欺骗手段并利用他人"
+    },
+    {
+        "sentence": "嗯，那个小雨。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "提及",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地提及小雨，没有表达出明显的情感"
+    },
+    {
+        "sentence": "好兄弟。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "关系",
+        "Opinion": "友好",
+        "Sentiment": "positive",
+        "Rationale": "用‘好兄弟’表达了对3的友好和认可"
+    },
+    {
+        "sentence": "我有一件事儿不知道我该怎么说。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "表达困惑",
+        "Opinion": "不知道怎么说",
+        "Sentiment": "neutral",
+        "Rationale": "对即将表达的事情感到不确定"
+    },
+    {
+        "sentence": "那你想好了再说吧。",
+        "Holder": "3",
+        "Target": "2的表达",
+        "Aspect": "表达的准备",
+        "Opinion": "建议想好再说",
+        "Sentiment": "neutral",
+        "Rationale": "建议对方准备好再说"
+    },
+    {
+        "sentence": "以后你一定要听爸爸妈妈的话。想我了就看看这张照片。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "听从父母",
+        "Opinion": "强调听从父母",
+        "Sentiment": "positive",
+        "Rationale": "希望对方听从父母"
+    },
+    {
+        "sentence": "这张也太傻啦",
+        "Holder": "3",
+        "Target": "照片",
+        "Aspect": "照片的外观",
+        "Opinion": "认为照片傻",
+        "Sentiment": "negative",
+        "Rationale": "觉得照片看起来傻"
+    },
+    {
+        "sentence": "我没让你现在看。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "看照片的时间",
+        "Opinion": "不需要现在看",
+        "Sentiment": "neutral",
+        "Rationale": "解释不需要现在看照片"
+    },
+    {
+        "sentence": "难道你就不想问问我为什么跟你说这些话吗？",
+        "Holder": "2",
+        "Target": "3的提问意愿",
+        "Aspect": "提问的主动性",
+        "Opinion": "期待对方提问",
+        "Sentiment": "neutral",
+        "Rationale": "2希望3能主动关心话题背后的原因"
+    },
+    {
+        "sentence": "为什么？",
+        "Holder": "3",
+        "Target": "2的话语动机",
+        "Aspect": "原因探究",
+        "Opinion": "表达好奇",
+        "Sentiment": "neutral",
+        "Rationale": "3对2提出的问题感到好奇"
+    },
+    {
+        "sentence": "这是个秘密",
+        "Holder": "2",
+        "Target": "话语内容的性质",
+        "Aspect": "信息保密",
+        "Opinion": "强调保密性",
+        "Sentiment": "neutral",
+        "Rationale": "2不想立即透露信息"
+    },
+    {
+        "sentence": "你知道我最不能保守秘密了。你是不是告诉我啦？",
+        "Holder": "3",
+        "Target": "自己保密能力",
+        "Aspect": "保密能力",
+        "Opinion": "自认不擅长保密",
+        "Sentiment": "neutral",
+        "Rationale": "3知道自己不擅长保密"
+    },
+    {
+        "sentence": "那倒不见得，我还是可以告诉你滴，因为你以后没有告密的机会了。",
+        "Holder": "2",
+        "Target": "3的告密可能性",
+        "Aspect": "信息安全性",
+        "Opinion": "认为3无告密机会",
+        "Sentiment": "positive",
+        "Rationale": "2觉得3以后没有机会告密"
+    },
+    {
+        "sentence": "好，我发誓绝对不告诉别人",
+        "Holder": "3",
+        "Target": "保密承诺",
+        "Aspect": "承诺的可靠性",
+        "Opinion": "绝对保密",
+        "Sentiment": "positive",
+        "Rationale": "承诺绝对不告诉别人"
+    },
+    {
+        "sentence": "我要外出旅游了",
+        "Holder": "2",
+        "Target": "旅游计划",
+        "Aspect": "计划的宣布",
+        "Opinion": "即将旅游",
+        "Sentiment": "neutral",
+        "Rationale": "只是宣布自己的旅游计划"
+    },
+    {
+        "sentence": "你千万别跟别人说",
+        "Holder": "2",
+        "Target": "保密要求",
+        "Aspect": "要求的严肃性",
+        "Opinion": "强调保密",
+        "Sentiment": "neutral",
+        "Rationale": "强调保密的重要性"
+    },
+    {
+        "sentence": "放心，我出去一下啊。",
+        "Holder": "3",
+        "Target": "2的担心",
+        "Aspect": "安慰的提供",
+        "Opinion": "保证安心",
+        "Sentiment": "positive",
+        "Rationale": "要安慰2的担心并保证自己会保密"
+    },
+    {
+        "sentence": "我去上厕所。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述要去上厕所的事实"
+    },
+    {
+        "sentence": "不出我之所料，他果然在利用小雨散布要外出旅游的消息，想看看咱们到底怎么办",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行为动机",
+        "Opinion": "他在利用小雨散布消息",
+        "Sentiment": "negative",
+        "Rationale": "认为他被利用来试探大家"
+    },
+    {
+        "sentence": "嗯，那你打算怎么办呀？",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "应对策略",
+        "Opinion": "询问1的打算",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方的打算"
+    },
+    {
+        "sentence": "我，哼，我不理他，我臊着他，我以不变应万变，到时候他就得傻，行行行，上厕所。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "应对策略",
+        "Opinion": "不理他，以不变应万变",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为感到不满"
+    },
+    {
+        "sentence": "到时候还不定谁傻呢",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "结果预测",
+        "Opinion": "结果不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的策略结果表示怀疑"
+    },
+    {
+        "sentence": "小雨啊，我就要走了，以后这些玩具可都全归你啦",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "玩具归属",
+        "Opinion": "玩具归小雨",
+        "Sentiment": "positive",
+        "Rationale": "即将离开"
+    },
+    {
+        "sentence": "你的玩具全都过时了",
+        "Holder": "3",
+        "Target": "2的玩具",
+        "Aspect": "玩具的时效性",
+        "Opinion": "玩具过时",
+        "Sentiment": "negative",
+        "Rationale": "认为2的玩具不再流行"
+    },
+    {
+        "sentence": "白给你了，你还挑啊",
+        "Holder": "2",
+        "Target": "3的态度",
+        "Aspect": "接受礼物的态度",
+        "Opinion": "挑剔",
+        "Sentiment": "negative",
+        "Rationale": "3对赠送的玩具不满意"
+    },
+    {
+        "sentence": "好好好，那我拿这些去跟别人交换新的玩具",
+        "Holder": "3",
+        "Target": "2的玩具",
+        "Aspect": "玩具的处理方式",
+        "Opinion": "交换新玩具",
+        "Sentiment": "neutral",
+        "Rationale": "接受了2的玩具，但计划将其交换"
+    },
+    {
+        "sentence": "你又后悔啦？",
+        "Holder": "3",
+        "Target": "2的决定",
+        "Aspect": "是否后悔",
+        "Opinion": "怀疑2后悔",
+        "Sentiment": "ambiguous",
+        "Rationale": "3质疑2是否再次后悔"
+    },
+    {
+        "sentence": "不是，你是不是把我要外出旅游的这个秘密告诉了爸爸妈妈？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "保密性",
+        "Opinion": "怀疑3泄密",
+        "Sentiment": "negative",
+        "Rationale": "2认为3可能泄露了其旅游计划"
+    },
+    {
+        "sentence": "没有，绝对没有。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "保密性",
+        "Opinion": "否认泄密",
+        "Sentiment": "positive",
+        "Rationale": "3坚决否认泄露秘密"
+    },
+    {
+        "sentence": "不会吧，任何秘密能在你肚子里待上半天。",
+        "Holder": "2",
+        "Target": "3的保密能力",
+        "Aspect": "保密时长",
+        "Opinion": "质疑3的保密能力",
+        "Sentiment": "negative",
+        "Rationale": "2认为3无法长时间保守秘密"
+    },
+    {
+        "sentence": "放心，这次我一定给你保守这个秘密。",
+        "Holder": "3",
+        "Target": "自己的承诺",
+        "Aspect": "保密承诺",
+        "Opinion": "保证保密",
+        "Sentiment": "positive",
+        "Rationale": "3承诺这次一定会保守秘密"
+    },
+    {
+        "sentence": "那这次是为什么呀？",
+        "Holder": "2",
+        "Target": "这次事件的原因",
+        "Aspect": "原因的询问",
+        "Opinion": "不清楚原因",
+        "Sentiment": "neutral",
+        "Rationale": "2对这次事件的原因不了解"
+    },
+    {
+        "sentence": "因为这些玩具啊",
+        "Holder": "3",
+        "Target": "这次事件的原因",
+        "Aspect": "原因的解释",
+        "Opinion": "玩具是原因",
+        "Sentiment": "neutral",
+        "Rationale": "3直接解释了事件的原因是玩具"
+    },
+    {
+        "sentence": "你真行。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的评价",
+        "Opinion": "讽刺3的行为",
+        "Sentiment": "negative",
+        "Rationale": "2认为3的行为不妥"
+    },
+    {
+        "sentence": "你什么时候走啊？",
+        "Holder": "3",
+        "Target": "2的离开时间",
+        "Aspect": "时间的询问",
+        "Opinion": "关心2的离开时间",
+        "Sentiment": "neutral",
+        "Rationale": "3想知道2的具体离开时间"
+    },
+    {
+        "sentence": "很快，不过我也有点担心，如果爸爸妈妈知道了，你替我保密了。他们会饶不了你的",
+        "Holder": "2",
+        "Target": "保密的重要性",
+        "Aspect": "后果的担忧",
+        "Opinion": "担心父母知道",
+        "Sentiment": "negative",
+        "Rationale": "2担心父母知道后会责怪3"
+    },
+    {
+        "sentence": "我不怕",
+        "Holder": "3",
+        "Target": "害怕的情绪",
+        "Aspect": "勇气",
+        "Opinion": "不害怕",
+        "Sentiment": "positive",
+        "Rationale": "对自己有信心"
+    },
+    {
+        "sentence": "那那那，如果你把这个秘密告诉了爸爸妈妈，你盼望已久的电子赛车可就要到手",
+        "Holder": "2",
+        "Target": "3的秘密",
+        "Aspect": "秘密的保守与奖励",
+        "Opinion": "透露秘密可以获得奖励",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述一个条件和结果的关系"
+    },
+    {
+        "sentence": "你这是在考验我。放心吧，这个秘密我一定要给你保守住。",
+        "Holder": "3",
+        "Target": "2的考验",
+        "Aspect": "秘密的保守",
+        "Opinion": "决心保守秘密",
+        "Sentiment": "positive",
+        "Rationale": "3认为2在考验自己"
+    },
+    {
+        "sentence": "小雨着急忙慌的跑进来干嘛？有事吗",
+        "Holder": "5",
+        "Target": "小雨的行为",
+        "Aspect": "行为的原因",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "5对小雨的行为感到好奇"
+    },
+    {
+        "sentence": "我要跟妈妈说点事",
+        "Holder": "3",
+        "Target": "与妈妈交谈",
+        "Aspect": "交谈的目的",
+        "Opinion": "有事要说",
+        "Sentiment": "neutral",
+        "Rationale": "3只是陈述了一个事实"
+    },
+    {
+        "sentence": "就这么走啦，不准备跟我说点什么。",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "离开前的沟通",
+        "Opinion": "期待沟通",
+        "Sentiment": "negative",
+        "Rationale": "3没有在离开前与自己沟通"
+    },
+    {
+        "sentence": "您还是问妈妈吧",
+        "Holder": "3",
+        "Target": "5的询问",
+        "Aspect": "信息来源",
+        "Opinion": "建议询问妈妈",
+        "Sentiment": "neutral",
+        "Rationale": "认为妈妈可能更清楚情况"
+    },
+    {
+        "sentence": "小报告打完了是不是也该传到我耳朵了？",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "信息传递",
+        "Opinion": "期待被告知",
+        "Sentiment": "negative",
+        "Rationale": "觉得3可能已经向别人报告了情况但没有告诉自己"
+    },
+    {
+        "sentence": "刘星已经陷入被动。",
+        "Holder": "1",
+        "Target": "刘星的处境",
+        "Aspect": "处境状态",
+        "Opinion": "刘星处于被动",
+        "Sentiment": "neutral",
+        "Rationale": "观察到刘星在当前情况下的不利地位"
+    },
+    {
+        "sentence": "嗨，我说你能不能不跟他较劲儿了？有什么事儿你跟他明说不得了吗？",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "处理方式",
+        "Opinion": "建议直接沟通",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在与刘星的互动中过于较劲，没有直接沟通"
+    },
+    {
+        "sentence": "那不行，这次我非得给他点儿教训不可，要不然他以后不定得想出多恶劣的招对付我呢。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行为教训",
+        "Opinion": "必须教训",
+        "Sentiment": "negative",
+        "Rationale": "他可能会想出更恶劣的招数对付我"
+    },
+    {
+        "sentence": "给他点教训可以，可你也不能以恶制恶呀。",
+        "Holder": "5",
+        "Target": "1的教训方式",
+        "Aspect": "教训方法的合理性",
+        "Opinion": "反对以恶制恶",
+        "Sentiment": "neutral",
+        "Rationale": "认为以恶制恶不是正确的处理方式"
+    },
+    {
+        "sentence": "我必须得让他知道，想跟妈妈斗。哼嫩点。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "对妈妈的尊重",
+        "Opinion": "必须让他知道厉害",
+        "Sentiment": "negative",
+        "Rationale": "他不尊重妈妈"
+    },
+    {
+        "sentence": "方世玉他妈就这样。唉，你就不能学会以德服人呐。",
+        "Holder": "5",
+        "Target": "1的教训方式",
+        "Aspect": "教训方法的建议",
+        "Opinion": "建议以德服人",
+        "Sentiment": "neutral",
+        "Rationale": "认为以德服人更为有效和正确"
+    },
+    {
+        "sentence": "方世玉的电影，我雷老虎向来是以德服人的。",
+        "Holder": "5",
+        "Target": "雷老虎",
+        "Aspect": "行为方式",
+        "Opinion": "以德服人",
+        "Sentiment": "positive",
+        "Rationale": "雷老虎自认为以德服人是一种正面的行为方式"
+    },
+    {
+        "sentence": "什么乱七八糟的，这次我非得让他给我承认错误不可，现在肯定在屋里正收拾东西",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "错误承认",
+        "Opinion": "必须承认错误",
+        "Sentiment": "negative",
+        "Rationale": "对方没有承认错误"
+    },
+    {
+        "sentence": "做作业了吗你",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "作业完成情况",
+        "Opinion": "询问是否完成",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问作业情况"
+    },
+    {
+        "sentence": "我可警告你，还有三天时间，你再不把那只鞋交出来，你看我怎么收拾你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "鞋子归还",
+        "Opinion": "必须归还",
+        "Sentiment": "negative",
+        "Rationale": "2没有按时归还鞋子"
+    },
+    {
+        "sentence": "那鞋就是丢了。",
+        "Holder": "2",
+        "Target": "鞋子",
+        "Aspect": "鞋子的状态",
+        "Opinion": "鞋子丢失",
+        "Sentiment": "neutral",
+        "Rationale": "陈述了一个事实，即鞋子丢失了"
+    },
+    {
+        "sentence": "你还嘴硬",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "说话的坚定程度",
+        "Opinion": "认为2在坚持错误观点",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在坚持错误观点，不愿意承认事实"
+    },
+    {
+        "sentence": "你这干嘛呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "negative",
+        "Rationale": "1不理解2的行为，认为其不合理"
+    }
+]

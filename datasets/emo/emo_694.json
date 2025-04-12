@@ -1,0 +1,98 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论核心观点交锋",
+        "emotions": [
+          {"state": "negative", "reason": "反驳水浒传结局合理性", "source_id": "5"},
+          {"state": "positive", "reason": "强调结局对作品定义作用", "source_id": "5,6"},
+          {"state": "neutral", "reason": "提出作者已死理论", "source_id": "7"}
+        ]
+      },
+      {
+        "event": "个人故事引发共鸣",
+        "emotions": [
+          {"state": "negative", "reason": "讲述肖博文/曾厚恩未竟理想", "source_id": "3"},
+          {"state": "positive", "reason": "强调过程价值与自我和解", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "开放式结局定义争论",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑混淆结局与读后感", "source_id": "7"},
+          {"state": "positive", "reason": "主张读者自主决定权", "source_id": "1,7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "比赛流程控制",
+        "emotions": [
+          {"state": "neutral", "reason": "客观陈述KO制规则", "source_id": "self"},
+          {"state": "positive", "reason": "认可反方临场表现", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "结局哲学意义阐述",
+        "emotions": [
+          {"state": "positive", "reason": "论证结局启动回忆机制", "source_id": "6,7"},
+          {"state": "neutral", "reason": "回应人生必死命题", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "结局评价标准辩论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑烂结局定义模糊", "source_id": "1"},
+          {"state": "positive", "reason": "强调魔法世界过程魅力", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "过程价值论证",
+        "emotions": [
+          {"state": "positive", "reason": "举例经典作品名场面", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑结局决定论", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "结局本质解构",
+        "emotions": [
+          {"state": "negative", "reason": "批判结局决定论逻辑矛盾", "source_id": "1"},
+          {"state": "neutral", "reason": "类比魔术欣赏理论", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "结局与启发关系论证",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑结局对过程价值影响", "source_id": "1"},
+          {"state": "positive", "reason": "主动放弃结辩时间", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

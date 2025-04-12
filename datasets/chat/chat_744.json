@@ -1,0 +1,389 @@
+[
+    {
+        "sentence": "是一个输在起跑线的人，你们别学他。走了来游戏机溜溜球哈哈。",
+        "Holder": "2",
+        "Target": "今天来的那个人",
+        "Aspect": "人生状态",
+        "Opinion": "不值得学习",
+        "Sentiment": "negative",
+        "Rationale": "认为那个人是失败者"
+    },
+    {
+        "sentence": "我说包子你真是无缝不钻，",
+        "Holder": "2",
+        "Target": "包子",
+        "Aspect": "性格",
+        "Opinion": "钻空子",
+        "Sentiment": "negative",
+        "Rationale": "认为包子喜欢钻空子"
+    },
+    {
+        "sentence": "哪，什么叫无缝不钻，我这是给咱儿子的，一游戏游戏机溜溜球值多少钱，你跟我说实话。",
+        "Holder": "1",
+        "Target": "游戏机溜溜球",
+        "Aspect": "价值",
+        "Opinion": "询问真实价值",
+        "Sentiment": "neutral",
+        "Rationale": "想了解游戏机溜溜球的真实价值"
+    },
+    {
+        "sentence": "是不是有这张。",
+        "Holder": "2",
+        "Target": "某张物品",
+        "Aspect": "存在性",
+        "Opinion": "确认是否存在",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认某张物品是否存在"
+    },
+    {
+        "sentence": "一会出去别我这有我这有钱你。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "经济状况",
+        "Opinion": "表示自己有钱",
+        "Sentiment": "neutral",
+        "Rationale": "想表达自己有经济能力"
+    },
+    {
+        "sentence": "要再这样我可不留你了，收起来买几个好菜去说好。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不满并要求改变",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为感到不满"
+    },
+    {
+        "sentence": "咱俩交情这么多年，我没求你给我办个事，我是怕给你添麻烦，可这次哥实在是实在是没辙了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "请求帮助的合理性",
+        "Opinion": "请求帮助",
+        "Sentiment": "negative",
+        "Rationale": "实在没有其他办法"
+    },
+    {
+        "sentence": "我能帮你做什么事，总不见得让我替你去抓人，",
+        "Holder": "1",
+        "Target": "2的请求",
+        "Aspect": "请求的合理性",
+        "Opinion": "质疑请求",
+        "Sentiment": "neutral",
+        "Rationale": "1不确定2的具体请求是否合理"
+    },
+    {
+        "sentence": "替我去求个人。\n省委副书记高九良是你老师，你替我求求他，让他高抬贵手，放我条生路。",
+        "Holder": "2",
+        "Target": "高九良",
+        "Aspect": "请求帮助",
+        "Opinion": "希望得到帮助",
+        "Sentiment": "negative",
+        "Rationale": "2面临困境"
+    },
+    {
+        "sentence": "你说我这老师怎么挡你财路了？你现在大丰服饰的生意做得满世界都是还不够滋润吗",
+        "Holder": "1",
+        "Target": "2的困境",
+        "Aspect": "生意的状况",
+        "Opinion": "质疑困境的真实性",
+        "Sentiment": "positive",
+        "Rationale": "1认为2的生意很好"
+    },
+    {
+        "sentence": "那是在外面吹的，不瞒你说我快破产了。",
+        "Holder": "2",
+        "Target": "自己的生意",
+        "Aspect": "生意的真实状况",
+        "Opinion": "生意糟糕",
+        "Sentiment": "negative",
+        "Rationale": "2的生意实际上很糟糕"
+    },
+    {
+        "sentence": "拆迁的事，你电话里跟我说过我的意见，顾全大局，你说你这一个服装厂在光明风景区里不合适，",
+        "Holder": "1",
+        "Target": "2的服装厂",
+        "Aspect": "位置的合理性",
+        "Opinion": "不合适",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2的服装厂在风景区里不合适"
+    },
+    {
+        "sentence": "我也觉得不合适，我不反对拆迁，我反对他们侵吞我的资产，他们要把我那块地侵吞。",
+        "Holder": "1",
+        "Target": "拆迁行为",
+        "Aspect": "资产侵吞",
+        "Opinion": "反对侵吞资产",
+        "Sentiment": "negative",
+        "Rationale": "自己的资产被侵吞"
+    },
+    {
+        "sentence": "我全厂1300多个职工上哪吃饭去全得下岗，非得找高小琴拼命去不可",
+        "Holder": "1",
+        "Target": "高小琴",
+        "Aspect": "职工生计",
+        "Opinion": "职工将失业",
+        "Sentiment": "negative",
+        "Rationale": "职工将因资产被侵吞而失业"
+    },
+    {
+        "sentence": "什么高小琴。",
+        "Holder": "2",
+        "Target": "高小琴",
+        "Aspect": "身份",
+        "Opinion": "不了解",
+        "Sentiment": "neutral",
+        "Rationale": "对高小琴的身份不了解"
+    },
+    {
+        "sentence": "你不知道，他是高书记的亲侄女，特别著名的山水集团的美女老板，猴子，要不然你帮我找找丁副市长。",
+        "Holder": "1",
+        "Target": "高小琴",
+        "Aspect": "身份背景",
+        "Opinion": "有背景",
+        "Sentiment": "negative",
+        "Rationale": "高小琴有强大的背景"
+    },
+    {
+        "sentence": "猴子，你最近有没有听到点什么？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "信息获取",
+        "Opinion": "询问信息",
+        "Sentiment": "neutral",
+        "Rationale": "想了解相关信息"
+    },
+    {
+        "sentence": "我最近一直在北京在最高法上访，",
+        "Holder": "1",
+        "Target": "上访行为",
+        "Aspect": "上访的持续性",
+        "Opinion": "持续上访",
+        "Sentiment": "neutral",
+        "Rationale": "描述了自己持续上访的行为"
+    },
+    {
+        "sentence": "你找过他",
+        "Holder": "2",
+        "Target": "1的上访对象",
+        "Aspect": "是否接触过",
+        "Opinion": "询问是否接触",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问对方是否找过某人"
+    },
+    {
+        "sentence": "他不理我，",
+        "Holder": "1",
+        "Target": "上访对象",
+        "Aspect": "态度",
+        "Opinion": "不理睬",
+        "Sentiment": "negative",
+        "Rationale": "上访对象不理睬自己"
+    },
+    {
+        "sentence": "你要是拿出今天来我家这套，把烟和酒往那一放，这什么事都好谈。",
+        "Holder": "2",
+        "Target": "1的上访方式",
+        "Aspect": "送礼的合理性",
+        "Opinion": "送礼有助于解决问题",
+        "Sentiment": "positive",
+        "Rationale": "认为送礼可以解决问题"
+    },
+    {
+        "sentence": "好谈什么你以为礼那么好送，像咱俩这关系我都送不出去，一身破西服是怎么样。",
+        "Holder": "1",
+        "Target": "送礼建议",
+        "Aspect": "送礼的可行性",
+        "Opinion": "送礼不可行",
+        "Sentiment": "negative",
+        "Rationale": "认为送礼不可行且自身条件有限"
+    },
+    {
+        "sentence": "他胆子比我还小，",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "胆量",
+        "Opinion": "胆子小",
+        "Sentiment": "negative",
+        "Rationale": "认为他的胆量比自己还小"
+    },
+    {
+        "sentence": "他胆子就比你大多了，你要是真不知道，他敢把省委大楼搬家去，我贼着分人，只是说高小琴到我这连根烟都不抽，他不给我面子，他肯定给你面子，我跟他聊天的时候特意说咱俩的关系，最高人民检察院反贪总局的人找。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "胆量",
+        "Opinion": "胆子大",
+        "Sentiment": "positive",
+        "Rationale": "他敢做大事，并且不给说话人1面子但会给说话人2面子"
+    },
+    {
+        "sentence": "你提我",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "提及",
+        "Opinion": "要求提及",
+        "Sentiment": "neutral",
+        "Rationale": "希望说话人1在谈话中提及自己"
+    },
+    {
+        "sentence": "好吧，就帮哥一忙，你肯定给田部长打个电话，",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "帮忙",
+        "Opinion": "请求帮忙",
+        "Sentiment": "neutral",
+        "Rationale": "需要说话人2帮忙打电话"
+    },
+    {
+        "sentence": "我就知道猴子不会放鸽子，但是猴子这电话你必须要跟丁副市长说，你是在最高人民检察院反贪总局的办公室给他打的，我就在你对面坐的，我知道。",
+        "Holder": "1",
+        "Target": "猴子",
+        "Aspect": "电话沟通的必要性",
+        "Opinion": "必须打电话",
+        "Sentiment": "positive",
+        "Rationale": "相信猴子不会失约，且强调电话的重要性"
+    },
+    {
+        "sentence": "电话号码，",
+        "Holder": "2",
+        "Target": "电话号码",
+        "Aspect": "信息提供",
+        "Opinion": "提供电话号码",
+        "Sentiment": "neutral",
+        "Rationale": "需要提供电话号码"
+    },
+    {
+        "sentence": "这是他家的，这是他手机，我要。",
+        "Holder": "1",
+        "Target": "丁副市长的电话号码",
+        "Aspect": "电话号码的类型",
+        "Opinion": "需要电话号码",
+        "Sentiment": "neutral",
+        "Rationale": "需要获取丁副市长的联系方式"
+    },
+    {
+        "sentence": "他美国的电话号码。",
+        "Holder": "2",
+        "Target": "丁副市长的电话号码",
+        "Aspect": "电话号码的归属地",
+        "Opinion": "提供美国电话号码",
+        "Sentiment": "neutral",
+        "Rationale": "需要说明电话号码的归属地"
+    },
+    {
+        "sentence": "什么时候出的国",
+        "Holder": "1",
+        "Target": "丁副市长",
+        "Aspect": "出国时间",
+        "Opinion": "询问出国时间",
+        "Sentiment": "neutral",
+        "Rationale": "想知道丁副市长何时出国"
+    },
+    {
+        "sentence": "上周三不是你掩护他出逃美国的吗？",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "掩护出逃的行为",
+        "Opinion": "怀疑掩护",
+        "Sentiment": "doubt",
+        "Rationale": "说话人1对说话人2是否掩护他人出逃有疑问"
+    },
+    {
+        "sentence": "他真出事了啊",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "出事的情况",
+        "Opinion": "确认出事",
+        "Sentiment": "negative",
+        "Rationale": "得知他确实出事了"
+    },
+    {
+        "sentence": "你以为。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "对情况的认知",
+        "Opinion": "质疑认知",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人2对情况的认知有误"
+    },
+    {
+        "sentence": "蔡成功我告诉你，汉东人民检察院没准真会去找你，我问你你向丁义珍行过贿？",
+        "Holder": "1",
+        "Target": "蔡成功",
+        "Aspect": "行贿行为",
+        "Opinion": "怀疑行贿",
+        "Sentiment": "negative",
+        "Rationale": "担心蔡成功可能会被检察院调查行贿问题"
+    },
+    {
+        "sentence": "还是没有，你拿我跟反正就吓唬他做什么？到底有没有。",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "质疑的动机",
+        "Opinion": "认为被吓唬",
+        "Sentiment": "negative",
+        "Rationale": "觉得说话人1在无端吓唬自己"
+    },
+    {
+        "sentence": "能没有吗。",
+        "Holder": "1",
+        "Target": "蔡成功",
+        "Aspect": "行贿行为",
+        "Opinion": "认为有行贿",
+        "Sentiment": "negative",
+        "Rationale": "认为蔡成功确实有行贿行为"
+    },
+    {
+        "sentence": "有什么。",
+        "Holder": "1",
+        "Target": "礼物内容",
+        "Aspect": "礼物的具体种类",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问具体送了什么礼物"
+    },
+    {
+        "sentence": "没送过什么就送过一些便宜的什么烟酒什么，还有一张卡。",
+        "Holder": "1",
+        "Target": "礼物内容",
+        "Aspect": "礼物的价值和种类",
+        "Opinion": "礼物价值低且种类普通",
+        "Sentiment": "negative",
+        "Rationale": "1提到的礼物都是便宜且普通的"
+    },
+    {
+        "sentence": "银行卡是吧？有多少。",
+        "Holder": "2",
+        "Target": "银行卡",
+        "Aspect": "卡内金额",
+        "Opinion": "询问金额",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问银行卡内的金额"
+    },
+    {
+        "sentence": "猴子你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "称呼",
+        "Opinion": "使用昵称",
+        "Sentiment": "neutral",
+        "Rationale": "2使用昵称称呼1"
+    },
+    {
+        "sentence": "神了是吧？你这是在你家，你小眼神吓死我了你。行行，我跟你说你有多少钱，你跟你说这干嘛你把我办了",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "眼神和威胁",
+        "Opinion": "感到害怕和不满",
+        "Sentiment": "negative",
+        "Rationale": "1的眼神和行为让2感到威胁和不安"
+    },
+    {
+        "sentence": "不跟我说什么，你回去以后跟陈海去说，该举报就举报，该坦白就坦白。我告诉你，你如果坦白了，自己的行贿行为算是立功",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "处理方式",
+        "Opinion": "建议坦白",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能够通过坦白来减轻自己的罪行"
+    }
+]

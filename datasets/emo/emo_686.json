@@ -1,0 +1,84 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "游戏战术策略分歧",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑2的游戏策略合理性,认为其未预判敌人动向",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出具体战术建议并解释观察必要性",
+            "source_id": "2,3"
+          },
+          {
+            "state": "negative",
+            "reason": "持续争论导致情绪升级并关闭沟通",
+            "source_id": "2,3"
+          }
+        ]
+      },
+      {
+        "event": "责任归属争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责2在关键节点干扰团队协作",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "承认自身战术失误并调整策略",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "防守位置分配矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑1的观察重点与战术选择",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释自身行为逻辑与观察依据",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "对责任划分标准提出根本性质疑",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "团队协调失效处理",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "评估潜在风险并尝试调解矛盾",
+            "source_id": "1,2"
+          },
+          {
+            "state": "positive",
+            "reason": "主动承担补救任务改善局面",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

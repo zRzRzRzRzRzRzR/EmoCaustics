@@ -1,0 +1,731 @@
+[
+    {
+        "sentence": "今天看完这个直播，就是大家避雷啊，这个牌子的这个刀啊。",
+        "Holder": "1",
+        "Target": "这个牌子的刀",
+        "Aspect": "产品质量",
+        "Opinion": "需要避雷",
+        "Sentiment": "negative",
+        "Rationale": "看完直播后对这个牌子的刀的质量不满意"
+    },
+    {
+        "sentence": "什么牌子？",
+        "Holder": "2",
+        "Target": "这个牌子",
+        "Aspect": "品牌名称",
+        "Opinion": "询问品牌",
+        "Sentiment": "neutral",
+        "Rationale": "不知道具体是哪个牌子"
+    },
+    {
+        "sentence": "我当时是因为他菜板是hello kitty我才买的！",
+        "Holder": "2",
+        "Target": "菜板",
+        "Aspect": "设计图案",
+        "Opinion": "喜欢hello kitty",
+        "Sentiment": "positive",
+        "Rationale": "菜板上有喜欢的hello kitty图案"
+    },
+    {
+        "sentence": "你这哪里是hello kitty？",
+        "Holder": "1",
+        "Target": "菜板",
+        "Aspect": "设计图案",
+        "Opinion": "不是hello kitty",
+        "Sentiment": "negative",
+        "Rationale": "认为菜板上的图案并不是hello kitty"
+    },
+    {
+        "sentence": "你自己举起来，它不是一个猫头吗？",
+        "Holder": "2",
+        "Target": "菜板",
+        "Aspect": "设计图案",
+        "Opinion": "是猫头",
+        "Sentiment": "positive",
+        "Rationale": "认为菜板上的图案确实是一个猫头"
+    },
+    {
+        "sentence": "它不是。",
+        "Holder": "1",
+        "Target": "它",
+        "Aspect": "身份或属性",
+        "Opinion": "否定",
+        "Sentiment": "neutral",
+        "Rationale": "1对‘它’的身份或属性进行否定"
+    },
+    {
+        "sentence": "它就是。",
+        "Holder": "2",
+        "Target": "它",
+        "Aspect": "身份或属性",
+        "Opinion": "肯定",
+        "Sentiment": "neutral",
+        "Rationale": "2对‘它’的身份或属性进行肯定"
+    },
+    {
+        "sentence": "比较好看。",
+        "Holder": "2",
+        "Target": "它",
+        "Aspect": "外观",
+        "Opinion": "好看",
+        "Sentiment": "positive",
+        "Rationale": "2认为‘它’的外观比较好看"
+    },
+    {
+        "sentence": "就这样吧。",
+        "Holder": "1",
+        "Target": "讨论",
+        "Aspect": "结束讨论",
+        "Opinion": "接受现状",
+        "Sentiment": "neutral",
+        "Rationale": "1不想继续讨论"
+    },
+    {
+        "sentence": "就是一个猫头！",
+        "Holder": "2",
+        "Target": "它",
+        "Aspect": "身份或属性",
+        "Opinion": "是猫头",
+        "Sentiment": "positive",
+        "Rationale": "2坚定地认为‘它’是一个猫头"
+    },
+    {
+        "sentence": "那你用你那个案板呗，你不是有皮卡丘吗？",
+        "Holder": "2",
+        "Target": "案板",
+        "Aspect": "使用建议",
+        "Opinion": "建议使用皮卡丘案板",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个使用案板的建议，没有明显的情感变化"
+    },
+    {
+        "sentence": "我不是案板的问题，是刀的问题啊姐！你有没有搞懂啊？",
+        "Holder": "1",
+        "Target": "问题原因",
+        "Aspect": "问题识别",
+        "Opinion": "问题是刀的问题",
+        "Sentiment": "negative",
+        "Rationale": "对方没有理解真正的问题所在"
+    },
+    {
+        "sentence": "可是他图片上看去就很好看！",
+        "Holder": "2",
+        "Target": "图片",
+        "Aspect": "外观",
+        "Opinion": "看起来很好看",
+        "Sentiment": "positive",
+        "Rationale": "图片上的东西看起来很吸引人"
+    },
+    {
+        "sentence": "就是一个外贸协会嘛，买了一个看起来很好看的。",
+        "Holder": "1",
+        "Target": "购买原因",
+        "Aspect": "外观选择",
+        "Opinion": "外观好看",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地描述购买的原因是基于外观，没有明显的情感变化"
+    },
+    {
+        "sentence": "它是几件套，还有勺子碗，看得到吗？",
+        "Holder": "2",
+        "Target": "套装内容",
+        "Aspect": "套装包含的物品",
+        "Opinion": "包含勺子碗",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述套装内容"
+    },
+    {
+        "sentence": "勺子碗，哪有？勺子是我买的。",
+        "Holder": "1",
+        "Target": "勺子碗的来源",
+        "Aspect": "物品的归属",
+        "Opinion": "勺子是自己买的",
+        "Sentiment": "negative",
+        "Rationale": "1认为勺子是自己买的，不包含在套装里"
+    },
+    {
+        "sentence": "不是，那一排黑的那个铲铲夹子都是那一套的！我这个是九件套。",
+        "Holder": "2",
+        "Target": "套装内容",
+        "Aspect": "套装包含的物品",
+        "Opinion": "包含铲铲夹子",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释套装的具体内容"
+    },
+    {
+        "sentence": "什么？夹子是我的！",
+        "Holder": "1",
+        "Target": "夹子",
+        "Aspect": "所有权",
+        "Opinion": "夹子属于自己",
+        "Sentiment": "negative",
+        "Rationale": "发现夹子被误认为是别人的"
+    },
+    {
+        "sentence": "但是那四个铲，黑铲铲是一套的！",
+        "Holder": "2",
+        "Target": "黑铲铲",
+        "Aspect": "成套性",
+        "Opinion": "黑铲铲是一套的",
+        "Sentiment": "neutral",
+        "Rationale": "指出黑铲铲是一套的"
+    },
+    {
+        "sentence": "黑铲也是我的！这个也是我的！",
+        "Holder": "1",
+        "Target": "黑铲",
+        "Aspect": "所有权",
+        "Opinion": "黑铲属于自己",
+        "Sentiment": "negative",
+        "Rationale": "对方声称黑铲是他们的"
+    },
+    {
+        "sentence": "是我的！",
+        "Holder": "2",
+        "Target": "黑铲",
+        "Aspect": "所有权",
+        "Opinion": "黑铲属于自己",
+        "Sentiment": "negative",
+        "Rationale": "对方坚持黑铲是他们的"
+    },
+    {
+        "sentence": "我给你看那个看买的记录。",
+        "Holder": "2",
+        "Target": "购买记录",
+        "Aspect": "证据",
+        "Opinion": "有购买记录证明",
+        "Sentiment": "neutral",
+        "Rationale": "希望通过购买记录来证明所有权"
+    },
+    {
+        "sentence": "你去看！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行动要求",
+        "Opinion": "要求去看",
+        "Sentiment": "neutral",
+        "Rationale": "1要求2去看某事"
+    },
+    {
+        "sentence": "我服了，什么人啊？",
+        "Holder": "1",
+        "Target": "某个人",
+        "Aspect": "行为或态度",
+        "Opinion": "无法理解或接受",
+        "Sentiment": "negative",
+        "Rationale": "1对某人的行为或态度感到无法理解或接受"
+    },
+    {
+        "sentence": "谁的谁的？",
+        "Holder": "1",
+        "Target": "物品归属",
+        "Aspect": "所有权",
+        "Opinion": "询问归属",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问物品的归属"
+    },
+    {
+        "sentence": "我说那几个铲铲！",
+        "Holder": "2",
+        "Target": "铲铲",
+        "Aspect": "物品",
+        "Opinion": "指代物品",
+        "Sentiment": "neutral",
+        "Rationale": "2在指代某个物品"
+    },
+    {
+        "sentence": "是我的！我买的！",
+        "Holder": "1",
+        "Target": "铲铲",
+        "Aspect": "所有权",
+        "Opinion": "确认归属",
+        "Sentiment": "positive",
+        "Rationale": "1确认铲铲是自己买的"
+    },
+    {
+        "sentence": "这是配套的！",
+        "Holder": "2",
+        "Target": "刀的配套情况",
+        "Aspect": "配套完整性",
+        "Opinion": "认为是配套的",
+        "Sentiment": "neutral",
+        "Rationale": "2认为所提供的刀是成套的"
+    },
+    {
+        "sentence": "不是，你这个只配了三把刀！",
+        "Holder": "1",
+        "Target": "刀的配套情况",
+        "Aspect": "配套完整性",
+        "Opinion": "认为只配了三把刀",
+        "Sentiment": "negative",
+        "Rationale": "1发现刀的数量不符合预期"
+    },
+    {
+        "sentence": "那其他刀呢？",
+        "Holder": "2",
+        "Target": "其他刀的存在",
+        "Aspect": "刀的数量",
+        "Opinion": "询问其他刀的下落",
+        "Sentiment": "neutral",
+        "Rationale": "2对刀的数量有疑问"
+    },
+    {
+        "sentence": "哪有其他的刀？",
+        "Holder": "1",
+        "Target": "其他刀的存在",
+        "Aspect": "刀的数量",
+        "Opinion": "否认有其他刀",
+        "Sentiment": "negative",
+        "Rationale": "1确认没有其他刀"
+    },
+    {
+        "sentence": "这儿啊，两把刀，就只有两把刀加一个这个。连这把剪刀都是我买的！",
+        "Holder": "1",
+        "Target": "刀和剪刀的来源",
+        "Aspect": "物品的提供者",
+        "Opinion": "强调自己购买的剪刀",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己额外购买了剪刀，却没有得到应有的配套"
+    },
+    {
+        "sentence": "水果刀吗？",
+        "Holder": "2",
+        "Target": "水果刀",
+        "Aspect": "物品确认",
+        "Opinion": "询问是否是水果刀",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认物品是否是水果刀"
+    },
+    {
+        "sentence": "水果刀加一个这个很难用的菜刀。",
+        "Holder": "1",
+        "Target": "菜刀",
+        "Aspect": "使用体验",
+        "Opinion": "菜刀很难用",
+        "Sentiment": "negative",
+        "Rationale": "1认为菜刀很难用"
+    },
+    {
+        "sentence": "这个黑铲不是吗？",
+        "Holder": "2",
+        "Target": "黑铲",
+        "Aspect": "物品确认",
+        "Opinion": "询问是否是黑铲",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认物品是否是黑铲"
+    },
+    {
+        "sentence": "是我买的！",
+        "Holder": "1",
+        "Target": "黑铲",
+        "Aspect": "物品归属",
+        "Opinion": "确认是自己购买的",
+        "Sentiment": "positive",
+        "Rationale": "1确认黑铲是自己购买的"
+    },
+    {
+        "sentence": "你看你找半天没找到吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "寻找物品的能力",
+        "Opinion": "2找东西效率低",
+        "Sentiment": "negative",
+        "Rationale": "1看到2找了半天还没找到"
+    },
+    {
+        "sentence": "我没找！",
+        "Holder": "2",
+        "Target": "找东西的行为",
+        "Aspect": "是否进行了寻找",
+        "Opinion": "没有寻找",
+        "Sentiment": "neutral",
+        "Rationale": "2在否认自己进行了寻找的行为"
+    },
+    {
+        "sentence": "我买的。",
+        "Holder": "1",
+        "Target": "厨房物品的购买者",
+        "Aspect": "物品归属",
+        "Opinion": "自己购买的",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述自己购买了物品"
+    },
+    {
+        "sentence": "这个厨房的东西90%都是我买的，应该说可能就这个菜板和这两把刀是你买的。",
+        "Holder": "1",
+        "Target": "厨房物品的购买者",
+        "Aspect": "物品归属",
+        "Opinion": "大部分是自己购买的",
+        "Sentiment": "neutral",
+        "Rationale": "1在详细说明厨房物品的购买情况"
+    },
+    {
+        "sentence": "啥？那饮水机不是我买的吗？",
+        "Holder": "2",
+        "Target": "饮水机的购买者",
+        "Aspect": "物品归属",
+        "Opinion": "认为是自己购买的",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对饮水机的购买者有疑问"
+    },
+    {
+        "sentence": "我说厨房里的东西，这个饮水机算厨房里的东西？不算吧。",
+        "Holder": "1",
+        "Target": "饮水机的归类",
+        "Aspect": "物品分类",
+        "Opinion": "饮水机不算厨房物品",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释饮水机不属于厨房物品"
+    },
+    {
+        "sentence": "这调料是你买的。",
+        "Holder": "2",
+        "Target": "调料",
+        "Aspect": "购买者",
+        "Opinion": "认为是1买的",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认调料的购买者"
+    },
+    {
+        "sentence": "所有调料、调料架、锅铲、夹子，各种都是我买的。",
+        "Holder": "1",
+        "Target": "所有厨房用品",
+        "Aspect": "购买者",
+        "Opinion": "都是自己买的",
+        "Sentiment": "positive",
+        "Rationale": "1强调了自己购买了所有厨房用品"
+    },
+    {
+        "sentence": "我没买？",
+        "Holder": "2",
+        "Target": "调料",
+        "Aspect": "购买者",
+        "Opinion": "质疑自己没买",
+        "Sentiment": "doubt",
+        "Rationale": "2对1的说法感到疑惑"
+    },
+    {
+        "sentence": "这冰箱的，电视柜这个架子都是我买的。",
+        "Holder": "2",
+        "Target": "冰箱和电视柜架子",
+        "Aspect": "购买者",
+        "Opinion": "都是自己买的",
+        "Sentiment": "positive",
+        "Rationale": "2强调了自己购买了冰箱和电视柜架子"
+    },
+    {
+        "sentence": "啊？冰箱电视柜？",
+        "Holder": "1",
+        "Target": "冰箱和电视柜",
+        "Aspect": "购买者",
+        "Opinion": "惊讶于2的说法",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2提到的冰箱和电视柜的购买者感到意外"
+    },
+    {
+        "sentence": "这个柜子架子不是我买的吗？",
+        "Holder": "2",
+        "Target": "柜子架子",
+        "Aspect": "购买者",
+        "Opinion": "自己购买",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认柜子架子的购买者"
+    },
+    {
+        "sentence": "电视柜是我买的呀！",
+        "Holder": "1",
+        "Target": "电视柜",
+        "Aspect": "购买者",
+        "Opinion": "自己购买",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认电视柜的购买者"
+    },
+    {
+        "sentence": "我买的！",
+        "Holder": "2",
+        "Target": "柜子架子",
+        "Aspect": "购买者",
+        "Opinion": "自己购买",
+        "Sentiment": "negative",
+        "Rationale": "2坚持认为柜子架子是自己买的"
+    },
+    {
+        "sentence": "我气死了，我给你甩在脸上。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "态度",
+        "Opinion": "极度不满",
+        "Sentiment": "negative",
+        "Rationale": "2感到非常愤怒，认为1不认可自己的购买行为"
+    },
+    {
+        "sentence": "你拿出交易记录啊。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "证据",
+        "Opinion": "需要证据",
+        "Sentiment": "neutral",
+        "Rationale": "1要求2提供交易记录来证明"
+    },
+    {
+        "sentence": "你每次都是，昨天你还说这架子是你买的，我说是我买的，然后你就在那里。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "架子的归属",
+        "Opinion": "1声称架子是自己的",
+        "Sentiment": "negative",
+        "Rationale": "1坚持声称架子是自己买的，与2的观点冲突"
+    },
+    {
+        "sentence": "上一个架子是我买的呀，我说错了吗？坏掉的那个是我买的呀。",
+        "Holder": "1",
+        "Target": "架子的归属",
+        "Aspect": "架子的购买者",
+        "Opinion": "自己买了坏掉的架子",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己确实买了坏掉的架子"
+    },
+    {
+        "sentence": "拿去，证据！看一眼。",
+        "Holder": "2",
+        "Target": "架子的归属",
+        "Aspect": "证据的提供",
+        "Opinion": "有证据证明归属",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己有证据可以证明架子的归属"
+    },
+    {
+        "sentence": "什么看一眼？",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "要求的明确性",
+        "Opinion": "不清楚2的要求",
+        "Sentiment": "neutral",
+        "Rationale": "1不明白2所说的“看一眼”是指什么"
+    },
+    {
+        "sentence": "电视柜。",
+        "Holder": "2",
+        "Target": "证据的具体内容",
+        "Aspect": "证据的指向",
+        "Opinion": "电视柜是证据",
+        "Sentiment": "neutral",
+        "Rationale": "2指出电视柜作为证据"
+    },
+    {
+        "sentence": "无语了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让2感到无法理解"
+    },
+    {
+        "sentence": "没看到！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为可见性",
+        "Opinion": "没看到",
+        "Sentiment": "neutral",
+        "Rationale": "1确实没看到2的行为"
+    },
+    {
+        "sentence": "你弄那么快，是不是心虚？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑心虚",
+        "Sentiment": "negative",
+        "Rationale": "2的动作快让1怀疑其心虚"
+    },
+    {
+        "sentence": "这不是吗？我没有，我是给你看完这个之后找那个菜刀的订单了！",
+        "Holder": "2",
+        "Target": "1的怀疑",
+        "Aspect": "行为解释",
+        "Opinion": "否认心虚",
+        "Sentiment": "negative",
+        "Rationale": "被1怀疑心虚"
+    },
+    {
+        "sentence": "心虚啊，杨媛媛。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "心理状态",
+        "Opinion": "坚持心虚",
+        "Sentiment": "negative",
+        "Rationale": "1仍然认为2心虚"
+    },
+    {
+        "sentence": "这是我买的呀，我现在给你找菜刀的，神经。",
+        "Holder": "2",
+        "Target": "菜刀",
+        "Aspect": "物品归属",
+        "Opinion": "自己购买的",
+        "Sentiment": "negative",
+        "Rationale": "被质疑菜刀的归属"
+    },
+    {
+        "sentence": "我这四件套我找到了！",
+        "Holder": "2",
+        "Target": "四件套",
+        "Aspect": "物品寻找",
+        "Opinion": "找到了",
+        "Sentiment": "positive",
+        "Rationale": "找到了自己需要的四件套"
+    },
+    {
+        "sentence": "没有任何一个铲子吧？",
+        "Holder": "1",
+        "Target": "铲子",
+        "Aspect": "物品存在",
+        "Opinion": "没有",
+        "Sentiment": "neutral",
+        "Rationale": "询问铲子的存在情况"
+    },
+    {
+        "sentence": "有那个，哦对，是削皮刀削皮的。",
+        "Holder": "2",
+        "Target": "削皮刀",
+        "Aspect": "物品功能",
+        "Opinion": "用于削皮",
+        "Sentiment": "neutral",
+        "Rationale": "解释削皮刀的功能"
+    },
+    {
+        "sentence": "还不是你一直在那吐槽这个刀，我多难受呀，我买这个。",
+        "Holder": "2",
+        "Target": "刀",
+        "Aspect": "物品评价",
+        "Opinion": "被吐槽",
+        "Sentiment": "negative",
+        "Rationale": "对方一直吐槽自己买的刀"
+    },
+    {
+        "sentence": "对，四件套。",
+        "Holder": "1",
+        "Target": "四件套",
+        "Aspect": "物品确认",
+        "Opinion": "确认物品",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地确认物品"
+    },
+    {
+        "sentence": "能别吐槽了吗？",
+        "Holder": "2",
+        "Target": "1的吐槽",
+        "Aspect": "吐槽行为",
+        "Opinion": "希望停止吐槽",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的吐槽让人不舒服"
+    },
+    {
+        "sentence": "还有个这个。然后你说的那些都是你买的。",
+        "Holder": "1",
+        "Target": "物品归属",
+        "Aspect": "物品来源",
+        "Opinion": "指出物品是2买的",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实"
+    },
+    {
+        "sentence": "我不喜欢那种很大的那种刀，很吓人，看着像杀猪的。",
+        "Holder": "2",
+        "Target": "大刀",
+        "Aspect": "外观和用途",
+        "Opinion": "不喜欢大刀",
+        "Sentiment": "negative",
+        "Rationale": "觉得大刀外观吓人且用途不合适"
+    },
+    {
+        "sentence": "那个不好用！都跟你说了，这个不好用，那种刀才好用。你就是不做饭的人，更不知道我们中国传统菜刀有多么的好用，可以拍蒜，可以在骨头，杀鱼杀鸡，切蒜切肉切。",
+        "Holder": "1",
+        "Target": "大刀的实用性",
+        "Aspect": "使用效果",
+        "Opinion": "认为大刀好用",
+        "Sentiment": "positive",
+        "Rationale": "认为大刀在多种烹饪操作中都很实用"
+    },
+    {
+        "sentence": "切蒜不是用那个喇吗？",
+        "Holder": "2",
+        "Target": "切蒜工具",
+        "Aspect": "工具的选择",
+        "Opinion": "应该用喇",
+        "Sentiment": "neutral",
+        "Rationale": "对切蒜工具的选择有疑问"
+    },
+    {
+        "sentence": "不需要啊，你就拿那个刀旁边按，很好用。你这个就拍不了蒜，你这个绝对拍不了蒜。",
+        "Holder": "1",
+        "Target": "切蒜方法",
+        "Aspect": "方法的实用性",
+        "Opinion": "刀按法好用",
+        "Sentiment": "positive",
+        "Rationale": "认为用刀按的方法切蒜很方便"
+    },
+    {
+        "sentence": "蒜拍的不好！",
+        "Holder": "2",
+        "Target": "蒜拍",
+        "Aspect": "蒜拍的效果",
+        "Opinion": "效果不好",
+        "Sentiment": "negative",
+        "Rationale": "觉得蒜拍的效果不理想"
+    },
+    {
+        "sentence": "这个时候你开始说蒜拍的不好。",
+        "Holder": "1",
+        "Target": "2的说法",
+        "Aspect": "说法的时机",
+        "Opinion": "时机不对",
+        "Sentiment": "negative",
+        "Rationale": "觉得2在此时说蒜拍不好有些不合时宜"
+    },
+    {
+        "sentence": "你不是每次都喇吗？你都不拍蒜的。你现在拍蒜了？你不是每次都喇蒜吗？",
+        "Holder": "2",
+        "Target": "1的切蒜习惯",
+        "Aspect": "习惯的一致性",
+        "Opinion": "1习惯用喇",
+        "Sentiment": "neutral",
+        "Rationale": "对1的切蒜习惯有疑问"
+    },
+    {
+        "sentence": "因为你这个不能拍啊！我才买的喇蒜器！不是吗？",
+        "Holder": "1",
+        "Target": "喇蒜器",
+        "Aspect": "使用功能",
+        "Opinion": "不能拍",
+        "Sentiment": "negative",
+        "Rationale": "买的喇蒜器不能用于拍打"
+    },
+    {
+        "sentence": "你这个不做饭的人就是这样。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "做饭习惯",
+        "Opinion": "不做饭",
+        "Sentiment": "negative",
+        "Rationale": "认为2不做饭"
+    },
+    {
+        "sentence": "我做饭！我在广州已经是做的最多的了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "做饭频率",
+        "Opinion": "做饭最多",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己在广州做饭最多"
+    },
+    {
+        "sentence": "对，比起你在家你确实做了很多了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "做饭频率",
+        "Opinion": "确实做了很多",
+        "Sentiment": "neutral",
+        "Rationale": "承认2在广州做饭较多"
+    }
+]

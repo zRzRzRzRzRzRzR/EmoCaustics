@@ -1,0 +1,39 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "权力与责任讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "强调自身职责范围", "source_id": "1"},
+          {"state": "negative", "reason": "反思项目决策失误及补偿不足", "source_id": "1,2"},
+          {"state": "negative", "reason": "因指责性言论导致对话破裂", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "美食城项目争议",
+        "emotions": [
+          {"state": "negative", "reason": "对历史审批的环保性后悔", "source_id": "1"},
+          {"state": "neutral", "reason": "承认项目经济收益", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "权力与责任讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "强调权力层级差异", "source_id": "1"},
+          {"state": "negative", "reason": "暗示权力对比的不满", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "对话冲突与缓和",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方推诿责任", "source_id": "1"},
+          {"state": "neutral", "reason": "主动缓和紧张气氛", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

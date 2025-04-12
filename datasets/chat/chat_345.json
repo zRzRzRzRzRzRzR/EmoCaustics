@@ -1,0 +1,191 @@
+[
+    {
+        "sentence": "达康书记我到处找找不着你，也只能到您家里守株待兔了，",
+        "Holder": "1",
+        "Target": "达康书记",
+        "Aspect": "寻找达康书记的过程",
+        "Opinion": "找不到",
+        "Sentiment": "neutral",
+        "Rationale": "找不到达康书记"
+    },
+    {
+        "sentence": "我都变成兔子了，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "被寻找的状态",
+        "Opinion": "被比喻成兔子",
+        "Sentiment": "neutral",
+        "Rationale": "被说话人1比喻成兔子"
+    },
+    {
+        "sentence": "不敢开个开玩笑，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "开玩笑的行为",
+        "Opinion": "不敢开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "担心玩笑不合适"
+    },
+    {
+        "sentence": "是吧？赵总不喝茶就喝可乐，",
+        "Holder": "2",
+        "Target": "赵总",
+        "Aspect": "饮料选择",
+        "Opinion": "赵总喜欢喝可乐",
+        "Sentiment": "neutral",
+        "Rationale": "提到赵总的饮料选择"
+    },
+    {
+        "sentence": "多谢李哥这么多年了，你还记得我的生活细节，",
+        "Holder": "1",
+        "Target": "李哥",
+        "Aspect": "记忆和关心",
+        "Opinion": "感激",
+        "Sentiment": "positive",
+        "Rationale": "李哥多年后还记得自己的生活细节"
+    },
+    {
+        "sentence": "怎么能会忘我跟老书记5年，我听说去年老书记心脏不好，怎么样了。",
+        "Holder": "2",
+        "Target": "老书记",
+        "Aspect": "健康状况",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "听说老书记心脏不好"
+    },
+    {
+        "sentence": "做了个手术加了几个支架恢复得很好，你。放心。",
+        "Holder": "1",
+        "Target": "老书记的健康",
+        "Aspect": "手术恢复",
+        "Opinion": "恢复良好",
+        "Sentiment": "positive",
+        "Rationale": "老书记手术后恢复良好"
+    },
+    {
+        "sentence": "那就好，让他注意身体，遇事千万不要激动。",
+        "Holder": "2",
+        "Target": "老书记",
+        "Aspect": "健康建议",
+        "Opinion": "注意身体",
+        "Sentiment": "neutral",
+        "Rationale": "老书记有心脏问题"
+    },
+    {
+        "sentence": "我们家老爷子就是容易激动，尤其是对咱们汉东的人和事。",
+        "Holder": "1",
+        "Target": "老爷子",
+        "Aspect": "情绪稳定性",
+        "Opinion": "容易激动",
+        "Sentiment": "neutral",
+        "Rationale": "老爷子对汉东的人和事特别敏感"
+    },
+    {
+        "sentence": "可以理解，毕竟老书记在汉东干了30多年。",
+        "Holder": "2",
+        "Target": "老爷子",
+        "Aspect": "情绪原因",
+        "Opinion": "可以理解",
+        "Sentiment": "neutral",
+        "Rationale": "老书记在汉东工作了多年"
+    },
+    {
+        "sentence": "咱就别说我们家老爷子了，说说你怎么着，听说嫂子被拘了，还当着你的面。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "家庭状况",
+        "Opinion": "嫂子被拘",
+        "Sentiment": "negative",
+        "Rationale": "听说嫂子被拘且当着说话人2的面"
+    },
+    {
+        "sentence": "听谁说的，祁同伟还是山水庄园高小琴。",
+        "Holder": "2",
+        "Target": "消息来源",
+        "Aspect": "消息可靠性",
+        "Opinion": "质疑消息来源",
+        "Sentiment": "neutral",
+        "Rationale": "不确定消息的来源是否可靠"
+    },
+    {
+        "sentence": "就甭管谁说的了，总之我们老爷子听说以后很为你和汉中的同志们着急，特意嘱咐今天一早无论如何找到你，他就给你带几句话，",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "关心程度",
+        "Opinion": "非常关心",
+        "Sentiment": "positive",
+        "Rationale": "老爷子听说消息后非常着急，特意嘱咐要找到说话人2"
+    },
+    {
+        "sentence": "真的那就传旨。",
+        "Holder": "1",
+        "Target": "传旨的决定",
+        "Aspect": "决定的执行",
+        "Opinion": "同意传旨",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1接受了传旨的建议"
+    },
+    {
+        "sentence": "不最后几句话。",
+        "Holder": "2",
+        "Target": "最后几句话",
+        "Aspect": "话语的重要性",
+        "Opinion": "认为不重要",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2觉得最后几句话不重要"
+    },
+    {
+        "sentence": "都说什么了？",
+        "Holder": "1",
+        "Target": "最后几句话的内容",
+        "Aspect": "内容的询问",
+        "Opinion": "好奇内容",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1想知道最后几句话的内容"
+    },
+    {
+        "sentence": "第一句就是希望你能相信党，相信组织、相信法律，",
+        "Holder": "1",
+        "Target": "第一句话的内容",
+        "Aspect": "内容的传达",
+        "Opinion": "传达信任要求",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在传达具体的内容"
+    },
+    {
+        "sentence": "我就是这么想的，也是这么做的。",
+        "Holder": "2",
+        "Target": "自己的行为和想法",
+        "Aspect": "行为与想法的一致性",
+        "Opinion": "行为与想法一致",
+        "Sentiment": "positive",
+        "Rationale": "说话人2的行为和想法一致"
+    },
+    {
+        "sentence": "第二句就是希望你能跟欧阳菁尽快切割，以离婚为由。",
+        "Holder": "1",
+        "Target": "2与欧阳菁的关系",
+        "Aspect": "关系处理",
+        "Opinion": "尽快切割",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能尽快解决与欧阳菁的关系问题"
+    },
+    {
+        "sentence": "已经离掉了，",
+        "Holder": "2",
+        "Target": "与欧阳菁的离婚",
+        "Aspect": "离婚状态",
+        "Opinion": "已经离婚",
+        "Sentiment": "neutral",
+        "Rationale": "2已经完成了离婚手续"
+    },
+    {
+        "sentence": "那就好完了。第三句就是希望欧阳菁不论是什么结果，都是希望哥哥你能正确面对，别有抵触情绪。",
+        "Holder": "1",
+        "Target": "2对欧阳菁结果的态度",
+        "Aspect": "情绪管理",
+        "Opinion": "正确面对",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能理性对待欧阳菁的任何结果"
+    }
+]

@@ -1,0 +1,64 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "作文指导请求与责任划分",
+        "emotions": [
+          {"state": "positive", "reason": "主动寻求写作帮助", "source_id": "1"},
+          {"state": "neutral", "reason": "明确分工说明", "source_id": "1"},
+          {"state": "positive", "reason": "表达对心理成熟的自信", "source_id": "1"},
+          {"state": "negative", "reason": "担忧家庭成员安全", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "外出行为争议",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝作文帮助请求", "source_id": "2"},
+          {"state": "negative", "reason": "限制未成年人参与", "source_id": "2"},
+          {"state": "positive", "reason": "通过装扮获取成熟认同", "source_id": "4"},
+          {"state": "neutral", "reason": "以学习名义解释外出", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭责任履行质疑",
+        "emotions": [
+          {"state": "negative", "reason": "反对非用餐时间外出", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑小雪行为异常", "source_id": "3"},
+          {"state": "negative", "reason": "批评父职履行缺失", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "装扮风格评价",
+        "emotions": [
+          {"state": "positive", "reason": "称赞电影演员式装扮", "source_id": "4"},
+          {"state": "negative", "reason": "担忧墨镜安全隐患", "source_id": "4"},
+          {"state": "positive", "reason": "认同保护责任即学习", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭管理协调",
+        "emotions": [
+          {"state": "neutral", "reason": "接受外出学习理由", "source_id": "5"},
+          {"state": "neutral", "reason": "解释无法阻止孩子外出", "source_id": "5"},
+          {"state": "negative", "reason": "被质疑未尽监护责任", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

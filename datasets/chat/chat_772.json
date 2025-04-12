@@ -1,0 +1,65 @@
+[
+    {
+        "sentence": "非常高兴我们今天的活动邀请到我十几年的导师，我们上海交通大学的我们鲍教授。",
+        "Holder": "1",
+        "Target": "鲍教授",
+        "Aspect": "邀请导师",
+        "Opinion": "高兴",
+        "Sentiment": "positive",
+        "Rationale": "邀请到了自己十几年的导师鲍教授"
+    },
+    {
+        "sentence": "非常高兴我们今天参加我们的周会长的会议",
+        "Holder": "2",
+        "Target": "周会长的会议",
+        "Aspect": "参加会议",
+        "Opinion": "高兴",
+        "Sentiment": "positive",
+        "Rationale": "能够参加周会长的会议"
+    },
+    {
+        "sentence": "高兴非常荣幸邀请到我们鲍教授。",
+        "Holder": "1",
+        "Target": "鲍教授",
+        "Aspect": "邀请导师",
+        "Opinion": "荣幸",
+        "Sentiment": "positive",
+        "Rationale": "能够邀请到鲍教授"
+    },
+    {
+        "sentence": "今天的会议非常重要，它依然是我们的智能智慧，一个就是我们的医疗、健康、卫生。那么这两个关键词加在一起就构建我们健康中国的基石。",
+        "Holder": "2",
+        "Target": "会议",
+        "Aspect": "会议重要性",
+        "Opinion": "非常重要",
+        "Sentiment": "positive",
+        "Rationale": "会议涉及智能智慧和医疗健康卫生，这些都是构建健康中国基石的关键"
+    },
+    {
+        "sentence": "下午好，欢迎各位共同来到本次智慧医疗产业经济研讨会的现场。",
+        "Holder": "5",
+        "Target": "各位来宾",
+        "Aspect": "欢迎",
+        "Opinion": "欢迎各位",
+        "Sentiment": "positive",
+        "Rationale": "作为主持人，对来宾表示欢迎是礼貌和热情的表现"
+    },
+    {
+        "sentence": "各位好，我是今天的主持人李杰，非常高兴能够在今天下午这样一个美好的时刻，与在座的各位来宾朋友相聚于此。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "自我介绍和心情",
+        "Opinion": "非常高兴",
+        "Sentiment": "positive",
+        "Rationale": "能够在这样一个美好的时刻与来宾相聚，感到荣幸和开心"
+    },
+    {
+        "sentence": "邀请来自政府相关部门、医院、企业、高校等各界嘉宾共聚一堂",
+        "Holder": "5",
+        "Target": "各界嘉宾",
+        "Aspect": "邀请和参与",
+        "Opinion": "共聚一堂",
+        "Sentiment": "positive",
+        "Rationale": "能够邀请到来自各界的嘉宾共同参与研讨会，感到荣幸和期待"
+    }
+]

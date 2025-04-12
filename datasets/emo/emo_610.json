@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚礼现场冲突升级",
+        "emotions": [
+          {"state": "negative", "reason": "作为前妻未被邀请观礼", "source_id": "4"},
+          {"state": "ambiguous", "reason": "表面送祝福实际质疑婚礼正当性", "source_id": "2,4"},
+          {"state": "positive", "reason": "通过婚纱价值暗示婚姻本质", "source_id": "2"},
+          {"state": "negative", "reason": "被当众贬低外貌和婚姻价值", "source_id": "2"},
+          {"state": "negative", "reason": "揭露叶小姐第三者身份", "source_id": "2,4"}
+        ]
+      },
+      {
+        "event": "玉佩真相揭露",
+        "emotions": [
+          {"state": "neutral", "reason": "确认霍峥寻找玉佩主人事实", "source_id": "4"},
+          {"state": "negative", "reason": "质疑婚内出轨的正当性", "source_id": "4"},
+          {"state": "negative", "reason": "揭露霍峥认错报恩对象", "source_id": "4,5"},
+          {"state": "positive", "reason": "成功证明玉佩真实归属", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "婚礼主导权争夺",
+        "emotions": [
+          {"state": "negative", "reason": "前妻突然出现威胁婚礼进行", "source_id": "1"},
+          {"state": "positive", "reason": "展示定制婚纱彰显地位", "source_id": "4"},
+          {"state": "negative", "reason": "被当众质疑第三者身份", "source_id": "1,3"},
+          {"state": "negative", "reason": "玉佩秘密被揭露后的慌乱", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "旁观者认知转变",
+        "emotions": [
+          {"state": "negative", "reason": "质疑前妻出现的正当性", "source_id": "1"},
+          {"state": "positive", "reason": "惊叹婚纱价值认可新人关系", "source_id": "2"},
+          {"state": "ambiguous", "reason": "对第三者传闻产生怀疑", "source_id": "2"},
+          {"state": "negative", "reason": "发现信物矛盾质疑婚姻基础", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "婚姻真相崩塌",
+        "emotions": [
+          {"state": "neutral", "reason": "确认与叶可欣相识时间", "source_id": "2"},
+          {"state": "positive", "reason": "强调报恩的正当性", "source_id": "2"},
+          {"state": "negative", "reason": "被当众揭露认错恩人", "source_id": "5"},
+          {"state": "ambiguous", "reason": "面对玉佩证据产生动摇", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "关键证据呈现",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述玉佩技术特征", "source_id": "1"},
+          {"state": "negative", "reason": "揭露霍峥判断失误", "source_id": "4"},
+          {"state": "negative", "reason": "质疑叶可欣诚信度", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

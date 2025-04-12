@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "旅游鞋丢失与购买计划",
+        "emotions": [
+          {"state": "negative", "reason": "催促购买被抱怨,鞋子丢失被质疑", "source_id": "2,3"},
+          {"state": "neutral", "reason": "表达帮助母亲干活的意愿", "source_id": "1"},
+          {"state": "negative", "reason": "被5揭穿流泪事实,与朋友发生争执", "source_id": "5,6"}
+        ]
+      },
+      {
+        "event": "家庭责任分配争议",
+        "emotions": [
+          {"state": "negative", "reason": "被母亲处罚拖地,责任归属争论", "source_id": "2,5"},
+          {"state": "negative", "reason": "拒绝5的踢球邀约", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "亲子矛盾处理",
+        "emotions": [
+          {"state": "negative", "reason": "被迫购买产生抵触,怀疑子女设计", "source_id": "1,3"},
+          {"state": "neutral", "reason": "分析问题解决方案", "source_id": "3"},
+          {"state": "negative", "reason": "得知秘密后愤怒", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "物品丢失事件分析",
+        "emotions": [
+          {"state": "neutral", "reason": "询问着急原因", "source_id": "1"},
+          {"state": "positive", "reason": "发现丢失事件的趣味性", "source_id": "2"},
+          {"state": "negative", "reason": "质疑袜子与鞋类比合理性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭决策参与",
+        "emotions": [
+          {"state": "neutral", "reason": "回忆购物经历", "source_id": "1"},
+          {"state": "negative", "reason": "主张粉碎阴谋", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "秘密泄露事件",
+        "emotions": [
+          {"state": "ambiguous", "reason": "保密承诺意外打破", "source_id": "3"},
+          {"state": "neutral", "reason": "试图告知秘密", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "同辈关系冲突",
+        "emotions": [
+          {"state": "positive", "reason": "成功推理获得赞赏", "source_id": "4"},
+          {"state": "negative", "reason": "被质疑炫耀产生争执", "source_id": "1,6"},
+          {"state": "positive", "reason": "展示策略成功成果", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "冲突调解尝试",
+        "emotions": [
+          {"state": "negative", "reason": "指责5存在嫉妒心理", "source_id": "5"},
+          {"state": "neutral", "reason": "提出旅游解决方案", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

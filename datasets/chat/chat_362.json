@@ -1,0 +1,146 @@
+[
+    {
+        "sentence": "跟你没关系吗？每个人活在这个世上都是一个独立你的个体，我要倾听我自己内心的声音， 本来我跟人家大海谈恋爱，你非说大海不正经，让我跟和平谈恋爱，结果我们俩离了。",
+        "Holder": "1",
+        "Target": "2的干涉",
+        "Aspect": "个人选择的自由",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "2干涉了自己的恋爱选择，导致婚姻失败"
+    },
+    {
+        "sentence": "别提刘大海，坑蒙拐骗偷吃喝嫖赌抽样样都占全了，我就说不能让你嫁给他，",
+        "Holder": "2",
+        "Target": "刘大海",
+        "Aspect": "人品问题",
+        "Opinion": "刘大海品行不端",
+        "Sentiment": "negative",
+        "Rationale": "刘大海的行为恶劣"
+    },
+    {
+        "sentence": "人家不是个正经人，人家现在不是过得挺好的吗？",
+        "Holder": "1",
+        "Target": "刘大海的现状",
+        "Aspect": "生活状况",
+        "Opinion": "刘大海过得不错",
+        "Sentiment": "positive",
+        "Rationale": "刘大海现在生活状况良好"
+    },
+    {
+        "sentence": "和平人多好啊",
+        "Holder": "2",
+        "Target": "和平相处",
+        "Aspect": "人际关系的和谐",
+        "Opinion": "认为和平相处好",
+        "Sentiment": "positive",
+        "Rationale": "认为和平相处能带来好的氛围"
+    },
+    {
+        "sentence": "我提出来的？因为啥你打我，你打我吧",
+        "Holder": "1",
+        "Target": "被打的原因",
+        "Aspect": "被打的合理性",
+        "Opinion": "不理解被打的原因",
+        "Sentiment": "negative",
+        "Rationale": "不明白为什么被打"
+    },
+    {
+        "sentence": "因为什么？因为我们俩的缘分就尽了，就到缘分结束了，就是这样的，我什么都要听你的，你说女人要先成家后立业，我23岁就结婚，24岁就生孩子，我全都听你的",
+        "Holder": "1",
+        "Target": "缘分的结束",
+        "Aspect": "关系的终结",
+        "Opinion": "认为缘分已尽",
+        "Sentiment": "negative",
+        "Rationale": "觉得一切都听从对方安排导致关系破裂"
+    },
+    {
+        "sentence": "你就说追责任让我进什么国家机关，你还去求人家领导，我就进了国家机关，每天坐在办公室，一张报纸几杯茶翻来覆去的看，我坐不住，我都快做成胡话了，谁会什么都听你的",
+        "Holder": "1",
+        "Target": "进入国家机关的决定",
+        "Aspect": "职业选择的合理性",
+        "Opinion": "不满进入国家机关",
+        "Sentiment": "negative",
+        "Rationale": "觉得进入国家机关是被迫的且不适合自己"
+    },
+    {
+        "sentence": "你他妈坐不住，你怨谁你我。",
+        "Holder": "2",
+        "Target": "1的不满",
+        "Aspect": "责任归属",
+        "Opinion": "认为1应自己负责",
+        "Sentiment": "negative",
+        "Rationale": "认为1的不满是由于自身原因造成的"
+    },
+    {
+        "sentence": "文物。你房子。",
+        "Holder": "2",
+        "Target": "房子",
+        "Aspect": "房子的历史价值",
+        "Opinion": "房子可能是文物",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "什么文物，",
+        "Holder": "1",
+        "Target": "房子",
+        "Aspect": "房子的历史价值",
+        "Opinion": "质疑房子是否是文物",
+        "Sentiment": "neutral",
+        "Rationale": "对房子是否是文物表示疑问，没有明显的情感倾向"
+    },
+    {
+        "sentence": "清末民初。",
+        "Holder": "2",
+        "Target": "房子",
+        "Aspect": "房子的历史时期",
+        "Opinion": "房子属于清末民初",
+        "Sentiment": "neutral",
+        "Rationale": "只是提供房子的历史时期信息，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你好好学学历史",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "历史知识",
+        "Opinion": "2需要学习历史",
+        "Sentiment": "negative",
+        "Rationale": "认为2缺乏历史知识"
+    },
+    {
+        "sentence": "历史化学我都学了，还差点历史。",
+        "Holder": "2",
+        "Target": "学习科目",
+        "Aspect": "学习情况",
+        "Opinion": "学了很多科目",
+        "Sentiment": "neutral",
+        "Rationale": "因为提到了自己学习的科目，所以情绪保持中立，只是陈述事实。"
+    },
+    {
+        "sentence": "我是你生的。",
+        "Holder": "1",
+        "Target": "亲子关系",
+        "Aspect": "身份确认",
+        "Opinion": "确认亲子关系",
+        "Sentiment": "neutral",
+        "Rationale": "因为是在陈述一个事实，即自己是对方的孩子，所以情绪是中立的。"
+    },
+    {
+        "sentence": "你是你妈生的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份来源",
+        "Opinion": "指出对方身份的来源",
+        "Sentiment": "neutral",
+        "Rationale": "因为是在回应对方关于身份的提问，所以情绪保持中立，只是客观陈述事实。"
+    },
+    {
+        "sentence": "跟你没关系吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "关系确认",
+        "Opinion": "质疑对方与自己关系的疏远",
+        "Sentiment": "negative",
+        "Rationale": "因为对方否认与自己有关系，所以感到被忽视和不满，因此情绪转为负面。"
+    }
+]

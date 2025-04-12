@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭陪伴承诺落空",
+        "emotions": [
+          {"state": "negative", "reason": "父亲失约家庭晚餐", "source_id": "2"},
+          {"state": "negative", "reason": "质疑父亲关爱程度", "source_id": "2"},
+          {"state": "neutral", "reason": "对比小雪家庭环境", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "工作与家庭责任冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "商务应酬必要性", "source_id": "self"},
+          {"state": "positive", "reason": "提供经济补偿方案", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑亲情关系", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭影像拍摄筹备",
+        "emotions": [
+          {"state": "positive", "reason": "实现演员梦想机会", "source_id": "5"},
+          {"state": "negative", "reason": "服装陈旧影响形象", "source_id": "self"},
+          {"state": "neutral", "reason": "协调拍摄现场秩序", "source_id": "6,7,8"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "校园DV拍摄项目启动",
+        "emotions": [
+          {"state": "positive", "reason": "展示家庭幸福形象", "source_id": "self"},
+          {"state": "doubt", "reason": "皮肤状态影响拍摄", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "角色定位争议",
+        "emotions": [
+          {"state": "positive", "reason": "预期担任男主角", "source_id": "3"},
+          {"state": "negative", "reason": "角色编号不合理", "source_id": "7"},
+          {"state": "negative", "reason": "表演设计被否决", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "拍摄内容创作讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "完善演员名单", "source_id": "6"},
+          {"state": "positive", "reason": "获得表演机会认可", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "拍摄现场协调管理",
+        "emotions": [
+          {"state": "negative", "reason": "应对过度表演要求", "source_id": "6"},
+          {"state": "positive", "reason": "掌控拍摄节奏", "source_id": "self"}
+        ]
+      }
+    ]
+  }
+}

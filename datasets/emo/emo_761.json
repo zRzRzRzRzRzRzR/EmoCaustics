@@ -1,0 +1,56 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "被牛牛暴力欺凌事件",
+        "emotions": [
+          {"state": "negative", "reason": "头部和臀部遭受攻击", "source_id": "牛牛"},
+          {"state": "positive", "reason": "获得对方诚恳道歉", "source_id": "5"},
+          {"state": "negative", "reason": "报仇过程中身体受伤", "source_id": "小流氓"},
+          {"state": "positive", "reason": "得到小雪关心", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "复仇行动事件",
+        "emotions": [
+          {"state": "positive", "reason": "使用双截棍反击成功", "source_id": "小流氓"},
+          {"state": "negative", "reason": "追击时发生激烈冲突", "source_id": "小流氓"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "保护家庭成员事件",
+        "emotions": [
+          {"state": "negative", "reason": "弟弟遭遇暴力事件", "source_id": "牛牛"},
+          {"state": "positive", "reason": "履行兄长保护责任", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "调解冲突事件",
+        "emotions": [
+          {"state": "neutral", "reason": "平息1和2的激动情绪", "source_id": "1,2"},
+          {"state": "positive", "reason": "展现关怀行为", "source_id": "1"},
+          {"state": "neutral", "reason": "化解误会矛盾", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "道歉和解事件",
+        "emotions": [
+          {"state": "neutral", "reason": "履行道歉义务", "source_id": "3"},
+          {"state": "negative", "reason": "遭受双截棍攻击", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

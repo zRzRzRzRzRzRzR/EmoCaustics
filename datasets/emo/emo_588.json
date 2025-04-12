@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "引导宠物与无孩人群关系讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "引入社会议题", "source_id": "1"},
+          {"state": "positive", "reason": "强调个人选择自主性", "source_id": "1"},
+          {"state": "positive", "reason": "被宠物故事触动产生兴趣", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "总结宠物综合影响",
+        "emotions": [
+          {"state": "positive", "reason": "认可宠物多维价值", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "分享宠物陪伴与离别经历",
+        "emotions": [
+          {"state": "positive", "reason": "回忆多代宠物养育", "source_id": "2"},
+          {"state": "negative", "reason": "描述三次宠物死亡创伤", "source_id": "2"},
+          {"state": "neutral", "reason": "反思生命教育意义", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "分析宠物情感表达特性",
+        "emotions": [
+          {"state": "positive", "reason": "对比中西方情感表达差异", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "童年养兔经历分享",
+        "emotions": [
+          {"state": "positive", "reason": "获得奖励宠物的喜悦", "source_id": "1"},
+          {"state": "positive", "reason": "描述宠物互动细节", "source_id": "1,4"}
+        ]
+      },
+      {
+        "event": "倡导宠物养育理念",
+        "emotions": [
+          {"state": "neutral", "reason": "提出辩证养宠观点", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "论证宠物健康效益",
+        "emotions": [
+          {"state": "positive", "reason": "列举生理心理改善证据", "source_id": "3"},
+          {"state": "positive", "reason": "强调宠物治疗功能", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "探讨宠物责任伦理",
+        "emotions": [
+          {"state": "neutral", "reason": "分析养护客观要求", "source_id": "3"},
+          {"state": "positive", "reason": "肯定跨物种情感联结", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

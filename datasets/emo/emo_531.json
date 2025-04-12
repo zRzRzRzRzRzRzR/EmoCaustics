@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "研究主题确立与方法论阐述",
+        "emotions": [
+          {"state": "neutral", "reason": "选择与未来相关的女性就业主题", "source_id": "1"},
+          {"state": "neutral", "reason": "客观介绍论文研究背景与方法论", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "性别差异核心辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "主持讨论客观就业质量数据差异", "source_id": "3,2"},
+          {"state": "positive", "reason": "总结女性就业环境改善趋势", "source_id": "3,4"}
+        ]
+      },
+      {
+        "event": "解决方案国际比较",
+        "emotions": [
+          {"state": "negative", "reason": "承认全球性别歧视持续存在", "source_id": "10"},
+          {"state": "positive", "reason": "倡导立法保障与政治参与改革", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "评价体系构建展示",
+        "emotions": [
+          {"state": "neutral", "reason": "系统说明指标权重与计算方法", "source_id": "1"},
+          {"state": "positive", "reason": "强调女性工作时间与收入优势", "source_id": "3"},
+          {"state": "positive", "reason": "突出专业对口水平数据优势", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "就业劣势数据论证",
+        "emotions": [
+          {"state": "negative", "reason": "揭示福利保障与培训时长差距", "source_id": "2"},
+          {"state": "negative", "reason": "指出流动率与工作前景差异", "source_id": "2"},
+          {"state": "negative", "reason": "描述面试歧视与职场天花板现象", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "理论框架批判分析",
+        "emotions": [
+          {"state": "neutral", "reason": "应用社会性别理论解释现象", "source_id": "1"},
+          {"state": "negative", "reason": "质疑样本区域代表性不足", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "竞争力提升咨询",
+        "emotions": [
+          {"state": "neutral", "reason": "询问具体能力培养方案", "source_id": "1"},
+          {"state": "positive", "reason": "接受学历与能力并重建议", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "全球挑战认知拓展",
+        "emotions": [
+          {"state": "negative", "reason": "强调国际性别平等未实现", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

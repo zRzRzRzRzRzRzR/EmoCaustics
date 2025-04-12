@@ -1,0 +1,146 @@
+[
+    {
+        "sentence": "我跟你一天都过不下去，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "相处情况",
+        "Opinion": "无法相处",
+        "Sentiment": "negative",
+        "Rationale": "觉得和对方无法继续相处"
+    },
+    {
+        "sentence": "往外撵我，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对待方式",
+        "Opinion": "被驱逐",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被对方驱逐"
+    },
+    {
+        "sentence": "是的往外撵你，其实我挺羡慕你的林大为，我要有地方躲我早就躲了。我跟你说等他明年考上大学咱们就都散了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "相处意愿",
+        "Opinion": "希望分开",
+        "Sentiment": "negative",
+        "Rationale": "对现状不满且羡慕别人的生活"
+    },
+    {
+        "sentence": "不是，咱俩有什么敌我矛盾，非得散伙，你外边有人了吧，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "关系原因",
+        "Opinion": "质疑对方有外遇",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方有外遇"
+    },
+    {
+        "sentence": "非得要外面介入才允许婚姻解体吗？",
+        "Holder": "1",
+        "Target": "婚姻解体",
+        "Aspect": "解体的方式",
+        "Opinion": "质疑外部介入的必要性",
+        "Sentiment": "negative",
+        "Rationale": "认为婚姻解体不需要外部介入"
+    },
+    {
+        "sentence": "我们俩性格不合，几乎所有问题的处理方法都不一样，",
+        "Holder": "1",
+        "Target": "双方性格",
+        "Aspect": "性格的匹配度",
+        "Opinion": "性格不合",
+        "Sentiment": "negative",
+        "Rationale": "双方性格不合导致问题处理方法不同"
+    },
+    {
+        "sentence": "处理问题的方法是不一样，因为有孩子，所以你这坏脾气我都忍了，我习惯了。",
+        "Holder": "2",
+        "Target": "1的坏脾气",
+        "Aspect": "脾气的影响",
+        "Opinion": "为了孩子而忍耐",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到孩子的因素"
+    },
+    {
+        "sentence": "你能忍得了我忍不了你。",
+        "Holder": "1",
+        "Target": "2的忍耐",
+        "Aspect": "忍耐的能力",
+        "Opinion": "无法忍受对方",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己无法忍受对方的行为"
+    },
+    {
+        "sentence": "好好你忍，我家里什么时候不是你说了算，你当家了，什么时候不是我迁就你，什么时候忍过我，",
+        "Holder": "2",
+        "Target": "1的当家行为",
+        "Aspect": "家庭决策权",
+        "Opinion": "一直迁就对方",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己一直在迁就对方而对方却不领情"
+    },
+    {
+        "sentence": "我当得了这个家吗？我不让他骑自行车，你掉下来就买辆警车还扛回家里来，除了阳奉阴违还有细节，尿尿从来不知道掀马桶圈，难得掀开一次还不记得放下，害得我经常坐进马桶里挤牙膏，从中间挤袜子，底裤几天都不带换的，用过的毛巾从来都不拧干，滴得满厕所都是水，起床不叠被子吃饭吧唧嘴，还喜欢在被窝里放气，扇的满屋子都是臭味。",
+        "Holder": "1",
+        "Target": "2的生活习惯",
+        "Aspect": "生活习惯的细节",
+        "Opinion": "对方生活习惯差",
+        "Sentiment": "negative",
+        "Rationale": "对方的生活习惯差导致自己经常受到影响"
+    },
+    {
+        "sentence": "我跟你开玩笑，",
+        "Holder": "2",
+        "Target": "开玩笑的行为",
+        "Aspect": "玩笑的性质",
+        "Opinion": "认为是玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己的行为是开玩笑"
+    },
+    {
+        "sentence": "我不喜欢开这样的玩笑，我跟你说过多少遍了，哪一条你改过，整天都被这些不开心的事情包围着，就像沙子一样钻到我的脚里磕也磕不干净，磕得我满脚都是血泡，你。",
+        "Holder": "1",
+        "Target": "2的玩笑",
+        "Aspect": "玩笑的接受度",
+        "Opinion": "不喜欢这样的玩笑",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的玩笑让自己感到困扰和痛苦"
+    },
+    {
+        "sentence": "这几条哪条能上得了台面呢？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "认为指责不合理",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的指责没有根据"
+    },
+    {
+        "sentence": "如果不是因为妙我跟你一天都过不下去。是的，往外撵你，其实我挺羡慕你的，林大为我要有地方躲我早就躲了。我跟你说等他明年考上大学，咱们都散了，你就笑死了。",
+        "Holder": "1",
+        "Target": "与2的关系",
+        "Aspect": "关系的维持原因",
+        "Opinion": "因为妙才维持关系",
+        "Sentiment": "negative",
+        "Rationale": "1觉得与2的关系难以维持，但又不得不妙而继续"
+    },
+    {
+        "sentence": "不是咱俩有什么敌我矛盾非得散伙，你外边有人了，",
+        "Holder": "1",
+        "Target": "婚姻关系",
+        "Aspect": "婚姻矛盾的根源",
+        "Opinion": "否认敌对矛盾",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为婚姻问题并非敌对矛盾，而是对方有外遇"
+    },
+    {
+        "sentence": "非得要外面介入才允许婚姻截停吗？",
+        "Holder": "1",
+        "Target": "婚姻结束的条件",
+        "Aspect": "外部介入的必要性",
+        "Opinion": "质疑外部介入",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为婚姻问题应由双方解决，不需要外部介入"
+    }
+]

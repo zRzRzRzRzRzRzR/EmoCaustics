@@ -1,0 +1,344 @@
+[
+    {
+        "sentence": "你心跳的有点快。",
+        "Holder": "1",
+        "Target": "2的心跳",
+        "Aspect": "心跳速度",
+        "Opinion": "心跳快",
+        "Sentiment": "neutral",
+        "Rationale": "观察到2的心跳速度较快"
+    },
+    {
+        "sentence": "那不是你高中安排的一航学长吗？没想到他比高中的时候帅多了，你眼光还挺不错的，一航学长好久不见你还记得我吗？",
+        "Holder": "2",
+        "Target": "一航学长",
+        "Aspect": "外貌变化",
+        "Opinion": "比高中时帅",
+        "Sentiment": "positive",
+        "Rationale": "一航学长现在的外貌比高中时更好"
+    },
+    {
+        "sentence": "我记得她还是和以前一样安安静静的不爱说话，",
+        "Holder": "4",
+        "Target": "她",
+        "Aspect": "性格特点",
+        "Opinion": "安静不爱说话",
+        "Sentiment": "neutral",
+        "Rationale": "记忆中她的性格一直很安静"
+    },
+    {
+        "sentence": "我看你是被她骗了，她可是白酒能喝半斤，于是要呼噜打震天响的那种人，",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "真实性格",
+        "Opinion": "与外表不符",
+        "Sentiment": "negative",
+        "Rationale": "认为她的真实性格与外表表现出的安静不符"
+    },
+    {
+        "sentence": "你还不知道我我就是心直口快，有啥说啥，你别这么敏感，",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "性格特点",
+        "Opinion": "心直口快",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的性格特点"
+    },
+    {
+        "sentence": "学长每次来查房，你最后拿了半天，你累不累？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "累",
+        "Sentiment": "doubt",
+        "Rationale": "3对2在学长查房时的行为感到疑惑"
+    },
+    {
+        "sentence": "一点都不累，大概喜欢的人面前留个好印象，不过听说学长今天休息了，你不用画了，水晶。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为动机",
+        "Opinion": "不留好印象",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释2的行为动机"
+    },
+    {
+        "sentence": "学长，你今天不是休息吗？我。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "休息情况",
+        "Opinion": "休息",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问4的休息情况"
+    },
+    {
+        "sentence": "不休息，谁说我休息，你脸色怎么这么差？",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "休息情况",
+        "Opinion": "不休息",
+        "Sentiment": "negative",
+        "Rationale": "4被误解为休息而感到不满"
+    },
+    {
+        "sentence": "江医生我是不是没有希望了，",
+        "Holder": "1",
+        "Target": "自己的病情",
+        "Aspect": "康复的希望",
+        "Opinion": "感到绝望",
+        "Sentiment": "negative",
+        "Rationale": "对自己的病情感到不确定和担忧"
+    },
+    {
+        "sentence": "你恢复的挺好的，再过几天就可以出院了。",
+        "Holder": "5",
+        "Target": "1的病情",
+        "Aspect": "康复情况",
+        "Opinion": "恢复良好",
+        "Sentiment": "positive",
+        "Rationale": "看到1的病情有所好转"
+    },
+    {
+        "sentence": "不是，我说的是我和一航学长是不是没有可能了，",
+        "Holder": "1",
+        "Target": "与一航学长的关系",
+        "Aspect": "关系的可能性",
+        "Opinion": "感到无望",
+        "Sentiment": "negative",
+        "Rationale": "对自己的感情前景感到悲观"
+    },
+    {
+        "sentence": "这个要你自己去问他。",
+        "Holder": "5",
+        "Target": "1的感情问题",
+        "Aspect": "解决问题的途径",
+        "Opinion": "建议直接询问",
+        "Sentiment": "neutral",
+        "Rationale": "认为感情问题需要当事人直接沟通"
+    },
+    {
+        "sentence": "他那么优秀那么发光，我却这么普通这么黑，他肯定不会喜欢我的。",
+        "Holder": "1",
+        "Target": "自己与一航学长的对比",
+        "Aspect": "个人价值与吸引力",
+        "Opinion": "感到自卑",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己与一航学长差距太大"
+    },
+    {
+        "sentence": "这个要你自己去问他。",
+        "Holder": "5",
+        "Target": "1的感情问题",
+        "Aspect": "解决问题的途径",
+        "Opinion": "建议直接询问",
+        "Sentiment": "neutral",
+        "Rationale": "认为感情问题需要当事人直接沟通"
+    },
+    {
+        "sentence": "人与人之间的关系也是可以改变的，所以你要勇敢去表白。",
+        "Holder": "说话人5",
+        "Target": "人际关系",
+        "Aspect": "改变的可能性",
+        "Opinion": "可以改变",
+        "Sentiment": "positive",
+        "Rationale": "相信人际关系可以通过努力改变"
+    },
+    {
+        "sentence": "一航学长我可以约你吃饭吗？",
+        "Holder": "说话人5",
+        "Target": "一航学长",
+        "Aspect": "邀约",
+        "Opinion": "希望约饭",
+        "Sentiment": "neutral",
+        "Rationale": "想要与一航学长有更多的接触"
+    },
+    {
+        "sentence": "你今天这么白化妆。",
+        "Holder": "说话人2",
+        "Target": "说话人5",
+        "Aspect": "外貌",
+        "Opinion": "变白了",
+        "Sentiment": "neutral",
+        "Rationale": "注意到说话人5今天肤色变白"
+    },
+    {
+        "sentence": "没有，江医生给我推荐了敷尔佳美白面膜特别好用，",
+        "Holder": "说话人5",
+        "Target": "敷尔佳美白面膜",
+        "Aspect": "效果",
+        "Opinion": "好用",
+        "Sentiment": "positive",
+        "Rationale": "使用了江医生推荐的面膜后效果显著"
+    },
+    {
+        "sentence": "白倒是白了，但你又不止黑这一个缺点，你这55分的身材怎么解决？",
+        "Holder": "说话人2",
+        "Target": "说话人5",
+        "Aspect": "外貌缺点",
+        "Opinion": "有多个缺点",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人5除了肤色问题还有其他外貌缺点"
+    },
+    {
+        "sentence": "一航学长我可以。",
+        "Holder": "4",
+        "Target": "一航学长",
+        "Aspect": "约会的可行性",
+        "Opinion": "可以赴约",
+        "Sentiment": "positive",
+        "Rationale": "对一航学长的邀约表示同意"
+    },
+    {
+        "sentence": "我在楼下等你，",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "等待地点",
+        "Opinion": "在楼下等待",
+        "Sentiment": "neutral",
+        "Rationale": "只是告知等待地点"
+    },
+    {
+        "sentence": "好，我上次约了一航学长吃饭，看来他今天有空了，",
+        "Holder": "6",
+        "Target": "一航学长",
+        "Aspect": "时间安排",
+        "Opinion": "一航学长有空",
+        "Sentiment": "positive",
+        "Rationale": "一航学长有空赴约"
+    },
+    {
+        "sentence": "你就是一航医生喜欢的那个人。",
+        "Holder": "4",
+        "Target": "6",
+        "Aspect": "身份确认",
+        "Opinion": "确认是喜欢的人",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "小北你帮我看看是这件好看还是这件好看？",
+        "Holder": "4",
+        "Target": "小北",
+        "Aspect": "服装选择",
+        "Opinion": "寻求意见",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问意见"
+    },
+    {
+        "sentence": "这两件不是一模一样吗？一样吗？",
+        "Holder": "4",
+        "Target": "服装",
+        "Aspect": "相似度",
+        "Opinion": "认为服装相同",
+        "Sentiment": "neutral",
+        "Rationale": "对服装的相似度提出疑问"
+    },
+    {
+        "sentence": "才认识多少天春心荡漾，",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "认识时间与情感状态",
+        "Opinion": "认识时间短却情感波动",
+        "Sentiment": "ambiguous",
+        "Rationale": "6对4在短时间内产生情感波动感到不解"
+    },
+    {
+        "sentence": "我已经认识他10年零9个月，有8天了",
+        "Holder": "4",
+        "Target": "认识时间",
+        "Aspect": "时间长度",
+        "Opinion": "认识时间很长",
+        "Sentiment": "neutral",
+        "Rationale": "4在陈述一个事实，即认识某人的时间长度"
+    },
+    {
+        "sentence": "十七你帮我把给7号床的病人，这里面成分我查过了，真的有用，",
+        "Holder": "4",
+        "Target": "药物成分",
+        "Aspect": "有效性",
+        "Opinion": "成分有效",
+        "Sentiment": "positive",
+        "Rationale": "4确认了药物成分的有效性"
+    },
+    {
+        "sentence": "同事这么多年第一次见你这么贴心，",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "贴心程度",
+        "Opinion": "非常贴心",
+        "Sentiment": "positive",
+        "Rationale": "1对4的贴心行为感到惊喜和赞赏"
+    },
+    {
+        "sentence": "走咱们去吃饭，",
+        "Holder": "2",
+        "Target": "吃饭",
+        "Aspect": "行动建议",
+        "Opinion": "建议去吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "2在提出一个日常的行动建议"
+    },
+    {
+        "sentence": "我不是来找你吃饭的，你是小果的闺蜜对吧？你不觉得你总让她感到很尴尬吗？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "对小果的影响",
+        "Opinion": "让小果尴尬",
+        "Sentiment": "negative",
+        "Rationale": "认为2总是让小果感到尴尬"
+    },
+    {
+        "sentence": "我就是心直口快，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "性格特点",
+        "Opinion": "心直口快",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的性格特点"
+    },
+    {
+        "sentence": "你不能以心直口快为理由去伤害她，",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "不能伤害小果",
+        "Sentiment": "negative",
+        "Rationale": "认为2以心直口快为借口伤害小果"
+    },
+    {
+        "sentence": "我是她的闺蜜，这么多年来我们都是这么相处的。",
+        "Holder": "2",
+        "Target": "自己和小果的关系",
+        "Aspect": "相处方式",
+        "Opinion": "多年相处方式",
+        "Sentiment": "neutral",
+        "Rationale": "2在说明自己和小果的相处方式"
+    },
+    {
+        "sentence": "那说明这么多年她一直受了很多的委屈，你以后不要再约我，我喜欢的是她，",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "对小果的影响",
+        "Opinion": "小果受委屈",
+        "Sentiment": "negative",
+        "Rationale": "认为小果多年来受委屈"
+    },
+    {
+        "sentence": "凭什么她哪里好了，她喝酒她打呼噜，她还不停的放屁，",
+        "Holder": "4",
+        "Target": "她",
+        "Aspect": "行为习惯",
+        "Opinion": "她有很多不好的习惯",
+        "Sentiment": "negative",
+        "Rationale": "她认为她的行为习惯如喝酒、打呼噜和放屁让人难以忍受"
+    },
+    {
+        "sentence": "可是我觉得这些都挺可爱的，我觉得她唯一需要改掉的问题就是远离你这个闺蜜，",
+        "Holder": "4",
+        "Target": "她",
+        "Aspect": "行为习惯",
+        "Opinion": "认为她的行为可爱",
+        "Sentiment": "positive",
+        "Rationale": "他觉得她的这些行为习惯并不讨厌，反而觉得可爱"
+    }
+]

@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "请求帮助处理拆迁纠纷",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "服装厂面临拆迁导致职工失业风险，资产被侵吞",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "试图通过法律途径解决纠纷",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "上访对象拒绝沟通",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "行贿行为调查",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑向丁义珍行贿",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "建议通过坦白减轻罪行",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "生意困境与沟通策略",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "实际面临破产危机",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "认为送礼能解决问题",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "对丁义珍出逃事件的震惊",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "人际关系利用",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "要求提及双方关系施压",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑掩护出逃的指控",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "初始报价与诚意质疑",
+        "emotions": [
+          {"state": "negative", "reason": "对方报价25万远低于预期", "source_id": "4,5"},
+          {"state": "neutral", "reason": "提出重新报价请求", "source_id": "3"},
+          {"state": "positive", "reason": "主动让步至32万展示诚意", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "最终价格协商与情感共鸣",
+        "emotions": [
+          {"state": "positive", "reason": "提出388,000元吉利数字报价", "source_id": "3"},
+          {"state": "positive", "reason": "理解对方情感并承诺土地交付", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "旅馆价值维护",
+        "emotions": [
+          {"state": "negative", "reason": "认为50万报价过高", "source_id": "4"},
+          {"state": "neutral", "reason": "接受32万但强调利益平衡", "source_id": "1"},
+          {"state": "positive", "reason": "降价43万并提供附加优惠", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "合作条件博弈",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方忽视利益", "source_id": "3"},
+          {"state": "positive", "reason": "强调综合优势选择贵方", "source_id": "1"},
+          {"state": "neutral", "reason": "同意支付但要求快速交付", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "信用与价格双重攻势",
+        "emotions": [
+          {"state": "positive", "reason": "强调公司信誉优势", "source_id": "1"},
+          {"state": "negative", "reason": "揭露竞争对手信用问题", "source_id": "3"},
+          {"state": "positive", "reason": "最终加价至366,500元", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "赵瑞龙与李达康的冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "赵瑞龙肆意妄为的行为；李达康不尊重的态度；担心自身地位受威胁",
+            "source_id": "2,1"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "赵立春接受赵瑞龙建议调离李达康",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "权力游戏引发理想信念崩溃",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "与赵立春的利益交换",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "接受赵瑞龙提议并实现晋升",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "隐瞒真相导致心理负担",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "质疑权力运作机制",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "怀疑赵瑞龙影响力真实性；质疑美食城项目动机",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "认为决策过程儿戏；批评权力游戏危害性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

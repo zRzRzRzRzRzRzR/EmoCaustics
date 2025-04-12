@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对话中的冲突与误解",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对方阴阳怪气的态度引发不满，被要求冷静后情绪升级，认为对方针对自己",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对奶奶关于户口本的言论感到困惑",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "户口本情况核实",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "纠正户口本分布的实际状况",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "户口本信息争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "请求查看户口本并陈述家庭户口分布",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "因对方无所谓态度要求重视",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "信息准确性争议",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑小红书内容错误",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

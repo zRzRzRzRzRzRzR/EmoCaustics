@@ -1,0 +1,94 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "主持杨振宁教授生日庆祝会",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "介绍杨教授的讲题",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "感谢物理系同学和杨教授并结束活动",
+            "source_id": "7,1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "20世纪物理学家群体评述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "展示珍贵历史影像并评价物理学家贡献",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "指出海森伯格文章精辟与错误并存",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "回忆被波利嘲讽的研究经历",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "量子力学发展历程解析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调基础理论革命对现代科技的影响",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "分析统一场论的历史定位",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "学术生涯经验分享",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "建议选择新兴研究领域的重要性",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "评价中国科学发展速度与现状",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "生日礼物致赠仪式",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "亲手制作贺卡表达敬意",
+            "source_id": "7"
+          },
+          {
+            "state": "positive",
+            "reason": "引用校训高度评价杨教授",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  }
+}

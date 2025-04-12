@@ -1,0 +1,146 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "韩国女生的互动误解",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问韩国女生区别与中文能力",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "解释萨拉黑含义并调侃",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "东方神起门票争夺",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑展博独占门票的合理性",
+            "source_id": "3,6"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感建议与调侃",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "指导展博使用萨拉黑表达",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "批评展博思维方式无效",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "追求韩国女生受阻",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "早餐付出未获回应",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被区别对待说'不要'",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "想到送泡菜解决方案",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "东方神起门票策略",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为浪费门票机会",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "试图通过门票获取韩语回应",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "剃刀安全争执",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑剃刀危险性",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "担心耳朵被割伤",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "强行提供剃须服务",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "自信展示剃刀性能",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑专业性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "演唱会门票分配",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "期待获得门票",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "发现是韩国组合后失去兴趣",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "咱们要认领这大猩猩，今年两岁半了，已经有两对夫妻把他认养了，咱是第三对。",
+        "Holder": "1",
+        "Target": "大猩猩认养",
+        "Aspect": "认养情况",
+        "Opinion": "积极参与",
+        "Sentiment": "positive",
+        "Rationale": "认为认养大猩猩是一件有意义的事情"
+    },
+    {
+        "sentence": "那么多人都认养啦，那还有什么意思？",
+        "Holder": "2",
+        "Target": "大猩猩认养",
+        "Aspect": "认养的独特性",
+        "Opinion": "质疑意义",
+        "Sentiment": "negative",
+        "Rationale": "觉得已经有很多人认养，担心自己的认养失去独特性"
+    },
+    {
+        "sentence": "你没听人家说嘛，重在参与。",
+        "Holder": "1",
+        "Target": "大猩猩认养",
+        "Aspect": "参与的意义",
+        "Opinion": "强调参与",
+        "Sentiment": "positive",
+        "Rationale": "认为参与本身就有价值，不在于是否独特"
+    },
+    {
+        "sentence": "嗯，那行，参与。",
+        "Holder": "2",
+        "Target": "大猩猩认养",
+        "Aspect": "参与决定",
+        "Opinion": "同意参与",
+        "Sentiment": "neutral",
+        "Rationale": "被说服参与本身有意义"
+    },
+    {
+        "sentence": "那猩猩是公的母的啊。",
+        "Holder": "2",
+        "Target": "大猩猩",
+        "Aspect": "性别",
+        "Opinion": "询问性别",
+        "Sentiment": "neutral",
+        "Rationale": "对大猩猩的性别感兴趣"
+    },
+    {
+        "sentence": "那我倒没问",
+        "Holder": "1",
+        "Sentiment": "neutral",
+        "Target": "询问内容",
+        "Aspect": "询问的详细程度",
+        "Opinion": "没有询问",
+        "Rationale": "因为1只是陈述自己没有询问，没有表达出明显的情感倾向，所以情绪是中立的"
+    },
+    {
+        "sentence": "你不说你都问详细了吗？",
+        "Holder": "2",
+        "Sentiment": "doubt",
+        "Target": "1的询问行为",
+        "Aspect": "询问的详细程度",
+        "Opinion": "质疑1是否真的询问了详细信息",
+        "Rationale": "因为2对1之前是否真的询问了详细信息表示怀疑，所以情绪是怀疑的"
+    },
+    {
+        "sentence": "我说我问详细的是认养这大猩猩的手续，我又没问公的母的，再说这重要吗？",
+        "Holder": "1",
+        "Sentiment": "defensive",
+        "Target": "询问的焦点",
+        "Aspect": "询问的具体内容",
+        "Opinion": "强调自己询问的是手续而非性别",
+        "Rationale": "因为1在解释自己询问的重点并反驳2的质疑，所以情绪是防御性的"
+    },
+    {
+        "sentence": "重要，我觉得非常重要",
+        "Holder": "2",
+        "Sentiment": "strong_positive",
+        "Target": "大猩猩的性别",
+        "Aspect": "性别的重要性",
+        "Opinion": "认为性别非常重要",
+        "Rationale": "因为2强烈表达了对大猩猩性别重要性的看法，所以情绪是强烈肯定的"
+    },
+    {
+        "sentence": "你说养个母猩猩有什么好玩的，养个公猩猩多好玩",
+        "Holder": "2",
+        "Sentiment": "preference",
+        "Target": "gender of the gorilla",
+        "Aspect": "entertainment value",
+        "Opinion": "male gorilla is more fun",
+        "Rationale": "because speaker 2 finds male gorillas more amusing"
+    },
+    {
+        "sentence": "你这人怎么还重男轻女啊",
+        "Holder": "1",
+        "Sentiment": "criticism",
+        "Target": "speaker 2's attitude",
+        "Aspect": "gender bias",
+        "Opinion": "disapproval of gender bias",
+        "Rationale": "because speaker 1 believes that speaker 2's preference for male gorillas reflects a gender bias, which is not appropriate"
+    },
+    {
+        "sentence": "人家动物园有三只大猩猩，两只公的一只母的，到时候你爱要公的要母的随便你",
+        "Holder": "1",
+        "Sentiment": "neutral",
+        "Target": "choice of gorilla",
+        "Aspect": "availability",
+        "Opinion": "informative",
+        "Rationale": "because speaker 1 is providing factual information about the availability of gorillas"
+    },
+    {
+        "sentence": "真的?那让他随咱俩谁的姓？",
+        "Holder": "2",
+        "Target": "孩子的姓氏",
+        "Aspect": "姓氏选择",
+        "Opinion": "提议随自己或对方的姓",
+        "Sentiment": "neutral",
+        "Rationale": "提出一个关于孩子姓氏的普通问题"
+    },
+    {
+        "sentence": "你今天吃错什么药？一会儿又是姓，咱俩谁姓,一会儿又是要公的母的，你这跟老太太似的",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "言行举止",
+        "Opinion": "认为2言行奇怪",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的言行不合常理，显得啰嗦且无厘头"
+    },
+    {
+        "sentence": "哟，鼠标怎么走啦？在这吃晚饭吧。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "留客吃饭",
+        "Opinion": "邀请2留下吃饭",
+        "Sentiment": "positive",
+        "Rationale": "看到2要走，出于好意想留对方吃饭"
+    },
+    {
+        "sentence": "不用了，阿姨，来日方长",
+        "Holder": "2",
+        "Target": "3的邀请",
+        "Aspect": "接受邀请",
+        "Opinion": "婉拒邀请",
+        "Sentiment": "positive",
+        "Rationale": "礼貌地拒绝了3的邀请，并表达了对未来的期待"
+    },
+    {
+        "sentence": "瞧这孩子这会说话劲。",
+        "Holder": "3",
+        "Target": "2的回答",
+        "Aspect": "说话方式",
+        "Opinion": "赞赏2的说话方式",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的回答得体且有礼貌"
+    },
+    {
+        "sentence": "那成，那就恕不远送了啊。",
+        "Holder": "3",
+        "Target": "送行",
+        "Aspect": "送行的必要性",
+        "Opinion": "不需要送行",
+        "Sentiment": "neutral",
+        "Rationale": "认为对方不需要送行"
+    },
+    {
+        "sentence": "哎妈，那就恕我送送啊。",
+        "Holder": "1",
+        "Target": "送行",
+        "Aspect": "送行的意愿",
+        "Opinion": "愿意送行",
+        "Sentiment": "positive",
+        "Rationale": "想表达友好和礼貌"
+    },
+    {
+        "sentence": "不用了，送君千里终有一别嘛，告辞",
+        "Holder": "2",
+        "Target": "送行",
+        "Aspect": "送行的必要性",
+        "Opinion": "不需要送行",
+        "Sentiment": "neutral",
+        "Rationale": "认为送行终究要分别"
+    },
+    {
+        "sentence": "哎哎，不是，你这要上哪去啊？",
+        "Holder": "3",
+        "Target": "2的去向",
+        "Aspect": "去向的询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对2的去向感到好奇"
+    },
+    {
+        "sentence": "那就不送啦，老林。",
+        "Holder": "1",
+        "Target": "老林",
+        "Aspect": "送别",
+        "Opinion": "不送",
+        "Sentiment": "neutral",
+        "Rationale": "决定不送老林"
+    },
+    {
+        "sentence": "刘星，什么呀？你们这老刘老林的",
+        "Holder": "3",
+        "Target": "刘星和老林",
+        "Aspect": "昵称的使用",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白老刘老林这种昵称的含义"
+    },
+    {
+        "sentence": "这是同学之间的昵称",
+        "Holder": "1",
+        "Target": "昵称",
+        "Aspect": "昵称的来源",
+        "Opinion": "同学间的习惯",
+        "Sentiment": "neutral",
+        "Rationale": "解释了昵称的来源是同学间的习惯"
+    },
+    {
+        "sentence": "你们刚才那嘀嘀咕咕什么呢？还压低嗓门背着我说什么呢？",
+        "Holder": "3",
+        "Target": "刘星和老林",
+        "Aspect": "私下交谈",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "觉得刘星和老林在背着自己嘀嘀咕咕"
+    },
+    {
+        "sentence": "这您就别管了，这种闲事呢？您还是少管一点",
+        "Holder": "1",
+        "Target": "3的干涉",
+        "Aspect": "干涉的合理性",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "觉得3干涉了自己的私事"
+    },
+    {
+        "sentence": "我正要去你们家。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "行动意图",
+        "Opinion": "前往3家",
+        "Sentiment": "neutral",
+        "Rationale": "5只是陈述了自己即将前往3家的意图，没有表现出特别的情感"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "3",
+        "Target": "5的行动",
+        "Aspect": "原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "3对5突然要来家里的原因感到好奇"
+    },
+    {
+        "sentence": "你发现没有，最近你儿子跟我儿子整天在一起的，嘀嘀咕咕的啊。",
+        "Holder": "5",
+        "Target": "孩子们的行为",
+        "Aspect": "互动频率和方式",
+        "Opinion": "频繁且神秘",
+        "Sentiment": "ambiguous",
+        "Rationale": "5注意到两家孩子最近频繁且神秘地在一起"
+    },
+    {
+        "sentence": "好像是哈",
+        "Holder": "3",
+        "Target": "孩子们的行为",
+        "Aspect": "互动频率和方式",
+        "Opinion": "认同5的观察",
+        "Sentiment": "neutral",
+        "Rationale": "3认同5对孩子行为的描述，但没有表现出特别的情感"
+    },
+    {
+        "sentence": "他们俩是老在一块，最近你得重视起来，说万一这俩孩子在一块，要捅点什么娄子来，后悔可来不及啊。",
+        "Holder": "5",
+        "Target": "两个孩子",
+        "Aspect": "行为风险",
+        "Opinion": "需要重视",
+        "Sentiment": "negative",
+        "Rationale": "担心两个孩子在一起可能会惹出麻烦"
+    },
+    {
+        "sentence": "那你回去问问你儿子去呗，问他老跟刘星在一块嘀咕什么呢？",
+        "Holder": "3",
+        "Target": "5的儿子",
+        "Aspect": "与刘星的交往",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "想知道儿子和刘星的交往内容"
+    },
+    {
+        "sentence": "他会跟我说吗，你说这现在这孩子，不信你回去问问家，刘星跟你说妈",
+        "Holder": "5",
+        "Target": "孩子",
+        "Aspect": "与家长的沟通",
+        "Opinion": "孩子不愿沟通",
+        "Sentiment": "negative",
+        "Rationale": "认为现在的孩子不愿意和家长沟通"
+    },
+    {
+        "sentence": "他肯定不跟我说",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "与家长的沟通",
+        "Opinion": "不会沟通",
+        "Sentiment": "negative",
+        "Rationale": "知道刘星不会和自己沟通"
+    },
+    {
+        "sentence": "得了呗。所以咱们得这样啊，你听着，你跟我儿子交朋友，我跟你儿子交朋友啊。现在这孩子有事，他不跟家长说，跟阿姨就没戒心了，说不定什么时就说秃噜了呢，要是有什么消息，咱俩马上互相通情报，家长联盟，记住了",
+        "Holder": "5",
+        "Target": "家长联盟",
+        "Aspect": "信息互通",
+        "Opinion": "建立联盟",
+        "Sentiment": "positive",
+        "Rationale": "认为孩子更愿意和阿姨沟通"
+    },
+    {
+        "sentence": "呦，这根本不够啊，真是钱到用时方恨少",
+        "Holder": "1",
+        "Target": "钱",
+        "Aspect": "钱的数量",
+        "Opinion": "不够",
+        "Sentiment": "negative",
+        "Rationale": "钱不够用"
+    },
+    {
+        "sentence": "你还有没有",
+        "Holder": "2",
+        "Target": "1的钱",
+        "Aspect": "钱的剩余",
+        "Opinion": "询问是否有更多",
+        "Sentiment": "neutral",
+        "Rationale": "需要更多钱"
+    },
+    {
+        "sentence": "唉呦，真没了，我把我所有的积蓄都贡献出来，就这点钱也就认养一只这么流浪猫的。",
+        "Holder": "1",
+        "Target": "自己的积蓄",
+        "Aspect": "钱的用途",
+        "Opinion": "全部贡献",
+        "Sentiment": "negative",
+        "Rationale": "所有积蓄都用完了"
+    },
+    {
+        "sentence": "那也行。",
+        "Holder": "2",
+        "Target": "1的贡献",
+        "Aspect": "钱的接受",
+        "Opinion": "可以接受",
+        "Sentiment": "positive",
+        "Rationale": "1已经尽力贡献"
+    },
+    {
+        "sentence": "那也叫认养",
+        "Holder": "1",
+        "Target": "认养行为",
+        "Aspect": "认养的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为钱太少不足以算作真正的认养"
+    },
+    {
+        "sentence": "我还能教训它",
+        "Holder": "2",
+        "Target": "教训对象",
+        "Aspect": "教训的能力",
+        "Opinion": "有能力教训",
+        "Sentiment": "positive",
+        "Rationale": "对自己教训能力有信心"
+    },
+    {
+        "sentence": "你能不能有点追求？",
+        "Holder": "1",
+        "Target": "2的追求",
+        "Aspect": "追求的有无",
+        "Opinion": "缺乏追求",
+        "Sentiment": "negative",
+        "Rationale": "认为2没有追求"
+    },
+    {
+        "sentence": "追求是需要钱的",
+        "Holder": "2",
+        "Target": "追求",
+        "Aspect": "追求的条件",
+        "Opinion": "需要金钱支持",
+        "Sentiment": "neutral",
+        "Rationale": "客观陈述追求需要金钱的事实"
+    },
+    {
+        "sentence": "你说那谁也是说好了买我那模型呢，又不买了，变卦了。",
+        "Holder": "1",
+        "Target": "那谁",
+        "Aspect": "购买的承诺",
+        "Opinion": "不守承诺",
+        "Sentiment": "negative",
+        "Rationale": "对方不守承诺变卦"
+    },
+    {
+        "sentence": "我倒有一办法。",
+        "Holder": "2",
+        "Target": "问题解决",
+        "Aspect": "解决方案的存在",
+        "Opinion": "有解决方案",
+        "Sentiment": "positive",
+        "Rationale": "认为自己有解决问题的办法"
+    },
+    {
+        "sentence": "把键盘拉来。他们家有钱，他妈一个礼拜给他 50 呢，他现在都攒了好几百了。",
+        "Holder": "2",
+        "Target": "他们家",
+        "Aspect": "经济状况",
+        "Opinion": "有钱",
+        "Sentiment": "positive",
+        "Rationale": "他们家每周给50元，已经攒了好几百"
+    },
+    {
+        "sentence": "是，他是有钱，可是他抠啊",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "花钱习惯",
+        "Opinion": "抠",
+        "Sentiment": "negative",
+        "Rationale": "虽然他有钱，但花钱很小气"
+    }
+]

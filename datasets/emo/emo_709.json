@@ -1,0 +1,112 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "面试流程控制与协调",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "按流程引导考生完成各环节",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "观点阐述与可行性质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统阐述法律法规与产业结构观点",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "对清洁生产可行性的质疑",
+            "source_id": "3,4"
+          }
+        ]
+      },
+      {
+        "event": "考生表现评估",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可第三位考生观点合理性",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "批评第一/二位考生方案可行性",
+            "source_id": "1,3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "流程节点确认与观点补充",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "确认时间节点与流程进度",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "支持监督管理和双角度方案",
+            "source_id": "2,4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "多维度解决方案构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出控制数量/宣传/税收组合方案",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "系统转入理解不足的技术焦虑",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "讨论框架优化",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调监督体系对前期方案的支撑作用",
+            "source_id": "2,3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "产业结构调整论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调产业结构对环境改善的直接效应",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

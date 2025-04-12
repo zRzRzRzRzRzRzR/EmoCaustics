@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "反抗的价值与代价",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为反抗无现实意义且导致自我毁灭",
+            "source_id": "1,2"
+          },
+          {
+            "state": "positive",
+            "reason": "观察到他人对命运拷问的悲壮感",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "文化信仰的应对策略",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "推崇土家族接受荒谬并向前走的生存智慧",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调信仰对消解苦难的核心作用",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "制度性荒谬的批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "大学寝室规定的非人性化管理",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "反抗的哲学意义",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "承认反抗可能没有现实结果",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张反抗是重构生存意义的方式",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "生活困境的自我抉择",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝为满足他人期待而自我牺牲",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

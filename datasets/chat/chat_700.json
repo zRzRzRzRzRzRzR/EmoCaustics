@@ -1,0 +1,110 @@
+[
+    {
+        "sentence": "Good morning，everyone。If I could have your attention，please，I'd like to welcome you all to today's meeting。The end of our meeting is to talk about the marketing strategy for the next few months。We will go over our budget and goals。So lets get started with the first agenda market situation。Now I will give my phone to manager。",
+        "Holder": "1",
+        "Target": "会议目的",
+        "Aspect": "会议议程",
+        "Opinion": "介绍会议内容",
+        "Sentiment": "neutral",
+        "Rationale": "是会议开场白"
+    },
+    {
+        "sentence": "hello everyone。I am the marketing manager here。I handle online advertising and website analysis。First of all，I want to tell you that we have done a very good marketing strategy this quarter。We have gained attentions and the popularity of customers on social platform，such as wei Bo Xiao hong shu and duo ying。At the same time，we also created five domain service on wechat personal account and to increase the repurchase ways。",
+        "Holder": "2",
+        "Target": "营销策略",
+        "Aspect": "策略效果",
+        "Opinion": "策略成功",
+        "Sentiment": "positive",
+        "Rationale": "营销策略取得了显著成效"
+    },
+    {
+        "sentence": "Hello，everyone。My name is chen Jian。I'm the head of the RMB we are responsible for product development。This time we launched a newly grade which has been upgrade in appearance showing a symbol and a man's theme following the chain in the research and development of color code，it is suitable for user of different styles。",
+        "Holder": "3",
+        "Target": "新产品",
+        "Aspect": "产品特点",
+        "Opinion": "产品升级",
+        "Sentiment": "positive",
+        "Rationale": "介绍了新产品的升级和特点"
+    },
+    {
+        "sentence": "Hello，everyone。I'm a sales manager，our department summarize kinds of data of a series of water，lip glass products and we become the most popular domestic makeup products in generation z abrogating the little wine，water lip glass has sold more than 2,900,000。 The new products，water cooling hard leaf glass has sold more than 38 thousand parts。We obtain a large sales performance that's all。",
+        "Holder": "4",
+        "Target": "销售业绩",
+        "Aspect": "销售数据",
+        "Opinion": "业绩优秀",
+        "Sentiment": "positive",
+        "Rationale": "销售数据表现出色"
+    },
+    {
+        "sentence": "Hello，everyone。According to the summary of our Ministry of Finance in 2020，ourselves are very objective，but overall we do lose money。What the place we purchase rate is not high enough and profit is very low。Besides we spend only￥65 million on research and development the￥3.412 billion of marketing。We also spent a lot on sales and management。This is not a very optimistic sign。",
+        "Holder": "5",
+        "Target": "财务状况",
+        "Aspect": "盈利情况",
+        "Opinion": "盈利不佳",
+        "Sentiment": "negative",
+        "Rationale": "财务数据显示亏损"
+    },
+    {
+        "sentence": "If nobody has anything to add，we can continue to the next agenda。Now we can do the main Challenge how to improve ourselves of lea glaze? Shi，what's your opinion on this？",
+        "Holder": "1",
+        "Target": "lea glaze 的改进",
+        "Aspect": "改进方案",
+        "Opinion": "寻求意见",
+        "Sentiment": "neutral",
+        "Rationale": "是在会议中提出问题并寻求意见"
+    },
+    {
+        "sentence": "I think we spend too much money on marketing and not enough on product development based on what marketing has done so successfully。I think we can choose to reduce the marketing cost and thereby increasing the research and development course and shift the focus on improving product quality。",
+        "Holder": "5",
+        "Target": "营销和产品开发的资金分配",
+        "Aspect": "资金分配的合理性",
+        "Opinion": "应减少营销开支，增加产品研发投入",
+        "Sentiment": "positive",
+        "Rationale": "认为当前营销开支过大而产品开发投入不足"
+    },
+    {
+        "sentence": "I'm afraid I have to disagree with you on that in the past 2years，the rapidly rising Hua Xi Zi zhui dot and vnk have also become popular with the ultimate cost performance and marketing strategy competing with the perfect diary on the same stage。If we reduce our marketing influence，it will be difficult to gain an advantage。",
+        "Holder": "2",
+        "Target": "减少营销开支的建议",
+        "Aspect": "市场竞争力",
+        "Opinion": "反对减少营销开支",
+        "Sentiment": "negative",
+        "Rationale": "认为减少营销开支会导致在激烈的市场竞争中失去优势"
+    },
+    {
+        "sentence": "So sales manager, what's your opinion on this？",
+        "Holder": "1",
+        "Target": "营销和产品开发的资金分配问题",
+        "Aspect": "决策意见",
+        "Opinion": "寻求销售经理的意见",
+        "Sentiment": "neutral",
+        "Rationale": "需要综合多方意见进行决策"
+    },
+    {
+        "sentence": "I agree with Shi，I also think facing the disproportionate financial allocation，we should put some marking fees to the research and development。We can do some product upgradation in quality and the amount。Then I believe we can obtain the highest sales performance。",
+        "Holder": "4",
+        "Target": "资金分配问题",
+        "Aspect": "研发投入",
+        "Opinion": "支持增加研发投入",
+        "Sentiment": "positive",
+        "Rationale": "认为当前资金分配不合理，增加研发投入可以提高产品质量和销售业绩"
+    },
+    {
+        "sentence": "I agree with your opinions，I think the most important thing at present is improve the quality of the product，ensure the quality before considering another issues，ensure the high cost performance of products。",
+        "Holder": "3",
+        "Target": "产品",
+        "Aspect": "产品质量",
+        "Opinion": "提高产品质量是最重要的",
+        "Sentiment": "positive",
+        "Rationale": "认为提高产品质量是当前最关键的任务"
+    },
+    {
+        "sentence": "to sum up。We talk about the current sales situation of our live praise and the problem reflected from the market。We also discuss improving the quality of live praise and increase the development budget by $1,000 each month。 Write this all for today's meeting。Are there any questions before we finish？No? Great。Thank you all for attending。That's all for this meeting。",
+        "Holder": "1",
+        "Target": "会议内容",
+        "Aspect": "会议总结",
+        "Opinion": "总结会议讨论内容",
+        "Sentiment": "neutral",
+        "Rationale": "需要对会议内容进行总结并确认是否有疑问"
+    }
+]

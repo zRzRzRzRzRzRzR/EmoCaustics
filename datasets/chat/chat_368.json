@@ -1,0 +1,110 @@
+[
+    {
+        "sentence": "往往给你带来一种压力，你考虑10秒钟是否愿意让姚一波代替他们俩当中的某一位10秒。",
+        "Holder": "1",
+        "Target": "姚一波",
+        "Aspect": "代替的合理性",
+        "Opinion": "需要考虑",
+        "Sentiment": "neutral",
+        "Rationale": "提出了一个需要考虑的替代方案"
+    },
+    {
+        "sentence": "代替二明哥。我不理解为什么要让他来代替我，因为我把你留下，我是真的非常的喜欢你，看中了你的素质和专业能力，所以今天给到最高的，按理说是我并不是你最中意的企业，所以我认为我的真心我的诚意是最真实的。",
+        "Holder": "2",
+        "Target": "姚一波",
+        "Aspect": "代替的合理性",
+        "Opinion": "不理解代替的原因",
+        "Sentiment": "negative",
+        "Rationale": "感到被替代的不公平和对对方的喜欢与认可"
+    },
+    {
+        "sentence": "姚老板提供的岗位更符合我的心意，",
+        "Holder": "2",
+        "Target": "姚老板提供的岗位",
+        "Aspect": "岗位的匹配度",
+        "Opinion": "更符合心意",
+        "Sentiment": "positive",
+        "Rationale": "姚老板提供的岗位更符合自己的期望"
+    },
+    {
+        "sentence": "他提供的是什么岗位？",
+        "Holder": "1",
+        "Target": "姚老板提供的岗位",
+        "Aspect": "岗位的具体内容",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解具体的岗位信息"
+    },
+    {
+        "sentence": "姚老板提供的是一个非常专业的岗位",
+        "Holder": "2",
+        "Target": "姚老板提供的岗位",
+        "Aspect": "岗位的专业性",
+        "Opinion": "非常专业",
+        "Sentiment": "positive",
+        "Rationale": "姚老板提供的岗位具有高度专业性"
+    },
+    {
+        "sentence": "也是同样我是这样感觉的，就是姚老板这边他有一个非常成熟的这样一个体系，",
+        "Holder": "说话人1",
+        "Target": "姚老板",
+        "Aspect": "体系的成熟度",
+        "Opinion": "非常成熟",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为姚老板的体系非常成熟"
+    },
+    {
+        "sentence": "你怎么了解他很成熟。",
+        "Holder": "说话人2",
+        "Target": "姚老板",
+        "Aspect": "成熟度的了解",
+        "Opinion": "质疑成熟度",
+        "Sentiment": "doubt",
+        "Rationale": "说话人2对说话人1的评价表示怀疑"
+    },
+    {
+        "sentence": "我不了解，但是通过刚刚跟老板们的交流有这样的一个感觉，",
+        "Holder": "说话人2",
+        "Target": "姚老板",
+        "Aspect": "成熟度的感知",
+        "Opinion": "有成熟的感觉",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2通过交流有了感觉但并不确定"
+    },
+    {
+        "sentence": "你直接说他的高薪打动了你就没有问题的，",
+        "Holder": "说话人1",
+        "Target": "说话人2",
+        "Aspect": "高薪的吸引力",
+        "Opinion": "高薪打动人",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为高薪是一个合理的吸引因素"
+    },
+    {
+        "sentence": "是这样的，谁知你说你的专业。",
+        "Holder": "说话人3",
+        "Target": "说话人2",
+        "Aspect": "专业性的表达",
+        "Opinion": "认同专业",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3认同说话人2的专业性"
+    },
+    {
+        "sentence": "这不是主观的。",
+        "Holder": "1",
+        "Target": "观点的客观性",
+        "Aspect": "观点的性质",
+        "Opinion": "认为观点客观",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在强调自己的观点不是主观的"
+    },
+    {
+        "sentence": "问题，我告诉你我们提供的就是很专业的，在你提供之前他甚至不知道你是哪个企业，你让他提供岗位了，提供岗位又怎么样，他根本不了解你的企业，他记住了岗位都讲不要自己的岗位，怎么比如说他说的500块钱，你看中了又怎样？",
+        "Holder": "3",
+        "Target": "1的岗位提供",
+        "Aspect": "岗位提供的合理性",
+        "Opinion": "认为岗位提供不合理",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为对方在提供岗位前没有让对方了解企业，导致对方即使记住岗位也不愿意接受"
+    }
+]

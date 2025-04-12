@@ -1,0 +1,551 @@
+[
+    {
+        "sentence": "怎么回事？爸爸本来情绪就那么低落，你们怎么还不搭理他呀？",
+        "Holder": "1",
+        "Target": "爸爸的情绪",
+        "Aspect": "对爸爸的关注",
+        "Opinion": "应该搭理爸爸",
+        "Sentiment": "negative",
+        "Rationale": "爸爸情绪低落却没人搭理"
+    },
+    {
+        "sentence": "我们怕他情绪更低落，不知道说什么才好。",
+        "Holder": "3",
+        "Target": "爸爸的情绪",
+        "Aspect": "与爸爸的交流",
+        "Opinion": "不知道如何交流",
+        "Sentiment": "neutral",
+        "Rationale": "担心说话会让爸爸情绪更低落"
+    },
+    {
+        "sentence": "你妈妈刚才跟你们说什么了？",
+        "Holder": "1",
+        "Target": "妈妈的话",
+        "Aspect": "内容了解",
+        "Opinion": "询问内容",
+        "Sentiment": "neutral",
+        "Rationale": "想知道妈妈说了什么"
+    },
+    {
+        "sentence": "我妈说，她让我们跟他一块去生活。",
+        "Holder": "2",
+        "Target": "妈妈的要求",
+        "Aspect": "生活安排",
+        "Opinion": "一起去生活",
+        "Sentiment": "neutral",
+        "Rationale": "转述妈妈的要求"
+    },
+    {
+        "sentence": "嗯，过有钱的生活。",
+        "Holder": "3",
+        "Target": "生活条件",
+        "Aspect": "经济状况",
+        "Opinion": "生活条件好",
+        "Sentiment": "positive",
+        "Rationale": "提到过有钱的生活"
+    },
+    {
+        "sentence": "嗯，他还说那样就能减轻老爸的负担了",
+        "Holder": "3",
+        "Target": "老爸的负担",
+        "Aspect": "负担的减轻",
+        "Opinion": "能减轻负担",
+        "Sentiment": "positive",
+        "Rationale": "提到能减轻老爸的负担"
+    },
+    {
+        "sentence": "不然老爸会得那叫什么症",
+        "Holder": "3",
+        "Target": "老爸的健康",
+        "Aspect": "可能患病的风险",
+        "Opinion": "担心患病",
+        "Sentiment": "negative",
+        "Rationale": "担心老爸会得病"
+    },
+    {
+        "sentence": "抑郁症。",
+        "Holder": "3",
+        "Target": "老爸的健康",
+        "Aspect": "具体的疾病",
+        "Opinion": "可能会得抑郁症",
+        "Sentiment": "negative",
+        "Rationale": "明确提到老爸可能会得抑郁症"
+    },
+    {
+        "sentence": "对，会得抑郁症，蹦",
+        "Holder": "3",
+        "Target": "老爸的健康",
+        "Aspect": "具体的疾病",
+        "Opinion": "确认会得抑郁症",
+        "Sentiment": "negative",
+        "Rationale": "确认老爸会得抑郁症"
+    },
+    {
+        "sentence": "嘣是什么意思啊？",
+        "Holder": "1",
+        "Target": "3的话语",
+        "Aspect": "话语的理解",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "对3说的‘蹦’不理解"
+    },
+    {
+        "sentence": "就是跳楼的意思。",
+        "Holder": "1",
+        "Target": "跳楼",
+        "Aspect": "行为的含义",
+        "Opinion": "跳楼等同于自杀",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释跳楼的意思"
+    },
+    {
+        "sentence": "还说是失业加抑郁症，约等于自杀。",
+        "Holder": "3",
+        "Target": "失业加抑郁症",
+        "Aspect": "行为的后果",
+        "Opinion": "失业加抑郁症可能导致自杀",
+        "Sentiment": "negative",
+        "Rationale": "提到失业和抑郁症的严重后果"
+    },
+    {
+        "sentence": "你妈要是这么说的，那你们不跟爸爸说做的对，这话可不能跟爸爸说啊。",
+        "Holder": "1",
+        "Target": "妈妈的话",
+        "Aspect": "话语的适宜性",
+        "Opinion": "不应该告诉爸爸",
+        "Sentiment": "neutral",
+        "Rationale": "1认为某些话不适合告诉爸爸"
+    },
+    {
+        "sentence": "你说我跟小雨离开这儿真的能减轻老爸的负担吗？",
+        "Holder": "3",
+        "Target": "离开",
+        "Aspect": "对父亲负担的影响",
+        "Opinion": "不确定是否能减轻负担",
+        "Sentiment": "doubt",
+        "Rationale": "3对离开是否能减轻父亲负担感到不确定"
+    },
+    {
+        "sentence": "这只能减轻经济上的负担，但是精神上的负担反而增加了。",
+        "Holder": "1",
+        "Target": "离开",
+        "Aspect": "对父亲负担的影响",
+        "Opinion": "经济负担减轻，精神负担增加",
+        "Sentiment": "negative",
+        "Rationale": "1认为离开虽然减轻经济负担但增加精神负担"
+    },
+    {
+        "sentence": "那是经济负担难受还是精神负担难受啊？",
+        "Holder": "3",
+        "Target": "经济和精神负担",
+        "Aspect": "负担的难受程度",
+        "Opinion": "询问难受的类型",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问1哪种负担更难受"
+    },
+    {
+        "sentence": "当然两样都难受。",
+        "Holder": "1",
+        "Target": "经济和精神负担",
+        "Aspect": "负担的难受程度",
+        "Opinion": "两样都难受",
+        "Sentiment": "negative",
+        "Rationale": "1认为经济和精神负担都让人难受"
+    },
+    {
+        "sentence": "那我们到底是离开这儿还是。要留下来呀？",
+        "Holder": "3",
+        "Target": "是否离开",
+        "Aspect": "决策的犹豫",
+        "Opinion": "不确定是否离开",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在犹豫是否要离开"
+    },
+    {
+        "sentence": "这个可得跟爸爸好好商量商量。",
+        "Holder": "1",
+        "Target": "是否离开",
+        "Aspect": "决策的过程",
+        "Opinion": "需要商量",
+        "Sentiment": "neutral",
+        "Rationale": "1认为需要和家人商量后再做决定"
+    },
+    {
+        "sentence": "笑什么呢你？小雨。",
+        "Holder": "1",
+        "Target": "小雨的笑",
+        "Aspect": "笑的原因",
+        "Opinion": "询问笑的原因",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问小雨为什么笑"
+    },
+    {
+        "sentence": "宇宙战车正在向我招手。",
+        "Holder": "3",
+        "Target": "宇宙战车",
+        "Aspect": "吸引力",
+        "Opinion": "吸引自己",
+        "Sentiment": "positive",
+        "Rationale": "宇宙战车具有吸引力"
+    },
+    {
+        "sentence": "他们说 Merry 想给小雨买辆车。什么？",
+        "Holder": "1",
+        "Target": "Merry",
+        "Aspect": "购买意图",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到Merry要给小雨买车的消息感到意外"
+    },
+    {
+        "sentence": "他要给小雨买什么？",
+        "Holder": "6",
+        "Target": "Merry",
+        "Aspect": "购买物品",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚Merry要给小雨买的具体物品"
+    },
+    {
+        "sentence": "买辆车。",
+        "Holder": "1",
+        "Target": "Merry",
+        "Aspect": "购买物品",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "回答6的询问"
+    },
+    {
+        "sentence": "不是汽车，是一种豪华玩具，叫啊宇宙战车。是我告诉你，比山地车都贵。",
+        "Holder": "1",
+        "Target": "宇宙战车",
+        "Aspect": "物品性质和价格",
+        "Opinion": "解释并强调价格",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释宇宙战车的性质和强调其价格"
+    },
+    {
+        "sentence": "我就知道她会出这招。这个 Merry 你说他就是有点钱，他就知道给孩子买东西，他还会什么啊？他明知道这么小的孩子，他根本经不起这样的糖衣炮弹，什么人呢？",
+        "Holder": "6",
+        "Target": "Merry",
+        "Aspect": "对孩子的教育方式",
+        "Opinion": "只会用物质吸引孩子",
+        "Sentiment": "negative",
+        "Rationale": "Merry只知道用物质来吸引孩子，忽视了孩子的真实需求"
+    },
+    {
+        "sentence": "怎么办啊？她现在就拿这个跟咱们争孩子，她那么有钱，咱又没他这条件，他要跟咱比这个，我看对咱俩可真的是不利。不过夏东海你也甭着急，没什么大不了的。唉，小雨啊，那是因为小不懂事儿。小雪可不一样，小雪心里有数，她都明白。咱不怕跟他拼",
+        "Holder": "1",
+        "Target": "Merry",
+        "Aspect": "争夺孩子的手段",
+        "Opinion": "物质条件不如对方",
+        "Sentiment": "negative",
+        "Rationale": "对方用物质条件来争夺孩子，而自己物质条件不如对方"
+    },
+    {
+        "sentence": "拼得过咱也得拼，不过也得拼，不就是有点山地车的钱嘛，我还拼得起，我现在就给他买去",
+        "Holder": "6",
+        "Target": "Merry",
+        "Aspect": "物质条件",
+        "Opinion": "愿意拼物质",
+        "Sentiment": "positive",
+        "Rationale": "认为自己在物质上也能拼得起"
+    },
+    {
+        "sentence": "哎哎，不是，哈哈哈，真是意思，我不是说咱们要跟她拼物质。拼那干什么呀，那样对孩子的教育也不利呀。我是说咱们跟她拼精神",
+        "Holder": "1",
+        "Target": "Merry",
+        "Aspect": "争夺孩子的策略",
+        "Opinion": "应拼精神而非物质",
+        "Sentiment": "positive",
+        "Rationale": "认为拼物质对孩子的教育不利，而拼精神更有意义"
+    },
+    {
+        "sentence": "对，咱跟她拼精神，物质也得拼，我现在就去买去。",
+        "Holder": "6",
+        "Target": "Merry",
+        "Aspect": "争夺孩子的策略",
+        "Opinion": "精神和物质都要拼",
+        "Sentiment": "positive",
+        "Rationale": "认同拼精神的同时也不放弃物质上的竞争"
+    },
+    {
+        "sentence": "夏东海，你听我说，我告诉你。",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "注意力",
+        "Opinion": "要求对方听自己说话",
+        "Sentiment": "neutral",
+        "Rationale": "1想要向夏东海传达信息"
+    },
+    {
+        "sentence": "你说这人。",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "行为",
+        "Opinion": "对某人的行为有看法",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对某人的行为有看法但未明确表达具体情感"
+    },
+    {
+        "sentence": "哇，那谁呀？妈，出去那么快",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "行动速度",
+        "Opinion": "惊讶于妈妈出门的速度",
+        "Sentiment": "neutral",
+        "Rationale": "4对妈妈快速出门感到意外"
+    },
+    {
+        "sentence": "烙饼买回来还热呢唉。妈，我出去这会儿，咱家发生什么事了？",
+        "Holder": "4",
+        "Target": "家中的情况",
+        "Aspect": "家中发生的变化",
+        "Opinion": "感到疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现家中气氛不对且母亲心情不好"
+    },
+    {
+        "sentence": "跟你没关系。",
+        "Holder": "1",
+        "Target": "4的疑问",
+        "Aspect": "问题的相关性",
+        "Opinion": "否认相关性",
+        "Sentiment": "negative",
+        "Rationale": "不想让4介入或担心4"
+    },
+    {
+        "sentence": "唉，您心情不好跟我没关系，这太不正常了吧？",
+        "Holder": "4",
+        "Target": "1的心情",
+        "Aspect": "心情的合理性",
+        "Opinion": "认为不正常",
+        "Sentiment": "negative",
+        "Rationale": "母亲心情不好且不愿说明原因"
+    },
+    {
+        "sentence": "做作业去。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "应做的事情",
+        "Opinion": "要求做作业",
+        "Sentiment": "neutral",
+        "Rationale": "想转移4的注意力或认为4应该专注于学业"
+    },
+    {
+        "sentence": "想好了吗？",
+        "Holder": "2",
+        "Target": "未明确的决定",
+        "Aspect": "决定的确定性",
+        "Opinion": "询问是否决定",
+        "Sentiment": "neutral",
+        "Rationale": "想知道对方是否已经做出决定"
+    },
+    {
+        "sentence": "如果我是要有豪华宇宙战车的话，我要第一个先告诉朵朵",
+        "Holder": "3",
+        "Target": "豪华宇宙战车",
+        "Aspect": "分享意愿",
+        "Opinion": "愿意第一个告诉朵朵",
+        "Sentiment": "positive",
+        "Rationale": "对豪华宇宙战车有强烈的兴趣，并且愿意第一个分享给朵朵"
+    },
+    {
+        "sentence": "你就知道玩？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "兴趣爱好",
+        "Opinion": "只知道玩",
+        "Sentiment": "negative",
+        "Rationale": "认为3只关注玩耍，忽视了其他重要的事情"
+    },
+    {
+        "sentence": "嘿，宇宙战车我的最爱。",
+        "Holder": "3",
+        "Target": "宇宙战车",
+        "Aspect": "个人喜好",
+        "Opinion": "最爱宇宙战车",
+        "Sentiment": "positive",
+        "Rationale": "对宇宙战车有极大的喜爱"
+    },
+    {
+        "sentence": "哈哈哈，说正经的。",
+        "Holder": "2",
+        "Target": "话题转换",
+        "Aspect": "话题的严肃性",
+        "Opinion": "需要转换话题",
+        "Sentiment": "positive",
+        "Rationale": "想要从轻松的氛围转向严肃的讨论"
+    },
+    {
+        "sentence": "如果咱妈要真的接咱们走的话，你去不去",
+        "Holder": "3",
+        "Target": "是否跟随母亲",
+        "Aspect": "决策的犹豫",
+        "Opinion": "询问意见",
+        "Sentiment": "neutral",
+        "Rationale": "对是否跟随母亲的决定感到犹豫"
+    },
+    {
+        "sentence": "去还是不去呢？",
+        "Holder": "3",
+        "Target": "是否跟随母亲",
+        "Aspect": "决策的犹豫",
+        "Opinion": "进一步确认",
+        "Sentiment": "neutral",
+        "Rationale": "对是否跟随母亲的决定仍然不确定"
+    },
+    {
+        "sentence": "我问你呢",
+        "Holder": "1",
+        "Target": "3的提问",
+        "Aspect": "问题的回应",
+        "Opinion": "要求回答",
+        "Sentiment": "neutral",
+        "Rationale": "被问到问题需要回应"
+    },
+    {
+        "sentence": "遇到难题啦？你们现在需要一个聪明的法官来仲裁。那就是我",
+        "Holder": "4",
+        "Target": "当前的难题",
+        "Aspect": "解决问题的能力",
+        "Opinion": "自认为有能力解决",
+        "Sentiment": "positive",
+        "Rationale": "认为自己能解决当前的难题"
+    },
+    {
+        "sentence": "智商够高吗？",
+        "Holder": "3",
+        "Target": "智商",
+        "Aspect": "智商水平",
+        "Opinion": "质疑智商",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在询问智商是否足够高"
+    },
+    {
+        "sentence": "他说的没错。",
+        "Holder": "2",
+        "Target": "说话人3的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "认同观点",
+        "Sentiment": "positive",
+        "Rationale": "2认为3的观点是正确的"
+    },
+    {
+        "sentence": "好的，现在双方可以开始陈述了。嗯，小雪你先来",
+        "Holder": "4",
+        "Target": "陈述顺序",
+        "Aspect": "陈述的安排",
+        "Opinion": "安排小雪先陈述",
+        "Sentiment": "neutral",
+        "Rationale": "4在安排双方陈述的顺序"
+    },
+    {
+        "sentence": "我爱老爸，穷也爱，失业也爱。",
+        "Holder": "2",
+        "Target": "对父亲的爱",
+        "Aspect": "爱的无条件性",
+        "Opinion": "无条件爱父亲",
+        "Sentiment": "positive",
+        "Rationale": "2表达了对父亲无论贫穷还是失业都爱的情感"
+    },
+    {
+        "sentence": "小雨你说话",
+        "Holder": "4",
+        "Target": "小雨",
+        "Aspect": "说话行为",
+        "Opinion": "希望小雨说话",
+        "Sentiment": "neutral",
+        "Rationale": "希望小雨参与对话"
+    },
+    {
+        "sentence": "爸妈我都爱，有钱也不是错，儿子也爱妈。",
+        "Holder": "3",
+        "Target": "家庭关系",
+        "Aspect": "情感表达",
+        "Opinion": "对家庭的爱",
+        "Sentiment": "positive",
+        "Rationale": "表达了对家人的爱"
+    },
+    {
+        "sentence": "也没错。",
+        "Holder": "4",
+        "Target": "3的观点",
+        "Aspect": "认同",
+        "Opinion": "同意",
+        "Sentiment": "neutral",
+        "Rationale": "认同对方的观点"
+    },
+    {
+        "sentence": "小雪你接着说",
+        "Holder": "4",
+        "Target": "小雪",
+        "Aspect": "继续发言",
+        "Opinion": "希望小雪继续",
+        "Sentiment": "neutral",
+        "Rationale": "希望听到小雪的观点"
+    },
+    {
+        "sentence": "要想减老爸的负担，离开他也是一种选择。",
+        "Holder": "2",
+        "Target": "减轻父亲负担的方法",
+        "Aspect": "选择离开",
+        "Opinion": "离开是可行选择",
+        "Sentiment": "neutral",
+        "Rationale": "提出一种减轻负担的方法"
+    },
+    {
+        "sentence": "嗯，你决定了，我决定。我的决定是留下来，不能在最困难的时候离开老爸",
+        "Holder": "2",
+        "Target": "自己的决定",
+        "Aspect": "留在家中的理由",
+        "Opinion": "应该留下来",
+        "Sentiment": "positive",
+        "Rationale": "在最困难的时候选择留下来支持父亲"
+    },
+    {
+        "sentence": "太让人感动了，我必须和你握一下手。哈哈哈，太感动了，你太感动了，小雨你呢？",
+        "Holder": "4",
+        "Target": "2的决定",
+        "Aspect": "决定的感人程度",
+        "Opinion": "非常感动",
+        "Sentiment": "positive",
+        "Rationale": "2的决定表现出对家庭的责任感"
+    },
+    {
+        "sentence": "赶紧说吧，你怎么想的唉？",
+        "Holder": "4",
+        "Target": "3的决定",
+        "Aspect": "决定的急迫性",
+        "Opinion": "希望尽快知道",
+        "Sentiment": "neutral",
+        "Rationale": "急于知道3的想法"
+    },
+    {
+        "sentence": "要是跟亲妈走就能减轻老爸的负担啊。",
+        "Holder": "3",
+        "Target": "自己的决定",
+        "Aspect": "决定的理由",
+        "Opinion": "跟亲妈走能减轻负担",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到跟亲妈走可以减轻父亲的负担"
+    },
+    {
+        "sentence": "减轻老爸的负担，又能得到亲妈的礼物，这是一举两得。",
+        "Holder": "3",
+        "Target": "一举两得的做法",
+        "Aspect": "做法的合理性",
+        "Opinion": "认为做法合理",
+        "Sentiment": "positive",
+        "Rationale": "认为这个做法既能减轻负担又能得到礼物"
+    },
+    {
+        "sentence": "你知道你这是什么吗？你这是嫌贫爱富，你懂吗？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "认为3嫌贫爱富",
+        "Sentiment": "negative",
+        "Rationale": "认为3的行为是嫌贫爱富"
+    }
+]

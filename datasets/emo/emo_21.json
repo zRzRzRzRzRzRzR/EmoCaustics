@@ -1,0 +1,93 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "生活选择困境的自我反思",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "意识到生活选择缺乏省力选项",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "发现不同生活方式的启发价值",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对抗社会标准压力的觉醒过程",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "坚持自我选择权",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "无法符合社会标准的焦虑",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "妥协导致价值观冲突",
+            "source_id": "2,4"
+          },
+          {
+            "state": "positive",
+            "reason": "主张智慧型自主选择",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "批判社会评价体系的系统性影响",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭示内卷现象的本质",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "抨击儒家社会评价体系",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导自我负责的旷野思维",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "群体压力下的个人选择困境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "发现群体选择的虚假一致性",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "体验标准化生活的精神空洞",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

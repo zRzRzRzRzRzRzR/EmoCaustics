@@ -1,0 +1,35 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "宿舍噪音矛盾升级",
+        "emotions": [
+          {"state": "negative", "reason": "指责2深夜打游戏影响他人", "source_id": "2"},
+          {"state": "negative", "reason": "质疑3的劝架资格并揭露其深夜通话", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "游戏时间合理性争议",
+        "emotions": [
+          {"state": "negative", "reason": "反驳1的指控并质疑宿舍公平性", "source_id": "1"},
+          {"state": "negative", "reason": "对比通话与游戏的频率及音量差异", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "双重标准行为揭露",
+        "emotions": [
+          {"state": "negative", "reason": "控诉他人电视音量未降低的过往行为", "source_id": "1,2"},
+          {"state": "negative", "reason": "被质疑劝架资格后强化立场", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

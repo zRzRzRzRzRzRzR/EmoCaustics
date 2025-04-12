@@ -1,0 +1,61 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "正方立论：强调爱的主动性及社会价值",
+        "emotions": [
+          {"state": "neutral", "reason": "定义爱的基本类型与幸福本质", "source_id": "2"},
+          {"state": "positive", "reason": "论证主动付出爱带来的社会和谐与自我价值实现", "source_id": "2"},
+          {"state": "negative", "reason": "指出过度强调被爱会导致社会冲突", "source_id": "2"},
+          {"state": "positive", "reason": "通过历史人物案例强化爱的持久性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反方立论：通过情感体验论证被爱优势",
+        "emotions": [
+          {"state": "positive", "reason": "回忆父亲无条件的关爱经历", "source_id": "3"},
+          {"state": "neutral", "reason": "分析期待回报型爱的风险与被动性", "source_id": "3"},
+          {"state": "negative", "reason": "描述单相思场景中的情感失落", "source_id": "3"},
+          {"state": "positive", "reason": "总结被爱对个人幸福感的核心作用", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "盘问阶段：质疑爱的无私性逻辑",
+        "emotions": [
+          {"state": "neutral", "reason": "提出物质条件与幸福感的关系悖论", "source_id": "5"},
+          {"state": "negative", "reason": "反驳洗碗行为与幸福感的直接关联", "source_id": "5"},
+          {"state": "doubt", "reason": "挑战主动付出必然更幸福的逻辑链条", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "防守反驳：维护爱的非功利本质",
+        "emotions": [
+          {"state": "positive", "reason": "通过教师与母亲案例说明精神回报价值", "source_id": "5"},
+          {"state": "positive", "reason": "用泰坦尼克号案例证明无私爱的存在", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "流程控制：辩论环节转换",
+        "emotions": [
+          {"state": "neutral", "reason": "执行主持职责推进议程", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "李先生赠送礼物引发的家庭讨论",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝接受礼物", "source_id": "6"},
+          {"state": "negative", "reason": "被质疑工作动机", "source_id": "4"},
+          {"state": "positive", "reason": "强调职业身份正当性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "关于美国之行的争议",
+        "emotions": [
+          {"state": "negative", "reason": "被误解为佣人", "source_id": "4"},
+          {"state": "positive", "reason": "解释正式护理身份", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭内部沟通矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "转述礼物安排", "source_id": "6"},
+          {"state": "negative", "reason": "被指责误导孩子", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "美国之行的职业规划",
+        "emotions": [
+          {"state": "negative", "reason": "催促决策引发误解", "source_id": "1"},
+          {"state": "ambiguous", "reason": "职业选择困惑", "source_id": "self"},
+          {"state": "positive", "reason": "对自身能力充满信心", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "礼物价值评估",
+        "emotions": [
+          {"state": "ambiguous", "reason": "认为应赠送更贵重礼物", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "对母亲工作的态度",
+        "emotions": [
+          {"state": "negative", "reason": "质疑护理工作性质", "source_id": "1"},
+          {"state": "positive", "reason": "认可母亲职业价值", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "对礼物的伦理判断",
+        "emotions": [
+          {"state": "negative", "reason": "认为项链赠送不当", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "礼物交付任务",
+        "emotions": [
+          {"state": "neutral", "reason": "完成物品转交", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

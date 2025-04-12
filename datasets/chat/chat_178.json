@@ -1,0 +1,722 @@
+[
+    {
+        "sentence": "嘘，刚哄睡，怎么了？",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "提问的时机",
+        "Opinion": "不合适",
+        "Sentiment": "neutral",
+        "Rationale": "刚哄睡孩子需要安静"
+    },
+    {
+        "sentence": "怎么回事啊，买那么多东西啊？",
+        "Holder": "1",
+        "Target": "2的购物行为",
+        "Aspect": "购物数量",
+        "Opinion": "过多",
+        "Sentiment": "neutral",
+        "Rationale": "看到对方买了许多东西"
+    },
+    {
+        "sentence": "这这这，这什么东西啊？",
+        "Holder": "1",
+        "Target": "物品",
+        "Aspect": "物品的识别",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "不认识看到的物品"
+    },
+    {
+        "sentence": "哎哟，亲家，你今天穿的是东南亚风哦，像个孔雀哈。",
+        "Holder": "3",
+        "Target": "1的穿着",
+        "Aspect": "风格",
+        "Opinion": "像东南亚风，像孔雀",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的穿着很有特色，像东南亚风格且像孔雀"
+    },
+    {
+        "sentence": "不是我问你，你这些东西都干嘛呢？",
+        "Holder": "1",
+        "Target": "3的东西",
+        "Aspect": "用途",
+        "Opinion": "不清楚用途",
+        "Sentiment": "neutral",
+        "Rationale": "对3所买的东西用途不清楚"
+    },
+    {
+        "sentence": "网购啊，现在正是网购节，什么东西都很便宜，很多打对折，还折上折。",
+        "Holder": "3",
+        "Target": "网购",
+        "Aspect": "价格",
+        "Opinion": "很便宜",
+        "Sentiment": "positive",
+        "Rationale": "现在是网购节，很多东西打折很便宜"
+    },
+    {
+        "sentence": "但是有很多都是乔乔的东西！",
+        "Holder": "3",
+        "Target": "网购的东西",
+        "Aspect": "归属",
+        "Opinion": "很多是乔乔的",
+        "Sentiment": "neutral",
+        "Rationale": "买的很多东西是乔乔的"
+    },
+    {
+        "sentence": "呃，正好早上那个乔乔舌苔有点厚，你根我去看一下。",
+        "Holder": "2",
+        "Target": "乔乔的健康",
+        "Aspect": "舌苔",
+        "Opinion": "舌苔厚",
+        "Sentiment": "neutral",
+        "Rationale": "发现乔乔舌苔厚"
+    },
+    {
+        "sentence": "舌苔厚啊，说曹操就来曹操喽。",
+        "Holder": "3",
+        "Target": "舌苔",
+        "Aspect": "舌苔的状态",
+        "Opinion": "舌苔厚",
+        "Sentiment": "neutral",
+        "Rationale": "提到舌苔厚"
+    },
+    {
+        "sentence": "哪个，这个，全进口的维生素D3，母乳里头不含的，专门给娃娃吃，补钙。",
+        "Holder": "3",
+        "Target": "维生素D3",
+        "Aspect": "维生素D3的来源和用途",
+        "Opinion": "全进口且专门用于补钙",
+        "Sentiment": "positive",
+        "Rationale": "介绍了全进口的维生素D3对娃娃补钙的重要性"
+    },
+    {
+        "sentence": "亲家，那你这些东西是准备寄回成都还是留在这儿啊？",
+        "Holder": "1",
+        "Target": "维生素D3等物品",
+        "Aspect": "物品的处理方式",
+        "Opinion": "询问处理方式",
+        "Sentiment": "neutral",
+        "Rationale": "对物品的处理方式提出疑问"
+    },
+    {
+        "sentence": "当然是放在这，怎么会寄成都了？",
+        "Holder": "3",
+        "Target": "物品的处理方式",
+        "Aspect": "物品的存放地点",
+        "Opinion": "应该放在这里",
+        "Sentiment": "positive",
+        "Rationale": "认为物品应该放在这里而不是寄回成都"
+    },
+    {
+        "sentence": "不是，你留在这，这怎么搁呀这个？",
+        "Holder": "1",
+        "Target": "物品的存放",
+        "Aspect": "存放的可行性",
+        "Opinion": "质疑存放的可行性",
+        "Sentiment": "negative",
+        "Rationale": "对物品留在这里的存放方式表示怀疑"
+    },
+    {
+        "sentence": "你放心，亲家，我来收，我是收东西的高手。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "收东西的能力",
+        "Opinion": "是收东西的高手",
+        "Sentiment": "positive",
+        "Rationale": "对自己收东西的能力非常自信"
+    },
+    {
+        "sentence": "左左，拆包裹！",
+        "Holder": "3",
+        "Target": "左左",
+        "Aspect": "拆包裹的动作",
+        "Opinion": "命令拆包裹",
+        "Sentiment": "neutral",
+        "Rationale": "需要左左帮忙拆包裹"
+    },
+    {
+        "sentence": "乔乔哭了，哭了哭了哭了！",
+        "Holder": "2",
+        "Target": "乔乔",
+        "Aspect": "情绪状态",
+        "Opinion": "乔乔在哭",
+        "Sentiment": "negative",
+        "Rationale": "看到乔乔哭得很伤心"
+    },
+    {
+        "sentence": "哪里哭了？",
+        "Holder": "3",
+        "Target": "乔乔",
+        "Aspect": "哭的位置",
+        "Opinion": "询问哭的位置",
+        "Sentiment": "neutral",
+        "Rationale": "听到有人说乔乔哭了"
+    },
+    {
+        "sentence": "正好拿着这个，快快快。",
+        "Holder": "2",
+        "Target": "手中的物品",
+        "Aspect": "使用物品的紧迫性",
+        "Opinion": "需要立即使用",
+        "Sentiment": "neutral",
+        "Rationale": "情况紧急需要立即使用手中的物品"
+    },
+    {
+        "sentence": "我没有听见哭了！",
+        "Holder": "3",
+        "Target": "哭声",
+        "Aspect": "哭声的感知",
+        "Opinion": "没有听见",
+        "Sentiment": "neutral",
+        "Rationale": "没有听见哭声"
+    },
+    {
+        "sentence": "就赶紧给他试用一下。",
+        "Holder": "2",
+        "Target": "试用",
+        "Aspect": "试用的紧迫性",
+        "Opinion": "需要赶紧试用",
+        "Sentiment": "neutral",
+        "Rationale": "需要尽快验证情况"
+    },
+    {
+        "sentence": "哭了吗？",
+        "Holder": "3",
+        "Target": "哭声",
+        "Aspect": "哭声的存在",
+        "Opinion": "询问是否哭了",
+        "Sentiment": "neutral",
+        "Rationale": "不确定是否有哭声"
+    },
+    {
+        "sentence": "看一下，看一下怎么回事。",
+        "Holder": "2",
+        "Target": "情况",
+        "Aspect": "情况的了解",
+        "Opinion": "需要查看",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解具体情况"
+    },
+    {
+        "sentence": "哎呦，干什么？",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为感到不解和不满"
+    },
+    {
+        "sentence": "怎么回事啊？",
+        "Holder": "2",
+        "Target": "3的购物行为",
+        "Aspect": "购物数量",
+        "Opinion": "质疑购物数量",
+        "Sentiment": "negative",
+        "Rationale": "发现3买了大量东西"
+    },
+    {
+        "sentence": "我就一下没看住你，你就买了这么多东西，你是不是把小鱼的卡都刷爆了？",
+        "Holder": "2",
+        "Target": "3的购物行为",
+        "Aspect": "购物数量和支付方式",
+        "Opinion": "认为购物过度且使用他人卡",
+        "Sentiment": "negative",
+        "Rationale": "3在短时间内买了大量东西且可能使用了小鱼的卡"
+    },
+    {
+        "sentence": "哪里，哪里这么多东西，整多少东西了？",
+        "Holder": "3",
+        "Target": "2的质疑",
+        "Aspect": "购物数量的合理性",
+        "Opinion": "否认购物过多",
+        "Sentiment": "negative",
+        "Rationale": "被2质疑购物数量过多"
+    },
+    {
+        "sentence": "这还不叫多是吗？",
+        "Holder": "2",
+        "Target": "3的购物行为",
+        "Aspect": "购物数量的判断",
+        "Opinion": "坚持认为购物过多",
+        "Sentiment": "negative",
+        "Rationale": "认为3的购物数量确实过多"
+    },
+    {
+        "sentence": "我婆婆现在都还不知道，是用小鱼的卡买的。",
+        "Holder": "2",
+        "Target": "3的购物行为",
+        "Aspect": "购物方式和知情情况",
+        "Opinion": "担忧婆婆不知情且使用他人卡",
+        "Sentiment": "negative",
+        "Rationale": "婆婆不知情且3使用了小鱼的卡购物"
+    },
+    {
+        "sentence": "要知道，她还不得爆炸呀？",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "情绪反应",
+        "Opinion": "会爆炸",
+        "Sentiment": "negative",
+        "Rationale": "认为她会某些事情而极度愤怒"
+    },
+    {
+        "sentence": "你不要跟她说就行了嘛。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "处理方式",
+        "Opinion": "不告诉她",
+        "Sentiment": "neutral",
+        "Rationale": "认为不告诉她是解决问题的方法"
+    },
+    {
+        "sentence": "我不说她就能不知道吗？",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "信息传递",
+        "Opinion": "无法隐瞒",
+        "Sentiment": "negative",
+        "Rationale": "认为即使不说她也会知道"
+    },
+    {
+        "sentence": "哎呦，左左你不要这么大惊小怪嘛。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "反应态度",
+        "Opinion": "大惊小怪",
+        "Sentiment": "negative",
+        "Rationale": "认为2的反应过于夸张"
+    },
+    {
+        "sentence": "我买这些东西怎么了？都是有用的，都是给乔乔买的嘛。你跟你婆婆说好了。",
+        "Holder": "3",
+        "Target": "购买行为",
+        "Aspect": "合理性",
+        "Opinion": "合理有用",
+        "Sentiment": "positive",
+        "Rationale": "认为自己买的东西都是有用的，并且是为了乔乔"
+    },
+    {
+        "sentence": "再说现在是打折，你现在不买，将来同样要买，一样要花钱的。",
+        "Holder": "3",
+        "Target": "购买决策",
+        "Aspect": "购买时机的合理性",
+        "Opinion": "现在购买更划算",
+        "Sentiment": "positive",
+        "Rationale": "现在商品打折"
+    },
+    {
+        "sentence": "你这叫什么逻辑？",
+        "Holder": "2",
+        "Target": "3的购买逻辑",
+        "Aspect": "逻辑合理性",
+        "Opinion": "不认同3的逻辑",
+        "Sentiment": "negative",
+        "Rationale": "不认同3的购买逻辑"
+    },
+    {
+        "sentence": "我不跟你说了，我去拆包裹去。",
+        "Holder": "3",
+        "Target": "与2的对话",
+        "Aspect": "对话的继续性",
+        "Opinion": "放弃对话",
+        "Sentiment": "neutral",
+        "Rationale": "不想继续与2争论"
+    },
+    {
+        "sentence": "亲家，不好意思喽，这个地方被我占用喽。",
+        "Holder": "3",
+        "Target": "占用空间",
+        "Aspect": "礼貌性",
+        "Opinion": "表示歉意",
+        "Sentiment": "positive",
+        "Rationale": "占用了别人的空间"
+    },
+    {
+        "sentence": "我在练瑜伽。",
+        "Holder": "1",
+        "Target": "当前活动",
+        "Aspect": "活动内容",
+        "Opinion": "正在练瑜伽",
+        "Sentiment": "neutral",
+        "Rationale": "正在进行的瑜伽练习被打断"
+    },
+    {
+        "sentence": "我晓得你在练瑜伽，我给乔乔买的爬爬垫儿到了，你看这个地方多好嘞，留给乔乔爬，迎着太阳爬，爬过来爬过去。",
+        "Holder": "3",
+        "Target": "爬爬垫",
+        "Aspect": "使用地点的合理性",
+        "Opinion": "认为地方适合乔乔爬",
+        "Sentiment": "positive",
+        "Rationale": "觉得这个地方阳光充足，适合乔乔爬行"
+    },
+    {
+        "sentence": "哎哟，多好看的爬爬垫哦，来帮个忙嘛亲家。",
+        "Holder": "3",
+        "Target": "爬爬垫",
+        "Aspect": "外观",
+        "Opinion": "认为爬爬垫好看",
+        "Sentiment": "positive",
+        "Rationale": "觉得爬爬垫外观好看"
+    },
+    {
+        "sentence": "哎哎哎，你把我垫子放那，我怎么练呢？",
+        "Holder": "1",
+        "Target": "爬爬垫的放置位置",
+        "Aspect": "对练瑜伽的影响",
+        "Opinion": "认为影响练瑜伽",
+        "Sentiment": "negative",
+        "Rationale": "爬爬垫的放置影响了自己练瑜伽的空间"
+    },
+    {
+        "sentence": "哎呦，放这也是可以练的嘛。",
+        "Holder": "3",
+        "Target": "练习地点",
+        "Aspect": "地点的适用性",
+        "Opinion": "认为可以练习",
+        "Sentiment": "positive",
+        "Rationale": "觉得即使空间小也可以进行练习"
+    },
+    {
+        "sentence": "不是，那儿太小了。",
+        "Holder": "1",
+        "Target": "练习地点",
+        "Aspect": "地点的空间大小",
+        "Opinion": "认为空间太小",
+        "Sentiment": "negative",
+        "Rationale": "觉得空间太小不适合练习"
+    },
+    {
+        "sentence": "我也买了个瑜伽垫儿，你看。",
+        "Holder": "3",
+        "Target": "瑜伽垫",
+        "Aspect": "拥有瑜伽垫",
+        "Opinion": "展示自己的瑜伽垫",
+        "Sentiment": "positive",
+        "Rationale": "买了新的瑜伽垫想要展示"
+    },
+    {
+        "sentence": "你在那儿练，我在这儿练，怎么样？",
+        "Holder": "3",
+        "Target": "练习安排",
+        "Aspect": "练习的分配",
+        "Opinion": "提出分开练习的建议",
+        "Sentiment": "positive",
+        "Rationale": "提出了一个可行的练习方案"
+    },
+    {
+        "sentence": "练啊，练！",
+        "Holder": "1",
+        "Target": "练习行为",
+        "Aspect": "练习的积极性",
+        "Opinion": "同意练习",
+        "Sentiment": "positive",
+        "Rationale": "接受了练习的建议"
+    },
+    {
+        "sentence": "我还有其他的快递要拆，我等一下练。",
+        "Holder": "3",
+        "Target": "快递",
+        "Aspect": "处理时间",
+        "Opinion": "稍后处理",
+        "Sentiment": "neutral",
+        "Rationale": "有其他快递需要处理"
+    },
+    {
+        "sentence": "不要动我的东西哦。",
+        "Holder": "3",
+        "Target": "个人物品",
+        "Aspect": "物品保护",
+        "Opinion": "禁止他人触碰",
+        "Sentiment": "neutral",
+        "Rationale": "担心他人动自己的东西"
+    },
+    {
+        "sentence": "亲家，你正好在搞衣服哈，哎呦，我也要搞衣服。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "活动相似性",
+        "Opinion": "也想参与",
+        "Sentiment": "positive",
+        "Rationale": "看到1在整理衣服，自己也想参与"
+    },
+    {
+        "sentence": "亲家，把你这些挪一挪好吧，好不好？",
+        "Holder": "3",
+        "Target": "1的物品",
+        "Aspect": "空间调整",
+        "Opinion": "请求挪动",
+        "Sentiment": "neutral",
+        "Rationale": "需要空间整理衣服"
+    },
+    {
+        "sentence": "哎呀哎呀，我刚刚收拾好的，你干什么呀拿出来？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "收拾好的物品被翻动",
+        "Opinion": "不满被翻动",
+        "Sentiment": "negative",
+        "Rationale": "刚刚收拾好的东西被拿出来，感到自己的劳动成果被破坏"
+    },
+    {
+        "sentence": "哎呦，这个地方本来就小，我也是要挂衣服的嘛，你这个挪一下噻。",
+        "Holder": "3",
+        "Target": "1的物品",
+        "Aspect": "空间利用",
+        "Opinion": "需要挪动",
+        "Sentiment": "neutral",
+        "Rationale": "地方小，自己也需要挂衣服"
+    },
+    {
+        "sentence": "挪一下，挪哪儿去啊？",
+        "Holder": "1",
+        "Target": "3的建议",
+        "Aspect": "挪动的可行性",
+        "Opinion": "质疑挪动",
+        "Sentiment": "negative",
+        "Rationale": "不知道挪到哪里去，觉得3的建议不切实际"
+    },
+    {
+        "sentence": "哎呦，你看看我给乔乔买了这么多的东西，没有地方放。",
+        "Holder": "3",
+        "Target": "自己的物品",
+        "Aspect": "存放空间",
+        "Opinion": "缺乏存放空间",
+        "Sentiment": "negative",
+        "Rationale": "给乔乔买了太多东西，导致没有地方放"
+    },
+    {
+        "sentence": "你这些衣服呢，你看都是裙子，又不怕皱，你可以叠起来放在那个盒盒里也是可以的。",
+        "Holder": "3",
+        "Target": "1的衣服",
+        "Aspect": "存放方式",
+        "Opinion": "建议叠放",
+        "Sentiment": "neutral",
+        "Rationale": "1的衣服是裙子，不怕皱"
+    },
+    {
+        "sentence": "那你这些裙子不是也不怕皱吗？你也可以叠到盒盒里面嘛。",
+        "Holder": "1",
+        "Target": "3的裙子",
+        "Aspect": "衣物存放方式",
+        "Opinion": "可以叠放",
+        "Sentiment": "neutral",
+        "Rationale": "1建议3将裙子叠放以节省空间"
+    },
+    {
+        "sentence": "哎呦，你真是的，这么多娃娃的衣服，还有嘞，我还有大衣，我去拿。",
+        "Holder": "3",
+        "Target": "1的建议",
+        "Aspect": "衣物种类和数量",
+        "Opinion": "衣物多且种类杂",
+        "Sentiment": "negative",
+        "Rationale": "3觉得1的建议不切实际，自己有很多衣物需要处理"
+    },
+    {
+        "sentence": "行，我搁盒盒里面，我忍。",
+        "Holder": "1",
+        "Target": "3的要求",
+        "Aspect": "衣物存放方式",
+        "Opinion": "同意叠放",
+        "Sentiment": "negative",
+        "Rationale": "1虽然同意了3的要求，但内心并不情愿"
+    },
+    {
+        "sentence": "你动我化妆品干什么？我这化妆品很贵的。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "化妆品的处理",
+        "Opinion": "反对动化妆品",
+        "Sentiment": "negative",
+        "Rationale": "1认为3动了她的贵重化妆品"
+    },
+    {
+        "sentence": "亲家，不是丢掉，是换一个地方。",
+        "Holder": "3",
+        "Target": "1的担忧",
+        "Aspect": "化妆品的处理方式",
+        "Opinion": "只是换地方",
+        "Sentiment": "neutral",
+        "Rationale": "3解释自己并不是要丢掉1的化妆品，而是换个地方存放"
+    },
+    {
+        "sentence": "换什么地方？",
+        "Holder": "1",
+        "Target": "护肤品存放位置",
+        "Aspect": "存放位置的合理性",
+        "Opinion": "质疑存放位置",
+        "Sentiment": "neutral",
+        "Rationale": "1不知道护肤品应该放在哪里"
+    },
+    {
+        "sentence": "你也晓得嘞，乔乔是早产儿，皮肤天生就不好，也是需要护肤品的。所以我给乔乔买了婴儿的护肤品，没有地方放了，自然我要放在这里。",
+        "Holder": "3",
+        "Target": "护肤品存放位置",
+        "Aspect": "存放位置的合理性",
+        "Opinion": "需要放在这里",
+        "Sentiment": "neutral",
+        "Rationale": "乔乔需要护肤品且没有其他地方放置"
+    },
+    {
+        "sentence": "那我的护肤品放哪里去啊？",
+        "Holder": "1",
+        "Target": "自己护肤品的存放位置",
+        "Aspect": "存放位置的合理性",
+        "Opinion": "质疑存放位置",
+        "Sentiment": "negative",
+        "Rationale": "自己的护肤品没有地方放置"
+    },
+    {
+        "sentence": "放到你的床头柜上喽。",
+        "Holder": "3",
+        "Target": "1的护肤品存放位置",
+        "Aspect": "存放位置的合理性",
+        "Opinion": "建议放在床头柜",
+        "Sentiment": "neutral",
+        "Rationale": "床头柜有空间"
+    },
+    {
+        "sentence": "我的化妆品放到我的床头柜，那我在这儿洗一次，脸我抹一次我就得跑到床头柜那！",
+        "Holder": "1",
+        "Target": "护肤品存放位置",
+        "Aspect": "存放位置的便利性",
+        "Opinion": "认为不方便",
+        "Sentiment": "negative",
+        "Rationale": "每次使用都要跑到床头柜"
+    },
+    {
+        "sentence": "又不是长征，为什么不可以去嘞？",
+        "Holder": "3",
+        "Target": "去某地的决定",
+        "Aspect": "行动的合理性",
+        "Opinion": "认为可以去",
+        "Sentiment": "negative",
+        "Rationale": "觉得去某地并不是像长征那样困难"
+    },
+    {
+        "sentence": "嗨哟，好了，你就忍一忍吧。",
+        "Holder": "3",
+        "Target": "1的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "建议忍耐",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方能暂时忍耐"
+    },
+    {
+        "sentence": "我忍不了了！",
+        "Holder": "1",
+        "Target": "自己的忍耐",
+        "Aspect": "忍耐的极限",
+        "Opinion": "无法再忍耐",
+        "Sentiment": "negative",
+        "Rationale": "已经达到了忍耐的极限"
+    },
+    {
+        "sentence": "一会儿要这样，一会儿要我那样。",
+        "Holder": "1",
+        "Target": "3的要求",
+        "Aspect": "要求的频繁变化",
+        "Opinion": "觉得要求多变",
+        "Sentiment": "negative",
+        "Rationale": "对方的要求频繁变化"
+    },
+    {
+        "sentence": "不是，你到底想干什么啊？",
+        "Holder": "1",
+        "Target": "3的意图",
+        "Aspect": "意图的明确性",
+        "Opinion": "不清楚对方意图",
+        "Sentiment": "negative",
+        "Rationale": "不清楚对方到底想要什么"
+    },
+    {
+        "sentence": "她第一次网购，这还在兴头上有点没控制住。",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "网购行为",
+        "Opinion": "初次网购兴奋",
+        "Sentiment": "neutral",
+        "Rationale": "她第一次网购感到新鲜和兴奋"
+    },
+    {
+        "sentence": "我觉得他买的一些东西，乔乔还是能用得上的。",
+        "Holder": "2",
+        "Target": "他买的东西",
+        "Aspect": "实用性",
+        "Opinion": "有用",
+        "Sentiment": "positive",
+        "Rationale": "他认为买的东西对乔乔有实际用途"
+    },
+    {
+        "sentence": "大衣、连衣裙？乔乔能用得上啊？",
+        "Holder": "3",
+        "Target": "大衣、连衣裙",
+        "Aspect": "适用性",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "他对乔乔是否能用上大衣和连衣裙表示怀疑"
+    },
+    {
+        "sentence": "你买什么大衣和连衣裙嘛？",
+        "Holder": "2",
+        "Target": "大衣、连衣裙",
+        "Aspect": "购买决策",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "他认为买大衣和连衣裙不合适"
+    },
+    {
+        "sentence": "娃娃不能穿，娃娃总是以后有老婆嘛。",
+        "Holder": "3",
+        "Target": "娃娃",
+        "Aspect": "未来需求",
+        "Opinion": "未来有用",
+        "Sentiment": "neutral",
+        "Rationale": "他认为虽然现在娃娃用不上，但未来可能会有需要"
+    },
+    {
+        "sentence": "你太过分了，20年之后穿古董啊？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为3过分",
+        "Sentiment": "negative",
+        "Rationale": "2觉得3的行为（保留旧衣服）不合理"
+    },
+    {
+        "sentence": "哎呀好啦，开个玩笑嘛。",
+        "Holder": "3",
+        "Target": "2的情绪",
+        "Aspect": "情绪反应",
+        "Opinion": "试图缓和情绪",
+        "Sentiment": "positive",
+        "Rationale": "3意识到2生气了"
+    },
+    {
+        "sentence": "我是乔乔的姥姥，我多一两件衣服，在柜子里有什么不可以？",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为自己的行为合理",
+        "Sentiment": "neutral",
+        "Rationale": "3觉得自己作为长辈保留一些衣服是合理的"
+    },
+    {
+        "sentence": "多一两件啊？那是多一堆！",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "衣服数量",
+        "Opinion": "认为衣服数量过多",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3保留的衣服数量远超一两件"
+    },
+    {
+        "sentence": "我发现你金老师，你真的是太过分了你啊！",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为3过分",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3的行为（保留大量旧衣服）不合理"
+    }
+]

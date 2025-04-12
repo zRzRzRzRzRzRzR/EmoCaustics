@@ -1,0 +1,7 @@
+faiss-gpu-cu12>=1.9.0
+openai>=1.60.0
+pandas>=2.2.3
+tqdm>=4.66.6
+numpy<2
+torch>=2.4.0
+vllm

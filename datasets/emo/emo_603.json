@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "夏天失踪与沟通问题",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "夏天失踪且沟通不畅",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑2对福州之行的知情程度",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "情感关系澄清与建议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释他人心理状态及行动目的",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认可2的决策能力",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感矛盾与信息混乱",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被多次玩笑激怒",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "对1提供信息的真实性存疑",
+            "source_id": "1"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对他人情感关系的不确定性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "福州事件认知转变",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "接受他人行动目的的事实陈述",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "最终接受表白建议",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

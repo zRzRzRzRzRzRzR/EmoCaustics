@@ -1,0 +1,209 @@
+[
+    {
+        "sentence": "当熊浩质询罗淼时，只有一分钟，所以我可以打断，要动作要快。来第一件事情，细节是虚构的，连起来为什么就是真实的",
+        "Holder": "1",
+        "Target": "熊浩质询罗淼的细节",
+        "Aspect": "细节的真实性",
+        "Opinion": "质疑细节的真实性",
+        "Sentiment": "neutral",
+        "Rationale": "需要在一分钟内快速打断并提出问题"
+    },
+    {
+        "sentence": "有一些细节是虚构的，不是全部细节都是虚构的。",
+        "Holder": "2",
+        "Target": "细节的真实性",
+        "Aspect": "细节的虚实比例",
+        "Opinion": "部分细节是虚构的",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清细节的真实性"
+    },
+    {
+        "sentence": "我知道了，有一些细节是虚构的，有一些是细节是真实的，为什么连起来变完全真实的快，我也不知道为什么，来我们看第二个点，还有时间，动作要更快，你说武功是真的对吗？",
+        "Holder": "1",
+        "Target": "细节的真实性",
+        "Aspect": "细节连起来的真实性",
+        "Opinion": "不理解为何连起来变真实",
+        "Sentiment": "neutral",
+        "Rationale": "对细节连起来的真实性感到困惑"
+    },
+    {
+        "sentence": "我在刚才那段当中说到了一个武功，叫火、毒、龙鳞，这是真的吗？假的，对。",
+        "Holder": "1",
+        "Target": "火、毒、龙鳞武功",
+        "Aspect": "真实性",
+        "Opinion": "假的",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认武功的真实性"
+    },
+    {
+        "sentence": "所以武功为什么是真的？",
+        "Holder": "1",
+        "Target": "武功的真实性",
+        "Aspect": "原因",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1在寻求解释"
+    },
+    {
+        "sentence": "我说的武功指的是不见得是那种左脚踩右脚的那种武功，而是我们这种通过优秀的表达锻炼的表达上的功夫来那些。",
+        "Holder": "2",
+        "Target": "武功的定义",
+        "Aspect": "表达功夫",
+        "Opinion": "非传统武功",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己对武功的理解"
+    },
+    {
+        "sentence": "该怎么打一个梦？不知道，但是关键它是不是梦，我们下面的问题来思索一下。熊浩，",
+        "Holder": "2",
+        "Target": "梦的探讨",
+        "Aspect": "是否是梦",
+        "Opinion": "需要思索",
+        "Sentiment": "neutral",
+        "Rationale": "2在提出一个需要思考的问题"
+    },
+    {
+        "sentence": "你刚才给我们举了几个故事，里面有几个关键词，你讲。五毒教宗、讲梯云纵、讲草上飞，讲踏雪无痕，为什么是这几个词儿？而不是别的功夫的名字我也不知道，可是各位当我们讲到梯云纵，讲到踏雪无痕，讲到五毒教宗的时候，在各位心里是不是都清楚的知道它指的是什么，无需过多的解释。",
+        "Holder": "2",
+        "Target": "关键词选择",
+        "Aspect": "文化共鸣",
+        "Opinion": "这些词具有共通意义",
+        "Sentiment": "positive",
+        "Rationale": "这些词在武侠文化中具有广泛认知"
+    },
+    {
+        "sentence": "武侠世界的文化，深植我们每个人心中一个简单的词儿，代表的所有共通的意义，它不是虚幻的，对吧？所以熊浩在编故事的时候，他会说梯云粽，你为什么不说叉烧粽，或者五香纵？",
+        "Holder": "2",
+        "Target": "武侠文化",
+        "Aspect": "文化深度",
+        "Opinion": "武侠文化深入人心",
+        "Sentiment": "positive",
+        "Rationale": "武侠文化在每个人心中都有深刻印象"
+    },
+    {
+        "sentence": "坦率讲如果不用梯云纵，用游云种，用拔云种，用岳云纵又何尝你。",
+        "Holder": "1",
+        "Target": "词汇选择",
+        "Aspect": "替代词的合理性",
+        "Opinion": "其他词汇也可使用",
+        "Sentiment": "neutral",
+        "Rationale": "提出了其他可能的词汇选择"
+    },
+    {
+        "sentence": "还用岳云，岳云纵的是岳云纵在我们心中引起的共鸣，就远不如听云纵的共鸣来的大，而什么是实在？什么是虚幻，在他自己的词汇选择中体现的非常明显，第一件事对，",
+        "Holder": "2",
+        "Target": "词汇共鸣",
+        "Aspect": "共鸣强度",
+        "Opinion": "梯云纵更有共鸣",
+        "Sentiment": "positive",
+        "Rationale": "梯云纵在文化中的共鸣更强"
+    },
+    {
+        "sentence": "你要问我问题",
+        "Holder": "1",
+        "Target": "对话引导",
+        "Aspect": "提问意图",
+        "Opinion": "希望被提问",
+        "Sentiment": "neutral",
+        "Rationale": "希望引导对话方向"
+    },
+    {
+        "sentence": "这是第一件事对吧？费的也是我的时间而已。",
+        "Holder": "1",
+        "Target": "第一件事",
+        "Aspect": "时间消耗",
+        "Opinion": "浪费时间",
+        "Sentiment": "negative",
+        "Rationale": "第一件事消耗了自己的时间"
+    },
+    {
+        "sentence": "第二件事，第二件事我想问你，你刚才拿醒目拍了两下，第一次入梦，第二次让大家醒来，你能不能拍几次让我们从金庸的武侠世界中醒来？你拍。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "醒目的使用",
+        "Opinion": "希望多次使用醒目",
+        "Sentiment": "neutral",
+        "Rationale": "希望从武侠世界中醒来"
+    },
+    {
+        "sentence": "经有几个原因，第一很难做得到，主要是原因。因为这是一个刮胡刀是吧？所以再怎么拍刮胡刀，它都不怎么像在方谈教化当中的醒目。",
+        "Holder": "1",
+        "Target": "醒目的使用",
+        "Aspect": "可行性",
+        "Opinion": "难以实现",
+        "Sentiment": "negative",
+        "Rationale": "刮胡刀不像方谈教化中的醒目"
+    },
+    {
+        "sentence": "第二个，我们今天我能够揣度出对方利益的根基，对方是想跟我们说，如果。",
+        "Holder": "1",
+        "Target": "对方的意图",
+        "Aspect": "利益根基",
+        "Opinion": "能够揣度",
+        "Sentiment": "neutral",
+        "Rationale": "能够揣度出对方的利益根基"
+    },
+    {
+        "sentence": "等一下他回答的时候不应该记我的时对不对？",
+        "Holder": "2",
+        "Target": "计时",
+        "Aspect": "计时合理性",
+        "Opinion": "不应计时",
+        "Sentiment": "negative",
+        "Rationale": "认为对方回答时不应计时"
+    },
+    {
+        "sentence": "是吗？我也不知道第二点就是说按我揣度对方的立论思想，他们是想说一旦这个东西。",
+        "Holder": "1",
+        "Target": "对方的立论思想",
+        "Aspect": "揣度",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "对对方的立论思想不确定"
+    },
+    {
+        "sentence": "你继续说不好意思，",
+        "Holder": "2",
+        "Target": "1的发言",
+        "Aspect": "发言的持续性",
+        "Opinion": "支持继续发言",
+        "Sentiment": "neutral",
+        "Rationale": "2在礼貌地让1继续发言"
+    },
+    {
+        "sentence": "一旦这个东西居然可以用语言来加以描述，它就会在大家的脑海当中形成印象，一旦用语言加以描述这个印象，你就会感受到它的专实，而一旦它是这种意义上被语言描述的真实，向你投射的印象，它就居然它就不是一场梦了，",
+        "Holder": "1",
+        "Target": "语言描述",
+        "Aspect": "描述的真实性",
+        "Opinion": "语言描述使印象真实",
+        "Sentiment": "positive",
+        "Rationale": "1认为语言描述能使印象变得真实"
+    },
+    {
+        "sentence": "这个世界上还有什么东西是我们今天辩论现场可以给大家贡献的虚构吗？不可能了，",
+        "Holder": "1",
+        "Target": "辩论现场的贡献",
+        "Aspect": "虚构的可能性",
+        "Opinion": "没有虚构的可能",
+        "Sentiment": "negative",
+        "Rationale": "1认为在辩论现场无法提供虚构内容"
+    },
+    {
+        "sentence": "我跟大家说黑洞当中人可以畅游，这也是现实，我跟大家说我们可以提气，从台面跳到台面，这也是真实的。",
+        "Holder": "1",
+        "Target": "黑洞畅游和提气跳跃",
+        "Aspect": "现实性",
+        "Opinion": "这些都是现实",
+        "Sentiment": "positive",
+        "Rationale": "1坚信这些看似不可能的事情也是现实"
+    },
+    {
+        "sentence": "如果一旦被语言附着可以交付你大脑当中形成印象，这就不叫梦幻，这就叫不叫虚构的话，但是世界上就没有虚构了，不是吗？",
+        "Holder": "1",
+        "Target": "语言描述的影响",
+        "Aspect": "虚构的存在",
+        "Opinion": "语言描述消除虚构",
+        "Sentiment": "ambiguous",
+        "Rationale": "1在探讨语言描述对虚构的影响，既有肯定的成分也有疑问"
+    }
+]

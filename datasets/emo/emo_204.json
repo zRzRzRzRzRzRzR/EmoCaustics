@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚礼签字延迟事件",
+        "emotions": [
+          {"state": "neutral", "reason": "观察到签字时间过长", "source_id": "6"},
+          {"state": "positive", "reason": "赞赏老周严谨态度", "source_id": "6"},
+          {"state": "neutral", "reason": "试图平息冲突", "source_id": "4,5,6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "婚礼取消与责任冲突",
+        "emotions": [
+          {"state": "ambiguous", "reason": "预感突发状况", "source_id": "6"},
+          {"state": "negative", "reason": "被要求承担财务后果", "source_id": "6"},
+          {"state": "negative", "reason": "发现周世辉感情背叛", "source_id": "6"},
+          {"state": "negative", "reason": "周世辉骚扰妹妹", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "婚姻承诺破裂",
+        "emotions": [
+          {"state": "negative", "reason": "婚礼被单方面取消", "source_id": "6"},
+          {"state": "negative", "reason": "要求履行面子承诺", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "情感责任转折",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝履行婚姻承诺", "source_id": "5"},
+          {"state": "negative", "reason": "承认感情背叛", "source_id": "4"},
+          {"state": "negative", "reason": "被暴力对待", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

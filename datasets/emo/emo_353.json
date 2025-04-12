@@ -1,0 +1,58 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚姻冲突与相互指责",
+        "emotions": [
+          {"state": "negative", "reason": "被指责解雇Bart并引发争吵", "source_id": "2"},
+          {"state": "neutral", "reason": "解释工作压力影响陪伴时间", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑未考虑Henry意愿", "source_id": "2"},
+          {"state": "negative", "reason": "反对与父母行为比较", "source_id": "2"},
+          {"state": "negative", "reason": "被指责利用他人并重复错误", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "子女抚养权争议",
+        "emotions": [
+          {"state": "neutral", "reason": "强调选择对Henry有利", "source_id": "1"},
+          {"state": "negative", "reason": "被揭穿缺乏亲子陪伴", "source_id": "2"},
+          {"state": "negative", "reason": "否认Henry真实意愿", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "自我辩护与人生反思",
+        "emotions": [
+          {"state": "negative", "reason": "表达对婚姻和事业的悔恨", "source_id": "2"},
+          {"state": "neutral", "reason": "回应讽刺性感谢", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "离婚责任归咎",
+        "emotions": [
+          {"state": "negative", "reason": "指控婚姻期间受折磨", "source_id": "1"},
+          {"state": "negative", "reason": "批评对方自私本性", "source_id": "1"},
+          {"state": "positive", "reason": "获得Henry情感支持", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "人格攻击与情感投射",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑对方决策动机", "source_id": "1"},
+          {"state": "negative", "reason": "被比作厌恶的亲属", "source_id": "1"},
+          {"state": "negative", "reason": "反击演技退步评价", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "关系终结宣言",
+        "emotions": [
+          {"state": "negative", "reason": "表达永久性情感疏离", "source_id": "1"},
+          {"state": "negative", "reason": "承认婚姻决策错误", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

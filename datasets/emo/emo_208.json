@@ -1,0 +1,52 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "双方互相指责与不原谅",
+        "emotions": [
+          {"state": "negative", "reason": "2做了无法原谅的事;2后续仍有不当行为;2与其他人关系亲密", "source_id": "2"},
+          {"state": "neutral", "reason": "有条件原谅的意愿;要求行为隐蔽", "source_id": "2"},
+          {"state": "negative", "reason": "不被当作最好朋友的失落感;对2的占有欲爆发", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "朋友关系认定争议",
+        "emotions": [
+          {"state": "negative", "reason": "未被列为最好朋友;质疑关系忠诚度", "source_id": "2"},
+          {"state": "neutral", "reason": "明确朋友名单;提出专一关系要求", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "肢体冲突指控",
+        "emotions": [
+          {"state": "negative", "reason": "确认遭受家暴;请求停止暴力", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "矛盾激化与和解尝试",
+        "emotions": [
+          {"state": "negative", "reason": "被公开威胁;被质疑友情真诚度", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑1是否真正原谅", "source_id": "1"},
+          {"state": "negative", "reason": "被要求行为约束;认为要求不合理", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "关系专一协议",
+        "emotions": [
+          {"state": "positive", "reason": "接受专一关系要求", "source_id": "1"},
+          {"state": "neutral", "reason": "要求双向承诺", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "直播观众信息告知",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述第三方观看事实", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

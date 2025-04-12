@@ -1,0 +1,42 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于反复提及话题的争议",
+        "emotions": [
+          {"state": "negative", "reason": "认为对方反复吐槽引发不满", "source_id": "2"},
+          {"state": "neutral", "reason": "允许自由提起但关注情绪反应", "source_id": "2"},
+          {"state": "positive", "reason": "决定不再纠结情绪问题", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "对过去感情经历的误解",
+        "emotions": [
+          {"state": "negative", "reason": "误判对方情绪真实性", "source_id": "2"},
+          {"state": "neutral", "reason": "承认无法改变过去事实", "source_id": "1"},
+          {"state": "positive", "reason": "以轻松态度看待回忆", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情绪表达的真实性争议",
+        "emotions": [
+          {"state": "neutral", "reason": "否认生气并停止吐槽", "source_id": "1"},
+          {"state": "negative", "reason": "被持续误解情绪状态", "source_id": "1"},
+          {"state": "positive", "reason": "自我确认情绪稳定性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "互动中的认知差异",
+        "emotions": [
+          {"state": "negative", "reason": "认为对方过度解读微表情", "source_id": "1"},
+          {"state": "neutral", "reason": "接受可能存在不同观点", "source_id": "1"},
+          {"state": "ambiguous", "reason": "对讨论状态产生困惑", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

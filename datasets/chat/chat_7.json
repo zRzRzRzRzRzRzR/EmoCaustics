@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "诶，表嫂吃饭呐，怎么都不叫我呢？",
+        "Holder": "1",
+        "Target": "表嫂",
+        "Aspect": "吃饭的邀请",
+        "Opinion": "没有被叫到",
+        "Sentiment": "negative",
+        "Rationale": "自己没有被叫到一起吃饭"
+    },
+    {
+        "sentence": "哈哈哈，这不是知道你这几天心情那么不好，吃不下东西就没给你弄，我给你都准备出来了。",
+        "Holder": "2",
+        "Target": "1的心情",
+        "Aspect": "吃饭的安排",
+        "Opinion": "考虑了1的心情",
+        "Sentiment": "positive",
+        "Rationale": "考虑到1心情不好吃不下东西"
+    },
+    {
+        "sentence": "哎哎，表哥跟小雨呢啊？",
+        "Holder": "1",
+        "Target": "表哥和小雨",
+        "Aspect": "他们的去向",
+        "Opinion": "询问去向",
+        "Sentiment": "neutral",
+        "Rationale": "想知道表哥和小雨的去向"
+    },
+    {
+        "sentence": "你表哥带小雨上爷爷家去。咱不管他，咱们四个吃咱们的",
+        "Holder": "2",
+        "Target": "表哥和小雨",
+        "Aspect": "他们的去向",
+        "Opinion": "他们去了爷爷家",
+        "Sentiment": "neutral",
+        "Rationale": "告知1表哥和小雨的去向"
+    },
+    {
+        "sentence": "哈哈，那我就不客气了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "吃饭的态度",
+        "Opinion": "接受邀请",
+        "Sentiment": "positive",
+        "Rationale": "得到了表嫂的邀请和准备的食物"
+    },
+    {
+        "sentence": "菲菲表姑你这吃相也太夸张了吧。",
+        "Holder": "3",
+        "Target": "菲菲表姑",
+        "Aspect": "吃相",
+        "Opinion": "吃相夸张",
+        "Sentiment": "negative",
+        "Rationale": "3觉得菲菲表姑的吃相过于夸张"
+    },
+    {
+        "sentence": "饿死我了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "饥饿程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "1感到非常饿"
+    },
+    {
+        "sentence": "菲菲表姑你待会要去看话剧啊？",
+        "Holder": "1",
+        "Target": "菲菲表姑",
+        "Aspect": "活动安排",
+        "Opinion": "询问活动",
+        "Sentiment": "neutral",
+        "Rationale": "1只是单纯地询问菲菲表姑的活动安排"
+    },
+    {
+        "sentence": "这么说你已经想开了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "心态变化",
+        "Opinion": "认为1已经想开",
+        "Sentiment": "positive",
+        "Rationale": "2觉得1已经不再纠结某个问题"
+    },
+    {
+        "sentence": "我全想开了",
+        "Holder": "1",
+        "Target": "自己的想法",
+        "Aspect": "心态转变",
+        "Opinion": "想开了",
+        "Sentiment": "positive",
+        "Rationale": "找到了新的动力和希望"
+    },
+    {
+        "sentence": "你是怎么想开的啊？",
+        "Holder": "2",
+        "Target": "1的心态转变",
+        "Aspect": "转变的原因",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对1的心态转变感到好奇"
+    },
+    {
+        "sentence": "是星座的光芒又点燃了我生命的激情。",
+        "Holder": "1",
+        "Target": "星座",
+        "Aspect": "对生活的影响",
+        "Opinion": "星座给了新的激情",
+        "Sentiment": "positive",
+        "Rationale": "星座给了新的动力和激情"
+    },
+    {
+        "sentence": "我还是不明白。",
+        "Holder": "3",
+        "Target": "1的心态转变原因",
+        "Aspect": "理解程度",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "对1所说的星座影响感到困惑"
+    },
+    {
+        "sentence": "你们看我为什么老是失败呢？就是因为我迷失了生活的方向，没有找到生命的归宿，所以我老是与成功背道而驰。我是活的没有规律，没有章法，浑浑噩噩，昏昏沉沉。可是现在不一样了，我找到了生命的归宿了。",
+        "Holder": "1",
+        "Target": "自己的生活",
+        "Aspect": "生活方向和归宿",
+        "Opinion": "迷失方向，现在找到归宿",
+        "Sentiment": "negative",
+        "Rationale": "迷失了生活的方向和没有找到生命的归宿"
+    },
+    {
+        "sentence": "处女座。",
+        "Holder": "1",
+        "Target": "自己的星座",
+        "Aspect": "星座",
+        "Opinion": "认为是归宿",
+        "Sentiment": "positive",
+        "Rationale": "找到了与自己星座相关的归属感"
+    },
+    {
+        "sentence": "你是处女座的？",
+        "Holder": "3",
+        "Target": "1的星座",
+        "Aspect": "星座",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "对1的星座感到好奇"
+    },
+    {
+        "sentence": "是，就是因为我违背了处女座的生活原则，所以l理应受到惩罚啊。我赶去看话剧了，拜拜",
+        "Holder": "1",
+        "Target": "自己的生活原则",
+        "Aspect": "星座生活原则",
+        "Opinion": "违背原则，应受惩罚",
+        "Sentiment": "negative",
+        "Rationale": "认为自己违背了处女座的生活原则"
+    },
+    {
+        "sentence": "回来了。看电视呢。唉，你说这小雨死活就非要陪着爷爷，我只好留他在那过夜了。哎哎，不理人呐。怎么了？生气了？为什么呀这是？",
+        "Holder": "6",
+        "Target": "小雨",
+        "Aspect": "陪伴爷爷的决定",
+        "Opinion": "无奈留宿",
+        "Sentiment": "ambiguous",
+        "Rationale": "小雨坚持要陪爷爷，导致6只能让他过夜"
+    },
+    {
+        "sentence": "还不是为了那个菲菲表姑。",
+        "Holder": "3",
+        "Target": "菲菲表姑",
+        "Aspect": "引起情绪的原因",
+        "Opinion": "情绪原因",
+        "Sentiment": "negative",
+        "Rationale": "菲菲表姑的事情引起了情绪波动"
+    },
+    {
+        "sentence": "菲菲表姑怎么了？",
+        "Holder": "6",
+        "Target": "菲菲表姑",
+        "Aspect": "状况询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对菲菲表姑的情况不了解"
+    },
+    {
+        "sentence": "菲菲表姑现在迷恋上星座了，我妈正为他发愁呢。妈就别胡思乱想了，其实现在有很多人都迷恋星座的，这是很正常的事儿。",
+        "Holder": "1",
+        "Target": "菲菲表姑",
+        "Aspect": "迷恋星座的行为",
+        "Opinion": "认为正常",
+        "Sentiment": "positive",
+        "Rationale": "认为迷恋星座是普遍现象"
+    },
+    {
+        "sentence": "她那是迷恋吗？她那叫迷信了",
+        "Holder": "2",
+        "Target": "菲菲表姑",
+        "Aspect": "对星座的态度",
+        "Opinion": "认为是迷信",
+        "Sentiment": "negative",
+        "Rationale": "认为菲菲表姑的行为已经超出迷恋变成迷信"
+    },
+    {
+        "sentence": "哈哈哈，我当什么事呢唉？我告诉你，你知道现在都什么人看那星座书吗？全都是一群 20 多岁的小青年，还有像他们这种未成年的小孩，为啥看？因为他们对前途未知，所以看待这种书安慰自己也就是骗骗自己玩玩呗，你还至于在这生气。行了行了行了，走，回屋睡觉去了都几点了",
+        "Holder": "6",
+        "Target": "星座书",
+        "Aspect": "星座书的可信度",
+        "Opinion": "不可信，只是安慰",
+        "Sentiment": "negative",
+        "Rationale": "认为星座书只是年轻人和未成年人用来安慰自己的工具，缺乏实际价值"
+    },
+    {
+        "sentence": "你们好",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是普通的问候，没有表达任何特定的情感"
+    },
+    {
+        "sentence": "菲菲姑姑，你那画剧好看吗？",
+        "Holder": "2",
+        "Target": "话剧",
+        "Aspect": "话剧的观赏性",
+        "Opinion": "询问是否好看",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问话剧是否好看，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "好看好看，太好看了。哎，我跟你们说，今天的这部话剧正好印证了我的那本星座书，真是太准啦。",
+        "Holder": "1",
+        "Target": "话剧和星座书",
+        "Aspect": "话剧与星座书的关联性",
+        "Opinion": "话剧印证了星座书的准确性",
+        "Sentiment": "positive",
+        "Rationale": "认为话剧的内容与星座书相符，感到星座书很准确"
+    },
+    {
+        "sentence": "我跟你说了没，你不管行吗？",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "对1观点的接受度",
+        "Opinion": "不希望1继续谈论",
+        "Sentiment": "negative",
+        "Rationale": "对1反复谈论星座书和话剧的关联感到不耐烦"
+    },
+    {
+        "sentence": "菲菲，你今天看的是个什么话剧啊？",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "观看的话剧",
+        "Opinion": "询问话剧内容",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问话剧内容"
+    },
+    {
+        "sentence": "我今天看的是一个悲惨的爱情故事，真是太惨了，太感动人了。",
+        "Holder": "1",
+        "Target": "话剧",
+        "Aspect": "故事内容和情感",
+        "Opinion": "悲惨且感人",
+        "Sentiment": "positive",
+        "Rationale": "被话剧中的悲惨爱情故事深深感动"
+    },
+    {
+        "sentence": "不是什么呀，什么话剧这么好看？",
+        "Holder": "2",
+        "Target": "话剧",
+        "Aspect": "话剧的吸引力",
+        "Opinion": "好奇话剧内容",
+        "Sentiment": "neutral",
+        "Rationale": "对话剧内容感到好奇"
+    },
+    {
+        "sentence": "他讲的是一个处女座的女孩爱上了一个狮子座的男孩，可是他们因为不了解他们的星座是不匹配的，结果跳崖了",
+        "Holder": "1",
+        "Target": "话剧",
+        "Aspect": "故事情节",
+        "Opinion": "星座不匹配导致悲剧",
+        "Sentiment": "negative",
+        "Rationale": "故事中的悲剧结局让人感到悲伤"
+    },
+    {
+        "sentence": "还有写星座的话剧，那话剧真是这么演的？",
+        "Holder": "6",
+        "Target": "话剧",
+        "Aspect": "话剧的真实性",
+        "Opinion": "质疑话剧内容",
+        "Sentiment": "neutral",
+        "Rationale": "对话剧中星座元素的演绎方式感到好奇和质疑"
+    },
+    {
+        "sentence": "不是，这是我猜的。这个女孩是典型的处女座的性格，这个男孩的性格是典型的狮子座的性格，他们俩怎么能在一起呢？能不跳崖吗？",
+        "Holder": "1",
+        "Target": "星座性格匹配",
+        "Aspect": "星座性格的相容性",
+        "Opinion": "不看好",
+        "Sentiment": "negative",
+        "Rationale": "认为处女座和狮子座的性格不匹配"
+    },
+    {
+        "sentence": "不管能行吗",
+        "Holder": "2",
+        "Target": "星座性格匹配",
+        "Aspect": "是否需要关注",
+        "Opinion": "不需要关注",
+        "Sentiment": "neutral",
+        "Rationale": "觉得星座性格匹配不是重要的问题"
+    },
+    {
+        "sentence": "菲菲，我必须得说你几句了，你可快有病了，这星座书能信吗？每一本写的都不一样，不信你看看你这本书写的这个狮子座和处女座什么？不般配，跳崖，是吧？你再换一本看看，那上面没准写的这狮子座和这处女座大吉绝配呢。",
+        "Holder": "6",
+        "Target": "星座书的可信度",
+        "Aspect": "星座书的一致性",
+        "Opinion": "不可信",
+        "Sentiment": "negative",
+        "Rationale": "认为星座书的内容不一致且不可靠"
+    },
+    {
+        "sentence": "我不跟你们说了，我要早点睡了，明天早上我要去应聘一个化妆品的形象代言人，我一个朋友是星座专家，他说了明天我一定会福星高照的，我一定会成功。",
+        "Holder": "1",
+        "Target": "应聘成功",
+        "Aspect": "星座预测的影响",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "朋友是星座专家且预测明天会成功"
+    },
+    {
+        "sentence": "瞧见没，神经了吧",
+        "Holder": "2",
+        "Target": "1的星座信仰",
+        "Aspect": "星座信仰的合理性",
+        "Opinion": "不理智",
+        "Sentiment": "negative",
+        "Rationale": "觉得1过于相信星座预测"
+    },
+    {
+        "sentence": "哎怎么就你们俩坐在这，菲菲表姑呢？",
+        "Holder": "2",
+        "Target": "菲菲表姑",
+        "Aspect": "在场情况",
+        "Opinion": "不在场",
+        "Sentiment": "neutral",
+        "Rationale": "发现菲菲表姑不在场"
+    },
+    {
+        "sentence": "去面试了",
+        "Holder": "3",
+        "Target": "菲菲表姑",
+        "Aspect": "活动",
+        "Opinion": "去面试",
+        "Sentiment": "neutral",
+        "Rationale": "知道菲菲表姑去面试了"
+    },
+    {
+        "sentence": "她去啦？",
+        "Holder": "2",
+        "Target": "菲菲表姑",
+        "Aspect": "去面试的事实",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "对菲菲表姑去面试感到意外"
+    },
+    {
+        "sentence": "我昨天还以为她开玩笑呢",
+        "Holder": "3",
+        "Target": "菲菲表姑",
+        "Aspect": "面试的真实性",
+        "Opinion": "以为是开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "之前对菲菲表姑面试的消息持怀疑态度"
+    },
+    {
+        "sentence": "这孩子还真去啦，我正想劝劝她呢。",
+        "Holder": "2",
+        "Target": "孩子",
+        "Aspect": "孩子的行为",
+        "Opinion": "孩子去了",
+        "Sentiment": "neutral",
+        "Rationale": "孩子真的去了"
+    },
+    {
+        "sentence": "哪位呦？",
+        "Holder": "2",
+        "Target": "未知对象",
+        "Aspect": "身份确认",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "对提及的人不熟悉"
+    },
+    {
+        "sentence": "菲菲，你怎么啦你？",
+        "Holder": "2",
+        "Target": "菲菲",
+        "Aspect": "菲菲的状态",
+        "Opinion": "关心菲菲",
+        "Sentiment": "neutral",
+        "Rationale": "看到菲菲似乎有些不对劲"
+    },
+    {
+        "sentence": "你不是面试去了吗？怎么样啊？是不是又失败了啊？",
+        "Holder": "2",
+        "Target": "菲菲的面试",
+        "Aspect": "面试结果",
+        "Opinion": "猜测失败",
+        "Sentiment": "ambiguous",
+        "Rationale": "知道菲菲去面试但不确定结果"
+    },
+    {
+        "sentence": "我成功了啊。我终于成功了。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "成功",
+        "Opinion": "成功",
+        "Sentiment": "positive",
+        "Rationale": "自己取得了成功"
+    },
+    {
+        "sentence": "哎，你被人选上啦？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "被选上",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "听到3说自己成功了"
+    },
+    {
+        "sentence": "我不是在做梦吧",
+        "Holder": "1",
+        "Target": "3的成功",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到3说自己成功了，感到难以置信"
+    },
+    {
+        "sentence": "是我在做梦",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "成功",
+        "Opinion": "难以置信",
+        "Sentiment": "positive",
+        "Rationale": "自己取得了成功，感到像做梦一样不真实"
+    },
+    {
+        "sentence": "我想一个人静静的待一会",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "独处",
+        "Opinion": "需要独处",
+        "Sentiment": "neutral",
+        "Rationale": "听到3的成功消息后，需要时间消化和思考"
+    }
+]

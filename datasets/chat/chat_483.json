@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "妈，你要给我们看牙呀。",
+        "Holder": "1",
+        "Target": "母亲",
+        "Aspect": "看牙计划",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1只是询问母亲是否要给他们看牙"
+    },
+    {
+        "sentence": "对，告诉你们这几天爸爸老闹牙病，我又攻读了大量的关于牙医方面的知识。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "学习牙医知识",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "2通过学习牙医知识来帮助家人"
+    },
+    {
+        "sentence": "我决定给你们做一次正规的检查一下你们每个人的牙齿，也算是检验一下我的学习成果，希望你们能够配合我实习啊。",
+        "Holder": "2",
+        "Target": "家人",
+        "Aspect": "牙齿检查",
+        "Opinion": "希望配合",
+        "Sentiment": "positive",
+        "Rationale": "2希望通过检查家人的牙齿来检验自己的学习成果"
+    },
+    {
+        "sentence": "妈，您就别给我查了。",
+        "Holder": "1",
+        "Target": "母亲",
+        "Aspect": "牙齿检查",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "1不想接受母亲的牙齿检查"
+    },
+    {
+        "sentence": "就是的，我们学校刚体检完，算了吧。",
+        "Holder": "4",
+        "Target": "母亲",
+        "Aspect": "牙齿检查",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "4认为学校刚体检完不需要再检查"
+    },
+    {
+        "sentence": "什么？什么什么就算了，这是咱们家的集体行动，谁也不能不参加，夏东海，你干嘛去啊？",
+        "Holder": "2",
+        "Target": "集体行动",
+        "Aspect": "参与义务",
+        "Opinion": "必须参加",
+        "Sentiment": "negative",
+        "Rationale": "夏东海没有参与集体行动"
+    },
+    {
+        "sentence": "哈哈，我那个剧本还没改完呢，我得接着工作呃。",
+        "Holder": "5",
+        "Target": "剧本工作",
+        "Aspect": "工作进度",
+        "Opinion": "需要继续工作",
+        "Sentiment": "neutral",
+        "Rationale": "剧本工作还未完成"
+    },
+    {
+        "sentence": "快好好配合妈妈检查牙齿，站住",
+        "Holder": "2",
+        "Target": "检查牙齿",
+        "Aspect": "配合度",
+        "Opinion": "需要配合",
+        "Sentiment": "negative",
+        "Rationale": "对方没有配合检查牙齿"
+    },
+    {
+        "sentence": "嘿，我这就说过了，这是咱们家的集体行动，尤其家长必须起到模范带头作用。",
+        "Holder": "2",
+        "Target": "家长角色",
+        "Aspect": "模范作用",
+        "Opinion": "家长应带头",
+        "Sentiment": "negative",
+        "Rationale": "家长没有起到模范作用"
+    },
+    {
+        "sentence": "哪能这样呢，坐下等着叫号啊，咱们谁第一个来诶？",
+        "Holder": "2",
+        "Target": "等待顺序",
+        "Aspect": "遵守规则",
+        "Opinion": "需要按顺序",
+        "Sentiment": "negative",
+        "Rationale": "大家没有按顺序等待"
+    },
+    {
+        "sentence": "当然是小雪啦，女士优先。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "优先权",
+        "Opinion": "女士优先",
+        "Sentiment": "positive",
+        "Rationale": "认为女士应该优先"
+    },
+    {
+        "sentence": "小雪请吧",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "邀请",
+        "Opinion": "邀请小雪",
+        "Sentiment": "positive",
+        "Rationale": "同意女士优先的原则"
+    },
+    {
+        "sentence": "你最好把你这种风度带到餐桌上。",
+        "Holder": "4",
+        "Target": "2的风度",
+        "Aspect": "风度的适用场合",
+        "Opinion": "风度应带到餐桌上",
+        "Sentiment": "neutral",
+        "Rationale": "认为2的风度不仅在当前场合适用，也应该在餐桌上体现"
+    },
+    {
+        "sentence": "请坐，请把嘴张开，",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "行为指示",
+        "Opinion": "请小雪坐下并张嘴",
+        "Sentiment": "neutral",
+        "Rationale": "需要进行下一步的动作指示"
+    },
+    {
+        "sentence": "嗯，好，牙齿很洁白，光泽也很好，希望继续早晚都刷牙",
+        "Holder": "2",
+        "Target": "小雪的牙齿",
+        "Aspect": "牙齿的健康状况",
+        "Opinion": "牙齿洁白有光泽",
+        "Sentiment": "positive",
+        "Rationale": "看到小雪的牙齿状况良好"
+    },
+    {
+        "sentence": "下一个下一个肯定是小雨，他是我弟弟，我肯定得让他",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "选择顺序",
+        "Opinion": "应该让小雨先来",
+        "Sentiment": "positive",
+        "Rationale": "小雨是说话人1的弟弟"
+    },
+    {
+        "sentence": "流星你。",
+        "Holder": "3",
+        "Target": "流星",
+        "Aspect": "称呼",
+        "Opinion": "指向流星",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的称呼，没有表达出特别的情感"
+    },
+    {
+        "sentence": "嗯哼请坐好。嗯，把嘴张开啊。小牙非常洁白，硬度也很好。行继续好好刷牙少吃糖。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "牙齿健康",
+        "Opinion": "牙齿状况良好",
+        "Sentiment": "positive",
+        "Rationale": "小雨的牙齿洁白且硬度好"
+    },
+    {
+        "sentence": "太容易了",
+        "Holder": "3",
+        "Target": "刷牙",
+        "Aspect": "难易程度",
+        "Opinion": "刷牙很简单",
+        "Sentiment": "positive",
+        "Rationale": "小雨觉得刷牙很容易"
+    },
+    {
+        "sentence": "哎，爸爸爸，你看小雨都说容易了，我觉得我妈还真有两下子，你还不如看看",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "教育方法",
+        "Opinion": "妈妈教育有方",
+        "Sentiment": "positive",
+        "Rationale": "小雨觉得刷牙容易，说话人1认为这是妈妈教育得当的结果"
+    },
+    {
+        "sentence": "今天我准备继续尊老爱幼，你先让你妈看看。",
+        "Holder": "5",
+        "Target": "尊老爱幼的行为",
+        "Aspect": "行为的持续性",
+        "Opinion": "继续尊老爱幼",
+        "Sentiment": "positive",
+        "Rationale": "决定继续尊老爱幼"
+    },
+    {
+        "sentence": "张开嘴，哎呦，怎么都黑啦啊？这不就这是典型的蛀牙呀。",
+        "Holder": "2",
+        "Target": "牙齿状况",
+        "Aspect": "牙齿的颜色和健康",
+        "Opinion": "牙齿有蛀牙",
+        "Sentiment": "negative",
+        "Rationale": "发现牙齿变黑且有蛀牙"
+    },
+    {
+        "sentence": "这个，唉呦，这都活动，我告诉你，就这牙活动成这样。就都用不着钳子了，拿手一拔就掉下来，血都不会流啊，真的，一点都不疼，要不我给你拔下来",
+        "Holder": "2",
+        "Target": "牙齿状况",
+        "Aspect": "牙齿的稳固性",
+        "Opinion": "牙齿松动严重",
+        "Sentiment": "negative",
+        "Rationale": "牙齿松动到可以轻易拔掉"
+    },
+    {
+        "sentence": "哎，对了，爸，哎，您疼那颗牙是不是也后槽牙呀？",
+        "Holder": "1",
+        "Target": "疼痛的牙齿",
+        "Aspect": "疼痛的位置",
+        "Opinion": "怀疑是后槽牙",
+        "Sentiment": "neutral",
+        "Rationale": "询问疼痛牙齿的位置"
+    },
+    {
+        "sentence": "哎，您赶紧让我妈给您看看是不是晃动，你快",
+        "Holder": "1",
+        "Target": "牙齿状况",
+        "Aspect": "牙齿的稳定性",
+        "Opinion": "需要检查牙齿是否晃动",
+        "Sentiment": "neutral",
+        "Rationale": "建议尽快检查牙齿状况"
+    },
+    {
+        "sentence": "请坐，请张开嘴，三个孩子都看见了，没有什么很难的事，很简单，张嘴，张嘴。",
+        "Holder": "2",
+        "Target": "张开嘴的动作",
+        "Aspect": "动作的难易程度",
+        "Opinion": "很简单",
+        "Sentiment": "positive",
+        "Rationale": "认为张开嘴的动作很简单"
+    },
+    {
+        "sentence": "唉，那那那你看。行，你先把这白大褂给脱了。我看着眼晕。",
+        "Holder": "5",
+        "Target": "白大褂",
+        "Aspect": "视觉感受",
+        "Opinion": "看着眼晕",
+        "Sentiment": "negative",
+        "Rationale": "看到白大褂感到眼晕"
+    },
+    {
+        "sentence": "就你事多。",
+        "Holder": "2",
+        "Target": "5的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "事多",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方要求多且繁琐"
+    },
+    {
+        "sentence": "嗯，这样我就不是牙科大夫了，我就是你的老婆刘梅了。",
+        "Holder": "2",
+        "Target": "身份转变",
+        "Aspect": "角色转换",
+        "Opinion": "从牙科大夫变为老婆",
+        "Sentiment": "neutral",
+        "Rationale": "因为根据对方的要求改变了身份，所以平静地表达角色转换"
+    },
+    {
+        "sentence": "哎呦，这个牙活动得相当厉害。",
+        "Holder": "2",
+        "Target": "牙齿状况",
+        "Aspect": "牙齿活动程度",
+        "Opinion": "活动得相当厉害",
+        "Sentiment": "negative",
+        "Rationale": "因为发现牙齿问题严重，所以表现出担忧"
+    },
+    {
+        "sentence": "我觉得你真的不需要去医院看。",
+        "Holder": "2",
+        "Target": "是否需要就医",
+        "Aspect": "就医必要性",
+        "Opinion": "不需要去医院",
+        "Sentiment": "positive",
+        "Rationale": "因为认为牙齿问题不严重，所以乐观地建议不需要就医"
+    },
+    {
+        "sentence": "疼死我了疼死我了。",
+        "Holder": "5",
+        "Target": "疼痛感受",
+        "Aspect": "疼痛程度",
+        "Opinion": "非常疼",
+        "Sentiment": "negative",
+        "Rationale": "因为感到剧烈的疼痛，所以表现出强烈的痛苦"
+    },
+    {
+        "sentence": "您把我爸牙拔下来啦？没有，我就轻轻碰了他一下。",
+        "Holder": "2",
+        "Target": "7的行为",
+        "Aspect": "行为的严重性",
+        "Opinion": "否认严重行为",
+        "Sentiment": "neutral",
+        "Rationale": "2只是轻轻碰了一下，并没有真的拔牙"
+    },
+    {
+        "sentence": "老夏你干嘛？你真下得去手。唉呦，我知道你这个人好强，剧本改不好，适当自责也可以，但你不能自残呢你啊。",
+        "Holder": "7",
+        "Target": "5的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对自残",
+        "Sentiment": "negative",
+        "Rationale": "7认为5的行为是自残，觉得不合理且担心"
+    },
+    {
+        "sentence": "谁自残了。",
+        "Holder": "5",
+        "Target": "7的指责",
+        "Aspect": "指责的准确性",
+        "Opinion": "否认自残",
+        "Sentiment": "negative",
+        "Rationale": "5觉得自己并没有自残，被误解"
+    },
+    {
+        "sentence": "你不自残怎么回事？",
+        "Holder": "7",
+        "Target": "5的行为",
+        "Aspect": "行为的解释",
+        "Opinion": "要求解释",
+        "Sentiment": "negative",
+        "Rationale": "7对5的行为感到不解和担忧"
+    },
+    {
+        "sentence": "我不跟你说。",
+        "Holder": "5",
+        "Target": "7的追问",
+        "Aspect": "沟通的意愿",
+        "Opinion": "拒绝沟通",
+        "Sentiment": "negative",
+        "Rationale": "5觉得与7沟通无果，感到厌烦"
+    },
+    {
+        "sentence": "你最好别说话，你说我也听不清，",
+        "Holder": "7",
+        "Target": "5的说话",
+        "Aspect": "说话的清晰度",
+        "Opinion": "听不清",
+        "Sentiment": "negative",
+        "Rationale": "听不清对方说话"
+    },
+    {
+        "sentence": "我们两个什么事都过不去，都能解决，对吧？",
+        "Holder": "7",
+        "Target": "双方的矛盾",
+        "Aspect": "解决问题的能力",
+        "Opinion": "能解决问题",
+        "Sentiment": "positive",
+        "Rationale": "相信双方有能力解决问题"
+    },
+    {
+        "sentence": "你中午吃包子了？你一看我剧本就满脸褶了。",
+        "Holder": "5",
+        "Target": "7的状态",
+        "Aspect": "外貌和饮食",
+        "Opinion": "满脸褶",
+        "Sentiment": "neutral",
+        "Rationale": "观察到7的外貌变化"
+    },
+    {
+        "sentence": "老夏，嗯，你这个本子基本上就算基本上就算白改了",
+        "Holder": "7",
+        "Target": "5的剧本",
+        "Aspect": "剧本修改的效果",
+        "Opinion": "白改",
+        "Sentiment": "negative",
+        "Rationale": "认为剧本修改没有效果"
+    },
+    {
+        "sentence": "干嘛要吃人呐？",
+        "Holder": "7",
+        "Target": "剧本内容",
+        "Aspect": "剧情合理性",
+        "Opinion": "质疑吃人情节",
+        "Sentiment": "negative",
+        "Rationale": "对剧本中吃人情节感到不理解和不认同"
+    },
+    {
+        "sentence": "你懂剧本啊？",
+        "Holder": "5",
+        "Target": "7的剧本理解",
+        "Aspect": "理解程度",
+        "Opinion": "怀疑7的理解",
+        "Sentiment": "negative",
+        "Rationale": "对7是否真正理解剧本表示怀疑"
+    },
+    {
+        "sentence": "我当然懂啊。",
+        "Holder": "7",
+        "Target": "自己的剧本理解",
+        "Aspect": "理解程度",
+        "Opinion": "自信理解剧本",
+        "Sentiment": "positive",
+        "Rationale": "对自己理解剧本的能力有信心"
+    },
+    {
+        "sentence": "你懂还是我懂剧本啊？",
+        "Holder": "5",
+        "Target": "7的剧本理解",
+        "Aspect": "理解程度",
+        "Opinion": "强调自己的理解",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的剧本理解更深入"
+    },
+    {
+        "sentence": "我懂剧本啊。你懂剧本你",
+        "Holder": "7",
+        "Target": "5的剧本理解",
+        "Aspect": "理解程度",
+        "Opinion": "强调自己的理解",
+        "Sentiment": "negative",
+        "Rationale": "被质疑理解能力而感到不满"
+    },
+    {
+        "sentence": "干嘛？老夏，你干嘛？咱俩同学这么多年，你不至于为这点事，你就动手打我吧？",
+        "Holder": "7",
+        "Target": "老夏的行为",
+        "Aspect": "动手打人的合理性",
+        "Opinion": "不应该动手",
+        "Sentiment": "negative",
+        "Rationale": "老夏为了一点小事就动手打人"
+    },
+    {
+        "sentence": "哼，打自己也不行，什么事情都好解决，这个本子改不好慢慢改，你不能自虐",
+        "Holder": "7",
+        "Target": "老夏的自我伤害行为",
+        "Aspect": "解决问题的方法",
+        "Opinion": "反对自虐",
+        "Sentiment": "negative",
+        "Rationale": "老夏通过自虐来解决问题"
+    },
+    {
+        "sentence": "废话，打自己这么狠的不疼吗？",
+        "Holder": "7",
+        "Target": "老夏的自虐行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不赞同自虐",
+        "Sentiment": "negative",
+        "Rationale": "老夏打自己这么狠"
+    },
+    {
+        "sentence": "我牙疼。",
+        "Holder": "5",
+        "Target": "自己的身体状况",
+        "Aspect": "具体疼痛部位",
+        "Opinion": "牙疼",
+        "Sentiment": "negative",
+        "Rationale": "牙齿疼痛"
+    },
+    {
+        "sentence": "哎，老夏，你真的一见到我就牙就疼。",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "见面时的反应",
+        "Opinion": "认为5一见面就牙疼",
+        "Sentiment": "ambiguous",
+        "Rationale": "7用一种半开玩笑的语气说5一见到他就牙疼"
+    },
+    {
+        "sentence": "我烦你",
+        "Holder": "5",
+        "Target": "7",
+        "Aspect": "对7的态度",
+        "Opinion": "烦7",
+        "Sentiment": "negative",
+        "Rationale": "5直接表达了对7的厌烦"
+    },
+    {
+        "sentence": "那好，行，我走。对了，抓紧时间看牙，看完牙才能改好剧本哦。",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "对5的建议",
+        "Opinion": "建议5看牙并改剧本",
+        "Sentiment": "neutral",
+        "Rationale": "7在回应5的厌烦后，平静地给出建议"
+    }
+]

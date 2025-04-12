@@ -1,0 +1,79 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程管理",
+        "emotions": [
+          {"state": "neutral", "reason": "主持辩论流程", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "偶像崇拜实证研究",
+        "emotions": [
+          {"state": "positive", "reason": "引用数据证明理性崇拜", "source_id": "2"},
+          {"state": "neutral", "reason": "解释情感程度差异", "source_id": "2,7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "极端追星行为",
+        "emotions": [
+          {"state": "positive", "reason": "深度认同郭敬明作品", "source_id": "3"},
+          {"state": "negative", "reason": "质疑司法公正性", "source_id": "3"},
+          {"state": "neutral", "reason": "承认行为失控现实", "source_id": "4,6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭教育立场",
+        "emotions": [
+          {"state": "positive", "reason": "倡导适度引导原则", "source_id": "4"},
+          {"state": "negative", "reason": "质疑娱乐公司动机", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "娱乐产业价值观",
+        "emotions": [
+          {"state": "positive", "reason": "强调快乐优先理念", "source_id": "5"},
+          {"state": "negative", "reason": "遭遇道德性质疑", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "艺人自我反思",
+        "emotions": [
+          {"state": "negative", "reason": "忏悔过往错误示范", "source_id": "6"},
+          {"state": "positive", "reason": "肯定粉丝理性判断", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "教育危机案例",
+        "emotions": [
+          {"state": "negative", "reason": "目睹学生极端行为", "source_id": "3,5"},
+          {"state": "neutral", "reason": "引用学术数据佐证", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

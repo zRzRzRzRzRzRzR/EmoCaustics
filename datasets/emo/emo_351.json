@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "活动主持与嘉宾介绍",
+        "emotions": [
+          {"state": "positive", "reason": "介绍重磅嘉宾的专业背景", "source_id": "2"},
+          {"state": "neutral", "reason": "流程性环节控制", "source_id": "3,4,5"}
+        ]
+      },
+      {
+        "event": "学术会议总结与反馈",
+        "emotions": [
+          {"state": "positive", "reason": "直播间热度破纪录的成就感", "source_id": "2,3,4,5"},
+          {"state": "neutral", "reason": "处理技术性收尾工作", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "理论模型构建过程",
+        "emotions": [
+          {"state": "positive", "reason": "展示博士论文成果的创新性", "source_id": "1"},
+          {"state": "negative", "reason": "发现现有理论解释力的不足", "source_id": "4"},
+          {"state": "ambiguous", "reason": "提出未经验证的类勒透球模型", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "模型验证与学术争鸣",
+        "emotions": [
+          {"state": "doubt", "reason": "弱势议题反向相关现象解释困境", "source_id": "2"},
+          {"state": "positive", "reason": "多机制结合提升模型解释力", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "地方政府决策机制分析",
+        "emotions": [
+          {"state": "neutral", "reason": "描述正式/非正式决策程序", "source_id": "3"},
+          {"state": "positive", "reason": "发现个体化要素的影响价值", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "政府注意力分配批判",
+        "emotions": [
+          {"state": "negative", "reason": "注意力错配导致治理失效", "source_id": "2"},
+          {"state": "positive", "reason": "提出多主体纠偏机制方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "县域治理特殊性探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "分析层级治理的结构共性", "source_id": "5"},
+          {"state": "negative", "reason": "多任务冲击下的自主性丧失", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "会务技术支持",
+        "emotions": [
+          {"state": "neutral", "reason": "执行标准化流程操作", "source_id": "1"},
+          {"state": "positive", "reason": "完成高质量影像记录", "source_id": "2,3,4,5"}
+        ]
+      }
+    ]
+  }
+}

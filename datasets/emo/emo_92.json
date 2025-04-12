@@ -1,0 +1,52 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作与日常行为的误解",
+        "emotions": [
+          {"state": "neutral", "reason": "解释自己上班行为", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑车内女性身份", "source_id": "2"},
+          {"state": "negative", "reason": "联系未果引发争执", "source_id": "2"},
+          {"state": "neutral", "reason": "澄清微信账号问题", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "快递与身份确认冲突",
+        "emotions": [
+          {"state": "negative", "reason": "快递送错地址", "source_id": "2"},
+          {"state": "neutral", "reason": "确认姓名与家庭关系", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对伴侣行为的持续质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑日常行为与工作真实性", "source_id": "1"},
+          {"state": "negative", "reason": "长时间等待未归", "source_id": "1"},
+          {"state": "neutral", "reason": "接受开网约车解释", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭关系认知差异",
+        "emotions": [
+          {"state": "neutral", "reason": "澄清子女存在状态", "source_id": "1,3"},
+          {"state": "negative", "reason": "对关系进展速度不满", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭身份介入",
+        "emotions": [
+          {"state": "positive", "reason": "提及儿子带来的愉悦", "source_id": "1"},
+          {"state": "neutral", "reason": "澄清婚姻关系状态", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

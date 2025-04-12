@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "让他自己。",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "独立性",
+        "Opinion": "应该自己处理",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1认为某人应该自己处理事情"
+    },
+    {
+        "sentence": "走啥站都站不住了。",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "身体状况",
+        "Opinion": "站不稳",
+        "Sentiment": "negative",
+        "Rationale": "某人连站都站不稳"
+    },
+    {
+        "sentence": "老演员怎么还怯场？赵处长该您上场了，我说过压轴戏豪华场，这。",
+        "Holder": "2",
+        "Target": "赵处长",
+        "Aspect": "表演状态",
+        "Opinion": "不应该怯场",
+        "Sentiment": "negative",
+        "Rationale": "赵处长是老演员却还怯场"
+    },
+    {
+        "sentence": "是哪你们带我到这来干什么？这不是你房子吗？",
+        "Holder": "3",
+        "Target": "带路的人",
+        "Aspect": "带路的目的",
+        "Opinion": "不清楚目的",
+        "Sentiment": "negative",
+        "Rationale": "被带到陌生地方且不清楚目的"
+    },
+    {
+        "sentence": "这不是我房子，我怎么可能有这种房子，这房子那么贵，说实话想都不敢想，对。",
+        "Holder": "3",
+        "Target": "房子",
+        "Aspect": "房子的归属",
+        "Opinion": "不属于自己的房子",
+        "Sentiment": "negative",
+        "Rationale": "这房子非常昂贵且不属于自己的"
+    },
+    {
+        "sentence": "你是不敢想，但是你敢干，你是个实干家，这。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "性格特点",
+        "Opinion": "实干家",
+        "Sentiment": "positive",
+        "Rationale": "认为2虽然不敢想但敢干"
+    },
+    {
+        "sentence": "是我朋友的房子，我是借助的。",
+        "Holder": "3",
+        "Target": "房子所有权",
+        "Aspect": "归属",
+        "Opinion": "房子是朋友的",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释房子的归属情况"
+    },
+    {
+        "sentence": "这把钥匙你得记住，我今天就带你参观一下豪宅，再见。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "参观安排",
+        "Opinion": "带3参观豪宅",
+        "Sentiment": "positive",
+        "Rationale": "2打算带3参观豪宅"
+    },
+    {
+        "sentence": "乔处来了真的不带我们参观一下吗？",
+        "Holder": "3",
+        "Target": "乔处",
+        "Aspect": "参观请求",
+        "Opinion": "希望参观",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在询问乔处是否会带他们参观"
+    },
+    {
+        "sentence": "这房子真的就真的不是我的，你。",
+        "Holder": "3",
+        "Target": "房子所有权",
+        "Aspect": "归属",
+        "Opinion": "房子不是3的",
+        "Sentiment": "neutral",
+        "Rationale": "3再次强调房子不是自己的"
+    },
+    {
+        "sentence": "别以为房产证不是你的名字，我们就查不出来，你是够谨慎的，我们也不傻侯处长。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "房产证归属",
+        "Opinion": "认为3在隐瞒",
+        "Sentiment": "negative",
+        "Rationale": "1认为3试图通过房产证上的名字来隐瞒事实"
+    },
+    {
+        "sentence": "让他过来。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为要求",
+        "Opinion": "要求3过来",
+        "Sentiment": "neutral",
+        "Rationale": "1需要3过来解决问题"
+    },
+    {
+        "sentence": "不是我。",
+        "Holder": "3",
+        "Target": "钱",
+        "Aspect": "钱的归属",
+        "Opinion": "否认钱的归属",
+        "Sentiment": "negative",
+        "Rationale": "3被怀疑与钱有关"
+    },
+    {
+        "sentence": "是谁，谁把这么多钱放在我们家冰箱里了，谁这不成心，",
+        "Holder": "1",
+        "Target": "钱的放置者",
+        "Aspect": "钱的放置行为",
+        "Opinion": "认为有人故意放置",
+        "Sentiment": "negative",
+        "Rationale": "1认为有人故意把钱放在3家冰箱里"
+    },
+    {
+        "sentence": "你承认这是你家冰箱了，",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "冰箱归属",
+        "Opinion": "确认冰箱归属",
+        "Sentiment": "neutral",
+        "Rationale": "1通过3的回应确认冰箱归属"
+    },
+    {
+        "sentence": "我一分钱都没花，",
+        "Holder": "3",
+        "Target": "钱",
+        "Aspect": "钱的用途",
+        "Opinion": "否认花钱",
+        "Sentiment": "negative",
+        "Rationale": "3被怀疑花钱"
+    },
+    {
+        "sentence": "不敢。我们家祖祖辈辈这么多穷怕，一分钱都不敢动，全在。",
+        "Holder": "3",
+        "Target": "钱",
+        "Aspect": "钱的处理",
+        "Opinion": "强调未动用钱",
+        "Sentiment": "negative",
+        "Rationale": "3的家庭背景导致对钱非常谨慎"
+    },
+    {
+        "sentence": "大把捞黑钱的时候，怎么没想到自己是农民的儿子？现在出事了，说自己是农民的儿子，中国农民那么倒霉，有你这么坏儿子，",
+        "Holder": "1",
+        "Target": "说话人3",
+        "Aspect": "身份认同与行为",
+        "Opinion": "言行不一",
+        "Sentiment": "negative",
+        "Rationale": "说话人3在捞黑钱时没有考虑自己的农民身份，而在出事后才提及"
+    },
+    {
+        "sentence": "我错了。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "行为反省",
+        "Opinion": "承认错误",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在面对指责时承认了自己的错误"
+    }
+]

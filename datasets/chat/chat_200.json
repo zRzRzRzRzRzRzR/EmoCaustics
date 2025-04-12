@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "给我300万！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "资金需求",
+        "Opinion": "要求给予300万",
+        "Sentiment": "neutral",
+        "Rationale": "直接提出资金要求，没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "你这怎么弄的？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情况询问",
+        "Opinion": "询问发生了什么",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问情况，没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "我让你给我300万！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "资金需求",
+        "Opinion": "坚持要求给予300万",
+        "Sentiment": "negative",
+        "Rationale": "重复并强调资金要求，表现出一定的急切和不满"
+    },
+    {
+        "sentence": "你先告诉我你出什么事了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情况了解",
+        "Opinion": "希望了解对方的情况",
+        "Sentiment": "neutral",
+        "Rationale": "关心对方的情况并提出询问，没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "你不用你管，你不是开公司了吗？我知道你有钱。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "资金能力和态度",
+        "Opinion": "认为对方有钱且应该给予帮助",
+        "Sentiment": "negative",
+        "Rationale": "表现出对对方资金能力的认定并带有一定的指责意味"
+    },
+    {
+        "sentence": "你怎么不找林大勇？还有你老公，他们不管你吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "寻求帮助的对象",
+        "Opinion": "应该找林大勇和老公",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1为什么不找其他人帮忙"
+    },
+    {
+        "sentence": "我说了不用你管！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "是否需要2的关心",
+        "Opinion": "不需要2的关心",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的关心是不必要的"
+    },
+    {
+        "sentence": "既然你说不用我管，那你走吧",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "是否继续留在现场",
+        "Opinion": "让1离开",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1不需要自己的关心"
+    },
+    {
+        "sentence": "不许走。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "是否允许2离开",
+        "Opinion": "不允许2离开",
+        "Sentiment": "negative",
+        "Rationale": "1可能需要2的帮助或不想让2离开"
+    },
+    {
+        "sentence": "怎么那么臭啊。",
+        "Holder": "3",
+        "Target": "环境",
+        "Aspect": "气味",
+        "Opinion": "气味难闻",
+        "Sentiment": "negative",
+        "Rationale": "3觉得环境中的气味很难闻"
+    },
+    {
+        "sentence": "这人是谁呀？李总怎么会认识这种人？",
+        "Holder": "4",
+        "Target": "某人",
+        "Aspect": "身份和关系",
+        "Opinion": "质疑身份",
+        "Sentiment": "negative",
+        "Rationale": "对某人的身份和与李总的关系感到疑惑"
+    },
+    {
+        "sentence": "是呀，臭死了，是乞丐吧，来要饭的。",
+        "Holder": "3",
+        "Target": "某人",
+        "Aspect": "外观和身份",
+        "Opinion": "贬低身份",
+        "Sentiment": "negative",
+        "Rationale": "认为某人外观不整洁且身份低微"
+    },
+    {
+        "sentence": "你早就知道严大勇是什么德行，对不对？你就是故意让我跟着他的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "知情和意图",
+        "Opinion": "指责故意",
+        "Sentiment": "negative",
+        "Rationale": "认为2早就知道严大勇的品行却故意让自己跟随"
+    },
+    {
+        "sentence": "这是你自己做的选择，我没有逼你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "选择的责任",
+        "Opinion": "否认逼迫",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己没有逼迫1做选择"
+    },
+    {
+        "sentence": "我自己的选择？你是我妈，你眼睁睁的看着我去跳火坑？这世界上怎么有你这么狠毒的妈呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "母爱和责任",
+        "Opinion": "指责狠毒",
+        "Sentiment": "negative",
+        "Rationale": "认为2作为母亲没有阻止自己做出错误选择"
+    },
+    {
+        "sentence": "你不是说你不会后悔吗？中途我也提醒过你几次，是你自己不听劝！",
+        "Holder": "2",
+        "Target": "1的决定",
+        "Aspect": "决策的合理性",
+        "Opinion": "1不听劝告",
+        "Sentiment": "negative",
+        "Rationale": "1多次不听劝告"
+    },
+    {
+        "sentence": "你少在这装好人了，你要是真关心我，当初离婚的时候，为什么不带我走？你就是要看我被严大勇害死，你才满意对不对？",
+        "Holder": "1",
+        "Target": "2的关心",
+        "Aspect": "关心的真实性",
+        "Opinion": "2不真心关心",
+        "Sentiment": "negative",
+        "Rationale": "2在离婚时没有带走1"
+    },
+    {
+        "sentence": "带你走？我怎么敢啊？",
+        "Holder": "2",
+        "Target": "带1走的可能性",
+        "Aspect": "行为的可行性",
+        "Opinion": "不敢带1走",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己没有能力或勇气带1走"
+    },
+    {
+        "sentence": "我不管，给我300万，这是你欠我的，你必须还！",
+        "Holder": "1",
+        "Target": "2的债务",
+        "Aspect": "金钱的偿还",
+        "Opinion": "2欠1钱",
+        "Sentiment": "negative",
+        "Rationale": "1认为2欠自己钱"
+    },
+    {
+        "sentence": "严颜，我告诉你。我从来都不欠你任何东西，无论是这辈子，至上辈子，我都不欠。",
+        "Holder": "2",
+        "Target": "1的指控",
+        "Aspect": "债务的真实性",
+        "Opinion": "不欠1任何东西",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己没有欠1任何东西"
+    },
+    {
+        "sentence": "你，你也重生了？怪不得，你是在报仇啊，我说这一世怎么做什么都不顺利。还真是你在捣鬼呀。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为动机",
+        "Opinion": "认为2在捣鬼",
+        "Sentiment": "negative",
+        "Rationale": "1发现2也重生了，并且认为自己的不顺是2故意为之"
+    },
+    {
+        "sentence": "我用得着捣鬼吗？就严大眼那样的，谁跟他在一块都不会好过的。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "捣鬼的必要性",
+        "Opinion": "否认捣鬼",
+        "Sentiment": "neutral",
+        "Rationale": "2认为严大眼本身就有问题，不需要自己特意捣鬼"
+    },
+    {
+        "sentence": "胡说！上一世我爸明明成功了，现在变成这样，都是你害的！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "责任归属",
+        "Opinion": "认为2是罪魁祸首",
+        "Sentiment": "negative",
+        "Rationale": "1坚信上一世的成功被2破坏"
+    },
+    {
+        "sentence": "你到现在还相信他？你上世，如果不是我把祖传的古董瓶给他，作为他永远不去找你麻烦的条件。你以为你能高枕无忧地上完大学？他能那么容易就一夜报富？",
+        "Holder": "2",
+        "Target": "1的信念",
+        "Aspect": "事实真相",
+        "Opinion": "揭示真相",
+        "Sentiment": "neutral",
+        "Rationale": "2试图让1明白真相"
+    },
+    {
+        "sentence": "不可能，你在骗我，不可能。",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "可信度",
+        "Opinion": "认为2在撒骗人",
+        "Sentiment": "negative",
+        "Rationale": "1不愿意接受2的解释，认为2在撒谎"
+    },
+    {
+        "sentence": "那瓶子确实值钱，否则的话我也开不了公司，上一世你回国前，严大勇早就把家底败光了。至于你看的那些，谁知道他是拿什么东西换来的，所以这一世就算我把瓶子给他，也还是一样的结果。",
+        "Holder": "2",
+        "Target": "瓶子",
+        "Aspect": "价值",
+        "Opinion": "值钱",
+        "Sentiment": "neutral",
+        "Rationale": "瓶子具有高价值"
+    },
+    {
+        "sentence": "这些你告诉我不就好了吗？你为什么不告诉我！",
+        "Holder": "1",
+        "Target": "告知信息",
+        "Aspect": "信息传递",
+        "Opinion": "应该告知",
+        "Sentiment": "negative",
+        "Rationale": "感到被隐瞒信息"
+    },
+    {
+        "sentence": "告诉你？上辈你害死我的时候，对我可曾有过一点点信任？我告诉你，我对你已经仁至义尽了，是你欠我的。",
+        "Holder": "2",
+        "Target": "1的信任",
+        "Aspect": "信任缺失",
+        "Opinion": "缺乏信任",
+        "Sentiment": "negative",
+        "Rationale": "过去被背叛"
+    },
+    {
+        "sentence": "不许走，我让你走了吗？",
+        "Holder": "1",
+        "Target": "2的行动",
+        "Aspect": "行动控制",
+        "Opinion": "不允许离开",
+        "Sentiment": "negative",
+        "Rationale": "试图阻止对方离开"
+    },
+    {
+        "sentence": "原来在这儿，带走！",
+        "Holder": "5",
+        "Target": "当前情境",
+        "Aspect": "发现与行动",
+        "Opinion": "立即带走",
+        "Sentiment": "neutral",
+        "Rationale": "发现了目标"
+    },
+    {
+        "sentence": "救我，妈!",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "求救",
+        "Opinion": "需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "处于危险或困境中"
+    },
+    {
+        "sentence": "为什么还要帮我？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "帮助的动机",
+        "Opinion": "质疑帮助的原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "对母亲为何还要帮助自己感到困惑"
+    },
+    {
+        "sentence": "再怎么说，你也是我带到这个世界上的。让我眼睁睁看着被折磨死，我做不到。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "母爱",
+        "Opinion": "无法见死不救",
+        "Sentiment": "positive",
+        "Rationale": "作为母亲无法忍受孩子受苦"
+    },
+    {
+        "sentence": "不要叫我妈妈，你已经不是我女儿了。",
+        "Holder": "2",
+        "Target": "1的身份",
+        "Aspect": "家庭关系",
+        "Opinion": "断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "对女儿的行为极度失望"
+    },
+    {
+        "sentence": "妈妈，我知道错了，你原谅我好不好？我们再重新来过。",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "请求原谅",
+        "Opinion": "希望得到原谅",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误并希望得到原谅"
+    },
+    {
+        "sentence": "这些钱你拿着，从今以后的路你自己走。",
+        "Holder": "2",
+        "Target": "1的未来",
+        "Aspect": "经济支持",
+        "Opinion": "提供经济支持但断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "决定断绝关系，但仍提供经济支持"
+    },
+    {
+        "sentence": "妈，妈，妈我知道错了。",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "认错态度",
+        "Opinion": "极度悔意",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误并希望得到原谅"
+    }
+]

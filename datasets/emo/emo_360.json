@@ -1,0 +1,93 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "游戏策略与操作争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑游戏操作导致被套", "source_id": "2,4"},
+          {"state": "doubt", "reason": "不确定敌方是否被黑", "source_id": "2"},
+          {"state": "positive", "reason": "连续击杀敌人表现出色", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "排位与责任归属",
+        "emotions": [
+          {"state": "negative", "reason": "垫底导致团队劣势", "source_id": "5"},
+          {"state": "neutral", "reason": "客观陈述排名位置", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "开挂质疑与自证",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑开挂且证据无效", "source_id": "3,4"},
+          {"state": "positive", "reason": "强调自身烟位价值", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "团队策略执行分歧",
+        "emotions": [
+          {"state": "negative", "reason": "封烟时机引发争执", "source_id": "1,3"},
+          {"state": "neutral", "reason": "承认策略分歧存在", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "诅咒与言语冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被连续诅咒家庭成员", "source_id": "2,4,5"},
+          {"state": "ambiguous", "reason": "承认错误并要求评价", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "游戏表现质疑",
+        "emotions": [
+          {"state": "negative", "reason": "被指eco局表现差", "source_id": "2"},
+          {"state": "positive", "reason": "强调补枪策略有效性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "被迫参与与责任推脱",
+        "emotions": [
+          {"state": "negative", "reason": "强调被绑架参与游戏", "source_id": "2,5"},
+          {"state": "neutral", "reason": "客观描述复活机制", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "操作水平争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指站位不合理", "source_id": "2"},
+          {"state": "positive", "reason": "展示击杀数据", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "外部因素影响判定",
+        "emotions": [
+          {"state": "negative", "reason": "高空闪光影响操作", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑队友未爆闪", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "数据对比与嘲讽",
+        "emotions": [
+          {"state": "negative", "reason": "用击杀数讽刺家庭状况", "source_id": "4"},
+          {"state": "neutral", "reason": "陈述头部数量事实", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

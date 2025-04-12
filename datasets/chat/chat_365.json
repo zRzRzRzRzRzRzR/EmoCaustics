@@ -1,0 +1,65 @@
+[
+    {
+        "sentence": "面前一直是奴颜婢膝，跟条狗似的，连口气都不敢喘，我怎么会耍你呢？",
+        "Holder": "1",
+        "Target": "对方的行为",
+        "Aspect": "行为态度",
+        "Opinion": "对方过于卑微",
+        "Sentiment": "negative",
+        "Rationale": "因为对方一直表现出极端的顺从和卑微，所以说话人感到不满和轻蔑。"
+    },
+    {
+        "sentence": "我说你这番话是什么意思？",
+        "Holder": "2",
+        "Target": "1的话语",
+        "Aspect": "话语意图",
+        "Opinion": "不理解",
+        "Sentiment": "confused",
+        "Rationale": "因为2没有理解1话语中的讽刺和不满，所以感到困惑。"
+    },
+    {
+        "sentence": "没什么意思。",
+        "Holder": "1",
+        "Target": "自己的话语",
+        "Aspect": "话语意义",
+        "Opinion": "否认有特别含义",
+        "Sentiment": "neutral",
+        "Rationale": "因为1不想进一步解释或争执，所以表现得无所谓。"
+    },
+    {
+        "sentence": "你疯了吗？",
+        "Holder": "2",
+        "Target": "1的精神状态",
+        "Aspect": "精神状况",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的话不合常理"
+    },
+    {
+        "sentence": "跟您混了这么多年，我要是连您是只什么鸟我都不知道，我就太蠢了。",
+        "Holder": "1",
+        "Target": "严总",
+        "Aspect": "对严总的了解",
+        "Opinion": "认为自己应该了解严总",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己跟严总混了这么多年却还不了解他"
+    },
+    {
+        "sentence": "严总，我今天的对话可以在这里，要不咱们拿着让检察院给问问，你肯定觉得我这个做法比较卑鄙，但是没办法对付你这样的人，没有更好的办法。",
+        "Holder": "1",
+        "Target": "严总",
+        "Aspect": "对付严总的手段",
+        "Opinion": "认为自己的做法是无奈之举",
+        "Sentiment": "negative",
+        "Rationale": "觉得对付严总没有更好的办法"
+    },
+    {
+        "sentence": "以前你我在一块玩，游戏规则都是你来定，我只能仰仗您的鼻息，但是这一次对不起",
+        "Holder": "1",
+        "Target": "严总",
+        "Aspect": "以前的相处模式",
+        "Opinion": "以前只能依赖严总",
+        "Sentiment": "negative",
+        "Rationale": "以前在相处中总是处于被动地位"
+    }
+]

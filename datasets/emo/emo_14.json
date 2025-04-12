@@ -1,0 +1,40 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "信任危机与沟通冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被2打断发言且怀疑与孙父的关系", "source_id": "2"},
+          {"state": "negative", "reason": "因醉酒行为被质疑真实性", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑2在类似事件中的信任态度", "source_id": "2"},
+          {"state": "negative", "reason": "提出分手并否定关系合适性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "第三方介入争议",
+        "emotions": [
+          {"state": "negative", "reason": "对提及露娜名字的强烈抵触", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "信任验证与关系维护",
+        "emotions": [
+          {"state": "negative", "reason": "认为孙父未配合导致沟通障碍", "source_id": "1"},
+          {"state": "doubt", "reason": "建议通过第三方验证引发抵触", "source_id": "1"},
+          {"state": "negative", "reason": "无法解释新闻事件导致信任崩塌", "source_id": "1"},
+          {"state": "neutral", "reason": "强调信任对未来关系的重要性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "分手立场澄清",
+        "emotions": [
+          {"state": "negative", "reason": "被误解为主动提出分手", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

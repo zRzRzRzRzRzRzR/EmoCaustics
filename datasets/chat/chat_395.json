@@ -1,0 +1,245 @@
+[
+    {
+        "sentence": "我跟我哥们上网去，",
+        "Holder": "1",
+        "Target": "上网行为",
+        "Aspect": "计划",
+        "Opinion": "打算去上网",
+        "Sentiment": "neutral",
+        "Rationale": "只是表达了一个计划"
+    },
+    {
+        "sentence": "你咋去你身份证都让我藏起来了，在家陪我，",
+        "Holder": "2",
+        "Target": "1的上网计划",
+        "Aspect": "可行性",
+        "Opinion": "反对去上网",
+        "Sentiment": "negative",
+        "Rationale": "藏起了1的身份证，阻止其去上网"
+    },
+    {
+        "sentence": "一看就不经常上网，现在上网不用身份证了，可以扫脸，",
+        "Holder": "1",
+        "Target": "2的阻止行为",
+        "Aspect": "有效性",
+        "Opinion": "认为无效",
+        "Sentiment": "neutral",
+        "Rationale": "解释了现在上网不需要身份证"
+    },
+    {
+        "sentence": "你哪有钱你手机里的300块钱存款全部被我转移了。",
+        "Holder": "2",
+        "Target": "1的经济能力",
+        "Aspect": "资金状况",
+        "Opinion": "认为1没有钱",
+        "Sentiment": "negative",
+        "Rationale": "转移了1的手机存款，阻止其上网"
+    },
+    {
+        "sentence": "你别忘了男人有一种可以藏起来的现金括号私房钱，我钱。",
+        "Holder": "2",
+        "Target": "男人",
+        "Aspect": "私房钱",
+        "Opinion": "存在私房钱",
+        "Sentiment": "neutral",
+        "Rationale": "提到男人有藏私房钱的习惯"
+    },
+    {
+        "sentence": "你的私房钱也被转移到了我的包里。",
+        "Holder": "1",
+        "Target": "私房钱",
+        "Aspect": "存放位置",
+        "Opinion": "被转移",
+        "Sentiment": "neutral",
+        "Rationale": "提到私房钱被转移到包里"
+    },
+    {
+        "sentence": "你说的是这个包。",
+        "Holder": "2",
+        "Target": "包",
+        "Aspect": "具体指向",
+        "Opinion": "确认包",
+        "Sentiment": "neutral",
+        "Rationale": "询问对方是否指的是这个包"
+    },
+    {
+        "sentence": "你怎么确定我放到了那个包里，而不是这个包里？",
+        "Holder": "1",
+        "Target": "包",
+        "Aspect": "存放位置",
+        "Opinion": "不确定",
+        "Sentiment": "doubt",
+        "Rationale": "对方不确定私房钱具体放在哪个包里"
+    },
+    {
+        "sentence": "你怎么买俩一样高的，",
+        "Holder": "2",
+        "Target": "包",
+        "Aspect": "外观相似度",
+        "Opinion": "一样高",
+        "Sentiment": "neutral",
+        "Rationale": "提到两个包一样高"
+    },
+    {
+        "sentence": "你别管在家陪我",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "陪伴的需求",
+        "Opinion": "要求陪伴",
+        "Sentiment": "neutral",
+        "Rationale": "希望2在家陪伴自己"
+    },
+    {
+        "sentence": "等一下上网5块钱一个点，你怎么敢确定我哥们拿不起这个钱呢？告辞。",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "经济能力",
+        "Opinion": "哥们有能力支付",
+        "Sentiment": "negative",
+        "Rationale": "2质疑自己哥们的经济能力"
+    },
+    {
+        "sentence": "等一下，你怎么敢确定你哥们一定会跟你上网，我把我闺蜜介绍给他，他现在应该去相亲的路上，",
+        "Holder": "2",
+        "Target": "1的假设",
+        "Aspect": "哥们的行为",
+        "Opinion": "哥们可能去相亲",
+        "Sentiment": "negative",
+        "Rationale": "1过于自信地假设哥们的行为"
+    },
+    {
+        "sentence": "你怎么敢确定你闺蜜一定会跟我哥们相亲，我已经提前跟你闺蜜说了我哥们1万句坏话",
+        "Holder": "1",
+        "Target": "2的假设",
+        "Aspect": "闺蜜的行为",
+        "Opinion": "闺蜜不会相亲",
+        "Sentiment": "negative",
+        "Rationale": "2过于自信地假设闺蜜的行为"
+    },
+    {
+        "sentence": "ok等的就是你这句话，其实我一直在跟你哥们打电话，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "沟通的真实性",
+        "Opinion": "一直在沟通",
+        "Sentiment": "positive",
+        "Rationale": "1的坦白让自己有了回应的机会"
+    },
+    {
+        "sentence": "咖啡我早就料到了，我根本就闻不到走了，我身上什么味这么臭，",
+        "Holder": "1",
+        "Target": "自己身上的味道",
+        "Aspect": "气味的感知",
+        "Opinion": "闻不到",
+        "Sentiment": "negative",
+        "Rationale": "自己身上有臭味却闻不到"
+    },
+    {
+        "sentence": "我也早就预料到了，所以我在你衣服上喷了螺蛳粉味的香水，张博最讨厌的味道我。",
+        "Holder": "2",
+        "Target": "1的衣服",
+        "Aspect": "香水的味道",
+        "Opinion": "故意喷上讨厌的味道",
+        "Sentiment": "positive",
+        "Rationale": "预料到1的行为"
+    },
+    {
+        "sentence": "也早就预料到了，所以我提前让张博去广西旅游了一个月，他现在非常喜欢螺蛳粉，那家螺蛳粉我在广西待一个月走，等一下。",
+        "Holder": "1",
+        "Target": "张博",
+        "Aspect": "对螺蛳粉的态度",
+        "Opinion": "改变了对螺蛳粉的喜好",
+        "Sentiment": "positive",
+        "Rationale": "预料到2的计划"
+    },
+    {
+        "sentence": "我早就预料到了你的预料，所以今天我叫来了张博的媳妇，介绍一下颜值博主小店，我一个礼拜没更新，赶紧给我拍照去，",
+        "Holder": "3",
+        "Target": "张博的媳妇",
+        "Aspect": "拍照的需求",
+        "Opinion": "需要拍照更新",
+        "Sentiment": "positive",
+        "Rationale": "预料到1和2的计划"
+    },
+    {
+        "sentence": "我这一下午拍不完了，",
+        "Holder": "1",
+        "Target": "拍照任务",
+        "Aspect": "任务量",
+        "Opinion": "任务量大",
+        "Sentiment": "negative",
+        "Rationale": "拍照任务量大"
+    },
+    {
+        "sentence": "等一下我早就预料到了你预料到预料，所以我今天雇了一个专业摄影师",
+        "Holder": "2",
+        "Target": "对方的预料",
+        "Aspect": "预料的能力",
+        "Opinion": "预料到对方的预料",
+        "Sentiment": "positive",
+        "Rationale": "成功预料到对方的预料"
+    },
+    {
+        "sentence": "我早就预料到了你预料到预料，所以我把相机给换了",
+        "Holder": "2",
+        "Target": "对方的预料",
+        "Aspect": "预料的能力",
+        "Opinion": "预料到对方的预料",
+        "Sentiment": "positive",
+        "Rationale": "成功预料到对方的预料并采取了应对措施"
+    },
+    {
+        "sentence": "等一下我早就预料到了所有的预料，所以我买通了张博，跟你一样这出戏",
+        "Holder": "2",
+        "Target": "所有预料",
+        "Aspect": "预料的能力",
+        "Opinion": "预料到所有预料",
+        "Sentiment": "positive",
+        "Rationale": "成功预料到所有预料并采取了相应行动"
+    },
+    {
+        "sentence": "对不起，李宗恒她给的实在太多了",
+        "Holder": "3",
+        "Target": "李宗恒",
+        "Aspect": "给出的报酬",
+        "Opinion": "报酬太多",
+        "Sentiment": "neutral",
+        "Rationale": "李宗恒给出的报酬确实很多"
+    },
+    {
+        "sentence": "可是你怎么就敢确定我是李宗恒，我是李宗恒的双胞胎弟弟李宗盛，可李宗恒今天真正的目的是自己去上网",
+        "Holder": "1",
+        "Target": "对方的判断",
+        "Aspect": "身份的确定性",
+        "Opinion": "对方判断错误",
+        "Sentiment": "negative",
+        "Rationale": "对方错误地确定了自己的身份"
+    },
+    {
+        "sentence": "你怎么确定我就是杨小艺，其实我是杨小艺的双胞胎姐姐，杨大艺",
+        "Holder": "2",
+        "Target": "对方的判断",
+        "Aspect": "身份的确定性",
+        "Opinion": "对方判断错误",
+        "Sentiment": "negative",
+        "Rationale": "对方错误地确定了自己的身份"
+    },
+    {
+        "sentence": "你这回猜了。",
+        "Holder": "1",
+        "Target": "2的猜测",
+        "Aspect": "猜测的准确性",
+        "Opinion": "2这次猜对了",
+        "Sentiment": "neutral",
+        "Rationale": "1指出2这次猜对了"
+    },
+    {
+        "sentence": "走吧。回家回家。",
+        "Holder": "2",
+        "Target": "行动建议",
+        "Aspect": "回家",
+        "Opinion": "建议回家",
+        "Sentiment": "neutral",
+        "Rationale": "2提出回家"
+    }
+]

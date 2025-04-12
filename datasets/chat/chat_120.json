@@ -1,0 +1,596 @@
+[
+    {
+        "sentence": "贺总也来参加陆氏招标，太欺负人了。看来呀，我们是没有机会了。",
+        "Holder": "1",
+        "Target": "贺总",
+        "Aspect": "参加招标的行为",
+        "Opinion": "认为贺总欺负人",
+        "Sentiment": "negative",
+        "Rationale": "贺总的参与让1感到竞争压力巨大"
+    },
+    {
+        "sentence": "李总，您太谦虚了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的谦虚态度",
+        "Opinion": "认为1谦虚",
+        "Sentiment": "positive",
+        "Rationale": "2认为1在自我评价时过于谦虚"
+    },
+    {
+        "sentence": "想当年贺总你也是风云人物，听说为了照顾女儿放慢发展，让陆氏集团抢过风头了？",
+        "Holder": "1",
+        "Target": "贺总",
+        "Aspect": "贺总的发展历程",
+        "Opinion": "贺总曾是风云人物但现被陆氏超越",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述贺总过去和现在的对比"
+    },
+    {
+        "sentence": "那是鹿氏的老板厉害，我哪能跟他比？",
+        "Holder": "2",
+        "Target": "鹿氏老板",
+        "Aspect": "鹿氏老板的能力",
+        "Opinion": "认为自己不如鹿氏老板",
+        "Sentiment": "neutral",
+        "Rationale": "2在谦虚地承认自己不如鹿氏老板"
+    },
+    {
+        "sentence": "真不知道陆氏集团老总是怎么想的，开个招标大会，还得把她带上，丢人现眼。她根本就不算我们家人。",
+        "Holder": "3",
+        "Target": "陆氏集团老总",
+        "Aspect": "带某人参加招标大会的决定",
+        "Opinion": "认为带某人参加是丢人现眼",
+        "Sentiment": "negative",
+        "Rationale": "3认为陆氏集团老总带某人参加招标大会是不明智的"
+    },
+    {
+        "sentence": "现在的项目难做，任何机会都要把握住，更何况是陆氏，这种小小的要求不算什么。",
+        "Holder": "2",
+        "Target": "项目机会",
+        "Aspect": "机会的重要性",
+        "Opinion": "需要把握机会",
+        "Sentiment": "neutral",
+        "Rationale": "项目难做"
+    },
+    {
+        "sentence": "爸，您当初云州首富那么风光，这就跟他们说的一样，还要看别人脸色？我心里憋屈啊。",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "尊严和地位",
+        "Opinion": "感到憋屈",
+        "Sentiment": "negative",
+        "Rationale": "觉得父亲曾经风光现在却要看别人脸色"
+    },
+    {
+        "sentence": "你还有脸说？啊？开豪车把自己烧伤，夜夜笙歌把肾玩坏。我是把你当继承人培养，结果呢？你把我的产业败得都多了！我告诉你贺天天，你要再执迷不悟的话，马上给我滚出贺家！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为和责任",
+        "Opinion": "对3的失望和愤怒",
+        "Sentiment": "negative",
+        "Rationale": "3的行为不检点，败坏了家业"
+    },
+    {
+        "sentence": "哎，少说两句，少说两句。哎呀你也真是的，天天之前生病，一直瘫着，恢复起来，重拾信心，需要时间嘛。你怎么能这么打击他呢？",
+        "Holder": "4",
+        "Target": "2的言辞",
+        "Aspect": "言辞的合理性",
+        "Opinion": "认为2的言辞过于严厉",
+        "Sentiment": "negative",
+        "Rationale": "3之前生病需要时间恢复，而2的言辞过于打击人"
+    },
+    {
+        "sentence": "你还在帮他说话，啊？他变成这个样子，都是你惯的！",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "责任归属",
+        "Opinion": "认为4惯坏了3",
+        "Sentiment": "negative",
+        "Rationale": "觉得4一直在帮3说话，认为3的现状是4惯出来的"
+    },
+    {
+        "sentence": "在这儿就别提家事了。话说这陆氏集团是近一年来新崛起的投资公司，凡是他们看到的项目，都大爆啊。",
+        "Holder": "4",
+        "Target": "陆氏集团",
+        "Aspect": "公司表现",
+        "Opinion": "项目成功率高",
+        "Sentiment": "positive",
+        "Rationale": "陆氏集团投资的项目都取得了巨大成功"
+    },
+    {
+        "sentence": "那是他们的老板厉害，有卓越的眼光，投什么爆什么，我还没见过这么厉害的人。他们这次特地请我们过来，这是第一次，一定要把握好机会，听到了没有？跟他们攀上点关系的话，我们就不得了了。",
+        "Holder": "2",
+        "Target": "陆氏集团老板",
+        "Aspect": "投资眼光",
+        "Opinion": "非常厉害",
+        "Sentiment": "positive",
+        "Rationale": "老板的投资眼光非常精准"
+    },
+    {
+        "sentence": "你说这个人是谁呢？是隐世多年的老油条，还是富家培养的公子哥？",
+        "Holder": "4",
+        "Target": "陆氏集团老板",
+        "Aspect": "身份背景",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "对老板的身份背景不了解"
+    },
+    {
+        "sentence": "陆芸，你从哪里来的？今天是陆氏集团的招标大会，你站到主持台上干什么？",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "陆芸的行为",
+        "Opinion": "不应该站在主持台",
+        "Sentiment": "negative",
+        "Rationale": "陆芸站在主持台上不符合招标大会的安排"
+    },
+    {
+        "sentence": "怎么？在你眼里，我只能是乡野干活的村妇？",
+        "Holder": "6",
+        "Target": "2的看法",
+        "Aspect": "对陆芸的身份定位",
+        "Opinion": "反对被贬低",
+        "Sentiment": "negative",
+        "Rationale": "2的话语中带有贬低和轻视的意味"
+    },
+    {
+        "sentence": "快给我下来。公司今天要和陆氏集团达成协议，万一让他们董事知道我和你的关系，指不定搞出什么大事。",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "陆芸的行为对公司影响",
+        "Opinion": "担心影响公司协议",
+        "Sentiment": "negative",
+        "Rationale": "担心陆芸的行为会影响公司和陆氏集团的合作"
+    },
+    {
+        "sentence": "我和你没有任何关系，相信陆氏集团董事知道了也不会计较什么。",
+        "Holder": "6",
+        "Target": "2的担忧",
+        "Aspect": "与2的关系对公司影响",
+        "Opinion": "认为不会有影响",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己和2没有关系"
+    },
+    {
+        "sentence": "跟他废什么话呀，叫人把她给轰出去。我看她就是见不得别人好，想故意过来找茬的。",
+        "Holder": "4",
+        "Target": "陆芸",
+        "Aspect": "陆芸的动机",
+        "Opinion": "认为陆芸故意捣乱",
+        "Sentiment": "negative",
+        "Rationale": "认为陆芸是故意来捣乱的"
+    },
+    {
+        "sentence": "保安，你们怎么看的人？把这个站在大会中央的乡村农妇给我赶出去，别影响了大会的正常召开。",
+        "Holder": "3",
+        "Target": "乡村农妇",
+        "Aspect": "大会秩序",
+        "Opinion": "认为农妇影响大会",
+        "Sentiment": "negative",
+        "Rationale": "认为农妇站在大会中央会影响大会的正常进行"
+    },
+    {
+        "sentence": "贺洪，你真的要你儿子这么做吗？",
+        "Holder": "6",
+        "Target": "贺洪的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "质疑决定",
+        "Sentiment": "doubt",
+        "Rationale": "对贺洪让儿子赶走农妇的决定感到不解"
+    },
+    {
+        "sentence": "别怨我，如今的经济形势日益紧张和陆氏集团的合作是我们公司最后一次起死回生的机会，我不可能让这次机会发生任何意外。",
+        "Holder": "2",
+        "Target": "与陆氏集团的合作",
+        "Aspect": "合作的重要性",
+        "Opinion": "合作至关重要",
+        "Sentiment": "neutral",
+        "Rationale": "经济形势紧张，合作是公司最后的机会"
+    },
+    {
+        "sentence": "陆芸啊，我实在是想不明白。你今天租这一身衣服过来摆阔是干什么呀？穿的再好也改变不了你身上穷酸的气质，想捣乱有的是办法治你。保安！把她给我拉出去！",
+        "Holder": "4",
+        "Target": "陆芸",
+        "Aspect": "陆芸的行为和气质",
+        "Opinion": "认为陆芸捣乱且气质不佳",
+        "Sentiment": "negative",
+        "Rationale": "认为陆芸租衣服摆阔且气质穷酸，认为她在捣乱"
+    },
+    {
+        "sentence": "什么？她竟然是陆氏集团总经理，近年最强投资人居然是个女的？",
+        "Holder": "1",
+        "Target": "陆芸的身份",
+        "Aspect": "身份的意外性",
+        "Opinion": "惊讶于陆芸的身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "意外发现陆芸是陆氏集团总经理，近年最强投资人"
+    },
+    {
+        "sentence": "陆总？怎么可能？我又不是不认识陆芸，她怎么可能是陆氏集团的陆总？",
+        "Holder": "4",
+        "Target": "陆芸的身份",
+        "Aspect": "身份的真实性",
+        "Opinion": "怀疑陆芸是陆总",
+        "Sentiment": "doubt",
+        "Rationale": "对陆芸的过去了解，认为她不可能是陆氏集团的陆总"
+    },
+    {
+        "sentence": "一个没文化的乡村妇女，能够次次预测未来投资方向，一年内达到超百亿的规模。妈，你说的对，这压根不现实啊。",
+        "Holder": "3",
+        "Target": "陆芸的能力",
+        "Aspect": "能力和背景的匹配",
+        "Opinion": "认为陆芸的能力不符合她的背景",
+        "Sentiment": "negative",
+        "Rationale": "认为一个没文化的乡村妇女不可能有如此强大的预测和投资能力"
+    },
+    {
+        "sentence": "短短一年内，妈妈她次次都能预测中投标方向，她建立公司，创办产业，变化如此之大，难道说，她也。",
+        "Holder": "5",
+        "Target": "陆芸的变化",
+        "Aspect": "变化的合理性",
+        "Opinion": "认为陆芸的变化不寻常",
+        "Sentiment": "ambiguous",
+        "Rationale": "陆芸在短时间内取得巨大成就，变化太大"
+    },
+    {
+        "sentence": "她也什么？",
+        "Holder": "2",
+        "Target": "5的猜测",
+        "Aspect": "猜测的内容",
+        "Opinion": "询问猜测的具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚5的猜测具体是什么"
+    },
+    {
+        "sentence": "我知道了，妈妈她也在那天重生了。",
+        "Holder": "5",
+        "Target": "陆芸的变化原因",
+        "Aspect": "变化的解释",
+        "Opinion": "认为陆芸重生了",
+        "Sentiment": "positive",
+        "Rationale": "找到了一个合理的解释来解释陆芸的巨大变化"
+    },
+    {
+        "sentence": "没想到陆氏集团的合作伙伴竟然是这种态度，太令人失望了。",
+        "Holder": "1",
+        "Target": "陆氏集团的合作伙伴",
+        "Aspect": "态度",
+        "Opinion": "令人失望",
+        "Sentiment": "负面",
+        "Rationale": "因为合作伙伴的态度与预期相差甚远，感到失望"
+    },
+    {
+        "sentence": "把他们赶出招标现场，陆氏永远不会和他们合作。",
+        "Holder": "6",
+        "Target": "陆氏集团的合作伙伴",
+        "Aspect": "合作决策",
+        "Opinion": "不再合作",
+        "Sentiment": "negative",
+        "Rationale": "因为合作伙伴的态度令人不满，决定终止合作"
+    },
+    {
+        "sentence": "等等，陆云，是你亲自找我们贺家合作的，也是你提前说要和我们合作的。你现在要赶我走，这不是在嘲笑我吗？",
+        "Holder": "2",
+        "Target": "陆云",
+        "Aspect": "合作诚意",
+        "Opinion": "质疑对方的诚意",
+        "Sentiment": "质疑",
+        "Rationale": "因为陆云改变态度，让2觉得被戏弄"
+    },
+    {
+        "sentence": "笑话，你的笑话还不够多吗？",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "不认可",
+        "Sentiment": "negative",
+        "Rationale": "因为2之前的行为和言论被认为不合理"
+    },
+    {
+        "sentence": "我允许你们贺家过来，就是想告诉你，我陆芸，守在田间可以相夫教子把女儿拉扯大，出去打拼可以扶腰直上，做到陆氏总裁。你贺洪有什么可骄傲的？",
+        "Holder": "6",
+        "Target": "贺洪",
+        "Aspect": "骄傲的资本",
+        "Opinion": "贺洪没有骄傲的资本",
+        "Sentiment": "negative",
+        "Rationale": "陆芸认为自己无论是在家庭还是事业上都表现出色，而贺洪并没有相应的成就"
+    },
+    {
+        "sentence": "你如今能做到这一步，无话可说。但生意归生意，感情是感情，谈好的生意，怎么可能说算了就算了？",
+        "Holder": "2",
+        "Target": "陆芸的事业成就",
+        "Aspect": "事业与感情的区别",
+        "Opinion": "事业与感情应分开处理",
+        "Sentiment": "neutral",
+        "Rationale": "2认可陆芸的事业成就，但认为生意和感情应分开处理"
+    },
+    {
+        "sentence": "你和我之间有什么感情？你不是要保镖把我赶出去吗？",
+        "Holder": "6",
+        "Target": "2的感情态度",
+        "Aspect": "感情的真实性",
+        "Opinion": "认为2没有感情",
+        "Sentiment": "negative",
+        "Rationale": "2曾经要保镖赶走6"
+    },
+    {
+        "sentence": "我这不是为了招标大会吗？陆芸，我怎么能知道你现在是投资集团的董事呢？更何况你现在控制这么大一个集团，把格局放开一点啊，没必要斤斤计较了，是不是？",
+        "Holder": "2",
+        "Target": "陆芸的态度",
+        "Aspect": "对陆芸的期望",
+        "Opinion": "希望陆芸格局更大",
+        "Sentiment": "neutral",
+        "Rationale": "2认为陆芸作为大集团的董事，应该有更大的格局"
+    },
+    {
+        "sentence": "你算个什么东西，敢教我做事？项目，我可以施舍给你，陆氏指缝里的残渣够你满嘴流油。但我要你跪下，为当年和刚才的事给我道歉！",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "对2的轻蔑和要求",
+        "Opinion": "认为2不配指教自己",
+        "Sentiment": "negative",
+        "Rationale": "6认为2没有资格教她做事，并且对2有强烈的不满"
+    },
+    {
+        "sentence": "你！陆芸，你当真要当着这么多人的面，让我颜面扫地吗？",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "行为的影响",
+        "Opinion": "让2颜面扫地",
+        "Sentiment": "negative",
+        "Rationale": "陆芸在众人面前让2丢脸"
+    },
+    {
+        "sentence": "你但凡有点脸皮，也不至于在这跟我啰嗦，应该有点骨气的滚出去！不是吗？",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "行为和态度",
+        "Opinion": "2没有脸皮和骨气",
+        "Sentiment": "negative",
+        "Rationale": "2在6看来没有脸皮和骨气，还继续啰嗦"
+    },
+    {
+        "sentence": "陆芸，我了解你的。当年为我生孩子，满世界的找我，你对我是有感情的，是不是？我知道你今天找我过来，就是想帮我的，是不是？",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "感情和动机",
+        "Opinion": "陆芸对2有感情，想帮助2",
+        "Sentiment": "positive",
+        "Rationale": "2回忆起陆芸过去的付出和感情"
+    },
+    {
+        "sentence": "一把年纪了，还说这样的话，我都替你觉得丢脸。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "言行和尊严",
+        "Opinion": "2的言行丢脸",
+        "Sentiment": "negative",
+        "Rationale": "2在6看来一把年纪还说这样的话，显得很丢脸"
+    },
+    {
+        "sentence": "好！我可以走，这项目我也不要了，把我之前给你的一个亿还给我！",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "金钱和项目",
+        "Opinion": "放弃项目，要求归还钱",
+        "Sentiment": "negative",
+        "Rationale": "2感到被羞辱和无奈"
+    },
+    {
+        "sentence": "当年白纸黑字写的清清楚楚，一个亿换我和女儿断绝关系。怎么，现在反悔了？",
+        "Holder": "5",
+        "Target": "当年的协议",
+        "Aspect": "协议的履行",
+        "Opinion": "对方反悔",
+        "Sentiment": "negative",
+        "Rationale": "对方违背了当初的协议"
+    },
+    {
+        "sentence": "妈，我真的知道错了，我再也不认性了，求求你带我走好不好？",
+        "Holder": "5",
+        "Target": "自己的行为",
+        "Aspect": "认错和改正",
+        "Opinion": "请求原谅",
+        "Sentiment": "negative",
+        "Rationale": "自己过去的错误行为"
+    },
+    {
+        "sentence": "陆芸，你听到了吧？你女儿也需要你，还不赶紧把你这个瘫痪的女儿带回去，一亿还给我们！",
+        "Holder": "4",
+        "Target": "陆芸的责任",
+        "Aspect": "照顾女儿",
+        "Opinion": "要求陆芸承担责任",
+        "Sentiment": "negative",
+        "Rationale": "陆芸没有履行母亲的责任"
+    },
+    {
+        "sentence": "陆芸，我又后悔了，女儿跟你在一起更好啊。",
+        "Holder": "2",
+        "Target": "女儿的未来",
+        "Aspect": "女儿的成长环境",
+        "Opinion": "认为女儿和母亲在一起更好",
+        "Sentiment": "ambiguous",
+        "Rationale": "对过去的决定感到后悔"
+    },
+    {
+        "sentence": "不要脸的样子，跟当年一模一样。你现在后悔，当年我10月怀胎满世界找你的时候，怎么不见你后悔？我一个人把女儿拉扯大，怎么不见你后悔？你风光无限，号称云州首富的时候，怎么不见你后悔找我？",
+        "Holder": "6",
+        "Target": "2的行为",
+        "Aspect": "过去的不负责任",
+        "Opinion": "指责对方不负责任",
+        "Sentiment": "negative",
+        "Rationale": "对方在过去不负责任的行为"
+    },
+    {
+        "sentence": "陆芸，你看，你又在提当年的事情，我知道你心里一直是有我的，是不是？如果你要迈不出这个坎的话，我给你赔个不是。女儿，你不能不照顾女儿啊。你看她现在病得多厉害。",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "当年的事情",
+        "Opinion": "希望得到原谅",
+        "Sentiment": "negative",
+        "Rationale": "提到当年的事情并请求原谅"
+    },
+    {
+        "sentence": "翻旧账，你也配？你别以为我不知道你花一个亿带走女儿是为了她的皮肤和肾，换给你儿子，继承贺氏那点钢镚，你撑不下去就来找我，真不是个东西！",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "带走女儿的目的",
+        "Opinion": "揭露自私行为",
+        "Sentiment": "negative",
+        "Rationale": "揭露2的自私行为和对女儿的不公"
+    },
+    {
+        "sentence": "贺总居然是这种人，难怪他的女儿面目全非的坐在那里，这人的一生呀就这么废了。别说陆家，连我都不想和这种人合作了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "人品和事业",
+        "Opinion": "不愿合作",
+        "Sentiment": "negative",
+        "Rationale": "认为2的人品和事业都毁了"
+    },
+    {
+        "sentence": "对不起，陆芸，我错了。求求你，你原谅我好不好啊？我不是人，我不是人。我的公司要垮了，你拉我一把，陆芸。你再帮我一把，陆芸，我求求你了，你放过我好不好？",
+        "Holder": "2",
+        "Target": "陆芸",
+        "Aspect": "请求原谅",
+        "Opinion": "极度恳求",
+        "Sentiment": "negative",
+        "Rationale": "公司面临倒闭"
+    },
+    {
+        "sentence": "陆可可，你爸是什么样的人，现在清楚了吗？",
+        "Holder": "6",
+        "Target": "陆可可",
+        "Aspect": "对2的认识",
+        "Opinion": "认清真相",
+        "Sentiment": "negative",
+        "Rationale": "希望陆可可认清2的真实面目"
+    },
+    {
+        "sentence": "我看清楚了，可我看清楚的太迟了，是你一直在默默保护我，可我却被利益蒙蔽了双眼。我应该好好孝顺您。",
+        "Holder": "5",
+        "Target": "6",
+        "Aspect": "保护和孝顺",
+        "Opinion": "感激和自责",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己被利益蒙蔽而忽视了6的保护"
+    },
+    {
+        "sentence": "你现在说这些未免太迟了，你觉得我还会相信你吗？",
+        "Holder": "6",
+        "Target": "5",
+        "Aspect": "信任",
+        "Opinion": "不再信任",
+        "Sentiment": "negative",
+        "Rationale": "5之前的所作所为让6失望"
+    },
+    {
+        "sentence": "陆芸啊，你别太过分啊，她可是你女儿。你女儿都成这个样子了，你坐拥这么大的资产，花点钱把她买回去怎么了？你不能不管她！",
+        "Holder": "4",
+        "Target": "6",
+        "Aspect": "对女儿的责任",
+        "Opinion": "应该照顾女儿",
+        "Sentiment": "negative",
+        "Rationale": "看到5的现状而认为6应该负起责任"
+    },
+    {
+        "sentence": "我不配。这么多年来，我妈没少我吃，没少我穿，她种地挑扁担供我读书，可我呢？我怎么对她的，我恨她，我恨她不让我和我的首富父亲相认。我恨她，害我错失了成为富家千金的机会，都是我太幼稚了，是我不懂事。大学4年来，我每月从她手里照拿生活费，但我却不理他，我也不回家。大学毕业之后，我说我要去国外读书，我妈她就为了我去城里面一人打三份工，她送外卖，她给人传菜，是那一笔一笔不足50元的转账，才换来了我在国外的展翅高飞。但她不知道的是，我那样做是为了彻底和她断绝联系，我不想再回这个家，直到最后，因为我身患旧疾，她的心愿不过是我领她去治病。可我却依旧不理解她，我还在怪她，我怪她要不是因为她我早就可以和我的首富父亲相认了。我和她说，这一切都是她应得的报应。我把她锁在了冰冷的房间里面，不管他的死活，我就那样走了。如果有来生的话，我不要当她的女儿，我要当她身上的一束裙，头上刚摘的一支花，她不要再为我操心，她要漂亮。",
+        "Holder": "5",
+        "Target": "母亲",
+        "Aspect": "对母亲的态度和行为",
+        "Opinion": "自责和悔恨",
+        "Sentiment": "negative",
+        "Rationale": "回忆起自己对母亲的种种不孝行为"
+    },
+    {
+        "sentence": "我说陆可可，你在这里幻想些什么呢？你今年才多大，你上过大学吗？",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "现实与幻想",
+        "Opinion": "质疑5的幻想",
+        "Sentiment": "negative",
+        "Rationale": "认为5的幻想不切实际"
+    },
+    {
+        "sentence": "妈，躺在床上的残废是这样的，脑子里是各种幻想，都搞不清想什么。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "精神状态",
+        "Opinion": "幻想多",
+        "Sentiment": "negative",
+        "Rationale": "自己躺在床上无法动弹，脑子里充满了各种幻想"
+    },
+    {
+        "sentence": "我说陆芸啊，你都看到了吧，你女儿都成这个样子了，还赶紧花点钱把她带回去得了？你干什么，敢打我？",
+        "Holder": "4",
+        "Target": "陆芸",
+        "Aspect": "对女儿的处理",
+        "Opinion": "应该带回家",
+        "Sentiment": "negative",
+        "Rationale": "看到女儿的现状感到失望和愤怒"
+    },
+    {
+        "sentence": "我不仅敢打你，还想杀了你！",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "暴力倾向",
+        "Opinion": "极端愤怒",
+        "Sentiment": "negative",
+        "Rationale": "对4的言行极度不满"
+    },
+    {
+        "sentence": "贱人，你他妈敢打我妈？我他妈。",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "对母亲的态度",
+        "Opinion": "极度愤怒",
+        "Sentiment": "negative",
+        "Rationale": "看到6打自己的母亲"
+    },
+    {
+        "sentence": "陆芸，是贺洪和你女儿对不起你，关我们什么事啊？你不要急了疯狗乱咬人！小心我告你！",
+        "Holder": "5",
+        "Target": "陆芸",
+        "Aspect": "责任归属",
+        "Opinion": "不关我们的事",
+        "Sentiment": "negative",
+        "Rationale": "认为陆芸的愤怒是无理的"
+    },
+    {
+        "sentence": "告我？你个小三，还想告我？我倒要看看怎么让你牢底坐穿！",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "法律诉讼",
+        "Opinion": "对方无理取闹",
+        "Sentiment": "negative",
+        "Rationale": "认为对方无理取闹且试图通过法律手段对付自己"
+    },
+    {
+        "sentence": "陆芸，是你自己管不好男人，关我屁事？今天说破了天，我也没犯法，等今天老娘出了这个门，你就死定了！",
+        "Holder": "4",
+        "Target": "6",
+        "Aspect": "责任归属",
+        "Opinion": "自己无辜",
+        "Sentiment": "negative",
+        "Rationale": "认为自己没有犯错却被指责"
+    },
+    {
+        "sentence": "那我倒要看看今天到底是谁死定了。",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "威胁",
+        "Opinion": "不服输",
+        "Sentiment": "negative",
+        "Rationale": "对方言语威胁"
+    },
+    {
+        "sentence": "阿姨，你打我妈就不要打我了，我身上都是你女儿的皮肤，你打我就是打你女儿。",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "暴力行为",
+        "Opinion": "反对暴力",
+        "Sentiment": "negative",
+        "Rationale": "自己被无辜牵连且试图通过亲情关系来阻止暴力"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "妈妈妈就打了。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "行为",
+        "Opinion": "打了",
+        "Sentiment": "negative",
+        "Rationale": "妈妈打了人"
+    },
+    {
+        "sentence": "干活了干嘛你看，你就不能用你自己的本子，非得用我。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "使用本子的行为",
+        "Opinion": "不应该用我的本子",
+        "Sentiment": "negative",
+        "Rationale": "3不使用自己的本子而用1的"
+    },
+    {
+        "sentence": "不？就一个本子，你弟弟不懂事你也不懂事，再说了你天天用来写日记的工夫，一套卷子都做完了，他又不是故意的，你干嘛发那么大脾气，我。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "对弟弟的态度",
+        "Opinion": "认为4不应该对弟弟发火",
+        "Sentiment": "negative",
+        "Rationale": "3认为4对弟弟发火不合理"
+    },
+    {
+        "sentence": "又没耽误学习，考倒数的是他又不是我，你怎么就说我不说他，我不是你女儿吗？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "对待自己和弟弟的不公平",
+        "Opinion": "认为自己被不公平对待",
+        "Sentiment": "negative",
+        "Rationale": "4觉得自己被3不公平地责备"
+    },
+    {
+        "sentence": "你怎么跟我说话，",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "说话方式",
+        "Opinion": "认为4的说话方式不妥",
+        "Sentiment": "negative",
+        "Rationale": "1觉得4的说话方式不尊重自己"
+    },
+    {
+        "sentence": "你怎么跟我说话呢？我天天我容易吗？我伺候你们吃伺候你们穿的，你是个大孩子，你不能让着点弟弟吗？好了，你跟他犟什么。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "对家庭责任的认知",
+        "Opinion": "认为4应该体谅家庭责任",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己为家庭付出很多，而4不体谅"
+    },
+    {
+        "sentence": "行了，都两少说两句，想想你也别生气了，你先回屋对了，妈给你找着了。",
+        "Holder": "2",
+        "Target": "所有人",
+        "Aspect": "调解冲突",
+        "Opinion": "希望大家冷静下来",
+        "Sentiment": "neutral",
+        "Rationale": "2希望平息冲突"
+    },
+    {
+        "sentence": "我要是再发现谁上学没有带校牌，就给我直接回家，",
+        "Holder": "5",
+        "Target": "学生",
+        "Aspect": "带校牌的规定",
+        "Opinion": "严格要求",
+        "Sentiment": "negative",
+        "Rationale": "对学生的行为有严格的要求"
+    },
+    {
+        "sentence": "小红书。",
+        "Holder": "4",
+        "Target": "小红书",
+        "Aspect": "提及",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及小红书，没有表达出明确的情感态度"
+    }
+]

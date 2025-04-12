@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "人工智能监管技术讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "分析横令的监管能力", "source_id": "1"},
+          {"state": "positive", "reason": "提出需要新概念完善讨论框架", "source_id": "1"},
+          {"state": "negative", "reason": "对未深入讨论开源豁免表示遗憾", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "版权合规性质疑",
+        "emotions": [
+          {"state": "negative", "reason": "指出基础模型版权归属不明确", "source_id": "1"},
+          {"state": "neutral", "reason": "提及中国案件被搁置的客观事实", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "研讨会主持协调",
+        "emotions": [
+          {"state": "positive", "reason": "赞扬朱悦分享的专业性", "source_id": "1"},
+          {"state": "positive", "reason": "感谢全体参与者贡献", "source_id": "2"},
+          {"state": "neutral", "reason": "维持会议流程的中立态度", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "AI法域外影响评估",
+        "emotions": [
+          {"state": "ambiguous", "reason": "质疑欧洲AI法对国际开源的影响", "source_id": "3"},
+          {"state": "neutral", "reason": "分析平台角色的多样性", "source_id": "3"},
+          {"state": "negative", "reason": "指出版权执法力度不足", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "欧盟开源政策阐释",
+        "emotions": [
+          {"state": "positive", "reason": "强调开源对技术追赶的重要性", "source_id": "4"},
+          {"state": "negative", "reason": "承认开源带来的安全隐私风险", "source_id": "4"},
+          {"state": "neutral", "reason": "说明高风险AI系统的谨慎态度", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "立法技术细节探讨",
+        "emotions": [
+          {"state": "negative", "reason": "反对高成本合规方案", "source_id": "4"},
+          {"state": "positive", "reason": "支持信息保密与版权保护", "source_id": "4"},
+          {"state": "neutral", "reason": "等待具体实施模板的态度", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

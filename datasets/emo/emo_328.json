@@ -1,0 +1,36 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "职业选择冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对殡仪馆化妆师职业，担忧家庭声誉受损",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭沟通破裂",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "长期不归家、态度恶劣、沟通无效引发情感疏离",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "亲子边界模糊化",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "无法建立有效沟通边界导致的身份认同危机",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

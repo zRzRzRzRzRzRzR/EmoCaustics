@@ -1,0 +1,56 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚礼当天的出轨指控与证据对峙",
+        "emotions": [
+          {"state": "neutral", "reason": "询问打翻酒瓶事件", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑购买高价花瓶包养小三", "source_id": "3"},
+          {"state": "negative", "reason": "别墅包养指控与证据对峙", "source_id": "3,4"},
+          {"state": "negative", "reason": "当众被指控出轨且证据展示", "source_id": "3"},
+          {"state": "neutral", "reason": "澄清妹妹身份与高跟鞋来源", "source_id": "3"},
+          {"state": "negative", "reason": "发现阿离失踪与鞋源矛盾", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭关系修复与婚礼继续",
+        "emotions": [
+          {"state": "neutral", "reason": "接受岳父调解与道歉", "source_id": "2"},
+          {"state": "negative", "reason": "担忧妹妹安危与迟到问题", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "出轨证据链构建与指控",
+        "emotions": [
+          {"state": "negative", "reason": "发现高价花瓶与别墅证据", "source_id": "1"},
+          {"state": "negative", "reason": "展示高跟鞋等物证被质疑", "source_id": "1"},
+          {"state": "negative", "reason": "当众揭露出轨引发冲突", "source_id": "1"},
+          {"state": "neutral", "reason": "澄清阿离身份误会", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "危机化解与关系修复",
+        "emotions": [
+          {"state": "neutral", "reason": "解释证据来源为闺蜜提供", "source_id": "5"},
+          {"state": "negative", "reason": "担忧被裴家排斥的后果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "翁婿关系调解与危机处理",
+        "emotions": [
+          {"state": "neutral", "reason": "劝导处理夫妻矛盾", "source_id": "1"},
+          {"state": "negative", "reason": "质疑花瓶真实性被反驳", "source_id": "1"},
+          {"state": "positive", "reason": "预判裴家重视面子不会离婚", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

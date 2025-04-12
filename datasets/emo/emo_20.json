@@ -1,0 +1,69 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "社会宣传引发的个人焦虑",
+        "emotions": [
+          {"state": "negative", "reason": "社会宣传加剧生存焦虑;社会未提供安全感", "source_id": "3,4"},
+          {"state": "neutral", "reason": "认识到沟通中的固有偏见", "source_id": "1"},
+          {"state": "negative", "reason": "外貌评价带来的持续性伤害", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "价值观形成与社会范式冲突",
+        "emotions": [
+          {"state": "positive", "reason": "坚持兴趣选择文科", "source_id": "4"},
+          {"state": "negative", "reason": "对抗社会期望的压力", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "工作制度改革的可行性探讨",
+        "emotions": [
+          {"state": "positive", "reason": "支持制度保障改善工作体验;强调社会整体改革", "source_id": "2"},
+          {"state": "negative", "reason": "担忧社会价值观固化影响", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "出世入世的人生矛盾",
+        "emotions": [
+          {"state": "ambiguous", "reason": "理想与现实追求的冲突", "source_id": "2"},
+          {"state": "positive", "reason": "对团队培养的责任感驱动", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "青年幸福观的价值重构",
+        "emotions": [
+          {"state": "positive", "reason": "主张进取型幸福观;强调拓宽人生边界", "source_id": "3"},
+          {"state": "negative", "reason": "批判妥协型幸福观", "source_id": "1"},
+          {"state": "positive", "reason": "肯定青春独特价值", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "机遇认知与个人发展",
+        "emotions": [
+          {"state": "positive", "reason": "启蒙导师带来的眼界提升", "source_id": "4"},
+          {"state": "neutral", "reason": "认识机遇的客观限制性", "source_id": "4"},
+          {"state": "neutral", "reason": "理解视域差异的沟通障碍", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "表达本质的多维认知",
+        "emotions": [
+          {"state": "positive", "reason": "主张表达的美学价值", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

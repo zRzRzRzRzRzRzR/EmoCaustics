@@ -1,0 +1,87 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "NHS资金与效率讨论",
+        "emotions": [
+          {"state": "positive", "reason": "鼓励参与者表达意见", "source_id": "1"},
+          {"state": "neutral", "reason": "引导资金与效率的平衡讨论", "source_id": "1"},
+          {"state": "neutral", "reason": "推进听众提问环节", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "NHS资源与医生困境",
+        "emotions": [
+          {"state": "positive", "reason": "通过亲身经历肯定NHS价值", "source_id": "2"},
+          {"state": "negative", "reason": "指出医生短缺与士气问题", "source_id": "2,4"},
+          {"state": "negative", "reason": "反对全科医生快速培训方案", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "医疗系统改革争议",
+        "emotions": [
+          {"state": "negative", "reason": "质疑过时医疗法案的适用性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "NHS资金分配挑战",
+        "emotions": [
+          {"state": "neutral", "reason": "分析资金增长与GDP关系", "source_id": "3"},
+          {"state": "negative", "reason": "揭露历史人力资源规划缺陷", "source_id": "3"},
+          {"state": "negative", "reason": "警告资金挤压其他公共服务", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "NHS创新与压力应对",
+        "emotions": [
+          {"state": "positive", "reason": "支持税收资助的公平医疗", "source_id": "4"},
+          {"state": "positive", "reason": "肯定先锋计划创新成果", "source_id": "5"},
+          {"state": "negative", "reason": "警惕大公司介入医疗系统", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "医疗教育改革探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "询问全科医学课程改革方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "医疗资源分配争议",
+        "emotions": [
+          {"state": "neutral", "reason": "提出选择性手术削减建议", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "NHS系统改革质疑",
+        "emotions": [
+          {"state": "negative", "reason": "指控责任护理合同违法", "source_id": "7"},
+          {"state": "negative", "reason": "担忧病人选择公平性", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

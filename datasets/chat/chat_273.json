@@ -1,0 +1,389 @@
+[
+    {
+        "sentence": "仗势欺人，贼喊捉贼",
+        "Holder": "1",
+        "Target": "对方行为",
+        "Aspect": "行为性质",
+        "Opinion": "指责对方不公正",
+        "Sentiment": "negative",
+        "Rationale": "对方利用权势欺负人并且反咬一口"
+    },
+    {
+        "sentence": "又是报警又是污蔑，又是全部拿过来，证据是都你家的",
+        "Holder": "2",
+        "Target": "对方行为",
+        "Aspect": "行为方式",
+        "Opinion": "指责对方滥用手段",
+        "Sentiment": "negative",
+        "Rationale": "对方不仅报警还进行污蔑，并且独占证据"
+    },
+    {
+        "sentence": "我不在，恶人先告状，无耻之极",
+        "Holder": "2",
+        "Target": "对方行为",
+        "Aspect": "行为动机",
+        "Opinion": "指责对方无耻",
+        "Sentiment": "negative",
+        "Rationale": "自己不在场时对方先发制人进行诬告"
+    },
+    {
+        "sentence": "西游记就是跟你们干的，三打白骨精",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行为",
+        "Opinion": "指责对方",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为像西游记中的白骨精一样狡猾"
+    },
+    {
+        "sentence": "找个男人一米六五，矮子肚子里三把刀，捅了几十刀。",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "品行",
+        "Opinion": "对方心机深",
+        "Sentiment": "negative",
+        "Rationale": "用矮子肚子里三把刀的比喻来形容对方心机深"
+    },
+    {
+        "sentence": "你们现在有点道德绑架，在上面仗势欺人。",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行为",
+        "Opinion": "对方道德绑架",
+        "Sentiment": "negative",
+        "Rationale": "认为对方在利用道德绑架和仗势欺人"
+    },
+    {
+        "sentence": "你有什么资格？听懂了吗？你要有个屁",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "资格",
+        "Opinion": "质疑2的资格",
+        "Sentiment": "negative",
+        "Rationale": "对2的指责感到不满"
+    },
+    {
+        "sentence": "什么叫干那个活？我天天在家干活，你们几辈子加钱都没我多。你懂个屁",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "付出",
+        "Opinion": "自己付出多",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的付出被忽视且被质疑"
+    },
+    {
+        "sentence": "我不怕你骂大街",
+        "Holder": "1",
+        "Target": "2的骂大街行为",
+        "Aspect": "对骂大街的态度",
+        "Opinion": "不怕",
+        "Sentiment": "positive",
+        "Rationale": "对2的骂大街行为不感到害怕"
+    },
+    {
+        "sentence": "我现在吃亏了，我脖子很酸。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "吃亏",
+        "Sentiment": "negative",
+        "Rationale": "脖子很酸，感到身体不适"
+    },
+    {
+        "sentence": "物业到我门口半个小时，我以为物业是小偷呢",
+        "Holder": "2",
+        "Target": "物业",
+        "Aspect": "物业的行为",
+        "Opinion": "误以为是小偷",
+        "Sentiment": "negative",
+        "Rationale": "物业在门口待了半个小时，没有明确说明来意"
+    },
+    {
+        "sentence": "那个物业跟我说是楼上说的",
+        "Holder": "2",
+        "Target": "物业",
+        "Aspect": "物业的解释",
+        "Opinion": "物业的解释",
+        "Sentiment": "neutral",
+        "Rationale": "物业解释了来意，是基于楼上的说法"
+    },
+    {
+        "sentence": "他每天7点钟儿子开车，也不知道他家谁在吵。",
+        "Holder": "2",
+        "Target": "楼上的家庭",
+        "Aspect": "噪音来源",
+        "Opinion": "不清楚谁在吵",
+        "Sentiment": "negative",
+        "Rationale": "每天早上7点钟楼上有噪音，但不知道具体是谁在吵"
+    },
+    {
+        "sentence": "我放点佛教的金刚经，抵挡一下他的噪音，中和一下",
+        "Holder": "2",
+        "Target": "噪音",
+        "Aspect": "噪音的应对方式",
+        "Opinion": "用佛教音乐中和噪音",
+        "Sentiment": "neutral",
+        "Rationale": "想通过放佛教音乐来减少噪音的影响"
+    },
+    {
+        "sentence": "他们搬来第一天就把我们玻璃砸掉，恶作剧",
+        "Holder": "2",
+        "Target": "他们",
+        "Aspect": "行为",
+        "Opinion": "恶作剧",
+        "Sentiment": "negative",
+        "Rationale": "他们搬来第一天就砸玻璃"
+    },
+    {
+        "sentence": "按照国家法律，失业之前我要警告他",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "法律警告",
+        "Opinion": "需要警告",
+        "Sentiment": "neutral",
+        "Rationale": "按照法律规定有权警告对方"
+    },
+    {
+        "sentence": "真是软柿子捏惯了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "性格",
+        "Opinion": "容易被欺负",
+        "Sentiment": "negative",
+        "Rationale": "觉得2总是被欺负"
+    },
+    {
+        "sentence": "脑袋瓜太发达，有的时候一下大脑的正常思维",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "思维能力",
+        "Opinion": "思维过于活跃",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己思维活跃有时会影响正常思考"
+    },
+    {
+        "sentence": "老实人也有发怒的时候。",
+        "Holder": "1",
+        "Target": "老实人",
+        "Aspect": "情绪表达",
+        "Opinion": "老实人也会生气",
+        "Sentiment": "negative",
+        "Rationale": "老实人通常被认为不会发怒，但此时却发怒了"
+    },
+    {
+        "sentence": "他们家地毯洗完之后水像瀑布一样淋下来",
+        "Holder": "2",
+        "Target": "他们家地毯",
+        "Aspect": "清洗效果",
+        "Opinion": "清洗不当",
+        "Sentiment": "negative",
+        "Rationale": "地毯清洗后水流量过大，导致水像瀑布一样流下，说明清洗工作没有做好"
+    },
+    {
+        "sentence": "他从来没有一句抱歉的话，还期待我表扬他？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "态度",
+        "Opinion": "缺乏歉意",
+        "Sentiment": "negative",
+        "Rationale": "因为他从未表示过歉意，却期待得到表扬，这种态度让人感到不满"
+    },
+    {
+        "sentence": "这是他的价值观、人生观问题",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "价值观、人生观",
+        "Opinion": "存在问题",
+        "Sentiment": "negative",
+        "Rationale": "因为他对待事物的态度和观念存在偏差，所以被认为有问题"
+    },
+    {
+        "sentence": "他被欺负惯了，却要你说他好",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "行为模式",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "因为他长期被欺负，却反过来要求别人称赞他，这种行为让人感到不合理"
+    },
+    {
+        "sentence": "欺负我善良",
+        "Holder": "2",
+        "Target": "我",
+        "Aspect": "性格",
+        "Opinion": "被利用",
+        "Sentiment": "negative",
+        "Rationale": "因为自己的善良被对方利用，所以感到委屈和不满"
+    },
+    {
+        "sentence": "居委会都知道",
+        "Holder": "2",
+        "Target": "居委会",
+        "Aspect": "知情情况",
+        "Opinion": "居委会知情",
+        "Sentiment": "neutral",
+        "Rationale": "提到居委会知道某些事情，但没有表达明显的情感倾向"
+    },
+    {
+        "sentence": "保安在我门口听半个小时，我都不知道，然后保安怎么说的？",
+        "Holder": "2",
+        "Target": "保安",
+        "Aspect": "行为",
+        "Opinion": "保安在门口偷听",
+        "Sentiment": "negative",
+        "Rationale": "保安在门口偷听却未告知自己"
+    },
+    {
+        "sentence": "我证据确凿，三年，然后他妈妈的把他搬过来之后把我玻璃敲掉",
+        "Holder": "2",
+        "Target": "邻居",
+        "Aspect": "行为",
+        "Opinion": "邻居敲掉玻璃",
+        "Sentiment": "negative",
+        "Rationale": "邻居搬来后敲掉了自己的玻璃"
+    },
+    {
+        "sentence": "然后我看到他们家害怕，那白床上就晒这么一点。",
+        "Holder": "2",
+        "Target": "邻居",
+        "Aspect": "行为",
+        "Opinion": "邻居晒床单",
+        "Sentiment": "negative",
+        "Rationale": "看到邻居晒床单的行为让自己感到害怕"
+    },
+    {
+        "sentence": "晒了之后我就等着这家恶贼干什么，垃圾往下倒被我活抓",
+        "Holder": "2",
+        "Target": "邻居",
+        "Aspect": "行为",
+        "Opinion": "邻居乱倒垃圾",
+        "Sentiment": "negative",
+        "Rationale": "邻居乱倒垃圾的行为被自己抓到"
+    },
+    {
+        "sentence": "哈哈哈",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "表达的是笑声"
+    },
+    {
+        "sentence": "我不全部都抓住了，就怕有脸居然来公开了。",
+        "Holder": "2",
+        "Target": "抓住的情况",
+        "Aspect": "全面性",
+        "Opinion": "没有全部抓住",
+        "Sentiment": "negative",
+        "Rationale": "担心有些事情没有完全处理好"
+    },
+    {
+        "sentence": "哈哈哈",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "表达的是笑声"
+    },
+    {
+        "sentence": "这几号楼啊",
+        "Holder": "3",
+        "Target": "楼号",
+        "Aspect": "询问",
+        "Opinion": "询问楼号",
+        "Sentiment": "neutral",
+        "Rationale": "只是在询问楼号，没有表达出特别的情感"
+    },
+    {
+        "sentence": "27号楼",
+        "Holder": "4",
+        "Target": "楼号",
+        "Aspect": "回答",
+        "Opinion": "27号楼",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回答了楼号，没有表达出特别的情感"
+    },
+    {
+        "sentence": "我不会说话的，我意思是费劲。我跟居委说了同样的事情，我说了五六次，我说我累死了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "表达能力",
+        "Opinion": "表达困难",
+        "Sentiment": "negative",
+        "Rationale": "反复向居委表达同一事情却感到费劲"
+    },
+    {
+        "sentence": "哈哈",
+        "Holder": "3",
+        "Target": "2的抱怨",
+        "Aspect": "反应",
+        "Opinion": "轻松应对",
+        "Sentiment": "positive",
+        "Rationale": "对2的抱怨感到好笑"
+    },
+    {
+        "sentence": "然后就这样被耍",
+        "Holder": "2",
+        "Target": "居委",
+        "Aspect": "对待方式",
+        "Opinion": "被忽视",
+        "Sentiment": "negative",
+        "Rationale": "感觉被居委忽视和敷衍"
+    },
+    {
+        "sentence": "我已经被你搞得神经衰落了。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "影响",
+        "Opinion": "精神压力大",
+        "Sentiment": "negative",
+        "Rationale": "认为3的行为导致自己精神压力大"
+    },
+    {
+        "sentence": "不要说那么多，半夜敲敲打打，到底是谁在敲？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "行为",
+        "Opinion": "打扰休息",
+        "Sentiment": "negative",
+        "Rationale": "半夜被敲打声打扰"
+    },
+    {
+        "sentence": "你是不是要不要脸？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2不要脸",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不合理"
+    },
+    {
+        "sentence": "你这个女的不要脸，你跑到这个上面来喊，半夜敲敲打打我，到底谁在敲？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2不要脸且行为扰民",
+        "Sentiment": "negative",
+        "Rationale": "1认为2半夜敲打扰民"
+    },
+    {
+        "sentence": "第二次疫情12月份过年前拼命的敲，每天故意的砸。我没有说过一句话，然后他还跑到居委会，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为描述",
+        "Opinion": "自己没有反应但对方行为过分",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己没有做出过激反应，但1的行为过分"
+    },
+    {
+        "sentence": "我如果像你们家的话，我都告到美国去了。",
+        "Holder": "2",
+        "Target": "1的家庭",
+        "Aspect": "行为标准",
+        "Opinion": "认为1的家庭双重标准",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的家庭和美国一样有双重标准"
+    }
+]

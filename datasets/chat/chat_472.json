@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "你这孩子就是哄着哄着，原则你都喂了狗，",
+        "Holder": "1",
+        "Target": "2的教育方式",
+        "Aspect": "教育原则",
+        "Opinion": "缺乏原则",
+        "Sentiment": "negative",
+        "Rationale": "认为2在教育孩子时过于纵容，忽视了原则"
+    },
+    {
+        "sentence": "今天当着孩子面咱把这事说清楚，从明天开始欢欢的课不上了，学习差就学习差，上不了大学，上不了大学我认了，我养他们一辈子",
+        "Holder": "2",
+        "Target": "欢欢的教育",
+        "Aspect": "教育决策",
+        "Opinion": "放弃课外辅导",
+        "Sentiment": "negative",
+        "Rationale": "对欢欢的学习成绩感到失望，但又不愿意继续施加压力"
+    },
+    {
+        "sentence": "30多岁的人了，你拿什么养他们一辈子，他们凭什么要靠父母养一辈子？",
+        "Holder": "1",
+        "Target": "2的养孩子观念",
+        "Aspect": "经济能力和独立性",
+        "Opinion": "质疑养孩子的能力",
+        "Sentiment": "negative",
+        "Rationale": "认为2没有足够的经济能力长期养孩子，且孩子应该独立"
+    },
+    {
+        "sentence": "南丽你你现在不会收手了，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为控制",
+        "Opinion": "无法停止",
+        "Sentiment": "negative",
+        "Rationale": "认为1在教育孩子方面过于执着，无法停止干涉"
+    },
+    {
+        "sentence": "是停不下来了，",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为控制",
+        "Opinion": "无法停止",
+        "Sentiment": "negative",
+        "Rationale": "自己已经深陷于教育孩子的模式中，无法轻易改变"
+    },
+    {
+        "sentence": "如果一个人过得不好就赖父母，那说明他的人生是失败的。",
+        "Holder": "2",
+        "Target": "一个人",
+        "Aspect": "人生失败的原因",
+        "Opinion": "赖父母是失败的表现",
+        "Sentiment": "negative",
+        "Rationale": "认为把失败归咎于父母是不负责任的行为"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语意图",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "对2的话感到困惑"
+    },
+    {
+        "sentence": "爸妈的事就是你的病根，你在那边那两年没讨到便宜，工作又不顺心，想在孩子这找不回来，我都理解我让步了，一让再让问题是你现在彻底失去理智了，终于说出来了，我是早就想说了，你好好想想，就算爸妈婚姻幸福能够白头到老，你的人生就事事顺心了，就算欢欢超超能够考上清华北大，你就成田玉兰了吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "生活态度和问题归因",
+        "Opinion": "1把问题归咎于父母和孩子",
+        "Sentiment": "negative",
+        "Rationale": "认为1不理性地把生活的不如意归咎于他人"
+    },
+    {
+        "sentence": "你对自己的生活不满意，非要跟爹妈较劲，跟孩子较劲，唯独不肯从自己身上找原因，孩子不是你咸鱼翻身的工具，你现在已经彻底疯了，你知道吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "生活态度和行为",
+        "Opinion": "1不肯自我反省",
+        "Sentiment": "negative",
+        "Rationale": "认为1不自我反省而是把责任推给他人"
+    },
+    {
+        "sentence": "你跟你爸妈比较劲吗？你爸到死都没同意你唯一的儿子见他最后一面，你跟你妈的关系没比陌生人好多少",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "家庭关系",
+        "Opinion": "2的家庭关系也不好",
+        "Sentiment": "negative",
+        "Rationale": "指出2自身也有家庭关系问题"
+    },
+    {
+        "sentence": "我回来了",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "回家",
+        "Opinion": "回来了",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己回来了的事实"
+    },
+    {
+        "sentence": "冰箱、包子、饺子都有自己热热吃，这么晚才来，平常这时候我都睡着了，",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "回家时间",
+        "Opinion": "太晚",
+        "Sentiment": "negative",
+        "Rationale": "3回家的时间太晚，打乱了1的正常作息"
+    },
+    {
+        "sentence": "正常的家庭回老家，正常家像你们家那样吗？别人回老家是为了放松你们老家有那功能吗？所以你从一个极端走到另外一个极端，你对孩子就是哄着哄着，原则你都喂了狗，欢欢被你惯成这样，你还不够失败吗？",
+        "Holder": "1",
+        "Target": "3的家庭教育方式",
+        "Aspect": "教育方法",
+        "Opinion": "极端且失败",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的家庭教育方式从一个极端到另一个极端，没有原则，导致孩子被惯坏"
+    }
+]

@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "哎呀，我不吃了，气的我吃不下去。",
+        "Holder": "1",
+        "Target": "胡梦",
+        "Aspect": "行为",
+        "Opinion": "霸道厉害",
+        "Sentiment": "negative",
+        "Rationale": "胡梦的行为让1感到非常生气"
+    },
+    {
+        "sentence": "行了行了行了，还嫌闹不够啊你。",
+        "Holder": "2",
+        "Target": "1的抱怨",
+        "Aspect": "抱怨的频率",
+        "Opinion": "过多",
+        "Sentiment": "negative",
+        "Rationale": "1频繁抱怨"
+    },
+    {
+        "sentence": "这不是闹啊。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "不是闹",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己不是在无理取闹"
+    },
+    {
+        "sentence": "你说大伙说说啊，这胡梦这人，她太霸道，太厉害，一点都不善良！",
+        "Holder": "1",
+        "Target": "胡梦",
+        "Aspect": "性格",
+        "Opinion": "霸道厉害不善良",
+        "Sentiment": "negative",
+        "Rationale": "胡梦对桂婆婆的行为让1觉得她非常霸道和不善良"
+    },
+    {
+        "sentence": "人家桂婆婆动了她一下手机，你看她这没完没了，不依不饶啊。",
+        "Holder": "1",
+        "Target": "胡梦",
+        "Aspect": "反应",
+        "Opinion": "过度反应",
+        "Sentiment": "negative",
+        "Rationale": "胡梦对桂婆婆动她手机的行为反应过度"
+    },
+    {
+        "sentence": "说话吧专找那杵人心窝子的话说。",
+        "Holder": "1",
+        "Target": "某人的说话方式",
+        "Aspect": "说话内容的伤害性",
+        "Opinion": "专挑伤人的话说",
+        "Sentiment": "negative",
+        "Rationale": "某人总是故意说伤害人心的话"
+    },
+    {
+        "sentence": "怎么着？几句话把桂婆婆气进医院去。",
+        "Holder": "1",
+        "Target": "某人的话语",
+        "Aspect": "话语的后果",
+        "Opinion": "导致桂婆婆气进医院",
+        "Sentiment": "negative",
+        "Rationale": "某人的话语直接导致桂婆婆气得进了医院"
+    },
+    {
+        "sentence": "这人她不善良不厚道。",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "性格品质",
+        "Opinion": "不善良不厚道",
+        "Sentiment": "negative",
+        "Rationale": "某人说话伤人且导致严重后果"
+    },
+    {
+        "sentence": "你要是不背后挑拨，至于成这样吗？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "挑拨离间",
+        "Opinion": "认为是1背后挑拨",
+        "Sentiment": "negative",
+        "Rationale": "认为1在背后挑拨离间"
+    },
+    {
+        "sentence": "嘿，老候，你怎么还向着胡梦说话吗？",
+        "Holder": "1",
+        "Target": "3的立场",
+        "Aspect": "立场偏向",
+        "Opinion": "认为3偏向胡梦",
+        "Sentiment": "negative",
+        "Rationale": "觉得3在对话中偏向胡梦"
+    },
+    {
+        "sentence": "我不是向着她。你你你这事儿大家都有责任。",
+        "Holder": "3",
+        "Target": "事情的责任",
+        "Aspect": "责任归属",
+        "Opinion": "大家都有责任",
+        "Sentiment": "negative",
+        "Rationale": "认为所有人都对事情有责任"
+    },
+    {
+        "sentence": "大家都有责任，大家有什么责任啊？",
+        "Holder": "1",
+        "Target": "事情的责任",
+        "Aspect": "责任的具体内容",
+        "Opinion": "质疑责任",
+        "Sentiment": "negative",
+        "Rationale": "对大家都有责任的说法感到不解和不满"
+    },
+    {
+        "sentence": "哎老候，你说大家有什么责任？",
+        "Holder": "1",
+        "Target": "事情的责任",
+        "Aspect": "责任的具体内容",
+        "Opinion": "寻求解释",
+        "Sentiment": "neutral",
+        "Rationale": "想弄清楚责任的具体内容"
+    },
+    {
+        "sentence": "没责任？好家伙，也不拦你就上去打了你。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "1有责任",
+        "Sentiment": "negative",
+        "Rationale": "认为1没有拦住自己而导致了冲突"
+    },
+    {
+        "sentence": "嘿，我还有责任？我打她了吗？",
+        "Holder": "1",
+        "Target": "自己的责任",
+        "Aspect": "行为的真实性",
+        "Opinion": "否认责任",
+        "Sentiment": "negative",
+        "Rationale": "认为自己没有打人而感到被冤枉"
+    },
+    {
+        "sentence": "你要说这责任，咱首先就说说，小叶她招谁惹谁了？",
+        "Holder": "1",
+        "Target": "小叶",
+        "Aspect": "行为合理性",
+        "Opinion": "小叶没有招惹别人",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问小叶是否招惹了别人"
+    },
+    {
+        "sentence": "她上来一口就给人手咬了，这谁的责任？你说说？",
+        "Holder": "1",
+        "Target": "小叶",
+        "Aspect": "咬人行为",
+        "Opinion": "质疑责任归属",
+        "Sentiment": "negative",
+        "Rationale": "小叶咬了人，1在质问责任归属"
+    },
+    {
+        "sentence": "老葛，你听我说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话请求",
+        "Opinion": "请求发言",
+        "Sentiment": "neutral",
+        "Rationale": "2在请求1听自己解释"
+    },
+    {
+        "sentence": "她就是咬，她也不是成心的不是？",
+        "Holder": "2",
+        "Target": "小叶",
+        "Aspect": "咬人动机",
+        "Opinion": "小叶不是故意的",
+        "Sentiment": "neutral",
+        "Rationale": "2在为小叶辩解，认为她不是故意咬人"
+    },
+    {
+        "sentence": "好好好，咱就算她这咬不是成心的。",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "咬的行为",
+        "Opinion": "不是成心的",
+        "Sentiment": "neutral",
+        "Rationale": "愿意接受对方的解释"
+    },
+    {
+        "sentence": "那我问问你，她说桂婆婆那几句话，她什么意思？她是不是要成心气死桂婆婆啊？",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "说话的意图",
+        "Opinion": "成心气死桂婆婆",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方的言语有恶意"
+    },
+    {
+        "sentence": "她说桂婆婆是自己亲手害了自个儿亲孙子，有这话没有？她什么意思？",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "说话的内容",
+        "Opinion": "指责桂婆婆",
+        "Sentiment": "negative",
+        "Rationale": "对方的话对桂婆婆有严重的指责"
+    },
+    {
+        "sentence": "是是是。这英台妹妹确实有错，可是她也不是说故意气桂婆嘛，那不是话赶话吗？",
+        "Holder": "3",
+        "Target": "英台妹妹",
+        "Aspect": "说话的意图",
+        "Opinion": "不是故意气桂婆婆",
+        "Sentiment": "neutral",
+        "Rationale": "认为英台妹妹的话是无意中说的"
+    },
+    {
+        "sentence": "话赶话？",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话的连贯性",
+        "Opinion": "质疑对话的连贯性",
+        "Sentiment": "neutral",
+        "Rationale": "1对对话的连贯性表示疑问"
+    },
+    {
+        "sentence": "嘿呦，行了行了，嘿，我什么也不说了。",
+        "Holder": "1",
+        "Target": "对话继续",
+        "Aspect": "对话的持续性",
+        "Opinion": "停止对话",
+        "Sentiment": "negative",
+        "Rationale": "1觉得对话无法继续或不想再继续"
+    },
+    {
+        "sentence": "老侯啊，我是知道你就是完完全全是胡梦的那个什么呀？脑残粉！",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对胡梦的粉丝身份",
+        "Opinion": "认为3是胡梦的极端粉丝",
+        "Sentiment": "negative",
+        "Rationale": "1认为3对胡梦的喜爱过于极端"
+    },
+    {
+        "sentence": "你别胡说八道你啊。",
+        "Holder": "3",
+        "Target": "1的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "认为1在胡说八道",
+        "Sentiment": "negative",
+        "Rationale": "3觉得1的言论不真实且带有贬义"
+    },
+    {
+        "sentence": "出去，走。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "在场的要求",
+        "Opinion": "要求1离开",
+        "Sentiment": "negative",
+        "Rationale": "3对1的言论和行为感到极度不满"
+    },
+    {
+        "sentence": "诶呦诶呦诶呦，别别别。",
+        "Holder": "2",
+        "Target": "当前情境",
+        "Aspect": "行为制止",
+        "Opinion": "希望停止",
+        "Sentiment": "negative",
+        "Rationale": "感到紧张或不安"
+    },
+    {
+        "sentence": "干什么呀，老侯？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为意图",
+        "Opinion": "询问意图",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2的行为意图"
+    },
+    {
+        "sentence": "哎呦喂，大伙儿都跟我作个证啊，你要打我呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为指控",
+        "Opinion": "认为2要打自己",
+        "Sentiment": "negative",
+        "Rationale": "感到自己可能受到攻击"
+    },
+    {
+        "sentence": "我今儿是没带着药啊，我这心啊哎呦哎，他要打我呀。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为指控",
+        "Opinion": "强调自己没有防备",
+        "Sentiment": "negative",
+        "Rationale": "感到自己处于弱势且没有防备"
+    },
+    {
+        "sentence": "哎呦行了行了都别闹了！",
+        "Holder": "4",
+        "Target": "所有人",
+        "Aspect": "行为制止",
+        "Opinion": "希望停止争吵",
+        "Sentiment": "negative",
+        "Rationale": "感到场面混乱"
+    },
+    {
+        "sentence": "不高兴起来！",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "情绪状态",
+        "Opinion": "不满意",
+        "Sentiment": "negative",
+        "Rationale": "对当前的情况感到不满"
+    },
+    {
+        "sentence": "你说这都什么时候了，还跟着添乱呀？",
+        "Holder": "4",
+        "Target": "他人行为",
+        "Aspect": "行为时机",
+        "Opinion": "添乱",
+        "Sentiment": "negative",
+        "Rationale": "认为在关键时刻他人还在添乱"
+    },
+    {
+        "sentence": "我就问一句，信得过小叶不？心",
+        "Holder": "4",
+        "Target": "小叶",
+        "Aspect": "信任度",
+        "Opinion": "询问信任",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认对小叶的信任度"
+    },
+    {
+        "sentence": "既然信得过小叶，你们就踏踏实实的待着，该吃吃，该喝喝，剩下的交给小叶去处理吧，吃饭吃饭。",
+        "Holder": "4",
+        "Target": "小叶",
+        "Aspect": "信任与能力",
+        "Opinion": "相信小叶能处理",
+        "Sentiment": "positive",
+        "Rationale": "对小叶的能力和信任有信心"
+    }
+]

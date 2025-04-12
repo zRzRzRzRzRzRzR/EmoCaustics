@@ -1,0 +1,86 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "温饱作为道德前提的论证",
+        "emotions": [
+          {"state": "neutral", "reason": "系统性阐述温饱与道德的逻辑关系", "source_id": "2"},
+          {"state": "neutral", "reason": "通过重复论证强化立场一致性", "source_id": "2,4,6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "道德独立性的核心反驳",
+        "emotions": [
+          {"state": "positive", "reason": "强调道德超越生存需求", "source_id": "3"},
+          {"state": "positive", "reason": "引用历史案例支撑理论框架", "source_id": "3,5,7"}
+        ]
+      },
+      {
+        "event": "自由辩论中的攻防对抗",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方论证逻辑漏洞", "source_id": "9"},
+          {"state": "neutral", "reason": "维护理论体系完整性", "source_id": "3,5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "经济基础优先论阐释",
+        "emotions": [
+          {"state": "negative", "reason": "批判道德决定论的空想性", "source_id": "4"},
+          {"state": "positive", "reason": "结合中国发展实例论证", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "道德普遍性论证",
+        "emotions": [
+          {"state": "positive", "reason": "构建道德历史存在性框架", "source_id": "5"},
+          {"state": "negative", "reason": "揭露对方理论矛盾点", "source_id": "5,7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "概念边界维护战",
+        "emotions": [
+          {"state": "negative", "reason": "反驳对方定义扩展行为", "source_id": "6"},
+          {"state": "neutral", "reason": "提出社会实践性标准", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "道德实践案例攻防",
+        "emotions": [
+          {"state": "positive", "reason": "列举跨文明道德实例", "source_id": "7"},
+          {"state": "negative", "reason": "批判对方历史案例误读", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "现实可行性追问",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑道德标准的普及性", "source_id": "9"},
+          {"state": "negative", "reason": "攻击理论脱离实际", "source_id": "9"}
+        ]
+      }
+    ]
+  }
+}

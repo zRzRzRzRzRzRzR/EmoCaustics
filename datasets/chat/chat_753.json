@@ -1,0 +1,128 @@
+[
+    {
+        "sentence": "高书记我来向您汇报一下侯亮平的事。这两个证人大洪亮的司机和会计都找到了，银行卡和烟酒的事也查清了，侯亮平确实是被诬陷了。",
+        "Holder": "2",
+        "Target": "侯亮平",
+        "Aspect": "被诬陷的情况",
+        "Opinion": "确实被诬陷",
+        "Sentiment": "neutral",
+        "Rationale": "2在汇报事实情况"
+    },
+    {
+        "sentence": "这两个证人是在哪找到的？",
+        "Holder": "1",
+        "Target": "证人",
+        "Aspect": "证人的找到地点",
+        "Opinion": "询问地点",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问具体信息"
+    },
+    {
+        "sentence": "我们的邻省祁厅长向我汇报的时候说。这俩个证人找不着，齐厅长可能忘了司法拘留了，这还是吴法官想的，你说吴法官，我当时给他打电话的时候，他什么也没跟我说，您不能怪他，保密是我们干司法的职业病，我也有这毛病，怕坏人钻空子，胳膊还保密。可以理解，但是你想想这举报人蔡成功是侯亮平的发小，他会故意陷害别人，是不是？",
+        "Holder": "2",
+        "Target": "证人找到的情况",
+        "Aspect": "证人找到的过程和保密问题",
+        "Opinion": "理解保密但质疑举报人动机",
+        "Sentiment": "ambiguous",
+        "Rationale": "2在解释证人找到的过程并对举报人的动机提出疑问"
+    },
+    {
+        "sentence": "故意陷害不好说，但是诬陷就是诬陷。",
+        "Holder": "1",
+        "Target": "诬陷",
+        "Aspect": "诬陷的性质",
+        "Opinion": "诬陷是事实",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述事实"
+    },
+    {
+        "sentence": "既然一切都查清楚了，我最得意觉得能够平安出入令人兴奋。",
+        "Holder": "1",
+        "Target": "查清情况",
+        "Aspect": "平安出入",
+        "Opinion": "感到兴奋",
+        "Sentiment": "positive",
+        "Rationale": "一切查清后能够平安出入"
+    },
+    {
+        "sentence": "说实话，当时我对那些举报材料根本就不相信，你也知道他毕竟是我的学生，我对他还能不了解。",
+        "Holder": "1",
+        "Target": "举报材料",
+        "Aspect": "可信度",
+        "Opinion": "不相信",
+        "Sentiment": "negative",
+        "Rationale": "对学生的了解使得对举报材料产生不信任"
+    },
+    {
+        "sentence": "是您当时就对我说，当时我真的是没办法，所做的一切都是为了堵一些同志的嘴吗？理解，现在还有人说我当面找到沙书记是逼宫，你想想我还想整死我自己的学生，是现在想起来，倒是你们肖刚玉在逼我的功高书记",
+        "Holder": "1",
+        "Target": "当时的做法",
+        "Aspect": "动机和误解",
+        "Opinion": "解释和反驳",
+        "Sentiment": "negative",
+        "Rationale": "被误解为逼宫和整死学生"
+    },
+    {
+        "sentence": "怎么又成了我们的肖钢玉，肖钢玉可是只认您不认我。",
+        "Holder": "2",
+        "Target": "肖钢玉的行为",
+        "Aspect": "责任归属",
+        "Opinion": "澄清责任",
+        "Sentiment": "negative",
+        "Rationale": "被误认为与肖钢玉有同样的责任"
+    },
+    {
+        "sentence": "行了，既然事情都过去了，都别说了，",
+        "Holder": "1",
+        "Target": "事情",
+        "Aspect": "事情的处理",
+        "Opinion": "事情已处理",
+        "Sentiment": "neutral",
+        "Rationale": "事情已经处理完毕"
+    },
+    {
+        "sentence": "好，高书记我向您请示一下侯亮平是不是可以恢复工作了，",
+        "Holder": "2",
+        "Target": "侯亮平",
+        "Aspect": "工作恢复",
+        "Opinion": "请求恢复工作",
+        "Sentiment": "neutral",
+        "Rationale": "侯亮平的问题已解决"
+    },
+    {
+        "sentence": "侯亮平的问题，这样你看是不是请示一下沙书记再说，",
+        "Holder": "1",
+        "Target": "侯亮平的问题",
+        "Aspect": "决策过程",
+        "Opinion": "需请示沙书记",
+        "Sentiment": "neutral",
+        "Rationale": "需要更高层领导的意见"
+    },
+    {
+        "sentence": "沙书记那儿就没有这必要，他正和侯亮平谈话呢？侯亮平不是想调离汉中吗？现在他问题查清楚了，我想是不是沙书记又不想放他走了，正做他的思想工作挽留他，当时要把侯亮平调回北京，也是沙书记的提议，是为了保护侯亮平",
+        "Holder": "2",
+        "Target": "沙书记的态度",
+        "Aspect": "对侯亮平的挽留",
+        "Opinion": "沙书记挽留侯亮平",
+        "Sentiment": "neutral",
+        "Rationale": "沙书记正在与侯亮平谈话并挽留他"
+    },
+    {
+        "sentence": "现在既然一切都查清楚了，我看还是这样。让他留下来。",
+        "Holder": "1",
+        "Target": "侯亮平的去留",
+        "Aspect": "最终决定",
+        "Opinion": "同意留下",
+        "Sentiment": "neutral",
+        "Rationale": "所有问题都已查清"
+    },
+    {
+        "sentence": "这要由你们省委做决定了。",
+        "Holder": "2",
+        "Target": "省委",
+        "Aspect": "决策权",
+        "Opinion": "应由省委决定",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2认为决策权在省委手中"
+    }
+]

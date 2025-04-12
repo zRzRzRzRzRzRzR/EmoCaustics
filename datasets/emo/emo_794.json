@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "代驾服务启动时的职业身份确认",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "陈述代驾身份并处理等待时间",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被投诉威胁后调整服务态度",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主动放弃报酬表达祝福",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "车内情感冲突与物理损害处理",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑话多且面临投诉风险",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出金钱赔偿车辆刮痕方案",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "分手创伤的持续影响",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "表达分手痛苦与关系结束的不甘",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "最终接受现实并拒绝金钱补偿",
+            "source_id": "1,2"
+          }
+        ]
+      },
+      {
+        "event": "车辆相关的情感联结揭示",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "发现对方对车辆的异常熟悉",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "得知车辆购买背后的情感真相",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

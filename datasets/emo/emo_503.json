@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭紧急状况应对会议",
+        "emotions": [
+          {"state": "negative", "reason": "强调情况紧迫性", "source_id": "2,3"},
+          {"state": "neutral", "reason": "主张集体决策", "source_id": "5"},
+          {"state": "positive", "reason": "展现家庭责任感", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "食物分配危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "担忧未来食物短缺", "source_id": "1,2"},
+          {"state": "positive", "reason": "优先照顾幼弟发育", "source_id": "1,2"},
+          {"state": "negative", "reason": "批评非理性分配行为", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭领导权过渡挑战",
+        "emotions": [
+          {"state": "negative", "reason": "质疑父亲照料能力", "source_id": "4"},
+          {"state": "positive", "reason": "主动改善生活品质", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "婚姻责任认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "反对牺牲健康工作", "source_id": "5"},
+          {"state": "positive", "reason": "肯定丈夫责任心", "source_id": "5"},
+          {"state": "ambiguous", "reason": "试探出国真实态度", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "中年危机与自我价值重构",
+        "emotions": [
+          {"state": "negative", "reason": "创作压力引发复吸", "source_id": "4"},
+          {"state": "negative", "reason": "自我否定家庭角色", "source_id": "self"},
+          {"state": "positive", "reason": "展现婚姻信任基础", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

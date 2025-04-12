@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "你为什么？那我也想要生气了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不理解2的行为",
+        "Sentiment": "negative",
+        "Rationale": "不理解2的行为"
+    },
+    {
+        "sentence": "那你不能生气啊，我都这样哄你了你还生气？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪的合理性",
+        "Opinion": "认为1不应该生气",
+        "Sentiment": "negative",
+        "Rationale": "已经尝试哄1但1仍然生气"
+    },
+    {
+        "sentence": "我一想到我就好生气。",
+        "Holder": "1",
+        "Target": "自己的想法",
+        "Aspect": "情绪的强烈程度",
+        "Opinion": "非常生气",
+        "Sentiment": "negative",
+        "Rationale": "一想到某些事情就无法控制自己的情绪"
+    },
+    {
+        "sentence": "你那你也要这样哄我是吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "希望1也哄自己",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到1的安慰"
+    },
+    {
+        "sentence": "哪样，哪样哄你呢？",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "要求的明确性",
+        "Opinion": "不清楚如何哄2",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2具体需要怎样的哄"
+    },
+    {
+        "sentence": "我今天有没要哄你一天？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "哄的时间",
+        "Opinion": "不需要哄一天",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问是否需要哄1一整天"
+    },
+    {
+        "sentence": "我也会哄你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "哄的行为",
+        "Opinion": "也会哄2",
+        "Sentiment": "positive",
+        "Rationale": "1表示自己也会哄2"
+    },
+    {
+        "sentence": "你会这样哄我一天吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "哄的时间",
+        "Opinion": "怀疑是否能哄一天",
+        "Sentiment": "doubt",
+        "Rationale": "2对1是否能哄自己一整天表示怀疑"
+    },
+    {
+        "sentence": "你根本就不会，你会写500字千字检讨吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "哄的能力",
+        "Opinion": "不会哄",
+        "Sentiment": "negative",
+        "Rationale": "2认为1根本不会哄自己，并提出写检讨的要求"
+    },
+    {
+        "sentence": "你根本就不会。",
+        "Holder": "2",
+        "Target": "1的能力",
+        "Aspect": "是否具备某项技能",
+        "Opinion": "认为1不会",
+        "Sentiment": "negative",
+        "Rationale": "对1的能力持怀疑态度"
+    },
+    {
+        "sentence": "我会写1000字。",
+        "Holder": "1",
+        "Target": "自己的写作能力",
+        "Aspect": "写作能力的具体表现",
+        "Opinion": "能写1000字",
+        "Sentiment": "positive",
+        "Rationale": "对自己写作能力的自信"
+    },
+    {
+        "sentence": "然后你一直让我不高兴，然后我都几乎没怎么跟你生过气。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对情绪的影响",
+        "Opinion": "1的行为让2不高兴",
+        "Sentiment": "negative",
+        "Rationale": "1的行为持续让2感到不高兴"
+    },
+    {
+        "sentence": "我什么时候又不让你不高兴了？就刚刚不让你不高兴了。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "对2情绪的影响",
+        "Opinion": "认为自己没有让2不高兴",
+        "Sentiment": "negative",
+        "Rationale": "被误解为让2不高兴"
+    },
+    {
+        "sentence": "你老让我不高兴，但是你每次一哄我就好了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "情绪影响",
+        "Opinion": "1的行为让2不高兴但能被哄好",
+        "Sentiment": "negative",
+        "Rationale": "1的行为多次让2感到不高兴"
+    },
+    {
+        "sentence": "我什么时候让你不高兴了？那我让你不高兴都是那种事儿，你让我不高兴是那种事儿，两种事儿。",
+        "Holder": "1",
+        "Target": "2的不高兴原因",
+        "Aspect": "事件性质",
+        "Opinion": "不认为自己的行为让2不高兴",
+        "Sentiment": "doubt",
+        "Rationale": "1不清楚自己何时让2不高兴"
+    },
+    {
+        "sentence": "那你也有让我不高兴的时候啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "情绪影响",
+        "Opinion": "1也有让2不高兴的时候",
+        "Sentiment": "negative",
+        "Rationale": "2认为1也有让自己不高兴的行为"
+    },
+    {
+        "sentence": "我占有欲大爆发！",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "占有欲强烈",
+        "Sentiment": "negative",
+        "Rationale": "1意识到自己的占有欲强烈"
+    },
+    {
+        "sentence": "你那是小儿麻痹大爆发。",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "1的情绪失控",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的情绪失控且夸张"
+    },
+    {
+        "sentence": "滚。只要你们两个不当面背叛我，我就都喜欢你们两个好吗？",
+        "Holder": "1",
+        "Target": "2和3",
+        "Aspect": "忠诚",
+        "Opinion": "要求忠诚",
+        "Sentiment": "negative",
+        "Rationale": "对2和3的忠诚感到怀疑"
+    },
+    {
+        "sentence": "又在阴阳谁，你有没有阴阳怪气我一天？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "言辞",
+        "Opinion": "指责1阴阳怪气",
+        "Sentiment": "negative",
+        "Rationale": "觉得1一直在用隐晦的方式指责自己"
+    },
+    {
+        "sentence": "我昨天。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的时间陈述，没有表达情感"
+    },
+    {
+        "sentence": "你再说？刚刚有没有说这事就完了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "话题结束",
+        "Opinion": "要求结束话题",
+        "Sentiment": "negative",
+        "Rationale": "不想继续讨论之前的话题"
+    },
+    {
+        "sentence": "我昨天都气成植物人了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "极度生气",
+        "Sentiment": "negative",
+        "Rationale": "昨天的事情让自己非常生气"
+    },
+    {
+        "sentence": "本来也没什么差别。",
+        "Holder": "2",
+        "Target": "事情的区别",
+        "Aspect": "差异程度",
+        "Opinion": "没有差别",
+        "Sentiment": "neutral",
+        "Rationale": "认为事情之间没有显著差异"
+    },
+    {
+        "sentence": "你还是要干。你就说是不是？我都成植物人了。",
+        "Holder": "1",
+        "Target": "2的工作态度",
+        "Aspect": "是否需要继续工作",
+        "Opinion": "需要继续工作",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己已经累到像植物人一样"
+    },
+    {
+        "sentence": "刚刚有没有说这事不要再讲？有没有说？",
+        "Holder": "2",
+        "Target": "1的话题重复",
+        "Aspect": "是否应停止讨论",
+        "Opinion": "应停止讨论",
+        "Sentiment": "negative",
+        "Rationale": "之前已经要求不再讨论此事"
+    },
+    {
+        "sentence": "那你现在在干嘛？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "是否遵守之前的约定",
+        "Opinion": "未遵守约定",
+        "Sentiment": "negative",
+        "Rationale": "1没有遵守不再讨论的约定"
+    },
+    {
+        "sentence": "那不说了。",
+        "Holder": "1",
+        "Target": "对话",
+        "Aspect": "对话的继续",
+        "Opinion": "停止对话",
+        "Sentiment": "neutral",
+        "Rationale": "决定不再继续当前话题"
+    },
+    {
+        "sentence": "今天就这样循环了一整天啊，你知道有多让人抓狂吗？",
+        "Holder": "2",
+        "Target": "今天的循环",
+        "Aspect": "循环的持续性",
+        "Opinion": "让人抓狂",
+        "Sentiment": "negative",
+        "Rationale": "一整天都在重复同样的事情"
+    },
+    {
+        "sentence": "我一看到你们两个我都烦死了。",
+        "Holder": "1",
+        "Target": "2和另一人",
+        "Aspect": "看到他们的感受",
+        "Opinion": "烦死了",
+        "Sentiment": "negative",
+        "Rationale": "看到他们两个就感到非常烦躁"
+    },
+    {
+        "sentence": "你说好不说的！",
+        "Holder": "2",
+        "Target": "1的承诺",
+        "Aspect": "承诺的遵守",
+        "Opinion": "未遵守承诺",
+        "Sentiment": "negative",
+        "Rationale": "1之前承诺不再说话但没有做到"
+    },
+    {
+        "sentence": "好，不说了，真不说了。",
+        "Holder": "1",
+        "Target": "对话",
+        "Aspect": "对话的继续",
+        "Opinion": "坚决停止对话",
+        "Sentiment": "neutral",
+        "Rationale": "再次承诺不再继续对话"
+    },
+    {
+        "sentence": "再说怎么办？",
+        "Holder": "2",
+        "Target": "当前话题",
+        "Aspect": "话题的解决方法",
+        "Opinion": "寻求解决办法",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问问题的解决办法"
+    },
+    {
+        "sentence": "再说你就生气。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪反应",
+        "Opinion": "认为2会生气",
+        "Sentiment": "neutral",
+        "Rationale": "1在预测2的情绪反应"
+    },
+    {
+        "sentence": "好，刚刚自己怎么说的？你说你再提我就生气，我现在就生气了。",
+        "Holder": "2",
+        "Target": "1的言行",
+        "Aspect": "言行的一致性",
+        "Opinion": "1的言行不一致",
+        "Sentiment": "negative",
+        "Rationale": "1没有遵守之前的承诺，再次提起话题"
+    },
+    {
+        "sentence": "对不起，不要生气，我们现在就再也不说了好吗？我刚刚忘记了。我以后也不会对朋友那么有占有欲了。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪安抚",
+        "Opinion": "希望2不要生气",
+        "Sentiment": "positive",
+        "Rationale": "1在道歉并承诺不再提及话题"
+    },
+    {
+        "sentence": "你再说这种话？",
+        "Holder": "2",
+        "Target": "1的道歉",
+        "Aspect": "道歉的接受度",
+        "Opinion": "不接受道歉",
+        "Sentiment": "negative",
+        "Rationale": "2对1的道歉和承诺感到不满"
+    },
+    {
+        "sentence": "不是啊，是真的，又不是我阴阳怪气，是真的。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "真实性",
+        "Opinion": "强调事实",
+        "Sentiment": "neutral",
+        "Rationale": "1在强调自己所说的是事实，并非阴阳怪气"
+    },
+    {
+        "sentence": "你再说这种话？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的可信度",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "2对1的言论表示怀疑"
+    },
+    {
+        "sentence": "是真的呀。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "真实性",
+        "Opinion": "坚持真实",
+        "Sentiment": "neutral",
+        "Rationale": "1再次强调自己的言论是真实的"
+    },
+    {
+        "sentence": "你昨天也这么说的，我真的没生气。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "重复性",
+        "Opinion": "未生气",
+        "Sentiment": "neutral",
+        "Rationale": "2提到1之前也说过同样的话，并且表明自己没有生气"
+    },
+    {
+        "sentence": "对呀，是真的呀。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "真实性",
+        "Opinion": "坚持事实",
+        "Sentiment": "neutral",
+        "Rationale": "1再次确认自己所说的是事实"
+    },
+    {
+        "sentence": "有没有当场就来哄你？我有没有？你不就想让我哄你吗？我哄没哄？",
+        "Holder": "2",
+        "Target": "1的情绪需求",
+        "Aspect": "哄的方式和及时性",
+        "Opinion": "认为自己已经哄了",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己已经尽力哄了对方，但对方似乎仍不满意"
+    },
+    {
+        "sentence": "你哄是哄了。",
+        "Holder": "1",
+        "Target": "2的哄的行为",
+        "Aspect": "哄的行为存在",
+        "Opinion": "承认被哄了",
+        "Sentiment": "neutral",
+        "Rationale": "确实被哄了"
+    },
+    {
+        "sentence": "你想想人家是怎么哄的，我怎么哄？我有没有认真的在哄你？",
+        "Holder": "2",
+        "Target": "自己的哄的方式",
+        "Aspect": "哄的认真程度",
+        "Opinion": "认为自己认真哄了",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己已经认真哄了，但对方似乎不认可"
+    },
+    {
+        "sentence": "你滚！逼疯一个女人有多简单，就一直说一直说一直说 说一整天！而且我敢保证接下来的3个月里面，你绝对能一直说一直说一直说。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "说话的频率和方式",
+        "Opinion": "认为对方说话过多且烦人",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方不停地说话让自己感到极度烦躁"
+    },
+    {
+        "sentence": "那你只要不干那些我不喜欢的事儿。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的接受度",
+        "Opinion": "不喜欢某些行为",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到不满"
+    },
+    {
+        "sentence": "我干啥不干啥你都会说。",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "评价的频繁性",
+        "Opinion": "总是被评价",
+        "Sentiment": "negative",
+        "Rationale": "无论2做什么都会被1评价"
+    },
+    {
+        "sentence": "因为我生气。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪的原因",
+        "Opinion": "生气",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到不愉快"
+    },
+    {
+        "sentence": "不要再提。",
+        "Holder": "2",
+        "Target": "1的话题",
+        "Aspect": "话题的持续性",
+        "Opinion": "停止提及",
+        "Sentiment": "negative",
+        "Rationale": "1反复提及让2感到不快的话题"
+    }
+]

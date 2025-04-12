@@ -1,0 +1,61 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "因果关系建立与效度分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统阐述因果关系三要素及内外部效度概念",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调内部效度可信度与外部效度普适性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出实验操作者微表情影响结果",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "实验方法批判与改进",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判权力操纵方法存在需求者效应",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "建议双盲选和流程标准化操作",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑传统中介验证方法的因果关系有效性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "样本选择方法论辩",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "辩证分析学生样本适用场景",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露真实游客样本的效度局限",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

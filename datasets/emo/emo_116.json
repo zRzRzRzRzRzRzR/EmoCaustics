@@ -1,0 +1,103 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭食物偏好冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "连续吃小黄鱼的不满，油焖大虾需求被忽视，认为存在偏心",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "获得油焖大虾的奖励承诺",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "侦探案件调查",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对神秘案件产生兴趣并展现自信",
+            "source_id": "5"
+          }
+        ]
+      },
+      {
+        "event": "榴莲气味冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "无法忍受榴莲气味并试图逃离",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女需求平衡",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "优先考虑年龄差异与学习成绩",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "设立妇女榴莲节庆祝提案",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "反对每周食用榴莲的可行性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "榴莲自由主张",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "享受榴莲并推动家庭食用权",
+            "source_id": "2,5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "神秘案件引导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提供案件激发侦探兴趣",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "气味忍耐突破",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "无法忍受榴莲气味强制离场",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

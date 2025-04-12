@@ -1,0 +1,72 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "揭露两年前的假证交易与冤案真相",
+        "emotions": [
+          {"state": "neutral", "reason": "要求乔董公开真相", "source_id": "3"},
+          {"state": "neutral", "reason": "提交蒋睿证据", "source_id": "1"},
+          {"state": "positive", "reason": "报警揭露罪行", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝接受玉佩归属", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "阴谋败露与家族关系破裂",
+        "emotions": [
+          {"state": "negative", "reason": "被指控做假证与谋财害命", "source_id": "3,5"},
+          {"state": "negative", "reason": "婚礼被取消且要求堕胎", "source_id": "5"},
+          {"state": "negative", "reason": "被叶家断绝关系", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "被迫参与董事会阴谋的真相披露",
+        "emotions": [
+          {"state": "negative", "reason": "被叶小姐利用女儿威胁", "source_id": "2"},
+          {"state": "negative", "reason": "指控蒋睿延误抢救", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "信任崩塌与亲子关系争议",
+        "emotions": [
+          {"state": "negative", "reason": "质疑2的阴谋设计", "source_id": "2"},
+          {"state": "negative", "reason": "要求取消婚礼并堕胎", "source_id": "2"},
+          {"state": "neutral", "reason": "确认玉佩来源真实性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "保护南溪免受干扰",
+        "emotions": [
+          {"state": "negative", "reason": "阻止霍峥接近南溪", "source_id": "5"},
+          {"state": "neutral", "reason": "质疑霍峥行为意图", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "叶家与养女关系决裂",
+        "emotions": [
+          {"state": "negative", "reason": "否认2的家族身份", "source_id": "2"},
+          {"state": "negative", "reason": "指责2败坏家族名誉", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

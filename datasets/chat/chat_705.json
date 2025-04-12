@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "Hello，everyone。Welcome to our discussion。Today talk about pets are for people who dont have children。Do you agree with it or not？What's the requirement of people who don't have children？What's the past meaning to people？And in fact of pet ownership？Can you share your experience of keeping a pet if you have one？And first what's the requirement of people who don't have children。",
+        "Holder": "1",
+        "Target": "宠物与无孩人群的关系",
+        "Aspect": "讨论主题的引入",
+        "Opinion": "引发讨论",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在引入讨论主题"
+    },
+    {
+        "sentence": "from the expense of social support？People without children？They want to cultivate social connections or networks，whether through friendship volunteer works or participate in social and cultural activities。",
+        "Holder": "2",
+        "Target": "无孩人群的需求",
+        "Aspect": "社交支持与网络",
+        "Opinion": "需要培养社交联系",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在客观分析无孩人群的需求"
+    },
+    {
+        "sentence": "From my perspective，the individuals without children may consider their future and small cares in due。",
+        "Holder": "3",
+        "Target": "无孩人群的考虑",
+        "Aspect": "未来规划与小关怀",
+        "Opinion": "需要考虑未来与小关怀",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在表达个人观点"
+    },
+    {
+        "sentence": "to health and awareness without the diamonds of passport individuals may have more time to focus on their health and wellness，including exercise，diet and self care practice。",
+        "Holder": "4",
+        "Target": "无孩人群的健康关注",
+        "Aspect": "时间分配与健康习惯",
+        "Opinion": "有更多时间关注健康",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4在客观描述无孩人群的健康关注"
+    },
+    {
+        "sentence": "Ultimately，whether someone chooses to have pets，children or both is a personal decision that should be based on their own individual circumstances and preferences。 It's not fair to make assumptions about someone's choices based on stereotypes。",
+        "Holder": "1",
+        "Target": "个人选择",
+        "Aspect": "选择的公平性",
+        "Opinion": "应根据个人情况决定",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在强调个人选择的公平性"
+    },
+    {
+        "sentence": "Now we have known the people's requirements，but what's the path meaning to him？",
+        "Holder": "2",
+        "Target": "path",
+        "Aspect": "meaning",
+        "Opinion": "inquiry about significance",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问路径对他人的意义"
+    },
+    {
+        "sentence": "From my perspective，paths can hold a significant meaning and matter to humans，they can provide a variety of benefits to their owners。The most is the leadership has can provide an emotional support in the which can be especially important for people who live alone and struggle for their mental life。",
+        "Holder": "3",
+        "Target": "paths",
+        "Aspect": "benefits to humans",
+        "Opinion": "provide emotional support",
+        "Sentiment": "positive",
+        "Rationale": "3认为路径对人类有重要意义并能提供情感支持"
+    },
+    {
+        "sentence": "Additionally，studies have shown that all in a pet can have physical health benefits such as reduced stress levels，lower blood pressure and decrease the risk of heart disease。Pets can also encourage their owners to be more active and engaging physical activities like walking or playing fish。",
+        "Holder": "4",
+        "Target": "pets",
+        "Aspect": "health benefits",
+        "Opinion": "improve physical health",
+        "Sentiment": "positive",
+        "Rationale": "4提到宠物能带来多种健康益处"
+    },
+    {
+        "sentence": "Pets can also teach important life skills such as responsibility or sympathy，especially for children who may be learning for keeping a pet and taking care and interact with animals。For some people。Pets may even serve as a kind of therapy and emotional support。Yeah overall。",
+        "Holder": "1",
+        "Target": "pets",
+        "Aspect": "life skills and emotional support",
+        "Opinion": "teach responsibility and provide emotional support",
+        "Sentiment": "positive",
+        "Rationale": "1认为宠物能教会责任感和提供情感支持"
+    },
+    {
+        "sentence": "meaning of past humor can be different and the relationship between people and their pets can be more closer than our imagine。",
+        "Holder": "2",
+        "Target": "relationship between people and pets",
+        "Aspect": "closeness",
+        "Opinion": "closer than imagined",
+        "Sentiment": "positive",
+        "Rationale": "2认为人与宠物之间的关系比想象中更亲密"
+    },
+    {
+        "sentence": "As for me，I think pets keeping has many positive effects。A smaller shirt is good for a person's physical mental and self social being。",
+        "Holder": "3",
+        "Target": "宠物饲养",
+        "Aspect": "对个人影响",
+        "Opinion": "有许多积极影响",
+        "Sentiment": "positive",
+        "Rationale": "宠物饲养对个人的身体、心理和社会自我都有好处"
+    },
+    {
+        "sentence": "For emotional benefits，pets can provide emotional support，company ship and uncontrollable which can help reduce feeling of loners，depression and uncertainty。They can also help save stress and provide a sense of purpose and meaning。",
+        "Holder": "4",
+        "Target": "宠物",
+        "Aspect": "情感益处",
+        "Opinion": "提供情感支持和陪伴",
+        "Sentiment": "positive",
+        "Rationale": "宠物能提供情感支持、陪伴和减少孤独、抑郁和不确定性"
+    },
+    {
+        "sentence": "And for physical best benefits，only the pets can encourage physical activities such as taking a dog walks or playing with cats which can lead to lower blood pressure，reducing the risk of heart disease and improved health。",
+        "Holder": "1",
+        "Target": "宠物",
+        "Aspect": "身体益处",
+        "Opinion": "鼓励身体活动",
+        "Sentiment": "positive",
+        "Rationale": "宠物能鼓励如遛狗、逗猫等身体活动，从而降低血压、减少心脏病风险并改善健康"
+    },
+    {
+        "sentence": "for social,benefits as conserved as the bridge of communication and helping people connect with others who share the same love of animals。For example，walking dogs are attending events for pet owners can leads to。",
+        "Holder": "2",
+        "Target": "宠物",
+        "Aspect": "社交益处",
+        "Opinion": "作为沟通桥梁",
+        "Sentiment": "positive",
+        "Rationale": "宠物可以作为沟通的桥梁，帮助人们与同样爱动物的人建立联系"
+    },
+    {
+        "sentence": "social interactions。Animals have been shown an animals cure，benefits cure for a range of conditions such as pt testing and depression。Several big dogs，for example，are trying for people to provide comfort in this part to people in hospitals， nursing homes in the office other places。",
+        "Holder": "3",
+        "Target": "宠物",
+        "Aspect": "社交和治疗益处",
+        "Opinion": "促进社交和提供治疗",
+        "Sentiment": "positive",
+        "Rationale": "宠物能促进社交互动，并且在治疗如PT测试和抑郁等方面有积极作用"
+    },
+    {
+        "sentence": "We must give pets a clean，comfortable and wealthy environment。If not，it will be difficult for pets to live in a good state of mind。",
+        "Holder": "4",
+        "Target": "宠物环境",
+        "Aspect": "环境的适宜性",
+        "Opinion": "需要干净、舒适和富足的环境",
+        "Sentiment": "neutral",
+        "Rationale": "宠物需要一个良好的环境才能保持好的心理状态"
+    },
+    {
+        "sentence": "At first we were surprised by how active and playful to be is she loves running around the apartment and the playing with toys。I enjoy the watching with her and playing with her，especially when I was in heavy pressure。",
+        "Holder": "3",
+        "Target": "宠物",
+        "Aspect": "宠物的活泼和好玩",
+        "Opinion": "宠物非常活泼和好玩",
+        "Sentiment": "positive",
+        "Rationale": "宠物活泼好玩的性格让人感到惊喜"
+    },
+    {
+        "sentence": "Watching the rabbit jumping around and playing can be really healing and it may help you release the stress。 I agree with you。 Can you tell us more about these rabbits？",
+        "Holder": "1",
+        "Target": "宠物",
+        "Aspect": "宠物带来的治愈效果",
+        "Opinion": "宠物能帮助释放压力",
+        "Sentiment": "positive",
+        "Rationale": "观看宠物玩耍具有治愈效果"
+    },
+    {
+        "sentence": "Sure，over time，I noticed that only a rabbit has had a positive impact in my life to this presence brings me joy and I enjoy the responsibility of carrying her。I also found that im more relaxed and stressed，less stressed after playing with her，especially when I was watched her playing and explore her environment。",
+        "Holder": "3",
+        "Target": "宠物",
+        "Aspect": "宠物对生活的影响",
+        "Opinion": "宠物带来了积极的影响",
+        "Sentiment": "positive",
+        "Rationale": "宠物带来了快乐和责任感"
+    },
+    {
+        "sentence": "Keeping a pet can bring many benefits，taking care of it can help you save your depression and anxiety，reduce stress levels and you will improve your heart health。",
+        "Holder": "4",
+        "Target": "养宠物",
+        "Aspect": "养宠物的好处",
+        "Opinion": "养宠物能带来多种好处",
+        "Sentiment": "positive",
+        "Rationale": "养宠物能帮助缓解抑郁和焦虑，减少压力，改善心脏健康"
+    },
+    {
+        "sentence": "As I continue about rabbits，unique personalities and needs。 That's more connected to the natural world。Yeah。I also become more involved in remedy keepers，communicating community，attend the events and share advice with them。",
+        "Holder": "3",
+        "Target": "rabbits",
+        "Aspect": "connection to the natural world",
+        "Opinion": "rabbits have unique personalities and needs",
+        "Sentiment": "positive",
+        "Rationale": "说话人3认为兔子有独特的个性和需求，并且与自然世界有更紧密的联系"
+    },
+    {
+        "sentence": "Thats great。I never thought that keeping a pet can help learning the relationship between human and natural world。 Can you tell us more about this。",
+        "Holder": "1",
+        "Target": "keeping a pet",
+        "Aspect": "learning relationship between human and natural world",
+        "Opinion": "keeping a pet helps in learning",
+        "Sentiment": "positive",
+        "Rationale": "说话人1之前没有意识到养宠物可以帮助了解人与自然世界的关系"
+    },
+    {
+        "sentence": "in some way？Only a rabbit can have a positive impact on a person's life，providing convention，stress，relief and the sense of responsibility。And it is important to carefully consider the means of rulers and provide them with proper care and attention to ensure there will be。",
+        "Holder": "3",
+        "Target": "rabbits",
+        "Aspect": "impact on a person's life",
+        "Opinion": "rabbits provide convention, stress relief, and a sense of responsibility",
+        "Sentiment": "positive",
+        "Rationale": "说话人3认为兔子能对人的生活产生积极影响，提供陪伴、减压和责任感"
+    },
+    {
+        "sentence": "due to their own happiness。Pets are prone to getting sick。At this time they should be immediately sent to a professional hospital to ensure their health。",
+        "Holder": "4",
+        "Target": "pets",
+        "Aspect": "health care",
+        "Opinion": "pets should be sent to a professional hospital when sick",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4提到宠物容易生病，需要及时送医"
+    },
+    {
+        "sentence": "Yeah，it's now it's my turn I prepared a video。See it together。There is only sweden as well as my family and I get surprised。",
+        "Holder": "2",
+        "Target": "video",
+        "Aspect": "content of the video",
+        "Opinion": "video includes Sweden and family, causing surprise",
+        "Sentiment": "positive",
+        "Rationale": "说话人2准备了包含瑞典和家人内容的视频，感到兴奋和期待"
+    },
+    {
+        "sentence": "He is so cute and I love it。 He is so cute。I know that is it to play with them like sausage？",
+        "Holder": "3",
+        "Target": "He",
+        "Aspect": "外貌",
+        "Opinion": "很可爱",
+        "Sentiment": "positive",
+        "Rationale": "觉得他非常可爱"
+    },
+    {
+        "sentence": "Okay，and to be honest，there was hardly a moment when I was growing up without my dogs。The first used to be homeless named I and the second named。",
+        "Holder": "2",
+        "Target": "dogs",
+        "Aspect": "成长陪伴",
+        "Opinion": "一直有狗陪伴",
+        "Sentiment": "neutral",
+        "Rationale": "从小到大几乎每时每刻都有狗陪伴"
+    },
+    {
+        "sentence": "churchill。",
+        "Holder": "1",
+        "Target": "second dog",
+        "Aspect": "名字",
+        "Opinion": "名字是churchill",
+        "Sentiment": "neutral",
+        "Rationale": "只是提到狗的名字"
+    },
+    {
+        "sentence": "and the third who lived with us for 10 years named sissy and now is didi。 This because my mom，she is a soul loving person。 It was she that who that first pick up the first dog，first puppy to protect it from watering and then my life needs to be with dogs always。And my parents，daughter and they still need to keep pets。I think。",
+        "Holder": "2",
+        "Target": "dogs",
+        "Aspect": "家庭与狗的关系",
+        "Opinion": "家庭喜欢并需要狗",
+        "Sentiment": "positive",
+        "Rationale": "妈妈是一个有爱心的人，家里一直有狗"
+    },
+    {
+        "sentence": "everyone who you are loving person，yes。",
+        "Holder": "4",
+        "Target": "loving person",
+        "Aspect": "性格",
+        "Opinion": "有爱心的人",
+        "Sentiment": "positive",
+        "Rationale": "认同有爱心的人"
+    },
+    {
+        "sentence": "You are a person of the names。",
+        "Holder": "3",
+        "Target": "说话人2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行身份确认"
+    },
+    {
+        "sentence": "ee。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是格式不正确"
+    },
+    {
+        "sentence": "okay，",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是表示同意或理解"
+    },
+    {
+        "sentence": "thank you。",
+        "Holder": "4",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "表示感谢"
+    },
+    {
+        "sentence": "As we all know chinese people are more reserved in their emotional expression。We really say the word love，the or would never say it was very deep person，therefore it is difficult to express our feelings directly with each other。",
+        "Holder": "2",
+        "Target": "中国人的情感表达",
+        "Aspect": "情感表达的保守性",
+        "Opinion": "情感表达较为保守",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是一种普遍现象"
+    },
+    {
+        "sentence": "But pets expressed their feelings more directly。For example，when we come home they will come to arrange to meet you and when you sit on the couch or sofa they will lean over you and put their head on the lap。",
+        "Holder": "2",
+        "Target": "宠物的情感表达",
+        "Aspect": "情感表达的直接性",
+        "Opinion": "宠物情感表达更直接",
+        "Sentiment": "positive",
+        "Rationale": "宠物能直接表达情感"
+    },
+    {
+        "sentence": "The other person or the other people developing things no matter which person you are pets especially dog can give you a can give you the feeling of the value of being recognized and no matter what feelings you are，they could share your joy and sorrow even they don't know why and what happened。",
+        "Holder": "2",
+        "Target": "宠物的陪伴价值",
+        "Aspect": "情感支持和认可",
+        "Opinion": "宠物能提供情感支持和认可",
+        "Sentiment": "positive",
+        "Rationale": "宠物能分享喜怒哀乐"
+    },
+    {
+        "sentence": "I think that's maybe the most important reason for people who want to compare。",
+        "Holder": "2",
+        "Target": "人们选择宠物的理由",
+        "Aspect": "重要性",
+        "Opinion": "宠物提供的情感支持是最重要原因",
+        "Sentiment": "positive",
+        "Rationale": "认为宠物提供的情感支持非常重要"
+    },
+    {
+        "sentence": "As for sharing，I also want to keep me focused on that。We have already discussed the past feeling to the human，the effects of the past ownership，the requirements of people who without children and so on。In some of the opinions that pets are for people who dont have children。Do you agree with this opinion or not？",
+        "Holder": "4",
+        "Target": "宠物与无孩家庭的关系",
+        "Aspect": "宠物的作用",
+        "Opinion": "询问他人意见",
+        "Sentiment": "neutral",
+        "Rationale": "想要了解他人对宠物与无孩家庭关系的看法"
+    },
+    {
+        "sentence": "This is a commonly heard belief but it is not necessarily true。 Some people may choose to have pets instead of having children。There are many other reasons why people choose to have pets。",
+        "Holder": "1",
+        "Target": "宠物与无孩家庭的关系",
+        "Aspect": "宠物选择的多样性",
+        "Opinion": "宠物选择不限于无孩家庭",
+        "Sentiment": "neutral",
+        "Rationale": "认为宠物选择的原因多样，不仅仅限于无孩家庭"
+    },
+    {
+        "sentence": "I think，for example，some people may have health conditions that prevent them from having children。 They can still enjoy the companionship and love from their pets，others may have a lifestyle that makes it difficult to take care for children，but they can still provide a loving home for pets。",
+        "Holder": "2",
+        "Target": "宠物与无孩家庭的关系",
+        "Aspect": "宠物提供的陪伴",
+        "Opinion": "宠物对特定人群的重要性",
+        "Sentiment": "positive",
+        "Rationale": "认为宠物能为无法生育或生活方式不适合养孩子的人提供陪伴和爱"
+    },
+    {
+        "sentence": "Yes，additionally some people may have both pets and children and defend that the two can coexist harmoniously and provide different type of loving and cultivation。",
+        "Holder": "3",
+        "Target": "宠物与有孩家庭的关系",
+        "Aspect": "宠物与孩子的和谐共处",
+        "Opinion": "宠物与孩子可以和谐共处",
+        "Sentiment": "positive",
+        "Rationale": "认为宠物和孩子可以和谐共处并各自提供不同类型的爱和培养"
+    },
+    {
+        "sentence": "From the proceeding discussion is a parents and pets are for people who have children as ownership have a variety of benefits of people's physical mental and social wellbeing。 That's all thank you for listening。",
+        "Holder": "1",
+        "Target": "宠物与有孩家庭的关系",
+        "Aspect": "宠物对家庭的好处",
+        "Opinion": "宠物对家庭有多方面好处",
+        "Sentiment": "positive",
+        "Rationale": "认为宠物对有孩家庭的身心健康和社会福祉有多方面好处"
+    },
+    {
+        "sentence": "Bye bye。",
+        "Holder": "12",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "这是一句普通的告别语"
+    }
+]

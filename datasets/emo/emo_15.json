@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作压力与效率争议",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑工作效率", "source_id": "2"},
+          {"state": "negative", "reason": "对加班真实性的质疑", "source_id": "2"},
+          {"state": "negative", "reason": "认为关系缺乏稳定性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "买房与经济独立冲突",
+        "emotions": [
+          {"state": "negative", "reason": "对资金来源的敏感", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑家庭认同感", "source_id": "2"},
+          {"state": "negative", "reason": "情感疲惫与自我怀疑", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "王东亮事件处理分歧",
+        "emotions": [
+          {"state": "positive", "reason": "解释保护动机", "source_id": "2"},
+          {"state": "negative", "reason": "担忧决策后果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职业价值被质疑",
+        "emotions": [
+          {"state": "negative", "reason": "工作成果未被认可", "source_id": "1"},
+          {"state": "negative", "reason": "被误解工作动机", "source_id": "1"},
+          {"state": "positive", "reason": "表达共同生活愿景", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "经济自主权争议",
+        "emotions": [
+          {"state": "negative", "reason": "房产加名矛盾", "source_id": "1"},
+          {"state": "positive", "reason": "强调经济独立性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "服务费用纠纷",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝支付额外费用", "source_id": "1"},
+          {"state": "neutral", "reason": "终止无意义争论", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

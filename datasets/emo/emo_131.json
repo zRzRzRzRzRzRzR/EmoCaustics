@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学术文章被迫提前发表争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "因会议延期请求延迟发表",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "编辑部强行发表未采纳请求",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "学术词汇界定方法论冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "同行表面接受但未实践词频位差法",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "同行词频统计方法缺乏科学性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "人工干预标准存在主观性问题",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "学术汉语研究体系构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出多维度研究方法论框架",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "现有语料库学科分布局限性",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "建立三库比对研究体系",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "学术词汇教学应用探索",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出语境化教学策略",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "本体与教学研究脱节现状",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

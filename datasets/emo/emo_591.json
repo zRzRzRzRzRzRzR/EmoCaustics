@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于喝可乐的争执",
+        "emotions": [
+          {"state": "negative", "reason": "指责2未经许可喝可乐", "source_id": "2"},
+          {"state": "negative", "reason": "质疑其他人对2的监管", "source_id": "其他人"},
+          {"state": "neutral", "reason": "接受搬离要求", "source_id": "3"},
+          {"state": "negative", "reason": "被2指责态度问题", "source_id": "2"},
+          {"state": "negative", "reason": "管教4时发生冲突", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "iPad使用冲突",
+        "emotions": [
+          {"state": "negative", "reason": "禁止4使用iPad", "source_id": "4"},
+          {"state": "neutral", "reason": "以哥哥身份强调管教权", "source_id": "4"},
+          {"state": "negative", "reason": "被4质疑身份权威", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "钢琴触碰冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被3禁止触碰钢琴", "source_id": "3"},
+          {"state": "negative", "reason": "认为3反应过度", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "关于喝可乐的争执",
+        "emotions": [
+          {"state": "negative", "reason": "反驳1的指责", "source_id": "1"},
+          {"state": "negative", "reason": "质疑3逃避对话", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "指控3缺乏担当", "source_id": "3"},
+          {"state": "positive", "reason": "支持4的言论", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "冲突调解",
+        "emotions": [
+          {"state": "negative", "reason": "阻止1继续争吵", "source_id": "1"},
+          {"state": "negative", "reason": "反对1对孩子的管教方式", "source_id": "1"},
+          {"state": "negative", "reason": "要求停止钢琴弹奏", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "工作问题讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "回避工作问题讨论", "source_id": "1"},
+          {"state": "neutral", "reason": "确认工作介绍来源", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "iPad使用冲突",
+        "emotions": [
+          {"state": "positive", "reason": "强调遵守睡觉约定", "source_id": "1"},
+          {"state": "negative", "reason": "反对iPad被没收", "source_id": "1"},
+          {"state": "negative", "reason": "质疑1的管教权威", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "最终情绪表达",
+        "emotions": [
+          {"state": "positive", "reason": "向所有人表达晚安祝福", "source_id": "1,2,3"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+[
+    {
+        "sentence": "吃饭嘞。吃饭了",
+        "Holder": "1",
+        "Target": "吃饭",
+        "Aspect": "吃饭时间",
+        "Opinion": "该吃饭了",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭的时间"
+    },
+    {
+        "sentence": "刘星还没起呢，孩子天天让人叫，真够懒的。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "起床习惯",
+        "Opinion": "刘星很懒",
+        "Sentiment": "negative",
+        "Rationale": "刘星每天都需要别人叫起床"
+    },
+    {
+        "sentence": "刘星，快点快点，太晚了，快起来啦，都几点了？一会迟到了",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "起床时间",
+        "Opinion": "刘星起床太晚",
+        "Sentiment": "negative",
+        "Rationale": "刘星起床太晚可能会导致迟到"
+    },
+    {
+        "sentence": "今天怎么那么酷啊？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "穿着打扮",
+        "Opinion": "刘星今天很酷",
+        "Sentiment": "positive",
+        "Rationale": "刘星今天的穿着打扮很特别"
+    },
+    {
+        "sentence": "挺漂亮啊",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "穿着打扮",
+        "Opinion": "刘星很漂亮",
+        "Sentiment": "positive",
+        "Rationale": "刘星今天的穿着打扮很漂亮"
+    },
+    {
+        "sentence": "大帅哥",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "外貌",
+        "Opinion": "帅气",
+        "Sentiment": "positive",
+        "Rationale": "1对2的外貌给予了正面评价"
+    },
+    {
+        "sentence": "人模狗样",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "外貌",
+        "Opinion": "自嘲",
+        "Sentiment": "negative",
+        "Rationale": "2用贬义词形容自己"
+    },
+    {
+        "sentence": "别碰我的衣服，小心弄脏",
+        "Holder": "4",
+        "Target": "其他人",
+        "Aspect": "衣服的清洁",
+        "Opinion": "担心弄脏",
+        "Sentiment": "negative",
+        "Rationale": "4担心自己的衣服被弄脏"
+    },
+    {
+        "sentence": "嗯，都吃着，请大家注意了，以后就可以叫我刘班长了",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "成为班长",
+        "Sentiment": "positive",
+        "Rationale": "4宣布自己成为班长"
+    },
+    {
+        "sentence": "还班长，你当班长？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "班长身份",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "3对4当班长的身份感到意外和不解"
+    },
+    {
+        "sentence": "准确的说是这星期轮到我当班长了，",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "班长身份",
+        "Opinion": "解释",
+        "Sentiment": "neutral",
+        "Rationale": "4在解释自己当班长的原因"
+    },
+    {
+        "sentence": "什么叫轮到你当班长啊？",
+        "Holder": "2",
+        "Target": "4的班长身份",
+        "Aspect": "班长轮换制度",
+        "Opinion": "不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对班长轮换制度不了解"
+    },
+    {
+        "sentence": "这你都不知道啊。这个叫做周班长制，就是班里的每一个同学都能轮流当一周的班长嗨。",
+        "Holder": "4",
+        "Target": "周班长制",
+        "Aspect": "制度解释",
+        "Opinion": "说明",
+        "Sentiment": "neutral",
+        "Rationale": "4在向2解释周班长制的具体内容"
+    },
+    {
+        "sentence": "以为什么呢？感觉每个同学都轮得上啊。",
+        "Holder": "2",
+        "Target": "周班长制",
+        "Aspect": "制度的合理性",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对每个同学都能轮流当班长的制度感到疑惑"
+    },
+    {
+        "sentence": "可是老师说了，如果我干得好，以后班长就让我当了。",
+        "Holder": "4",
+        "Target": "老师",
+        "Aspect": "班长的任命",
+        "Opinion": "干得好就能当班长",
+        "Sentiment": "positive",
+        "Rationale": "老师承诺如果表现好就能当班长"
+    },
+    {
+        "sentence": "你要干不好的话，那随时都可以撤你的职位。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "班长的职位",
+        "Opinion": "干不好会被撤职",
+        "Sentiment": "negative",
+        "Rationale": "提醒4如果表现不好会被撤职"
+    },
+    {
+        "sentence": "我一个优秀的班长，不和普通同学一般见识。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "班长的素质",
+        "Opinion": "自己是优秀的班长",
+        "Sentiment": "positive",
+        "Rationale": "自认为优秀"
+    },
+    {
+        "sentence": "得消消气，喝杯奶，",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "情绪调节",
+        "Opinion": "建议消气",
+        "Sentiment": "neutral",
+        "Rationale": "看到4有些情绪化"
+    },
+    {
+        "sentence": "从今天开始我就要断奶了",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "生活习惯",
+        "Opinion": "决定断奶",
+        "Sentiment": "ambiguous",
+        "Rationale": "用断奶来表达某种决心或情绪，但具体情绪不明确"
+    },
+    {
+        "sentence": "安静安静啊。同学们好",
+        "Holder": "4",
+        "Target": "同学们",
+        "Aspect": "课堂秩序",
+        "Opinion": "需要安静",
+        "Sentiment": "neutral",
+        "Rationale": "需要维持课堂秩序"
+    },
+    {
+        "sentence": "班长好。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "对班长表示尊重"
+    },
+    {
+        "sentence": "感觉很好。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "心情",
+        "Opinion": "感觉良好",
+        "Sentiment": "positive",
+        "Rationale": "当上班长感到开心"
+    },
+    {
+        "sentence": "同学们，我终于等到这一天了。自从咱们班实行周班长的计划开始，我就天天想月月想，我就想什么时候能够轮到我当班长呢。终于等到这一天了",
+        "Holder": "4",
+        "Target": "当班长",
+        "Aspect": "期待",
+        "Opinion": "期待已久",
+        "Sentiment": "positive",
+        "Rationale": "长期期待当上班长"
+    },
+    {
+        "sentence": "谁不盼着当班长？",
+        "Holder": "5",
+        "Target": "当班长",
+        "Aspect": "普遍愿望",
+        "Opinion": "大家都期待",
+        "Sentiment": "neutral",
+        "Rationale": "认为大家都有当班长的愿望"
+    },
+    {
+        "sentence": "注意了。这个俗话说得好嘛，新官上任， 三板斧，我这个第一板斧就打算带领咱们班把这个卫生流的红旗给夺回来。",
+        "Holder": "4",
+        "Target": "班级卫生",
+        "Aspect": "卫生红旗的争夺",
+        "Opinion": "决心夺回红旗",
+        "Sentiment": "positive",
+        "Rationale": "作为新班长有责任和决心改善班级卫生状况"
+    },
+    {
+        "sentence": "班长这可有点难，咱们都好几周都没得流动红旗了。",
+        "Holder": "5",
+        "Target": "夺回卫生红旗的计划",
+        "Aspect": "计划的难度",
+        "Opinion": "认为计划有难度",
+        "Sentiment": "negative",
+        "Rationale": "班级已经好几周没有获得流动红旗"
+    },
+    {
+        "sentence": "真是啊，每次都说咱们班这玻璃擦的不干净，这怎么才叫干净啊？",
+        "Holder": "6",
+        "Target": "班级卫生",
+        "Aspect": "玻璃清洁的标准",
+        "Opinion": "对清洁标准的不明确",
+        "Sentiment": "negative",
+        "Rationale": "多次被指出玻璃不干净但不知道具体标准"
+    },
+    {
+        "sentence": "请大家相信我的能力啊。大家知道啊，马上咱们就要和一班进行足球比赛了。我的第二板斧就是打算带领咱们班战胜一班",
+        "Holder": "4",
+        "Target": "足球比赛",
+        "Aspect": "比赛胜利的决心",
+        "Opinion": "决心战胜一班",
+        "Sentiment": "positive",
+        "Rationale": "作为班长有责任提升班级士气"
+    },
+    {
+        "sentence": "人一般有好几个校队的，我看咱能打赢人家就不错了",
+        "Holder": "5",
+        "Target": "足球比赛",
+        "Aspect": "比赛胜利的可能性",
+        "Opinion": "认为胜利可能性低",
+        "Sentiment": "negative",
+        "Rationale": "对方有好几个校队成员"
+    },
+    {
+        "sentence": "要想打赢别人就一定要有信心，知道吗？嗯，同学们，咱们有没有信心？",
+        "Holder": "4",
+        "Target": "同学们",
+        "Aspect": "信心",
+        "Opinion": "需要有信心",
+        "Sentiment": "positive",
+        "Rationale": "认为有信心是打赢别人的关键"
+    },
+    {
+        "sentence": "我告诉你们，咱们宁可让别人打死，也不能让别人吓死。要有信心干什么呢这是？",
+        "Holder": "4",
+        "Target": "同学们",
+        "Aspect": "信心",
+        "Opinion": "强调有信心的重要性",
+        "Sentiment": "positive",
+        "Rationale": "认为即使失败也不能被吓倒"
+    },
+    {
+        "sentence": "你当然有信心了，你班长啊你，就是。我要是班长我也有信心。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "信心",
+        "Opinion": "认为班长有信心是理所当然的",
+        "Sentiment": "neutral",
+        "Rationale": "觉得班长的身份让人有信心"
+    },
+    {
+        "sentence": "别说当班长了，让我当个体育委员我就有信心了。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "信心",
+        "Opinion": "认为有职位就会有信心",
+        "Sentiment": "positive",
+        "Rationale": "觉得有了职位就能增加信心"
+    },
+    {
+        "sentence": "你们忘了你们当班长时候啦，现在我当班长就得听我的，知道吗？",
+        "Holder": "4",
+        "Target": "班长权威",
+        "Aspect": "服从要求",
+        "Opinion": "要求服从",
+        "Sentiment": "positive",
+        "Rationale": "自己现在是班长"
+    },
+    {
+        "sentence": "好好好，为了让你们每一个人都有信心，我的第三板斧就是这一周，让咱们每一个人人人当班长",
+        "Holder": "3",
+        "Target": "班级管理策略",
+        "Aspect": "提升信心",
+        "Opinion": "轮流当班长",
+        "Sentiment": "positive",
+        "Rationale": "希望通过轮流当班长的方式提升每个人的信心"
+    },
+    {
+        "sentence": "米兰，你就当第一副班长吧",
+        "Holder": "4",
+        "Target": "米兰",
+        "Aspect": "职位安排",
+        "Opinion": "安排为第一副班长",
+        "Sentiment": "neutral",
+        "Rationale": "需要安排副班长职位"
+    },
+    {
+        "sentence": "OK， 张辉同学。到你就当第二副班长了。",
+        "Holder": "6",
+        "Target": "张辉",
+        "Aspect": "职位安排",
+        "Opinion": "安排为第二副班长",
+        "Sentiment": "neutral",
+        "Rationale": "需要安排副班长职位"
+    },
+    {
+        "sentence": "当一副的也行啊。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "职位接受",
+        "Opinion": "接受副班长职位",
+        "Sentiment": "positive",
+        "Rationale": "对副班长职位没有异议"
+    },
+    {
+        "sentence": "真有天上掉馅饼的事正好砸你脑袋上，天上掉馅饼啊",
+        "Holder": "5",
+        "Target": "天上掉馅饼",
+        "Aspect": "意外的好运",
+        "Opinion": "难以置信",
+        "Sentiment": "ambiguous",
+        "Rationale": "天上掉馅饼是极小概率的幸运事件"
+    }
+]

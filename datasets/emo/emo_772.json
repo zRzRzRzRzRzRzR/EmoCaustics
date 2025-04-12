@@ -1,0 +1,44 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "邀请导师参与活动",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功邀请到长期导师鲍教授并表达荣幸之情",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "参与周会长主持的智慧医疗会议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "会议内容重要，涉及智能智慧与医疗健康，助力健康中国建设",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "主持并组织智慧医疗产业研讨会",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功欢迎各界嘉宾并促进多方交流，感到高兴与荣幸",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

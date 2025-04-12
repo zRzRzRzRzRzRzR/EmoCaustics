@@ -1,0 +1,117 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭聚餐中的食物分配争议",
+        "emotions": [
+          {"state": "neutral", "reason": "建议3吃东海", "source_id": "3"},
+          {"state": "negative", "reason": "拒绝3的关心", "source_id": "3"},
+          {"state": "positive", "reason": "认可3的智力表现", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭成员行为管理冲突",
+        "emotions": [
+          {"state": "negative", "reason": "质疑3的聊天方式", "source_id": "3,7"},
+          {"state": "neutral", "reason": "观察6的异常行为", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "社会公德维护行动",
+        "emotions": [
+          {"state": "negative", "reason": "谴责楼上住户乱扔垃圾", "source_id": "4"},
+          {"state": "positive", "reason": "决心改善社区环境", "source_id": "1,4"}
+        ]
+      },
+      {
+        "event": "子女教育方式争议",
+        "emotions": [
+          {"state": "positive", "reason": "承诺保护3免受责罚", "source_id": "3"},
+          {"state": "neutral", "reason": "阻止3继续抱怨", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭责任逃避危机",
+        "emotions": [
+          {"state": "negative", "reason": "担忧家长会后的责罚", "source_id": "1"},
+          {"state": "positive", "reason": "获得2的保护承诺", "source_id": "2"},
+          {"state": "negative", "reason": "自认遭受不公待遇", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭互动中的表现",
+        "emotions": [
+          {"state": "positive", "reason": "用心分配家庭食物", "source_id": "2"},
+          {"state": "neutral", "reason": "解释课间交流行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭形象塑造计划",
+        "emotions": [
+          {"state": "negative", "reason": "承受拍摄压力", "source_id": "6"},
+          {"state": "positive", "reason": "提出偷拍解决方案", "source_id": "6"},
+          {"state": "neutral", "reason": "解释家庭表现差异", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "家庭危机干预",
+        "emotions": [
+          {"state": "neutral", "reason": "询问3被罚原因", "source_id": "3"},
+          {"state": "positive", "reason": "主动提供帮助", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭突发事件观察",
+        "emotions": [
+          {"state": "neutral", "reason": "发现主要角色缺席", "source_id": "4"},
+          {"state": "neutral", "reason": "推测家长会情况", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "家庭纪录片创作计划",
+        "emotions": [
+          {"state": "negative", "reason": "批评虚假表演", "source_id": "4"},
+          {"state": "positive", "reason": "实施偷拍方案", "source_id": "4"},
+          {"state": "positive", "reason": "完成设备安装", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭沟通模式调整",
+        "emotions": [
+          {"state": "neutral", "reason": "保密拍摄时间", "source_id": "4"},
+          {"state": "neutral", "reason": "强调真实记录", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "校园行为规范争议",
+        "emotions": [
+          {"state": "neutral", "reason": "解释借用物品行为", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "我再也不会原谅你了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "原谅",
+        "Opinion": "不原谅",
+        "Sentiment": "negative",
+        "Rationale": "2做了让1无法原谅的事情"
+    },
+    {
+        "sentence": "我也不会原谅你了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "原谅",
+        "Opinion": "不原谅",
+        "Sentiment": "negative",
+        "Rationale": "1做了让2无法原谅的事情"
+    },
+    {
+        "sentence": "我要告诉粉丝你做的事儿。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "揭露",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为需要被公开揭露"
+    },
+    {
+        "sentence": "刚刚的事情有没有结束，有没有人自己说这件事情就过去了，我真的不生气了？有没有人说？你现在翻脸不认人是吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "事情的处理",
+        "Opinion": "事情未结束",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有让事情过去，反而翻脸不认人"
+    },
+    {
+        "sentence": "那是因为你后面又干了一些事儿。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "后续行为",
+        "Opinion": "2有新的不当行为",
+        "Sentiment": "negative",
+        "Rationale": "2在事情之后又有新的不当行为"
+    },
+    {
+        "sentence": "不是，我已经要原谅你了，但是呢。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "原谅的意愿",
+        "Opinion": "愿意原谅",
+        "Sentiment": "neutral",
+        "Rationale": "1原本愿意原谅2，但在某些条件下有所保留"
+    },
+    {
+        "sentence": "你那个时候就已经原谅我了。",
+        "Holder": "2",
+        "Target": "1的原谅",
+        "Aspect": "原谅的时间点",
+        "Opinion": "认为已经原谅",
+        "Sentiment": "positive",
+        "Rationale": "认为1已经原谅了自己"
+    },
+    {
+        "sentence": "对呀，但是后面你又干了一些事儿。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "后续行为",
+        "Opinion": "认为2有不当行为",
+        "Sentiment": "negative",
+        "Rationale": "2在原谅之后又有不当行为"
+    },
+    {
+        "sentence": "我干啥？那个时候你是不是说你原谅我了？",
+        "Holder": "2",
+        "Target": "1的原谅",
+        "Aspect": "原谅的确认",
+        "Opinion": "质疑1的原谅",
+        "Sentiment": "negative",
+        "Rationale": "对1的原谅产生疑问"
+    },
+    {
+        "sentence": "你和那个女的。",
+        "Holder": "1",
+        "Target": "2和那个女的",
+        "Aspect": "关系",
+        "Opinion": "有特定关系",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "然后呢，怎么了呢？",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "提问的内容",
+        "Opinion": "询问具体情况",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的提问，试图了解具体情况"
+    },
+    {
+        "sentence": "很恩爱呀。",
+        "Holder": "1",
+        "Target": "2和那个女的",
+        "Aspect": "关系",
+        "Opinion": "关系亲密",
+        "Sentiment": "positive",
+        "Rationale": "1认为2和那个女的关系很亲密"
+    },
+    {
+        "sentence": "哪样啊？",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "评价的准确性",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的评价表示疑问，没有明显的情感倾向"
+    },
+    {
+        "sentence": "就是很恩爱。我不是你最好的朋友，她才是你最好的朋友。",
+        "Holder": "1",
+        "Target": "2和那个女的",
+        "Aspect": "关系",
+        "Opinion": "关系亲密",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己不是2最好的朋友，感到有些失落"
+    },
+    {
+        "sentence": "我最好的朋友是高雪逸和蒋舒婷，我就只有两个最好的朋友，四个吧，高雪逸、蒋舒婷、郝静怡，还有雷雨潇都是我最好的朋友，反正就费沁源不是我最好的朋友。",
+        "Holder": "1",
+        "Target": "自己的朋友关系",
+        "Aspect": "朋友的数量和名单",
+        "Opinion": "明确朋友名单",
+        "Sentiment": "neutral",
+        "Rationale": "1在列举自己的朋友名单，没有明显的情感倾向"
+    },
+    {
+        "sentence": "那你最好给我谨言慎行。",
+        "Holder": "2",
+        "Target": "1的言行",
+        "Aspect": "言行的谨慎性",
+        "Opinion": "要求谨慎",
+        "Sentiment": "negative",
+        "Rationale": "对1的言行不满"
+    },
+    {
+        "sentence": "那你也得对我谨言慎行，小心我把你的那女的说出来。",
+        "Holder": "1",
+        "Target": "2的言行",
+        "Aspect": "言行的谨慎性",
+        "Opinion": "要求谨慎",
+        "Sentiment": "negative",
+        "Rationale": "对2的警告感到不满"
+    },
+    {
+        "sentence": "你有本事你说，你说出来我无所谓了，我说出来呢？你说呀，你说我就说。",
+        "Holder": "2",
+        "Target": "1的威胁",
+        "Aspect": "威胁的应对",
+        "Opinion": "无畏威胁",
+        "Sentiment": "negative",
+        "Rationale": "对1的威胁不以为意"
+    },
+    {
+        "sentence": "我说了？",
+        "Holder": "1",
+        "Target": "2的挑衅",
+        "Aspect": "挑衅的回应",
+        "Opinion": "反问",
+        "Sentiment": "ambiguous",
+        "Rationale": "对2的挑衅感到犹豫"
+    },
+    {
+        "sentence": "我是无所谓啊。",
+        "Holder": "2",
+        "Target": "1的威胁",
+        "Aspect": "威胁的态度",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "对1的威胁确实不在意"
+    },
+    {
+        "sentence": "你有好多女的。",
+        "Holder": "1",
+        "Target": "2的女性朋友数量",
+        "Aspect": "朋友的数量",
+        "Opinion": "数量多",
+        "Sentiment": "ambiguous",
+        "Rationale": "1提到2有很多女性朋友，但没有明确表达不满或赞赏"
+    },
+    {
+        "sentence": "你不是自己说原谅了吗？",
+        "Holder": "2",
+        "Target": "1的原谅",
+        "Aspect": "原谅的真实性",
+        "Opinion": "已经原谅",
+        "Sentiment": "doubt",
+        "Rationale": "2质疑1是否真的原谅了自己"
+    },
+    {
+        "sentence": "可是你后面。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "存在问题",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在原谅之后的行为仍有问题"
+    },
+    {
+        "sentence": "我到底做错什么了呢？我今天这样哄了你一天，到晚上还给我来一下。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为自己没错",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己已经尽力哄1，但1仍然不满"
+    },
+    {
+        "sentence": "因为你不把我当成最好的朋友。",
+        "Holder": "1",
+        "Target": "2的友情态度",
+        "Aspect": "友情的重视程度",
+        "Opinion": "不被重视",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2没有把自己当成最好的朋友"
+    },
+    {
+        "sentence": "我怎么没把你当最好的朋友？我昨天晚上微信聊天记录你自己翻出来！我有没有跟你讲，我怎么跟你讲的？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "朋友关系的认定",
+        "Opinion": "把1当最好的朋友",
+        "Sentiment": "negative",
+        "Rationale": "1质疑2没有把他当最好的朋友"
+    },
+    {
+        "sentence": "没有，如果你把我当最好朋友，你就不会跟她。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "朋友关系的忠诚",
+        "Opinion": "2没有把他当最好的朋友",
+        "Sentiment": "negative",
+        "Rationale": "2与别人交往让1感到被背叛"
+    },
+    {
+        "sentence": "你不要讲这种话，好吧？让我这里很多人误会！",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "言辞的影响",
+        "Opinion": "1的话会引起误会",
+        "Sentiment": "negative",
+        "Rationale": "1的话让2担心周围人的误解"
+    },
+    {
+        "sentence": "这样，我们现在都互相原谅对方，但是你不要再做一些让人生气的事儿了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的改进",
+        "Opinion": "希望2不再做让人生气的事",
+        "Sentiment": "neutral",
+        "Rationale": "1希望双方和解并避免 future conflicts"
+    },
+    {
+        "sentence": "你这个东西太难界定了。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的明确性",
+        "Opinion": "1的要求难以界定",
+        "Sentiment": "negative",
+        "Rationale": "1的要求模糊不清让2感到困惑"
+    },
+    {
+        "sentence": "不是，那你想要那你就偷偷的，不要在我面前。行吗？你想跟她怎么样，你偷偷的，好吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的隐蔽性",
+        "Opinion": "希望2的行为隐蔽",
+        "Sentiment": "negative",
+        "Rationale": "1不希望看到2的行为"
+    },
+    {
+        "sentence": "好，你既然这样说，那你呢？",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "质疑1的要求",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的要求不合理"
+    },
+    {
+        "sentence": "我怎么了？我怎么？我有什么那个她吗，没有吧？",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "自身行为的合理性",
+        "Opinion": "否认有不当行为",
+        "Sentiment": "negative",
+        "Rationale": "1对2的质疑感到不满"
+    },
+    {
+        "sentence": "你这样说太怪了。",
+        "Holder": "2",
+        "Target": "1的回应",
+        "Aspect": "回应的合理性",
+        "Opinion": "认为1的回应不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的回应不合理"
+    },
+    {
+        "sentence": "那没办法。",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "应对态度",
+        "Opinion": "无奈接受",
+        "Sentiment": "negative",
+        "Rationale": "1对2的质疑感到无奈"
+    },
+    {
+        "sentence": "能不能别我这里的人误会？你误会你自己就行了，你误会我干啥呀？",
+        "Holder": "2",
+        "Target": "1的误会",
+        "Aspect": "误会的对象",
+        "Opinion": "不应误会自己",
+        "Sentiment": "negative",
+        "Rationale": "1误会了自己"
+    },
+    {
+        "sentence": "但如果你还有别的事让我生气，我还是会继续生气的。因为我对你超绝占有欲。我生气了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "会继续生气",
+        "Sentiment": "negative",
+        "Rationale": "对2有强烈的占有欲"
+    },
+    {
+        "sentence": "你有病啊？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪的合理性",
+        "Opinion": "认为1不正常",
+        "Sentiment": "negative",
+        "Rationale": "1表现出强烈的占有欲和生气"
+    },
+    {
+        "sentence": "爱过，但是现在已经不爱了。",
+        "Holder": "1",
+        "Target": "对2的感情",
+        "Aspect": "感情的变化",
+        "Opinion": "已经不爱",
+        "Sentiment": "neutral",
+        "Rationale": "感情已经发生变化"
+    },
+    {
+        "sentence": "不说这个事了行吗？",
+        "Holder": "2",
+        "Target": "当前话题",
+        "Aspect": "话题的继续",
+        "Opinion": "希望停止讨论",
+        "Sentiment": "neutral",
+        "Rationale": "不想继续讨论这个话题"
+    },
+    {
+        "sentence": "那你就不能只跟我一个人好吗？",
+        "Holder": "1",
+        "Target": "2的忠诚",
+        "Aspect": "关系的专一性",
+        "Opinion": "希望2只对1好",
+        "Sentiment": "neutral",
+        "Rationale": "1希望与2建立更专一的关系"
+    },
+    {
+        "sentence": "可以啊。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "关系的专一性",
+        "Opinion": "同意只对1好",
+        "Sentiment": "positive",
+        "Rationale": "2愿意满足1的要求"
+    },
+    {
+        "sentence": "好，你发誓。",
+        "Holder": "1",
+        "Target": "2的承诺",
+        "Aspect": "承诺的可靠性",
+        "Opinion": "要求2发誓",
+        "Sentiment": "neutral",
+        "Rationale": "1希望确保2的承诺可靠"
+    },
+    {
+        "sentence": "那你能做到你只跟我一个人好吗？",
+        "Holder": "2",
+        "Target": "1的承诺",
+        "Aspect": "关系的专一性",
+        "Opinion": "希望1也只对2好",
+        "Sentiment": "neutral",
+        "Rationale": "2希望关系是双向的专一"
+    },
+    {
+        "sentence": "可以啊。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "关系的专一性",
+        "Opinion": "同意只对2好",
+        "Sentiment": "positive",
+        "Rationale": "1愿意满足2的要求"
+    },
+    {
+        "sentence": "此时时刻高雪逸在看你的直播。",
+        "Holder": "2",
+        "Target": "高雪逸",
+        "Aspect": "观看直播",
+        "Opinion": "正在观看",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述高雪逸正在看直播的事实"
+    },
+    {
+        "sentence": "好，我不可以。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为许可",
+        "Opinion": "不可以",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回应对方的要求"
+    },
+    {
+        "sentence": "不是，咱们这件事就这样过去了，行吗？不要再提了。",
+        "Holder": "2",
+        "Target": "这件事",
+        "Aspect": "事件处理",
+        "Opinion": "希望过去",
+        "Sentiment": "negative",
+        "Rationale": "希望这件事不要再被提起"
+    },
+    {
+        "sentence": "我真的气疯了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "非常生气",
+        "Sentiment": "negative",
+        "Rationale": "之前的对话或事件让自己非常生气"
+    },
+    {
+        "sentence": "那你别打我行吗？如果你疯了的话。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "是否打人",
+        "Opinion": "请求停止打人",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己被2打了"
+    },
+    {
+        "sentence": "谁打谁呀到底？",
+        "Holder": "2",
+        "Target": "1的指控",
+        "Aspect": "打人的事实",
+        "Opinion": "质疑打人行为",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的指控感到困惑"
+    },
+    {
+        "sentence": "你打我，你刚刚已经打我了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "打人的事实",
+        "Opinion": "确认被打",
+        "Sentiment": "negative",
+        "Rationale": "1确信自己被2打了"
+    },
+    {
+        "sentence": "我家暴你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "家暴行为",
+        "Opinion": "承认家暴",
+        "Sentiment": "negative",
+        "Rationale": "2承认自己对1实施了家暴"
+    }
+]

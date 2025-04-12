@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "竞技体育核心价值辩论",
+        "emotions": [
+          {"state": "positive", "reason": "强调奥林匹克精神超越胜负", "source_id": "7"},
+          {"state": "doubt", "reason": "质疑单纯胜负观的合理性", "source_id": "5"},
+          {"state": "positive", "reason": "用具体案例佐证精神价值", "source_id": "7,5"}
+        ]
+      },
+      {
+        "event": "运动员心路历程分享",
+        "emotions": [
+          {"state": "positive", "reason": "突破伤病重返赛场", "source_id": "7"},
+          {"state": "negative", "reason": "面对社会质疑压力", "source_id": "3"},
+          {"state": "positive", "reason": "最终实现自我超越", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "辩论赛流程主持",
+        "emotions": [
+          {"state": "neutral", "reason": "客观介绍赛制规则", "source_id": "self"},
+          {"state": "positive", "reason": "赞赏跨界融合效果", "source_id": "6,7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "胜负价值论战",
+        "emotions": [
+          {"state": "negative", "reason": "质疑自我安慰论调", "source_id": "7"},
+          {"state": "positive", "reason": "强调竞技本质属性", "source_id": "6"},
+          {"state": "ambiguous", "reason": "探讨尊重边界问题", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "体育精神深层探讨",
+        "emotions": [
+          {"state": "positive", "reason": "强调人文关怀价值", "source_id": "7"},
+          {"state": "neutral", "reason": "分析公共资源投入", "source_id": "1"},
+          {"state": "positive", "reason": "举例说明精神传承", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "职业运动员视角阐述",
+        "emotions": [
+          {"state": "positive", "reason": "强调胜负激励作用", "source_id": "self"},
+          {"state": "negative", "reason": "回应队伍现状质疑", "source_id": "5"},
+          {"state": "positive", "reason": "分享突破历史经历", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "冠军心路历程剖析",
+        "emotions": [
+          {"state": "negative", "reason": "首次失利心理压力", "source_id": "3"},
+          {"state": "positive", "reason": "调整策略最终夺冠", "source_id": "self"},
+          {"state": "positive", "reason": "传递体育教育意义", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

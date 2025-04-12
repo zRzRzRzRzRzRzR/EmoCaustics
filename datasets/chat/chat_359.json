@@ -1,0 +1,308 @@
+[
+    {
+        "sentence": "简直就是浓缩版的满汉全席耶。我好幸福，大妈怎么样？",
+        "Holder": "1",
+        "Target": "满汉全席",
+        "Aspect": "食物的丰盛程度",
+        "Opinion": "非常丰盛",
+        "Sentiment": "positive",
+        "Rationale": "食物非常丰盛"
+    },
+    {
+        "sentence": "明明姐说让咱先吃，她说她待会会慢慢的推门进来，把镜头自然切入，不告诉咱们就拍废话，那样才显得自然，是不是？",
+        "Holder": "1",
+        "Target": "拍摄方式",
+        "Aspect": "拍摄的自然性",
+        "Opinion": "自然拍摄更好",
+        "Sentiment": "positive",
+        "Rationale": "自然拍摄能显得更真实"
+    },
+    {
+        "sentence": "夏东海没错。我告诉你们咱们今天拍的可是幸福家庭的科教片，",
+        "Holder": "1",
+        "Target": "拍摄内容",
+        "Aspect": "内容的主题",
+        "Opinion": "是幸福家庭的科教片",
+        "Sentiment": "neutral",
+        "Rationale": "介绍拍摄内容"
+    },
+    {
+        "sentence": "所以一定要体现出一种幸福的气氛来。",
+        "Holder": "2",
+        "Target": "拍摄要求",
+        "Aspect": "气氛的营造",
+        "Opinion": "需要体现幸福气氛",
+        "Sentiment": "neutral",
+        "Rationale": "拍摄的是幸福家庭科教片"
+    },
+    {
+        "sentence": "对，必须和谐温馨，要。",
+        "Holder": "1",
+        "Target": "拍摄要求",
+        "Aspect": "气氛的营造",
+        "Opinion": "必须和谐温馨",
+        "Sentiment": "positive",
+        "Rationale": "和谐温馨的气氛符合幸福家庭的要求"
+    },
+    {
+        "sentence": "互敬互爱，",
+        "Holder": "2",
+        "Target": "家庭关系",
+        "Aspect": "关系的表现",
+        "Opinion": "互敬互爱",
+        "Sentiment": "positive",
+        "Rationale": "互敬互爱是幸福家庭的重要表现"
+    },
+    {
+        "sentence": "互谅互让，表现完美的气氛。",
+        "Holder": "1",
+        "Target": "家庭氛围",
+        "Aspect": "互相理解和谦让",
+        "Opinion": "气氛完美",
+        "Sentiment": "positive",
+        "Rationale": "家庭成员之间能够互相理解和谦让"
+    },
+    {
+        "sentence": "脑子里想那么多还能吃香吗？我告诉你刘星你可对着门，待会门一推开，镜头正冲着你，你可不许胡说八道。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "言行举止",
+        "Opinion": "要求刘星不要胡说",
+        "Sentiment": "neutral",
+        "Rationale": "担心刘星在镜头前说错话"
+    },
+    {
+        "sentence": "我感觉到门好像已经慢慢被推开。",
+        "Holder": "2",
+        "Target": "门",
+        "Aspect": "门的动静",
+        "Opinion": "门正在被推开",
+        "Sentiment": "neutral",
+        "Rationale": "感觉到门的动静"
+    },
+    {
+        "sentence": "亲爱的老公，亲爱的孩子们，在这万家灯火的时刻，我们幸福家庭的温馨晚餐可以开始。",
+        "Holder": "1",
+        "Target": "家庭晚餐",
+        "Aspect": "晚餐的开始",
+        "Opinion": "温馨幸福",
+        "Sentiment": "positive",
+        "Rationale": "在这个温馨的时刻，家庭成员齐聚一堂"
+    },
+    {
+        "sentence": "了，对。看皎洁的月光为我们照明，听悦耳的蛙鸣，为我们奏乐，",
+        "Holder": "2",
+        "Target": "自然景象",
+        "Aspect": "月光和蛙鸣",
+        "Opinion": "美好和谐",
+        "Sentiment": "positive",
+        "Rationale": "月光和蛙鸣营造了美好的氛围"
+    },
+    {
+        "sentence": "好开心，我们全家人都健康快乐的坐在这里，牙好胃口就好，心情更好，好幸福",
+        "Holder": "4",
+        "Target": "全家人",
+        "Aspect": "健康状况和心情",
+        "Opinion": "健康快乐",
+        "Sentiment": "positive",
+        "Rationale": "全家人都健康快乐"
+    },
+    {
+        "sentence": "是一个牙疼都没有，当然幸福了。",
+        "Holder": "1",
+        "Target": "全家人",
+        "Aspect": "健康状况",
+        "Opinion": "没有牙疼",
+        "Sentiment": "positive",
+        "Rationale": "全家人都没有牙疼"
+    },
+    {
+        "sentence": "对不起，明明这段你还是把它删了得了，他刚才这话不好，从开始今天为了我辛苦工作的爱人和我辛苦学习的孩子们，我作为家庭主妇，我特意烹制了独特配方，美味又可口的什锦小肉饼，",
+        "Holder": "2",
+        "Target": "说话人1的言论",
+        "Aspect": "言论的适当性",
+        "Opinion": "不适当",
+        "Sentiment": "negative",
+        "Rationale": "说话人1的言论被认为不适当"
+    },
+    {
+        "sentence": "你太好了，辛苦的女主人，让我们感谢一下妈妈。",
+        "Holder": "3",
+        "Target": "说话人2",
+        "Aspect": "家庭贡献",
+        "Opinion": "辛苦且值得感谢",
+        "Sentiment": "positive",
+        "Rationale": "说话人2作为家庭主妇辛苦付出"
+    },
+    {
+        "sentence": "谢谢，不要客气了，停。你们平时是这样吃饭的吗？",
+        "Holder": "4",
+        "Target": "家人",
+        "Aspect": "吃饭方式",
+        "Opinion": "询问平时情况",
+        "Sentiment": "neutral",
+        "Rationale": "好奇家人平时的吃饭方式"
+    },
+    {
+        "sentence": "要是这样的话，我牙早掉光了。",
+        "Holder": "1",
+        "Target": "拍摄效果",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "因为对方提到的‘酸’显然是对某种极端情况的夸张表达，表明对当前情况的不满，所以情绪是负面的。"
+    },
+    {
+        "sentence": "为什么是酸的呢？我们只是想让拍摄效果更好。",
+        "Holder": "2",
+        "Target": "拍摄效果",
+        "Aspect": "改进动机",
+        "Opinion": "希望提升",
+        "Sentiment": "positive",
+        "Rationale": "因为对方解释了改进拍摄效果的初衷是为了突出幸福和谐的气氛，表现出积极的改进意愿。"
+    },
+    {
+        "sentence": "感激之情也油然而生，所以鼓掌变得顺理成章。",
+        "Holder": "2",
+        "Target": "鼓掌行为",
+        "Aspect": "自然性",
+        "Opinion": "自然发生",
+        "Sentiment": "positive",
+        "Rationale": "因为团队成员的自然情感流露，使得鼓掌行为显得合情合理，进一步增强了团队的凝聚力。"
+    },
+    {
+        "sentence": "我觉得在家吃饭时鼓掌有点傻。",
+        "Holder": "1",
+        "Target": "家庭聚餐鼓掌行为",
+        "Aspect": "适宜性",
+        "Opinion": "不适宜",
+        "Sentiment": "negative",
+        "Rationale": "因为认为在家吃饭鼓掌不符合常规习惯，感到尴尬和不自然，所以表现出负面情绪。"
+    },
+    {
+        "sentence": "真是你还想不想当演员阿姨，要不这样我把前边那些都给抹了，你们直接从吃饭开始，太棒了，我早就想吃流星，注意你的吃相，要有。",
+        "Holder": "1",
+        "Target": "2的演员身份",
+        "Aspect": "表演准备",
+        "Opinion": "重新开始吃饭场景",
+        "Sentiment": "positive",
+        "Rationale": "1提出了一个重新开始吃饭场景的建议，并且对吃流星表现出期待"
+    },
+    {
+        "sentence": "镜头意识，真是明明可以开始了吗？",
+        "Holder": "2",
+        "Target": "拍摄准备",
+        "Aspect": "镜头意识",
+        "Opinion": "询问是否可以开始",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问是否可以开始拍摄"
+    },
+    {
+        "sentence": "再不吃就有点凉了，",
+        "Holder": "1",
+        "Target": "食物状态",
+        "Aspect": "食物温度",
+        "Opinion": "食物快凉了",
+        "Sentiment": "neutral",
+        "Rationale": "1提醒食物快凉了"
+    },
+    {
+        "sentence": "来东海尝一口。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "尝试食物",
+        "Opinion": "建议尝一口",
+        "Sentiment": "positive",
+        "Rationale": "1热情地建议2尝一口食物"
+    },
+    {
+        "sentence": "说话人2 03:09",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "2没有明确表达任何内容"
+    },
+    {
+        "sentence": "好一口情深意重的豆腐干。",
+        "Holder": "1",
+        "Target": "豆腐干",
+        "Aspect": "情感价值",
+        "Opinion": "情深意重",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人用‘情深意重’来形容豆腐干，表达了对豆腐干的喜爱和赞赏。"
+    },
+    {
+        "sentence": "小雨来尝一口这个好吃的烤茄子，妈妈有点咸，爸爸别再骂我了。",
+        "Holder": "1",
+        "Target": "烧茄子",
+        "Aspect": "口味",
+        "Opinion": "好吃但有点咸",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人认为烧茄子好吃，但提醒大家有点咸，希望大家能理解并接受这个小缺点。"
+    },
+    {
+        "sentence": "不，东海还是你。",
+        "Holder": "2",
+        "Target": "东海",
+        "Aspect": "选择",
+        "Opinion": "坚持自己的选择",
+        "Sentiment": "neutral",
+        "Rationale": "说话人坚持自己的选择，没有表现出明显的情绪倾向。"
+    },
+    {
+        "sentence": "吃女儿还是你吃。",
+        "Holder": "1",
+        "Target": "食物选择",
+        "Aspect": "决定",
+        "Opinion": "犹豫不决",
+        "Sentiment": "neutral",
+        "Rationale": "因为说话人在询问谁应该吃，表现出一种犹豫不决的态度。"
+    },
+    {
+        "sentence": "小雨还是你吃，我哥怎么都不长肉。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "饮食",
+        "Opinion": "建议小雨吃",
+        "Sentiment": "neutral",
+        "Rationale": "说话人认为哥哥不长肉"
+    },
+    {
+        "sentence": "你们都不吃，那我就吃了。",
+        "Holder": "1",
+        "Target": "家人",
+        "Aspect": "饮食选择",
+        "Opinion": "自己吃",
+        "Sentiment": "neutral",
+        "Rationale": "因为其他人都不吃，所以说话者决定自己吃，表现出一种随和的态度。"
+    },
+    {
+        "sentence": "明明有一大盘，怎么就拿着这一个转来转去呢？",
+        "Holder": "1",
+        "Target": "家人的行为",
+        "Aspect": "食物分配",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "因为说话人觉得大家只转一个盘子却不吃很傻，所以有点不满。"
+    },
+    {
+        "sentence": "明明吃海。",
+        "Holder": "2",
+        "Target": "食物选择",
+        "Aspect": "建议",
+        "Opinion": "选择海鲜",
+        "Sentiment": "neutral",
+        "Rationale": "因为说话人直接提出建议，没有表现出明显的情绪倾向。"
+    },
+    {
+        "sentence": "来妈您来一个肉饼，不用都不拍了，我用不着你给我夹，老妈一个，我一个，老爸一个，我一个，小雪我一个，杨宇你给我一个合着这么一盘子肉饼，我们一人就一个。",
+        "Holder": "1",
+        "Target": "肉饼分配",
+        "Aspect": "分配的公平性",
+        "Opinion": "每人一个",
+        "Sentiment": "neutral",
+        "Rationale": "每个人都能分到一个肉饼"
+    }
+]

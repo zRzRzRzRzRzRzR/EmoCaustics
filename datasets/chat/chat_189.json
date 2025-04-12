@@ -1,0 +1,605 @@
+[
+    {
+        "sentence": "因为冷战你就没办法把自己心里所想的让对方知道，对方只知道你在生气，但是你却在那憋着，然后你就会觉得你很难沟通。",
+        "Holder": "1",
+        "Target": "冷战",
+        "Aspect": "沟通效果",
+        "Opinion": "难以沟通",
+        "Sentiment": "negative",
+        "Rationale": "冷战导致无法表达真实想法"
+    },
+    {
+        "sentence": "我觉得很多东西要需要沟通才能够变好的。",
+        "Holder": "1",
+        "Target": "沟通",
+        "Aspect": "解决问题的效果",
+        "Opinion": "沟通能改善问题",
+        "Sentiment": "positive",
+        "Rationale": "认为沟通能解决问题"
+    },
+    {
+        "sentence": "你可以沟通，但大吵大闹不是唯一的解决方式。",
+        "Holder": "2",
+        "Target": "大吵大闹",
+        "Aspect": "解决问题的方法",
+        "Opinion": "不是唯一方式",
+        "Sentiment": "neutral",
+        "Rationale": "认为有其他沟通方式"
+    },
+    {
+        "sentence": "大吵大闹一定不是好的沟通方式。",
+        "Holder": "4",
+        "Target": "大吵大闹",
+        "Aspect": "沟通方式的好坏",
+        "Opinion": "不是好方式",
+        "Sentiment": "negative",
+        "Rationale": "认为大吵大闹无效"
+    },
+    {
+        "sentence": "但是大吵大闹是当下情绪的一种宣泄，一种释放。",
+        "Holder": "5",
+        "Target": "大吵大闹",
+        "Aspect": "情绪宣泄方式",
+        "Opinion": "有效释放情绪",
+        "Sentiment": "neutral",
+        "Rationale": "认为大吵大闹是一种情绪宣泄的方式"
+    },
+    {
+        "sentence": "你冷战的时候，你怎么释放？",
+        "Holder": "5",
+        "Target": "冷战",
+        "Aspect": "情绪释放方式",
+        "Opinion": "质疑冷战的释放效果",
+        "Sentiment": "neutral",
+        "Rationale": "对冷战时如何释放情绪感到好奇"
+    },
+    {
+        "sentence": "你就闷着？",
+        "Holder": "5",
+        "Target": "冷战",
+        "Aspect": "情绪处理方式",
+        "Opinion": "认为冷战是闷着",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战时只是闷着不释放情绪"
+    },
+    {
+        "sentence": "对啊，你冷战的时候可以自己把自己哄好啊。",
+        "Holder": "4",
+        "Target": "冷战",
+        "Aspect": "自我调节能力",
+        "Opinion": "可以自我调节",
+        "Sentiment": "positive",
+        "Rationale": "认为冷战时可以自我调节情绪"
+    },
+    {
+        "sentence": "你哄不好自己！",
+        "Holder": "5",
+        "Target": "冷战",
+        "Aspect": "自我调节能力",
+        "Opinion": "无法自我调节",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战时无法自我调节情绪"
+    },
+    {
+        "sentence": "不要让对方乱了心智啊。",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "心智状态",
+        "Opinion": "保持冷静",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方保持理智"
+    },
+    {
+        "sentence": "不是，我是觉得就如果大吵大闹，双方都是一个不理智的情况下，都会说一些很样的伤人的话。",
+        "Holder": "3",
+        "Target": "双方",
+        "Aspect": "争吵时的理智",
+        "Opinion": "争吵会导致不理智",
+        "Sentiment": "negative",
+        "Rationale": "大吵大闹会让双方失去理智"
+    },
+    {
+        "sentence": "然后你再回想起对方说你的话，你就想弄死他那种。",
+        "Holder": "3",
+        "Target": "对方说的话",
+        "Aspect": "话语的影响",
+        "Opinion": "话语极具伤害性",
+        "Sentiment": "negative",
+        "Rationale": "对方说的话极具伤害性"
+    },
+    {
+        "sentence": "凭什么呢？",
+        "Holder": "3",
+        "Target": "对方的行为",
+        "Aspect": "合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "不理解对方为何要说出伤人的话"
+    },
+    {
+        "sentence": "比如说我跟你吵架，说你真不是东西，你会不会有伤到？",
+        "Holder": "4",
+        "Target": "6",
+        "Aspect": "吵架的影响",
+        "Opinion": "可能伤害到对方",
+        "Sentiment": "doubt",
+        "Rationale": "不确定吵架中的言辞是否会真的伤害到对方"
+    },
+    {
+        "sentence": "她觉得你更不是个东西。",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "对4的评价",
+        "Opinion": "4更不是东西",
+        "Sentiment": "negative",
+        "Rationale": "觉得4在吵架中的表现更差"
+    },
+    {
+        "sentence": "那也只是当下呀。",
+        "Holder": "5",
+        "Target": "吵架的影响",
+        "Aspect": "影响的时效性",
+        "Opinion": "影响是暂时的",
+        "Sentiment": "neutral",
+        "Rationale": "认为吵架的影响只是暂时的"
+    },
+    {
+        "sentence": "到时候我跟你和好了，我还是会过来我们互相找台阶下呀。",
+        "Holder": "5",
+        "Target": "和好的过程",
+        "Aspect": "和好的方式",
+        "Opinion": "会互相找台阶下",
+        "Sentiment": "positive",
+        "Rationale": "相信即使吵架后也能和好"
+    },
+    {
+        "sentence": "但你吵完了这个疙瘩已经存在了。",
+        "Holder": "6",
+        "Target": "吵架的后果",
+        "Aspect": "后果的持久性",
+        "Opinion": "疙瘩已经存在",
+        "Sentiment": "negative",
+        "Rationale": "认为吵架后留下的心结不会轻易消失"
+    },
+    {
+        "sentence": "你知道吗？伤人的话就像一把刀，插进去，拔出来还是有个伤口。",
+        "Holder": "4",
+        "Target": "伤人的话",
+        "Aspect": "伤害程度",
+        "Opinion": "伤人话如同刀伤",
+        "Sentiment": "negative",
+        "Rationale": "伤人的话对人的心灵造成长久伤害"
+    },
+    {
+        "sentence": "但是你冷战你能冷战多久呢？你能憋多久？",
+        "Holder": "5",
+        "Target": "冷战",
+        "Aspect": "持续时间和忍耐力",
+        "Opinion": "质疑冷战的持久性",
+        "Sentiment": "doubt",
+        "Rationale": "对冷战能否长久持续表示怀疑"
+    },
+    {
+        "sentence": "那冷战大不了你就掰呗，真是的。",
+        "Holder": "3",
+        "Target": "冷战",
+        "Aspect": "解决方式",
+        "Opinion": "认为可以轻易结束",
+        "Sentiment": "negative",
+        "Rationale": "对冷战的处理方式显得轻率"
+    },
+    {
+        "sentence": "好随便啊你，掰的好随便，你对感情一点都不认真。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对感情的态度",
+        "Opinion": "认为3对感情不认真",
+        "Sentiment": "negative",
+        "Rationale": "认为3对感情的处理方式过于随便"
+    },
+    {
+        "sentence": "你在造我谣！你对感情的。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "言论的真实性",
+        "Opinion": "认为1在造谣",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被误解和诽谤"
+    },
+    {
+        "sentence": "我是觉得，就是真的吵大闹，真的会很伤感情。",
+        "Holder": "3",
+        "Target": "吵大闹",
+        "Aspect": "对感情的影响",
+        "Opinion": "会伤感情",
+        "Sentiment": "negative",
+        "Rationale": "吵大闹的行为会对双方的感情造成负面影响"
+    },
+    {
+        "sentence": "比如说在想起你当年对我说过那些伤心的话，我每个长夜里再想起那句话，我都想弄死你我跟你说！",
+        "Holder": "3",
+        "Target": "你当年对我说过的话",
+        "Aspect": "对心理的影响",
+        "Opinion": "非常伤心",
+        "Sentiment": "negative",
+        "Rationale": "回忆起对方曾说过的伤心话，导致长期心理困扰和愤怒"
+    },
+    {
+        "sentence": "我就觉得就是连你自己的脾气都控制不好，你凭什么来跟我做朋友？",
+        "Holder": "3",
+        "Target": "你的脾气",
+        "Aspect": "朋友关系的合理性",
+        "Opinion": "不配做朋友",
+        "Sentiment": "negative",
+        "Rationale": "对方无法控制自己的脾气，认为其不具备作为朋友的资格"
+    },
+    {
+        "sentence": "成年人是需要一点情绪管理的。",
+        "Holder": "2",
+        "Target": "成年人",
+        "Aspect": "情绪管理",
+        "Opinion": "需要情绪管理",
+        "Sentiment": "neutral",
+        "Rationale": "成年人应当具备一定的情绪管理能力"
+    },
+    {
+        "sentence": "对，就是我觉得我需要一定的冷静。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "需要冷静",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己需要冷静下来"
+    },
+    {
+        "sentence": "成年人需要情绪管理，但是成年人也应该要该发生的事情发生。",
+        "Holder": "7",
+        "Target": "成年人",
+        "Aspect": "情绪管理",
+        "Opinion": "需要情绪管理但也应让事情自然发生",
+        "Sentiment": "neutral",
+        "Rationale": "成年人需要控制情绪，但也应面对现实中的问题"
+    },
+    {
+        "sentence": "什么是该发生的事情？",
+        "Holder": "2",
+        "Target": "该发生的事情",
+        "Aspect": "定义",
+        "Opinion": "询问定义",
+        "Sentiment": "neutral",
+        "Rationale": "对‘该发生的事情’这个概念不清楚"
+    },
+    {
+        "sentence": "就是你明明心里有小火烧，但是我们就闷着，那我们永远都没有办法沟通。",
+        "Holder": "7",
+        "Target": "情绪表达",
+        "Aspect": "沟通障碍",
+        "Opinion": "压抑情绪导致无法沟通",
+        "Sentiment": "negative",
+        "Rationale": "压抑内心情绪会导致沟通障碍"
+    },
+    {
+        "sentence": "你可以和平地沟通呀。",
+        "Holder": "2",
+        "Target": "情绪表达",
+        "Aspect": "沟通方式",
+        "Opinion": "支持和平沟通",
+        "Sentiment": "positive",
+        "Rationale": "和平沟通有助于解决问题"
+    },
+    {
+        "sentence": "对呀，你好好说呀 ，不要大吵大闹呀。",
+        "Holder": "6",
+        "Target": "情绪表达",
+        "Aspect": "沟通方式",
+        "Opinion": "反对大吵大闹",
+        "Sentiment": "positive",
+        "Rationale": "大吵大闹不利于有效沟通"
+    },
+    {
+        "sentence": "对呀，不能大吵大闹啊宝宝。",
+        "Holder": "4",
+        "Target": "大吵大闹",
+        "Aspect": "行为合理性",
+        "Opinion": "不支持大吵大闹",
+        "Sentiment": "negative",
+        "Rationale": "认为大吵大闹是不合理的行为"
+    },
+    {
+        "sentence": "你怎么对她不一样呢？",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "对待他人的公平性",
+        "Opinion": "认为不公平",
+        "Sentiment": "negative",
+        "Rationale": "觉得4对他人有不同的对待标准"
+    },
+    {
+        "sentence": "大吵大闹是不对的行为啊。",
+        "Holder": "4",
+        "Target": "大吵大闹",
+        "Aspect": "行为合理性",
+        "Opinion": "不支持大吵大闹",
+        "Sentiment": "negative",
+        "Rationale": "坚持认为大吵大闹是不对的"
+    },
+    {
+        "sentence": "但是我觉得大吵大闹虽然不好，但是冷战更过分。",
+        "Holder": "1",
+        "Target": "冷战",
+        "Aspect": "行为合理性",
+        "Opinion": "认为冷战更过分",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战比大吵大闹更不合理"
+    },
+    {
+        "sentence": "为什么呢？",
+        "Holder": "4",
+        "Target": "冷战的原因",
+        "Aspect": "原因探究",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "对冷战的原因感到好奇"
+    },
+    {
+        "sentence": "冷战会互相消耗。",
+        "Holder": "5",
+        "Target": "冷战",
+        "Aspect": "影响",
+        "Opinion": "冷战有害",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战会导致双方互相消耗"
+    },
+    {
+        "sentence": "大吵大闹不会互相消耗吗？",
+        "Holder": "2",
+        "Target": "大吵大闹",
+        "Aspect": "影响",
+        "Opinion": "大吵大闹也有害",
+        "Sentiment": "negative",
+        "Rationale": "认为大吵大闹同样会互相消耗"
+    },
+    {
+        "sentence": "我跟你说，吵着吵着就出现爱意了，对吧？",
+        "Holder": "7",
+        "Target": "争吵",
+        "Aspect": "结果",
+        "Opinion": "争吵可能产生爱意",
+        "Sentiment": "positive",
+        "Rationale": "认为争吵过程中可能会产生爱意"
+    },
+    {
+        "sentence": "等一下，你有意思吗你？",
+        "Holder": "4",
+        "Target": "7的观点",
+        "Aspect": "合理性",
+        "Opinion": "质疑观点",
+        "Sentiment": "negative",
+        "Rationale": "对7的观点感到不解和质疑"
+    },
+    {
+        "sentence": "比如说我在意你，但是我心里一直憋着，但是我跟你我实在忍不住了，我就跟你吵吵吵的时候，我把我所有对你的爱我都说出来了，对吧？",
+        "Holder": "7",
+        "Target": "3",
+        "Aspect": "情感表达方式",
+        "Opinion": "通过争吵表达爱意",
+        "Sentiment": "ambiguous",
+        "Rationale": "7在意的情感无法压抑，最终通过争吵的方式表达出来"
+    },
+    {
+        "sentence": "但是有一种情况就是你越这样，我会离你越远。",
+        "Holder": "3",
+        "Target": "7的情感表达方式",
+        "Aspect": "情感接受度",
+        "Opinion": "难以接受",
+        "Sentiment": "negative",
+        "Rationale": "7通过争吵表达爱意的方式让3感到不适"
+    },
+    {
+        "sentence": "你不爱我，他爱我呀。",
+        "Holder": "7",
+        "Target": "3",
+        "Aspect": "情感回应",
+        "Opinion": "认为3不爱自己",
+        "Sentiment": "negative",
+        "Rationale": "3对7的情感表达方式不接受"
+    },
+    {
+        "sentence": "就说明性格不合。",
+        "Holder": "5",
+        "Target": "7和3的关系",
+        "Aspect": "性格匹配",
+        "Opinion": "性格不合",
+        "Sentiment": "neutral",
+        "Rationale": "观察到7和3在情感表达和接受上的差异"
+    },
+    {
+        "sentence": "你是不是玛丽苏看多了？",
+        "Holder": "2",
+        "Target": "7",
+        "Aspect": "行为合理性",
+        "Opinion": "行为不切实际",
+        "Sentiment": "negative",
+        "Rationale": "7通过争吵表达爱意的行为显得不切实际"
+    },
+    {
+        "sentence": "比如说有一种爱叫爱而不得，如果我很喜欢你，但是我就跟你大吵大闹，你就对我的那种滤镜就碎了，你知道吗？",
+        "Holder": "3",
+        "Target": "喜欢某人",
+        "Aspect": "表达方式的影响",
+        "Opinion": "大吵大闹会破坏滤镜",
+        "Sentiment": "negative",
+        "Rationale": "大吵大闹会破坏对方对自己的好感"
+    },
+    {
+        "sentence": "所以我需要冷静，我才能跟你慢慢慢慢拿捏你，知道吗？",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "处理情感的方式",
+        "Opinion": "需要冷静才能掌控",
+        "Sentiment": "neutral",
+        "Rationale": "冷静才能更好地处理关系"
+    },
+    {
+        "sentence": "我看到你这边青筋都鼓起来了。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "情绪状态",
+        "Opinion": "情绪激动",
+        "Sentiment": "neutral",
+        "Rationale": "观察到对方情绪激动的表现"
+    },
+    {
+        "sentence": "我觉得 跟你当朋友还是选择冷战吧，主要是大吵大闹也吵不过你。",
+        "Holder": "1",
+        "Target": "与3的友谊",
+        "Aspect": "相处方式",
+        "Opinion": "选择冷战",
+        "Sentiment": "negative",
+        "Rationale": "觉得大吵大闹无法解决问题且吵不过对方"
+    },
+    {
+        "sentence": "反正就是我觉得大吵大闹可能不是很好。",
+        "Holder": "1",
+        "Target": "大吵大闹",
+        "Aspect": "行为评价",
+        "Opinion": "不好",
+        "Sentiment": "negative",
+        "Rationale": "认为大吵大闹不利于解决问题"
+    },
+    {
+        "sentence": "等一下，抓住你言语逻辑的漏洞了。",
+        "Holder": "4",
+        "Target": "1的言语逻辑",
+        "Aspect": "逻辑的合理性",
+        "Opinion": "存在漏洞",
+        "Sentiment": "negative",
+        "Rationale": "发现对方的言语逻辑有问题"
+    },
+    {
+        "sentence": "那你的意思就是你要跟娜姐做朋友的话，肯定还选冷战，因为冷战的伤害小？",
+        "Holder": "4",
+        "Target": "1的选择",
+        "Aspect": "选择冷战的原因",
+        "Opinion": "质疑冷战的原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1选择冷战的原因感到不解"
+    },
+    {
+        "sentence": "不是，是因为娜姐的嗓门太大。",
+        "Holder": "1",
+        "Target": "娜姐",
+        "Aspect": "嗓门大小",
+        "Opinion": "嗓门大",
+        "Sentiment": "neutral",
+        "Rationale": "解释了选择冷战的原因是娜姐嗓门大"
+    },
+    {
+        "sentence": "你那是吵不过我。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "争吵能力",
+        "Opinion": "吵不过",
+        "Sentiment": "positive",
+        "Rationale": "认为自己在争吵中占上风"
+    },
+    {
+        "sentence": "但是我觉得冷战就真的很让另一方多想了。",
+        "Holder": "1",
+        "Target": "冷战",
+        "Aspect": "对另一方的影响",
+        "Opinion": "会让另一方多想",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战会让对方多想"
+    },
+    {
+        "sentence": "对，你会猜来猜去。",
+        "Holder": "5",
+        "Target": "7",
+        "Aspect": "猜测行为",
+        "Opinion": "会猜来猜去",
+        "Sentiment": "neutral",
+        "Rationale": "5在陈述7的行为习惯"
+    },
+    {
+        "sentence": "不要浪费对方的时间啊大家。",
+        "Holder": "7",
+        "Target": "大家",
+        "Aspect": "时间利用",
+        "Opinion": "不要浪费对方时间",
+        "Sentiment": "neutral",
+        "Rationale": "7希望大家能高效利用时间"
+    },
+    {
+        "sentence": "我觉得最过分的冷战就是出门之后再也不给你回微信，什么都不回。",
+        "Holder": "1",
+        "Target": "冷战行为",
+        "Aspect": "冷战的严重性",
+        "Opinion": "最过分",
+        "Sentiment": "negative",
+        "Rationale": "1认为不回微信的冷战行为非常过分"
+    },
+    {
+        "sentence": "但是想清楚就回来了啊。",
+        "Holder": "2",
+        "Target": "冷战行为",
+        "Aspect": "冷战的解决",
+        "Opinion": "想清楚就回来",
+        "Sentiment": "neutral",
+        "Rationale": "2认为冷战后想清楚回来是正常的行为"
+    },
+    {
+        "sentence": "对，但是就是你冷战的时候，你这一段期间就是在自己思考，再组织语言，然后你们再好好说就好了呀。",
+        "Holder": "6",
+        "Target": "冷战行为",
+        "Aspect": "冷战的处理方式",
+        "Opinion": "自己思考再好好说",
+        "Sentiment": "neutral",
+        "Rationale": "6认为冷战期间自己思考和组织语言是有必要的"
+    },
+    {
+        "sentence": "那他还是不说呢？",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "是否主动说话",
+        "Opinion": "对方不主动",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方一直不主动说话"
+    },
+    {
+        "sentence": "两个冷战的人最后得到了和平的话，不是一个人主动吗，主动示好示弱啊。",
+        "Holder": "7",
+        "Target": "冷战双方",
+        "Aspect": "和平解决的方式",
+        "Opinion": "需要有人主动示好",
+        "Sentiment": "neutral",
+        "Rationale": "冷战双方要和平解决需要有人先主动"
+    },
+    {
+        "sentence": "那一个人主动多了后，他是会累的。",
+        "Holder": "5",
+        "Target": "主动的人",
+        "Aspect": "主动的持续性",
+        "Opinion": "主动会累",
+        "Sentiment": "negative",
+        "Rationale": "一个人多次主动而对方不回应"
+    },
+    {
+        "sentence": "那就这一次中国人主动下一次那个人主动呗。",
+        "Holder": "4",
+        "Target": "双方",
+        "Aspect": "主动的轮流性",
+        "Opinion": "轮流主动",
+        "Sentiment": "neutral",
+        "Rationale": "提出轮流主动的建议"
+    },
+    {
+        "sentence": "那下一次那个人还是不主动呢？",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "下一次的主动性",
+        "Opinion": "对方可能仍不主动",
+        "Sentiment": "ambiguous",
+        "Rationale": "担心对方下一次仍然不主动"
+    }
+]

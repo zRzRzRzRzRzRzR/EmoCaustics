@@ -1,0 +1,125 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论赛开场与队伍介绍",
+        "emotions": [
+          {"state": "neutral", "reason": "按流程介绍参赛队伍及评委", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "自由辩论环节主持",
+        "emotions": [
+          {"state": "neutral", "reason": "维持辩论秩序并控制发言时间", "source_id": "3,5,6,7,9,10"},
+          {"state": "positive", "reason": "宣布最佳辩手及比赛结果", "source_id": "9,11"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "正方立论环节",
+        "emotions": [
+          {"state": "neutral", "reason": "引用经典阐述人性本善", "source_id": "2"},
+          {"state": "negative", "reason": "论证金钱导致道德沦丧", "source_id": "4,6,9"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反方一辩驳论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑正方对万字的定义", "source_id": "4"},
+          {"state": "neutral", "reason": "阐述钱不具备根本恶源性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "自由辩论攻防",
+        "emotions": [
+          {"state": "negative", "reason": "反驳南京大屠杀与金钱关联", "source_id": "7"},
+          {"state": "doubt", "reason": "质疑教育对象是否包含金钱", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "历史案例论证",
+        "emotions": [
+          {"state": "negative", "reason": "列举罗马帝国衰亡佐证金钱腐蚀性", "source_id": "4"},
+          {"state": "negative", "reason": "揭露现代权钱交易现象", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "逻辑归因挑战",
+        "emotions": [
+          {"state": "negative", "reason": "用类比反驳金钱必然致恶", "source_id": "7"},
+          {"state": "neutral", "reason": "论证善恶取决于使用方式", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "核心论点巩固",
+        "emotions": [
+          {"state": "negative", "reason": "分析毒品犯罪与腐败关联", "source_id": "4"},
+          {"state": "negative", "reason": "揭露红灯区合法化现象", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "反方体系维护",
+        "emotions": [
+          {"state": "negative", "reason": "批判正方以偏概全", "source_id": "6"},
+          {"state": "neutral", "reason": "论证钱不具备主动性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "总结陈词升华",
+        "emotions": [
+          {"state": "negative", "reason": "痛陈金钱导致历史悲剧", "source_id": "9"},
+          {"state": "neutral", "reason": "呼吁用良知驾驭金钱", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "反方总结反击",
+        "emotions": [
+          {"state": "negative", "reason": "揭露正方论证漏洞", "source_id": "4,6"},
+          {"state": "negative", "reason": "批判归因逻辑错误", "source_id": "10"}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "events": [
+      {
+        "event": "比赛结果评议",
+        "emotions": [
+          {"state": "positive", "reason": "肯定反方逻辑严谨性", "source_id": "11"},
+          {"state": "neutral", "reason": "分析双方策略得失", "source_id": "11"}
+        ]
+      }
+    ]
+  }
+}

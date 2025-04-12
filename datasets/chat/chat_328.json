@@ -1,0 +1,1649 @@
+[
+    {
+        "sentence": "哎呦，美女，我回来了。哈哈，那些猴孩子呢？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "问候",
+        "Opinion": "友好",
+        "Sentiment": "positive",
+        "Rationale": "刚回来见到熟人"
+    },
+    {
+        "sentence": "嗯，在房间里。",
+        "Holder": "2",
+        "Target": "猴孩子们",
+        "Aspect": "位置",
+        "Opinion": "在房间里",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述孩子们的位置"
+    },
+    {
+        "sentence": "猴孩子们出来了，我要宣布一条爆炸性的新闻啊。什么新闻？",
+        "Holder": "1",
+        "Target": "爆炸性新闻",
+        "Aspect": "内容",
+        "Opinion": "即将宣布",
+        "Sentiment": "positive",
+        "Rationale": "要宣布重要新闻"
+    },
+    {
+        "sentence": "人生不新闻，人生不新闻哎。",
+        "Holder": "3",
+        "Target": "新闻",
+        "Aspect": "重要性",
+        "Opinion": "不重要",
+        "Sentiment": "negative",
+        "Rationale": "认为新闻不重要"
+    },
+    {
+        "sentence": "哈哈哈，绝对是爆炸性的新闻，我的努力付出终于没有白费，有了成果了。",
+        "Holder": "1",
+        "Target": "自己的努力",
+        "Aspect": "努力的结果",
+        "Opinion": "努力没有白费",
+        "Sentiment": "positive",
+        "Rationale": "自己的努力得到了回报"
+    },
+    {
+        "sentence": "老听见成果，我们可从来没见过。",
+        "Holder": "2",
+        "Target": "1的成果",
+        "Aspect": "成果的可信度",
+        "Opinion": "从未见过成果",
+        "Sentiment": "doubt",
+        "Rationale": "多次听说但从未见过实际成果"
+    },
+    {
+        "sentence": "这次可不一样，老爸的剧本被采用了。",
+        "Holder": "1",
+        "Target": "老爸的剧本",
+        "Aspect": "剧本的采用情况",
+        "Opinion": "剧本被采用",
+        "Sentiment": "positive",
+        "Rationale": "老爸的剧本被采用"
+    },
+    {
+        "sentence": "那是不是应该给你点意思啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "奖励的合理性",
+        "Opinion": "应该给予奖励",
+        "Sentiment": "neutral",
+        "Rationale": "1取得了成果"
+    },
+    {
+        "sentence": "嗯，好像是有那么点意思，哈哈哈，这点。",
+        "Holder": "1",
+        "Target": "奖励",
+        "Aspect": "奖励的期待",
+        "Opinion": "期待奖励",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己的成果值得奖励"
+    },
+    {
+        "sentence": "意思他准备给多少啊？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "准备给的金额",
+        "Opinion": "询问金额",
+        "Sentiment": "neutral",
+        "Rationale": "对他人准备的金额感到好奇"
+    },
+    {
+        "sentence": "这点意思是。",
+        "Holder": "1",
+        "Target": "金额",
+        "Aspect": "金额的多少",
+        "Opinion": "金额不多",
+        "Sentiment": "neutral",
+        "Rationale": "提到的金额并不大"
+    },
+    {
+        "sentence": "可别让我们不好意思。",
+        "Holder": "2",
+        "Target": "金额",
+        "Aspect": "金额的合理性",
+        "Opinion": "希望金额适中",
+        "Sentiment": "ambiguous",
+        "Rationale": "担心金额太少会让人尴尬"
+    },
+    {
+        "sentence": "哈哈哈，不好意思也就一万多块，一万多来着，我准备今天晚上开瓶酒，咱们庆祝庆祝，哈哈哈。",
+        "Holder": "1",
+        "Target": "金额",
+        "Aspect": "金额的具体数值",
+        "Opinion": "一万多块",
+        "Sentiment": "positive",
+        "Rationale": "金额虽然不多但足以让人开心"
+    },
+    {
+        "sentence": "咱好久都没见过外快了，咱是不是添个大件啊？",
+        "Holder": "2",
+        "Target": "外快",
+        "Aspect": "外快的用途",
+        "Opinion": "建议购买大件",
+        "Sentiment": "positive",
+        "Rationale": "很久没有额外收入"
+    },
+    {
+        "sentence": "哎哎，我那脖子呢？我能请问一下吗？",
+        "Holder": "2",
+        "Target": "脖子",
+        "Aspect": "位置",
+        "Opinion": "找不到",
+        "Sentiment": "ambiguous",
+        "Rationale": "找不到自己的脖子"
+    },
+    {
+        "sentence": "不是第一次错。",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "错误次数",
+        "Opinion": "多次犯错",
+        "Sentiment": "negative",
+        "Rationale": "2已经不是第一次犯同样的错误"
+    },
+    {
+        "sentence": "吗？没什么经验，以后就好了，哈哈哈哈哈。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "经验",
+        "Opinion": "缺乏经验但会改进",
+        "Sentiment": "positive",
+        "Rationale": "认为2虽然现在缺乏经验，但未来会改善"
+    },
+    {
+        "sentence": "我们小时候都特爱照相，真的，那时候我们拿一个 120 或者 135 的照相机。嗯，照完黑白照片放大了，然后我们自个上色，抹上红嘴唇、红脸蛋，真的。",
+        "Holder": "2",
+        "Target": "小时候的照相经历",
+        "Aspect": "爱好和方式",
+        "Opinion": "热爱并享受",
+        "Sentiment": "positive",
+        "Rationale": "回忆起小时候愉快的照相经历"
+    },
+    {
+        "sentence": "哈哈哈，你看这张怎么样？",
+        "Holder": "4",
+        "Target": "照片",
+        "Aspect": "评价",
+        "Opinion": "期待反馈",
+        "Sentiment": "positive",
+        "Rationale": "希望得到对方对照片的评价"
+    },
+    {
+        "sentence": "哎呦，这身子是谁的？",
+        "Holder": "2",
+        "Target": "照片中的身体",
+        "Aspect": "身份",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "看到照片中的身体不认识"
+    },
+    {
+        "sentence": "哈哈哈，这些全都是我用电脑合成的，怎么样？",
+        "Holder": "4",
+        "Target": "照片",
+        "Aspect": "制作方式",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "自己用电脑合成了这些照片"
+    },
+    {
+        "sentence": "哈哈，逗。",
+        "Holder": "3",
+        "Target": "4的合成照片",
+        "Aspect": "趣味性",
+        "Opinion": "有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得4合成的照片很有趣"
+    },
+    {
+        "sentence": "不过我最喜欢的还是这张。嗯，这个是我记得我第一次穿上护士服跟我们宿舍的女生一块照的，哈哈哈，我们当时在宿舍里还有社。",
+        "Holder": "2",
+        "Target": "特定照片",
+        "Aspect": "情感价值",
+        "Opinion": "喜欢",
+        "Sentiment": "positive",
+        "Rationale": "这张照片记录了第一次穿护士服和宿舍女生的美好回忆"
+    },
+    {
+        "sentence": "哥呢。真的，那你唱两句。不唱唱。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "歌唱能力",
+        "Opinion": "期待",
+        "Sentiment": "neutral",
+        "Rationale": "想听2唱歌"
+    },
+    {
+        "sentence": "特傻，特幼稚。",
+        "Holder": "2",
+        "Target": "某事或某人",
+        "Aspect": "行为或态度",
+        "Opinion": "傻和幼稚",
+        "Sentiment": "negative",
+        "Rationale": "认为某事或某人的行为或态度显得不成熟"
+    },
+    {
+        "sentence": "没事，特幼稚。真的。",
+        "Holder": "4",
+        "Target": "某事或某人",
+        "Aspect": "行为或态度",
+        "Opinion": "幼稚",
+        "Sentiment": "neutral",
+        "Rationale": "认为某事或某人的行为或态度确实幼稚，但对此持宽容态度"
+    },
+    {
+        "sentence": "我们是美女，我们是美女。一定要把男同学，一定要把男同学杀死，杀死，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "自我认同",
+        "Opinion": "自信且强势",
+        "Sentiment": "positive",
+        "Rationale": "对自己有高度自信，并以夸张的方式表达对男同学的调侃"
+    },
+    {
+        "sentence": "杀死男同学。",
+        "Holder": "4",
+        "Target": "男同学",
+        "Aspect": "调侃",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "跟随说话人2的调侃，参与到玩笑中"
+    },
+    {
+        "sentence": "你知道吗啊？我那会儿长得是我一辈子最好看的时候。哈哈哈，我杀死了很多我们学校的帅哥。哈哈哈，我当时是校花儿啊。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "外貌和魅力",
+        "Opinion": "非常自信",
+        "Sentiment": "positive",
+        "Rationale": "回忆起自己年轻时外貌出众且受欢迎"
+    },
+    {
+        "sentence": "哈哈哈，看不出来妈，嗯，如果我爸要看的这些照片儿肯定得后悔为什么那么晚才追你。",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "外貌或魅力",
+        "Opinion": "爸爸会后悔追得晚",
+        "Sentiment": "positive",
+        "Rationale": "认为妈妈有魅力"
+    },
+    {
+        "sentence": "他现在已经后悔了哈哈哈。后悔娶了个更年期，哈哈哈，这个电脑这个东西还是很神奇的嘛。",
+        "Holder": "2",
+        "Target": "爸爸",
+        "Aspect": "婚姻选择",
+        "Opinion": "爸爸后悔娶了妈妈",
+        "Sentiment": "ambiguous",
+        "Rationale": "用幽默的方式调侃爸爸和妈妈的婚姻"
+    },
+    {
+        "sentence": "电脑固然神奇，但是操作电脑的人就更厉害了。",
+        "Holder": "4",
+        "Target": "操作电脑的人",
+        "Aspect": "能力",
+        "Opinion": "操作电脑的人更厉害",
+        "Sentiment": "positive",
+        "Rationale": "认可操作电脑的人的技术"
+    },
+    {
+        "sentence": "哈哈哈，你对啊，你是天才。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "智力或能力",
+        "Opinion": "4是天才",
+        "Sentiment": "positive",
+        "Rationale": "认可4的能力"
+    },
+    {
+        "sentence": "哈哈哈，妈妈，只要您肯投资，我一定会更天才的。哈哈哈，投资。",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "投资支持",
+        "Opinion": "投资会使自己更天才",
+        "Sentiment": "positive",
+        "Rationale": "希望得到妈妈的投资支持"
+    },
+    {
+        "sentence": "嘿嘿，truck，嘿嘿。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "因为没有表达明确情感或评价，所以情绪是中立的"
+    },
+    {
+        "sentence": "嘿嘿嘿嘿嘿嘿，等我等会。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "因为只是表达等待的意思，没有明确情感或评价，所以情绪是中立的"
+    },
+    {
+        "sentence": "行，手下留情，鼻子打酸了，不玩了行不行？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "游戏行为",
+        "Opinion": "希望停止游戏",
+        "Sentiment": "negative",
+        "Rationale": "因为游戏过程中鼻子被打酸，感到不适，所以希望停止游戏"
+    },
+    {
+        "sentence": "老爸这么快就不行了？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "体能",
+        "Opinion": "体能不足",
+        "Sentiment": "调侃",
+        "Rationale": "父亲在游戏中很快表示不适"
+    },
+    {
+        "sentence": "哈哈，不然换我打你，你也不还手？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "游戏挑战",
+        "Opinion": "提出挑战",
+        "Sentiment": "positive",
+        "Rationale": "因为想通过游戏挑战增加互动乐趣"
+    },
+    {
+        "sentence": "行，现在先陪我坐会，死了热菜嘿。好儿子。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "陪伴和称呼",
+        "Opinion": "满意和喜爱",
+        "Sentiment": "positive",
+        "Rationale": "儿子愿意陪伴自己，并且称呼儿子为好儿子"
+    },
+    {
+        "sentence": "哎，老爸，嗯，您那狗头打算怎么画呀？",
+        "Holder": "3",
+        "Target": "1的画作",
+        "Aspect": "画作内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对父亲的画作内容感到好奇"
+    },
+    {
+        "sentence": "妈妈不是说要添一个大件吗？",
+        "Holder": "1",
+        "Target": "妈妈的想法",
+        "Aspect": "家庭购买计划",
+        "Opinion": "提及",
+        "Sentiment": "neutral",
+        "Rationale": "提到妈妈的购买计划"
+    },
+    {
+        "sentence": "我妈一个十足的女人，他能有什么好建议？",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "建议能力",
+        "Opinion": "不看好",
+        "Sentiment": "negative",
+        "Rationale": "认为妈妈作为女性在家庭购买计划上不会有好建议"
+    },
+    {
+        "sentence": "那你这个十足的男子汉有什么好建议？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "建议能力",
+        "Opinion": "期待",
+        "Sentiment": "positive",
+        "Rationale": "期待儿子作为男子汉能提出好建议"
+    },
+    {
+        "sentence": "这个我认为钱要用在刀刃上，有钱来消费不如用来投资。",
+        "Holder": "3",
+        "Target": "钱的用途",
+        "Aspect": "消费与投资的比较",
+        "Opinion": "投资更有价值",
+        "Sentiment": "positive",
+        "Rationale": "认为投资能带来更大的回报"
+    },
+    {
+        "sentence": "嗯，有道理，那就应该买点股票、证券，或者是买房买地。",
+        "Holder": "1",
+        "Target": "投资方式",
+        "Aspect": "具体的投资选择",
+        "Opinion": "支持股票、证券和房产投资",
+        "Sentiment": "positive",
+        "Rationale": "认同3的观点，认为这些投资方式有前景"
+    },
+    {
+        "sentence": "您这叫投机。",
+        "Holder": "2",
+        "Target": "1的投资建议",
+        "Aspect": "投资性质",
+        "Opinion": "认为是投机",
+        "Sentiment": "negative",
+        "Rationale": "认为1的建议带有高风险和不确定性"
+    },
+    {
+        "sentence": "哦，那什么叫投资？",
+        "Holder": "1",
+        "Target": "投资的定义",
+        "Aspect": "概念澄清",
+        "Opinion": "寻求解释",
+        "Sentiment": "neutral",
+        "Rationale": "对2的评论感到困惑"
+    },
+    {
+        "sentence": "人才建设？哈哈哈，致力投资。",
+        "Holder": "3",
+        "Target": "投资方向",
+        "Aspect": "投资的领域",
+        "Opinion": "支持人才建设投资",
+        "Sentiment": "positive",
+        "Rationale": "认为人才建设是长远且有价值的投资"
+    },
+    {
+        "sentence": "哈哈哈，我明白了，你是个人才，需要投资，对不对？",
+        "Holder": "1",
+        "Target": "3的投资需求",
+        "Aspect": "投资需求的合理性",
+        "Opinion": "认为3有投资需求",
+        "Sentiment": "positive",
+        "Rationale": "1认为3有能力且需要投资"
+    },
+    {
+        "sentence": "对对对对对，哈哈哈。您没觉得我和小雨用一台电脑有点太不方便了。",
+        "Holder": "3",
+        "Target": "使用电脑的便利性",
+        "Aspect": "电脑使用的合理性",
+        "Opinion": "认为使用一台电脑不方便",
+        "Sentiment": "neutral",
+        "Rationale": "3确实感到使用一台电脑不方便"
+    },
+    {
+        "sentence": "嗯，有道理，我觉得要是一人用两台电脑就方便了，对不对？",
+        "Holder": "1",
+        "Target": "电脑使用的便利性",
+        "Aspect": "电脑数量的合理性",
+        "Opinion": "认为一人用两台电脑更方便",
+        "Sentiment": "positive",
+        "Rationale": "1认同3的观点，认为增加电脑数量能提高便利性"
+    },
+    {
+        "sentence": "你别开玩笑，我这说正事呢。好。",
+        "Holder": "3",
+        "Target": "1的语气",
+        "Aspect": "话题的严肃性",
+        "Opinion": "希望1认真对待",
+        "Sentiment": "negative",
+        "Rationale": "3觉得1在开玩笑，没有认真对待自己的问题"
+    },
+    {
+        "sentence": "说正事可，但是，但可是。",
+        "Holder": "1",
+        "Target": "3的话题",
+        "Aspect": "话题的延续性",
+        "Opinion": "准备提出异议",
+        "Sentiment": "neutral",
+        "Rationale": "1准备对3的话题提出一些保留意见"
+    },
+    {
+        "sentence": "爸说了，说正事呢你还在这闹着玩。",
+        "Holder": "3",
+        "Target": "说话人 3 的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不应该闹着玩",
+        "Sentiment": "negative",
+        "Rationale": "因为正在讨论重要的事情，所以说话人 3 的行为被认为是不合时宜的"
+    },
+    {
+        "sentence": "是说正事问问题的，问题是你们那屋太小了，再放一张电脑桌就没法走了。",
+        "Holder": "1",
+        "Target": "房间大小",
+        "Aspect": "空间问题",
+        "Opinion": "空间不足",
+        "Sentiment": "negative",
+        "Rationale": "因为房间太小，放置更多物品会导致空间极度拥挤，影响日常生活"
+    },
+    {
+        "sentence": "哈哈哈，那我就不要什么生活空间了。",
+        "Holder": "3",
+        "Target": "Living space needs",
+        "Aspect": "Importance of living space",
+        "Opinion": "Indifferent to the lack of living space",
+        "Sentiment": "Positive",
+        "Rationale": "Because Speaker 3 finds the idea of giving up living space for other priorities amusing, indicating a light-hearted attitude towards the situation."
+    },
+    {
+        "sentence": "要买台笔记本电脑吗？",
+        "Holder": "1",
+        "Target": "Purchasing decision",
+        "Aspect": "Type of computer",
+        "Opinion": "Considering buying a laptop",
+        "Sentiment": "Neutral",
+        "Rationale": "Because Speaker 1 is simply asking a question about whether to buy a laptop, showing a neutral stance without expressing a strong positive or negative emotion."
+    },
+    {
+        "sentence": "哈哈，没开玩笑。",
+        "Holder": "3",
+        "Target": "The previous statement",
+        "Aspect": "Seriousness of the statement",
+        "Opinion": "The statement was serious",
+        "Sentiment": "Positive",
+        "Rationale": "Because Speaker 3 is clarifying that their previous statement was not a joke, which maintains a positive and light-hearted tone."
+    },
+    {
+        "sentence": "一步到位。你想想，等将来你上了大学也还可以接着用。咦哈，我爱死你。好好好，够亲你了，恶心死了，哼。",
+        "Holder": "1",
+        "Target": "3的未来规划",
+        "Aspect": "上大学后的使用",
+        "Opinion": "支持继续使用",
+        "Sentiment": "positive",
+        "Rationale": "认为物品可以在上大学后继续使用"
+    },
+    {
+        "sentence": "一步到位。你想想，等将来你上了大学也还可以接着用。咦哈，我爱死你。好好好，够亲你了，恶心死了，哼。",
+        "Holder": "1",
+        "Target": "3的亲昵行为",
+        "Aspect": "亲昵程度",
+        "Opinion": "过度亲昵",
+        "Sentiment": "negative",
+        "Rationale": "觉得3的亲昵行为过度"
+    },
+    {
+        "sentence": "哎，老爸，就冲您这句话，我以后决定考大学了，哼。哈哈哈，你等会儿。",
+        "Holder": "3",
+        "Target": "1的鼓励",
+        "Aspect": "考大学的决心",
+        "Opinion": "决定考大学",
+        "Sentiment": "positive",
+        "Rationale": "受到1的鼓励"
+    },
+    {
+        "sentence": "您的意思是你原来就没想考大学啊？不是。",
+        "Holder": "1",
+        "Target": "3的原计划",
+        "Aspect": "考大学的意愿",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "3的话让人误解为原来没想考大学"
+    },
+    {
+        "sentence": "口口误。",
+        "Holder": "3",
+        "Target": "自己的表达",
+        "Aspect": "表达的准确性",
+        "Opinion": "表达错误",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己表达错误"
+    },
+    {
+        "sentence": "这小诶。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为的特点",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "觉得3的行为有些可爱"
+    },
+    {
+        "sentence": "不过老爸，嗯，您说话管用吗？什么。",
+        "Holder": "3",
+        "Target": "1的说话权威",
+        "Aspect": "说话的影响力",
+        "Opinion": "怀疑管用性",
+        "Sentiment": "doubt",
+        "Rationale": "对老爸在家中的话语权有疑问"
+    },
+    {
+        "sentence": "话你没发现吗？在咱们家我说的事你妈敢反驳吗？其实。",
+        "Holder": "1",
+        "Target": "1的说话权威",
+        "Aspect": "说话的影响力",
+        "Opinion": "认为自己有权威",
+        "Sentiment": "positive",
+        "Rationale": "在家中自己说的话没有人敢反驳"
+    },
+    {
+        "sentence": "你没少反驳。",
+        "Holder": "3",
+        "Target": "1的说话权威",
+        "Aspect": "说话的影响力",
+        "Opinion": "认为1被反驳过",
+        "Sentiment": "negative",
+        "Rationale": "记得老爸曾经被反驳过"
+    },
+    {
+        "sentence": "他这样干粉不？我跟他急，哈哈哈，还不等我跟他急呢，他就yes。老公呢？",
+        "Holder": "1",
+        "Target": "家中其他成员",
+        "Aspect": "对1的服从",
+        "Opinion": "认为别人会服从",
+        "Sentiment": "positive",
+        "Rationale": "别人在他急之前就会同意"
+    },
+    {
+        "sentence": "干网站干嘛用啊？",
+        "Holder": "2",
+        "Target": "干网站的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑用途",
+        "Sentiment": "doubt",
+        "Rationale": "不清楚干网站的具体用途"
+    },
+    {
+        "sentence": "哈哈哈，这是结交更多的朋友讨论感兴趣的话题。",
+        "Holder": "4",
+        "Target": "结交朋友和讨论话题",
+        "Aspect": "社交和兴趣",
+        "Opinion": "积极",
+        "Sentiment": "positive",
+        "Rationale": "能够结交更多朋友并讨论感兴趣的话题"
+    },
+    {
+        "sentence": "嗯，那得多少钱呢？",
+        "Holder": "2",
+        "Target": "租服务器的费用",
+        "Aspect": "费用",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "对租服务器的费用感兴趣"
+    },
+    {
+        "sentence": "主要是租服务器，一年也就1万块钱吧。",
+        "Holder": "4",
+        "Target": "租服务器费用",
+        "Aspect": "费用",
+        "Opinion": "合理",
+        "Sentiment": "neutral",
+        "Rationale": "租服务器一年1万块钱在可接受范围内"
+    },
+    {
+        "sentence": "哈哈哈，你这意思是说用你爸爸这一万块钱稿费给你租个服务器。",
+        "Holder": "2",
+        "Target": "4的使用稿费",
+        "Aspect": "资金来源",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用稿费租服务器有些幽默"
+    },
+    {
+        "sentence": "也算是一个大件了吧？",
+        "Holder": "4",
+        "Target": "租服务器",
+        "Aspect": "重要性",
+        "Opinion": "重要",
+        "Sentiment": "neutral",
+        "Rationale": "租服务器是一笔不小的开销"
+    },
+    {
+        "sentence": "他敢不同意吗？他我都同意了，我爸妈要说他肯定会说 yes sir 老婆。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "同意的态度",
+        "Opinion": "肯定会同意",
+        "Sentiment": "positive",
+        "Rationale": "自己已经同意了，并且认为爸妈的要求他也会服从"
+    },
+    {
+        "sentence": "哈哈哈，谁让你答应小雪去租个服务器办什么网站嘛？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "答应小雪的要求",
+        "Opinion": "不应该答应",
+        "Sentiment": "positive",
+        "Rationale": "觉得2答应小雪的要求有些不合理"
+    },
+    {
+        "sentence": "哈哈哈，废话，那你干嘛要答应刘星给他买什么笔记本电脑啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "答应刘星的要求",
+        "Opinion": "不应该答应",
+        "Sentiment": "positive",
+        "Rationale": "觉得1答应刘星的要求也不合理"
+    },
+    {
+        "sentence": "哈哈哈，我的稿酬，不，我没权支配啊。那是你。",
+        "Holder": "1",
+        "Target": "稿酬支配权",
+        "Aspect": "支配权归属",
+        "Opinion": "无权支配",
+        "Sentiment": "positive",
+        "Rationale": "意识到稿酬的支配权在2那里"
+    },
+    {
+        "sentence": "一人的搞酬，军功章有你的一半，还有我的一半呢，哈哈哈。",
+        "Holder": "2",
+        "Target": "稿酬归属",
+        "Aspect": "共同贡献",
+        "Opinion": "共同享有",
+        "Sentiment": "positive",
+        "Rationale": "认为稿酬是两人共同努力的结果"
+    },
+    {
+        "sentence": "小雨说他要和你们俩一块睡。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "睡觉安排",
+        "Opinion": "小雨想一起睡",
+        "Sentiment": "neutral",
+        "Rationale": "只是转述小雨的请求，没有表达个人情感"
+    },
+    {
+        "sentence": "不行不行，都多长了还来这一套，真是不行。",
+        "Holder": "1",
+        "Target": "小雨的请求",
+        "Aspect": "睡觉安排的合理性",
+        "Opinion": "反对一起睡",
+        "Sentiment": "negative",
+        "Rationale": "认为小雨已经长大，不应该再提出这样的请求"
+    },
+    {
+        "sentence": "不行。哈哈哈，成，我回去粗把子告诉他，不行。对对。",
+        "Holder": "3",
+        "Target": "小雨的请求",
+        "Aspect": "睡觉安排的回应",
+        "Opinion": "拒绝一起睡",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雨的请求不合理，但用轻松的语气表达拒绝"
+    },
+    {
+        "sentence": "走，你你你，等会好像这样对小雨，是不是有点过分吧？",
+        "Holder": "1",
+        "Target": "对小雨的拒绝",
+        "Aspect": "拒绝方式的合理性",
+        "Opinion": "可能过分",
+        "Sentiment": "doubt",
+        "Rationale": "担心拒绝的方式对小雨来说可能过于严厉"
+    },
+    {
+        "sentence": "嗯，赶紧看看去，肯定有什么事了啊。",
+        "Holder": "2",
+        "Target": "小雨的情况",
+        "Aspect": "小雨的行为动机",
+        "Opinion": "可能有隐情",
+        "Sentiment": "neutral",
+        "Rationale": "觉得小雨提出这样的请求可能有特殊原因"
+    },
+    {
+        "sentence": "我都在唱一首我这小兵想要给哎，是。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "唱歌的行为",
+        "Opinion": "正在唱歌",
+        "Sentiment": "neutral",
+        "Rationale": "只是在描述自己正在唱歌的行为"
+    },
+    {
+        "sentence": "床吗？你这是小雨，你干嘛呢？你床怎么了啊？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为和床的状态",
+        "Opinion": "询问和困惑",
+        "Sentiment": "neutral",
+        "Rationale": "对3的行为和床的状态感到困惑"
+    },
+    {
+        "sentence": "嗯，流星不让我在地上跳，非让我在床上跳。",
+        "Holder": "3",
+        "Target": "流星",
+        "Aspect": "跳跃地点的要求",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "流星要求在床上跳而不是地上"
+    },
+    {
+        "sentence": "哈哈哈，流星。",
+        "Holder": "2",
+        "Target": "流星",
+        "Aspect": "行为",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得流星的行为好笑"
+    },
+    {
+        "sentence": "他疯的跟猴似的，影响我看书了。不看书我怎么考大学呀嘿？",
+        "Holder": "3",
+        "Target": "流星",
+        "Aspect": "行为和影响",
+        "Opinion": "严重影响",
+        "Sentiment": "negative",
+        "Rationale": "流星的行为像疯猴子一样影响了自己看书"
+    },
+    {
+        "sentence": "爸，这床也坏了，要不买新的？",
+        "Holder": "3",
+        "Target": "床",
+        "Aspect": "床的状态",
+        "Opinion": "需要更换",
+        "Sentiment": "neutral",
+        "Rationale": "床坏了"
+    },
+    {
+        "sentence": "什么坏了，我一会就给你修好。",
+        "Holder": "1",
+        "Target": "损坏的物品",
+        "Aspect": "修理的承诺",
+        "Opinion": "可以修好",
+        "Sentiment": "positive",
+        "Rationale": "有能力修好损坏的物品"
+    },
+    {
+        "sentence": "哎，别修别修别修嘛。哈哈哈，你先这个啊。嗯，带滑屉的床，而且还得把桌子给放在床底下，你看这不是地方就淡了嘛。",
+        "Holder": "3",
+        "Target": "修理行为",
+        "Aspect": "修理的必要性",
+        "Opinion": "不需要修理",
+        "Sentiment": "negative",
+        "Rationale": "觉得修理不是当前最紧急的事情"
+    },
+    {
+        "sentence": "你都看好了，合着你就等钱。",
+        "Holder": "2",
+        "Target": "3的选择",
+        "Aspect": "选择的动机",
+        "Opinion": "等待付款",
+        "Sentiment": "negative",
+        "Rationale": "认为3已经选好了只是等待付款"
+    },
+    {
+        "sentence": "了，我们同学用的就是这种床。",
+        "Holder": "3",
+        "Target": "床的类型",
+        "Aspect": "选择的依据",
+        "Opinion": "同学也在用",
+        "Sentiment": "neutral",
+        "Rationale": "提到同学也在用这种床"
+    },
+    {
+        "sentence": "我的妈呀，这也太贵了，打个折还 8, 880 呢，你们要。",
+        "Holder": "2",
+        "Target": "床的价格",
+        "Aspect": "价格的合理性",
+        "Opinion": "价格太贵",
+        "Sentiment": "negative",
+        "Rationale": "觉得床的价格过高，即使打折也很贵"
+    },
+    {
+        "sentence": "给刘星买电笔记本电脑吧，那个可比这个贵多了。哎，我买那个可是学习用品，每天都得用。我们老师说了，人有 1/ 3 的时间都得在床上度过。哎，你得分个先来后到吧。哎，总得有个轻重缓急，你可不能偏心想，你可不能不答应啊。这事你跟你爸说。",
+        "Holder": "3",
+        "Target": "买笔记本电脑",
+        "Aspect": "购买优先级",
+        "Opinion": "应该优先购买",
+        "Sentiment": "positive",
+        "Rationale": "认为笔记本电脑是学习必需品，且强调事情的轻重缓急"
+    },
+    {
+        "sentence": "去，这事跟妈妈说去。妈，爸爸。",
+        "Holder": "1",
+        "Target": "买笔记本电脑的决定",
+        "Aspect": "决策责任",
+        "Opinion": "推给父母决定",
+        "Sentiment": "neutral",
+        "Rationale": "不想直接参与决策"
+    },
+    {
+        "sentence": "妈妈，要不咱那笔记本电脑先等等也行。",
+        "Holder": "2",
+        "Target": "买笔记本电脑",
+        "Aspect": "购买时间",
+        "Opinion": "可以延后购买",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到可能的其他需求或经济状况"
+    },
+    {
+        "sentence": "凭什么让我等？那可不能让我等啊，妈妈，哎哎哎哎，停停停。",
+        "Holder": "3",
+        "Target": "延后购买笔记本电脑",
+        "Aspect": "等待的合理性",
+        "Opinion": "不同意延后",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的需求紧迫且合理"
+    },
+    {
+        "sentence": "要不咱。",
+        "Holder": "2",
+        "Target": "买笔记本电脑",
+        "Aspect": "购买决策",
+        "Opinion": "未明确",
+        "Sentiment": "ambiguous",
+        "Rationale": "话未说完，意图不明确"
+    },
+    {
+        "sentence": "都答应，yeah。",
+        "Holder": "1",
+        "Target": "答应某事",
+        "Aspect": "态度",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "对某事的答应感到满意"
+    },
+    {
+        "sentence": "你睡。你也真是。哎，我就不明白你怎么稀里糊涂就给答应了呢。",
+        "Holder": "1",
+        "Target": "2的答应行为",
+        "Aspect": "合理性",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不理解对方为什么会轻易答应某事"
+    },
+    {
+        "sentence": "怎么是我答应的，明明是你答应的。哎，你可。",
+        "Holder": "2",
+        "Target": "答应的责任",
+        "Aspect": "责任归属",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "觉得责任被错误地归咎于自己"
+    },
+    {
+        "sentence": "别耍赖啊，这绝对是你答应的。这个军功章还真是有你的一半。哈哈哈，去。",
+        "Holder": "1",
+        "Target": "2的答应行为",
+        "Aspect": "责任归属",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "确信对方答应了某事"
+    },
+    {
+        "sentence": "绝对不是我答应的，我真的觉得是咱俩一块答应的呀。",
+        "Holder": "2",
+        "Target": "答应行为",
+        "Aspect": "责任归属",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "认为责任不应全在自己"
+    },
+    {
+        "sentence": "哈哈哈，不管怎么说，现在我就有1万块钱搞酬，您可答应了，3万块钱的事情怎么办呢？夫人，哼，不知道，哈哈哈，那这 2 万多块钱。",
+        "Holder": "1",
+        "Target": "夫人",
+        "Aspect": "承诺的履行",
+        "Opinion": "质疑承诺",
+        "Sentiment": "ambiguous",
+        "Rationale": "夫人没有明确回应3万块钱的事情"
+    },
+    {
+        "sentence": "嗯，你想辙？哈哈哈，行。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "解决问题的态度",
+        "Opinion": "同意1的想法",
+        "Sentiment": "positive",
+        "Rationale": "对1提出的解决方案表示认可"
+    },
+    {
+        "sentence": "想出来了，睡觉，明天再想，哈哈哈，好孩子们，快点出来啦。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "解决问题的方法",
+        "Opinion": "推迟到明天",
+        "Sentiment": "positive",
+        "Rationale": "决定暂时放下问题"
+    },
+    {
+        "sentence": "快来快来，买好东西啦。",
+        "Holder": "3",
+        "Target": "孩子们",
+        "Aspect": "购物",
+        "Opinion": "兴奋",
+        "Sentiment": "positive",
+        "Rationale": "买到好东西"
+    },
+    {
+        "sentence": "抓这是对，不许动，这就是我答应给你们买的东东。 say say。为了这些东东我和妈妈跑了整整一天呀。嗯，真是累，弯了腰，跑实了。",
+        "Holder": "1",
+        "Target": "孩子们",
+        "Aspect": "购物成果",
+        "Opinion": "辛苦但满足",
+        "Sentiment": "positive",
+        "Rationale": "为孩子们买了答应的东西，虽然辛苦但感到满足和欣慰"
+    },
+    {
+        "sentence": "腿呀。哇。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "没有明确的情感表达"
+    },
+    {
+        "sentence": "哦，爸爸真是言而有信，妈妈真是福泽得利，不愧是长辈的典范，家长中的楷模。",
+        "Holder": "4",
+        "Target": "爸爸和妈妈",
+        "Aspect": "诚信和福泽",
+        "Opinion": "高度赞扬",
+        "Sentiment": "positive",
+        "Rationale": "对爸爸的诚信和妈妈的福泽表示高度认可"
+    },
+    {
+        "sentence": "爸爸，这是柳哥。可以，爸爸妈妈岁，爸妈岁，爸爸我爱你。妈妈妈妈妈妈妈妈好好好，停说。",
+        "Holder": "3",
+        "Target": "爸爸和妈妈",
+        "Aspect": "亲情表达",
+        "Opinion": "爱意和亲近",
+        "Sentiment": "positive",
+        "Rationale": "表达了对爸爸和妈妈的爱意和亲近"
+    },
+    {
+        "sentence": "对，我来给你们看看，给你们买的东西，给你买的笔记本电脑啊。这是你的床，嗯，这是你的服务器。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "礼物和安排",
+        "Opinion": "关心和照顾",
+        "Sentiment": "positive",
+        "Rationale": "给3买了礼物并安排了生活用品"
+    },
+    {
+        "sentence": "哈哈哈，这就是你们花了一天给我买的大鞋。哎，是。",
+        "Holder": "3",
+        "Target": "买的鞋子",
+        "Aspect": "鞋子的尺寸",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得家人花了一天时间买的鞋子尺寸大得有趣"
+    },
+    {
+        "sentence": "这样的，鉴于目前咱们家投资有点失控，所以暂时不能满足你们的要求。",
+        "Holder": "1",
+        "Target": "家庭投资状况",
+        "Aspect": "投资控制",
+        "Opinion": "投资失控",
+        "Sentiment": "negative",
+        "Rationale": "家庭投资状况失控"
+    },
+    {
+        "sentence": "爸爸就想出这么一招，这招叫画饼充精。",
+        "Holder": "2",
+        "Target": "爸爸的策略",
+        "Aspect": "策略的有效性",
+        "Opinion": "不实际",
+        "Sentiment": "negative",
+        "Rationale": "认为爸爸的策略不切实际"
+    },
+    {
+        "sentence": "可以，这画饼冲击可是有典故的，那时候大不了。行行。",
+        "Holder": "1",
+        "Target": "画饼策略",
+        "Aspect": "策略的历史依据",
+        "Opinion": "有典故支持",
+        "Sentiment": "neutral",
+        "Rationale": "提到画饼策略有历史依据"
+    },
+    {
+        "sentence": "行，不行？行。嗯，你别吵了。吵啊。呵，怎么了？我做了个梦。",
+        "Holder": "3",
+        "Target": "对话环境",
+        "Aspect": "噪音影响",
+        "Opinion": "希望安静",
+        "Sentiment": "negative",
+        "Rationale": "被吵到无法继续做梦"
+    },
+    {
+        "sentence": "我也做了个梦，吵死了，吵死了。hahahaha。",
+        "Holder": "1",
+        "Target": "对话环境",
+        "Aspect": "噪音影响",
+        "Opinion": "非常吵",
+        "Sentiment": "negative",
+        "Rationale": "被吵到无法继续做梦"
+    },
+    {
+        "sentence": "呵呵，你们先休息，我回头等你们吃完我再吃。",
+        "Holder": "2",
+        "Target": "吃饭顺序",
+        "Aspect": "等待的合理性",
+        "Opinion": "愿意等待",
+        "Sentiment": "neutral",
+        "Rationale": "愿意让大家先休息和吃饭"
+    },
+    {
+        "sentence": "哎哎哎，你什么意思啊？你怎么一到关键时刻你就不跟我统一战壕了呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "支持的一致性",
+        "Opinion": "感到被背叛",
+        "Sentiment": "negative",
+        "Rationale": "觉得在关键时刻2没有与自己站在同一阵线"
+    },
+    {
+        "sentence": "废话，我出去，我不知道我说什么。那。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "回应的合理性",
+        "Opinion": "感到无奈",
+        "Sentiment": "negative",
+        "Rationale": "被1质疑且自己也不知道如何解释"
+    },
+    {
+        "sentence": "我说什么呀？我出去半小时发水都凉了。自己完成了吗？马上就来。",
+        "Holder": "1",
+        "Target": "2的回应",
+        "Aspect": "回应的及时性",
+        "Opinion": "感到不满",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的回应不及时且自己的等待被浪费"
+    },
+    {
+        "sentence": "不说话来啦。你爸这手从来没这么白过。",
+        "Holder": "2",
+        "Target": "1的状态",
+        "Aspect": "手的状态",
+        "Opinion": "感到惊讶",
+        "Sentiment": "neutral",
+        "Rationale": "注意到1父亲的手变白了"
+    },
+    {
+        "sentence": "就是没洗过这么干净的手，哈哈哈。",
+        "Holder": "1",
+        "Target": "手",
+        "Aspect": "干净程度",
+        "Opinion": "非常干净",
+        "Sentiment": "positive",
+        "Rationale": "洗得特别干净"
+    },
+    {
+        "sentence": "手脚真干净。",
+        "Holder": "2",
+        "Target": "手脚",
+        "Aspect": "干净程度",
+        "Opinion": "非常干净",
+        "Sentiment": "positive",
+        "Rationale": "看到手脚非常干净"
+    },
+    {
+        "sentence": "哈哈哈，刚才我跟妈妈不仅洗干净了手，嗯，还研究了一下。哎，给你们添大件的事，我。",
+        "Holder": "1",
+        "Target": "自己和妈妈",
+        "Aspect": "清洁和研究",
+        "Opinion": "认真清洁并研究",
+        "Sentiment": "positive",
+        "Rationale": "和妈妈一起认真清洁并研究了事情"
+    },
+    {
+        "sentence": "知道您不会让我们失望的，你爸爸妈。",
+        "Holder": "3",
+        "Target": "1的爸爸妈妈",
+        "Aspect": "可靠性",
+        "Opinion": "不会让人失望",
+        "Sentiment": "positive",
+        "Rationale": "对1的爸爸妈妈有信心"
+    },
+    {
+        "sentence": "我也知道你也不会让我们失望的。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "可靠性",
+        "Opinion": "不会让人失望",
+        "Sentiment": "positive",
+        "Rationale": "对1有信心"
+    },
+    {
+        "sentence": "哈哈哈，爸，我也知道你们是非常关心我们，非常爱我们的。对对对对对对对。",
+        "Holder": "3",
+        "Target": "父母的爱",
+        "Aspect": "关心和爱",
+        "Opinion": "认可和感激",
+        "Sentiment": "positive",
+        "Rationale": "感受到父母的关心和爱"
+    },
+    {
+        "sentence": "哈哈哈，我刚才好像没打肥皂，我来打打肥皂。我也没打肥皂，哈哈哈。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "打肥皂的行为",
+        "Opinion": "需要打肥皂",
+        "Sentiment": "neutral",
+        "Rationale": "发现自己没打肥皂"
+    },
+    {
+        "sentence": "Hello. Hứng quá. Huế là là nghĩa là là.",
+        "Holder": "4",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "ambiguous",
+        "Rationale": "语句不明确"
+    },
+    {
+        "sentence": "Fan của man à?",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个问题"
+    },
+    {
+        "sentence": "他们不回来吃了，姥姥给做饭。",
+        "Holder": "2",
+        "Target": "他们",
+        "Aspect": "回家吃饭",
+        "Opinion": "不回来吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "说明了一个事实，即他们不回来吃饭"
+    },
+    {
+        "sentence": "当当当当，他们肯定是去给我联系网站，给我租服务器去了，yeah。",
+        "Holder": "4",
+        "Target": "父母的行为",
+        "Aspect": "父母的安排",
+        "Opinion": "认为父母在为自己租服务器",
+        "Sentiment": "positive",
+        "Rationale": "觉得父母在为自己做有益的事情"
+    },
+    {
+        "sentence": "呜，我回来了。哎呦，姥姥您姥姥啊，我爸我妈呢？",
+        "Holder": "3",
+        "Target": "父母",
+        "Aspect": "父母的位置",
+        "Opinion": "询问父母去向",
+        "Sentiment": "neutral",
+        "Rationale": "刚回来不清楚父母的位置"
+    },
+    {
+        "sentence": "他们俩不回来吃饭了，姥姥给做饭。",
+        "Holder": "2",
+        "Target": "父母",
+        "Aspect": "父母的用餐安排",
+        "Opinion": "父母不回家吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "告知一个事实"
+    },
+    {
+        "sentence": "哈哈哈，噔噔噔噔，肯定是去电脑城给我看笔记本电脑去喽，哈哈哈。耶耶，我回来喽，喂，爸妈。哎，老爸你别买了，我爸爸和妈妈呢？",
+        "Holder": "3",
+        "Target": "父母的行为",
+        "Aspect": "父母的安排",
+        "Opinion": "认为父母在为自己看笔记本电脑",
+        "Sentiment": "positive",
+        "Rationale": "觉得父母在为自己做有益的事情"
+    },
+    {
+        "sentence": "他们不回来吃了，姥姥给做饭。",
+        "Holder": "2",
+        "Target": "父母",
+        "Aspect": "父母的用餐安排",
+        "Opinion": "父母不回家吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "再次告知一个事实"
+    },
+    {
+        "sentence": "姥姥做的不好吃。",
+        "Holder": "2",
+        "Target": "姥姥做的饭",
+        "Aspect": "食物的味道",
+        "Opinion": "不好吃",
+        "Sentiment": "negative",
+        "Rationale": "觉得姥姥做的饭不符合自己的口味"
+    },
+    {
+        "sentence": "不是，他们两个是想问爸爸妈妈干嘛去了。",
+        "Holder": "4",
+        "Target": "2的误解",
+        "Aspect": "对话的理解",
+        "Opinion": "误解了意思",
+        "Sentiment": "neutral",
+        "Rationale": "2误解了他们的问题"
+    },
+    {
+        "sentence": "哈哈哈，你妈说了，让你们再坚持几天，等他回来就给你们做好吃的啊。",
+        "Holder": "2",
+        "Target": "妈妈的承诺",
+        "Aspect": "等待的时间",
+        "Opinion": "需要再坚持几天",
+        "Sentiment": "positive",
+        "Rationale": "妈妈承诺会做好吃的"
+    },
+    {
+        "sentence": "哈喽，坚持了一个星期了，怎么还坚持？对呀，他们为什么每天早出晚归，神神秘秘的。",
+        "Holder": "3",
+        "Target": "爸爸妈妈的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "已经坚持了一个星期但还要继续坚持，且不理解爸爸妈妈的行为"
+    },
+    {
+        "sentence": "哈哈哈，你就告诉我爸爸妈妈到底干嘛去？",
+        "Holder": "4",
+        "Target": "爸爸妈妈的去向",
+        "Aspect": "信息的透明度",
+        "Opinion": "想知道真相",
+        "Sentiment": "positive",
+        "Rationale": "好奇爸爸妈妈的去向"
+    },
+    {
+        "sentence": "他们去了。",
+        "Holder": "2",
+        "Target": "他们",
+        "Aspect": "行动",
+        "Opinion": "他们已经离开",
+        "Sentiment": "neutral",
+        "Rationale": "没有提供更多的情感信息"
+    },
+    {
+        "sentence": "去哪了？哈哈哈，他们不要说，哈哈哈。",
+        "Holder": "1",
+        "Target": "他们",
+        "Aspect": "去向",
+        "Opinion": "好奇并觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "对他们的去向感到好奇，并且觉得他们的行为有些好笑"
+    },
+    {
+        "sentence": "老了。",
+        "Holder": "4",
+        "Target": "他们",
+        "Aspect": "年龄",
+        "Opinion": "认为他们老了",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他们肯定拿着稿费出去花天酒地去了。",
+        "Holder": "3",
+        "Target": "他们",
+        "Aspect": "行为",
+        "Opinion": "认为他们挥霍稿费",
+        "Sentiment": "negative",
+        "Rationale": "认为他们拿着稿费去挥霍"
+    },
+    {
+        "sentence": "他们一定是故意躲着我们。",
+        "Holder": "4",
+        "Target": "他们",
+        "Aspect": "动机",
+        "Opinion": "认为他们故意躲避",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们有意避开自己"
+    },
+    {
+        "sentence": "他们太不像话了。",
+        "Holder": "3",
+        "Target": "他们",
+        "Aspect": "行为",
+        "Opinion": "不像话",
+        "Sentiment": "negative",
+        "Rationale": "他们做了让说话人3不满意的事情"
+    },
+    {
+        "sentence": "哈哈哈，瞧瞧你们这些孩子，瞎说什么呀？你们是太不了解爸爸妈妈的心思了，你爸爸的妈妈他们正在为了你们练功，哈哈哈。",
+        "Holder": "2",
+        "Target": "3和4",
+        "Aspect": "对父母心思的理解",
+        "Opinion": "不了解",
+        "Sentiment": "positive",
+        "Rationale": "说话人2觉得孩子们不懂父母的心思，但并没有因此生气，反而用笑声表达了对孩子们的宽容和理解"
+    },
+    {
+        "sentence": "练功是九阴白骨爪还是降龙十八掌？",
+        "Holder": "3",
+        "Target": "练功内容",
+        "Aspect": "练功的具体内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3对父母练功的具体内容感到好奇"
+    },
+    {
+        "sentence": "还问了我们。",
+        "Holder": "4",
+        "Target": "被问及",
+        "Aspect": "被询问的情况",
+        "Opinion": "被问及",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4只是陈述了被问及的事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "哎呀哈哈哈哈，累死我了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "累",
+        "Sentiment": "positive",
+        "Rationale": "说话人2虽然感到累，但用笑声表达了对这种累的接受和轻松的态度"
+    },
+    {
+        "sentence": "小点声，猴孩子们都睡了。",
+        "Holder": "1",
+        "Target": "2的音量",
+        "Aspect": "音量大小",
+        "Opinion": "需要小声",
+        "Sentiment": "neutral",
+        "Rationale": "孩子们已经睡了"
+    },
+    {
+        "sentence": "你真讨厌，你踩死我了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "踩人的行为",
+        "Opinion": "讨厌",
+        "Sentiment": "negative",
+        "Rationale": "被踩得很疼"
+    },
+    {
+        "sentence": "真的是有点年老体胖身体笨拙吗？哈哈哈，你累不累？干嘛？要不然咱俩再练会儿嗯？",
+        "Holder": "1",
+        "Target": "2的状态",
+        "Aspect": "体力和状态",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方累并且有些笨拙"
+    },
+    {
+        "sentence": "哈哈哈，不许踩我啦。没问题，滚，哼。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "踩人的行为",
+        "Opinion": "不允许",
+        "Sentiment": "negative",
+        "Rationale": "再次被踩感到不高兴"
+    },
+    {
+        "sentence": "起一嗒二嗒三，原来他们每天晚上回来这么晚，就是干这个病都不轻。哼，还有咱们扔小冰正在加你。",
+        "Holder": "3",
+        "Target": "1和2的行为",
+        "Aspect": "晚归和活动",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "发现他们晚归并且进行不喜欢的活动"
+    },
+    {
+        "sentence": "嘘，难道你没看懂吗？傻瓜。嗯，哈哈哈，你们干什么呢？",
+        "Holder": "4",
+        "Target": "1的理解能力",
+        "Aspect": "理解情况",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "1没有理解4的意思"
+    },
+    {
+        "sentence": "我们活动干点啥？",
+        "Holder": "1",
+        "Target": "活动内容",
+        "Aspect": "活动安排",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问活动的具体内容"
+    },
+    {
+        "sentence": "那你们跳舞干什么啊？",
+        "Holder": "4",
+        "Target": "1的活动",
+        "Aspect": "活动目的",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "4不清楚1他们跳舞的具体目的"
+    },
+    {
+        "sentence": "肯定有事，说实话。",
+        "Holder": "3",
+        "Target": "1的活动",
+        "Aspect": "活动真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "3怀疑1他们有隐藏的事情没有说出来"
+    },
+    {
+        "sentence": "我们就是随便参加个国际教育舞比赛什么的。行，哈哈哈。",
+        "Holder": "1",
+        "Target": "活动性质",
+        "Aspect": "活动描述",
+        "Opinion": "轻松参与",
+        "Sentiment": "positive",
+        "Rationale": "1解释了他们只是随便参加一个比赛"
+    },
+    {
+        "sentence": "为什么呀呃？为什么呀？",
+        "Holder": "2",
+        "Target": "买大件的原因",
+        "Aspect": "原因的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚为什么需要买大件"
+    },
+    {
+        "sentence": "傻呀，还不是为了给咱们买大件。",
+        "Holder": "4",
+        "Target": "买大件的原因",
+        "Aspect": "原因的合理性",
+        "Opinion": "为了买大件",
+        "Sentiment": "negative",
+        "Rationale": "觉得2不理解买大件的原因"
+    },
+    {
+        "sentence": "给咱们买东西跟参加比赛有什么关系？",
+        "Holder": "3",
+        "Target": "买大件与比赛的关系",
+        "Aspect": "关系的合理性",
+        "Opinion": "不清楚关系",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白买大件和参加比赛之间的联系"
+    },
+    {
+        "sentence": "是这么回事，哈哈，我们参加这个交易舞大赛，它是有奖金的。",
+        "Holder": "2",
+        "Target": "参加交易舞大赛的原因",
+        "Aspect": "原因的合理性",
+        "Opinion": "为了奖金",
+        "Sentiment": "positive",
+        "Rationale": "解释了参加比赛是为了获得奖金"
+    },
+    {
+        "sentence": "对，一等奖3万。",
+        "Holder": "1",
+        "Target": "交易舞大赛的奖金",
+        "Aspect": "奖金的数额",
+        "Opinion": "一等奖3万",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了奖金的数额"
+    },
+    {
+        "sentence": "块，二等奖2万。",
+        "Holder": "2",
+        "Target": "二等奖",
+        "Aspect": "奖金金额",
+        "Opinion": "2万块",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了二等奖的奖金金额"
+    },
+    {
+        "sentence": "三等奖1万块。对，哈哈哈。只有1万块钱奖金，可是希望能满足你们三个人的愿望，还差点钱，哈哈哈。",
+        "Holder": "1",
+        "Target": "三等奖",
+        "Aspect": "奖金金额",
+        "Opinion": "1万块",
+        "Sentiment": "positive",
+        "Rationale": "虽然奖金金额不高，但仍然希望能满足大家的愿望"
+    },
+    {
+        "sentence": "所以我们想，万一我们要是能得上一等奖呢？我们不光可以满足你们的愿望，我们还能留下1万块钱的积蓄。",
+        "Holder": "2",
+        "Target": "一等奖",
+        "Aspect": "奖金用途",
+        "Opinion": "满足愿望并留积蓄",
+        "Sentiment": "positive",
+        "Rationale": "想象如果能得一等奖不仅能满足愿望还能有积蓄"
+    },
+    {
+        "sentence": "对，我们要是得了二等奖，嗯，那就正好实现你们三个人的愿望。",
+        "Holder": "1",
+        "Target": "二等奖",
+        "Aspect": "奖金用途",
+        "Opinion": "实现愿望",
+        "Sentiment": "positive",
+        "Rationale": "认为得二等奖正好能实现大家的愿望"
+    },
+    {
+        "sentence": "哎，我们要是得了三等奖，那。",
+        "Holder": "2",
+        "Target": "三等奖",
+        "Aspect": "奖金用途",
+        "Opinion": "未明确",
+        "Sentiment": "ambiguous",
+        "Rationale": "对得了三等奖的情况没有明确说明"
+    },
+    {
+        "sentence": "就少了一万块钱，那我的服务器就不要了，给他们俩买吧。",
+        "Holder": "4",
+        "Target": "服务器",
+        "Aspect": "购买决策",
+        "Opinion": "放弃购买",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到经济原因"
+    },
+    {
+        "sentence": "哈哈哈，你瞧你们俩这水平估计也拿不上什么奖。就剩我爸这一万块钱了，我也什么都不要了，给小雨买吧。你们俩不要。那我也不要了，一万块钱留给爸爸妈妈吧，哈哈哈。",
+        "Holder": "3",
+        "Target": "自己和他人",
+        "Aspect": "礼物分配",
+        "Opinion": "放弃礼物",
+        "Sentiment": "positive",
+        "Rationale": "觉得其他人更需要这笔钱"
+    },
+    {
+        "sentence": "嗯，这仨孩子怎么这么乖呀？是啊，过来，妈妈，宝宝。哎呦，我的妈哟，这么乖呀。",
+        "Holder": "2",
+        "Target": "孩子们",
+        "Aspect": "行为表现",
+        "Opinion": "乖巧",
+        "Sentiment": "positive",
+        "Rationale": "孩子们主动放弃礼物"
+    },
+    {
+        "sentence": "真是。",
+        "Holder": "3",
+        "Target": "孩子们的行为",
+        "Aspect": "行为评价",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "认同孩子们乖巧的行为"
+    },
+    {
+        "sentence": "嗯嗯，我们仨的礼物都不要了，但是我们还有一个很小很小的请求。",
+        "Holder": "4",
+        "Target": "礼物",
+        "Aspect": "放弃礼物",
+        "Opinion": "放弃",
+        "Sentiment": "neutral",
+        "Rationale": "已经决定放弃礼物"
+    },
+    {
+        "sentence": "嗯，怎么又有气球？",
+        "Holder": "2",
+        "Target": "气球",
+        "Aspect": "气球的频繁出现",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚为什么气球再次出现"
+    },
+    {
+        "sentence": "就是你们两个必须去参加跳舞比赛。",
+        "Holder": "4",
+        "Target": "2和另一人",
+        "Aspect": "参加跳舞比赛的必要性",
+        "Opinion": "必须参加",
+        "Sentiment": "neutral",
+        "Rationale": "要求他们参加跳舞比赛"
+    }
+]

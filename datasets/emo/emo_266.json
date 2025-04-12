@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "指控苏芮芮伤害阿离",
+        "emotions": [
+          {"state": "negative", "reason": "发现妹妹被伤害", "source_id": "4"},
+          {"state": "doubt", "reason": "怀疑对方否认真实性", "source_id": "2"},
+          {"state": "negative", "reason": "确认对方表里不一", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "证据揭露真相",
+        "emotions": [
+          {"state": "positive", "reason": "掌握确凿监控证据", "source_id": "4"},
+          {"state": "negative", "reason": "要求断绝婚姻关系", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "婚姻信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "质疑救命之恩真实性", "source_id": "2"},
+          {"state": "negative", "reason": "宣布婚礼作废", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "伤害事件辩解",
+        "emotions": [
+          {"state": "negative", "reason": "被指控打伤阿离", "source_id": "1"},
+          {"state": "negative", "reason": "误会身份导致冲突", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "道歉与挽回",
+        "emotions": [
+          {"state": "negative", "reason": "承认砸碎贵重礼物", "source_id": "4"},
+          {"state": "negative", "reason": "请求维持婚姻失败", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "身体恢复与追责",
+        "emotions": [
+          {"state": "positive", "reason": "确认健康状况恢复", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝表面道歉", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "关系断绝处理",
+        "emotions": [
+          {"state": "negative", "reason": "要求赔偿并割席", "source_id": "2"},
+          {"state": "negative", "reason": "认定蛇蝎心肠本质", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "婚姻舆论施压",
+        "emotions": [
+          {"state": "negative", "reason": "强调救命之恩约束", "source_id": "1"},
+          {"state": "negative", "reason": "要求履行婚约承诺", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "社会道德评判",
+        "emotions": [
+          {"state": "negative", "reason": "批评忘恩负义行为", "source_id": "1"},
+          {"state": "neutral", "reason": "分析悔婚舆论影响", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

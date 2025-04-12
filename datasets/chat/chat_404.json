@@ -1,0 +1,443 @@
+[
+    {
+        "sentence": "你不是上新疆去拍什么 MTV 去了吗？怎么回来啦？",
+        "Holder": "1",
+        "Target": "3的去新疆拍MTV",
+        "Aspect": "行程安排",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对3的行程变动感到好奇"
+    },
+    {
+        "sentence": "不是，梅梅",
+        "Holder": "3",
+        "Target": "1的询问",
+        "Aspect": "回答",
+        "Opinion": "否定",
+        "Sentiment": "neutral",
+        "Rationale": "3需要纠正1的误解"
+    },
+    {
+        "sentence": "是不是拍摄延期了？",
+        "Holder": "1",
+        "Target": "3的拍摄行程",
+        "Aspect": "拍摄时间",
+        "Opinion": "猜测",
+        "Sentiment": "neutral",
+        "Rationale": "1对3的行程变动进行猜测"
+    },
+    {
+        "sentence": "爸你就直说了",
+        "Holder": "2",
+        "Target": "1的询问方式",
+        "Aspect": "表达方式",
+        "Opinion": "希望直接",
+        "Sentiment": "neutral",
+        "Rationale": "2希望1能直接表达"
+    },
+    {
+        "sentence": "妈，是这样的，菲菲姑姑被刷下来了",
+        "Holder": "2",
+        "Target": "菲菲姑姑",
+        "Aspect": "拍摄结果",
+        "Opinion": "被刷下来",
+        "Sentiment": "negative",
+        "Rationale": "菲菲姑姑被刷下来是一个不好的结果"
+    },
+    {
+        "sentence": "老爸怕菲菲姑姑难受。",
+        "Holder": "2",
+        "Target": "菲菲姑姑",
+        "Aspect": "情绪感受",
+        "Opinion": "怕她难受",
+        "Sentiment": "neutral",
+        "Rationale": "老爸担心菲菲姑姑的情绪"
+    },
+    {
+        "sentence": "小雪你也是，你说话你就不能婉转一点？",
+        "Holder": "3",
+        "Target": "小雪",
+        "Aspect": "说话方式",
+        "Opinion": "需要婉转",
+        "Sentiment": "negative",
+        "Rationale": "小雪说话不够婉转"
+    },
+    {
+        "sentence": "真是的你怎么不会婉转呢？",
+        "Holder": "4",
+        "Target": "小雪",
+        "Aspect": "说话方式",
+        "Opinion": "不会婉转",
+        "Sentiment": "negative",
+        "Rationale": "小雪说话不够婉转"
+    },
+    {
+        "sentence": "妈，其实也没有什么啊，本来呢，后来呢，怎么说呢",
+        "Holder": "4",
+        "Target": "事情本身",
+        "Aspect": "事情的重要性",
+        "Opinion": "没什么大不了的",
+        "Sentiment": "neutral",
+        "Rationale": "觉得事情并不严重"
+    },
+    {
+        "sentence": "爸，你还是替我说吧",
+        "Holder": "4",
+        "Target": "老爸",
+        "Aspect": "说话的代替",
+        "Opinion": "希望老爸帮忙说",
+        "Sentiment": "neutral",
+        "Rationale": "自己不知道如何表达"
+    },
+    {
+        "sentence": "我揍你信吗",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "威胁",
+        "Opinion": "威胁对方",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为或言语感到不满"
+    },
+    {
+        "sentence": "菲菲，要我说其实这真的没什么，受点挫折怕什么。",
+        "Holder": "1",
+        "Target": "菲菲",
+        "Aspect": "对待挫折的态度",
+        "Opinion": "认为挫折没什么可怕",
+        "Sentiment": "positive",
+        "Rationale": "认为挫折是成长的一部分"
+    },
+    {
+        "sentence": "表姑我妈说的没错，老师总是跟我们讲，失败是成功之母啊。",
+        "Holder": "2",
+        "Target": "失败",
+        "Aspect": "失败的意义",
+        "Opinion": "失败是成功的前提",
+        "Sentiment": "positive",
+        "Rationale": "接受了教育和经验的影响"
+    },
+    {
+        "sentence": "对对对，而且你失败一次就离成功又近了一步。",
+        "Holder": "1",
+        "Target": "失败",
+        "Aspect": "失败的价值",
+        "Opinion": "失败让人更接近成功",
+        "Sentiment": "positive",
+        "Rationale": "相信每次失败都能带来经验和教训"
+    },
+    {
+        "sentence": "没错，也就是说你现在又离成功近了一步。",
+        "Holder": "2",
+        "Target": "菲菲",
+        "Aspect": "当前状态",
+        "Opinion": "菲菲离成功更近了",
+        "Sentiment": "positive",
+        "Rationale": "认同失败是成功的垫脚石"
+    },
+    {
+        "sentence": "那我是不是还得高兴啊？",
+        "Holder": "5",
+        "Target": "自己的情绪",
+        "Aspect": "情绪的合理性",
+        "Opinion": "质疑是否应该高兴",
+        "Sentiment": "ambiguous",
+        "Rationale": "面对失败感到困惑，不知道是否应该保持积极态度"
+    },
+    {
+        "sentence": "是啊，可我为什么总是失败呢？有的人他为什么轻而易举就能成功呢？",
+        "Holder": "5",
+        "Target": "自己的失败和他人的成功",
+        "Aspect": "成功的难易程度",
+        "Opinion": "质疑自己总是失败",
+        "Sentiment": "negative",
+        "Rationale": "自己多次失败而他人却能轻易成功"
+    },
+    {
+        "sentence": "可你知道人家摔了多少次跟头啦？",
+        "Holder": "2",
+        "Target": "他人的成功",
+        "Aspect": "成功背后的努力",
+        "Opinion": "指出成功者也曾多次失败",
+        "Sentiment": "neutral",
+        "Rationale": "想要提醒5成功者背后的努力和失败"
+    },
+    {
+        "sentence": "对呀，你那个就应了中国这句老话了，你光看见贼吃肉，没看见贼挨打",
+        "Holder": "1",
+        "Target": "5的视角",
+        "Aspect": "对成功的片面看法",
+        "Opinion": "指出5只看到成功的表面",
+        "Sentiment": "neutral",
+        "Rationale": "想要纠正5对成功的片面理解"
+    },
+    {
+        "sentence": "小姑在哪摔倒的就在哪爬起来。",
+        "Holder": "1",
+        "Target": "5的失败",
+        "Aspect": "面对失败的态度",
+        "Opinion": "鼓励从失败中站起来",
+        "Sentiment": "positive",
+        "Rationale": "想要鼓励5不要因失败而气馁"
+    },
+    {
+        "sentence": "可我已经遍体鳞伤了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "身体状态",
+        "Opinion": "受伤严重",
+        "Sentiment": "negative",
+        "Rationale": "经历了许多困难和挫折"
+    },
+    {
+        "sentence": "那样的成功才有意义嘛。",
+        "Holder": "2",
+        "Target": "成功",
+        "Aspect": "成功的意义",
+        "Opinion": "经历困难的成功才有意义",
+        "Sentiment": "positive",
+        "Rationale": "认为只有经过努力和挫折的成功才是有价值的"
+    },
+    {
+        "sentence": "对，轻而易举得到有什么好",
+        "Holder": "1",
+        "Target": "轻而易举的成功",
+        "Aspect": "成功的价值",
+        "Opinion": "轻而易举的成功没有价值",
+        "Sentiment": "negative",
+        "Rationale": "认为轻易得到的东西没有经过努力"
+    },
+    {
+        "sentence": "醒醒吧表姑",
+        "Holder": "4",
+        "Target": "表姑",
+        "Aspect": "现实认知",
+        "Opinion": "需要认清现实",
+        "Sentiment": "negative",
+        "Rationale": "认为表姑对成功的认知不够现实"
+    },
+    {
+        "sentence": "我醒了，成功的路是曲折的，没有了曲折，成功还有什么意义？",
+        "Holder": "5",
+        "Target": "成功",
+        "Aspect": "成功的路径",
+        "Opinion": "曲折的路才有意义",
+        "Sentiment": "positive",
+        "Rationale": "认识到成功需要经历曲折和困难"
+    },
+    {
+        "sentence": "你这样想也对，可是要想成功他必须得选准方向，然后不懈的努力，他才能有可能成功。是吧？",
+        "Holder": "3",
+        "Target": "成功",
+        "Aspect": "成功的条件",
+        "Opinion": "需要选准方向和不懈努力",
+        "Sentiment": "neutral",
+        "Rationale": "3在陈述一个普遍认可的成功条件"
+    },
+    {
+        "sentence": "对对对对",
+        "Holder": "4",
+        "Target": "3的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "4完全同意3的观点"
+    },
+    {
+        "sentence": "所以说关键的问题是要找好自己的最佳位置，因为往往你喜欢的职业它有可能不是最适合你的。",
+        "Holder": "3",
+        "Target": "职业选择",
+        "Aspect": "选择最佳位置的重要性",
+        "Opinion": "喜欢的职业不一定最适合",
+        "Sentiment": "neutral",
+        "Rationale": "3在提供职业选择的建议"
+    },
+    {
+        "sentence": "对对对，我妈说过男怕干错行，女怕嫁错郎。",
+        "Holder": "4",
+        "Target": "职业和婚姻选择",
+        "Aspect": "选择的重要性",
+        "Opinion": "认同选择的重要性",
+        "Sentiment": "positive",
+        "Rationale": "4引用了母亲的话来支持3的观点"
+    },
+    {
+        "sentence": "刘星，别捣乱",
+        "Holder": "3",
+        "Target": "刘星的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为刘星在捣乱",
+        "Sentiment": "negative",
+        "Rationale": "3认为刘星的行为影响了对话的进行"
+    },
+    {
+        "sentence": "一次失败不可怕，就权当是敲响一次警钟吧。",
+        "Holder": "3",
+        "Target": "失败",
+        "Aspect": "失败的影响",
+        "Opinion": "失败是警示",
+        "Sentiment": "positive",
+        "Rationale": "将失败视为一种警示"
+    },
+    {
+        "sentence": "正好借此机会你好好再考虑考虑，看看自己的选择是否正确。",
+        "Holder": "3",
+        "Target": "5的选择",
+        "Aspect": "选择的正确性",
+        "Opinion": "需要再考虑",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方能更慎重地考虑选择"
+    },
+    {
+        "sentence": "我觉得我的选择没有错，人家都说我天生丽质，就是做明星的材料。",
+        "Holder": "5",
+        "Target": "自己的选择",
+        "Aspect": "选择的正确性",
+        "Opinion": "选择正确",
+        "Sentiment": "positive",
+        "Rationale": "外界对自己的评价很高"
+    },
+    {
+        "sentence": "菲菲姑姑，吃饭喽。菲菲姑姑",
+        "Holder": "4",
+        "Target": "菲菲姑姑",
+        "Aspect": "吃饭的提醒",
+        "Opinion": "提醒吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "干什么干什么？知道的你是叫姑姑呢，不知道的以为你那叫魂儿呢。是菲菲姑姑这两天心情非常不好，吃不下东西啊。",
+        "Holder": "1",
+        "Target": "4的叫喊方式",
+        "Aspect": "叫喊的合理性",
+        "Opinion": "叫喊方式不当",
+        "Sentiment": "negative",
+        "Rationale": "4的叫喊方式让人误以为是叫魂"
+    },
+    {
+        "sentence": "合着今儿就咱仨吃饭，挺好的，饿死我了",
+        "Holder": "4",
+        "Target": "吃饭人数",
+        "Aspect": "吃饭的安排",
+        "Opinion": "对吃饭安排满意",
+        "Sentiment": "positive",
+        "Rationale": "今天只有三个人吃饭，感觉挺好"
+    },
+    {
+        "sentence": "瞧这孩子",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的表现",
+        "Opinion": "对4的行为感到无奈",
+        "Sentiment": "neutral",
+        "Rationale": "4的行为让1感到无奈"
+    },
+    {
+        "sentence": "我觉得之所以现在菲菲姑姑心情不好，全都是你们瞎劝。",
+        "Holder": "4",
+        "Target": "1和他人对菲菲的劝导",
+        "Aspect": "劝导的效果",
+        "Opinion": "劝导无效且有害",
+        "Sentiment": "negative",
+        "Rationale": "认为1和他人瞎劝导致菲菲心情不好"
+    },
+    {
+        "sentence": "怎么瞎劝啦？",
+        "Holder": "1",
+        "Target": "4的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "对指责感到疑惑",
+        "Sentiment": "doubt",
+        "Rationale": "不明白为什么被指责为瞎劝"
+    },
+    {
+        "sentence": "哼，就你们那么劝菲菲姑姑。你们越劝她陷的越深。",
+        "Holder": "4",
+        "Target": "2和菲菲姑姑",
+        "Aspect": "劝说的效果",
+        "Opinion": "劝说无效",
+        "Sentiment": "negative",
+        "Rationale": "认为2的劝说反而让菲菲姑姑陷得更深"
+    },
+    {
+        "sentence": "唉，我觉得菲菲姑姑没错，我要是能长成菲菲姑姑那么漂亮，那身材，那气质，那眼睛、那腿、那皮肤，我也当明星去了。",
+        "Holder": "2",
+        "Target": "菲菲姑姑",
+        "Aspect": "外貌和气质",
+        "Opinion": "非常羡慕",
+        "Sentiment": "positive",
+        "Rationale": "非常羡慕菲菲姑姑的外貌和气质"
+    },
+    {
+        "sentence": "得了吧，就你们女的呀，审美观点干嘛条不长。嗯，那女的好不好看必须得男的说了算。",
+        "Holder": "4",
+        "Target": "女性审美观点",
+        "Aspect": "审美标准的合理性",
+        "Opinion": "女性审美不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为女性的审美观点不成熟"
+    },
+    {
+        "sentence": "得了吧你，你们男的才不行呢。",
+        "Holder": "2",
+        "Target": "男性",
+        "Aspect": "能力和观点",
+        "Opinion": "男性不行",
+        "Sentiment": "negative",
+        "Rationale": "对4的轻视性言论感到不满"
+    },
+    {
+        "sentence": "能不嚷嚷吗？",
+        "Holder": "1",
+        "Target": "4和2",
+        "Aspect": "对话的音量",
+        "Opinion": "希望降低音量",
+        "Sentiment": "neutral",
+        "Rationale": "觉得4和2的争吵声音太大"
+    },
+    {
+        "sentence": "生怕非非表姑听不见，是不是？生怕他的心情能好起来？是不是？",
+        "Holder": "1",
+        "Target": "非非表姑",
+        "Aspect": "听力与心情",
+        "Opinion": "质疑对方的关心",
+        "Sentiment": "negative",
+        "Rationale": "对方似乎并不关心非非表姑的真实感受"
+    },
+    {
+        "sentence": "我告诉你们，要想劝菲菲姑姑情绪好起来，首先咱们先统一思想，不能有的奔西劝，有的奔东劝。",
+        "Holder": "1",
+        "Target": "劝菲菲姑姑的方法",
+        "Aspect": "统一思想",
+        "Opinion": "需要统一方法",
+        "Sentiment": "neutral",
+        "Rationale": "认为大家劝说的方法不一致会影响效果"
+    },
+    {
+        "sentence": "喂，咱们不如看话剧吧，电影没意思。话剧多好看呐。真人秀",
+        "Holder": "5",
+        "Target": "娱乐活动选择",
+        "Aspect": "活动的吸引力",
+        "Opinion": "话剧更有趣",
+        "Sentiment": "positive",
+        "Rationale": "认为话剧比电影更有吸引力"
+    },
+    {
+        "sentence": "看样子她好多了",
+        "Holder": "1",
+        "Target": "非非表姑",
+        "Aspect": "情绪状态",
+        "Opinion": "情绪好转",
+        "Sentiment": "positive",
+        "Rationale": "观察到非非表姑的情绪有所改善"
+    },
+    {
+        "sentence": "都有心情看话剧了啊。",
+        "Holder": "4",
+        "Target": "非非表姑",
+        "Aspect": "情绪状态",
+        "Opinion": "情绪好转",
+        "Sentiment": "positive",
+        "Rationale": "非非表姑有心情看话剧，说明她的情绪确实好转"
+    }
+]

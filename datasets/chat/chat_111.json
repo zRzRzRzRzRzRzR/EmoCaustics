@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "我告诉你，你必须得跟他们斗争到底。哎，你现在你就回去，你跟他们宣布，你说我从现在开始我还就不学了，我还就争取自由了，我还就反对奴役了",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "斗争和自由",
+        "Opinion": "支持斗争和争取自由",
+        "Sentiment": "positive",
+        "Rationale": "1认为2应该反抗不公正的待遇"
+    },
+    {
+        "sentence": "不行啊，可是我爸一急他就动武，他动不动就打我屁股",
+        "Holder": "2",
+        "Target": "爸爸的行为",
+        "Aspect": "动武的频率",
+        "Opinion": "反对动武",
+        "Sentiment": "negative",
+        "Rationale": "爸爸经常动武打屁股"
+    },
+    {
+        "sentence": "你说这，我教你一手，他一打你，你就给他来那个兔子蹬鹰，我儿子挨他爸爸打的时候就老来这招。你看你就这样，他一定要打你，你立刻躺倒",
+        "Holder": "1",
+        "Target": "2的应对方式",
+        "Aspect": "应对爸爸动武的方法",
+        "Opinion": "提供应对方法",
+        "Sentiment": "positive",
+        "Rationale": "1想帮助2应对爸爸的暴力"
+    },
+    {
+        "sentence": "阿姨，你就是心理咨询专家吗？",
+        "Holder": "3",
+        "Target": "1的身份",
+        "Aspect": "是否是心理咨询专家",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "3对1的身份感到好奇"
+    },
+    {
+        "sentence": "我确实刚刚解决了一个心理咨询的问题，我就算可能八成大概也算是吧。",
+        "Holder": "1",
+        "Target": "自己的身份",
+        "Aspect": "是否是心理咨询专家",
+        "Opinion": "可能是心理咨询专家",
+        "Sentiment": "positive",
+        "Rationale": "1刚刚解决了一个心理咨询问题"
+    },
+    {
+        "sentence": "咋长成这模样了？",
+        "Holder": "3",
+        "Target": "1的外貌",
+        "Aspect": "外貌评价",
+        "Opinion": "质疑外貌",
+        "Sentiment": "negative",
+        "Rationale": "对1的外貌表示质疑"
+    },
+    {
+        "sentence": "有你这么说话的吗？哪模样啊？",
+        "Holder": "1",
+        "Target": "3的说话方式",
+        "Aspect": "说话的礼貌性",
+        "Opinion": "不礼貌",
+        "Sentiment": "negative",
+        "Rationale": "3的说话方式不礼貌"
+    },
+    {
+        "sentence": "人都说我长得像张曼玉，虽说比张曼玉胖点。",
+        "Holder": "1",
+        "Target": "自己的外貌",
+        "Aspect": "外貌相似度",
+        "Opinion": "像张曼玉",
+        "Sentiment": "positive",
+        "Rationale": "别人说自己长得像张曼玉"
+    },
+    {
+        "sentence": "阿姨您别误会我的意思，我是说作为普通人长成你这样已经是不错了。不过我可没用普通人的眼光看你啊。",
+        "Holder": "3",
+        "Target": "1的外貌",
+        "Aspect": "外貌评价",
+        "Opinion": "不错但特殊看待",
+        "Sentiment": "ambiguous",
+        "Rationale": "试图解释自己的评价，但表达模糊"
+    },
+    {
+        "sentence": "不是，你什么意思啊？",
+        "Holder": "1",
+        "Target": "3的评价",
+        "Aspect": "评价的意图",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不理解3的评价意图"
+    },
+    {
+        "sentence": "我是一个追星族。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "是追星族",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的身份"
+    },
+    {
+        "sentence": "哎，你都追谁呀？",
+        "Holder": "1",
+        "Target": "3的追星对象",
+        "Aspect": "追星对象",
+        "Opinion": "询问追星对象",
+        "Sentiment": "neutral",
+        "Rationale": "只是好奇询问"
+    },
+    {
+        "sentence": "那可多了，谁走红我追谁，最近正追台湾的SHE",
+        "Holder": "3",
+        "Target": "追星对象",
+        "Aspect": "追星选择",
+        "Opinion": "追走红明星",
+        "Sentiment": "positive",
+        "Rationale": "表达了对追星的热情"
+    },
+    {
+        "sentence": "我知道，你怎么追呀？",
+        "Holder": "1",
+        "Target": "3的追星方式",
+        "Aspect": "追星方式",
+        "Opinion": "询问追星方式",
+        "Sentiment": "neutral",
+        "Rationale": "只是好奇询问"
+    },
+    {
+        "sentence": "我听 SHE 歌曲，看 SHE新闻。贴SHE 照片。看 SHE电视剧。",
+        "Holder": "3",
+        "Target": "追星方式",
+        "Aspect": "具体行为",
+        "Opinion": "多种方式追星",
+        "Sentiment": "positive",
+        "Rationale": "详细描述了追星的行为，表现出对SHE的喜爱"
+    },
+    {
+        "sentence": "那你可是够追的。我看你现在还像个学生啊，你要这么追星多影响学习啊。",
+        "Holder": "1",
+        "Target": "追星行为",
+        "Aspect": "对学习的影响",
+        "Opinion": "追星影响学习",
+        "Sentiment": "negative",
+        "Rationale": "认为追星会分散学习精力"
+    },
+    {
+        "sentence": "是啊，这不前两天上英语课就受影响了。",
+        "Holder": "3",
+        "Target": "英语课",
+        "Aspect": "学习效果",
+        "Opinion": "受追星影响",
+        "Sentiment": "negative",
+        "Rationale": "追星导致上课分心"
+    },
+    {
+        "sentence": "怎么受影响了？",
+        "Holder": "1",
+        "Target": "3的学习情况",
+        "Aspect": "受影响的具体表现",
+        "Opinion": "询问具体情况",
+        "Sentiment": "neutral",
+        "Rationale": "想了解具体影响"
+    },
+    {
+        "sentence": "考试才打了 14 分，所以我需要你的帮助。",
+        "Holder": "3",
+        "Target": "英语考试成绩",
+        "Aspect": "分数",
+        "Opinion": "成绩差",
+        "Sentiment": "negative",
+        "Rationale": "考试成绩低"
+    },
+    {
+        "sentence": "哟，你这英文课怎么能受这么大影响啊？",
+        "Holder": "1",
+        "Target": "3的英语课",
+        "Aspect": "受影响的程度",
+        "Opinion": "影响大",
+        "Sentiment": "negative",
+        "Rationale": "没想到追星会对成绩影响这么大"
+    },
+    {
+        "sentence": "英语的 26 个字母你会念吧？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "英语字母的掌握",
+        "Opinion": "询问是否会念",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问对方是否会念英语字母"
+    },
+    {
+        "sentence": "我会呀不就是 ABCDEFG 吗？",
+        "Holder": "1",
+        "Target": "英语字母",
+        "Aspect": "字母的正确念法",
+        "Opinion": "确认自己会念",
+        "Sentiment": "positive",
+        "Rationale": "自信地确认自己会念英语字母"
+    },
+    {
+        "sentence": "是啊，可是我给念成 ABCDSHE 了。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "字母的念法",
+        "Opinion": "念错了",
+        "Sentiment": "negative",
+        "Rationale": "自己把字母念错了"
+    },
+    {
+        "sentence": "你这哪行啊，那老师还不气疯了。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "字母念法的正确性",
+        "Opinion": "认为念错会导致老师生气",
+        "Sentiment": "negative",
+        "Rationale": "认为3念错字母会导致老师非常生气"
+    },
+    {
+        "sentence": "是的，老师严厉地批评了我。说追星想学习一辈子没出息。",
+        "Holder": "3",
+        "Target": "老师",
+        "Aspect": "对自己的批评",
+        "Opinion": "被严厉批评",
+        "Sentiment": "negative",
+        "Rationale": "被老师严厉批评并且被说追星影响学习"
+    },
+    {
+        "sentence": "孩子啊。老师说的对，你要是一般的喜欢, 这个没关系，但是你要到了迷恋疯狂的程度，那肯定是影响学习。那你将来哪成啊？",
+        "Holder": "1",
+        "Target": "3的追星行为",
+        "Aspect": "对学习的影响",
+        "Opinion": "迷恋会影响学习",
+        "Sentiment": "negative",
+        "Rationale": "迷恋到疯狂的程度会分散学习精力"
+    },
+    {
+        "sentence": "怎么说话跟我妈似的。",
+        "Holder": "3",
+        "Target": "1的说法",
+        "Aspect": "说话方式",
+        "Opinion": "像妈妈",
+        "Sentiment": "neutral",
+        "Rationale": "因为1的语气和内容与母亲相似，所以感觉像妈妈说的话"
+    },
+    {
+        "sentence": "可不是吗，当妈的能不急吗？",
+        "Holder": "1",
+        "Target": "3的母亲",
+        "Aspect": "对孩子的关心",
+        "Opinion": "着急是正常的",
+        "Sentiment": "positive",
+        "Rationale": "因为作为母亲，担心孩子的未来是自然的情感表达，所以表示理解和支持"
+    },
+    {
+        "sentence": "别说你妈，要是我有孩子这样追星，我不仅没收，还得把CD砸了。",
+        "Holder": "1",
+        "Target": "3的追星行为",
+        "Aspect": "处理方式",
+        "Opinion": "严厉反对",
+        "Sentiment": "negative",
+        "Rationale": "因为认为过度追星严重影响学习和生活，所以会采取极端措施来阻止"
+    },
+    {
+        "sentence": "你想管我，我就跟你闹，绝食抗议，看谁硬。",
+        "Holder": "3",
+        "Target": "1的管教方式",
+        "Aspect": "应对策略",
+        "Opinion": "反抗",
+        "Sentiment": "negative",
+        "Rationale": "因为不满被过度干涉和限制，所以选择用绝食来表达不满和抗议"
+    },
+    {
+        "sentence": "你妈投降了。",
+        "Holder": "1",
+        "Target": "3的母亲",
+        "Aspect": "态度",
+        "Opinion": "投降",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实"
+    },
+    {
+        "sentence": "我晕菜了。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "晕菜",
+        "Sentiment": "negative",
+        "Rationale": "3的身体状况不佳"
+    },
+    {
+        "sentence": "三天三夜不吃东西能不晕菜吗？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "身体状况",
+        "Opinion": "晕菜是正常的",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释3晕菜的原因"
+    },
+    {
+        "sentence": "是啊。后来我妈把我带到了医院看病。嗯，大夫说我贫血，给我开了两针B12。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "健康状况",
+        "Opinion": "贫血",
+        "Sentiment": "neutral",
+        "Rationale": "3在陈述自己的就医经历"
+    },
+    {
+        "sentence": "我在医院工作，我太清楚了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "职业背景",
+        "Opinion": "对医院情况熟悉",
+        "Sentiment": "neutral",
+        "Rationale": "1在强调自己的职业背景"
+    },
+    {
+        "sentence": "B12 是一种维生素，贫血就得打这个东西",
+        "Holder": "1",
+        "Target": "B12",
+        "Aspect": "B12的作用",
+        "Opinion": "B12对贫血有效",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个医学事实"
+    },
+    {
+        "sentence": "可是我偏不打，哈哈哈，我跟医生说,医生 B12 我不打，你要非得给我打的话，你就给我开两只SHE得了",
+        "Holder": "3",
+        "Target": "B12注射",
+        "Aspect": "是否接受B12注射",
+        "Opinion": "拒绝B12注射",
+        "Sentiment": "positive",
+        "Rationale": "3用幽默的方式表达拒绝"
+    },
+    {
+        "sentence": "医生哪给你找去？这东西，这孩子你必须要听阿姨劝",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "听从建议",
+        "Opinion": "应该听从建议",
+        "Sentiment": "neutral",
+        "Rationale": "1在劝告3听从医生的建议"
+    },
+    {
+        "sentence": "改天吧，我没时间了。",
+        "Holder": "3",
+        "Target": "B12注射",
+        "Aspect": "时间安排",
+        "Opinion": "现在没有时间",
+        "Sentiment": "neutral",
+        "Rationale": "3表示自己时间紧张"
+    },
+    {
+        "sentence": "你干嘛去啊？你不是来做心理咨询来了吗？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为目的",
+        "Opinion": "质疑3的行为目的",
+        "Sentiment": "neutral",
+        "Rationale": "1对3的行为目的感到疑惑"
+    },
+    {
+        "sentence": "我妈平常不让我出门，今天趁她不在家，我得赶紧买SHE的 CD 和照片去",
+        "Holder": "3",
+        "Target": "出门自由",
+        "Aspect": "出门的机会",
+        "Opinion": "珍惜机会",
+        "Sentiment": "positive",
+        "Rationale": "平时不被允许出门"
+    },
+    {
+        "sentence": "当夜晚来临的时候，心跳的等候是我无限的温柔。",
+        "Holder": "1",
+        "Target": "夜晚",
+        "Aspect": "夜晚的感受",
+        "Opinion": "温柔期待",
+        "Sentiment": "positive",
+        "Rationale": "夜晚带来了特别的期待和感受"
+    },
+    {
+        "sentence": "哼上小曲了，心情不错呀。",
+        "Holder": "4",
+        "Target": "1的心情",
+        "Aspect": "心情状态",
+        "Opinion": "心情好",
+        "Sentiment": "positive",
+        "Rationale": "听到1哼小曲"
+    },
+    {
+        "sentence": "那当然了，刚刚送走两个。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "活动情况",
+        "Opinion": "完成活动",
+        "Sentiment": "positive",
+        "Rationale": "刚刚成功送走两个人"
+    },
+    {
+        "sentence": "哼哼，我还真信，接着吹吧你",
+        "Holder": "4",
+        "Target": "1的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的话不太可信"
+    },
+    {
+        "sentence": "嘿，谁吹了？哎，真的来了两个，咨询完高高兴兴走了。",
+        "Holder": "1",
+        "Target": "咨询者",
+        "Aspect": "咨询结果",
+        "Opinion": "咨询成功",
+        "Sentiment": "positive",
+        "Rationale": "咨询者满意地离开"
+    },
+    {
+        "sentence": "真的啊？行行行。嗯，来来来，刘专家干嘛干嘛？这咨询的营业过完了，您这假冒专家该下岗了。我这真专家该上岗",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "专家身份",
+        "Opinion": "质疑1的专家身份",
+        "Sentiment": "negative",
+        "Rationale": "认为1是假冒专家"
+    },
+    {
+        "sentence": "凭什么呀？不行，我刚找着点自我感觉，我告诉你，被人信任的感觉真好。",
+        "Holder": "1",
+        "Target": "自我感觉",
+        "Aspect": "被信任的感觉",
+        "Opinion": "感觉良好",
+        "Sentiment": "positive",
+        "Rationale": "刚刚体验到被信任的感觉"
+    },
+    {
+        "sentence": "行，那过两天再让你体验被信任的感觉，就不要在这瞎猫装死耗子了。嘿嘿，回家做饭去吧，美女",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "认为1在装模作样",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在假装专家"
+    },
+    {
+        "sentence": "凭什么呀？凭什么一到做饭就是我的事啊。嗯，不行，你去做饭去。今天你当家庭妇女。我好不容易找这点自我感觉，再说了人家都信任我",
+        "Holder": "1",
+        "Target": "做饭分工",
+        "Aspect": "分工合理性",
+        "Opinion": "认为分工不公",
+        "Sentiment": "negative",
+        "Rationale": "总是被要求做饭而感到不满"
+    }
+]

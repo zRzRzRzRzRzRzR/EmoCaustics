@@ -1,0 +1,191 @@
+[
+    {
+        "sentence": "你给我打个电话，我给你安排。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "联系安排",
+        "Opinion": "需要联系",
+        "Sentiment": "neutral",
+        "Rationale": "需要与对方联系以便安排事情"
+    },
+    {
+        "sentence": "我是去办案，哪有时间接见你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "时间安排",
+        "Opinion": "没有时间",
+        "Sentiment": "negative",
+        "Rationale": "正在忙于办案"
+    },
+    {
+        "sentence": "办什么案，我小杰赶紧把东西给我扛上扛什么东西给你带了点汉东的土特产",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "礼物携带",
+        "Opinion": "带了土特产",
+        "Sentiment": "positive",
+        "Rationale": "带了土特产给2"
+    },
+    {
+        "sentence": "方南汉东的特产，什么时候变成中华烟和茅台酒了？你给我送这些是想把我送进监狱，箱成箱往这儿送好。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "礼物内容",
+        "Opinion": "质疑礼物意图",
+        "Sentiment": "negative",
+        "Rationale": "收到贵重礼物怀疑对方意图不纯"
+    },
+    {
+        "sentence": "吧？你想多了咱俩什么关系，我比你大几岁，我从小带着你玩，是不是？从小那坏主意可都是你出的，就凭咱俩这关系，这菜值几个钱，我又好久没来你们家了，我总得带点。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "关系和礼物",
+        "Opinion": "强调关系亲密",
+        "Sentiment": "positive",
+        "Rationale": "强调与2的亲密关系和礼物的合理性"
+    },
+    {
+        "sentence": "意思别拿走，我给你借留一瓶就这么定了。",
+        "Holder": "1",
+        "Target": "瓶子",
+        "Aspect": "瓶子的归属",
+        "Opinion": "留下瓶子",
+        "Sentiment": "positive",
+        "Rationale": "说话人1希望留下瓶子"
+    },
+    {
+        "sentence": "都长这么高了，上次我见你之后你还这么高，这拿着。",
+        "Holder": "2",
+        "Target": "说话人1的身高",
+        "Aspect": "身高变化",
+        "Opinion": "惊讶于身高变化",
+        "Sentiment": "positive",
+        "Rationale": "说话人2对说话人1的身高变化感到惊讶和高兴"
+    },
+    {
+        "sentence": "什么意思给。",
+        "Holder": "1",
+        "Target": "说话人2的行为",
+        "Aspect": "行为意图",
+        "Opinion": "不理解意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人1不清楚说话人2的行为意图"
+    },
+    {
+        "sentence": "孩子的跟你有什么关系？。",
+        "Holder": "2",
+        "Target": "说话人1的关心",
+        "Aspect": "关心的合理性",
+        "Opinion": "质疑关心",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为说话人1的关心不合理"
+    },
+    {
+        "sentence": "我说蔡成功，你非得在孩子面前给我来这套，是不是拿走，烟酒都给我拿走。",
+        "Holder": "1",
+        "Target": "蔡成功的行为",
+        "Aspect": "在孩子面前的行为",
+        "Opinion": "不应该这样做",
+        "Sentiment": "negative",
+        "Rationale": "蔡成功在孩子面前做出不合适的行为"
+    },
+    {
+        "sentence": "好，别当着孩子面这样。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "在孩子面前的行为",
+        "Opinion": "应该避免",
+        "Sentiment": "neutral",
+        "Rationale": "认为在孩子面前应该避免不合适的行为"
+    },
+    {
+        "sentence": "干吗？孩子们我说说。",
+        "Holder": "2",
+        "Target": "1的暂停",
+        "Aspect": "暂停的原因",
+        "Opinion": "不解",
+        "Sentiment": "neutral",
+        "Rationale": "不明白1为什么要暂停对话"
+    },
+    {
+        "sentence": "西服给你量身定做的，你就别让我拿走了，我就做这个的，这又不值钱",
+        "Holder": "1",
+        "Target": "西服",
+        "Aspect": "西服的价值",
+        "Opinion": "不值钱",
+        "Sentiment": "neutral",
+        "Rationale": "西服是量身定做的但没有贴牌"
+    },
+    {
+        "sentence": "什么时候给我量个西服",
+        "Holder": "2",
+        "Target": "西服",
+        "Aspect": "量身定做的需求",
+        "Opinion": "需要量身定做",
+        "Sentiment": "neutral",
+        "Rationale": "需要量身定做的西服"
+    },
+    {
+        "sentence": "就是你上回回汉东喝酒那回",
+        "Holder": "1",
+        "Target": "量身定做的西服",
+        "Aspect": "量身定做的时间",
+        "Opinion": "上次喝酒时",
+        "Sentiment": "neutral",
+        "Rationale": "提到上次喝酒时量了尺寸"
+    },
+    {
+        "sentence": "你那次把我灌醉是故意的。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "灌醉的意图",
+        "Opinion": "故意灌醉",
+        "Sentiment": "negative",
+        "Rationale": "认为对方故意灌醉自己"
+    },
+    {
+        "sentence": "不是这什么话什么叫故意把你灌醉了，高兴就喝多了，正好当时大师傅在我让他给你量了尺寸了，没贴牌不值钱了，",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "灌醉的意图",
+        "Opinion": "非故意灌醉",
+        "Sentiment": "negative",
+        "Rationale": "被误解为故意灌醉而感到委屈和生气"
+    },
+    {
+        "sentence": "你真是腐蚀革命干部不择手段好吧？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "手段的正当性",
+        "Opinion": "不择手段",
+        "Sentiment": "negative",
+        "Rationale": "认为2使用不正当手段腐蚀革命干部"
+    },
+    {
+        "sentence": "当哥哥的给你送套衣服，这不叫服侍，我真想服侍你革命干部，我靠的是票子，房子和女子总有一样能打倒。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "服侍的定义",
+        "Opinion": "否认服侍",
+        "Sentiment": "negative",
+        "Rationale": "被指责为不择手段而感到委屈和反驳"
+    },
+    {
+        "sentence": "你偷税漏税，行贿政府那么多筐，有一筐把你装进去你就造，不拿我扔了，行行我拿走我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "违法行为",
+        "Opinion": "偷税漏税、行贿",
+        "Sentiment": "negative",
+        "Rationale": "认为2有违法行为"
+    },
+    {
+        "sentence": "跟你说猴子你走走翻脸不认人你怎么。",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "人际关系",
+        "Opinion": "翻脸不认人",
+        "Sentiment": "negative",
+        "Rationale": "感到1突然改变态度，不认人"
+    }
+]

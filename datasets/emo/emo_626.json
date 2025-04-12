@@ -1,0 +1,107 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "人间定义与生命体验论证",
+        "emotions": [
+          {"state": "neutral", "reason": "客观解释人间定义", "source_id": "1"},
+          {"state": "positive", "reason": "强调人际体验的欢愉价值", "source_id": "1"},
+          {"state": "neutral", "reason": "提出对现代政治改变的质疑", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "慰安妇议题的价值辩论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑慰安妇等待道歉的意义", "source_id": "3"},
+          {"state": "positive", "reason": "肯定金福同传递真相的价值", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "人间荒谬与哲学反思",
+        "emotions": [
+          {"state": "negative", "reason": "批判宗教与理想国的空泛性", "source_id": "2"},
+          {"state": "neutral", "reason": "解释轮回与死亡限定的关联", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "科技永生与人类未来",
+        "emotions": [
+          {"state": "neutral", "reason": "主张医学突破终结人间定义", "source_id": "6"},
+          {"state": "negative", "reason": "否定质询对欢愉讨论的价值", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "生命有限性批判",
+        "emotions": [
+          {"state": "negative", "reason": "强调死亡消解所有意义", "source_id": "3"},
+          {"state": "neutral", "reason": "分析慰安妇数量减少现象", "source_id": "4"},
+          {"state": "negative", "reason": "质疑日本政府道歉缺失的价值", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "理想主义价值辩护",
+        "emotions": [
+          {"state": "positive", "reason": "强调前人贡献构建文明", "source_id": "1"},
+          {"state": "negative", "reason": "批判出离心类似孩童逃避", "source_id": "3"},
+          {"state": "positive", "reason": "主张人间值得持续奋斗", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "羁绊意义与存在论证",
+        "emotions": [
+          {"state": "positive", "reason": "引用文学作品强调羁绊价值", "source_id": "5"},
+          {"state": "neutral", "reason": "探讨永生后人类定义的变化", "source_id": "6,7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "医学突破与人类神格化",
+        "emotions": [
+          {"state": "neutral", "reason": "预测2050-2070年永生技术", "source_id": "6"},
+          {"state": "negative", "reason": "否定当前人间价值体系", "source_id": "4,5"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "全称命题解构与科幻论证",
+        "emotions": [
+          {"state": "negative", "reason": "否定微观体验论证有效性", "source_id": "3"},
+          {"state": "neutral", "reason": "用类人猿比喻人类定义演变", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "追寻意义的哲学辩证",
+        "emotions": [
+          {"state": "positive", "reason": "主张怀疑本身创造价值", "source_id": "8"},
+          {"state": "neutral", "reason": "分析神人定义权演变过程", "source_id": "6,7"}
+        ]
+      }
+    ]
+  }
+}

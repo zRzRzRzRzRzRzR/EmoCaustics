@@ -1,0 +1,542 @@
+[
+    {
+        "sentence": "呦妈今儿捯饬的有点好，你要去干嘛呀？",
+        "Holder": "1",
+        "Target": "2的打扮",
+        "Aspect": "打扮的特别",
+        "Opinion": "打扮得很好",
+        "Sentiment": "neutral",
+        "Rationale": "看到2的打扮很特别"
+    },
+    {
+        "sentence": "我今天出去有点事，你们三大外头吃，妈给你们 300 块钱",
+        "Holder": "2",
+        "Target": "家庭安排",
+        "Aspect": "外出与用餐安排",
+        "Opinion": "安排外出与给钱",
+        "Sentiment": "neutral",
+        "Rationale": "有事情需要外出"
+    },
+    {
+        "sentence": "不给你，给小雪，吃点好吃的",
+        "Holder": "2",
+        "Target": "钱的分配",
+        "Aspect": "分配对象",
+        "Opinion": "钱给小雪",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到小雪的需要"
+    },
+    {
+        "sentence": "捯饬的有点可疑。",
+        "Holder": "1",
+        "Target": "2的打扮",
+        "Aspect": "打扮的合理性",
+        "Opinion": "打扮可疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得2的打扮与平时不同"
+    },
+    {
+        "sentence": "喂，是吗？您都到楼下了",
+        "Holder": "2",
+        "Target": "对方的位置",
+        "Aspect": "到达情况",
+        "Opinion": "确认对方已到楼下",
+        "Sentiment": "neutral",
+        "Rationale": "对方告知已到楼下"
+    },
+    {
+        "sentence": "对对对，是幸福小区啊。好，我马上下来，三分钟",
+        "Holder": "2",
+        "Target": "自己的行动",
+        "Aspect": "行动的及时性",
+        "Opinion": "承诺马上下来",
+        "Sentiment": "positive",
+        "Rationale": "对方已到楼下"
+    },
+    {
+        "sentence": "我走了，来不及了",
+        "Holder": "2",
+        "Target": "自己的时间",
+        "Aspect": "时间紧迫性",
+        "Opinion": "时间紧迫",
+        "Sentiment": "negative",
+        "Rationale": "时间紧迫"
+    },
+    {
+        "sentence": "拜拜妈妈",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "告别",
+        "Opinion": "告别",
+        "Sentiment": "neutral",
+        "Rationale": "正常的告别"
+    },
+    {
+        "sentence": "你们出去的时候注意点",
+        "Holder": "2",
+        "Target": "孩子们的安全",
+        "Aspect": "外出安全",
+        "Opinion": "提醒注意安全",
+        "Sentiment": "neutral",
+        "Rationale": "关心孩子们的安全"
+    },
+    {
+        "sentence": "那个大馅饼来了",
+        "Holder": "1",
+        "Target": "大馅饼",
+        "Aspect": "到来",
+        "Opinion": "大馅饼来了",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述大馅饼到来的事实"
+    },
+    {
+        "sentence": "对，一准是",
+        "Holder": "3",
+        "Target": "大馅饼",
+        "Aspect": "确定性",
+        "Opinion": "确定是大馅饼",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认大馅饼的到来"
+    },
+    {
+        "sentence": "我说妈干嘛给咱们 300 块钱，让咱们出去搓一顿。",
+        "Holder": "1",
+        "Target": "妈妈给的钱",
+        "Aspect": "用途",
+        "Opinion": "用于出去吃饭",
+        "Sentiment": "positive",
+        "Rationale": "觉得妈妈给的钱可以用来享受美食"
+    },
+    {
+        "sentence": "都什么时候了你还想着吃？",
+        "Holder": "4",
+        "Target": "1的想法",
+        "Aspect": "时间适宜性",
+        "Opinion": "不合适想着吃",
+        "Sentiment": "negative",
+        "Rationale": "认为当前时间不适合想着吃饭"
+    },
+    {
+        "sentence": "什么时候啊？什么时候不得吃饭呀？民以食为天，",
+        "Holder": "1",
+        "Target": "吃饭的必要性",
+        "Aspect": "合理性",
+        "Opinion": "任何时候都需要吃饭",
+        "Sentiment": "positive",
+        "Rationale": "认为吃饭是基本需求，任何时候都应该吃饭"
+    },
+    {
+        "sentence": "就知道吃，那个美国佬都要把咱妈给带走了。",
+        "Holder": "3",
+        "Target": "美国佬",
+        "Aspect": "带走咱妈",
+        "Opinion": "只知道吃",
+        "Sentiment": "negative",
+        "Rationale": "因为认为美国佬要带走咱妈，所以感到不满和担忧"
+    },
+    {
+        "sentence": "嘿，走就走呗，你怎么那么傻呀？妈去了美国，我们就能天天吃大餐了。",
+        "Holder": "1",
+        "Target": "妈去美国",
+        "Aspect": "生活改善",
+        "Opinion": "能天天吃大餐",
+        "Sentiment": "positive",
+        "Rationale": "因为认为妈去美国后生活会有所改善，所以感到乐观"
+    },
+    {
+        "sentence": "万一妈不回来了，你就别想在这个家住下去了。",
+        "Holder": "4",
+        "Target": "妈不回来",
+        "Aspect": "家庭地位",
+        "Opinion": "无法在家住",
+        "Sentiment": "negative",
+        "Rationale": "因为担心妈不回来会导致家庭地位不保，所以感到焦虑"
+    },
+    {
+        "sentence": "凭什么？就凭我们的人生阅历。",
+        "Holder": "1",
+        "Target": "人生阅历",
+        "Aspect": "判断依据",
+        "Opinion": "有资格判断",
+        "Sentiment": "positive",
+        "Rationale": "因为认为自己的人生阅历丰富，所以有信心做出正确判断"
+    },
+    {
+        "sentence": "去去去，你的人生还没开始呢，哪来的人生阅历？",
+        "Holder": "3",
+        "Target": "1的人生阅历",
+        "Aspect": "人生阶段",
+        "Opinion": "人生还没开始",
+        "Sentiment": "negative",
+        "Rationale": "因为认为1的人生阅历尚浅，所以对其观点表示质疑"
+    },
+    {
+        "sentence": "你们说那个美国佬那么有钱，又对咱妈那么好，他为什么呀？没有无缘无故的爱，对不对？",
+        "Holder": "4",
+        "Target": "美国佬",
+        "Aspect": "对咱妈的态度",
+        "Opinion": "怀疑动机",
+        "Sentiment": "ambiguous",
+        "Rationale": "因为觉得没有无缘无故的爱，所以对美国佬对咱妈好的动机表示怀疑"
+    },
+    {
+        "sentence": "那正好，那把我也带过去呗。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "参与意愿",
+        "Opinion": "希望被带去",
+        "Sentiment": "positive",
+        "Rationale": "因为觉得有机会去美国是好事，所以表现出积极的参与意愿"
+    },
+    {
+        "sentence": "你想得美，人家才不带你去美国呢，人家又不缺儿子，带着你只会是负担。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "去美国的可能性",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "因为认为美国佬不缺儿子，带3去只会是负担，所以断定3去美国的想法不现实"
+    },
+    {
+        "sentence": "他真的有那么坏吗?",
+        "Holder": "1",
+        "Target": "美国佬",
+        "Aspect": "性格",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "因为对4的说法表示怀疑，所以提出质疑，情绪保持中立"
+    },
+    {
+        "sentence": "你又没见过他，你怎么知道他是好是坏？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "判断依据",
+        "Opinion": "缺乏依据",
+        "Sentiment": "neutral",
+        "Rationale": "1没有见过美国佬"
+    },
+    {
+        "sentence": "不行，我必须弄明白这件事情，我要是去不了美国，那妈去美国还干什么去呀？我这不瞎耽误功夫吗？",
+        "Holder": "1",
+        "Target": "去美国的事情",
+        "Aspect": "事情的明确性和必要性",
+        "Opinion": "必须弄明白",
+        "Sentiment": "negative",
+        "Rationale": "担心自己去不了美国导致母亲去美国的计划无意义"
+    },
+    {
+        "sentence": "那美国人不是来了吗？咱们出去看看呗。",
+        "Holder": "3",
+        "Target": "美国人的到来",
+        "Aspect": "应对建议",
+        "Opinion": "出去看看",
+        "Sentiment": "positive",
+        "Rationale": "美国人已经到来"
+    },
+    {
+        "sentence": "好主意，走，看看去。",
+        "Holder": "1",
+        "Target": "3的建议",
+        "Aspect": "建议的接受",
+        "Opinion": "同意去看看",
+        "Sentiment": "positive",
+        "Rationale": "认为3的建议是个好主意"
+    },
+    {
+        "sentence": "刘星，你别那么冲动",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "行为的冲动性",
+        "Opinion": "不要冲动",
+        "Sentiment": "neutral",
+        "Rationale": "担心刘星过于冲动导致不良后果"
+    },
+    {
+        "sentence": "这咋怎么回事啊？坐那么近",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "距离的合理性",
+        "Opinion": "感到困惑",
+        "Sentiment": "neutral",
+        "Rationale": "对大家坐得那么近的情况感到不解"
+    },
+    {
+        "sentence": "别瞎说，妈不是那种人",
+        "Holder": "3",
+        "Target": "妈",
+        "Aspect": "性格",
+        "Opinion": "不是那种人",
+        "Sentiment": "negative",
+        "Rationale": "对方对妈的性格进行了不实的负面评价"
+    },
+    {
+        "sentence": "干嘛呢你们这是？怎么了？",
+        "Holder": "5",
+        "Target": "3和1",
+        "Aspect": "行为",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚3和1在讨论什么"
+    },
+    {
+        "sentence": "快快看，妈和那美国大馅饼在一块呢。",
+        "Holder": "1",
+        "Target": "妈和美国大馅饼",
+        "Aspect": "关系",
+        "Opinion": "在一起",
+        "Sentiment": "positive",
+        "Rationale": "发现妈和美国大馅饼在一起"
+    },
+    {
+        "sentence": "美国馅饼，一点礼貌都没有。别瞎说，什么大馅饼，这像什么样？",
+        "Holder": "5",
+        "Target": "美国大馅饼",
+        "Aspect": "礼貌",
+        "Opinion": "没有礼貌",
+        "Sentiment": "negative",
+        "Rationale": "对方用不礼貌的称呼“大馅饼”"
+    },
+    {
+        "sentence": "哎我不是让你们吃饭去吗？吃了吗？",
+        "Holder": "2",
+        "Target": "1和6",
+        "Aspect": "吃饭情况",
+        "Opinion": "关心是否吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "关心对方是否按自己的建议去吃饭"
+    },
+    {
+        "sentence": "我们不饿，这不是给您省点钱吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "吃饭的经济考虑",
+        "Opinion": "省钱",
+        "Sentiment": "positive",
+        "Rationale": "认为不吃饭可以省钱"
+    },
+    {
+        "sentence": "这位是？",
+        "Holder": "6",
+        "Target": "李先生和夏东海",
+        "Aspect": "身份询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对在场的人身份不清楚"
+    },
+    {
+        "sentence": "对，我给你介绍一下，这位是李先生，这是我先生夏东海。",
+        "Holder": "2",
+        "Target": "李先生和夏东海",
+        "Aspect": "身份介绍",
+        "Opinion": "介绍身份",
+        "Sentiment": "neutral",
+        "Rationale": "需要向6介绍在场人的身份"
+    },
+    {
+        "sentence": "你好，幸会。",
+        "Holder": "5",
+        "Target": "李先生和夏东海",
+        "Aspect": "见面问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "初次见面"
+    },
+    {
+        "sentence": "这是我的三个孩子",
+        "Holder": "2",
+        "Target": "孩子",
+        "Aspect": "身份介绍",
+        "Opinion": "介绍孩子",
+        "Sentiment": "neutral",
+        "Rationale": "2在介绍自己的家庭成员"
+    },
+    {
+        "sentence": "我叫夏雪",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "姓名介绍",
+        "Opinion": "自我介绍",
+        "Sentiment": "neutral",
+        "Rationale": "4在进行自我介绍"
+    },
+    {
+        "sentence": "我叫夏雨",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "姓名介绍",
+        "Opinion": "自我介绍",
+        "Sentiment": "neutral",
+        "Rationale": "3在进行自我介绍"
+    },
+    {
+        "sentence": "我叫夏冰雹",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "姓名介绍",
+        "Opinion": "自我介绍",
+        "Sentiment": "neutral",
+        "Rationale": "1在进行自我介绍"
+    },
+    {
+        "sentence": "她叫刘星，叫大大好",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "姓名介绍",
+        "Opinion": "介绍刘星",
+        "Sentiment": "neutral",
+        "Rationale": "2在介绍另一个家庭成员"
+    },
+    {
+        "sentence": "大大好。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "这是一句普通的问候语"
+    },
+    {
+        "sentence": "刘女士这孩子还真幽默。",
+        "Holder": "6",
+        "Target": "刘女士",
+        "Aspect": "性格",
+        "Opinion": "幽默",
+        "Sentiment": "positive",
+        "Rationale": "刘女士的行为或言语让6觉得有趣"
+    },
+    {
+        "sentence": "就是贫，你们坐这干嘛呀？",
+        "Holder": "5",
+        "Target": "刘女士",
+        "Aspect": "言语风格",
+        "Opinion": "贫",
+        "Sentiment": "negative",
+        "Rationale": "5觉得刘女士的话太多且无聊"
+    },
+    {
+        "sentence": "是这样的，我今天想约刘女士谈谈给他办出国手机的有关事宜，哈哈。",
+        "Holder": "6",
+        "Target": "刘女士",
+        "Aspect": "谈话目的",
+        "Opinion": "办理出国手机事宜",
+        "Sentiment": "positive",
+        "Rationale": "6有明确的目的且期待与刘女士的谈话"
+    },
+    {
+        "sentence": "噢嗨，那回家谈多好啊，干嘛坐这",
+        "Holder": "5",
+        "Target": "谈话地点",
+        "Aspect": "地点选择",
+        "Opinion": "回家谈更好",
+        "Sentiment": "negative",
+        "Rationale": "5认为在家谈话更合适"
+    },
+    {
+        "sentence": "也许人家需要私人空间。",
+        "Holder": "1",
+        "Target": "他人",
+        "Aspect": "私人空间的需求",
+        "Opinion": "可能需要私人空间",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到他人可能需要私人空间"
+    },
+    {
+        "sentence": "刘女士，是不是不大方便？",
+        "Holder": "6",
+        "Target": "刘女士",
+        "Aspect": "方便程度",
+        "Opinion": "可能不方便",
+        "Sentiment": "neutral",
+        "Rationale": "不确定刘女士是否方便"
+    },
+    {
+        "sentence": "这有什么不方便的，家离这挺近的，来吧。",
+        "Holder": "2",
+        "Target": "来访的方便程度",
+        "Aspect": "距离的远近",
+        "Opinion": "很方便",
+        "Sentiment": "positive",
+        "Rationale": "家离得很近"
+    },
+    {
+        "sentence": "来来来，李先生，请进请进。好，这屋子也很没收拾。",
+        "Holder": "5",
+        "Target": "屋子状态",
+        "Aspect": "整洁程度",
+        "Opinion": "很没收拾",
+        "Sentiment": "negative",
+        "Rationale": "屋子没有收拾"
+    },
+    {
+        "sentence": "你这屋子布置的还真温馨啊。一看你家就有一位贤妻啊。",
+        "Holder": "6",
+        "Target": "屋子布置",
+        "Aspect": "温馨程度",
+        "Opinion": "很温馨",
+        "Sentiment": "positive",
+        "Rationale": "屋子布置得很温馨"
+    },
+    {
+        "sentence": "还行吧，行，来来来，您请坐。好好好，哎，李先生在美国是住在东部还是西部啊？",
+        "Holder": "5",
+        "Target": "李先生的住址",
+        "Aspect": "地理位置",
+        "Opinion": "询问住址",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问李先生的住址"
+    },
+    {
+        "sentence": "住在加州，那地方不错，那气候特别好啊。",
+        "Holder": "5",
+        "Target": "加州",
+        "Aspect": "气候和居住条件",
+        "Opinion": "气候好，地方不错",
+        "Sentiment": "positive",
+        "Rationale": "5认为加州的气候和居住条件很好"
+    },
+    {
+        "sentence": "对对对，你去过美国？",
+        "Holder": "6",
+        "Target": "5的经历",
+        "Aspect": "是否去过美国",
+        "Opinion": "询问是否去过",
+        "Sentiment": "neutral",
+        "Rationale": "6在询问5是否去过美国"
+    },
+    {
+        "sentence": "我在那住过几年噢，你们仨傻站着干嘛？给大大拿饮料去。",
+        "Holder": "5",
+        "Target": "自己和其他三人",
+        "Aspect": "自己的经历和别人的行为",
+        "Opinion": "自己有美国居住经历，别人应该拿饮料",
+        "Sentiment": "neutral",
+        "Rationale": "5在陈述自己的经历并指示别人做事"
+    },
+    {
+        "sentence": "不不不，别动别动，你看你这家多好啊，妻子这么温柔，孩子这么可爱，我是真羡慕你们啊。",
+        "Holder": "6",
+        "Target": "1的家庭",
+        "Aspect": "家庭氛围",
+        "Opinion": "羡慕",
+        "Sentiment": "positive",
+        "Rationale": "6看到1的家庭氛围温馨，妻子温柔，孩子可爱"
+    },
+    {
+        "sentence": "可是我那个家呀，缺少人气。",
+        "Holder": "6",
+        "Target": "自己的家庭",
+        "Aspect": "家庭氛围",
+        "Opinion": "缺少人气",
+        "Sentiment": "negative",
+        "Rationale": "6觉得自己家里冷清，没有人气"
+    },
+    {
+        "sentence": "看见没有，让妈去他们家充人气去。",
+        "Holder": "1",
+        "Target": "6的家庭",
+        "Aspect": "家庭氛围",
+        "Opinion": "建议增加人气",
+        "Sentiment": "positive",
+        "Rationale": "1想帮助6的家庭增加人气"
+    }
+]

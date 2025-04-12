@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "这口服液他坚决不能喝，整个一套它就是一欺诈行为，",
+        "Holder": "1",
+        "Target": "口服液",
+        "Aspect": "口服液的合理性",
+        "Opinion": "是欺诈行为",
+        "Sentiment": "negative",
+        "Rationale": "认为口服液没有效果且被强制要求喝"
+    },
+    {
+        "sentence": "我给孩子们弄点课程，让孩子们喝点口服液，我就成欺诈行为了。孩子们的事你就会在那和稀泥，他们犯了错你就可以跟他讲大道理，你这是啥行为？虚伪，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对孩子们教育的态度",
+        "Opinion": "认为1的行为是虚伪",
+        "Sentiment": "negative",
+        "Rationale": "觉得1只在孩子犯错时讲大道理而不实际帮助"
+    },
+    {
+        "sentence": "我为孩子好我还虚伪了，你。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "自己的动机",
+        "Opinion": "认为自己为孩子好",
+        "Sentiment": "negative",
+        "Rationale": "被误解为虚伪而感到委屈和愤怒"
+    },
+    {
+        "sentence": "这满嘴大道理不讲一点实际用处的行为就是虚伪，他们考不上大学咋办？一个个没出息去。",
+        "Holder": "2",
+        "Target": "1的教育方式",
+        "Aspect": "教育方式的实用性",
+        "Opinion": "认为1的教育方式没有实际用处",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的教育方式无法帮助孩子考上大学"
+    },
+    {
+        "sentence": "采油，怎么？油田怎么了？",
+        "Holder": "1",
+        "Target": "油田",
+        "Aspect": "油田的状况",
+        "Opinion": "关心油田状况",
+        "Sentiment": "neutral",
+        "Rationale": "询问油田的状况"
+    },
+    {
+        "sentence": "这些年我这俩孩子都是这油田养的，你别把自己办不成的事加到孩子身上行不行？",
+        "Holder": "1",
+        "Target": "孩子的未来规划",
+        "Aspect": "对孩子的期望",
+        "Opinion": "反对将个人期望强加给孩子",
+        "Sentiment": "negative",
+        "Rationale": "认为对方将个人未实现的期望强加给孩子"
+    },
+    {
+        "sentence": "干嘛非逼着俩孩子去大城市，咱们是什么情况，咱们就过什么日子好不好？",
+        "Holder": "1",
+        "Target": "孩子去大城市的决定",
+        "Aspect": "生活选择的合理性",
+        "Opinion": "反对逼迫孩子去大城市",
+        "Sentiment": "negative",
+        "Rationale": "认为应根据实际情况生活，不应逼迫孩子去大城市"
+    },
+    {
+        "sentence": "孩子们有他们自己的命运对吧？你别非得他们要怎么样行不行？",
+        "Holder": "1",
+        "Target": "孩子的命运",
+        "Aspect": "孩子自主选择的权利",
+        "Opinion": "支持孩子自主选择",
+        "Sentiment": "negative",
+        "Rationale": "认为孩子应有自己的选择权，不应被强迫"
+    },
+    {
+        "sentence": "我的意见。",
+        "Holder": "1",
+        "Target": "自己的观点",
+        "Aspect": "观点的表达",
+        "Opinion": "强调个人观点",
+        "Sentiment": "neutral",
+        "Rationale": "是在陈述自己的观点"
+    }
+]

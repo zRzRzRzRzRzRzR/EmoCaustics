@@ -1,0 +1,39 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对峙与抓捕谈判",
+        "emotions": [
+          {"state": "neutral", "reason": "要求单独谈话并控制现场", "source_id": "2"},
+          {"state": "positive", "reason": "强调刘新建历史功绩以缓和气氛", "source_id": "1"},
+          {"state": "negative", "reason": "警告跳楼后果及道德责任", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "信仰与家族荣誉争论",
+        "emotions": [
+          {"state": "negative", "reason": "指责袁总违背家族传统与信仰缺失", "source_id": "2"},
+          {"state": "positive", "reason": "背诵共产党宣言展示理想主义", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "抓捕危机应对",
+        "emotions": [
+          {"state": "negative", "reason": "以跳楼威胁拒绝配合", "source_id": "1"},
+          {"state": "neutral", "reason": "强调调查职责与建议理性思考", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "意识形态冲突",
+        "emotions": [
+          {"state": "negative", "reason": "反驳信仰质疑并攻击对方立场", "source_id": "1"},
+          {"state": "negative", "reason": "否定共产主义理想现实意义", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

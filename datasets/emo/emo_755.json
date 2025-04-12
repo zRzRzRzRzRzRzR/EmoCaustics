@@ -1,0 +1,93 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "李达康的政治打压",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评李达康清除公安队伍成员的行为",
+            "source_id": "2,3"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑高层领导滥用权力",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出合法工作调动建议",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "程度的工作调动争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "建议省厅考虑人员调动",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "反对市级决策权受限",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "坚决推动人员调动",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "政治斗争中的个人处境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被市委书记针对清除",
+            "source_id": "3,1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "组织利益维护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "担忧李达康损害集体利益",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人事决策权争夺",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "抵制市级对调动的干预",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "执行上级人员调动指令",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

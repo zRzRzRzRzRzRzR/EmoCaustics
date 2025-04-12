@@ -1,0 +1,1523 @@
+[
+    {
+        "sentence": "原来那做好吃的，你外面吃个肉。哎呦，这刘护士长吗啊？",
+        "Holder": "1",
+        "Target": "刘护士长",
+        "Aspect": "身份确认",
+        "Opinion": "不确定身份",
+        "Sentiment": "neutral",
+        "Rationale": "不确定对方的身份"
+    },
+    {
+        "sentence": "我，我不是。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份否认",
+        "Opinion": "否认是刘护士长",
+        "Sentiment": "neutral",
+        "Rationale": "对方认错人了"
+    },
+    {
+        "sentence": "又不认识啦。我是那 6 床，就我住你们医院那 6 床，每次打点滴都是你给我扎，别人找不着我血管，说我胳膊太粗，血管太细。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "身份确认",
+        "Opinion": "确认对方是给自己打点滴的护士",
+        "Sentiment": "neutral",
+        "Rationale": "对方没有认出自己"
+    },
+    {
+        "sentence": "噢对对，想起来了，不好意思啊，刚才没想起来。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "记忆恢复",
+        "Opinion": "记起对方",
+        "Sentiment": "neutral",
+        "Rationale": "突然记起对方的身份"
+    },
+    {
+        "sentence": "没事，我想起您来不就行了吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "宽容和理解",
+        "Sentiment": "positive",
+        "Rationale": "对方已经记起自己"
+    },
+    {
+        "sentence": "哈哈哈，叫他，叫刘阿姨。刘阿姨好唉。你好。这孩子多健康。看啊。",
+        "Holder": "2",
+        "Target": "刘阿姨",
+        "Aspect": "孩子的健康",
+        "Opinion": "孩子很健康",
+        "Sentiment": "positive",
+        "Rationale": "看到孩子健康"
+    },
+    {
+        "sentence": "以后当护士长就当刘阿姨这样的护士长，技术好，人缘好。哈哈哈，我们家里还不知道能不能考着呼啸呢，哪像您闺女啊，那学习跟玩似的，在年级里头拔尖。",
+        "Holder": "1",
+        "Target": "刘阿姨",
+        "Aspect": "护士长的素质",
+        "Opinion": "技术好人缘好",
+        "Sentiment": "positive",
+        "Rationale": "刘阿姨的技术和人缘都很好"
+    },
+    {
+        "sentence": "哟，您怎么知道的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "信息获取",
+        "Opinion": "惊讶对方知道",
+        "Sentiment": "neutral",
+        "Rationale": "对方知道了自己的信息"
+    },
+    {
+        "sentence": "我住院的时候你跟同事聊天我都听见了啊。我这人脑子特别好，别的事记得倍清楚。你仨孩子对吧啊？对。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "记忆力",
+        "Opinion": "记忆力好",
+        "Sentiment": "positive",
+        "Rationale": "自己记忆力好"
+    },
+    {
+        "sentence": "你仨孩子对吧啊？对。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "孩子数量",
+        "Opinion": "确认孩子数量",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认对方的孩子数量"
+    },
+    {
+        "sentence": "您就住这附近啊。对。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "居住地点",
+        "Opinion": "确认居住地点",
+        "Sentiment": "neutral",
+        "Rationale": "对方提到住院时听到信息"
+    },
+    {
+        "sentence": "当拆迁搬过来没多长时间啊。唉呦，圆白菜。哎呦，太好。",
+        "Holder": "1",
+        "Target": "拆迁搬家",
+        "Aspect": "时间长短",
+        "Opinion": "时间不长",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了搬家的时间不长"
+    },
+    {
+        "sentence": "了，这什么意思。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话的含义",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的话感到困惑"
+    },
+    {
+        "sentence": "一看您就在这小区里住，您要来串亲戚，看朋友的话怎么也得提了，一西瓜哪送原白菜呀，是不是？哈哈哈，那个要不这样得了，我呢跟您回家认识门去，您住几层几号啊？圆白菜。",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "居住地",
+        "Opinion": "认为2住在小区",
+        "Sentiment": "positive",
+        "Rationale": "通过观察认为2住在小区"
+    },
+    {
+        "sentence": "哈哈哈，不是，不用管，沉。",
+        "Holder": "2",
+        "Target": "1的提议",
+        "Aspect": "是否需要帮助",
+        "Opinion": "不需要帮助",
+        "Sentiment": "positive",
+        "Rationale": "觉得东西沉但不需要帮助"
+    },
+    {
+        "sentence": "这东西不是黑产小子，沉有帮助，拎着就完了。我来帮。",
+        "Holder": "1",
+        "Target": "2的负担",
+        "Aspect": "物品重量",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "positive",
+        "Rationale": "看到2的东西沉，愿意帮忙"
+    },
+    {
+        "sentence": "你嗨。阿姨要帮我拿这菜。",
+        "Holder": "2",
+        "Target": "阿姨",
+        "Aspect": "帮忙拿菜",
+        "Opinion": "需要帮助",
+        "Sentiment": "neutral",
+        "Rationale": "需要阿姨帮忙拿菜"
+    },
+    {
+        "sentence": "嗨，我还以为你打架呢。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为误解",
+        "Opinion": "误以为打架",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到2的行为误以为是打架"
+    },
+    {
+        "sentence": "哎呦，这就是你那个念书跟玩似的门功课都拔尖的那宝贝女儿吧？",
+        "Holder": "1",
+        "Target": "2的女儿",
+        "Aspect": "学习表现",
+        "Opinion": "学习优秀",
+        "Sentiment": "positive",
+        "Rationale": "对2的女儿学习表现印象深刻"
+    },
+    {
+        "sentence": "小雪就爱你啊。唉呦，这孩子。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "对小雪的爱",
+        "Opinion": "小雪喜欢1",
+        "Sentiment": "positive",
+        "Rationale": "小雪对1有喜爱之情"
+    },
+    {
+        "sentence": "我一见他就喜欢他。唉呦，我太高兴了。唉，你什么时候抽空给我们家去复习复习功课，然后提高学习水平啊。",
+        "Holder": "1",
+        "Target": "2的女儿",
+        "Aspect": "喜欢和期望",
+        "Opinion": "喜欢并期望帮助学习",
+        "Sentiment": "positive",
+        "Rationale": "对2的女儿有好感并希望她能帮助提高自家孩子的学习水平"
+    },
+    {
+        "sentence": "哎呦，这。",
+        "Holder": "2",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "ambiguous",
+        "Rationale": "表达的是一种惊讶或困惑的情绪，但没有具体的事件或对象"
+    },
+    {
+        "sentence": "孩子怎么都行，让您先把我给放开。",
+        "Holder": "3",
+        "Target": "被束缚的状态",
+        "Aspect": "自由的需求",
+        "Opinion": "希望被放开",
+        "Sentiment": "neutral",
+        "Rationale": "处于被束缚的状态"
+    },
+    {
+        "sentence": "你看，哈哈哈哎。驾驾，走，上一家热门去，在那边，哈哈哈哈，走走，回家。",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "positive",
+        "Rationale": "使用了欢快的语气词和笑声，表现出一种轻松愉快的情绪"
+    },
+    {
+        "sentence": "哎，爸爸，今天我下班的时候在楼底下碰着一我过去照顾我的病友。",
+        "Holder": "2",
+        "Target": "病友",
+        "Aspect": "偶遇",
+        "Opinion": "意外",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是一次意外的相遇，没有明显的情感倾向"
+    },
+    {
+        "sentence": "是不是那么巧？",
+        "Holder": "4",
+        "Target": "偶遇的巧合",
+        "Aspect": "巧合性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对这种巧合表示怀疑"
+    },
+    {
+        "sentence": "一个热情而可怕的女人？",
+        "Holder": "3",
+        "Target": "女人",
+        "Aspect": "性格特点",
+        "Opinion": "热情且可怕",
+        "Sentiment": "ambiguous",
+        "Rationale": "对女人的描述包含了热情和可怕两个看似矛盾的特点"
+    },
+    {
+        "sentence": "瞧你说嘛，女人有什么好可怕。",
+        "Holder": "4",
+        "Target": "女人",
+        "Aspect": "可怕程度",
+        "Opinion": "不可怕",
+        "Sentiment": "positive",
+        "Rationale": "认为女人并不可怕"
+    },
+    {
+        "sentence": "的？呵，不是，我告诉你，这胖嫂这人太逗了，拽着我怎么也不让走，非得要跟我抢我那包。",
+        "Holder": "2",
+        "Target": "胖嫂",
+        "Aspect": "行为举止",
+        "Opinion": "太逗了",
+        "Sentiment": "positive",
+        "Rationale": "胖嫂的行为虽然有些过分但被描述为逗乐"
+    },
+    {
+        "sentence": "哈哈哈，他又来了，你们不是啥。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "出现情况",
+        "Opinion": "他又来了",
+        "Sentiment": "positive",
+        "Rationale": "觉得他的出现是件有趣或愉快的事"
+    },
+    {
+        "sentence": "来了？在呢。嘿呦，真在呢，你这在等着。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "存在状态",
+        "Opinion": "真在呢",
+        "Sentiment": "positive",
+        "Rationale": "确认了他的存在并且表现出一种惊喜或愉快的情绪"
+    },
+    {
+        "sentence": "啊，我上你们楼下这居委会贴灭蟑螂通知，我顺便到你家来看看啊。白天来好几个家庭成员，不是没见着吗？是他现在都回来了。都。",
+        "Holder": "1",
+        "Target": "2的家庭成员",
+        "Aspect": "见面情况",
+        "Opinion": "未能见到",
+        "Sentiment": "neutral",
+        "Rationale": "白天来的时候没有见到家庭成员"
+    },
+    {
+        "sentence": "回来，我给您见过。行了，刘星饿了啊，这是我大儿子刘星，叫。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "介绍儿子",
+        "Opinion": "介绍儿子",
+        "Sentiment": "neutral",
+        "Rationale": "正在介绍自己的儿子"
+    },
+    {
+        "sentence": "阿姨。唉呦，这宝贝哦，这帅，这小伙子。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "外貌",
+        "Opinion": "帅气",
+        "Sentiment": "positive",
+        "Rationale": "看到刘星长得帅气"
+    },
+    {
+        "sentence": "哈哈哈，这个是我小儿子，叫夏雨贾阿姨。",
+        "Holder": "2",
+        "Target": "夏雨",
+        "Aspect": "介绍儿子",
+        "Opinion": "介绍儿子",
+        "Sentiment": "positive",
+        "Rationale": "正在高兴地介绍自己的小儿子"
+    },
+    {
+        "sentence": "这小家伙宝贝真可爱。",
+        "Holder": "1",
+        "Target": "夏雨",
+        "Aspect": "外貌",
+        "Opinion": "可爱",
+        "Sentiment": "positive",
+        "Rationale": "看到夏雨长得可爱"
+    },
+    {
+        "sentence": "我爱人，夏天，唉呦宝。",
+        "Holder": "2",
+        "Target": "爱人",
+        "Aspect": "亲密关系",
+        "Opinion": "亲昵称呼",
+        "Sentiment": "positive",
+        "Rationale": "用亲昵的称呼表达对爱人的喜爱"
+    },
+    {
+        "sentence": "唉呦，你看唉。",
+        "Holder": "4",
+        "Target": "当前情景",
+        "Aspect": "关注点",
+        "Opinion": "引起注意",
+        "Sentiment": "neutral",
+        "Rationale": "想要引起对方注意"
+    },
+    {
+        "sentence": "呦老夏，唉，看你这一家子多好啊。这爱人是业务骨干，这女儿的三好学生，这俩儿子一个是海龟，一小帅哥。唉呦，真好，你。",
+        "Holder": "1",
+        "Target": "老夏一家",
+        "Aspect": "家庭成就",
+        "Opinion": "羡慕称赞",
+        "Sentiment": "positive",
+        "Rationale": "对老夏一家的成就感到羡慕和称赞"
+    },
+    {
+        "sentence": "看看那个，你先坐会儿。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "招待",
+        "Opinion": "礼貌邀请",
+        "Sentiment": "neutral",
+        "Rationale": "礼貌地邀请对方坐下"
+    },
+    {
+        "sentence": "甭客气，我待不住。唉，小雪。嗯，你要是能帮着我们家去把学习提高了，你说我可怎么谢你啊？",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "学习帮助",
+        "Opinion": "期待帮助",
+        "Sentiment": "positive",
+        "Rationale": "期待小雪能帮助提高自家孩子的学习"
+    },
+    {
+        "sentence": "等提高了以后再说吧。你看。",
+        "Holder": "3",
+        "Target": "提高",
+        "Aspect": "时机",
+        "Opinion": "等待提高后再说",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前时机不合适"
+    },
+    {
+        "sentence": "这孩子多贪嗓。你看您客气什么呀？这小橘俩互相帮助，这不是很正常吗？再说咱要是邻居，你看。",
+        "Holder": "2",
+        "Target": "孩子",
+        "Aspect": "行为",
+        "Opinion": "贪嗓",
+        "Sentiment": "positive",
+        "Rationale": "认为孩子之间的互相帮助是正常的"
+    },
+    {
+        "sentence": "你说这话我就特爱听，你这是什么呀？让我想起咱住大杂院时候，这人与人之间那热乎劲，这又回来了哟，小刘，我觉得咱俩太对脾气了，这样以后我就管你叫妹妹，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "情感共鸣",
+        "Opinion": "特爱听",
+        "Sentiment": "positive",
+        "Rationale": "对方的话唤起了对过去美好时光的回忆"
+    },
+    {
+        "sentence": "您就叫我小林就行，就叫妹妹，多亲呢。你说就您现在社会上管叫妹妹的，那都是男的对女的那样关系都是，哎。哈哈哈，什么意思啊？您没听那歌唱的吗？妹妹你坐船头，哥哥。",
+        "Holder": "2",
+        "Target": "称呼",
+        "Aspect": "亲密度",
+        "Opinion": "叫妹妹亲切",
+        "Sentiment": "positive",
+        "Rationale": "认为叫妹妹显得亲近"
+    },
+    {
+        "sentence": "唉呦，这歌我也爱唱。唉，这前生荡悠悠啊小。哈哈哈，慢点慢点慢点哈。",
+        "Holder": "1",
+        "Target": "歌曲",
+        "Aspect": "喜好",
+        "Opinion": "爱唱",
+        "Sentiment": "positive",
+        "Rationale": "喜欢这首歌"
+    },
+    {
+        "sentence": "夏东海。嗯，这胖子挺逗的吧？多逗啊他。",
+        "Holder": "2",
+        "Target": "夏东海",
+        "Aspect": "幽默感",
+        "Opinion": "挺逗",
+        "Sentiment": "positive",
+        "Rationale": "觉得夏东海的行为和表现很有趣"
+    },
+    {
+        "sentence": "我觉得没你逗。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "幽默感",
+        "Opinion": "比夏东海更逗",
+        "Sentiment": "positive",
+        "Rationale": "认为2的幽默感更强"
+    },
+    {
+        "sentence": "我。哪逗。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "幽默感",
+        "Opinion": "不逗",
+        "Sentiment": "neutral",
+        "Rationale": "对自己是否幽默感到疑惑"
+    },
+    {
+        "sentence": "了我，你看刚才那会儿，嗯嗯，哎哎哎哎呦。",
+        "Holder": "4",
+        "Target": "刚才的情况",
+        "Aspect": "具体表现",
+        "Opinion": "尴尬或不舒服",
+        "Sentiment": "negative",
+        "Rationale": "刚才的情况让自己感到尴尬或不舒服"
+    },
+    {
+        "sentence": "去，不给人下跪了吗？我这孩子真是的唉。真的，我一见着这胖嫂，我觉得他把我那种朴素的劳动人民情感全给我激发出来了，是不是？哈哈哈，我一下就想起我小时候住大杂院时候那种感觉了。",
+        "Holder": "2",
+        "Target": "胖嫂",
+        "Aspect": "情感激发",
+        "Opinion": "激发朴素情感",
+        "Sentiment": "positive",
+        "Rationale": "胖嫂让自己回忆起小时候的生活和情感"
+    },
+    {
+        "sentence": "我小时候住那大杂院大概有 30 多户人间，谁家两口子要吵架，街坊四邻都得过来劝。唉呦，别打，来嗨，你打你媳妇干嘛呀？我家全围着窗户上趴的都是人，谁家要是做了一锅红烧肉，那家伙满院子都飘香。哼，真的，谁路过都得撩门帘子拿筷子过来尝两口。真的，人跟人的关系绝对零距离，那叫一个真情，那叫一个贴心，那叫一个朴素。真呐。",
+        "Holder": "2",
+        "Target": "大杂院生活",
+        "Aspect": "人际关系",
+        "Opinion": "零距离、真情、贴心、朴素",
+        "Sentiment": "positive",
+        "Rationale": "回忆起大杂院生活的亲密和温暖"
+    },
+    {
+        "sentence": "还气唉。对，就这些住惯了高楼大厦的小孩们，一定要补上朴素的劳动人民感情这一刻。哈哈哈，真的。",
+        "Holder": "4",
+        "Target": "高楼大厦的小孩们",
+        "Aspect": "劳动人民感情",
+        "Opinion": "需要补上",
+        "Sentiment": "positive",
+        "Rationale": "认为高楼大厦的小孩们缺乏朴素的劳动人民感情"
+    },
+    {
+        "sentence": "怎么补啊？咱们班四合院去，哈哈哈哈。",
+        "Holder": "2",
+        "Target": "补上劳动人民感情的方法",
+        "Aspect": "具体方式",
+        "Opinion": "去四合院",
+        "Sentiment": "positive",
+        "Rationale": "觉得去四合院是一个有趣且有效的方法"
+    },
+    {
+        "sentence": "佳佳，你希望我怎么帮助你啊？",
+        "Holder": "3",
+        "Target": "佳佳",
+        "Aspect": "帮助方式",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想要了解佳佳的具体需求"
+    },
+    {
+        "sentence": "你只要教给我怎么玩，这就能念好书，像你一样。",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "学习方法",
+        "Opinion": "通过玩耍学习",
+        "Sentiment": "positive",
+        "Rationale": "认为通过玩耍可以像3一样念好书"
+    },
+    {
+        "sentence": "谁告诉你我玩这把书给念完的？",
+        "Holder": "3",
+        "Target": "5的观点",
+        "Aspect": "学习方法",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "5的错误理解让自己感到被误解"
+    },
+    {
+        "sentence": "我妈说玩命念书的孩子早干了，不像你那么水灵。",
+        "Holder": "5",
+        "Target": "玩命念书的孩子",
+        "Aspect": "外貌",
+        "Opinion": "早衰",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈认为玩命念书的孩子会早衰"
+    },
+    {
+        "sentence": "哈哈哈，反正我这个境界也不是一般人能拿到的唉。佳佳我告诉你，如果你要想从学习中获得乐趣，得有目标。",
+        "Holder": "3",
+        "Target": "自己的境界",
+        "Aspect": "独特性",
+        "Opinion": "非一般人能及",
+        "Sentiment": "positive",
+        "Rationale": "认为自己达到了非一般人能及的境界"
+    },
+    {
+        "sentence": "我的目标很简单，学出好成绩，将来挣大钱。",
+        "Holder": "5",
+        "Target": "自己的目标",
+        "Aspect": "目标内容",
+        "Opinion": "简单明确",
+        "Sentiment": "positive",
+        "Rationale": "目标简单明确且具有实际意义"
+    },
+    {
+        "sentence": "哈哈哈，你也太不含蓄了吧，直接就挣大钱。嗯，没有什么爱好，兴趣。",
+        "Holder": "3",
+        "Target": "5的目标",
+        "Aspect": "目标的直接性",
+        "Opinion": "太不含蓄",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得5的目标过于直接且缺乏爱好兴趣"
+    },
+    {
+        "sentence": "都没挣大钱，实惠。哈哈哈，这么漂亮的铅笔盒，没钱就买不起，有了钱不仅自己能买到，还能送给别人当礼物。小雪姐姐，你愿意把它送给我吗？",
+        "Holder": "5",
+        "Target": "挣大钱",
+        "Aspect": "实用性",
+        "Opinion": "实惠",
+        "Sentiment": "positive",
+        "Rationale": "认为挣大钱能带来实惠和满足物质需求"
+    },
+    {
+        "sentence": "妈妈今天有什么好吃翅耶？哈哈哈，打卤面拌凉菜，这样的饮食很影响我的发育。哈哈哈，吃什么东西？长个儿。吃什么你也长不了。哈哈哈，再说了，我是个职业女性，我天天忙了一天了，下班回来我气儿都没喘匀呢，就得给你们做饭，还想吃四菜一汤啊。哈哈哈，谢这个你做梦开门。谁呀？我啊，来了。哈哈，来了来了。唉呦呵，您这是干嘛去了？这激动，来，磕着磕。",
+        "Holder": "2",
+        "Target": "饮食",
+        "Aspect": "饮食的营养",
+        "Opinion": "影响发育",
+        "Sentiment": "negative",
+        "Rationale": "认为打卤面拌凉菜这样的饮食不够营养，影响发育"
+    },
+    {
+        "sentence": "着，我拿着鱼啊，别让他跑了啊。",
+        "Holder": "1",
+        "Target": "鱼",
+        "Aspect": "鱼的处置",
+        "Opinion": "防止鱼跑掉",
+        "Sentiment": "neutral",
+        "Rationale": "拿着鱼需要防止它跑掉"
+    },
+    {
+        "sentence": "您这要不我帮您送回去？",
+        "Holder": "2",
+        "Target": "鱼",
+        "Aspect": "鱼的处置",
+        "Opinion": "建议送回",
+        "Sentiment": "neutral",
+        "Rationale": "看到对方拿着鱼，出于礼貌提出帮忙送回"
+    },
+    {
+        "sentence": "有说什么呢？这给咱家买的，咱家，这不就是咱家吗？哈哈哈，这人琢磨着这下学晚上不给家补习功课吗啊？这咱俩家这伙食就并在一块吃不就完了吗？哈哈哈，等家人回来直接奔这厨师长。",
+        "Holder": "1",
+        "Target": "鱼",
+        "Aspect": "鱼的用途",
+        "Opinion": "用于家庭伙食",
+        "Sentiment": "positive",
+        "Rationale": "认为鱼是给自家买的，可以合并伙食"
+    },
+    {
+        "sentence": "呵呵，您看您这么客气干什么呀？其实我们家什么都有，菜肉的，什么您在这吃一点问题没有，您何必还那么客气买这么些东西呀？您。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "客气的程度",
+        "Opinion": "认为过于客气",
+        "Sentiment": "positive",
+        "Rationale": "对方买了许多东西显得很客气"
+    },
+    {
+        "sentence": "看你瞧，你又说外道话了不是？我都不跟你客气，你跟我客气什么呀哎？来来来，来，小雨，把这个搁冰箱里去，流星去把这豆角摘了，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的言辞",
+        "Aspect": "言辞的合理性",
+        "Opinion": "认为2言辞不恰当",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的言辞有些不合时宜，但自己并不在意"
+    },
+    {
+        "sentence": "什么啊？去摘豆角去，一点活不干。唉呦，这是什么菜呀？我怎么没见过这大叶子。",
+        "Holder": "2",
+        "Target": "豆角和菜",
+        "Aspect": "对任务的认知和对菜的不熟悉",
+        "Opinion": "对任务不满和对菜的好奇",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被安排了太多任务而不满，同时又对不熟悉的菜感到好奇"
+    },
+    {
+        "sentence": "绿色食品，百姓餐桌上的新宠，等我做完了你尝尝。唉呦，倍棒好吃。",
+        "Holder": "1",
+        "Target": "绿色食品",
+        "Aspect": "食品的价值和口感",
+        "Opinion": "认为绿色食品很好",
+        "Sentiment": "positive",
+        "Rationale": "对绿色食品的价值和口感非常自信"
+    },
+    {
+        "sentence": "天呐，这样得了，胖嫂您呐先在这坐会儿，我们啊，该摘的该洗的我们都弄完了，回头您掌勺，您过来炒。",
+        "Holder": "2",
+        "Target": "1的工作安排",
+        "Aspect": "工作分配的合理性",
+        "Opinion": "建议1休息并自己承担部分工作",
+        "Sentiment": "positive",
+        "Rationale": "觉得1已经安排了很多任务，自己愿意分担一些工作"
+    },
+    {
+        "sentence": "行不行？唉呦，我哪歇得了，这鱼我得亲自石头了啊。那行，对了，找一大锅去把这三黄鸡先煮上啊。行行行啊。诶诶好嘞，甭管了，快来。",
+        "Holder": "1",
+        "Target": "自己的工作态度",
+        "Aspect": "工作态度的积极性",
+        "Opinion": "认为自己需要亲自处理",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己对某些工作非常重视，需要亲自处理"
+    },
+    {
+        "sentence": "这么热闹。",
+        "Holder": "3",
+        "Target": "现场氛围",
+        "Aspect": "热闹程度",
+        "Opinion": "热闹",
+        "Sentiment": "neutral",
+        "Rationale": "看到现场很多人在忙碌和交谈"
+    },
+    {
+        "sentence": "夏雪回来了，你也别闲着啊，包葱包蒜调芝麻酱的事归你了，你总吃的，赶紧的，来红烧大鲤鱼哇，小刘帮我挑挑鱼刺啊，别给孩子扎着啊。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "分工和任务",
+        "Opinion": "分配任务",
+        "Sentiment": "positive",
+        "Rationale": "夏雪回来了大家要一起准备饭菜"
+    },
+    {
+        "sentence": "好哎，陈姐您别忙活了，都忙活半天了，一块吃吧。不忙。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "忙碌程度",
+        "Opinion": "建议休息",
+        "Sentiment": "positive",
+        "Rationale": "看到陈姐已经忙碌了很久"
+    },
+    {
+        "sentence": "还一大菜没上呢，哈哈哈。",
+        "Holder": "1",
+        "Target": "菜肴准备",
+        "Aspect": "菜肴数量",
+        "Opinion": "还有未上菜",
+        "Sentiment": "positive",
+        "Rationale": "还有一道重要的菜没上"
+    },
+    {
+        "sentence": "嗯，胖婶做的菜就是好吃。哎，我要天天吃这个能比姚明还高？",
+        "Holder": "2",
+        "Target": "胖婶的菜",
+        "Aspect": "菜肴美味程度",
+        "Opinion": "好吃",
+        "Sentiment": "positive",
+        "Rationale": "觉得胖婶做的菜非常美味"
+    },
+    {
+        "sentence": "哈哈哈，今天所有的菜都带着一种特别的味道，是不是爸爸。",
+        "Holder": "3",
+        "Target": "今天的菜",
+        "Aspect": "味道",
+        "Opinion": "有特别的味道",
+        "Sentiment": "positive",
+        "Rationale": "今天的菜有特别的味道"
+    },
+    {
+        "sentence": "对，有种特别的味道，就是好吃吗？哼，我就是有点不太适应啊。",
+        "Holder": "4",
+        "Target": "今天的菜",
+        "Aspect": "味道",
+        "Opinion": "不太适应",
+        "Sentiment": "ambiguous",
+        "Rationale": "菜有特别的味道但自己不太适应"
+    },
+    {
+        "sentence": "我也不太适应。",
+        "Holder": "2",
+        "Target": "今天的菜",
+        "Aspect": "味道",
+        "Opinion": "不太适应",
+        "Sentiment": "negative",
+        "Rationale": "菜的味道让自己不太适应"
+    },
+    {
+        "sentence": "三黄蘑菇鸡，尝尝。",
+        "Holder": "1",
+        "Target": "三黄蘑菇鸡",
+        "Aspect": "推荐",
+        "Opinion": "推荐尝试",
+        "Sentiment": "neutral",
+        "Rationale": "推荐别人尝试这道菜"
+    },
+    {
+        "sentence": "这香味儿能让人羞克。",
+        "Holder": "2",
+        "Target": "三黄蘑菇鸡",
+        "Aspect": "香味",
+        "Opinion": "香味强烈",
+        "Sentiment": "positive",
+        "Rationale": "这道菜的香味非常强烈"
+    },
+    {
+        "sentence": "嘿，看来我真没白忙活啊。",
+        "Holder": "1",
+        "Target": "自己的努力",
+        "Aspect": "努力的效果",
+        "Opinion": "没有白费",
+        "Sentiment": "positive",
+        "Rationale": "看到自己的努力得到了回报"
+    },
+    {
+        "sentence": "瞧你那畜息，没吃过。你本来就没吃过。嗯，对，哈哈哈，妈，您从来没给我们做过这么香的。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "饮食经验",
+        "Opinion": "1没吃过",
+        "Sentiment": "negative",
+        "Rationale": "觉得1没有吃过这么好的食物"
+    },
+    {
+        "sentence": "砂锅鸡呦，是吗？唉呦，我看你家橱柜里俩砂锅呢，放那不也浪费吗？等我吃完饭我拿走一个啊哈哈哈，我在这吗？唉呦，这皮影真烦人，我真烦，赛完了。唉呦，着什么急，我这没聊完呢。",
+        "Holder": "1",
+        "Target": "砂锅的使用",
+        "Aspect": "物品的利用",
+        "Opinion": "砂锅被浪费",
+        "Sentiment": "negative",
+        "Rationale": "觉得砂锅放在那里没有被充分利用"
+    },
+    {
+        "sentence": "你刚才他刚才说哪了。",
+        "Holder": "2",
+        "Target": "1的谈话内容",
+        "Aspect": "谈话的连贯性",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "没听清楚1刚才说了什么"
+    },
+    {
+        "sentence": "哈哈哈，我刚才没太注意听。",
+        "Holder": "4",
+        "Target": "1的谈话",
+        "Aspect": "注意程度",
+        "Opinion": "没注意",
+        "Sentiment": "neutral",
+        "Rationale": "刚才没有集中注意力听1的谈话"
+    },
+    {
+        "sentence": "怎么办？我。",
+        "Holder": "2",
+        "Target": "自身状态",
+        "Aspect": "困倦",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "感到困倦但不确定如何应对"
+    },
+    {
+        "sentence": "胖了。这才几点你就困了，等会儿着什么急，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的困倦",
+        "Aspect": "时间感知",
+        "Opinion": "觉得时间还早",
+        "Sentiment": "positive",
+        "Rationale": "认为时间还早"
+    },
+    {
+        "sentence": "唉呦，可不嘛，都快 11 点。",
+        "Holder": "2",
+        "Target": "时间",
+        "Aspect": "时间感知",
+        "Opinion": "时间已经很晚",
+        "Sentiment": "neutral",
+        "Rationale": "意识到时间已经很晚"
+    },
+    {
+        "sentence": "了。哇，这时间过得真快，这么晚了。",
+        "Holder": "4",
+        "Target": "时间",
+        "Aspect": "时间流逝",
+        "Opinion": "时间过得快",
+        "Sentiment": "neutral",
+        "Rationale": "感受到时间流逝迅速"
+    },
+    {
+        "sentence": "啊，这表还慢呢。",
+        "Holder": "2",
+        "Target": "手表时间",
+        "Aspect": "时间准确性",
+        "Opinion": "手表时间不准确",
+        "Sentiment": "neutral",
+        "Rationale": "发现手表时间不准确"
+    },
+    {
+        "sentence": "你们家有没有不慢的表啊？",
+        "Holder": "1",
+        "Target": "4家的表",
+        "Aspect": "表的准确性",
+        "Opinion": "表慢",
+        "Sentiment": "ambiguous",
+        "Rationale": "1发现4家的表显示时间不准确"
+    },
+    {
+        "sentence": "哈哈哈哈，这，这是一个，哈哈。",
+        "Holder": "4",
+        "Target": "4家的表",
+        "Aspect": "表的准确性",
+        "Opinion": "表慢",
+        "Sentiment": "positive",
+        "Rationale": "4被1的调侃逗笑了"
+    },
+    {
+        "sentence": "呦呵，也差不多了，这都北京时间 10: 50 了。",
+        "Holder": "2",
+        "Target": "4家的表",
+        "Aspect": "表的时间显示",
+        "Opinion": "时间不准确",
+        "Sentiment": "neutral",
+        "Rationale": "2指出实际时间与表显示时间不符"
+    },
+    {
+        "sentence": "哈哈哈，是该走了。哎，小刘啊，这你们家怎么这么多表？有挂的，还有摆着的。",
+        "Holder": "1",
+        "Target": "4家的表",
+        "Aspect": "表的数量和种类",
+        "Opinion": "表多且种类丰富",
+        "Sentiment": "positive",
+        "Rationale": "1发现4家有很多不同种类的表"
+    },
+    {
+        "sentence": "这是自个买的，那是人家送的。",
+        "Holder": "2",
+        "Target": "4家的表",
+        "Aspect": "表的来源",
+        "Opinion": "表来源多样",
+        "Sentiment": "neutral",
+        "Rationale": "2解释了表的来源"
+    },
+    {
+        "sentence": "嗨，都是一个北京时间，那么多没用啊，干脆我拿走一得了。哈哈哈，太高了，我拿这个。",
+        "Holder": "1",
+        "Target": "北京时间",
+        "Aspect": "时间的一致性",
+        "Opinion": "认为时间一致无用",
+        "Sentiment": "positive",
+        "Rationale": "觉得时间一致没有实际意义"
+    },
+    {
+        "sentence": "成行，呵呵，那您走好啊。",
+        "Holder": "4",
+        "Target": "1的决定",
+        "Aspect": "决定的接受",
+        "Opinion": "同意并祝福",
+        "Sentiment": "positive",
+        "Rationale": "同意了1的决定"
+    },
+    {
+        "sentence": "别忙，我拿砂锅呢，给你家腾点地，哈哈哈。嘿，走了走。",
+        "Holder": "1",
+        "Target": "砂锅",
+        "Aspect": "物品的处理",
+        "Opinion": "拿走砂锅腾地方",
+        "Sentiment": "positive",
+        "Rationale": "拿走砂锅可以腾出空间"
+    },
+    {
+        "sentence": "啦。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "没有明确表达任何情感或观点"
+    },
+    {
+        "sentence": "谢阿姨，保险回头见。阿姨，再见。",
+        "Holder": "1",
+        "Target": "阿姨",
+        "Aspect": "告别",
+        "Opinion": "礼貌告别",
+        "Sentiment": "positive",
+        "Rationale": "要离开"
+    },
+    {
+        "sentence": "再见再见，别送别送我哎。好嘞好嘞，哈哈，有病啊，你把咱家东西都拿走了，你怎么还。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "拿走家中物品",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "4把家中东西拿走了"
+    },
+    {
+        "sentence": "谢谢他呀？还有你，哈哈哈。什么？什么叫谢谢阿姨了？谢谢人。陈。",
+        "Holder": "4",
+        "Target": "阿姨",
+        "Aspect": "感谢的行为",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白为什么要谢谢阿姨"
+    },
+    {
+        "sentence": "阿姨今天给咱做的饭呀？就是你，你俩就知道吃，咱家的锅都被人拿走了，你俩还无动于衷，咱们。",
+        "Holder": "3",
+        "Target": "2和4",
+        "Aspect": "对家中物品被拿走的态度",
+        "Opinion": "责备",
+        "Sentiment": "negative",
+        "Rationale": "2和4对家中锅被拿走无动于衷"
+    },
+    {
+        "sentence": "家不是还有一个呢吗？就是别那么小气。对。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对物品丢失的反应",
+        "Opinion": "认为不必小气",
+        "Sentiment": "neutral",
+        "Rationale": "认为家里还有多余的物品"
+    },
+    {
+        "sentence": "哈哈哈，咱家的财产受到了侵犯，你俩懂不懂啊？哈哈哈，看上咱家什么东西就毫不客气拿走，大锅饭也不这样吃啊。哈哈哈，爸妈，我觉得胖是他娘俩的，特俗气。佳佳说他学习就是为了将来挣大钱，还拿走了我的文具盒，哼，跟他妈一样爱占人小便宜，真让人郁闷。",
+        "Holder": "3",
+        "Target": "4及其家人",
+        "Aspect": "拿走家中物品和价值观",
+        "Opinion": "不满和鄙视",
+        "Sentiment": "negative",
+        "Rationale": "4及其家人随意拿走家中物品且价值观不被认同"
+    },
+    {
+        "sentence": "我觉得拿不拿东西倒在其次，就说这事让人心里忒不痛快了。",
+        "Holder": "2",
+        "Target": "这件事",
+        "Aspect": "心情感受",
+        "Opinion": "心里不痛快",
+        "Sentiment": "negative",
+        "Rationale": "觉得这件事处理得让人不舒服"
+    },
+    {
+        "sentence": "哈哈哈，人和人不一样，再怎么说胖婶也是长辈，我们还是得尊重人家。当然了，这每一个人的生活背景、文化背景、成长环境不太一样，这情有可原。胖婶这个人吧，就是为人太热情了一点，说话他直白了一点，太把别人家当自己家了一点。",
+        "Holder": "4",
+        "Target": "胖婶",
+        "Aspect": "行为和性格",
+        "Opinion": "需要尊重但有些过分",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到胖婶是长辈且行为情有可原"
+    },
+    {
+        "sentence": "哈哈哈，那您不就喜欢这样吗？哈哈哈，谁说的？您自个儿说的。",
+        "Holder": "2",
+        "Target": "4的观点",
+        "Aspect": "对胖婶行为的看法",
+        "Opinion": "质疑4的说法",
+        "Sentiment": "positive",
+        "Rationale": "觉得4之前表达过类似的观点"
+    },
+    {
+        "sentence": "祝大杂音儿的美好回忆，人与人零距离。",
+        "Holder": "3",
+        "Target": "大杂院的生活",
+        "Aspect": "人际关系的亲密程度",
+        "Opinion": "美好回忆",
+        "Sentiment": "positive",
+        "Rationale": "怀念大杂院里亲密无间的生活"
+    },
+    {
+        "sentence": "我说过吗？你当然说过，哈哈哈啊。不过妈妈说的那个大杂院儿里边儿没有人，随便到别人家拿东西去。",
+        "Holder": "4",
+        "Target": "大杂院的生活",
+        "Aspect": "行为习惯",
+        "Opinion": "随意拿东西",
+        "Sentiment": "neutral",
+        "Rationale": "提到妈妈描述的大杂院的生活习惯"
+    },
+    {
+        "sentence": "不光来，每次来还得顺走咱们家点东西，哈哈哈，从锅碗瓢盆倒茶杯，茶壶折叠以营养品，哈哈哈，只要他觉着咱们家有富裕的，没什么太大用的，唉，就得顺回去。哈哈哈，真拿咱们家当自个家。",
+        "Holder": "2",
+        "Target": "某人的行为",
+        "Aspect": "频繁拿走东西",
+        "Opinion": "觉得好笑又无奈",
+        "Sentiment": "ambiguous",
+        "Rationale": "某人每次来都会拿走一些东西，虽然觉得有些无奈，但关系亲近"
+    },
+    {
+        "sentence": "哼，这都是你把那什么文大杂院文化引进咱们家的恶果得了。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "引入大杂院文化",
+        "Opinion": "认为是恶果",
+        "Sentiment": "negative",
+        "Rationale": "认为2引入了大杂院文化导致家里频繁有人来拿东西"
+    },
+    {
+        "sentence": "吧。你这正烦呢，别说我爸妈，你这个胖阿姨又来了。哈哈哈，他怎么又来了？昨天晚上刚来过。",
+        "Holder": "2",
+        "Target": "胖阿姨的行为",
+        "Aspect": "频繁来访",
+        "Opinion": "觉得烦但好笑",
+        "Sentiment": "ambiguous",
+        "Rationale": "胖阿姨频繁来访让4感到烦恼，但2觉得这种情况有些好笑"
+    },
+    {
+        "sentence": "这叫执着，他是真想把他们家当成第二居所了。",
+        "Holder": "4",
+        "Target": "胖阿姨的行为",
+        "Aspect": "执着于来访",
+        "Opinion": "认为其把这里当第二居所",
+        "Sentiment": "negative",
+        "Rationale": "胖阿姨频繁来访，让4觉得她把这里当成了自己的家"
+    },
+    {
+        "sentence": "唉呦，我就知道今儿礼拜天你们全都在呢。",
+        "Holder": "1",
+        "Target": "家人都在",
+        "Aspect": "家人聚集",
+        "Opinion": "预料之中",
+        "Sentiment": "neutral",
+        "Rationale": "预料到今天是礼拜天大家都会在家"
+    },
+    {
+        "sentence": "哈哈哈，我告诉您，您，我们家都在家，也不用您帮着做饭。那你，我们今天吃身面条。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "做饭和用餐安排",
+        "Opinion": "不需要1帮忙做饭，邀请1吃面条",
+        "Sentiment": "positive",
+        "Rationale": "家里人都已经在家，不需要额外帮忙做饭"
+    },
+    {
+        "sentence": "呦，你看，我最爱吃面条了，得，中午我就在你们家入伙了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "用餐安排",
+        "Opinion": "愿意在2家吃面条",
+        "Sentiment": "positive",
+        "Rationale": "自己最爱吃面条"
+    },
+    {
+        "sentence": "您不是，您在我们家入伙，那您爱人跟孩子怎么办？",
+        "Holder": "2",
+        "Target": "1的爱人和孩子",
+        "Aspect": "用餐安排的合理性",
+        "Opinion": "担心1的爱人和孩子的用餐问题",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到1的爱人和孩子也需要用餐"
+    },
+    {
+        "sentence": "我打电话让他们中午过来吃面条。",
+        "Holder": "1",
+        "Target": "1的爱人和孩子",
+        "Aspect": "用餐安排",
+        "Opinion": "让爱人和孩子也来2家吃面条",
+        "Sentiment": "positive",
+        "Rationale": "想和家人一起享受面条"
+    },
+    {
+        "sentence": "哈哈哈，刘梅，不是这个意思啊。对，我。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "对话理解",
+        "Opinion": "澄清2的误解",
+        "Sentiment": "positive",
+        "Rationale": "觉得2误解了自己的意思"
+    },
+    {
+        "sentence": "不是这意思。",
+        "Holder": "2",
+        "Target": "1的理解",
+        "Aspect": "意思的表达",
+        "Opinion": "否定1的理解",
+        "Sentiment": "neutral",
+        "Rationale": "2在澄清1对其意思的误解"
+    },
+    {
+        "sentence": "我明白你的意思，你是说我们全家过来吃面条不合适，是吧？",
+        "Holder": "1",
+        "Target": "全家过来吃面条的合适性",
+        "Aspect": "行为的合适性",
+        "Opinion": "认为全家过来吃面条不合适",
+        "Sentiment": "positive",
+        "Rationale": "1通过幽默的方式表达了对全家过来吃面条这一行为的理解"
+    },
+    {
+        "sentence": "你要做点好吃的，是吧？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "食物准备",
+        "Opinion": "期待更好的食物",
+        "Sentiment": "positive",
+        "Rationale": "因为1通过开玩笑的方式表达了对更好食物的期待，所以情绪是积极的。"
+    },
+    {
+        "sentence": "我们家都是老北京，就爱吃炸酱面。",
+        "Holder": "1",
+        "Target": "全家人的口味",
+        "Aspect": "食物偏好",
+        "Opinion": "偏好炸酱面",
+        "Sentiment": "positive",
+        "Rationale": "因为1强调全家对传统北京食物的喜爱，所以表达出积极的情绪。"
+    },
+    {
+        "sentence": "对了，你们家能洗澡吗？",
+        "Holder": "1",
+        "Target": "3的家庭设施",
+        "Aspect": "洗浴设施",
+        "Opinion": "询问是否具备洗澡条件",
+        "Sentiment": "neutral",
+        "Rationale": "1只是简单地询问3家是否有洗澡设施，没有表现出明显的情绪倾向。"
+    },
+    {
+        "sentence": "那我就先洗个澡吧。",
+        "Holder": "1",
+        "Target": "个人卫生",
+        "Aspect": "洗澡需求",
+        "Opinion": "决定洗澡",
+        "Sentiment": "neutral",
+        "Rationale": "1表达了个人的卫生需求，情绪平和，没有明显的情感波动。"
+    },
+    {
+        "sentence": "你先进去，我一会儿再洗。",
+        "Holder": "4",
+        "Target": "洗澡顺序",
+        "Aspect": "礼让",
+        "Opinion": "让1先洗",
+        "Sentiment": "positive",
+        "Rationale": "4表现出礼貌和体贴，愿意让1先洗澡，因此情绪是积极的。"
+    },
+    {
+        "sentence": "呢？你怎么拦不掉啊？实在受不了了，阿姨在咱家洗澡要用我的盟军。哎，他就用。可不是嘛。",
+        "Holder": "2",
+        "Target": "阿姨使用盟军",
+        "Aspect": "个人物品的使用",
+        "Opinion": "无法阻止",
+        "Sentiment": "negative",
+        "Rationale": "无法阻止阿姨使用自己的盟军"
+    },
+    {
+        "sentence": "他来咱家洗澡什么都没带，他一会啊，说不定还要穿谁的拖鞋呢。",
+        "Holder": "4",
+        "Target": "访客的行为",
+        "Aspect": "访客的准备工作",
+        "Opinion": "缺乏准备",
+        "Sentiment": "negative",
+        "Rationale": "访客什么都没带，甚至可能需要借用拖鞋"
+    },
+    {
+        "sentence": "哎呦，我受不了。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "个人感受",
+        "Opinion": "无法忍受",
+        "Sentiment": "negative",
+        "Rationale": "对当前的情况感到非常不满"
+    },
+    {
+        "sentence": "哈哈，我也受不了，你是做居民工作的？唉，对，唉，你想想咱们从这个平房大院搬到楼房以后，人的这个精神面貌有什么变化吗？",
+        "Holder": "4",
+        "Target": "搬家后的变化",
+        "Aspect": "精神面貌",
+        "Opinion": "有变化",
+        "Sentiment": "ambiguous",
+        "Rationale": "从平房搬到楼房可能会带来生活和精神面貌的变化"
+    },
+    {
+        "sentence": "唉呦，当然有变化了，从大杂院搬到楼房里头，谁不高兴啊？你说是不是？",
+        "Holder": "1",
+        "Target": "搬家事件",
+        "Aspect": "情绪反应",
+        "Opinion": "高兴",
+        "Sentiment": "positive",
+        "Rationale": "从大杂院搬到楼房是一个改善生活条件的事件"
+    },
+    {
+        "sentence": "对，就是这可是这个光高兴也不行啊，咱们的这个生活品质提高了，但是精神文明也得跟着上，是不是？",
+        "Holder": "4",
+        "Target": "生活品质和精神文明",
+        "Aspect": "生活品质与精神文明的平衡",
+        "Opinion": "生活品质提高但精神文明也要跟上",
+        "Sentiment": "neutral",
+        "Rationale": "虽然生活品质提高了，但认为精神文明同样重要"
+    },
+    {
+        "sentence": "哈哈哈，没错，这不是我们居委会正准备开展那个五好家庭评选的吗？这楼上去哪张？",
+        "Holder": "1",
+        "Target": "五好家庭评选",
+        "Aspect": "评选活动的开展",
+        "Opinion": "支持并询问评选详情",
+        "Sentiment": "positive",
+        "Rationale": "居委会准备开展五好家庭评选活动，感到高兴和支持"
+    },
+    {
+        "sentence": "他们咱先不用说别的家庭，咱们今天就说说你们家，我们家，你我。",
+        "Holder": "4",
+        "Target": "家庭和个人",
+        "Aspect": "讨论对象的选择",
+        "Opinion": "聚焦于自家和对方家庭",
+        "Sentiment": "neutral",
+        "Rationale": "想要具体讨论自家和对方家庭的情况"
+    },
+    {
+        "sentence": "他，他是谁啊？",
+        "Holder": "1",
+        "Target": "未明确指代的‘他’",
+        "Aspect": "身份询问",
+        "Opinion": "不清楚对方指代的人",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚对方提到的‘他’是谁"
+    },
+    {
+        "sentence": "甭管他是谁。唉，我想说这个人与人之间交往应该有一些界限。哈哈哈，是不是这个日常生活中很多小事其实有时候很重要，文明有时候就差这么一点点。",
+        "Holder": "4",
+        "Target": "人与人之间的交往",
+        "Aspect": "交往的界限和文明细节",
+        "Opinion": "交往应有界限，小事体现文明",
+        "Sentiment": "neutral",
+        "Rationale": "认为人与人之间的交往需要有界限，且日常小事体现文明"
+    },
+    {
+        "sentence": "哈哈哈，那你说谁呢？",
+        "Holder": "1",
+        "Target": "4的言论",
+        "Aspect": "言论的对象",
+        "Opinion": "询问对象",
+        "Sentiment": "positive",
+        "Rationale": "对4的言论感到好奇和有趣"
+    },
+    {
+        "sentence": "哈哈哈，我是说。",
+        "Holder": "4",
+        "Target": "自己的言论",
+        "Aspect": "言论的指向",
+        "Opinion": "解释言论",
+        "Sentiment": "positive",
+        "Rationale": "想要解释自己的言论"
+    },
+    {
+        "sentence": "你。",
+        "Holder": "1",
+        "Target": "4的言论",
+        "Aspect": "言论的对象",
+        "Opinion": "指向4",
+        "Sentiment": "neutral",
+        "Rationale": "直接回应4的言论"
+    },
+    {
+        "sentence": "我当然还有他。哈哈哈，就是所有人，哈哈哈，就是人人之间交往如果老是零距离是不行的，哈哈哈，因为每一个人对于一些纯粹斯人的空间是不想被打扰的，哈哈哈，所以说你我之间当然还有他之间，哈哈哈，这个交往当中应该保持一种距离。所谓是有距离才能产生美吗？哈哈哈，有距离的人际关系才能保持长久的美好和谐，这就是生活的艺术。哈哈哈，你同意我的说话了？你。",
+        "Holder": "4",
+        "Target": "人际交往",
+        "Aspect": "交往的距离",
+        "Opinion": "保持适当距离",
+        "Sentiment": "positive",
+        "Rationale": "认为保持适当距离能让人际关系更和谐美好"
+    },
+    {
+        "sentence": "这个这这这，我还得回家想想你这个，这。",
+        "Holder": "1",
+        "Target": "4的观点",
+        "Aspect": "观点的合理性",
+        "Opinion": "需要思考",
+        "Sentiment": "neutral",
+        "Rationale": "对4的观点感到需要进一步思考"
+    },
+    {
+        "sentence": "先生。嗯，你还别说，哼，你说那番话还真起作用了，胖早今晚没来吼。",
+        "Holder": "2",
+        "Target": "4的话",
+        "Aspect": "话的效果",
+        "Opinion": "起作用",
+        "Sentiment": "positive",
+        "Rationale": "4的话让胖早没有来"
+    },
+    {
+        "sentence": "我估计这陈姐是回去琢磨了一下。嗯，觉得自己行为确实有点不妥，所以就不好意思来了。",
+        "Holder": "4",
+        "Target": "陈姐",
+        "Aspect": "行为合理性",
+        "Opinion": "行为不妥",
+        "Sentiment": "neutral",
+        "Rationale": "陈姐觉得自己行为不妥"
+    },
+    {
+        "sentence": "哈哈哈，那些话幸亏是你说的，要我还真有点说不出口。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "说话的能力",
+        "Opinion": "幸亏是4说的",
+        "Sentiment": "positive",
+        "Rationale": "自己说不出口那些话"
+    },
+    {
+        "sentence": "嗨，多大点事儿，以后再处理这种事儿，红脸儿白脸儿，我一个人儿全唱，哈哈哈。",
+        "Holder": "4",
+        "Target": "处理事情的能力",
+        "Aspect": "应对方式",
+        "Opinion": "自己能全处理",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己能处理这种事情"
+    },
+    {
+        "sentence": "妈，爸，你们快过来，看什么呀？什么呀？海智采访低保护的节目下东海，你快过来看。",
+        "Holder": "2",
+        "Target": "海智采访节目",
+        "Aspect": "节目内容",
+        "Opinion": "值得一看",
+        "Sentiment": "positive",
+        "Rationale": "觉得海智采访的节目内容重要"
+    },
+    {
+        "sentence": "呵，干嘛呀？一惊一乍的看呐。嗨，这不是扶贫祝困的公益活动嘛，这，哈哈哈。哎，这，这，陈姐啊。",
+        "Holder": "4",
+        "Target": "公益活动",
+        "Aspect": "活动的性质",
+        "Opinion": "认为是扶贫祝困",
+        "Sentiment": "positive",
+        "Rationale": "看到的是扶贫祝困的公益活动"
+    },
+    {
+        "sentence": "哈哈哈，那不是咱们家的椅子、褥子和砂锅吗？那不是还有那文具盒噢。嗨，人家胖嫂一直在帮助低保家庭把从咱们家拿走的东西，人家都帮助困难户。不过他凭什么从咱们家拿东西送人？他自个怎么不送啊？",
+        "Holder": "2",
+        "Target": "胖嫂",
+        "Aspect": "拿东西送人的行为",
+        "Opinion": "质疑胖嫂的行为",
+        "Sentiment": "negative",
+        "Rationale": "胖嫂从自家拿东西送人而自己不送"
+    },
+    {
+        "sentence": "谁说人光送咱家东西了？你仔细看看，那不都贴了标签了吗？那一大堆，全是人，陈姐家的。",
+        "Holder": "4",
+        "Target": "胖嫂",
+        "Aspect": "送东西的对象",
+        "Opinion": "胖嫂不仅送自家东西",
+        "Sentiment": "neutral",
+        "Rationale": "发现胖嫂送的东西不仅是自家的"
+    },
+    {
+        "sentence": "真的哎哎呦，他怎么把电视都送人了。",
+        "Holder": "2",
+        "Target": "胖嫂",
+        "Aspect": "送电视的行为",
+        "Opinion": "惊讶于送电视",
+        "Sentiment": "ambiguous",
+        "Rationale": "胖嫂连电视都送人了"
+    },
+    {
+        "sentence": "看看咱错过人家了吧。",
+        "Holder": "4",
+        "Target": "胖嫂",
+        "Aspect": "对胖嫂的评价",
+        "Opinion": "认为错怪了胖嫂",
+        "Sentiment": "positive",
+        "Rationale": "发现胖嫂不仅送自家的东西"
+    },
+    {
+        "sentence": "艾玛哟。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是打招呼，没有表达具体情感"
+    },
+    {
+        "sentence": "来了正好，哎。",
+        "Holder": "4",
+        "Target": "2的到来",
+        "Aspect": "时机",
+        "Opinion": "正好",
+        "Sentiment": "positive",
+        "Rationale": "2的到来恰好符合4的期望"
+    },
+    {
+        "sentence": "哎来了。胖嫂来了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "到达",
+        "Opinion": "到达",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己到达的事实，没有表达具体情感"
+    },
+    {
+        "sentence": "孙姐，你来了。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "到达",
+        "Opinion": "到达",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认2的到达，没有表达具体情感"
+    },
+    {
+        "sentence": "您这是右手从哪弄的被窝呀？是不是要给那低保家庭送去啊？不不是。",
+        "Holder": "2",
+        "Target": "4手中的被窝",
+        "Aspect": "来源和用途",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问被窝的来源和用途，没有表达具体情感"
+    },
+    {
+        "sentence": "您就别谦虚了，刚才我们全家正从电商看着您。",
+        "Holder": "4",
+        "Target": "2的表现",
+        "Aspect": "谦虚态度",
+        "Opinion": "不需要谦虚",
+        "Sentiment": "positive",
+        "Rationale": "全家都在关注2的表现"
+    },
+    {
+        "sentence": "对对，演您来长。是啊，好些东西我们都看看。",
+        "Holder": "2",
+        "Target": "4的观看行为",
+        "Aspect": "观看内容",
+        "Opinion": "认可观看",
+        "Sentiment": "positive",
+        "Rationale": "4全家都在观看"
+    },
+    {
+        "sentence": "我们正好有特别多的话想跟您聊一聊。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "交流意愿",
+        "Opinion": "强烈交流意愿",
+        "Sentiment": "positive",
+        "Rationale": "有特别多的话想说"
+    },
+    {
+        "sentence": "行，你先别说了，先听我说。这白天哪你跟我说那些话，回家我翻过来调过去想了好几遍。",
+        "Holder": "1",
+        "Target": "4的话",
+        "Aspect": "话语的重要性",
+        "Opinion": "需要认真思考",
+        "Sentiment": "neutral",
+        "Rationale": "白天说的话很重要"
+    },
+    {
+        "sentence": "哎呦哎呦，pass。您可千万别往心里去，他这人呐，有的时候。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话语的影响",
+        "Opinion": "不必在意",
+        "Sentiment": "neutral",
+        "Rationale": "1的话可能让4感到压力"
+    },
+    {
+        "sentence": "他这人话对我启发太大了。这人与人之间是该有距离才能产生美，有了美才能和谐。哎，是不是老夏，对吧？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "话语的启发性",
+        "Opinion": "启发很大",
+        "Sentiment": "positive",
+        "Rationale": "他人的话让自己有了新的认识"
+    },
+    {
+        "sentence": "话是这么说的，但是。",
+        "Holder": "4",
+        "Target": "1的观点",
+        "Aspect": "观点的合理性",
+        "Opinion": "部分认同",
+        "Sentiment": "neutral",
+        "Rationale": "虽然认同部分观点，但仍有保留意见"
+    },
+    {
+        "sentence": "这个可是你这话让我豁然开朗，我现在明白了，为什么我跟我老公这关系永远搞不好呢？就是因为我们俩距离太近了。",
+        "Holder": "1",
+        "Target": "4的话",
+        "Aspect": "话语的启发性",
+        "Opinion": "豁然开朗",
+        "Sentiment": "positive",
+        "Rationale": "4的话让自己明白了问题的根源"
+    },
+    {
+        "sentence": "嗨，你们都不知道，最近我经常跟我老公吵架，要不我每天晚上往你们家跑干嘛呀？哈哈哈，现在我明白了，这老吵架也不行，要拉开距离，找着了距离才能找着美。",
+        "Holder": "1",
+        "Target": "自己与老公的关系",
+        "Aspect": "关系的处理方式",
+        "Opinion": "需要拉开距离",
+        "Sentiment": "positive",
+        "Rationale": "认识到拉开距离能改善关系"
+    },
+    {
+        "sentence": "所以我决定这礼拜我就住你们家了，你看我这行李都带了，唉，安妮，对了，那个我住哪屋啊？",
+        "Holder": "1",
+        "Target": "住4家的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "决定住下",
+        "Sentiment": "positive",
+        "Rationale": "认为住下来能改善与老公的关系"
+    }
+]

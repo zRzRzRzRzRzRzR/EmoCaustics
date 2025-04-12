@@ -1,0 +1,170 @@
+{
+  "3": {
+    "events": [
+      {
+        "event": "表达与误解的哲学定义重构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "阐述表达与理解的本质关系",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "论证艺术表达的开放性价值",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳逻辑语言全面消除误解的可能性",
+            "source_id": "7,8"
+          }
+        ]
+      },
+      {
+        "event": "宿命论的本质解构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析宿命与悲剧的关联性",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示权力关系对表达的实质影响",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "日常生活误解实证分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "秋裤争议与情侣对话的典型误解案例",
+            "source_id": "1,3"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑理解存在的真实性",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "数理逻辑的精准性论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "维特根斯坦语言系统的突破性",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇日常语境的反驳案例",
+            "source_id": "3,4"
+          }
+        ]
+      },
+      {
+        "event": "宿命本质的哲学辨析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "区分事实必然与本质必然",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露对方论证的集合概念谬误",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "类比论证的攻防战",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "脏与宿命的类比推演",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示对方逻辑自相矛盾",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "辩论流程控制与裁决",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "时间分配与环节过渡管理",
+            "source_id": "6"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "规则弹性调整的困境",
+            "source_id": "3,7"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "宿命论的现实映射",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "业务部门与IT部门的持续矛盾",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "AI语言实际应用的局限性暴露",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "隐喻体系的构建与解构",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "哥伦布航海的历史隐喻",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇沙漠绿洲论的持续质疑",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

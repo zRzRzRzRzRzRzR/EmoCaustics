@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "瞧瞧阿姨糊涂不糊涂，阿姨还准备给你一个特别好的礼物，等着阿姨给拿去啊。",
+        "Holder": "1",
+        "Target": "阿姨",
+        "Aspect": "行为",
+        "Opinion": "糊涂",
+        "Sentiment": "ambiguous",
+        "Rationale": "阿姨准备送礼物但行为显得有些糊涂"
+    },
+    {
+        "sentence": "我妈对你也不错",
+        "Holder": "2",
+        "Target": "妈妈",
+        "Aspect": "对待方式",
+        "Opinion": "不错",
+        "Sentiment": "positive",
+        "Rationale": "妈妈对说话人1很好"
+    },
+    {
+        "sentence": "我不是你哥们吗",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "关系",
+        "Opinion": "是哥们",
+        "Sentiment": "neutral",
+        "Rationale": "强调与说话人2的哥们关系"
+    },
+    {
+        "sentence": "嘿嘿，好看不好看",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "外观",
+        "Opinion": "好看",
+        "Sentiment": "positive",
+        "Rationale": "对礼物的外观感到满意"
+    },
+    {
+        "sentence": "阿姨太谢谢您了。",
+        "Holder": "3",
+        "Target": "阿姨",
+        "Aspect": "行为",
+        "Opinion": "感谢",
+        "Sentiment": "positive",
+        "Rationale": "阿姨准备了礼物"
+    },
+    {
+        "sentence": "嗨，甭客气，阿姨昨天晚上饭馆去吃饭，赶上抓奖，我就抓了一这个。电动玩具车。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "手气",
+        "Opinion": "手气好",
+        "Sentiment": "positive",
+        "Rationale": "抓奖时中奖了"
+    },
+    {
+        "sentence": "您手气的真好，我妈抽那么多次奖没抽出一个玩具。",
+        "Holder": "3",
+        "Target": "1的手气",
+        "Aspect": "中奖概率",
+        "Opinion": "手气好",
+        "Sentiment": "positive",
+        "Rationale": "对比自己母亲多次未中奖，而1一次就中奖"
+    },
+    {
+        "sentence": "谁能跟阿姨的手气比啊，呵呵，我一想流星又不喜欢这玩意儿，再说他这玩意也挺多的，正好送给你了。",
+        "Holder": "1",
+        "Target": "流星",
+        "Aspect": "对玩具的喜好",
+        "Opinion": "不喜欢",
+        "Sentiment": "neutral",
+        "Rationale": "流星不喜欢这种玩具"
+    },
+    {
+        "sentence": "谢谢阿姨太谢谢您了。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "送礼行为",
+        "Opinion": "感激",
+        "Sentiment": "positive",
+        "Rationale": "收到1送的玩具车"
+    },
+    {
+        "sentence": "嗯甭客气。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "感谢回应",
+        "Opinion": "不用谢",
+        "Sentiment": "neutral",
+        "Rationale": "认为送礼是小事"
+    },
+    {
+        "sentence": "还得跟你妈道别呢。",
+        "Holder": "3",
+        "Target": "道别",
+        "Aspect": "礼节",
+        "Opinion": "需要道别",
+        "Sentiment": "neutral",
+        "Rationale": "按照礼节需要道别"
+    },
+    {
+        "sentence": "阿姨，我走了，您送我这小汽车，我真谢谢您，太喜欢了，回家我肯定让我妈看。",
+        "Holder": "3",
+        "Target": "小汽车",
+        "Aspect": "礼物",
+        "Opinion": "非常喜欢",
+        "Sentiment": "positive",
+        "Rationale": "收到了喜欢的礼物并表示感谢"
+    },
+    {
+        "sentence": "好嘞，走啦，再见。没事来玩",
+        "Holder": "1",
+        "Target": "来访",
+        "Aspect": "邀请",
+        "Opinion": "欢迎再来",
+        "Sentiment": "positive",
+        "Rationale": "友好地邀请对方再来玩"
+    },
+    {
+        "sentence": "这么烦呢？",
+        "Holder": "2",
+        "Target": "道别和邀请",
+        "Aspect": "繁琐",
+        "Opinion": "觉得烦",
+        "Sentiment": "negative",
+        "Rationale": "觉得道别和邀请的过程繁琐"
+    },
+    {
+        "sentence": "刘星，哎，刘星。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的情绪",
+        "Opinion": "关注刘星的情绪",
+        "Sentiment": "neutral",
+        "Rationale": "注意到刘星的情绪似乎有些不对"
+    },
+    {
+        "sentence": "梅梅啊？刘星怎么了？我看他怎么有点不高兴啊？",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的情绪",
+        "Opinion": "刘星不高兴",
+        "Sentiment": "neutral",
+        "Rationale": "观察到刘星的表情和行为"
+    },
+    {
+        "sentence": "不用理他",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "对刘星的关注",
+        "Opinion": "不需要关注刘星",
+        "Sentiment": "neutral",
+        "Rationale": "认为刘星的情绪不需要特别关注"
+    },
+    {
+        "sentence": "对了，我听鼠标说你送他什么小汽车？怎么回事？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "送小汽车的事情",
+        "Opinion": "询问送小汽车的情况",
+        "Sentiment": "neutral",
+        "Rationale": "听到别人说1送了小汽车"
+    },
+    {
+        "sentence": "不是我送的，是他妈妈买了一个小汽车电动玩具交给我，让我转送给他儿子的。",
+        "Holder": "1",
+        "Target": "小汽车电动玩具",
+        "Aspect": "送礼物的来源",
+        "Opinion": "解释礼物来源",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清礼物的来源"
+    },
+    {
+        "sentence": "他妈干嘛让你转送给他儿子？",
+        "Holder": "4",
+        "Target": "他妈",
+        "Aspect": "转送行为",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对转送行为感到不解和质疑"
+    },
+    {
+        "sentence": "让我拉拢她儿子联络感情呗",
+        "Holder": "1",
+        "Target": "他妈",
+        "Aspect": "目的",
+        "Opinion": "解释",
+        "Sentiment": "neutral",
+        "Rationale": "解释了转送行为的目的"
+    },
+    {
+        "sentence": "为什么让你拉拢他儿子联络感情？",
+        "Holder": "4",
+        "Target": "他妈",
+        "Aspect": "目的",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对拉拢行为的目的感到不解和质疑"
+    },
+    {
+        "sentence": "能不能不让刘星听见啊？",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "隐私",
+        "Opinion": "请求",
+        "Sentiment": "neutral",
+        "Rationale": "希望保护隐私"
+    },
+    {
+        "sentence": "嗯，行行行。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "请求",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "因为同意了1的请求，所以语气中带有积极的情绪"
+    },
+    {
+        "sentence": "这些日子鼠标跟刘星俩人老凑在一块嘀嘀咕，不知道那说什么呢？好像是有点什么计划和什么行动。反正这事肯定是跟钱有关系，这是鼠标他妈听见的，所以我们俩就挺担心，这不就买一个电动玩具吗？让我送给他儿子，让我们俩加深感情，拉近距离，没准就能把他们的实话给套出来。",
+        "Holder": "1",
+        "Target": "鼠标和刘星",
+        "Aspect": "行为和计划",
+        "Opinion": "担心和好奇",
+        "Sentiment": "negative",
+        "Rationale": "不清楚鼠标和刘星的计划和行动，且听说与钱有关"
+    },
+    {
+        "sentence": "你绕这一大圈，你想要实话直接从你儿子嘴里套出来不得了吗？你何苦费这么半天劲从别人儿子的嘴里套",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "获取信息的方式",
+        "Opinion": "认为直接从儿子处获取更简单",
+        "Sentiment": "negative",
+        "Rationale": "认为1绕弯子获取信息的方式不高效"
+    },
+    {
+        "sentence": "嘿，你还不了解刘星吗，他会说吗",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "沟通意愿",
+        "Opinion": "刘星不愿意说实话",
+        "Sentiment": "negative",
+        "Rationale": "了解刘星的个性，知道他不愿意向父母说实话"
+    },
+    {
+        "sentence": "那别人的儿子就跟你说实话。",
+        "Holder": "4",
+        "Target": "别人的儿子",
+        "Aspect": "沟通意愿",
+        "Opinion": "认为别人的儿子会说实话",
+        "Sentiment": "neutral",
+        "Rationale": "对别人的儿子是否会说实话持中立态度"
+    },
+    {
+        "sentence": "你还教育专家呢，连这点道理都不懂。切。孩子跟自己的父母是有距离跟代沟的，很多话他不敢说，因为说出来怕挨批评，怕做的不对，但是对别的叔叔阿姨就不一样了唉。看这阿姨，脾气挺好，心眼挺好，对自个挺好，也没准就把心里话就都掏出来了，反正挨不了批评",
+        "Holder": "1",
+        "Target": "4的教育观念",
+        "Aspect": "对孩子沟通的理解",
+        "Opinion": "认为4不懂孩子与父母的代沟",
+        "Sentiment": "negative",
+        "Rationale": "认为4作为教育专家却不理解孩子与父母之间的代沟问题"
+    },
+    {
+        "sentence": "你知道距离和代沟是怎么产生的吗？就是你们这些亲爱的妈妈一碰上什么问题根本不去认真的找出问题的根源所在，就在那胡想办法。孩子不说肯定有孩子不说的道理。唉，他想告诉你的时候你不用问，他主动就跟你说了，就你们这个整法，以后碰上什么事肯定都不会跟你们说实话了，这就是距离和代沟产生的根本原因",
+        "Holder": "4",
+        "Target": "妈妈们",
+        "Aspect": "处理问题的方式",
+        "Opinion": "不认真找根源",
+        "Sentiment": "negative",
+        "Rationale": "妈妈们不认真找问题的根源而胡乱想办法"
+    },
+    {
+        "sentence": "我跟你说什么无法跟你们这些更年期的妇女交流教育观念问题",
+        "Holder": "4",
+        "Target": "更年期的妇女",
+        "Aspect": "交流教育观念",
+        "Opinion": "无法交流",
+        "Sentiment": "negative",
+        "Rationale": "认为与更年期的妇女在教育观念上无法沟通"
+    },
+    {
+        "sentence": "就冲这个嘿，咱俩也有代沟",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "交流方式",
+        "Opinion": "存在代沟",
+        "Sentiment": "negative",
+        "Rationale": "认为一个简单的打招呼也显示出与1之间的代沟"
+    },
+    {
+        "sentence": "怎么了老林？咱俩当然是哥们了。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "关系",
+        "Opinion": "是哥们",
+        "Sentiment": "positive",
+        "Rationale": "认为与4是哥们关系"
+    },
+    {
+        "sentence": "那你就跟我说实话，你到底跟我妈说什么啦？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "与妈妈的对话内容",
+        "Opinion": "怀疑2说了什么",
+        "Sentiment": "negative",
+        "Rationale": "妈妈向3抱怨辛苦，3怀疑2对妈妈说了什么导致妈妈不满"
+    },
+    {
+        "sentence": "没说什么呀？",
+        "Holder": "2",
+        "Target": "3的怀疑",
+        "Aspect": "与妈妈的对话内容",
+        "Opinion": "否认说了什么",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己没有说什么导致妈妈不满的话"
+    },
+    {
+        "sentence": "哈哈哈，可能那我妈昨天晚上拉着我说什么她怎么辛苦，她怎么不容易。",
+        "Holder": "3",
+        "Target": "妈妈的抱怨",
+        "Aspect": "妈妈的辛苦",
+        "Opinion": "理解妈妈的辛苦",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈向3抱怨辛苦，3虽然理解但仍然怀疑2的影响"
+    },
+    {
+        "sentence": "是啊，为什么呀？",
+        "Holder": "2",
+        "Target": "妈妈的抱怨",
+        "Aspect": "抱怨的原因",
+        "Opinion": "不清楚原因",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚妈妈为什么抱怨"
+    },
+    {
+        "sentence": "我正想问你呢",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "与妈妈的对话内容",
+        "Opinion": "希望得到解释",
+        "Sentiment": "negative",
+        "Rationale": "3仍然怀疑2对妈妈说了什么，希望得到解释"
+    },
+    {
+        "sentence": "你爸你妈可能要离婚了",
+        "Holder": "2",
+        "Target": "3的父母",
+        "Aspect": "婚姻状况",
+        "Opinion": "可能离婚",
+        "Sentiment": "negative",
+        "Rationale": "告知对方父母可能离婚"
+    },
+    {
+        "sentence": "你说啥呢？",
+        "Holder": "3",
+        "Target": "2的话",
+        "Aspect": "信息的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "听到父母可能离婚的消息感到震惊和不相信"
+    },
+    {
+        "sentence": "真的，我告诉你，这事我可有经验，就当初我爸我妈要离婚时候，我妈就拉着我跟我倒了三天三夜的苦水。",
+        "Holder": "2",
+        "Target": "自己的经验",
+        "Aspect": "经验的可靠性",
+        "Opinion": "有经验",
+        "Sentiment": "negative",
+        "Rationale": "提到自己父母离婚时的痛苦经历"
+    },
+    {
+        "sentence": "这我爸我妈感情好着呢，肯定是你，你说什么呢？",
+        "Holder": "3",
+        "Target": "父母的感情",
+        "Aspect": "感情的稳定性",
+        "Opinion": "感情好",
+        "Sentiment": "negative",
+        "Rationale": "坚信父母感情好，对2的话感到愤怒和不满"
+    },
+    {
+        "sentence": "什么都没说呀",
+        "Holder": "2",
+        "Target": "自己的话",
+        "Aspect": "话语的内容",
+        "Opinion": "没有说什么",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己没有说什么过分的话"
+    },
+    {
+        "sentence": "你不跟我说实话是吧？",
+        "Holder": "3",
+        "Target": "2的诚实度",
+        "Aspect": "是否说实话",
+        "Opinion": "怀疑不说实话",
+        "Sentiment": "negative",
+        "Rationale": "3认为2没有说实话"
+    },
+    {
+        "sentence": "哎，我真的什么都没说。我干嘛跟你说实话呀？你都不相信我啦。",
+        "Holder": "2",
+        "Target": "3的信任",
+        "Aspect": "信任度",
+        "Opinion": "不被信任",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被3不信任"
+    },
+    {
+        "sentence": "我明白了，你是不是报复我呀？",
+        "Holder": "3",
+        "Target": "2的行为动机",
+        "Aspect": "是否报复",
+        "Opinion": "怀疑报复",
+        "Sentiment": "negative",
+        "Rationale": "3认为2的行为可能是报复"
+    },
+    {
+        "sentence": "我报复你？我没法跟你说话。",
+        "Holder": "2",
+        "Target": "3的指责",
+        "Aspect": "合理性",
+        "Opinion": "否认报复",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被冤枉"
+    },
+    {
+        "sentence": "我还没跟你交流呢",
+        "Holder": "1",
+        "Target": "交流情况",
+        "Aspect": "是否交流",
+        "Opinion": "未交流",
+        "Sentiment": "neutral",
+        "Rationale": "1指出自己还没有和2交流"
+    },
+    {
+        "sentence": "我走了",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "离开的行为",
+        "Opinion": "决定离开",
+        "Sentiment": "neutral",
+        "Rationale": "3决定离开"
+    },
+    {
+        "sentence": "让他走。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "离开的行为",
+        "Opinion": "同意离开",
+        "Sentiment": "neutral",
+        "Rationale": "2对3的离开没有异议"
+    },
+    {
+        "sentence": "儿子，是不是心情有点儿不太好啊？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "心情状态",
+        "Opinion": "推测心情不好",
+        "Sentiment": "neutral",
+        "Rationale": "4观察到2可能心情不佳"
+    },
+    {
+        "sentence": "没有。你有事吗？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "心情状态",
+        "Opinion": "否认心情不好",
+        "Sentiment": "neutral",
+        "Rationale": "2否认自己心情不好"
+    },
+    {
+        "sentence": "我觉得好像是应该你有事准备告诉我吧？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "是否有事",
+        "Opinion": "推测2有事",
+        "Sentiment": "neutral",
+        "Rationale": "4觉得2可能有事情要告诉自己"
+    }
+]

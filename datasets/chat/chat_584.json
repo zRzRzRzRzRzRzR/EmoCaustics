@@ -1,0 +1,362 @@
+[
+    {
+        "sentence": "你前两天你跟我联合起来，同仇敌忾，现在干嘛，说翻脸就翻脸啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "态度变化",
+        "Opinion": "翻脸太快",
+        "Sentiment": "negative",
+        "Rationale": "2之前和1联合对抗共同敌人，现在突然改变态度"
+    },
+    {
+        "sentence": "哎，等一下，同仇敌忾是怎么回事？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "事件理解",
+        "Opinion": "不清楚情况",
+        "Sentiment": "neutral",
+        "Rationale": "2对1提到的“同仇敌忾”事件不清楚"
+    },
+    {
+        "sentence": "你就是个叛徒啊，不是说好了，不要讲的吗？你怎么全都讲出来了？",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "保密性",
+        "Opinion": "背叛",
+        "Sentiment": "negative",
+        "Rationale": "2违反了之前的约定，把不该讲的事情讲出来"
+    },
+    {
+        "sentence": "左左，我告诉你，是这么回事，你妈妈特别看不惯你那个朋友叫倩倩，你妈看不惯人家，她就拉我，硬要把我拽去，对付你那朋友。",
+        "Holder": "1",
+        "Target": "2的妈妈",
+        "Aspect": "对朋友的态度",
+        "Opinion": "看不惯",
+        "Sentiment": "negative",
+        "Rationale": "2的妈妈对2的朋友倩倩有偏见，并且拉1去对付倩倩"
+    },
+    {
+        "sentence": "现在我没有价值了，利用完了，你就翻脸了，对不对？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对待方式",
+        "Opinion": "被利用后翻脸",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被利用完后遭到冷落"
+    },
+    {
+        "sentence": "金老师有没有这回事？",
+        "Holder": "2",
+        "Target": "1的指控",
+        "Aspect": "事情的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "对1的指控感到疑惑"
+    },
+    {
+        "sentence": "有。怎么样？",
+        "Holder": "3",
+        "Target": "1的指控",
+        "Aspect": "事情的真实性",
+        "Opinion": "确认",
+        "Sentiment": "negative",
+        "Rationale": "确认了1的指控"
+    },
+    {
+        "sentence": "我就是看不惯你这个朋友倩倩！",
+        "Holder": "3",
+        "Target": "倩倩",
+        "Aspect": "个人喜好",
+        "Opinion": "看不惯",
+        "Sentiment": "negative",
+        "Rationale": "对倩倩有不满"
+    },
+    {
+        "sentence": "妈妈这样做都是对你好，乖乖。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "行为动机",
+        "Opinion": "出于好意",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的行为是为了1好"
+    },
+    {
+        "sentence": "不是，你什么叫对我好啊？",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑对方的好意",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让说话人感到不被理解和尊重"
+    },
+    {
+        "sentence": "你有什么资格看不惯人家呀？",
+        "Holder": "2",
+        "Target": "对方的评判标准",
+        "Aspect": "评判的合理性",
+        "Opinion": "认为对方没有资格评价",
+        "Sentiment": "negative",
+        "Rationale": "因为对方一直以来的干涉让说话人感到不满，所以质疑对方的评价资格"
+    },
+    {
+        "sentence": "你从小就管着我，这个不许做，那个不许做，我现在已经结婚了，都有孩子了，你为什么还要管我？",
+        "Holder": "2",
+        "Target": "对方的管理方式",
+        "Aspect": "个人自由",
+        "Opinion": "希望获得自由",
+        "Sentiment": "negative",
+        "Rationale": "因为长期被对方管束，感到束缚和不满，所以希望摆脱这种控制"
+    },
+    {
+        "sentence": "我从小就这样，不让我跟这个玩，不让我跟那个玩，每个朋友她都要管。",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "干涉程度",
+        "Opinion": "感到被过度干涉",
+        "Sentiment": "frustrated",
+        "Rationale": "因为对方一直以来的过度干涉，让说话人感到生活受限，所以产生了抵触情绪。"
+    },
+    {
+        "sentence": "金老师，从今天开始，我要跟你对抗到底！",
+        "Holder": "2",
+        "Target": "金老师",
+        "Aspect": "反抗态度",
+        "Opinion": "决定反抗",
+        "Sentiment": "determined",
+        "Rationale": "因为长期的不满和压抑，决定不再忍受，所以表现出坚定的反抗态度。"
+    },
+    {
+        "sentence": "赵左左，你翅膀长出来了，想飞了，是不是？",
+        "Holder": "3",
+        "Target": "赵左左",
+        "Aspect": "行为自主性",
+        "Opinion": "质疑赵左左想独立",
+        "Sentiment": "negative",
+        "Rationale": "觉得赵左左想要脱离控制"
+    },
+    {
+        "sentence": "我跟你讲，你把你的耳朵给我竖起来听着！",
+        "Holder": "3",
+        "Target": "赵左左",
+        "Aspect": "注意力集中",
+        "Opinion": "要求赵左左认真听",
+        "Sentiment": "negative",
+        "Rationale": "赵左左可能没有认真听"
+    },
+    {
+        "sentence": "你等会，你给我坐下来。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为控制",
+        "Opinion": "要求3冷静下来",
+        "Sentiment": "neutral",
+        "Rationale": "想要平息对话中的紧张气氛"
+    },
+    {
+        "sentence": "有一件事情我还没弄清楚，你买的这些东西对不对？为什么收件人是赵左左啊，为什么？",
+        "Holder": "1",
+        "Target": "购买的物品",
+        "Aspect": "收件人合理性",
+        "Opinion": "质疑收件人",
+        "Sentiment": "neutral",
+        "Rationale": "对购买的物品和收件人感到疑惑"
+    },
+    {
+        "sentence": "哎呀，左左的账号，那肯定是左左是收件人了。",
+        "Holder": "3",
+        "Target": "左左的账号",
+        "Aspect": "收件人身份",
+        "Opinion": "左左是收件人",
+        "Sentiment": "neutral",
+        "Rationale": "左左的账号默认情况下应该是左左本人接收"
+    },
+    {
+        "sentence": "左左的账号？",
+        "Holder": "1",
+        "Target": "左左的账号",
+        "Aspect": "账号归属",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对左左账号的归属有疑问"
+    },
+    {
+        "sentence": "左左的账号不是跟我们家小鱼是挂在一起的吗？",
+        "Holder": "1",
+        "Target": "左左的账号",
+        "Aspect": "账号关联",
+        "Opinion": "与小鱼账号关联",
+        "Sentiment": "neutral",
+        "Rationale": "认为左左的账号和小鱼的账号有联系"
+    },
+    {
+        "sentence": "有什么问题吗？",
+        "Holder": "3",
+        "Target": "1的疑问",
+        "Aspect": "疑问的合理性",
+        "Opinion": "无问题",
+        "Sentiment": "neutral",
+        "Rationale": "不明白1为何有疑问"
+    },
+    {
+        "sentence": "亲家，都是一家人，你为什么搞得这么清楚嘞？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "处理方式",
+        "Opinion": "过于清楚",
+        "Sentiment": "negative",
+        "Rationale": "认为1在处理家庭事务时过于计较细节"
+    },
+    {
+        "sentence": "那我问你这个东西多少钱啊？",
+        "Holder": "1",
+        "Target": "东西",
+        "Aspect": "价格",
+        "Opinion": "询问价格",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行价格询问"
+    },
+    {
+        "sentence": "那这个呢？",
+        "Holder": "1",
+        "Target": "另一个东西",
+        "Aspect": "价格",
+        "Opinion": "询问价格",
+        "Sentiment": "neutral",
+        "Rationale": "1继续询问另一个东西的价格"
+    },
+    {
+        "sentence": "这么一丁点小的东西要500多块钱。",
+        "Holder": "1",
+        "Target": "东西",
+        "Aspect": "价格合理性",
+        "Opinion": "价格过高",
+        "Sentiment": "negative",
+        "Rationale": "1认为东西很小但价格却很高"
+    },
+    {
+        "sentence": "这是硅胶奶嘴！无污染、无添加，无毒害，专门就是娃娃用的，肯定是要500多的嘛。",
+        "Holder": "3",
+        "Target": "硅胶奶嘴",
+        "Aspect": "产品质量和价格",
+        "Opinion": "高质量且价格合理",
+        "Sentiment": "positive",
+        "Rationale": "硅胶奶嘴无污染、无添加、无毒害，专门为娃娃设计"
+    },
+    {
+        "sentence": "左左在，我在我在。",
+        "Holder": "2",
+        "Target": "自身存在",
+        "Aspect": "在场确认",
+        "Opinion": "确认在场",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认自己的在场状态"
+    },
+    {
+        "sentence": "那你买那么多东西，一共花了多少钱啊？",
+        "Holder": "1",
+        "Target": "2的购物花费",
+        "Aspect": "购物总花费",
+        "Opinion": "询问花费",
+        "Sentiment": "neutral",
+        "Rationale": "好奇2购买物品的总花费"
+    },
+    {
+        "sentence": "我觉得吧有些没开封的，我们还可以申请退款。",
+        "Holder": "2",
+        "Target": "未开封商品",
+        "Aspect": "退款可能性",
+        "Opinion": "可以申请退款",
+        "Sentiment": "neutral",
+        "Rationale": "有些商品未开封"
+    },
+    {
+        "sentence": "吊牌都被我拆了，退给谁去啊？",
+        "Holder": "3",
+        "Target": "未开封商品",
+        "Aspect": "退款条件",
+        "Opinion": "无法退款",
+        "Sentiment": "negative",
+        "Rationale": "吊牌已经被拆掉，不符合退款条件"
+    },
+    {
+        "sentence": "妈，妈别激动啊，别别别着急。",
+        "Holder": "2",
+        "Target": "3的情绪",
+        "Aspect": "情绪稳定性",
+        "Opinion": "希望3保持冷静",
+        "Sentiment": "neutral",
+        "Rationale": "2看到3情绪激动"
+    },
+    {
+        "sentence": "哎，亲家？",
+        "Holder": "3",
+        "Target": "2的身份",
+        "Aspect": "称呼确认",
+        "Opinion": "确认2的身份",
+        "Sentiment": "neutral",
+        "Rationale": "3不确定对方是否是亲家"
+    },
+    {
+        "sentence": "哎呀，放轻松啊，没事儿没事儿。",
+        "Holder": "2",
+        "Target": "3的情绪",
+        "Aspect": "情绪放松",
+        "Opinion": "希望3放松",
+        "Sentiment": "positive",
+        "Rationale": "2希望缓解3的紧张情绪"
+    },
+    {
+        "sentence": "不是，左儿你说这。",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "观点表达",
+        "Opinion": "对2的观点提出质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的说法有不同意见"
+    },
+    {
+        "sentence": "亲家，你不要搞得这么夸张嘛。",
+        "Holder": "3",
+        "Target": "2的反应",
+        "Aspect": "反应程度",
+        "Opinion": "认为2的反应过度",
+        "Sentiment": "negative",
+        "Rationale": "3觉得2的反应过于夸张"
+    },
+    {
+        "sentence": "是，没错，我是买了些东西，看上去是多了一些。但是我跟你说了，这是购物节，它是有折扣的，有5折的，有4折的，还有折上折。",
+        "Holder": "3",
+        "Target": "购物行为",
+        "Aspect": "购物合理性",
+        "Opinion": "购物节折扣合理",
+        "Sentiment": "neutral",
+        "Rationale": "购物节有折扣"
+    },
+    {
+        "sentence": "折折折，我哪你真的是没折哦。",
+        "Holder": "2",
+        "Target": "3的购物行为",
+        "Aspect": "购物频率",
+        "Opinion": "购物过多",
+        "Sentiment": "negative",
+        "Rationale": "3频繁购物且不节制"
+    },
+    {
+        "sentence": "金老师，你把退休金拿出来，还钱！",
+        "Holder": "2",
+        "Target": "3的财务状况",
+        "Aspect": "还钱能力",
+        "Opinion": "要求还钱",
+        "Sentiment": "negative",
+        "Rationale": "3欠钱未还"
+    },
+    {
+        "sentence": "我告诉你，你要是不还，我就去找老帅哥还！",
+        "Holder": "2",
+        "Target": "3的还款行为",
+        "Aspect": "还款责任",
+        "Opinion": "威胁找他人还钱",
+        "Sentiment": "negative",
+        "Rationale": "3不还钱"
+    }
+]

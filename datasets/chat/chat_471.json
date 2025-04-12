@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "你要去讲课，杜飞案啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "讲课任务",
+        "Opinion": "2应该去讲课",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2是否要去讲课，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "对，如果你喜欢的话，你去讲。",
+        "Holder": "2",
+        "Target": "讲课任务",
+        "Aspect": "讲课的意愿",
+        "Opinion": "愿意让1去讲",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的询问时表示如果1喜欢的话可以让1去讲，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "什么叫如果我喜欢我去讲，我的意思就是说你喜欢的话你去讲嘛？",
+        "Holder": "1",
+        "Target": "2的回应",
+        "Aspect": "回应的理解",
+        "Opinion": "对2的回应感到困惑",
+        "Sentiment": "negative",
+        "Rationale": "1对2的回应感到不理解，认为2没有直接回答问题"
+    },
+    {
+        "sentence": "我是从来不喜欢给别人讲课",
+        "Holder": "2",
+        "Target": "讲课任务",
+        "Aspect": "个人喜好",
+        "Opinion": "不喜欢讲课",
+        "Sentiment": "neutral",
+        "Rationale": "2在表达自己一贯不喜欢讲课的个人喜好，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我也从来都不喜欢给别人讲课",
+        "Holder": "1",
+        "Target": "讲课任务",
+        "Aspect": "个人喜好",
+        "Opinion": "不喜欢讲课",
+        "Sentiment": "neutral",
+        "Rationale": "1在表达自己也不喜欢讲课的个人喜好，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "不喜欢就不喜欢，那么大声干什么？",
+        "Holder": "2",
+        "Target": "1的表达方式",
+        "Aspect": "声音大小",
+        "Opinion": "认为声音太大",
+        "Sentiment": "negative",
+        "Rationale": "1表达不喜欢时声音太大"
+    },
+    {
+        "sentence": "我们俩是超级无敌啊。",
+        "Holder": "1",
+        "Target": "自己和2的组合",
+        "Aspect": "能力和默契",
+        "Opinion": "认为组合很强大",
+        "Sentiment": "positive",
+        "Rationale": "对自己和2的组合很有信心"
+    },
+    {
+        "sentence": "我是超级",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "能力",
+        "Opinion": "认为自己很强大",
+        "Sentiment": "positive",
+        "Rationale": "对自己能力的自信"
+    },
+    {
+        "sentence": "你是无敌，我们俩是搭档。",
+        "Holder": "1",
+        "Target": "2和自己",
+        "Aspect": "能力和合作关系",
+        "Opinion": "认为2很强大，合作默契",
+        "Sentiment": "positive",
+        "Rationale": "对2的能力和双方的默契有信心"
+    },
+    {
+        "sentence": "可是现在所有的功劳全是你的，所有的荣誉也都是你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "功劳和荣誉分配",
+        "Opinion": "认为功劳和荣誉都归2",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的努力没有得到认可"
+    },
+    {
+        "sentence": "我猜你刚才连我的名都没提",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "提及名字",
+        "Opinion": "猜测未被提及",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有提及自己的名字"
+    },
+    {
+        "sentence": "你真的是个小心眼。",
+        "Holder": "2",
+        "Target": "1的性格",
+        "Aspect": "心胸宽广度",
+        "Opinion": "认为1小心眼",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1在小事上斤斤计较"
+    },
+    {
+        "sentence": "你猜错了，我提了。我不光提了你，还提了黛西。",
+        "Holder": "2",
+        "Target": "1的猜测",
+        "Aspect": "提及名字的事实",
+        "Opinion": "纠正1的猜测",
+        "Sentiment": "positive",
+        "Rationale": "2确实提及了1的名字"
+    },
+    {
+        "sentence": "对，这就是你贬低我的方式。你不拿我跟你相提并论，你拿我跟你的助理相提并论",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "比较方式",
+        "Opinion": "认为被贬低",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2将自己与助理相提并论是一种贬低"
+    },
+    {
+        "sentence": "看看几点，你迟到了",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "时间观念",
+        "Opinion": "指出1迟到",
+        "Sentiment": "negative",
+        "Rationale": "1没有按时到达"
+    },
+    {
+        "sentence": "如果你准时到的话你就会在场，你可以当面向领导汇报工作，可是你利用上班的时间去买水果",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "工作态度",
+        "Opinion": "不认真",
+        "Sentiment": "negative",
+        "Rationale": "1在上班时间去买水果，没有准时到"
+    },
+    {
+        "sentence": "你别占了便宜又卖乖啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言行一致性",
+        "Opinion": "虚伪",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在批评自己时其实也在占便宜"
+    },
+    {
+        "sentence": "我占什么便宜？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "否认占便宜",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己并没有占便宜，却被1指责"
+    },
+    {
+        "sentence": "你好无辜啊",
+        "Holder": "1",
+        "Target": "2的表现",
+        "Aspect": "态度的真实性",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在装作无辜"
+    }
+]

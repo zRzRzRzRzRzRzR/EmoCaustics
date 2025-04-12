@@ -1,0 +1,108 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "辩论核心概念定义争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "阐述价值判断标准",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "应对定义性质疑",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "提出实例论证有效性",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "情感价值深度探讨",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "论证失去的创伤性",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "解析人生得失常态",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "定义边界挑战",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "寻求概念澄清",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇论证矛盾",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "发现逻辑漏洞",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "论点体系重构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判定义模糊性",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "建立新分析框架",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "论证知识无力困境",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "论证有效性检验",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "历史案例验证",
+            "source_id": "4"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "发现论证局限性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

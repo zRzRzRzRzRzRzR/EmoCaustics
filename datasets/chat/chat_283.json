@@ -1,0 +1,488 @@
+[
+    {
+        "sentence": "But how could you ever say those things about.",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言论",
+        "Opinion": "不应该说出那些话",
+        "Sentiment": "negative",
+        "Rationale": "对方说出了关于自己的负面言论"
+    },
+    {
+        "sentence": "Me? Jay said them about me, too. You shouldnt have fired Bart.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "解雇Bart的决定",
+        "Opinion": "不应该解雇Bart",
+        "Sentiment": "negative",
+        "Rationale": "对方解雇了Bart，而自己认为这是不公正的"
+    },
+    {
+        "sentence": "I needed my own asshole.",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "个人需求",
+        "Opinion": "需要自己的支持者",
+        "Sentiment": "neutral",
+        "Rationale": "感到自己在团队中缺乏支持"
+    },
+    {
+        "sentence": "Lets just both agree. Both of our lawyers said shitty stuff about both of us.",
+        "Holder": "2",
+        "Target": "双方律师",
+        "Aspect": "律师的言论",
+        "Opinion": "律师说了负面的话",
+        "Sentiment": "negative",
+        "Rationale": "双方的律师都说了关于彼此的负面言论"
+    },
+    {
+        "sentence": "Nora was worse.",
+        "Holder": "1",
+        "Target": "Nora",
+        "Aspect": "行为",
+        "Opinion": "Nora的行为更糟糕",
+        "Sentiment": "negative",
+        "Rationale": "认为Nora的行为比其他人更过分"
+    },
+    {
+        "sentence": "Jay called me an alcoholic",
+        "Holder": "2",
+        "Target": "Jay",
+        "Aspect": "称呼",
+        "Opinion": "被称作酒鬼",
+        "Sentiment": "negative",
+        "Rationale": "Jay称自己为酒鬼"
+    },
+    {
+        "sentence": "pulled the rug out from under me and youre putting me through hell",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "被背叛和折磨",
+        "Sentiment": "negative",
+        "Rationale": "感到被2背叛并且现在被2折磨"
+    },
+    {
+        "sentence": "you put me through hell during our marriage.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "婚姻中的行为",
+        "Opinion": "在婚姻中被折磨",
+        "Sentiment": "negative",
+        "Rationale": "在婚姻中感到被1折磨"
+    },
+    {
+        "sentence": "Is that what that was? Hell? I know.",
+        "Holder": "1",
+        "Target": "婚姻经历",
+        "Aspect": "婚姻的评价",
+        "Opinion": "承认婚姻是地狱",
+        "Sentiment": "negative",
+        "Rationale": "意识到婚姻确实像地狱一样痛苦"
+    },
+    {
+        "sentence": "youre gonna put Henry through this horrible thing. So you could yet again get what you want.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对Henry的行为",
+        "Opinion": "为了自己的利益伤害Henry",
+        "Sentiment": "negative",
+        "Rationale": "认为1会为了自己的利益而让Henry经历糟糕的事情"
+    },
+    {
+        "sentence": "Its not what I want. I its what I want, but its what was whats best for him.",
+        "Holder": "1",
+        "Target": "自己的愿望",
+        "Aspect": "选择的合理性",
+        "Opinion": "不是自己想要的但对他最好",
+        "Sentiment": "neutral",
+        "Rationale": "虽然不是自己想要的，但认为这是对他最好的选择"
+    },
+    {
+        "sentence": "I was wondering when you get around to Henry and what he actually wants.",
+        "Holder": "2",
+        "Target": "1对Henry的关注",
+        "Aspect": "对Henry意愿的考虑",
+        "Opinion": "质疑1是否考虑Henry的意愿",
+        "Sentiment": "doubt",
+        "Rationale": "对1是否真正考虑了Henry的意愿感到怀疑"
+    },
+    {
+        "sentence": "Fuck off.",
+        "Holder": "1",
+        "Target": "2的提问",
+        "Aspect": "提问的合理性",
+        "Opinion": "认为2的提问不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的提问冒犯或不耐烦"
+    },
+    {
+        "sentence": "No, you *** off. If you listen to your son or anyone that did he tell you that hed rather live here?",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "对儿子意愿的倾听",
+        "Opinion": "认为1没有倾听儿子的意愿",
+        "Sentiment": "negative",
+        "Rationale": "认为1没有认真倾听儿子的意愿，还被1粗鲁地回应"
+    },
+    {
+        "sentence": "Stop putting your feelings about me unto.",
+        "Holder": "1",
+        "Target": "2的情感投射",
+        "Aspect": "情感表达的合理性",
+        "Opinion": "认为2将自己的情感投射到自己身上",
+        "Sentiment": "negative",
+        "Rationale": "觉得2将自己的情感问题投射到自己身上"
+    },
+    {
+        "sentence": "Henry. He tells me he likes it better here.",
+        "Holder": "2",
+        "Target": "Henry",
+        "Aspect": "对这里的喜好",
+        "Opinion": "喜欢这里",
+        "Sentiment": "positive",
+        "Rationale": "Henry表示更喜欢这里"
+    },
+    {
+        "sentence": "He tells you because he knows its what you want to hear.",
+        "Holder": "1",
+        "Target": "Henry",
+        "Aspect": "说话动机",
+        "Opinion": "迎合说话人2",
+        "Sentiment": "negative",
+        "Rationale": "认为Henry只是说说话人2想听的话"
+    },
+    {
+        "sentence": "He tells me youre on the phone all the time you dont even play with him.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "陪伴时间",
+        "Opinion": "缺乏陪伴",
+        "Sentiment": "negative",
+        "Rationale": "Henry表示说话人1总是打电话而不陪他玩"
+    },
+    {
+        "sentence": "Because Im going through a divorce in la and trying to direct a play in New York, which closed, because I wasnt there.",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "忙碌原因",
+        "Opinion": "有合理原因",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1正在经历离婚并且尝试执导一部戏"
+    },
+    {
+        "sentence": "It was a huge opportunity fighting for something you dont even want. Youre being so much like your father.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为动机",
+        "Opinion": "不珍惜机会且像父亲",
+        "Sentiment": "negative",
+        "Rationale": "说话人1在争取一个自己并不真正想要的机会，并且行为像他的父亲"
+    },
+    {
+        "sentence": "Do not compare me to my father.",
+        "Holder": "1",
+        "Target": "说话人2的比较",
+        "Aspect": "比较的对象",
+        "Opinion": "反对比较",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢被与父亲比较"
+    },
+    {
+        "sentence": "I didnt compare you to him. I said you were acting like him.",
+        "Holder": "2",
+        "Target": "说话人1的行为",
+        "Aspect": "行为相似性",
+        "Opinion": "行为像父亲",
+        "Sentiment": "neutral",
+        "Rationale": "只是指出行为相似，没有进行直接比较"
+    },
+    {
+        "sentence": "Youre exactly like your mother, everything youre complaining about her, youre doing. Youre suffocating, Henry.",
+        "Holder": "1",
+        "Target": "说话人2的行为",
+        "Aspect": "行为一致性",
+        "Opinion": "行为像母亲",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人2的行为与其抱怨的母亲一样"
+    },
+    {
+        "sentence": "First of all, I love my mother. She was a wonderful mother.",
+        "Holder": "2",
+        "Target": "母亲",
+        "Aspect": "母亲的品质",
+        "Opinion": "母亲很棒",
+        "Sentiment": "positive",
+        "Rationale": "对母亲有深厚的感情，认为母亲很优秀"
+    },
+    {
+        "sentence": "Just repeating what you told me.",
+        "Holder": "1",
+        "Target": "说话人2的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "只是重复",
+        "Sentiment": "neutral",
+        "Rationale": "只是指出重复了对方的话，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "Secondly, how dare you compare my mothering to my mother? I may be like my father, but I am not like my mother.",
+        "Holder": "2",
+        "Target": "1的比较",
+        "Aspect": "母亲角色的比较",
+        "Opinion": "反对比较",
+        "Sentiment": "negative",
+        "Rationale": "1将自己与2的母亲进行比较，触犯了2的敏感点"
+    },
+    {
+        "sentence": "You are, and youre like my father, youre also like my mother. Youre all the bad things about all of these people, but mostly your mother. When we would lie in bed together, sometimes I would look at you and see her and just feel so gross. I.",
+        "Holder": "1",
+        "Target": "2的性格",
+        "Aspect": "与父母的相似度",
+        "Opinion": "认为2继承了父母的缺点",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2像自己不喜欢的父母，尤其是母亲"
+    },
+    {
+        "sentence": "felt repulsed when you touched your.",
+        "Holder": "2",
+        "Target": "1的触摸",
+        "Aspect": "身体接触的感受",
+        "Opinion": "感到厌恶",
+        "Sentiment": "negative",
+        "Rationale": "1的触摸让2联想到不愉快的记忆或感受"
+    },
+    {
+        "sentence": "slob. I made all the beds, clothing, all the cabinets makes me want to heal my skin. Youll never be happy.",
+        "Holder": "1",
+        "Target": "2的生活习惯",
+        "Aspect": "整洁度",
+        "Opinion": "认为2是懒散的",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的生活习惯让自己感到不适"
+    },
+    {
+        "sentence": "And now later anywhere you think, you found some better opposite guy than me. And in a few years, you rebel against him because you need to have your voice, but you dont want a voice. You just want to fucking complain about not having a voice.",
+        "Holder": "1",
+        "Target": "2的未来行为",
+        "Aspect": "对未来的预测",
+        "Opinion": "认为2会重复错误",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在未来的关系中也会表现出同样的不满和抱怨"
+    },
+    {
+        "sentence": "I think about being married to you and that woman is a stranger to me.",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "婚姻关系",
+        "Opinion": "感觉陌生",
+        "Sentiment": "negative",
+        "Rationale": "想到与说话人1的婚姻关系，但感觉对方像陌生人"
+    },
+    {
+        "sentence": "I we had a childs marriage. Youve gone back to your life before you met me. Its pathetic.",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "婚姻状态",
+        "Opinion": "婚姻像儿戏",
+        "Sentiment": "negative",
+        "Rationale": "说话人2回到了遇见自己之前的生活"
+    },
+    {
+        "sentence": "People used to tell me that you were too selfish to be a great artist and I used to defend you. They were absolutely right.",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "自私与艺术成就",
+        "Opinion": "他人评价正确",
+        "Sentiment": "negative",
+        "Rationale": "曾经有人评价说话人1太自私成不了伟大艺术家，而自己曾为其辩护，现在认为那些评价是对的"
+    },
+    {
+        "sentence": "All your best acting is behind you. Youre back to being a hack.",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "演技水平",
+        "Opinion": "最佳演技已过",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人2的最佳演技已经过去，现在又回到了平庸的状态"
+    },
+    {
+        "sentence": "You got fighting me. Youre a fucking villain.",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "行为态度",
+        "Opinion": "视为恶棍",
+        "Sentiment": "negative",
+        "Rationale": "说话人1一直在与自己争执"
+    },
+    {
+        "sentence": "if you want to present yourself as a victim, because its a good legal strategy. Fine. But you and I both know you chose this life. You wanted it until you didnt. You used me, so you could get out of.",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "生活选择和利用",
+        "Opinion": "2选择了这样的生活并利用了1",
+        "Sentiment": "negative",
+        "Rationale": "1认为2故意装作受害者并利用了自己"
+    },
+    {
+        "sentence": "lai didnt use you.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "是否被利用",
+        "Opinion": "2没有利用1",
+        "Sentiment": "neutral",
+        "Rationale": "2在为自己辩护"
+    },
+    {
+        "sentence": "You did and then you blamed me for it. You always made me aware of what I was doing wrong, how I was falling short life with you was joyless.",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "责任归咎和生活质量",
+        "Opinion": "2利用了1并总是指责1",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2不仅利用了自己还总是指责自己"
+    },
+    {
+        "sentence": "What so that you had to go and ***? Someone?",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "质疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "2对1的行为感到不解和愤怒"
+    },
+    {
+        "sentence": "You shouldnt be upset that I fucked her. You should be upset that I had a laugh with her.",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "情感反应的原因",
+        "Opinion": "2应该为1和其他人的快乐而生气",
+        "Sentiment": "negative",
+        "Rationale": "1认为2不应该为性关系生气，而应该为1和其他人的快乐而生气"
+    },
+    {
+        "sentence": "But theres so much I could have done. I was a director in my 20s who who came from nothing and was suddenly on the cover of fucking time out New York. I was hot shit and I wanted to *** everybody and I didnt. And I loved you. I didnt want to lose you, but Im in my 20s and I didnt want to lose that too. And I kind of did. You wanted so much so fast. I didnt even want to get married, *** it. Theres so much I didnt do.",
+        "Holder": "1",
+        "Target": "personal life choices",
+        "Aspect": "regret and missed opportunities",
+        "Opinion": "felt regret and frustration over missed opportunities and relationship issues",
+        "Sentiment": "negative",
+        "Rationale": "Because he reflects on the things he could have done but didnt, feeling regret and frustration over missed opportunities and relationship conflicts, he expressed dissatisfaction with his life choices."
+    },
+    {
+        "sentence": "Thanks for that.",
+        "Holder": "2",
+        "Target": "1s sharing",
+        "Aspect": "gratitude or sarcasm",
+        "Opinion": "ambiguous",
+        "Sentiment": "ambiguous",
+        "Rationale": "Because its not clear whether the second speaker is genuinely grateful or sarcastic, the context is not enough to determine the true emotional state, so the emotion is ambiguous."
+    },
+    {
+        "sentence": "Youre welcome.",
+        "Holder": "1",
+        "Target": "2s reply",
+        "Aspect": "Politeness",
+        "Opinion": "Routine polite response",
+        "Sentiment": "neutral",
+        "Rationale": "Because this is a common polite response, without any emotional color, just a normal polite interaction."
+    },
+    {
+        "sentence": "I cant believe I had to know you forever.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "long-term relationship",
+        "Opinion": "feeling of inconvenience or annoyance",
+        "Sentiment": "negative",
+        "Rationale": "Because he seems to be complaining about having to know the first speaker for a long time, indicating that this relationship brings him inconvenience or annoyance, so he has a negative emotional expression."
+    },
+    {
+        "sentence": "Youre f**king crazy.",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "Emotional state or personality",
+        "Opinion": "Considered irrational or extreme",
+        "Sentiment": "negative",
+        "Rationale": "Because the first speaker thinks the other partys words or behavior are unreasonable or excessive, so he uses swear words to express his anger and dissatisfaction, which is a negative emotional expression."
+    },
+    {
+        "sentence": "Are you kidding me? I wanted to be married. Id already lost. You wouldnt love me as much as I loved you.",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情感投入与回报",
+        "Opinion": "感到失望和不平衡",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的情感投入没有得到对方同等的回应"
+    },
+    {
+        "sentence": "What does that have to do with lai.",
+        "Holder": "1",
+        "Target": "2的情感表达",
+        "Aspect": "相关性",
+        "Opinion": "不相关",
+        "Sentiment": "neutral",
+        "Rationale": "对方提到的情感问题与自己当前关心的话题无关"
+    },
+    {
+        "sentence": "what youre so merged with your own selfishness, you dont even identify it in selfishness anymore. Youre such a dick.",
+        "Holder": "2",
+        "Target": "1的自私行为",
+        "Aspect": "自私程度",
+        "Opinion": "极度自私",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方完全沉浸在自己的自私中而不自知"
+    },
+    {
+        "sentence": "Every day I wake up and I hope youre dead like it. If I can guarantee Henry would be okay, I hope you get an illness and they get hit by a car and die. It is Im sorry, me. Too.",
+        "Holder": "1",
+        "Target": "2的存在",
+        "Aspect": "对对方存在的态度",
+        "Opinion": "希望对方消失",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为和态度极度不满"
+    },
+    {
+        "sentence": "But how could you ever say those things about.",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "说话内容",
+        "Opinion": "不应该说出那些话",
+        "Sentiment": "negative",
+        "Rationale": "说话人2说了关于自己的负面话"
+    },
+    {
+        "sentence": "me? Jay said them about me, too. You shouldnt have fired Bart.",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "解雇Bart的决定",
+        "Opinion": "不应该解雇Bart",
+        "Sentiment": "negative",
+        "Rationale": "说话人1解雇了Bart，而自己也被Jay说了同样的话"
+    },
+    {
+        "sentence": "I needed my own asshole.",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "对自身需求的认识",
+        "Opinion": "需要自己的支持者",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己需要一个能够支持自己的人"
+    },
+    {
+        "sentence": "Lets just both agree. Both of our lawyers said shitty stuff about both of us.",
+        "Holder": "2",
+        "Target": "双方律师",
+        "Aspect": "律师的言论",
+        "Opinion": "律师说了负面的话",
+        "Sentiment": "negative",
+        "Rationale": "双方的律师都说了关于彼此的负面话"
+    },
+    {
+        "sentence": "Nora was worse.",
+        "Holder": "1",
+        "Target": "Nora",
+        "Aspect": "行为表现",
+        "Opinion": "Nora更糟糕",
+        "Sentiment": "negative",
+        "Rationale": "觉得Nora的行为比其他人更糟糕"
+    }
+]

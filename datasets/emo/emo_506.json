@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "孩子聚会管理争议",
+        "emotions": [
+          {"state": "negative", "reason": "反对放任孩子玩耍影响学习", "source_id": "3,4"},
+          {"state": "positive", "reason": "提议参与聚会了解孩子想法", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑4当间谍的动机", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "商机识别与投资分歧",
+        "emotions": [
+          {"state": "positive", "reason": "认可报纸中发现的商机", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑报纸商机真实性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭管教方式讨论",
+        "emotions": [
+          {"state": "negative", "reason": "无奈孩子不听话", "source_id": "1"},
+          {"state": "positive", "reason": "支持给予自由空间", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "商业机会探索",
+        "emotions": [
+          {"state": "positive", "reason": "积极寻求合作伙伴入股", "source_id": "3"},
+          {"state": "neutral", "reason": "接受老夏拒绝入股", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "代际沟通矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "认为年龄差距阻碍交流", "source_id": "1"},
+          {"state": "neutral", "reason": "接受放任孩子玩耍方案", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "商业认知冲突",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑报纸商机可行性", "source_id": "2"},
+          {"state": "negative", "reason": "自认缺乏商业头脑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "侦查任务争议",
+        "emotions": [
+          {"state": "positive", "reason": "积极承担侦查任务", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑动机后失落", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

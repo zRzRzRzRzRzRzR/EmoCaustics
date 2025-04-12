@@ -1,0 +1,542 @@
+[
+    {
+        "sentence": "来尝一口这个。",
+        "Holder": "1",
+        "Target": "食物",
+        "Aspect": "尝试",
+        "Opinion": "邀请尝试",
+        "Sentiment": "neutral",
+        "Rationale": "1只是邀请别人尝试食物，没有表达出特别的情感"
+    },
+    {
+        "sentence": "哇。好一口情深意重的豆腐干",
+        "Holder": "2",
+        "Target": "豆腐干",
+        "Aspect": "味道和情感",
+        "Opinion": "情深意重",
+        "Sentiment": "positive",
+        "Rationale": "2觉得豆腐干不仅好吃还有情感价值"
+    },
+    {
+        "sentence": "小雨，来尝一口这个。",
+        "Holder": "4",
+        "Target": "食物",
+        "Aspect": "尝试",
+        "Opinion": "邀请尝试",
+        "Sentiment": "neutral",
+        "Rationale": "4只是邀请小雨尝试食物，没有表达出特别的情感"
+    },
+    {
+        "sentence": "哇，好好吃的烧茄子啊，妈有点咸",
+        "Holder": "5",
+        "Target": "烧茄子",
+        "Aspect": "味道",
+        "Opinion": "好吃但有点咸",
+        "Sentiment": "positive",
+        "Rationale": "5觉得烧茄子好吃，虽然有咸的缺点，但总体还是满意的"
+    },
+    {
+        "sentence": "再不哇你又该呲儿我了。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "批评的频率",
+        "Opinion": "担心被批评",
+        "Sentiment": "negative",
+        "Rationale": "3担心1会再次批评自己"
+    },
+    {
+        "sentence": "妈来个肉饼，充满了儿子的爱。",
+        "Holder": "3",
+        "Target": "肉饼",
+        "Aspect": "情感价值",
+        "Opinion": "充满爱",
+        "Sentiment": "positive",
+        "Rationale": "3认为肉饼是儿子用心制作的"
+    },
+    {
+        "sentence": "不，东海还是你吃",
+        "Holder": "1",
+        "Target": "东海（食物）",
+        "Aspect": "分配",
+        "Opinion": "建议3吃",
+        "Sentiment": "neutral",
+        "Rationale": "1在建议3吃东海"
+    },
+    {
+        "sentence": "女儿还是你吃",
+        "Holder": "2",
+        "Target": "女儿（食物）",
+        "Aspect": "分配",
+        "Opinion": "建议1吃",
+        "Sentiment": "neutral",
+        "Rationale": "2在建议1吃女儿"
+    },
+    {
+        "sentence": "小雨还是你吃",
+        "Holder": "4",
+        "Target": "小雨",
+        "Aspect": "食物选择",
+        "Opinion": "建议小雨吃",
+        "Sentiment": "neutral",
+        "Rationale": "4在建议小雨吃"
+    },
+    {
+        "sentence": "我那不长肉的哥哥还是你吃",
+        "Holder": "5",
+        "Target": "哥哥",
+        "Aspect": "食物选择",
+        "Opinion": "建议哥哥吃",
+        "Sentiment": "neutral",
+        "Rationale": "5在开玩笑地建议哥哥吃"
+    },
+    {
+        "sentence": "都不吃，那就我吃",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "食物选择",
+        "Opinion": "自己吃",
+        "Sentiment": "neutral",
+        "Rationale": "其他人都不吃"
+    },
+    {
+        "sentence": "明明你怎么吃上啦？",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "食物选择",
+        "Opinion": "疑问6为何吃",
+        "Sentiment": "neutral",
+        "Rationale": "1对6突然决定吃感到好奇"
+    },
+    {
+        "sentence": "你们怎么这样啊？这有一大盘子，非拿着这一个转来转去，傻不傻呀？不拍了？",
+        "Holder": "6",
+        "Target": "其他人",
+        "Aspect": "食物分配方式",
+        "Opinion": "认为其他人做法不合理",
+        "Sentiment": "negative",
+        "Rationale": "6觉得其他人只转一个食物而不吃大盘子里的食物很傻"
+    },
+    {
+        "sentence": "明明，明明，这孩子。",
+        "Holder": "1",
+        "Target": "孩子",
+        "Aspect": "孩子的行为",
+        "Opinion": "孩子行为重复",
+        "Sentiment": "neutral",
+        "Rationale": "孩子重复某个行为"
+    },
+    {
+        "sentence": "来，妈，您来一个肉饼",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "食物分配",
+        "Opinion": "给妈妈夹肉饼",
+        "Sentiment": "positive",
+        "Rationale": "想要关心妈妈"
+    },
+    {
+        "sentence": "哎哎哎，不用，都不拍了，我用不着你给我夹，",
+        "Holder": "1",
+        "Target": "3的关心",
+        "Aspect": "食物分配",
+        "Opinion": "不需要被夹肉饼",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己不需要被夹肉饼"
+    },
+    {
+        "sentence": "老妈一个，我一个，老爸一个，我一个，小雪一个，哎，一个，小雨一个，我一个",
+        "Holder": "3",
+        "Target": "家庭成员",
+        "Aspect": "食物分配",
+        "Opinion": "平均分配肉饼",
+        "Sentiment": "neutral",
+        "Rationale": "想要公平地分配肉饼"
+    },
+    {
+        "sentence": "嘿嘿嘿嘿，合着这么一盘子肉饼我们一人就一个，剩下全让你吃了。",
+        "Holder": "2",
+        "Target": "3的食物分配",
+        "Aspect": "食物分配的公平性",
+        "Opinion": "分配不公",
+        "Sentiment": "negative",
+        "Rationale": "觉得肉饼分配不公，自己得到的少"
+    },
+    {
+        "sentence": "你倒是真不傻呀你啊。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "智力",
+        "Opinion": "不傻",
+        "Sentiment": "positive",
+        "Rationale": "1认为3表现出了一定的智慧"
+    },
+    {
+        "sentence": "是是是。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "回应",
+        "Opinion": "认同",
+        "Sentiment": "neutral",
+        "Rationale": "3对1的评价表示认同，但没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "明明姐，其实我们也是想帮你。",
+        "Holder": "4",
+        "Target": "明明姐",
+        "Aspect": "帮助意图",
+        "Opinion": "想帮忙",
+        "Sentiment": "positive",
+        "Rationale": "4表达了想要帮助明明姐的意愿"
+    },
+    {
+        "sentence": "早就跟你说清楚了，我要最自然最真实的生活，谁让你们表演了。",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "生活态度",
+        "Opinion": "反对表演",
+        "Sentiment": "negative",
+        "Rationale": "6强调自己要自然真实的生活，反对4等人的表演"
+    },
+    {
+        "sentence": "可是一想着那镜头冲着我们吧。",
+        "Holder": "4",
+        "Target": "镜头",
+        "Aspect": "镜头影响",
+        "Opinion": "感到压力",
+        "Sentiment": "negative",
+        "Rationale": "4提到镜头对着自己，感到有压力"
+    },
+    {
+        "sentence": "哎，太假了都跟缺心眼似的。我拍出来怎么教育我爸呀？",
+        "Holder": "6",
+        "Target": "拍摄内容",
+        "Aspect": "真实性和教育意义",
+        "Opinion": "内容虚假，无法教育",
+        "Sentiment": "negative",
+        "Rationale": "拍摄内容显得虚假且缺乏教育意义"
+    },
+    {
+        "sentence": "是教育不了",
+        "Holder": "4",
+        "Target": "拍摄内容",
+        "Aspect": "教育意义",
+        "Opinion": "无法教育",
+        "Sentiment": "negative",
+        "Rationale": "拍摄内容确实缺乏教育意义"
+    },
+    {
+        "sentence": "平常你们家挺好的，怎么一上镜就变味了呢？",
+        "Holder": "6",
+        "Target": "4的家庭表现",
+        "Aspect": "镜头前后的差异",
+        "Opinion": "上镜后表现不真实",
+        "Sentiment": "negative",
+        "Rationale": "4的家庭在镜头前后的表现差异大"
+    },
+    {
+        "sentence": "那是你不知道，我们也是身不由己。",
+        "Holder": "4",
+        "Target": "自身家庭表现",
+        "Aspect": "镜头前表现的原因",
+        "Opinion": "有不得已的苦衷",
+        "Sentiment": "neutral",
+        "Rationale": "有外界因素影响导致表现不真实"
+    },
+    {
+        "sentence": "我有一个办法。想不想听",
+        "Holder": "4",
+        "Target": "解决方案",
+        "Aspect": "提出建议",
+        "Opinion": "有解决方法",
+        "Sentiment": "positive",
+        "Rationale": "有一个可能的解决方案"
+    },
+    {
+        "sentence": "你快说，干脆你在我们家来个偷拍。",
+        "Holder": "6",
+        "Target": "偷拍",
+        "Aspect": "偷拍的实施",
+        "Opinion": "建议偷拍",
+        "Sentiment": "positive",
+        "Rationale": "觉得偷拍能记录真实的生活"
+    },
+    {
+        "sentence": "这样既能顺其自然，还能记录我们家的幸福生活，诶嘿嘿，这主意不错，对吧？",
+        "Holder": "4",
+        "Target": "偷拍",
+        "Aspect": "偷拍的好处",
+        "Opinion": "支持偷拍",
+        "Sentiment": "positive",
+        "Rationale": "认为偷拍能自然地记录幸福生活"
+    },
+    {
+        "sentence": "马上行动",
+        "Holder": "6",
+        "Target": "偷拍",
+        "Aspect": "行动的迅速性",
+        "Opinion": "立即执行",
+        "Sentiment": "positive",
+        "Rationale": "对偷拍计划感到兴奋"
+    },
+    {
+        "sentence": "搞定第三只眼镜安装完毕，本纪录片的标题就是完美生活之温馨之夜",
+        "Holder": "6",
+        "Target": "偷拍设备",
+        "Aspect": "设备的安装",
+        "Opinion": "安装成功",
+        "Sentiment": "positive",
+        "Rationale": "成功安装了偷拍设备"
+    },
+    {
+        "sentence": "你打算什么时候开机呀？",
+        "Holder": "4",
+        "Target": "开机时间",
+        "Aspect": "时间安排",
+        "Opinion": "询问开机时间",
+        "Sentiment": "neutral",
+        "Rationale": "4只是单纯地询问开机时间"
+    },
+    {
+        "sentence": "不告诉你",
+        "Holder": "6",
+        "Target": "开机时间",
+        "Aspect": "保密性",
+        "Opinion": "拒绝透露",
+        "Sentiment": "neutral",
+        "Rationale": "6选择保密开机时间"
+    },
+    {
+        "sentence": "嗯，我的好姐姐，你告诉我好不好？我保证不告诉别人不能告诉你。",
+        "Holder": "4",
+        "Target": "开机时间",
+        "Aspect": "请求透露",
+        "Opinion": "恳求告知",
+        "Sentiment": "positive",
+        "Rationale": "4用恳求的语气希望6告诉自己"
+    },
+    {
+        "sentence": "回头你又忍不住表演了。我要求绝对的真实跟自然，只有这样才能感动我爸那个榆木脑袋。",
+        "Holder": "6",
+        "Target": "开机表演",
+        "Aspect": "真实自然",
+        "Opinion": "强调真实",
+        "Sentiment": "neutral",
+        "Rationale": "6担心4会表演"
+    },
+    {
+        "sentence": "大家好，我的名字叫夏雪，性别女，哈哈哈，今年刚好十六岁零6个月，很高兴能在这与大家相见。听说你们都是大学生？我是一名多才多艺的女生。",
+        "Holder": "4",
+        "Target": "自我介绍",
+        "Aspect": "个人信息",
+        "Opinion": "自豪介绍",
+        "Sentiment": "positive",
+        "Rationale": "4在向大家自豪地介绍自己"
+    },
+    {
+        "sentence": "姐姐姐，你没发现男主角和女主角都没回来了，连配角都没有回来。",
+        "Holder": "5",
+        "Target": "男主角和女主角",
+        "Aspect": "是否回来",
+        "Opinion": "都没回来",
+        "Sentiment": "neutral",
+        "Rationale": "观察到主要角色都没有回来"
+    },
+    {
+        "sentence": "也不知道楼上哪个缺德鬼从上面扔一香蕉皮，扔的还真够准的，砸我脑袋上。",
+        "Holder": "2",
+        "Target": "楼上的人",
+        "Aspect": "行为",
+        "Opinion": "缺德",
+        "Sentiment": "negative",
+        "Rationale": "被楼上扔的香蕉皮砸中脑袋"
+    },
+    {
+        "sentence": "那您可真不幸。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "遭遇",
+        "Opinion": "不幸",
+        "Sentiment": "negative",
+        "Rationale": "听到2被香蕉皮砸中"
+    },
+    {
+        "sentence": "我觉得是万幸，这要换成一砖头我还见得着你们吗？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "遭遇",
+        "Opinion": "万幸",
+        "Sentiment": "positive",
+        "Rationale": "认为被香蕉皮砸中比被砖头砸中要好得多"
+    },
+    {
+        "sentence": "来擦擦。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "清洁",
+        "Opinion": "需要擦拭",
+        "Sentiment": "neutral",
+        "Rationale": "看到2被香蕉皮砸中需要清理"
+    },
+    {
+        "sentence": "爸，您别生气。",
+        "Holder": "5",
+        "Target": "2的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望父亲冷静",
+        "Sentiment": "neutral",
+        "Rationale": "看到父亲生气"
+    },
+    {
+        "sentence": "不生气才怪呢。说说这楼上的这些住户，他怎么就一点社会功德就没有呢？乱扔果皮。我决定把楼上的住户全叫下来，每人给他们一个垃圾箱，让他们学会垃圾入箱的良好美德。",
+        "Holder": "2",
+        "Target": "楼上住户的行为",
+        "Aspect": "社会功德和卫生习惯",
+        "Opinion": "楼上住户缺乏社会功德",
+        "Sentiment": "negative",
+        "Rationale": "楼上住户乱扔果皮，破坏环境卫生"
+    },
+    {
+        "sentence": "那你得发多少根垃圾箱啊？",
+        "Holder": "4",
+        "Target": "2的计划",
+        "Aspect": "计划的可行性",
+        "Opinion": "质疑计划的实施难度",
+        "Sentiment": "neutral",
+        "Rationale": "觉得给每个住户发垃圾箱数量庞大"
+    },
+    {
+        "sentence": "有多少我就发多少",
+        "Holder": "2",
+        "Target": "自己的计划",
+        "Aspect": "计划的决心",
+        "Opinion": "坚决执行计划",
+        "Sentiment": "positive",
+        "Rationale": "决心改善环境卫生"
+    },
+    {
+        "sentence": "刘星，你怎么啦？",
+        "Holder": "2",
+        "Target": "刘星的状态",
+        "Aspect": "关心询问",
+        "Opinion": "表达关心",
+        "Sentiment": "neutral",
+        "Rationale": "看到刘星可能有些不对劲"
+    },
+    {
+        "sentence": "嗯，一会儿妈回来要上演一场武松打虎，你们帮着拦着点行吗？",
+        "Holder": "3",
+        "Target": "妈",
+        "Aspect": "妈的行为",
+        "Opinion": "需要帮助拦着",
+        "Sentiment": "negative",
+        "Rationale": "妈回来后会对自己进行严厉的责罚"
+    },
+    {
+        "sentence": "嗯，妈，是武松要把我当老虎打",
+        "Holder": "3",
+        "Target": "妈",
+        "Aspect": "妈的行为",
+        "Opinion": "被严厉对待",
+        "Sentiment": "negative",
+        "Rationale": "妈回来后会对自己进行严厉的责罚"
+    },
+    {
+        "sentence": "你又犯什么事儿啦？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚3具体做了什么会被妈责罚"
+    },
+    {
+        "sentence": "是不是妈又去开家长会啦？",
+        "Holder": "5",
+        "Target": "妈",
+        "Aspect": "妈的行为",
+        "Opinion": "猜测",
+        "Sentiment": "neutral",
+        "Rationale": "推测妈去开家长会可能得知了3的不良表现"
+    },
+    {
+        "sentence": "不用担心刘星，有我在，我不可能由着你妈性子来，怎么能打孩子。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "保护刘星",
+        "Opinion": "不允许打孩子",
+        "Sentiment": "positive",
+        "Rationale": "2决心保护刘星，不允许任何人随意打孩子"
+    },
+    {
+        "sentence": "爸，那我可就全指望您啦。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "依赖2",
+        "Opinion": "完全依赖",
+        "Sentiment": "positive",
+        "Rationale": "3对2充满信任，认为2能够解决问题"
+    },
+    {
+        "sentence": "嗯，没问题",
+        "Holder": "2",
+        "Target": "3的请求",
+        "Aspect": "答应请求",
+        "Opinion": "答应帮助",
+        "Sentiment": "positive",
+        "Rationale": "2答应了3的请求，表现出愿意帮助的态度"
+    },
+    {
+        "sentence": "其实这事我特别特别的冤",
+        "Holder": "3",
+        "Target": "事情",
+        "Aspect": "自己的处境",
+        "Opinion": "感到冤枉",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己在事情中受到了不公正的对待"
+    },
+    {
+        "sentence": "别别别",
+        "Holder": "2",
+        "Target": "3的抱怨",
+        "Aspect": "阻止抱怨",
+        "Opinion": "不让继续说",
+        "Sentiment": "neutral",
+        "Rationale": "2想阻止3继续抱怨，避免情绪进一步恶化"
+    },
+    {
+        "sentence": "干什么？你问问他，你干什么了？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1对3的行为感到不解和不满"
+    },
+    {
+        "sentence": "我不就是课间的时候和几个同学聊了几句小李飞刀吗？",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为行为正常",
+        "Sentiment": "neutral",
+        "Rationale": "3觉得自己只是在课间和同学聊天，没有做错什么"
+    },
+    {
+        "sentence": "你是光用嘴聊吗？你说话呀。",
+        "Holder": "1",
+        "Target": "3的聊天方式",
+        "Aspect": "聊天方式的合理性",
+        "Opinion": "质疑聊天方式",
+        "Sentiment": "negative",
+        "Rationale": "1认为3不仅仅是聊天，可能还有其他行为"
+    },
+    {
+        "sentence": "我不就还拿了我们班同学一个小水果刀吗",
+        "Holder": "7",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为行为轻微",
+        "Sentiment": "neutral",
+        "Rationale": "7觉得自己只是拿了一个小水果刀，没有什么大不了的"
+    }
+]

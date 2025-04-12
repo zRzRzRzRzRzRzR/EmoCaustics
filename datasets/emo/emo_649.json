@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "经济责任争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责对方未支持出国计划并质疑经济贡献",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受小姨夫修改并认可其专业水平",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳对方关于大学教师身份的质疑",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭关系处理",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "建议停止敏感话题讨论",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "经济分配矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑对方经济支配合理性",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调自身教育背景优越性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "亲属往来限制",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "表达对家庭访问限制的不满",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

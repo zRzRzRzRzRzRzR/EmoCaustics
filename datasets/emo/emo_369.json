@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "会议开场与议程推进",
+        "emotions": [
+          {"state": "neutral", "reason": "主持会议流程", "source_id": "1"},
+          {"state": "neutral", "reason": "协调讨论方向", "source_id": "2,3,4,5"}
+        ]
+      },
+      {
+        "event": "资金分配争议决策",
+        "emotions": [
+          {"state": "neutral", "reason": "收集多方意见", "source_id": "5,2,4"},
+          {"state": "neutral", "reason": "确认最终方案", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "营销成果展示与战略维护",
+        "emotions": [
+          {"state": "positive", "reason": "社交媒体运营成效显著", "source_id": "2"},
+          {"state": "negative", "reason": "反对削减营销预算", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "产品研发成果展示",
+        "emotions": [
+          {"state": "positive", "reason": "新产品功能升级", "source_id": "3"},
+          {"state": "positive", "reason": "支持质量优先策略", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "销售业绩汇报与战略调整",
+        "emotions": [
+          {"state": "positive", "reason": "爆款产品销量突破", "source_id": "4"},
+          {"state": "positive", "reason": "支持研发预算重分配", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "财务危机预警与改革提案",
+        "emotions": [
+          {"state": "negative", "reason": "研发投入比例失衡", "source_id": "5"},
+          {"state": "positive", "reason": "提出预算调整方案", "source_id": "4,3"},
+          {"state": "negative", "reason": "遭遇市场部门反对", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

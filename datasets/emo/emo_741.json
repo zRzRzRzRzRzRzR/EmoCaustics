@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "房产归属调查",
+        "emotions": [
+          {"state": "negative", "reason": "质疑3号隐瞒房产归属", "source_id": "3"},
+          {"state": "neutral", "reason": "确认冰箱归属并传唤3号", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "金钱来源质疑",
+        "emotions": [
+          {"state": "negative", "reason": "认为有人故意放置赃款", "source_id": "3"},
+          {"state": "negative", "reason": "批判3号违背农民身份牟利", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "表演状态协调",
+        "emotions": [
+          {"state": "negative", "reason": "批评赵处长临场怯场", "source_id": "3"},
+          {"state": "positive", "reason": "安排豪宅参观转移焦点", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "资产澄清风波",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑豪宅所有权归属", "source_id": "1,2"},
+          {"state": "neutral", "reason": "解释房屋为朋友借住", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "赃款事件处理",
+        "emotions": [
+          {"state": "negative", "reason": "否认冰箱藏钱与消费赃款", "source_id": "1"},
+          {"state": "negative", "reason": "强调家族贫困不敢动钱", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "身份认同危机",
+        "emotions": [
+          {"state": "neutral", "reason": "承认错误结束冲突", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

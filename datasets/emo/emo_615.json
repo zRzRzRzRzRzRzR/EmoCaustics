@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "15年前霍工死亡真相揭露",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑黄三身份及南溪证词可信度", "source_id": "2"},
+          {"state": "negative", "reason": "被指控与蒋睿合谋犯罪", "source_id": "2,3"},
+          {"state": "negative", "reason": "伪造证据指控导致婚礼被毁", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "玉佩证据可信度争议",
+        "emotions": [
+          {"state": "negative", "reason": "指控证物被篡改", "source_id": "2"},
+          {"state": "negative", "reason": "照片证据引发公众质疑", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "死亡真相重构工程",
+        "emotions": [
+          {"state": "negative", "reason": "揭露霍工后脑致命伤真相", "source_id": "3"},
+          {"state": "neutral", "reason": "提供验伤报告客观证据", "source_id": "3"},
+          {"state": "negative", "reason": "指控霍峥15年调查失职", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "犯罪证据链构建",
+        "emotions": [
+          {"state": "neutral", "reason": "展示黄三证人证言", "source_id": "4"},
+          {"state": "negative", "reason": "揭露蒋睿被警方控制事实", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "父亲死亡真相确认",
+        "emotions": [
+          {"state": "negative", "reason": "发现黄三未被列入调查名单", "source_id": "2"},
+          {"state": "negative", "reason": "确认父亲非意外死亡", "source_id": "4"},
+          {"state": "negative", "reason": "证人未及时报警的愤怒", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "关键证人证言披露",
+        "emotions": [
+          {"state": "negative", "reason": "陈述霍工死亡现场情况", "source_id": "3"},
+          {"state": "negative", "reason": "解释未报警的恐惧心理", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "公众舆论发酵",
+        "emotions": [
+          {"state": "neutral", "reason": "发现叶蒋特殊关系", "source_id": "2"},
+          {"state": "negative", "reason": "质疑人物关系正当性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+[
+    {
+        "sentence": "赵瑞龙是个混账王八蛋，",
+        "Holder": "1",
+        "Target": "赵瑞龙",
+        "Aspect": "个人品行",
+        "Opinion": "混账王八蛋",
+        "Sentiment": "negative",
+        "Rationale": "赵瑞龙的行为让说话人1感到极度不满"
+    },
+    {
+        "sentence": "怎么怎么回事，",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "了解情况",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2对当前情况不了解"
+    },
+    {
+        "sentence": "赵瑞龙这么肆意妄为，我看他们赵家的丧钟给秋香了，还有一个情况你也知道我跟李达康的矛盾，这个人独断专行，作风霸道，真是让我头疼，",
+        "Holder": "1",
+        "Target": "赵瑞龙",
+        "Aspect": "行为作风",
+        "Opinion": "肆意妄为",
+        "Sentiment": "negative",
+        "Rationale": "赵瑞龙的行为作风让说话人1感到愤怒和不满"
+    },
+    {
+        "sentence": "我知道他当了市长，就把你所有的城市规划都打乱了，",
+        "Holder": "2",
+        "Target": "李达康",
+        "Aspect": "城市规划",
+        "Opinion": "打乱规划",
+        "Sentiment": "negative",
+        "Rationale": "李达康当上市长后打乱了说话人1的城市规划"
+    },
+    {
+        "sentence": "不仅如此，他根本没把我这个市委书记放在眼里，在很多公开场合弄得我很狼狈，当时我就想只要能弄到达康，我是愿意付出一些代价的，就在这个时候赵玉龙来到了绿洲要搞什么美食城，会不会。这个时候赵玉龙就找李达康。而且被李达康明确拒绝我不知道，",
+        "Holder": "1",
+        "Target": "李达康",
+        "Aspect": "对我的尊重",
+        "Opinion": "不尊重我",
+        "Sentiment": "negative",
+        "Rationale": "李达康在公开场合让我狼狈"
+    },
+    {
+        "sentence": "但是你觉得这是一个靠近赵立春的好机会对吗。",
+        "Holder": "2",
+        "Target": "靠近赵立春的机会",
+        "Aspect": "机会的合理性",
+        "Opinion": "怀疑是否是好机会",
+        "Sentiment": "doubt",
+        "Rationale": "不确定赵玉龙搞美食城是否真的是靠近赵立春的好机会"
+    },
+    {
+        "sentence": "说的没错，当时我确实是这么想的，可是也感觉希望不大，吕州的干部群众谁不知道李达康是赵立春的人，我跟他的矛盾再这么闹下去滚蛋的一定是我。没有想到赵立春真的是这个孩子。",
+        "Holder": "1",
+        "Target": "靠近赵立春的机会",
+        "Aspect": "机会的成功可能性",
+        "Opinion": "希望不大",
+        "Sentiment": "negative",
+        "Rationale": "知道李达康是赵立春的人，担心自己会因此被排挤"
+    },
+    {
+        "sentence": "当时作为省委书记的赵立春竟然能听他宝贝儿子的，当时我也就随口说了这么一句，只要赵书记能把李达康弄走这两个项目，我批了没想到一周之后李达康真被调走了，这。",
+        "Holder": "1",
+        "Target": "赵立春",
+        "Aspect": "决策的合理性",
+        "Opinion": "意外赵立春听从儿子",
+        "Sentiment": "ambiguous",
+        "Rationale": "没想到赵立春会真的听从儿子的话调走李达康"
+    },
+    {
+        "sentence": "也太儿戏了。",
+        "Holder": "2",
+        "Target": "赵立春的决策",
+        "Aspect": "决策的严肃性",
+        "Opinion": "决策太儿戏",
+        "Sentiment": "negative",
+        "Rationale": "认为赵立春的决策过于轻率"
+    },
+    {
+        "sentence": "赵瑞龙居然有这个力道，这会是真的吗？",
+        "Holder": "2",
+        "Target": "赵瑞龙的影响力",
+        "Aspect": "影响力的真实性",
+        "Opinion": "怀疑赵瑞龙的影响力",
+        "Sentiment": "doubt",
+        "Rationale": "难以置信赵瑞龙能有如此大的影响力"
+    },
+    {
+        "sentence": "事实就是如此。",
+        "Holder": "1",
+        "Target": "事实",
+        "Aspect": "事实的确定性",
+        "Opinion": "事实确定",
+        "Sentiment": "neutral",
+        "Rationale": "说话人在陈述一个确定的事实"
+    },
+    {
+        "sentence": "这件事办成之后，我这心里边一点都高兴不起来，还有点怕，我在心里一次次的问自己，这权力游戏真能怎么玩？是赵立春一个人在这么玩，还是所有的人都这么玩。",
+        "Holder": "1",
+        "Target": "权力游戏",
+        "Aspect": "权力游戏的玩法",
+        "Opinion": "感到害怕和不高兴",
+        "Sentiment": "negative",
+        "Rationale": "对权力游戏的玩法感到不安和恐惧"
+    },
+    {
+        "sentence": "玩法太可怕了，这不就是哌济天下吗？",
+        "Holder": "2",
+        "Target": "权力游戏的玩法",
+        "Aspect": "玩法的可怕性",
+        "Opinion": "认为玩法可怕",
+        "Sentiment": "negative",
+        "Rationale": "觉得权力游戏的玩法非常可怕"
+    },
+    {
+        "sentence": "还有件事没跟你说，当时赵瑞龙主动跟我说，不但要调动李大哥，还要让我进省委常委班子，这一年之后真成了现实，",
+        "Holder": "1",
+        "Target": "赵瑞龙的提议",
+        "Aspect": "提议的内容",
+        "Opinion": "事情成真",
+        "Sentiment": "neutral",
+        "Rationale": "说话人在陈述一个已经成真的事实"
+    },
+    {
+        "sentence": "你挺能瞒，这是个秘密，你居然瞒了我这么多年，",
+        "Holder": "2",
+        "Target": "1的隐瞒",
+        "Aspect": "隐瞒的时间",
+        "Opinion": "认为隐瞒时间长",
+        "Sentiment": "negative",
+        "Rationale": "觉得被隐瞒了这么多年"
+    },
+    {
+        "sentence": "我不是瞒你，当时我真的不知道怎么跟你说说了，也怕你害怕。就是从那时候起，我的理想信念算是彻底崩溃了。现在该考虑和周立琛切割了。",
+        "Holder": "1",
+        "Target": "自己的隐瞒",
+        "Aspect": "隐瞒的原因",
+        "Opinion": "出于无奈和担心",
+        "Sentiment": "negative",
+        "Rationale": "当时不知道怎么开口且担心对方害怕，导致自己的理想信念崩溃"
+    }
+]

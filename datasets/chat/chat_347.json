@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "老爷子也让我去找一下高育良，看看他这个政法委书记能不能在法律许可的范围之内对欧阳菁从轻从宽处理。",
+        "Holder": "1",
+        "Target": "高育良",
+        "Aspect": "法律处理",
+        "Opinion": "希望从轻从宽",
+        "Sentiment": "neutral",
+        "Rationale": "希望能在法律范围内帮助欧阳菁"
+    },
+    {
+        "sentence": "对吧？首先我要感谢老书记和你对我的关心，高育良书记那边就不要再做工作了，欧阳菁是咎由自取，检察院该怎么审就怎么审，法院该怎么判就怎么判，我们不能徇私也不能枉法，你说说。",
+        "Holder": "2",
+        "Target": "欧阳菁",
+        "Aspect": "法律审判",
+        "Opinion": "依法处理",
+        "Sentiment": "positive",
+        "Rationale": "认为欧阳菁应依法受审"
+    },
+    {
+        "sentence": "我们这老爷子就知道你会这么说，哥哥你不能有抵触情绪，你们也不能这么闹了，你再这么闹下去，汉东改革开放的大好成果就给闹没了，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "情绪和行为",
+        "Opinion": "反对抵触情绪和行为",
+        "Sentiment": "negative",
+        "Rationale": "担心2的抵触情绪和行为会影响汉东的改革开放成果"
+    },
+    {
+        "sentence": "你说大好成果，我的是什么？",
+        "Holder": "2",
+        "Target": "汉东改革开放成果",
+        "Aspect": "个人贡献",
+        "Opinion": "质疑个人成果",
+        "Sentiment": "negative",
+        "Rationale": "对汉东改革开放成果中自己的贡献感到不明确"
+    },
+    {
+        "sentence": "哥哥，既然你知道我在那有股份，你还让公安去扫什么黄，我让祁同伟给你打电话，你一点面子都。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "面子问题",
+        "Opinion": "不给面子",
+        "Sentiment": "negative",
+        "Rationale": "2在知道1有股份的情况下还让公安去扫黄"
+    },
+    {
+        "sentence": "不给，你在山水集团真有股份，",
+        "Holder": "2",
+        "Target": "1的股份",
+        "Aspect": "股份的真实性",
+        "Opinion": "确认股份",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认1是否真的有股份"
+    },
+    {
+        "sentence": "有早就有了，又不是今天的事占。",
+        "Holder": "1",
+        "Target": "股份的存在时间",
+        "Aspect": "股份的长期性",
+        "Opinion": "股份早已存在",
+        "Sentiment": "neutral",
+        "Rationale": "1在说明股份早已存在"
+    },
+    {
+        "sentence": "多大股份控股，",
+        "Holder": "2",
+        "Target": "1的股份比例",
+        "Aspect": "股份的控制权",
+        "Opinion": "询问股份比例",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1的股份比例"
+    },
+    {
+        "sentence": "这是商业机密，我。",
+        "Holder": "1",
+        "Target": "商业机密",
+        "Aspect": "保密性",
+        "Opinion": "需要保密",
+        "Sentiment": "neutral",
+        "Rationale": "提到的是商业机密"
+    },
+    {
+        "sentence": "还真不能跟你说，",
+        "Holder": "1",
+        "Target": "信息透露",
+        "Aspect": "可行性",
+        "Opinion": "不能透露",
+        "Sentiment": "neutral",
+        "Rationale": "信息属于商业机密"
+    },
+    {
+        "sentence": "这高小琴不会给你们家打工。",
+        "Holder": "2",
+        "Target": "高小琴",
+        "Aspect": "工作选择",
+        "Opinion": "不会打工",
+        "Sentiment": "neutral",
+        "Rationale": "认为高小琴的身份和地位不适合打工"
+    },
+    {
+        "sentence": "开什么玩笑，高小琴是随随便便给人打工的人吗？",
+        "Holder": "1",
+        "Target": "高小琴",
+        "Aspect": "工作态度",
+        "Opinion": "不会随便打工",
+        "Sentiment": "negative",
+        "Rationale": "认为高小琴的地位和性格不可能随便打工"
+    },
+    {
+        "sentence": "大风厂这股权纠纷盆景就那块地，你也参与了，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "参与程度",
+        "Opinion": "参与了",
+        "Sentiment": "neutral",
+        "Rationale": "提到1也参与了股权纠纷"
+    },
+    {
+        "sentence": "高总你要不说我都不知道该怎么提，既然提到这了，你真得管一管了，那叫什么？",
+        "Holder": "1",
+        "Target": "高总",
+        "Aspect": "责任",
+        "Opinion": "需要管理",
+        "Sentiment": "neutral",
+        "Rationale": "高总提到了相关事宜"
+    },
+    {
+        "sentence": "你们京州市政府答应的事翻脸就不认账了，还有大风厂员工的安置费我们已经给过了，现在还赖上我们，让我们再给一次，不是还有没有王法吗？",
+        "Holder": "1",
+        "Target": "京州市政府",
+        "Aspect": "承诺的履行",
+        "Opinion": "不守承诺",
+        "Sentiment": "negative",
+        "Rationale": "京州市政府没有履行之前的承诺，并且重复要求支付已经支付过的费用"
+    },
+    {
+        "sentence": "瑞龙我希望你要收敛一点。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为态度",
+        "Opinion": "需要收敛",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的行为有些过分"
+    },
+    {
+        "sentence": "我怎么不收敛了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为评价",
+        "Opinion": "认为自己收敛",
+        "Sentiment": "negative",
+        "Rationale": "被2提醒要收敛，感到被误解和不悦"
+    },
+    {
+        "sentence": "我只是给你提个醒，不要巧取豪夺。现在不像以前了，做事一定要守法。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为规范",
+        "Opinion": "要守法",
+        "Sentiment": "neutral",
+        "Rationale": "希望1遵守法律，不要做出违法的行为"
+    },
+    {
+        "sentence": "我们家老爷子也是这么跟我说的，别再对我进行革命的教育了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "教育方式",
+        "Opinion": "反感教育",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的教育方式像革命教育，感到厌烦"
+    }
+]

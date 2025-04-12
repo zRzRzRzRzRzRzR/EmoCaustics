@@ -1,0 +1,524 @@
+[
+    {
+        "sentence": "由于我今天吃的实在是太痛快了，所以我打算要告诉你一个秘密什么秘密？嗯，那您得先保证不能告诉我爸。",
+        "Holder": "2",
+        "Target": "秘密",
+        "Aspect": "保密性",
+        "Opinion": "需要保密",
+        "Sentiment": "positive",
+        "Rationale": "吃得非常痛快"
+    },
+    {
+        "sentence": "绝对不告诉，今年特殊的日子，特殊的秘密，绝对保密，真的",
+        "Holder": "1",
+        "Target": "秘密",
+        "Aspect": "保密性",
+        "Opinion": "承诺保密",
+        "Sentiment": "positive",
+        "Rationale": "理解秘密的特殊性和重要性"
+    },
+    {
+        "sentence": "您看这个",
+        "Holder": "2",
+        "Target": "展示物",
+        "Aspect": "展示",
+        "Opinion": "展示物品",
+        "Sentiment": "neutral",
+        "Rationale": "要展示某个物品"
+    },
+    {
+        "sentence": "平安大道垃圾桶神秘神秘移动。什么意思啊？",
+        "Holder": "1",
+        "Target": "垃圾桶移动",
+        "Aspect": "神秘性",
+        "Opinion": "感到困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对垃圾桶神秘移动感到不解"
+    },
+    {
+        "sentence": "这样是我们前天晚上干的",
+        "Holder": "2",
+        "Target": "垃圾桶移动",
+        "Aspect": "行为主体",
+        "Opinion": "承认行为",
+        "Sentiment": "positive",
+        "Rationale": "愿意分享这个秘密"
+    },
+    {
+        "sentence": "前天晚上你不是要从回家去开 party 去了吗？你还跟我说说，万一要是太晚了我回不来了，你就留在同学家住一夜。",
+        "Holder": "1",
+        "Target": "2的回家计划",
+        "Aspect": "回家和住宿安排",
+        "Opinion": "关心2的安全",
+        "Sentiment": "neutral",
+        "Rationale": "关心2晚上回家太晚的安全问题"
+    },
+    {
+        "sentence": "哈哈哈，就是那天。其实事情是那样的，我们领到身份证的同学想庆祝一下，我们就想了，怎么着也得干一件有意义的事，所以最后我们就决定要给平安大道上的垃圾桶来一个大扫除",
+        "Holder": "2",
+        "Target": "庆祝活动",
+        "Aspect": "活动的选择",
+        "Opinion": "选择有意义的活动",
+        "Sentiment": "positive",
+        "Rationale": "想庆祝领到身份证"
+    },
+    {
+        "sentence": "多脏啊。",
+        "Holder": "1",
+        "Target": "垃圾桶大扫除",
+        "Aspect": "清洁难度",
+        "Opinion": "认为很脏",
+        "Sentiment": "negative",
+        "Rationale": "觉得垃圾桶很脏"
+    },
+    {
+        "sentence": "就是因为脏，所以我们才要给它擦干净嘛。可是我擦着擦着就忽发奇想，我就想了，如果要是把那些垃圾桶摆一个 SOS 的图形",
+        "Holder": "2",
+        "Target": "垃圾桶大扫除",
+        "Aspect": "清洁目的和创意",
+        "Opinion": "希望通过清洁变干净，并有创意想法",
+        "Sentiment": "positive",
+        "Rationale": "希望通过自己的努力让环境变干净，并且在过程中产生了有趣的创意"
+    },
+    {
+        "sentence": "你们弄得动吗？",
+        "Holder": "1",
+        "Target": "摆SOS图形的想法",
+        "Aspect": "实施难度",
+        "Opinion": "怀疑可行性",
+        "Sentiment": "doubt",
+        "Rationale": "觉得移动垃圾桶摆成SOS图形可能有难度"
+    },
+    {
+        "sentence": "谁让我们弄不动啊？我们先吃点饭，然后再喝点酒。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行动安排",
+        "Opinion": "先吃饭再喝酒",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地描述了自己的行动安排"
+    },
+    {
+        "sentence": "我们喝的是二锅头。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "喝酒种类",
+        "Opinion": "喝二锅头",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明了自己喝的酒的种类"
+    },
+    {
+        "sentence": "还有二锅头，那你们撒酒疯呢吧",
+        "Holder": "1",
+        "Target": "2的喝酒行为",
+        "Aspect": "喝酒后的行为",
+        "Opinion": "认为会撒酒疯",
+        "Sentiment": "negative",
+        "Rationale": "觉得喝二锅头会导致撒酒疯"
+    },
+    {
+        "sentence": "谁说我们撒酒疯了？而且我们还决定了我们要在 18 岁成人的时候做一件更惊天动地的事情。我们要把这样的光荣传统继续发扬下去，一件比一件做得更能吸引人眼球，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "未来计划",
+        "Opinion": "有惊天动地的计划",
+        "Sentiment": "positive",
+        "Rationale": "对自己未来的计划感到自豪和兴奋"
+    },
+    {
+        "sentence": "妈，你怎么了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的状态",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "只是关心1的状态"
+    },
+    {
+        "sentence": "我头晕",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "感到头晕",
+        "Sentiment": "negative",
+        "Rationale": "身体不适感到头晕"
+    },
+    {
+        "sentence": "吃榴莲吃多了吧。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "头晕的原因",
+        "Opinion": "认为是吃榴莲导致的",
+        "Sentiment": "neutral",
+        "Rationale": "推测头晕的原因是吃榴莲"
+    },
+    {
+        "sentence": "跟榴莲没关系",
+        "Holder": "1",
+        "Target": "头晕的原因",
+        "Aspect": "原因排除",
+        "Opinion": "否认是榴莲导致的",
+        "Sentiment": "negative",
+        "Rationale": "被误解了头晕的原因"
+    },
+    {
+        "sentence": "这什么事，哼，哪个也不让人省心",
+        "Holder": "1",
+        "Target": "周围的人或事",
+        "Aspect": "事情的烦扰程度",
+        "Opinion": "感到事情烦心",
+        "Sentiment": "negative",
+        "Rationale": "周围的事情让人感到不省心"
+    },
+    {
+        "sentence": "东部明星队胜利归来喽，赢了",
+        "Holder": "4",
+        "Target": "东部明星队",
+        "Aspect": "比赛结果",
+        "Opinion": "胜利",
+        "Sentiment": "positive",
+        "Rationale": "支持的队伍赢得了比赛"
+    },
+    {
+        "sentence": "妈，你知道吗？我们赢了，多亏老爸最后那个端尿盆。",
+        "Holder": "4",
+        "Target": "比赛胜利",
+        "Aspect": "胜利的原因",
+        "Opinion": "归功于老爸的端尿盆动作",
+        "Sentiment": "positive",
+        "Rationale": "比赛胜利且认为是老爸的动作起了关键作用"
+    },
+    {
+        "sentence": "说什么呢？脏话不脏话。什么叫端尿盆啊？",
+        "Holder": "1",
+        "Target": "4的用词",
+        "Aspect": "用词的恰当性",
+        "Opinion": "认为用词不当",
+        "Sentiment": "negative",
+        "Rationale": "听到不恰当的用词感到不悦"
+    },
+    {
+        "sentence": "只要能赢球，什么动作都是对的。",
+        "Holder": "3",
+        "Target": "比赛动作",
+        "Aspect": "动作的合理性",
+        "Opinion": "只要能赢球动作就合理",
+        "Sentiment": "positive",
+        "Rationale": "认为赢球是最重要的"
+    },
+    {
+        "sentence": "端尿盆是什么动作？",
+        "Holder": "1",
+        "Target": "端尿盆动作",
+        "Aspect": "动作的含义",
+        "Opinion": "不清楚动作含义",
+        "Sentiment": "neutral",
+        "Rationale": "对提到的动作不了解"
+    },
+    {
+        "sentence": "就是这样",
+        "Holder": "4",
+        "Target": "端尿盆动作",
+        "Aspect": "动作的描述",
+        "Opinion": "确认动作描述",
+        "Sentiment": "neutral",
+        "Rationale": "对方询问动作含义"
+    },
+    {
+        "sentence": "妈妈饭你都没做，干嘛呢？",
+        "Holder": "4",
+        "Target": "1的做饭行为",
+        "Aspect": "做饭的及时性",
+        "Opinion": "没有做饭",
+        "Sentiment": "negative",
+        "Rationale": "妈妈没有按时做饭"
+    },
+    {
+        "sentence": "我有事",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "有其他事情",
+        "Sentiment": "neutral",
+        "Rationale": "有其他事情要处理"
+    },
+    {
+        "sentence": "饿死啦。SOS。",
+        "Holder": "4",
+        "Target": "自己的饥饿状态",
+        "Aspect": "饥饿的程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "长时间没有吃饭"
+    },
+    {
+        "sentence": "你怎么也知道这个",
+        "Holder": "1",
+        "Target": "4的知识",
+        "Aspect": "对SOS的了解",
+        "Opinion": "意外",
+        "Sentiment": "neutral",
+        "Rationale": "没想到4也知道SOS的意思"
+    },
+    {
+        "sentence": "地球人都知道",
+        "Holder": "4",
+        "Target": "SOS的含义",
+        "Aspect": "普遍认知",
+        "Opinion": "众所周知",
+        "Sentiment": "neutral",
+        "Rationale": "SOS是国际通用的呼救信号"
+    },
+    {
+        "sentence": "这是什么意思啊？",
+        "Holder": "1",
+        "Target": "SOS的含义",
+        "Aspect": "理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "1不知道4提到的SOS具体是什么意思"
+    },
+    {
+        "sentence": "SOS 就是国际通用的呼救信号，就是救命，救命啊",
+        "Holder": "4",
+        "Target": "SOS的含义",
+        "Aspect": "解释",
+        "Opinion": "紧急呼救",
+        "Sentiment": "negative",
+        "Rationale": "4在解释SOS的含义时强调了紧急性"
+    },
+    {
+        "sentence": "都救命了，这得喝了多少",
+        "Holder": "1",
+        "Target": "4的呼救",
+        "Aspect": "夸张程度",
+        "Opinion": "夸张",
+        "Sentiment": "negative",
+        "Rationale": "1认为4用‘救命’来形容饥饿是夸张的"
+    },
+    {
+        "sentence": "妈，我饿死啦",
+        "Holder": "4",
+        "Target": "自己的饥饿",
+        "Aspect": "严重程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "4感到非常饿"
+    },
+    {
+        "sentence": "他们喝了一整瓶二锅头",
+        "Holder": "1",
+        "Target": "他们",
+        "Aspect": "饮酒量",
+        "Opinion": "喝了一整瓶",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一个事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "哎，小孩喝就喝呗。",
+        "Holder": "3",
+        "Target": "小孩喝酒",
+        "Aspect": "对小孩喝酒的态度",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "认为小孩喝酒并不是什么大问题"
+    },
+    {
+        "sentence": "对，嗯，现在喝是有点早啊。",
+        "Holder": "3",
+        "Target": "喝酒时间",
+        "Aspect": "时间合理性",
+        "Opinion": "有点早",
+        "Sentiment": "neutral",
+        "Rationale": "觉得现在喝酒的时间过早"
+    },
+    {
+        "sentence": "你没问她几个人喝了一瓶二锅头，那酒度数可挺高呢。",
+        "Holder": "3",
+        "Target": "喝酒人数和酒精度",
+        "Aspect": "饮酒安全",
+        "Opinion": "担心",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚几个人喝了高酒精度的酒，担心可能会有安全问题"
+    },
+    {
+        "sentence": "那我倒没问，可是我告诉你，他们喝完了酒，大半夜的可就跑到平安大街上去了。",
+        "Holder": "1",
+        "Target": "他们喝酒后的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不妥",
+        "Sentiment": "negative",
+        "Rationale": "他们在大半夜喝酒后跑到街上，这种行为可能存在安全隐患"
+    },
+    {
+        "sentence": "我平安大街干嘛去了？",
+        "Holder": "3",
+        "Target": "平安大街的活动",
+        "Aspect": "活动内容",
+        "Opinion": "询问活动",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问自己在平安大街的活动"
+    },
+    {
+        "sentence": "擦垃圾桶",
+        "Holder": "1",
+        "Target": "平安大街的活动",
+        "Aspect": "活动内容",
+        "Opinion": "擦垃圾桶",
+        "Sentiment": "neutral",
+        "Rationale": "1在回答3的问题，描述了活动内容"
+    },
+    {
+        "sentence": "哈哈，擦就擦呗。",
+        "Holder": "3",
+        "Target": "擦垃圾桶的活动",
+        "Aspect": "活动态度",
+        "Opinion": "接受擦垃圾桶",
+        "Sentiment": "positive",
+        "Rationale": "3对擦垃圾桶的活动表示接受并带有笑声"
+    },
+    {
+        "sentence": "哎，擦完之后还把那垃圾桶摆成 SOS 的图案。",
+        "Holder": "1",
+        "Target": "擦垃圾桶后的行为",
+        "Aspect": "行为内容",
+        "Opinion": "摆成SOS图案",
+        "Sentiment": "neutral",
+        "Rationale": "1在描述擦完垃圾桶后的行为，没有明显的情感倾向"
+    },
+    {
+        "sentence": "摆就摆嘛，",
+        "Holder": "3",
+        "Target": "摆成SOS图案的行为",
+        "Aspect": "行为态度",
+        "Opinion": "接受摆成SOS图案",
+        "Sentiment": "neutral",
+        "Rationale": "3对摆成SOS图案的行为表示接受，但没有明显的情感倾向"
+    },
+    {
+        "sentence": "这事可今天登了晨报了。",
+        "Holder": "1",
+        "Target": "事情",
+        "Aspect": "登报情况",
+        "Opinion": "已经登报",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "登就登呗。",
+        "Holder": "3",
+        "Target": "登报",
+        "Aspect": "态度",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "对登报这件事不关心"
+    },
+    {
+        "sentence": "晨报上登的那个在平安大道上摆垃圾桶是他们干的呀。我说谁呢这是。",
+        "Holder": "3",
+        "Target": "摆垃圾桶",
+        "Aspect": "行为",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然明白了事情的真相"
+    },
+    {
+        "sentence": "哎哎，这事可是小雪的主意",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "主意",
+        "Opinion": "是小雪的主意",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明事情的来源"
+    },
+    {
+        "sentence": "嘿，你别说，这真不愧是我闺女，还挺有创意。",
+        "Holder": "3",
+        "Target": "小雪",
+        "Aspect": "创意",
+        "Opinion": "有创意",
+        "Sentiment": "positive",
+        "Rationale": "对小雪的创意感到自豪和赞赏"
+    },
+    {
+        "sentence": "嘿，这叫什么创意啊？这叫撒酒疯",
+        "Holder": "1",
+        "Target": "女孩子们的举动",
+        "Aspect": "行为的合理性",
+        "Opinion": "不认可",
+        "Sentiment": "negative",
+        "Rationale": "认为女孩子们的行为不理智且危险"
+    },
+    {
+        "sentence": "撒酒疯都这么有创意，还真是有点天赋，这可是遗传。",
+        "Holder": "3",
+        "Target": "女孩子们的举动",
+        "Aspect": "行为的创意",
+        "Opinion": "调侃",
+        "Sentiment": "ambiguous",
+        "Rationale": "用幽默的方式评价女孩子们的行为"
+    },
+    {
+        "sentence": "什么遗传呢？一群女孩子大半夜跑到大街上去擦垃圾桶，这不神经病吗？",
+        "Holder": "1",
+        "Target": "女孩子们的举动",
+        "Aspect": "行为的合理性",
+        "Opinion": "强烈不认可",
+        "Sentiment": "negative",
+        "Rationale": "认为女孩子们的行为完全不合理且荒谬"
+    },
+    {
+        "sentence": "哈哈哈，是有点不对劲",
+        "Holder": "3",
+        "Target": "女孩子们的举动",
+        "Aspect": "行为的合理性",
+        "Opinion": "部分认同",
+        "Sentiment": "neutral",
+        "Rationale": "虽然觉得行为有些不妥，但用笑声表达了一种轻松的态度"
+    },
+    {
+        "sentence": "太不对劲了，这叫什么事啊？哎哎，你想想，他们这群女孩子可从来都没喝过酒，第一次喝这么一瓶酒，得醉成什么样啊？咕咚的跑到大马路上一晃悠，万一被过来的车给撞了怎么办呢？嗯，万一这夜深人静的碰见流氓歹徒什么的怎么办？万一碰见半夜巡逻的警察当小偷了，把他们抓走怎么办呢？",
+        "Holder": "1",
+        "Target": "女孩子们的举动",
+        "Aspect": "行为的危险性",
+        "Opinion": "极度担忧",
+        "Sentiment": "negative",
+        "Rationale": "担心女孩子们在醉酒状态下可能会遭遇各种危险"
+    },
+    {
+        "sentence": "这还确实挺难办了。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "处理的难易程度",
+        "Opinion": "难办",
+        "Sentiment": "negative",
+        "Rationale": "当前情况复杂且难以处理"
+    },
+    {
+        "sentence": "是啊，可是现在登了晨报了，他们可都特别得意呢。小雪跟我说了，他说他们准备干出更加惊天动地的事儿，更加要人眼球的事儿，也就是说更加出格的事儿。你说这事儿管不管",
+        "Holder": "1",
+        "Target": "他们",
+        "Aspect": "行为和态度",
+        "Opinion": "得意且计划出格行为",
+        "Sentiment": "negative",
+        "Rationale": "他们登报后得意且计划更加出格的行为"
+    },
+    {
+        "sentence": "肯定管。哎，你放心吧，我肯定不能让小雪干出更出格的事儿。",
+        "Holder": "3",
+        "Target": "小雪的行为",
+        "Aspect": "行为的控制",
+        "Opinion": "会进行管理",
+        "Sentiment": "positive",
+        "Rationale": "承诺会控制小雪的行为，不让其做出更出格的事"
+    },
+    {
+        "sentence": "这还差不多，哈哈哈。",
+        "Holder": "1",
+        "Target": "3的承诺",
+        "Aspect": "承诺的合理性",
+        "Opinion": "满意",
+        "Sentiment": "positive",
+        "Rationale": "3承诺会管理小雪的行为，符合1的期望"
+    }
+]

@@ -1,0 +1,443 @@
+[
+    {
+        "sentence": "开饭了开饭了",
+        "Holder": "1",
+        "Target": "吃饭时间",
+        "Aspect": "通知用餐",
+        "Opinion": "提醒用餐",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "别催，马上。",
+        "Holder": "2",
+        "Target": "1的催促",
+        "Aspect": "回应催促",
+        "Opinion": "即将到来",
+        "Sentiment": "neutral",
+        "Rationale": "被催促但确实很快会来"
+    },
+    {
+        "sentence": "哎呀，快来尝尝我的西红柿炒鸡蛋。",
+        "Holder": "1",
+        "Target": "西红柿炒鸡蛋",
+        "Aspect": "食物邀请",
+        "Opinion": "期待分享",
+        "Sentiment": "positive",
+        "Rationale": "做了好吃的菜"
+    },
+    {
+        "sentence": "哈哈哈，那我不是跟你说了嘛，我说马上来就马上来，一会见。",
+        "Holder": "2",
+        "Target": "1的邀请",
+        "Aspect": "回应邀请",
+        "Opinion": "确认到来",
+        "Sentiment": "positive",
+        "Rationale": "确认会很快到来"
+    },
+    {
+        "sentence": "爸你又要出去吃。",
+        "Holder": "1",
+        "Target": "爸爸的外出用餐",
+        "Aspect": "外出用餐习惯",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "看到爸爸又要出去吃"
+    },
+    {
+        "sentence": "这一帮外地来的老客户，大老远来的，没办法就得去。",
+        "Holder": "2",
+        "Target": "外地老客户",
+        "Aspect": "接待的必要性",
+        "Opinion": "必须接待",
+        "Sentiment": "neutral",
+        "Rationale": "老客户远道而来，出于礼貌和业务需要必须接待"
+    },
+    {
+        "sentence": "你答应过今天晚上陪我吃的，我陪不了你了。自己吃啊。饭菜都做好了，你就自己吃嘛爸",
+        "Holder": "1",
+        "Target": "2的承诺",
+        "Aspect": "陪伴的失约",
+        "Opinion": "失望但理解",
+        "Sentiment": "negative",
+        "Rationale": "2答应了陪1吃饭却因工作原因无法兑现承诺"
+    },
+    {
+        "sentence": "缺钱是吧？你呀？想去哪吃就去哪吃，想吃什么就吃什么。",
+        "Holder": "2",
+        "Target": "1的经济状况",
+        "Aspect": "消费自由",
+        "Opinion": "鼓励消费",
+        "Sentiment": "positive",
+        "Rationale": "2误以为1是缺钱才无法外出吃饭"
+    },
+    {
+        "sentence": "为什么呀？",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "原因询问",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "1不明白2为何突然提到钱的问题"
+    },
+    {
+        "sentence": "什么为什么？",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "问题的合理性",
+        "Opinion": "不解",
+        "Sentiment": "neutral",
+        "Rationale": "2不明白1为何对之前的提议感到困惑"
+    },
+    {
+        "sentence": "哎，你是我亲爹吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "亲情关系",
+        "Opinion": "质疑亲情",
+        "Sentiment": "negative",
+        "Rationale": "觉得2没有尽到应有的关心和陪伴"
+    },
+    {
+        "sentence": "哎，在家吃顿饭就那么难呐？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "家庭陪伴",
+        "Opinion": "觉得困难",
+        "Sentiment": "negative",
+        "Rationale": "觉得2不愿意在家陪伴吃饭"
+    },
+    {
+        "sentence": "陪你吃饭就是你亲爹，这是哪国逻辑？",
+        "Holder": "2",
+        "Target": "1的逻辑",
+        "Aspect": "逻辑合理性",
+        "Opinion": "质疑逻辑",
+        "Sentiment": "negative",
+        "Rationale": "1的逻辑不合理，觉得被强加责任"
+    },
+    {
+        "sentence": "你看看小雪他们家",
+        "Holder": "1",
+        "Target": "小雪家",
+        "Aspect": "家庭氛围",
+        "Opinion": "羡慕",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雪家的家庭氛围更好"
+    },
+    {
+        "sentence": "他们家仨孩子呢？再说了，夏东海有我出钱这么大手笔吗？再给你点",
+        "Holder": "2",
+        "Target": "夏东海",
+        "Aspect": "经济能力",
+        "Opinion": "自己出钱更多",
+        "Sentiment": "positive",
+        "Rationale": "认为自己在经济上比夏东海更大方"
+    },
+    {
+        "sentence": "亲爹，你知道咱家缺什么吗？",
+        "Holder": "1",
+        "Target": "家庭",
+        "Aspect": "家庭缺失",
+        "Opinion": "家庭有缺失",
+        "Sentiment": "neutral",
+        "Rationale": "询问家庭缺失什么"
+    },
+    {
+        "sentence": "知道，你现在啊，缺一个后妈，尽快的给你找一个后妈，这样咱们家就完美了，我走了",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "家庭完整性",
+        "Opinion": "需要后妈",
+        "Sentiment": "positive",
+        "Rationale": "认为找一个后妈能让家庭更完美"
+    },
+    {
+        "sentence": "哎哎，宣布一件事情，一会明明姐就要拿 DV 给咱们家拍摄来了啊。",
+        "Holder": "5",
+        "Target": "明明姐",
+        "Aspect": "拍摄活动",
+        "Opinion": "即将拍摄",
+        "Sentiment": "neutral",
+        "Rationale": "只是宣布即将发生的拍摄活动"
+    },
+    {
+        "sentence": "拿 DV 拍咱们家干嘛？",
+        "Holder": "3",
+        "Target": "拍摄活动",
+        "Aspect": "拍摄目的",
+        "Opinion": "疑问拍摄目的",
+        "Sentiment": "neutral",
+        "Rationale": "对拍摄目的感到好奇"
+    },
+    {
+        "sentence": "是这样的，他说他们学校要组织一个什么 DV 短剧大奖赛，他想拍咱们家题目就叫做完美生活，她觉得咱家特幸福，拍出来肯定能获奖哎。",
+        "Holder": "5",
+        "Target": "DV短剧大奖赛",
+        "Aspect": "拍摄题材的选择",
+        "Opinion": "认为咱家特幸福，能获奖",
+        "Sentiment": "positive",
+        "Rationale": "他觉得咱家特幸福，认为拍出来肯定能获奖"
+    },
+    {
+        "sentence": "我打小还就想当演员，看样子这回还真能当一把，要拍咱们家，哼，我就算女一号喽。",
+        "Holder": "3",
+        "Target": "自己当演员的机会",
+        "Aspect": "实现演员梦想的可能性",
+        "Opinion": "认为自己能当女一号",
+        "Sentiment": "positive",
+        "Rationale": "她从小就梦想当演员，现在有机会实现"
+    },
+    {
+        "sentence": "唉，那您要是女一号的话，那我肯定就是男一号喽。",
+        "Holder": "6",
+        "Target": "自己在剧中的角色",
+        "Aspect": "角色分配的预期",
+        "Opinion": "认为自己会是男一号",
+        "Sentiment": "positive",
+        "Rationale": "如果3是女一号，他自然认为自己会是男一号"
+    },
+    {
+        "sentence": "错，咱爸才是男一号，我就是男二号，你就是男 5 号。",
+        "Holder": "7",
+        "Target": "剧中角色的分配",
+        "Aspect": "角色分配的实际安排",
+        "Opinion": "认为爸爸是男一号，自己是男二号，6是男五号",
+        "Sentiment": "neutral",
+        "Rationale": "他提出了一个具体的角色分配方案"
+    },
+    {
+        "sentence": "会不会数数啊，咱家一共才三个男的，怎么蹦出 5 号来了？",
+        "Holder": "6",
+        "Target": "7的角色分配方案",
+        "Aspect": "角色编号的合理性",
+        "Opinion": "认为7的编号不合理",
+        "Sentiment": "negative",
+        "Rationale": "7的编号超出了家庭成员的实际数量"
+    },
+    {
+        "sentence": "嘿，你忘了，还有爷爷，还有你那个的爸爸。",
+        "Holder": "7",
+        "Target": "家庭成员",
+        "Aspect": "成员的提及",
+        "Opinion": "提醒家庭成员",
+        "Sentiment": "neutral",
+        "Rationale": "只是提醒对方不要忘记家庭成员"
+    },
+    {
+        "sentence": "不过我觉得这个男一号应该是一个英俊少年，这样才有卖点嘛",
+        "Holder": "6",
+        "Target": "男一号",
+        "Aspect": "外貌要求",
+        "Opinion": "应选英俊少年",
+        "Sentiment": "positive",
+        "Rationale": "认为英俊少年更有市场吸引力"
+    },
+    {
+        "sentence": "对了，爸，我这长了一颗痘痘，拍特写镜头的时候看不着吧",
+        "Holder": "5",
+        "Target": "痘痘",
+        "Aspect": "镜头下的可见性",
+        "Opinion": "希望不明显",
+        "Sentiment": "doubt",
+        "Rationale": "担心痘痘在特写镜头中会被看到"
+    },
+    {
+        "sentence": "肯定能看得着。",
+        "Holder": "4",
+        "Target": "痘痘",
+        "Aspect": "镜头下的可见性",
+        "Opinion": "会很明显",
+        "Sentiment": "negative",
+        "Rationale": "认为痘痘在特写镜头中一定会被看到"
+    },
+    {
+        "sentence": "哎夏东海你说我是不是应该买两件衣服去？我这衣服都特旧了。",
+        "Holder": "3",
+        "Target": "自己的衣服",
+        "Aspect": "新旧程度",
+        "Opinion": "需要更新",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己的衣服太旧了"
+    },
+    {
+        "sentence": "应该找朵朵来跟我演对手戏。",
+        "Holder": "7",
+        "Target": "朵朵",
+        "Aspect": "对手戏的选择",
+        "Opinion": "支持找朵朵",
+        "Sentiment": "positive",
+        "Rationale": "认为朵朵适合演对手戏"
+    },
+    {
+        "sentence": "我要演一个飞檐走壁的大侠，用不用掉吊威亚",
+        "Holder": "6",
+        "Target": "飞檐走壁的大侠角色",
+        "Aspect": "表演方式",
+        "Opinion": "询问是否需要吊威亚",
+        "Sentiment": "neutral",
+        "Rationale": "对表演方式有疑问"
+    },
+    {
+        "sentence": "你必须得吊威亚，不然就摔了",
+        "Holder": "7",
+        "Target": "6的表演方式",
+        "Aspect": "安全考虑",
+        "Opinion": "必须吊威亚",
+        "Sentiment": "neutral",
+        "Rationale": "出于安全考虑"
+    },
+    {
+        "sentence": "别吵了，拍个 DV 把你们给激动。",
+        "Holder": "3",
+        "Target": "大家的讨论",
+        "Aspect": "讨论的激烈程度",
+        "Opinion": "认为过于激动",
+        "Sentiment": "negative",
+        "Rationale": "觉得大家讨论得太激动"
+    },
+    {
+        "sentence": "不过我觉得这拍 DV 还真是一好事儿。啊，正好给咱们家留个资料，等咱们将来老了，孩子们都长大，咱们坐在一起看多好玩。所以我必须得帮明明出一选题。",
+        "Holder": "4",
+        "Target": "拍DV",
+        "Aspect": "拍DV的意义",
+        "Opinion": "拍DV是好事",
+        "Sentiment": "positive",
+        "Rationale": "认为拍DV可以留下家庭资料，将来回忆起来很有意义"
+    },
+    {
+        "sentence": "用不着你帮人出选题，人，小雪说人早就有选题了，叫完美生活，是不是",
+        "Holder": "3",
+        "Target": "4的帮助",
+        "Aspect": "帮助的必要性",
+        "Opinion": "不需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "小雪已经确定了选题，认为4的帮助多余"
+    },
+    {
+        "sentence": "有人吗？阿姨，叔叔，小雪。",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "家人的在场",
+        "Opinion": "询问在场情况",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认家人的在场情况"
+    },
+    {
+        "sentence": "哟干嘛呢你这是噢",
+        "Holder": "8",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚3在做什么"
+    },
+    {
+        "sentence": "我这个敷面膜呢哟，这么快就拍了，那我赶紧把这洗下去啊。",
+        "Holder": "5",
+        "Target": "敷面膜",
+        "Aspect": "拍摄时间",
+        "Opinion": "时间紧凑",
+        "Sentiment": "neutral",
+        "Rationale": "拍摄时间比预期快"
+    },
+    {
+        "sentence": "唉，不着急，我就是先过来看看，找一找感觉。",
+        "Holder": "8",
+        "Target": "拍摄准备",
+        "Aspect": "时间安排",
+        "Opinion": "不急躁",
+        "Sentiment": "positive",
+        "Rationale": "只是来提前看看找感觉"
+    },
+    {
+        "sentence": "这感觉怎么样？",
+        "Holder": "6",
+        "Target": "8的感觉",
+        "Aspect": "感受评价",
+        "Opinion": "询问感受",
+        "Sentiment": "neutral",
+        "Rationale": "单纯询问对方的感受"
+    },
+    {
+        "sentence": "小雨，你这是要干什么呢？",
+        "Holder": "8",
+        "Target": "小雨的行为",
+        "Aspect": "行为意图",
+        "Opinion": "好奇询问",
+        "Sentiment": "neutral",
+        "Rationale": "对小雨的行为感到好奇"
+    },
+    {
+        "sentence": "唉，老师说我演的可好了，来自北方的狼",
+        "Holder": "7",
+        "Target": "自己的演技",
+        "Aspect": "演技评价",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "老师对自己的演技给予了肯定"
+    },
+    {
+        "sentence": "不拍你演节目。摘了摘了，赶紧摘了。",
+        "Holder": "8",
+        "Target": "6的表演",
+        "Aspect": "拍摄意愿",
+        "Opinion": "拒绝拍摄",
+        "Sentiment": "negative",
+        "Rationale": "不想拍摄6的表演"
+    },
+    {
+        "sentence": "嘿嘿，女魔头休走，吃我飞火流星刀",
+        "Holder": "6",
+        "Target": "8",
+        "Aspect": "互动方式",
+        "Opinion": "开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "用玩笑的方式与8互动"
+    },
+    {
+        "sentence": "别闹了，行不行？",
+        "Holder": "8",
+        "Target": "6的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "觉得6的行为打扰到自己"
+    },
+    {
+        "sentence": "你赶紧拍，我站不住了",
+        "Holder": "6",
+        "Target": "8的拍摄",
+        "Aspect": "拍摄速度",
+        "Opinion": "催促拍摄",
+        "Sentiment": "negative",
+        "Rationale": "站久了感到疲惫"
+    },
+    {
+        "sentence": "我不拍，我不拍你这个，哎呀。",
+        "Holder": "8",
+        "Target": "6的表演",
+        "Aspect": "拍摄意愿",
+        "Opinion": "坚决拒绝",
+        "Sentiment": "negative",
+        "Rationale": "坚决不想拍摄6的表演"
+    },
+    {
+        "sentence": "这是男女主角宫廷怀旧版",
+        "Holder": "3",
+        "Target": "男女主角宫廷怀旧版",
+        "Aspect": "设计风格",
+        "Opinion": "描述设计风格",
+        "Sentiment": "neutral",
+        "Rationale": "3在描述一个设计风格，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "嗯，我设计的",
+        "Holder": "4",
+        "Target": "男女主角宫廷怀旧版",
+        "Aspect": "设计者",
+        "Opinion": "承认是自己设计的",
+        "Sentiment": "positive",
+        "Rationale": "4承认是自己设计的，表现出一种自豪和满意的情绪"
+    }
+]

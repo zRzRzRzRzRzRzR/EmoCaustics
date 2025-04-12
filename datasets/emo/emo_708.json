@@ -1,0 +1,114 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论规则宣布与流程控制",
+        "emotions": [
+          {"state": "neutral", "reason": "按流程宣布比赛开始", "source_id": "1"},
+          {"state": "neutral", "reason": "主持质询环节时间分配", "source_id": "1"},
+          {"state": "neutral", "reason": "维持评委发言秩序", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "世界本质论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调世界复杂多变的本质", "source_id": "2"},
+          {"state": "negative", "reason": "质疑人类应对全球问题的能力", "source_id": "2"},
+          {"state": "doubt", "reason": "挑战对方进步论证的有效性", "source_id": "4,8,9"}
+        ]
+      },
+      {
+        "event": "巴以冲突案例剖析",
+        "emotions": [
+          {"state": "negative", "reason": "揭示多方利益冲突的无解性", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑专业团队协作可能性", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "草台班子价值体系构建",
+        "emotions": [
+          {"state": "positive", "reason": "主张多元剧本共存的包容性", "source_id": "4"},
+          {"state": "negative", "reason": "揭露价值冲突导致的发展上限", "source_id": "8"},
+          {"state": "doubt", "reason": "质疑理想国实现可能性", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "戏剧多样性辩护",
+        "emotions": [
+          {"state": "positive", "reason": "强调即兴表演的艺术价值", "source_id": "6"},
+          {"state": "negative", "reason": "反对单一剧本的机械世界观", "source_id": "4"},
+          {"state": "positive", "reason": "论证感性驱动的文明优越性", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "新国辩发展历程举证",
+        "emotions": [
+          {"state": "positive", "reason": "展示从草根到体系的进步历程", "source_id": "7"},
+          {"state": "positive", "reason": "强调规则学习对组织发展的意义", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "文明进步实证分析",
+        "emotions": [
+          {"state": "positive", "reason": "对比古今环境治理能力提升", "source_id": "8"},
+          {"state": "positive", "reason": "列举人口承载力突破的成就", "source_id": "8"},
+          {"state": "negative", "reason": "批驳循环论证的逻辑谬误", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "错误本质辨析",
+        "emotions": [
+          {"state": "neutral", "reason": "区分专业错误与草台错误", "source_id": "9"},
+          {"state": "positive", "reason": "论证高级错误体现文明复杂度", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "辩论价值评判",
+        "emotions": [
+          {"state": "ambiguous", "reason": "承认双方论证合理性", "source_id": "10"},
+          {"state": "positive", "reason": "赞赏反方感性驱动论", "source_id": "8"},
+          {"state": "negative", "reason": "质疑正方宏观视角局限性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "events": [
+      {
+        "event": "戏剧隐喻解构",
+        "emotions": [
+          {"state": "positive", "reason": "解析冲突叙事的艺术价值", "source_id": "11"},
+          {"state": "negative", "reason": "指出价值观单一化缺陷", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

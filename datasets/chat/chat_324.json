@@ -1,0 +1,605 @@
+[
+    {
+        "sentence": "我没吃，你好歹让我吃一个，留下一点点呢？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "食物分配",
+        "Opinion": "希望分到一些食物",
+        "Sentiment": "negative",
+        "Rationale": "1没有吃到食物"
+    },
+    {
+        "sentence": "你是断手断脚还是不能拿，还是怎么着？不让你吃，你还咬？你吃没吃？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "质疑1的能力和行为",
+        "Sentiment": "negative",
+        "Rationale": "2认为1有能力自己拿食物，却还要争抢"
+    },
+    {
+        "sentence": "没吃。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "是否吃过",
+        "Opinion": "否认吃过",
+        "Sentiment": "neutral",
+        "Rationale": "1在回答2的质疑"
+    },
+    {
+        "sentence": "我不信。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的诚实",
+        "Opinion": "不相信1",
+        "Sentiment": "negative",
+        "Rationale": "2对1的否认持怀疑态度"
+    },
+    {
+        "sentence": "真没吃。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "是否吃过",
+        "Opinion": "再次否认吃过",
+        "Sentiment": "negative",
+        "Rationale": "1被2怀疑"
+    },
+    {
+        "sentence": "这都是搅过的。",
+        "Holder": "2",
+        "Target": "食物",
+        "Aspect": "食物的状态",
+        "Opinion": "食物被搅过",
+        "Sentiment": "negative",
+        "Rationale": "2认为食物被搅过不干净"
+    },
+    {
+        "sentence": "我只是搅了一下。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "搅动食物的行为",
+        "Opinion": "轻描淡写搅动行为",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的行为"
+    },
+    {
+        "sentence": "那就是别人用过的餐具。",
+        "Holder": "2",
+        "Target": "餐具",
+        "Aspect": "餐具的卫生",
+        "Opinion": "餐具被别人用过",
+        "Sentiment": "negative",
+        "Rationale": "2认为餐具不干净"
+    },
+    {
+        "sentence": "这是我好我先找好了再吃的。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "选择餐具的行为",
+        "Opinion": "解释选择餐具的原因",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的行为"
+    },
+    {
+        "sentence": "不管是谁，这个餐具不是我的。",
+        "Holder": "2",
+        "Target": "餐具",
+        "Aspect": "餐具的归属",
+        "Opinion": "强调餐具不属于自己的",
+        "Sentiment": "negative",
+        "Rationale": "2认为餐具不是自己的"
+    },
+    {
+        "sentence": "我开了新的！",
+        "Holder": "1",
+        "Target": "新筷子",
+        "Aspect": "使用情况",
+        "Opinion": "已经开封",
+        "Sentiment": "positive",
+        "Rationale": "自己开了新的筷子"
+    },
+    {
+        "sentence": "我不信。算了，送你了。",
+        "Holder": "2",
+        "Target": "1的新筷子",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "不相信1的话"
+    },
+    {
+        "sentence": "我不吃，我要吃辣的！",
+        "Holder": "1",
+        "Target": "食物",
+        "Aspect": "口味",
+        "Opinion": "偏好辣的",
+        "Sentiment": "negative",
+        "Rationale": "食物不符合自己的口味偏好"
+    },
+    {
+        "sentence": "那你现在在把它搅了，我又不能吃了，你说怎么办？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "影响",
+        "Opinion": "造成不便",
+        "Sentiment": "negative",
+        "Rationale": "1的行为导致自己无法继续食用"
+    },
+    {
+        "sentence": "这不是！",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "解释",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "被误解而急于解释"
+    },
+    {
+        "sentence": "这不是啥这不是？",
+        "Holder": "2",
+        "Target": "1的解释",
+        "Aspect": "明确性",
+        "Opinion": "不明确",
+        "Sentiment": "negative",
+        "Rationale": "1的解释不明确"
+    },
+    {
+        "sentence": "这我新开的筷子！",
+        "Holder": "1",
+        "Target": "筷子",
+        "Aspect": "状态",
+        "Opinion": "新开封",
+        "Sentiment": "positive",
+        "Rationale": "强调自己确实开了新的筷子"
+    },
+    {
+        "sentence": "我压根不信！",
+        "Holder": "2",
+        "Target": "1的声明",
+        "Aspect": "可信度",
+        "Opinion": "完全不信",
+        "Sentiment": "negative",
+        "Rationale": "对1的话完全不信任"
+    },
+    {
+        "sentence": "你拿走！",
+        "Holder": "1",
+        "Target": "筷子",
+        "Aspect": "处理方式",
+        "Opinion": "让2拿走",
+        "Sentiment": "negative",
+        "Rationale": "被质疑而感到生气"
+    },
+    {
+        "sentence": "你不吃你端走干什么？放那好好的，谁让你拽回来的？你现在又不吃了，你有病啊？拿走！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "1的行为反复无常且不合理"
+    },
+    {
+        "sentence": "不！",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "对对方的要求或行为不满"
+    },
+    {
+        "sentence": "看你这么丑陋的样子，你侵犯我肖像权你知道吗？",
+        "Holder": "2",
+        "Target": "1的外貌",
+        "Aspect": "肖像权",
+        "Opinion": "认为被侵犯",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的外貌丑陋且侵犯了自己的肖像权"
+    },
+    {
+        "sentence": "就这样！",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "坚持己见",
+        "Sentiment": "negative",
+        "Rationale": "对对方的指责不满"
+    },
+    {
+        "sentence": "还有别的啥的呢。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想了解更多的信息"
+    },
+    {
+        "sentence": "听到了没？",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "强调",
+        "Sentiment": "negative",
+        "Rationale": "想确认对方是否听到自己的话"
+    },
+    {
+        "sentence": "她拿我东西吃，姐姐。他咋的都不行。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "拿东西吃",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方拿自己的东西吃是不对的"
+    },
+    {
+        "sentence": "你都这样，我还吃什么吃，走开吧，我吃人家剩下的。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对待方式",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为感到不满"
+    },
+    {
+        "sentence": "我没有施舍给你，搞清楚，是你抢的。我没有施舍给你，那是我的东西，你现在干嘛呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "拿东西的方式",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方是抢自己的东西而不是自己施舍的"
+    },
+    {
+        "sentence": "关你什么事？你想让我吃我就不吃，你不想让我吃我偏要吃！",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "吃东西的选择",
+        "Opinion": "反抗",
+        "Sentiment": "negative",
+        "Rationale": "对对方的干涉感到不满"
+    },
+    {
+        "sentence": "我现在快要气死了，我一天没没吃饭了，我都好不容易泡一包泡面，你还给我拿走，拿走完了，你还搅，搅完了我又不能吃，我让你吃，你又不吃。我现在就要哭，我告诉你，你还把我肠拿走。现在这碗泡面你不吃，我也不能吃了！你就是把它拿过来，然后把它浪费掉！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对待食物的方式",
+        "Opinion": "极度不满",
+        "Sentiment": "negative",
+        "Rationale": "自己饿了一天好不容易泡的泡面被对方拿走并搅坏，导致自己也无法吃"
+    },
+    {
+        "sentence": "没有，我真的没有用我吃过的筷子你怎么不相信。你怎么这样呢？",
+        "Holder": "1",
+        "Target": "2的信任",
+        "Aspect": "信任的合理性",
+        "Opinion": "自己没有用吃过的筷子",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己被误解了"
+    },
+    {
+        "sentence": "我哪知道哪个是你用过，哪个是你没用过的？",
+        "Holder": "2",
+        "Target": "1的筷子使用",
+        "Aspect": "识别的困难",
+        "Opinion": "无法区分筷子",
+        "Sentiment": "neutral",
+        "Rationale": "2确实不知道筷子的使用情况"
+    },
+    {
+        "sentence": "我先从这里面拿来新筷子，我掰开了，然后找了一下。没有吃，然后我就想先吃这个，然后我再开始吃的这个。总是觉得我在骗你，我哪骗你了？",
+        "Holder": "1",
+        "Target": "2的怀疑",
+        "Aspect": "行为的真实性",
+        "Opinion": "自己没有骗人",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己被误认为在骗人"
+    },
+    {
+        "sentence": "我没有觉得你要骗我，我是觉得你的记忆会出现偏差。",
+        "Holder": "2",
+        "Target": "1的记忆",
+        "Aspect": "记忆的准确性",
+        "Opinion": "1的记忆可能有偏差",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1的记忆可能不准确"
+    },
+    {
+        "sentence": "解决了吗？",
+        "Holder": "3",
+        "Target": "问题的解决",
+        "Aspect": "解决状态",
+        "Opinion": "询问解决情况",
+        "Sentiment": "neutral",
+        "Rationale": "3关心问题的解决情况"
+    },
+    {
+        "sentence": "有什么解决办法，现在什么也没解决！你知道吗，会气炸我的。",
+        "Holder": "2",
+        "Target": "问题的解决",
+        "Aspect": "解决的可能性",
+        "Opinion": "没有解决办法",
+        "Sentiment": "negative",
+        "Rationale": "2觉得问题无法解决"
+    },
+    {
+        "sentence": "我给你出一个计谋，你把孙晓燕叫来，让他帮你冲一个。",
+        "Holder": "3",
+        "Target": "解决问题的方法",
+        "Aspect": "建议的提出",
+        "Opinion": "建议叫孙晓燕帮忙",
+        "Sentiment": "neutral",
+        "Rationale": "3想提供一个解决问题的方法"
+    },
+    {
+        "sentence": "不！为什么要天天指使，孙晓燕要欠你的，该你的？",
+        "Holder": "1",
+        "Target": "3的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "反对指使孙晓燕",
+        "Sentiment": "negative",
+        "Rationale": "1觉得总是指使孙晓燕不公平"
+    },
+    {
+        "sentence": "哎？谁要吃，是我要吃吗？",
+        "Holder": "3",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "自己没有要吃",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己被误解了"
+    },
+    {
+        "sentence": "什么吃不吃的，你把我的衣服弄脏了，你知道吗？",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "衣服的清洁",
+        "Opinion": "衣服被弄脏",
+        "Sentiment": "negative",
+        "Rationale": "4的衣服被弄脏了"
+    },
+    {
+        "sentence": "那你把我衣服还弄脏了呢。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "衣服的清洁",
+        "Opinion": "衣服被弄脏",
+        "Sentiment": "negative",
+        "Rationale": "自己的衣服被4弄脏"
+    },
+    {
+        "sentence": "你那个衣服很便宜的，好不好？我的衣服吊牌还没拆呢，今天第一次穿的，就弄成这个样子了？",
+        "Holder": "4",
+        "Target": "1的衣服",
+        "Aspect": "衣服的价值",
+        "Opinion": "1的衣服便宜",
+        "Sentiment": "negative",
+        "Rationale": "自己的新衣服被弄脏，而1的衣服便宜"
+    },
+    {
+        "sentence": "怎么样，衣服便宜就看不起我是吧？",
+        "Holder": "1",
+        "Target": "4的态度",
+        "Aspect": "对衣服价值的看法",
+        "Opinion": "被看不起",
+        "Sentiment": "negative",
+        "Rationale": "4认为自己的衣服便宜而表现出轻视的态度"
+    },
+    {
+        "sentence": "你刚才偷偷摸摸在后面搞到就溜掉了，你知道吧？你也没有说句对不起，你就溜掉了，你知道吧？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为的不当",
+        "Opinion": "1行为不诚实",
+        "Sentiment": "negative",
+        "Rationale": "1在弄脏衣服后没有道歉就溜走"
+    },
+    {
+        "sentence": "你们三个人联合起来这么对我。",
+        "Holder": "1",
+        "Target": "2、3、4",
+        "Aspect": "对待方式",
+        "Opinion": "被联合针对",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被三个人联合起来对付"
+    },
+    {
+        "sentence": "这么对你有一个原因，是因为你你要作死。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "1自找麻烦",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为是自找麻烦"
+    },
+    {
+        "sentence": "好气啊。但是你要拿走他不给是吗？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "1不应该拿走",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让3感到不公平"
+    },
+    {
+        "sentence": "没有，我让他吃，他又不吃，我说我再去泡一个，他又不吃了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的反复",
+        "Opinion": "1反复无常",
+        "Sentiment": "negative",
+        "Rationale": "1反复无常的行为让2感到困扰"
+    },
+    {
+        "sentence": "他说了这样的话，怎么吃啊？我不要自尊的吗？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语的影响",
+        "Opinion": "无法接受",
+        "Sentiment": "negative",
+        "Rationale": "2的话让自己感到被侮辱"
+    },
+    {
+        "sentence": "那你才不是一样吃?",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的矛盾",
+        "Opinion": "1同样有问题",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为同样有问题"
+    },
+    {
+        "sentence": "那你为什么要说这个话呢？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话的原因",
+        "Opinion": "质疑说话原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不理解2为什么要说那样的话"
+    },
+    {
+        "sentence": "因为我饿呀，我一天没吃东西了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "饥饿状态",
+        "Opinion": "解释饥饿原因",
+        "Sentiment": "negative",
+        "Rationale": "2一天没吃东西，感到饥饿"
+    },
+    {
+        "sentence": "那你就吃啊，你饿你就吃啊，你要让我吃，你就别说那种话呀。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为建议",
+        "Opinion": "建议2先解决饥饿",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2应该先解决自己的饥饿问题"
+    },
+    {
+        "sentence": "就是我让你吃，然后我再去泡一袋儿。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为计划",
+        "Opinion": "表达后续行动",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的计划"
+    },
+    {
+        "sentence": "那你都说那种话了，我为什么要吃啊？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "话语影响",
+        "Opinion": "质疑对方话语的合理性",
+        "Sentiment": "negative",
+        "Rationale": "2之前的话让1感到不快"
+    },
+    {
+        "sentence": "那你不是浪费粮食吗？你闭嘴!",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "行为评价",
+        "Opinion": "认为1浪费粮食",
+        "Sentiment": "negative",
+        "Rationale": "3认为1的行为是浪费粮食"
+    },
+    {
+        "sentence": "我就不！你会后悔的。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为态度",
+        "Opinion": "拒绝并威胁",
+        "Sentiment": "negative",
+        "Rationale": "1对3的指责感到不满"
+    },
+    {
+        "sentence": "我没有什么后悔的，你怎么了吧？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "态度回应",
+        "Opinion": "不后悔并反问",
+        "Sentiment": "negative",
+        "Rationale": "3对1的威胁不以为然"
+    },
+    {
+        "sentence": "我跟你绝交了。你回去就把钱所有钱都还给我。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "关系决裂",
+        "Opinion": "绝交并要求还钱",
+        "Sentiment": "negative",
+        "Rationale": "1对3的态度极度不满"
+    },
+    {
+        "sentence": "我还不要呢。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "金钱态度",
+        "Opinion": "拒绝还钱",
+        "Sentiment": "negative",
+        "Rationale": "3对1的要求感到愤怒"
+    },
+    {
+        "sentence": "你还坐这干嘛呢？",
+        "Holder": "1",
+        "Target": "2的坐姿",
+        "Aspect": "坐的位置",
+        "Opinion": "不应该坐在这里",
+        "Sentiment": "negative",
+        "Rationale": "2坐在1旁边让1感到不舒服"
+    },
+    {
+        "sentence": "我现在缓解情绪，你知道吗？",
+        "Holder": "2",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "需要缓解情绪",
+        "Sentiment": "neutral",
+        "Rationale": "2正在尝试平复自己的情绪"
+    },
+    {
+        "sentence": "你不要坐我旁边缓解情绪，让我现在很难受。我现在看你就难受。",
+        "Holder": "1",
+        "Target": "2的坐姿",
+        "Aspect": "坐的位置",
+        "Opinion": "不应该坐在这里",
+        "Sentiment": "negative",
+        "Rationale": "2坐在1旁边让1感到难受"
+    },
+    {
+        "sentence": "你不要跟我说话，我现在上头了。",
+        "Holder": "2",
+        "Target": "1的说话",
+        "Aspect": "交流方式",
+        "Opinion": "不想交流",
+        "Sentiment": "negative",
+        "Rationale": "2情绪激动不想与1交流"
+    },
+    {
+        "sentence": "就你上头了？因为就你头大。气死。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "认为2无理取闹",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的情绪激动是无理取闹"
+    },
+    {
+        "sentence": "你生的哪门子气？",
+        "Holder": "2",
+        "Target": "1的生气",
+        "Aspect": "情绪原因",
+        "Opinion": "不理解1为什么生气",
+        "Sentiment": "neutral",
+        "Rationale": "2不明白1为什么生气"
+    },
+    {
+        "sentence": "你别装，你又开始装。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "真实性",
+        "Opinion": "认为2在装",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在假装不理解"
+    }
+]

@@ -1,0 +1,116 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "科技毁灭性趋势论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "历史事故佐证科技破坏力,基因技术冲击伦理,互联网替代现实",
+            "source_id": "3,5,7"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认科技发展趋势不可逆",
+            "source_id": "2,8"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "科技可控性辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反驳责任归咎方式",
+            "source_id": "1,3"
+          },
+          {
+            "state": "positive",
+            "reason": "强调自我修复能力与伦理约束",
+            "source_id": "6,8"
+          },
+          {
+            "state": "neutral",
+            "reason": "澄清克隆技术研究现状",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "科技全面冲击论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "互联网虚拟化社会关系,基因技术改变人类本质",
+            "source_id": "5,7"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑人类身份定义",
+            "source_id": "2,8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "科技异化趋势分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "科技神化与自然工具化,理性局限性",
+            "source_id": "1,3"
+          },
+          {
+            "state": "doubt",
+            "reason": "人兽基因混合伦理困境",
+            "source_id": "2,6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "科技本质批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露科技发展三大错误,强调独立失控趋势",
+            "source_id": "2,8"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "科技发展价值维护",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "列举医疗技术进步,强调历史进步规律",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳片面负面评价",
+            "source_id": "1,3"
+          }
+        ]
+      }
+    ]
+  }
+}

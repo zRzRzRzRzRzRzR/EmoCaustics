@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "这次咱班同学考得都不错，提出表扬，下面公布一下这次考试咱们同学的排名第一，司马一142分，",
+        "Holder": "1",
+        "Target": "咱班同学",
+        "Aspect": "考试成绩",
+        "Opinion": "考得都不错",
+        "Sentiment": "positive",
+        "Rationale": "咱班同学在考试中表现良好"
+    },
+    {
+        "sentence": "马一厉害，",
+        "Holder": "2",
+        "Target": "司马一",
+        "Aspect": "考试成绩",
+        "Opinion": "厉害",
+        "Sentiment": "positive",
+        "Rationale": "司马一考了142分，成绩优异"
+    },
+    {
+        "sentence": "第二名陈子昂。120分。",
+        "Holder": "1",
+        "Target": "陈子昂",
+        "Aspect": "考试成绩",
+        "Opinion": "第二名",
+        "Sentiment": "neutral",
+        "Rationale": "陈子昂考了120分，排名第二"
+    },
+    {
+        "sentence": "这家伙有些人又嫌学校破，又说自己学习好考120。",
+        "Holder": "2",
+        "Target": "陈子昂",
+        "Aspect": "言行一致性",
+        "Opinion": "自相矛盾",
+        "Sentiment": "negative",
+        "Rationale": "陈子昂一方面抱怨学校条件差，一方面又自称学习好但只考了120分"
+    },
+    {
+        "sentence": "但是子昂主任问你，为什么后边大题都答了，前面的选择题你不答",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "答题情况",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "子昂主任对3的答题情况感到疑惑"
+    },
+    {
+        "sentence": "是不会吗？这么难的题都答出来了，前面选择题愣是不写，而且你为什么在卷子的成绩栏上自己写了个120？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "答题行为",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1对3的答题行为感到不解和质疑"
+    },
+    {
+        "sentence": "什么意思？",
+        "Holder": "3",
+        "Target": "说话人1的言论",
+        "Aspect": "言论的明确性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3没有理解说话人1的具体意思"
+    },
+    {
+        "sentence": "马一同学我得向你多学习",
+        "Holder": "1",
+        "Target": "马一",
+        "Aspect": "学习态度",
+        "Opinion": "赞赏",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为马一有值得学习的地方"
+    },
+    {
+        "sentence": "上个月月考成绩可出来了，马一你这次发挥太差了，所有科成绩加起来才650，",
+        "Holder": "3",
+        "Target": "马一",
+        "Aspect": "考试成绩",
+        "Opinion": "成绩差",
+        "Sentiment": "negative",
+        "Rationale": "马一的成绩没有达到预期"
+    },
+    {
+        "sentence": "马一同学是少考了一科吗？",
+        "Holder": "2",
+        "Target": "马一",
+        "Aspect": "考试科目数量",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "马一的成绩较低"
+    },
+    {
+        "sentence": "真能作，他拿多少",
+        "Holder": "4",
+        "Target": "马一",
+        "Aspect": "行为表现",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "说话人4认为马一的行为不妥"
+    },
+    {
+        "sentence": "马一你最近到底怎么的了，成绩怎么下滑那么快，你要再这么一直往下滑，保送的名额不一定了。你不是有什么心事，下课",
+        "Holder": "1",
+        "Target": "马一",
+        "Aspect": "成绩下滑",
+        "Opinion": "成绩下滑快",
+        "Sentiment": "negative",
+        "Rationale": "马一的成绩快速下滑，可能会影响保送名额"
+    },
+    {
+        "sentence": "别闹心，咱下回好好考不就完了吗？晚上扛铺摊铺啥铺，我哪有心情铺。",
+        "Holder": "2",
+        "Target": "1的担忧",
+        "Aspect": "应对成绩下滑的态度",
+        "Opinion": "下次努力考",
+        "Sentiment": "neutral",
+        "Rationale": "2认为可以通过下次努力考试来解决问题"
+    }
+]

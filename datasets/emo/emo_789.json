@@ -1,0 +1,34 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "催促安排相亲引发争执",
+        "emotions": [
+          {"state": "neutral", "reason": "要求加快相亲频率", "source_id": "2"},
+          {"state": "negative", "reason": "被拒绝频繁安排及朋友圈忽视", "source_id": "2"},
+          {"state": "negative", "reason": "对自身找对象能力的挫败感", "source_id": "2"},
+          {"state": "negative", "reason": "担忧亲戚询问的压力", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "朋友圈信息发布冲突",
+        "emotions": [
+          {"state": "negative", "reason": "不满对方在同学群广泛传播却不单独通知", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "应对相亲催促压力",
+        "emotions": [
+          {"state": "neutral", "reason": "强调已履行安排义务", "source_id": "1"},
+          {"state": "negative", "reason": "抗拒高频相亲要求", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝代找对象的责任转移", "source_id": "1"},
+          {"state": "neutral", "reason": "最终妥协退让", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

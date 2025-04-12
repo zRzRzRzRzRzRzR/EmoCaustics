@@ -1,0 +1,1577 @@
+[
+    {
+        "sentence": "我那个电商在上。",
+        "Holder": "1",
+        "Target": "电商",
+        "Aspect": "状态",
+        "Opinion": "正在使用",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己在使用电商"
+    },
+    {
+        "sentence": "先给我把奶喝喽，什么都好商量。问题。",
+        "Holder": "2",
+        "Target": "喝奶",
+        "Aspect": "优先级",
+        "Opinion": "必须先喝奶",
+        "Sentiment": "positive",
+        "Rationale": "认为喝奶是重要且必须的"
+    },
+    {
+        "sentence": "是我跟您商量的就是这牛奶的事儿。",
+        "Holder": "3",
+        "Target": "牛奶",
+        "Aspect": "商量内容",
+        "Opinion": "正在讨论",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明商量的内容是关于牛奶"
+    },
+    {
+        "sentence": "哈哈哈，一天一杯，一口不许少，没什么商量的。",
+        "Holder": "2",
+        "Target": "喝奶",
+        "Aspect": "频率和量",
+        "Opinion": "必须严格遵循",
+        "Sentiment": "positive",
+        "Rationale": "坚持每天必须喝一杯奶"
+    },
+    {
+        "sentence": "哈哈哈，你没听人说嘛？你自己想吃什么或者想喝什么，就说明你自己身体里缺什么，哈哈哈，你不想吃什么或者不想喝什么，说明你身体里不缺这玩意儿。",
+        "Holder": "3",
+        "Target": "饮食选择",
+        "Aspect": "身体需求",
+        "Opinion": "饮食反映身体需求",
+        "Sentiment": "positive",
+        "Rationale": "认为饮食选择与身体需求相关"
+    },
+    {
+        "sentence": "哈哈哈，少跟我说这拗论。哎，你知道人家管那漂亮的男孩子都叫什么吗？叫什么奶油小生。",
+        "Holder": "2",
+        "Target": "漂亮的男孩子",
+        "Aspect": "称呼",
+        "Opinion": "奶油小生",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式谈论男孩子的称呼"
+    },
+    {
+        "sentence": "哈哈哈，那照您这么说，那奶油小生的全是喝牛奶喝出来的。哈哈，当然了，那我就不用喝这牛奶了。嗯，因为我不想当奶油小生，哈哈哈，我想当硬汉小生，姜文去，哈哈哈。",
+        "Holder": "3",
+        "Target": "奶油小生",
+        "Aspect": "成因",
+        "Opinion": "不想成为奶油小生",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式表达自己不想成为奶油小生而想成为硬汉小生"
+    },
+    {
+        "sentence": "去，人家姜文之所以能成姜文就是因为他小时候着他天天喝牛奶。",
+        "Holder": "2",
+        "Target": "姜文",
+        "Aspect": "成长原因",
+        "Opinion": "喝牛奶",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式解释姜文的成功原因"
+    },
+    {
+        "sentence": "那他不喝牛奶成什么呀？",
+        "Holder": "3",
+        "Target": "姜文",
+        "Aspect": "成长假设",
+        "Opinion": "不喝牛奶的结果",
+        "Sentiment": "neutral",
+        "Rationale": "好奇姜文如果不喝牛奶会怎样"
+    },
+    {
+        "sentence": "成可用啊？",
+        "Holder": "2",
+        "Target": "姜文",
+        "Aspect": "成长假设",
+        "Opinion": "成为可用",
+        "Sentiment": "neutral",
+        "Rationale": "用反问的方式回答假设性问题"
+    },
+    {
+        "sentence": "那我喝牛奶那么乖，那我长得像谁啊？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "外貌和行为的相似性",
+        "Opinion": "长得像某人",
+        "Sentiment": "neutral",
+        "Rationale": "询问自己长得像谁"
+    },
+    {
+        "sentence": "呵，别抹了，你长得这么浓眉大眼，这么好看， use my 喝牛奶你就像周润发吧哈哈。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "外貌",
+        "Opinion": "长得像周润发",
+        "Sentiment": "positive",
+        "Rationale": "夸奖对方长得好看，并开玩笑说像周润发"
+    },
+    {
+        "sentence": "就他还周润发，他顶多是个正则市。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "外貌",
+        "Opinion": "不像周润发",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不像周润发，并贬低对方"
+    },
+    {
+        "sentence": "哈哈哈，您是谁。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "身份",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "询问对方的身份"
+    },
+    {
+        "sentence": "就眼肥猫呢，就这个。我才不是吗？我是。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "确认自己身份",
+        "Sentiment": "neutral",
+        "Rationale": "确认自己的身份"
+    },
+    {
+        "sentence": "喂金丝猴妈，我们这没叫金丝流星，把。",
+        "Holder": "2",
+        "Target": "金丝流星",
+        "Aspect": "是否叫了金丝流星",
+        "Opinion": "没有叫",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "牛奶给倒了。妈，什么啊？他把牛奶就容易倒水池子里了。",
+        "Holder": "1",
+        "Target": "牛奶",
+        "Aspect": "牛奶的处理方式",
+        "Opinion": "牛奶被倒了",
+        "Sentiment": "negative",
+        "Rationale": "牛奶被倒掉，可能觉得浪费或者麻烦"
+    },
+    {
+        "sentence": "刘星，我站起来。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行为要求",
+        "Opinion": "要求站起来",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地要求刘星站起来，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "妈，您惩罚我什么都成，可千万别让我喝牛奶，哼。",
+        "Holder": "3",
+        "Target": "惩罚方式",
+        "Aspect": "对惩罚的接受度",
+        "Opinion": "不接受喝牛奶的惩罚",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢喝牛奶"
+    },
+    {
+        "sentence": "妈什么都不惩罚你，谢谢，妈，就惩罚你喝牛奶，哈哈哈，那么不听话，你不喝牛奶你能补钙吗？不行，哈哈。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "对3的惩罚",
+        "Opinion": "惩罚喝牛奶",
+        "Sentiment": "positive",
+        "Rationale": "觉得3不听话，通过惩罚喝牛奶来补钙"
+    },
+    {
+        "sentence": "喝了没有？苍天油盐，救救你的子明，哈哈哈。",
+        "Holder": "3",
+        "Target": "子明",
+        "Aspect": "健康状况",
+        "Opinion": "需要救助",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式表达对子明的关心"
+    },
+    {
+        "sentence": "hahahaha",
+        "Holder": "4",
+        "Target": "3's joke",
+        "Aspect": "Humor effect",
+        "Opinion": "Funny",
+        "Sentiment": "Positive",
+        "Rationale": "Because Speaker 4 finds Speaker 3's joke humorous, so he laughs out loud, indicating a positive mood."
+    },
+    {
+        "sentence": "刘星，我先走了。",
+        "Holder": "1",
+        "Target": "None",
+        "Aspect": "Action notification",
+        "Opinion": "Neutral",
+        "Sentiment": "Neutral",
+        "Rationale": "Because it is a neutral statement of action, without emotional color."
+    },
+    {
+        "sentence": "妈妈，我走了。",
+        "Holder": "3",
+        "Target": "None",
+        "Aspect": "Action notification",
+        "Opinion": "Neutral",
+        "Sentiment": "Neutral",
+        "Rationale": "Because it is a simple statement of departure, without emotional expression."
+    },
+    {
+        "sentence": "Milk is gone?",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "Drinking milk",
+        "Opinion": "Neutral",
+        "Sentiment": "Neutral",
+        "Rationale": "Because it is a neutral inquiry about whether the other party has drunk milk."
+    },
+    {
+        "sentence": "真乖，哈哈哈，快等等我。",
+        "Holder": "3",
+        "Target": "对方的行为",
+        "Aspect": "行为的可爱程度",
+        "Opinion": "认为对方很乖",
+        "Sentiment": "positive",
+        "Rationale": "对方的行为让自己感到满意和开心"
+    },
+    {
+        "sentence": "哎哎，你等会，哈哈哈，奶喝了吗？",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "关心对方是否喝了奶",
+        "Sentiment": "positive",
+        "Rationale": "关心对方的健康和生活习惯"
+    },
+    {
+        "sentence": "早就喝了。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的完成情况",
+        "Opinion": "已经喝了奶",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地陈述事实"
+    },
+    {
+        "sentence": "那杯子里是什么呀？怎么跟流星似的，睁着眼睛说瞎话？妈，我喝了。你刚才是不是因为急着上厕所所以就。",
+        "Holder": "2",
+        "Target": "杯子里的东西",
+        "Aspect": "东西的真实性",
+        "Opinion": "怀疑杯子里的东西不是奶",
+        "Sentiment": "negative",
+        "Rationale": "发现杯子里的东西与描述不符"
+    },
+    {
+        "sentence": "忘了？妈，那真的不是我的。",
+        "Holder": "1",
+        "Target": "杯子里的东西",
+        "Aspect": "东西的归属",
+        "Opinion": "杯子里的东西不是自己的",
+        "Sentiment": "neutral",
+        "Rationale": "只是澄清事实"
+    },
+    {
+        "sentence": "娜娜是谁的？",
+        "Holder": "2",
+        "Target": "娜娜的归属",
+        "Aspect": "所有权",
+        "Opinion": "询问归属",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在询问娜娜的归属"
+    },
+    {
+        "sentence": "准确的说嘛，那是奶牛的。",
+        "Holder": "1",
+        "Target": "娜娜的归属",
+        "Aspect": "归属说明",
+        "Opinion": "属于奶牛",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在解释娜娜的归属是奶牛"
+    },
+    {
+        "sentence": "去奶牛的奶倒在杯子里就应该是你的，准确的说给我喝了。",
+        "Holder": "2",
+        "Target": "牛奶的归属",
+        "Aspect": "使用权",
+        "Opinion": "应该给我喝",
+        "Sentiment": "positive",
+        "Rationale": "说话人2认为牛奶应该给他喝"
+    },
+    {
+        "sentence": "这真的不是我的，你不信摸摸我肚子。",
+        "Holder": "1",
+        "Target": "牛奶的归属",
+        "Aspect": "真实性",
+        "Opinion": "否认拥有",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在否认牛奶是自己的"
+    },
+    {
+        "sentence": "嗯，确实瘪着，里面没有牛奶喝。哈哈哈，快了，真乖真乖。",
+        "Holder": "2",
+        "Target": "说话人1的肚子",
+        "Aspect": "状态描述",
+        "Opinion": "确认没有牛奶",
+        "Sentiment": "positive",
+        "Rationale": "说话人2确认了对方没有牛奶，并且用幽默的方式表达"
+    },
+    {
+        "sentence": "我先走了嚯。对一切。",
+        "Holder": "1",
+        "Target": "离开",
+        "Aspect": "离开的态度",
+        "Opinion": "决定离开",
+        "Sentiment": "neutral",
+        "Rationale": "决定离开"
+    },
+    {
+        "sentence": "呵呵，拜拜，慢点。",
+        "Holder": "2",
+        "Target": "1的离开",
+        "Aspect": "告别的方式",
+        "Opinion": "友好告别",
+        "Sentiment": "positive",
+        "Rationale": "对1的离开表示友好"
+    },
+    {
+        "sentence": "小雨回来了。今天怎么放心那么晚诶。哎，回来就吃东西。怎么啦？不高兴啦？哈哈哈，被人欺负了哦。那让我猜一猜。一定是没写出作业被老师批了，哈哈哈。嗯，不是。那过来跟爸爸说说。怎么了啊？",
+        "Holder": "4",
+        "Target": "小雨的状态",
+        "Aspect": "情绪和行为",
+        "Opinion": "关心和猜测",
+        "Sentiment": "positive",
+        "Rationale": "关心小雨的情绪和行为"
+    },
+    {
+        "sentence": "我尿裤子了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "意外情况",
+        "Opinion": "尿裤子的事实",
+        "Sentiment": "negative",
+        "Rationale": "发生了尿裤子这种尴尬的事情"
+    },
+    {
+        "sentence": "哈哈哈，我看看。唉呦，宝贝这么大怎么会尿裤子？",
+        "Holder": "4",
+        "Target": "1的尿裤子",
+        "Aspect": "意外情况的处理",
+        "Opinion": "惊讶和关心",
+        "Sentiment": "positive",
+        "Rationale": "对1尿裤子感到意外但仍然关心"
+    },
+    {
+        "sentence": "今天我妈非让我多喝半杯牛奶，上课老想，可是快到厕所门口的时候尿裤子了，哼哼。",
+        "Holder": "1",
+        "Target": "妈妈的要求",
+        "Aspect": "喝牛奶的量",
+        "Opinion": "喝多了导致尿裤子",
+        "Sentiment": "negative",
+        "Rationale": "妈妈要求多喝牛奶导致尿裤子"
+    },
+    {
+        "sentence": "真的啊。那你就穿着尿湿的裤子待了一天。",
+        "Holder": "4",
+        "Target": "1的情况",
+        "Aspect": "穿着尿湿的裤子",
+        "Opinion": "穿了尿湿的裤子一整天",
+        "Sentiment": "neutral",
+        "Rationale": "确认1的情况"
+    },
+    {
+        "sentence": "男子汉总不能光你屁股吧？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "穿着状态",
+        "Opinion": "不能光屁股",
+        "Sentiment": "neutral",
+        "Rationale": "认为男子汉不能光屁股"
+    },
+    {
+        "sentence": "对，可是男子汉也不能穿着尿湿的裤子。来，爸爸给你换下来。哈哈哈，湿裤子换了。",
+        "Holder": "4",
+        "Target": "1的情况",
+        "Aspect": "穿着尿湿的裤子",
+        "Opinion": "需要换掉尿湿的裤子",
+        "Sentiment": "positive",
+        "Rationale": "解决了1的尴尬情况"
+    },
+    {
+        "sentence": "别损坏了，不留了。怎么有人快了，憋不住了。",
+        "Holder": "3",
+        "Target": "1的情况",
+        "Aspect": "尿裤子的原因",
+        "Opinion": "憋不住导致尿裤子",
+        "Sentiment": "neutral",
+        "Rationale": "解释1尿裤子的原因"
+    },
+    {
+        "sentence": "量好多了。",
+        "Holder": "4",
+        "Target": "量",
+        "Aspect": "量的多少",
+        "Opinion": "量变好了",
+        "Sentiment": "positive",
+        "Rationale": "量比之前多了"
+    },
+    {
+        "sentence": "诶，怎么俩人一块上。",
+        "Holder": "3",
+        "Target": "俩人一块上",
+        "Aspect": "行动的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白为什么两个人一起行动"
+    },
+    {
+        "sentence": "有你什么事？上你的去吧。诶，对，小雨那半杯牛奶真不是你的。",
+        "Holder": "4",
+        "Target": "3的干涉",
+        "Aspect": "干涉的合理性",
+        "Opinion": "不关你的事",
+        "Sentiment": "negative",
+        "Rationale": "觉得3不应该干涉自己的事情"
+    },
+    {
+        "sentence": "是大半杯。",
+        "Holder": "1",
+        "Target": "牛奶的量",
+        "Aspect": "量的描述",
+        "Opinion": "大半杯",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观描述牛奶的量"
+    },
+    {
+        "sentence": "大半杯牛奶都不是你的。",
+        "Holder": "4",
+        "Target": "牛奶的所有权",
+        "Aspect": "所有权的归属",
+        "Opinion": "不是你的",
+        "Sentiment": "negative",
+        "Rationale": "强调牛奶不属于3"
+    },
+    {
+        "sentence": "要是我的我怎么会撑到尿裤子呢？哦哦，看了大。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "尿裤子的原因",
+        "Opinion": "否认是自己尿裤子",
+        "Sentiment": "negative",
+        "Rationale": "被误解为尿裤子感到委屈"
+    },
+    {
+        "sentence": "新闻，南加了小雨尿裤子了，我说卫生间怎么那么骚呢？哈哈哈，过来。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "尿裤子事件",
+        "Opinion": "调侃小雨尿裤子",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雨尿裤子的事情好笑"
+    },
+    {
+        "sentence": "我告诉你，刘星从现在开始小雨尿裤的时候不许再提，听见没有？",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "提及尿裤子事件的行为",
+        "Opinion": "禁止再提尿裤子事件",
+        "Sentiment": "negative",
+        "Rationale": "觉得提及尿裤子事件会让小雨难堪"
+    },
+    {
+        "sentence": "哈哈哈，对，不能再提了，得给人小雨留点面子，对吧？",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "面子问题",
+        "Opinion": "同意不再提尿裤子事件",
+        "Sentiment": "positive",
+        "Rationale": "认同要给小雨留面子"
+    },
+    {
+        "sentence": "我不要面子，我要搞清楚我杯子里怎么又冒出来半杯牛奶？不是大半杯，是小半杯，是。",
+        "Holder": "1",
+        "Target": "杯子里的牛奶",
+        "Aspect": "牛奶的来源",
+        "Opinion": "困惑于牛奶的来源",
+        "Sentiment": "negative",
+        "Rationale": "不明白牛奶怎么出现的感到困惑"
+    },
+    {
+        "sentence": "大半杯，绝对是小半杯。",
+        "Holder": "3",
+        "Target": "牛奶的量",
+        "Aspect": "量的判断",
+        "Opinion": "认为是小半杯",
+        "Sentiment": "neutral",
+        "Rationale": "对牛奶的量进行猜测"
+    },
+    {
+        "sentence": "你怎么会知道的？",
+        "Holder": "1",
+        "Target": "3的判断",
+        "Aspect": "判断的依据",
+        "Opinion": "质疑3的判断",
+        "Sentiment": "neutral",
+        "Rationale": "好奇3是如何知道牛奶的量"
+    },
+    {
+        "sentence": "哦，吃，我怎么会吃了，我瞎猜的呗，嘿嘿。哈哈哈，刘星。",
+        "Holder": "3",
+        "Target": "自己的判断",
+        "Aspect": "判断的真实性",
+        "Opinion": "承认是瞎猜",
+        "Sentiment": "positive",
+        "Rationale": "轻松地承认自己的猜测"
+    },
+    {
+        "sentence": "说实话，哼，那牛奶是不是你给我倒的？不是就不是。爸。嗯，牛奶是刘星给我倒的，是吗？是。",
+        "Holder": "1",
+        "Target": "牛奶的倒放者",
+        "Aspect": "倒放者的身份",
+        "Opinion": "确认是刘星倒的",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认牛奶的倒放者"
+    },
+    {
+        "sentence": "好，去给爸爸倒杯水，快去。嗯，刘星，过来给我孩子说，站起来。哦，我问你弟弟，杯子里牛奶是你倒的吗？",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "倒水的任务",
+        "Opinion": "要求刘星倒水",
+        "Sentiment": "neutral",
+        "Rationale": "需要刘星去倒水"
+    },
+    {
+        "sentence": "管呀，这事还用管吗？事情不都已经清楚了吗？是吧？刘星诶？",
+        "Holder": "4",
+        "Target": "事情的处理",
+        "Aspect": "事情的明确性",
+        "Opinion": "事情已经清楚",
+        "Sentiment": "positive",
+        "Rationale": "认为事情已经明确且不需要再管"
+    },
+    {
+        "sentence": "爸，嗯？您说什么清？",
+        "Holder": "3",
+        "Target": "4的话",
+        "Aspect": "话语的理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对父亲的话感到困惑"
+    },
+    {
+        "sentence": "你说呢？难道你是准备铁齿铜牙死不承认是吗？",
+        "Holder": "4",
+        "Target": "3的态度",
+        "Aspect": "承认与否",
+        "Opinion": "怀疑不承认",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方不愿意承认事实"
+    },
+    {
+        "sentence": "这不都您教我的吗？",
+        "Holder": "3",
+        "Target": "4的教育",
+        "Aspect": "教育内容",
+        "Opinion": "是父亲教的",
+        "Sentiment": "neutral",
+        "Rationale": "认为父亲之前教过自己这样做"
+    },
+    {
+        "sentence": "哈哈哈，我教你死不承认啦。这。",
+        "Holder": "4",
+        "Target": "3的回答",
+        "Aspect": "回答的合理性",
+        "Opinion": "否认教育内容",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方的回答有趣且不认同"
+    },
+    {
+        "sentence": "不是您说的嘛，做了错事要勇于承认。对啊，做了好事就不要声张。",
+        "Holder": "3",
+        "Target": "勇于承认错误和低调做好事的原则",
+        "Aspect": "行为准则",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "认同对方提出的勇于承认错误和低调做好事的原则"
+    },
+    {
+        "sentence": "那你的意思是给弟弟杯子里倒牛奶？这还是做了好事了？对。",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为给弟弟倒牛奶不算什么好事"
+    },
+    {
+        "sentence": "啊，这不明摆着。",
+        "Holder": "3",
+        "Target": "事实的明显性",
+        "Aspect": "事实的明显性",
+        "Opinion": "事实明显",
+        "Sentiment": "neutral",
+        "Rationale": "认为事实很明显"
+    },
+    {
+        "sentence": "嘛。明摆什么呀？你就在这瞎狡辩吧。",
+        "Holder": "4",
+        "Target": "3的辩解",
+        "Aspect": "辩解的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为3的辩解不合理"
+    },
+    {
+        "sentence": "是不眼睛教我的吗？",
+        "Holder": "3",
+        "Target": "4的质疑",
+        "Aspect": "质疑的合理性",
+        "Opinion": "反问",
+        "Sentiment": "negative",
+        "Rationale": "对4的质疑感到不满"
+    },
+    {
+        "sentence": "我什么时候教你给弟弟杯子里倒牛奶了？",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "教倒牛奶的时间",
+        "Opinion": "没有教过",
+        "Sentiment": "negative",
+        "Rationale": "觉得3的行为没有得到自己的教导"
+    },
+    {
+        "sentence": "你还记得吗？你给我讲过孔融让梨的事，忘了就说吧。从前有那么一小伙子，这叫孔融。",
+        "Holder": "3",
+        "Target": "4的记忆",
+        "Aspect": "孔融让梨的故事",
+        "Opinion": "4讲过这个故事",
+        "Sentiment": "neutral",
+        "Rationale": "提到4曾经讲过孔融让梨的故事"
+    },
+    {
+        "sentence": "行。得了，打字孔融让梨跟这是两码事啊。",
+        "Holder": "4",
+        "Target": "3的类比",
+        "Aspect": "孔融让梨与倒牛奶的关联",
+        "Opinion": "两者无关",
+        "Sentiment": "negative",
+        "Rationale": "觉得3将孔融让梨和倒牛奶混为一谈"
+    },
+    {
+        "sentence": "那就说说您小时候的事。行，嗯，您说您小时候家里很穷，还经常揭不开锅。没错没错，哈哈哈，还只能熬点粥喝，还经常吃不饱。没错没错，往下说，为了弟弟不挨饿，还经常省下半碗粥倒在弟弟的碗里。没错没错，所以我就省下半杯奶倒在弟弟的杯子里。没错没错没错，这不就结了吗？还又数什么呀？哈哈哈，错了。",
+        "Holder": "3",
+        "Target": "4的质疑",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为有依据",
+        "Sentiment": "positive",
+        "Rationale": "通过类比4小时候的行为来解释自己倒牛奶的行为"
+    },
+    {
+        "sentence": "刘星，你给我回来，哈哈哈哈。",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "行为的反应",
+        "Opinion": "要求3回来",
+        "Sentiment": "positive",
+        "Rationale": "对3的解释感到好笑"
+    },
+    {
+        "sentence": "刘星，7点了，你踢球要晚了，快点。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "时间管理",
+        "Opinion": "需要抓紧时间",
+        "Sentiment": "neutral",
+        "Rationale": "担心刘星会迟到踢球"
+    },
+    {
+        "sentence": "哈哈哈哈哈哈哈哈哈，那我走了干啥？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行动目的",
+        "Opinion": "不清楚该做什么",
+        "Sentiment": "positive",
+        "Rationale": "对突然的提醒感到好笑"
+    },
+    {
+        "sentence": "hahaha。哎呦妈，快来呀。有人往我心里倒牛奶，什么。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "心理感受",
+        "Opinion": "感到奇怪",
+        "Sentiment": "positive",
+        "Rationale": "觉得有人往心里倒牛奶这个说法很搞笑"
+    },
+    {
+        "sentence": "都吃了。哎呦我的妈呀，这肯定是小雨干的。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "行为",
+        "Opinion": "认为是小雨做的",
+        "Sentiment": "neutral",
+        "Rationale": "发现了一些迹象"
+    },
+    {
+        "sentence": "你快弄干了吧。我快来不及了，今天那比赛特重要，我还是主力前锋呢。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "时间紧迫",
+        "Opinion": "需要抓紧时间",
+        "Sentiment": "negative",
+        "Rationale": "比赛很重要且自己是主力前锋"
+    },
+    {
+        "sentence": "行行行，我知道了，这不正给你想办法的吗？要不妈再带你买一双。",
+        "Holder": "2",
+        "Target": "3的需求",
+        "Aspect": "解决问题的态度",
+        "Opinion": "正在想办法",
+        "Sentiment": "positive",
+        "Rationale": "正在积极为对方解决问题并提出解决方案"
+    },
+    {
+        "sentence": "去吧。我直说来不及了吗？",
+        "Holder": "3",
+        "Target": "2的回应",
+        "Aspect": "回应的及时性",
+        "Opinion": "认为回应不及时",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方回应不够及时"
+    },
+    {
+        "sentence": "嘿，那谁让你上次把牛奶都倒他杯子里去的，就害他直尿裤子，他可不是得报复。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "认为3的行为导致报复",
+        "Sentiment": "negative",
+        "Rationale": "3之前的行为导致了不好的后果"
+    },
+    {
+        "sentence": "吗？他那也不能把牛奶倒我鞋里。",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为4的行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的报复行为过分且不合理"
+    },
+    {
+        "sentence": "拿了，一大早就嚷嚷。",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "行为的扰民性",
+        "Opinion": "认为3的行为扰民",
+        "Sentiment": "negative",
+        "Rationale": "3一大早就嚷嚷"
+    },
+    {
+        "sentence": "这一股牛奶味嘿。",
+        "Holder": "3",
+        "Target": "牛奶味",
+        "Aspect": "气味的感知",
+        "Opinion": "注意到牛奶味",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地描述闻到的气味"
+    },
+    {
+        "sentence": "牛奶味怎么啦？正好盖您的臭脚味。",
+        "Holder": "2",
+        "Target": "3的脚味",
+        "Aspect": "气味的对比",
+        "Opinion": "牛奶味掩盖臭脚味",
+        "Sentiment": "positive",
+        "Rationale": "牛奶味能够掩盖不愉快的脚味"
+    },
+    {
+        "sentence": "秀啊，哈哈哈。哎，你听说过贝克汉姆那足球鞋吗？",
+        "Holder": "4",
+        "Target": "2的幽默",
+        "Aspect": "幽默效果",
+        "Opinion": "觉得幽默",
+        "Sentiment": "positive",
+        "Rationale": "2的回应幽默风趣"
+    },
+    {
+        "sentence": "知道白色。",
+        "Holder": "3",
+        "Target": "贝克汉姆的足球鞋",
+        "Aspect": "颜色",
+        "Opinion": "知道是白色",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地陈述已知事实"
+    },
+    {
+        "sentence": "的。你知道为什么是白色的吗？",
+        "Holder": "4",
+        "Target": "贝克汉姆的足球鞋",
+        "Aspect": "颜色原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个问题"
+    },
+    {
+        "sentence": "呵，你不会说是拿牛奶泡的吧？脚报上。",
+        "Holder": "2",
+        "Target": "4的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的言论不合理"
+    },
+    {
+        "sentence": "是这么香。",
+        "Holder": "4",
+        "Target": "牛奶泡脚的说法",
+        "Aspect": "说法的幽默性",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的说法有趣"
+    },
+    {
+        "sentence": "呵呵，你爸还真有想象力。他的想象力不如我。",
+        "Holder": "2",
+        "Target": "4的爸爸",
+        "Aspect": "想象力",
+        "Opinion": "认为自己的想象力更强",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己的想象力比4的爸爸强"
+    },
+    {
+        "sentence": "嗯，你应该直接说这鞋就是奶牛胜。",
+        "Holder": "3",
+        "Target": "2的言论",
+        "Aspect": "言论的幽默性",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的言论幽默"
+    },
+    {
+        "sentence": "的，哈哈。行，虎腹无圈子啊。哈哈哈，我告诉你，这踢球一半靠平视训练，一半就要靠临场发挥，还有这个想象力，到时候你就把自己想象成贝克哈姆，该过人过人该。",
+        "Holder": "4",
+        "Target": "踢球的技巧",
+        "Aspect": "技巧的多样性",
+        "Opinion": "强调想象力的重要性",
+        "Sentiment": "positive",
+        "Rationale": "认为踢球不仅靠训练和发挥，还需要想象力"
+    },
+    {
+        "sentence": "往哪？行了？行了行了，还贝壳汉姆呢，瞧他那德行，快走吧，来不及。",
+        "Holder": "2",
+        "Target": "贝壳汉姆",
+        "Aspect": "行为表现",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对贝壳汉姆的行为表现感到不满"
+    },
+    {
+        "sentence": "了诶。嗯，多进几个球回来诶。",
+        "Holder": "4",
+        "Target": "比赛表现",
+        "Aspect": "进球数量",
+        "Opinion": "期望多进球",
+        "Sentiment": "positive",
+        "Rationale": "对比赛有积极期望"
+    },
+    {
+        "sentence": "哈哈哈哈哈哈，妈妈您回来啦。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "回家",
+        "Opinion": "高兴",
+        "Sentiment": "positive",
+        "Rationale": "看到妈妈回来感到开心"
+    },
+    {
+        "sentence": "哎呦，你这孩子怎么吓我一跳啊？我是回来了吗？还没回来呢。",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "突然出现",
+        "Opinion": "被吓到",
+        "Sentiment": "negative",
+        "Rationale": "被1突然出现吓到"
+    },
+    {
+        "sentence": "拿走拿走。",
+        "Holder": "1",
+        "Target": "某物",
+        "Aspect": "处理方式",
+        "Opinion": "要求拿走",
+        "Sentiment": "neutral",
+        "Rationale": "需要将某物拿走"
+    },
+    {
+        "sentence": "哈哈哈，怎么了你们俩？你找他干嘛呀？",
+        "Holder": "5",
+        "Target": "1和3",
+        "Aspect": "行为",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "看到1和3的行为感到好奇"
+    },
+    {
+        "sentence": "你得救救我。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "求助",
+        "Opinion": "需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "遇到困难需要5的帮助"
+    },
+    {
+        "sentence": "跟姥姥说。怎么了你们俩，您说啊？嗯，我怕是休息。哎呀，你说你这孩子啊，你那牛奶往哪倒？不行，你偏倒他足球鞋里头。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "1将牛奶倒到足球鞋里"
+    },
+    {
+        "sentence": "舌头上，先把牛奶倒到我杯子。",
+        "Holder": "1",
+        "Target": "牛奶",
+        "Aspect": "处理方式",
+        "Opinion": "倒入杯子",
+        "Sentiment": "neutral",
+        "Rationale": "需要正确处理牛奶"
+    },
+    {
+        "sentence": "里头。",
+        "Holder": "3",
+        "Target": "牛奶",
+        "Aspect": "倒入位置",
+        "Opinion": "鞋里",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单陈述事实"
+    },
+    {
+        "sentence": "那你就跟他学呀。",
+        "Holder": "5",
+        "Target": "1的学习行为",
+        "Aspect": "学习的选择",
+        "Opinion": "建议跟随他人学习",
+        "Sentiment": "neutral",
+        "Rationale": "建议1跟随他人学习"
+    },
+    {
+        "sentence": "他大我才跟他学。这么跟。",
+        "Holder": "1",
+        "Target": "学习对象的条件",
+        "Aspect": "学习的条件",
+        "Opinion": "对方比自己大才学习",
+        "Sentiment": "neutral",
+        "Rationale": "表达了自己学习的条件"
+    },
+    {
+        "sentence": "老子说话是吧？我也不管了，哈哈哈。",
+        "Holder": "5",
+        "Target": "自己的态度",
+        "Aspect": "对事情的干预",
+        "Opinion": "不再管这件事",
+        "Sentiment": "positive",
+        "Rationale": "决定不再干预这件事"
+    },
+    {
+        "sentence": "妈，您不能见死不救啊。",
+        "Holder": "1",
+        "Target": "5的帮助",
+        "Aspect": "求助的紧迫性",
+        "Opinion": "需要紧急帮助",
+        "Sentiment": "negative",
+        "Rationale": "感到自己处于困境需要帮助"
+    },
+    {
+        "sentence": "哈哈哈，小雨，我可跟你说，刘星今天这球要是赢了，你这事还好办，你要是输了，老了都不知道怎么办？",
+        "Holder": "5",
+        "Target": "1的情况",
+        "Aspect": "事情的结果",
+        "Opinion": "结果取决于刘星的比赛",
+        "Sentiment": "ambiguous",
+        "Rationale": "事情的结果不确定且取决于他人"
+    },
+    {
+        "sentence": "那该怎么办啊？他可练过台琴，那玩意打我怎么办啊？",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "对方的威胁",
+        "Opinion": "担心被对方打",
+        "Sentiment": "negative",
+        "Rationale": "对方练过台琴，可能会对自己造成伤害"
+    },
+    {
+        "sentence": "哈哈哈，听姥姥话。不听，先上姥姥屋待着去啊。嗯，把那作业写完了，不叫你，不许出来嗯。嗯，去吧，姥姥跟他说。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "要求1完成作业并待在屋里",
+        "Sentiment": "positive",
+        "Rationale": "姥姥希望1能安心完成作业并避免可能的冲突"
+    },
+    {
+        "sentence": "小雨。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "称呼",
+        "Opinion": "叫小雨",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地叫了一声小雨，没有表达出明显的情感"
+    },
+    {
+        "sentence": "Dạ, trời ơi, tôi ước là lớn nhất là là nói là họ。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "愿望",
+        "Opinion": "希望自己能最大",
+        "Sentiment": "ambiguous",
+        "Rationale": "使用了越南语表达，且情感不明确"
+    },
+    {
+        "sentence": "你找小雨什么事？",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "找小雨的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问3找小雨的原因，没有表达出明显的情感"
+    },
+    {
+        "sentence": "我今天呢？就想知道你是赢了还是输了？",
+        "Holder": "5",
+        "Target": "3的比赛结果",
+        "Aspect": "比赛胜负",
+        "Opinion": "好奇结果",
+        "Sentiment": "neutral",
+        "Rationale": "想知道对方比赛结果"
+    },
+    {
+        "sentence": "哈哈哈，这跟我找小雨有什么关系啊？小雨。",
+        "Holder": "3",
+        "Target": "与小雨的关系",
+        "Aspect": "相关性",
+        "Opinion": "无关",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方的问题与找小雨无关"
+    },
+    {
+        "sentence": "当然有关系。",
+        "Holder": "5",
+        "Target": "与小雨的关系",
+        "Aspect": "相关性",
+        "Opinion": "有关",
+        "Sentiment": "neutral",
+        "Rationale": "坚持认为比赛结果与找小雨有关"
+    },
+    {
+        "sentence": "得告诉你吴本玲，哎哎。",
+        "Holder": "3",
+        "Target": "吴本玲",
+        "Aspect": "告知情况",
+        "Opinion": "需要告知",
+        "Sentiment": "neutral",
+        "Rationale": "需要告知吴本玲相关情况"
+    },
+    {
+        "sentence": "5: 0 是什么意思啊？你是 5: 0 赢了，你还是 0: 5，哈哈哈，输了嗯。",
+        "Holder": "5",
+        "Target": "3的比赛结果",
+        "Aspect": "比分解释",
+        "Opinion": "询问比分",
+        "Sentiment": "positive",
+        "Rationale": "对比赛结果好奇"
+    },
+    {
+        "sentence": "哎呦，刘星，我跟你说小雨这孩子他年纪小不懂事。",
+        "Holder": "5",
+        "Target": "小雨",
+        "Aspect": "年纪与行为",
+        "Opinion": "年纪小不懂事",
+        "Sentiment": "neutral",
+        "Rationale": "认为小雨年纪小不懂事"
+    },
+    {
+        "sentence": "您跟我说这干嘛呀？我就是问您，小雨他回来没有？",
+        "Holder": "3",
+        "Target": "小雨的行踪",
+        "Aspect": "询问的合理性",
+        "Opinion": "想知道小雨是否回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地询问小雨是否回来"
+    },
+    {
+        "sentence": "没有，哈哈哈，还没回来。",
+        "Holder": "5",
+        "Target": "小雨的行踪",
+        "Aspect": "小雨是否回来",
+        "Opinion": "小雨还没回来",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雨还没回来这件事有些好笑"
+    },
+    {
+        "sentence": "肯定是在二胖家，我这就找他去。刘星。",
+        "Holder": "3",
+        "Target": "小雨的行踪",
+        "Aspect": "小雨可能的位置",
+        "Opinion": "小雨在二胖家",
+        "Sentiment": "neutral",
+        "Rationale": "推测小雨可能在二胖家"
+    },
+    {
+        "sentence": "找过去，秋雨这一回可惹祸喽。哈哈哈，小雨。哎小雨啊，快出来吧。哎呦，可了不得喽，快来，这下可麻烦喽。",
+        "Holder": "5",
+        "Target": "秋雨的行为",
+        "Aspect": "秋雨是否惹祸",
+        "Opinion": "秋雨惹了麻烦",
+        "Sentiment": "positive",
+        "Rationale": "觉得秋雨惹祸这件事有些好笑"
+    },
+    {
+        "sentence": "我都听见了，他输了。",
+        "Holder": "1",
+        "Target": "秋雨的情况",
+        "Aspect": "秋雨的比赛结果",
+        "Opinion": "秋雨输了",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述听到的结果"
+    },
+    {
+        "sentence": "输的可惨了， 5: 0 啊。",
+        "Holder": "5",
+        "Target": "比赛结果",
+        "Aspect": "输赢情况",
+        "Opinion": "输得很惨",
+        "Sentiment": "negative",
+        "Rationale": "比赛结果是5:0"
+    },
+    {
+        "sentence": "哈哈哈，借我模糊那大沙袋啊，流星打他吃晃悠。这模糊比那沙袋轻多了。哈哈哈好啊。姥姥保护你。你能保护我？嗯同学们都说，嗯，流星比泰森还厉害，能。",
+        "Holder": "1",
+        "Target": "流星",
+        "Aspect": "实力对比",
+        "Opinion": "流星比泰森厉害",
+        "Sentiment": "positive",
+        "Rationale": "同学们都说流星比泰森还厉害"
+    },
+    {
+        "sentence": "就那个打拳击的泰森。嗯，钻眼耳朵的那个，哈哈哈，流星还得有他厉害。流星。",
+        "Holder": "5",
+        "Target": "流星",
+        "Aspect": "实力对比",
+        "Opinion": "流星比泰森厉害",
+        "Sentiment": "positive",
+        "Rationale": "认为流星比泰森还厉害"
+    },
+    {
+        "sentence": "跟别人打架，别人的鼻子啊。",
+        "Holder": "1",
+        "Target": "打架",
+        "Aspect": "打架后果",
+        "Opinion": "担心鼻子受伤",
+        "Sentiment": "neutral",
+        "Rationale": "提到打架时担心鼻子受伤"
+    },
+    {
+        "sentence": "那咱也不怕，他还敢咬姥姥鼻子呀。嗯，你就跟姥姥这屋待着，我去找你爸妈商量去，哈哈哈。",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "对方的威胁",
+        "Opinion": "不怕对方的威胁",
+        "Sentiment": "positive",
+        "Rationale": "认为对方不敢咬姥姥鼻子"
+    },
+    {
+        "sentence": "嗯，你这样救我。",
+        "Holder": "1",
+        "Target": "5的救援方式",
+        "Aspect": "救援方法",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "5采取了有效的救援方式"
+    },
+    {
+        "sentence": "行啊，听话，就在这待着别动啊。",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "听从指示",
+        "Opinion": "要求听话",
+        "Sentiment": "neutral",
+        "Rationale": "需要1保持不动以确保安全"
+    },
+    {
+        "sentence": "有你们这么当爹妈的吗啊？眼看这俩孩子都快打起来了，你们还跟没事人似的。",
+        "Holder": "5",
+        "Target": "孩子的父母",
+        "Aspect": "父母的责任",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "看到孩子快要打起来而父母却无动于衷"
+    },
+    {
+        "sentence": "哈哈哈，没什么事，妈，妈妈。",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "事态严重性",
+        "Opinion": "不严重",
+        "Sentiment": "positive",
+        "Rationale": "认为当前情况并不严重"
+    },
+    {
+        "sentence": "您别挨着裹乱，行不行？哈哈哈，这您又不是不了解刘星，您见过他打人吗？就是就是，您这可不像亲，老了。就是。",
+        "Holder": "2",
+        "Target": "5的担忧",
+        "Aspect": "对刘星的认识",
+        "Opinion": "不必要担忧",
+        "Sentiment": "positive",
+        "Rationale": "认为5对刘星的担忧是多余的"
+    },
+    {
+        "sentence": "就是啊，哈哈哈，不是，我不是那个意思哦。",
+        "Holder": "4",
+        "Target": "自己的意图",
+        "Aspect": "意图的澄清",
+        "Opinion": "澄清误解",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清自己的意图"
+    },
+    {
+        "sentence": "我不是亲姥姥，我多管闲事，是不是啊？我走我走哈，有人的，不过我可告诉你，你可得给我保护好小雨，你要是不拿她当亲儿子，你就不是我闺女。",
+        "Holder": "5",
+        "Target": "自己的身份和责任",
+        "Aspect": "身份的认同和责任的强调",
+        "Opinion": "强调保护小雨的责任",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被误解为多管闲事"
+    },
+    {
+        "sentence": "哎呦，妈，您不是还有事吗？赶紧忙您的事去吧。您走吧。",
+        "Holder": "2",
+        "Target": "5的忙碌状态",
+        "Aspect": "忙碌的合理性",
+        "Opinion": "建议5去忙自己的事",
+        "Sentiment": "neutral",
+        "Rationale": "知道5还有其他事情要处理"
+    },
+    {
+        "sentence": "好不爱听我的，是不是我走？",
+        "Holder": "5",
+        "Target": "2的态度",
+        "Aspect": "对建议的接受度",
+        "Opinion": "感觉不被听取",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己的话不被重视"
+    },
+    {
+        "sentence": "不是哎，您是他亲姥姥。行，你。",
+        "Holder": "4",
+        "Target": "5的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "确认5的身份",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认5的身份以缓和气氛"
+    },
+    {
+        "sentence": "不是故意闭嘴。没事老在那事实是什么事？哈哈哈，说你是咱们家智囊团，给点指示我怎么办呢？要不我找流星谈谈去？不至于。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "解决问题的建议",
+        "Opinion": "寻求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "不知道如何处理问题"
+    },
+    {
+        "sentence": "哈哈哈，小孩子的问题让他自己解决吧。",
+        "Holder": "4",
+        "Target": "小孩子的问题",
+        "Aspect": "问题解决方式",
+        "Opinion": "让孩子自己解决",
+        "Sentiment": "positive",
+        "Rationale": "认为孩子应该学会自己解决问题"
+    },
+    {
+        "sentence": "自己解决。真打起来怎么办呢？",
+        "Holder": "2",
+        "Target": "小孩子的问题",
+        "Aspect": "问题严重性",
+        "Opinion": "担心打起来",
+        "Sentiment": "doubt",
+        "Rationale": "担心孩子自己解决问题会引发冲突"
+    },
+    {
+        "sentence": "哈哈哈，这想应该不会吧，再也说了。嗯，他们现在年龄还小，将来早晚得有问题自己去解决，要不然的话将来一遇到问题就来找你，能行吗？哈哈哈，没有事儿，小马儿。",
+        "Holder": "4",
+        "Target": "小孩子的问题",
+        "Aspect": "问题解决能力培养",
+        "Opinion": "孩子需要学会独立解决",
+        "Sentiment": "positive",
+        "Rationale": "认为孩子需要培养独立解决问题的能力"
+    },
+    {
+        "sentence": "小雨。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "称呼",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地称呼一个人名"
+    },
+    {
+        "sentence": "小明星找小雨干嘛？",
+        "Holder": "4",
+        "Target": "小明星找小雨的原因",
+        "Aspect": "行为动机",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问小明星找小雨的原因"
+    },
+    {
+        "sentence": "想他了，老想。",
+        "Holder": "3",
+        "Target": "小明星",
+        "Aspect": "情感状态",
+        "Opinion": "思念",
+        "Sentiment": "positive",
+        "Rationale": "表达了对小明星的思念"
+    },
+    {
+        "sentence": "他了唉。你是想淘往你鞋里倒的那半杯牛奶吧？",
+        "Holder": "4",
+        "Target": "3的情感动机",
+        "Aspect": "行为背后的原因",
+        "Opinion": "调侃",
+        "Sentiment": "ambiguous",
+        "Rationale": "用调侃的方式猜测3的情感动机"
+    },
+    {
+        "sentence": "我是那种心胸狭窄的人吗？",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "性格特征",
+        "Opinion": "否认心胸狭窄",
+        "Sentiment": "negative",
+        "Rationale": "被质疑心胸狭窄"
+    },
+    {
+        "sentence": "让我看看，你看看。嗯，有那么一丢丢，哈哈哈。哇，好了好了，我知道你不是去吧，小雨在姥姥房间哈。",
+        "Holder": "4",
+        "Target": "3的性格",
+        "Aspect": "性格评价",
+        "Opinion": "轻微调侃但认可",
+        "Sentiment": "positive",
+        "Rationale": "虽然轻微调侃但最终认可3的性格"
+    },
+    {
+        "sentence": "嗯，小雨。诶，小雨藏在这还我找不着你。老王救命啊。怎么样，跑什么呀？救我，站住，小雨，哈哈哈，你还藏什么呀，我都看见你了，出来。哈哈哈，常言道，躲得过初一，躲不过十五。法网恢恢，疏而不漏，重新做人，回头是岸，坦白从宽，抗拒从严。哈哈哈，你还不出来是不是？我再给你最后十秒钟，我可数了，哈哈哈。 1987654 三二二点二。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "藏匿行为",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得小雨藏匿的行为很有趣"
+    },
+    {
+        "sentence": "2.2 二二点二二二二，哈哈哈。二点是你结巴2.222。",
+        "Holder": "1",
+        "Target": "3的数数方式",
+        "Aspect": "数数的趣味性",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得3数数的方式很搞笑"
+    },
+    {
+        "sentence": "我这不给你机会，灯给我出来出来。你。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "给予机会",
+        "Opinion": "希望小雨出来",
+        "Sentiment": "neutral",
+        "Rationale": "希望小雨能出来"
+    },
+    {
+        "sentence": "两个政策还不行吗？",
+        "Holder": "1",
+        "Target": "3的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "觉得已经足够",
+        "Sentiment": "neutral",
+        "Rationale": "觉得已经提出了两个政策"
+    },
+    {
+        "sentence": "小雨同志，我要感谢你，我得拥抱你一下来。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "感谢与亲近",
+        "Opinion": "表达感谢",
+        "Sentiment": "positive",
+        "Rationale": "对小雨的行为表示感谢"
+    },
+    {
+        "sentence": "哈哈哈，对不起，我不应该把牛奶倒在你球鞋里。",
+        "Holder": "1",
+        "Target": "倒牛奶的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不应该",
+        "Sentiment": "positive",
+        "Rationale": "意识到自己的行为不当并主动道歉"
+    },
+    {
+        "sentence": "跟你说倒的对，倒的好，要不是你把牛奶倒我鞋里，还没有 5: 0 呢。",
+        "Holder": "3",
+        "Target": "倒牛奶的行为",
+        "Aspect": "行为的结果",
+        "Opinion": "倒得好",
+        "Sentiment": "positive",
+        "Rationale": "认为倒牛奶的行为间接导致了比赛的胜利"
+    },
+    {
+        "sentence": "哈哈，错了还不行吗？",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "认错的态度",
+        "Opinion": "认错",
+        "Sentiment": "positive",
+        "Rationale": "用轻松的语气承认错误"
+    },
+    {
+        "sentence": "瞧给你吓得，我真是想感谢你来拥抱，哈哈哈。哎哎，哥，你今天。",
+        "Holder": "3",
+        "Target": "1的反应",
+        "Aspect": "反应的夸张性",
+        "Opinion": "夸张",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的反应有些夸张"
+    },
+    {
+        "sentence": "输了，明天还能赢回来，如果你要是疯了的话，那可治。",
+        "Holder": "1",
+        "Target": "比赛结果",
+        "Aspect": "未来的可能性",
+        "Opinion": "有希望赢回来",
+        "Sentiment": "positive",
+        "Rationale": "对未来的比赛保持乐观态度"
+    },
+    {
+        "sentence": "不好了。你瞎疯什么呢？我们 5: 0 赢了。真的。那当然了，我穿上我那双奶球鞋，一上场精神焕发，就跟贝卡姆一样，哈哈哈，上去，铛铛铛，三角 3: 0，我来一帽子戏法，后来你猜怎么着？我们队 5: 0 大胜他们。我们老师说了，哼，中国足球的前程就看我的蜡呀。",
+        "Holder": "3",
+        "Target": "比赛结果",
+        "Aspect": "比赛表现",
+        "Opinion": "自己表现突出",
+        "Sentiment": "positive",
+        "Rationale": "自己在比赛中表现出色，带领队伍大胜"
+    },
+    {
+        "sentence": "哈哈哈，你说老师没吃错药吧啊？",
+        "Holder": "4",
+        "Target": "老师的话",
+        "Aspect": "话语的合理性",
+        "Opinion": "质疑老师的话",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得老师的话过于夸张，不太可信"
+    },
+    {
+        "sentence": "老师就是这么说的。",
+        "Holder": "3",
+        "Target": "老师的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "确认老师的话",
+        "Sentiment": "neutral",
+        "Rationale": "只是转述老师的话，没有加入个人情感"
+    },
+    {
+        "sentence": "哟呵，那你们老师这眼力够毒的，这得戴多大近视的隐形眼镜啊？我们。",
+        "Holder": "2",
+        "Target": "老师的话",
+        "Aspect": "话语的夸张性",
+        "Opinion": "调侃老师的话",
+        "Sentiment": "negative",
+        "Rationale": "觉得老师的话过于夸张，不切实际"
+    },
+    {
+        "sentence": "老师是这么说的。嗯，中国足球的前程就看我们这一代了。",
+        "Holder": "3",
+        "Target": "老师的话",
+        "Aspect": "话语的期望",
+        "Opinion": "认同老师的期望",
+        "Sentiment": "positive",
+        "Rationale": "认同老师对自己这一代的期望"
+    },
+    {
+        "sentence": "哈哈哈，你得给我把这一代这仨字加上，要不然看着你们老师还真有点病。没错，哈哈哈。",
+        "Holder": "2",
+        "Target": "刘星的表现",
+        "Aspect": "奖励的决定",
+        "Opinion": "同意奖励",
+        "Sentiment": "positive",
+        "Rationale": "刘星表现不错"
+    },
+    {
+        "sentence": "呵呵，给我买双星球鞋。",
+        "Holder": "3",
+        "Target": "奖励内容",
+        "Aspect": "具体奖励物品",
+        "Opinion": "希望得到星球鞋",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到具体的奖励物品"
+    },
+    {
+        "sentence": "可以，就是那种奶牛生的。",
+        "Holder": "4",
+        "Target": "星球上奖励内容",
+        "Aspect": "奖励物品的具体描述",
+        "Opinion": "同意并具体描述",
+        "Sentiment": "positive",
+        "Rationale": "同意奖励内容"
+    },
+    {
+        "sentence": "哈哈，牛奶泡的那种，就是那种，耶耶。",
+        "Holder": "3",
+        "Target": "奖励内容",
+        "Aspect": "奖励物品的具体描述",
+        "Opinion": "兴奋地确认",
+        "Sentiment": "positive",
+        "Rationale": "对奖励物品的具体描述感到满意"
+    },
+    {
+        "sentence": "另外全家每一个人每天晚上还要奖励一杯牛奶。可以，哈哈哈。唉呦什么唉呦。",
+        "Holder": "2",
+        "Target": "全家奖励",
+        "Aspect": "奖励内容的扩展",
+        "Opinion": "同意并扩展奖励",
+        "Sentiment": "positive",
+        "Rationale": "决定给予全家额外的奖励"
+    },
+    {
+        "sentence": "是不是早上那杯就给取消了？",
+        "Holder": "3",
+        "Target": "早上的牛奶",
+        "Aspect": "是否取消",
+        "Opinion": "询问是否取消",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问早上牛奶是否取消"
+    },
+    {
+        "sentence": "坚决不取消。嗯，但是可以让刘星取消，可以让他的牛奶改成豆浆，怎么样？妈妈再也不逼你。太。",
+        "Holder": "2",
+        "Target": "早上的牛奶",
+        "Aspect": "是否取消",
+        "Opinion": "不取消但可改豆浆",
+        "Sentiment": "positive",
+        "Rationale": "提出了一个折中的解决方案"
+    },
+    {
+        "sentence": "好啦，老妈你太伟大啦，我得拥抱您，我。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "提出的解决方案",
+        "Opinion": "认为妈妈伟大",
+        "Sentiment": "positive",
+        "Rationale": "妈妈提出了一个让自己满意的解决方案"
+    },
+    {
+        "sentence": "打住，谁都不许抱我的喽，我来抱",
+        "Holder": "4",
+        "Target": "拥抱行为",
+        "Aspect": "拥抱的对象",
+        "Opinion": "自己来抱",
+        "Sentiment": "positive",
+        "Rationale": "想要主动参与拥抱"
+    }
+]

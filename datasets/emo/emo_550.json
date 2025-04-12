@@ -1,0 +1,63 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "责任推卸与指控对抗",
+        "emotions": [
+          {"state": "negative", "reason": "被于曼威胁导致行为受限", "source_id": "2"},
+          {"state": "negative", "reason": "因苏诚要求提供证据而恐惧", "source_id": "3"},
+          {"state": "neutral", "reason": "提供监控备份作为关键证据", "source_id": "4"},
+          {"state": "negative", "reason": "被苏家追究法律责任", "source_id": "3,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "婚姻破裂与信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "离婚决定不可逆转", "source_id": "3"},
+          {"state": "negative", "reason": "孩子抚养权争夺压力", "source_id": "3"},
+          {"state": "negative", "reason": "被刘大强公开指控", "source_id": "1"},
+          {"state": "negative", "reason": "最终承认自身责任", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭关系与法律追责",
+        "emotions": [
+          {"state": "negative", "reason": "发现于曼伤害苏念行为", "source_id": "2"},
+          {"state": "negative", "reason": "确认监控证据真实性", "source_id": "1"},
+          {"state": "negative", "reason": "决定采取法律手段追责", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "证据链核实过程",
+        "emotions": [
+          {"state": "neutral", "reason": "初步接收案件信息", "source_id": "3"},
+          {"state": "positive", "reason": "成功获取关键监控备份", "source_id": "1"},
+          {"state": "neutral", "reason": "确认于曼主导犯罪事实", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭成员信任崩塌",
+        "emotions": [
+          {"state": "negative", "reason": "发现于曼违背承诺", "source_id": "2"},
+          {"state": "negative", "reason": "支持儿子法律追责决定", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

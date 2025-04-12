@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "哎？他们两个时间有点久啊。",
+        "Holder": "1",
+        "Target": "他们两个",
+        "Aspect": "时间",
+        "Opinion": "时间久",
+        "Sentiment": "neutral",
+        "Rationale": "观察到他们两个签字画押的时间较长"
+    },
+    {
+        "sentence": "是啊，不就签个字画个押吗？怎么那么半天还不出来？",
+        "Holder": "2",
+        "Target": "签字画押",
+        "Aspect": "时间",
+        "Opinion": "时间过长",
+        "Sentiment": "negative",
+        "Rationale": "认为签字画押是个简单的过程，但实际时间过长"
+    },
+    {
+        "sentence": "哎，我们老周这人呢仔细，在单位的时候就是，但凡让他签字的东西都得看上好几遍，确保没有法律风险，严谨。",
+        "Holder": "1",
+        "Target": "老周",
+        "Aspect": "签字习惯",
+        "Opinion": "仔细严谨",
+        "Sentiment": "positive",
+        "Rationale": "老周在签字时总是仔细检查以确保没有法律风险"
+    },
+    {
+        "sentence": "我们家芝芝工作稳定，人长得漂亮，还不要彩礼。他一大老爷们儿有什么风险？领个证就打发了，结婚跟结拜有什么区别呀？",
+        "Holder": "3",
+        "Target": "结婚",
+        "Aspect": "风险和意义",
+        "Opinion": "风险小，意义不大",
+        "Sentiment": "negative",
+        "Rationale": "认为结婚对男方来说风险小且意义不大"
+    },
+    {
+        "sentence": "财务管理上有区别啊，亲兄弟那得明算账，这俩人要是结了婚，钱就进一个人兜里了。你们算啊，婚礼在五星酒店，20桌怎么也得5万块吧，婚庆2万起，摄像再加化妆怎么也得小1万。我们单位年会200人预算才10万，那还得抽奖的呢。",
+        "Holder": "4",
+        "Target": "结婚",
+        "Aspect": "财务管理",
+        "Opinion": "财务支出大",
+        "Sentiment": "neutral",
+        "Rationale": "详细列举了结婚的各项费用，说明结婚在财务管理上的重要性"
+    },
+    {
+        "sentence": "你们男的怎么那么现实啊，这年会年年可以办，婚礼啊，一辈子只有一次。",
+        "Holder": "2",
+        "Target": "男性",
+        "Aspect": "现实性",
+        "Opinion": "男性太现实",
+        "Sentiment": "negative",
+        "Rationale": "认为男性在年会和婚礼的选择上过于现实"
+    },
+    {
+        "sentence": "那可不一定。",
+        "Holder": "1",
+        "Target": "婚礼的唯一性",
+        "Aspect": "婚礼的重要性",
+        "Opinion": "婚礼不一定只有一次",
+        "Sentiment": "neutral",
+        "Rationale": "对婚礼的唯一性持怀疑态度"
+    },
+    {
+        "sentence": "待会咱们得替芝芝宰他一顿，不能便宜了他。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "对待方式",
+        "Opinion": "要严厉对待",
+        "Sentiment": "negative",
+        "Rationale": "觉得他对芝芝不够好"
+    },
+    {
+        "sentence": "不能放过了他。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "对待方式",
+        "Opinion": "不能轻易放过",
+        "Sentiment": "negative",
+        "Rationale": "认为他需要受到惩罚"
+    },
+    {
+        "sentence": "这日本的和牛，澳洲的龙虾，法国的生蚝，咱是不是按照地图来啊？",
+        "Holder": "3",
+        "Target": "食物选择",
+        "Aspect": "食物来源的地域性",
+        "Opinion": "按照地图选择食物",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问是否按照地图选择食物"
+    },
+    {
+        "sentence": "姑娘们更狠，和牛都上了。",
+        "Holder": "1",
+        "Target": "姑娘们的选择",
+        "Aspect": "食物选择的奢侈程度",
+        "Opinion": "姑娘们选择了奢侈的食物",
+        "Sentiment": "positive",
+        "Rationale": "1提到姑娘们选择了奢侈的和牛"
+    },
+    {
+        "sentence": "我怎么有种不祥的预感呢？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "预感",
+        "Opinion": "有不祥的预感",
+        "Sentiment": "negative",
+        "Rationale": "4感到有不祥的预感"
+    },
+    {
+        "sentence": "怎么了呢？",
+        "Holder": "1",
+        "Target": "4的预感",
+        "Aspect": "预感的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问4预感的原因"
+    },
+    {
+        "sentence": "今天我去接老周的时候，下楼他就晚了10分钟，而且你猜他在车上跟我说什么吗？安全感，和谐和幸福，这些东西一旦相加，或许看似是爱情，也几乎等同于爱情。",
+        "Holder": "4",
+        "Target": "老周的话",
+        "Aspect": "老周的话题内容",
+        "Opinion": "老周谈论爱情相关的话题",
+        "Sentiment": "ambiguous",
+        "Rationale": "4提到老周谈论了关于安全感、和谐和幸福的话题，但没有明确表达自己的情感态度"
+    },
+    {
+        "sentence": "这话听着挺有道理的，有什么问题吗？这话是出自霍乱时期的爱情。你知道后边一句是什么吗？它们终究不是爱情。",
+        "Holder": "1",
+        "Target": "霍乱时期的爱情",
+        "Aspect": "话语的合理性",
+        "Opinion": "认为有道理",
+        "Sentiment": "neutral",
+        "Rationale": "1认为引用的话有道理"
+    },
+    {
+        "sentence": "周世辉！周世辉，我打死你，周世辉！",
+        "Holder": "5",
+        "Target": "周世辉",
+        "Aspect": "行为",
+        "Opinion": "极度愤怒",
+        "Sentiment": "negative",
+        "Rationale": "5对周世辉的行为感到极度不满"
+    },
+    {
+        "sentence": "怎么了，怎么了？哎哎。怎么了？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "突发状况",
+        "Opinion": "困惑不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "4不清楚发生了什么"
+    },
+    {
+        "sentence": "芝芝，芝芝，对不起，今天这婚我真的没法跟你结。",
+        "Holder": "6",
+        "Target": "婚礼",
+        "Aspect": "结婚的可能性",
+        "Opinion": "无法结婚",
+        "Sentiment": "negative",
+        "Rationale": "6无法履行结婚的承诺"
+    },
+    {
+        "sentence": "你给我起来！为什么！",
+        "Holder": "5",
+        "Target": "6的行为",
+        "Aspect": "不履行承诺",
+        "Opinion": "强烈不满",
+        "Sentiment": "negative",
+        "Rationale": "6突然宣布无法结婚，5感到极度失望和愤怒"
+    },
+    {
+        "sentence": "这婚我真结不了。",
+        "Holder": "6",
+        "Target": "婚姻",
+        "Aspect": "婚姻的可行性",
+        "Opinion": "无法结婚",
+        "Sentiment": "negative",
+        "Rationale": "认为结婚会对对方造成伤害"
+    },
+    {
+        "sentence": "怎么回事，怎么回事？",
+        "Holder": "4",
+        "Target": "6的婚姻决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "困惑不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然听到6无法结婚的消息"
+    },
+    {
+        "sentence": "你问他！",
+        "Holder": "5",
+        "Target": "6",
+        "Aspect": "解释的责任",
+        "Opinion": "应由6解释",
+        "Sentiment": "negative",
+        "Rationale": "对6的决定感到愤怒和不满"
+    },
+    {
+        "sentence": "是这样，如果我跟你结婚，就真的是把你害了。我感谢你这七年对我的宽容，对我迁就。我的终点不是你这，对不起。",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "婚姻的后果",
+        "Opinion": "会害了对方",
+        "Sentiment": "negative",
+        "Rationale": "认为自己无法给对方幸福"
+    },
+    {
+        "sentence": "那你他妈早干嘛去了？花了7年的时间，你刚刚清楚。终点现在不在我这儿是吗？不行！你今天必须得跟我去结婚，大不了明天再离，亲戚朋友都知道我今天领证！",
+        "Holder": "5",
+        "Target": "6的婚姻决定",
+        "Aspect": "决定的时机和后果",
+        "Opinion": "不满和坚持结婚",
+        "Sentiment": "negative",
+        "Rationale": "认为6的决定来得太晚且影响了面子"
+    },
+    {
+        "sentence": "去吧，不差这一下。",
+        "Holder": "1",
+        "Target": "当前行动",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "不紧迫",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前行动并不紧迫"
+    },
+    {
+        "sentence": "不行不行！",
+        "Holder": "6",
+        "Target": "当前行动",
+        "Aspect": "行动的可行性",
+        "Opinion": "不可行",
+        "Sentiment": "negative",
+        "Rationale": "认为当前行动不可行"
+    },
+    {
+        "sentence": "不是，干什么呀？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "情况的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前情况感到困惑"
+    },
+    {
+        "sentence": "快快快，快跑。",
+        "Holder": "6",
+        "Target": "当前行动",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "非常紧迫",
+        "Sentiment": "negative",
+        "Rationale": "认为当前情况非常紧急"
+    },
+    {
+        "sentence": "别动手啊。",
+        "Holder": "4",
+        "Target": "动手行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对动手",
+        "Sentiment": "negative",
+        "Rationale": "动手可能会引发冲突"
+    },
+    {
+        "sentence": "君子动口不动手。",
+        "Holder": "6",
+        "Target": "动手行为",
+        "Aspect": "行为合理性",
+        "Opinion": "支持动口",
+        "Sentiment": "positive",
+        "Rationale": "认为君子应该通过言语解决问题而不是动手"
+    },
+    {
+        "sentence": "别打，别打。",
+        "Holder": "1",
+        "Target": "打斗行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对打斗",
+        "Sentiment": "negative",
+        "Rationale": "打斗会带来伤害和混乱"
+    },
+    {
+        "sentence": "我眼镜呢，我眼镜呢？",
+        "Holder": "6",
+        "Target": "眼镜",
+        "Aspect": "物品位置",
+        "Opinion": "寻找眼镜",
+        "Sentiment": "neutral",
+        "Rationale": "找不到眼镜"
+    },
+    {
+        "sentence": "快跑，老周！",
+        "Holder": "1",
+        "Target": "老周",
+        "Aspect": "行动",
+        "Opinion": "需要快跑",
+        "Sentiment": "neutral",
+        "Rationale": "情况紧急需要迅速行动"
+    },
+    {
+        "sentence": "周世辉，你可以的！",
+        "Holder": "5",
+        "Target": "周世辉",
+        "Aspect": "能力",
+        "Opinion": "有信心",
+        "Sentiment": "positive",
+        "Rationale": "对周世辉的能力有信心"
+    },
+    {
+        "sentence": "元征，你断后！",
+        "Holder": "4",
+        "Target": "元征",
+        "Aspect": "任务分配",
+        "Opinion": "负责断后",
+        "Sentiment": "neutral",
+        "Rationale": "需要有人负责断后"
+    },
+    {
+        "sentence": "行行行。别撞，别撞，别别别。",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "安全",
+        "Opinion": "避免碰撞",
+        "Sentiment": "neutral",
+        "Rationale": "担心发生碰撞"
+    },
+    {
+        "sentence": "周世辉，你说你干的这叫什么事儿？你赔我啊。",
+        "Holder": "4",
+        "Target": "周世辉",
+        "Aspect": "行为后果",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "周世辉的行为造成了不良后果"
+    },
+    {
+        "sentence": "这结婚就跟蹦极一样，一咬牙一闭眼也就下去了。等你再一睁眼发现，没死，这种劫后余生的感觉就跟再活一遍似的，多值啊。",
+        "Holder": "4",
+        "Target": "结婚",
+        "Aspect": "感受",
+        "Opinion": "值得",
+        "Sentiment": "positive",
+        "Rationale": "将结婚比作蹦极，形容劫后余生的感觉"
+    },
+    {
+        "sentence": "你说你。你是不是外边有人了，那女的谁呀？",
+        "Holder": "4",
+        "Target": "周世辉",
+        "Aspect": "忠诚",
+        "Opinion": "怀疑不忠",
+        "Sentiment": "negative",
+        "Rationale": "怀疑周世辉有外遇"
+    },
+    {
+        "sentence": "你想想，知道你快结婚了，还勾搭你，那肯定不是正经姑娘啊，这种女人就跟毒蘑菇一样。",
+        "Holder": "4",
+        "Target": "那女的",
+        "Aspect": "品行",
+        "Opinion": "不正经",
+        "Sentiment": "negative",
+        "Rationale": "认为那女的在周世辉快结婚时还勾搭他"
+    },
+    {
+        "sentence": "你你你还好意思哭你，啊？你还委屈了？",
+        "Holder": "4",
+        "Target": "周世辉",
+        "Aspect": "情绪",
+        "Opinion": "不应该委屈",
+        "Sentiment": "negative",
+        "Rationale": "认为周世辉的行为错误"
+    },
+    {
+        "sentence": "这种女人就跟毒蘑菇一样，你吃了轻则神魂颠倒，重则家破人亡，你知不知道你？",
+        "Holder": "4",
+        "Target": "那女的",
+        "Aspect": "危害",
+        "Opinion": "极具危害",
+        "Sentiment": "negative",
+        "Rationale": "将那女的比作毒蘑菇，形容其危害性"
+    },
+    {
+        "sentence": "你听我的，咱们现在掉头回去，你跟关芝芝服个软道个歉，这事儿没准有缓。",
+        "Holder": "4",
+        "Target": "周世辉",
+        "Aspect": "建议",
+        "Opinion": "应该道歉",
+        "Sentiment": "neutral",
+        "Rationale": "认为道歉可能挽回局面"
+    },
+    {
+        "sentence": "我掉头了？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行动",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对是否需要掉头感到不确定"
+    },
+    {
+        "sentence": "回不去了，没有爱情的婚是不道德。",
+        "Holder": "6",
+        "Target": "婚姻的道德性",
+        "Aspect": "婚姻中爱情的重要性",
+        "Opinion": "没有爱情的婚姻不道德",
+        "Sentiment": "negative",
+        "Rationale": "认为没有爱情的婚姻违背了道德标准"
+    },
+    {
+        "sentence": "没爱情能谈7年吗？谁干柴烈火烧7年，他他他不都了成渣了？平平淡淡才是真。",
+        "Holder": "4",
+        "Target": "6的爱情观",
+        "Aspect": "爱情的长久性",
+        "Opinion": "平淡的爱情更真实",
+        "Sentiment": "negative",
+        "Rationale": "认为7年的感情不可能没有爱情"
+    },
+    {
+        "sentence": "我爱上别人了。不跟她结婚，还是对她负责。",
+        "Holder": "6",
+        "Target": "对关芝芝的责任",
+        "Aspect": "不结婚的原因",
+        "Opinion": "不结婚是对她的负责",
+        "Sentiment": "negative",
+        "Rationale": "爱上了别人"
+    },
+    {
+        "sentence": "你看我说什么了，我说什么了？啊？这女的谁呀？咱们单位的？不是，你看我干嘛啊？你不会爱上我了吧？",
+        "Holder": "4",
+        "Target": "6的感情对象",
+        "Aspect": "感情对象的身份",
+        "Opinion": "质疑6的感情对象",
+        "Sentiment": "negative",
+        "Rationale": "对6的感情对象感到好奇和质疑"
+    },
+    {
+        "sentence": "你敢骚扰我妹！你敢惦记我妹，啊？看我弄死你！",
+        "Holder": "4",
+        "Target": "6的行为",
+        "Aspect": "对妹妹的骚扰和惦记",
+        "Opinion": "强烈反对",
+        "Sentiment": "negative",
+        "Rationale": "6骚扰并惦记自己的妹妹"
+    },
+    {
+        "sentence": "别，先别打了！",
+        "Holder": "6",
+        "Target": "4的暴力行为",
+        "Aspect": "暴力行为的停止",
+        "Opinion": "请求停止",
+        "Sentiment": "negative",
+        "Rationale": "4正在对自己施暴"
+    },
+    {
+        "sentence": "骚扰我妹，你还敢惦记她呢你？",
+        "Holder": "4",
+        "Target": "6的行为",
+        "Aspect": "对妹妹的骚扰和惦记",
+        "Opinion": "强烈反对",
+        "Sentiment": "negative",
+        "Rationale": "6继续骚扰并惦记自己的妹妹"
+    },
+    {
+        "sentence": "你别打我，我急眼了。",
+        "Holder": "6",
+        "Target": "4的暴力行为",
+        "Aspect": "暴力行为的停止",
+        "Opinion": "警告停止",
+        "Sentiment": "negative",
+        "Rationale": "4持续对自己施暴"
+    },
+    {
+        "sentence": "敢惦记她你？看我怎么弄死你！你个臭不要脸的！你癞蛤蟆想吃天鹅肉你！看我不弄死的！",
+        "Holder": "4",
+        "Target": "6的行为",
+        "Aspect": "对妹妹的惦记",
+        "Opinion": "极度厌恶",
+        "Sentiment": "negative",
+        "Rationale": "6不停止对妹妹的惦记，并用侮辱性语言形容对方"
+    }
+]

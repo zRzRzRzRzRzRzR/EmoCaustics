@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭关系冲突爆发",
+        "emotions": [
+          {"state": "negative", "reason": "认为母亲长期不公平对待", "source_id": "4"},
+          {"state": "negative", "reason": "拒绝与母亲沟通的可能性", "source_id": "4"},
+          {"state": "negative", "reason": "因家庭矛盾离家出走", "source_id": "4,3,2"}
+        ]
+      },
+      {
+        "event": "二胖被打事件反应",
+        "emotions": [
+          {"state": "negative", "reason": "对袖手旁观行为的愧疚与反思", "source_id": "4"},
+          {"state": "neutral", "reason": "接受母亲道歉后的情绪稳定", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "担忧刘星离家出走的安全", "source_id": "1"},
+          {"state": "neutral", "reason": "确认刘星心理变化的客观判断", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭关系调解",
+        "emotions": [
+          {"state": "negative", "reason": "对刘星离家出走的担忧", "source_id": "1"},
+          {"state": "positive", "reason": "建议通过沟通解决问题", "source_id": "1"},
+          {"state": "negative", "reason": "对母亲教育方式的质疑", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "亲子教育冲突",
+        "emotions": [
+          {"state": "negative", "reason": "对刘星袖手旁观的强烈失望", "source_id": "1"},
+          {"state": "negative", "reason": "因教育方式被家人批评", "source_id": "5,3"},
+          {"state": "positive", "reason": "最终采取沟通化解矛盾", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭教育方式协调",
+        "emotions": [
+          {"state": "negative", "reason": "对4教育方式的不满", "source_id": "4"},
+          {"state": "neutral", "reason": "客观分析刘星行为动机", "source_id": "1"},
+          {"state": "positive", "reason": "支持正确价值观引导", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对伴侣的初步评价",
+        "emotions": [
+          {"state": "positive", "reason": "认可其学历和潜力", "source_id": "1"},
+          {"state": "negative", "reason": "质疑对方实际付出与忠诚度", "source_id": "2"},
+          {"state": "positive", "reason": "强调相处快乐感", "source_id": "1"},
+          {"state": "negative", "reason": "被要求提供具体事例", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "沟通方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "批评对方说话方式", "source_id": "2"},
+          {"state": "neutral", "reason": "要求事实依据", "source_id": "2"},
+          {"state": "negative", "reason": "反感对方消极预测", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "关系发展讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "确认寻求意见的意图", "source_id": "1"},
+          {"state": "positive", "reason": "支持快速推进关系", "source_id": "2"},
+          {"state": "negative", "reason": "担忧长期关系稳定性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "评价标准质疑",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑潜力股标准单一性", "source_id": "1"},
+          {"state": "negative", "reason": "被反驳沟通能力不足", "source_id": "1"},
+          {"state": "neutral", "reason": "要求具体事实支撑", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "关系发展定位",
+        "emotions": [
+          {"state": "positive", "reason": "主动寻求关系撮合", "source_id": "2"},
+          {"state": "neutral", "reason": "解释短期婚恋合理性", "source_id": "2"},
+          {"state": "negative", "reason": "警惕长期关系风险", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

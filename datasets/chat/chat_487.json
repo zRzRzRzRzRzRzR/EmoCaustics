@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "看有多难看，你什么意思？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为意图",
+        "Opinion": "质疑意图",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为让自己看起来很难看"
+    },
+    {
+        "sentence": "你别生气了，喝口水来。唉，都说了一个多小时了，我看差不多了，什么也就差不多了。",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "建议冷静",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得已经讨论了一个多小时，事情应该差不多了"
+    },
+    {
+        "sentence": "差的多我告诉你，这件事情的性质非常恶劣，后果非常严重。",
+        "Holder": "1",
+        "Target": "事情的性质",
+        "Aspect": "严重性",
+        "Opinion": "认为非常严重",
+        "Sentiment": "negative",
+        "Rationale": "1认为事情的性质非常恶劣，后果严重"
+    },
+    {
+        "sentence": "妈，您得这么想，你看我随便这么一画他就能发表，这很说明问题。",
+        "Holder": "3",
+        "Target": "画的发表",
+        "Aspect": "发表的意义",
+        "Opinion": "认为有意义",
+        "Sentiment": "positive",
+        "Rationale": "3认为随便一画就能发表，说明自己的能力被认可"
+    },
+    {
+        "sentence": "我告诉你，这只说明一个问题，说明我在你心目中的形象非常难看。",
+        "Holder": "1",
+        "Target": "自己在3心目中的形象",
+        "Aspect": "形象评价",
+        "Opinion": "认为形象差",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的行为表明自己在3心目中的形象很差"
+    },
+    {
+        "sentence": "这是漫画嘛，就得变形和夸张",
+        "Holder": "3",
+        "Target": "漫画",
+        "Aspect": "表现形式",
+        "Opinion": "支持变形和夸张",
+        "Sentiment": "positive",
+        "Rationale": "认为漫画的本质就是变形和夸张"
+    },
+    {
+        "sentence": "你变形和夸张，你怎么不把我往茱莉亚罗伯茨那边变形的？你凭什么把我往女鬼妖精那边变形？",
+        "Holder": "1",
+        "Target": "3的变形方式",
+        "Aspect": "变形的方向",
+        "Opinion": "不满变形成女鬼妖精",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被变形成女鬼妖精而不是茱莉亚罗伯茨，感到不公平和不满"
+    },
+    {
+        "sentence": "我要是真把您往萝卜丝那边变形夸张的话，那不就成肖像了吗？不就不是漫画了吗？",
+        "Holder": "3",
+        "Target": "1的变形要求",
+        "Aspect": "变形的合理性",
+        "Opinion": "认为变形成茱莉亚罗伯茨不合理",
+        "Sentiment": "neutral",
+        "Rationale": "解释了为什么不能按1的要求变形，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你要这么说嘛，我心里倒还有一点舒服，但是没有用。夏东海，我告诉你，你必须帮助我解决这个问题，你必须马上给这杂志社的总编打个电话，告诉他必须给我刊登一个更正声明，恢复我的名誉。",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "解决问题的责任",
+        "Opinion": "必须帮助解决问题",
+        "Sentiment": "negative",
+        "Rationale": "夏东海没有立即答应帮助解决问题"
+    },
+    {
+        "sentence": "我跟人说什么呀？让人家怎么恢复你的名誉啊？",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "恢复名誉的可行性",
+        "Opinion": "质疑恢复名誉的方法",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚如何具体操作来恢复名誉"
+    },
+    {
+        "sentence": "这还不简单？你就让他下一期再登一次这个东西，然后边上呢？附一个我的照片，写个括号，说我的母亲实际上长的是这样，并不是这样啊。",
+        "Holder": "1",
+        "Target": "恢复名誉的方法",
+        "Aspect": "具体操作步骤",
+        "Opinion": "认为方法简单",
+        "Sentiment": "positive",
+        "Rationale": "提出了具体的解决方案"
+    },
+    {
+        "sentence": "行了行了，别出幺蛾子了。你是唯恐别人不知道你长什么样，是吧啊？唯恐不露怯",
+        "Holder": "2",
+        "Target": "1的提议",
+        "Aspect": "提议的合理性",
+        "Opinion": "认为提议不妥",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的提议过于夸张且不切实际"
+    },
+    {
+        "sentence": "你什么意思？你不管，你不管是吧？我自个去找他们杂志社去。",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "是否愿意帮助",
+        "Opinion": "认为2不愿帮助",
+        "Sentiment": "negative",
+        "Rationale": "2没有积极响应帮助的请求"
+    },
+    {
+        "sentence": "谁呀？呦，你找谁呀？",
+        "Holder": "1",
+        "Target": "来访者",
+        "Aspect": "目的确认",
+        "Opinion": "询问目的",
+        "Sentiment": "neutral",
+        "Rationale": "对来访者的身份和目的不清楚"
+    },
+    {
+        "sentence": "这是刘星的家吗啊？",
+        "Holder": "4",
+        "Target": "刘星的家",
+        "Aspect": "地点确认",
+        "Opinion": "确认地点",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认是否找对了地方"
+    },
+    {
+        "sentence": "是啊，我是他妈妈啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身份说明",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "来访者询问是否是刘星的家"
+    },
+    {
+        "sentence": "你好你好。这是我的名片。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "礼貌和身份介绍",
+        "Opinion": "礼貌问候并介绍自己",
+        "Sentiment": "positive",
+        "Rationale": "见到了刘星的妈妈"
+    },
+    {
+        "sentence": "呦，刘星。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "打招呼",
+        "Opinion": "友好",
+        "Sentiment": "positive",
+        "Rationale": "见到刘星表示友好"
+    },
+    {
+        "sentence": "刘星，我这次来是专程给刘星送那个漫画的稿酬来了。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "送稿酬",
+        "Opinion": "专程送稿酬",
+        "Sentiment": "positive",
+        "Rationale": "专程为刘星送稿酬，表现出对刘星的重视"
+    },
+    {
+        "sentence": "您是那杂志社的总编是吧？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行身份确认，没有明显的情感倾向"
+    },
+    {
+        "sentence": "对对对",
+        "Holder": "4",
+        "Target": "1的提问",
+        "Aspect": "回答确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地确认身份，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我正要找您呢。来来来，您坐下坐下，我正要跟您说几句",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "交谈意愿",
+        "Opinion": "有话要说",
+        "Sentiment": "positive",
+        "Rationale": "表示有重要的事情要谈，表现出对对方的重视"
+    },
+    {
+        "sentence": "那个，哎，总编还是我先跟您谈一谈吧。",
+        "Holder": "2",
+        "Target": "总编",
+        "Aspect": "谈话顺序",
+        "Opinion": "希望先谈",
+        "Sentiment": "neutral",
+        "Rationale": "想要先与总编沟通"
+    },
+    {
+        "sentence": "哎哎哎，不是哎，总编您先坐下，我得跟您，跟您谈一谈吧",
+        "Holder": "1",
+        "Target": "总编",
+        "Aspect": "谈话顺序",
+        "Opinion": "希望先谈",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己需要先与总编沟通"
+    },
+    {
+        "sentence": "太好了，那就咱们就收好了，下周咱们就编辑部咱们见了",
+        "Holder": "4",
+        "Target": "编辑部见面",
+        "Aspect": "见面安排",
+        "Opinion": "期待见面",
+        "Sentiment": "positive",
+        "Rationale": "对即将在编辑部见面感到高兴"
+    },
+    {
+        "sentence": "我从现在开始就得叫你夏主任了，哈哈哈。",
+        "Holder": "2",
+        "Target": "夏主任",
+        "Aspect": "称呼变化",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "对新称呼感到有趣"
+    },
+    {
+        "sentence": "这个，哎，不是，什么意思。",
+        "Holder": "1",
+        "Target": "4的说明",
+        "Aspect": "说明的清晰度",
+        "Opinion": "不清晰",
+        "Sentiment": "ambiguous",
+        "Rationale": "1没有完全理解4的说明"
+    },
+    {
+        "sentence": "是这个样子的。刚才夏先生已经答应担任我们京城少年编辑部的编辑部主任了，并且享受最高的待遇，报酬优厚啊。",
+        "Holder": "4",
+        "Target": "夏先生",
+        "Aspect": "职位和待遇",
+        "Opinion": "优厚",
+        "Sentiment": "positive",
+        "Rationale": "夏先生得到了高职位和优厚待遇"
+    },
+    {
+        "sentence": "夏先生对儿童教育见解独特，并且掌握着大量的儿童素材啊。这和我们杂志社的宗旨是相符合的啊。所以冒昧的借用你的爸爸。借你的丈夫啊。当然这是一个人呐。哈哈哈，怎么样。",
+        "Holder": "4",
+        "Target": "夏先生",
+        "Aspect": "能力和匹配度",
+        "Opinion": "高度匹配",
+        "Sentiment": "positive",
+        "Rationale": "夏先生的能力和素材与杂志社宗旨高度匹配"
+    },
+    {
+        "sentence": "太好了。",
+        "Holder": "1",
+        "Target": "夏先生的职位安排",
+        "Aspect": "安排的结果",
+        "Opinion": "满意",
+        "Sentiment": "positive",
+        "Rationale": "夏先生得到了好的职位安排"
+    },
+    {
+        "sentence": "唉，那我呢？",
+        "Holder": "3",
+        "Target": "自己的职位安排",
+        "Aspect": "被忽视的感受",
+        "Opinion": "被忽视",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己被忽视没有提及"
+    },
+    {
+        "sentence": "你当然是好好学习，将来前途是远大的。听见没有？",
+        "Holder": "2",
+        "Target": "4的学习态度",
+        "Aspect": "学习的必要性",
+        "Opinion": "学习重要",
+        "Sentiment": "positive",
+        "Rationale": "认为好好学习是通往远大前途的必要条件"
+    },
+    {
+        "sentence": "你必须好好学习，前途才能远大。",
+        "Holder": "4",
+        "Target": "自己的学习态度",
+        "Aspect": "学习的必要性",
+        "Opinion": "学习重要",
+        "Sentiment": "positive",
+        "Rationale": "认同好好学习对前途的重要性"
+    },
+    {
+        "sentence": "啊，那就这样啦，咱们下周编辑部见。",
+        "Holder": "4",
+        "Target": "下周的见面",
+        "Aspect": "见面的安排",
+        "Opinion": "期待见面",
+        "Sentiment": "positive",
+        "Rationale": "对下周的见面感到期待"
+    },
+    {
+        "sentence": "好，下周见，再见。",
+        "Holder": "2",
+        "Target": "下周的见面",
+        "Aspect": "见面的安排",
+        "Opinion": "期待见面",
+        "Sentiment": "positive",
+        "Rationale": "对下周的见面感到期待"
+    },
+    {
+        "sentence": "好，再见。",
+        "Holder": "4",
+        "Target": "对话结束",
+        "Aspect": "礼貌告别",
+        "Opinion": "礼貌地结束对话",
+        "Sentiment": "neutral",
+        "Rationale": "对话即将结束"
+    },
+    {
+        "sentence": "回来啦回来啦。",
+        "Holder": "1",
+        "Target": "4的回来",
+        "Aspect": "归来的欢迎",
+        "Opinion": "欢迎回来",
+        "Sentiment": "positive",
+        "Rationale": "看到4回来"
+    },
+    {
+        "sentence": "干嘛去了你们",
+        "Holder": "1",
+        "Target": "4和3的行动",
+        "Aspect": "行动的询问",
+        "Opinion": "好奇他们的行动",
+        "Sentiment": "neutral",
+        "Rationale": "想知道他们去了哪里"
+    },
+    {
+        "sentence": "榜样的力量就是无穷的",
+        "Holder": "3",
+        "Target": "榜样",
+        "Aspect": "榜样的影响力",
+        "Opinion": "榜样具有巨大影响力",
+        "Sentiment": "positive",
+        "Rationale": "认为榜样能带来积极影响"
+    },
+    {
+        "sentence": "谁是榜样啊？",
+        "Holder": "1",
+        "Target": "榜样",
+        "Aspect": "榜样的身份",
+        "Opinion": "不清楚榜样是谁",
+        "Sentiment": "neutral",
+        "Rationale": "不明白3所指的榜样是谁"
+    },
+    {
+        "sentence": "我，自从我的第一个作品发表了，这就说明我还是有一定市场的。",
+        "Holder": "3",
+        "Target": "自己的作品",
+        "Aspect": "市场认可度",
+        "Opinion": "有一定市场",
+        "Sentiment": "positive",
+        "Rationale": "第一个作品成功发表"
+    },
+    {
+        "sentence": "嗯，所以我们决定",
+        "Holder": "3",
+        "Target": "合作决定",
+        "Aspect": "决策过程",
+        "Opinion": "已经决定",
+        "Sentiment": "neutral",
+        "Rationale": "已经做出了合作的决定"
+    },
+    {
+        "sentence": "什么呀？",
+        "Holder": "1",
+        "Target": "3的决定",
+        "Aspect": "决策内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对3的决定内容不清楚"
+    },
+    {
+        "sentence": "决定我们三个要合作画出一系列关于妈妈的漫画，看画板都预备好了",
+        "Holder": "3",
+        "Target": "合作项目",
+        "Aspect": "项目内容",
+        "Opinion": "合作画漫画",
+        "Sentiment": "positive",
+        "Rationale": "已经准备好合作画漫画"
+    }
+]

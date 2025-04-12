@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "真诚的情境化应用讨论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主张选择性真诚应对不同场景",
+            "source_id": "3,4"
+          },
+          {
+            "state": "positive",
+            "reason": "承认真诚品质的重要性与践行决心",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "真诚负面影响的自我揭示",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "担忧真诚导致自我封闭与负面评价",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调真诚作为自我要求的本质属性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "真诚本质的价值捍卫",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张真诚作为原则/本质/人际关系基础",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "真诚实践的双刃性分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调真诚对自我提升的终极价值",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

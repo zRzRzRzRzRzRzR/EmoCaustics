@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "青少年心理咨询活动突发取消危机",
+        "emotions": [
+          {"state": "negative", "reason": "原定心理医生意外受伤无法到场", "source_id": "2"},
+          {"state": "positive", "reason": "发现丈夫夏东海可作为替代人选", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇活动参与人数不足的困境", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "钥匙丢失与活动危机双重压力",
+        "emotions": [
+          {"state": "negative", "reason": "丢失家门钥匙导致无法正常回家", "source_id": "1"},
+          {"state": "neutral", "reason": "对推荐夏东海持观望态度", "source_id": "1"},
+          {"state": "negative", "reason": "活动现场冷清且管理混乱", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "被临时推举为心理咨询师",
+        "emotions": [
+          {"state": "negative", "reason": "对突然被推荐感到准备不足", "source_id": "1"},
+          {"state": "neutral", "reason": "在家属支持下尝试接受任务", "source_id": "1,4"},
+          {"state": "negative", "reason": "活动现场无人问津的尴尬", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭参与社区服务的矛盾",
+        "emotions": [
+          {"state": "positive", "reason": "积极支持夏东海参与公益", "source_id": "1"},
+          {"state": "negative", "reason": "活动现场冷清引发困惑", "source_id": "2"},
+          {"state": "positive", "reason": "主动承担推广责任", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

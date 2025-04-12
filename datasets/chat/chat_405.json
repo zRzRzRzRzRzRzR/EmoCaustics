@@ -1,0 +1,290 @@
+[
+    {
+        "sentence": "这是我妈，这是我雇的假妈。我本以为我的计划一定可以成功，没想到她俩居然在我的表彰大会上打起来了。",
+        "Holder": "1",
+        "Target": "自己的计划",
+        "Aspect": "计划的可行性",
+        "Opinion": "计划失败",
+        "Sentiment": "negative",
+        "Rationale": "自己的计划在关键时刻失败"
+    },
+    {
+        "sentence": "别在这丢人现眼。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为丢人",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让3感到尴尬和丢脸"
+    },
+    {
+        "sentence": "不是，你啥意思？",
+        "Holder": "2",
+        "Target": "3的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "不理解指责",
+        "Sentiment": "neutral",
+        "Rationale": "2不明白3为什么指责自己"
+    },
+    {
+        "sentence": "你再跟我说一句，我打你信不信？",
+        "Holder": "3",
+        "Target": "2的回应",
+        "Aspect": "回应的态度",
+        "Opinion": "威胁对方",
+        "Sentiment": "negative",
+        "Rationale": "3觉得2的回应不尊重自己"
+    },
+    {
+        "sentence": "你松手",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "3的行为让2感到不适和威胁"
+    },
+    {
+        "sentence": "别打了",
+        "Holder": "3",
+        "Target": "打斗行为",
+        "Aspect": "行为制止",
+        "Opinion": "停止打斗",
+        "Sentiment": "neutral",
+        "Rationale": "看到打斗行为"
+    },
+    {
+        "sentence": "看我妈的台上发疯的样子，我又想起那些把他从酒局里捞出来的夜晚。我叫李进步，从我记事那天起就没见过我爸，我妈一个人为了养活我，常常在外边跟别人拼酒。我常常在想她为什么要把我生出来，为什么要让我跟着他一起受苦，我努力的想摆脱这一切，可只要有她在，我的人生就像站在跑步机上一样，明明已经累到快要吐血了，却还是只能在原地踏步走走。",
+        "Holder": "1",
+        "Target": "母亲",
+        "Aspect": "对母亲的不情况",
+        "Opinion": "努力但成效有限",
+        "Sentiment": "negative",
+        "Rationale": "母亲的努力未能显著改善生活"
+    },
+    {
+        "sentence": "我受够了这样的生活，我受够了她",
+        "Holder": "1",
+        "Target": "当前生活及母亲",
+        "Aspect": "生活状态及母亲的影响",
+        "Opinion": "极度不满",
+        "Sentiment": "negative",
+        "Rationale": "长期的生活压力和母亲的过度干涉，感到极度压抑和不满"
+    },
+    {
+        "sentence": "喂进步妈妈，进步的保送名额已经被取消了。",
+        "Holder": "5",
+        "Target": "进步的保送名额",
+        "Aspect": "保送名额的状态",
+        "Opinion": "已被取消",
+        "Sentiment": "negative",
+        "Rationale": "保送名额的取消对进步的未来有重大影响"
+    },
+    {
+        "sentence": "我今天我不是生气吗？出去问问天底下哪个妈听到自己姑娘在外面找个人冒充自己能不生气啊。",
+        "Holder": "3",
+        "Target": "母亲对女儿行为的反应",
+        "Aspect": "情感共鸣",
+        "Opinion": "强烈共鸣",
+        "Sentiment": "negative",
+        "Rationale": "作为母亲，听到女儿这样的行为会感到心痛和失望"
+    },
+    {
+        "sentence": "保送名额而已，妈找机会去请你们校长喝顿酒。",
+        "Holder": "3",
+        "Target": "保送名额",
+        "Aspect": "获取方式",
+        "Opinion": "通过请客吃饭解决",
+        "Sentiment": "neutral",
+        "Rationale": "认为保送名额可以通过请客吃饭来解决"
+    },
+    {
+        "sentence": "喝酒，又是喝酒，我已经不要求你当一个多合格的妈妈了。那你能别毁我人生嘛？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "对人生的影响",
+        "Opinion": "认为在毁人生",
+        "Sentiment": "negative",
+        "Rationale": "母亲总是通过喝酒解决问题，不关心自己的感受"
+    },
+    {
+        "sentence": "你要没我，你人都不知道从哪来的，还毁人生？",
+        "Holder": "3",
+        "Target": "1的人生",
+        "Aspect": "存在的意义",
+        "Opinion": "认为自己的存在是1的基础",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己的付出被忽视"
+    },
+    {
+        "sentence": "我还得谢谢你，是吧？",
+        "Holder": "1",
+        "Target": "3的付出",
+        "Aspect": "感激与否",
+        "Opinion": "反讽不需要感激",
+        "Sentiment": "negative",
+        "Rationale": "对母亲的种种行为感到不满"
+    },
+    {
+        "sentence": "我谢谢你让我一直住这么个破阳台上，面对这个 24 小时关都关不掉电子屏，谢谢你让我一直转学，连个朋友都没有，还得谢谢你这个天天喝多需要我照顾的妈，加上一个 17 年消失不见不管不顾的爸，这上面陈君何是不是我爸？你们俩为什么离婚了？",
+        "Holder": "1",
+        "Target": "3和父亲的行为",
+        "Aspect": "生活环境和家庭关系",
+        "Opinion": "对生活环境和家庭关系极度不满",
+        "Sentiment": "negative",
+        "Rationale": "长期生活在不理想的环境中，且家庭关系破裂"
+    },
+    {
+        "sentence": "我是不是说过大人的事跟你没关系？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "大人事务的关联性",
+        "Opinion": "大人事务与1无关",
+        "Sentiment": "neutral",
+        "Rationale": "3在强调大人事务与1无关"
+    },
+    {
+        "sentence": "大人的事就是想生就生，想离就离，想不要我就不要我了",
+        "Holder": "1",
+        "Target": "大人事务",
+        "Aspect": "大人事务的随意性",
+        "Opinion": "大人事务对1有影响",
+        "Sentiment": "negative",
+        "Rationale": "1感受到被大人事务随意对待"
+    },
+    {
+        "sentence": "没不要你。别的我不想说了",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "对1的关心",
+        "Opinion": "没有不要1",
+        "Sentiment": "neutral",
+        "Rationale": "3在澄清没有不要1"
+    },
+    {
+        "sentence": "你每次都不想说，陈君何他到底在哪儿？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "沟通意愿",
+        "Opinion": "3不愿沟通",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3总是不愿沟通"
+    },
+    {
+        "sentence": "行，你啥都没有，我啥都有。你过得都不好，我过得都老好啦。你这些年案你过的都不是你想要的生活。我这些年我过的都是我自己想要的生活",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "生活状态",
+        "Opinion": "3过得好，1过得不好",
+        "Sentiment": "positive",
+        "Rationale": "3在对比自己与1的生活状态，强调自己过得好"
+    },
+    {
+        "sentence": "现在是我祸害你了，是吧？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对3的影响",
+        "Opinion": "认为自己给3带来麻烦",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己给3带来了负面影响"
+    },
+    {
+        "sentence": "我是不是还给你道个歉啊？我想要的生活，我想要一个整整齐齐的家，又会照顾人的妈和一个不会逃跑的爸。我想要的多吗？我不配是吧？",
+        "Holder": "1",
+        "Target": "自己的生活期望",
+        "Aspect": "生活期望的合理性",
+        "Opinion": "认为自己要求不高",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的合理期望被否定"
+    },
+    {
+        "sentence": "我不配行吗？从把你生下来做你妈那天起来，我就不配拥有啥狗屁安稳的生活。",
+        "Holder": "3",
+        "Target": "自己的生活状态",
+        "Aspect": "生活的安稳性",
+        "Opinion": "认为自己不配拥有安稳生活",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己从成为母亲后生活一直不安稳"
+    },
+    {
+        "sentence": "你以为我想被你生下来，根本就不想做你女儿？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "与3的亲子关系",
+        "Opinion": "不希望成为3的女儿",
+        "Sentiment": "negative",
+        "Rationale": "对3的失望和不满"
+    },
+    {
+        "sentence": "我根本就不想你做我妈。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "与1的亲子关系",
+        "Opinion": "不希望1成为自己的女儿",
+        "Sentiment": "negative",
+        "Rationale": "对1的失望和矛盾"
+    },
+    {
+        "sentence": "妈我走了。卡里是我攒的压岁钱，密码是你生日。以后的日子我会自己想办法的，不用挂念，也别来找我。李进步。",
+        "Holder": "1",
+        "Target": "母亲",
+        "Aspect": "离别与独立",
+        "Opinion": "决心独立",
+        "Sentiment": "neutral",
+        "Rationale": "李进步决定离开家独立生活"
+    },
+    {
+        "sentence": "这哪啊，做梦还是4D的。这也太真实了",
+        "Holder": "1",
+        "Target": "当前情境",
+        "Aspect": "现实与梦境的区分",
+        "Opinion": "感觉不真实",
+        "Sentiment": "ambiguous",
+        "Rationale": "李进步对当前情境感到困惑，不确定是梦境还是现实"
+    },
+    {
+        "sentence": "李青铜，还不知道你就是想跑。李青铜，能不能坚定点啊",
+        "Holder": "7",
+        "Target": "李青铜",
+        "Aspect": "行为动机与坚定性",
+        "Opinion": "认为李青铜想逃避",
+        "Sentiment": "negative",
+        "Rationale": "7认为李青铜的行为是出于逃避"
+    },
+    {
+        "sentence": "你自己讲的。没有离家出走的青春是残缺的",
+        "Holder": "7",
+        "Target": "李青铜的观点",
+        "Aspect": "青春的完整性",
+        "Opinion": "认同离家出走",
+        "Sentiment": "neutral",
+        "Rationale": "7引用了李青铜自己的话"
+    },
+    {
+        "sentence": "我这一走我青春是完整了，我肉体残缺了我。",
+        "Holder": "3",
+        "Target": "自己的青春与身体",
+        "Aspect": "青春的完整性与身体的完整性",
+        "Opinion": "青春完整但身体残缺",
+        "Sentiment": "negative",
+        "Rationale": "3认为离家出走使青春完整但身体受到伤害"
+    },
+    {
+        "sentence": "我妈打起人哪有武德啊。",
+        "Holder": "3",
+        "Target": "3的妈妈",
+        "Aspect": "打人的方式",
+        "Opinion": "没有武德",
+        "Sentiment": "negative",
+        "Rationale": "3的妈妈打人时没有遵循武德"
+    },
+    {
+        "sentence": "不，你得这么想啊，今天月考成绩出来了，你现在回家，你马上就残缺。",
+        "Holder": "7",
+        "Target": "3",
+        "Aspect": "回家后的后果",
+        "Opinion": "会受罚",
+        "Sentiment": "negative",
+        "Rationale": "7认为3回家后会月考成绩不好而受到严厉的惩罚"
+    }
+]

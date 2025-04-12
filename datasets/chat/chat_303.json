@@ -1,0 +1,605 @@
+[
+    {
+        "sentence": "洪武。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地称呼名字，没有表达任何情感"
+    },
+    {
+        "sentence": "12年百位画师为太爷造像，太爷看了之后，一怒之下斩了95位，只留下这5幅，此乃其中之一张。",
+        "Holder": "2",
+        "Target": "太爷",
+        "Aspect": "画师造像的处理",
+        "Opinion": "严厉",
+        "Sentiment": "negative",
+        "Rationale": "太爷对大部分画师的作品不满意，采取了严厉的惩罚措施"
+    },
+    {
+        "sentence": "为何要斩画的，不够好吗？",
+        "Holder": "1",
+        "Target": "画师的作品",
+        "Aspect": "作品质量",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "对太爷斩杀画师的原因感到不解"
+    },
+    {
+        "sentence": "不可谓不好，只是他们只顾了俊美而不像了太爷，该斩得好。若不是太爷英明留下这副真容，老朱你这股血脉恐怕早就断了，断不了老。",
+        "Holder": "2",
+        "Target": "画师的作品",
+        "Aspect": "作品的真实性",
+        "Opinion": "支持太爷的决定",
+        "Sentiment": "positive",
+        "Rationale": "认为太爷的决定是英明的，保住了血脉"
+    },
+    {
+        "sentence": "朱家有我，太爷在上骨肉亲孙潜龙，叩拜您老。",
+        "Holder": "1",
+        "Target": "太爷",
+        "Aspect": "家族关系",
+        "Opinion": "尊敬",
+        "Sentiment": "positive",
+        "Rationale": "表达了对太爷的尊敬和家族的归属感"
+    },
+    {
+        "sentence": "太像了，一看就是亲孙子，",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "外貌相似度",
+        "Opinion": "非常像",
+        "Sentiment": "positive",
+        "Rationale": "说话人1和老爷子的外貌非常相似"
+    },
+    {
+        "sentence": "拿相机成事之前，我跟我家老爷子照张相，",
+        "Holder": "1",
+        "Target": "拍照行为",
+        "Aspect": "拍照的时机",
+        "Opinion": "希望拍照",
+        "Sentiment": "neutral",
+        "Rationale": "想在完成某事之前和老爷子拍照留念"
+    },
+    {
+        "sentence": "老朱看我看他。",
+        "Holder": "2",
+        "Target": "老朱",
+        "Aspect": "目光交流",
+        "Opinion": "互相注视",
+        "Sentiment": "neutral",
+        "Rationale": "老朱和说话人2在互相注视"
+    },
+    {
+        "sentence": "爷爷看我看。",
+        "Holder": "1",
+        "Target": "爷爷",
+        "Aspect": "目光交流",
+        "Opinion": "互相注视",
+        "Sentiment": "neutral",
+        "Rationale": "爷爷和说话人1在互相注视"
+    },
+    {
+        "sentence": "来，我亲手包的，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "手艺展示",
+        "Opinion": "亲手制作",
+        "Sentiment": "positive",
+        "Rationale": "说话人2亲手制作了东西"
+    },
+    {
+        "sentence": "好，",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的回应，没有表达出具体的情感"
+    },
+    {
+        "sentence": "先吃7个再煮7个趁热。",
+        "Holder": "2",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个建议，没有表达出具体的情感"
+    },
+    {
+        "sentence": "好好，兰兄太爷这画你从哪弄的？",
+        "Holder": "1",
+        "Target": "画",
+        "Aspect": "来源",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对画的来源感到好奇"
+    },
+    {
+        "sentence": "溥仪。",
+        "Holder": "2",
+        "Target": "画",
+        "Aspect": "来源",
+        "Opinion": "来自溥仪",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回答画的来源，没有表达出具体的情感"
+    },
+    {
+        "sentence": "坑你不少钱。",
+        "Holder": "1",
+        "Target": "画",
+        "Aspect": "价格",
+        "Opinion": "昂贵",
+        "Sentiment": "negative",
+        "Rationale": "认为画的价格过高"
+    },
+    {
+        "sentence": "不计较。",
+        "Holder": "2",
+        "Target": "不计较的态度",
+        "Aspect": "对待事情的态度",
+        "Opinion": "不计较",
+        "Sentiment": "neutral",
+        "Rationale": "不想对某事过于在意"
+    },
+    {
+        "sentence": "兰秀你帮我这么大一忙，我必须回报一下，不是我给你做一件小事。",
+        "Holder": "1",
+        "Target": "兰秀的帮助",
+        "Aspect": "回报的必要性",
+        "Opinion": "必须回报",
+        "Sentiment": "positive",
+        "Rationale": "兰秀帮了很大的忙"
+    },
+    {
+        "sentence": "不聊这个，不聊.",
+        "Holder": "2",
+        "Target": "回报的话题",
+        "Aspect": "话题的回避",
+        "Opinion": "不想讨论",
+        "Sentiment": "neutral",
+        "Rationale": "不想继续讨论回报的话题"
+    },
+    {
+        "sentence": "一件小事儿，一件小事儿。",
+        "Holder": "1",
+        "Target": "回报的事情",
+        "Aspect": "事情的轻重",
+        "Opinion": "小事",
+        "Sentiment": "positive",
+        "Rationale": "认为回报的事情是小事"
+    },
+    {
+        "sentence": "你帮我杀个人。",
+        "Holder": "2",
+        "Target": "回报的事情",
+        "Aspect": "事情的严重性",
+        "Opinion": "极端的要求",
+        "Sentiment": "ambiguous",
+        "Rationale": "提出了一个极端且严重的要求"
+    },
+    {
+        "sentence": "这事儿对我太简单了，杀几个，",
+        "Holder": "1",
+        "Target": "事情",
+        "Aspect": "难易程度",
+        "Opinion": "太简单",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为这件事对他来说非常容易"
+    },
+    {
+        "sentence": "一个。",
+        "Holder": "2",
+        "Target": "数量",
+        "Aspect": "具体数量",
+        "Opinion": "一个",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2只是简单地回答了数量，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "你把名字告诉我，",
+        "Holder": "1",
+        "Target": "名字",
+        "Aspect": "信息提供",
+        "Opinion": "需要知道",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1需要知道名字来进行下一步操作"
+    },
+    {
+        "sentence": "根本。",
+        "Holder": "2",
+        "Target": "可能性",
+        "Aspect": "可行性",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为这件事根本不可能"
+    },
+    {
+        "sentence": "你杀他干什么？这人我正用着你换一个。",
+        "Holder": "1",
+        "Target": "杀人的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不赞同",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为对方杀的人是他正在使用的人"
+    },
+    {
+        "sentence": "兄弟，你真指望日本人帮你成事，",
+        "Holder": "2",
+        "Target": "日本人",
+        "Aspect": "帮助成事的能力",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对日本人帮助成事的期望感到怀疑"
+    },
+    {
+        "sentence": "日本人这方面比较有经验，不是把溥仪给弄上去了吗？",
+        "Holder": "1",
+        "Target": "日本人的经验",
+        "Aspect": "操作能力",
+        "Opinion": "有经验",
+        "Sentiment": "positive",
+        "Rationale": "日本人曾在类似情况下成功操作"
+    },
+    {
+        "sentence": "我得提醒你，他们数字，他们利用了溥仪现在要利用你，这里都是局，你可不能让他把你。",
+        "Holder": "2",
+        "Target": "日本人",
+        "Aspect": "利用行为",
+        "Opinion": "警惕",
+        "Sentiment": "negative",
+        "Rationale": "担心对方被日本人利用"
+    },
+    {
+        "sentence": "给害了，日本人靠不住我靠谁？老蒋？",
+        "Holder": "1",
+        "Target": "日本人",
+        "Aspect": "可靠性",
+        "Opinion": "靠不住",
+        "Sentiment": "negative",
+        "Rationale": "对日本人靠不住的担忧"
+    },
+    {
+        "sentence": "那更靠不住，",
+        "Holder": "2",
+        "Target": "老蒋",
+        "Aspect": "可靠性",
+        "Opinion": "更靠不住",
+        "Sentiment": "negative",
+        "Rationale": "认为老蒋比日本人更不可靠"
+    },
+    {
+        "sentence": "一个写日记的人。",
+        "Holder": "1",
+        "Target": "写日记的人",
+        "Aspect": "日记",
+        "Opinion": "存在",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1只是陈述了一个事实"
+    },
+    {
+        "sentence": "正经人谁写日记是你写日记吗？我不写。",
+        "Holder": "2",
+        "Target": "写日记的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不认同写日记",
+        "Sentiment": "negative",
+        "Rationale": "认为写日记不是正经人的行为"
+    },
+    {
+        "sentence": "你写日记吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "写日记的习惯",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问对方是否有写日记的习惯"
+    },
+    {
+        "sentence": "谁能把心里话写日记里。",
+        "Holder": "2",
+        "Target": "写日记的内容",
+        "Aspect": "内容的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "认为日记中不一定能完全反映真实想法"
+    },
+    {
+        "sentence": "写出来的，那能叫心里话，下贱，日本人靠不住，老蒋也靠不住，我能靠谁？你们确实是有实力，",
+        "Holder": "1",
+        "Target": "日记内容的真实性",
+        "Aspect": "内容的可信度",
+        "Opinion": "不信任",
+        "Sentiment": "negative",
+        "Rationale": "认为写出来的日记不一定是真心话，并且对周围的人和环境感到不信任"
+    },
+    {
+        "sentence": "当年在新海武昌那地方，他们就开了一枪而已，",
+        "Holder": "2",
+        "Target": "新海武昌事件",
+        "Aspect": "事件的描述",
+        "Opinion": "轻描淡写",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单描述了事件的经过，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "满清是你们给亲手推翻我们。",
+        "Holder": "1",
+        "Target": "满清的推翻",
+        "Aspect": "推翻者的身份",
+        "Opinion": "认为是对方所为",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一个历史事实，没有明显的情感色彩"
+    },
+    {
+        "sentence": "老哥几个咔一下是推翻了哥几个还都在散落在各地而已，老西子在山西，南方的小诸葛我都打点好，就等你咔把一旗举起来。",
+        "Holder": "2",
+        "Target": "推翻满清后的情况",
+        "Aspect": "人员分布和准备情况",
+        "Opinion": "分散但有所准备",
+        "Sentiment": "neutral",
+        "Rationale": "描述了推翻后的实际情况和准备工作，没有明显的情感倾向"
+    },
+    {
+        "sentence": "南兄跟你聊天，心里边敞亮。",
+        "Holder": "1",
+        "Target": "与南兄的聊天",
+        "Aspect": "聊天的感受",
+        "Opinion": "感到愉快",
+        "Sentiment": "positive",
+        "Rationale": "与南兄的聊天让人感到心情舒畅"
+    },
+    {
+        "sentence": "为什么亮？",
+        "Holder": "2",
+        "Target": "聊天的感受",
+        "Aspect": "原因询问",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地询问原因，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "咱心里干净，心里就没自己,只有反清复明大事业。好勒，根本这事我答应你了。",
+        "Holder": "1",
+        "Target": "反清复明大事业",
+        "Aspect": "承诺的真诚性",
+        "Opinion": "心里干净，只有大事业",
+        "Sentiment": "positive",
+        "Rationale": "说话人1表示自己心里干净，只有反清复明大事业"
+    },
+    {
+        "sentence": "好，",
+        "Holder": "2",
+        "Target": "说话人1的承诺",
+        "Aspect": "回应的态度",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "说话人2简短地表示同意"
+    },
+    {
+        "sentence": "什么条件。",
+        "Holder": "1",
+        "Target": "条件",
+        "Aspect": "询问的内容",
+        "Opinion": "询问条件",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在询问条件"
+    },
+    {
+        "sentence": "还有条件，你。",
+        "Holder": "2",
+        "Target": "条件",
+        "Aspect": "条件的存在",
+        "Opinion": "意外有条件",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2对还有条件感到意外"
+    },
+    {
+        "sentence": "要是不谈点条件，弄得跟假的似的，你心里能踏实吗？",
+        "Holder": "1",
+        "Target": "条件的必要性",
+        "Aspect": "条件的合理性",
+        "Opinion": "需要谈条件",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1认为不谈条件显得不真实"
+    },
+    {
+        "sentence": "有道理。你看我大本事没有帮不了你的大忙，我就帮你除个小心病，",
+        "Holder": "2",
+        "Target": "说话人1的心病",
+        "Aspect": "帮助的能力",
+        "Opinion": "只能帮小忙",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己没有大本事"
+    },
+    {
+        "sentence": "我有心病",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "心理状态",
+        "Opinion": "存在心病",
+        "Sentiment": "negative",
+        "Rationale": "自己确实有心病"
+    },
+    {
+        "sentence": "此人让你寝食难安，念念不忘。",
+        "Holder": "2",
+        "Target": "说话人1的心病",
+        "Aspect": "心病的具体表现",
+        "Opinion": "影响生活",
+        "Sentiment": "negative",
+        "Rationale": "提到的心病让说话人1生活受影响"
+    },
+    {
+        "sentence": "谁。",
+        "Holder": "1",
+        "Target": "心病的对象",
+        "Aspect": "身份",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问"
+    },
+    {
+        "sentence": "姓李。",
+        "Holder": "2",
+        "Target": "心病的对象",
+        "Aspect": "身份",
+        "Opinion": "具体指向",
+        "Sentiment": "neutral",
+        "Rationale": "只是提供具体信息"
+    },
+    {
+        "sentence": "李天然，",
+        "Holder": "1",
+        "Target": "李天然",
+        "Aspect": "人物提及",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及名字，没有表达任何情感"
+    },
+    {
+        "sentence": "对了，",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "话题转换",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是进行话题转换，没有表达任何情感"
+    },
+    {
+        "sentence": "这一个人太坏了。",
+        "Holder": "1",
+        "Target": "这一个人",
+        "Aspect": "道德品质",
+        "Opinion": "太坏了",
+        "Sentiment": "negative",
+        "Rationale": "认为这个人的道德品质极差"
+    },
+    {
+        "sentence": "坏！",
+        "Holder": "2",
+        "Target": "这一个人",
+        "Aspect": "道德品质",
+        "Opinion": "坏",
+        "Sentiment": "negative",
+        "Rationale": "认同这个人道德品质差"
+    },
+    {
+        "sentence": "十恶不赦，死有余辜对吧？我成事前一定要除掉。",
+        "Holder": "1",
+        "Target": "这一个人",
+        "Aspect": "罪行和处置",
+        "Opinion": "十恶不赦，死有余辜，必须除掉",
+        "Sentiment": "negative",
+        "Rationale": "认为这个人罪行极其严重，必须被除去"
+    },
+    {
+        "sentence": "所以你把根本给我，我把它给你。",
+        "Holder": "2",
+        "Target": "根本",
+        "Aspect": "物品交换",
+        "Opinion": "要求交换",
+        "Sentiment": "neutral",
+        "Rationale": "提出物品交换的要求"
+    },
+    {
+        "sentence": "不是，这跟杀根本有什么关系，",
+        "Holder": "1",
+        "Target": "杀根本",
+        "Aspect": "事件关联",
+        "Opinion": "否认关联",
+        "Sentiment": "negative",
+        "Rationale": "对方将物品交换与杀根本联系起来"
+    },
+    {
+        "sentence": "兄弟你怎么还不明白你不能靠日本人，非但不能靠日本人，你得跟我们老哥几个一块儿抗日爸爸周叔叔的人找他，",
+        "Holder": "2",
+        "Target": "1的立场",
+        "Aspect": "合作对象",
+        "Opinion": "应与中国人合作抗日",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不明白抗日的正确立场"
+    },
+    {
+        "sentence": "说什么事儿不是，你死几个你也不能耽误我吃饺子，我蓝兄亲手包的饺子，美国人兰兄我先走一步。",
+        "Holder": "1",
+        "Target": "吃饺子",
+        "Aspect": "个人优先事项",
+        "Opinion": "重视吃饺子",
+        "Sentiment": "positive",
+        "Rationale": "对方谈论的事情不影响自己吃饺子的计划"
+    },
+    {
+        "sentence": "理解，",
+        "Holder": "2",
+        "Target": "1的立场",
+        "Aspect": "理解程度",
+        "Opinion": "表示理解",
+        "Sentiment": "neutral",
+        "Rationale": "对方表达了自己的立场和优先事项"
+    },
+    {
+        "sentence": "兰兄这个地方。",
+        "Holder": "1",
+        "Target": "地点",
+        "Aspect": "地点的提及",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及一个地点，没有表达任何情感"
+    },
+    {
+        "sentence": "你得常来，我告诉你，你别看这屋这么小，曹雪芹写红楼梦就在这儿写的，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "来访频率",
+        "Opinion": "建议常来",
+        "Sentiment": "positive",
+        "Rationale": "认为这个地方有历史价值，希望对方常来"
+    },
+    {
+        "sentence": "闺女在哪上学，",
+        "Holder": "1",
+        "Target": "闺女",
+        "Aspect": "上学地点",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问上学地点，没有表达任何情感"
+    },
+    {
+        "sentence": "辅仁大学。",
+        "Holder": "2",
+        "Target": "闺女",
+        "Aspect": "上学地点",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有表达任何情感"
+    },
+    {
+        "sentence": "换个更好点的哪儿，好？北大清华我给办，",
+        "Holder": "1",
+        "Target": "闺女的学校",
+        "Aspect": "学校的选择",
+        "Opinion": "建议换学校",
+        "Sentiment": "positive",
+        "Rationale": "认为北大清华更好，希望闺女能去更好的学校"
+    },
+    {
+        "sentence": "辅仁挺好，中午能回家吃饭，女子无才便是德。",
+        "Holder": "2",
+        "Target": "辅仁学校",
+        "Aspect": "学校条件",
+        "Opinion": "挺好",
+        "Sentiment": "positive",
+        "Rationale": "辅仁学校中午能回家吃饭，提供了便利"
+    },
+    {
+        "sentence": "辅仁挺好，中午能回家吃饭，女子无才便是德。",
+        "Holder": "2",
+        "Target": "女子教育观念",
+        "Aspect": "教育观念",
+        "Opinion": "女子无才便是德",
+        "Sentiment": "neutral",
+        "Rationale": "持有传统的教育观念"
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作选择争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对殡仪馆职业的排斥，担心影响生意",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "家庭信任危机",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被子女视为保管员，情感疏离感加剧",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "沟通模式崩溃",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对话中频繁被中断，长期积压的沟通挫败",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

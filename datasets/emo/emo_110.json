@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "揭露孩子隐瞒计划",
+        "emotions": [
+          {"state": "negative", "reason": "质疑孩子隐瞒行为", "source_id": "3"},
+          {"state": "neutral", "reason": "解释刘星真实动机", "source_id": "3"},
+          {"state": "positive", "reason": "成功解决沟通问题", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "调解母亲冲突",
+        "emotions": [
+          {"state": "negative", "reason": "批评母亲处理方式", "source_id": "2,4"},
+          {"state": "neutral", "reason": "提出关系改善建议", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "应对孩子隐瞒事件",
+        "emotions": [
+          {"state": "negative", "reason": "目睹孩子痛苦状态", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑4的预防措施", "source_id": "4"},
+          {"state": "negative", "reason": "追究责任归属", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "应对父母质疑",
+        "emotions": [
+          {"state": "negative", "reason": "否认母亲过度担心", "source_id": "1"},
+          {"state": "neutral", "reason": "解释自身行为正当性", "source_id": "1"},
+          {"state": "neutral", "reason": "最终坦白真实计划", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "执行预防性措施",
+        "emotions": [
+          {"state": "neutral", "reason": "坚持防患未然立场", "source_id": "2"},
+          {"state": "ambiguous", "reason": "承认手段但否定目的", "source_id": "2"},
+          {"state": "negative", "reason": "面对责任追究", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

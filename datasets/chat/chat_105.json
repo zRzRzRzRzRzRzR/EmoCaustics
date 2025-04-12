@@ -1,0 +1,407 @@
+[
+    {
+        "sentence": "小雪，忙着呢。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "忙碌状态",
+        "Opinion": "询问是否忙碌",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2是否忙碌"
+    },
+    {
+        "sentence": "干嘛呀",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "询问目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的询问，语气平淡，没有明显的情感波动"
+    },
+    {
+        "sentence": "我这不是有一篇作文想让你给我指点指点吗？",
+        "Holder": "1",
+        "Target": "Composition",
+        "Aspect": "Request for guidance",
+        "Opinion": "Desire for advice",
+        "Sentiment": "Positive",
+        "Rationale": "Because Speaker 1 is seeking help from Speaker 2, indicating a positive attitude towards receiving assistance."
+    },
+    {
+        "sentence": "参谋参谋。哎，又想让我替你写文章，对吧？",
+        "Holder": "2",
+        "Target": "Writing the article",
+        "Aspect": "Assumption of task",
+        "Opinion": "Reluctance",
+        "Sentiment": "Negative",
+        "Rationale": "Because Speaker 2 assumes Speaker 1 wants them to write the essay, indicating a negative attitude towards the task."
+    },
+    {
+        "sentence": "这哪叫让你替我写文章啊，这回绝对是你说我写。",
+        "Holder": "1",
+        "Target": "Writing the article",
+        "Aspect": "Responsibility division",
+        "Opinion": "Clarification of roles",
+        "Sentiment": "Neutral",
+        "Rationale": "Because Speaker 1 is clarifying the division of labor, there is no strong emotional implication."
+    },
+    {
+        "sentence": "我可没工夫管你那些破事。嗯，这件衣服显得倒蛮成熟的。行，就它了",
+        "Holder": "2",
+        "Target": "1的事情",
+        "Aspect": "事情的轻重",
+        "Opinion": "不重要",
+        "Sentiment": "negative",
+        "Rationale": "认为1的事情不重要"
+    },
+    {
+        "sentence": "你想出去玩去",
+        "Holder": "1",
+        "Target": "2的意图",
+        "Aspect": "活动意愿",
+        "Opinion": "想出去玩",
+        "Sentiment": "neutral",
+        "Rationale": "询问2是否想出去玩"
+    },
+    {
+        "sentence": "小孩问那么多事干嘛呀？",
+        "Holder": "2",
+        "Target": "1的问题",
+        "Aspect": "问题的数量",
+        "Opinion": "问题太多",
+        "Sentiment": "negative",
+        "Rationale": "觉得1问的问题太多"
+    },
+    {
+        "sentence": "妈都说了让我和小雨和你看齐，有什么好事也带我去。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的榜样",
+        "Opinion": "希望跟随",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈要求向2看齐"
+    },
+    {
+        "sentence": "行，下回要是有什么除草、扫地、拖地、刷墙、植树什么的，我一定会叫上你。这回免了",
+        "Holder": "2",
+        "Target": "1的参与",
+        "Aspect": "参与的活动",
+        "Opinion": "下次叫上",
+        "Sentiment": "negative",
+        "Rationale": "列举的都是一些辛苦的劳动"
+    },
+    {
+        "sentence": "还别免了，你给我讲讲也成",
+        "Holder": "1",
+        "Target": "2的讲解",
+        "Aspect": "讲解的必要性",
+        "Opinion": "希望得到讲解",
+        "Sentiment": "positive",
+        "Rationale": "1希望了解事情的内容"
+    },
+    {
+        "sentence": "一句话，这件事是只有成年人才能做的事儿，少儿不宜。",
+        "Holder": "2",
+        "Target": "这件事",
+        "Aspect": "适宜人群",
+        "Opinion": "只适合成年人",
+        "Sentiment": "neutral",
+        "Rationale": "2认为这件事不适合未成年人"
+    },
+    {
+        "sentence": "可是我马上就成人了，再说了，早点接触这种教育也没有什么坏处，你看我能不能？",
+        "Holder": "1",
+        "Target": "接触教育的时间",
+        "Aspect": "早接触的合理性",
+        "Opinion": "认为早接触有益",
+        "Sentiment": "positive",
+        "Rationale": "1认为自己即将成年且早接触有益"
+    },
+    {
+        "sentence": "忘了吗，你连初中还没毕业呢，跟着瞎凑合什么呀哎。",
+        "Holder": "2",
+        "Target": "1的年龄和学历",
+        "Aspect": "参与资格",
+        "Opinion": "认为1不具备资格",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的年龄和学历不够"
+    },
+    {
+        "sentence": "可，可是我心里已经成熟了呀。",
+        "Holder": "1",
+        "Target": "自己的心理成熟度",
+        "Aspect": "心理成熟",
+        "Opinion": "认为自己心理成熟",
+        "Sentiment": "positive",
+        "Rationale": "1认为自己心理上已经成熟"
+    },
+    {
+        "sentence": "行了行了，别瞎搅和了。",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为对方在瞎搅和",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为被认为是无意义的搅和"
+    },
+    {
+        "sentence": "走啊你",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行动的催促",
+        "Opinion": "催促对方离开",
+        "Sentiment": "neutral",
+        "Rationale": "需要对方离开"
+    },
+    {
+        "sentence": "妈我那个出去一趟干嘛去啊？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行动的目的",
+        "Opinion": "询问行动的目的",
+        "Sentiment": "neutral",
+        "Rationale": "不确定自己出去的目的"
+    },
+    {
+        "sentence": "干嘛去这么晚了我饭菜都快做好。",
+        "Holder": "3",
+        "Target": "2的行动",
+        "Aspect": "行动的时间",
+        "Opinion": "认为时间太晚",
+        "Sentiment": "negative",
+        "Rationale": "2在饭菜快做好时提出出去"
+    },
+    {
+        "sentence": "不用了，你们先吃吧，我出去一趟很晚才能回来呢",
+        "Holder": "2",
+        "Target": "家人的等待",
+        "Aspect": "等待的必要性",
+        "Opinion": "认为不需要等待",
+        "Sentiment": "neutral",
+        "Rationale": "知道自己会回来得很晚"
+    },
+    {
+        "sentence": "今天打扮的怎么跟电影演员似的。",
+        "Holder": "4",
+        "Target": "2的打扮",
+        "Aspect": "打扮的风格",
+        "Opinion": "像电影演员",
+        "Sentiment": "positive",
+        "Rationale": "2的打扮非常引人注目"
+    },
+    {
+        "sentence": "我像演那个电影里的",
+        "Holder": "2",
+        "Target": "自己的打扮",
+        "Aspect": "打扮的相似度",
+        "Opinion": "像某个电影角色",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应4的评论"
+    },
+    {
+        "sentence": "怪物总动员。",
+        "Holder": "4",
+        "Target": "2的打扮",
+        "Aspect": "具体的电影角色",
+        "Opinion": "像怪物总动员的角色",
+        "Sentiment": "positive",
+        "Rationale": "4觉得2的打扮有趣"
+    },
+    {
+        "sentence": "好好好，不闹。哎，小雪，你打扮成这样你干嘛去呀？",
+        "Holder": "5",
+        "Target": "2的打扮",
+        "Aspect": "打扮的目的",
+        "Opinion": "好奇打扮的原因",
+        "Sentiment": "neutral",
+        "Rationale": "5对2的打扮感到好奇"
+    },
+    {
+        "sentence": "我怎么说呢，应该算是去学习吧。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的目的",
+        "Opinion": "去学习",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的行为目的"
+    },
+    {
+        "sentence": "学习就学习吧，你戴个大墨镜干嘛？你也不怕出门摔着。",
+        "Holder": "4",
+        "Target": "2的墨镜",
+        "Aspect": "墨镜的实用性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得戴墨镜学习不合适且可能影响视线导致摔倒"
+    },
+    {
+        "sentence": "这不显成熟一些吗？",
+        "Holder": "2",
+        "Target": "自己戴墨镜",
+        "Aspect": "成熟度",
+        "Opinion": "显得成熟",
+        "Sentiment": "positive",
+        "Rationale": "认为戴墨镜能显得更成熟"
+    },
+    {
+        "sentence": "我不跟你们说了，我该迟到了，我走了，走了",
+        "Holder": "2",
+        "Target": "自己的时间",
+        "Aspect": "时间紧迫",
+        "Opinion": "需要赶时间",
+        "Sentiment": "neutral",
+        "Rationale": "担心迟到"
+    },
+    {
+        "sentence": "爸爸，您，您怎么不拦着她？",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "阻止行为",
+        "Opinion": "应该阻止",
+        "Sentiment": "negative",
+        "Rationale": "觉得爸爸应该阻止2离开"
+    },
+    {
+        "sentence": "我干嘛要拦着她呀？不是你没听人家说要学习去吗？",
+        "Holder": "5",
+        "Target": "4的质疑",
+        "Aspect": "阻止的必要性",
+        "Opinion": "不需要阻止",
+        "Sentiment": "neutral",
+        "Rationale": "认为2是要去学习"
+    },
+    {
+        "sentence": "万一再出点事儿。",
+        "Holder": "1",
+        "Target": "可能发生的事情",
+        "Aspect": "安全性",
+        "Opinion": "担忧",
+        "Sentiment": "negative",
+        "Rationale": "担心可能会发生不好的事情"
+    },
+    {
+        "sentence": "那我就出去保护大姐了。这也算啊，出去学习",
+        "Holder": "1",
+        "Target": "保护大姐",
+        "Aspect": "责任与学习",
+        "Opinion": "认为保护大姐也是学习",
+        "Sentiment": "positive",
+        "Rationale": "觉得保护大姐是一种责任，同时也算是一种学习"
+    },
+    {
+        "sentence": "我也出去保护她，也算是学习。",
+        "Holder": "4",
+        "Target": "保护大姐",
+        "Aspect": "责任与学习",
+        "Opinion": "认为保护大姐也是学习",
+        "Sentiment": "positive",
+        "Rationale": "认同保护大姐是一种责任，同时也算是一种学习"
+    },
+    {
+        "sentence": "小雨小心点，这什么孩子",
+        "Holder": "5",
+        "Target": "小雨",
+        "Aspect": "行为的安全性",
+        "Opinion": "担心小雨的安全",
+        "Sentiment": "negative",
+        "Rationale": "担心小雨可能会遇到危险"
+    },
+    {
+        "sentence": "梅梅，别做那么多了，仨小子都跑出去了。",
+        "Holder": "5",
+        "Target": "梅梅",
+        "Aspect": "工作量",
+        "Opinion": "建议梅梅减少工作量",
+        "Sentiment": "neutral",
+        "Rationale": "看到其他孩子都出去了，觉得梅梅不需要做那么多"
+    },
+    {
+        "sentence": "怎么都出去了？你怎么不看着点",
+        "Holder": "3",
+        "Target": "5的看管责任",
+        "Aspect": "看管的有效性",
+        "Opinion": "没有看好",
+        "Sentiment": "negative",
+        "Rationale": "发现孩子们都出去了而5没有看好"
+    },
+    {
+        "sentence": "我也得拦得住啊，这一个一个跟飞毛腿似得",
+        "Holder": "5",
+        "Target": "孩子们的行动",
+        "Aspect": "行动的速度",
+        "Opinion": "孩子们行动迅速",
+        "Sentiment": "neutral",
+        "Rationale": "孩子们行动太快难以拦住"
+    },
+    {
+        "sentence": "哈怎么当爸爸呢？这是几点了都没吃饭呢？我炒了这么多菜",
+        "Holder": "3",
+        "Target": "5的父职表现",
+        "Aspect": "照顾孩子的饮食",
+        "Opinion": "没有尽到责任",
+        "Sentiment": "negative",
+        "Rationale": "孩子们没按时吃饭而5没有注意到"
+    },
+    {
+        "sentence": "这事也怪我，你再怪我我也出门看书去了。",
+        "Holder": "5",
+        "Target": "自己的责任",
+        "Aspect": "责任承担",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "被责备而感到无奈"
+    },
+    {
+        "sentence": "哎呀，怎么会一转眼就没",
+        "Holder": "1",
+        "Target": "孩子们的消失",
+        "Aspect": "消失的速度",
+        "Opinion": "突然消失",
+        "Sentiment": "negative",
+        "Rationale": "孩子们突然消失感到惊讶和困惑"
+    },
+    {
+        "sentence": "干嘛去了你们俩。",
+        "Holder": "5",
+        "Target": "3和另一人",
+        "Aspect": "行动去向",
+        "Opinion": "询问去向",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问去向，没有表现出明显的情绪"
+    },
+    {
+        "sentence": "去去去，赶快洗手吃饭。孩子，怎么回事啊？哎，夏东海。嗯，我怎么觉得今天小雪有点不大对劲啊？",
+        "Holder": "3",
+        "Target": "小雪",
+        "Aspect": "行为和状态",
+        "Opinion": "觉得不对劲",
+        "Sentiment": "doubt",
+        "Rationale": "观察到小雪的行为与平时不同"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "询问原因",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回应询问，没有表现出明显的情绪"
+    },
+    {
+        "sentence": "你说这都6点多了，吃饭点。她不吃饭出去干嘛？去？",
+        "Holder": "3",
+        "Target": "小雪",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "小雪在吃饭时间不吃饭而外出"
+    },
+    {
+        "sentence": "反正跟我说是去同学家学习去，我估计，嗯，肯定是约了一帮同学在那儿聚会呢，没事",
+        "Holder": "5",
+        "Target": "小雪",
+        "Aspect": "行为推测",
+        "Opinion": "推测是聚会",
+        "Sentiment": "neutral",
+        "Rationale": "根据小雪的说法和自己的估计，认为她可能是去聚会，但没有表现出明显的情绪"
+    }
+]

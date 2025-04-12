@@ -1,0 +1,107 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "审计结果通报与责任归属",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "承认自身管理疏失并接受警告",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主动为许峰争取岗位调整机会",
+            "source_id": "2,3"
+          }
+        ]
+      },
+      {
+        "event": "地产项目资金争议",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑集团子公司借款利率合理性",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "重大违纪处理决策",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持审计结果通报会议流程",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "决定调整西风工作岗位",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "最终批准许峰岗位调整方案",
+            "source_id": "1,3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "违纪人员处置提案",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "坚持从严处理杜波挪用公款",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "主张严惩许峰数据泄露事件",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "服从最终岗位调整决策",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "违纪处罚争议调解",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对过度处罚许峰的功过失衡",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "会议过程观察评价",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞赏会议筹备与决策过程",
+            "source_id": "2,1"
+          }
+        ]
+      }
+    ]
+  }
+}

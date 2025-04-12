@@ -1,0 +1,254 @@
+[
+    {
+        "sentence": "你妈怎么劝都止不住哭，而且我跟她说美国多好啊怎么说都不行，跟我说以后谁要劝我去美国我就跟他急",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "情绪控制",
+        "Opinion": "无法止住哭",
+        "Sentiment": "negative",
+        "Rationale": "妈妈无法控制自己的情绪，一直哭泣"
+    },
+    {
+        "sentence": "说什么呢",
+        "Holder": "3",
+        "Target": "1的话",
+        "Aspect": "内容理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "3没有听清楚1的话"
+    },
+    {
+        "sentence": "梅梅你都听见了",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "听力",
+        "Opinion": "听见了",
+        "Sentiment": "neutral",
+        "Rationale": "1确认3听到了之前的话"
+    },
+    {
+        "sentence": "合起伙来骗我是不是啊？我上套了是吧？正式通知你啊，美国我是去定了。我不光去，我还早去，越早越好",
+        "Holder": "3",
+        "Target": "1和妈妈",
+        "Aspect": "诚信",
+        "Opinion": "被欺骗",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己被1和妈妈合伙欺骗"
+    },
+    {
+        "sentence": "李先生，坐坐坐",
+        "Holder": "3",
+        "Target": "李先生",
+        "Aspect": "行为",
+        "Opinion": "邀请坐下",
+        "Sentiment": "positive",
+        "Rationale": "表现出礼貌和热情"
+    },
+    {
+        "sentence": "老婆大人还生气呢。好了好了，我代表我自己还有孩子们，来给我老婆也道个歉",
+        "Holder": "1",
+        "Target": "老婆",
+        "Aspect": "情绪",
+        "Opinion": "老婆还在生气",
+        "Sentiment": "negative",
+        "Rationale": "老婆还在生气"
+    },
+    {
+        "sentence": "道歉，这是为什么呀？",
+        "Holder": "2",
+        "Target": "道歉行为",
+        "Aspect": "原因",
+        "Opinion": "不明白原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚为什么要道歉"
+    },
+    {
+        "sentence": "你没跟李先生说呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "信息传达",
+        "Opinion": "没有传达",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问是否传达了信息"
+    },
+    {
+        "sentence": "说什么呀？",
+        "Holder": "3",
+        "Target": "对话内容",
+        "Aspect": "对话的合理性",
+        "Opinion": "质疑对话内容",
+        "Sentiment": "neutral",
+        "Rationale": "对对话内容感到困惑"
+    },
+    {
+        "sentence": "好啦，大人不计小人过，我错了还不行，不管我和孩子们说错了什么，做错了什么，你就念在我们是初犯的份上。别忘心里去了行吗，反正我们的出发点你也知道，这不是舍不得你吗？",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "请求原谅的理由",
+        "Opinion": "请求对方原谅",
+        "Sentiment": "positive",
+        "Rationale": "认识到自己的错误并诚恳请求原谅"
+    },
+    {
+        "sentence": "夏先生，看来你们有一点小矛盾，是吧？嗨，中国有句老话说的好，夫妻本无隔夜仇。咱们喝的这杯酒一切就都化解了。",
+        "Holder": "2",
+        "Target": "矛盾",
+        "Aspect": "矛盾的化解",
+        "Opinion": "通过喝酒化解矛盾",
+        "Sentiment": "positive",
+        "Rationale": "引用了中国传统观念来化解矛盾"
+    },
+    {
+        "sentence": "来来来，敬李大大酒啊，哈哈哈。赶紧吃，来尝尝。",
+        "Holder": "1",
+        "Target": "李大大",
+        "Aspect": "敬酒",
+        "Opinion": "邀请李大大喝酒",
+        "Sentiment": "positive",
+        "Rationale": "通过敬酒来缓和气氛"
+    },
+    {
+        "sentence": "尝尝夏先生哈，你看你们这一家。多温馨呐，我真的好羡慕你们",
+        "Holder": "2",
+        "Target": "夏先生一家",
+        "Aspect": "家庭氛围",
+        "Opinion": "羡慕家庭的温馨",
+        "Sentiment": "positive",
+        "Rationale": "看到温馨的家庭氛围"
+    },
+    {
+        "sentence": "不过，嗯，有句话不知当讲不当讲，您说我看这个刘女士有些不高兴，她到底为什么呀？",
+        "Holder": "2",
+        "Target": "刘女士",
+        "Aspect": "情绪状态",
+        "Opinion": "不高兴",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚刘女士为何不高兴"
+    },
+    {
+        "sentence": "还不是都为了您？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "刘女士不高兴的原因",
+        "Opinion": "与2有关",
+        "Sentiment": "negative",
+        "Rationale": "认为刘女士的不高兴与2有关"
+    },
+    {
+        "sentence": "为什么？",
+        "Holder": "2",
+        "Target": "4的回答",
+        "Aspect": "原因的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "不明白4为何这样说"
+    },
+    {
+        "sentence": "我妈不是要去美国吗？我们都不同意去。",
+        "Holder": "4",
+        "Target": "刘女士去美国",
+        "Aspect": "家庭意见",
+        "Opinion": "不同意",
+        "Sentiment": "negative",
+        "Rationale": "全家都不同意刘女士去美国"
+    },
+    {
+        "sentence": "小雨别瞎说。",
+        "Holder": "3",
+        "Target": "4的说法",
+        "Aspect": "说法的真实性",
+        "Opinion": "不真实",
+        "Sentiment": "negative",
+        "Rationale": "认为4的说法不真实"
+    },
+    {
+        "sentence": "刘女士。你没跟他们说呀？",
+        "Holder": "2",
+        "Target": "刘女士",
+        "Aspect": "是否告知他人",
+        "Opinion": "未告知",
+        "Sentiment": "neutral",
+        "Rationale": "2只是询问刘女士是否告知他人"
+    },
+    {
+        "sentence": "我懒得跟他们说。",
+        "Holder": "3",
+        "Target": "告知他人",
+        "Aspect": "态度",
+        "Opinion": "懒得告知",
+        "Sentiment": "negative",
+        "Rationale": "3觉得告知他人麻烦"
+    },
+    {
+        "sentence": "什么什么",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "1没有听清楚对话内容"
+    },
+    {
+        "sentence": "是这么回事，原本我大病初愈，担心自己的身体恢复不好，所以就想请刘女士陪我去美国再照顾我一段时间，谁想这个身体恢复的还不错，再加上女儿从法国打来电话，她不愿意我在美国一个人呆着，没法照顾我，所以就请我去法国，由她来照顾我。这样一来我也就不麻烦刘女士陪我回美国了。",
+        "Holder": "2",
+        "Target": "刘女士",
+        "Aspect": "陪伴需求",
+        "Opinion": "不再需要陪伴",
+        "Sentiment": "positive",
+        "Rationale": "2的身体恢复良好且女儿愿意照顾"
+    },
+    {
+        "sentence": "真的，太好了，你怎么不告诉我们，诚心报复是吧？这太好了，这真是天大的喜事。好，李先生，我必须得好好谢谢你，谢谢你让我老婆又留在我身边了，谢谢，谢谢。",
+        "Holder": "1",
+        "Target": "2的决定",
+        "Aspect": "影响",
+        "Opinion": "非常高兴",
+        "Sentiment": "positive",
+        "Rationale": "1得知刘女士可以留在身边"
+    },
+    {
+        "sentence": "你谢我干什么呀？我应该好好的，谢谢刘女士，我这条命就是在这捡回来的。还多亏了咱们刘女士照顾我，非常非常的体贴细致，我都不知道怎么谢谢你们好了。",
+        "Holder": "2",
+        "Target": "刘女士",
+        "Aspect": "照顾和体贴",
+        "Opinion": "非常感激",
+        "Sentiment": "positive",
+        "Rationale": "刘女士的体贴细致照顾让2感到生命得以挽救"
+    },
+    {
+        "sentence": "谢什么呀，这都应该的嘛。哈哈，那这样吧，我代表我们全家算是给您践行，希望您以后健健康康。对，心情愉快。没事常回过来走动走动。对，也欢迎再次来我们家做客。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "感谢和祝福",
+        "Opinion": "认为应该的并给予祝福",
+        "Sentiment": "positive",
+        "Rationale": "1认为对2的照顾是应该的，并且希望2未来健康快乐"
+    },
+    {
+        "sentence": "我也热情地邀请你们全家去美国，去法国玩一趟。",
+        "Holder": "2",
+        "Target": "1全家",
+        "Aspect": "邀请旅游",
+        "Opinion": "热情邀请",
+        "Sentiment": "positive",
+        "Rationale": "2对1全家的照顾心存感激"
+    },
+    {
+        "sentence": "另外明天我还邀请你们全家和照顾过我的医务人员一块好好的吃一顿。你们想吃什么？",
+        "Holder": "2",
+        "Target": "1全家和医务人员",
+        "Aspect": "邀请聚餐",
+        "Opinion": "希望共享美食",
+        "Sentiment": "positive",
+        "Rationale": "2希望表达对1全家和医务人员的感谢"
+    },
+    {
+        "sentence": "披萨披萨",
+        "Holder": "4",
+        "Target": "聚餐食物选择",
+        "Aspect": "食物偏好",
+        "Opinion": "喜欢披萨",
+        "Sentiment": "positive",
+        "Rationale": "4对披萨有特别的喜好"
+    }
+]

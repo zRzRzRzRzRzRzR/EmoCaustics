@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚姻关系破裂危机",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责对方生活习惯恶劣|质疑婚姻维持必要性|因子女勉强维持关系",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "怀疑对方有外遇",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "日常矛盾积累爆发",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "厌恶生活细节冲突|无法忍受性格差异|长期沟通无效",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "婚姻价值认知冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指控外遇|长期迁就未被认可",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "为孩子忍耐婚姻",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "沟通模式对立",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "玩笑被严肃对待|决策权被剥夺感",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

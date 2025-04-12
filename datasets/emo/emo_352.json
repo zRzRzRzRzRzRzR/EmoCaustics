@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "音量调整争议",
+        "emotions": [
+          {"state": "neutral", "reason": "反复强调已调至最小音量", "source_id": "2,4"},
+          {"state": "negative", "reason": "被质疑未考虑他人感受", "source_id": "3,4"},
+          {"state": "neutral", "reason": "最后确认调整完成", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "双重标准指责",
+        "emotions": [
+          {"state": "negative", "reason": "指出对方过往噪音问题", "source_id": "3,4"},
+          {"state": "neutral", "reason": "强调物品非专属所有", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "睡眠干扰冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "提出音量调整请求", "source_id": "3"},
+          {"state": "negative", "reason": "被拒绝后情绪升级", "source_id": "3,4"},
+          {"state": "positive", "reason": "短暂嘲讽性回应", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "道德原则争论",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方双重标准", "source_id": "1,3"},
+          {"state": "neutral", "reason": "最终结束沟通尝试", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "游戏权利维护",
+        "emotions": [
+          {"state": "negative", "reason": "坚持周末游戏权利", "source_id": "2,4"},
+          {"state": "negative", "reason": "质疑宿舍使用权限制", "source_id": "2,4"}
+        ]
+      },
+      {
+        "event": "公平性抗争",
+        "emotions": [
+          {"state": "negative", "reason": "反对作息时间限制", "source_id": "2"},
+          {"state": "negative", "reason": "要求互相体谅", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "话语权争夺",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对话公平性", "source_id": "3"},
+          {"state": "negative", "reason": "反对作息时间限制", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "否认相关指控", "source_id": "2"},
+          {"state": "neutral", "reason": "确认音量调整结果", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

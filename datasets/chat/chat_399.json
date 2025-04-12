@@ -1,0 +1,209 @@
+[
+    {
+        "sentence": "来咱们看这道题，司马一你给我站起来，我搁这讲题你睡觉，我昨天说啥了？还有昨天放学你干什么去了？",
+        "Holder": "1",
+        "Target": "司马一的行为",
+        "Aspect": "课堂表现",
+        "Opinion": "不应该睡觉",
+        "Sentiment": "negative",
+        "Rationale": "司马一在课堂上睡觉，违反了课堂纪律"
+    },
+    {
+        "sentence": "我回家了。主任",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "放学后的去向",
+        "Opinion": "回家了",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回答了问题，没有表现出特别的情绪"
+    },
+    {
+        "sentence": "回家，马一啊我可知道你昨天上网去了，你知道这事现在多大吗？我昨天怎么跟你说的，今天早上校长告诉我，你保送名额被取消了",
+        "Holder": "1",
+        "Target": "司马一的行为",
+        "Aspect": "放学后的活动",
+        "Opinion": "不应该上网",
+        "Sentiment": "negative",
+        "Rationale": "司马一上网导致保送名额被取消"
+    },
+    {
+        "sentence": "不好意思迟到了，大伙把书拿出来，你在那干啥呢？",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "迟到和课堂准备",
+        "Opinion": "抱歉迟到",
+        "Sentiment": "negative",
+        "Rationale": "迟到并且没有准备好上课"
+    },
+    {
+        "sentence": "马一你没来，我就先替你带早读了，",
+        "Holder": "2",
+        "Target": "马一",
+        "Aspect": "早读",
+        "Opinion": "代替马一带早读",
+        "Sentiment": "neutral",
+        "Rationale": "马一没来"
+    },
+    {
+        "sentence": "谁让你带的我没到你就带，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "带早读的权限",
+        "Opinion": "反对2代替带早读",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有权利在自己没到的情况下带早读"
+    },
+    {
+        "sentence": "我让的你有什么意见？来晚了你还有理了，回座去走，你也先回去。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "来晚的态度",
+        "Opinion": "批评1来晚",
+        "Sentiment": "negative",
+        "Rationale": "1来晚了还质疑2的行为"
+    },
+    {
+        "sentence": "司马一你给主任个信儿，你还能念不？成绩下滑那么厉害，脾气倒是上涨了，你得调整自己知道了，主任你这样下节课去我办公室帮我把卷子批了，",
+        "Holder": "2",
+        "Target": "马一",
+        "Aspect": "成绩和态度",
+        "Opinion": "批评马一成绩下滑和态度问题",
+        "Sentiment": "negative",
+        "Rationale": "马一成绩下滑且脾气变差"
+    },
+    {
+        "sentence": "主任我也去，我觉得马一一个人批太辛苦了，人多力量大，我也去帮帮忙",
+        "Holder": "3",
+        "Target": "马一",
+        "Aspect": "批卷子的辛苦",
+        "Opinion": "愿意帮忙批卷子",
+        "Sentiment": "positive",
+        "Rationale": "觉得马一一个人批卷子太辛苦"
+    },
+    {
+        "sentence": "行，你俩就一起去，来一人一半不着急，批累了就歇会儿，我先去开个会，批完了你俩就自己吃饭去",
+        "Holder": "3",
+        "Target": "工作分配",
+        "Aspect": "工作安排的合理性",
+        "Opinion": "合理分配",
+        "Sentiment": "neutral",
+        "Rationale": "对工作进行了合理的分配"
+    },
+    {
+        "sentence": "昨天我都问网吧了，就是他举报的",
+        "Holder": "4",
+        "Target": "举报行为",
+        "Aspect": "举报者的身份",
+        "Opinion": "确认举报者",
+        "Sentiment": "negative",
+        "Rationale": "确认了举报者"
+    },
+    {
+        "sentence": "为啥只举报马一不举报人这么说的话，他真就针对马一，主要他俩不认识无冤无仇，他老别人马一干啥要",
+        "Holder": "5",
+        "Target": "举报行为",
+        "Aspect": "举报的针对性",
+        "Opinion": "质疑举报动机",
+        "Sentiment": "negative",
+        "Rationale": "不理解为什么只举报马一"
+    },
+    {
+        "sentence": "听我的，咱这么的。",
+        "Holder": "6",
+        "Target": "建议",
+        "Aspect": "建议的提出",
+        "Opinion": "提出建议",
+        "Sentiment": "neutral",
+        "Rationale": "提出了自己的建议"
+    },
+    {
+        "sentence": "吃一个这点该饿了，",
+        "Holder": "2",
+        "Target": "饥饿感",
+        "Aspect": "饥饿的时间",
+        "Opinion": "感到饥饿",
+        "Sentiment": "neutral",
+        "Rationale": "到了饭点感到饥饿"
+    },
+    {
+        "sentence": "我不饿，谢谢。",
+        "Holder": "说话人1",
+        "Target": "食物",
+        "Aspect": "饥饿状态",
+        "Opinion": "不饿",
+        "Sentiment": "neutral",
+        "Rationale": "没有感到饥饿"
+    },
+    {
+        "sentence": "不吃算了，我批完了，看你的速度，午饭前也批不完，",
+        "Holder": "3",
+        "Target": "说话人2的工作速度",
+        "Aspect": "工作效率",
+        "Opinion": "效率低",
+        "Sentiment": "negative",
+        "Rationale": "说话人2的工作速度慢"
+    },
+    {
+        "sentence": "我得对同学们成绩负责，不像某些人负责。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "责任感",
+        "Opinion": "有责任感",
+        "Sentiment": "positive",
+        "Rationale": "认为自己对同学们的成绩负责"
+    },
+    {
+        "sentence": "你自己就考650能对谁负责，不是你你是不是以为你很厉害，也是跟你那帮哥们相比你确实很厉害，但司马一我告诉你，你在我眼里真得很垃圾，",
+        "Holder": "3",
+        "Target": "说话人2",
+        "Aspect": "能力和自我认知",
+        "Opinion": "能力不足且自大",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人2的成绩和能力不足以支撑其责任感，并且觉得其自大"
+    },
+    {
+        "sentence": "我是不是在哪见过你？",
+        "Holder": "2",
+        "Target": "说话人3",
+        "Aspect": "熟悉度",
+        "Opinion": "似曾相识",
+        "Sentiment": "neutral",
+        "Rationale": "觉得说话人3面熟"
+    },
+    {
+        "sentence": "说话人3 03:05",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "没有具体内容"
+    },
+    {
+        "sentence": "我本以为你是个势均力敌的对手，没想到司马一是我高看你了，答700多分都费劲，还想保送你做梦。",
+        "Holder": "说话人",
+        "Target": "司马一",
+        "Aspect": "能力和潜力",
+        "Opinion": "能力不足",
+        "Sentiment": "negative",
+        "Rationale": "司马一的实际能力没有达到预期"
+    },
+    {
+        "sentence": "司马一你也就能在这种学校假装一下三好学生，搞那种积极向上的人设一耳朵恶心。",
+        "Holder": "说话人",
+        "Target": "司马一",
+        "Aspect": "人设和表现",
+        "Opinion": "虚伪",
+        "Sentiment": "negative",
+        "Rationale": "认为司马一在学校的表现是假装的"
+    },
+    {
+        "sentence": "我告诉你，我在这个学校一天保送就没你的份儿。",
+        "Holder": "说话人",
+        "Target": "司马一",
+        "Aspect": "保送资格",
+        "Opinion": "自己有决定权",
+        "Sentiment": "negative",
+        "Rationale": "自己有能力决定保送资格"
+    }
+]

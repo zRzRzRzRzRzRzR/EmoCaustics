@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "感情与法律单身定义的冲突",
+        "emotions": [
+          {"state": "positive", "reason": "主张法律层面的单身自由", "source_id": "2,3,4"},
+          {"state": "negative", "reason": "被指责自作聪明与隐瞒行为", "source_id": "2,3"},
+          {"state": "neutral", "reason": "确认众人对卫海事件的知情", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对顾里行为的公开谴责",
+        "emotions": [
+          {"state": "negative", "reason": "揭露顾里与席城的关系并表达怨恨", "source_id": "1,6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "卫海感情状况的隐瞒",
+        "emotions": [
+          {"state": "neutral", "reason": "承认知情但未主动告知", "source_id": "1"},
+          {"state": "negative", "reason": "反讽林萧与顾里的秘密关系", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "简溪隐私泄露的争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑多管闲事与隐私曝光", "source_id": "1,5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "画室喂咖啡事件的讽刺",
+        "emotions": [
+          {"state": "negative", "reason": "反击简溪并揭露其尴尬行为", "source_id": "4"},
+          {"state": "negative", "reason": "指责顾源与简溪的密切关系", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "顾里与席城事件的揭露",
+        "emotions": [
+          {"state": "negative", "reason": "混合感激与怨恨的复杂情绪", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

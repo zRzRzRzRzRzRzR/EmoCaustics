@@ -1,0 +1,470 @@
+[
+    {
+        "sentence": "阿姨这是咨询的吗？",
+        "Holder": "1",
+        "Target": "咨询",
+        "Aspect": "咨询的性质",
+        "Opinion": "询问是否为咨询",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问是否为咨询"
+    },
+    {
+        "sentence": "是，来坐下坐下哈，咨询的吧。坐坐坐，东海一走就来人，真怪了。",
+        "Holder": "2",
+        "Target": "咨询",
+        "Aspect": "咨询的时机",
+        "Opinion": "确认是咨询并觉得时机巧合",
+        "Sentiment": "ambiguous",
+        "Rationale": "2确认了是咨询并且对东海一走就来人感到奇怪"
+    },
+    {
+        "sentence": "咨询什么呀？",
+        "Holder": "1",
+        "Target": "咨询内容",
+        "Aspect": "咨询的具体内容",
+        "Opinion": "询问咨询内容",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问具体的咨询内容"
+    },
+    {
+        "sentence": "给钱吗",
+        "Holder": "2",
+        "Target": "咨询费用",
+        "Aspect": "是否收费",
+        "Opinion": "询问是否收费",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问是否需要付费"
+    },
+    {
+        "sentence": "不，不给钱哈，不要钱。我们这是免费咨询",
+        "Holder": "1",
+        "Target": "咨询费用",
+        "Aspect": "是否收费",
+        "Opinion": "明确表示免费",
+        "Sentiment": "positive",
+        "Rationale": "1明确表示咨询是免费的"
+    },
+    {
+        "sentence": "这怎么行？怎么着一次也得给个百八十吧？",
+        "Holder": "2",
+        "Target": "报酬",
+        "Aspect": "报酬的合理性",
+        "Opinion": "认为报酬应更高",
+        "Sentiment": "negative",
+        "Rationale": "觉得百八十的报酬才算合理"
+    },
+    {
+        "sentence": "唉呦，瞧瞧你这孩子，多实诚啊。你要是非给",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "诚实",
+        "Opinion": "认为2很实诚",
+        "Sentiment": "positive",
+        "Rationale": "觉得2提出报酬要求是实诚的表现"
+    },
+    {
+        "sentence": "你给我钱",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "金钱要求",
+        "Opinion": "要求1给钱",
+        "Sentiment": "neutral",
+        "Rationale": "直接提出要求，没有明显的情感色彩"
+    },
+    {
+        "sentence": "我给你钱。你朝我咨询，我凭什么给你钱呢？我有病啊。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "合理性",
+        "Opinion": "认为2的要求不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得被要求给钱是不合理的"
+    },
+    {
+        "sentence": "你有病。你一病人给我看病，那更得给我加钱。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "报酬",
+        "Opinion": "应该多给钱",
+        "Sentiment": "negative",
+        "Rationale": "因为觉得1作为病人来咨询，更应该多支付报酬，所以语气中带有不满和讽刺"
+    },
+    {
+        "sentence": "你这孩子，你能不能不张口闭口都提钱",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "提钱的频率",
+        "Opinion": "不应该频繁提钱",
+        "Sentiment": "negative",
+        "Rationale": "2频繁提到钱，让1感到不舒服"
+    },
+    {
+        "sentence": "那哪成啊，没钱网吧能让我进去吗？",
+        "Holder": "2",
+        "Target": "网吧",
+        "Aspect": "进入网吧的条件",
+        "Opinion": "需要钱才能进入",
+        "Sentiment": "neutral",
+        "Rationale": "网吧需要付费才能进入"
+    },
+    {
+        "sentence": "闹了半天，你想在我这挣点钱上网吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "目的",
+        "Opinion": "2的目的是挣钱上网吧",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的目的是为了挣钱上网吧"
+    },
+    {
+        "sentence": "也不完全是嗯。我也想咨询。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "目的",
+        "Opinion": "不仅为了挣钱，也想咨询",
+        "Sentiment": "neutral",
+        "Rationale": "2解释了自己的目的不仅仅是挣钱，还有咨询"
+    },
+    {
+        "sentence": "真想咨询。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "目的",
+        "Opinion": "确实想咨询",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己确实有咨询的需求"
+    },
+    {
+        "sentence": "那成，那咱就开始说说你想咨询什么。",
+        "Holder": "1",
+        "Target": "咨询内容",
+        "Aspect": "开始对话",
+        "Opinion": "准备开始",
+        "Sentiment": "neutral",
+        "Rationale": "准备开始对话"
+    },
+    {
+        "sentence": "我想打人。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "意图",
+        "Opinion": "想要打人",
+        "Sentiment": "negative",
+        "Rationale": "表达了想要打人的冲动"
+    },
+    {
+        "sentence": "你要打谁呀？你要干什么？夏东海，快来呀。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为对象和目的",
+        "Opinion": "质疑和求助",
+        "Sentiment": "negative",
+        "Rationale": "对2想要打人的行为感到惊讶和担忧"
+    },
+    {
+        "sentence": "我不打你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为对象",
+        "Opinion": "不打1",
+        "Sentiment": "neutral",
+        "Rationale": "明确表示不打1"
+    },
+    {
+        "sentence": "那你打谁啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为对象",
+        "Opinion": "询问对象",
+        "Sentiment": "neutral",
+        "Rationale": "继续询问2打谁"
+    },
+    {
+        "sentence": "我是上电脑游戏里打人。",
+        "Holder": "2",
+        "Target": "电脑游戏",
+        "Aspect": "游戏内容",
+        "Opinion": "打人",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述自己在游戏中的行为，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我以为你要打我呢，你这坐下吧，我心想我挺大岁数，我坐着还爱受打。你上电脑游戏里打人，你干嘛不说清楚了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为误解",
+        "Opinion": "误解为真实打人",
+        "Sentiment": "negative",
+        "Rationale": "误以为2要真的打自己"
+    },
+    {
+        "sentence": "我倒说得了，刚一张嘴就让您给我擒拿了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "反应速度",
+        "Opinion": "被迅速制止",
+        "Sentiment": "negative",
+        "Rationale": "刚想解释就被1迅速制止"
+    },
+    {
+        "sentence": "我这出手倒是快了点。来，小伙子，说，你想咨询什么？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "反应速度",
+        "Opinion": "出手快",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己反应过快，但没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我的心里一直有个嘎哒叫不开。我爸我妈教学费的钱都上网打游戏了，我觉得我对不起我妈。我不想活了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "内心感受",
+        "Opinion": "对不起父母",
+        "Sentiment": "negative",
+        "Rationale": "觉得浪费了父母的钱并且对不起母亲"
+    },
+    {
+        "sentence": "你别哭，你瞧你这大街上，你这一哭我们多难受，让人看着多不好。别难受，小伙子，你看阿姨回头给你想想办法啊。",
+        "Holder": "1",
+        "Target": "小伙子",
+        "Aspect": "情绪控制",
+        "Opinion": "不应该在大街上哭",
+        "Sentiment": "negative",
+        "Rationale": "在大街上哭会让周围的人感到难受，影响不好"
+    },
+    {
+        "sentence": "谁哟？来来来来来，请进请进。",
+        "Holder": "1",
+        "Target": "来访者",
+        "Aspect": "接待态度",
+        "Opinion": "热情欢迎",
+        "Sentiment": "positive",
+        "Rationale": "有人来访，阿姨表现出热情欢迎的态度"
+    },
+    {
+        "sentence": "阿姨，这是我妈。",
+        "Holder": "2",
+        "Target": "阿姨",
+        "Aspect": "介绍身份",
+        "Opinion": "介绍母亲",
+        "Sentiment": "neutral",
+        "Rationale": "需要向阿姨介绍自己的母亲"
+    },
+    {
+        "sentence": "您好您好",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "见到小伙子的母亲，阿姨礼貌地问候"
+    },
+    {
+        "sentence": "嗯，他回去把实话都跟我们说了，我们，我和他爸爸也都原谅他了啊。再给他一次机会，但是他一定要好好学习。",
+        "Holder": "4",
+        "Target": "小伙子",
+        "Aspect": "教育和原谅",
+        "Opinion": "给予机会但要求好好学习",
+        "Sentiment": "positive",
+        "Rationale": "小伙子已经承认错误并得到了父母的原谅"
+    },
+    {
+        "sentence": "阿姨。妈妈已经帮我把学费都交齐了，我也向他们保证了，我以后一定改。",
+        "Holder": "2",
+        "Target": "学费和保证",
+        "Aspect": "学费缴纳和改正承诺",
+        "Opinion": "已经交齐学费并承诺改正",
+        "Sentiment": "positive",
+        "Rationale": "妈妈已经帮交齐了学费，并且自己做出了改正的承诺"
+    },
+    {
+        "sentence": "瞧瞧这孩子，都是好孩子啊。行了，再给个机会啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "孩子的表现",
+        "Opinion": "认可孩子是好孩子",
+        "Sentiment": "positive",
+        "Rationale": "看到孩子已经交齐学费并做出承诺"
+    },
+    {
+        "sentence": "来来来，坐下坐下",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "邀请坐下",
+        "Opinion": "友好邀请",
+        "Sentiment": "neutral",
+        "Rationale": "想要缓和气氛，表现出友好的态度"
+    },
+    {
+        "sentence": "阿姨，这是我爸爸",
+        "Holder": "5",
+        "Target": "爸爸",
+        "Aspect": "介绍家人",
+        "Opinion": "介绍爸爸",
+        "Sentiment": "neutral",
+        "Rationale": "需要介绍自己的爸爸给阿姨认识"
+    },
+    {
+        "sentence": "您好，您好",
+        "Holder": "1",
+        "Target": "5的爸爸",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "见到对方的爸爸，出于礼貌和友好"
+    },
+    {
+        "sentence": "非常感谢您咨询了这孩子这个痴迷追星的情况，要是您不说我们都蒙在鼓里",
+        "Holder": "6",
+        "Target": "1的咨询行为",
+        "Aspect": "信息提供的重要性",
+        "Opinion": "感谢提供信息",
+        "Sentiment": "positive",
+        "Rationale": "1提供了关于孩子追星的重要信息"
+    },
+    {
+        "sentence": "唉，是啊是啊，这小孩不跟大人说，咱家长蒙鼓里，他们走弯路咱都不知道",
+        "Holder": "1",
+        "Target": "孩子不沟通的行为",
+        "Aspect": "信息沟通的缺失",
+        "Opinion": "对孩子不沟通的无奈",
+        "Sentiment": "negative",
+        "Rationale": "孩子不跟家长沟通导致家长不了解情况"
+    },
+    {
+        "sentence": "咱得需要沟通，你跟阿姨说说你的想法啊。阿姨，明星我还是喜欢啊，不过绝对不迷恋了，我答应我爸爸了。好好学习啊。",
+        "Holder": "4",
+        "Target": "沟通的必要性",
+        "Aspect": "沟通的重要性",
+        "Opinion": "支持沟通并表达自己的态度",
+        "Sentiment": "positive",
+        "Rationale": "认识到沟通的重要性，并且表达了自己不再迷恋明星的决心"
+    },
+    {
+        "sentence": "是，这孩子聪明着呢。",
+        "Holder": "1",
+        "Target": "4的聪明",
+        "Aspect": "孩子的智力",
+        "Opinion": "认可孩子的聪明",
+        "Sentiment": "positive",
+        "Rationale": "4表现出理解和承诺"
+    },
+    {
+        "sentence": "这感谢您的帮助啊。",
+        "Holder": "6",
+        "Target": "1的帮助",
+        "Aspect": "帮助的感激",
+        "Opinion": "感谢帮助",
+        "Sentiment": "positive",
+        "Rationale": "1提供了帮助，解决了孩子追星的问题"
+    },
+    {
+        "sentence": "甭客气，坐下",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "礼貌",
+        "Opinion": "不用客气",
+        "Sentiment": "positive",
+        "Rationale": "表现出友好和礼貌的态度"
+    },
+    {
+        "sentence": "哟，这位，您是",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "身份",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行正常的询问"
+    },
+    {
+        "sentence": "那个哈利波特他妈",
+        "Holder": "7",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "自称是哈利波特的母亲",
+        "Sentiment": "neutral",
+        "Rationale": "只是在陈述自己的身份"
+    },
+    {
+        "sentence": "哈利波特？",
+        "Holder": "1",
+        "Target": "哈利波特",
+        "Aspect": "认知",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对提到的名字感到疑惑"
+    },
+    {
+        "sentence": "就您教他的兔子灯鹰那个",
+        "Holder": "7",
+        "Target": "1",
+        "Aspect": "教导内容",
+        "Opinion": "提及教导内容",
+        "Sentiment": "neutral",
+        "Rationale": "只是在描述一个具体的事件"
+    },
+    {
+        "sentence": "噢，那个，嘿，您好您好",
+        "Holder": "1",
+        "Target": "7",
+        "Aspect": "问候",
+        "Opinion": "友好",
+        "Sentiment": "positive",
+        "Rationale": "1在用礼貌的方式向7打招呼"
+    },
+    {
+        "sentence": "我跟他爸爸都商量好了，以后不打了，在教育方式上也得改，不能那么对孩子了。",
+        "Holder": "7",
+        "Target": "教育方式",
+        "Aspect": "改变教育方式",
+        "Opinion": "决定改变",
+        "Sentiment": "positive",
+        "Rationale": "7和孩子的爸爸决定改变教育方式，不再打孩子"
+    },
+    {
+        "sentence": "是啊是啊，哈哈，来来来，您坐下。甭客气，坐下",
+        "Holder": "1",
+        "Target": "7",
+        "Aspect": "邀请坐下",
+        "Opinion": "热情",
+        "Sentiment": "positive",
+        "Rationale": "1热情地邀请7坐下"
+    },
+    {
+        "sentence": "哎呦，都在这呢，得，我代表所有的家长，给你送面锦旗哟。",
+        "Holder": "8",
+        "Target": "1",
+        "Aspect": "感谢",
+        "Opinion": "感激",
+        "Sentiment": "positive",
+        "Rationale": "8代表所有家长对1表示感谢"
+    },
+    {
+        "sentence": "这多不好意思啊，还送什么锦旗？谢谢。",
+        "Holder": "1",
+        "Target": "8",
+        "Aspect": "接受感谢",
+        "Opinion": "谦虚",
+        "Sentiment": "positive",
+        "Rationale": "1谦虚地接受了8的感谢"
+    },
+    {
+        "sentence": "您是人类最忠实的朋友。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "忠诚度",
+        "Opinion": "高度忠诚",
+        "Sentiment": "positive",
+        "Rationale": "认为1非常忠诚可靠"
+    },
+    {
+        "sentence": "哎呦，坏了，我弄错了，这是明天给那给狗准备",
+        "Holder": "8",
+        "Target": "自己",
+        "Aspect": "准备工作",
+        "Opinion": "出错",
+        "Sentiment": "negative",
+        "Rationale": "发现自己弄错了准备的东西"
+    }
+]

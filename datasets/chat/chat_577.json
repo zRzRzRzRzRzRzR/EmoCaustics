@@ -1,0 +1,470 @@
+[
+    {
+        "sentence": "你说如果是三个人，就没有算我，你说你那边有三个人了。",
+        "Holder": "1",
+        "Target": "2的分组安排",
+        "Aspect": "人数计算",
+        "Opinion": "自己被遗漏",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己在分组时被遗漏了"
+    },
+    {
+        "sentence": "你还跟丹妮说，如果待会儿是三的话，你和石竹君就把她带着吧。",
+        "Holder": "1",
+        "Target": "2的安排",
+        "Aspect": "人员分配",
+        "Opinion": "质疑安排",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的安排不合理"
+    },
+    {
+        "sentence": "什么叫她？",
+        "Holder": "2",
+        "Target": "1的用词",
+        "Aspect": "用词准确性",
+        "Opinion": "不清楚指代",
+        "Sentiment": "ambiguous",
+        "Rationale": "2不明白1所指的“她”是谁"
+    },
+    {
+        "sentence": "我说你们跟瑞子带，我们带，我们这样，我们6个人都能晋级呀。",
+        "Holder": "2",
+        "Target": "分组方案",
+        "Aspect": "晋级可能性",
+        "Opinion": "支持方案",
+        "Sentiment": "positive",
+        "Rationale": "2认为这个分组方案能让所有人晋级"
+    },
+    {
+        "sentence": "是，她不就是说龙亦瑞吗？",
+        "Holder": "1",
+        "Target": "2的疑问",
+        "Aspect": "指代对象",
+        "Opinion": "明确指代",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释“她”指的是龙亦瑞"
+    },
+    {
+        "sentence": "你在听啥啊？",
+        "Holder": "1",
+        "Target": "2的听力内容",
+        "Aspect": "听力关注点",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "1对2正在听的内容感到好奇"
+    },
+    {
+        "sentence": "我说她和瑞子。",
+        "Holder": "2",
+        "Target": "她和瑞子",
+        "Aspect": "讨论对象",
+        "Opinion": "提及",
+        "Sentiment": "neutral",
+        "Rationale": "2在回答1的问题"
+    },
+    {
+        "sentence": "她和瑞子不就是你说的就是她？",
+        "Holder": "1",
+        "Target": "她和瑞子的身份",
+        "Aspect": "身份确认",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对2提到的她和瑞子的身份感到疑惑"
+    },
+    {
+        "sentence": "对啊，这样我们六个人都能晋级。",
+        "Holder": "2",
+        "Target": "晋级条件",
+        "Aspect": "晋级可能性",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "2确认了六个人都能晋级的条件"
+    },
+    {
+        "sentence": "这个重要吗？",
+        "Holder": "1",
+        "Target": "晋级的重要性",
+        "Aspect": "重要性评估",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1对晋级的重要性持有疑问"
+    },
+    {
+        "sentence": "反正你就是这样表达的。",
+        "Holder": "1",
+        "Target": "2的表达方式",
+        "Aspect": "表达方式",
+        "Opinion": "固定模式",
+        "Sentiment": "negative",
+        "Rationale": "认为2的表达方式总是固定不变"
+    },
+    {
+        "sentence": "我是想大家都能晋级，谁知道对方对面跑来。",
+        "Holder": "2",
+        "Target": "晋级的期望",
+        "Aspect": "期望与现实",
+        "Opinion": "期望落空",
+        "Sentiment": "negative",
+        "Rationale": "期望大家都能晋级但对方的行为导致期望落空"
+    },
+    {
+        "sentence": "你不要插嘴行吗？",
+        "Holder": "1",
+        "Target": "2的插嘴行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对插嘴",
+        "Sentiment": "negative",
+        "Rationale": "2在说话时插嘴打断了自己"
+    },
+    {
+        "sentence": "这个重要吗？",
+        "Holder": "1",
+        "Target": "当前话题",
+        "Aspect": "话题重要性",
+        "Opinion": "质疑重要性",
+        "Sentiment": "negative",
+        "Rationale": "认为当前讨论的话题不重要"
+    },
+    {
+        "sentence": "反正就是还好像那种白帝成托孤，白帝成托孤一样。",
+        "Holder": "1",
+        "Target": "当前情境",
+        "Aspect": "情境类比",
+        "Opinion": "类似白帝托孤",
+        "Sentiment": "negative",
+        "Rationale": "将当前情境类比为白帝托孤，暗示一种无奈或不信任的氛围"
+    },
+    {
+        "sentence": "哎，那个但是丹妮真的非常的认真，就一把把我薅过去，生怕我走了。",
+        "Holder": "1",
+        "Target": "丹妮",
+        "Aspect": "认真程度",
+        "Opinion": "非常认真",
+        "Sentiment": "positive",
+        "Rationale": "丹妮非常认真地拉住自己，表现出对自己的关心"
+    },
+    {
+        "sentence": "但是我一直说你过来。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为指令",
+        "Opinion": "一直要求过来",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述自己一直要求1过来"
+    },
+    {
+        "sentence": "你没有一直说。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为指令",
+        "Opinion": "没有一直要求",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有一直要求自己过来"
+    },
+    {
+        "sentence": "你不要插嘴行吗？你刚刚直播我也没有插你的话呀。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "插嘴行为",
+        "Opinion": "不应该插嘴",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在对话中频繁插嘴，而自己在2直播时没有插嘴"
+    },
+    {
+        "sentence": "能不能听我讲？我讲一句，然后你就要插一句话。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "倾听行为",
+        "Opinion": "希望被倾听",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己讲话时2总是插话，导致自己无法完整表达"
+    },
+    {
+        "sentence": "那你讲。",
+        "Holder": "2",
+        "Target": "1的讲述",
+        "Aspect": "讲述的必要性",
+        "Opinion": "要求1讲述",
+        "Sentiment": "neutral",
+        "Rationale": "2希望听到1的解释"
+    },
+    {
+        "sentence": "就是因为丹妮比较高，然后她一薅我就给我锁喉了。",
+        "Holder": "1",
+        "Target": "丹妮的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "丹妮的行为导致锁喉",
+        "Sentiment": "negative",
+        "Rationale": "丹妮的身高优势导致1被锁喉"
+    },
+    {
+        "sentence": "就是丹妮薅你的时候，我的在旁边一直给丹妮说带着你带着你带着你。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的描述",
+        "Opinion": "自己在旁边提醒",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己有在旁边提醒丹妮"
+    },
+    {
+        "sentence": "你没有说，你自己在你那三个人那里。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "2没有提醒",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有在旁边提醒"
+    },
+    {
+        "sentence": "我说了！",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "确实有提醒",
+        "Sentiment": "negative",
+        "Rationale": "2被1质疑没有提醒"
+    },
+    {
+        "sentence": "你别说了！",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的接受度",
+        "Opinion": "不接受",
+        "Sentiment": "negative",
+        "Rationale": "1不想听2继续说下去"
+    },
+    {
+        "sentence": "我不想说。",
+        "Holder": "1",
+        "Target": "自己的发言意愿",
+        "Aspect": "发言的意愿",
+        "Opinion": "不愿意",
+        "Sentiment": "negative",
+        "Rationale": "1不想继续当前的对话"
+    },
+    {
+        "sentence": "为什么说独立女人啊？就是你靠得住，母猪上树靠不住。",
+        "Holder": "1",
+        "Target": "独立女人的说法",
+        "Aspect": "说法的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的说法不合理"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的含义",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "2不明白1的讽刺含义"
+    },
+    {
+        "sentence": "我当时，当时是是石竹君的问题，对面跑来两个女人，她就犹豫了。",
+        "Holder": "2",
+        "Target": "石竹君",
+        "Aspect": "决策犹豫",
+        "Opinion": "石竹君犹豫了",
+        "Sentiment": "neutral",
+        "Rationale": "石竹君在面对突发情况时犹豫不决"
+    },
+    {
+        "sentence": "我一直给丹妮说你们三个一起，一起进。",
+        "Holder": "2",
+        "Target": "丹妮和另外两人",
+        "Aspect": "行动建议",
+        "Opinion": "建议三人一起行动",
+        "Sentiment": "neutral",
+        "Rationale": "提出了一个合理的行动建议"
+    },
+    {
+        "sentence": "对啊，反正你就是先把我排除在外了嘛。",
+        "Holder": "1",
+        "Target": "2的决策",
+        "Aspect": "被排除在外",
+        "Opinion": "自己被排除",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被排除在外"
+    },
+    {
+        "sentence": "不是，是因为我这边有两个人，你那边有三个人，我就说你们三个，我们这边三个，不应该这样吗？",
+        "Holder": "2",
+        "Target": "分组决策",
+        "Aspect": "分组合理性",
+        "Opinion": "分组是合理的",
+        "Sentiment": "neutral",
+        "Rationale": "解释了分组的合理性"
+    },
+    {
+        "sentence": "最后还不这三个靠我精湛的石头剪刀布手法就是留了下来？",
+        "Holder": "1",
+        "Target": "自己的石头剪刀布手法",
+        "Aspect": "手法精湛",
+        "Opinion": "自己手法精湛",
+        "Sentiment": "positive",
+        "Rationale": "通过自己的手法成功留下"
+    },
+    {
+        "sentence": "因为我们三个挨得最近啊。",
+        "Holder": "2",
+        "Target": "座位安排",
+        "Aspect": "座位距离",
+        "Opinion": "三人挨得近",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是座位安排的实际情况"
+    },
+    {
+        "sentence": "那是我们这排本来6个人，就一边三一边三个嘛。",
+        "Holder": "2",
+        "Target": "座位安排",
+        "Aspect": "座位分配",
+        "Opinion": "一边三人",
+        "Sentiment": "neutral",
+        "Rationale": "解释了座位分配的规则"
+    },
+    {
+        "sentence": "如果我们中间抱三个，旁边两个就单了呀。",
+        "Holder": "2",
+        "Target": "座位安排",
+        "Aspect": "座位合理性",
+        "Opinion": "中间抱三个不合理",
+        "Sentiment": "neutral",
+        "Rationale": "指出了一种不合理的情况"
+    },
+    {
+        "sentence": "不要插话！",
+        "Holder": "1",
+        "Target": "2的插话行为",
+        "Aspect": "插话的合理性",
+        "Opinion": "反对插话",
+        "Sentiment": "negative",
+        "Rationale": "被打断了讲话"
+    },
+    {
+        "sentence": "你说！我不插。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "回应态度",
+        "Opinion": "同意不插话",
+        "Sentiment": "neutral",
+        "Rationale": "同意了对方的要求"
+    },
+    {
+        "sentence": "挨打就要立正好吗？",
+        "Holder": "1",
+        "Target": "挨打后的态度",
+        "Aspect": "应对方式",
+        "Opinion": "质疑立正的必要性",
+        "Sentiment": "ambiguous",
+        "Rationale": "对挨打后是否需要立正存在疑问"
+    },
+    {
+        "sentence": "我觉得我有做错啊。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "认为自己做错",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己有做错的地方"
+    },
+    {
+        "sentence": "啊？你觉得你没有做错？",
+        "Holder": "1",
+        "Target": "2的行为判断",
+        "Aspect": "行为的正确性",
+        "Opinion": "质疑2没有做错",
+        "Sentiment": "negative",
+        "Rationale": "对2认为自己没有做错的看法感到惊讶"
+    },
+    {
+        "sentence": "对啊，你们三个我们三个大家都能进啊，谁知道对面跑来两个人啊？",
+        "Holder": "2",
+        "Target": "事件的情况",
+        "Aspect": "事件的突发性",
+        "Opinion": "意外情况导致问题",
+        "Sentiment": "negative",
+        "Rationale": "对面突然跑来两个人打乱了计划"
+    },
+    {
+        "sentence": "啥？为什么叫你们三个？",
+        "Holder": "1",
+        "Target": "称呼的原因",
+        "Aspect": "称呼的合理性",
+        "Opinion": "不理解称呼的原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白为什么称呼‘你们三个’"
+    },
+    {
+        "sentence": "那为什么是你要把我扔给别人呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对待方式",
+        "Opinion": "被扔给别人",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被2安排给了别人"
+    },
+    {
+        "sentence": "因为那个站位我们两个刚好在中间，然后我旁边两个，你那边两个，我就说你们这边三个，我们这边三个。",
+        "Holder": "2",
+        "Target": "站位安排",
+        "Aspect": "合理性",
+        "Opinion": "合理的分配",
+        "Sentiment": "neutral",
+        "Rationale": "解释了站位安排的合理性"
+    },
+    {
+        "sentence": "怎么就叫把你扔了呢？把你抛弃了呢？",
+        "Holder": "2",
+        "Target": "1的感受",
+        "Aspect": "理解偏差",
+        "Opinion": "没有抛弃",
+        "Sentiment": "negative",
+        "Rationale": "1误解了自己的意图"
+    },
+    {
+        "sentence": "不说了。",
+        "Holder": "1",
+        "Target": "对话",
+        "Aspect": "继续讨论的意愿",
+        "Opinion": "不想继续",
+        "Sentiment": "negative",
+        "Rationale": "感到被误解和委屈"
+    },
+    {
+        "sentence": "本来就是啊！你还觉得怎么了？",
+        "Holder": "1",
+        "Target": "2的理解",
+        "Aspect": "事实认定",
+        "Opinion": "自己是对的",
+        "Sentiment": "negative",
+        "Rationale": "坚持自己的观点并认为2不理解"
+    },
+    {
+        "sentence": "本来就是啊。",
+        "Holder": "2",
+        "Target": "事实",
+        "Aspect": "事实的确认",
+        "Opinion": "确认事实",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认一个事实"
+    },
+    {
+        "sentence": "本来爱的抱抱又不又不叫我！",
+        "Holder": "1",
+        "Target": "爱的抱抱",
+        "Aspect": "是否被叫",
+        "Opinion": "没有被叫",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己没有被叫到参与爱的抱抱"
+    },
+    {
+        "sentence": "谁说没叫你？我叫了！",
+        "Holder": "2",
+        "Target": "1的指控",
+        "Aspect": "是否叫了1",
+        "Opinion": "叫了1",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被误解了，明明叫了1"
+    }
+]

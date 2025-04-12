@@ -1,0 +1,91 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "讨论主持与议程引导",
+        "emotions": [
+          {"state": "positive", "reason": "欢迎参与者并开启讨论", "source_id": "1"},
+          {"state": "neutral", "reason": "询问核心挑战性问题", "source_id": "1"},
+          {"state": "neutral", "reason": "协调观众提问环节", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "美国堕胎权现状分析",
+        "emotions": [
+          {"state": "ambiguous", "reason": "组织历史成就与当前法律倒退的对比", "source_id": "2"},
+          {"state": "negative", "reason": "政治对手控制女性身体的虚伪主张", "source_id": "2"},
+          {"state": "positive", "reason": "将堕胎权框架为人权议题的战略调整", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "晚期堕胎案例讨论",
+        "emotions": [
+          {"state": "negative", "reason": "法律限制导致医疗决策困境", "source_id": "2"},
+          {"state": "positive", "reason": "寨卡疫情引发的公众意识转变", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "英国堕胎制度批判",
+        "emotions": [
+          {"state": "ambiguous", "reason": "服务改进与法律滞后的矛盾", "source_id": "3"},
+          {"state": "negative", "reason": "医学证据与政治决策的脱节", "source_id": "3"},
+          {"state": "positive", "reason": "推动男性参与性别议题", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "法律框架改革主张",
+        "emotions": [
+          {"state": "negative", "reason": "刑法介入医疗决策的不合理性", "source_id": "3"},
+          {"state": "positive", "reason": "道德辩论框架重构的必要性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "爱尔兰宪法修正运动",
+        "emotions": [
+          {"state": "positive", "reason": "公投带来的历史机遇", "source_id": "4"},
+          {"state": "negative", "reason": "法律虚伪性造成的阶级差异", "source_id": "4"},
+          {"state": "positive", "reason": "将堕胎权提升为人权议题", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "法律执行困境",
+        "emotions": [
+          {"state": "negative", "reason": "刑事处罚造成的二次伤害", "source_id": "4"},
+          {"state": "negative", "reason": "法律工具无法应对复杂现实", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "民意调查数据质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "提出反堕胎群体影响力数据", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "社会权利发展对比",
+        "emotions": [
+          {"state": "neutral", "reason": "观察堕胎权与其他平权运动差异", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

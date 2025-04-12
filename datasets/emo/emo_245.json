@@ -1,0 +1,112 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "熬夜对健康影响的论证",
+        "emotions": [
+          {"state": "neutral", "reason": "客观分析熬夜对身体影响", "source_id": "1"},
+          {"state": "negative", "reason": "指出熬夜导致脱发和心血管疾病", "source_id": "1"},
+          {"state": "negative", "reason": "揭露夜间效率高是认知幻觉", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "社会压力与自我认知的关联",
+        "emotions": [
+          {"state": "negative", "reason": "批判资本内卷带来的精神空虚", "source_id": "1"},
+          {"state": "negative", "reason": "否定熬夜缓解空虚的可行性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "基因决定论与去污名化主张",
+        "emotions": [
+          {"state": "positive", "reason": "主张晚睡晚起规律作息合理性", "source_id": "2"},
+          {"state": "neutral", "reason": "提出族群安全排班需求", "source_id": "2"},
+          {"state": "positive", "reason": "强调熬夜去污名化效果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "自我实现与时间支配权辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨短睡基因选择意愿", "source_id": "3"},
+          {"state": "positive", "reason": "主张熬夜帮助找到自我", "source_id": "3"},
+          {"state": "neutral", "reason": "解释夜间时间个人归属感", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "药物定义的边界讨论",
+        "emotions": [
+          {"state": "positive", "reason": "类比布洛芬定义药物功效", "source_id": "3"},
+          {"state": "neutral", "reason": "提出功效大于副作用标准", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "生活空虚与痛苦本质分析",
+        "emotions": [
+          {"state": "negative", "reason": "揭示熬夜源于生活空虚", "source_id": "4"},
+          {"state": "negative", "reason": "描述内卷带来的熬夜痛苦", "source_id": "4"},
+          {"state": "negative", "reason": "质疑药物依赖的正当性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "熬夜作为现代生活方式的辩护",
+        "emotions": [
+          {"state": "positive", "reason": "强调熬夜提供自我寻找机会", "source_id": "5"},
+          {"state": "positive", "reason": "主张夜间的灵魂栖息功能", "source_id": "5"},
+          {"state": "positive", "reason": "接受熬夜代价换取自我认知", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "多巴胺代偿与病态循环论证",
+        "emotions": [
+          {"state": "negative", "reason": "否定即时满足的治愈效果", "source_id": "6"},
+          {"state": "negative", "reason": "揭露群体狂欢的孤独本质", "source_id": "6"},
+          {"state": "negative", "reason": "批判社会病态与伪选择困境", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "安慰剂效应与自我认知理论",
+        "emotions": [
+          {"state": "positive", "reason": "类比植发论证药物定义", "source_id": "7"},
+          {"state": "positive", "reason": "提出熬夜作为精神安慰剂", "source_id": "7"},
+          {"state": "negative", "reason": "揭示社会压力导致的被迫熬夜", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "社会病态根源的批判",
+        "emotions": [
+          {"state": "negative", "reason": "质疑群体熬夜的普遍性", "source_id": "8"},
+          {"state": "negative", "reason": "否定夜间自我认知有效性", "source_id": "8"},
+          {"state": "negative", "reason": "揭露资本操控的逃避本质", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

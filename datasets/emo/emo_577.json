@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "分组安排争议",
+        "emotions": [
+          {"state": "negative", "reason": "被遗漏在分组外，质疑安排合理性，感觉被排除", "source_id": "2"},
+          {"state": "positive", "reason": "丹妮主动拉住表达关心", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑提醒真实性，认为2未履行承诺", "source_id": "2"},
+          {"state": "neutral", "reason": "解释‘她’的指代对象", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "沟通模式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "插嘴行为导致表达受阻，类比白帝托孤表达不信任", "source_id": "2"},
+          {"state": "negative", "reason": "质疑‘独立女人’说法的讽刺性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "决策权争夺",
+        "emotions": [
+          {"state": "positive", "reason": "强调自身石头剪刀布能力的关键作用", "source_id": "1"},
+          {"state": "negative", "reason": "认为站位解释不成立，坚持被抛弃感", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "分组策略解释",
+        "emotions": [
+          {"state": "positive", "reason": "提出六人晋级方案", "source_id": "1"},
+          {"state": "neutral", "reason": "基于座位距离说明分组逻辑", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑未履行提醒承诺", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "意图澄清对抗",
+        "emotions": [
+          {"state": "negative", "reason": "被讽刺‘母猪上树’的侮辱性解读", "source_id": "1"},
+          {"state": "neutral", "reason": "陈述石竹君决策犹豫的客观事实", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "事实确认冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被否定‘爱的抱抱’参与邀请", "source_id": "1"},
+          {"state": "neutral", "reason": "强调原始分组的合理性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

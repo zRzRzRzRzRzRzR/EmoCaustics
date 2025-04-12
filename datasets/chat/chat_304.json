@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "吃了两碗粉，只给了一碗钱。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "支付行为",
+        "Opinion": "未足额支付",
+        "Sentiment": "negative",
+        "Rationale": "说话人2吃了两碗粉却只支付了一碗的钱"
+    },
+    {
+        "sentence": "放屁，我就吃了一碗的粉，给了他一碗的钱。",
+        "Holder": "2",
+        "Target": "说话人1的指控",
+        "Aspect": "支付行为",
+        "Opinion": "已足额支付",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为自己只吃了一碗粉并已支付"
+    },
+    {
+        "sentence": "他吃了几碗？",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "食用数量",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1需要确认说话人2实际吃了多少碗粉"
+    },
+    {
+        "sentence": "两碗",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "食用数量",
+        "Opinion": "承认吃了两碗",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在回答问题时承认自己吃了两碗粉"
+    },
+    {
+        "sentence": "不可能，六爷爷是县长的儿子，怎么能欠你的粉钱，",
+        "Holder": "3",
+        "Target": "说话人1的指控",
+        "Aspect": "身份与信誉",
+        "Opinion": "六爷爷不会欠钱",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为六爷爷的身份和地位不可能欠钱"
+    },
+    {
+        "sentence": "就是吃了两碗只给了一碗的钱，县长要给我们鹅城一个公平。",
+        "Holder": "1",
+        "Target": "县长",
+        "Aspect": "公平性",
+        "Opinion": "县长应该给鹅城公平",
+        "Sentiment": "neutral",
+        "Rationale": "县长承诺要给鹅城公平"
+    },
+    {
+        "sentence": "好，我今天讨的就是一个公平，",
+        "Holder": "2",
+        "Target": "公平",
+        "Aspect": "追求公平",
+        "Opinion": "要讨回公平",
+        "Sentiment": "positive",
+        "Rationale": "自己受到了不公平待遇"
+    },
+    {
+        "sentence": "问谁讨问县长儿子，为什么？",
+        "Holder": "1",
+        "Target": "县长儿子",
+        "Aspect": "讨公平的对象",
+        "Opinion": "质疑讨公平的对象",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚为什么县长儿子是讨公平的对象"
+    },
+    {
+        "sentence": "他吃了两碗只给一碗的钱，这就叫做不公平。既然县长儿子带头不公平，县长说的话就是个屁。",
+        "Holder": "2",
+        "Target": "县长儿子",
+        "Aspect": "公平性",
+        "Opinion": "县长儿子行为不公平",
+        "Sentiment": "negative",
+        "Rationale": "县长儿子吃了两碗只给一碗的钱"
+    },
+    {
+        "sentence": "六爷是县长的儿子，怎么会欠他的份钱，你亲眼看见了？你个吃里扒外的东西，怎么着屁股不疼了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "忠诚与事实",
+        "Opinion": "质疑2的忠诚和事实依据",
+        "Sentiment": "negative",
+        "Rationale": "不相信六爷会欠钱且认为2不忠诚"
+    },
+    {
+        "sentence": "今儿不聊屁股的事儿，就聊凉粉，一一两就是两碗，不能含糊，六爷汉子佩服。一就是一二就是二。我今天就吃了一碗凉粉，你。",
+        "Holder": "2",
+        "Target": "凉粉的数量",
+        "Aspect": "数量的准确性",
+        "Opinion": "一碗就是一碗",
+        "Sentiment": "positive",
+        "Rationale": "认为凉粉的数量应该准确无误"
+    },
+    {
+        "sentence": "给了一碗的钱，吃了两碗粉你没钱是吧？",
+        "Holder": "1",
+        "Target": "2的支付行为",
+        "Aspect": "支付的合理性",
+        "Opinion": "质疑未足额支付",
+        "Sentiment": "negative",
+        "Rationale": "发现对方只支付了一碗粉的钱却吃了两碗"
+    },
+    {
+        "sentence": "我帮你给看见了吗？多少万我都付得起，但是吃一碗的粉就给一碗的钱，",
+        "Holder": "2",
+        "Target": "支付能力与原则",
+        "Aspect": "支付能力和支付原则",
+        "Opinion": "有能力支付但坚持原则",
+        "Sentiment": "positive",
+        "Rationale": "强调自己有足够的支付能力，但坚持按实际消费支付"
+    },
+    {
+        "sentence": "这么多钱。",
+        "Holder": "1",
+        "Target": "支付的金额",
+        "Aspect": "金额的多少",
+        "Opinion": "金额较多",
+        "Sentiment": "neutral",
+        "Rationale": "提到支付的金额较多，但没有明确表达情感倾向"
+    },
+    {
+        "sentence": "他吃了多少碗粉，你早说不就得了吗？",
+        "Holder": "2",
+        "Target": "沟通的及时性",
+        "Aspect": "及时沟通的重要性",
+        "Opinion": "应及时沟通",
+        "Sentiment": "neutral",
+        "Rationale": "认为如果早点说明吃了多少碗粉就能避免误会"
+    },
+    {
+        "sentence": "他要个公平，",
+        "Holder": "1",
+        "Target": "公平",
+        "Aspect": "公正性",
+        "Opinion": "需要公平",
+        "Sentiment": "neutral",
+        "Rationale": "提到某人需要公平"
+    },
+    {
+        "sentence": "你不是欺负老实人吗？告诉我你是老实人吗？不是，你就说实话，我到底升了7万粉，你告诉他，你说不说，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "是否欺负老实人",
+        "Opinion": "认为1欺负老实人",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在欺负老实人"
+    },
+    {
+        "sentence": "拿枪吓唬一可怜的卖凉粉的，有枪是吧？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "使用枪支的合理性",
+        "Opinion": "反对使用枪支",
+        "Sentiment": "negative",
+        "Rationale": "2用枪吓唬卖凉粉的"
+    },
+    {
+        "sentence": "谁没有枪？",
+        "Holder": "2",
+        "Target": "枪支拥有情况",
+        "Aspect": "普遍性",
+        "Opinion": "认为有枪是普遍的",
+        "Sentiment": "neutral",
+        "Rationale": "提到谁都有枪"
+    },
+    {
+        "sentence": "孙守义。大声说他吃了几碗，守义，在座所有的乡亲都会为你和你家里人做主，大声说几碗？",
+        "Holder": "1",
+        "Target": "孙守义",
+        "Aspect": "诚实",
+        "Opinion": "要求孙守义说实话",
+        "Sentiment": "neutral",
+        "Rationale": "要求孙守义说出真相"
+    },
+    {
+        "sentence": "两碗，你是一个恶人，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性格评价",
+        "Opinion": "是恶人",
+        "Sentiment": "negative",
+        "Rationale": "认为两碗的行为或态度恶劣"
+    },
+    {
+        "sentence": "我他妈比你还饿都看好了，今儿我肚子里要有两碗粉，我白死，你要是肚子里只有一碗粉，我死。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "饥饿程度和赌约",
+        "Opinion": "自己更饿且立下赌约",
+        "Sentiment": "negative",
+        "Rationale": "感到极度的饥饿且对对方的质疑感到愤怒"
+    },
+    {
+        "sentence": "要是有两碗粉，我陪六爷一起死，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "赌约的回应",
+        "Opinion": "愿意陪死",
+        "Sentiment": "negative",
+        "Rationale": "对赌约的严肃性和对六爷的忠诚"
+    },
+    {
+        "sentence": "凉粉太浅了，我看不见，",
+        "Holder": "1",
+        "Target": "凉粉",
+        "Aspect": "凉粉的深度",
+        "Opinion": "太浅看不见",
+        "Sentiment": "negative",
+        "Rationale": "凉粉的深度不够，导致无法看清"
+    },
+    {
+        "sentence": "六爷派出。",
+        "Holder": "2",
+        "Target": "六爷",
+        "Aspect": "行动指令",
+        "Opinion": "派出",
+        "Sentiment": "neutral",
+        "Rationale": "需要执行六爷的指令"
+    },
+    {
+        "sentence": "凉粉在肠子里你得横着拉一下，才能让我看得见，六爷让大家看看是一碗还是两碗",
+        "Holder": "1",
+        "Target": "凉粉",
+        "Aspect": "凉粉的量",
+        "Opinion": "需要确认量",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认凉粉的量"
+    },
+    {
+        "sentence": "看清了吗？看见了吗？一是不是只有一碗业务员挺住，我去给你请大夫。别走，一是不是只有一晚，是不是该你了？",
+        "Holder": "2",
+        "Target": "凉粉的量",
+        "Aspect": "确认凉粉的量",
+        "Opinion": "怀疑只有一碗",
+        "Sentiment": "doubt",
+        "Rationale": "不确定凉粉的量"
+    },
+    {
+        "sentence": "我知道你只吃了一碗，你上当了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "吃凉粉的量",
+        "Opinion": "确认只吃了一碗",
+        "Sentiment": "positive",
+        "Rationale": "确认对方只吃了一碗"
+    },
+    {
+        "sentence": "人不能杀！",
+        "Holder": "3",
+        "Target": "杀人行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对杀人",
+        "Sentiment": "negative",
+        "Rationale": "认为杀人是不道德的"
+    },
+    {
+        "sentence": "为什么不能杀？说不出算法来我把你一起杀了。",
+        "Holder": "4",
+        "Target": "杀人行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "支持杀人",
+        "Sentiment": "negative",
+        "Rationale": "对方无法解释算法"
+    },
+    {
+        "sentence": "杀了他，六子白死了，",
+        "Holder": "3",
+        "Target": "六子的死亡",
+        "Aspect": "死亡的原因",
+        "Opinion": "认为是被杀",
+        "Sentiment": "negative",
+        "Rationale": "认为六子是被他人杀害"
+    },
+    {
+        "sentence": "我没有杀他，六子他自己捅自己的，我们在打赌他输了我想崩了他大哥你让我一枪崩了他，你不敢杀我，你不能杀我，我就想看你一脸的败相杀人不杀不杀还能赢，",
+        "Holder": "2",
+        "Target": "六子的死亡",
+        "Aspect": "死亡的原因",
+        "Opinion": "认为是自杀",
+        "Sentiment": "ambiguous",
+        "Rationale": "试图辩解自己没有杀人并描述了当时的情景"
+    },
+    {
+        "sentence": "都进了肚子凉粉还是凉粉？",
+        "Holder": "1",
+        "Target": "凉粉",
+        "Aspect": "凉粉的性质",
+        "Opinion": "质疑凉粉的性质",
+        "Sentiment": "neutral",
+        "Rationale": "对凉粉是否还是原来的性质感到好奇"
+    },
+    {
+        "sentence": "不是，我就想知道凉粉到底还是不是凉粉，",
+        "Holder": "5",
+        "Target": "凉粉",
+        "Aspect": "凉粉的性质",
+        "Opinion": "想知道凉粉的真实性质",
+        "Sentiment": "neutral",
+        "Rationale": "对凉粉的真实性质感到好奇"
+    },
+    {
+        "sentence": "是凉粉。",
+        "Holder": "1",
+        "Target": "凉粉",
+        "Aspect": "凉粉的性质",
+        "Opinion": "确认凉粉的性质",
+        "Sentiment": "neutral",
+        "Rationale": "对凉粉的性质进行了确认"
+    },
+    {
+        "sentence": "他们说杀人诛心，",
+        "Holder": "1",
+        "Target": "杀人诛心",
+        "Aspect": "行为的严重性",
+        "Opinion": "强调心理伤害",
+        "Sentiment": "neutral",
+        "Rationale": "只是转述他人的话"
+    },
+    {
+        "sentence": "杀人还要诛心。好可怕。",
+        "Holder": "5",
+        "Target": "杀人诛心",
+        "Aspect": "行为的可怕性",
+        "Opinion": "认为非常可怕",
+        "Sentiment": "negative",
+        "Rationale": "认为杀人诛心这种行为极其残忍"
+    }
+]

@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "景观情感与恢复性理论框架构建",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观阐述多学科理论背景",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调个体环境交互模型价值",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "情感测量方法创新研究",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统比较传统量表与新技术方法",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "发现深度学习方法的优势",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "多维度案例实证分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "描述城市水景与街道景观实验设计",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "揭示实地游览的显著恢复效应",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "研究成果实践转化应用",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "证实城市景观的恢复性潜力",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出多层面解决方案框架",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

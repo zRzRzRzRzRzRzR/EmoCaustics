@@ -1,0 +1,107 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "天科内审结果处理争议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "为许峰争取宽大处理",
+            "source_id": "3,4"
+          },
+          {
+            "state": "positive",
+            "reason": "提议接收西风到物业部",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "管理层问责会议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "承认管理失职",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受集团处罚决定",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "决定调整西风岗位",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "审计责任认定",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "处理杜波违规事件",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "维护许峰工作价值",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "服从集团最终决策",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "纪律原则辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "坚持处罚许峰",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑管理标准松动",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "高层决策观察",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞赏会议策略布局",
+            "source_id": "2,3"
+          },
+          {
+            "state": "positive",
+            "reason": "认可管理手段",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

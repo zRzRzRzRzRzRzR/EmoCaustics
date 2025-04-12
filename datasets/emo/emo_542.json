@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "离婚责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指责女儿导致离婚", "source_id": "2"},
+          {"state": "negative", "reason": "反驳家庭离婚遗传论", "source_id": "2"},
+          {"state": "negative", "reason": "反击克夫言论并要求先道歉", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭风气与教育方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被批评家风不正", "source_id": "2"},
+          {"state": "negative", "reason": "否认家教问题并指责对方", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "互相人身攻击与威胁",
+        "emotions": [
+          {"state": "negative", "reason": "被威胁举报及克夫指控", "source_id": "2"},
+          {"state": "negative", "reason": "要求对方停止侮辱性言论", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女婚姻失败追责",
+        "emotions": [
+          {"state": "negative", "reason": "认定对方女儿导致离婚", "source_id": "1"},
+          {"state": "negative", "reason": "指责家庭离婚传统", "source_id": "1"},
+          {"state": "negative", "reason": "要求正式道歉未果", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家族名誉维护冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑家教方式", "source_id": "1"},
+          {"state": "negative", "reason": "反击克夫指控并报警威胁", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "争吵升级与第三方介入",
+        "emotions": [
+          {"state": "negative", "reason": "被要求停止言论", "source_id": "1,3"},
+          {"state": "negative", "reason": "坚持要求对方道歉", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "调解激烈争吵",
+        "emotions": [
+          {"state": "neutral", "reason": "劝阻双方停止争执", "source_id": "1,2"},
+          {"state": "neutral", "reason": "持续试图平息冲突", "source_id": "1,2"}
+        ]
+      }
+    ]
+  }
+}

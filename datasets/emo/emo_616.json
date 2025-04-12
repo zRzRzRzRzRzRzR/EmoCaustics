@@ -1,0 +1,141 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "法律保护与残疾群体现实差距",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认《平等法》里程碑意义但指出系统性缺陷",
+            "source_id": "2,3,4,5,6"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示立法执行机制依赖个人维权困境",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "《平等法》受保护特征改革提案",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出增加社会文化身份标识保护",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示物质依赖/隐形残疾群体被立法排除",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "建议法律解释需适应现代需求",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭教育维权实践",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功通过诉讼保障残疾子女教育权",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露教育系统资源分配不公现象",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "企业残疾包容性缺失",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "96%企业虚假宣传多元化成果",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "自闭症群体权益改善",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "自闭症就业率数据可视化突破",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "合理调整措施普及度不足",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "交叉性歧视经历",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "大学期间遭遇制度性残疾歧视",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "创立跨种族残疾权益组织",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "日常法律维权困境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "公共场所持续遭遇导盲犬准入纠纷",
+            "source_id": "6"
+          },
+          {
+            "state": "neutral",
+            "reason": "系统性维权机制缺失的客观陈述",
+            "source_id": "6"
+          }
+        ]
+      },
+      {
+        "event": "疫情暴露制度性歧视",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "不要复苏指令暴露生命价值差异",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "小郑送上车了？",
+        "Holder": "1",
+        "Target": "小郑",
+        "Aspect": "送行情况",
+        "Opinion": "询问是否送行",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行日常的询问"
+    },
+    {
+        "sentence": "送了送了送了。",
+        "Holder": "2",
+        "Target": "小郑",
+        "Aspect": "送行情况",
+        "Opinion": "已经送行",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回答问题"
+    },
+    {
+        "sentence": "跟你说嘛，留人吃晚饭多好。",
+        "Holder": "1",
+        "Target": "小郑",
+        "Aspect": "留客吃饭",
+        "Opinion": "认为留客吃饭好",
+        "Sentiment": "positive",
+        "Rationale": "觉得留人吃晚饭是一种热情的表示"
+    },
+    {
+        "sentence": "家里人多不方便，他也不自在。",
+        "Holder": "2",
+        "Target": "小郑",
+        "Aspect": "留客吃饭的合理性",
+        "Opinion": "认为留客吃饭不方便",
+        "Sentiment": "negative",
+        "Rationale": "觉得家里人多会让他不自在"
+    },
+    {
+        "sentence": "呵，我觉得他挺自在的，吃了一大碗牛肉面还不够，还要了一份鱼丸。",
+        "Holder": "3",
+        "Target": "小郑",
+        "Aspect": "小郑的自在程度",
+        "Opinion": "认为小郑很自在",
+        "Sentiment": "positive",
+        "Rationale": "观察到小郑吃得很多，显得很自在"
+    },
+    {
+        "sentence": "爸做的鱼丸本来就好吃。",
+        "Holder": "4",
+        "Target": "爸做的鱼丸",
+        "Aspect": "味道",
+        "Opinion": "好吃",
+        "Sentiment": "positive",
+        "Rationale": "对爸做的鱼丸的味道感到满意"
+    },
+    {
+        "sentence": "我看他就是居心不良。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "动机",
+        "Opinion": "居心不良",
+        "Sentiment": "negative",
+        "Rationale": "认为他的行为背后有不良动机"
+    },
+    {
+        "sentence": "李爸，您给评评理啊，就她那什么男朋友啊，本来约好了，昨天去我店里见个面，结果半路上盯着一女孩的屁股直接回去了。",
+        "Holder": "3",
+        "Target": "她的男朋友",
+        "Aspect": "行为",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "她的男朋友没有按照约定见面而是中途离开"
+    },
+    {
+        "sentence": "别瞎说，听谁说的？",
+        "Holder": "1",
+        "Target": "3的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对3所描述的情况感到怀疑"
+    },
+    {
+        "sentence": "他自个儿说的！",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "言论",
+        "Opinion": "自己承认",
+        "Sentiment": "negative",
+        "Rationale": "他自己承认了行为"
+    },
+    {
+        "sentence": "你别瞎说。",
+        "Holder": "2",
+        "Target": "4的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "认为4在胡说",
+        "Sentiment": "negative",
+        "Rationale": "认为4的言论没有根据"
+    },
+    {
+        "sentence": "你不懂，做作品是很需要灵感的。",
+        "Holder": "2",
+        "Target": "4的理解",
+        "Aspect": "对创作过程的理解",
+        "Opinion": "认为4不懂创作",
+        "Sentiment": "negative",
+        "Rationale": "觉得4不了解创作的需求"
+    },
+    {
+        "sentence": "像你们做雕塑的，我们是不懂。",
+        "Holder": "4",
+        "Target": "2的工作",
+        "Aspect": "对雕塑工作的理解",
+        "Opinion": "承认自己不懂",
+        "Sentiment": "neutral",
+        "Rationale": "确实不了解雕塑工作"
+    },
+    {
+        "sentence": "但子秋说的没错，他对你属于见色起意。",
+        "Holder": "4",
+        "Target": "子秋的观点",
+        "Aspect": "对子秋言论的认同",
+        "Opinion": "认同子秋的观点",
+        "Sentiment": "positive",
+        "Rationale": "觉得子秋的判断是正确的"
+    },
+    {
+        "sentence": "而且他心理很不成熟，他大学毕业好几年了，还靠父母给的生活费生活。",
+        "Holder": "4",
+        "Target": "子秋的心理成熟度",
+        "Aspect": "经济独立和生活成熟度",
+        "Opinion": "认为子秋不成熟",
+        "Sentiment": "negative",
+        "Rationale": "子秋毕业多年仍依赖父母"
+    },
+    {
+        "sentence": "他家庭条件不错。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "家庭条件",
+        "Opinion": "不错",
+        "Sentiment": "positive",
+        "Rationale": "提到他的家庭条件很好"
+    },
+    {
+        "sentence": "那他连请你吃个冰淇凌的钱都是他父母给的，你觉得这样好吗？",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "经济独立性",
+        "Opinion": "不好",
+        "Sentiment": "negative",
+        "Rationale": "他连请客的钱都是父母给的，显得经济不独立"
+    },
+    {
+        "sentence": "行了行了，少说两句，吃饭了。",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话控制",
+        "Opinion": "停止讨论",
+        "Sentiment": "neutral",
+        "Rationale": "想结束当前的争论"
+    },
+    {
+        "sentence": "艺术家就不需要吃饭了吗？你现在生活上已经补贴你的闺蜜了，将来还要补贴他吗？那根本就是个无底洞！",
+        "Holder": "4",
+        "Target": "2的生活补贴行为",
+        "Aspect": "经济负担",
+        "Opinion": "反对补贴",
+        "Sentiment": "negative",
+        "Rationale": "认为2已经在经济上补贴闺蜜，将来还可能补贴他，觉得这样会形成无底洞"
+    },
+    {
+        "sentence": "这没你说的这么严重！",
+        "Holder": "2",
+        "Target": "4的担忧",
+        "Aspect": "问题严重性",
+        "Opinion": "不严重",
+        "Sentiment": "negative",
+        "Rationale": "不认同4对问题严重性的看法"
+    },
+    {
+        "sentence": "那他这样又好到哪里去了？",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "行为评价",
+        "Opinion": "质疑他的行为",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为不满"
+    },
+    {
+        "sentence": "行了，你别说了！",
+        "Holder": "2",
+        "Target": "4的言论",
+        "Aspect": "言论的适当性",
+        "Opinion": "停止争论",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的言论无益于解决问题"
+    },
+    {
+        "sentence": "吃饭吧。",
+        "Holder": "2",
+        "Target": "当前活动",
+        "Aspect": "活动建议",
+        "Opinion": "建议吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "想转移话题或缓和气氛"
+    },
+    {
+        "sentence": "好，打电话给他，分手。",
+        "Holder": "4",
+        "Target": "与他的关系",
+        "Aspect": "关系决策",
+        "Opinion": "决定分手",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为极度不满"
+    },
+    {
+        "sentence": "你是不是疯了！",
+        "Holder": "2",
+        "Target": "4的决定",
+        "Aspect": "决策合理性",
+        "Opinion": "认为决定不理智",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的决定过于冲动"
+    },
+    {
+        "sentence": "我说分手！",
+        "Holder": "4",
+        "Target": "分手",
+        "Aspect": "关系决策",
+        "Opinion": "主张分手",
+        "Sentiment": "negative",
+        "Rationale": "对当前关系不满意"
+    },
+    {
+        "sentence": "哎，怎么跟你妹说话呢？",
+        "Holder": "1",
+        "Target": "4的说话方式",
+        "Aspect": "说话态度",
+        "Opinion": "不恰当",
+        "Sentiment": "negative",
+        "Rationale": "认为4对妹妹的说话方式不合适"
+    },
+    {
+        "sentence": "我让她分手！",
+        "Holder": "4",
+        "Target": "妹妹的关系",
+        "Aspect": "关系决策",
+        "Opinion": "主张分手",
+        "Sentiment": "negative",
+        "Rationale": "坚持认为妹妹应该分手"
+    },
+    {
+        "sentence": "我也觉得应该分手。",
+        "Holder": "3",
+        "Target": "妹妹的关系",
+        "Aspect": "关系决策",
+        "Opinion": "支持分手",
+        "Sentiment": "negative",
+        "Rationale": "认同4的观点，认为妹妹应该分手"
+    },
+    {
+        "sentence": "凭什么啊？你们凭什么来对我的生活指手画脚的？",
+        "Holder": "2",
+        "Target": "4和3的干涉",
+        "Aspect": "生活自主权",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的生活和决策被他人干涉"
+    },
+    {
+        "sentence": "哎，那，那个小尖啊，可能俩哥哥也都是为你好。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "哥哥的行为动机",
+        "Opinion": "哥哥们是为2好",
+        "Sentiment": "neutral",
+        "Rationale": "1认为哥哥们的行为是出于好意"
+    },
+    {
+        "sentence": "我好着呢，我现在挺好的！他们没在的时候，我也挺好的。",
+        "Holder": "2",
+        "Target": "自己的生活状态",
+        "Aspect": "生活满意度",
+        "Opinion": "自己过得很好",
+        "Sentiment": "positive",
+        "Rationale": "2觉得自己在没有哥哥们的时候生活也很满意"
+    },
+    {
+        "sentence": "我有朋友，有我自己喜欢做的事情，我每天都开开心心的，现在怎么你们一回来就非得刷出点存在感，是不是？还直接报警了！",
+        "Holder": "2",
+        "Target": "哥哥们的行为",
+        "Aspect": "对生活的干扰",
+        "Opinion": "哥哥们的行为干扰了自己",
+        "Sentiment": "negative",
+        "Rationale": "哥哥们回来后的一系列行为让2感到生活被打扰"
+    },
+    {
+        "sentence": "我打电话打不通，而且他微博说的话有歧义！",
+        "Holder": "4",
+        "Target": "2的沟通方式",
+        "Aspect": "沟通的有效性",
+        "Opinion": "2的沟通存在问题",
+        "Sentiment": "negative",
+        "Rationale": "4无法通过电话联系到2，且2在微博上的言论引起误解"
+    },
+    {
+        "sentence": "你们现在已经对我生活造成很大的影响，知不知道？",
+        "Holder": "2",
+        "Target": "哥哥们的行为",
+        "Aspect": "对生活的影响",
+        "Opinion": "哥哥们的行为严重影响了自己",
+        "Sentiment": "negative",
+        "Rationale": "哥哥们的行为让2感到生活受到极大干扰"
+    },
+    {
+        "sentence": "其实，我就是为你好。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "关心方式",
+        "Opinion": "为2好",
+        "Sentiment": "positive",
+        "Rationale": "3认为自己是在关心2"
+    },
+    {
+        "sentence": "谢谢，我真的不需要！",
+        "Holder": "2",
+        "Target": "3的关心",
+        "Aspect": "接受程度",
+        "Opinion": "不需要",
+        "Sentiment": "negative",
+        "Rationale": "2觉得3的关心不是自己需要的"
+    },
+    {
+        "sentence": "你们过好你们自己的生活就好了呀。",
+        "Holder": "2",
+        "Target": "3和1的生活",
+        "Aspect": "生活关注点",
+        "Opinion": "希望他们过好自己的生活",
+        "Sentiment": "neutral",
+        "Rationale": "2希望3和1不要过多干涉自己的生活"
+    },
+    {
+        "sentence": "我牙疼，我自己去看医生，牙医都挺好。我要想吃甜品，我自己去街上买，满大街都是甜品店。你们两个真的不用对我这个样子，你们又不是我亲哥，我们其实没有什么法律救助关系的，你们不用对我做任何事情，知道吗？",
+        "Holder": "2",
+        "Target": "3和1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不需要他们的帮助",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己能够独立处理问题，不需要3和1的过多帮助"
+    },
+    {
+        "sentence": "小尖，你这是怎么说话呢，啊？",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "说话态度",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的说话方式不合适"
+    },
+    {
+        "sentence": "这话从见到我们那天起，你就一直憋着了吧，现在终于说出口了。",
+        "Holder": "4",
+        "Target": "2的言论",
+        "Aspect": "言论的时机",
+        "Opinion": "认为2早有不满",
+        "Sentiment": "negative",
+        "Rationale": "觉得2从很早开始就有不满但一直不说"
+    },
+    {
+        "sentence": "我也没想说的这么直白，是你们逼我的。",
+        "Holder": "2",
+        "Target": "自己的言论",
+        "Aspect": "言论的直接性",
+        "Opinion": "被迫直言",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己是被逼无奈才说出直白的话"
+    },
+    {
+        "sentence": "凌霄，你别往心里去。",
+        "Holder": "1",
+        "Target": "4的情绪",
+        "Aspect": "情绪的处理",
+        "Opinion": "劝慰4不要在意",
+        "Sentiment": "neutral",
+        "Rationale": "担心4会2的话而心情不好"
+    },
+    {
+        "sentence": "爸，李爸，你们先吃，我回去了。",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "离开的决定",
+        "Opinion": "决定离开",
+        "Sentiment": "negative",
+        "Rationale": "感到不愉快和尴尬"
+    },
+    {
+        "sentence": "哎，凌霄凌霄！",
+        "Holder": "1",
+        "Target": "4的离开",
+        "Aspect": "离开的行为",
+        "Opinion": "希望4留下",
+        "Sentiment": "negative",
+        "Rationale": "不希望4在不愉快的气氛中离开"
+    },
+    {
+        "sentence": "小尖，你说你这说的是什么话嘛，啊？",
+        "Holder": "1",
+        "Target": "小尖的话语",
+        "Aspect": "话语的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "小尖说的话让1觉得不合理"
+    },
+    {
+        "sentence": "什么不是亲的，不是亲的的，那你们从小一起长大的情分就没有了吗？",
+        "Holder": "1",
+        "Target": "小尖的观点",
+        "Aspect": "情分的重视",
+        "Opinion": "情分重要",
+        "Sentiment": "negative",
+        "Rationale": "小尖忽视了从小一起长大的情分"
+    }
+]

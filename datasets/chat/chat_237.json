@@ -1,0 +1,659 @@
+[
+    {
+        "sentence": "这是我看过最劲爆的一层内衣秀。",
+        "Holder": "1",
+        "Target": "内衣秀",
+        "Aspect": "劲爆程度",
+        "Opinion": "非常劲爆",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为这场内衣秀非常吸引人"
+    },
+    {
+        "sentence": "哟，你常看啊？",
+        "Holder": "2",
+        "Target": "1的观看频率",
+        "Aspect": "观看习惯",
+        "Opinion": "怀疑常看",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2对说话人1是否常看内衣秀感到好奇"
+    },
+    {
+        "sentence": "生平第一次。",
+        "Holder": "1",
+        "Target": "观看内衣秀的经历",
+        "Aspect": "观看次数",
+        "Opinion": "第一次",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在澄清自己确实是第一次看"
+    },
+    {
+        "sentence": "那你最个头啊？相信我，明天那场更销魂。",
+        "Holder": "3",
+        "Target": "明天的内衣秀",
+        "Aspect": "吸引力",
+        "Opinion": "更销魂",
+        "Sentiment": "positive",
+        "Rationale": "说话人3认为明天的内衣秀会更加吸引人"
+    },
+    {
+        "sentence": "明天那场只是换了批模特，内衣的款式都没变，多看一遍有啥意思？",
+        "Holder": "1",
+        "Target": "明天的内衣秀",
+        "Aspect": "变化程度",
+        "Opinion": "没有太大变化",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为明天的内衣秀只是换了模特，内容没有太大变化"
+    },
+    {
+        "sentence": "你两个小时眼睛都没眨一下，原来是在看衣服？",
+        "Holder": "3",
+        "Target": "1的观看焦点",
+        "Aspect": "关注点",
+        "Opinion": "怀疑只看衣服",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3注意到说话人1长时间盯着看，但怀疑他是否真的只关注衣服"
+    },
+    {
+        "sentence": "要不然呢？",
+        "Holder": "1",
+        "Target": "3的质疑",
+        "Aspect": "回应质疑",
+        "Opinion": "反问",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1对说话人3的质疑进行反问，表达自己没有其他意图"
+    },
+    {
+        "sentence": "曾老师，明天那场咱俩去就可以了。",
+        "Holder": "3",
+        "Target": "明天的内衣秀",
+        "Aspect": "参与人员",
+        "Opinion": "建议两人去",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3认为只需要他和曾老师去就可以"
+    },
+    {
+        "sentence": "哎呀，不差钱，要去，还是三个人一起去，忘了我们的誓言嘛？永远都是好兄弟。",
+        "Holder": "2",
+        "Target": "一起去内衣秀",
+        "Aspect": "团队精神",
+        "Opinion": "坚持三人一起去",
+        "Sentiment": "positive",
+        "Rationale": "说话人2强调三人一起去的团队精神，并提到之前的誓言"
+    },
+    {
+        "sentence": "一句话。",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "回应建议",
+        "Opinion": "简洁同意",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1用简洁的方式表示同意"
+    },
+    {
+        "sentence": "一辈子。",
+        "Holder": "2",
+        "Target": "友情",
+        "Aspect": "友情的持久性",
+        "Opinion": "承诺长久",
+        "Sentiment": "positive",
+        "Rationale": "用‘一辈子’来表达对友情的承诺"
+    },
+    {
+        "sentence": "一生情。",
+        "Holder": "3",
+        "Target": "友情",
+        "Aspect": "友情的深度",
+        "Opinion": "承诺深厚",
+        "Sentiment": "positive",
+        "Rationale": "用‘一生情’来表达对友情的深厚承诺"
+    },
+    {
+        "sentence": "好了，再往前一米，就是胡一菲的势力范围了。给我划清界限吧，只要你们心里有我，我就死而无憾了。",
+        "Holder": "2",
+        "Target": "胡一菲的势力范围",
+        "Aspect": "界限的明确性",
+        "Opinion": "希望划清界限",
+        "Sentiment": "positive",
+        "Rationale": "希望朋友心里有自己"
+    },
+    {
+        "sentence": "放心好了，我们不会去说的。要是问起来就说我们顶多去了一圈内衣店。",
+        "Holder": "1",
+        "Target": "保密承诺",
+        "Aspect": "保密的可靠性",
+        "Opinion": "保证保密",
+        "Sentiment": "positive",
+        "Rationale": "承诺不会泄露秘密"
+    },
+    {
+        "sentence": "咳。",
+        "Holder": "4",
+        "Target": "当前话题",
+        "Aspect": "话题的尴尬性",
+        "Opinion": "感到尴尬",
+        "Sentiment": "ambiguous",
+        "Rationale": "话题可能有些尴尬"
+    },
+    {
+        "sentence": "一菲！",
+        "Holder": "2",
+        "Target": "胡一菲",
+        "Aspect": "称呼的亲密度",
+        "Opinion": "亲切称呼",
+        "Sentiment": "positive",
+        "Rationale": "亲切地称呼胡一菲"
+    },
+    {
+        "sentence": "一菲，我们刚巧在楼下碰到的。",
+        "Holder": "3",
+        "Target": "偶遇的合理性",
+        "Aspect": "偶遇的解释",
+        "Opinion": "解释偶遇",
+        "Sentiment": "neutral",
+        "Rationale": "解释了偶遇的情况"
+    },
+    {
+        "sentence": "啊，对，我们没去内衣秀。",
+        "Holder": "1",
+        "Target": "活动参与",
+        "Aspect": "活动的真实性",
+        "Opinion": "否认参与",
+        "Sentiment": "neutral",
+        "Rationale": "否认参与内衣秀"
+    },
+    {
+        "sentence": "哎呦，什么徽章呀，这么漂亮？",
+        "Holder": "4",
+        "Target": "徽章",
+        "Aspect": "徽章的外观",
+        "Opinion": "赞美外观",
+        "Sentiment": "positive",
+        "Rationale": "赞美徽章的漂亮"
+    },
+    {
+        "sentence": "诶呀，维多利亚有秘密，我们没有哈哈哈。",
+        "Holder": "1",
+        "Target": "维多利亚的秘密",
+        "Aspect": "秘密的存在",
+        "Opinion": "调侃没有秘密",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃没有秘密"
+    },
+    {
+        "sentence": "怎么不带我去呀？好兄弟？",
+        "Holder": "4",
+        "Target": "被带去",
+        "Aspect": "被邀请的公平性",
+        "Opinion": "应该被带去",
+        "Sentiment": "negative",
+        "Rationale": "被排除在外感到不公平"
+    },
+    {
+        "sentence": "你解释吧，我不跟你抢了。",
+        "Holder": "3",
+        "Target": "解释权",
+        "Aspect": "解释的分配",
+        "Opinion": "放弃解释",
+        "Sentiment": "neutral",
+        "Rationale": "不想争执"
+    },
+    {
+        "sentence": "因为没有你的 size。",
+        "Holder": "1",
+        "Target": "4的size",
+        "Aspect": "size的匹配",
+        "Opinion": "没有合适的size",
+        "Sentiment": "neutral",
+        "Rationale": "客观上没有合适的size"
+    },
+    {
+        "sentence": "再编一会儿啊，编好了再来解释。",
+        "Holder": "4",
+        "Target": "解释",
+        "Aspect": "解释的真实性",
+        "Opinion": "认为解释是编造的",
+        "Sentiment": "negative",
+        "Rationale": "觉得解释是编造的"
+    },
+    {
+        "sentence": "一菲？一菲别关门啊。他猜到了。",
+        "Holder": "1",
+        "Target": "一菲关门",
+        "Aspect": "关门的行为",
+        "Opinion": "希望不要关门",
+        "Sentiment": "negative",
+        "Rationale": "担心一菲关门导致无法解释"
+    },
+    {
+        "sentence": "哎，好了。是我连累了你们。",
+        "Holder": "2",
+        "Target": "连累",
+        "Aspect": "责任归属",
+        "Opinion": "承认连累",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己连累了别人"
+    },
+    {
+        "sentence": "算了，曾老师，既然藏不住了，我们就跟一菲摊牌，就说是你催眠了我们。",
+        "Holder": "3",
+        "Target": "摊牌",
+        "Aspect": "解决问题的方法",
+        "Opinion": "建议摊牌",
+        "Sentiment": "neutral",
+        "Rationale": "觉得无法再隐藏"
+    },
+    {
+        "sentence": "这个理由好，我去说。门锁上了。",
+        "Holder": "1",
+        "Target": "理由",
+        "Aspect": "理由的合理性",
+        "Opinion": "认为理由好",
+        "Sentiment": "neutral",
+        "Rationale": "觉得理由合理"
+    },
+    {
+        "sentence": "原来3601也给你们划清界限了。",
+        "Holder": "2",
+        "Target": "3601",
+        "Aspect": "界限划分",
+        "Opinion": "被划清界限",
+        "Sentiment": "negative",
+        "Rationale": "感到被孤立和排斥"
+    },
+    {
+        "sentence": "一菲，开门啊一菲。我们编好了，啊，不对，那个我们合计好了，不是也不对，一菲，总之你开门啊一菲，你给我开个门啊。",
+        "Holder": "1",
+        "Target": "一菲开门",
+        "Aspect": "开门的行为",
+        "Opinion": "希望开门",
+        "Sentiment": "negative",
+        "Rationale": "急切地想要解释清楚"
+    },
+    {
+        "sentence": "那个贱人说的没错。",
+        "Holder": "4",
+        "Target": "那个贱人",
+        "Aspect": "说话内容的正确性",
+        "Opinion": "说的没错",
+        "Sentiment": "negative",
+        "Rationale": "对那个贱人有负面评价"
+    },
+    {
+        "sentence": "他说你说的没错，那他承认是他错了？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "错误承认",
+        "Opinion": "可能承认错误",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方的话模棱两可"
+    },
+    {
+        "sentence": "他说的是3601和我们划清界限了。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "划清界限",
+        "Opinion": "划清界限",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实"
+    },
+    {
+        "sentence": "不会吧？一菲，你给我开开门吧，我求求你了，一菲。这下怎么办？",
+        "Holder": "1",
+        "Target": "一菲",
+        "Aspect": "开门请求",
+        "Opinion": "请求开门",
+        "Sentiment": "negative",
+        "Rationale": "被拒之门外感到无助"
+    },
+    {
+        "sentence": "事已至此洗洗睡吧，明天再说呗。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "处理方式",
+        "Opinion": "暂时放下",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前无法解决"
+    },
+    {
+        "sentence": "哎，子乔，你们有地方谁，我怎么办呢？我睡沙发啊？",
+        "Holder": "1",
+        "Target": "子乔",
+        "Aspect": "住宿安排",
+        "Opinion": "无处可睡",
+        "Sentiment": "negative",
+        "Rationale": "自己没有地方睡觉"
+    },
+    {
+        "sentence": "你想太多了，从第二季开始，我就发誓绝不再让你睡我们的套房。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "住宿安排",
+        "Opinion": "不让睡套房",
+        "Sentiment": "negative",
+        "Rationale": "之前有过不愉快的经历"
+    },
+    {
+        "sentence": "你别逼我，你要是逼我，我什么事都能做得出来。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "逼迫行为",
+        "Opinion": "能做出极端行为",
+        "Sentiment": "negative",
+        "Rationale": "感到被逼迫"
+    },
+    {
+        "sentence": "你想干嘛？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "意图",
+        "Opinion": "询问意图",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1的意图"
+    },
+    {
+        "sentence": "你们要是逼我的话，我就跟胡一菲道歉。",
+        "Holder": "1",
+        "Target": "你们",
+        "Aspect": "逼迫行为",
+        "Opinion": "愿意道歉",
+        "Sentiment": "negative",
+        "Rationale": "被逼迫到无奈"
+    },
+    {
+        "sentence": "胡一菲早就丧失人性了。如果道歉有用的话，我们还费什么事儿啊？",
+        "Holder": "2",
+        "Target": "胡一菲",
+        "Aspect": "人性",
+        "Opinion": "丧失人性",
+        "Sentiment": "negative",
+        "Rationale": "认为胡一菲的行为已经完全失去人性"
+    },
+    {
+        "sentence": "那是你们没有诚意，道歉这门技术还得看我的。",
+        "Holder": "1",
+        "Target": "2的道歉方式",
+        "Aspect": "诚意",
+        "Opinion": "缺乏诚意",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方道歉没有诚意"
+    },
+    {
+        "sentence": "你？",
+        "Holder": "2",
+        "Target": "1的能力",
+        "Aspect": "能力质疑",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对1的能力表示怀疑"
+    },
+    {
+        "sentence": "我在网上查过了，最专业的道歉呢，讲究是面对面用眼神表达愧意。你们之前的道歉方法都弱爆了。",
+        "Holder": "1",
+        "Target": "道歉方法",
+        "Aspect": "专业性",
+        "Opinion": "自己更专业",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己查到的道歉方法更专业"
+    },
+    {
+        "sentence": "眼神也能道歉，来一梭子我看看？你还是恶心子乔去吧。",
+        "Holder": "2",
+        "Target": "1的道歉方法",
+        "Aspect": "可行性",
+        "Opinion": "不现实",
+        "Sentiment": "negative",
+        "Rationale": "觉得用眼神道歉不现实"
+    },
+    {
+        "sentence": "你这不是之前看内衣秀的眼神吗？",
+        "Holder": "3",
+        "Target": "1的眼神",
+        "Aspect": "真诚度",
+        "Opinion": "不真诚",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的眼神和看内衣秀时一样，缺乏真诚"
+    },
+    {
+        "sentence": "一菲，你给我开门啊，你给我开开门，我给你道歉好不好？",
+        "Holder": "1",
+        "Target": "胡一菲",
+        "Aspect": "道歉请求",
+        "Opinion": "请求原谅",
+        "Sentiment": "neutral",
+        "Rationale": "想要向胡一菲道歉"
+    },
+    {
+        "sentence": "一菲之前不是给过我们备用钥匙吗？",
+        "Holder": "3",
+        "Target": "备用钥匙",
+        "Aspect": "存在性",
+        "Opinion": "确实存在",
+        "Sentiment": "neutral",
+        "Rationale": "提到备用钥匙的存在"
+    },
+    {
+        "sentence": "早说啊，快给我啊。",
+        "Holder": "1",
+        "Target": "备用钥匙",
+        "Aspect": "及时性",
+        "Opinion": "应该早点说",
+        "Sentiment": "neutral",
+        "Rationale": "觉得备用钥匙应该早点提出来"
+    },
+    {
+        "sentence": "我现在知道这条链子是干什么用的了。",
+        "Holder": "2",
+        "Target": "链子",
+        "Aspect": "用途",
+        "Opinion": "明白了用途",
+        "Sentiment": "neutral",
+        "Rationale": "突然明白了链子的用途"
+    },
+    {
+        "sentence": "白搭，你的眼神道歉法用不上。",
+        "Holder": "3",
+        "Target": "1的眼神道歉法",
+        "Aspect": "道歉方式的有效性",
+        "Opinion": "无效",
+        "Sentiment": "negative",
+        "Rationale": "认为1的眼神道歉法不起作用"
+    },
+    {
+        "sentence": "谁说的？我的其他硬件也是为道歉而生的。",
+        "Holder": "1",
+        "Target": "自己的其他硬件",
+        "Aspect": "道歉方式的多面性",
+        "Opinion": "有效",
+        "Sentiment": "positive",
+        "Rationale": "自信自己的其他硬件也能用于道歉"
+    },
+    {
+        "sentence": "哪？",
+        "Holder": "2",
+        "Target": "1的硬件",
+        "Aspect": "具体指代",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1提到的硬件不清楚"
+    },
+    {
+        "sentence": "头啊，你们的太大了，我的小，看着点啊。一菲。",
+        "Holder": "1",
+        "Target": "头的尺寸",
+        "Aspect": "头的比较",
+        "Opinion": "自己的头小",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的头小有助于道歉"
+    },
+    {
+        "sentence": "你要干嘛？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为意图",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1的具体意图"
+    },
+    {
+        "sentence": "一菲我错了，我是来道歉的。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "道歉的诚意",
+        "Opinion": "真诚道歉",
+        "Sentiment": "positive",
+        "Rationale": "真心想要道歉"
+    },
+    {
+        "sentence": "你少拿那种眼神来看我。",
+        "Holder": "4",
+        "Target": "1的眼神",
+        "Aspect": "眼神的接受度",
+        "Opinion": "不接受",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢1的那种眼神"
+    },
+    {
+        "sentence": "一菲，我是真心的，求求你让我进来吧。一菲你别这样。谁呀？开灯啊",
+        "Holder": "1",
+        "Target": "4的态度",
+        "Aspect": "态度的接受度",
+        "Opinion": "希望被接受",
+        "Sentiment": "negative",
+        "Rationale": "4不接受自己的道歉"
+    },
+    {
+        "sentence": "继续啊，电眼仔？",
+        "Holder": "4",
+        "Target": "1的眼神",
+        "Aspect": "眼神的调侃",
+        "Opinion": "调侃",
+        "Sentiment": "negative",
+        "Rationale": "对1的眼神不以为然"
+    },
+    {
+        "sentence": "不玩了不玩了不玩了。我卡住了。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的持续性",
+        "Opinion": "放弃",
+        "Sentiment": "negative",
+        "Rationale": "感到无奈和挫败"
+    },
+    {
+        "sentence": "这叫卡门道歉法。",
+        "Holder": "3",
+        "Target": "卡门道歉法",
+        "Aspect": "方法的命名",
+        "Opinion": "这是卡门道歉法",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释一个方法的名称"
+    },
+    {
+        "sentence": "帮帮忙啊，我是真的卡住了。哎呀拉头啊，别拉屁股！",
+        "Holder": "1",
+        "Target": "帮忙",
+        "Aspect": "求助的紧迫性",
+        "Opinion": "急需帮助",
+        "Sentiment": "negative",
+        "Rationale": "1处于困境中，感到焦急和无助"
+    },
+    {
+        "sentence": "正好，你该换一个头了。",
+        "Holder": "2",
+        "Target": "1的头",
+        "Aspect": "头的更换",
+        "Opinion": "需要换头",
+        "Sentiment": "ambiguous",
+        "Rationale": "2可能是在开玩笑，语气不明朗"
+    },
+    {
+        "sentence": "你们是在？",
+        "Holder": "5",
+        "Target": "当前活动",
+        "Aspect": "活动的询问",
+        "Opinion": "不清楚活动",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问当前的活动"
+    },
+    {
+        "sentence": "拔萝卜！我们可以参与吗？",
+        "Holder": "6",
+        "Target": "拔萝卜活动",
+        "Aspect": "参与的可能性",
+        "Opinion": "希望参与",
+        "Sentiment": "positive",
+        "Rationale": "6对参与活动表现出兴趣"
+    },
+    {
+        "sentence": "张伟，你的头是怎么卡进去的？",
+        "Holder": "5",
+        "Target": "1的头",
+        "Aspect": "头卡住的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问事情的原因"
+    },
+    {
+        "sentence": "说来话长啊，你们一大群男人不想办法，却围着我的屁股，我很没安全感啊。",
+        "Holder": "1",
+        "Target": "大家的行为",
+        "Aspect": "解决问题的方法",
+        "Opinion": "感到不安全",
+        "Sentiment": "negative",
+        "Rationale": "1觉得大家没有解决问题反而让他感到不安全"
+    },
+    {
+        "sentence": "得把门先关上，链子才能取下来。",
+        "Holder": "6",
+        "Target": "解决问题的方法",
+        "Aspect": "操作步骤",
+        "Opinion": "关门是必要步骤",
+        "Sentiment": "neutral",
+        "Rationale": "6在提供解决问题的方法"
+    },
+    {
+        "sentence": "要不你先忍一忍，我们先把门关上，这样一菲就有空间取链子了。",
+        "Holder": "3",
+        "Target": "1的忍耐",
+        "Aspect": "解决问题的建议",
+        "Opinion": "建议忍耐",
+        "Sentiment": "neutral",
+        "Rationale": "3在提出一个解决问题的建议"
+    },
+    {
+        "sentence": "你们要我命啊？",
+        "Holder": "1",
+        "Target": "大家的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "认为不可行",
+        "Sentiment": "negative",
+        "Rationale": "1觉得大家的建议让他难以接受"
+    },
+    {
+        "sentence": "我终于知道什么叫脑袋被门挤了。",
+        "Holder": "5",
+        "Target": "自己的感受",
+        "Aspect": "对情况的描述",
+        "Opinion": "感到困惑或无奈",
+        "Sentiment": "negative",
+        "Rationale": "遇到了令人费解或无奈的情况"
+    },
+    {
+        "sentence": "一菲在里面吗，怎么没有声音呢？",
+        "Holder": "6",
+        "Target": "一菲",
+        "Aspect": "一菲的存在和状态",
+        "Opinion": "疑惑一菲的状态",
+        "Sentiment": "neutral",
+        "Rationale": "听到没有声音"
+    },
+    {
+        "sentence": "刚才还在里面说话呢。",
+        "Holder": "2",
+        "Target": "一菲",
+        "Aspect": "一菲的状态变化",
+        "Opinion": "确认一菲刚才还在",
+        "Sentiment": "neutral",
+        "Rationale": "刚才确实听到一菲在说话"
+    }
+]

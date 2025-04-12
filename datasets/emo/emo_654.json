@@ -1,0 +1,46 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "生育后的矛盾与家庭责任冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "生育时被嫌弃态度刺激，家庭责任分配不公，质疑对方育儿方式",
+            "source_id": "2,4"
+          }
+        ]
+      },
+      {
+        "event": "关键责任时刻的缺席事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "孩子生病/母亲摔跤时缺乏支持，父亲角色失职",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "与第三方的婚姻干涉冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "周岁宴闹事行为，过度介入婚姻关系，影响子女权益",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "婚姻关系破裂决策",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "长期失信导致关系终结，情感底线被突破",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "你能不能给我解释一下，你到底有没有背书？",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "背书情况",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "妈妈不确定女儿是否背书"
+    },
+    {
+        "sentence": "我不想考公务员，我根本就没打算考公务员。",
+        "Holder": "女儿",
+        "Target": "考公务员",
+        "Aspect": "职业选择",
+        "Opinion": "不打算考",
+        "Sentiment": "negative",
+        "Rationale": "女儿对考公务员没有兴趣"
+    },
+    {
+        "sentence": "这么大的事儿你都敢骗我了？",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "诚实",
+        "Opinion": "认为女儿在骗人",
+        "Sentiment": "negative",
+        "Rationale": "妈妈觉得女儿在重要事情上不诚实"
+    },
+    {
+        "sentence": "我没打算骗你，我也不想骗你，但是我真的不想考公务员，我想当一名记者，去北京两年就可以了。",
+        "Holder": "女儿",
+        "Target": "考公务员",
+        "Aspect": "职业选择",
+        "Opinion": "想当记者",
+        "Sentiment": "neutral",
+        "Rationale": "女儿真诚地表达了自己的职业愿望"
+    },
+    {
+        "sentence": "你还想去北京呢？",
+        "Holder": "妈妈",
+        "Target": "女儿去北京的想法",
+        "Aspect": "去北京的可行性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "妈妈认为女儿没有准备好"
+    },
+    {
+        "sentence": "妈，是我在高中的时候，你告诉我你想让我去北京，你说北京有很多机会。",
+        "Holder": "女儿",
+        "Target": "妈妈的想法",
+        "Aspect": "去北京的动机",
+        "Opinion": "指出妈妈的初衷",
+        "Sentiment": "neutral",
+        "Rationale": "女儿在陈述妈妈过去的建议"
+    },
+    {
+        "sentence": "机会是留给有准备的人的，你会什么呀？混两年没有成绩，你回来就能进编制了。哼，这么好的机会留给你你也不动，你那个脑子好好想一想，北京人才济济的，你比别人强在哪儿？",
+        "Holder": "妈妈",
+        "Target": "女儿的准备和能力",
+        "Aspect": "去北京的竞争力",
+        "Opinion": "认为女儿不够优秀",
+        "Sentiment": "negative",
+        "Rationale": "妈妈认为女儿没有足够的竞争力"
+    },
+    {
+        "sentence": "我不比别人强，但是我也不比别人差。我从小上学的时候就没有考掉过班级前五，我大学连着三年奖学金，我上班了我做选题，我内部评选全是优，我差哪了妈？",
+        "Holder": "女儿",
+        "Target": "自己的能力",
+        "Aspect": "个人成就",
+        "Opinion": "认为自己不差",
+        "Sentiment": "positive",
+        "Rationale": "女儿列举了自己的成就"
+    },
+    {
+        "sentence": "你差就差在心理素质，你平常还好，一到关键时候就掉链子，高考的时候你不就趴下了吗啊？比你平常模拟考试低了五六十分，你当年还想考政法大学呢？",
+        "Holder": "妈妈",
+        "Target": "女儿的心理素质",
+        "Aspect": "关键时刻的表现",
+        "Opinion": "认为女儿心理素质差",
+        "Sentiment": "negative",
+        "Rationale": "妈妈提到女儿在关键时刻表现不佳"
+    },
+    {
+        "sentence": "是你想让我考政法大学。我根本就没有想过考政法大学，是你想让我做律师，你想让我做检察官，这都是你想的，我从来没有想过。",
+        "Holder": "女儿",
+        "Target": "妈妈的期望",
+        "Aspect": "职业选择的自主性",
+        "Opinion": "反对妈妈的安排",
+        "Sentiment": "negative",
+        "Rationale": "妈妈强加了自己的职业期望"
+    },
+    {
+        "sentence": "有什么区别？你考多少分你不知道。",
+        "Holder": "妈妈",
+        "Target": "女儿的分数",
+        "Aspect": "分数的客观性",
+        "Opinion": "质疑女儿的分数",
+        "Sentiment": "negative",
+        "Rationale": "妈妈认为女儿不清楚自己的分数"
+    },
+    {
+        "sentence": "我告诉你有区别。区别就在于如果是我想要的，我一定能考上。",
+        "Holder": "女儿",
+        "Target": "自己的能力",
+        "Aspect": "实现目标的信心",
+        "Opinion": "对自己有信心",
+        "Sentiment": "positive",
+        "Rationale": "女儿相信自己有能力实现目标"
+    },
+    {
+        "sentence": "你想考就能考，就你那 500 多分，你想上就能上。",
+        "Holder": "妈妈",
+        "Target": "女儿的分数",
+        "Aspect": "分数与目标的匹配度",
+        "Opinion": "认为分数不够",
+        "Sentiment": "negative",
+        "Rationale": "妈妈认为女儿的分数不足以实现目标"
+    },
+    {
+        "sentence": "妈，你能不能不要一直否定我？我从小到大除非我考第一名你才会给我肯定，其他时候你全在否定我。我吃饭点菜你否定我，我穿衣服你否定我工作、我上班，我谈恋爱了，我什么什么你都要否定我。",
+        "Holder": "女儿",
+        "Target": "妈妈的否定",
+        "Aspect": "妈妈的评价方式",
+        "Opinion": "反对妈妈的否定",
+        "Sentiment": "negative",
+        "Rationale": "妈妈在各个方面都否定自己"
+    },
+    {
+        "sentence": "你能不能不要一直否定我？",
+        "Holder": "女儿",
+        "Target": "妈妈的否定",
+        "Aspect": "妈妈的评价方式",
+        "Opinion": "希望得到肯定",
+        "Sentiment": "negative",
+        "Rationale": "长期被否定"
+    },
+    {
+        "sentence": "穿什么？白色不爱干净，还爱穿白色的，黑色不适合你这么年轻，要多穿点鲜亮的。穿什么黑色？",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "穿着选择",
+        "Opinion": "白色不合适，黑色不适合年轻",
+        "Sentiment": "negative",
+        "Rationale": "妈妈认为白色不干净且女儿爱穿白色，黑色不适合年轻"
+    },
+    {
+        "sentence": "要一个水煮肉牛肋排。焦香茄子。",
+        "Holder": "女儿",
+        "Target": "点菜选择",
+        "Aspect": "菜品选择",
+        "Opinion": "喜欢水煮肉牛肋排和焦香茄子",
+        "Sentiment": "neutral",
+        "Rationale": "女儿按照自己的喜好点菜"
+    },
+    {
+        "sentence": "每次让你点菜就这老三样，你想什么妈都看得到。而且这是什么小心思呀？还蝴蝶结，我那是否定你吗？我那是为你好，关心。",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "点菜习惯和小心思",
+        "Opinion": "认为女儿点菜单一且有小心思",
+        "Sentiment": "negative",
+        "Rationale": "妈妈觉得女儿点菜总是老三样且有小心思"
+    },
+    {
+        "sentence": "你。我不需要你这样的关心，根本就不是我想要的。",
+        "Holder": "女儿",
+        "Target": "妈妈的关心",
+        "Aspect": "关心的方式",
+        "Opinion": "不需要这样的关心",
+        "Sentiment": "negative",
+        "Rationale": "女儿觉得妈妈的关心方式不是自己想要的"
+    },
+    {
+        "sentence": "齐明月也有点良心，我为你辛辛苦苦付出了这么多，我让你吃好穿好，我给你提供好的学习环境，你现在跟我说这都不是你想要的。",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "妈妈的付出",
+        "Opinion": "认为自己付出很多",
+        "Sentiment": "negative",
+        "Rationale": "妈妈觉得自己为女儿付出了很多却得不到理解"
+    },
+    {
+        "sentence": "妈你从来都不了解我，我本来就是这样的。我一直都是这样，我从小最擅长的就是撒谎，你不让我干的事情，我在你背后，我偷偷的，我全干了。",
+        "Holder": "女儿",
+        "Target": "妈妈",
+        "Aspect": "对女儿的了解",
+        "Opinion": "妈妈不了解自己",
+        "Sentiment": "negative",
+        "Rationale": "妈妈不了解自己的真实情况和行为"
+    },
+    {
+        "sentence": "哈哈哈，你知道为什么我高考比模拟考少考了五六十分吗？因为我故意少填了一张答题卡。",
+        "Holder": "女儿",
+        "Target": "高考成绩",
+        "Aspect": "成绩差异的原因",
+        "Opinion": "故意少填答题卡",
+        "Sentiment": "negative",
+        "Rationale": "为了对抗妈妈的期望故意少填答题卡"
+    },
+    {
+        "sentence": "撒谎。",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "行为真实性",
+        "Opinion": "女儿在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为女儿在撒谎"
+    },
+    {
+        "sentence": "我当时没有别的办法了。因为我知道我只要分数线够了，你一定让我报政法大学，所以我选择了最蠢的办法。我一定要当记者，我一定要去北京，我一定要去外面看看世界，我一定要去摔跟头，我一定要去吃苦，我要看看我自己到底能笨成什么样子，我不会再听你的话了。",
+        "Holder": "女儿",
+        "Target": "妈妈的期望",
+        "Aspect": "对未来的选择",
+        "Opinion": "坚持自己的选择",
+        "Sentiment": "negative",
+        "Rationale": "妈妈的期望与自己的人生规划冲突"
+    },
+    {
+        "sentence": "行，你真行。",
+        "Holder": "妈妈",
+        "Target": "女儿",
+        "Aspect": "行为评价",
+        "Opinion": "无奈的认可",
+        "Sentiment": "negative",
+        "Rationale": "对女儿的叛逆行为感到无奈和失望"
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "太好了亲戚哥。",
+        "Holder": "4",
+        "Target": "亲戚哥",
+        "Aspect": "关系亲近",
+        "Opinion": "感到高兴",
+        "Sentiment": "positive",
+        "Rationale": "见到亲戚哥感到亲切和高兴"
+    },
+    {
+        "sentence": "你客气啥亲戚弟能。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "客气程度",
+        "Opinion": "不必客气",
+        "Sentiment": "neutral",
+        "Rationale": "认为亲戚之间不需要太客气"
+    },
+    {
+        "sentence": "进来吗？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "邀请进入",
+        "Opinion": "邀请",
+        "Sentiment": "neutral",
+        "Rationale": "礼貌地邀请对方进入"
+    },
+    {
+        "sentence": "过年不给红包了，",
+        "Holder": "3",
+        "Target": "红包习俗",
+        "Aspect": "红包发放",
+        "Opinion": "不发放红包",
+        "Sentiment": "neutral",
+        "Rationale": "提到过年不给红包，可能出于经济或其他原因"
+    },
+    {
+        "sentence": "没事我都长大了，不是。",
+        "Holder": "4",
+        "Target": "红包习俗",
+        "Aspect": "红包的必要性",
+        "Opinion": "不需要红包",
+        "Sentiment": "positive",
+        "Rationale": "认为自己已经长大，不需要红包"
+    },
+    {
+        "sentence": "你跟亲戚唠点儿啥。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "与亲戚的交流内容",
+        "Opinion": "应该找话题聊聊",
+        "Sentiment": "neutral",
+        "Rationale": "2想知道3和亲戚聊什么"
+    },
+    {
+        "sentence": "唠啥，咱跟他有代沟，你跟他说走。你班弄咋样不行别上了。",
+        "Holder": "3",
+        "Target": "亲戚",
+        "Aspect": "交流的难易程度",
+        "Opinion": "有代沟，难以交流",
+        "Sentiment": "negative",
+        "Rationale": "觉得和亲戚有代沟，难以找到共同话题"
+    },
+    {
+        "sentence": "有对象吗，不行别处了，",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "感情生活",
+        "Opinion": "如果没有合适的对象就别继续相处",
+        "Sentiment": "neutral",
+        "Rationale": "关心3的感情生活"
+    },
+    {
+        "sentence": "买车买房吗不行别买了，",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "生活决策",
+        "Opinion": "如果没有必要就别买车买房",
+        "Sentiment": "neutral",
+        "Rationale": "对2的生活决策提出自己的看法"
+    },
+    {
+        "sentence": "你们可别闹了。",
+        "Holder": "4",
+        "Target": "大家的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "希望大家停止",
+        "Sentiment": "negative",
+        "Rationale": "大家的行为让他感到困扰"
+    },
+    {
+        "sentence": "亲戚们我出去了哈。",
+        "Holder": "3",
+        "Target": "自己的行动",
+        "Aspect": "行动的通知",
+        "Opinion": "告知离开",
+        "Sentiment": "neutral",
+        "Rationale": "要离开家"
+    },
+    {
+        "sentence": "你还搁家呢",
+        "Holder": "4",
+        "Target": "3的位置",
+        "Aspect": "在家的情况",
+        "Opinion": "指出3还在家",
+        "Sentiment": "neutral",
+        "Rationale": "看到3还在家"
+    },
+    {
+        "sentence": "大亲戚你帮我个忙，你有经验，我送我女神这个新年礼物，行不？。",
+        "Holder": "3",
+        "Target": "4的帮助",
+        "Aspect": "送礼物的建议",
+        "Opinion": "请求帮助",
+        "Sentiment": "positive",
+        "Rationale": "需要4的经验帮助选择礼物"
+    },
+    {
+        "sentence": "这什么玩意，",
+        "Holder": "4",
+        "Target": "礼物",
+        "Aspect": "礼物的质量",
+        "Opinion": "质疑礼物",
+        "Sentiment": "negative",
+        "Rationale": "对礼物不满意或觉得不合适"
+    },
+    {
+        "sentence": "她说她脸干，我送她个湿巾",
+        "Holder": "3",
+        "Target": "她",
+        "Aspect": "脸部干燥",
+        "Opinion": "送湿巾",
+        "Sentiment": "neutral",
+        "Rationale": "她提到脸部干燥"
+    },
+    {
+        "sentence": "还是卸妆湿巾。你个大直男本来就是给你准备的，我把你记成女孩了，是得亏，你有个女神要不送不出去了。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "送湿巾的初衷",
+        "Opinion": "误记性别",
+        "Sentiment": "ambiguous",
+        "Rationale": "误将3记成女孩导致送错湿巾"
+    },
+    {
+        "sentence": "亲戚们我儿子来了要拜年吗？亲戚们过年好过年了，回去啥他就把你玩具把送，所以不是我说大姐你玩吗？我咋的？",
+        "Holder": "1",
+        "Target": "亲戚们",
+        "Aspect": "拜年和送玩具",
+        "Opinion": "询问和解释",
+        "Sentiment": "neutral",
+        "Rationale": "询问亲戚们是否需要拜年和解释送玩具的情况"
+    }
+]

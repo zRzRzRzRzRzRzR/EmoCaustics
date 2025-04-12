@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "礼仪课程与胡萝卜惩罚的冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "询问法国宫廷礼仪内容", "source_id": "2"},
+          {"state": "negative", "reason": "担心礼仪课程完成困难", "source_id": "2"},
+          {"state": "neutral", "reason": "推测2的饮食习惯", "source_id": "2"},
+          {"state": "positive", "reason": "揭示2买礼物的真实动机", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "贵族礼仪训练与家庭归属抉择",
+        "emotions": [
+          {"state": "neutral", "reason": "简单解释宫廷礼仪", "source_id": "1"},
+          {"state": "negative", "reason": "面临饮食限制与烤鸭缺失", "source_id": "5"},
+          {"state": "positive", "reason": "表达回归家庭的强烈渴望", "source_id": "4"},
+          {"state": "negative", "reason": "抗拒母亲召回要求", "source_id": "5"},
+          {"state": "ambiguous", "reason": "无法说明回家动机", "source_id": "5"},
+          {"state": "positive", "reason": "通过礼物证明家庭情感", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭矛盾调解观察",
+        "emotions": [
+          {"state": "negative", "reason": "同情2被频繁惩罚", "source_id": "2"},
+          {"state": "neutral", "reason": "提出复合动机的可能性", "source_id": "5"},
+          {"state": "positive", "reason": "认可2的用心良苦", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "亲子关系维护与调解",
+        "emotions": [
+          {"state": "positive", "reason": "庆祝家庭团圆", "source_id": "2"},
+          {"state": "neutral", "reason": "描述体重变化事实", "source_id": "2"},
+          {"state": "negative", "reason": "反对过度逼问孩子", "source_id": "5"},
+          {"state": "ambiguous", "reason": "质疑礼物适配性", "source_id": "2"},
+          {"state": "positive", "reason": "强化礼物的情感价值", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "教育理念冲突与情感确认",
+        "emotions": [
+          {"state": "negative", "reason": "威胁夏东海的教育权", "source_id": "6"},
+          {"state": "doubt", "reason": "质疑孩子回家动机", "source_id": "2"},
+          {"state": "negative", "reason": "拒绝接受礼物", "source_id": "2"},
+          {"state": "positive", "reason": "重新确认亲子关系", "source_id": "2"},
+          {"state": "positive", "reason": "采纳日程表并延续惩罚", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

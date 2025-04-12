@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对抗策略与教训实施",
+        "emotions": [
+          {"state": "negative", "reason": "计划制造假象并利用小雨", "source_id": "2"},
+          {"state": "negative", "reason": "坚持要对方承认错误并给教训", "source_id": "2"},
+          {"state": "negative", "reason": "质疑对方藏鞋行为并威胁惩罚", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "亲子沟通障碍",
+        "emotions": [
+          {"state": "neutral", "reason": "询问作业完成情况", "source_id": "2"},
+          {"state": "negative", "reason": "警告三天内归还鞋子", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "秘密计划与信任危机",
+        "emotions": [
+          {"state": "neutral", "reason": "暗示即将离开并分配玩具", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑泄密旅游计划", "source_id": "3"},
+          {"state": "negative", "reason": "质疑对方保密能力", "source_id": "3"},
+          {"state": "neutral", "reason": "说明父母知情后果", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "物质激励与承诺博弈",
+        "emotions": [
+          {"state": "neutral", "reason": "用电子赛车作为保密条件", "source_id": "3"},
+          {"state": "negative", "reason": "讽刺对方行为动机", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "秘密保守与利益权衡",
+        "emotions": [
+          {"state": "positive", "reason": "发誓保守旅游秘密", "source_id": "2"},
+          {"state": "neutral", "reason": "承认玩具是保密动机", "source_id": "2"},
+          {"state": "positive", "reason": "再次强调保密决心", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "物质接受与关系互动",
+        "emotions": [
+          {"state": "negative", "reason": "批评玩具过时", "source_id": "2"},
+          {"state": "neutral", "reason": "计划交换新玩具", "source_id": "2"},
+          {"state": "ambiguous", "reason": "质疑对方后悔决定", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "冲突调解与价值观引导",
+        "emotions": [
+          {"state": "ambiguous", "reason": "预测对抗结果", "source_id": "1"},
+          {"state": "negative", "reason": "批评较劲行为", "source_id": "1"},
+          {"state": "neutral", "reason": "反对以恶制恶", "source_id": "1"},
+          {"state": "positive", "reason": "倡导以德服人", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "信息获取困境",
+        "emotions": [
+          {"state": "negative", "reason": "抱怨未获告知秘密", "source_id": "3"},
+          {"state": "neutral", "reason": "建议询问母亲详情", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

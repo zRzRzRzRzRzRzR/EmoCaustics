@@ -1,0 +1,63 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "赠送礼物引发关系紧张",
+        "emotions": [
+          {"state": "positive", "reason": "赠送礼物表达关心", "source_id": "2"},
+          {"state": "neutral", "reason": "试图解释情感变化", "source_id": "2"},
+          {"state": "positive", "reason": "强调友谊稳定性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "拒绝礼物与质疑关系",
+        "emotions": [
+          {"state": "negative", "reason": "反感礼物价值与对方态度变化", "source_id": "1"},
+          {"state": "negative", "reason": "指责忽视家人行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "学业监督与亲子分离焦虑",
+        "emotions": [
+          {"state": "negative", "reason": "强制学习任务要求", "source_id": "4"},
+          {"state": "negative", "reason": "担忧孩子未归安全", "source_id": "4"},
+          {"state": "positive", "reason": "信任玛丽照顾能力", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "接回孩子的决策冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑自身行动合理性", "source_id": "4"},
+          {"state": "neutral", "reason": "接受任务分配结果", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "亲子分离的心理压力",
+        "emotions": [
+          {"state": "positive", "reason": "关心孩子生活状况", "source_id": "3"},
+          {"state": "ambiguous", "reason": "不确定孩子归期", "source_id": "3"},
+          {"state": "negative", "reason": "恐惧玛丽暴力倾向", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "冲突回避与责任转移",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝直接沟通玛丽", "source_id": "3"},
+          {"state": "negative", "reason": "强制要求3代行接回", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

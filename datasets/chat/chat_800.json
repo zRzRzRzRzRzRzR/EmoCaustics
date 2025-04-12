@@ -1,0 +1,254 @@
+[
+    {
+        "sentence": "司马一为什么打子昂？",
+        "Holder": "1",
+        "Target": "司马一",
+        "Aspect": "打子昂的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "对司马一打子昂的原因不清楚"
+    },
+    {
+        "sentence": "主任他处处针对我，他才来几天他针对你，",
+        "Holder": "2",
+        "Target": "司马一",
+        "Aspect": "对待行为",
+        "Opinion": "认为司马一针对自己",
+        "Sentiment": "negative",
+        "Rationale": "司马一处处针对自己"
+    },
+    {
+        "sentence": "他咋不针对别人呢？",
+        "Holder": "1",
+        "Target": "司马一",
+        "Aspect": "针对对象的选择",
+        "Opinion": "质疑针对性",
+        "Sentiment": "neutral",
+        "Rationale": "对司马一为何只针对子昂而不针对别人感到疑惑"
+    },
+    {
+        "sentence": "给人道歉，我给他道歉，我告诉你陈子昂再有机会我还打你",
+        "Holder": "2",
+        "Target": "陈子昂",
+        "Aspect": "道歉和威胁",
+        "Opinion": "道歉但威胁再打",
+        "Sentiment": "negative",
+        "Rationale": "虽然道歉但仍然对陈子昂有敌意"
+    },
+    {
+        "sentence": "是吧？你你眼里还有没有我，滚出去。你看都是同学，你看这马一也不是故意的，主任替他给你道个歉行吗？",
+        "Holder": "1",
+        "Target": "马一的行为",
+        "Aspect": "行为的故意性",
+        "Opinion": "认为不是故意的",
+        "Sentiment": "negative",
+        "Rationale": "认为马一的行为不是故意的，但对方不接受道歉"
+    },
+    {
+        "sentence": "主任你确定这不是故意的吗？这要是打你儿子你能忍吗？我感觉主任这事儿我必须追究到底，您要是不管我就上报学校了。",
+        "Holder": "3",
+        "Target": "马一的行为",
+        "Aspect": "行为的故意性",
+        "Opinion": "认为可能是故意的",
+        "Sentiment": "negative",
+        "Rationale": "怀疑马一的行为是故意的，并且感到自己的权益被侵犯"
+    },
+    {
+        "sentence": "下课前跟大家说个事儿，咱们班的司马一同学由于个人原因休学一个月，学习委员的位置先由陈子昂同学代替",
+        "Holder": "2",
+        "Target": "司马一的休学",
+        "Aspect": "休学原因",
+        "Opinion": "宣布休学事实",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地宣布司马一休学的事实"
+    },
+    {
+        "sentence": "不对劲，10分有9分不对，你说马一为啥突然休学了，不能是中激将法了？",
+        "Holder": "5",
+        "Target": "马一的休学",
+        "Aspect": "休学原因",
+        "Opinion": "怀疑有隐情",
+        "Sentiment": "ambiguous",
+        "Rationale": "对马一突然休学的原因感到疑惑和不解"
+    },
+    {
+        "sentence": "新来的陈子昂搞的鬼。",
+        "Holder": "4",
+        "Target": "陈子昂",
+        "Aspect": "行为动机",
+        "Opinion": "认为是陈子昂搞鬼",
+        "Sentiment": "negative",
+        "Rationale": "怀疑陈子昂是导致马一休学的幕后原因"
+    },
+    {
+        "sentence": "我觉得也是，要不然按我说的是对，按我说得来，首先咱们先分开，然后。",
+        "Holder": "3",
+        "Target": "分组建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "支持分组",
+        "Sentiment": "neutral",
+        "Rationale": "认为分组是一个合理的解决方案"
+    },
+    {
+        "sentence": "陈子昂你给我出来了，司马一是不是你搞回家的？",
+        "Holder": "6",
+        "Target": "陈子昂",
+        "Aspect": "行为责任",
+        "Opinion": "怀疑陈子昂",
+        "Sentiment": "negative",
+        "Rationale": "怀疑陈子昂对司马一的行为负有责任"
+    },
+    {
+        "sentence": "德柱你别冲动，别冤枉人，子昂人还不错。",
+        "Holder": "5",
+        "Target": "陈子昂",
+        "Aspect": "人品评价",
+        "Opinion": "认为陈子昂不错",
+        "Sentiment": "positive",
+        "Rationale": "认为陈子昂人品不错"
+    },
+    {
+        "sentence": "放屁，就他跟司马懿去批卷子回来他就休学了，不打谁怎么的托，他上次考试他帮你还成了走狗了是吧？",
+        "Holder": "6",
+        "Target": "陈子昂",
+        "Aspect": "行为动机",
+        "Opinion": "认为陈子昂有不良动机",
+        "Sentiment": "negative",
+        "Rationale": "认为陈子昂的行为有不良动机"
+    },
+    {
+        "sentence": "你说谁走狗",
+        "Holder": "5",
+        "Target": "6的指责",
+        "Aspect": "言语攻击",
+        "Opinion": "反驳指责",
+        "Sentiment": "negative",
+        "Rationale": "被6的言语攻击感到不满"
+    },
+    {
+        "sentence": "就说你走狗叛徒狗腿子",
+        "Holder": "6",
+        "Target": "赵德柱",
+        "Aspect": "人品",
+        "Opinion": "背叛",
+        "Sentiment": "negative",
+        "Rationale": "认为赵德柱背叛了团队"
+    },
+    {
+        "sentence": "闭嘴。赵德柱在那吵吵什么",
+        "Holder": "1",
+        "Target": "赵德柱",
+        "Aspect": "行为",
+        "Opinion": "吵闹",
+        "Sentiment": "negative",
+        "Rationale": "赵德柱在大声吵闹"
+    },
+    {
+        "sentence": "主任，这新来的他就不是啥好玩意，马一就是让他整休学的，他从来到咱班咱班一天都没消停过",
+        "Holder": "6",
+        "Target": "新来的",
+        "Aspect": "行为和影响",
+        "Opinion": "捣乱",
+        "Sentiment": "negative",
+        "Rationale": "新来的人导致班级不平静，还让马一休学"
+    },
+    {
+        "sentence": "赵德柱你没完了",
+        "Holder": "5",
+        "Target": "赵德柱",
+        "Aspect": "行为",
+        "Opinion": "持续吵闹",
+        "Sentiment": "negative",
+        "Rationale": "赵德柱一直在吵闹，没有停止的意思"
+    },
+    {
+        "sentence": "我会告诉主任司马懿为啥休学的，你问他他搞的鬼",
+        "Holder": "6",
+        "Target": "赵德柱",
+        "Aspect": "行为",
+        "Opinion": "搞鬼",
+        "Sentiment": "negative",
+        "Rationale": "认为赵德柱做了不正当的事情导致司马懿休学"
+    },
+    {
+        "sentence": "我让你给我滚回座去",
+        "Holder": "1",
+        "Target": "赵德柱",
+        "Aspect": "行为要求",
+        "Opinion": "要求回座",
+        "Sentiment": "negative",
+        "Rationale": "对赵德柱的行为不满"
+    },
+    {
+        "sentence": "司马一是我让休学的，",
+        "Holder": "1",
+        "Target": "司马一",
+        "Aspect": "休学决定",
+        "Opinion": "自己决定休学",
+        "Sentiment": "neutral",
+        "Rationale": "提到自己让司马一休学的事实"
+    },
+    {
+        "sentence": "赵德柱。收拾东西给我滚回家去，",
+        "Holder": "1",
+        "Target": "赵德柱",
+        "Aspect": "行为要求",
+        "Opinion": "要求回家",
+        "Sentiment": "negative",
+        "Rationale": "对赵德柱的行为极度不满"
+    },
+    {
+        "sentence": "你也回座去",
+        "Holder": "1",
+        "Target": "说话人6",
+        "Aspect": "行为要求",
+        "Opinion": "要求回座",
+        "Sentiment": "negative",
+        "Rationale": "对说话人6的行为不满"
+    },
+    {
+        "sentence": "你给我等着陈子昂。",
+        "Holder": "6",
+        "Target": "陈子昂",
+        "Aspect": "威胁",
+        "Opinion": "要求等待",
+        "Sentiment": "negative",
+        "Rationale": "对陈子昂有不满"
+    },
+    {
+        "sentence": "子昂德柱就那样，别跟他一般见识，",
+        "Holder": "5",
+        "Target": "陈子昂和赵德柱",
+        "Aspect": "行为评价",
+        "Opinion": "不值得计较",
+        "Sentiment": "neutral",
+        "Rationale": "认为陈子昂和赵德柱的行为不值得计较"
+    },
+    {
+        "sentence": "刚才谢谢你",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "感谢",
+        "Opinion": "表达感谢",
+        "Sentiment": "positive",
+        "Rationale": "对方之前给予了帮助"
+    },
+    {
+        "sentence": "都哥们，上回考试你不还帮我干什么？对了，晚上有时间没咱俩吃顿饭，其实上次你帮完我之后，我觉得你人还不错，开诚布吧子昂你来我们这是有目的，你来咱们这儿到底是要干啥？",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "对方的目的",
+        "Opinion": "怀疑对方有目的",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方之前的帮助让自己产生好感，但又怀疑对方有其他目的"
+    },
+    {
+        "sentence": "我来这儿其实就是为了。",
+        "Holder": "3",
+        "Target": "自己的目的",
+        "Aspect": "目的说明",
+        "Opinion": "未明确说明",
+        "Sentiment": "neutral",
+        "Rationale": "话未说完"
+    }
+]

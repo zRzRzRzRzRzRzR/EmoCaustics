@@ -1,0 +1,632 @@
+[
+    {
+        "sentence": "陈老弟，这个破瓷瓶普通的不能再普通了。",
+        "Holder": "1",
+        "Target": "破瓷瓶",
+        "Aspect": "价值",
+        "Opinion": "普通",
+        "Sentiment": "negative",
+        "Rationale": "认为瓷瓶非常普通，没有什么价值"
+    },
+    {
+        "sentence": "老板，这破子瓶多少钱？",
+        "Holder": "2",
+        "Target": "破瓷瓶",
+        "Aspect": "价格",
+        "Opinion": "询问价格",
+        "Sentiment": "neutral",
+        "Rationale": "对瓷瓶的价格感兴趣"
+    },
+    {
+        "sentence": "阳哥阳哥，行了，咱还是走吧。",
+        "Holder": "2",
+        "Target": "购买决定",
+        "Aspect": "是否购买",
+        "Opinion": "不购买",
+        "Sentiment": "negative",
+        "Rationale": "觉得价格过高不合理"
+    },
+    {
+        "sentence": "这瓶子1000块钱卖不卖？",
+        "Holder": "4",
+        "Target": "瓶子",
+        "Aspect": "价格",
+        "Opinion": "1000块钱",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问瓶子的价格"
+    },
+    {
+        "sentence": "一千卖？",
+        "Holder": "2",
+        "Target": "瓶子",
+        "Aspect": "价格",
+        "Opinion": "1000块钱",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认瓶子的价格"
+    },
+    {
+        "sentence": "陈老弟，你开什么玩笑？这破瓷瓶怎么也不值1000啊。",
+        "Holder": "1",
+        "Target": "瓶子",
+        "Aspect": "价值",
+        "Opinion": "不值1000",
+        "Sentiment": "negative",
+        "Rationale": "1认为瓶子不值1000块钱"
+    },
+    {
+        "sentence": "妙啊妙啊。这破东西，小兄弟，你能看上，您是刚进城的吧？",
+        "Holder": "5",
+        "Target": "瓶子",
+        "Aspect": "价值",
+        "Opinion": "不值钱",
+        "Sentiment": "negative",
+        "Rationale": "5认为瓶子不值钱并质疑4的眼光"
+    },
+    {
+        "sentence": "你谁啊你？",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "身份",
+        "Opinion": "质疑身份",
+        "Sentiment": "negative",
+        "Rationale": "2对5的嘲讽感到不满"
+    },
+    {
+        "sentence": "这位是如意古董行的王掌柜。",
+        "Holder": "1",
+        "Target": "王掌柜",
+        "Aspect": "身份介绍",
+        "Opinion": "介绍身份",
+        "Sentiment": "neutral",
+        "Rationale": "1在进行客观的身份介绍"
+    },
+    {
+        "sentence": "宋老板，你又来鉴宝会送钱了呀？你的钱真多。",
+        "Holder": "5",
+        "Target": "宋老板",
+        "Aspect": "财富状况",
+        "Opinion": "认为宋老板很有钱",
+        "Sentiment": "positive",
+        "Rationale": "5调侃宋老板经常来鉴宝会且很有钱"
+    },
+    {
+        "sentence": "宋某虽然眼力不如王掌柜，还请王掌柜嘴下积德呀。",
+        "Holder": "1",
+        "Target": "王掌柜",
+        "Aspect": "言行举止",
+        "Opinion": "请求王掌柜言辞客气",
+        "Sentiment": "neutral",
+        "Rationale": "1在礼貌地请求王掌柜言辞客气"
+    },
+    {
+        "sentence": "什么积德不积德，古董行玩的是眼力。",
+        "Holder": "5",
+        "Target": "古董行",
+        "Aspect": "行业规则",
+        "Opinion": "强调眼力的重要性",
+        "Sentiment": "neutral",
+        "Rationale": "5在陈述古董行的行业规则"
+    },
+    {
+        "sentence": "怎么，这位是你请来的新店员？",
+        "Holder": "5",
+        "Target": "新店员",
+        "Aspect": "身份疑问",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问新店员的身份"
+    },
+    {
+        "sentence": "这位就是古董大师陈阳。",
+        "Holder": "1",
+        "Target": "陈阳",
+        "Aspect": "身份",
+        "Opinion": "是古董大师",
+        "Sentiment": "neutral",
+        "Rationale": "1在介绍陈阳的身份"
+    },
+    {
+        "sentence": "这不两个二傻子吗？",
+        "Holder": "5",
+        "Target": "陈阳和说话人1",
+        "Aspect": "智力",
+        "Opinion": "认为是傻子",
+        "Sentiment": "negative",
+        "Rationale": "5对陈阳和说话人1的智力进行贬低"
+    },
+    {
+        "sentence": "你说谁呢你！",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "言语",
+        "Opinion": "质问",
+        "Sentiment": "negative",
+        "Rationale": "2对5的侮辱性言语感到愤怒"
+    },
+    {
+        "sentence": "怎么，不服啊？不服，拿真本事出来叫我瞧一瞧。",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "5对2的能力表示怀疑"
+    },
+    {
+        "sentence": "老板，这瓶子我是真喜欢，三千。",
+        "Holder": "4",
+        "Target": "瓶子",
+        "Aspect": "价值",
+        "Opinion": "喜欢并愿意出价",
+        "Sentiment": "positive",
+        "Rationale": "4对瓶子非常喜欢并愿意出三千元购买"
+    },
+    {
+        "sentence": "三千啊？三千就三千，成交！",
+        "Holder": "3",
+        "Target": "交易价格",
+        "Aspect": "价格接受度",
+        "Opinion": "接受价格",
+        "Sentiment": "positive",
+        "Rationale": "愿意以三千元成交"
+    },
+    {
+        "sentence": "宋老板，你要生意不好，你到我店里打工好了，凭你的本事当个二柜子没问题。",
+        "Holder": "5",
+        "Target": "宋老板的能力",
+        "Aspect": "职业适应性",
+        "Opinion": "认为宋老板有能力",
+        "Sentiment": "positive",
+        "Rationale": "认为宋老板有能力胜任二柜子的职位"
+    },
+    {
+        "sentence": "不必，我相信陈阳兄弟的眼光。",
+        "Holder": "1",
+        "Target": "陈阳的眼光",
+        "Aspect": "信任度",
+        "Opinion": "信任陈阳",
+        "Sentiment": "positive",
+        "Rationale": "对陈阳的眼光有信心"
+    },
+    {
+        "sentence": "诸位，鉴古轩的宋老板花了3000块，买了个破瓶子，来看一看喽。",
+        "Holder": "5",
+        "Target": "宋老板的购买行为",
+        "Aspect": "购买的合理性",
+        "Opinion": "认为购买不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为宋老板花了高价买了个破瓶子"
+    },
+    {
+        "sentence": "一个破瓶子居然3000块，脑子让门挤了。",
+        "Holder": "6",
+        "Target": "宋老板的购买行为",
+        "Aspect": "购买的合理性",
+        "Opinion": "认为购买不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为花三千元买个破瓶子是不明智的"
+    },
+    {
+        "sentence": "以后这鉴古轩啊，咱们可不能再来了。",
+        "Holder": "6",
+        "Target": "鉴古轩",
+        "Aspect": "再来鉴古轩的可能性",
+        "Opinion": "不能再来了",
+        "Sentiment": "negative",
+        "Rationale": "对鉴古轩的服务或商品不满意"
+    },
+    {
+        "sentence": "就是，各位听好了，这就是鉴古轩的本事。",
+        "Holder": "5",
+        "Target": "鉴古轩",
+        "Aspect": "鉴古轩的能力",
+        "Opinion": "这就是鉴古轩的本事",
+        "Sentiment": "negative",
+        "Rationale": "对鉴古轩的表现失望"
+    },
+    {
+        "sentence": "如果今后各位有什么需要帮忙的，来我们如意楼，好不好？",
+        "Holder": "5",
+        "Target": "如意楼",
+        "Aspect": "提供帮助的意愿",
+        "Opinion": "来如意楼寻求帮助",
+        "Sentiment": "positive",
+        "Rationale": "希望吸引顾客到如意楼"
+    },
+    {
+        "sentence": "宋老板，这个东西就送给齐小姐吧。",
+        "Holder": "4",
+        "Target": "这个东西",
+        "Aspect": "物品的处理",
+        "Opinion": "送给齐小姐",
+        "Sentiment": "neutral",
+        "Rationale": "认为这个东西适合送给齐小姐"
+    },
+    {
+        "sentence": "这破瓶子，她会要？",
+        "Holder": "1",
+        "Target": "这破瓶子",
+        "Aspect": "物品的价值",
+        "Opinion": "她不会要",
+        "Sentiment": "negative",
+        "Rationale": "认为瓶子是破的没有价值"
+    },
+    {
+        "sentence": "齐小姐，我送你个礼物。",
+        "Holder": "4",
+        "Target": "齐小姐",
+        "Aspect": "送礼行为",
+        "Opinion": "送礼",
+        "Sentiment": "positive",
+        "Rationale": "送礼是一种友好的表示"
+    },
+    {
+        "sentence": "哎，姑娘，这家伙脑子有病。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "行为合理性",
+        "Opinion": "认为4行为不正常",
+        "Sentiment": "negative",
+        "Rationale": "认为4的行为不合常理"
+    },
+    {
+        "sentence": "陈阳先生的礼物自然会收。",
+        "Holder": "7",
+        "Target": "陈阳先生的礼物",
+        "Aspect": "收礼态度",
+        "Opinion": "愿意接受",
+        "Sentiment": "positive",
+        "Rationale": "对陈阳先生的尊重和信任"
+    },
+    {
+        "sentence": "不过，以陈阳先生的眼力，这应该不是个普通的瓶子。",
+        "Holder": "7",
+        "Target": "陈阳先生的礼物",
+        "Aspect": "礼物的价值",
+        "Opinion": "认为礼物不普通",
+        "Sentiment": "neutral",
+        "Rationale": "根据陈阳先生的眼力判断礼物不普通"
+    },
+    {
+        "sentence": "陈阳兄弟，你就别卖关子了，究竟是怎么回事，你给大家说说吧。",
+        "Holder": "1",
+        "Target": "陈阳",
+        "Aspect": "信息透明度",
+        "Opinion": "希望解释清楚",
+        "Sentiment": "neutral",
+        "Rationale": "希望了解事情的真相"
+    },
+    {
+        "sentence": "这，这是干啥啊？",
+        "Holder": "6",
+        "Target": "当前情况",
+        "Aspect": "行为合理性",
+        "Opinion": "困惑不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "6对当前发生的事情感到困惑"
+    },
+    {
+        "sentence": "哈哈哈哈，3000块听个响，你们鉴宝轩高啊！",
+        "Holder": "5",
+        "Target": "鉴宝轩",
+        "Aspect": "价格与价值",
+        "Opinion": "认为价格不合理",
+        "Sentiment": "negative",
+        "Rationale": "5觉得花费3000块只听个响非常不值"
+    },
+    {
+        "sentence": "这鉴宝轩的人要不是傻子，我给你们磕三个响头。",
+        "Holder": "5",
+        "Target": "鉴宝轩的人",
+        "Aspect": "智力判断",
+        "Opinion": "认为鉴宝轩的人傻",
+        "Sentiment": "negative",
+        "Rationale": "5坚信鉴宝轩的人做出了愚蠢的决定"
+    },
+    {
+        "sentence": "这，这是。",
+        "Holder": "5",
+        "Target": "当前物品",
+        "Aspect": "物品识别",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "5对眼前的物品感到不确定"
+    },
+    {
+        "sentence": "和氏璧！",
+        "Holder": "7",
+        "Target": "当前物品",
+        "Aspect": "物品名称",
+        "Opinion": "确认是和氏璧",
+        "Sentiment": "positive",
+        "Rationale": "7认出眼前的物品是珍贵的和氏璧"
+    },
+    {
+        "sentence": "和氏璧？战国时期完璧归赵的和氏璧，这是真正的价值连城啊，简直就是国宝。",
+        "Holder": "6",
+        "Target": "和氏璧",
+        "Aspect": "历史价值和珍贵性",
+        "Opinion": "价值连城，国宝",
+        "Sentiment": "positive",
+        "Rationale": "和氏璧具有极高的历史价值和珍贵性"
+    },
+    {
+        "sentence": "居，居然是和氏璧！",
+        "Holder": "5",
+        "Target": "和氏璧",
+        "Aspect": "真实性",
+        "Opinion": "惊讶其真实性",
+        "Sentiment": "positive",
+        "Rationale": "没想到会是真正的和氏璧"
+    },
+    {
+        "sentence": "这，竟然是真货呀！",
+        "Holder": "1",
+        "Target": "和氏璧",
+        "Aspect": "真实性",
+        "Opinion": "确认其真实性",
+        "Sentiment": "positive",
+        "Rationale": "确认了和氏璧的真实性"
+    },
+    {
+        "sentence": "宋老板，这个东西送给齐小姐没问题吧？",
+        "Holder": "4",
+        "Target": "和氏璧",
+        "Aspect": "赠送的合理性",
+        "Opinion": "询问是否可以赠送",
+        "Sentiment": "neutral",
+        "Rationale": "不确定是否可以将如此珍贵的物品赠送"
+    },
+    {
+        "sentence": "这和氏璧你也要送？",
+        "Holder": "1",
+        "Target": "和氏璧",
+        "Aspect": "赠送的合理性",
+        "Opinion": "质疑赠送的决定",
+        "Sentiment": "negative",
+        "Rationale": "和氏璧极为珍贵"
+    },
+    {
+        "sentence": "是啊，我早知道里面是和氏璧了。",
+        "Holder": "4",
+        "Target": "和氏璧",
+        "Aspect": "瓶内物品的确定性",
+        "Opinion": "早知道是和氏璧",
+        "Sentiment": "positive",
+        "Rationale": "通过观察瓶子的特征，早就确定里面是和氏璧"
+    },
+    {
+        "sentence": "陈阳大哥，你怎么知道里面是和氏璧？",
+        "Holder": "7",
+        "Target": "4的判断",
+        "Aspect": "判断依据",
+        "Opinion": "好奇其判断依据",
+        "Sentiment": "neutral",
+        "Rationale": "对4如何确定瓶内是和氏璧感到好奇"
+    },
+    {
+        "sentence": "这个瓶子底厚，里面一定藏着东西，而且花瓶上有战国时期赵国的图腾。",
+        "Holder": "4",
+        "Target": "瓶子",
+        "Aspect": "瓶子的特征",
+        "Opinion": "瓶子底厚且有图腾",
+        "Sentiment": "positive",
+        "Rationale": "瓶子底厚且有特定时期的图腾"
+    },
+    {
+        "sentence": "只凭这些，你就知道里面是和氏璧？",
+        "Holder": "7",
+        "Target": "4的判断依据",
+        "Aspect": "判断的充分性",
+        "Opinion": "怀疑判断的充分性",
+        "Sentiment": "doubt",
+        "Rationale": "认为仅凭瓶子底厚和图腾不足以确定里面是和氏璧"
+    },
+    {
+        "sentence": "这个瓶子虽然不到100年，但是他的胎土用的是最珍贵的邯郸珍珠土。",
+        "Holder": "4",
+        "Target": "瓶子的胎土",
+        "Aspect": "胎土的珍贵性",
+        "Opinion": "胎土珍贵",
+        "Sentiment": "positive",
+        "Rationale": "瓶子的胎土用的是最珍贵的邯郸珍珠土"
+    },
+    {
+        "sentence": "我知道了，可以藏东西的容器，赵国的图腾，还有赵国都城的胎土，这一切都指向是和氏璧！",
+        "Holder": "7",
+        "Target": "和氏璧",
+        "Aspect": "物品的推断",
+        "Opinion": "指向和氏璧",
+        "Sentiment": "positive",
+        "Rationale": "通过容器、图腾和胎土的线索推断出和氏璧"
+    },
+    {
+        "sentence": "送给你了。",
+        "Holder": "4",
+        "Target": "和氏璧",
+        "Aspect": "物品的归属",
+        "Opinion": "送给7",
+        "Sentiment": "neutral",
+        "Rationale": "决定将和氏璧送给7"
+    },
+    {
+        "sentence": "哎哎哎，哥。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "送物的决定",
+        "Opinion": "惊讶或不赞同",
+        "Sentiment": "ambiguous",
+        "Rationale": "对4将和氏璧送给7的决定感到意外或不赞同"
+    },
+    {
+        "sentence": "说好的，就要言而有信。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "诚信",
+        "Opinion": "言而有信",
+        "Sentiment": "positive",
+        "Rationale": "坚持自己承诺的事情"
+    },
+    {
+        "sentence": "你不后悔？",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "送物的决定",
+        "Opinion": "怀疑是否后悔",
+        "Sentiment": "doubt",
+        "Rationale": "不确定4是否真的不后悔送出和氏璧"
+    },
+    {
+        "sentence": "与其说送给你，不如说是送给齐家。",
+        "Holder": "4",
+        "Target": "齐家",
+        "Aspect": "赠送对象",
+        "Opinion": "送给齐家更合适",
+        "Sentiment": "neutral",
+        "Rationale": "认为礼物更适合送给齐家"
+    },
+    {
+        "sentence": "据我了解，咱们省的博物馆应该是齐家注资的。",
+        "Holder": "4",
+        "Target": "省博物馆",
+        "Aspect": "资金来源",
+        "Opinion": "齐家注资",
+        "Sentiment": "neutral",
+        "Rationale": "了解到省博物馆的资金来源是齐家"
+    },
+    {
+        "sentence": "齐家心怀大义，我虽然就是个平头老百姓，但我一样有一颗赤诚之心，想为国家的文物添砖加瓦。",
+        "Holder": "4",
+        "Target": "齐家",
+        "Aspect": "品德",
+        "Opinion": "齐家心怀大义",
+        "Sentiment": "positive",
+        "Rationale": "认为齐家心怀大义，自己也愿意为国家文物贡献力量"
+    },
+    {
+        "sentence": "我认为这块和氏璧非齐家莫属！",
+        "Holder": "4",
+        "Target": "和氏璧",
+        "Aspect": "归属",
+        "Opinion": "和氏璧应归齐家",
+        "Sentiment": "positive",
+        "Rationale": "认为齐家心怀大义且注资博物馆"
+    },
+    {
+        "sentence": "哎，王掌柜，别走呀，你这下知道鉴宝轩的厉害了吧？",
+        "Holder": "1",
+        "Target": "王掌柜",
+        "Aspect": "鉴宝轩的厉害",
+        "Opinion": "王掌柜认识到鉴宝轩的厉害",
+        "Sentiment": "positive",
+        "Rationale": "王掌柜可能已经见识到鉴宝轩的实力"
+    },
+    {
+        "sentence": "宋老板，你运气好，你等着！",
+        "Holder": "5",
+        "Target": "宋老板",
+        "Aspect": "运气",
+        "Opinion": "宋老板运气好",
+        "Sentiment": "negative",
+        "Rationale": "5认为宋老板只是运气好，暗示不服气"
+    },
+    {
+        "sentence": "你刚才答应他那三个响头呢？",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "承诺的响头",
+        "Opinion": "5答应过三个响头",
+        "Sentiment": "neutral",
+        "Rationale": "2在提醒5之前的承诺"
+    },
+    {
+        "sentence": "什么？我忘了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "承诺的记忆",
+        "Opinion": "忘记了承诺",
+        "Sentiment": "ambiguous",
+        "Rationale": "5可能真的忘记或者故意装作忘记"
+    },
+    {
+        "sentence": "道歉！你今天不道歉，我们就去砸了你的如意楼！",
+        "Holder": "6",
+        "Target": "对方",
+        "Aspect": "道歉的要求",
+        "Opinion": "必须道歉",
+        "Sentiment": "negative",
+        "Rationale": "对方没有道歉"
+    },
+    {
+        "sentence": "陈先生一颗赤诚之心，乃吾辈之楷模，哪容你这么侮辱？今天这个歉你必须道！",
+        "Holder": "6",
+        "Target": "对方",
+        "Aspect": "对陈先生的尊重",
+        "Opinion": "陈先生值得尊敬",
+        "Sentiment": "negative",
+        "Rationale": "对方侮辱了陈先生"
+    },
+    {
+        "sentence": "陈大师，刚才我错了，对不起！",
+        "Holder": "5",
+        "Target": "陈先生",
+        "Aspect": "自己的行为",
+        "Opinion": "承认错误",
+        "Sentiment": "positive",
+        "Rationale": "意识到自己的错误并向陈先生道歉"
+    },
+    {
+        "sentence": "罢了，王掌柜，希望你以后做人做事都能擦亮眼睛。",
+        "Holder": "4",
+        "Target": "王掌柜",
+        "Aspect": "做人做事的态度",
+        "Opinion": "希望其能明智",
+        "Sentiment": "neutral",
+        "Rationale": "希望王掌柜以后能更加明智"
+    },
+    {
+        "sentence": "大家都散了吧。",
+        "Holder": "4",
+        "Target": "大家",
+        "Aspect": "当前情况",
+        "Opinion": "结束争执",
+        "Sentiment": "neutral",
+        "Rationale": "因为争执已经暂时解决，所以希望大家散去，恢复平静"
+    },
+    {
+        "sentence": "刚才那么大一块玉，你就送人了？这未免也太可惜了。",
+        "Holder": "2",
+        "Target": "送玉行为",
+        "Aspect": "玉的价值",
+        "Opinion": "可惜",
+        "Sentiment": "negative",
+        "Rationale": "认为那么大一块玉送人是一种浪费"
+    },
+    {
+        "sentence": "不可惜，陈大师的风骨值得我们大家学习呀！",
+        "Holder": "1",
+        "Target": "送玉行为",
+        "Aspect": "陈大师的风骨",
+        "Opinion": "值得学习",
+        "Sentiment": "positive",
+        "Rationale": "认为陈大师的风骨高尚，送玉行为值得学习"
+    },
+    {
+        "sentence": "阳哥，你以后可不能随便送人了，我还等着跟你一起发财呢。",
+        "Holder": "2",
+        "Target": "送玉行为",
+        "Aspect": "发财机会",
+        "Opinion": "不应随便送人",
+        "Sentiment": "negative",
+        "Rationale": "希望和说话人1一起发财"
+    },
+    {
+        "sentence": "糖豆兄弟，你没发现跟着陈阳兄弟，富贵是最不缺的。",
+        "Holder": "1",
+        "Target": "跟随陈阳",
+        "Aspect": "富贵机会",
+        "Opinion": "富贵不缺",
+        "Sentiment": "positive",
+        "Rationale": "认为跟随陈阳会有很多富贵机会"
+    }
+]

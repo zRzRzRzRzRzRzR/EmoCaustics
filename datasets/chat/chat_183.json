@@ -1,0 +1,461 @@
+[
+    {
+        "sentence": "我觉得人的一生有很多分分合合，你那个白月光，他是A，他只能是A，但是你后面的都只是B，B可以有任意的选择。",
+        "Holder": "1",
+        "Target": "白月光和后续关系",
+        "Aspect": "关系的独特性和可替代性",
+        "Opinion": "白月光独特，后续关系可替代",
+        "Sentiment": "neutral",
+        "Rationale": "1在客观描述人生中的情感关系，没有明显的情感倾向"
+    },
+    {
+        "sentence": "来，林佳怡开骂反击。",
+        "Holder": "2",
+        "Target": "林佳怡",
+        "Aspect": "应对方式",
+        "Opinion": "鼓励反击",
+        "Sentiment": "positive",
+        "Rationale": "2希望林佳怡能够积极应对"
+    },
+    {
+        "sentence": "她骂我我有点害怕。",
+        "Holder": "1",
+        "Target": "林佳怡的骂",
+        "Aspect": "情绪反应",
+        "Opinion": "感到害怕",
+        "Sentiment": "negative",
+        "Rationale": "1被林佳怡骂"
+    },
+    {
+        "sentence": "别害怕，我情绪很稳定啊。",
+        "Holder": "3",
+        "Target": "1的情绪",
+        "Aspect": "情绪稳定性",
+        "Opinion": "情绪稳定",
+        "Sentiment": "positive",
+        "Rationale": "3想安慰1，表示自己情绪稳定"
+    },
+    {
+        "sentence": "好好好。",
+        "Holder": "1",
+        "Target": "3的安慰",
+        "Aspect": "回应态度",
+        "Opinion": "接受安慰",
+        "Sentiment": "neutral",
+        "Rationale": "1接受了3的安慰，但没有表现出明显的情感变化"
+    },
+    {
+        "sentence": "白月光他回来找你，就说明你是他的备胎。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "与白月光的关系",
+        "Opinion": "1是备胎",
+        "Sentiment": "negative",
+        "Rationale": "认为白月光回来找1只是把1当作备胎"
+    },
+    {
+        "sentence": "如果你一直在等白月光，说明你是一个舔狗。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "等待白月光的行为",
+        "Opinion": "1是舔狗",
+        "Sentiment": "negative",
+        "Rationale": "认为1一直等待白月光是低自尊的行为"
+    },
+    {
+        "sentence": "那你现在还有一个现任，说明他是你的替代。",
+        "Holder": "3",
+        "Target": "现任",
+        "Aspect": "关系的本质",
+        "Opinion": "现任是替代品",
+        "Sentiment": "negative",
+        "Rationale": "认为现任只是替代品"
+    },
+    {
+        "sentence": "舔狗？他也是我的舔狗。",
+        "Holder": "1",
+        "Target": "现任",
+        "Aspect": "关系的性质",
+        "Opinion": "现任是舔狗",
+        "Sentiment": "negative",
+        "Rationale": "将现任贬低为舔狗"
+    },
+    {
+        "sentence": "不是，你这不是一个人的深情，这是三个人的悲哀。",
+        "Holder": "3",
+        "Target": "1的情感状态",
+        "Aspect": "情感的影响",
+        "Opinion": "情感导致悲哀",
+        "Sentiment": "negative",
+        "Rationale": "认为1的情感状态不仅影响自己还影响其他人"
+    },
+    {
+        "sentence": "我是一个好人，所以我爱的白月光也一定是个好人！",
+        "Holder": "4",
+        "Target": "白月光",
+        "Aspect": "人格特质",
+        "Opinion": "白月光是好人",
+        "Sentiment": "positive",
+        "Rationale": "4自认为是好人"
+    },
+    {
+        "sentence": "他一定会等我！",
+        "Holder": "4",
+        "Target": "白月光",
+        "Aspect": "等待的可能性",
+        "Opinion": "白月光会等待",
+        "Sentiment": "positive",
+        "Rationale": "对白月光有坚定的信心"
+    },
+    {
+        "sentence": "他不会找那么多！也不会把我当备胎！",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "对待感情的态度",
+        "Opinion": "不会花心，不会当备胎",
+        "Sentiment": "positive",
+        "Rationale": "对对方的忠诚有信心"
+    },
+    {
+        "sentence": "等一下！",
+        "Holder": "5",
+        "Target": "4的观点",
+        "Aspect": "对话的节奏",
+        "Opinion": "需要暂停",
+        "Sentiment": "neutral",
+        "Rationale": "因为需要打断对方，所以用中性语气表达暂停的需求"
+    },
+    {
+        "sentence": "佳恩，你这个是恋爱脑得治。",
+        "Holder": "5",
+        "Target": "4的思维模式",
+        "Aspect": "对感情的态度",
+        "Opinion": "过于理想化",
+        "Sentiment": "negative",
+        "Rationale": "因为认为4对感情的态度过于理想化，缺乏现实考虑，所以用负面语气提出批评"
+    },
+    {
+        "sentence": "就是这个东西，只要你现在人还没到八九十岁，他都不确定！",
+        "Holder": "1",
+        "Target": "这个东西",
+        "Aspect": "确定性的年龄限制",
+        "Opinion": "不确定",
+        "Sentiment": "negative",
+        "Rationale": "认为这个东西在未达到八九十岁时无法确定"
+    },
+    {
+        "sentence": "你到了八九十岁，你也可以换。",
+        "Holder": "1",
+        "Target": "更换的可能性",
+        "Aspect": "年龄与更换的关系",
+        "Opinion": "可以更换",
+        "Sentiment": "positive",
+        "Rationale": "认为即使到了八九十岁也可以更换"
+    },
+    {
+        "sentence": "这不可定义的好吗？",
+        "Holder": "1",
+        "Target": "这个东西的定义",
+        "Aspect": "定义的可行性",
+        "Opinion": "不可定义",
+        "Sentiment": "negative",
+        "Rationale": "认为这个东西无法被明确定义"
+    },
+    {
+        "sentence": "你就是一个过客！你想说什么？",
+        "Holder": "4",
+        "Target": "1的身份",
+        "Aspect": "身份的认定",
+        "Opinion": "认为1是过客",
+        "Sentiment": "negative",
+        "Rationale": "4认为1只是短暂出现的人"
+    },
+    {
+        "sentence": "你就是一个平替你知道吗？",
+        "Holder": "6",
+        "Target": "1的身份",
+        "Aspect": "身份的认定",
+        "Opinion": "认为1是平替",
+        "Sentiment": "negative",
+        "Rationale": "6认为1只是替代品"
+    },
+    {
+        "sentence": "她说我是平替！",
+        "Holder": "1",
+        "Target": "6的观点",
+        "Aspect": "观点的传达",
+        "Opinion": "传达6的观点",
+        "Sentiment": "negative",
+        "Rationale": "1被说成是平替感到不满"
+    },
+    {
+        "sentence": "真正爱你的白月光他是不会离开你的，我觉得他会永远为了你而去改变一些什么。",
+        "Holder": "2",
+        "Target": "白月光的行为",
+        "Aspect": "行为的预测",
+        "Opinion": "认为白月光会为了你改变",
+        "Sentiment": "positive",
+        "Rationale": "2对白月光的忠诚和改变持有积极期待"
+    },
+    {
+        "sentence": "但是如果你是现任的话，那我是什么狗东西啊？",
+        "Holder": "2",
+        "Target": "3的身份",
+        "Aspect": "身份的合理性",
+        "Opinion": "质疑自己的地位",
+        "Sentiment": "negative",
+        "Rationale": "如果3是现任，那么2感觉自己被贬低"
+    },
+    {
+        "sentence": "你你你搁这背叛我，浪费我，有病吧？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "忠诚和尊重",
+        "Opinion": "认为被背叛和浪费",
+        "Sentiment": "negative",
+        "Rationale": "感觉被3背叛和浪费了时间"
+    },
+    {
+        "sentence": "那你每天都说要追求初心，你现在干嘛？你被社会改变了吗？",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "初心的坚持",
+        "Opinion": "质疑2的行为与初心不符",
+        "Sentiment": "negative",
+        "Rationale": "2的行为与平时宣扬的初心不符"
+    },
+    {
+        "sentence": "你是什么，你是蝙蝠侠吗？每天见不得光，天天白月光！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "生活方式",
+        "Opinion": "像蝙蝠侠一样见不得光",
+        "Sentiment": "negative",
+        "Rationale": "2认为3的生活方式不正常，像蝙蝠侠一样见不得光"
+    },
+    {
+        "sentence": "反正我觉得既然人要活在当下，你必须要好好享受在当下。",
+        "Holder": "2",
+        "Target": "生活方式",
+        "Aspect": "活在当下",
+        "Opinion": "应该好好享受当下",
+        "Sentiment": "positive",
+        "Rationale": "2认为人应该活在当下并享受生活"
+    },
+    {
+        "sentence": "你要把你所有的前面的人就当死了一样！",
+        "Holder": "2",
+        "Target": "对待过去的态度",
+        "Aspect": "放下过去",
+        "Opinion": "把过去的人当死了一样",
+        "Sentiment": "negative",
+        "Rationale": "2认为应该彻底放下过去，但这种说法过于极端"
+    },
+    {
+        "sentence": "对，死，没错！",
+        "Holder": "3",
+        "Target": "对待过去的态度",
+        "Aspect": "放下过去",
+        "Opinion": "同意把过去的人当死了一样",
+        "Sentiment": "positive",
+        "Rationale": "3认同2的观点，认为应该彻底放下过去"
+    },
+    {
+        "sentence": "但是他给我发一条消息来，我不可能不回他吧？",
+        "Holder": "1",
+        "Target": "回复消息的必要性",
+        "Aspect": "社交礼仪",
+        "Opinion": "必须回复消息",
+        "Sentiment": "neutral",
+        "Rationale": "1认为收到消息后有必要回复"
+    },
+    {
+        "sentence": "你还回消息啊？",
+        "Holder": "2",
+        "Target": "1的消息回复行为",
+        "Aspect": "回复消息的频率",
+        "Opinion": "质疑不回消息",
+        "Sentiment": "negative",
+        "Rationale": "对方没有及时回复消息"
+    },
+    {
+        "sentence": "为什么不回？",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "质疑的合理性",
+        "Opinion": "反问质疑",
+        "Sentiment": "neutral",
+        "Rationale": "被质疑为什么不回消息"
+    },
+    {
+        "sentence": "我觉得人最基本的尊重就是回消息吧。",
+        "Holder": "1",
+        "Target": "回复消息的行为",
+        "Aspect": "尊重的表现",
+        "Opinion": "回消息是基本尊重",
+        "Sentiment": "positive",
+        "Rationale": "认为回消息是基本的尊重"
+    },
+    {
+        "sentence": "你就不回消息！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "回复消息的频率",
+        "Opinion": "指责不回消息",
+        "Sentiment": "negative",
+        "Rationale": "对方确实没有回消息"
+    },
+    {
+        "sentence": "你也不回消息，你还好意思说我？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "回消息的态度",
+        "Opinion": "不回消息却指责别人",
+        "Sentiment": "negative",
+        "Rationale": "4没有回复消息，却反过来指责2，这种双标行为让2感到生气和不满"
+    },
+    {
+        "sentence": "杨冰怡永远都是我心中那个最不能被抹去的。",
+        "Holder": "4",
+        "Target": "杨冰怡",
+        "Aspect": "情感地位",
+        "Opinion": "非常重要",
+        "Sentiment": "积极",
+        "Rationale": "因为4对杨冰怡有很深的感情，所以她在4心中占据了不可替代的位置"
+    },
+    {
+        "sentence": "只要是你没有现任，你就当白月光，你有现任，你这样就是没道德。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "情感态度的合理性",
+        "Opinion": "情感态度随对方情感状态变化而变化",
+        "Sentiment": "negative",
+        "Rationale": "因为5认为4在对方有伴侣时还保持深情是不道德的，这种双重标准让5感到不满"
+    },
+    {
+        "sentence": "啊，那我好像确实没有现任。",
+        "Holder": "4",
+        "Target": "现任",
+        "Aspect": "是否存在现任",
+        "Opinion": "没有现任",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己确实没有现任"
+    },
+    {
+        "sentence": "我在等他，他愿意来找我，我就可以！",
+        "Holder": "4",
+        "Target": "等待的对象",
+        "Aspect": "等待的条件",
+        "Opinion": "只要他愿意来就可以",
+        "Sentiment": "positive",
+        "Rationale": "对等待的对象充满期待"
+    },
+    {
+        "sentence": "可是我觉得如果他。",
+        "Holder": "2",
+        "Target": "4的等待",
+        "Aspect": "等待的合理性",
+        "Opinion": "存在疑虑",
+        "Sentiment": "doubt",
+        "Rationale": "对4的等待持怀疑态度"
+    },
+    {
+        "sentence": "那你现任怎么办呢？",
+        "Holder": "6",
+        "Target": "4的现任",
+        "Aspect": "现任的处理",
+        "Opinion": "关心现任的情况",
+        "Sentiment": "neutral",
+        "Rationale": "关心4的现任会如何处理"
+    },
+    {
+        "sentence": "我没有现任！",
+        "Holder": "4",
+        "Target": "现任",
+        "Aspect": "是否存在现任",
+        "Opinion": "明确没有现任",
+        "Sentiment": "neutral",
+        "Rationale": "再次确认自己没有现任"
+    },
+    {
+        "sentence": "他找你，但是他有第一次离开，你就第二次离开，就第三次离开。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "离开的行为",
+        "Opinion": "频繁离开",
+        "Sentiment": "negative",
+        "Rationale": "他多次离开"
+    },
+    {
+        "sentence": "那他，第一次离开，第二次又回来了吗这不是？第二次离开了第三次又回来了啊。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "离开和回归的行为",
+        "Opinion": "反复无常",
+        "Sentiment": "neutral",
+        "Rationale": "他虽然离开但又回来"
+    },
+    {
+        "sentence": "人生就是分分合合！",
+        "Holder": "4",
+        "Target": "人生",
+        "Aspect": "分合常态",
+        "Opinion": "接受分合",
+        "Sentiment": "positive",
+        "Rationale": "认为分合是人生的常态"
+    },
+    {
+        "sentence": "他把你这当旅馆，你以为呢。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "对待方式",
+        "Opinion": "随意对待",
+        "Sentiment": "negative",
+        "Rationale": "他把这里当作旅馆，表现出一种不被重视的感觉"
+    },
+    {
+        "sentence": "那我要把别人当旅馆啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "对待别人的方式",
+        "Opinion": "不愿随意对待",
+        "Sentiment": "negative",
+        "Rationale": "不愿意像别人那样随意对待自己"
+    },
+    {
+        "sentence": "那也不行啊！",
+        "Holder": "4",
+        "Target": "某个提议或情况",
+        "Aspect": "提议的可行性",
+        "Opinion": "不可行",
+        "Sentiment": "negative",
+        "Rationale": "认为某个提议或情况不可接受"
+    },
+    {
+        "sentence": "那那个人怎么办？",
+        "Holder": "2",
+        "Target": "某个人",
+        "Aspect": "处理方式",
+        "Opinion": "需要考虑",
+        "Sentiment": "neutral",
+        "Rationale": "对某个人的处境感到担忧"
+    },
+    {
+        "sentence": "救命啊。",
+        "Holder": "5",
+        "Target": "当前情况",
+        "Aspect": "紧急程度",
+        "Opinion": "非常紧急",
+        "Sentiment": "negative",
+        "Rationale": "当前情况让其感到极度不安或危险"
+    },
+    {
+        "sentence": "爱的的好卑微啊你。",
+        "Holder": "6",
+        "Target": "某人的爱情态度",
+        "Aspect": "爱情中的自我价值",
+        "Opinion": "卑微",
+        "Sentiment": "negative",
+        "Rationale": "认为某人在爱情中表现得过于卑微"
+    }
+]

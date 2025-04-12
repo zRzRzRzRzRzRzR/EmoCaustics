@@ -1,0 +1,44 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学术演讲开场与主题引入",
+        "emotions": [
+          {"state": "positive", "reason": "感谢邀请并表达交流期待", "source_id": "1"},
+          {"state": "neutral", "reason": "客观阐述全球化基本特征", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "跨文化交际与语言习得理论建构",
+        "emotions": [
+          {"state": "positive", "reason": "强调共享意义空间构建的必要性", "source_id": "1"},
+          {"state": "neutral", "reason": "分析口语技能内外影响因素", "source_id": "1"},
+          {"state": "positive", "reason": "发现全球青年认同中国发展理念", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "移民群体认同案例研究",
+        "emotions": [
+          {"state": "negative", "reason": "描述难民认同危机引发社会动荡", "source_id": "1"},
+          {"state": "positive", "reason": "强调认同研究促进社会公平", "source_id": "1"},
+          {"state": "neutral", "reason": "划分认同三维度理论框架", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "留学生汉语习得实证分析",
+        "emotions": [
+          {"state": "positive", "reason": "展示学习者身份认同积极转变", "source_id": "1"},
+          {"state": "negative", "reason": "揭示社交网络窄化问题", "source_id": "1"},
+          {"state": "positive", "reason": "发现言语适应策略有效性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "研究结论与教学应用",
+        "emotions": [
+          {"state": "neutral", "reason": "总结社会网络与语言认同关系", "source_id": "1"},
+          {"state": "positive", "reason": "提出跨文化教学优化建议", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

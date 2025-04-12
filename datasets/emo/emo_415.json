@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对家庭成员的日常评价与管理",
+        "emotions": [
+          {"state": "neutral", "reason": "提醒按时吃饭", "source_id": "1"},
+          {"state": "negative", "reason": "批评刘星赖床习惯", "source_id": "1"},
+          {"state": "positive", "reason": "称赞2的外貌", "source_id": "1"},
+          {"state": "negative", "reason": "警示班长职位风险", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "班级管理权交接与质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑班长轮换制度", "source_id": "4"},
+          {"state": "ambiguous", "reason": "不解周班长制运作", "source_id": "4"},
+          {"state": "neutral", "reason": "接受副班长职位", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "班级事务参与与互动",
+        "emotions": [
+          {"state": "positive", "reason": "称赞刘星穿着", "source_id": "3"},
+          {"state": "ambiguous", "reason": "质疑班长任命合理性", "source_id": "4"},
+          {"state": "positive", "reason": "推行轮流班长制度", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "班长身份确立与履职过程",
+        "emotions": [
+          {"state": "positive", "reason": "宣布当班长并计划夺回卫生红旗", "source_id": "4"},
+          {"state": "negative", "reason": "被质疑班级管理能力", "source_id": "5,6"},
+          {"state": "positive", "reason": "提出足球赛备战策略", "source_id": "4"},
+          {"state": "neutral", "reason": "安排副班长职位", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "对班级决策的反馈",
+        "emotions": [
+          {"state": "positive", "reason": "礼貌问候班长", "source_id": "4"},
+          {"state": "negative", "reason": "质疑卫生红旗计划可行性", "source_id": "4"},
+          {"state": "neutral", "reason": "接受班长权威", "source_id": "4"},
+          {"state": "ambiguous", "reason": "感叹职位机遇突然", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "班级事务参与",
+        "emotions": [
+          {"state": "negative", "reason": "质疑卫生检查标准", "source_id": "4"},
+          {"state": "positive", "reason": "接受副班长职位", "source_id": "6"},
+          {"state": "neutral", "reason": "执行职位分配", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

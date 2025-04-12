@@ -1,0 +1,69 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "课堂危险行为争议",
+        "emotions": [
+          {"state": "neutral", "reason": "淡化行为严重性", "source_id": "2"},
+          {"state": "negative", "reason": "被指责威胁教师安全", "source_id": "2,3"},
+          {"state": "negative", "reason": "反对父亲严厉惩罚", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭权威挑战",
+        "emotions": [
+          {"state": "negative", "reason": "认为父母联合压制", "source_id": "2,3"},
+          {"state": "neutral", "reason": "接受事件最终解决", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女教育方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "对危险行为的愤怒", "source_id": "1"},
+          {"state": "neutral", "reason": "接受丈夫调解建议", "source_id": "3"},
+          {"state": "positive", "reason": "展现家庭温暖形象", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭教育责任履行",
+        "emotions": [
+          {"state": "negative", "reason": "对危险行为的震惊", "source_id": "1"},
+          {"state": "neutral", "reason": "调整惩罚力度", "source_id": "2"},
+          {"state": "positive", "reason": "配合家庭形象塑造", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭幸福观辩论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑家庭真实性", "source_id": "2,3"},
+          {"state": "negative", "reason": "否定模范家庭定位", "source_id": "5"},
+          {"state": "ambiguous", "reason": "困惑家庭状态转变", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭形象维护",
+        "emotions": [
+          {"state": "positive", "reason": "肯定家庭和谐表现", "source_id": "2"},
+          {"state": "negative", "reason": "反驳家庭问题指控", "source_id": "4"},
+          {"state": "neutral", "reason": "阐述生活多元本质", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

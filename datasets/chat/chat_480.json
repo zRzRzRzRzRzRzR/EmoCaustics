@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "朵朵，可等到你了。嘿，你怎么这么晚才来啊？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "到达时间",
+        "Opinion": "晚到",
+        "Sentiment": "ambiguous",
+        "Rationale": "1等了2很久"
+    },
+    {
+        "sentence": "什么事？怎么不在学校里说",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "沟通地点",
+        "Opinion": "应在学校说",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得在学校沟通更方便"
+    },
+    {
+        "sentence": "这个送给你",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "赠送行为",
+        "Opinion": "赠送",
+        "Sentiment": "positive",
+        "Rationale": "1想表达友好和关心"
+    },
+    {
+        "sentence": "哎，这么贵。",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "价格",
+        "Opinion": "贵",
+        "Sentiment": "negative",
+        "Rationale": "2觉得礼物太贵重"
+    },
+    {
+        "sentence": "没事，小意思，我现在富起来了，哼。",
+        "Holder": "1",
+        "Target": "自己的经济状况",
+        "Aspect": "经济能力",
+        "Opinion": "富有",
+        "Sentiment": "positive",
+        "Rationale": "1经济状况改善"
+    },
+    {
+        "sentence": "我不喜欢",
+        "Holder": "2",
+        "Target": "未明确",
+        "Aspect": "未明确",
+        "Opinion": "不喜欢",
+        "Sentiment": "negative",
+        "Rationale": "对话中没有明确说明不喜欢的原因"
+    },
+    {
+        "sentence": "你还没看里面是什么东西呢？我保证里面的东西肯定特可爱。",
+        "Holder": "1",
+        "Target": "2的看法",
+        "Aspect": "对内容的预判",
+        "Opinion": "内容可爱",
+        "Sentiment": "positive",
+        "Rationale": "1认为里面的东西很可爱"
+    },
+    {
+        "sentence": "什么东西我都不喜欢。",
+        "Holder": "2",
+        "Target": "所有东西",
+        "Aspect": "喜好",
+        "Opinion": "都不喜欢",
+        "Sentiment": "negative",
+        "Rationale": "2对当前的情况或物品有强烈的不喜欢"
+    },
+    {
+        "sentence": "为什么呀？",
+        "Holder": "1",
+        "Target": "2的不喜欢",
+        "Aspect": "原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不理解2为什么不喜欢"
+    },
+    {
+        "sentence": "因为你现在变了，变得像个小少爷。",
+        "Holder": "2",
+        "Target": "1的变化",
+        "Aspect": "行为态度",
+        "Opinion": "变得像小少爷",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的行为态度发生了不好的变化"
+    },
+    {
+        "sentence": "相信我，咱们的友谊没有变。",
+        "Holder": "1",
+        "Target": "友谊",
+        "Aspect": "友谊的稳定性",
+        "Opinion": "友谊没有变",
+        "Sentiment": "positive",
+        "Rationale": "1希望强调和2的友谊依然稳固"
+    },
+    {
+        "sentence": "少来，你连你老爸老姐都不要了，别以为我不知道",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对家人的态度",
+        "Opinion": "1忽视了家人",
+        "Sentiment": "negative",
+        "Rationale": "2认为1忽视了最重要的家人"
+    },
+    {
+        "sentence": "朵朵，你听我解释呦",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "解释的需求",
+        "Opinion": "需要解释",
+        "Sentiment": "neutral",
+        "Rationale": "1希望消除2的误解"
+    },
+    {
+        "sentence": "怎么样啊在妈妈那玩的",
+        "Holder": "3",
+        "Target": "2的经历",
+        "Aspect": "在妈妈那的玩耍情况",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "3关心2在妈妈那的玩耍情况"
+    },
+    {
+        "sentence": "那个你语文那个课文背了没有啊？可不行，必须得背了，要不然回来就没时间了。老师不是说已开学检查吗啊？",
+        "Holder": "3",
+        "Target": "课文背诵",
+        "Aspect": "学习任务的完成",
+        "Opinion": "必须背诵",
+        "Sentiment": "negative",
+        "Rationale": "担心回来没有时间背诵，且老师会进行检查"
+    },
+    {
+        "sentence": "不行不行，必须得把它背了。另外我告诉您那个数学 21 页和 23 页的题你必须得做完了才能回来呢。对呀，然后还有 24 页那 8 道题，必须做完了，要不然就不乖了啊。那个爸爸要跟你说话，你等会没说。",
+        "Holder": "3",
+        "Target": "数学作业",
+        "Aspect": "学习任务的完成",
+        "Opinion": "必须完成",
+        "Sentiment": "negative",
+        "Rationale": "强调必须完成所有数学作业才能回来，否则会被认为不乖"
+    },
+    {
+        "sentence": "喂，小雨。我是爸爸，过得怎么样？",
+        "Holder": "4",
+        "Target": "小雨的生活状况",
+        "Aspect": "生活状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "作为父亲关心孩子的生活状况"
+    },
+    {
+        "sentence": "你问他想咱们吗。",
+        "Holder": "4",
+        "Target": "小雨对家人的思念",
+        "Aspect": "情感表达",
+        "Opinion": "询问思念",
+        "Sentiment": "neutral",
+        "Rationale": "想知道孩子是否思念家人"
+    },
+    {
+        "sentence": "是吗？那好",
+        "Holder": "4",
+        "Target": "小雨的回答",
+        "Aspect": "回答的认可",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "对小雨的回答感到满意"
+    },
+    {
+        "sentence": "唉，好勒好勒。",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "接受程度",
+        "Opinion": "无奈接受",
+        "Sentiment": "neutral",
+        "Rationale": "对方已经安排好了"
+    },
+    {
+        "sentence": "怎么回事儿？你怎么说这么几句",
+        "Holder": "3",
+        "Target": "4的回应",
+        "Aspect": "回应的充分性",
+        "Opinion": "回应不够",
+        "Sentiment": "negative",
+        "Rationale": "4的回应过于简短"
+    },
+    {
+        "sentence": "没事，他说玛丽给他安排的挺好的，我估计也没顾上想咱们",
+        "Holder": "4",
+        "Target": "玛丽的安排",
+        "Aspect": "安排的合理性",
+        "Opinion": "安排得当",
+        "Sentiment": "neutral",
+        "Rationale": "玛丽安排得当"
+    },
+    {
+        "sentence": "那么点小孩。可不嘛，谁带他玩就什么都忘了，很正常",
+        "Holder": "3",
+        "Target": "小孩的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为正常",
+        "Sentiment": "neutral",
+        "Rationale": "小孩容易被玩耍吸引"
+    },
+    {
+        "sentence": "你要说什么？",
+        "Holder": "3",
+        "Target": "4的意图",
+        "Aspect": "意图的明确性",
+        "Opinion": "意图不明",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚4想要表达什么"
+    },
+    {
+        "sentence": "没事，你先说",
+        "Holder": "4",
+        "Target": "对话顺序",
+        "Aspect": "礼貌",
+        "Opinion": "让对方先说",
+        "Sentiment": "neutral",
+        "Rationale": "4礼貌地让对方先表达意见"
+    },
+    {
+        "sentence": "你说吧",
+        "Holder": "3",
+        "Target": "对话顺序",
+        "Aspect": "礼貌",
+        "Opinion": "让对方先说",
+        "Sentiment": "neutral",
+        "Rationale": "3礼貌地回应让对方先说"
+    },
+    {
+        "sentence": "我就说这小雨是不是该回来了？",
+        "Holder": "4",
+        "Target": "小雨",
+        "Aspect": "归期",
+        "Opinion": "担心小雨未归",
+        "Sentiment": "ambiguous",
+        "Rationale": "4对小雨未归感到不确定和担心"
+    },
+    {
+        "sentence": "我也正想说这事儿呢。我确实有点儿越来越放心不下了。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "归期",
+        "Opinion": "担心小雨未归",
+        "Sentiment": "negative",
+        "Rationale": "3对小雨未归感到越来越担心"
+    },
+    {
+        "sentence": "甭想了，肯定没什么事儿。玛丽毕竟是他亲妈，不会让孩子吃什么亏的。躺下。",
+        "Holder": "3",
+        "Target": "小雨的安全",
+        "Aspect": "亲妈的照顾",
+        "Opinion": "相信玛丽会照顾好小雨",
+        "Sentiment": "positive",
+        "Rationale": "3相信玛丽的照顾能力"
+    },
+    {
+        "sentence": "关键是啊。这孩子从小就跟我在一起，没怎么离开过我，这一走一下就好几天，你说他得多想我",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "对说话人的思念",
+        "Opinion": "孩子会很想说话人",
+        "Sentiment": "negative",
+        "Rationale": "孩子从小和说话人在一起，突然离开好几天"
+    },
+    {
+        "sentence": "是肯定特想你哈，尤其晚上夜深人静的时候。哎，你说会不会小雨特别想咱们，特别想回来，可是又不敢跟玛丽说",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "对家人的思念",
+        "Opinion": "小雨特别想回家但不敢说",
+        "Sentiment": "negative",
+        "Rationale": "晚上夜深人静时更容易感到孤独"
+    },
+    {
+        "sentence": "没准啊他都已经跟玛丽说了，可是玛丽不让他回来。哎，你说这 Mary 打小也没怎么带过他，她也没什么耐心，这孩子要是一条皮再没完没了，说回来一闹她不会打孩子吧？",
+        "Holder": "4",
+        "Target": "Mary",
+        "Aspect": "对孩子的态度",
+        "Opinion": "担心Mary会打孩子",
+        "Sentiment": "negative",
+        "Rationale": "Mary平时没什么耐心，孩子闹腾时可能会失去控制"
+    },
+    {
+        "sentence": "她那个性格，不行，我得给她打个电话。",
+        "Holder": "4",
+        "Target": "Mary",
+        "Aspect": "性格和处理方式",
+        "Opinion": "需要打电话确认情况",
+        "Sentiment": "negative",
+        "Rationale": "担心Mary的性格和处理方式会对孩子不利"
+    },
+    {
+        "sentence": "我觉得不会的，打小她也没怎么管过，带这么两天就不耐烦打他。怎么可能，我觉着不会的，真的。",
+        "Holder": "3",
+        "Target": "Mary",
+        "Aspect": "对孩子的态度",
+        "Opinion": "认为Mary不会打孩子",
+        "Sentiment": "positive",
+        "Rationale": "Mary平时不怎么管孩子，突然带两天也不太可能因此打孩子"
+    },
+    {
+        "sentence": "不行不行，我是忍不了了。要不这样吧，明天你去把他接回来",
+        "Holder": "4",
+        "Target": "接人任务",
+        "Aspect": "任务分配",
+        "Opinion": "希望3去接人",
+        "Sentiment": "negative",
+        "Rationale": "自己无法忍受见某人"
+    },
+    {
+        "sentence": "我去合适吗？",
+        "Holder": "3",
+        "Target": "自己接人",
+        "Aspect": "合适性",
+        "Opinion": "不确定是否合适",
+        "Sentiment": "neutral",
+        "Rationale": "对是否适合去接人感到不确定"
+    },
+    {
+        "sentence": "是，本来应该我去，可是我现在不想见她。我一见她非来火不行。",
+        "Holder": "4",
+        "Target": "自己去接人",
+        "Aspect": "情绪反应",
+        "Opinion": "不想见她",
+        "Sentiment": "negative",
+        "Rationale": "见到某人会让自己非常生气"
+    }
+]

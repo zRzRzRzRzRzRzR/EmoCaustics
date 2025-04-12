@@ -1,0 +1,551 @@
+[
+    {
+        "sentence": "哎？因为什么原因没报名来着？",
+        "Holder": "1",
+        "Target": "报名原因",
+        "Aspect": "错过报名的原因",
+        "Opinion": "不清楚原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不清楚自己错过报名的具体原因"
+    },
+    {
+        "sentence": "因为你在睡觉。",
+        "Holder": "2",
+        "Target": "1的睡觉",
+        "Aspect": "错过报名的原因",
+        "Opinion": "1在睡觉",
+        "Sentiment": "neutral",
+        "Rationale": "2客观地指出1错过报名是在睡觉"
+    },
+    {
+        "sentence": "屁！是上上周。哦，上上周，因为我睡觉错过了。再上上周要报，是因为你要去拍照",
+        "Holder": "1",
+        "Target": "报名原因",
+        "Aspect": "错过报名的具体时间",
+        "Opinion": "自己睡觉和2拍照导致错过",
+        "Sentiment": "negative",
+        "Rationale": "1意识到自己错过报名的原因包括自己睡觉和2拍照"
+    },
+    {
+        "sentence": "啊？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "对指责的反应",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的指责感到意外和不解"
+    },
+    {
+        "sentence": "有两次好吗？因为你拍照我没报的。",
+        "Holder": "1",
+        "Target": "2的拍照",
+        "Aspect": "错过报名的原因",
+        "Opinion": "2拍照导致错过",
+        "Sentiment": "negative",
+        "Rationale": "1认为2拍照是导致自己错过报名的原因之一"
+    },
+    {
+        "sentence": "什么两次都因为我？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "对指责的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2对1的两次指责感到不满和质疑"
+    },
+    {
+        "sentence": "我说17号那就是因为拍照。这样是有一次我本来要报的，是为我在睡觉，第二次是因为你去拍照。",
+        "Holder": "1",
+        "Target": "报名原因",
+        "Aspect": "错过报名的具体原因",
+        "Opinion": "自己睡觉和2拍照导致错过",
+        "Sentiment": "negative",
+        "Rationale": "1详细解释了自己错过报名的两次原因，语气中带有对2的责怪"
+    },
+    {
+        "sentence": "现在就没有人报了。",
+        "Holder": "2",
+        "Target": "报名情况",
+        "Aspect": "当前的报名状态",
+        "Opinion": "没有人报名",
+        "Sentiment": "neutral",
+        "Rationale": "2客观地指出当前没有人报名的情况"
+    },
+    {
+        "sentence": "不。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "对报名情况的否定",
+        "Opinion": "不同意",
+        "Sentiment": "negative",
+        "Rationale": "1对2的说法表示不同意"
+    },
+    {
+        "sentence": "那你之前睡着的。",
+        "Holder": "2",
+        "Target": "1的睡觉",
+        "Aspect": "错过报名的原因",
+        "Opinion": "1自己睡觉导致错过",
+        "Sentiment": "neutral",
+        "Rationale": "2指出1自己睡觉是错过报名的原因之一"
+    },
+    {
+        "sentence": "那你自己要去，我说下一周你要拍照，那算什么呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "拍照安排的合理性",
+        "Opinion": "认为2的行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "2之前说要一起拍照但现在却让1自己报名"
+    },
+    {
+        "sentence": "你可以自己报啊。",
+        "Holder": "2",
+        "Target": "1的报名行为",
+        "Aspect": "报名的自主性",
+        "Opinion": "认为1可以自己报名",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得1有能力自己报名"
+    },
+    {
+        "sentence": "你说你这个人过不过分？你说你要跟我一起报，你现在就让我自己报。我为了你拍照，我没报。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的一致性",
+        "Opinion": "认为2的行为过分",
+        "Sentiment": "negative",
+        "Rationale": "2之前说要一起报名但现在却让1自己报"
+    },
+    {
+        "sentence": "没报上怪我啊？",
+        "Holder": "2",
+        "Target": "1的责怪",
+        "Aspect": "责任归属",
+        "Opinion": "认为自己不应被责怪",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1没报上不应怪自己"
+    },
+    {
+        "sentence": "我没怪你！",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "责怪的意图",
+        "Opinion": "否认责怪2",
+        "Sentiment": "negative",
+        "Rationale": "2误解了自己的意图"
+    },
+    {
+        "sentence": "那你这么想报，你可以自己报。",
+        "Holder": "2",
+        "Target": "1的报名意愿",
+        "Aspect": "报名的主动性",
+        "Opinion": "认为1可以自己报名",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得1有强烈的报名意愿"
+    },
+    {
+        "sentence": "我没有想报，我是因为你说你想报我才报的，不是你找我的吗？我之前早就说我不报了，你找我，我说我陪你报。结果你说你要是拍照才没报的。",
+        "Holder": "1",
+        "Target": "2的邀请",
+        "Aspect": "报名的原因",
+        "Opinion": "报名是因为2的邀请",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己是2的邀请才报名的，结果2却没报"
+    },
+    {
+        "sentence": "对，那你为什么要怪我呢？",
+        "Holder": "2",
+        "Target": "1的责怪",
+        "Aspect": "责怪的原因",
+        "Opinion": "不理解1为何责怪自己",
+        "Sentiment": "negative",
+        "Rationale": "2不明白1为何要责怪自己"
+    },
+    {
+        "sentence": "我没怪你啊，但我说的是事实啊，确实是因为你找我我才去参加的呀。",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "事实的陈述",
+        "Opinion": "强调事实",
+        "Sentiment": "negative",
+        "Rationale": "2一直误解自己的意图"
+    },
+    {
+        "sentence": "是我找你的，但是如果你这么想报的话，你可以不用去啊。",
+        "Holder": "2",
+        "Target": "1的报名意愿",
+        "Aspect": "报名的选择",
+        "Opinion": "认为1可以选择不去",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得1有选择的自由"
+    },
+    {
+        "sentence": "什么叫这么想报？你就表达能力有问题啊。",
+        "Holder": "1",
+        "Target": "2的表达能力",
+        "Aspect": "表达的清晰度",
+        "Opinion": "表达能力有问题",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的表达不清楚"
+    },
+    {
+        "sentence": "你这么想报，那你可以不用管我。",
+        "Holder": "2",
+        "Target": "1的关心",
+        "Aspect": "关心的必要性",
+        "Opinion": "不需要1的关心",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的关心多余"
+    },
+    {
+        "sentence": "我没有这么想报呀，就是我们说到这个话题了。",
+        "Holder": "1",
+        "Target": "自己的意图",
+        "Aspect": "话题的提起",
+        "Opinion": "只是提到话题",
+        "Sentiment": "neutral",
+        "Rationale": "1只是提到话题，并没有特别意图"
+    },
+    {
+        "sentence": "那你为什么要怪我今天？",
+        "Holder": "2",
+        "Target": "1的责怪",
+        "Aspect": "责怪的原因",
+        "Opinion": "认为1在责怪",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1在无端责怪自己"
+    },
+    {
+        "sentence": "我没有怪你去拍照啊，我就是说实话。不是是事实吗？我陈述一个事实啊。这不事实吗？",
+        "Holder": "1",
+        "Target": "自己的陈述",
+        "Aspect": "陈述的真实性",
+        "Opinion": "只是陈述事实",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己只是在陈述事实"
+    },
+    {
+        "sentence": "你什么意思？你真的莫名其妙。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "莫名其妙",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的行为不可理解"
+    },
+    {
+        "sentence": "我真的就是陈述事实，你才是莫名其妙。",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "反应的合理性",
+        "Opinion": "莫名其妙",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的反应不合理"
+    },
+    {
+        "sentence": "说的好像我怎么影响到你了，但是你睡觉确实影响到我了。",
+        "Holder": "2",
+        "Target": "1的睡眠",
+        "Aspect": "影响程度",
+        "Opinion": "确实受到影响",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的睡眠影响到了自己"
+    },
+    {
+        "sentence": "怎么就影响到你了？你都在你不是有事在外面吗？你又没在房间。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "没有影响",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的指责不合理"
+    },
+    {
+        "sentence": "我说你睡觉的时候，当时我还给你打电话，叫你起来报名。",
+        "Holder": "2",
+        "Target": "1的睡眠",
+        "Aspect": "打扰的原因",
+        "Opinion": "需要叫醒报名",
+        "Sentiment": "negative",
+        "Rationale": "2觉得需要叫醒1报名"
+    },
+    {
+        "sentence": "没打通啊。",
+        "Holder": "1",
+        "Target": "电话",
+        "Aspect": "通话情况",
+        "Opinion": "没打通",
+        "Sentiment": "negative",
+        "Rationale": "电话没打通"
+    },
+    {
+        "sentence": "打了好几通，你都没接！好，结果过了报名时间，过了10多分钟就来说，啊？今天报名？",
+        "Holder": "2",
+        "Target": "1的电话接听",
+        "Aspect": "接听情况",
+        "Opinion": "没接电话导致错过报名",
+        "Sentiment": "negative",
+        "Rationale": "打了好几通电话都没被接听，导致错过了报名时间"
+    },
+    {
+        "sentence": "对啊，那错过，那我就说下周报，结果你又说你下周要去拍照，不就报不成了？真是的。",
+        "Holder": "1",
+        "Target": "2的拍照安排",
+        "Aspect": "时间冲突",
+        "Opinion": "无法报名",
+        "Sentiment": "negative",
+        "Rationale": "2下周要去拍照，导致自己无法报名"
+    },
+    {
+        "sentence": "是我要拍照啊，那你可以自己报啊，怎么就你有关系吗？",
+        "Holder": "2",
+        "Target": "1的报名问题",
+        "Aspect": "报名的独立性",
+        "Opinion": "可以自己报名",
+        "Sentiment": "negative",
+        "Rationale": "认为1可以自己报名，不需要依赖自己"
+    },
+    {
+        "sentence": "不是啊，问题就是我只能报自己的，我不能帮别人报。一个号只能报一个人。我想是你拍照我去报，那我报有什么意思呢？你不是找我一起的吗？我就说一定要跟你一起。",
+        "Holder": "1",
+        "Target": "报名规则",
+        "Aspect": "报名的限制",
+        "Opinion": "只能自己报名",
+        "Sentiment": "negative",
+        "Rationale": "报名规则限制只能自己报名，无法和2一起"
+    },
+    {
+        "sentence": "你说的，你刚才说，我粉丝想看我，我那我就去报啊，因为我没有报成，啊？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的一致性",
+        "Opinion": "1的说法矛盾",
+        "Sentiment": "negative",
+        "Rationale": "1之前的说法和现在的行为不一致"
+    },
+    {
+        "sentence": "我就是刚才说这个事呀，是对的呀？",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论的正确性",
+        "Opinion": "自己说的是对的",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己刚才说的内容是正确的"
+    },
+    {
+        "sentence": "不是啊，那你现在是因为怎么了吗？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪变化的原因",
+        "Opinion": "不清楚原因",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1为什么突然情绪变化"
+    },
+    {
+        "sentence": "没怎么呀。怎么？打一架？算了算了算了，不报了不报了，不报了不报了好了好了，不报了不报了，不报了不报了。",
+        "Holder": "1",
+        "Target": "报名事件",
+        "Aspect": "报名的决定",
+        "Opinion": "放弃报名",
+        "Sentiment": "negative",
+        "Rationale": "感到无奈和生气，决定放弃报名"
+    },
+    {
+        "sentence": "你刚不是这样说的吗？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的一致性",
+        "Opinion": "1的说法前后矛盾",
+        "Sentiment": "negative",
+        "Rationale": "1之前的说法和现在的决定不一致"
+    },
+    {
+        "sentence": "对呀，我说这句话也没有问题吧。我没有错。",
+        "Holder": "1",
+        "Target": "自己说的话",
+        "Aspect": "话语的合理性",
+        "Opinion": "认为自己没有错",
+        "Sentiment": "positive",
+        "Rationale": "认为自己说的话是合理的"
+    },
+    {
+        "sentence": "所以你就说你报这个是为了什么呢？你刚刚说你是为了粉丝要去报啊，那你这次没报成，那跟我没有关系啊。",
+        "Holder": "2",
+        "Target": "1的报名动机",
+        "Aspect": "动机的关联性",
+        "Opinion": "认为与自己无关",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的报名动机与自己无关"
+    },
+    {
+        "sentence": "对呀，跟你没有关系啊，但是我就是讲一个这样的事情而已。",
+        "Holder": "1",
+        "Target": "2的关联性",
+        "Aspect": "话题的关联性",
+        "Opinion": "认为与自己无关",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "那就不要说因为我去拍照了。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的指向性",
+        "Opinion": "不希望被提及",
+        "Sentiment": "negative",
+        "Rationale": "不希望自己的行为被作为原因提及"
+    },
+    {
+        "sentence": "但确实是因为这周你拍照，我们这周没报嘛，确实嘛，这是个事实嘛，没有人怪你。",
+        "Holder": "1",
+        "Target": "2的拍照行为",
+        "Aspect": "行为的影响",
+        "Opinion": "认为是事实但不怪责",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实且表示不怪责"
+    },
+    {
+        "sentence": "如果是你是为了粉丝的话，你可以去，跟我没有关系。",
+        "Holder": "2",
+        "Target": "1的动机",
+        "Aspect": "动机的关联性",
+        "Opinion": "认为与自己无关",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的动机与自己无关"
+    },
+    {
+        "sentence": "我粉丝没有怪你啊，服了。不报了，烦死了，到时候别人又要骂我了。",
+        "Holder": "1",
+        "Target": "粉丝的态度和自己的情绪",
+        "Aspect": "情绪的发泄",
+        "Opinion": "感到烦躁和无奈",
+        "Sentiment": "negative",
+        "Rationale": "觉得事情无法解决且担心被骂"
+    },
+    {
+        "sentence": "骂你什么？不都骂我吗？",
+        "Holder": "2",
+        "Target": "被骂的对象",
+        "Aspect": "责任的归属",
+        "Opinion": "认为责任在自己",
+        "Sentiment": "negative",
+        "Rationale": "觉得所有的责骂都指向自己"
+    },
+    {
+        "sentence": "我就是一个疯子。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "自我评价",
+        "Opinion": "自嘲",
+        "Sentiment": "negative",
+        "Rationale": "感到无法解决问题且被误解"
+    },
+    {
+        "sentence": "说我天天刁蛮任性，天天无理取闹。",
+        "Holder": "2",
+        "Target": "对自己的评价",
+        "Aspect": "性格的评价",
+        "Opinion": "被认为刁蛮任性",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被误解和指责"
+    },
+    {
+        "sentence": "不是吗？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2的言论是否真实"
+    },
+    {
+        "sentence": "你再说？自己本来就表述不清楚，你有时候说话还是要过一下脑子。",
+        "Holder": "2",
+        "Target": "1的表述",
+        "Aspect": "表述的清晰度",
+        "Opinion": "表述不清",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的表述不清"
+    },
+    {
+        "sentence": "我没脑子啊，我有病啊，他们不是这样骂我的吗？我有时候像个疯子，看我在台下有病似的。",
+        "Holder": "1",
+        "Target": "他人的评价",
+        "Aspect": "对自己的评价",
+        "Opinion": "自嘲",
+        "Sentiment": "negative",
+        "Rationale": "1被他人骂没脑子、有病"
+    },
+    {
+        "sentence": "啊？这是谁的粉丝骂的，你自己知道。",
+        "Holder": "2",
+        "Target": "骂人的来源",
+        "Aspect": "骂人的责任",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问骂人的来源"
+    },
+    {
+        "sentence": "我又不是说所有的粉丝骂我，你只有些粉丝骂我，还有很多圈路人也骂我。",
+        "Holder": "1",
+        "Target": "骂人的群体",
+        "Aspect": "骂人的范围",
+        "Opinion": "部分粉丝和路人",
+        "Sentiment": "negative",
+        "Rationale": "1被部分粉丝和路人骂"
+    },
+    {
+        "sentence": "精准点草行吗？你讲话阴阳怪气的。",
+        "Holder": "2",
+        "Target": "1的讲话方式",
+        "Aspect": "讲话的语气",
+        "Opinion": "阴阳怪气",
+        "Sentiment": "negative",
+        "Rationale": "2认为1讲话阴阳怪气"
+    },
+    {
+        "sentence": "我才像阴阳怪气，你说我？好了好了，别讲了。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "反驳",
+        "Sentiment": "negative",
+        "Rationale": "1被2指责阴阳怪气"
+    },
+    {
+        "sentence": "所以你说了吗？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1是否说了某些话"
+    },
+    {
+        "sentence": "说了呀，我天。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论的存在",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "1确认自己说了某些话"
+    },
+    {
+        "sentence": "怎么说的？我服了。",
+        "Holder": "2",
+        "Target": "1的言论内容",
+        "Aspect": "言论的具体内容",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "2对1的言论感到无奈"
+    },
+    {
+        "sentence": "你浪费了我5分钟。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "时间利用",
+        "Opinion": "浪费时间",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为导致自己失去了5分钟的时间"
+    }
+]

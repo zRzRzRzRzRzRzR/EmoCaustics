@@ -1,0 +1,103 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "拍摄准备与执行",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对丰盛食物感到幸福；认同自然拍摄方式；支持和谐家庭氛围的营造",
+            "source_id": "1,2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提醒刘星注意镜头前言行；关注食物温度变化",
+            "source_id": "1,2"
+          },
+          {
+            "state": "negative",
+            "reason": "认为鼓掌行为不自然；批评食物分配方式不合理",
+            "source_id": "2,4"
+          }
+        ]
+      },
+      {
+        "event": "家庭聚餐互动",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "热情分享食物；赞赏豆腐干的情感价值",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "处理食物分配决策；关注家人饮食健康",
+            "source_id": "1,3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "拍摄流程协调",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "建议自然拍摄方式；认可月光蛙鸣的氛围营造",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "言论被要求删除；对镜头意识产生压力",
+            "source_id": "1,4"
+          }
+        ]
+      },
+      {
+        "event": "家庭角色互动",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "处理食物选择决策；维持拍摄流程",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭关系表达",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "感谢母亲的家庭贡献",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "真实性质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问日常饮食习惯",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "表达全家健康的幸福感",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

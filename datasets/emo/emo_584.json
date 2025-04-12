@@ -1,0 +1,54 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "联合对抗后的态度转变争议",
+        "emotions": [
+          {"state": "negative", "reason": "指责2突然改变联合立场", "source_id": "2"},
+          {"state": "neutral", "reason": "试图平息购物争议", "source_id": "3"},
+          {"state": "negative", "reason": "质疑高价商品合理性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "长期管束引发的反抗宣言",
+        "emotions": [
+          {"state": "negative", "reason": "质疑母亲干涉交友自由", "source_id": "3"},
+          {"state": "negative", "reason": "反对母亲持续控制行为", "source_id": "3"},
+          {"state": "determined", "reason": "正式宣布对抗母亲管束", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "购物退款协调冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "提出未开封商品退款方案", "source_id": "3"},
+          {"state": "negative", "reason": "被母亲拒绝退款后妥协", "source_id": "3"},
+          {"state": "positive", "reason": "试图缓解母亲激动情绪", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "对子女交友的干涉行为",
+        "emotions": [
+          {"state": "negative", "reason": "公开反对女儿朋友倩倩", "source_id": "2"},
+          {"state": "positive", "reason": "强调干涉行为的善意动机", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑干涉资格后的反击", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "高额购物消费争议",
+        "emotions": [
+          {"state": "neutral", "reason": "解释高价母婴用品合理性", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝接受商品退款要求", "source_id": "2"},
+          {"state": "negative", "reason": "被威胁动用退休金还债", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

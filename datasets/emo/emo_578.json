@@ -1,0 +1,63 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "网购物品过多引发空间矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "询问网购物品用途", "source_id": "3"},
+          {"state": "negative", "reason": "质疑物品存放可行性", "source_id": "3"},
+          {"state": "negative", "reason": "瑜伽空间被占用且化妆品被移动", "source_id": "3"},
+          {"state": "negative", "reason": "被迫接受不合理收纳方案", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "个人空间持续受挤压",
+        "emotions": [
+          {"state": "negative", "reason": "衣物收纳方案被强制改变", "source_id": "3"},
+          {"state": "negative", "reason": "护肤品存放位置冲突", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "网购过度消费争议",
+        "emotions": [
+          {"state": "negative", "reason": "发现大量网购物品", "source_id": "3"},
+          {"state": "negative", "reason": "担忧银行卡被滥用", "source_id": "3"},
+          {"state": "negative", "reason": "质疑超前消费逻辑", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "育儿用品合理性讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "关注婴儿舌苔健康", "source_id": "3"},
+          {"state": "positive", "reason": "认可部分物品实用性", "source_id": "3"},
+          {"state": "negative", "reason": "反对购买非急需衣物", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "网购狂欢引发冲突",
+        "emotions": [
+          {"state": "positive", "reason": "享受折扣购物乐趣", "source_id": "2"},
+          {"state": "positive", "reason": "展示收纳能力与战利品", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑消费合理性", "source_id": "2"},
+          {"state": "neutral", "reason": "试图缓和矛盾", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "空间争夺与代际观念冲突",
+        "emotions": [
+          {"state": "positive", "reason": "规划婴儿活动区域", "source_id": "1"},
+          {"state": "neutral", "reason": "调整物品收纳方案", "source_id": "1"},
+          {"state": "negative", "reason": "被指责过度占用空间", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

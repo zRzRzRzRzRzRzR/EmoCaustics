@@ -1,0 +1,102 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "爱的本质与自由论证",
+        "emotions": [
+          {"state": "positive", "reason": "定义爱为情感与自由结合", "source_id": "2"},
+          {"state": "neutral", "reason": "回应责任与自由关系的质疑", "source_id": "4"},
+          {"state": "positive", "reason": "强调爱带来意义感和自我实现", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "工作动机与自由辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "对比责任驱动与热爱驱动的工作状态", "source_id": "5"},
+          {"state": "positive", "reason": "主张热爱能克服996的压迫感", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "爱的束缚性论证",
+        "emotions": [
+          {"state": "negative", "reason": "用金岳霖案例说明爱的不可控性", "source_id": "1"},
+          {"state": "neutral", "reason": "区分自由选择与被迫责任", "source_id": "5"},
+          {"state": "doubt", "reason": "质疑方法论要求爱上不爱事物", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "自由本质重构",
+        "emotions": [
+          {"state": "negative", "reason": "反驳将选择等同于自由的观点", "source_id": "4"},
+          {"state": "positive", "reason": "用韩秉哲理论论证爱克服自由自毁", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "意义感与自由解构",
+        "emotions": [
+          {"state": "neutral", "reason": "用传销案例质疑意义感价值", "source_id": "1"},
+          {"state": "negative", "reason": "以令狐冲案例否定意义感与自由关联", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "高阶自由理论建构",
+        "emotions": [
+          {"state": "neutral", "reason": "区分低阶/高阶自由概念", "source_id": "6"},
+          {"state": "positive", "reason": "用C罗案例论证热爱的超越性", "source_id": "2"},
+          {"state": "ambiguous", "reason": "解释母亲选择中的价值排序矛盾", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "爱的牺牲实证",
+        "emotions": [
+          {"state": "negative", "reason": "用方汀案例展示爱的自我剥夺", "source_id": "5"},
+          {"state": "negative", "reason": "描述母亲放弃理发师梦想的代价", "source_id": "5"},
+          {"state": "negative", "reason": "外公故事体现爱的永恒创伤", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "自由选择本质探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "对比生物本能与共同体选择", "source_id": "8"},
+          {"state": "positive", "reason": "用阿甘母亲案例论证选择主动性", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "自由代价论证",
+        "emotions": [
+          {"state": "negative", "reason": "揭示996与家庭责任的强制性关联", "source_id": "5"},
+          {"state": "ambiguous", "reason": "探讨自由选择中的价值放弃悖论", "source_id": "7"},
+          {"state": "negative", "reason": "用小王子隐喻说明爱的忧惧本质", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

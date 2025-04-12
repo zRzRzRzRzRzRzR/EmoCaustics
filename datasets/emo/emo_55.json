@@ -1,0 +1,40 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对行为变化的批评与争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对2未听从建议且形象转变的失望",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "认为2的言论破坏团结且缺乏党性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "行为动机的解释与矛盾",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "表达进步意愿并寻求理解",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "试图澄清误解并维护立场",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

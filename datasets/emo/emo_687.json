@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "沟通方式冲突升级",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反复指责对方说话口气恶劣，认为对方缺乏沟通技巧",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "因袜子分开事件质疑对方行为合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "拒绝和解提议并采取对抗态度",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "行为标准争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指控存在双重标准时的激烈反驳",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "持续否认自身问题并归咎对方",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "沟通立场对峙",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "坚持自我沟通方式的一贯性认知",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "面对持续指责产生的防御性反应",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "试图通过逻辑分析化解矛盾",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "矛盾焦点转移",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对持续指责产生反指控行为",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出建设性解决方案被拒后的无奈",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

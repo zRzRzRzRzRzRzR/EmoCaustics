@@ -1,0 +1,578 @@
+[
+    {
+        "sentence": "什么时候，你说，我现在想。",
+        "Holder": "1",
+        "Target": "时间安排",
+        "Aspect": "确定时间",
+        "Opinion": "希望确定时间",
+        "Sentiment": "neutral",
+        "Rationale": "1想要知道具体的时间"
+    },
+    {
+        "sentence": "在机场的时候我就已经记了很久。你还说不要我管你，我就说算了。",
+        "Holder": "2",
+        "Target": "1的时间安排",
+        "Aspect": "记录时间",
+        "Opinion": "已经记录很久",
+        "Sentiment": "negative",
+        "Rationale": "2已经记录了很久但被1说不要管"
+    },
+    {
+        "sentence": "什么叫不要你管？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论理解",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "1不明白2所说的“不要你管”是什么意思"
+    },
+    {
+        "sentence": "上一次啊，上一次你没说过吗？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论回忆",
+        "Opinion": "记得说过",
+        "Sentiment": "neutral",
+        "Rationale": "2记得上一次1说过不要管"
+    },
+    {
+        "sentence": "那就是我心情不好，不想影响你啊。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论解释",
+        "Opinion": "心情不好",
+        "Sentiment": "neutral",
+        "Rationale": "1解释自己当时心情不好不想影响2"
+    },
+    {
+        "sentence": "已经狠狠影响了。我记很久。还有就是行李箱之前。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "影响很大",
+        "Sentiment": "negative",
+        "Rationale": "1的行为对2造成了很大的影响，并且这种影响持续了很久"
+    },
+    {
+        "sentence": "就你说，不要你管。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话语的内容",
+        "Opinion": "1说过不要管",
+        "Sentiment": "negative",
+        "Rationale": "2认为1曾经说过不要管的话"
+    },
+    {
+        "sentence": "我什么时候说过这句话啊？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "话语的真实性",
+        "Opinion": "否认说过",
+        "Sentiment": "negative",
+        "Rationale": "1被2指责说过某些话，但1认为自己没有说过"
+    },
+    {
+        "sentence": "你对我说过。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "1确实说过",
+        "Sentiment": "negative",
+        "Rationale": "2坚持认为1曾经说过那些话"
+    },
+    {
+        "sentence": "那我要你管好不好？",
+        "Holder": "1",
+        "Target": "2的关心",
+        "Aspect": "关心的合理性",
+        "Opinion": "不需要2的关心",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的关心是不必要的干涉"
+    },
+    {
+        "sentence": "我不管了，你没发现我这几天我都没有找你吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "联系的频率",
+        "Opinion": "已经减少联系",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己已经减少了与1的联系，但1没有察觉"
+    },
+    {
+        "sentence": "所以我去找你没有问题啊。",
+        "Holder": "1",
+        "Target": "找2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "找2是合理的",
+        "Sentiment": "neutral",
+        "Rationale": "1认为去找2是合理的"
+    },
+    {
+        "sentence": "所以你来找我呗。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的期待",
+        "Opinion": "期待1来找自己",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得1来找自己是合理的"
+    },
+    {
+        "sentence": "你是不是故意的啊你？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的动机",
+        "Opinion": "怀疑2是故意的",
+        "Sentiment": "negative",
+        "Rationale": "1怀疑2的行为是故意的"
+    },
+    {
+        "sentence": "当然不是故意的，这有什么好故意的？",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为动机",
+        "Opinion": "无意为之",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在解释自己的行为并非有意"
+    },
+    {
+        "sentence": "我真急了，你看我表情。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "焦急",
+        "Sentiment": "negative",
+        "Rationale": "说话人1感到焦急，并通过表情传达出来"
+    },
+    {
+        "sentence": "你再急一会儿吧。",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪反应",
+        "Opinion": "调侃",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在调侃说话人1的焦急情绪"
+    },
+    {
+        "sentence": "我新发色好看吗？",
+        "Holder": "1",
+        "Target": "新发色",
+        "Aspect": "外观评价",
+        "Opinion": "询问评价",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在询问对方对自己新发色的看法"
+    },
+    {
+        "sentence": "还可以吧。",
+        "Holder": "2",
+        "Target": "1的新发色",
+        "Aspect": "外观评价",
+        "Opinion": "一般",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2对说话人1的新发色给出了中肯的评价"
+    },
+    {
+        "sentence": "什么意思？你讲清楚。",
+        "Holder": "1",
+        "Target": "2的表述",
+        "Aspect": "表述的清晰度",
+        "Opinion": "需要明确解释",
+        "Sentiment": "neutral",
+        "Rationale": "1没有理解2的意思"
+    },
+    {
+        "sentence": "我讲什么，讲清楚？",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "质疑要求",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己已经讲得很清楚"
+    },
+    {
+        "sentence": "干嘛了？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不清楚2为何如此回应"
+    },
+    {
+        "sentence": "我讲的很明白。",
+        "Holder": "2",
+        "Target": "自己的表述",
+        "Aspect": "表述的清晰度",
+        "Opinion": "认为自己表达清楚",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得自己已经讲得很明白"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "询问态度原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不理解2为何坚持己见"
+    },
+    {
+        "sentence": "没怎么。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "2没有表达具体的不满或情绪"
+    },
+    {
+        "sentence": "我怎么你了？干嘛突然不开心？你刚打电话我一下就过去了，是不是？",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪变化的原因",
+        "Opinion": "不理解2为何不开心",
+        "Sentiment": "ambiguous",
+        "Rationale": "1不清楚2为何突然不开心"
+    },
+    {
+        "sentence": "也没有。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "2继续没有明确表达情绪或原因"
+    },
+    {
+        "sentence": "我的脚趾头都冻僵了！",
+        "Holder": "1",
+        "Target": "自己的脚趾",
+        "Aspect": "身体状况",
+        "Opinion": "脚趾冻僵",
+        "Sentiment": "negative",
+        "Rationale": "1的脚趾冻僵了"
+    },
+    {
+        "sentence": "你怎么不穿上鞋来？你迫不及待是吧？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "穿鞋的合理性",
+        "Opinion": "1没有穿鞋",
+        "Sentiment": "negative",
+        "Rationale": "1没有穿鞋导致脚趾冻僵"
+    },
+    {
+        "sentence": "对呀，干嘛呀？到底干嘛了我？我没做对不起你的事情啊。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "自己的行为",
+        "Opinion": "没有做对不起2的事情",
+        "Sentiment": "negative",
+        "Rationale": "被2无端指责"
+    },
+    {
+        "sentence": "你说了对不起我的话。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话语的内容",
+        "Opinion": "1说了对不起2的话",
+        "Sentiment": "negative",
+        "Rationale": "认为1说了冒犯自己的话"
+    },
+    {
+        "sentence": "我说什么，你直白说啊？那我夸你算什么？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "话语的具体内容",
+        "Opinion": "要求2明确指出问题",
+        "Sentiment": "negative",
+        "Rationale": "不清楚自己哪里做错了"
+    },
+    {
+        "sentence": "你夸我这个是正常的。",
+        "Holder": "2",
+        "Target": "1的夸奖",
+        "Aspect": "夸奖的合理性",
+        "Opinion": "1的夸奖是正常的",
+        "Sentiment": "neutral",
+        "Rationale": "认为1的夸奖是正常的行为"
+    },
+    {
+        "sentence": "你看了我表演吗？",
+        "Holder": "1",
+        "Target": "2的关注",
+        "Aspect": "是否观看表演",
+        "Opinion": "询问2是否观看",
+        "Sentiment": "neutral",
+        "Rationale": "想知道2是否关注自己的表演"
+    },
+    {
+        "sentence": "我看了你表演啊，你当时还两个人搂搂搂。",
+        "Holder": "2",
+        "Target": "1的表演",
+        "Aspect": "表演内容",
+        "Opinion": "有搂搂搂的动作",
+        "Sentiment": "neutral",
+        "Rationale": "描述了看到的表演内容"
+    },
+    {
+        "sentence": "我提问，我穿什么颜色衣服？什么搂喽搂？",
+        "Holder": "1",
+        "Target": "自己的表演",
+        "Aspect": "表演细节",
+        "Opinion": "不清楚是否有搂搂搂",
+        "Sentiment": "doubt",
+        "Rationale": "对2的描述感到疑惑"
+    },
+    {
+        "sentence": "就你们跳两个人跳。",
+        "Holder": "2",
+        "Target": "1的表演",
+        "Aspect": "表演形式",
+        "Opinion": "是双人跳",
+        "Sentiment": "neutral",
+        "Rationale": "再次确认表演的形式"
+    },
+    {
+        "sentence": "什么搂搂搂？没有搂搂搂啊，怎么了，什么呀，说呀？快点。你看我。",
+        "Holder": "1",
+        "Target": "自己的表演",
+        "Aspect": "表演内容",
+        "Opinion": "否认有搂搂搂",
+        "Sentiment": "negative",
+        "Rationale": "对2的描述感到不满和困惑"
+    },
+    {
+        "sentence": "就你跳双人。红色的。无话可说了吧？",
+        "Holder": "2",
+        "Target": "1的表演",
+        "Aspect": "表演形式和服装",
+        "Opinion": "确认是双人跳且穿红色衣服",
+        "Sentiment": "positive",
+        "Rationale": "确认了表演的细节并觉得对方无法反驳"
+    },
+    {
+        "sentence": "一下子给我整懵了，我现在cpu小脑萎缩。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "思维状态",
+        "Opinion": "感到困惑",
+        "Sentiment": "negative",
+        "Rationale": "突然发生的事情让自己感到困惑"
+    },
+    {
+        "sentence": "反正就是有几件事情累积起来。",
+        "Holder": "2",
+        "Target": "事情累积",
+        "Aspect": "事件的影响",
+        "Opinion": "事情累积导致问题",
+        "Sentiment": "neutral",
+        "Rationale": "几件事情累积起来"
+    },
+    {
+        "sentence": "什么事？",
+        "Holder": "1",
+        "Target": "具体事情",
+        "Aspect": "事件的详情",
+        "Opinion": "询问详情",
+        "Sentiment": "neutral",
+        "Rationale": "想知道具体发生了什么"
+    },
+    {
+        "sentence": "就是当时吃饭的时候，你说你不要管我不要你管，让我想说ok ok ok ，行行行，长大了，了不起了，谁管你，没人想管你，随你的便。然后后面就是在机场的时候。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "态度和反应",
+        "Opinion": "对1的行为不满",
+        "Sentiment": "negative",
+        "Rationale": "1在吃饭时表现出不需要关心的态度"
+    },
+    {
+        "sentence": "我在调理情绪好不好？当时情绪确实不不太好。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "情绪不佳",
+        "Sentiment": "negative",
+        "Rationale": "当时情绪确实不好"
+    },
+    {
+        "sentence": "所以我当时我就是还跑去找你，我就是想让你开心。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为动机",
+        "Opinion": "想让1开心",
+        "Sentiment": "positive",
+        "Rationale": "2主动去找1是为了让1开心"
+    },
+    {
+        "sentence": "然后呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "后续发展",
+        "Opinion": "询问后续",
+        "Sentiment": "neutral",
+        "Rationale": "1只是简单地询问后续情况"
+    },
+    {
+        "sentence": "吵架的时候你还那么说。",
+        "Holder": "2",
+        "Target": "1的言语",
+        "Aspect": "吵架时的言语",
+        "Opinion": "言语过重",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在吵架时说的话过于严重"
+    },
+    {
+        "sentence": "我没有说那么狠。",
+        "Holder": "1",
+        "Target": "自己的言语",
+        "Aspect": "言语的严重性",
+        "Opinion": "言语并不狠",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己并没有说得很狠"
+    },
+    {
+        "sentence": "其实很生气。",
+        "Holder": "2",
+        "Target": "1的言语",
+        "Aspect": "情绪反应",
+        "Opinion": "感到生气",
+        "Sentiment": "negative",
+        "Rationale": "2对1在吵架时的言语感到不满"
+    },
+    {
+        "sentence": "我没有说那么绝对。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论的绝对性",
+        "Opinion": "没有说绝对",
+        "Sentiment": "neutral",
+        "Rationale": "1在澄清自己的言论并非绝对"
+    },
+    {
+        "sentence": "你就说那绝对。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的绝对性",
+        "Opinion": "认为1说了绝对",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的言论是绝对的"
+    },
+    {
+        "sentence": "我真的没有。",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论的绝对性",
+        "Opinion": "确实没有说绝对",
+        "Sentiment": "neutral",
+        "Rationale": "1再次澄清自己的言论并非绝对"
+    },
+    {
+        "sentence": "你确定？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的确定性",
+        "Opinion": "怀疑1的确定性",
+        "Sentiment": "doubt",
+        "Rationale": "2对1的澄清表示怀疑"
+    },
+    {
+        "sentence": "我真没有，就是没有！",
+        "Holder": "1",
+        "Target": "自己的言论",
+        "Aspect": "言论的绝对性",
+        "Opinion": "坚决否认说绝对",
+        "Sentiment": "negative",
+        "Rationale": "1被反复质疑感到不耐烦"
+    },
+    {
+        "sentence": "就是有！",
+        "Holder": "2",
+        "Target": "某事存在",
+        "Aspect": "事实确认",
+        "Opinion": "坚持某事存在",
+        "Sentiment": "neutral",
+        "Rationale": "2坚持认为某事存在"
+    },
+    {
+        "sentence": "你不要说这些。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论内容",
+        "Opinion": "不希望继续讨论",
+        "Sentiment": "neutral",
+        "Rationale": "1希望停止当前话题的讨论"
+    },
+    {
+        "sentence": "然后就是刚才我肚子饿。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "感到饥饿",
+        "Sentiment": "neutral",
+        "Rationale": "2刚刚感到肚子饿"
+    },
+    {
+        "sentence": "肚子饿，我不是给你打包吗？肚子饿之前我就想好了。",
+        "Holder": "1",
+        "Target": "2的饥饿问题",
+        "Aspect": "解决方案",
+        "Opinion": "已提前考虑并解决",
+        "Sentiment": "neutral",
+        "Rationale": "1已经提前考虑到2会肚子饿并打包了食物"
+    },
+    {
+        "sentence": "但我想吃你做的。",
+        "Holder": "2",
+        "Target": "食物来源",
+        "Aspect": "食物偏好",
+        "Opinion": "希望吃1做的食物",
+        "Sentiment": "neutral",
+        "Rationale": "2更希望吃到1亲手做的食物"
+    },
+    {
+        "sentence": "那我就给你做了啊！你给我直白说行了呀，你拐弯抹角那么多干什么？我真生气了。",
+        "Holder": "1",
+        "Target": "2的表达方式",
+        "Aspect": "表达的直接性",
+        "Opinion": "不满拐弯抹角",
+        "Sentiment": "negative",
+        "Rationale": "2没有直接表达而是拐弯抹角"
+    },
+    {
+        "sentence": "那当时我还生气。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "对1的行为不满",
+        "Sentiment": "negative",
+        "Rationale": "1当时的行为让2感到不满"
+    },
+    {
+        "sentence": "当时已经翻篇了啊，我觉得莫名其妙的突然生气。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪的合理性",
+        "Opinion": "认为2生气莫名其妙",
+        "Sentiment": "negative",
+        "Rationale": "1认为事情已经过去，2突然生气让1感到莫名其妙"
+    },
+    {
+        "sentence": "因为当时没这件事情没有说开啊。",
+        "Holder": "2",
+        "Target": "事情的处理",
+        "Aspect": "事情的解决程度",
+        "Opinion": "事情未解决",
+        "Sentiment": "negative",
+        "Rationale": "当时的事情没有说开"
+    },
+    {
+        "sentence": "我想不清楚，我觉得我没有做不对的事情啊。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "认为自己没有做错",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己没有做错事情"
+    }
+]

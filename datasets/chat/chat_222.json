@@ -1,0 +1,641 @@
+[
+    {
+        "sentence": "司寒哥哥，我就知道你舍不得杀我，你还是爱我的。",
+        "Holder": "1",
+        "Target": "司寒",
+        "Aspect": "情感态度",
+        "Opinion": "认为司寒爱自己",
+        "Sentiment": "positive",
+        "Rationale": "1认为司寒不舍得杀自己"
+    },
+    {
+        "sentence": "你误会了。我只是在想这第一刀该从哪儿开始呢？",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "意图澄清",
+        "Opinion": "澄清没有情感",
+        "Sentiment": "neutral",
+        "Rationale": "2需要澄清1的误解"
+    },
+    {
+        "sentence": "我我我，我爸是江城督察。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身份背景",
+        "Opinion": "试图用身份求情",
+        "Sentiment": "doubt",
+        "Rationale": "1试图用父亲的身份来避免危险"
+    },
+    {
+        "sentence": "江城督察怎么了，你觉得我会放在眼里吗？",
+        "Holder": "2",
+        "Target": "1的父亲身份",
+        "Aspect": "身份的影响力",
+        "Opinion": "不重视身份",
+        "Sentiment": "negative",
+        "Rationale": "2对1的父亲身份不屑一顾"
+    },
+    {
+        "sentence": "和晚凝比起来，任何东西都不重要。",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "重要性",
+        "Opinion": "晚凝最重要",
+        "Sentiment": "positive",
+        "Rationale": "2将晚凝看得比任何东西都重要"
+    },
+    {
+        "sentence": "凡是伤害过晚凝的人，我会让他们付出代价。",
+        "Holder": "2",
+        "Target": "伤害晚凝的人",
+        "Aspect": "对晚凝的伤害",
+        "Opinion": "让他们付出代价",
+        "Sentiment": "negative",
+        "Rationale": "晚凝受到了伤害"
+    },
+    {
+        "sentence": "你放心，你把晚凝伤害成那样，我不会让你轻易解脱的。",
+        "Holder": "2",
+        "Target": "你",
+        "Aspect": "对晚凝的伤害",
+        "Opinion": "不会让你轻易解脱",
+        "Sentiment": "negative",
+        "Rationale": "你对晚凝造成了严重伤害"
+    },
+    {
+        "sentence": "你对晚凝所做的一切，我会在你身上百倍的还回来！",
+        "Holder": "2",
+        "Target": "你",
+        "Aspect": "对晚凝的伤害",
+        "Opinion": "百倍奉还",
+        "Sentiment": "negative",
+        "Rationale": "你对晚凝的所作所为"
+    },
+    {
+        "sentence": "许曼曼那么伤害你，你让我停手？",
+        "Holder": "2",
+        "Target": "3的要求",
+        "Aspect": "停手的合理性",
+        "Opinion": "质疑停手的要求",
+        "Sentiment": "negative",
+        "Rationale": "3要求停止报复，但自己认为报复是合理的"
+    },
+    {
+        "sentence": "许曼曼，她已经为自己的行为付出了代价。",
+        "Holder": "3",
+        "Target": "许曼曼",
+        "Aspect": "行为代价",
+        "Opinion": "已经付出代价",
+        "Sentiment": "neutral",
+        "Rationale": "提到许曼曼已经为自己的行为付出代价"
+    },
+    {
+        "sentence": "厉司寒，收手吧，你这是在犯法！",
+        "Holder": "3",
+        "Target": "厉司寒",
+        "Aspect": "行为合法性",
+        "Opinion": "正在犯法",
+        "Sentiment": "negative",
+        "Rationale": "认为厉司寒的行为是违法的"
+    },
+    {
+        "sentence": "呵，律法而已，怎么能影响我们的感情呢？",
+        "Holder": "2",
+        "Target": "律法",
+        "Aspect": "对感情的影响",
+        "Opinion": "律法不影响感情",
+        "Sentiment": "negative",
+        "Rationale": "轻视律法的作用"
+    },
+    {
+        "sentence": "你说什么。",
+        "Holder": "3",
+        "Target": "2的话",
+        "Aspect": "内容理解",
+        "Opinion": "需要确认",
+        "Sentiment": "neutral",
+        "Rationale": "对2的话感到疑惑"
+    },
+    {
+        "sentence": "区区律法，你觉得我会在乎吗？",
+        "Holder": "2",
+        "Target": "律法",
+        "Aspect": "重视程度",
+        "Opinion": "不在乎",
+        "Sentiment": "negative",
+        "Rationale": "完全不重视律法"
+    },
+    {
+        "sentence": "只要是为了你，就算我献出一切，我也愿意。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对3的付出",
+        "Opinion": "愿意献出一切",
+        "Sentiment": "positive",
+        "Rationale": "2深爱着3，愿意为3付出一切"
+    },
+    {
+        "sentence": "就算是这样，我也永远都不会爱上你！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "对2的感情",
+        "Opinion": "永远不会爱上",
+        "Sentiment": "negative",
+        "Rationale": "3对2没有感情，甚至对2的行为感到反感"
+    },
+    {
+        "sentence": "你不爱我，那我就把你永远绑起来，我会守护你一辈子，让你一辈子都陪着我。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对3的控制",
+        "Opinion": "要永远绑住3",
+        "Sentiment": "negative",
+        "Rationale": "2无法接受3不爱自己的事实，产生了极端的控制欲"
+    },
+    {
+        "sentence": "你真是个疯子！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "对2的评价",
+        "Opinion": "认为2是疯子",
+        "Sentiment": "negative",
+        "Rationale": "2的行为极端且不可理喻，让3感到恐惧和愤怒"
+    },
+    {
+        "sentence": "今天是我们的婚礼，我要为我们的婚礼献上最好的礼物。你们伤了我的笼中雀，我要用你们的罪血做今日的香槟。",
+        "Holder": "2",
+        "Target": "其他人",
+        "Aspect": "对婚礼的态度",
+        "Opinion": "要用他人的血作为礼物",
+        "Sentiment": "negative",
+        "Rationale": "2认为他人伤害了3，产生了极端的报复心理"
+    },
+    {
+        "sentence": "你，你想干什么？你不要过来!",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "质疑和阻止",
+        "Sentiment": "negative",
+        "Rationale": "1对2的行为感到恐惧和不安"
+    },
+    {
+        "sentence": "我爸是江城督察，他会来来救我，你不能杀我！",
+        "Holder": "1",
+        "Target": "2的威胁",
+        "Aspect": "威胁的合法性",
+        "Opinion": "求救和警告",
+        "Sentiment": "negative",
+        "Rationale": "1面临生命威胁"
+    },
+    {
+        "sentence": "来了就一起杀了！",
+        "Holder": "2",
+        "Target": "1及其父亲",
+        "Aspect": "威胁的扩大",
+        "Opinion": "威胁加剧",
+        "Sentiment": "negative",
+        "Rationale": "2对1的求救不以为然，甚至威胁要伤害更多人"
+    },
+    {
+        "sentence": "住手！把刀放下！",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的危险性",
+        "Opinion": "命令停止",
+        "Sentiment": "negative",
+        "Rationale": "4看到2的暴力行为，感到事态严重"
+    },
+    {
+        "sentence": "厉司寒，你的别墅已经被我们的人包围了！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "别墅被包围",
+        "Opinion": "已经被包围",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒的别墅被包围"
+    },
+    {
+        "sentence": "我们将以限制他人自由，故意伤害他人罪，逮捕你！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "罪行指控",
+        "Opinion": "将被逮捕",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒被指控犯罪"
+    },
+    {
+        "sentence": "立刻把刀放下，把我女儿放了！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "放下武器和释放人质",
+        "Opinion": "要求放下刀和放人",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒持有武器并控制了说话人4的女儿"
+    },
+    {
+        "sentence": "就凭你？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "能力质疑",
+        "Opinion": "质疑4的能力",
+        "Sentiment": "negative",
+        "Rationale": "说话人2对4的能力表示怀疑"
+    },
+    {
+        "sentence": "爸爸，你救我，我不想死。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "求救",
+        "Opinion": "不想死",
+        "Sentiment": "negative",
+        "Rationale": "1处于危险中，害怕死亡"
+    },
+    {
+        "sentence": "厉司寒，我知道你厉家势大，但是你要是敢伤害了我的女儿，你也绝不有好下场的！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "对女儿的保护",
+        "Opinion": "威胁报复",
+        "Sentiment": "negative",
+        "Rationale": "担心女儿受到伤害，并且对厉家的势力感到不满"
+    },
+    {
+        "sentence": "立刻放人！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "释放女儿的要求",
+        "Opinion": "要求放人",
+        "Sentiment": "negative",
+        "Rationale": "女儿被囚禁"
+    },
+    {
+        "sentence": "她们伤害了晚凝，如果不是我及时赶到，她们就将晚凝活埋了，你要我放了她？",
+        "Holder": "2",
+        "Target": "4的女儿",
+        "Aspect": "对晚凝的伤害",
+        "Opinion": "反对释放",
+        "Sentiment": "negative",
+        "Rationale": "4的女儿对晚凝造成了严重伤害"
+    },
+    {
+        "sentence": "是，我女儿就算做了错事，也应该交由律法惩罚，你还没有这个资格。",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "惩罚的合法性",
+        "Opinion": "应由律法惩罚",
+        "Sentiment": "negative",
+        "Rationale": "认为厉司寒无权私自惩罚"
+    },
+    {
+        "sentence": "你现在最好束手就擒，把人放了！",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "释放女儿的要求",
+        "Opinion": "要求放人",
+        "Sentiment": "negative",
+        "Rationale": "坚持要求释放女儿，并且对厉司寒的行为感到愤怒"
+    },
+    {
+        "sentence": "厉司寒，不要一错再错了，赶紧放下武器自首吧。",
+        "Holder": "3",
+        "Target": "厉司寒的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "应该停止错误行为",
+        "Sentiment": "negative",
+        "Rationale": "因为认为厉司寒的行为是错误的，继续下去会有更严重的后果，所以劝其停止并自首。"
+    },
+    {
+        "sentence": "不行，在帮你完成复仇之前，我不会轻易放弃的。",
+        "Holder": "2",
+        "Target": "复仇计划",
+        "Aspect": "计划的完成度",
+        "Opinion": "坚持完成复仇",
+        "Sentiment": "positive",
+        "Rationale": "因为对复仇有坚定的信念，认为必须完成复仇才能罢休，所以表现出坚决的态度。"
+    },
+    {
+        "sentence": "任何伤害你的人都将付出代价！",
+        "Holder": "2",
+        "Target": "伤害你的人",
+        "Aspect": "应得的惩罚",
+        "Opinion": "必须受到惩罚",
+        "Sentiment": "positive",
+        "Rationale": "因为对伤害你的人怀有强烈的愤怒和报复心理，所以坚持认为他们必须付出代价。"
+    },
+    {
+        "sentence": "厉司寒，我知道错了，求求你，放过我吧。",
+        "Holder": "1",
+        "Target": "自己的错误",
+        "Aspect": "认错态度",
+        "Opinion": "请求原谅",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误，并且害怕继续受到惩罚"
+    },
+    {
+        "sentence": "厉司寒你。",
+        "Holder": "1",
+        "Target": "厉司寒",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人1用简短的称呼和语气停顿，表达了对厉司寒行为的疑问"
+    },
+    {
+        "sentence": "厉司寒，你疯了吗？",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "精神状态",
+        "Opinion": "认为其不正常",
+        "Sentiment": "negative",
+        "Rationale": "说话人4直接质疑厉司寒的精神状态，用‘疯了’这样的词汇"
+    },
+    {
+        "sentence": "许曼曼她伤害了晚凝，我说过，伤害她的人都得付出代价，我不会容忍任何伤害晚凝的人。",
+        "Holder": "2",
+        "Target": "许曼曼",
+        "Aspect": "行为后果",
+        "Opinion": "要其付出代价",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为许曼曼伤害了晚凝，坚持要其付出代价"
+    },
+    {
+        "sentence": "厉司寒，你会遭报应的。",
+        "Holder": "1",
+        "Target": "厉司寒",
+        "Aspect": "未来命运",
+        "Opinion": "预言其会遭报应",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为厉司寒的行为会导致不好的结果"
+    },
+    {
+        "sentence": "无所谓啊，只要能帮晚凝完成复仇，一切都无所谓了。",
+        "Holder": "2",
+        "Target": "复仇目标",
+        "Aspect": "重要性",
+        "Opinion": "复仇最重要",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2认为只要能完成复仇，其他事情都不重要"
+    },
+    {
+        "sentence": "你住手，你如果再敢肆意妄为的话，我就开枪了！",
+        "Holder": "4",
+        "Target": "厉司寒的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对肆意妄为",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒的行为已经到了无法容忍的地步"
+    },
+    {
+        "sentence": "厉司寒，已经走投无路了，收手吧，这样下去没有任何意义！",
+        "Holder": "3",
+        "Target": "厉司寒的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "认为继续下去无意义",
+        "Sentiment": "negative",
+        "Rationale": "看到厉司寒已经没有其他选择，继续下去只会更糟"
+    },
+    {
+        "sentence": "我答应过你，不会让你受一点委屈的。",
+        "Holder": "2",
+        "Target": "对说话人 1 的承诺",
+        "Aspect": "承诺的坚定性",
+        "Opinion": "坚决保护",
+        "Sentiment": "positive",
+        "Rationale": "承诺要保护对方"
+    },
+    {
+        "sentence": "厉司寒，你别逼我。",
+        "Holder": "4",
+        "Target": "厉司寒的行为",
+        "Aspect": "行为的逼迫性",
+        "Opinion": "反对逼迫",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒的行为让自己感到被逼迫"
+    },
+    {
+        "sentence": "曼曼，你坚制住，爸现在就救你。",
+        "Holder": "4",
+        "Target": "曼曼",
+        "Aspect": "坚持和救援",
+        "Opinion": "鼓励坚持",
+        "Sentiment": "positive",
+        "Rationale": "担心曼曼的安危"
+    },
+    {
+        "sentence": "曼曼，曼曼，我的女儿啊！",
+        "Holder": "4",
+        "Target": "曼曼",
+        "Aspect": "亲情",
+        "Opinion": "表达亲情",
+        "Sentiment": "negative",
+        "Rationale": "担心和心疼女儿"
+    },
+    {
+        "sentence": "你这个畜生！",
+        "Holder": "4",
+        "Target": "某个人",
+        "Aspect": "愤怒和指责",
+        "Opinion": "强烈指责",
+        "Sentiment": "negative",
+        "Rationale": "对某人的行为极度愤怒"
+    },
+    {
+        "sentence": "晚凝，我帮你完成复仇了，你能不能说一句你爱我呀？",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "情感表达",
+        "Opinion": "希望得到爱",
+        "Sentiment": "ambiguous",
+        "Rationale": "帮晚凝完成复仇"
+    },
+    {
+        "sentence": "我恨你，我这辈子下辈子我都不可能爱上你！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "情感态度",
+        "Opinion": "强烈仇恨",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让她感到极度厌恶"
+    },
+    {
+        "sentence": "为什么不让我死啊？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "生死态度",
+        "Opinion": "希望死亡",
+        "Sentiment": "negative",
+        "Rationale": "被3强烈仇恨"
+    },
+    {
+        "sentence": "你虽然杀了我的女儿，我恨不得吃你的肉，吞你的骨，但是我跟你这丧心病狂的杀人犯不一样，就等着法律的制裁吧！",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "道德和法律",
+        "Opinion": "谴责并期待法律制裁",
+        "Sentiment": "negative",
+        "Rationale": "2杀害了4的女儿"
+    },
+    {
+        "sentence": "宋小姐，关于你被他囚禁一年之久的事儿，我们还需要你出庭作证。",
+        "Holder": "4",
+        "Target": "宋小姐",
+        "Aspect": "法律程序",
+        "Opinion": "需要作证",
+        "Sentiment": "neutral",
+        "Rationale": "需要宋小姐的证词来推进法律程序"
+    },
+    {
+        "sentence": "我会的。",
+        "Holder": "3",
+        "Target": "自己的承诺",
+        "Aspect": "承诺的履行",
+        "Opinion": "会履行承诺",
+        "Sentiment": "neutral",
+        "Rationale": "3在回应某个要求或指令"
+    },
+    {
+        "sentence": "你要干什么！",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "质疑意图",
+        "Sentiment": "negative",
+        "Rationale": "4对3的行为感到疑惑和不满"
+    },
+    {
+        "sentence": "我不会让任何人把我和晚凝分开的。",
+        "Holder": "2",
+        "Target": "与晚凝的关系",
+        "Aspect": "关系的维持",
+        "Opinion": "坚决不分",
+        "Sentiment": "positive",
+        "Rationale": "2对与晚凝的关系非常重视"
+    },
+    {
+        "sentence": "厉司寒，事到如今，你还不知悔改！",
+        "Holder": "3",
+        "Target": "厉司寒的行为",
+        "Aspect": "行为的改正",
+        "Opinion": "不知悔改",
+        "Sentiment": "negative",
+        "Rationale": "3认为厉司寒在事情发展到这一步仍未改变"
+    },
+    {
+        "sentence": "你难道不记得了吗？7年，整整7年，自从我梦到你在梦里救了我之后，我就无时无刻不对你着迷。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对3的情感",
+        "Opinion": "对3着迷",
+        "Sentiment": "positive",
+        "Rationale": "梦到3在梦里救了自己"
+    },
+    {
+        "sentence": "我从没救过你，我们之间没有任何关系。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "与2的关系",
+        "Opinion": "否认有关系",
+        "Sentiment": "negative",
+        "Rationale": "认为与2没有任何关系"
+    },
+    {
+        "sentence": "我好不容易把你留在我的身边，我不会让任何人把我们分开的。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "与3的关系",
+        "Opinion": "坚决不分开",
+        "Sentiment": "positive",
+        "Rationale": "好不容易把3留在身边"
+    },
+    {
+        "sentence": "如果我得不到你，那我就把一切都毁了。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对3的占有欲",
+        "Opinion": "得不到就毁掉一切",
+        "Sentiment": "negative",
+        "Rationale": "无法接受得不到3的事实"
+    },
+    {
+        "sentence": "厉司寒，你疯了吗？你连你的妻子都杀啊？",
+        "Holder": "4",
+        "Target": "厉司寒",
+        "Aspect": "行为合理性",
+        "Opinion": "认为厉司寒疯了",
+        "Sentiment": "negative",
+        "Rationale": "厉司寒连自己的妻子都杀"
+    },
+    {
+        "sentence": "你别激动，你有什么条件都提出来。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "情绪控制",
+        "Opinion": "建议2冷静并提出条件",
+        "Sentiment": "neutral",
+        "Rationale": "4希望平息2的愤怒"
+    },
+    {
+        "sentence": "带着你的人滚出去，这只属于我和晚凝。",
+        "Holder": "2",
+        "Target": "4及其人",
+        "Aspect": "干涉程度",
+        "Opinion": "要求4及其人离开",
+        "Sentiment": "negative",
+        "Rationale": "2认为这是自己和晚凝的私事"
+    },
+    {
+        "sentence": "厉司寒，不管你做什么，我都不会爱上你的。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "情感",
+        "Opinion": "不会爱上",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为或性格有强烈的不认同"
+    },
+    {
+        "sentence": "不重要，只要我能在你身边，总有一天你会爱我的。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "情感",
+        "Opinion": "坚信会爱上",
+        "Sentiment": "positive",
+        "Rationale": "对3有深厚的感情和坚定的信念"
+    },
+    {
+        "sentence": "就为了我做到这种地步值得吗？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为的价值",
+        "Opinion": "质疑值得",
+        "Sentiment": "doubt",
+        "Rationale": "对2为自己所做的一切感到不解和疑惑"
+    },
+    {
+        "sentence": "现在他们都走了，这个房子又只属于我们两个了。",
+        "Holder": "2",
+        "Target": "房子",
+        "Aspect": "归属感",
+        "Opinion": "房子只属于我们两个",
+        "Sentiment": "neutral",
+        "Rationale": "其他人已经离开"
+    },
+    {
+        "sentence": "你也该为你伤害过的人付出代价了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "责任",
+        "Opinion": "2需要付出代价",
+        "Sentiment": "negative",
+        "Rationale": "2曾经伤害过别人"
+    },
+    {
+        "sentence": "我死在你手上，值了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "生死观",
+        "Opinion": "死在3手上值得",
+        "Sentiment": "positive",
+        "Rationale": "2认为死在3手上是一种值得的结局"
+    }
+]

@@ -1,0 +1,1028 @@
+[
+    {
+        "sentence": "你们曾老师呢",
+        "Holder": "2",
+        "Target": "曾老师",
+        "Aspect": "曾老师的行踪",
+        "Opinion": "询问行踪",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问曾老师的行踪"
+    },
+    {
+        "sentence": "曾老师，我几天没见他了，这几天电台考核曾老师拼收视都拼疯了，加班加点几天几夜没回来了。",
+        "Holder": "3",
+        "Target": "曾老师",
+        "Aspect": "曾老师的工作状态",
+        "Opinion": "曾老师非常忙碌",
+        "Sentiment": "neutral",
+        "Rationale": "描述曾老师的工作状态，没有明显的情感倾向"
+    },
+    {
+        "sentence": "是吗你网球怎么越打越烂了？",
+        "Holder": "2",
+        "Target": "3的网球技术",
+        "Aspect": "网球技术的变化",
+        "Opinion": "网球技术变差",
+        "Sentiment": "negative",
+        "Rationale": "指出对方网球技术变差，带有一定的批评意味"
+    },
+    {
+        "sentence": "好久不玩了，对了，最近我们公司来了个韩国女生，",
+        "Holder": "3",
+        "Target": "自己的网球技术",
+        "Aspect": "网球技术的变化原因",
+        "Opinion": "因为好久不玩",
+        "Sentiment": "neutral",
+        "Rationale": "解释了自己网球技术变差的原因，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他叫什么名字？",
+        "Holder": "2",
+        "Target": "韩国女生",
+        "Aspect": "韩国女生的名字",
+        "Opinion": "询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问韩国女生的名字"
+    },
+    {
+        "sentence": "河里活",
+        "Holder": "3",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "这句话没有明确表达情感"
+    },
+    {
+        "sentence": "可以展博中国女孩韩国女孩有什么区别？",
+        "Holder": "2",
+        "Target": "中国女孩和韩国女孩",
+        "Aspect": "区别",
+        "Opinion": "好奇区别",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出问题，没有表达明显的情感倾向"
+    },
+    {
+        "sentence": "不好意思，我都没感觉过能有什么区别，",
+        "Holder": "3",
+        "Target": "中国女孩和韩国女孩的区别",
+        "Aspect": "个人感受",
+        "Opinion": "没有感觉到区别",
+        "Sentiment": "neutral",
+        "Rationale": "表达了自己没有感觉到区别，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他会说中文吗？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "语言能力",
+        "Opinion": "好奇是否会中文",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出问题，没有表达明显的情感倾向"
+    },
+    {
+        "sentence": "可能不过我唯一听过他说的中文只有三个字。",
+        "Holder": "3",
+        "Target": "他的中文能力",
+        "Aspect": "中文水平",
+        "Opinion": "中文能力有限",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实，没有表达明显的情感倾向"
+    },
+    {
+        "sentence": "我爱你你好帅，还是我愿意。",
+        "Holder": "2",
+        "Target": "说话人3",
+        "Aspect": "外貌和情感",
+        "Opinion": "认为说话人3帅气且愿意表达爱意",
+        "Sentiment": "positive",
+        "Rationale": "对说话人3的外貌和情感表达有积极的评价"
+    },
+    {
+        "sentence": "不要吧。",
+        "Holder": "3",
+        "Target": "说话人2的表白",
+        "Aspect": "接受程度",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "不想接受说话人2的表白"
+    },
+    {
+        "sentence": "展博，我对你刮目相看，你到底对他做了些什么？",
+        "Holder": "2",
+        "Target": "说话人3的行为",
+        "Aspect": "行为影响",
+        "Opinion": "感到惊讶和好奇",
+        "Sentiment": "ambiguous",
+        "Rationale": "对说话人3的行为感到意外，不知道具体发生了什么"
+    },
+    {
+        "sentence": "你想哪去了？我请她喝咖啡，她说不要，我请她吃饭，她说不要，我送她回家，她还说不要。你说韩国女生是不是都是这样保守内向？何以见得？这个河里活可是我们单位最文静的女孩，礼貌用语从不离口，每个男生对她做了什么？她总是一个劲的撒，",
+        "Holder": "3",
+        "Target": "韩国女生的性格",
+        "Aspect": "性格特点",
+        "Opinion": "认为韩国女生保守内向",
+        "Sentiment": "neutral",
+        "Rationale": "描述了韩国女生拒绝各种邀请的行为，并提出了对她们性格的疑问"
+    },
+    {
+        "sentence": "他常说什么撒？",
+        "Holder": "2",
+        "Target": "河里活的话",
+        "Aspect": "言语内容",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "对河里活常说的话感到好奇"
+    },
+    {
+        "sentence": "撒拉嘿她说是谢谢的意思",
+        "Holder": "3",
+        "Target": "撒拉嘿",
+        "Aspect": "词语含义",
+        "Opinion": "表示谢谢",
+        "Sentiment": "neutral",
+        "Rationale": "只是解释了一个词语的含义"
+    },
+    {
+        "sentence": "是不是从来没对你说过？",
+        "Holder": "2",
+        "Target": "撒拉嘿",
+        "Aspect": "是否说过",
+        "Opinion": "怀疑未说过",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问一个事实"
+    },
+    {
+        "sentence": "是，不过我也不希望他太客气了，",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "客气程度",
+        "Opinion": "不希望太客气",
+        "Sentiment": "neutral",
+        "Rationale": "表达了对他人客气程度的看法"
+    },
+    {
+        "sentence": "萨拉黑的意思是。我爱你。",
+        "Holder": "2",
+        "Target": "萨拉黑",
+        "Aspect": "词语含义",
+        "Opinion": "表示我爱你",
+        "Sentiment": "neutral",
+        "Rationale": "只是解释了一个词语的含义"
+    },
+    {
+        "sentence": "只需要烫平就好了美嘉我的裤子跟你没有仇，",
+        "Holder": "4",
+        "Target": "美嘉",
+        "Aspect": "裤子的处理",
+        "Opinion": "只需烫平",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明了对裤子的处理要求"
+    },
+    {
+        "sentence": "北京这次漫画爱好者论坛很重要，你必须用最好的形象去参加，",
+        "Holder": "5",
+        "Target": "漫画爱好者论坛",
+        "Aspect": "论坛的重要性",
+        "Opinion": "非常重要",
+        "Sentiment": "positive",
+        "Rationale": "认为北京这次漫画爱好者论坛非常重要"
+    },
+    {
+        "sentence": "可是你已经烫坏我6条裤子了，这是最后1条，再坏了我就只能光着出去了，不会。",
+        "Holder": "4",
+        "Target": "烫坏的裤子",
+        "Aspect": "裤子的数量",
+        "Opinion": "已经烫坏6条",
+        "Sentiment": "negative",
+        "Rationale": "已经烫坏了6条裤子，只剩下最后一条"
+    },
+    {
+        "sentence": "万一坏了一那就去买一条。",
+        "Holder": "5",
+        "Target": "烫坏的裤子",
+        "Aspect": "解决方案",
+        "Opinion": "再买一条",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到可能会有烫坏的情况"
+    },
+    {
+        "sentence": "再去买一条，我也得先穿一条，我帮你你的电熨斗开了几度？",
+        "Holder": "4",
+        "Target": "电熨斗温度",
+        "Aspect": "电熨斗设置",
+        "Opinion": "询问电熨斗温度",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解电熨斗的温度设置"
+    },
+    {
+        "sentence": "150度啊",
+        "Holder": "5",
+        "Target": "电熨斗温度",
+        "Aspect": "温度设置",
+        "Opinion": "150度",
+        "Sentiment": "neutral",
+        "Rationale": "回答电熨斗的温度设置"
+    },
+    {
+        "sentence": "现在我知道我的6条裤子是怎么形成的了。",
+        "Holder": "4",
+        "Target": "6条裤子",
+        "Aspect": "形成原因",
+        "Opinion": "了解原因",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4表达了对裤子形成原因的了解"
+    },
+    {
+        "sentence": "先放在这里，你怎么穿这件衬衫？",
+        "Holder": "5",
+        "Target": "4的穿着",
+        "Aspect": "衬衫的选择",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5对说话人4的衬衫选择表示疑问"
+    },
+    {
+        "sentence": "这件不好吗？我觉得很配我的裤子，",
+        "Holder": "4",
+        "Target": "衬衫",
+        "Aspect": "与裤子的搭配",
+        "Opinion": "很配",
+        "Sentiment": "positive",
+        "Rationale": "说话人4认为衬衫和裤子搭配得很好"
+    },
+    {
+        "sentence": "可是不配我的裙子。",
+        "Holder": "5",
+        "Target": "衬衫",
+        "Aspect": "与裙子的搭配",
+        "Opinion": "不配",
+        "Sentiment": "negative",
+        "Rationale": "说话人5认为衬衫和裙子不搭配"
+    },
+    {
+        "sentence": "为什么要配你的裙子？",
+        "Holder": "4",
+        "Target": "5的要求",
+        "Aspect": "搭配的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4对说话人5要求衬衫配裙子的合理性表示质疑"
+    },
+    {
+        "sentence": "你忘了吗？我们不是说好了我陪你一起参加的吗？我们是一个team，搭配上当然要相得益彰。",
+        "Holder": "5",
+        "Target": "一起参加活动",
+        "Aspect": "团队合作",
+        "Opinion": "应该一起参加",
+        "Sentiment": "positive",
+        "Rationale": "之前已经约定好了一起参加，并且认为团队合作很重要"
+    },
+    {
+        "sentence": "你们不知道美嘉她一到人多的地方就要发疯，中国人管这个叫名来疯。我一定要阻止他美嘉。其实是这样的，听说明天的论坛会开很久，发言的是一群连机器猫都没看过的老专家在那里滔滔不绝地讲动漫产业的发展规划，你一定会崩溃的，这样明天我放你的假，你可以在家里休息，或者随便去哪里都行。",
+        "Holder": "4",
+        "Target": "美嘉参加论坛",
+        "Aspect": "美嘉的性格和论坛内容",
+        "Opinion": "不应该让美嘉参加",
+        "Sentiment": "negative",
+        "Rationale": "美嘉在人多地方容易失控，且论坛内容枯燥无味"
+    },
+    {
+        "sentence": "关谷君，我知道你体恤下属，那么郁闷的论坛，我更要陪你去了，万一到时候无聊，我还可以跟你说说话。",
+        "Holder": "5",
+        "Target": "陪关谷君参加论坛",
+        "Aspect": "关心和支持",
+        "Opinion": "应该陪关谷君",
+        "Sentiment": "positive",
+        "Rationale": "关谷君体恤下属，且论坛可能会无聊"
+    },
+    {
+        "sentence": "美嘉其实真的不用了，你干嘛",
+        "Holder": "4",
+        "Target": "美嘉的陪伴",
+        "Aspect": "必要性",
+        "Opinion": "不需要美嘉陪伴",
+        "Sentiment": "neutral",
+        "Rationale": "认为美嘉不需要参加无聊的论坛"
+    },
+    {
+        "sentence": "你胡子怎么没刮",
+        "Holder": "5",
+        "Target": "关谷君的胡子",
+        "Aspect": "个人形象",
+        "Opinion": "胡子没刮",
+        "Sentiment": "neutral",
+        "Rationale": "注意到关谷君的胡子没有刮"
+    },
+    {
+        "sentence": "我的刮胡刀坏了，早上发现里面不知道被什么乱七八糟的毛给堵住了，",
+        "Holder": "4",
+        "Target": "刮胡刀",
+        "Aspect": "使用状况",
+        "Opinion": "坏了",
+        "Sentiment": "negative",
+        "Rationale": "刮胡刀被不明毛发堵住无法使用"
+    },
+    {
+        "sentence": "那是猕猴桃的毛，我突然发现飞利浦的剃须刀居然能给桃子刮毛，一定是子乔干的你怎么办？现在。",
+        "Holder": "5",
+        "Target": "刮胡刀",
+        "Aspect": "用途",
+        "Opinion": "被用于刮猕猴桃毛",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现刮胡刀被用于不寻常的用途且认为是子乔干的"
+    },
+    {
+        "sentence": "算了让他去吧，",
+        "Holder": "4",
+        "Target": "子乔的行为",
+        "Aspect": "处理方式",
+        "Opinion": "放任",
+        "Sentiment": "neutral",
+        "Rationale": "觉得追究无意义"
+    },
+    {
+        "sentence": "不行，这怎么可以，你等着看看，这个可以吗？",
+        "Holder": "5",
+        "Target": "子乔的行为",
+        "Aspect": "处理方式",
+        "Opinion": "反对放任",
+        "Sentiment": "negative",
+        "Rationale": "认为子乔的行为不可接受"
+    },
+    {
+        "sentence": "我先要刮胡子，不是割脖子，",
+        "Holder": "4",
+        "Target": "刮胡刀的使用",
+        "Aspect": "安全性",
+        "Opinion": "需要安全使用",
+        "Sentiment": "neutral",
+        "Rationale": "强调刮胡刀的正常用途是刮胡子而非危险操作"
+    },
+    {
+        "sentence": "没关系的，试试看嘛",
+        "Holder": "5",
+        "Target": "尝试的行为",
+        "Aspect": "尝试的鼓励",
+        "Opinion": "鼓励尝试",
+        "Sentiment": "positive",
+        "Rationale": "认为尝试是值得鼓励的"
+    },
+    {
+        "sentence": "美嘉你。",
+        "Holder": "4",
+        "Target": "美嘉",
+        "Aspect": "称呼",
+        "Opinion": "直接称呼",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地称呼名字"
+    },
+    {
+        "sentence": "你是说他对我们公司绝大多数的男生都说我爱你，但是唯独对我说不要吧",
+        "Holder": "3",
+        "Target": "他对不同人的态度",
+        "Aspect": "对待差异",
+        "Opinion": "感到不公平",
+        "Sentiment": "negative",
+        "Rationale": "感到自己被区别对待"
+    },
+    {
+        "sentence": "研究过全球280种语言的泡妞常用词汇，萨拉菲这句话是入门必学，",
+        "Holder": "2",
+        "Target": "萨拉菲这句话",
+        "Aspect": "语言的实用性",
+        "Opinion": "认为必学",
+        "Sentiment": "positive",
+        "Rationale": "认为这句话在泡妞中非常有用"
+    },
+    {
+        "sentence": "我每天早上都给她买麦当劳的早餐，可她从来都没有对我说过。",
+        "Holder": "3",
+        "Target": "她的回应",
+        "Aspect": "感激的缺失",
+        "Opinion": "感到失望",
+        "Sentiment": "negative",
+        "Rationale": "自己付出了很多却得不到回应"
+    },
+    {
+        "sentence": "全世界任何漂亮有魅力，女生都不会因为你送她汉堡或奶茶而对，你说我爱你明白吗？你应该带他做一些特别的事情让他感动。",
+        "Holder": "2",
+        "Target": "送礼物的方式",
+        "Aspect": "礼物的选择和效果",
+        "Opinion": "汉堡和奶茶不足以感动女生",
+        "Sentiment": "negative",
+        "Rationale": "认为汉堡和奶茶这样的礼物无法让女生感动"
+    },
+    {
+        "sentence": "汉堡和奶茶已经是最好的早餐了，你还要我怎么办？给他准备鱼翅汉堡。",
+        "Holder": "3",
+        "Target": "送礼物的方式",
+        "Aspect": "礼物的选择",
+        "Opinion": "汉堡和奶茶是好的选择",
+        "Sentiment": "positive",
+        "Rationale": "认为汉堡和奶茶已经是很好的早餐"
+    },
+    {
+        "sentence": "我老感觉你往这一坐，千山鸟飞绝万径人踪灭，看来不是换早餐的问题，是应该把你脑袋一起换掉。一飞你们家族有没有为展博将来结婚准备什么基金。",
+        "Holder": "2",
+        "Target": "3的思维方式和行为",
+        "Aspect": "思维和行为的效果",
+        "Opinion": "需要改变思维方式",
+        "Sentiment": "negative",
+        "Rationale": "认为3的思维方式和行为无法有效解决问题"
+    },
+    {
+        "sentence": "怎么突然问展博你找到对象了？",
+        "Holder": "6",
+        "Target": "2的问题",
+        "Aspect": "问题的突然性",
+        "Opinion": "问题突然",
+        "Sentiment": "neutral",
+        "Rationale": "对2突然提出的问题感到意外"
+    },
+    {
+        "sentence": "我建议拿这笔钱给展博做一个换脑手术，否则他一辈子也用不到这笔钱了。",
+        "Holder": "2",
+        "Target": "展博的思维",
+        "Aspect": "思维的改变",
+        "Opinion": "需要换脑手术",
+        "Sentiment": "negative",
+        "Rationale": "认为展博的思维无法有效利用结婚基金"
+    },
+    {
+        "sentence": "说什么？",
+        "Holder": "6",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方在说什么"
+    },
+    {
+        "sentence": "我知道了，应该送泡菜，韩国人最喜欢吃泡菜。",
+        "Holder": "3",
+        "Target": "韩国人",
+        "Aspect": "饮食偏好",
+        "Opinion": "喜欢泡菜",
+        "Sentiment": "positive",
+        "Rationale": "认为送泡菜符合韩国人的饮食偏好"
+    },
+    {
+        "sentence": "一枪崩了我吧，我不能待在这里，否则我的智商也会受到影响。展博我认识一个不错的脑科医生，虽然是个兽医，不过价钱便宜，回头介绍。",
+        "Holder": "2",
+        "Target": "当前环境",
+        "Aspect": "对智商的影响",
+        "Opinion": "认为环境对智商有负面影响",
+        "Sentiment": "negative",
+        "Rationale": "觉得待在这里会降低智商"
+    },
+    {
+        "sentence": "你们在讨论什么问题？",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方在讨论什么问题"
+    },
+    {
+        "sentence": "姐你说韩国女生早餐是更喜欢吃泡菜还是吃汉堡？",
+        "Holder": "3",
+        "Target": "韩国女生",
+        "Aspect": "早餐偏好",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问韩国女生的早餐偏好"
+    },
+    {
+        "sentence": "你什么事儿你怎么不关心关心你姐姐，你个没良心的。我为了该死的讲座忙了一上午了，早饭都没吃饿死了，",
+        "Holder": "6",
+        "Target": "3",
+        "Aspect": "对姐姐的关心",
+        "Opinion": "不关心姐姐",
+        "Sentiment": "negative",
+        "Rationale": "3没有关心6的姐姐，且6自己忙了一上午没吃饭感到委屈"
+    },
+    {
+        "sentence": "你就是沙漠中的骆驼，没那么容易饿死，",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "饥饿程度",
+        "Opinion": "不会轻易饿死",
+        "Sentiment": "positive",
+        "Rationale": "3认为6像骆驼一样耐饿"
+    },
+    {
+        "sentence": "早安展博菲菲。",
+        "Holder": "1",
+        "Target": "展博菲菲",
+        "Aspect": "问候",
+        "Opinion": "早安",
+        "Sentiment": "neutral",
+        "Rationale": "1在进行日常的问候"
+    },
+    {
+        "sentence": "早。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "问候回应",
+        "Opinion": "早",
+        "Sentiment": "neutral",
+        "Rationale": "3在回应1的问候"
+    },
+    {
+        "sentence": "你怎么还不去上班，要迟到了，",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "上班时间",
+        "Opinion": "快要迟到",
+        "Sentiment": "negative",
+        "Rationale": "1担心3会迟到"
+    },
+    {
+        "sentence": "不好意思，我已经上过班了，现在回来补充点能量.",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "工作状态",
+        "Opinion": "已经完成工作",
+        "Sentiment": "neutral",
+        "Rationale": "已经完成了工作并回来补充能量"
+    },
+    {
+        "sentence": "真的吗？你已经下班天，我睡觉的时候真是时光飞逝，看来我以后不能再睡觉了，这样会老得很快的",
+        "Holder": "1",
+        "Target": "时间流逝",
+        "Aspect": "睡眠对时间感知的影响",
+        "Opinion": "睡眠导致时间飞逝",
+        "Sentiment": "ambiguous",
+        "Rationale": "感觉睡觉时时间过得很快"
+    },
+    {
+        "sentence": "要不要换一换？我宁可在睡眠中衰老，生在福中不知福菲菲你辛苦工作会有奖金的，这样就可以买很多保养品，对。",
+        "Holder": "6",
+        "Target": "工作与睡眠的选择",
+        "Aspect": "生活态度",
+        "Opinion": "宁愿选择睡眠",
+        "Sentiment": "positive",
+        "Rationale": "认为睡眠比工作更重要"
+    },
+    {
+        "sentence": "姐不是你教育我的吗？早起的鸟儿有虫吃。",
+        "Holder": "3",
+        "Target": "6的教育",
+        "Aspect": "早起的好处",
+        "Opinion": "早起有益",
+        "Sentiment": "neutral",
+        "Rationale": "引用了之前被教育的观点"
+    },
+    {
+        "sentence": "我发现我错了，早起的虫子被鸟吃，",
+        "Holder": "6",
+        "Target": "早起的观点",
+        "Aspect": "早起的风险",
+        "Opinion": "早起有风险",
+        "Sentiment": "negative",
+        "Rationale": "意识到早起也可能面临风险"
+    },
+    {
+        "sentence": "可是努力一定会有回报的。",
+        "Holder": "1",
+        "Target": "努力",
+        "Aspect": "回报",
+        "Opinion": "努力会有回报",
+        "Sentiment": "positive",
+        "Rationale": "相信努力会带来好的结果"
+    },
+    {
+        "sentence": "我们院长对我组织的这次名人讲座非常的满意，所以他专门给了我特别的回报。我就说为了让更多的学生接受教育，他奖励我明天晚上再举办一场讲座，哦我的双休日啊。",
+        "Holder": "6",
+        "Target": "名人讲座",
+        "Aspect": "院长的满意度",
+        "Opinion": "院长非常满意",
+        "Sentiment": "positive",
+        "Rationale": "院长对讲座非常满意并给予了特别回报"
+    },
+    {
+        "sentence": "就别难过了，作为人类灵魂的工程师，这一切的辛苦都不会白费的。我们一切的一切都是为了民族的伟大他复兴，功在当代，利在千秋，很伟大，鉴定完毕。",
+        "Holder": "3",
+        "Target": "6的工作",
+        "Aspect": "工作的意义",
+        "Opinion": "工作有意义",
+        "Sentiment": "positive",
+        "Rationale": "认为教育工作意义重大"
+    },
+    {
+        "sentence": "你们还真会安慰人，我的高帽子都快顶到天花板了，可惜系主任送给我这两张什么东方神起的票子去不了了，要么还给他",
+        "Holder": "6",
+        "Target": "3的安慰",
+        "Aspect": "安慰的效果",
+        "Opinion": "安慰有效",
+        "Sentiment": "ambiguous",
+        "Rationale": "被安慰感到欣慰但同时不能去演唱会而感到遗憾"
+    },
+    {
+        "sentence": "这种庸俗的东西，等会什么的演唱会？",
+        "Holder": "3",
+        "Target": "东方神起演唱会",
+        "Aspect": "演唱会的价值",
+        "Opinion": "演唱会庸俗",
+        "Sentiment": "negative",
+        "Rationale": "认为演唱会是庸俗的东西"
+    },
+    {
+        "sentence": "东方神起我也不知道什么东西是不是跟CCTV的东方时空差不多，",
+        "Holder": "6",
+        "Target": "东方神起",
+        "Aspect": "认知",
+        "Opinion": "不了解",
+        "Sentiment": "neutral",
+        "Rationale": "对东方神起不熟悉"
+    },
+    {
+        "sentence": "开玩笑吧.",
+        "Holder": "1",
+        "Target": "6的观点",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得6的说法不太可能"
+    },
+    {
+        "sentence": "没有，我本来打算要去看的，说不定还能看到白岩松什么的，",
+        "Holder": "6",
+        "Target": "东方神起演出",
+        "Aspect": "期待",
+        "Opinion": "有期待",
+        "Sentiment": "positive",
+        "Rationale": "原本期待能看到白岩松"
+    },
+    {
+        "sentence": "什么白岩松，这是韩国现在最红的组合，全亚洲的超级天团，我有很多朋友迷他们的.",
+        "Holder": "1",
+        "Target": "东方神起",
+        "Aspect": "知名度",
+        "Opinion": "非常知名",
+        "Sentiment": "positive",
+        "Rationale": "知道东方神起是非常红的组合"
+    },
+    {
+        "sentence": "什么?韩国的，就说看不到白岩松了，我就更不要去了。还是的内场前区的",
+        "Holder": "6",
+        "Target": "东方神起演出",
+        "Aspect": "兴趣",
+        "Opinion": "不感兴趣",
+        "Sentiment": "negative",
+        "Rationale": "得知是韩国的组合且看不到白岩松"
+    },
+    {
+        "sentence": "任何韩国女生都会为了东方神起演唱会门票对我深情的说上一句撒拉嘿。我觉得浪费这两张票实在是太可惜了，不如你把。",
+        "Holder": "3",
+        "Target": "东方神起演唱会门票",
+        "Aspect": "门票的利用价值",
+        "Opinion": "浪费可惜",
+        "Sentiment": "negative",
+        "Rationale": "觉得东方神起演唱会门票很有价值，浪费了太可惜"
+    },
+    {
+        "sentence": "菲菲把这两张票子送给我，我已经好久没听演唱会。",
+        "Holder": "6",
+        "Target": "东方神起演唱会门票",
+        "Aspect": "门票的归属",
+        "Opinion": "希望得到门票",
+        "Sentiment": "positive",
+        "Rationale": "很久没有听演唱会"
+    },
+    {
+        "sentence": "演唱会会开到半夜影响你睡眠，对女孩子皮肤很不好，要不都给我。",
+        "Holder": "3",
+        "Target": "演唱会时间",
+        "Aspect": "对睡眠和皮肤的影响",
+        "Opinion": "演唱会时间不合理",
+        "Sentiment": "negative",
+        "Rationale": "演唱会开到半夜会影响睡眠和皮肤"
+    },
+    {
+        "sentence": "展博你怎么可以这样",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为合理性",
+        "Opinion": "行为不妥",
+        "Sentiment": "negative",
+        "Rationale": "觉得3的行为（想要独占门票）不合理"
+    },
+    {
+        "sentence": "慢着，然后把事情搞清楚。现在你们两个都想要这个票子是吗？让我考虑一下该给你们谁来着，可是我还没有吃早饭，我需要补充一点能量才有力气思考，",
+        "Holder": "6",
+        "Target": "门票分配问题",
+        "Aspect": "决策过程",
+        "Opinion": "需要时间考虑",
+        "Sentiment": "neutral",
+        "Rationale": "需要补充能量才能做出决策"
+    },
+    {
+        "sentence": "我给你热牛奶",
+        "Holder": "1",
+        "Target": "热牛奶",
+        "Aspect": "任务分配",
+        "Opinion": "认为是自己的任务",
+        "Sentiment": "neutral",
+        "Rationale": "主动提出要热牛奶"
+    },
+    {
+        "sentence": "我来",
+        "Holder": "3",
+        "Target": "热牛奶",
+        "Aspect": "任务承担",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "neutral",
+        "Rationale": "看到别人要热牛奶"
+    },
+    {
+        "sentence": "这是我的任务，我先提出来的",
+        "Holder": "1",
+        "Target": "热牛奶",
+        "Aspect": "任务归属",
+        "Opinion": "坚持自己来做",
+        "Sentiment": "neutral",
+        "Rationale": "自己先提出要热牛奶"
+    },
+    {
+        "sentence": "你眼屎都没擦干，你先回去擦眼屎去",
+        "Holder": "3",
+        "Target": "1的外表",
+        "Aspect": "个人卫生",
+        "Opinion": "需要先整理自己",
+        "Sentiment": "negative",
+        "Rationale": "看到对方眼屎没擦干净"
+    },
+    {
+        "sentence": "要是能有一点奥利奥饼干配牛奶就更好了",
+        "Holder": "6",
+        "Target": "牛奶搭配",
+        "Aspect": "食物搭配",
+        "Opinion": "希望有饼干搭配",
+        "Sentiment": "positive",
+        "Rationale": "觉得奥利奥饼干配牛奶会更好吃"
+    },
+    {
+        "sentence": "我来拿",
+        "Holder": "3",
+        "Target": "物品",
+        "Aspect": "拿取行为",
+        "Opinion": "主动拿取",
+        "Sentiment": "neutral",
+        "Rationale": "想要主动帮忙拿东西"
+    },
+    {
+        "sentence": "你干嘛跟我抢。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "抢夺行为",
+        "Opinion": "反对抢夺",
+        "Sentiment": "negative",
+        "Rationale": "觉得被抢夺了东西"
+    },
+    {
+        "sentence": "好吧？你先。让你找你也找不到。姐奥利奥在这，我帮你扭一扭，然后你舔舔我们再在牛奶里泡一泡，这样就最好吃了，要不我帮你舔。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "寻找能力和奥利奥吃法",
+        "Opinion": "认为1找不到，提供帮助",
+        "Sentiment": "positive",
+        "Rationale": "觉得1找不到奥利奥"
+    },
+    {
+        "sentence": "菲菲需要我帮你做点什么吗？我会铺床，可是我早就铺好了，不过你可以把它弄乱，然后再重新铺一下，",
+        "Holder": "6",
+        "Target": "菲菲的需求",
+        "Aspect": "提供帮助",
+        "Opinion": "愿意帮助",
+        "Sentiment": "positive",
+        "Rationale": "想要帮助菲菲"
+    },
+    {
+        "sentence": "姐，我帮你来捶捶腿，",
+        "Holder": "3",
+        "Target": "菲菲的身体状况",
+        "Aspect": "提供按摩",
+        "Opinion": "愿意按摩",
+        "Sentiment": "positive",
+        "Rationale": "关心菲菲的舒适度"
+    },
+    {
+        "sentence": "菲菲我也帮你捶腿，",
+        "Holder": "1",
+        "Target": "菲菲",
+        "Aspect": "捶腿的行为",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助菲菲捶腿"
+    },
+    {
+        "sentence": "我今天才终于发现我还有一个活着的弟弟，今天一定是美妙的一天，",
+        "Holder": "6",
+        "Target": "弟弟",
+        "Aspect": "存在和关系",
+        "Opinion": "感到惊喜和幸福",
+        "Sentiment": "positive",
+        "Rationale": "意外发现还有一个活着的弟弟"
+    },
+    {
+        "sentence": "美嘉开玩笑了。",
+        "Holder": "4",
+        "Target": "美嘉",
+        "Aspect": "说话方式",
+        "Opinion": "认为是玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "认为美嘉的话是玩笑"
+    },
+    {
+        "sentence": "不会有事的，老是剃头店里都是用剃刀刮脸。",
+        "Holder": "5",
+        "Target": "剃刀刮脸",
+        "Aspect": "安全性",
+        "Opinion": "认为安全",
+        "Sentiment": "positive",
+        "Rationale": "相信剃头店里用剃刀刮脸是常见且安全的"
+    },
+    {
+        "sentence": "拜托了，把刀放下，哪有这样的剃刀，",
+        "Holder": "4",
+        "Target": "剃刀",
+        "Aspect": "使用方式",
+        "Opinion": "认为不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得这样的剃刀使用方式不合适"
+    },
+    {
+        "sentence": "不但是剃刀，而且不是普通的剃刀，全自动贴合面部轮廓贴面，剃须力无虚发，风雨无阻，江湖人称小李飞刀。",
+        "Holder": "5",
+        "Target": "剃刀",
+        "Aspect": "剃刀的性能",
+        "Opinion": "高性能",
+        "Sentiment": "positive",
+        "Rationale": "描述剃刀具有全自动贴合面部轮廓和高剃须力等特点"
+    },
+    {
+        "sentence": "什么理发刀杀猪刀刀太危险了，",
+        "Holder": "4",
+        "Target": "剃刀",
+        "Aspect": "剃刀的安全性",
+        "Opinion": "危险",
+        "Sentiment": "negative",
+        "Rationale": "认为剃刀像杀猪刀一样危险"
+    },
+    {
+        "sentence": "你怎么知道我用它杀过猪，",
+        "Holder": "5",
+        "Target": "4的观点",
+        "Aspect": "对剃刀用途的质疑",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对4的质疑感到不解和好奇"
+    },
+    {
+        "sentence": "你",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "对话的回应",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的称呼，没有表达明确情感"
+    },
+    {
+        "sentence": "你放心，我专门学过给猪刮毛，难道你的毛比猪毛还难刮？",
+        "Holder": "5",
+        "Target": "4的担忧",
+        "Aspect": "剃刀的使用技巧",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "强调自己有专门学过给猪刮毛的技巧"
+    },
+    {
+        "sentence": "不用了，你要是不小心把我耳朵割下来怎么办？",
+        "Holder": "4",
+        "Target": "5的操作",
+        "Aspect": "操作的安全性",
+        "Opinion": "担心操作风险",
+        "Sentiment": "negative",
+        "Rationale": "担心5的操作可能会不小心造成伤害"
+    },
+    {
+        "sentence": "我会向你道歉的。",
+        "Holder": "5",
+        "Target": "自己的操作失误",
+        "Aspect": "应对失误的态度",
+        "Opinion": "愿意承担责任",
+        "Sentiment": "neutral",
+        "Rationale": "知道自己可能会犯错"
+    },
+    {
+        "sentence": "恐怕那个时候我们已经听不见了，",
+        "Holder": "4",
+        "Target": "5的操作后果",
+        "Aspect": "后果的严重性",
+        "Opinion": "后果严重",
+        "Sentiment": "negative",
+        "Rationale": "认为5的操作可能导致严重后果"
+    },
+    {
+        "sentence": "我是你的助理，这是我分内的工作，",
+        "Holder": "5",
+        "Target": "自己的职责",
+        "Aspect": "职责的履行",
+        "Opinion": "履行职责",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己有责任完成分内工作"
+    },
+    {
+        "sentence": "我还是再去买一把，",
+        "Holder": "4",
+        "Target": "购买工具的决定",
+        "Aspect": "决策的合理性",
+        "Opinion": "决定自己购买",
+        "Sentiment": "neutral",
+        "Rationale": "担心5的操作风险"
+    },
+    {
+        "sentence": "你回来现在不是剃刀的问题，是你不信任我的问题，",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "信任问题",
+        "Opinion": "不信任",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方不信任自己"
+    },
+    {
+        "sentence": "我怎么会不信任你干嘛？",
+        "Holder": "4",
+        "Target": "5的指责",
+        "Aspect": "信任问题",
+        "Opinion": "否认不信任",
+        "Sentiment": "negative",
+        "Rationale": "被指责不信任对方"
+    },
+    {
+        "sentence": "我去找个气球，对我们家还有气球，",
+        "Holder": "5",
+        "Target": "气球",
+        "Aspect": "存在性",
+        "Opinion": "家里有气球",
+        "Sentiment": "neutral",
+        "Rationale": "提到家里有气球"
+    },
+    {
+        "sentence": "你拿气球干什么？",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "气球用途",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚对方拿气球的目的"
+    },
+    {
+        "sentence": "刮胡子啊",
+        "Holder": "5",
+        "Target": "气球",
+        "Aspect": "用途",
+        "Opinion": "用于刮胡子",
+        "Sentiment": "neutral",
+        "Rationale": "解释了气球的用途"
+    },
+    {
+        "sentence": "可他没有胡子，",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "外貌特征",
+        "Opinion": "没有胡子",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4在陈述一个事实，即某人没有胡子"
+    },
+    {
+        "sentence": "我能给气球刮胡子，就说明我也能给你刮胡子，",
+        "Holder": "5",
+        "Target": "气球",
+        "Aspect": "刮胡子能力",
+        "Opinion": "能给气球刮胡子",
+        "Sentiment": "positive",
+        "Rationale": "说话人5自信地表示能给气球刮胡子，暗示自己有这方面的能力"
+    },
+    {
+        "sentence": "可是这和我的脸型完全不一样，她没有性感厚实的下巴和轮廓分明的脸庞，",
+        "Holder": "4",
+        "Target": "脸型",
+        "Aspect": "外貌特征",
+        "Opinion": "不一样",
+        "Sentiment": "negative",
+        "Rationale": "说话人4认为自己的脸型和某人不一样，缺乏性感厚实的下巴和轮廓分明的脸庞"
+    },
+    {
+        "sentence": "你也没有太好了，看到没？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "外貌特征",
+        "Opinion": "也没有太好",
+        "Sentiment": "negative",
+        "Rationale": "说话人5指出对方的外貌特征也不理想，带有一定的贬低意味"
+    }
+]

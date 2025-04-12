@@ -1,0 +1,99 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论主持与观点质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持辩论流程",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "认同反方PPT的启发效果",
+            "source_id": "3"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑帮助他人加深孤独的逻辑",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "哲学框架构建与认知局限论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "论证认识论局限带来的永恒孤独",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "回应质疑时展现理论自信",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "描述全知全能者的终极孤独",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "现代社会生存困境批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露算法监控与平台经济压迫",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张孤独的解放价值",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "主观能动性理论建构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "建立孤独可选择性框架",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "通过李白案例论证主观超越",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "实践价值体系输出",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "展示教学经历验证理论",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "用漂流瓶比喻表达信念",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

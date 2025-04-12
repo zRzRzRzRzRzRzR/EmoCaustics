@@ -1,0 +1,1847 @@
+[
+    {
+        "sentence": "一菲姐，这有你的信，好像是从你们学校寄来的。这什么呀？",
+        "Holder": "1",
+        "Target": "信件",
+        "Aspect": "信件来源",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "看到一封来自学校的信件"
+    },
+    {
+        "sentence": "哦， my lady Gaga。考上了！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "考试结果",
+        "Opinion": "考上",
+        "Sentiment": "positive",
+        "Rationale": "自己考上了博士"
+    },
+    {
+        "sentence": "考上什么了？",
+        "Holder": "1",
+        "Target": "2的考试",
+        "Aspect": "考试内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2考上了什么"
+    },
+    {
+        "sentence": "博士，我考上博士了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "考试结果",
+        "Opinion": "考上博士",
+        "Sentiment": "positive",
+        "Rationale": "自己考上了博士"
+    },
+    {
+        "sentence": "真的呀。太好了，那你什么时候考硕士呀？",
+        "Holder": "1",
+        "Target": "2的学业规划",
+        "Aspect": "考试时间",
+        "Opinion": "祝贺并询问",
+        "Sentiment": "positive",
+        "Rationale": "听到2考上博士感到高兴"
+    },
+    {
+        "sentence": "我已经硕士了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "学历",
+        "Opinion": "已经取得硕士学位",
+        "Sentiment": "positive",
+        "Rationale": "自己已经完成了硕士学业"
+    },
+    {
+        "sentence": "可你不是老师吗？",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "职业身份",
+        "Opinion": "疑问对方的职业身份",
+        "Sentiment": "neutral",
+        "Rationale": "对对方的职业身份有疑问"
+    },
+    {
+        "sentence": "这叫挂职读研，我在做思政老师的时候已经在读硕士了啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "学习和工作状态",
+        "Opinion": "解释自己的学习和工作情况",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己的学习和工作状态"
+    },
+    {
+        "sentence": "虽然我搞不太清楚，但是还是要恭喜你，我赶紧去告诉大家好好庆祝一下。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "对方的成就",
+        "Opinion": "祝贺对方的成就",
+        "Sentiment": "positive",
+        "Rationale": "虽然不完全理解但仍然愿意祝贺对方"
+    },
+    {
+        "sentence": "哎，等等。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "行动暂停",
+        "Opinion": "请求对方暂停行动",
+        "Sentiment": "neutral",
+        "Rationale": "有事情需要对方暂停行动"
+    },
+    {
+        "sentence": "这件事情不能告诉他们。",
+        "Holder": "1",
+        "Target": "告诉他们",
+        "Aspect": "信息的保密性",
+        "Opinion": "不能告诉",
+        "Sentiment": "neutral",
+        "Rationale": "认为信息需要保密"
+    },
+    {
+        "sentence": "为什么呀？这不是好消息吗？",
+        "Holder": "1",
+        "Target": "消息",
+        "Aspect": "消息的性质",
+        "Opinion": "是好消息",
+        "Sentiment": "positive",
+        "Rationale": "认为消息是正面的"
+    },
+    {
+        "sentence": "对于我来说是好消息，不过不是所有人都会认同的，尤其是某些素质低下的主持人，一定会借题发挥的。",
+        "Holder": "2",
+        "Target": "消息",
+        "Aspect": "消息的接受度",
+        "Opinion": "部分人不会认同",
+        "Sentiment": "negative",
+        "Rationale": "担心某些素质低下的主持人会借题发挥"
+    },
+    {
+        "sentence": "你是说曾老师",
+        "Holder": "1",
+        "Target": "曾老师",
+        "Aspect": "曾老师的素质",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对2提到的素质低下的主持人有疑问"
+    },
+    {
+        "sentence": "你也觉得素质他低下是不是？",
+        "Holder": "2",
+        "Target": "曾老师",
+        "Aspect": "曾老师的素质",
+        "Opinion": "素质低下",
+        "Sentiment": "negative",
+        "Rationale": "认为曾老师素质低下"
+    },
+    {
+        "sentence": "我们这儿就他一个主持人。",
+        "Holder": "1",
+        "Target": "主持人数量",
+        "Aspect": "主持人的唯一性",
+        "Opinion": "只有他一个",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一个事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "总之，你一定要替我保守秘密，对谁都不许说。",
+        "Holder": "2",
+        "Target": "保守秘密",
+        "Aspect": "保密的重要性",
+        "Opinion": "必须保密",
+        "Sentiment": "positive",
+        "Rationale": "对对方有信任感，希望对方能保守秘密"
+    },
+    {
+        "sentence": "放心，我嘴巴最严了。",
+        "Holder": "1",
+        "Target": "自己的保密能力",
+        "Aspect": "保密的可靠性",
+        "Opinion": "非常可靠",
+        "Sentiment": "positive",
+        "Rationale": "自信能够保守秘密"
+    },
+    {
+        "sentence": "什么？博士？",
+        "Holder": "5",
+        "Target": "博士身份",
+        "Aspect": "身份的惊讶",
+        "Opinion": "感到惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然听到博士这个身份，感到意外和好奇"
+    },
+    {
+        "sentence": "女博士。哈哈哈哈哈",
+        "Holder": "6",
+        "Target": "女博士身份",
+        "Aspect": "身份的幽默感",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得女博士这个身份有些幽默"
+    },
+    {
+        "sentence": "一菲可是我认识的第一个女博士，她读什么专业？",
+        "Holder": "5",
+        "Target": "一菲",
+        "Aspect": "学历和专业",
+        "Opinion": "好奇一菲的专业",
+        "Sentiment": "neutral",
+        "Rationale": "对一菲的学历和专业感到好奇"
+    },
+    {
+        "sentence": "思想政治教育。研究方向好像是古典哲学与西方社会思潮。",
+        "Holder": "1",
+        "Target": "一菲",
+        "Aspect": "专业和研究方向",
+        "Opinion": "提供一菲的专业信息",
+        "Sentiment": "neutral",
+        "Rationale": "回答关于一菲的专业问题"
+    },
+    {
+        "sentence": "我和女孩搭讪的时候也经常涉猎到这两个主题",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "搭讪话题",
+        "Opinion": "涉猎广泛",
+        "Sentiment": "neutral",
+        "Rationale": "提到自己搭讪时的话题"
+    },
+    {
+        "sentence": "一菲本来就强势，现在又考上了女博士，跟他在一起的男生一定会很有压力的。",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "性格和学历",
+        "Opinion": "认为一菲强势且学历高会给男生压力",
+        "Sentiment": "negative",
+        "Rationale": "认为一菲的强势和高学历会给男生带来压力"
+    },
+    {
+        "sentence": "他的压迫感是与生俱来的，和学历没关系。",
+        "Holder": "3",
+        "Target": "一菲",
+        "Aspect": "压迫感的来源",
+        "Opinion": "压迫感与学历无关",
+        "Sentiment": "neutral",
+        "Rationale": "认为一菲的压迫感是天生的"
+    },
+    {
+        "sentence": "哇塞，与生俱来加的后天努力，一菲正在向着不孕不育的最高境界冲锋啊。",
+        "Holder": "6",
+        "Target": "一菲",
+        "Aspect": "不孕不育的境界",
+        "Opinion": "正在努力达到",
+        "Sentiment": "ambiguous",
+        "Rationale": "用夸张的语气描述一菲的努力，既有调侃也有佩服的成分"
+    },
+    {
+        "sentence": "哈哈哈，你那么高兴干嘛？",
+        "Holder": "1",
+        "Target": "6的情绪",
+        "Aspect": "高兴的原因",
+        "Opinion": "不明所以",
+        "Sentiment": "positive",
+        "Rationale": "听到6的夸张描述觉得好笑"
+    },
+    {
+        "sentence": "我是替她那个男朋友捏把汗。你们难道没有听说过女博士的传说吗？这个世界上有三种人，男人，女人，女博士。女博士是人类中的战斗机，身上笼罩着多层光环。",
+        "Holder": "6",
+        "Target": "女博士",
+        "Aspect": "能力和特质",
+        "Opinion": "强大且独特",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述女博士的传说和能力，没有明显的情感倾向"
+    },
+    {
+        "sentence": "知识光环，学习新知识的时间减半。冷漠光环，无视所有精神类攻击，理智光环对所有男性的伤害加倍。",
+        "Holder": "6",
+        "Target": "女博士的光环",
+        "Aspect": "具体能力",
+        "Opinion": "强大且具有影响力",
+        "Sentiment": "neutral",
+        "Rationale": "详细列举女博士的各种光环能力，没有明显的情感倾向"
+    },
+    {
+        "sentence": "曾老师，你魔兽玩多了吧。",
+        "Holder": "3",
+        "Target": "6的描述",
+        "Aspect": "描述的合理性",
+        "Opinion": "过于夸张",
+        "Sentiment": "positive",
+        "Rationale": "觉得6的描述像是在玩魔兽游戏时的夸张表达"
+    },
+    {
+        "sentence": "就算女博士比较强，只要找个男朋友比他更强不就行了。",
+        "Holder": "1",
+        "Target": "女博士",
+        "Aspect": "伴侣选择",
+        "Opinion": "找个更强的男朋友",
+        "Sentiment": "neutral",
+        "Rationale": "认为可以通过找更强的男朋友来平衡女博士的强势"
+    },
+    {
+        "sentence": "开玩笑，学士硕士全面，男博士仅能自保，要打赢女博士，哼哼，只有靠圣斗士。如果说女博士是第三类人，那么喜欢女博士岂不是第四类人？",
+        "Holder": "5",
+        "Target": "女博士",
+        "Aspect": "能力与伴侣选择",
+        "Opinion": "女博士能力强，喜欢女博士的人特殊",
+        "Sentiment": "ambiguous",
+        "Rationale": "用夸张的比喻来描述女博士和喜欢她们的人"
+    },
+    {
+        "sentence": "哈哈哈，你们看着我干什么啊？",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "被关注的原因",
+        "Opinion": "不清楚为什么被看",
+        "Sentiment": "positive",
+        "Rationale": "被大家关注而感到好笑和轻松"
+    },
+    {
+        "sentence": "对了，如果一菲的男朋友听说他成了博士，他会是什么反应？",
+        "Holder": "3",
+        "Target": "一菲的男朋友",
+        "Aspect": "对成为博士的反应",
+        "Opinion": "好奇其反应",
+        "Sentiment": "neutral",
+        "Rationale": "对一菲男朋友的反应感到好奇"
+    },
+    {
+        "sentence": "哎，沈公子会不会被吓跑呀？",
+        "Holder": "1",
+        "Target": "沈公子",
+        "Aspect": "对女博士的反应",
+        "Opinion": "担心会被吓跑",
+        "Sentiment": "negative",
+        "Rationale": "担心沈公子对女博士的强势感到害怕"
+    },
+    {
+        "sentence": "这不挺好玩的吗？",
+        "Holder": "6",
+        "Target": "当前活动",
+        "Aspect": "娱乐性",
+        "Opinion": "有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得当前的活动很有趣"
+    },
+    {
+        "sentence": "听你们这么一说，好像很久没有见过她男朋友了。有多久啊？",
+        "Holder": "4",
+        "Target": "她男朋友",
+        "Aspect": "见面频率",
+        "Opinion": "很久没见",
+        "Sentiment": "neutral",
+        "Rationale": "听到别人提到她男朋友"
+    },
+    {
+        "sentence": "我想起来了啊。既然一菲考上了博士，那她应该请我们吃饭呐，哈哈哈。",
+        "Holder": "5",
+        "Target": "一菲",
+        "Aspect": "庆祝方式",
+        "Opinion": "应该请吃饭",
+        "Sentiment": "positive",
+        "Rationale": "一菲考上了博士，觉得应该庆祝"
+    },
+    {
+        "sentence": "各位，我要向大家宣布三个消息，第一，我考上博士了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "学业成就",
+        "Opinion": "考上博士",
+        "Sentiment": "positive",
+        "Rationale": "自己考上了博士，感到非常自豪和高兴"
+    },
+    {
+        "sentence": "哎呀，太厉害了，一菲你是我的女神",
+        "Holder": "6",
+        "Target": "一菲",
+        "Aspect": "能力与成就",
+        "Opinion": "非常厉害",
+        "Sentiment": "positive",
+        "Rationale": "一菲考上了博士，觉得她非常厉害"
+    },
+    {
+        "sentence": "太高兴了，我都激动的想哭了。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪的强烈程度",
+        "Opinion": "非常高兴",
+        "Sentiment": "positive",
+        "Rationale": "感到非常高兴"
+    },
+    {
+        "sentence": "悠悠你就不用演了吧。",
+        "Holder": "2",
+        "Target": "1的情绪表现",
+        "Aspect": "情绪的真实性",
+        "Opinion": "认为1在演戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的情绪表现不真实"
+    },
+    {
+        "sentence": "其实我早就知道了。",
+        "Holder": "1",
+        "Target": "自己的知情情况",
+        "Aspect": "知情的时机",
+        "Opinion": "早已知情",
+        "Sentiment": "neutral",
+        "Rationale": "早就知道情况"
+    },
+    {
+        "sentence": "讨厌，怎么不告诉我们一声呢",
+        "Holder": "6",
+        "Target": "1的行为",
+        "Aspect": "信息的分享",
+        "Opinion": "没有告知",
+        "Sentiment": "negative",
+        "Rationale": "1没有提前告知"
+    },
+    {
+        "sentence": "什么人呐这是",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的行为不合情理"
+    },
+    {
+        "sentence": "第二，我男朋友沈临风刚好最近休假，所以打算在我们这住几天，大家没有意见吧？",
+        "Holder": "2",
+        "Target": "沈临风住几天",
+        "Aspect": "住宿安排",
+        "Opinion": "希望大家没意见",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到大家的同意"
+    },
+    {
+        "sentence": "各位，好久不见。",
+        "Holder": "7",
+        "Target": "大家",
+        "Aspect": "见面时间",
+        "Opinion": "好久不见",
+        "Sentiment": "positive",
+        "Rationale": "久未见面"
+    },
+    {
+        "sentence": "嗯，没意见，怎么会呢",
+        "Holder": "1",
+        "Target": "沈临风住几天",
+        "Aspect": "住宿安排",
+        "Opinion": "没意见",
+        "Sentiment": "positive",
+        "Rationale": "对沈临风住宿没有异议"
+    },
+    {
+        "sentence": "第三，让临风说。",
+        "Holder": "2",
+        "Target": "沈临风",
+        "Aspect": "发言安排",
+        "Opinion": "让临风说",
+        "Sentiment": "neutral",
+        "Rationale": "需要沈临风发言"
+    },
+    {
+        "sentence": "为了庆祝一菲考上博士，周末我请各位吃饭，大家好好庆祝一下，都要来哦。",
+        "Holder": "7",
+        "Target": "一菲考上博士",
+        "Aspect": "庆祝活动",
+        "Opinion": "请大家吃饭庆祝",
+        "Sentiment": "positive",
+        "Rationale": "一菲考上博士是值得庆祝的事情"
+    },
+    {
+        "sentence": "没问题，今天就定了，不醉不归",
+        "Holder": "1",
+        "Target": "聚会决定",
+        "Aspect": "聚会的确定性",
+        "Opinion": "决定参加",
+        "Sentiment": "positive",
+        "Rationale": "对聚会有积极期待"
+    },
+    {
+        "sentence": "曾小贤，你有空吗？",
+        "Holder": "2",
+        "Target": "曾小贤的时间",
+        "Aspect": "时间安排",
+        "Opinion": "询问是否有空",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认曾小贤的时间安排"
+    },
+    {
+        "sentence": "哼，有人请客干嘛不去？",
+        "Holder": "6",
+        "Target": "请客聚会",
+        "Aspect": "参加聚会的理由",
+        "Opinion": "应该参加",
+        "Sentiment": "positive",
+        "Rationale": "有免费的聚会机会"
+    },
+    {
+        "sentence": "沈公子的到来和盛情邀请，让所有的猜想和八卦都不攻自破。就这样，周末的夜晚，我们欢聚一堂，享用了一顿丰盛而和谐的晚餐。出席晚餐的嘉宾有一菲，她男朋友沈临风、雨墨、关谷子乔、张伟、曾老师，还有曾老师带来的新女友，赛莉每个人都笑得很甜很开心，不过笑容背后却并没有大家想象的那么和谐。大家来拍张照，茄子。",
+        "Holder": "1",
+        "Target": "晚餐聚会",
+        "Aspect": "聚会的氛围",
+        "Opinion": "表面和谐",
+        "Sentiment": "ambiguous",
+        "Rationale": "聚会表面看起来很开心，但实际上有隐情"
+    },
+    {
+        "sentence": "衣冠禽兽，道貌岸然，色胆包天。五光十色。",
+        "Holder": "8",
+        "Target": "聚会中的人",
+        "Aspect": "人的品行",
+        "Opinion": "表面伪善",
+        "Sentiment": "negative",
+        "Rationale": "认为聚会中的人表面正直实际品行不端"
+    },
+    {
+        "sentence": "喂，你又乱用成语。",
+        "Holder": "3",
+        "Target": "8",
+        "Aspect": "成语使用",
+        "Opinion": "乱用成语",
+        "Sentiment": "negative",
+        "Rationale": "3认为8在使用成语时不够准确"
+    },
+    {
+        "sentence": "我要是上去拿刀砍他，你要拦着我。",
+        "Holder": "8",
+        "Target": "3",
+        "Aspect": "行为制止",
+        "Opinion": "需要被拦阻",
+        "Sentiment": "neutral",
+        "Rationale": "8在假设一种极端情况"
+    },
+    {
+        "sentence": "做个深水炸弹，不信我炸不死你。",
+        "Holder": "4",
+        "Target": "8",
+        "Aspect": "威胁",
+        "Opinion": "威胁对方",
+        "Sentiment": "negative",
+        "Rationale": "4用激烈的言辞表达了对8的不满和威胁"
+    },
+    {
+        "sentence": "你没事吧",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "健康状况",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "7在询问4的健康状况，表现出关心"
+    },
+    {
+        "sentence": "没事，昨天喝的不够尽兴，今天我们继续喝",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "饮酒状态",
+        "Opinion": "继续饮酒",
+        "Sentiment": "positive",
+        "Rationale": "4表示昨天饮酒未尽兴，今天愿意继续饮酒"
+    },
+    {
+        "sentence": "我不怎么喝酒的。",
+        "Holder": "7",
+        "Target": "喝酒习惯",
+        "Aspect": "个人饮酒习惯",
+        "Opinion": "不常喝酒",
+        "Sentiment": "neutral",
+        "Rationale": "表达了自己的饮酒习惯"
+    },
+    {
+        "sentence": "那就把西瓜汁也兑上。干杯。",
+        "Holder": "4",
+        "Target": "饮酒方式",
+        "Aspect": "饮酒建议",
+        "Opinion": "建议兑上西瓜汁",
+        "Sentiment": "positive",
+        "Rationale": "提出了一个积极的饮酒建议"
+    },
+    {
+        "sentence": "这杯酒是我的",
+        "Holder": "9",
+        "Target": "酒",
+        "Aspect": "所有权",
+        "Opinion": "声明酒属于自己",
+        "Sentiment": "neutral",
+        "Rationale": "只是声明了酒的所有权，没有表达额外情感"
+    },
+    {
+        "sentence": "啊？",
+        "Holder": "6",
+        "Target": "酒的归属",
+        "Aspect": "疑问",
+        "Opinion": "表达疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对酒的归属表示疑问"
+    },
+    {
+        "sentence": "这个餐巾纸也是我的",
+        "Holder": "1",
+        "Target": "餐巾纸",
+        "Aspect": "所有权",
+        "Opinion": "声明餐巾纸属于自己",
+        "Sentiment": "neutral",
+        "Rationale": "只是声明了餐巾纸的所有权，没有表达额外情感"
+    },
+    {
+        "sentence": "曾小贤，我要跟你单挑",
+        "Holder": "5",
+        "Target": "曾小贤",
+        "Aspect": "挑战",
+        "Opinion": "要求单挑",
+        "Sentiment": "negative",
+        "Rationale": "对曾小贤有不满或想证明自己"
+    },
+    {
+        "sentence": "一菲",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "称呼",
+        "Opinion": "称呼对方",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地称呼对方名字"
+    },
+    {
+        "sentence": "我都快说吃6 人分了，我是还忍不住",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "忍耐力",
+        "Opinion": "忍不住",
+        "Sentiment": "negative",
+        "Rationale": "自己快要忍不住某种情绪或行为"
+    },
+    {
+        "sentence": "服务员，点单。",
+        "Holder": "2",
+        "Target": "服务员",
+        "Aspect": "点单",
+        "Opinion": "要求点单",
+        "Sentiment": "neutral",
+        "Rationale": "只是正常地要求服务员点单"
+    },
+    {
+        "sentence": "OK， 要理解这些的确有点困难，因为这个故事必须分为三个部分，然后从头说起。我们先从羽墨和关谷的那部分开始。",
+        "Holder": "1",
+        "Target": "故事理解",
+        "Aspect": "理解的难度",
+        "Opinion": "有点困难",
+        "Sentiment": "neutral",
+        "Rationale": "故事复杂需要分部分讲解"
+    },
+    {
+        "sentence": "关谷，一起去打桌球吧。",
+        "Holder": "3",
+        "Target": "关谷",
+        "Aspect": "邀请打桌球",
+        "Opinion": "希望一起去",
+        "Sentiment": "positive",
+        "Rationale": "想和关谷一起打桌球"
+    },
+    {
+        "sentence": "你们两个不是正好吗？",
+        "Holder": "8",
+        "Target": "3和关谷",
+        "Aspect": "打桌球的人数",
+        "Opinion": "两个人足够",
+        "Sentiment": "neutral",
+        "Rationale": "认为两个人打桌球已经合适"
+    },
+    {
+        "sentence": "开玩笑，两个人怎么打？",
+        "Holder": "3",
+        "Target": "打桌球的人数",
+        "Aspect": "游戏的合理性",
+        "Opinion": "两个人不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得两个人打桌球不合理"
+    },
+    {
+        "sentence": "难道桌球也要3个人？",
+        "Holder": "8",
+        "Target": "打桌球的人数",
+        "Aspect": "游戏的常规",
+        "Opinion": "通常不需要三个人",
+        "Sentiment": "neutral",
+        "Rationale": "对桌球通常的玩法有疑问"
+    },
+    {
+        "sentence": "两个人打一点悬念都没有，无论输赢都只能跟他打。三个人打淘汰赛我会更有斗志。",
+        "Holder": "3",
+        "Target": "打桌球的人数",
+        "Aspect": "游戏的趣味性和斗志",
+        "Opinion": "三个人更有趣且激发斗志",
+        "Sentiment": "positive",
+        "Rationale": "觉得三个人打桌球更有悬念和斗志"
+    },
+    {
+        "sentence": "我不去了，我今天下午要交画稿。",
+        "Holder": "8",
+        "Target": "参加活动",
+        "Aspect": "时间安排",
+        "Opinion": "无法参加",
+        "Sentiment": "neutral",
+        "Rationale": "有重要的画稿要交"
+    },
+    {
+        "sentence": "你还有两个选择，一个是张伟。",
+        "Holder": "6",
+        "Target": "选择替代人选",
+        "Aspect": "替代人选的提出",
+        "Opinion": "提供选择",
+        "Sentiment": "neutral",
+        "Rationale": "需要找到替代人选"
+    },
+    {
+        "sentence": "他上次把桌面戳了两个大洞，老板正在通缉他。",
+        "Holder": "3",
+        "Target": "张伟",
+        "Aspect": "行为后果",
+        "Opinion": "不适合选择",
+        "Sentiment": "negative",
+        "Rationale": "张伟上次造成了严重损坏"
+    },
+    {
+        "sentence": "那还有就是楼下小黑了。",
+        "Holder": "6",
+        "Target": "选择替代人选",
+        "Aspect": "替代人选的提出",
+        "Opinion": "提供另一个选择",
+        "Sentiment": "neutral",
+        "Rationale": "需要找到替代人选"
+    },
+    {
+        "sentence": "他技术不错，不过有狐臭，比赛环境太恶劣。",
+        "Holder": "3",
+        "Target": "小黑",
+        "Aspect": "技术和个人问题",
+        "Opinion": "技术好但有缺陷",
+        "Sentiment": "negative",
+        "Rationale": "小黑虽然有技术但存在狐臭问题"
+    },
+    {
+        "sentence": "桌球我很喜欢打。我认为你们完全可以选一个真正在行的人参加你们的活动。",
+        "Holder": "7",
+        "Target": "桌球活动人选",
+        "Aspect": "人选的合适性",
+        "Opinion": "应该选真正在行的人",
+        "Sentiment": "positive",
+        "Rationale": "7喜欢打桌球，并且认为选一个在行的人对活动更好"
+    },
+    {
+        "sentence": "有道理，还是选小黑吧。",
+        "Holder": "8",
+        "Target": "小黑",
+        "Aspect": "人选的合适性",
+        "Opinion": "同意选小黑",
+        "Sentiment": "positive",
+        "Rationale": "8认同7的建议，认为小黑更合适"
+    },
+    {
+        "sentence": "哈哈哈，那我就不打扰你们了，我去隔壁看看一菲。",
+        "Holder": "7",
+        "Target": "自己",
+        "Aspect": "行为的合理性",
+        "Opinion": "不打扰他们",
+        "Sentiment": "positive",
+        "Rationale": "7觉得自己不应该打扰他们的活动"
+    },
+    {
+        "sentence": "你们干嘛不带沈临风打桌球啊？",
+        "Holder": "8",
+        "Target": "沈临风",
+        "Aspect": "参与桌球活动的可能性",
+        "Opinion": "应该带沈临风",
+        "Sentiment": "neutral",
+        "Rationale": "8好奇为什么没有带沈临风"
+    },
+    {
+        "sentence": "我们和他唯一的交集是胡一菲，你觉得这个话题会很有意思吗？",
+        "Holder": "3",
+        "Target": "沈临风",
+        "Aspect": "与沈临风的交集",
+        "Opinion": "交集有限，话题无趣",
+        "Sentiment": "negative",
+        "Rationale": "3认为与沈临风的交集仅限于胡一菲，觉得这个话题不会有趣"
+    },
+    {
+        "sentence": "他是一菲的男朋友，你们就不能大度点了。",
+        "Holder": "8",
+        "Target": "6和其他人",
+        "Aspect": "对待一菲男朋友的态度",
+        "Opinion": "应该大度",
+        "Sentiment": "neutral",
+        "Rationale": "8希望其他人对待一菲的男朋友更大度一些"
+    },
+    {
+        "sentence": "友好大使，这个艰巨的任务还是交给你吧，我可做不到。",
+        "Holder": "6",
+        "Target": "8",
+        "Aspect": "友好大使的角色",
+        "Opinion": "自己做不到",
+        "Sentiment": "neutral",
+        "Rationale": "6认为自己无法胜任友好大使的角色"
+    },
+    {
+        "sentence": "沈公子。白天的事你不要介意。",
+        "Holder": "8",
+        "Target": "沈公子",
+        "Aspect": "白天发生的事情",
+        "Opinion": "希望对方不介意",
+        "Sentiment": "positive",
+        "Rationale": "8希望沈公子不要对白天的事情耿耿于怀"
+    },
+    {
+        "sentence": "没关系。好的，这里美女很多，听说子乔在这一带很吃得开。改天让他帮我介绍一下吧。",
+        "Holder": "4",
+        "Target": "子乔",
+        "Aspect": "子乔的人际关系",
+        "Opinion": "子乔很吃得开",
+        "Sentiment": "positive",
+        "Rationale": "4听说子乔在这一带人际关系很好"
+    },
+    {
+        "sentence": "你在开玩笑吧，哈哈，我们还是聊聊。一菲吧。",
+        "Holder": "8",
+        "Target": "4",
+        "Aspect": "4的请求",
+        "Opinion": "认为4在开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "8觉得4的请求有些不切实际"
+    },
+    {
+        "sentence": "哦，你也觉得那个女孩长得像刘亦菲啊",
+        "Holder": "4",
+        "Target": "那个女孩",
+        "Aspect": "外貌",
+        "Opinion": "长得像刘亦菲",
+        "Sentiment": "neutral",
+        "Rationale": "询问对方是否也有同样的看法"
+    },
+    {
+        "sentence": "啊？",
+        "Holder": "8",
+        "Target": "4的提问",
+        "Aspect": "理解",
+        "Opinion": "不清楚",
+        "Sentiment": "ambiguous",
+        "Rationale": "对4的问题感到困惑"
+    },
+    {
+        "sentence": "昨天晚上沈林峰一直在酒吧里偷瞄其他的女孩。",
+        "Holder": "4",
+        "Target": "沈林峰",
+        "Aspect": "行为",
+        "Opinion": "偷瞄其他女孩",
+        "Sentiment": "negative",
+        "Rationale": "沈林峰的行为被认为是不恰当的"
+    },
+    {
+        "sentence": "也不算偷瞄，他整个眼珠子都要掉下来了。",
+        "Holder": "8",
+        "Target": "沈林峰",
+        "Aspect": "行为",
+        "Opinion": "过度关注其他女孩",
+        "Sentiment": "negative",
+        "Rationale": "沈林峰的行为过于夸张"
+    },
+    {
+        "sentence": "怎么就会这样啊？这也太奇怪了吧。",
+        "Holder": "4",
+        "Target": "沈林峰的行为",
+        "Aspect": "合理性",
+        "Opinion": "奇怪",
+        "Sentiment": "negative",
+        "Rationale": "不理解沈林峰为何会有这样的行为"
+    },
+    {
+        "sentence": "我这是看错沈公子了，还不如曾老师呢。",
+        "Holder": "8",
+        "Target": "沈公子",
+        "Aspect": "人品",
+        "Opinion": "看错了他",
+        "Sentiment": "negative",
+        "Rationale": "发现沈公子的人品不如曾老师"
+    },
+    {
+        "sentence": "不行，我们得告诉一菲",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "告知情况",
+        "Opinion": "需要告知",
+        "Sentiment": "neutral",
+        "Rationale": "觉得有必要让一菲知道情况"
+    },
+    {
+        "sentence": "我们没有证据，他万一不承认怎么办呢？",
+        "Holder": "8",
+        "Target": "沈公子",
+        "Aspect": "证据和承认",
+        "Opinion": "担心不承认",
+        "Sentiment": "doubt",
+        "Rationale": "没有证据担心沈公子不承认"
+    },
+    {
+        "sentence": "我有办法，男人的虚伪就叫皇帝的新衣，如果他根本就是个风流成性的人，一定藏不住。只要稍微引导放大就可以不打自招。一菲是我最好的姐妹，让我来会会这个沈公子。",
+        "Holder": "4",
+        "Target": "沈公子",
+        "Aspect": "揭露虚伪",
+        "Opinion": "有办法揭露",
+        "Sentiment": "positive",
+        "Rationale": "有信心通过引导揭露沈公子的虚伪"
+    },
+    {
+        "sentence": "临风",
+        "Holder": "4",
+        "Target": "临风",
+        "Aspect": "提及",
+        "Opinion": "提及名字",
+        "Sentiment": "neutral",
+        "Rationale": "提到名字而没有其他情感表达"
+    },
+    {
+        "sentence": "诶羽墨",
+        "Holder": "7",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是打招呼"
+    },
+    {
+        "sentence": "最近怎么总是你一个人呐？一菲呢？你们感情还好吧？",
+        "Holder": "4",
+        "Target": "7和一菲的关系",
+        "Aspect": "感情状态",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "关心朋友的关系"
+    },
+    {
+        "sentence": "挺好的，你怎么这么问？",
+        "Holder": "7",
+        "Target": "4的提问",
+        "Aspect": "提问的原因",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "不明白为什么会被这样问"
+    },
+    {
+        "sentence": "一菲考上博士，换作是谁都会有心理压力的",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "考博的压力",
+        "Opinion": "理解",
+        "Sentiment": "neutral",
+        "Rationale": "认为考博会有压力"
+    },
+    {
+        "sentence": "你的心情我能理解。",
+        "Holder": "4",
+        "Target": "7的心情",
+        "Aspect": "情绪理解",
+        "Opinion": "同情",
+        "Sentiment": "positive",
+        "Rationale": "能够理解7的心情"
+    },
+    {
+        "sentence": "我现在挺自在啊。其实我是一直很支持一菲的。",
+        "Holder": "7",
+        "Target": "一菲",
+        "Aspect": "支持态度",
+        "Opinion": "一直支持",
+        "Sentiment": "positive",
+        "Rationale": "感到自在并且一直支持一菲"
+    },
+    {
+        "sentence": "继续装。看来我不用杀手锏是不行了，试探一个男人的真心不是看他说什么，而是看他酒后说什么。",
+        "Holder": "4",
+        "Target": "7",
+        "Aspect": "真诚度",
+        "Opinion": "怀疑不真诚",
+        "Sentiment": "negative",
+        "Rationale": "认为7在装模作样"
+    },
+    {
+        "sentence": "哈哈哈哈哈哈，这是高兴嘛。你难得到我们这里来玩，当然要多敬你几杯喽。",
+        "Holder": "4",
+        "Target": "7的到来",
+        "Aspect": "欢迎程度",
+        "Opinion": "热情欢迎",
+        "Sentiment": "positive",
+        "Rationale": "难得见到7来玩"
+    },
+    {
+        "sentence": "我是不喝伏特加的，我们还是换西瓜汁吧。",
+        "Holder": "7",
+        "Target": "饮酒选择",
+        "Aspect": "饮品偏好",
+        "Opinion": "偏好西瓜汁",
+        "Sentiment": "neutral",
+        "Rationale": "不喜欢喝伏特加"
+    },
+    {
+        "sentence": "真没劲。酒品即人品，你不多喝几杯，我怎么放心把好姐妹交给你，不给面子啊。",
+        "Holder": "4",
+        "Target": "7的饮酒态度",
+        "Aspect": "面子问题",
+        "Opinion": "认为不给面子",
+        "Sentiment": "negative",
+        "Rationale": "7不愿意多喝酒"
+    },
+    {
+        "sentence": "行行行，那就一点点，我干杯，你随意。",
+        "Holder": "4",
+        "Target": "饮酒量",
+        "Aspect": "饮酒量的多少",
+        "Opinion": "少量饮酒",
+        "Sentiment": "positive",
+        "Rationale": "愿意配合对方只喝一点点酒"
+    },
+    {
+        "sentence": "来，再来一点，再来呀。",
+        "Holder": "4",
+        "Target": "饮酒量",
+        "Aspect": "饮酒量的增加",
+        "Opinion": "增加饮酒量",
+        "Sentiment": "positive",
+        "Rationale": "希望对方再喝一点酒"
+    },
+    {
+        "sentence": "那就一点点，我干杯，你随意。来，再来一点。",
+        "Holder": "4",
+        "Target": "饮酒量",
+        "Aspect": "饮酒量的多少和增加",
+        "Opinion": "少量饮酒并增加",
+        "Sentiment": "positive",
+        "Rationale": "愿意自己多喝一些而让对方随意"
+    },
+    {
+        "sentence": "这酒我爱喝，哈哈哈。",
+        "Holder": "7",
+        "Target": "酒",
+        "Aspect": "酒的口感",
+        "Opinion": "喜欢",
+        "Sentiment": "positive",
+        "Rationale": "喜欢这酒的口感"
+    },
+    {
+        "sentence": "这是几？",
+        "Holder": "4",
+        "Target": "酒的数量",
+        "Aspect": "酒的数量确认",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "对酒的数量有疑问"
+    },
+    {
+        "sentence": "这是8，是不是少了一撇。",
+        "Holder": "7",
+        "Target": "数字8的书写",
+        "Aspect": "书写的准确性",
+        "Opinion": "可能写错了",
+        "Sentiment": "neutral",
+        "Rationale": "7在询问数字8的书写是否正确"
+    },
+    {
+        "sentence": "哈哈哈，搞定。",
+        "Holder": "4",
+        "Target": "任务完成",
+        "Aspect": "任务的完成情况",
+        "Opinion": "已经完成",
+        "Sentiment": "positive",
+        "Rationale": "4表示任务已经完成"
+    },
+    {
+        "sentence": "不定，我看你再装。",
+        "Holder": "4",
+        "Target": "7的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "怀疑7在装",
+        "Sentiment": "negative",
+        "Rationale": "4怀疑7在假装"
+    },
+    {
+        "sentence": "装男人啊",
+        "Holder": "7",
+        "Target": "4的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "4在装男人",
+        "Sentiment": "neutral",
+        "Rationale": "7在回应4的怀疑，语气中没有明显的情感倾向"
+    },
+    {
+        "sentence": "我最喜欢看那个装男人杂志了。",
+        "Holder": "4",
+        "Target": "装男人杂志",
+        "Aspect": "阅读兴趣",
+        "Opinion": "喜欢看",
+        "Sentiment": "positive",
+        "Rationale": "4表示自己喜欢看装男人杂志"
+    },
+    {
+        "sentence": "你是不是背着一菲和其他的女孩子有暧昧关系了？",
+        "Holder": "4",
+        "Target": "7的行为",
+        "Aspect": "暧昧关系",
+        "Opinion": "怀疑有暧昧",
+        "Sentiment": "negative",
+        "Rationale": "怀疑7背着一菲和其他女孩子有暧昧关系"
+    },
+    {
+        "sentence": "没有，我想暧昧人家，人家还没暧昧我呢。这不八字还没一撇吗？",
+        "Holder": "7",
+        "Target": "自己的行为",
+        "Aspect": "暧昧关系",
+        "Opinion": "否认暧昧",
+        "Sentiment": "neutral",
+        "Rationale": "自己并没有实际的暧昧行为"
+    },
+    {
+        "sentence": "不，你想怎样？给你一撇你就化一纳了。你是不是和一菲闹矛盾了？",
+        "Holder": "4",
+        "Target": "7的行为",
+        "Aspect": "对一菲的态度",
+        "Opinion": "怀疑有矛盾",
+        "Sentiment": "negative",
+        "Rationale": "怀疑7对一菲的态度有问题"
+    },
+    {
+        "sentence": "我哪敢啊，她多么彪悍，还是个博士。",
+        "Holder": "7",
+        "Target": "一菲",
+        "Aspect": "性格和学历",
+        "Opinion": "敬畏一菲",
+        "Sentiment": "neutral",
+        "Rationale": "一菲性格彪悍且是博士"
+    },
+    {
+        "sentence": "我就知道。",
+        "Holder": "4",
+        "Target": "7的态度",
+        "Aspect": "对一菲的敬畏",
+        "Opinion": "确认猜测",
+        "Sentiment": "neutral",
+        "Rationale": "确认了7对一菲的敬畏态度"
+    },
+    {
+        "sentence": "你说这个男人谁不喜欢小家碧玉，温柔的体贴的，你说我容易吗？",
+        "Holder": "7",
+        "Target": "小家碧玉",
+        "Aspect": "受欢迎程度",
+        "Opinion": "普遍喜欢",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己为了迎合这种普遍喜好付出了很多努力"
+    },
+    {
+        "sentence": "喝多了，亲爱的，你别走。",
+        "Holder": "7",
+        "Target": "对方",
+        "Aspect": "留恋",
+        "Opinion": "希望对方留下",
+        "Sentiment": "negative",
+        "Rationale": "喝多了感到孤独和依赖"
+    },
+    {
+        "sentence": "我真的好孤独。",
+        "Holder": "7",
+        "Target": "自己",
+        "Aspect": "情感状态",
+        "Opinion": "感到孤独",
+        "Sentiment": "negative",
+        "Rationale": "缺乏陪伴和支持"
+    },
+    {
+        "sentence": "事情就是这样子，捉贼捉赃，证据确凿。",
+        "Holder": "4",
+        "Target": "事情",
+        "Aspect": "事实认定",
+        "Opinion": "证据确凿",
+        "Sentiment": "neutral",
+        "Rationale": "事实和证据都明确"
+    },
+    {
+        "sentence": "还是你的首段高明。哼，那个照片让我看一下吧哈哈哈",
+        "Holder": "8",
+        "Target": "对方的首段",
+        "Aspect": "策略或方法",
+        "Opinion": "高明",
+        "Sentiment": "positive",
+        "Rationale": "认可对方的策略或方法"
+    },
+    {
+        "sentence": "这里面一共就一张啊。就一张你的自拍照，你自己看脸还是红红的。",
+        "Holder": "8",
+        "Target": "自拍照",
+        "Aspect": "照片数量和内容",
+        "Opinion": "只有一张且脸红",
+        "Sentiment": "neutral",
+        "Rationale": "描述了照片的数量和内容"
+    },
+    {
+        "sentence": "难道我把手机拿反了？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "使用手机的姿势",
+        "Opinion": "怀疑拿反了手机",
+        "Sentiment": "doubt",
+        "Rationale": "发现自己拍的照片有问题"
+    },
+    {
+        "sentence": "开玩笑吧，这么关键的时候你居然把手机拿反了。",
+        "Holder": "8",
+        "Target": "4",
+        "Aspect": "使用手机的姿势",
+        "Opinion": "不应该拿反手机",
+        "Sentiment": "negative",
+        "Rationale": "在关键时刻拿反手机显得很失误"
+    },
+    {
+        "sentence": "你刚才会说你很清醒的。",
+        "Holder": "8",
+        "Target": "4",
+        "Aspect": "清醒程度",
+        "Opinion": "声称自己清醒",
+        "Sentiment": "neutral",
+        "Rationale": "提到对方之前的说法"
+    },
+    {
+        "sentence": "这个当时的情况有一点点小出入。",
+        "Holder": "4",
+        "Target": "当时的情况",
+        "Aspect": "情况的准确性",
+        "Opinion": "存在小出入",
+        "Sentiment": "neutral",
+        "Rationale": "解释当时的情况有差异"
+    },
+    {
+        "sentence": "纳尼？那你刚才说的是什么？",
+        "Holder": "8",
+        "Target": "4的话",
+        "Aspect": "话语的清晰性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "8没有听懂4刚才说的话"
+    },
+    {
+        "sentence": "是我原来的计划，前面都按照计划进行，只是酒过三巡之后有点小意外。",
+        "Holder": "4",
+        "Target": "自己的计划",
+        "Aspect": "计划的执行情况",
+        "Opinion": "基本按计划进行但有意外",
+        "Sentiment": "neutral",
+        "Rationale": "4的计划大部分都按预期进行，只是后来出现了小意外"
+    },
+    {
+        "sentence": "那就一点点，我干杯，你随意",
+        "Holder": "7",
+        "Target": "喝酒的量",
+        "Aspect": "喝酒的态度",
+        "Opinion": "愿意适量喝酒",
+        "Sentiment": "positive",
+        "Rationale": "7愿意和4一起喝酒，但提议适量"
+    },
+    {
+        "sentence": "再来一点点。",
+        "Holder": "4",
+        "Target": "喝酒的量",
+        "Aspect": "喝酒的意愿",
+        "Opinion": "想再喝一点",
+        "Sentiment": "positive",
+        "Rationale": "4还想继续喝酒"
+    },
+    {
+        "sentence": "别喝了，都给我。",
+        "Holder": "7",
+        "Target": "4的喝酒行为",
+        "Aspect": "对喝酒的控制",
+        "Opinion": "不让4再喝",
+        "Sentiment": "negative",
+        "Rationale": "7担心4喝太多"
+    },
+    {
+        "sentence": "不要，这些都是我的。",
+        "Holder": "4",
+        "Target": "物品所有权",
+        "Aspect": "物品归属",
+        "Opinion": "坚持物品是自己的",
+        "Sentiment": "negative",
+        "Rationale": "认为物品是自己的而被质疑"
+    },
+    {
+        "sentence": "酒品及人品，我人品可好了。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "人品",
+        "Opinion": "认为自己人品好",
+        "Sentiment": "positive",
+        "Rationale": "对自己的人品有自信"
+    },
+    {
+        "sentence": "我问你这是几",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "认知能力",
+        "Opinion": "测试4的认知",
+        "Sentiment": "neutral",
+        "Rationale": "想测试4的认知能力"
+    },
+    {
+        "sentence": "8！就是少了一笔。哈哈哈",
+        "Holder": "4",
+        "Target": "数字认知",
+        "Aspect": "数字识别",
+        "Opinion": "正确识别数字",
+        "Sentiment": "positive",
+        "Rationale": "正确识别了数字并感到有趣"
+    },
+    {
+        "sentence": "好了，我还是送你回家吧。",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "关心",
+        "Opinion": "决定送4回家",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到4的情况"
+    },
+    {
+        "sentence": "没事没事，临风放心吧。",
+        "Holder": "4",
+        "Target": "临风",
+        "Aspect": "安慰",
+        "Opinion": "放心",
+        "Sentiment": "positive",
+        "Rationale": "想要让临风安心"
+    },
+    {
+        "sentence": "我真的是佩服你，一菲那种驴脾气你都受得了。我是拿她没办法了。",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "脾气",
+        "Opinion": "难以忍受",
+        "Sentiment": "negative",
+        "Rationale": "一菲的脾气让4感到难以应对"
+    },
+    {
+        "sentence": "哎呀，你们不是好姐妹吗？",
+        "Holder": "7",
+        "Target": "4和一菲",
+        "Aspect": "关系",
+        "Opinion": "应该是好姐妹",
+        "Sentiment": "neutral",
+        "Rationale": "7认为4和一菲应该是关系好的姐妹"
+    },
+    {
+        "sentence": "谁要那以前总说我胖来着，哈哈哈。我今天就把它所有的破事都告诉。",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "过去的言行",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "一菲过去总是说4胖"
+    },
+    {
+        "sentence": "第一件事就是...",
+        "Holder": "4",
+        "Target": "一菲",
+        "Aspect": "具体事件",
+        "Opinion": "待揭露",
+        "Sentiment": "neutral",
+        "Rationale": "4准备开始讲述一菲的具体事件"
+    },
+    {
+        "sentence": "诶诶，你怎么了？",
+        "Holder": "7",
+        "Target": "8",
+        "Aspect": "状态",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "看到8的状况似乎不对劲"
+    },
+    {
+        "sentence": "这就是你说的酒后吐真言，你还真的吐了。",
+        "Holder": "8",
+        "Target": "7",
+        "Aspect": "酒后行为",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "7酒后真的吐了，与之前说的酒后吐真言形成反差"
+    },
+    {
+        "sentence": "他说他不怎么喝酒的，鬼知道他居然是个酒神。",
+        "Holder": "4",
+        "Target": "7",
+        "Aspect": "酒量",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "7之前说自己不怎么会喝酒，但实际酒量很好"
+    },
+    {
+        "sentence": "搞了半天后面那些都是你编的。",
+        "Holder": "8",
+        "Target": "4",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "觉得4之前说的内容不真实"
+    },
+    {
+        "sentence": "我真的看到他和那个服务员有暧昧，吐完了我就清醒了，想到任务还没有完成，我就急着回去发动第二轮进攻，可是没想到",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行为动机",
+        "Opinion": "解释",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己行为的合理性"
+    },
+    {
+        "sentence": "唉，终于被我逮着了。",
+        "Holder": "4",
+        "Target": "沈临风的行为",
+        "Aspect": "被发现的事实",
+        "Opinion": "终于发现",
+        "Sentiment": "positive",
+        "Rationale": "终于发现了沈临风的行为"
+    },
+    {
+        "sentence": "茄子。",
+        "Holder": "4",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "这是一句无实际意义的词语"
+    },
+    {
+        "sentence": "我现在明白了。",
+        "Holder": "8",
+        "Target": "沈临风的行为",
+        "Aspect": "理解程度",
+        "Opinion": "已经理解",
+        "Sentiment": "neutral",
+        "Rationale": "对沈临风的行为有了新的理解"
+    },
+    {
+        "sentence": "不管怎么说，沈临风背着一菲搞花头就是不争的事实。",
+        "Holder": "4",
+        "Target": "沈临风的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "确信无疑",
+        "Sentiment": "negative",
+        "Rationale": "确信沈临风背着别人做不好的事情"
+    },
+    {
+        "sentence": "可我们现在还是没有证据，沈公子他不会承认。",
+        "Holder": "8",
+        "Target": "证据的缺乏",
+        "Aspect": "证据的存在与否",
+        "Opinion": "没有证据",
+        "Sentiment": "negative",
+        "Rationale": "缺乏证据无法证明沈临风的行为"
+    },
+    {
+        "sentence": "别着急，吃饭的时候我们还有机会，这一次我一定要一雪前耻。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "复仇的决心",
+        "Opinion": "决心复仇",
+        "Sentiment": "positive",
+        "Rationale": "相信自己还有机会并且决心要一雪前耻"
+    },
+    {
+        "sentence": "看那家伙像个没事人一样。",
+        "Holder": "8",
+        "Target": "那家伙",
+        "Aspect": "态度",
+        "Opinion": "表现得若无其事",
+        "Sentiment": "negative",
+        "Rationale": "看到对方表现得若无其事"
+    },
+    {
+        "sentence": "小姐，给我两杯伏特加，半打百威，还有一箱二锅头。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "饮酒计划",
+        "Opinion": "大量饮酒",
+        "Sentiment": "neutral",
+        "Rationale": "需要大量饮酒来实施计划"
+    },
+    {
+        "sentence": "你想干嘛？",
+        "Holder": "8",
+        "Target": "4",
+        "Aspect": "行为意图",
+        "Opinion": "不清楚意图",
+        "Sentiment": "doubt",
+        "Rationale": "不清楚4大量饮酒的意图"
+    },
+    {
+        "sentence": "我的杀手锏还没有成功呢，今天我就让他当着一飞的面现原型。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "计划实施",
+        "Opinion": "计划未成功",
+        "Sentiment": "positive",
+        "Rationale": "相信自己还有杀手锏未使用，并且决心要让对方现原型"
+    },
+    {
+        "sentence": "你不要现原型就行了",
+        "Holder": "8",
+        "Target": "9的行为",
+        "Aspect": "行为表现",
+        "Opinion": "不要暴露真实面目",
+        "Sentiment": "neutral",
+        "Rationale": "8提醒9不要暴露真实面目"
+    },
+    {
+        "sentence": "哈哈哈，快来拍张照吧。",
+        "Holder": "9",
+        "Target": "拍照行为",
+        "Aspect": "拍照的邀请",
+        "Opinion": "开心地邀请拍照",
+        "Sentiment": "positive",
+        "Rationale": "9感到开心并邀请8拍照"
+    },
+    {
+        "sentence": "茄子。",
+        "Holder": "9",
+        "Target": "拍照行为",
+        "Aspect": "拍照时的配合",
+        "Opinion": "配合拍照",
+        "Sentiment": "positive",
+        "Rationale": "9配合拍照并表现出轻松愉快的态度"
+    },
+    {
+        "sentence": "五光十色",
+        "Holder": "8",
+        "Target": "拍照场景",
+        "Aspect": "场景描述",
+        "Opinion": "场景色彩丰富",
+        "Sentiment": "neutral",
+        "Rationale": "8描述拍照场景的色彩丰富"
+    },
+    {
+        "sentence": "喂，你又乱用成语。",
+        "Holder": "5",
+        "Target": "8的语言使用",
+        "Aspect": "成语使用",
+        "Opinion": "乱用成语",
+        "Sentiment": "negative",
+        "Rationale": "5认为8乱用成语"
+    },
+    {
+        "sentence": "接下来让我们再从头说起。这次是曾老师和张伟的部分。",
+        "Holder": "1",
+        "Target": "曾老师和张伟",
+        "Aspect": "话题重启",
+        "Opinion": "重新开始讨论",
+        "Sentiment": "neutral",
+        "Rationale": "需要重新梳理话题"
+    },
+    {
+        "sentence": "看我一竿进洞。意外，这个球杆太老，洞口太小，桌子太高，状态不好",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "打球表现",
+        "Opinion": "表现不佳",
+        "Sentiment": "negative",
+        "Rationale": "球杆老、洞口小、桌子高导致状态不好"
+    },
+    {
+        "sentence": "哈哈哈，你还真的很了解曾老师。",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "对曾老师的了解",
+        "Opinion": "了解深刻",
+        "Sentiment": "positive",
+        "Rationale": "6对曾老师的了解被认可"
+    },
+    {
+        "sentence": "不就是和一菲沈公子吃个饭吗？至于那么纠结吗？",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "对吃饭的态度",
+        "Opinion": "不应纠结",
+        "Sentiment": "negative",
+        "Rationale": "认为吃饭是小事，6却显得纠结"
+    },
+    {
+        "sentence": "我哪有纠结，我压根就没打算去。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "对吃饭的态度",
+        "Opinion": "没有纠结",
+        "Sentiment": "negative",
+        "Rationale": "被误解为纠结而感到委屈"
+    },
+    {
+        "sentence": "可你们还是朋友啊。你去了就代表你祝福他，支持他。唉，那句老话怎么说来着？大丈夫能伸能缩。",
+        "Holder": "1",
+        "Target": "朋友关系",
+        "Aspect": "行为的意义",
+        "Opinion": "去参加代表祝福和支持",
+        "Sentiment": "positive",
+        "Rationale": "认为去参加朋友的婚礼是对朋友的祝福和支持"
+    },
+    {
+        "sentence": "那是乌龟。",
+        "Holder": "6",
+        "Target": "大丈夫能伸能缩的说法",
+        "Aspect": "比喻的准确性",
+        "Opinion": "认为是乌龟的特性",
+        "Sentiment": "neutral",
+        "Rationale": "对‘大丈夫能伸能缩’这个说法进行调侃"
+    },
+    {
+        "sentence": "哈哈哈，或者你找个漂亮女朋友一起去，这样就该轮到一菲难受了。女朋友。现在女孩最在乎的 4 大威慑，更漂亮、更年轻、胸部更丰满。",
+        "Holder": "3",
+        "Target": "找女朋友的建议",
+        "Aspect": "对一菲的影响",
+        "Opinion": "会令一菲难受",
+        "Sentiment": "positive",
+        "Rationale": "提出一个有趣的建议，认为这样会让一菲难受"
+    },
+    {
+        "sentence": "只有 3 个。",
+        "Holder": "6",
+        "Target": "女孩最在乎的威慑",
+        "Aspect": "数量",
+        "Opinion": "认为只有三个",
+        "Sentiment": "neutral",
+        "Rationale": "对‘四大威慑’的数量提出纠正"
+    },
+    {
+        "sentence": "再数数看看。",
+        "Holder": "3",
+        "Target": "女孩最在乎的威慑",
+        "Aspect": "数量",
+        "Opinion": "认为有四个",
+        "Sentiment": "neutral",
+        "Rationale": "对‘四大威慑’的数量进行再次确认"
+    },
+    {
+        "sentence": "曾老师，你别听他瞎说，哪去找女朋友啊，而且离现在只有 3 天了。这。",
+        "Holder": "1",
+        "Target": "找女朋友的可能性",
+        "Aspect": "时间紧迫性",
+        "Opinion": "不可能找到",
+        "Sentiment": "negative",
+        "Rationale": "时间只剩下3天"
+    },
+    {
+        "sentence": "俗话说的好，有钱能使莫推鬼。",
+        "Holder": "3",
+        "Target": "金钱的作用",
+        "Aspect": "金钱的万能性",
+        "Opinion": "金钱万能",
+        "Sentiment": "neutral",
+        "Rationale": "引用俗语表达金钱的万能性"
+    },
+    {
+        "sentence": "钱？你不会是要。",
+        "Holder": "6",
+        "Target": "使用金钱的方式",
+        "Aspect": "金钱使用的合理性",
+        "Opinion": "质疑使用方式",
+        "Sentiment": "ambiguous",
+        "Rationale": "对使用金钱的方式感到疑惑"
+    },
+    {
+        "sentence": "去找。",
+        "Holder": "1",
+        "Target": "找女朋友的方式",
+        "Aspect": "方式的选择",
+        "Opinion": "暗示使用金钱",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地回应"
+    },
+    {
+        "sentence": "那种女人吧？",
+        "Holder": "6",
+        "Target": "找女朋友的类型",
+        "Aspect": "类型的选择",
+        "Opinion": "质疑类型",
+        "Sentiment": "negative",
+        "Rationale": "对找女朋友的类型感到不满"
+    },
+    {
+        "sentence": "你别想歪了，这是种新兴职业，陪聊、陪哭、陪失恋，现在有很多找不到工作，大学生都在做这一行。只要你愿意给钱，肯定有很多女孩愿意帮忙的。",
+        "Holder": "3",
+        "Target": "新兴职业",
+        "Aspect": "职业性质",
+        "Opinion": "正当且可行",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在解释这一职业的合理性，强调其新兴且有人从事"
+    },
+    {
+        "sentence": "做女朋友也可以。",
+        "Holder": "6",
+        "Target": "新兴职业的服务范围",
+        "Aspect": "服务内容的扩展",
+        "Opinion": "服务范围广泛",
+        "Sentiment": "neutral",
+        "Rationale": "说话人6在探讨该职业的服务范围，没有明显的情感倾向"
+    },
+    {
+        "sentence": "只有想不到，没有做不到。",
+        "Holder": "3",
+        "Target": "新兴职业的潜力",
+        "Aspect": "职业的可行性",
+        "Opinion": "潜力无限",
+        "Sentiment": "positive",
+        "Rationale": "说话人3强调该职业的无限可能性，表现出积极的态度"
+    },
+    {
+        "sentence": "那和那种女人还有什么区别？只要你肯出钱，他们就可以放下尊严为你服务的那种女人。",
+        "Holder": "6",
+        "Target": "新兴职业与特定群体的比较",
+        "Aspect": "职业尊严",
+        "Opinion": "质疑职业尊严",
+        "Sentiment": "negative",
+        "Rationale": "说话人6将该职业与放下尊严的服务进行比较，表达了对职业尊严的质疑"
+    },
+    {
+        "sentence": "所有服务行业不都这样吗？",
+        "Holder": "1",
+        "Target": "服务行业的普遍性",
+        "Aspect": "行业共性",
+        "Opinion": "普遍现象",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在指出服务行业的普遍现象，没有明显的情感倾向"
+    },
+    {
+        "sentence": "连我小姨妈都比你看得穿。",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "看问题的透彻程度",
+        "Opinion": "6不如小姨妈看得穿",
+        "Sentiment": "negative",
+        "Rationale": "认为6在看问题上不如小姨妈透彻"
+    },
+    {
+        "sentence": "不好意思，我对这种花钱换来的服务有道德障碍。",
+        "Holder": "6",
+        "Target": "花钱换来的服务",
+        "Aspect": "道德接受度",
+        "Opinion": "有道德障碍",
+        "Sentiment": "negative",
+        "Rationale": "对花钱换来的服务存在道德上的不接受"
+    },
+    {
+        "sentence": "曾老师，只是陪你吃顿饭而已。",
+        "Holder": "3",
+        "Target": "吃饭这件事",
+        "Aspect": "行为的严重性",
+        "Opinion": "只是小事",
+        "Sentiment": "neutral",
+        "Rationale": "认为只是吃顿饭是小事"
+    },
+    {
+        "sentence": "三陪我已经占了 1/ 3 了，你还说而已，这是不合法的，不信你问张伟去",
+        "Holder": "6",
+        "Target": "吃饭这件事",
+        "Aspect": "行为的合法性",
+        "Opinion": "不合法",
+        "Sentiment": "negative",
+        "Rationale": "认为吃饭已经涉及到不合法的行为"
+    },
+    {
+        "sentence": "我就知道你会提他。上个星期我刚帮他找了一个，是个贫困大学生，广告已经打到淘宝网上去了，300块一晚上。",
+        "Holder": "3",
+        "Target": "张伟",
+        "Aspect": "行为的合理性",
+        "Opinion": "张伟也有类似行为",
+        "Sentiment": "negative",
+        "Rationale": "提到张伟也有类似的不当行为"
+    },
+    {
+        "sentence": "禽兽。",
+        "Holder": "6",
+        "Target": "张伟",
+        "Aspect": "行为",
+        "Opinion": "不道德",
+        "Sentiment": "negative",
+        "Rationale": "张伟的行为被说话人6认为是不道德的"
+    },
+    {
+        "sentence": "张伟很痛快地给了他 300 块，让她通宵排队买火车票。",
+        "Holder": "3",
+        "Target": "张伟",
+        "Aspect": "行为",
+        "Opinion": "痛快",
+        "Sentiment": "neutral",
+        "Rationale": "张伟痛快地给了钱"
+    },
+    {
+        "sentence": "哈哈哈，从那以后，那个女孩的广告词就变了， 250 一晚上打死不买火车票。哈哈哈，言归正传，曾老师，你应该打起精神来，不能总像个失败者。你有多久没有和女孩一起约会了？",
+        "Holder": "3",
+        "Target": "那个女孩",
+        "Aspect": "广告词",
+        "Opinion": "改变",
+        "Sentiment": "positive",
+        "Rationale": "女孩的广告词变得有趣"
+    },
+    {
+        "sentence": "134 天。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "约会间隔",
+        "Opinion": "134天",
+        "Sentiment": "neutral",
+        "Rationale": "客观地回答了问题"
+    },
+    {
+        "sentence": "可以啊， 134 天了。哈哈，曾老师，我太小看你，你不像个失败者。你就是个失败者。",
+        "Holder": "3",
+        "Target": "曾老师",
+        "Aspect": "状态",
+        "Opinion": "失败者",
+        "Sentiment": "negative",
+        "Rationale": "认为曾老师长时间没有约会"
+    },
+    {
+        "sentence": "这有什么问题？我可不买火车票。",
+        "Holder": "6",
+        "Target": "买火车票",
+        "Aspect": "购票的必要性",
+        "Opinion": "不认为有必要",
+        "Sentiment": "negative",
+        "Rationale": "觉得买火车票没有必要"
+    },
+    {
+        "sentence": "你需要个伴侣，否则你很快就丧失功能了。刚好我有个合适的人选可以介绍给你，他叫Sally，聪明、性感、奔放，更重要的是抢滩登陆价格只要498。",
+        "Holder": "3",
+        "Target": "6的单身状态",
+        "Aspect": "伴侣的必要性",
+        "Opinion": "需要伴侣",
+        "Sentiment": "positive",
+        "Rationale": "认为6需要伴侣来避免功能丧失"
+    },
+    {
+        "sentence": "你是要我跟一个花 500 块钱带回来的女生同桌吃饭，还是要我真的跟他谈情说爱",
+        "Holder": "6",
+        "Target": "3的推荐",
+        "Aspect": "推荐的合理性",
+        "Opinion": "质疑推荐",
+        "Sentiment": "negative",
+        "Rationale": "对3推荐的女生来源和动机表示怀疑"
+    },
+    {
+        "sentence": "你这是歧视别人花时间凭本事赚钱，每一分钱都见得了光，你凭什么歧视人家？有本事你把黑球打进，我就随便你。",
+        "Holder": "3",
+        "Target": "6的质疑",
+        "Aspect": "对赚钱方式的看法",
+        "Opinion": "反对歧视",
+        "Sentiment": "negative",
+        "Rationale": "认为6的质疑是对别人赚钱方式的歧视"
+    },
+    {
+        "sentence": "你说的啊",
+        "Holder": "6",
+        "Target": "3的挑战",
+        "Aspect": "挑战的接受",
+        "Opinion": "接受挑战",
+        "Sentiment": "neutral",
+        "Rationale": "接受了3的挑战"
+    }
+]

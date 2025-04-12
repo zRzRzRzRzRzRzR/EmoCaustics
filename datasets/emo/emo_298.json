@@ -1,0 +1,158 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "Gaions组织的创立与使命",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "填补LGBTQ+社区支持缺口",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "个人出柜经历与家庭排斥",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被保守家族排斥",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过公开身份推动社会可见性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "资源获取与草根行动",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "线上资源长期缺失",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "建立跨区域支持联盟",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "非二元性别身份倡导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "创造包容性工作环境",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "边缘化群体话语权",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "特权视角掩盖真实困境",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调共同体建设必要性",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "数字空间共同体构建",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "线上平台安全性不足",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "现实-虚拟身份连续性策略",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "Stonewall的历史成就",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "推动同性婚姻合法化",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "当代平权挑战",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "跨性别权利政治化",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "支持基层组织联盟",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "企业社会责任实践",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "表面支持缺乏持续性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "利用资本推动系统性变革",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "社会现状诊断与提问引导",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "平衡讨论各方观点",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "线上共同体建设探索",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "关注数字空间可行性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

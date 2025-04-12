@@ -1,0 +1,102 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "定义购买条件与辩论核心",
+        "emotions": [
+          {"state": "neutral", "reason": "明确讨论范围与买的行为定义", "source_id": "1"},
+          {"state": "positive", "reason": "论证金钱能通过间接方式改变意愿", "source_id": "1,3,5"}
+        ]
+      },
+      {
+        "event": "反驳反方局限性论点",
+        "emotions": [
+          {"state": "positive", "reason": "提出金钱可创造外在条件影响信仰与德行", "source_id": "5,7"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "质疑正方前提有效性",
+        "emotions": [
+          {"state": "negative", "reason": "指出存在性/拥有性/意愿定义漏洞", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "论证超物质价值不可购买",
+        "emotions": [
+          {"state": "negative", "reason": "列举智慧/德行/心境无法交易", "source_id": "1,3"},
+          {"state": "negative", "reason": "反驳间接购买有效性", "source_id": "5,7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "支持正方核心论证",
+        "emotions": [
+          {"state": "positive", "reason": "提出可购买他人智慧与间接获得功德", "source_id": "2"},
+          {"state": "negative", "reason": "质疑反方举例不符合存在性前提", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "批判正方逻辑矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "指出毁灭行为与购买本质差异", "source_id": "1"},
+          {"state": "neutral", "reason": "强调商品属性与计算本质矛盾", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "论证环境塑造可能性",
+        "emotions": [
+          {"state": "positive", "reason": "提出金钱可创造改变条件", "source_id": "2"},
+          {"state": "negative", "reason": "反驳自由意志绝对性", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "质疑购买必然性",
+        "emotions": [
+          {"state": "doubt", "reason": "追问外在改变内在的确定性", "source_id": "5"},
+          {"state": "negative", "reason": "指出间接购买未论证必然性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "解构反方精神追求",
+        "emotions": [
+          {"state": "positive", "reason": "论证物质基础支撑精神自由", "source_id": "8"},
+          {"state": "negative", "reason": "批判宗教观点忽视现实支持", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "论证不可交易本质",
+        "emotions": [
+          {"state": "negative", "reason": "分析道/逍遥/爱的不可复刻性", "source_id": "7"},
+          {"state": "negative", "reason": "强调机缘超越物质计算", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

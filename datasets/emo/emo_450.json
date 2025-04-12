@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "爱的本质与自由意志的辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "定义爱的非自主性", "source_id": "1"},
+          {"state": "positive", "reason": "主张使用超能力创造机会", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "超能力伦理风险分析",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑爱情转变机制", "source_id": "3"},
+          {"state": "negative", "reason": "指出超能力破坏爱情本质", "source_id": "3,8"},
+          {"state": "negative", "reason": "警告绝对权力导致腐败", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "恋爱标准与情感逻辑反驳",
+        "emotions": [
+          {"state": "positive", "reason": "论证真爱超越理性标准", "source_id": "4"},
+          {"state": "negative", "reason": "指责对方混淆概念", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "自由意志价值捍卫",
+        "emotions": [
+          {"state": "positive", "reason": "强调自由恋爱重要性", "source_id": "5"},
+          {"state": "negative", "reason": "揭露超能力反伦理本质", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "超能力机制多维度阐释",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨平行宇宙假设", "source_id": "8"},
+          {"state": "negative", "reason": "反驳精神操控指控", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑变质理论逻辑", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "极端案例伦理挑战",
+        "emotions": [
+          {"state": "ambiguous", "reason": "提出未成年关系假设", "source_id": "10"},
+          {"state": "negative", "reason": "类比辩论失去意义", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "法律边界与爱情本质辨析",
+        "emotions": [
+          {"state": "neutral", "reason": "区分法律与情感维度", "source_id": "9"},
+          {"state": "positive", "reason": "强调爱情无胜负本质", "source_id": "10"}
+        ]
+      }
+    ]
+  }
+}

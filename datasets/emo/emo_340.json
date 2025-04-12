@@ -1,0 +1,115 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭赌博债务危机",
+        "emotions": [
+          {"state": "positive", "reason": "请求原谅婶婶赌博行为", "source_id": "2"},
+          {"state": "negative", "reason": "揭露婶婶持续性失信及打牌行为", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "跨文化身份冲突",
+        "emotions": [
+          {"state": "negative", "reason": "故意曲解他人姓氏引发肢体冲突", "source_id": "4,6"},
+          {"state": "neutral", "reason": "发现录音证据引导注意力", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭信任体系崩塌",
+        "emotions": [
+          {"state": "negative", "reason": "揭露阴谋并断绝亲属关系", "source_id": "4,5,8"},
+          {"state": "positive", "reason": "成功洗清品如冤屈", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "赌博行为连锁反应",
+        "emotions": [
+          {"state": "negative", "reason": "多次赌博失信引发家庭破裂", "source_id": "3,1"},
+          {"state": "neutral", "reason": "解释敏敏智力受损原因", "source_id": "8"}
+        ]
+      },
+      {
+        "event": "家庭地位争夺",
+        "emotions": [
+          {"state": "negative", "reason": "被揭发帮助他人进入洪家", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "债务危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "追究赌博导致的资金损失", "source_id": "2"},
+          {"state": "positive", "reason": "感激他人帮助洗清冤屈", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "身份认同冲突",
+        "emotions": [
+          {"state": "negative", "reason": "姓氏被曲解引发肢体冲突", "source_id": "1,6"},
+          {"state": "neutral", "reason": "更换门锁确保隐私安全", "source_id": "7"}
+        ]
+      },
+      {
+        "event": "权力阴谋实施",
+        "emotions": [
+          {"state": "positive", "reason": "成功破坏品如家庭形象", "source_id": "5"},
+          {"state": "negative", "reason": "被揭发合谋遭到排斥", "source_id": "1,7"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "形象摧毁行动",
+        "emotions": [
+          {"state": "positive", "reason": "成功实施形象破坏计划", "source_id": "4"},
+          {"state": "negative", "reason": "被录音揭露阴谋本质", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "冲突调解者角色",
+        "emotions": [
+          {"state": "neutral", "reason": "多次尝试平息肢体冲突", "source_id": "1,4"},
+          {"state": "negative", "reason": "面部受伤引发信任危机", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "家庭成员排斥",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝接受智障亲属引发矛盾", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "阴谋揭露行动",
+        "emotions": [
+          {"state": "negative", "reason": "发现合谋陷害品如的证据", "source_id": "4,5"}
+        ]
+      }
+    ]
+  }
+}

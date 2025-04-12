@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "食物准备与责任归属争议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "为2打包食物并人肉带回",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被指责忘记打包和购买责任",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释食物状态和选择理由",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "接人态度争议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调用心接人并准备对方喜好",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑接人态度不走心",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "即时需求优先级冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "需先处理电台事务再处理饮食需求",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情绪忽视与回应需求",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "感到饥饿未被及时关注",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "认为对方优先处理非紧急事务",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "信任与真诚性质疑",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "怀疑食物开封状态",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑赞美和行为的真诚性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "节日行为认知差异",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认为圣诞节翻墙具有趣味性",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

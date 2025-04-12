@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "揭露整容女身份与戒指归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "发现戒指异常出现", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑伤口来源", "source_id": "3,5"},
+          {"state": "negative", "reason": "要求救治阿凝并威胁报复", "source_id": "2,3,4,5"}
+        ]
+      },
+      {
+        "event": "情感立场冲突与关系决裂",
+        "emotions": [
+          {"state": "negative", "reason": "质问集体施暴行为", "source_id": "2,3,4,5"},
+          {"state": "negative", "reason": "宣布报复伤害者", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "整容女身份揭露与惩罚行动",
+        "emotions": [
+          {"state": "ambiguous", "reason": "试探对戒指的态度", "source_id": "1"},
+          {"state": "negative", "reason": "主张极端惩罚手段", "source_id": "3,4,5"},
+          {"state": "ambiguous", "reason": "被要求解释时态度转变", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "情感危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "担心情感地位动摇", "source_id": "1"},
+          {"state": "positive", "reason": "试图挽回关系", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "集体施暴与立场维护",
+        "emotions": [
+          {"state": "negative", "reason": "指控整容女造成伤害", "source_id": "2"},
+          {"state": "negative", "reason": "支持曼曼姐权威", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "安全顾虑与道德批判",
+        "emotions": [
+          {"state": "negative", "reason": "担忧厉总安全", "source_id": "1"},
+          {"state": "negative", "reason": "主张严厉处置", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "外貌羞辱与群体施压",
+        "emotions": [
+          {"state": "negative", "reason": "贬低外貌价值", "source_id": "2"},
+          {"state": "negative", "reason": "强化群体排斥", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

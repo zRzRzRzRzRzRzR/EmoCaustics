@@ -1,0 +1,470 @@
+[
+    {
+        "sentence": "呦，这是什么好吃的？",
+        "Holder": "2",
+        "Target": "食物",
+        "Aspect": "食物的吸引力",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "看到好吃的食物感到好奇"
+    },
+    {
+        "sentence": "去一边去。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为感到不满"
+    },
+    {
+        "sentence": "哈哈哈，您下手太狠了，我可是您亲生的",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式回应2的不满"
+    },
+    {
+        "sentence": "我正琢磨着不想要你这亲生的呢，你这一天上哪疯玩去了？你啊学习了吗？写作业了吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "学习和作业完成情况",
+        "Opinion": "质疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "1没有按时学习和完成作业"
+    },
+    {
+        "sentence": "本来呢，我是琢磨着要学习的。",
+        "Holder": "1",
+        "Target": "自己的计划",
+        "Aspect": "学习计划",
+        "Opinion": "原本打算学习",
+        "Sentiment": "neutral",
+        "Rationale": "原本有学习的计划"
+    },
+    {
+        "sentence": "怎么忘了要学习的？合着没学？那你这一大早上起来走的比那遛鸟的老头都早，你干嘛去了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "早晨活动的合理性",
+        "Opinion": "质疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "1早起却没有学习"
+    },
+    {
+        "sentence": "今儿不是天挺好嘛。嗯，然后我们那绘画小组就说要出去写生，画那个出生的太阳",
+        "Holder": "1",
+        "Target": "自己的活动",
+        "Aspect": "外出写生的合理性",
+        "Opinion": "解释外出原因",
+        "Sentiment": "neutral",
+        "Rationale": "天气好且有绘画小组的活动"
+    },
+    {
+        "sentence": "画到日落才回来。",
+        "Holder": "2",
+        "Target": "1的活动时间",
+        "Aspect": "活动时间的长短",
+        "Opinion": "指出活动时间过长",
+        "Sentiment": "negative",
+        "Rationale": "1外出写生直到日落才回来"
+    },
+    {
+        "sentence": "本来我们是早就要回来了。嗯，可是觉得那个夕阳才无限好。",
+        "Holder": "1",
+        "Target": "夕阳",
+        "Aspect": "景色美好",
+        "Opinion": "夕阳很美",
+        "Sentiment": "positive",
+        "Rationale": "觉得夕阳景色非常美好"
+    },
+    {
+        "sentence": "就把自己弄得跟花狐狸似的，把自己的脸弄得跟花猫似的。",
+        "Holder": "2",
+        "Target": "1的外表",
+        "Aspect": "外貌状态",
+        "Opinion": "弄得很乱",
+        "Sentiment": "negative",
+        "Rationale": "看到1把自己弄得像花狐狸和花猫一样乱"
+    },
+    {
+        "sentence": "当时我是画意正浓，我就顾不了那么多了，于是我就拿起笔，刷刷刷刷刷。",
+        "Holder": "1",
+        "Target": "自己的绘画行为",
+        "Aspect": "绘画投入",
+        "Opinion": "非常投入",
+        "Sentiment": "positive",
+        "Rationale": "当时绘画的兴致非常高涨"
+    },
+    {
+        "sentence": "哎哎哎，行了行了，赶紧把这衣服脱了，给我好好刷刷，把你那花猫脸也赶紧好好刷。",
+        "Holder": "2",
+        "Target": "1的清洁状况",
+        "Aspect": "清洁需求",
+        "Opinion": "需要清理",
+        "Sentiment": "negative",
+        "Rationale": "看到1的衣服和脸都很脏"
+    },
+    {
+        "sentence": "这是创度的激情迸发出来的",
+        "Holder": "1",
+        "Target": "自己的创作状态",
+        "Aspect": "创作激情",
+        "Opinion": "激情迸发",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的创作是激情的迸发"
+    },
+    {
+        "sentence": "我告诉你刘星，你再不赶紧把这一身脏衣服给我脱了，给我好好洗洗你那脸，我可就要迸发揍你的激情了，快去。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "个人卫生",
+        "Opinion": "需要立即清洗",
+        "Sentiment": "negative",
+        "Rationale": "刘星没有及时清洗脏衣服和脸"
+    },
+    {
+        "sentence": "妈我洗完了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "完成清洗",
+        "Opinion": "已经洗完",
+        "Sentiment": "neutral",
+        "Rationale": "完成了妈妈要求的清洗任务"
+    },
+    {
+        "sentence": "我画板呢。",
+        "Holder": "1",
+        "Target": "画板",
+        "Aspect": "物品位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "需要找到画板"
+    },
+    {
+        "sentence": "写作业了吗你",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "作业完成情况",
+        "Opinion": "质疑未完成",
+        "Sentiment": "negative",
+        "Rationale": "担心刘星没有完成作业"
+    },
+    {
+        "sentence": "一会再写 ，10 分钟就写完",
+        "Holder": "1",
+        "Target": "作业",
+        "Aspect": "完成时间",
+        "Opinion": "很快完成",
+        "Sentiment": "neutral",
+        "Rationale": "相信自己能在短时间内完成作业"
+    },
+    {
+        "sentence": "就你的水平， 10 分钟能写完? 行了，你去干点正事去。",
+        "Holder": "2",
+        "Target": "1的学习能力",
+        "Aspect": "完成作业的速度",
+        "Opinion": "质疑1的能力",
+        "Sentiment": "negative",
+        "Rationale": "认为1的学习能力差，不能在10分钟内完成作业"
+    },
+    {
+        "sentence": "画画也是正事啊。",
+        "Holder": "1",
+        "Target": "画画",
+        "Aspect": "活动的正当性",
+        "Opinion": "认为画画是正事",
+        "Sentiment": "positive",
+        "Rationale": "1认为画画是有意义的活动"
+    },
+    {
+        "sentence": "那叫什么正事？我实话告诉你，刘星，你知道你妈妈小时候功课最差的一门是什么吗？美术，你爸爸在这方面也没天分，甭学这个啊。瞎耽误什么功夫啊，再说了，就你学什么有长性冬泳学过，魔术学过，你学过多少东西？哪个学长了？别闹，去写作业去。",
+        "Holder": "2",
+        "Target": "1的画画兴趣",
+        "Aspect": "兴趣的合理性",
+        "Opinion": "认为画画不是正事",
+        "Sentiment": "negative",
+        "Rationale": "认为1在画画上没有天分且浪费时间，列举了1在其他兴趣上的不持久"
+    },
+    {
+        "sentence": "这回不一样，你赶紧说你把我画板搁哪了？",
+        "Holder": "1",
+        "Target": "画板",
+        "Aspect": "物品的位置",
+        "Opinion": "急于找到画板",
+        "Sentiment": "neutral",
+        "Rationale": "1急于找到自己的画板继续画画"
+    },
+    {
+        "sentence": "你凭什么扔我画板啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "扔画板的合理性",
+        "Opinion": "不应该扔画板",
+        "Sentiment": "negative",
+        "Rationale": "自己的画板被无故扔掉"
+    },
+    {
+        "sentence": "凭什么？凭我是你妈。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "有权扔画板",
+        "Sentiment": "positive",
+        "Rationale": "认为作为母亲有权管教孩子"
+    },
+    {
+        "sentence": "哈哈哈，是是是，我妈怎么了",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份的影响",
+        "Opinion": "身份不代表可以随意扔东西",
+        "Sentiment": "neutral",
+        "Rationale": "虽然承认对方是母亲，但认为身份不应成为随意行为的理由"
+    },
+    {
+        "sentence": "是你妈就想扔什么就可以扔什么",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "有权随意处理物品",
+        "Sentiment": "positive",
+        "Rationale": "坚信作为母亲有权决定和处理孩子的物品"
+    },
+    {
+        "sentence": "你这是扼杀我那艺术之路，知道吗？你更更，更年期",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对艺术发展的影响",
+        "Opinion": "认为对方的行为阻碍了自己的艺术发展",
+        "Sentiment": "negative",
+        "Rationale": "因为觉得对方的行为不仅不合理，还影响了自己的艺术追求，所以感到愤怒和不满"
+    },
+    {
+        "sentence": "说什么呢？你再说一遍。",
+        "Holder": "2",
+        "Target": "1的话语",
+        "Aspect": "话语内容",
+        "Opinion": "要求重复",
+        "Sentiment": "neutral",
+        "Rationale": "2没有听清楚1说的话"
+    },
+    {
+        "sentence": "更年期",
+        "Holder": "1",
+        "Target": "2的状态",
+        "Aspect": "生理状态",
+        "Opinion": "认为2处于更年期",
+        "Sentiment": "negative",
+        "Rationale": "1用‘更年期’来形容2，带有贬低和嘲讽的意味"
+    },
+    {
+        "sentence": "嘿，哎，你把画板还给我，我就不说你更年期了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "归还物品",
+        "Opinion": "要求归还画板",
+        "Sentiment": "negative",
+        "Rationale": "1认为2拿走了自己的画板，并用‘更年期’作为威胁"
+    },
+    {
+        "sentence": "这谁把画板扔门口了？",
+        "Holder": "3",
+        "Target": "画板的位置",
+        "Aspect": "物品放置",
+        "Opinion": "质疑画板为何在门口",
+        "Sentiment": "neutral",
+        "Rationale": "3发现画板被扔在门口，感到疑惑"
+    },
+    {
+        "sentence": "把画板拿过来。",
+        "Holder": "2",
+        "Target": "画板",
+        "Aspect": "画板的移动",
+        "Opinion": "需要拿过来",
+        "Sentiment": "neutral",
+        "Rationale": "需要使用画板"
+    },
+    {
+        "sentence": "这怎么了？",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "情况的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚发生了什么"
+    },
+    {
+        "sentence": "你拿过来",
+        "Holder": "2",
+        "Target": "画板",
+        "Aspect": "画板的移动",
+        "Opinion": "需要拿过来",
+        "Sentiment": "neutral",
+        "Rationale": "需要使用画板"
+    },
+    {
+        "sentence": "这事别生气，我去把他叫回来。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "情绪处理",
+        "Opinion": "建议不生气",
+        "Sentiment": "positive",
+        "Rationale": "希望缓和气氛"
+    },
+    {
+        "sentence": "行啊，刘星，你跑的够快的啊，你是不是准备改名叫刘翔啊？",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "跑步速度",
+        "Opinion": "跑得快",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式夸奖刘星跑得快"
+    },
+    {
+        "sentence": "哎呦，我现在要和我妈绝交",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "关系",
+        "Opinion": "要绝交",
+        "Sentiment": "negative",
+        "Rationale": "和妈妈的关系出现了严重问题"
+    },
+    {
+        "sentence": "哎呀，我的乖女儿，有什么事情咱们回家再说。",
+        "Holder": "5",
+        "Target": "女儿",
+        "Aspect": "问题解决",
+        "Opinion": "回家再说",
+        "Sentiment": "neutral",
+        "Rationale": "试图平息情绪并建议回家解决问题"
+    },
+    {
+        "sentence": "受够了，我要和她断绝母女关系",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "关系",
+        "Opinion": "断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "对妈妈的行为或态度感到极度不满"
+    },
+    {
+        "sentence": "不好意思",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "表示歉意",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己可能做错了什么"
+    },
+    {
+        "sentence": "没关系，一样，哈哈哈。",
+        "Holder": "3",
+        "Target": "5的道歉",
+        "Aspect": "态度",
+        "Opinion": "接受并宽容",
+        "Sentiment": "positive",
+        "Rationale": "觉得5的道歉没有必要或者不在意"
+    },
+    {
+        "sentence": "哎，你也要和你妈断绝关系？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "家庭关系",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到4要和母亲断绝关系感到意外"
+    },
+    {
+        "sentence": "对，我要和他断绝母女关系，她看我干什么都不顺眼。",
+        "Holder": "4",
+        "Target": "母亲",
+        "Aspect": "态度",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "母亲对自己做什么都不满意"
+    },
+    {
+        "sentence": "对，太对了，我妈也这样，唉，你说我学魔术怎么了啊？我冬泳怎么了？我画画又怎么了？",
+        "Holder": "1",
+        "Target": "母亲",
+        "Aspect": "态度",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "母亲对自己学魔术、冬泳、画画等爱好都不理解和支持"
+    },
+    {
+        "sentence": "我偏画，我就要把我受在这种不公正的待遇，全都画到纸上。",
+        "Holder": "1",
+        "Target": "不公正的待遇",
+        "Aspect": "表达方式",
+        "Opinion": "通过绘画表达不满",
+        "Sentiment": "negative",
+        "Rationale": "受到了不公正的待遇"
+    },
+    {
+        "sentence": "支持你，让所有的人都看看我们这孩子有多惨",
+        "Holder": "4",
+        "Target": "1的绘画行为",
+        "Aspect": "支持与同情",
+        "Opinion": "支持并同情",
+        "Sentiment": "positive",
+        "Rationale": "认同1所受的不公正待遇"
+    },
+    {
+        "sentence": "说画就画",
+        "Holder": "1",
+        "Target": "自己的决定",
+        "Aspect": "行动力",
+        "Opinion": "果断行动",
+        "Sentiment": "neutral",
+        "Rationale": "决定要通过绘画表达不满"
+    },
+    {
+        "sentence": "别说，画的还挺生动。",
+        "Holder": "3",
+        "Target": "1的画作",
+        "Aspect": "绘画效果",
+        "Opinion": "生动",
+        "Sentiment": "positive",
+        "Rationale": "1的画作表现出了生动的感觉"
+    },
+    {
+        "sentence": "哈哈哈，这蛮形象的。",
+        "Holder": "5",
+        "Target": "1的画作",
+        "Aspect": "形象性",
+        "Opinion": "形象",
+        "Sentiment": "positive",
+        "Rationale": "1的画作非常形象"
+    },
+    {
+        "sentence": "哎，刘星，你准备给这三幅画起个什么名？",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "画名",
+        "Opinion": "询问画名",
+        "Sentiment": "neutral",
+        "Rationale": "3只是单纯地询问刘星对画名的想法"
+    },
+    {
+        "sentence": "那都没想过",
+        "Holder": "1",
+        "Target": "画名",
+        "Aspect": "是否有想法",
+        "Opinion": "没有想过",
+        "Sentiment": "neutral",
+        "Rationale": "1表示自己还没有考虑过画名的问题"
+    },
+    {
+        "sentence": "我给你起个名。",
+        "Holder": "3",
+        "Target": "画名",
+        "Aspect": "起名",
+        "Opinion": "愿意起名",
+        "Sentiment": "positive",
+        "Rationale": "3主动提出帮助刘星起名，表现出积极和友好的态度"
+    }
+]

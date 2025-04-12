@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "黄亦玫介入引发的感情冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "解释妹妹未明确拒绝的原因", "source_id": "2"},
+          {"state": "negative", "reason": "因安排周世辉指导妹妹导致矛盾爆发", "source_id": "2,3"},
+          {"state": "neutral", "reason": "试图阻止黄亦玫与2直接冲突", "source_id": "3,4"}
+        ]
+      },
+      {
+        "event": "职场纠纷责任归属",
+        "emotions": [
+          {"state": "negative", "reason": "被指责未妥善处理妹妹与周世辉关系", "source_id": "2"},
+          {"state": "neutral", "reason": "强调问题根源在周世辉", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "感情信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "发现未婚夫与黄亦玫暧昧关系", "source_id": "3"},
+          {"state": "negative", "reason": "被当众揭露感情隐私", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑七年感情基础的价值", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "公开冲突事件",
+        "emotions": [
+          {"state": "negative", "reason": "当众与黄亦玫肢体冲突", "source_id": "3,4"},
+          {"state": "ambiguous", "reason": "讽刺黄亦玫外貌优势", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "自我价值主张冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑介入他人感情", "source_id": "2"},
+          {"state": "positive", "reason": "主张独立自主的感情观", "source_id": "2"},
+          {"state": "neutral", "reason": "试图理性解决矛盾", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "代际观念碰撞",
+        "emotions": [
+          {"state": "negative", "reason": "母亲的不理解与暴力对待", "source_id": "4"},
+          {"state": "positive", "reason": "坚持简单直接的感情处理方式", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "危机干预处理",
+        "emotions": [
+          {"state": "neutral", "reason": "阻止黄亦玫参与冲突", "source_id": "3"},
+          {"state": "negative", "reason": "预见冲突升级后果", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

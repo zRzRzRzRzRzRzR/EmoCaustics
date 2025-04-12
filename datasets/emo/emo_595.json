@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "冲动行为的后果讨论",
+        "emotions": [
+          {"state": "negative", "reason": "强调冲动会破坏关系", "source_id": "3,5"},
+          {"state": "neutral", "reason": "总结吵闹行为的影响", "source_id": "7"},
+          {"state": "negative", "reason": "邻居大吵大闹的亲身经历", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "冷战与吵闹的比较分析",
+        "emotions": [
+          {"state": "negative", "reason": "冷战会翻旧账", "source_id": "5"},
+          {"state": "positive", "reason": "支持避免冲突的提议", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "心理脆弱性自我剖析",
+        "emotions": [
+          {"state": "negative", "reason": "需要被哄的情感需求", "source_id": "4"},
+          {"state": "negative", "reason": "亲身经历的人际困扰", "source_id": "7"},
+          {"state": "neutral", "reason": "自我认同玻璃心特质", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "话语伤害的认知冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑心理脆弱定义", "source_id": "3"},
+          {"state": "negative", "reason": "冷战消耗精力", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "第三方视角的冲突观察",
+        "emotions": [
+          {"state": "neutral", "reason": "分析话语影响力", "source_id": "3"},
+          {"state": "negative", "reason": "强调行为的社会影响", "source_id": "3,7"},
+          {"state": "positive", "reason": "获得观点认同", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "冲突解决方式探索",
+        "emotions": [
+          {"state": "negative", "reason": "冷战伤害自尊", "source_id": "4"},
+          {"state": "positive", "reason": "提出折中解决方案", "source_id": "2"},
+          {"state": "ambiguous", "reason": "吵闹可能促进和解", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "行为影响的现实考量",
+        "emotions": [
+          {"state": "negative", "reason": "吵闹行为的扰民特性", "source_id": "3"},
+          {"state": "neutral", "reason": "分析冲突反复性", "source_id": "3"},
+          {"state": "negative", "reason": "成年人的行为准则", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "情感表达方式辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "承认冷战行为", "source_id": "6"},
+          {"state": "negative", "reason": "冷战阻碍问题解决", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

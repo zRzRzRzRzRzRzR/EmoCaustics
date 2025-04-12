@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对罗淼辩论能力的担忧与反思",
+        "emotions": [
+          {"state": "negative", "reason": "担心罗淼一挑四导致队伍失败", "source_id": "1"},
+          {"state": "positive", "reason": "意识到罗淼行为反向证明其观点错误", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "批评对方观点逻辑漏洞",
+        "emotions": [
+          {"state": "negative", "reason": "指出对方推导出人类越弱越好的荒谬结论", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "超人存在价值论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调超人提供科技发展可能性", "source_id": "1"},
+          {"state": "neutral", "reason": "承认文明进步需要承受风险代价", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "超人历史贡献论证",
+        "emotions": [
+          {"state": "positive", "reason": "列举达芬奇等超人存在推动社会发展", "source_id": "2"},
+          {"state": "neutral", "reason": "说明超人属于进化必然阶段", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反对超人研究合理性",
+        "emotions": [
+          {"state": "negative", "reason": "批评将超人作为研究工具满足私欲", "source_id": "3"},
+          {"state": "positive", "reason": "提出道德-能力-智慧均衡模型", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "平凡生活价值辩护",
+        "emotions": [
+          {"state": "positive", "reason": "强调平凡生活是文明发展成果", "source_id": "3"},
+          {"state": "negative", "reason": "指出超人存在忽视普通劳动者价值", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

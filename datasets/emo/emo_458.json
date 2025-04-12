@@ -1,0 +1,85 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "反驳陈明对爱情裂痕的担忧",
+        "emotions": [
+          {"state": "negative", "reason": "反对将完美无缺作为爱情标准", "source_id": "4"},
+          {"state": "positive", "reason": "强调裂痕不影响本质美好", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "探讨真实人际关系中的裂痕",
+        "emotions": [
+          {"state": "negative", "reason": "揭示亲情必然存在矛盾", "source_id": "1"},
+          {"state": "neutral", "reason": "接受社交活动产生的摩擦", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "质疑大数据匹配机制",
+        "emotions": [
+          {"state": "negative", "reason": "技术失误导致伴侣匹配错误,道德质疑", "source_id": "3"},
+          {"state": "negative", "reason": "认为算法诱导非道德关系", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "强调责任感与珍惜",
+        "emotions": [
+          {"state": "positive", "reason": "主张守护现有幸福", "source_id": "2"},
+          {"state": "negative", "reason": "警告贪婪欲望的危害", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "解构合适与真爱的区别",
+        "emotions": [
+          {"state": "neutral", "reason": "分析历史匹配案例", "source_id": "2"},
+          {"state": "positive", "reason": "论证真爱超越理性标准", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "主张尝试匹配可能性",
+        "emotions": [
+          {"state": "positive", "reason": "相信测试能强化珍惜", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇道德性质疑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "分析约会潜在风险",
+        "emotions": [
+          {"state": "negative", "reason": "担忧信任危机蔓延", "source_id": "5"},
+          {"state": "positive", "reason": "主张主动规避伤害", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "维护爱情完整性",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑论点矛盾", "source_id": "5"},
+          {"state": "positive", "reason": "强调微小风险也应规避", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "解构现代价值观生产",
+        "emotions": [
+          {"state": "negative", "reason": "批判商业制造虚假需求", "source_id": "6"},
+          {"state": "positive", "reason": "倡导个体实践求真", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

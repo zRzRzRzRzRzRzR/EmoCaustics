@@ -1,0 +1,78 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "小雪晚归与卫生状况讨论",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑知道小雪晚归原因", "source_id": "2"},
+          {"state": "positive", "reason": "主动揭发小雪逃课", "source_id": "1"},
+          {"state": "negative", "reason": "被掐要求回答", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "天文兴趣转变与家庭互动",
+        "emotions": [
+          {"state": "positive", "reason": "幽默化解化石争议", "source_id": "2,4"},
+          {"state": "neutral", "reason": "参与房间布置讨论", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女行为监管事件",
+        "emotions": [
+          {"state": "negative", "reason": "发现小雪异常行为", "source_id": "3"},
+          {"state": "positive", "reason": "支持生物夏令营计划", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑过度关心", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "亲子关系修复行动",
+        "emotions": [
+          {"state": "positive", "reason": "主动学习天文知识", "source_id": "3"},
+          {"state": "positive", "reason": "布置星空主题房间", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "课外活动争议事件",
+        "emotions": [
+          {"state": "neutral", "reason": "解释生物夏令营目的", "source_id": "2"},
+          {"state": "negative", "reason": "被误解行为异常", "source_id": "2,4"},
+          {"state": "positive", "reason": "获得父亲支持", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "学术兴趣转型事件",
+        "emotions": [
+          {"state": "positive", "reason": "发现天文兴趣", "source_id": "1"},
+          {"state": "positive", "reason": "收到望远镜礼物", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭教育观念冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑小雪行为异常", "source_id": "2"},
+          {"state": "doubt", "reason": "怀疑逃课指控真实性", "source_id": "2"},
+          {"state": "positive", "reason": "支持孩子探索兴趣", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭生活协调事件",
+        "emotions": [
+          {"state": "negative", "reason": "处理突发饮食问题", "source_id": "1,2"},
+          {"state": "positive", "reason": "协助天文知识学习", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

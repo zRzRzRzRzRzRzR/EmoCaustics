@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "教育方式冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责2对孩子的教育方式过于宠溺，并认为其原则性缺失",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑2的家庭关系处理方式极端化",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "责任归属争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反驳2关于父母责任与个人失败关联的指控",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育态度转变",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对子女教育采取放任自流态度",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "生活态度批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指控1将人生失败归咎于原生家庭与子女",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批评1利用子女作为心理补偿工具",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

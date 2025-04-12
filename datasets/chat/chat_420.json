@@ -1,0 +1,380 @@
+[
+    {
+        "sentence": "又吃什么呀？怎么又是小黄鱼儿啊？",
+        "Holder": "1",
+        "Target": "小黄鱼",
+        "Aspect": "食物的重复性",
+        "Opinion": "不喜欢重复",
+        "Sentiment": "negative",
+        "Rationale": "连续几天都吃同样的食物"
+    },
+    {
+        "sentence": "怎么啦？",
+        "Holder": "2",
+        "Target": "1的不满",
+        "Aspect": "情绪的询问",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1为什么突然不满"
+    },
+    {
+        "sentence": "天天吃，烦不烦啊？",
+        "Holder": "1",
+        "Target": "小黄鱼",
+        "Aspect": "食物的重复性",
+        "Opinion": "非常厌烦",
+        "Sentiment": "negative",
+        "Rationale": "连续多日吃同样的食物"
+    },
+    {
+        "sentence": "小雨爱吃。",
+        "Holder": "2",
+        "Target": "小雨的喜好",
+        "Aspect": "食物的选择",
+        "Opinion": "支持小雨",
+        "Sentiment": "neutral",
+        "Rationale": "知道小雨喜欢吃小黄鱼"
+    },
+    {
+        "sentence": "那我还爱吃油焖大虾呢，怎么不给我做呀？",
+        "Holder": "1",
+        "Target": "油焖大虾",
+        "Aspect": "食物的选择",
+        "Opinion": "希望被考虑",
+        "Sentiment": "negative",
+        "Rationale": "自己的喜好没有被考虑"
+    },
+    {
+        "sentence": "那没辙，谁让他比你小呢",
+        "Holder": "2",
+        "Target": "年龄差异",
+        "Aspect": "年龄的合理性",
+        "Opinion": "无法改变",
+        "Sentiment": "neutral",
+        "Rationale": "对方的年龄比自己小是客观事实"
+    },
+    {
+        "sentence": "那小雪还比我大呢，您怎么就老给他做他最爱吃那个咸鸭蛋炒冬瓜呀。",
+        "Holder": "1",
+        "Target": "2的偏心",
+        "Aspect": "食物分配的公平性",
+        "Opinion": "不公平",
+        "Sentiment": "negative",
+        "Rationale": "觉得2总是给小雪做自己爱吃的菜，而忽略了自己"
+    },
+    {
+        "sentence": "那人家学习比你好。唉，人家即便吃了鸭蛋，人家考试也不得鸭蛋。即便是考试得鸭蛋也是俩鸭蛋一块得，前面还有一个一",
+        "Holder": "2",
+        "Target": "1的学习成绩",
+        "Aspect": "学习成绩的比较",
+        "Opinion": "小雪学习更好",
+        "Sentiment": "neutral",
+        "Rationale": "小雪的学习成绩比1好"
+    },
+    {
+        "sentence": "妈，说实话，您说我最近是不是好多了？老不看电视了",
+        "Holder": "1",
+        "Target": "自己的行为改变",
+        "Aspect": "行为的改善",
+        "Opinion": "有所进步",
+        "Sentiment": "positive",
+        "Rationale": "自己减少了看电视的时间"
+    },
+    {
+        "sentence": "改玩游戏机了",
+        "Holder": "2",
+        "Target": "1的行为改变",
+        "Aspect": "行为的替代",
+        "Opinion": "只是换了娱乐方式",
+        "Sentiment": "neutral",
+        "Rationale": "1虽然不看电视但改玩游戏机"
+    },
+    {
+        "sentence": "您这就是对我有偏见，哼，等我给您拿 100 分回来，",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "偏见",
+        "Opinion": "认为有偏见",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2对自己有偏见"
+    },
+    {
+        "sentence": "我等着，只要你拿回来一个 100 分，妈妈立刻当天给你做油焖大虾。",
+        "Holder": "2",
+        "Target": "1的成绩",
+        "Aspect": "奖励条件",
+        "Opinion": "承诺奖励",
+        "Sentiment": "positive",
+        "Rationale": "2对1的成绩有期待，并且愿意给予奖励"
+    },
+    {
+        "sentence": "你不是不爱吃吗？怎么都给拿走了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "食物偏好",
+        "Opinion": "质疑行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "2发现1的行为与自己平时的喜好不符"
+    },
+    {
+        "sentence": "平安大道垃圾箱神秘移动位，sos图案摆放令人费解。呵，有意思。刘星，你不是一天到晚喊着想做大侦探吗啊？这有个案子",
+        "Holder": "5",
+        "Target": "刘星的兴趣",
+        "Aspect": "侦探能力",
+        "Opinion": "提供机会",
+        "Sentiment": "positive",
+        "Rationale": "5发现了一个有趣的案件，认为刘星会感兴趣"
+    },
+    {
+        "sentence": "又有什么案子啊？本大侦探手到擒来",
+        "Holder": "1",
+        "Target": "案件",
+        "Aspect": "解决能力",
+        "Opinion": "自信能解决",
+        "Sentiment": "positive",
+        "Rationale": "1对自己解决案件的能力非常有信心"
+    },
+    {
+        "sentence": "看到了吗？前天夜里平安大道，几十个垃圾箱被人神秘的移位",
+        "Holder": "5",
+        "Target": "垃圾箱",
+        "Aspect": "垃圾箱的位置",
+        "Opinion": "垃圾箱被移位",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述垃圾箱被移位的事实"
+    },
+    {
+        "sentence": "那夜里垃圾箱那肯定是小偷偷走啦，卖钱去啦，卖废铁。",
+        "Holder": "1",
+        "Target": "垃圾箱",
+        "Aspect": "垃圾箱的失踪原因",
+        "Opinion": "认为是小偷偷走",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个假设，没有明显的情感倾向"
+    },
+    {
+        "sentence": "大侦探，那垃圾箱都是塑料的，没法卖废铁换钱。谢谢你好好看，看来几十个垃圾箱不但一个没少，还被人擦得干干净净。喏，有人把它摆成了 SOS 的图案。",
+        "Holder": "5",
+        "Target": "垃圾箱",
+        "Aspect": "垃圾箱的状态和摆放",
+        "Opinion": "垃圾箱被擦干净并摆成SOS图案",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述垃圾箱的现状，没有明显的情感倾向"
+    },
+    {
+        "sentence": "嗯，还给擦干净了啊。那侦查的重点就要放在外星人身上",
+        "Holder": "1",
+        "Target": "侦查重点",
+        "Aspect": "侦查的方向",
+        "Opinion": "认为应关注外星人",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个新的侦查方向，没有明显的情感倾向"
+    },
+    {
+        "sentence": "咦，什么味儿啊？",
+        "Holder": "4",
+        "Target": "气味",
+        "Aspect": "气味的性质",
+        "Opinion": "感到好奇",
+        "Sentiment": "neutral",
+        "Rationale": "闻到不熟悉的气味"
+    },
+    {
+        "sentence": "好香啊。",
+        "Holder": "2",
+        "Target": "气味",
+        "Aspect": "气味的性质",
+        "Opinion": "认为很香",
+        "Sentiment": "positive",
+        "Rationale": "闻到香味"
+    },
+    {
+        "sentence": "我怎么闻着是一股怪味儿啊。",
+        "Holder": "5",
+        "Target": "气味",
+        "Aspect": "气味的性质",
+        "Opinion": "认为有怪味",
+        "Sentiment": "negative",
+        "Rationale": "闻到不喜欢的怪味"
+    },
+    {
+        "sentence": "哎妈，你买榴莲了？",
+        "Holder": "4",
+        "Target": "榴莲",
+        "Aspect": "购买行为",
+        "Opinion": "询问是否购买",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问是否购买了榴莲"
+    },
+    {
+        "sentence": "您买榴莲了啊。",
+        "Holder": "3",
+        "Target": "榴莲",
+        "Aspect": "购买行为",
+        "Opinion": "确认购买",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认对方购买了榴莲"
+    },
+    {
+        "sentence": "你也爱吃榴莲啊？",
+        "Holder": "4",
+        "Target": "榴莲",
+        "Aspect": "喜好",
+        "Opinion": "询问喜好",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方是否也喜欢榴莲"
+    },
+    {
+        "sentence": "你要打开的话我就一头扎茶杯里，我自杀。",
+        "Holder": "1",
+        "Target": "榴莲",
+        "Aspect": "气味",
+        "Opinion": "无法忍受气味",
+        "Sentiment": "negative",
+        "Rationale": "无法忍受榴莲的气味"
+    },
+    {
+        "sentence": "榴莲是闻着香，吃着也香啊。",
+        "Holder": "4",
+        "Target": "榴莲",
+        "Aspect": "气味和口感",
+        "Opinion": "认为榴莲香",
+        "Sentiment": "positive",
+        "Rationale": "认为榴莲无论是闻起来还是吃起来都很香"
+    },
+    {
+        "sentence": "爸你管管",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为管理",
+        "Opinion": "需要管束",
+        "Sentiment": "negative",
+        "Rationale": "对4吃榴莲的行为感到不满"
+    },
+    {
+        "sentence": "吃榴莲又不犯法，你要想吃就一块吃，要不想吃就爱干嘛干嘛去。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为自由",
+        "Opinion": "支持自由选择",
+        "Sentiment": "neutral",
+        "Rationale": "认为吃榴莲是个人自由"
+    },
+    {
+        "sentence": "走，跟我出去打篮球去。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "活动邀请",
+        "Opinion": "邀请打篮球",
+        "Sentiment": "positive",
+        "Rationale": "想邀请1一起进行体育活动"
+    },
+    {
+        "sentence": "凭什么呀？",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "活动邀请的合理性",
+        "Opinion": "质疑邀请",
+        "Sentiment": "negative",
+        "Rationale": "对5突然的邀请感到不解和不满"
+    },
+    {
+        "sentence": "女士优先，快点走走走。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "礼节",
+        "Opinion": "强调女士优先",
+        "Sentiment": "positive",
+        "Rationale": "想以礼节为由说服1参与活动"
+    },
+    {
+        "sentence": "快走，快快快。",
+        "Holder": "4",
+        "Target": "行走速度",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "需要加快",
+        "Sentiment": "neutral",
+        "Rationale": "需要迅速行动"
+    },
+    {
+        "sentence": "受不了受不了受不了了。",
+        "Holder": "5",
+        "Target": "当前状况",
+        "Aspect": "忍耐极限",
+        "Opinion": "无法忍受",
+        "Sentiment": "negative",
+        "Rationale": "当前状况超出了忍耐范围"
+    },
+    {
+        "sentence": "太好了，头一次可以光明正大痛痛快快的吃榴莲嗯。",
+        "Holder": "4",
+        "Target": "吃榴莲的机会",
+        "Aspect": "行为的正当性",
+        "Opinion": "感到开心",
+        "Sentiment": "positive",
+        "Rationale": "第一次可以毫无顾忌地吃榴莲"
+    },
+    {
+        "sentence": "好吃吗？",
+        "Holder": "2",
+        "Target": "榴莲的味道",
+        "Aspect": "食物的口感",
+        "Opinion": "询问口感",
+        "Sentiment": "neutral",
+        "Rationale": "对榴莲的口感好奇"
+    },
+    {
+        "sentence": "好甜，特甜。",
+        "Holder": "4",
+        "Target": "榴莲",
+        "Aspect": "味道",
+        "Opinion": "非常甜",
+        "Sentiment": "positive",
+        "Rationale": "4觉得榴莲非常甜"
+    },
+    {
+        "sentence": "我告诉你啊。你爸爸要闻见那味，大冬天都得开窗户",
+        "Holder": "2",
+        "Target": "榴莲的气味",
+        "Aspect": "气味的强烈程度",
+        "Opinion": "气味强烈",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述榴莲气味的强烈程度"
+    },
+    {
+        "sentence": "今天太好了，今天是咱们家重要的日子，妇女翻身得解放了。",
+        "Holder": "4",
+        "Target": "今天的日子",
+        "Aspect": "重要性",
+        "Opinion": "非常重要",
+        "Sentiment": "positive",
+        "Rationale": "4认为今天是重要的日子，妇女得到了解放"
+    },
+    {
+        "sentence": "干脆咱们以后把每年的今天都当做咱们家的妇女节、妇女榴莲节，每年今天咱们俩都拼命吃榴莲，把他们轰出去。",
+        "Holder": "2",
+        "Target": "今天的庆祝方式",
+        "Aspect": "庆祝方式的创意",
+        "Opinion": "设立妇女榴莲节",
+        "Sentiment": "positive",
+        "Rationale": "2提出了一个有趣的庆祝方式"
+    },
+    {
+        "sentence": "每年才吃一次，不够够啊。今天是礼拜天哎，要不然咱每星期都吃一次怎么样啊？",
+        "Holder": "4",
+        "Target": "吃某种食物的频率",
+        "Aspect": "频率的合理性",
+        "Opinion": "希望增加频率",
+        "Sentiment": "positive",
+        "Rationale": "觉得每年只吃一次不够满足"
+    },
+    {
+        "sentence": "每星期。那你爸和刘星小雨不得疯了？",
+        "Holder": "2",
+        "Target": "4的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "认为不可行",
+        "Sentiment": "negative",
+        "Rationale": "认为每星期都吃会导致父亲和刘星小雨受不了"
+    }
+]

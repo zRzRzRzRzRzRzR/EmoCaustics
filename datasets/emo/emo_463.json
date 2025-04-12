@@ -1,0 +1,87 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程主持与环节控制",
+        "emotions": [
+          {"state": "neutral", "reason": "客观介绍辩题及规则", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "正方立论环节核心主张",
+        "emotions": [
+          {"state": "positive", "reason": "强调餐厅主营业务专享权", "source_id": "2"},
+          {"state": "negative", "reason": "质疑反方权利边界定义", "source_id": "5,6"}
+        ]
+      },
+      {
+        "event": "自由辩论阶段逻辑攻防",
+        "emotions": [
+          {"state": "neutral", "reason": "类比说明权利界限问题", "source_id": "6"},
+          {"state": "negative", "reason": "回应反方价格暴利指控", "source_id": "11"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "反方核心权利主张阐述",
+        "emotions": [
+          {"state": "positive", "reason": "强调公民基本消费权利", "source_id": "5"},
+          {"state": "negative", "reason": "指控餐厅程序不公与暴利", "source_id": "2,4"},
+          {"state": "neutral", "reason": "承认经营自主权边界", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "举证质证环节价格博弈",
+        "emotions": [
+          {"state": "negative", "reason": "揭示酒水价格差异数据", "source_id": "8"},
+          {"state": "neutral", "reason": "解释运营成本构成", "source_id": "8"},
+          {"state": "doubt", "reason": "质疑高价合理性", "source_id": "11"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "自由辩论权利边界探讨",
+        "emotions": [
+          {"state": "negative", "reason": "指控商家联合垄断", "source_id": "5"},
+          {"state": "neutral", "reason": "主张协商解决机制", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "消费者价格敏感度实证",
+        "emotions": [
+          {"state": "negative", "reason": "直接价格对比冲击", "source_id": "4"},
+          {"state": "ambiguous", "reason": "理论认同与情感矛盾", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "events": [
+      {
+        "event": "评委质询逻辑漏洞",
+        "emotions": [
+          {"state": "negative", "reason": "揭露类比逻辑缺陷", "source_id": "4"},
+          {"state": "doubt", "reason": "质疑价格合理性边界", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

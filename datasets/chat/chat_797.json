@@ -1,0 +1,290 @@
+[
+    {
+        "sentence": "我说我跟你商量一下，我哥们找我出去喝点。",
+        "Holder": "2",
+        "Target": "出去喝酒的请求",
+        "Aspect": "请求的合理性",
+        "Opinion": "希望得到同意",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到对方的同意"
+    },
+    {
+        "sentence": "你这就同意了，",
+        "Holder": "2",
+        "Target": "1的回应",
+        "Aspect": "回应的速度",
+        "Opinion": "意外",
+        "Sentiment": "ambiguous",
+        "Rationale": "没想到对方会这么快同意"
+    },
+    {
+        "sentence": "不是你都没问我跟谁喝，",
+        "Holder": "2",
+        "Target": "1的询问",
+        "Aspect": "询问的完整性",
+        "Opinion": "没有问清楚",
+        "Sentiment": "negative",
+        "Rationale": "1没有问清楚跟谁喝酒"
+    },
+    {
+        "sentence": "你不说你跟你哥们吗？",
+        "Holder": "1",
+        "Target": "2的陈述",
+        "Aspect": "陈述的准确性",
+        "Opinion": "已经说过",
+        "Sentiment": "positive",
+        "Rationale": "认为2已经说过是跟哥们喝酒"
+    },
+    {
+        "sentence": "情侣之间要有足够的信任，",
+        "Holder": "1",
+        "Target": "情侣关系",
+        "Aspect": "信任的重要性",
+        "Opinion": "需要信任",
+        "Sentiment": "positive",
+        "Rationale": "强调情侣之间需要信任"
+    },
+    {
+        "sentence": "不是都这么晚了，你这就让我去了，",
+        "Holder": "2",
+        "Target": "1的允许",
+        "Aspect": "时间的合理性",
+        "Opinion": "时间太晚",
+        "Sentiment": "negative",
+        "Rationale": "觉得时间已经很晚了还被要求去"
+    },
+    {
+        "sentence": "你看咱俩天天在一起，你跟你哥们多长时间见一回，处对象不能忘了哥们，",
+        "Holder": "1",
+        "Target": "2的社交",
+        "Aspect": "社交的平衡",
+        "Opinion": "需要兼顾朋友",
+        "Sentiment": "positive",
+        "Rationale": "认为处对象的同时也不能忽略朋友"
+    },
+    {
+        "sentence": "好好聚一聚怎么这么痛快，我喝过酒了，摔东西呢是不是要吵一架，我靠。",
+        "Holder": "2",
+        "Target": "聚会情况",
+        "Aspect": "聚会的愉快程度",
+        "Opinion": "不痛快",
+        "Sentiment": "negative",
+        "Rationale": "聚会过程中出现了摔东西的情况，感觉气氛紧张"
+    },
+    {
+        "sentence": "这套挺帅",
+        "Holder": "1",
+        "Target": "2的穿着",
+        "Aspect": "外观",
+        "Opinion": "帅气",
+        "Sentiment": "positive",
+        "Rationale": "看到2的穿着打扮很帅气"
+    },
+    {
+        "sentence": "不是你给我找衣服，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "找衣服的主动性",
+        "Opinion": "不是1主动找的",
+        "Sentiment": "neutral",
+        "Rationale": "衣服不是1主动找的"
+    },
+    {
+        "sentence": "你出去玩不得收拾帅点吗？",
+        "Holder": "1",
+        "Target": "2的外出准备",
+        "Aspect": "外表打扮",
+        "Opinion": "应该收拾帅气",
+        "Sentiment": "positive",
+        "Rationale": "认为出去玩应该打扮得帅气"
+    },
+    {
+        "sentence": "不是也没有女的，我跟我哥们喝酒",
+        "Holder": "2",
+        "Target": "聚会对象",
+        "Aspect": "聚会性质",
+        "Opinion": "只有男性朋友",
+        "Sentiment": "neutral",
+        "Rationale": "聚会只有男性朋友，没有女性"
+    },
+    {
+        "sentence": "别的桌没有女的吗？",
+        "Holder": "1",
+        "Target": "别的桌的女性",
+        "Aspect": "是否存在",
+        "Opinion": "质疑存在",
+        "Sentiment": "neutral",
+        "Rationale": "询问别的桌是否有女性"
+    },
+    {
+        "sentence": "别人桌女的看着你穿成这样，我多没面子，",
+        "Holder": "1",
+        "Target": "说话人2的穿着",
+        "Aspect": "穿着得体与否",
+        "Opinion": "认为不得体",
+        "Sentiment": "negative",
+        "Rationale": "觉得说话人2的穿着在别人面前让自己丢面子"
+    },
+    {
+        "sentence": "咱买香水。",
+        "Holder": "1",
+        "Target": "购买香水",
+        "Aspect": "改善形象",
+        "Opinion": "建议购买",
+        "Sentiment": "positive",
+        "Rationale": "希望通过买香水改善形象"
+    },
+    {
+        "sentence": "我就不说不想说给我转钱干啥",
+        "Holder": "2",
+        "Target": "转钱的目的",
+        "Aspect": "转钱的合理性",
+        "Opinion": "不想说明",
+        "Sentiment": "negative",
+        "Rationale": "不想解释转钱的原因"
+    },
+    {
+        "sentence": "你还能光喝酒，喝完酒直接跟哥们在洗浴住了，",
+        "Holder": "1",
+        "Target": "说话人2的行为",
+        "Aspect": "喝酒后的安排",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得说话人2只顾喝酒且不回家住不合理"
+    },
+    {
+        "sentence": "我还回来我不在这住，",
+        "Holder": "2",
+        "Target": "自己的住宿安排",
+        "Aspect": "是否在外住宿",
+        "Opinion": "否认在外住宿",
+        "Sentiment": "neutral",
+        "Rationale": "澄清自己不会在外住宿"
+    },
+    {
+        "sentence": "好不容易聚一回，你能别那么扫兴，不行。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "聚会的氛围",
+        "Opinion": "认为2扫兴",
+        "Sentiment": "negative",
+        "Rationale": "难得聚会一次，2的行为让1觉得扫兴"
+    },
+    {
+        "sentence": "我到地方给你录视频，",
+        "Holder": "2",
+        "Target": "录视频的行为",
+        "Aspect": "行为的目的",
+        "Opinion": "录视频报备",
+        "Sentiment": "neutral",
+        "Rationale": "2只是提到要录视频，没有表现出明显的情感"
+    },
+    {
+        "sentence": "我就怕你给我录视频报备，我把你微信都给你删了，别整像妻管严似的，喝完酒咱俩再拉回来对吧。",
+        "Holder": "1",
+        "Target": "2的录视频行为",
+        "Aspect": "行为的控制性",
+        "Opinion": "反对录视频报备",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2录视频报备像妻管严，感到被控制"
+    },
+    {
+        "sentence": "肯定分。",
+        "Holder": "1",
+        "Target": "与2的关系",
+        "Aspect": "关系的稳定性",
+        "Opinion": "认为会分手",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的行为让关系不稳定"
+    },
+    {
+        "sentence": "谁什么分了。",
+        "Holder": "2",
+        "Target": "1的分手言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "质疑分手的说法",
+        "Sentiment": "negative",
+        "Rationale": "2对1的分手言论感到不解和不满"
+    },
+    {
+        "sentence": "我外卖点了面条，人家问我汤和面分开过，",
+        "Holder": "1",
+        "Target": "外卖服务",
+        "Aspect": "汤面分离的询问",
+        "Opinion": "被询问",
+        "Sentiment": "neutral",
+        "Rationale": "外卖服务人员询问是否需要汤和面分开"
+    },
+    {
+        "sentence": "我以为买车分期。",
+        "Holder": "2",
+        "Target": "买车",
+        "Aspect": "分期付款的理解",
+        "Opinion": "误解为买车分期",
+        "Sentiment": "ambiguous",
+        "Rationale": "将外卖服务中的汤面分离误解为买车分期"
+    },
+    {
+        "sentence": "快走吧，一会迟到了",
+        "Holder": "1",
+        "Target": "时间",
+        "Aspect": "赶时间的紧迫性",
+        "Opinion": "需要快走",
+        "Sentiment": "negative",
+        "Rationale": "担心会迟到"
+    },
+    {
+        "sentence": "哭了是不是哭了？甄嬛哭了。",
+        "Holder": "2",
+        "Target": "甄嬛",
+        "Aspect": "情绪状态",
+        "Opinion": "哭了",
+        "Sentiment": "negative",
+        "Rationale": "提到甄嬛哭了"
+    },
+    {
+        "sentence": "你咋还没走，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行动的迟缓",
+        "Opinion": "还没走",
+        "Sentiment": "negative",
+        "Rationale": "对方还没有离开"
+    },
+    {
+        "sentence": "我先回来，反正我先走走了。不对劲，10分有12分不对劲",
+        "Holder": "1",
+        "Target": "自己的状态",
+        "Aspect": "感觉和情绪",
+        "Opinion": "感觉不对劲",
+        "Sentiment": "negative",
+        "Rationale": "感到十分不对劲，超出了正常的程度"
+    },
+    {
+        "sentence": "你咋回来了，",
+        "Holder": "2",
+        "Target": "1的回来",
+        "Aspect": "行为合理性",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1突然回来的行为感到不解"
+    },
+    {
+        "sentence": "钱我退你了，我今天哪也不去就在家陪你。",
+        "Holder": "1",
+        "Target": "2的计划",
+        "Aspect": "陪伴和改变计划",
+        "Opinion": "决定陪伴",
+        "Sentiment": "positive",
+        "Rationale": "决定退款并陪伴2"
+    },
+    {
+        "sentence": "少来这套不去不去。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "行动指令的合理性",
+        "Opinion": "拒绝去",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的要求不合理或不情愿去"
+    }
+]

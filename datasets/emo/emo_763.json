@@ -1,0 +1,40 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "方案可行性争议",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "认可方案突破性但质疑经济环境下的客户接受度",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "表达与朔总合作的荣幸感",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "方案价值辩论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观评价提案缺乏突出亮点",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调激进方案的历史成功概率",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "帮助老奶奶引发的家庭矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "询问老奶奶身份和位置", "source_id": "2"},
+          {"state": "neutral", "reason": "限制帮助行为并施加压力", "source_id": "2"},
+          {"state": "neutral", "reason": "支持做好事但要求参与", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭成员信任危机",
+        "emotions": [
+          {"state": "neutral", "reason": "处理子女间告密行为", "source_id": "2,4"},
+          {"state": "negative", "reason": "对子女沟通态度不满", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "秘密帮助老奶奶事件",
+        "emotions": [
+          {"state": "positive", "reason": "肯定助人行为价值", "source_id": "1"},
+          {"state": "negative", "reason": "被家人限制和质疑", "source_id": "1,4"},
+          {"state": "negative", "reason": "与姐姐发生信任冲突", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "宠物猫身份揭示事件",
+        "emotions": [
+          {"state": "neutral", "reason": "解释猫的年龄性别特征", "source_id": "1"},
+          {"state": "negative", "reason": "限制妹妹接触宠物", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "子女沟通障碍事件",
+        "emotions": [
+          {"state": "negative", "reason": "被女儿拒绝交流", "source_id": "4"},
+          {"state": "negative", "reason": "对子女态度失望", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭信任破裂事件",
+        "emotions": [
+          {"state": "negative", "reason": "认为姐姐背叛信任", "source_id": "2"},
+          {"state": "negative", "reason": "与母亲产生隔阂", "source_id": "3"},
+          {"state": "positive", "reason": "承诺行为改进", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "宠物接触权争议",
+        "emotions": [
+          {"state": "positive", "reason": "欣赏宠物外貌", "source_id": "2"},
+          {"state": "negative", "reason": "被剥夺接触权利", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

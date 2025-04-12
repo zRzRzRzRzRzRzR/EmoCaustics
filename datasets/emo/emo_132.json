@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "国际中文教育的学科发展与挑战",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调中文加职业技能、教育神经科学等新进展带来的学科活力",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观分析本科生/研究生人才培养规模与布局需求",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出中文+职业技能对学科内涵外延的挑战及数据科学应用难题",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "数字化转型与数字生态构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用联合国数字化学习门户行动倡议的三大核心任务",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "阐述数字生态逐步形成过程及亚马逊等实例验证",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出高校研究在成果产品化推广环节的系统性缺失",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "工程思维的教育应用探索",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证工程思维推动交叉学科形成的创新价值",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解析需求分析-原型设计-系统开发的完整工程流程",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示软件开发重技术轻管理的普遍失衡现象",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过五源知识链实现文化-科技-产业闭环的突破性认知",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

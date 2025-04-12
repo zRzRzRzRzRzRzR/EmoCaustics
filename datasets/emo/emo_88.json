@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭地位与财务安排谈判",
+        "emotions": [
+          {"state": "neutral", "reason": "主张家庭地位和财务自由", "source_id": "1"},
+          {"state": "positive", "reason": "获得超额零花钱承诺", "source_id": "2"},
+          {"state": "negative", "reason": "健康餐被取消的惩罚", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家务掌控权争议",
+        "emotions": [
+          {"state": "neutral", "reason": "要求完全掌控家务", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑决策标准", "source_id": "2"},
+          {"state": "negative", "reason": "坚持反向执行家务顺序", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "外出饮酒计划冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "提出在家饮酒替代方案", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑晚归时间", "source_id": "2"},
+          {"state": "neutral", "reason": "要求延长饮酒时间", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭决策权争夺",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑大事小事划分标准", "source_id": "1"},
+          {"state": "negative", "reason": "遭遇决策权压制", "source_id": "1"},
+          {"state": "positive", "reason": "获得娱乐补偿承诺", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "日常行为对抗",
+        "emotions": [
+          {"state": "negative", "reason": "被强制改变饮酒计划", "source_id": "1"},
+          {"state": "positive", "reason": "成功实施行为挑衅", "source_id": "1"},
+          {"state": "neutral", "reason": "接受行为界限界定", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

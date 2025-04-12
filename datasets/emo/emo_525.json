@@ -1,0 +1,61 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "合作价值的多维度讨论",
+        "emotions": [
+          {"state": "positive", "reason": "强调跨学科合作对学术发展的必要性", "source_id": "3,4"},
+          {"state": "neutral", "reason": "提出挑战与机会的平衡问题", "source_id": "2"},
+          {"state": "positive", "reason": "总结合作能力提升方法论", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "团队合作模式转型压力",
+        "emotions": [
+          {"state": "positive", "reason": "认可科研团队协作必要性", "source_id": "1"},
+          {"state": "negative", "reason": "面临跨学科知识重构压力", "source_id": "3"},
+          {"state": "neutral", "reason": "提出沟通效率优化方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "跨学科协同创新困境",
+        "emotions": [
+          {"state": "negative", "reason": "数学理论转化与工程应用的双重障碍", "source_id": "2,4"},
+          {"state": "neutral", "reason": "提出学科语言翻译解决方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "科研协作系统构建",
+        "emotions": [
+          {"state": "negative", "reason": "知识产权分配机制不完善", "source_id": "5"},
+          {"state": "positive", "reason": "设计团队信任强化策略", "source_id": "1"},
+          {"state": "neutral", "reason": "制定矛盾协调标准流程", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "合作伙伴筛选机制",
+        "emotions": [
+          {"state": "positive", "reason": "强调能力互补优于单一强度", "source_id": "2"},
+          {"state": "negative", "reason": "研究生目标定位模糊性问题", "source_id": "1"},
+          {"state": "neutral", "reason": "构建团队决策冲突解决模型", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

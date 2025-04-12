@@ -1,0 +1,335 @@
+[
+    {
+        "sentence": "哎？你这进来怎么不敲门啊？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "进门的方式",
+        "Opinion": "不礼貌",
+        "Sentiment": "negative",
+        "Rationale": "3没有敲门就进来"
+    },
+    {
+        "sentence": "我告诉你，我今天不是以下属的身份在跟你说话，我是以高文彦的身份在跟你讲。",
+        "Holder": "3",
+        "Target": "自己的身份",
+        "Aspect": "对话的身份立场",
+        "Opinion": "强调个人身份",
+        "Sentiment": "neutral",
+        "Rationale": "3想强调自己不是以下属身份说话"
+    },
+    {
+        "sentence": "今天这是怎么了？好，你说，什么事？",
+        "Holder": "1",
+        "Target": "3的态度",
+        "Aspect": "行为的合理性",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "1对3突然改变的态度感到不解"
+    },
+    {
+        "sentence": "你这个混蛋，你到底有没有真心？家庭破碎过一次，你又再婚，你现在怎么还在拈花惹草？我警告你啊，你以后不准再接近高珊珊了。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对家庭和感情的态度",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "1在家庭和感情上的行为让3感到愤怒"
+    },
+    {
+        "sentence": "回来，把话给我说清楚了，你跟高珊珊什么关系？你不会也喜欢她吧。",
+        "Holder": "1",
+        "Target": "3与高珊珊的关系",
+        "Aspect": "关系的性质",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "1对3的指责感到疑惑且怀疑3的动机"
+    },
+    {
+        "sentence": "反正你给我听好了，如果你要是再靠近他的话，我绝不会放过你。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "接近某人的行为",
+        "Opinion": "不允许接近",
+        "Sentiment": "negative",
+        "Rationale": "3认为1接近某人是不对的"
+    },
+    {
+        "sentence": "不放过我？你可能还不知道，他已经是我的女人了。",
+        "Holder": "1",
+        "Target": "3的威胁",
+        "Aspect": "威胁的合理性",
+        "Opinion": "反驳威胁",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的威胁不合理，并且强调某人是自己的女人"
+    },
+    {
+        "sentence": "你这个混蛋！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "人格评价",
+        "Opinion": "贬低对方",
+        "Sentiment": "negative",
+        "Rationale": "1宣称某人是自己的女人，触怒了3"
+    },
+    {
+        "sentence": "啊！住手！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "暴力行为",
+        "Opinion": "制止暴力",
+        "Sentiment": "negative",
+        "Rationale": "2看到3可能要对1采取暴力行为"
+    },
+    {
+        "sentence": "你怎么来了？你给我让开。",
+        "Holder": "3",
+        "Target": "2的出现",
+        "Aspect": "出现的时机",
+        "Opinion": "不满对方出现",
+        "Sentiment": "negative",
+        "Rationale": "3认为2的出现打断了他的行为"
+    },
+    {
+        "sentence": "你为什么打他？是谁让你动手的？我不是说过吗？我是真心爱他，就算哥哥再怎么反对，我也不会改变心意的。所以请你回家吧。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "动手打人的原因",
+        "Opinion": "不应该打人",
+        "Sentiment": "negative",
+        "Rationale": "1打了2所爱的人，并且没有合理的理由"
+    },
+    {
+        "sentence": "啊？等会等会，你叫他什么？大哥？",
+        "Holder": "1",
+        "Target": "2的称呼",
+        "Aspect": "称呼的准确性",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的称呼感到意外和不解"
+    },
+    {
+        "sentence": "我来介绍一下，他是我哥哥高文彦。",
+        "Holder": "2",
+        "Target": "高文彦的身份",
+        "Aspect": "身份介绍",
+        "Opinion": "明确身份",
+        "Sentiment": "neutral",
+        "Rationale": "2在介绍高文彦的身份"
+    },
+    {
+        "sentence": "高珊珊，高文彦。他是你亲大哥啊？",
+        "Holder": "1",
+        "Target": "高文彦与2的关系",
+        "Aspect": "亲属关系",
+        "Opinion": "确认关系",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认高文彦与2的亲属关系"
+    },
+    {
+        "sentence": "是啊。本来应该好好介绍你们认识的，没想到今天会在这里碰面。哥，对不起，我有话要跟世贤说，你先回家等我，我们回家再谈吧。",
+        "Holder": "2",
+        "Target": "高文彦",
+        "Aspect": "见面和对话的安排",
+        "Opinion": "道歉并安排回家再谈",
+        "Sentiment": "neutral",
+        "Rationale": "2对意外碰面表示歉意，并安排回家再谈"
+    },
+    {
+        "sentence": "怎会有这么，这么蹊跷的事情。",
+        "Holder": "1",
+        "Target": "事情",
+        "Aspect": "事情的合理性",
+        "Opinion": "蹊跷",
+        "Sentiment": "ambiguous",
+        "Rationale": "事情出乎意料且难以理解"
+    },
+    {
+        "sentence": "大哥，你叫我大哥？我在你心里面就这么微不足道吗？你已经占据我整颗心了，你却叫我大哥。",
+        "Holder": "3",
+        "Target": "1的称呼",
+        "Aspect": "称呼的亲密度",
+        "Opinion": "感到被轻视",
+        "Sentiment": "negative",
+        "Rationale": "被称呼为大哥而不是更亲密的称呼"
+    },
+    {
+        "sentence": "他竟然是你哥，真是没想到啊，天下实在是太小了。",
+        "Holder": "1",
+        "Target": "3的身份",
+        "Aspect": "身份的意外性",
+        "Opinion": "意外",
+        "Sentiment": "ambiguous",
+        "Rationale": "意外发现3是自己的哥哥"
+    },
+    {
+        "sentence": "听说你们两个人一直相处的不太愉快，希望你们以后为了我能好好相处，拜托你了。我哥虽然有点固执，不过他心地很善良，是一个好人。",
+        "Holder": "2",
+        "Target": "1和3的关系",
+        "Aspect": "关系的和谐度",
+        "Opinion": "希望改善",
+        "Sentiment": "positive",
+        "Rationale": "希望1和3能为了自己好好相处"
+    },
+    {
+        "sentence": "好人？那当然了。人是不错，工作也很努力，也很认真，心地也很善良。哎，对了，珊珊，我想问问你啊。昨天晚上我只记得咱们俩一块喝酒，后来怎么回事啊？",
+        "Holder": "1",
+        "Target": "3的性格",
+        "Aspect": "性格的评价",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "对3的性格和工作态度给予了正面评价"
+    },
+    {
+        "sentence": "真的都不记得了吗？那可是世贤你第一次抱我，你怎么会什么都不记得呢？我听到你这么说，心里好难过。",
+        "Holder": "2",
+        "Target": "世贤的记忆",
+        "Aspect": "对重要事件的记忆",
+        "Opinion": "应该记得",
+        "Sentiment": "negative",
+        "Rationale": "世贤忘记了第一次抱自己的重要时刻"
+    },
+    {
+        "sentence": "是吗？天哪，我怎么一点印象都没有啊，我没喝多少酒啊，怎么什么都想不起来了。我就记着好像我老婆跑来了。可他手机里怎么会有我的照片呢？是谁传上去的呢？不会是你传上去的吧？",
+        "Holder": "1",
+        "Target": "自己的记忆",
+        "Aspect": "对事件的回忆",
+        "Opinion": "完全不记得",
+        "Sentiment": "negative",
+        "Rationale": "自己完全不记得重要事件"
+    },
+    {
+        "sentence": "啊，是你说要留作纪念才让我拍下来的，是你亲自传给艾莉的。您还一直说如果要离婚的话，就彻底断了感情。",
+        "Holder": "2",
+        "Target": "照片的来源",
+        "Aspect": "照片的拍摄和传递",
+        "Opinion": "是世贤的要求",
+        "Sentiment": "neutral",
+        "Rationale": "解释了照片的来源和传递过程"
+    },
+    {
+        "sentence": "昨天的事情真的不记得了吗？难道？你向我求婚，我们说要结婚的事你都忘了吗？",
+        "Holder": "2",
+        "Target": "世贤的记忆",
+        "Aspect": "对求婚和结婚计划的记忆",
+        "Opinion": "应该记得",
+        "Sentiment": "negative",
+        "Rationale": "世贤忘记了求婚和结婚的重要计划"
+    },
+    {
+        "sentence": "不会吧，我说我要跟你结婚？我老婆就算是再不好，我应该也不会说出这样的话吧。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "言语的合理性",
+        "Opinion": "不会说出这样的话",
+        "Sentiment": "negative",
+        "Rationale": "认为自己不可能说出要跟别人结婚的话"
+    },
+    {
+        "sentence": "我们家现在乱成了一团，干脆随便找个人相亲结婚算了。",
+        "Holder": "2",
+        "Target": "家庭状况",
+        "Aspect": "家庭混乱的处理方式",
+        "Opinion": "随便相亲结婚",
+        "Sentiment": "negative",
+        "Rationale": "家庭混乱到无法收拾"
+    },
+    {
+        "sentence": "相亲结婚？姗珊，像你这么重感情的人，你怎么可能找一个你不爱而且又不相识的男人结婚呢？别逗了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "相亲结婚的合理性",
+        "Opinion": "不可能随便结婚",
+        "Sentiment": "negative",
+        "Rationale": "认为2是一个重感情的人，不可能随便找一个不爱且不相识的人结婚"
+    },
+    {
+        "sentence": "不然怎么办呢？以我妈妈的个性又怎么能这么算了呢？她说不定还会告你呢。",
+        "Holder": "2",
+        "Target": "妈妈",
+        "Aspect": "妈妈的个性",
+        "Opinion": "妈妈不会轻易罢休",
+        "Sentiment": "negative",
+        "Rationale": "了解妈妈的个性，知道她不会轻易放过这件事"
+    },
+    {
+        "sentence": "世贤，你为什么不看着我，有什么事吗？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "眼神交流",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "1没有看着2"
+    },
+    {
+        "sentence": "珊珊，咱们还是暂时分开一段时间吧。",
+        "Holder": "1",
+        "Target": "两人的关系",
+        "Aspect": "关系的持续性",
+        "Opinion": "建议分开",
+        "Sentiment": "negative",
+        "Rationale": "1觉得离婚的事情太大，无法承担"
+    },
+    {
+        "sentence": "为什么？是因为爱丽吗？因为怕老婆，所以要跟我分手是吗？",
+        "Holder": "2",
+        "Target": "1的分手原因",
+        "Aspect": "分手动机",
+        "Opinion": "怀疑是因第三者",
+        "Sentiment": "negative",
+        "Rationale": "2认为1是怕老婆和第三者的原因提出分手"
+    },
+    {
+        "sentence": "我虽然很喜欢你，但是离婚这件事情实在是太大了，你知道我上有老下有小，太不容易了，我总不能因为爱情把什么都抛之脑后，我希望你能理解我。",
+        "Holder": "1",
+        "Target": "自己的处境",
+        "Aspect": "家庭责任与爱情的选择",
+        "Opinion": "难以抉择",
+        "Sentiment": "negative",
+        "Rationale": "1面临家庭责任和爱情的冲突，感到无奈和痛苦"
+    },
+    {
+        "sentence": "那你对我的爱只是小孩子玩的游戏吗？两只脚稳稳的踏在自己的家里，嘴巴却一直说爱我，都只是甜言蜜语吗？既然要分手，为什么还带我开房间呢？我那天说我怕你老婆所以说要离开你，你为什么要拦着我？",
+        "Holder": "2",
+        "Target": "1的爱情表达",
+        "Aspect": "爱情的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的行为和言语不一致，感到被欺骗和愤怒"
+    },
+    {
+        "sentence": "姗珊，你小点声，你先冷静冷静，你听我说。我爸对我一直很失望，但是他现在交给我一个过十亿的工程，我知道他的用意，在这个节骨眼上，我真的不愿意让他失望。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望2冷静",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能冷静听他解释"
+    },
+    {
+        "sentence": "那么，你的意思是，要和我结束是吗？好，既然你已经决定了，那我能怎么办呢？那好，我依你。",
+        "Holder": "2",
+        "Target": "1的决定",
+        "Aspect": "关系的维持",
+        "Opinion": "无奈接受",
+        "Sentiment": "negative",
+        "Rationale": "2误以为1要结束关系"
+    },
+    {
+        "sentence": "珊珊，你先坐下，我有话跟你说，我没说要跟你分手，只是现在非常时期，我要心工作，希望你能理解我。等过了这段日子，我们还可以在一起。",
+        "Holder": "1",
+        "Target": "2的理解",
+        "Aspect": "工作与关系的平衡",
+        "Opinion": "希望得到理解",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能理解他的工作压力"
+    },
+    {
+        "sentence": "对不起，我要拒绝。我祝福你跟你老婆有个幸福美满的家庭，再见。",
+        "Holder": "2",
+        "Target": "1的请求",
+        "Aspect": "关系的未来",
+        "Opinion": "拒绝继续",
+        "Sentiment": "negative",
+        "Rationale": "2认为1已经有了家庭"
+    }
+]

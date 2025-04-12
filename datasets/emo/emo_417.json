@@ -1,0 +1,72 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "文物归属与来源的质疑",
+        "emotions": [
+          {"state": "doubt", "reason": "对文物再获取可能性存疑", "source_id": "2"},
+          {"state": "neutral", "reason": "描述文物获取地点特征", "source_id": "2"},
+          {"state": "positive", "reason": "确认瓶子非他人私藏", "source_id": "2,4"}
+        ]
+      },
+      {
+        "event": "绘画创作的条件与冲突",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝画作赠送请求", "source_id": "4"},
+          {"state": "neutral", "reason": "提出照片替代方案", "source_id": "4"},
+          {"state": "positive", "reason": "接受共同发现考古线索", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "艺术创作的权益博弈",
+        "emotions": [
+          {"state": "negative", "reason": "被迫接受模特要求", "source_id": "4"},
+          {"state": "neutral", "reason": "提出创作条件", "source_id": "4"},
+          {"state": "negative", "reason": "被质疑创作要求合理性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "考古线索的价值认知",
+        "emotions": [
+          {"state": "doubt", "reason": "怀疑瓶子来源合法性", "source_id": "1,4"},
+          {"state": "neutral", "reason": "确认考古发现潜在价值", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "信息获取的策略性互动",
+        "emotions": [
+          {"state": "negative", "reason": "对话对象不符预期", "source_id": "1"},
+          {"state": "positive", "reason": "预判对方接受条件", "source_id": "2"},
+          {"state": "neutral", "reason": "采用迂回方式获取线索", "source_id": "1,2"}
+        ]
+      },
+      {
+        "event": "艺术合作的立场转变",
+        "emotions": [
+          {"state": "positive", "reason": "认可画作质量", "source_id": "2"},
+          {"state": "negative", "reason": "遭遇创作理念冲突", "source_id": "2"},
+          {"state": "neutral", "reason": "接受折中合作方案", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "物品归属的最终确认",
+        "emotions": [
+          {"state": "positive", "reason": "确认文物合法来源", "source_id": "1"},
+          {"state": "neutral", "reason": "澄清信息获取动机", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

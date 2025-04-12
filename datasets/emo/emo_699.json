@@ -1,0 +1,53 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "调料水分享争议",
+        "emotions": [
+          {"state": "positive", "reason": "主动分享调料水及泡椒", "source_id": "2"},
+          {"state": "neutral", "reason": "解释调料水为汤的性质", "source_id": "2"},
+          {"state": "negative", "reason": "被拒绝且被指责不礼貌", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "食物分配与剩饭争论",
+        "emotions": [
+          {"state": "negative", "reason": "认为自己长期处理剩饭", "source_id": "2"},
+          {"state": "neutral", "reason": "接受2后来的食物分配", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "排练催促与直播争执",
+        "emotions": [
+          {"state": "negative", "reason": "被多次催促排练感到无奈", "source_id": "2"},
+          {"state": "negative", "reason": "直播争执中被要求道歉", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "拒绝调料水并质疑分享方式",
+        "emotions": [
+          {"state": "negative", "reason": "明确拒绝剩余调料水", "source_id": "1"},
+          {"state": "negative", "reason": "认为分享方式不尊重自己", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "食物分配责任归属争论",
+        "emotions": [
+          {"state": "positive", "reason": "承诺优先分配食物", "source_id": "1"},
+          {"state": "negative", "reason": "承诺被否认且被翻旧账", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "直播互动冲突",
+        "emotions": [
+          {"state": "positive", "reason": "担忧排练进度而催促", "source_id": "1"},
+          {"state": "negative", "reason": "被指责破坏直播形象", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

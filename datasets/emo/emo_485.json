@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭绘画创作与情感交流",
+        "emotions": [
+          {"state": "positive", "reason": "提出更年期妈妈主题获得认同", "source_id": "2"},
+          {"state": "neutral", "reason": "指出画作完整性缺失", "source_id": "1"},
+          {"state": "negative", "reason": "被误认为擅自发表画作", "source_id": "2"},
+          {"state": "positive", "reason": "通过证据确认第三方责任人", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭教育观念冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "解释母亲批评背后的心理压力", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑在母亲面前掩饰真相", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "艺术创作成果的突破",
+        "emotions": [
+          {"state": "positive", "reason": "画作命名建议被高度认可", "source_id": "1"},
+          {"state": "neutral", "reason": "意识到主题完整性不足", "source_id": "1"},
+          {"state": "negative", "reason": "被父亲质疑画作真实性", "source_id": "1"},
+          {"state": "positive", "reason": "确认画作被权威机构发表", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭关系认知转变",
+        "emotions": [
+          {"state": "negative", "reason": "不理解母亲批评行为", "source_id": "3"},
+          {"state": "neutral", "reason": "接受父亲对母亲心理的解释", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "旁观家庭互动与评价",
+        "emotions": [
+          {"state": "neutral", "reason": "观察绘画创作过程", "source_id": "1"},
+          {"state": "positive", "reason": "赞赏解决问题的智慧", "source_id": "1"},
+          {"state": "positive", "reason": "礼貌结束互动场景", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "信息传递与事实确认",
+        "emotions": [
+          {"state": "neutral", "reason": "转交关键信件", "source_id": "2"},
+          {"state": "negative", "reason": "质疑他人梦想的现实性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "理想与现实的冲突",
+        "emotions": [
+          {"state": "positive", "reason": "分享获奖梦境", "source_id": "2"},
+          {"state": "negative", "reason": "创作过程被打断", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

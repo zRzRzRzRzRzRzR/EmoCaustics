@@ -1,0 +1,587 @@
+[
+    {
+        "sentence": "你妈可能还不知道画的是他，可是这儿签着您刘星的大名，她一看就知道是她了，她还不得跟你拼命啊？",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "画作的签名",
+        "Opinion": "签名会让妈妈发现",
+        "Sentiment": "negative",
+        "Rationale": "刘星在画作上签了名，妈妈发现后会生气"
+    },
+    {
+        "sentence": "爸，那可得救我。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "求助",
+        "Opinion": "需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "担心妈妈发现后会生气"
+    },
+    {
+        "sentence": "就怕到时候我也爱莫能助啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "帮助的可能性",
+        "Opinion": "可能无法帮助",
+        "Sentiment": "negative",
+        "Rationale": "担心自己无法解决妈妈生气的问题"
+    },
+    {
+        "sentence": "那他肯定还得跟您拼命。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "妈妈的反应",
+        "Opinion": "妈妈会生气",
+        "Sentiment": "negative",
+        "Rationale": "认为妈妈会连爸爸一起责怪"
+    },
+    {
+        "sentence": "凭什么跟我拼命啊？",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "责怪的对象",
+        "Opinion": "不应该责怪自己",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己不应该被妈妈责怪"
+    },
+    {
+        "sentence": "您忘啦，这最后一幅画可是您的杰作。",
+        "Holder": "2",
+        "Target": "最后一幅画",
+        "Aspect": "画作的价值",
+        "Opinion": "是杰作",
+        "Sentiment": "positive",
+        "Rationale": "认为最后一幅画是父亲的杰作"
+    },
+    {
+        "sentence": "所以说就更不能给你妈看了，你这没准还得连累上我，说成这都是我教唆你干，绝对不行啊。",
+        "Holder": "1",
+        "Target": "画作展示",
+        "Aspect": "展示的风险",
+        "Opinion": "不能展示",
+        "Sentiment": "negative",
+        "Rationale": "担心画作展示会给母亲带来误解并连累到自己"
+    },
+    {
+        "sentence": "爸，你是不是怕我妈呀？",
+        "Holder": "2",
+        "Target": "父亲的态度",
+        "Aspect": "对母亲的畏惧",
+        "Opinion": "可能害怕母亲",
+        "Sentiment": "ambiguous",
+        "Rationale": "父亲强烈反对展示画作"
+    },
+    {
+        "sentence": "什么话？",
+        "Holder": "1",
+        "Target": "2的提问",
+        "Aspect": "问题的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "对儿子的提问感到不满，认为其不合适"
+    },
+    {
+        "sentence": "什么叫怕？我分明是在保护你，当然也是为了尽量的避免和你妈发生正面冲突。你记住，不许让你妈看到，也不许外传。知道了吗？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的动机",
+        "Opinion": "保护儿子和避免冲突",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己的行为是出于保护和避免冲突的考虑"
+    },
+    {
+        "sentence": "记住了吗？",
+        "Holder": "1",
+        "Target": "2的记忆",
+        "Aspect": "记忆的准确性",
+        "Opinion": "希望确认",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方是否记住"
+    },
+    {
+        "sentence": "老夏，哎呦，来的正好哈。你们家刘星是太有出息了，你看这漫画的多棒，我准备把它贴那告示牌上。",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "漫画作品",
+        "Opinion": "非常出色",
+        "Sentiment": "positive",
+        "Rationale": "对刘星的漫画作品非常满意"
+    },
+    {
+        "sentence": "千万不敢贴告示牌，这怎么孩子这么小，他容易骄傲。",
+        "Holder": "1",
+        "Target": "贴告示牌的行为",
+        "Aspect": "对孩子的影响",
+        "Opinion": "担心孩子骄傲",
+        "Sentiment": "negative",
+        "Rationale": "担心贴告示牌会让年幼的孩子变得骄傲"
+    },
+    {
+        "sentence": "胖婶，你看我这也没注意在哪有卖的，我也没来得及买一本。你能不能把这本转让给我呀？我想给孩子留个纪念",
+        "Holder": "1",
+        "Target": "胖婶的书",
+        "Aspect": "书的转让",
+        "Opinion": "请求转让",
+        "Sentiment": "neutral",
+        "Rationale": "1没有注意到哪里有卖书"
+    },
+    {
+        "sentence": "应该的应该的",
+        "Holder": "3",
+        "Target": "1的请求",
+        "Aspect": "转让书的合理性",
+        "Opinion": "同意转让",
+        "Sentiment": "positive",
+        "Rationale": "3认为转让书是合理的"
+    },
+    {
+        "sentence": "好好，谢谢，多少钱？",
+        "Holder": "1",
+        "Target": "3的同意",
+        "Aspect": "感谢与询问价格",
+        "Opinion": "感谢并询问",
+        "Sentiment": "positive",
+        "Rationale": "3同意转让书"
+    },
+    {
+        "sentence": "哎呦，没事，我再买一本去啊",
+        "Holder": "3",
+        "Target": "书的转让",
+        "Aspect": "无偿转让",
+        "Opinion": "不需要钱",
+        "Sentiment": "positive",
+        "Rationale": "3愿意无偿转让书"
+    },
+    {
+        "sentence": "爸爸爸，你干嘛呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为疑问",
+        "Opinion": "询问行为",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的行为感到好奇"
+    },
+    {
+        "sentence": "你怎么能让胖婶知道这件事？你让胖婶知道了，分分钟咱全小区的人全都得。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "信息保密",
+        "Opinion": "不应该让胖婶知道",
+        "Sentiment": "negative",
+        "Rationale": "胖婶知道后会导致全小区的人都知道"
+    },
+    {
+        "sentence": "哎，老夏，你们家流星真行哎。",
+        "Holder": "4",
+        "Target": "1家的流星",
+        "Aspect": "行为表现",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "对流星的行为表示赞赏"
+    },
+    {
+        "sentence": "那个王姐",
+        "Holder": "1",
+        "Target": "王姐",
+        "Aspect": "称呼",
+        "Opinion": "中性",
+        "Sentiment": "neutral",
+        "Rationale": "只是普通的称呼，没有表达出特别的情感"
+    },
+    {
+        "sentence": "我跟您说件事",
+        "Holder": "1",
+        "Target": "王姐",
+        "Aspect": "交流",
+        "Opinion": "中性",
+        "Sentiment": "neutral",
+        "Rationale": "这句话只是表达了想要交流的意愿，并没有涉及具体的情感色彩"
+    },
+    {
+        "sentence": "什么意思？",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "话语理解",
+        "Opinion": "困惑",
+        "Sentiment": "negative",
+        "Rationale": "因为6号说话者对1号说话者的话感到不理解，产生了困惑的情绪"
+    },
+    {
+        "sentence": "梅梅你回来了，走，回家咱们。",
+        "Holder": "1",
+        "Target": "梅梅",
+        "Aspect": "回家",
+        "Opinion": "催促回家",
+        "Sentiment": "positive",
+        "Rationale": "看到梅梅回来很高兴"
+    },
+    {
+        "sentence": "回家。走走",
+        "Holder": "2",
+        "Target": "回家",
+        "Aspect": "行动",
+        "Opinion": "同意回家",
+        "Sentiment": "positive",
+        "Rationale": "同意回家的提议"
+    },
+    {
+        "sentence": "你别拽我。",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "反对被拽",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢被拽"
+    },
+    {
+        "sentence": "快快快快，把门关上啊。",
+        "Holder": "1",
+        "Target": "门",
+        "Aspect": "关门",
+        "Opinion": "催促关门",
+        "Sentiment": "positive",
+        "Rationale": "急于关门"
+    },
+    {
+        "sentence": "干嘛。夏东海干嘛呀？",
+        "Holder": "6",
+        "Target": "夏东海",
+        "Aspect": "行为",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "不明白夏东海的行为"
+    },
+    {
+        "sentence": "没干嘛。嗯，主要是我们都饿了，该做饭了。",
+        "Holder": "1",
+        "Target": "当前活动",
+        "Aspect": "活动内容",
+        "Opinion": "没有特别活动",
+        "Sentiment": "neutral",
+        "Rationale": "只是表达当前没有特别的活动"
+    },
+    {
+        "sentence": "是，我还以为要躲谁呢。",
+        "Holder": "6",
+        "Target": "1的行为",
+        "Aspect": "行为意图",
+        "Opinion": "误以为要躲人",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的行为产生了误解"
+    },
+    {
+        "sentence": "哎，你干嘛去啊？",
+        "Holder": "1",
+        "Target": "6的行为",
+        "Aspect": "行为目的",
+        "Opinion": "询问行为目的",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地询问6的行为目的"
+    },
+    {
+        "sentence": "我给你挂。",
+        "Holder": "2",
+        "Target": "6的行为",
+        "Aspect": "行为帮助",
+        "Opinion": "愿意帮助",
+        "Sentiment": "positive",
+        "Rationale": "主动提出帮助6挂包"
+    },
+    {
+        "sentence": "这是都什么毛病啊？",
+        "Holder": "6",
+        "Target": "楼下那些人",
+        "Aspect": "看人的方式",
+        "Opinion": "不正常",
+        "Sentiment": "negative",
+        "Rationale": "楼下那些人看自己的方式让自己感到不舒服"
+    },
+    {
+        "sentence": "刚才在楼下那些人怎么都看我，跟看稀有动物似的。",
+        "Holder": "6",
+        "Target": "楼下那些人",
+        "Aspect": "看人的方式",
+        "Opinion": "像看稀有动物",
+        "Sentiment": "negative",
+        "Rationale": "楼下那些人看自己的方式让自己感到被异样对待"
+    },
+    {
+        "sentence": "有吗啊？不会吧？",
+        "Holder": "2",
+        "Target": "6的描述",
+        "Aspect": "描述的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "neutral",
+        "Rationale": "对6的描述感到不确定"
+    },
+    {
+        "sentence": "可能是因为他们太长时间没看到你了，见到你特别的高兴",
+        "Holder": "1",
+        "Target": "楼下那些人",
+        "Aspect": "看人的原因",
+        "Opinion": "长时间未见所以高兴",
+        "Sentiment": "positive",
+        "Rationale": "认为楼下那些人是长时间未见6而感到高兴"
+    },
+    {
+        "sentence": "对对对对，这正说明您在咱们小区人气特别旺",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "小区内的人气",
+        "Opinion": "人气旺",
+        "Sentiment": "positive",
+        "Rationale": "认为楼下那些人看6是6在小区内人气旺"
+    },
+    {
+        "sentence": "对对对，人缘好。",
+        "Holder": "1",
+        "Target": "6的人缘",
+        "Aspect": "人缘状况",
+        "Opinion": "人缘好",
+        "Sentiment": "positive",
+        "Rationale": "认为6的人缘确实好"
+    },
+    {
+        "sentence": "什么乱七八糟的。我一天在这恨不得跟他们见八回，从来也没让我觉得我自个人气特别旺，他们从来也没对我这么感兴趣过呀。",
+        "Holder": "6",
+        "Target": "自己的人气",
+        "Aspect": "人气的感受",
+        "Opinion": "不觉得自己人气旺",
+        "Sentiment": "negative",
+        "Rationale": "自己经常见到别人但从未感受到高人气"
+    },
+    {
+        "sentence": "你就别在那瞎想了，你就是人缘好。也许今天你穿这件衣服特别好看，是不是？",
+        "Holder": "1",
+        "Target": "6的人缘",
+        "Aspect": "人缘状况",
+        "Opinion": "人缘好",
+        "Sentiment": "positive",
+        "Rationale": "认为6的人缘好且衣服好看"
+    },
+    {
+        "sentence": "对对对，特别适合你",
+        "Holder": "2",
+        "Target": "6的衣服",
+        "Aspect": "衣服的适合度",
+        "Opinion": "衣服适合6",
+        "Sentiment": "positive",
+        "Rationale": "认为衣服确实适合6"
+    },
+    {
+        "sentence": "这衣服穿着挺显瘦的。不过他们干嘛每个人都手里拿着一个杂志，好像那晃悠冲我指指点点的。",
+        "Holder": "6",
+        "Target": "别人的行为",
+        "Aspect": "行为的目的",
+        "Opinion": "不理解别人的行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到别人手里拿杂志且指向自己，但不明白原因"
+    },
+    {
+        "sentence": "有杂志吗？",
+        "Holder": "1",
+        "Target": "杂志",
+        "Aspect": "存在与否",
+        "Opinion": "询问是否有",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行一个普通的询问"
+    },
+    {
+        "sentence": "他们是说您长得特像那杂志里边的一个外国的电影明星啊。",
+        "Holder": "2",
+        "Target": "1的外貌",
+        "Aspect": "与电影明星的相似度",
+        "Opinion": "长得像外国电影明星",
+        "Sentiment": "positive",
+        "Rationale": "2在称赞1的外貌与电影明星相似"
+    },
+    {
+        "sentence": "真的吗哎？哪个电影明星啊？",
+        "Holder": "6",
+        "Target": "1的外貌",
+        "Aspect": "与电影明星的相似度",
+        "Opinion": "好奇具体是哪个明星",
+        "Sentiment": "positive",
+        "Rationale": "6对2的称赞感到好奇和兴趣"
+    },
+    {
+        "sentence": "美国的电影明星。",
+        "Holder": "1",
+        "Target": "电影明星的国籍",
+        "Aspect": "国籍",
+        "Opinion": "是美国的",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在陈述一个事实"
+    },
+    {
+        "sentence": "好莱坞。",
+        "Holder": "2",
+        "Target": "电影明星的背景",
+        "Aspect": "背景",
+        "Opinion": "来自好莱坞",
+        "Sentiment": "neutral",
+        "Rationale": "2只是在补充一个信息"
+    },
+    {
+        "sentence": "好莱坞的叫什么？好莱坞哪个明星？叫什么呀？",
+        "Holder": "6",
+        "Target": "好莱坞明星",
+        "Aspect": "明星的名字",
+        "Opinion": "询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "对好莱坞明星的名字不清楚"
+    },
+    {
+        "sentence": "我知道，她长得。她嘴特别大，眼睛也特别大",
+        "Holder": "2",
+        "Target": "好莱坞明星",
+        "Aspect": "外貌特征",
+        "Opinion": "描述外貌",
+        "Sentiment": "neutral",
+        "Rationale": "描述明星的外貌特征"
+    },
+    {
+        "sentence": "对，就是那个。",
+        "Holder": "1",
+        "Target": "好莱坞明星",
+        "Aspect": "确认身份",
+        "Opinion": "确认描述",
+        "Sentiment": "neutral",
+        "Rationale": "确认了2描述的明星"
+    },
+    {
+        "sentence": "叫什么名啊？",
+        "Holder": "6",
+        "Target": "好莱坞明星",
+        "Aspect": "明星的名字",
+        "Opinion": "再次询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "仍然不清楚明星的名字"
+    },
+    {
+        "sentence": "叫什么名啊？",
+        "Holder": "1",
+        "Target": "好莱坞明星",
+        "Aspect": "明星的名字",
+        "Opinion": "再次询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "也想知道明星的名字"
+    },
+    {
+        "sentence": "你不知道吗？你问我。",
+        "Holder": "2",
+        "Target": "1的知识",
+        "Aspect": "是否知道某事",
+        "Opinion": "质疑1不知道",
+        "Sentiment": "ambiguous",
+        "Rationale": "2用反问的方式表达对1是否知道某事的质疑"
+    },
+    {
+        "sentence": "我知道",
+        "Holder": "1",
+        "Target": "自己的知识",
+        "Aspect": "是否知道某事",
+        "Opinion": "确认自己知道",
+        "Sentiment": "neutral",
+        "Rationale": "1直接回答知道自己"
+    },
+    {
+        "sentence": "叫什么",
+        "Holder": "6",
+        "Target": "某物的名字",
+        "Aspect": "名字",
+        "Opinion": "询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "6只是简单地询问某物的名字"
+    },
+    {
+        "sentence": "我给忘了名字，哈哈哈。",
+        "Holder": "1",
+        "Target": "某物的名字",
+        "Aspect": "记忆",
+        "Opinion": "忘记名字",
+        "Sentiment": "positive",
+        "Rationale": "1用笑声表达自己忘记名字的情况"
+    },
+    {
+        "sentence": "我以为你们说我长得像茱莉亚罗伯茨呢。确实有人说我长得特别像她",
+        "Holder": "6",
+        "Target": "自己的外貌",
+        "Aspect": "与茱莉亚罗伯茨的相似度",
+        "Opinion": "长得像茱莉亚罗伯茨",
+        "Sentiment": "positive",
+        "Rationale": "6提到有人说自己长得像茱莉亚罗伯茨，并且语气中带有一定的自豪感"
+    },
+    {
+        "sentence": "就是她，茱莉亚罗伯茨",
+        "Holder": "1",
+        "Target": "茱莉亚罗伯茨",
+        "Aspect": "身份确认",
+        "Opinion": "确认是茱莉亚罗伯茨",
+        "Sentiment": "neutral",
+        "Rationale": "只是在确认一个人的身份"
+    },
+    {
+        "sentence": "什么啊，她嘴那么大，我长得比她好看多了。",
+        "Holder": "6",
+        "Target": "茱莉亚罗伯茨",
+        "Aspect": "外貌",
+        "Opinion": "认为自己比茱莉亚罗伯茨好看",
+        "Sentiment": "positive",
+        "Rationale": "认为自己在外貌上优于茱莉亚罗伯茨"
+    },
+    {
+        "sentence": "他嘴那么大，我长得比他好看多了。",
+        "Holder": "4",
+        "Target": "茱莉亚罗伯茨",
+        "Aspect": "外貌",
+        "Opinion": "认为自己比茱莉亚罗伯茨好看",
+        "Sentiment": "positive",
+        "Rationale": "认为自己在外貌上优于茱莉亚罗伯茨"
+    },
+    {
+        "sentence": "哈哈哈，当然你比他好看多了。不管你比他好看多少，我的大明星同志该给我们做饭了，快。",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "外貌",
+        "Opinion": "同意6比茱莉亚罗伯茨好看",
+        "Sentiment": "positive",
+        "Rationale": "同意6的观点并带有调侃的语气"
+    },
+    {
+        "sentence": "哈哈哈，去做什么饭呢？我像大明星吗？我是大明星他们家的保姆还差不多。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "自嘲不像大明星",
+        "Sentiment": "positive",
+        "Rationale": "用自嘲的方式表达了对大明星身份的调侃"
+    },
+    {
+        "sentence": "你就是大明星的保姆，我们是大明星，哈哈哈。去，那我们去了，马上去吧，哈哈哈，我可真牛。什么牛？我快让你害死了，哈哈哈，这纸可快包不住。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "自我调侃",
+        "Opinion": "自嘲为大明星的保姆",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式自嘲"
+    },
+    {
+        "sentence": "火了啊啊哈哈哈，流星的花上杂志啦，哈哈哈。画的是什么呀这是啊？",
+        "Holder": "7",
+        "Target": "流星的花",
+        "Aspect": "上杂志",
+        "Opinion": "感到兴奋",
+        "Sentiment": "positive",
+        "Rationale": "流星的花上了杂志"
+    },
+    {
+        "sentence": "画的是什么呀这是啊？这画的是人吗？这跟刺猬一样",
+        "Holder": "6",
+        "Target": "画",
+        "Aspect": "画的形象",
+        "Opinion": "不像人",
+        "Sentiment": "negative",
+        "Rationale": "画得不像人而像刺猬"
+    }
+]

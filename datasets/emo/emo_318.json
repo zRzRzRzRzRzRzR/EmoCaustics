@@ -1,0 +1,190 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "开场主持与辩手介绍",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "热情欢迎观众并介绍表演赛意义",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "赞赏每位辩手的独特辩论风格",
+            "source_id": "2,3,4,5,6,7"
+          }
+        ]
+      },
+      {
+        "event": "质询环节协调",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "按流程推进质询环节",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "评价老辩手战略清晰性",
+            "source_id": "3,5,7"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "立论环节核心论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑辩题强制选择的不合理性",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "分析恩怨与理想的时间投入产出比",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调责任优先的价值观",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "质询攻防应对",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释时间有限下的选择逻辑",
+            "source_id": "3"
+          },
+          {
+            "state": "doubt",
+            "reason": "被质疑动机真实性",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "质询策略实施",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑恩怨解决的表面性",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "探讨理想与陪伴的本质差异",
+            "source_id": "6"
+          }
+        ]
+      },
+      {
+        "event": "价值层面反驳",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调情感联结高于形式了结",
+            "source_id": "5,6"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "反方立论构建",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "论证恩怨自我增值特性",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "强调理想实现的实际价值",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "质询逻辑拆解",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑高尚标准的适用性",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "时间性理论展开",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "构建时空压缩/解压缩模型",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑情感债务物质化",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "核心价值升华",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证责任清算的文明意义",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "批判理想主义的潜在危险性",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "反方价值重构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "解构恩怨机制的心理毒性",
+            "source_id": "7"
+          },
+          {
+            "state": "positive",
+            "reason": "提倡未来导向的生命态度",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "充电设备争夺引发直接冲突",
+        "emotions": [
+          {"state": "negative", "reason": "2未经同意拔掉充电设备/1指责2充电过度", "source_id": "2,3"},
+          {"state": "positive", "reason": "坚持自身道德立场合理性", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑态度恶劣且拒绝道歉", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "道德立场与态度对峙",
+        "emotions": [
+          {"state": "negative", "reason": "被指责站在道德制高点", "source_id": "2"},
+          {"state": "positive", "reason": "公开维护自身道德立场", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "充电权争议与沟通失效",
+        "emotions": [
+          {"state": "negative", "reason": "充电设备被强制中断/质疑行为正当性", "source_id": "1,3"},
+          {"state": "doubt", "reason": "对充电优先顺序存疑", "source_id": "1"},
+          {"state": "negative", "reason": "调解未能解决核心矛盾", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "人际互动模式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被指责态度恶劣且行为可笑", "source_id": "1,4"},
+          {"state": "negative", "reason": "调解方案未触及核心诉求", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方调解介入过程",
+        "emotions": [
+          {"state": "neutral", "reason": "说明车厢设备客观限制", "source_id": "1,2"},
+          {"state": "positive", "reason": "主动提供充电宝解决方案", "source_id": "2"},
+          {"state": "neutral", "reason": "接受沟通失效的现实", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "社会现象价值评判",
+        "emotions": [
+          {"state": "negative", "reason": "批判过度依赖电子设备现象", "source_id": "1,2"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+[
+    {
+        "sentence": "他外表高大干净，185的身高，然后还是个研究生毕业的，我觉得他应该会是一个潜力股，就。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "外表和学历",
+        "Opinion": "是潜力股",
+        "Sentiment": "positive",
+        "Rationale": "他外表高大干净且学历高"
+    },
+    {
+        "sentence": "个子高就潜力股了，你还有什么别的描述吗？对你的忠诚对这份爱情的投入吗？",
+        "Holder": "2",
+        "Target": "1的评价标准",
+        "Aspect": "评价的全面性",
+        "Opinion": "质疑评价标准",
+        "Sentiment": "doubt",
+        "Rationale": "只凭个子高就认为有潜力"
+    },
+    {
+        "sentence": "虽然说他不会像别人那样子买什么名贵的车或者是什么的，但是我跟他在一起真的很开心，",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "物质条件和生活感受",
+        "Opinion": "物质条件一般但生活开心",
+        "Sentiment": "positive",
+        "Rationale": "他虽然物质条件一般，但在一起很开心"
+    },
+    {
+        "sentence": "你说点开心的事让我们听听。",
+        "Holder": "2",
+        "Target": "1的开心事",
+        "Aspect": "分享的具体内容",
+        "Opinion": "希望听到具体事例",
+        "Sentiment": "neutral",
+        "Rationale": "想了解更多开心的事例"
+    },
+    {
+        "sentence": "他比较会耍嘴皮子，你看他嘴巴长得那么薄，嘴巴薄。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "说话能力",
+        "Opinion": "会耍嘴皮子",
+        "Sentiment": "negative",
+        "Rationale": "认为他的嘴巴薄"
+    },
+    {
+        "sentence": "嘴皮子，这里跟着个个都比他强，耍嘴皮子个个。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "说话能力",
+        "Opinion": "不如其他人",
+        "Sentiment": "negative",
+        "Rationale": "认为这里每个人都比他更能说"
+    },
+    {
+        "sentence": "我不觉得你比他强，我觉得你只会让人家不高兴。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话能力",
+        "Opinion": "不如他，让人不高兴",
+        "Sentiment": "negative",
+        "Rationale": "认为2的说话方式让人不高兴"
+    },
+    {
+        "sentence": "我不跟你讨论，既然到这来就说点事实出来，让我们来判断，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "讨论态度",
+        "Opinion": "不讨论，要求事实",
+        "Sentiment": "neutral",
+        "Rationale": "不想继续无谓的讨论"
+    },
+    {
+        "sentence": "我主要跟人在一起，还是感觉有时候有一个人坐在你对面，你连看都不想看他第二眼你还会开心吗？",
+        "Holder": "1",
+        "Target": "与人相处的感受",
+        "Aspect": "对视的舒适度",
+        "Opinion": "不想看第二眼",
+        "Sentiment": "negative",
+        "Rationale": "对对面的人没有好感，连看都不想看第二眼"
+    },
+    {
+        "sentence": "这跟感觉有关系吗？",
+        "Holder": "2",
+        "Target": "与人相处的感受",
+        "Aspect": "感觉的影响",
+        "Opinion": "质疑感觉的影响",
+        "Sentiment": "neutral",
+        "Rationale": "对感觉的影响表示疑问"
+    },
+    {
+        "sentence": "当然有关系，你觉得一个人没有眼缘的话，你还可以想跟他沟通。",
+        "Holder": "1",
+        "Target": "与人相处的感受",
+        "Aspect": "眼缘对沟通的影响",
+        "Opinion": "眼缘影响沟通意愿",
+        "Sentiment": "positive",
+        "Rationale": "认为眼缘对沟通有重要影响"
+    },
+    {
+        "sentence": "你这么强调所谓的缘分，我告诉你今天你们很有可能就有缘无分。",
+        "Holder": "2",
+        "Target": "缘分",
+        "Aspect": "缘分的现实性",
+        "Opinion": "有缘无分的可能性",
+        "Sentiment": "negative",
+        "Rationale": "认为缘分并不总是美好"
+    },
+    {
+        "sentence": "你不要这么打击我们。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的积极性",
+        "Opinion": "不要打击",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的言论过于消极"
+    },
+    {
+        "sentence": "我还非常郑重的告诉你，今天你既然选择到这来，就是希望我们给你意见，",
+        "Holder": "1",
+        "Target": "说话人2的到来",
+        "Aspect": "目的",
+        "Opinion": "希望给予意见",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1明确指出说话人2到来的目的是寻求意见"
+    },
+    {
+        "sentence": "我来这里的话，主要目的也是希望你们来撮合我们，希望也不希望他以后会有再这种事情发生，我们彼此也不想再这样子猜忌。",
+        "Holder": "2",
+        "Target": "撮合关系",
+        "Aspect": "期望",
+        "Opinion": "希望撮合且避免猜忌",
+        "Sentiment": "positive",
+        "Rationale": "说话人2希望得到撮合并避免未来的猜忌"
+    },
+    {
+        "sentence": "虽然说我们在一起的时间并不久，在我们泉州那边有些人在一起半年也都已经结婚了，所以说我觉得半年的时间也是够的，如果在一起久，你看人家谈了7年了，还不是照样分了，7年之痒，",
+        "Holder": "2",
+        "Target": "恋爱时间",
+        "Aspect": "时间长短的合理性",
+        "Opinion": "半年时间足够",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2通过对比泉州的习俗和七年之痒的例子，认为半年时间足够"
+    },
+    {
+        "sentence": "你认为半年结婚就够了的原因是在泉州有人谈了半年就结婚了，这不。",
+        "Holder": "1",
+        "Target": "说话人2的观点",
+        "Aspect": "观点的依据",
+        "Opinion": "基于泉州习俗",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在确认说话人2的观点依据"
+    },
+    {
+        "sentence": "是因为我要跟他们一样走这样的路，但是我是觉得谈久越有问题在。一起久了新鲜感没有。",
+        "Holder": "2",
+        "Target": "恋爱时间",
+        "Aspect": "时间长短的影响",
+        "Opinion": "谈久有问题",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为恋爱时间过长会导致问题增多和新鲜感消失"
+    }
+]

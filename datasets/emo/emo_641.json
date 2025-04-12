@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "爱的定义与超能力应用",
+        "emotions": [
+          {"state": "neutral", "reason": "通过神话解释爱情机理", "source_id": "1"},
+          {"state": "positive", "reason": "主张主动使用红线创造机会", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "自由意志与爱情关系论证",
+        "emotions": [
+          {"state": "neutral", "reason": "强调理性无法控制爱的感觉", "source_id": "9"},
+          {"state": "negative", "reason": "反对洗脑式超能力应用", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "爱情科学解释与伦理困境",
+        "emotions": [
+          {"state": "neutral", "reason": "用丘脑分泌理论解构爱情", "source_id": "4"},
+          {"state": "negative", "reason": "揭示爱情本质的剥夺性", "source_id": "8"},
+          {"state": "ambiguous", "reason": "承认爱情是高贵谎言", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "辩论流程控制与节奏引导",
+        "emotions": [
+          {"state": "neutral", "reason": "严格执行赛制规则", "source_id": "5"},
+          {"state": "positive", "reason": "肯定正方获胜表现", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "超能力滥用风险论证",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨未成年人保护问题", "source_id": "7"},
+          {"state": "negative", "reason": "类比迷药与强奸的伦理边界", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "真爱标准重构",
+        "emotions": [
+          {"state": "positive", "reason": "强调互相付出的重要性", "source_id": "9"},
+          {"state": "negative", "reason": "质疑超能力带来的虚假关系", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "自由意志核心价值维护",
+        "emotions": [
+          {"state": "positive", "reason": "强调自主选择权", "source_id": "6"},
+          {"state": "negative", "reason": "揭露超能力的精神控制本质", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "爱情社会影响分析",
+        "emotions": [
+          {"state": "negative", "reason": "批判主角视角的霸权逻辑", "source_id": "8"},
+          {"state": "positive", "reason": "肯定对手存在的意义", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

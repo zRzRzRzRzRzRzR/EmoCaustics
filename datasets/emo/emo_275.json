@@ -1,0 +1,130 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关系疏远与沟通障碍",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "察觉两人关系变化但不确定对方感受",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "长期缺乏真诚沟通且未被理解真实意图",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "童年回忆与情感联结",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "回忆共同约定并发现对方仍记得",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "坚持对旧名的特殊情感",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "经济危机与信任动摇",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "震惊于对方借高利贷且隐瞒实情",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "对解决方案产生分歧并引发争吵",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "公众形象认知差异",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "被评价为英雄但认为夸张",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "强调成为英雄是被迫且充满恐惧",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "现实压力与情感回避",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "合理化分离状态",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "因经济困境产生强烈愧疚感",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "创伤记忆与情感锚点",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "回避痛苦回忆",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "强烈认同童年约定的情感价值",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "危机处理方式冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "抗拒对方介入经济问题",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "对说教式沟通产生抵触",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "公众形象塑造认知",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "高度肯定对方的勇气与成就",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "调侃对方性格特征",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

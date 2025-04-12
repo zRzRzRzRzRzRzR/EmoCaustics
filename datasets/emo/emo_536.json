@@ -1,0 +1,67 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "新成员家庭融入过程",
+        "emotions": [
+          {"state": "positive", "reason": "主动处理行李展现积极性", "source_id": "1"},
+          {"state": "positive", "reason": "支持妻子准备团圆饭", "source_id": "2"},
+          {"state": "ambiguous", "reason": "意识到与女儿长时间分离", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "继女接待与关系建立",
+        "emotions": [
+          {"state": "positive", "reason": "热情安排生活起居", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑烹饪安全性", "source_id": "3"},
+          {"state": "neutral", "reason": "接受新家庭规则调整", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "身份主张与家庭定位",
+        "emotions": [
+          {"state": "negative", "reason": "质疑家庭尊重程度", "source_id": "4"},
+          {"state": "neutral", "reason": "建立个人空间规则", "source_id": "2"},
+          {"state": "positive", "reason": "成功表达独立宣言", "source_id": "1,2"}
+        ]
+      },
+      {
+        "event": "饮食安全争议",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑螃蟹产地安全性", "source_id": "2"},
+          {"state": "neutral", "reason": "坚持个人饮食习惯", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭地位调整",
+        "emotions": [
+          {"state": "negative", "reason": "被强制改变座位位置", "source_id": "2"},
+          {"state": "neutral", "reason": "接受新成员优先待遇", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭规则适应性",
+        "emotions": [
+          {"state": "negative", "reason": "透露严格生活限制", "source_id": "3"},
+          {"state": "neutral", "reason": "接受现有生活状态", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

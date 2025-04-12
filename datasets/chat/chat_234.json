@@ -1,0 +1,272 @@
+[
+    {
+        "sentence": "其实，我要说什么你很清楚。今天我要听你说。你为什么，你不是太子吗？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份的合理性",
+        "Opinion": "质疑身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的身份有疑问"
+    },
+    {
+        "sentence": "我身为太子已经18年了，在太子之位上，我做错过什么？",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "认为自己没有错",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己18年来没有做错事"
+    },
+    {
+        "sentence": "应该没有。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "认为没有错",
+        "Sentiment": "neutral",
+        "Rationale": "1认同2的行为没有错"
+    },
+    {
+        "sentence": "在太子之位上，我贪图过什么？",
+        "Holder": "2",
+        "Target": "自己的品德",
+        "Aspect": "品德的纯洁性",
+        "Opinion": "认为自己没有贪图",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己没有贪图过什么"
+    },
+    {
+        "sentence": "应该没有。",
+        "Holder": "1",
+        "Target": "2的品德",
+        "Aspect": "品德的纯洁性",
+        "Opinion": "认为没有贪图",
+        "Sentiment": "neutral",
+        "Rationale": "1认同2没有贪图过什么"
+    },
+    {
+        "sentence": "我对得起太子之位。",
+        "Holder": "2",
+        "Target": "自己的表现",
+        "Aspect": "表现的对得起身份",
+        "Opinion": "认为自己对得起",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己对得起太子之位"
+    },
+    {
+        "sentence": "我担心的正是这个！",
+        "Holder": "1",
+        "Target": "2的未来表现",
+        "Aspect": "未来表现的担忧",
+        "Opinion": "担心未来表现",
+        "Sentiment": "negative",
+        "Rationale": "1担心2未来会成为昏君"
+    },
+    {
+        "sentence": "陛下，是因为我处理朝政而担心吗？",
+        "Holder": "2",
+        "Target": "1的担忧原因",
+        "Aspect": "担忧的具体原因",
+        "Opinion": "询问担忧原因",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1担忧的具体原因"
+    },
+    {
+        "sentence": "你处理朝政还不错。",
+        "Holder": "1",
+        "Target": "2的朝政处理",
+        "Aspect": "朝政处理的能力",
+        "Opinion": "认为处理得不错",
+        "Sentiment": "positive",
+        "Rationale": "1认为2处理朝政还不错"
+    },
+    {
+        "sentence": "那么，陛下是担心我的品德？",
+        "Holder": "2",
+        "Target": "1的担忧原因",
+        "Aspect": "担忧的具体原因",
+        "Opinion": "询问担忧原因",
+        "Sentiment": "neutral",
+        "Rationale": "2在进一步询问1担忧的具体原因"
+    },
+    {
+        "sentence": "对！",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "观点的认同",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "1对2的观点表示认同"
+    },
+    {
+        "sentence": "你担心错了！18年来，我性格未改。18年来，你认为我处理朝政尚好。18年了！18年来难道还不能证明我的品德不会影响我处理朝政吗？我知道！我不是太子了，父亲！父亲，你到底为什么偏袒魏王？你偏袒魏王，朝野议论，你是知道的。你让魏王住进武德殿，武德殿是什么地方，你也是知道的！其实你什么都知道！所以你命魏征为少师，想平息议论。平息了吗？起码魏王他不在乎！魏王咄咄逼人，这是你想看到的，还是你真的不知道？",
+        "Holder": "2",
+        "Target": "1的担忧",
+        "Aspect": "担忧的合理性",
+        "Opinion": "担忧不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的担忧没有根据，且对1的偏袒魏王感到不满"
+    },
+    {
+        "sentence": "我在问你，为什么要谋反？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "谋反的原因",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1对2谋反的行为感到不解和愤怒"
+    },
+    {
+        "sentence": "我就是在说我为什么谋反。谋反是为了自救，自救必然冒犯根源！我知道我已经不是太子了。明天就身首异处，我都知道！父亲，在离开你之前，我只有一句话。如果陛下封魏王为太子，朝野沸腾，究竟是我的错，或是魏王的错，还是陛下的错？",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "谋反的动机",
+        "Opinion": "解释动机",
+        "Sentiment": "negative",
+        "Rationale": "2感到自己被逼无奈，只能谋反自救"
+    },
+    {
+        "sentence": "啊！",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "解释的反应",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的解释感到意外和震惊"
+    },
+    {
+        "sentence": "陛下用马鞭，是家法还是国法？如果是家法，陛下是在替母亲惩罚我吗？",
+        "Holder": "2",
+        "Target": "1的惩罚方式",
+        "Aspect": "惩罚的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2对1用马鞭惩罚的方式感到不满和疑惑"
+    },
+    {
+        "sentence": "你还有脸替你的母亲？",
+        "Holder": "1",
+        "Target": "2的提及母亲",
+        "Aspect": "提及母亲的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在当前的情境下提及母亲是不合适的"
+    },
+    {
+        "sentence": "我吃母亲的奶长大！为什么不能提母亲？玄武门那天早上。是母亲守在我的门前，手持短剑，阻止何人伤害我！而你今天伤害我。父皇，你杀了你的兄弟！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对母亲的提及和对1的指责",
+        "Opinion": "辩护和指责",
+        "Sentiment": "negative",
+        "Rationale": "2感到自己被1误解和伤害，且对1过去的行为感到愤怒"
+    },
+    {
+        "sentence": "闭嘴！",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的可接受性",
+        "Opinion": "不可接受",
+        "Sentiment": "negative",
+        "Rationale": "1对2的指责和辩护感到愤怒"
+    },
+    {
+        "sentence": "你立杨王妃为王妃！",
+        "Holder": "2",
+        "Target": "1的决定",
+        "Aspect": "立王妃的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2对1立杨王妃为王妃的决定感到不满和愤怒"
+    },
+    {
+        "sentence": "我让你闭嘴！",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "要求停止言论",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的言论不合适或令人不悦"
+    },
+    {
+        "sentence": "母亲郁闷之极，她只有对我说！只有他的儿子来安慰她。她会用马鞭抽她的儿子吗？",
+        "Holder": "2",
+        "Target": "母亲的情感",
+        "Aspect": "母亲的情感状态",
+        "Opinion": "母亲需要安慰",
+        "Sentiment": "negative",
+        "Rationale": "母亲感到极度郁闷，只有2能安慰她"
+    },
+    {
+        "sentence": "我让你闭嘴！",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "要求停止言论",
+        "Sentiment": "negative",
+        "Rationale": "1再次认为2的言论不合适或令人不悦"
+    },
+    {
+        "sentence": "父皇，你忘了母亲临终前对你的嘱托！你想立魏王取代我为太子，你让他住进武德殿！",
+        "Holder": "2",
+        "Target": "1的决定",
+        "Aspect": "立太子的决定",
+        "Opinion": "反对立魏王为太子",
+        "Sentiment": "negative",
+        "Rationale": "1想要立魏王为太子，违背了母亲的嘱托"
+    },
+    {
+        "sentence": "承乾。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "直接称呼名字",
+        "Sentiment": "neutral",
+        "Rationale": "1直接称呼2的名字，没有明显的情感倾向"
+    },
+    {
+        "sentence": "请陛下称太子！",
+        "Holder": "2",
+        "Target": "1的称呼",
+        "Aspect": "称呼的合理性",
+        "Opinion": "要求正式称呼",
+        "Sentiment": "negative",
+        "Rationale": "1没有称呼2为太子，2感到不被尊重"
+    },
+    {
+        "sentence": "承乾，你到底想干什么？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的目的",
+        "Opinion": "质疑2的目的",
+        "Sentiment": "negative",
+        "Rationale": "1不理解2的行为目的"
+    },
+    {
+        "sentence": "陛下想要干什么？母亲的在天之灵会保佑我的！",
+        "Holder": "2",
+        "Target": "1的意图",
+        "Aspect": "意图的合理性",
+        "Opinion": "质疑1的意图",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的意图不明确或不利"
+    },
+    {
+        "sentence": "承乾！不要逼我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的压力",
+        "Opinion": "要求停止逼迫",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到压力"
+    },
+    {
+        "sentence": "逼你？我逼你？你杀了我唯一的人，只有她让我想起我的母亲，你却杀了她！我逼你？我烦了！我不再装了！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "指责1的行为",
+        "Sentiment": "negative",
+        "Rationale": "1杀了2唯一亲近的人，让2感到极度痛苦和愤怒"
+    }
+]

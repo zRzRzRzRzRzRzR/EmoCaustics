@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭经济纠纷与责任归属",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "肖旭多次借款未还引发经济压力；装修资金分配不公；父母旅行费用承担差异",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "试图通过记账方式解决矛盾",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "夫妻关系破裂导火索",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "生育过程中的负面记忆被重新唤起；对方外遇行为的揭露；言语暴力升级",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "经济付出与情感失衡",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "确认经济往来的准确性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑金钱分配标准；装修资金回馈未被认可",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "婚姻冲突全面爆发",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对方使用侮辱性语言；长期积怨导致消极应对",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

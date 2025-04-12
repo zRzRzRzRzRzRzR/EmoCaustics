@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "生育后的身体与情感伤害",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因生产导致失禁被嫌弃，记恨对方态度",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "产后未获支持且母亲受伤，指责丈夫失职",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭责任分配争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对家庭责任不平等，拒绝被视作保姆",
+            "source_id": "2,3"
+          },
+          {
+            "state": "negative",
+            "reason": "坚持自主育儿权，驳斥外界干涉",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "婚姻关系破裂",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "控诉对方未履行婚内责任，决定终止关系",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "禁止前配偶接触子女，主张监护权",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "外部人员介入冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "谴责方老师干涉私事并破坏周岁宴",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "强制要求方老师远离女儿",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

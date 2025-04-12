@@ -1,0 +1,34 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "智慧教育概念体系构建",
+        "emotions": [
+          {"state": "neutral", "reason": "客观陈述IBM智慧教育起源", "source_id": "1"},
+          {"state": "positive", "reason": "强调钱学森理论本土价值", "source_id": "1"},
+          {"state": "neutral", "reason": "解析DIKY模型知识转化链", "source_id": "1"},
+          {"state": "positive", "reason": "推崇祝智婷教授理论体系", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "教师能力转型需求分析",
+        "emotions": [
+          {"state": "neutral", "reason": "列举六大基本专业素养", "source_id": "1"},
+          {"state": "positive", "reason": "强调创新思维必要性", "source_id": "1"},
+          {"state": "neutral", "reason": "描述OMO教学模式优势", "source_id": "1"},
+          {"state": "positive", "reason": "提出全过程评价体系", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "专业发展困境与突破",
+        "emotions": [
+          {"state": "negative", "reason": "智慧教室功能不完善", "source_id": "1"},
+          {"state": "negative", "reason": "教师理念转型滞后", "source_id": "1"},
+          {"state": "positive", "reason": "创新特质发现突破", "source_id": "1"},
+          {"state": "neutral", "reason": "提出双轨培养方案", "source_id": "1"},
+          {"state": "positive", "reason": "展示教学实践成果", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

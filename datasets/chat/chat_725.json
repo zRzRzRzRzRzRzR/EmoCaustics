@@ -1,0 +1,1118 @@
+[
+    {
+        "sentence": "答疑，我们这个电话是调查的一个学校组织的实践活动，问题很简单，就是谁是 21 世纪最可爱的人。什么呀？您不觉得成龙更可爱一些吗？哈哈哈哈，第一他能打，第二能搞笑，第三他鼻子大。鼻子多帅啊。哈哈哈，上次我揪了半天，我这鼻子都快揪肿了，也没做成龙那样。哈哈哈，阿姨您的头重弄一票怎么啦？哈哈哈，要不我再给您磕几个头？成，您听了，别挂，别挂啊，咚咚咚。哈哈哈，一个棒棒糖，我都替你磕了 36 个了，哈哈哈，来，阿姨，我想给您磕醒啊，听着咚咚咚咚。哈哈哈，阿姨怎么样？什么没刚才的脆啊？哈哈哈，这不脑袋都磕肿了嘛，我求您了，说好的那投成龙鱼票怎么啦？哈哈哈，听见了哟，谢你阿姨。咦耶，谁呀那么讨厌。",
+        "Holder": "1",
+        "Target": "成龙",
+        "Aspect": "可爱程度",
+        "Opinion": "成龙最可爱",
+        "Sentiment": "positive",
+        "Rationale": "认为成龙能打、能搞笑且鼻子大"
+    },
+    {
+        "sentence": "哈哈，干嘛呢你？夏东海。嗯，神经半天也那么吓人呢，哈哈哈啊。你笑什么呢你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "行为古怪",
+        "Sentiment": "negative",
+        "Rationale": "1的行为显得神经质且吓人"
+    },
+    {
+        "sentence": "我刚才做了一梦，梦见我那剧本获奖了，哈哈哈。",
+        "Holder": "3",
+        "Target": "自己的剧本",
+        "Aspect": "获奖可能性",
+        "Opinion": "剧本会获奖",
+        "Sentiment": "positive",
+        "Rationale": "梦见剧本获奖"
+    },
+    {
+        "sentence": "什么剧本啊？就你那三角马的故事啊。",
+        "Holder": "2",
+        "Target": "3的剧本",
+        "Aspect": "剧本内容",
+        "Opinion": "剧本内容简单",
+        "Sentiment": "negative",
+        "Rationale": "认为3的剧本内容简单且不起眼"
+    },
+    {
+        "sentence": "什么三角马的故事？那叫角马的爱情，哈哈哈，我现在越想，我觉得我这个故事写的确实好，我写了一对雄江马和一个母交马爱的死去活来的故事。哈哈，最尿的是里边还有一第三者，你猜是什么？嗯，斑马怎么了？哈哈哈，这次要不是老上在那求爷爷告奶奶让我出手，说什么我也不会把这 20 多年的剧本给他。",
+        "Holder": "3",
+        "Target": "自己的剧本",
+        "Aspect": "剧本质量",
+        "Opinion": "剧本写得很好",
+        "Sentiment": "positive",
+        "Rationale": "对自己的剧本内容非常自信"
+    },
+    {
+        "sentence": "天亮前还在床底下呢。哈哈哈，你们昨天晚上听没听见有一种恐怖的笑声？",
+        "Holder": "1",
+        "Target": "昨晚的声音",
+        "Aspect": "声音的性质",
+        "Opinion": "恐怖的笑声",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到了一种不寻常的笑声"
+    },
+    {
+        "sentence": "哈哈哈，我每天都听着音乐睡觉。",
+        "Holder": "4",
+        "Target": "自己的睡眠习惯",
+        "Aspect": "睡眠时的伴随行为",
+        "Opinion": "听着音乐睡觉",
+        "Sentiment": "positive",
+        "Rationale": "习惯听着音乐入睡"
+    },
+    {
+        "sentence": "我听见了，是从爸爸卧室传来的。",
+        "Holder": "1",
+        "Target": "爸爸的卧室",
+        "Aspect": "声音来源",
+        "Opinion": "确认声音来源",
+        "Sentiment": "Neutral",
+        "Rationale": "1明确指出声音是从爸爸的卧室传来的"
+    },
+    {
+        "sentence": "那是。那是。",
+        "Holder": "4",
+        "Target": "1的描述",
+        "Aspect": "声音的真实性",
+        "Opinion": "同意描述",
+        "Sentiment": "Neutral",
+        "Rationale": "4简单地同意1的描述，没有表达出额外的情感或意见"
+    },
+    {
+        "sentence": "梦话？不可能。我爸爸从不笑。",
+        "Holder": "1",
+        "Target": "爸爸的梦话",
+        "Aspect": "梦话内容",
+        "Opinion": "否认梦话内容",
+        "Sentiment": "Negative",
+        "Rationale": "1认为爸爸从不笑"
+    },
+    {
+        "sentence": "哈哈哈，刘星，小心你的屁股。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "爸爸的关心",
+        "Opinion": "幽默的提醒",
+        "Sentiment": "Positive",
+        "Rationale": "1用幽默的方式重复了爸爸的关心话语，表达出一种轻松愉快的情感态度。"
+    },
+    {
+        "sentence": "Enggak ada yang patah nih kita.",
+        "Holder": "1",
+        "Target": "团队情况",
+        "Aspect": "完整性",
+        "Opinion": "没有人缺席",
+        "Sentiment": "positive",
+        "Rationale": "确认团队中没有缺席的人"
+    },
+    {
+        "sentence": "Sudah hadir.",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "出席情况",
+        "Opinion": "已经到达",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地确认自己的出席状态"
+    },
+    {
+        "sentence": "Dong. Mega。",
+        "Holder": "1",
+        "Target": "Mega",
+        "Aspect": "行动要求",
+        "Opinion": "要求行动",
+        "Sentiment": "neutral",
+        "Rationale": "只是对Mega提出行动要求，没有明显的情感倾向"
+    },
+    {
+        "sentence": "先别忙着吃，我要宣布一个爆炸性的喜讯。哈哈哈，小雨。",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "注意力",
+        "Opinion": "要求集中注意力",
+        "Sentiment": "positive",
+        "Rationale": "要宣布一个令人兴奋的好消息"
+    },
+    {
+        "sentence": "增加点体重，省得被打翻呀。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "体重",
+        "Opinion": "建议增加体重",
+        "Sentiment": "positive",
+        "Rationale": "关心小雨的健康和安全"
+    },
+    {
+        "sentence": "我告诉你们，本人创作了 20 年的剧本角马的爱情即将搬上舞台了。",
+        "Holder": "3",
+        "Target": "剧本《角马的爱情》",
+        "Aspect": "剧本的创作和上映",
+        "Opinion": "自豪和期待",
+        "Sentiment": "positive",
+        "Rationale": "自己创作的剧本即将搬上舞台"
+    },
+    {
+        "sentence": "呵，你们还够棒呢。",
+        "Holder": "2",
+        "Target": "3的剧本创作",
+        "Aspect": "剧本创作的成就",
+        "Opinion": "讽刺和不屑",
+        "Sentiment": "negative",
+        "Rationale": "对3的剧本创作不以为然"
+    },
+    {
+        "sentence": "安静安静，我要宣布一个通知，从现在开始你们都要叫我吓倒。",
+        "Holder": "4",
+        "Target": "称呼的改变",
+        "Aspect": "新称呼的要求",
+        "Opinion": "严肃和强调",
+        "Sentiment": "neutral",
+        "Rationale": "要宣布一个新通知并强调新称呼"
+    },
+    {
+        "sentence": "哈哈哈，已经把我给吓倒了，哈哈哈。",
+        "Holder": "1",
+        "Target": "4的新称呼",
+        "Aspect": "对新称呼的反应",
+        "Opinion": "幽默和调侃",
+        "Sentiment": "positive",
+        "Rationale": "觉得4的新称呼有趣"
+    },
+    {
+        "sentence": "是吓导演的导。",
+        "Holder": "4",
+        "Target": "新称呼的解释",
+        "Aspect": "称呼的具体含义",
+        "Opinion": "澄清和纠正",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清新称呼的具体含义"
+    },
+    {
+        "sentence": "嗯嘿，咱们家一个老导一个小导，咱们家合着是导演世家，哈哈哈。哎哎，大点导。嗯嗯，你打算导什么呀？",
+        "Holder": "2",
+        "Target": "导演世家",
+        "Aspect": "家庭背景",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "提到家里有多个导演，表现出对家庭背景的自豪感"
+    },
+    {
+        "sentence": "嗯，我导的这部戏的名字叫做精灵珠小弟。哈哈哈，我代表学校参加全是中学生文艺汇演，我被任命为导演尊称，吓倒啊。",
+        "Holder": "4",
+        "Target": "导演工作",
+        "Aspect": "职责和荣誉",
+        "Opinion": "自豪和惊讶",
+        "Sentiment": "positive",
+        "Rationale": "被任命为导演并代表学校参加文艺汇演，感到自豪和惊讶"
+    },
+    {
+        "sentence": "哈哈哈，人儿，来来来，咱们举杯，为吓倒吓小倒，碰杯来。",
+        "Holder": "2",
+        "Target": "庆祝",
+        "Aspect": "举杯庆祝",
+        "Opinion": "开心",
+        "Sentiment": "positive",
+        "Rationale": "要为导演的成就举杯庆祝"
+    },
+    {
+        "sentence": "哈哈哈，小雨你又干什么呢？为了。",
+        "Holder": "3",
+        "Target": "小雨的行为",
+        "Aspect": "行为目的",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "对小雨的行为感到好奇"
+    },
+    {
+        "sentence": "吸引你们的注意力，我就是行为艺术家。",
+        "Holder": "1",
+        "Target": "行为艺术",
+        "Aspect": "自我定位",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "通过自称行为艺术家来吸引注意，表现出自信"
+    },
+    {
+        "sentence": "给你们解释一下，简单的说就是你别看很简单的一个行为，可是它蕴藏着无穷的意义。",
+        "Holder": "3",
+        "Target": "行为的意义",
+        "Aspect": "行为的复杂性",
+        "Opinion": "行为有深意",
+        "Sentiment": "neutral",
+        "Rationale": "想要解释行为的深层含义"
+    },
+    {
+        "sentence": "我上学去了。我也上学。",
+        "Holder": "4",
+        "Target": "上学行为",
+        "Aspect": "日常活动",
+        "Opinion": "正在上学",
+        "Sentiment": "neutral",
+        "Rationale": "描述自己的日常活动"
+    },
+    {
+        "sentence": "了，哈哈哈。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的语气词"
+    },
+    {
+        "sentence": "喂，商超，我的社会调查已经全部做完了，我准备换个题目，因为我沉默了一早上，全家没有一个人理我。哈哈哈，在我们家已经没有地位了，拜拜。哈哈哈，谢的，还不可以开始。",
+        "Holder": "1",
+        "Target": "社会调查",
+        "Aspect": "调查完成情况",
+        "Opinion": "已完成",
+        "Sentiment": "positive",
+        "Rationale": "完成了社会调查并准备换新题目"
+    },
+    {
+        "sentence": "吗？你马上就好了，坚强的石头，你走一边去行不行啊？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为干扰",
+        "Opinion": "希望停止干扰",
+        "Sentiment": "negative",
+        "Rationale": "被干扰到而感到不耐烦"
+    },
+    {
+        "sentence": "哈哈哈，石头是不会走的，只会滚。",
+        "Holder": "1",
+        "Target": "石头",
+        "Aspect": "石头的特性",
+        "Opinion": "石头只会滚",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式描述石头的特性"
+    },
+    {
+        "sentence": "行行行行行，那你就滚一边去，好不好？哈哈哈，石头。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "让1滚一边去",
+        "Sentiment": "positive",
+        "Rationale": "用玩笑的方式回应1的幽默"
+    },
+    {
+        "sentence": "自己是不会滚的，除非你跳一脚。坚强的石头滚喽。",
+        "Holder": "1",
+        "Target": "石头",
+        "Aspect": "石头的特性",
+        "Opinion": "石头需要外力才能滚",
+        "Sentiment": "positive",
+        "Rationale": "继续用幽默的方式描述石头的特性"
+    },
+    {
+        "sentence": "好了好了，预备你怎么还从那坐着啦？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "1的状态",
+        "Opinion": "1还在坐着",
+        "Sentiment": "neutral",
+        "Rationale": "询问1为什么还在坐着"
+    },
+    {
+        "sentence": "你不理啦，预备开始，哈哈哈，小猪我真了不起。哈哈哈，每天睡到 10 点起，顿顿 5 碗都见底，体重没有谁能比。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "自己的生活习惯",
+        "Opinion": "自己生活习惯独特",
+        "Sentiment": "positive",
+        "Rationale": "自嘲并夸耀自己的生活习惯"
+    },
+    {
+        "sentence": "停停停停停。你演的是精灵珠小弟，简直是一头傻乎乎的烤卤猪。哈哈哈，你们都是不合格的演员啊。",
+        "Holder": "4",
+        "Target": "1的表演",
+        "Aspect": "表演质量",
+        "Opinion": "表演差劲",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的表演不符合预期，显得很笨拙"
+    },
+    {
+        "sentence": "你们诶，小雪，你觉得我们俩这书演得不好？哈哈哈，我要的是挺拔的树，而你们呢？一个个的都好像被虫子咬了似的。",
+        "Holder": "4",
+        "Target": "1和小雪的表演",
+        "Aspect": "表演形态",
+        "Opinion": "形态不挺拔",
+        "Sentiment": "negative",
+        "Rationale": "觉得1和小雪的表演形态不符合期望，显得不挺拔"
+    },
+    {
+        "sentence": "了，笑似的，都快变成鸡肉老笋树了。",
+        "Holder": "1",
+        "Target": "自己的表演",
+        "Aspect": "表演形态",
+        "Opinion": "形态僵硬",
+        "Sentiment": "negative",
+        "Rationale": "被4嘲笑表演形态不佳"
+    },
+    {
+        "sentence": "哈哈哈，他们都怨他这头笨猪。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "智力",
+        "Opinion": "笨拙",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的表演和反应显得笨拙"
+    },
+    {
+        "sentence": "什么？你说我是笨猪？那好，笨猪也要回窝了。",
+        "Holder": "1",
+        "Target": "4的讽刺",
+        "Aspect": "回应",
+        "Opinion": "反驳并离开",
+        "Sentiment": "negative",
+        "Rationale": "被4称为笨猪感到愤怒"
+    },
+    {
+        "sentence": "你要出去你就别回来啊。你，你们不干了，我挠痒痒。",
+        "Holder": "4",
+        "Target": "1的离开",
+        "Aspect": "态度",
+        "Opinion": "无所谓",
+        "Sentiment": "negative",
+        "Rationale": "对1的离开感到无所谓，甚至有些轻蔑"
+    },
+    {
+        "sentence": "可以不当石头了。我。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "角色扮演",
+        "Opinion": "不再扮演石头",
+        "Sentiment": "positive",
+        "Rationale": "不再需要扮演石头角色"
+    },
+    {
+        "sentence": "你们可是我最好的朋友啊，你们要走了叫我怎么办呢？告诉你，爱怎么着怎么着，就是你们回来，哎哎哎哎。",
+        "Holder": "4",
+        "Target": "5和3",
+        "Aspect": "朋友关系",
+        "Opinion": "不舍得朋友离开",
+        "Sentiment": "negative",
+        "Rationale": "最好的朋友要离开"
+    },
+    {
+        "sentence": "哎哎，干啥呀这是干嘛呢啊？走走走啊，这这精灵猪小弟改武侠片了，快。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "行为合理性",
+        "Opinion": "催促离开",
+        "Sentiment": "neutral",
+        "Rationale": "情况变得混乱"
+    },
+    {
+        "sentence": "你见过演员去红导演的吗？",
+        "Holder": "4",
+        "Target": "演员和导演的关系",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "对演员去找导演的行为感到疑惑"
+    },
+    {
+        "sentence": "那倒是没见过，你看是吧？可我也没见过拿着剪刀追演员的导演。",
+        "Holder": "3",
+        "Target": "导演的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "导演行为异常",
+        "Sentiment": "negative",
+        "Rationale": "导演拿着剪刀追演员的行为非常不正常"
+    },
+    {
+        "sentence": "哈哈，我这不生气。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "情绪状态",
+        "Opinion": "不生气",
+        "Sentiment": "positive",
+        "Rationale": "自己觉得当前的情况并不值得生气"
+    },
+    {
+        "sentence": "生气也不能把气撒到同学身上。人这一生当中会遇到不少挫折，你要遇到挫折怎么办呢？一要镇定，二坚强，三团结，知道吗？你爸说的对，哼，还有一个最重要的一条，嗯，就是乐观。唉，遇到什么不顺心的事了，先去调整自己的情绪，你看我一遇到情绪不好的时候，我就唱，你快乐吗？我很快乐，哈哈哈。你快乐吗？你高兴吗？走吧。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "应对挫折的方法",
+        "Opinion": "应镇定、坚强、团结、乐观",
+        "Sentiment": "positive",
+        "Rationale": "希望4能正确面对挫折"
+    },
+    {
+        "sentence": "你看，哈哈哈，来吧。你又做思想工作呢。哈哈哈，这他是高手。唉，想当初我们宿舍来个最稳闹事，我们都吓傻了。就他一个人冲上去给人摆事实，讲道理，当当。",
+        "Holder": "6",
+        "Target": "3",
+        "Aspect": "处理问题的能力",
+        "Opinion": "能力强",
+        "Sentiment": "positive",
+        "Rationale": "回忆起3曾经成功处理过宿舍的闹事问题"
+    },
+    {
+        "sentence": "当就把醉鬼给欠走了。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "处理醉鬼的方式",
+        "Opinion": "成功解决",
+        "Sentiment": "positive",
+        "Rationale": "3成功地将醉鬼劝走"
+    },
+    {
+        "sentence": "哈哈哈，他爱醉鬼，一啤酒瓶子。",
+        "Holder": "6",
+        "Target": "3",
+        "Aspect": "对醉鬼的态度",
+        "Opinion": "幽默对待",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式描述3对醉鬼的处理"
+    },
+    {
+        "sentence": "这个学的是屋面，明明是一二锅头瓶子，哈哈哈。哎哎，怎么说来就来？哎哟，还拿那么多水果，至于吗？我不就给你提供了一个剧本，不是，等会，哈哈哈，这怎么样？唉，我知道你是想看我在家是玩呢还是在写剧本了吗？你小子。",
+        "Holder": "3",
+        "Target": "6的到来",
+        "Aspect": "突然性和礼物的合理性",
+        "Opinion": "觉得突然且礼物过多",
+        "Sentiment": "ambiguous",
+        "Rationale": "6突然到来并且带了过多的水果"
+    },
+    {
+        "sentence": "不是，你不说还有一家公司对你这个剧本感兴趣。",
+        "Holder": "6",
+        "Target": "剧本",
+        "Aspect": "其他公司的兴趣",
+        "Opinion": "有公司感兴趣",
+        "Sentiment": "neutral",
+        "Rationale": "提到有其他公司对剧本感兴趣"
+    },
+    {
+        "sentence": "吗？辞了，全辞了，我这次就等你这家公司了，让所有的肥水都流到你小子肚子里，踏实了。不？不是，这个剧本还不放心，是吧？剧本改了，全碍你的意思，改好了，走走走，不是，现在就不是我那个，别怕。哎哎，这个，哎梅梅啊，赶紧煮点茶叶蛋，这小子一顿饭吃 12 个，哈哈哈，我告诉你，你们看看，这不是。",
+        "Holder": "3",
+        "Target": "剧本和6的信任",
+        "Aspect": "剧本的修改和合作诚意",
+        "Opinion": "全力配合和信任",
+        "Sentiment": "positive",
+        "Rationale": "决定全力配合6的公司并修改剧本"
+    },
+    {
+        "sentence": "乔浩，你爸多乐观呐。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "性格",
+        "Opinion": "乐观",
+        "Sentiment": "positive",
+        "Rationale": "观察到3在面对事情时的乐观态度"
+    },
+    {
+        "sentence": "你是不是把乔马的故事给我毙了？说给我个理由先，哈哈哈。",
+        "Holder": "3",
+        "Target": "乔马的故事",
+        "Aspect": "故事的命运",
+        "Opinion": "担心被毙",
+        "Sentiment": "doubt",
+        "Rationale": "不确定乔马的故事是否被否决"
+    },
+    {
+        "sentence": "嗯，那个我们觉得不应该在六一儿童节前后给孩子们献上一台反映三角恋的故事，哈哈哈。",
+        "Holder": "6",
+        "Target": "故事内容",
+        "Aspect": "适宜性",
+        "Opinion": "不适宜",
+        "Sentiment": "negative",
+        "Rationale": "六一儿童节是孩子们的节日，应该提供适合儿童的内容，而三角恋的故事不适合儿童观看"
+    },
+    {
+        "sentence": "什么三角恋的故事啊？那是一条副线，你看看主线写的是什么呀？你看看江田的故事。",
+        "Holder": "3",
+        "Target": "故事结构",
+        "Aspect": "主副线区分",
+        "Opinion": "副线不影响主线",
+        "Sentiment": "positive",
+        "Rationale": "认为三角恋只是副线，主线内容是积极的"
+    },
+    {
+        "sentence": "不管怎么说，那个斑马的媳妇太多了。",
+        "Holder": "6",
+        "Target": "斑马角色",
+        "Aspect": "角色设定",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "斑马角色有多个媳妇，不符合儿童故事的价值观"
+    },
+    {
+        "sentence": "哈哈哈，所以你就把斑马给枪毙了，把角马也给枪毙了。",
+        "Holder": "3",
+        "Target": "角色处理",
+        "Aspect": "幽默回应",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式回应对方的批评"
+    },
+    {
+        "sentence": "我们肯定了你的故事的独特创意和优美的语言。嗯，对，但是必须你要把斑马从那个剧本上给摘。",
+        "Holder": "6",
+        "Target": "故事创意和语言",
+        "Aspect": "创意和语言",
+        "Opinion": "肯定创意和语言，但要求修改",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然认可故事的创意和语言，但对斑马角色的设定持反对意见"
+    },
+    {
+        "sentence": "我很快乐，哈哈哈哎。马勇，我帮你们。不用。",
+        "Holder": "4",
+        "Target": "自己的心情",
+        "Aspect": "情绪状态",
+        "Opinion": "很快乐",
+        "Sentiment": "positive",
+        "Rationale": "感到开心和满足"
+    },
+    {
+        "sentence": "老师。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的称呼"
+    },
+    {
+        "sentence": "你给我拿辆，你给我回来。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "行为要求",
+        "Opinion": "要求拿东西并回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个具体的要求"
+    },
+    {
+        "sentence": "这鸡蛋可就不到剩，不给枪白煮。",
+        "Holder": "2",
+        "Target": "鸡蛋的数量",
+        "Aspect": "鸡蛋的分配",
+        "Opinion": "鸡蛋不够",
+        "Sentiment": "negative",
+        "Rationale": "鸡蛋数量不足"
+    },
+    {
+        "sentence": "尚叔叔的腮帮子快漏了，哈哈哈。你是沙袋，可是老爸把沙袋当成尚叔叔了。",
+        "Holder": "1",
+        "Target": "尚叔叔",
+        "Aspect": "外貌特征",
+        "Opinion": "腮帮子快漏了",
+        "Sentiment": "positive",
+        "Rationale": "觉得尚叔叔的样子有趣"
+    },
+    {
+        "sentence": "我可是头一次看见爸爸发这么大的脾气。那。",
+        "Holder": "4",
+        "Target": "爸爸",
+        "Aspect": "情绪表现",
+        "Opinion": "第一次见爸爸发大火",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是第一次见到爸爸发脾气的情景"
+    },
+    {
+        "sentence": "当然了，写了 20 多年剧本，这次给毙了，痛苦啊。",
+        "Holder": "1",
+        "Target": "剧本被毙",
+        "Aspect": "职业挫折",
+        "Opinion": "感到痛苦",
+        "Sentiment": "negative",
+        "Rationale": "20多年的努力成果被否定"
+    },
+    {
+        "sentence": "哈哈哈，你说爸爸这样能缓解痛苦吗？",
+        "Holder": "4",
+        "Target": "爸爸的情绪",
+        "Aspect": "情绪缓解方式",
+        "Opinion": "质疑是否能缓解痛苦",
+        "Sentiment": "ambiguous",
+        "Rationale": "用笑声表达对爸爸情绪缓解方式的疑问"
+    },
+    {
+        "sentence": "哈哈哈，也许，要不你进去圈圈，你进去比较合适啊。还是你去吧。你去，哈哈哈。",
+        "Holder": "1",
+        "Target": "4的建议",
+        "Aspect": "参与建议",
+        "Opinion": "建议4参与",
+        "Sentiment": "positive",
+        "Rationale": "用轻松的笑声和建议表达了对4的调侃和亲昵"
+    },
+    {
+        "sentence": "沉默中爆发，就在沉默中灭亡。",
+        "Holder": "3",
+        "Target": "沉默的态度",
+        "Aspect": "情绪处理的后果",
+        "Opinion": "沉默可能导致爆发或灭亡",
+        "Sentiment": "neutral",
+        "Rationale": "引用了一句名言来表达对沉默态度的后果的看法"
+    },
+    {
+        "sentence": "8，你应该休息会的。",
+        "Holder": "4",
+        "Target": "8",
+        "Aspect": "休息",
+        "Opinion": "需要休息",
+        "Sentiment": "neutral",
+        "Rationale": "关心对方身体状况"
+    },
+    {
+        "sentence": "我叫你换我怎么不能做导演？我。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "担任导演的资格",
+        "Opinion": "认为自己可以当导演",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己有能力却被忽视"
+    },
+    {
+        "sentence": "怎么样？这样的人很爽吧？谁开门？",
+        "Holder": "1",
+        "Target": "某个人",
+        "Aspect": "行为表现",
+        "Opinion": "认为对方行为令人不爽",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让人感到不舒服"
+    },
+    {
+        "sentence": "小雪，你也喜欢拳击？",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "兴趣爱好",
+        "Opinion": "询问是否喜欢拳击",
+        "Sentiment": "neutral",
+        "Rationale": "好奇对方的兴趣爱好"
+    },
+    {
+        "sentence": "你在沉默中爆发，就在沉默中灭亡。",
+        "Holder": "4",
+        "Target": "自己或他人",
+        "Aspect": "行为选择",
+        "Opinion": "沉默与爆发的后果",
+        "Sentiment": "ambiguous",
+        "Rationale": "表达了对沉默和爆发的不同后果的看法"
+    },
+    {
+        "sentence": "哈哈哈，我建议你选择灭亡。",
+        "Holder": "2",
+        "Target": "1的选择",
+        "Aspect": "选择的合理性",
+        "Opinion": "建议灭亡",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方的处境或行为荒谬"
+    },
+    {
+        "sentence": "我也是这么认为的，拜，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的认同",
+        "Opinion": "认同灭亡",
+        "Sentiment": "positive",
+        "Rationale": "同意对方的幽默建议"
+    },
+    {
+        "sentence": "干嘛呢你？夏东海，你这能解决问题吗啊？停停停停。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "解决问题的方法",
+        "Opinion": "质疑方法",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的行为无法解决问题"
+    },
+    {
+        "sentence": "哈哈哈，问题是我被枪毙了。",
+        "Holder": "3",
+        "Target": "自身处境",
+        "Aspect": "处境的描述",
+        "Opinion": "自嘲被枪毙",
+        "Sentiment": "positive",
+        "Rationale": "用夸张的方式自嘲"
+    },
+    {
+        "sentence": "哈哈哈，毙了，你这不活着挺结实的嘛。",
+        "Holder": "2",
+        "Target": "3的描述",
+        "Aspect": "生存状态",
+        "Opinion": "调侃对方活着",
+        "Sentiment": "positive",
+        "Rationale": "对方用夸张的方式自嘲"
+    },
+    {
+        "sentence": "哈哈，我 20 多年的心血就这样被他毙了。",
+        "Holder": "3",
+        "Target": "自己的心血",
+        "Aspect": "心血的成果",
+        "Opinion": "心血被毁",
+        "Sentiment": "negative",
+        "Rationale": "自己多年的努力被轻易否定"
+    },
+    {
+        "sentence": "坐下吧你真是，你这样对孩子影响可太不好了啊。哈哈，我告诉你，小雪可以在那跟你学着那打拳呢。哈哈哈，你是一家之主，是我们的顶梁柱，你得给我们做点榜样。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "对孩子的影响",
+        "Opinion": "影响不好",
+        "Sentiment": "positive",
+        "Rationale": "希望3能给孩子树立好榜样"
+    },
+    {
+        "sentence": "男人也需要发泄嘛？",
+        "Holder": "3",
+        "Target": "男人的需求",
+        "Aspect": "发泄的必要性",
+        "Opinion": "需要发泄",
+        "Sentiment": "neutral",
+        "Rationale": "感到压力和不满"
+    },
+    {
+        "sentence": "哈哈哈，没人不让你发泄。可以，可是你能不能换一种温综合的发泄方式啊？安静点的。坐下来的，哈哈哈。坐下来了。",
+        "Holder": "2",
+        "Target": "3的发泄方式",
+        "Aspect": "发泄方式的合理性",
+        "Opinion": "建议换方式",
+        "Sentiment": "positive",
+        "Rationale": "希望3能选择更温和的发泄方式"
+    },
+    {
+        "sentence": "何以解忧，唯有顿干红。",
+        "Holder": "3",
+        "Target": "解忧方法",
+        "Aspect": "解忧的方式",
+        "Opinion": "喝酒解忧",
+        "Sentiment": "neutral",
+        "Rationale": "认为喝酒能缓解忧愁"
+    },
+    {
+        "sentence": "哈哈哈，回来喽，主好。",
+        "Holder": "4",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "见到朋友回来感到高兴"
+    },
+    {
+        "sentence": "哈哈哈，你们好。好。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "见到朋友感到开心"
+    },
+    {
+        "sentence": "哈哈哈，您喝酒啦？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "喝酒状态",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "注意到3可能喝了酒"
+    },
+    {
+        "sentence": "人到中年多坎坷，酒到丑死方恨少。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "生活状态",
+        "Opinion": "感慨",
+        "Sentiment": "ambiguous",
+        "Rationale": "感慨中年生活的坎坷和酒的消愁作用"
+    },
+    {
+        "sentence": "这哥们喝怪啊，你别说走，说这酒能消愁吗？哈哈哈，那当然了，我爸说了，这酒壮怂人胆呢。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "喝酒原因",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "认同酒能消愁和壮胆的说法"
+    },
+    {
+        "sentence": "哈哈哈，我爸刚才也说过，说酒到酬时方恨少。哈哈哈，可是我现在也没什么可愁的，你们这叫老土，告诉你，丑是咱们男人成熟的标志。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对酒的看法",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "调侃3对酒的看法"
+    },
+    {
+        "sentence": "哈哈哈，看人梁朝伟了没有？他是怎么当营弟弟呀？就是靠他那双。",
+        "Holder": "1",
+        "Target": "梁朝伟",
+        "Aspect": "成功原因",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "调侃梁朝伟的成功原因"
+    },
+    {
+        "sentence": "忧郁的眼神，哈哈哈，拿眼睛。",
+        "Holder": "4",
+        "Target": "眼神",
+        "Aspect": "眼神的表现",
+        "Opinion": "忧郁",
+        "Sentiment": "ambiguous",
+        "Rationale": "用‘哈哈哈’这样的笑声来描述忧郁的眼神"
+    },
+    {
+        "sentence": "睁开，你这叫不懂，你觉得咱筹数还少吗？比如期末考试、期中考试、平常测验，还有你的社会调查，老也完不成，还有你那个，哎，等等等等等等。你这么一说我还真有点发愁，哈哈哈，可是，可是咱这是啤酒哎，啤酒也是酒啊，你们家那瓶葡萄酒不是让你老爸给喝光了吗？",
+        "Holder": "1",
+        "Target": "4的学习任务",
+        "Aspect": "任务的繁重程度",
+        "Opinion": "任务繁重",
+        "Sentiment": "negative",
+        "Rationale": "列举了大量的学习任务并且表示发愁"
+    },
+    {
+        "sentence": "何以解忧唯有干红。",
+        "Holder": "3",
+        "Target": "解忧方式",
+        "Aspect": "解忧的方法",
+        "Opinion": "喝酒解忧",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一种解忧的方式，没有明显的情感倾向"
+    },
+    {
+        "sentence": "干嘛呀你夏东海喝酒呢？",
+        "Holder": "2",
+        "Target": "3的喝酒行为",
+        "Aspect": "喝酒的合理性",
+        "Opinion": "质疑喝酒",
+        "Sentiment": "negative",
+        "Rationale": "对3的喝酒行为表示质疑"
+    },
+    {
+        "sentence": "哈哈哈，我不是听你的话，找一个安静的、温和的方式坐他。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "听从建议",
+        "Sentiment": "positive",
+        "Rationale": "表示自己是在听从2的建议找一个安静温和的方式"
+    },
+    {
+        "sentence": "我的妈，你喝了一瓶你。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "饮酒量",
+        "Opinion": "惊讶于饮酒量",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到对方喝了一瓶酒"
+    },
+    {
+        "sentence": "我还能喝，你给我喝去。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "饮酒能力",
+        "Opinion": "自己还能继续喝",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己还有能力继续喝酒"
+    },
+    {
+        "sentence": "哎嘿，小雪快出来，你爸喝醉了没？小雪。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "醉酒状态",
+        "Opinion": "怀疑是否喝醉",
+        "Sentiment": "neutral",
+        "Rationale": "想知道对方是否喝醉"
+    },
+    {
+        "sentence": "没醉。什么没醉？刘星，爸。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "醉酒状态",
+        "Opinion": "否认喝醉",
+        "Sentiment": "ambiguous",
+        "Rationale": "被问及是否喝醉"
+    },
+    {
+        "sentence": "给你，世界上最丑陋的。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "外貌评价",
+        "Opinion": "认为对方丑陋",
+        "Sentiment": "negative",
+        "Rationale": "对对方的外貌不满"
+    },
+    {
+        "sentence": "家伙，英文俊的老爸。嘿嘿嘿，爸，您恢复的可真快啊，这。",
+        "Holder": "1",
+        "Target": "英文俊的老爸",
+        "Aspect": "恢复速度",
+        "Opinion": "恢复快",
+        "Sentiment": "positive",
+        "Rationale": "看到英文俊的老爸恢复得很快"
+    },
+    {
+        "sentence": "多亏妈妈抢救及时啊。哈哈哈，我没发现这葡萄酒的后劲比啤酒大多了。not。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "抢救及时性",
+        "Opinion": "抢救及时",
+        "Sentiment": "positive",
+        "Rationale": "妈妈的及时抢救使得情况好转"
+    },
+    {
+        "sentence": "这是什么呀？",
+        "Holder": "1",
+        "Target": "不明物体",
+        "Aspect": "物品性质",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对眼前的物品不熟悉"
+    },
+    {
+        "sentence": "嘿嘿嘿，别看别看，没什么刘星你的。",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "物品的隐私性",
+        "Opinion": "不想让刘星看",
+        "Sentiment": "ambiguous",
+        "Rationale": "不想让刘星看到某些东西"
+    },
+    {
+        "sentence": "底。小马的故事献给我热爱的家庭。我念一下。",
+        "Holder": "1",
+        "Target": "小马的故事",
+        "Aspect": "故事的献词",
+        "Opinion": "献给家庭",
+        "Sentiment": "positive",
+        "Rationale": "要将小马的故事献给热爱的家庭"
+    },
+    {
+        "sentence": "在茫茫的非洲平原上，一只雄性角马带领着他的家族，为了寻找生命的绿洲进行着漫长的跋涉，在或喜或悲的旅通中，纵然有着他们惊慌失措的脚印，但也不乏勇敢的身影，可贵的亲情。哈哈哈，人们将带着惊奇、敬佩，静静地看着角马家族在视线中奔跑。哈哈哈，最后，最后怎么没了。",
+        "Holder": "2",
+        "Target": "角马家族",
+        "Aspect": "跋涉过程",
+        "Opinion": "勇敢和亲情",
+        "Sentiment": "positive",
+        "Rationale": "描述了角马家族在艰难跋涉中展现的勇敢和亲情"
+    },
+    {
+        "sentence": "最后大小马喝醉了，小马也喝醉了，最后变成大猩猩，哈哈哈。",
+        "Holder": "1",
+        "Target": "角马家族",
+        "Aspect": "结局",
+        "Opinion": "幽默的结局",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式描述了角马家族的结局"
+    },
+    {
+        "sentence": "最后应该是这样的。大角马受了挫折之后，发现了自己身上的责任，从此以后带着他的角马家族踏上了生命的绿洲。",
+        "Holder": "2",
+        "Target": "大角马",
+        "Aspect": "成长与责任",
+        "Opinion": "积极的变化",
+        "Sentiment": "positive",
+        "Rationale": "大角马在挫折后发现了责任并带领家族走向绿洲"
+    },
+    {
+        "sentence": "เรากล้าบ้า.",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "情绪表达",
+        "Opinion": "疯狂",
+        "Sentiment": "ambiguous",
+        "Rationale": "用泰语表达了疯狂的情绪，但没有具体上下文"
+    },
+    {
+        "sentence": "你怎么还在闲聊啊，本导演和演员们可都等着您的剧本呢。哈哈哈，剧本老爸没告诉你吗啊？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "工作态度",
+        "Opinion": "需要专注工作",
+        "Sentiment": "negative",
+        "Rationale": "2还在闲聊而忽略了剧本工作"
+    },
+    {
+        "sentence": "小雪把我写的角马故事给他们同学看了。嗯，他们决定放弃精灵猪小弟敢拍角马的故事参加汇演哇。",
+        "Holder": "3",
+        "Target": "角马故事",
+        "Aspect": "故事的选择",
+        "Opinion": "被选中参加汇演",
+        "Sentiment": "positive",
+        "Rationale": "自己的角马故事被同学选中参加汇演"
+    },
+    {
+        "sentence": "根据剧情，此处应该欢呼爆。",
+        "Holder": "4",
+        "Target": "剧情",
+        "Aspect": "情感反应",
+        "Opinion": "应该欢呼",
+        "Sentiment": "positive",
+        "Rationale": "剧情发展到高潮部分"
+    },
+    {
+        "sentence": "蜡像的新闻。哇， oh oh oh。",
+        "Holder": "1",
+        "Target": "蜡像新闻",
+        "Aspect": "新闻内容",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到蜡像的新闻内容感到惊讶"
+    },
+    {
+        "sentence": "我也去一下。mua。我也去一下。小帅，你今天的获奖演出简直是太精彩了，我要感谢我的爸爸妈妈、弟弟、同学、老师、朋友，感谢广大观众，感谢献身于艺术事业的同志们。哈哈哈，不知道的还以为咱们得了诺贝利文学奖呢。是，哈哈哈，是诺贝利，是和电展，哈哈哈哈。",
+        "Holder": "1",
+        "Target": "小帅的获奖演出",
+        "Aspect": "演出的精彩程度",
+        "Opinion": "非常精彩",
+        "Sentiment": "positive",
+        "Rationale": "小帅的演出非常成功并且获奖"
+    },
+    {
+        "sentence": "这个奖对咱们来说比诺贝尔都重要。嗯，哈哈哈，这个代表了咱们全家的光荣，尤其是你们的父亲。哈哈哈，著名编导，下次看。",
+        "Holder": "2",
+        "Target": "获得的奖项",
+        "Aspect": "奖项的重要性",
+        "Opinion": "比诺贝尔更重要",
+        "Sentiment": "positive",
+        "Rationale": "这个奖项代表了全家的光荣，尤其是对父亲的意义重大"
+    },
+    {
+        "sentence": "不敢当不敢当。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "谦虚态度",
+        "Opinion": "谦虚",
+        "Sentiment": "neutral",
+        "Rationale": "对方可能给予了某种夸奖或敬意"
+    },
+    {
+        "sentence": "老爸你快看香咩，咱们镜头清楚吧。对。",
+        "Holder": "4",
+        "Target": "镜头",
+        "Aspect": "清晰度",
+        "Opinion": "清晰",
+        "Sentiment": "positive",
+        "Rationale": "镜头清晰"
+    },
+    {
+        "sentence": "对对对对，马上。",
+        "Holder": "3",
+        "Target": "4的要求",
+        "Aspect": "响应速度",
+        "Opinion": "迅速响应",
+        "Sentiment": "neutral",
+        "Rationale": "对方提出了要求"
+    },
+    {
+        "sentence": "慢点呦。谁呀？点点。",
+        "Holder": "1",
+        "Target": "3的行动",
+        "Aspect": "行动速度",
+        "Opinion": "建议慢点",
+        "Sentiment": "neutral",
+        "Rationale": "担心3行动过快可能出现问题"
+    },
+    {
+        "sentence": "哎，嫂子，来东海，你那个剧本千万不能卖给别人追。谁来给我留着啊。",
+        "Holder": "6",
+        "Target": "嫂子的剧本",
+        "Aspect": "剧本归属",
+        "Opinion": "希望保留",
+        "Sentiment": "positive",
+        "Rationale": "对嫂子的剧本有特别的期待"
+    }
+]

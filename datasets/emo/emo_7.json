@@ -1,0 +1,79 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "姚一波的替代提议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出替代方案需要决策",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "被质疑岗位合理性后保持客观",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "岗位专业性质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调观点客观性",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "被替代的公平性争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "不理解被替代的原因",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "认可姚老板岗位匹配度",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "企业体系成熟度讨论",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑对方评价依据",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "通过交流感知体系成熟",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "岗位提供合理性批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为岗位信息不透明",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

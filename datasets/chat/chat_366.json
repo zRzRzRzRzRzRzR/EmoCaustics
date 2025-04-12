@@ -1,0 +1,101 @@
+[
+    {
+        "sentence": "你这阴阳怪气的，你到底想干什么？",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "语气和意图",
+        "Opinion": "不满和质疑",
+        "Sentiment": "negative",
+        "Rationale": "对方说话阴阳怪气，让人感到不舒服"
+    },
+    {
+        "sentence": "行行你辛苦你别生气。",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪安抚",
+        "Opinion": "希望对方冷静",
+        "Sentiment": "neutral",
+        "Rationale": "对方生气"
+    },
+    {
+        "sentence": "行吗？我能不生气吗？",
+        "Holder": "1",
+        "Target": "2的安抚",
+        "Aspect": "情绪反应",
+        "Opinion": "难以平复",
+        "Sentiment": "negative",
+        "Rationale": "对方的阴阳怪气让自己感到非常不满"
+    },
+    {
+        "sentence": "那我就冲你了，怎么了？我不冲你，我。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话态度",
+        "Opinion": "针对1",
+        "Sentiment": "negative",
+        "Rationale": "2感觉被误解或被针对"
+    },
+    {
+        "sentence": "放学新的妈我能看咱家户口本吗？看户口本干什么？",
+        "Holder": "2",
+        "Target": "户口本",
+        "Aspect": "查看权限",
+        "Opinion": "请求查看",
+        "Sentiment": "neutral",
+        "Rationale": "2只是提出一个普通的请求"
+    },
+    {
+        "sentence": "没啥，我上次听奶奶说，咱家4个人在2个户口本上，杨家一本，我和你单独一本。",
+        "Holder": "2",
+        "Target": "户口本分布",
+        "Aspect": "家庭户口情况",
+        "Opinion": "陈述事实",
+        "Sentiment": "neutral",
+        "Rationale": "2只是在陈述听到的信息"
+    },
+    {
+        "sentence": "老杨你妈说这话什么意思？",
+        "Holder": "1",
+        "Target": "奶奶的话",
+        "Aspect": "话语含义",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对奶奶的话感到困惑和不解"
+    },
+    {
+        "sentence": "你奶奶她肯定是记错了，你看杨涛他的户口迁到大学了，他自己一咱仨单独一本这么个两本。",
+        "Holder": "1",
+        "Target": "奶奶的记忆",
+        "Aspect": "户口本情况",
+        "Opinion": "纠正错误",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释实际情况"
+    },
+    {
+        "sentence": "没事两本就两本，反正也不是一个项目，",
+        "Holder": "2",
+        "Target": "户口本数量",
+        "Aspect": "户口本影响",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "2认为户口本数量不影响什么"
+    },
+    {
+        "sentence": "别无所谓，你等会儿等会你看看是不是在一起？我。",
+        "Holder": "2",
+        "Target": "对方的态度",
+        "Aspect": "对事情的关注度",
+        "Opinion": "要求对方重视",
+        "Sentiment": "negative",
+        "Rationale": "对方表现出无所谓的态度"
+    },
+    {
+        "sentence": "哪里错了小红书。",
+        "Holder": "2",
+        "Target": "小红书的内容",
+        "Aspect": "内容的准确性",
+        "Opinion": "质疑内容的正确性",
+        "Sentiment": "doubt",
+        "Rationale": "怀疑小红书上的信息有误"
+    }
+]

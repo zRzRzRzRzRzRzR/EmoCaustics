@@ -1,0 +1,137 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "爱的本质与自由意志",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "论证爱无法通过自由意志控制",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "主张通过超能力实现爱情自主",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "超能力伦理争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑剥夺自由意志",
+            "source_id": "3,5"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "类比月老机制寻求合理性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "超能力机制质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "要求明确超能力作用机理",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "指出权力滥用风险",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "爱情真实性辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判超能力导致情感贬值",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "强调成长型爱情观",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "爱情不可控性论证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释神经科学机制",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "主张超能力弥补自由意志缺陷",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "伦理责任辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "回应操控指控",
+            "source_id": "5"
+          },
+          {
+            "state": "doubt",
+            "reason": "反思爱情本质矛盾",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "自由意志价值维护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "类比包办婚姻弊端",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调自主选择重要性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "辩论进程控制",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持流程管理",
+            "source_id": "all"
+          }
+        ]
+      }
+    ]
+  }
+}

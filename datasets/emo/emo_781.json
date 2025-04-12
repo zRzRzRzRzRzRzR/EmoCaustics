@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "孙子兵法国际研讨会开幕式",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观陈述会议主题与参与规模",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "学术活动价值探讨",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调重读经典的必要性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定活动对和平建设的促进作用",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "兵学思想现代诠释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提炼和平共处理念的现代价值",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "文化传播实证研究",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "列举多语言译本与军事教育应用案例",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "跨文化接受度分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "证实思想在阿根廷的受欢迎程度",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

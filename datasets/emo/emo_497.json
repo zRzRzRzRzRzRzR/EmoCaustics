@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭沟通冲突",
+        "emotions": [
+          {"state": "negative", "reason": "对孩子们未及时开门感到不满|质疑晚归合理性", "source_id": "2,3,5"},
+          {"state": "neutral", "reason": "解释自身工作原因", "source_id": "1"},
+          {"state": "negative", "reason": "认为外出就餐选择奢侈", "source_id": "2,3,5"},
+          {"state": "doubt", "reason": "质疑单位放行可能性", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "亲子关系紧张",
+        "emotions": [
+          {"state": "negative", "reason": "抱怨母亲忽视沟通|指责弟弟饮食选择", "source_id": "1,5"},
+          {"state": "positive", "reason": "请求报销餐费", "source_id": "1"},
+          {"state": "neutral", "reason": "自我安慰式表达", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "情感需求缺失",
+        "emotions": [
+          {"state": "negative", "reason": "控诉长期营养不足|抱怨母爱分配不均", "source_id": "1"},
+          {"state": "neutral", "reason": "解释饮食偏好", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "身心需求表达",
+        "emotions": [
+          {"state": "neutral", "reason": "说明饮食内容", "source_id": "5"},
+          {"state": "negative", "reason": "控诉身心双重缺失", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "重大机遇传达",
+        "emotions": [
+          {"state": "positive", "reason": "传达出国机会|确认信息可靠性", "source_id": "1"},
+          {"state": "negative", "reason": "表达选择后悔", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

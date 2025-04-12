@@ -1,0 +1,587 @@
+[
+    {
+        "sentence": "乔董，这宴席你还吃得下吗？",
+        "Holder": "1",
+        "Target": "乔董",
+        "Aspect": "宴席的食欲",
+        "Opinion": "质疑是否能吃得下",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对乔董在当前情况下是否能吃得下宴席表示怀疑"
+    },
+    {
+        "sentence": "乔董，你又想干什么？",
+        "Holder": "2",
+        "Target": "乔董",
+        "Aspect": "行为意图",
+        "Opinion": "质疑乔董的意图",
+        "Sentiment": "negative",
+        "Rationale": "2认为乔董可能有不良意图"
+    },
+    {
+        "sentence": "你可别忘了，之前你就被这个女人威胁做假证的事情，今天又想再来一次吗？",
+        "Holder": "2",
+        "Target": "乔董",
+        "Aspect": "过去的行为",
+        "Opinion": "指责乔董被威胁做假证",
+        "Sentiment": "negative",
+        "Rationale": "2提及乔董过去的负面行为，并质疑其是否再次犯错"
+    },
+    {
+        "sentence": "让我做假证的就不是南溪，而是你，叶大小姐。",
+        "Holder": "3",
+        "Target": "叶大小姐",
+        "Aspect": "假证的责任",
+        "Opinion": "指责叶大小姐",
+        "Sentiment": "negative",
+        "Rationale": "3认为叶大小姐是让做假证的责任人"
+    },
+    {
+        "sentence": "你知不知道自己在说什么？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "言语的合理性",
+        "Opinion": "质疑3的言论",
+        "Sentiment": "negative",
+        "Rationale": "2认为3的言论不合理或不负责任"
+    },
+    {
+        "sentence": "乔明远，你可别忘了。",
+        "Holder": "2",
+        "Target": "乔明远",
+        "Aspect": "记忆",
+        "Opinion": "提醒不要忘记",
+        "Sentiment": "neutral",
+        "Rationale": "2想要提醒乔明远某事"
+    },
+    {
+        "sentence": "叶小姐，我女儿已经被我送出国治疗了。你再想用她来威胁我，绝无可能！",
+        "Holder": "3",
+        "Target": "叶小姐",
+        "Aspect": "威胁手段",
+        "Opinion": "无效",
+        "Sentiment": "negative",
+        "Rationale": "3已经采取了措施保护女儿"
+    },
+    {
+        "sentence": "威胁？叶小姐威胁乔总了？",
+        "Holder": "4",
+        "Target": "叶小姐",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "4对叶小姐是否真的威胁乔总感到疑惑"
+    },
+    {
+        "sentence": "乔董，请把你两年前知道的真相完整的告诉大家。",
+        "Holder": "1",
+        "Target": "乔董",
+        "Aspect": "真相披露",
+        "Opinion": "要求完整披露",
+        "Sentiment": "neutral",
+        "Rationale": "1希望了解全部真相"
+    },
+    {
+        "sentence": "南董是被人陷害的。",
+        "Holder": "3",
+        "Target": "南董",
+        "Aspect": "事件的性质",
+        "Opinion": "被陷害",
+        "Sentiment": "negative",
+        "Rationale": "认为南董是被他人陷害的"
+    },
+    {
+        "sentence": "那场董事会之前，我跟叶小姐完成了一笔交易，才有了后边的冤案。",
+        "Holder": "3",
+        "Target": "冤案",
+        "Aspect": "冤案的原因",
+        "Opinion": "交易导致冤案",
+        "Sentiment": "negative",
+        "Rationale": "提到自己与叶小姐的交易导致了冤案"
+    },
+    {
+        "sentence": "你在胡说八道什么？",
+        "Holder": "2",
+        "Target": "3的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "不真实",
+        "Sentiment": "negative",
+        "Rationale": "认为3的话没有根据"
+    },
+    {
+        "sentence": "两年前的事你也参与了？",
+        "Holder": "5",
+        "Target": "3的参与",
+        "Aspect": "事件的参与",
+        "Opinion": "怀疑参与",
+        "Sentiment": "neutral",
+        "Rationale": "对3是否参与事件表示怀疑"
+    },
+    {
+        "sentence": "阿峥，你不会相信这个见风使舵的小人嘴里的话吧。",
+        "Holder": "2",
+        "Target": "小人",
+        "Aspect": "诚信",
+        "Opinion": "不可信",
+        "Sentiment": "negative",
+        "Rationale": "认为对方是见风使舵的小人"
+    },
+    {
+        "sentence": "他的话信不信我不知道，但是你的话我是不会相信的！",
+        "Holder": "5",
+        "Target": "2的话",
+        "Aspect": "可信度",
+        "Opinion": "不可信",
+        "Sentiment": "negative",
+        "Rationale": "对2的信任度极低"
+    },
+    {
+        "sentence": "继续说，把你知道的都说出来！",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "信息披露",
+        "Opinion": "要求全面披露",
+        "Sentiment": "neutral",
+        "Rationale": "想要了解全部信息"
+    },
+    {
+        "sentence": "两年前，我的女儿大出血住院，急需RH型血救命。叶小姐也是这个血型，以此为借口，我们完成了一场交易，她让我在董事会当天带头反对南总，逼他下台。",
+        "Holder": "3",
+        "Target": "叶小姐",
+        "Aspect": "交易动机",
+        "Opinion": "利用血型进行交易",
+        "Sentiment": "negative",
+        "Rationale": "叶小姐利用3女儿急需RH型血的情况进行交易"
+    },
+    {
+        "sentence": "没想到的是，南董因为董事会的倒戈突发心脏病，最后是蒋睿拦住了大家不让叫救护车，耽误了南董的最佳抢救时间。",
+        "Holder": "3",
+        "Target": "蒋睿",
+        "Aspect": "行为后果",
+        "Opinion": "耽误抢救",
+        "Sentiment": "negative",
+        "Rationale": "蒋睿拦住大家不让叫救护车，导致南董错过最佳抢救时间"
+    },
+    {
+        "sentence": "这也太恶毒了吧，简直就是谋财害命。",
+        "Holder": "4",
+        "Target": "对方的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "恶毒、谋财害命",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为极其恶劣，涉及到谋财害命"
+    },
+    {
+        "sentence": "我已经把蒋睿的所有证据提交给法院。",
+        "Holder": "1",
+        "Target": "蒋睿的证据",
+        "Aspect": "证据的处理",
+        "Opinion": "已提交法院",
+        "Sentiment": "neutral",
+        "Rationale": "已经完成了证据提交的动作"
+    },
+    {
+        "sentence": "叶小姐，你作为从犯，就等着法律的制裁吧。",
+        "Holder": "1",
+        "Target": "叶小姐",
+        "Aspect": "法律地位",
+        "Opinion": "将从犯",
+        "Sentiment": "negative",
+        "Rationale": "认为叶小姐是案件的从犯"
+    },
+    {
+        "sentence": "你们根本就是一伙的，在这演戏给谁看呢！",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行为的真实性",
+        "Opinion": "一伙的、演戏",
+        "Sentiment": "negative",
+        "Rationale": "认为对方是在联手演戏"
+    },
+    {
+        "sentence": "人证物证俱在，你还在狡辩什么！",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "辩解的合理性",
+        "Opinion": "无需狡辩",
+        "Sentiment": "negative",
+        "Rationale": "认为已有充分证据，对方的辩解显得毫无根据"
+    },
+    {
+        "sentence": "阿峥，我是被冤枉的，你怎么能相信这个女人说的话呢？",
+        "Holder": "2",
+        "Target": "阿峥的信任",
+        "Aspect": "信任的合理性",
+        "Opinion": "不应该相信",
+        "Sentiment": "negative",
+        "Rationale": "自己被冤枉，而阿峥却相信了别人的话"
+    },
+    {
+        "sentence": "谁是叶可欣？",
+        "Holder": "6",
+        "Target": "叶可欣的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对话中第一次提到叶可欣"
+    },
+    {
+        "sentence": "你报警了？",
+        "Holder": "2",
+        "Target": "报警行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "担心报警会对自己不利"
+    },
+    {
+        "sentence": "我不报警，怎么让你和蒋睿的罪行公之于众，让我爸爸沉冤昭雪。",
+        "Holder": "1",
+        "Target": "报警的目的",
+        "Aspect": "目的的正当性",
+        "Opinion": "为了正义",
+        "Sentiment": "positive",
+        "Rationale": "报警是为了揭露罪行和为父亲昭雪"
+    },
+    {
+        "sentence": "你就是叶可欣吗？",
+        "Holder": "6",
+        "Target": "叶可欣的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "怀疑",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认对方的身份"
+    },
+    {
+        "sentence": "我们怀疑你多次与人合作，雇凶杀人，跟我们走一趟吧。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "行为合法性",
+        "Opinion": "怀疑犯罪",
+        "Sentiment": "negative",
+        "Rationale": "怀疑2有犯罪行为"
+    },
+    {
+        "sentence": "没有，我没有。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为合法性",
+        "Opinion": "否认犯罪",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑犯罪"
+    },
+    {
+        "sentence": "请配合我们调查。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "配合调查",
+        "Opinion": "要求配合",
+        "Sentiment": "neutral",
+        "Rationale": "需要调查真相"
+    },
+    {
+        "sentence": "我们走吧。",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "行动",
+        "Opinion": "建议离开",
+        "Sentiment": "neutral",
+        "Rationale": "调查需要继续"
+    },
+    {
+        "sentence": "阿峥，你不能走，你说过的，要给我和宝宝一个家，要给我幸福，这些誓言难道你都忘了吗？",
+        "Holder": "2",
+        "Target": "阿峥的誓言",
+        "Aspect": "承诺的履行",
+        "Opinion": "阿峥应该履行誓言",
+        "Sentiment": "negative",
+        "Rationale": "阿峥似乎要离开，违背了之前的承诺"
+    },
+    {
+        "sentence": "从你步步精心设计开始，你就会料到有今天这个结果！",
+        "Holder": "5",
+        "Target": "2的行为",
+        "Aspect": "行为的目的性",
+        "Opinion": "2的行为是有预谋的",
+        "Sentiment": "negative",
+        "Rationale": "5认为2的行为是精心设计的"
+    },
+    {
+        "sentence": "这场婚礼给我取消！",
+        "Holder": "5",
+        "Target": "婚礼",
+        "Aspect": "婚礼的进行",
+        "Opinion": "取消婚礼",
+        "Sentiment": "negative",
+        "Rationale": "5对2的行为感到极度失望和愤怒"
+    },
+    {
+        "sentence": "你说什么？",
+        "Holder": "2",
+        "Target": "5的决定",
+        "Aspect": "决定的突然性",
+        "Opinion": "难以置信",
+        "Sentiment": "negative",
+        "Rationale": "2听到5要取消婚礼的决定感到震惊和难以接受"
+    },
+    {
+        "sentence": "还有你肚子里的孩子，给我打掉！",
+        "Holder": "5",
+        "Target": "孩子",
+        "Aspect": "孩子的去留",
+        "Opinion": "要求打掉",
+        "Sentiment": "negative",
+        "Rationale": "5对孩子存在强烈的排斥情绪"
+    },
+    {
+        "sentence": "阿峥，你知不知道你自己在说什么，这可是你的孩子啊！",
+        "Holder": "2",
+        "Target": "5的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "反对打掉孩子",
+        "Sentiment": "negative",
+        "Rationale": "2认为5的决定过于冷酷无情"
+    },
+    {
+        "sentence": "对了，说到孩子，霍总还是去查一下亲子鉴定吧，免得这孩子不是你的，喜当爹了。",
+        "Holder": "1",
+        "Target": "孩子的身份",
+        "Aspect": "亲子关系的确定性",
+        "Opinion": "建议做亲子鉴定",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对孩子的身份存在怀疑"
+    },
+    {
+        "sentence": "别叫我爸，我没有你这丢人现眼的女儿！",
+        "Holder": "8",
+        "Target": "2",
+        "Aspect": "身份认同",
+        "Opinion": "不承认女儿身份",
+        "Sentiment": "negative",
+        "Rationale": "认为2的行为丢人"
+    },
+    {
+        "sentence": "你不过就是我们叶家养的一个孤儿，你又不是我们叶家人。所以说你做的那些龌龊的事情跟我们叶家一点关系都没有！",
+        "Holder": "8",
+        "Target": "2",
+        "Aspect": "家族归属",
+        "Opinion": "否认家族关系",
+        "Sentiment": "negative",
+        "Rationale": "认为2的行为龌龊"
+    },
+    {
+        "sentence": "你们一开始可不是这么说的，你们说不管我用什么方法，只要我能嫁给霍峥，我就能名正言顺的成为叶家大小姐。",
+        "Holder": "2",
+        "Target": "8",
+        "Aspect": "承诺的一致性",
+        "Opinion": "指责违背承诺",
+        "Sentiment": "negative",
+        "Rationale": "8之前的承诺与现在的态度不符"
+    },
+    {
+        "sentence": "你们现在怎么就翻脸不认人了呢？",
+        "Holder": "2",
+        "Target": "8",
+        "Aspect": "态度变化",
+        "Opinion": "质疑态度转变",
+        "Sentiment": "negative",
+        "Rationale": "8的态度突然转变"
+    },
+    {
+        "sentence": "给我闭嘴！",
+        "Holder": "8",
+        "Target": "2",
+        "Aspect": "言论控制",
+        "Opinion": "要求停止发言",
+        "Sentiment": "negative",
+        "Rationale": "不想听2的解释或反驳"
+    },
+    {
+        "sentence": "你要干什么？",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "行为意图",
+        "Opinion": "质疑意图",
+        "Sentiment": "negative",
+        "Rationale": "7对5的行为意图感到疑惑和不放心"
+    },
+    {
+        "sentence": "让开，我有话和南溪说。",
+        "Holder": "5",
+        "Target": "7",
+        "Aspect": "行为要求",
+        "Opinion": "要求让开",
+        "Sentiment": "negative",
+        "Rationale": "5要求7让开以便和南溪说话，表现出一种急切和不耐烦的情绪"
+    },
+    {
+        "sentence": "刚刚在婚礼上已经说的够清楚了。",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "信息传达",
+        "Opinion": "已经说明",
+        "Sentiment": "negative",
+        "Rationale": "7认为在婚礼上已经把事情说得很清楚，不需要再重复"
+    },
+    {
+        "sentence": "南溪不欠你什么，你要是有点良知的话，就别再来打扰她了。",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "行为",
+        "Opinion": "不应该打扰南希",
+        "Sentiment": "negative",
+        "Rationale": "因为7认为5的行为对南希造成了不必要的困扰，所以表现出强烈的反感和不满。"
+    },
+    {
+        "sentence": "这是我跟她的事，你让开！",
+        "Holder": "5",
+        "Target": "7",
+        "Aspect": "干涉",
+        "Opinion": "不需要7的干涉",
+        "Sentiment": "negative",
+        "Rationale": "因为5觉得7干涉了他和南希之间的事情，所以表现出抗拒和不耐烦的情绪。"
+    },
+    {
+        "sentence": "我要是不同意呢？",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "态度",
+        "Opinion": "不同意",
+        "Sentiment": "neutral",
+        "Rationale": "7对5的要求持保留态度，并没有直接表达出积极或消极的情绪。"
+    },
+    {
+        "sentence": "霍青，玉佩！",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "因为这句话只是提到了一个名字和一个物品，没有表达出具体的情感或评价。"
+    },
+    {
+        "sentence": "霍峥，你害她还不够吗？",
+        "Holder": "7",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "对南希造成了伤害",
+        "Sentiment": "negative",
+        "Rationale": "因为7认为1的行为对南希造成了伤害，所以表达出强烈的指责和不满。"
+    },
+    {
+        "sentence": "她现在变成这样，全是因为你这个人渣！",
+        "Holder": "7",
+        "Target": "1",
+        "Aspect": "个人品行",
+        "Opinion": "认为1是导致问题的根源",
+        "Sentiment": "negative",
+        "Rationale": "7认为1的行为导致了她的现状"
+    },
+    {
+        "sentence": "凌风，放开他。",
+        "Holder": "1",
+        "Target": "凌风",
+        "Aspect": "行为指令",
+        "Opinion": "要求凌风停止当前行为",
+        "Sentiment": "neutral",
+        "Rationale": "1希望凌风停止对某人的束缚"
+    },
+    {
+        "sentence": "不知道霍先生还有什么话想对我说，还是说对刚刚的证据存疑。",
+        "Holder": "1",
+        "Target": "霍先生",
+        "Aspect": "对话内容",
+        "Opinion": "询问霍先生的意见或疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1希望了解霍先生的想法"
+    },
+    {
+        "sentence": "不是，南溪，15年前这块玉佩是你给我的对吧？",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "玉佩的来源",
+        "Opinion": "确认玉佩的给予者",
+        "Sentiment": "neutral",
+        "Rationale": "5需要确认玉佩的来源"
+    },
+    {
+        "sentence": "15年前，我如果知道你会让我经历牢狱之灾，家破人亡，断腿之痛，我是不会给你的。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "玉佩给予的后果",
+        "Opinion": "后悔给予玉佩",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为给予5玉佩导致了自身的悲惨遭遇，所以感到极度后悔和痛苦"
+    },
+    {
+        "sentence": "对不起。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "道歉",
+        "Opinion": "表达歉意",
+        "Sentiment": "neutral",
+        "Rationale": "5在向1道歉"
+    },
+    {
+        "sentence": "对不起？你觉得这三个字是能让我爸活过来呢，还是能让我这两年的痛苦全部消失。",
+        "Holder": "1",
+        "Target": "5的道歉",
+        "Aspect": "道歉的有效性",
+        "Opinion": "认为道歉无用",
+        "Sentiment": "negative",
+        "Rationale": "1认为5的道歉无法弥补其父亲的去世和自己的痛苦"
+    },
+    {
+        "sentence": "你爸爸的案子，我会全力配合进行重审的，而且我手里有一些证据。",
+        "Holder": "5",
+        "Target": "1爸爸的案子",
+        "Aspect": "案件重审",
+        "Opinion": "承诺全力配合",
+        "Sentiment": "positive",
+        "Rationale": "5承诺会全力配合重审并提供了证据"
+    },
+    {
+        "sentence": "这是你应该做的。",
+        "Holder": "1",
+        "Target": "5的承诺",
+        "Aspect": "责任和义务",
+        "Opinion": "认为5有责任",
+        "Sentiment": "neutral",
+        "Rationale": "1认为5配合重审是应尽的责任"
+    },
+    {
+        "sentence": "说完了吧，说完了就别在这碍眼了，赶紧去处理你那未婚妻的烂事。",
+        "Holder": "7",
+        "Target": "5",
+        "Aspect": "行为和态度",
+        "Opinion": "认为5碍事",
+        "Sentiment": "negative",
+        "Rationale": "7觉得5在这里碍事并且有其他更重要的事情需要处理"
+    },
+    {
+        "sentence": "你先干什么？",
+        "Holder": "7",
+        "Target": "5的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚5要做什么"
+    },
+    {
+        "sentence": "这是你的东西，至少让我物归原主吧。",
+        "Holder": "5",
+        "Target": "物品归属",
+        "Aspect": "物品的处理方式",
+        "Opinion": "应该归还",
+        "Sentiment": "positive",
+        "Rationale": "认为物品属于7"
+    },
+    {
+        "sentence": "这是不是我的，我已经不在乎了，扔了吧。",
+        "Holder": "1",
+        "Target": "物品归属",
+        "Aspect": "物品的处理方式",
+        "Opinion": "不在乎且建议扔掉",
+        "Sentiment": "negative",
+        "Rationale": "对物品已经失去兴趣或不重要"
+    }
+]

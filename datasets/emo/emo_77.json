@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "产品与事业机会推广",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调产品性价比及分享机制的经济价值",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "参与者地域背景互动",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "邀请分享并询问地域信息",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认可吴忠市资源及合作伙伴价值",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "个人职业发展展示",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问职业历程与目标",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定分享价值并赠礼致谢",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "品牌加盟动机阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "观察产品效果后产生兴趣",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认可事业模式的双向收益机制",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "职业目标公开承诺",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "受高收入案例激励设定挑战目标",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

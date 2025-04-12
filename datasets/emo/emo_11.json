@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作与家庭责任的价值冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调挣钱可为孩子创造稳定生活条件",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑缺乏情感忠诚与勇气",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "自我行为正当性辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反击对方在离婚前未坦诚表达情感",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育观念与物质主义的对立",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判金钱替代亲情温暖的教育方式",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "人格批判与道德审判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责情感背叛、虚伪及自私性格",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑接受前妻补偿的正当性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

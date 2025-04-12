@@ -1,0 +1,58 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "阿离虐待事件责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指控参与虐待并传播不雅视频", "source_id": "3"},
+          {"state": "negative", "reason": "被揭露三年前车祸真相", "source_id": "3"},
+          {"state": "negative", "reason": "婚姻忠诚度受到多方质疑", "source_id": "3,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "阿离事件真相调查",
+        "emotions": [
+          {"state": "neutral", "reason": "客观分析法律后果", "source_id": "1"},
+          {"state": "negative", "reason": "发现妻子涉及重大欺骗", "source_id": "3"},
+          {"state": "neutral", "reason": "寻求事实验证方案", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "指控苏芮芮系列罪行",
+        "emotions": [
+          {"state": "negative", "reason": "被苏芮芮反指控并威胁", "source_id": "1"},
+          {"state": "negative", "reason": "揭露车祸真相遭武力压制", "source_id": "1,2"},
+          {"state": "neutral", "reason": "坚持陈述事实证据", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "婚姻忠诚度指控",
+        "emotions": [
+          {"state": "negative", "reason": "发现嫂子存在感情欺骗", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "为女儿品德担保",
+        "emotions": [
+          {"state": "positive", "reason": "坚信女儿不会违法犯罪", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,668 @@
+[
+    {
+        "sentence": "我要限制你们的冷饮",
+        "Holder": "1",
+        "Target": "冷饮",
+        "Aspect": "冷饮的摄入",
+        "Opinion": "需要限制",
+        "Sentiment": "negative",
+        "Rationale": "担心孩子们过度摄入冷饮影响健康"
+    },
+    {
+        "sentence": "别呀妈",
+        "Holder": "2",
+        "Target": "限制冷饮",
+        "Aspect": "限制的合理性",
+        "Opinion": "反对限制",
+        "Sentiment": "negative",
+        "Rationale": "不想被限制冷饮"
+    },
+    {
+        "sentence": "什么别呀？",
+        "Holder": "1",
+        "Target": "2的反对",
+        "Aspect": "反对的态度",
+        "Opinion": "质疑反对",
+        "Sentiment": "negative",
+        "Rationale": "对2的反对感到不理解"
+    },
+    {
+        "sentence": "不限制行吗啊？你们看看你们爸爸都成什么样了啊？你们再不悬崖勒马，痛改前非，你们爸爸就是你们的下场。",
+        "Holder": "1",
+        "Target": "孩子们的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "需要改变",
+        "Sentiment": "negative",
+        "Rationale": "担心孩子们会像爸爸一样出现问题"
+    },
+    {
+        "sentence": "哈哈哈，我怎么又有我的事了？你，你可别误导孩子啊。",
+        "Holder": "3",
+        "Target": "1的警告",
+        "Aspect": "警告的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的警告牵扯到自己且不恰当"
+    },
+    {
+        "sentence": "那是误导孩子吗？哎，你忘了你当时牙疼的时候那惨样了。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "对孩子的影响",
+        "Opinion": "认为是误导",
+        "Sentiment": "negative",
+        "Rationale": "认为3的行为会误导孩子"
+    },
+    {
+        "sentence": "怎么了怎么了？疼上了吧",
+        "Holder": "1",
+        "Target": "3的反应",
+        "Aspect": "牙疼的再次发生",
+        "Opinion": "认为3又牙疼",
+        "Sentiment": "negative",
+        "Rationale": "觉得3又牙疼了"
+    },
+    {
+        "sentence": "都赖你，本来没事你就给我勾起来了",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "引发牙疼的原因",
+        "Opinion": "认为是1的责任",
+        "Sentiment": "negative",
+        "Rationale": "觉得是1让自己想起了牙疼的经历"
+    },
+    {
+        "sentence": "看看，这就是你们的反面教材，知道吗？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "作为教育例子",
+        "Opinion": "认为是反面教材",
+        "Sentiment": "negative",
+        "Rationale": "觉得3的行为可以作为反面教材"
+    },
+    {
+        "sentence": "刘星，你平时最不像话，经常是刚吃完热的马上喝凉水，那一冷一热那牙能受得了吗？",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "饮食习惯",
+        "Opinion": "不健康",
+        "Sentiment": "negative",
+        "Rationale": "刘星经常在吃完热的食物后马上喝凉水，这样的饮食习惯对牙齿不好"
+    },
+    {
+        "sentence": "哎呦就完了，想想以后怎么做",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "行为改进",
+        "Opinion": "需要改变",
+        "Sentiment": "negative",
+        "Rationale": "刘星对批评的反应不够认真"
+    },
+    {
+        "sentence": "还有你，小雪，你每天吃多少零食，吃多少甜的，你怎么能不长虫子牙呢？",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "饮食习惯",
+        "Opinion": "不健康",
+        "Sentiment": "negative",
+        "Rationale": "小雪每天吃很多零食和甜食，这样的饮食习惯容易导致蛀牙"
+    },
+    {
+        "sentence": "将来怎么能不牙疼呢？",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "未来健康",
+        "Opinion": "担忧",
+        "Sentiment": "negative",
+        "Rationale": "小雪的饮食习惯可能导致将来牙疼"
+    },
+    {
+        "sentence": "我的问题更严重啊。",
+        "Holder": "5",
+        "Target": "自己的问题",
+        "Aspect": "问题的严重性",
+        "Opinion": "问题更严重",
+        "Sentiment": "negative",
+        "Rationale": "认为自己把零食都让给别人吃，导致问题更严重"
+    },
+    {
+        "sentence": "小雨你有什么问题啊？",
+        "Holder": "1",
+        "Target": "5的问题",
+        "Aspect": "问题的内容",
+        "Opinion": "询问问题",
+        "Sentiment": "neutral",
+        "Rationale": "对5的问题感到好奇"
+    },
+    {
+        "sentence": "我把零食都让给他吃了。哎，我这不是害他吗？",
+        "Holder": "5",
+        "Target": "自己让零食的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "认为害了别人",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己让零食给别人吃可能会导致不良后果"
+    },
+    {
+        "sentence": "你比谁都馋",
+        "Holder": "4",
+        "Target": "5的馋",
+        "Aspect": "食欲",
+        "Opinion": "5非常馋",
+        "Sentiment": "negative",
+        "Rationale": "认为5平时非常馋"
+    },
+    {
+        "sentence": "哎，可能吗？",
+        "Holder": "5",
+        "Target": "4的评价",
+        "Aspect": "评价的准确性",
+        "Opinion": "质疑评价",
+        "Sentiment": "negative",
+        "Rationale": "对4的评价感到不满和委屈"
+    },
+    {
+        "sentence": "我给你抢你都不给我",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "抢东西的行为",
+        "Opinion": "不给",
+        "Sentiment": "negative",
+        "Rationale": "4认为5应该给自己抢到的东西，但5没有给"
+    },
+    {
+        "sentence": "谁跟你说的",
+        "Holder": "5",
+        "Target": "4的说法",
+        "Aspect": "信息的来源",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "5对4的说法表示怀疑，认为4没有依据"
+    },
+    {
+        "sentence": "哎哎哎哎，别吵了，行不行？",
+        "Holder": "1",
+        "Target": "4和5的争吵",
+        "Aspect": "争吵的行为",
+        "Opinion": "停止争吵",
+        "Sentiment": "negative",
+        "Rationale": "1觉得4和5的争吵让人烦躁"
+    },
+    {
+        "sentence": "你们三个人的问题确实都很严重，告诉你，爱护牙齿要从小做起，从今天做起，从现在做起，从节制零食做起，",
+        "Holder": "1",
+        "Target": "4和5及其他人",
+        "Aspect": "牙齿健康和零食问题",
+        "Opinion": "问题严重需要改进",
+        "Sentiment": "negative",
+        "Rationale": "1认为4和5及其他人在牙齿健康和零食问题上表现不佳"
+    },
+    {
+        "sentence": "妈你干嘛去",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行动的目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "4对1的行动感到好奇"
+    },
+    {
+        "sentence": "没收你们财产去啊",
+        "Holder": "2",
+        "Target": "财产",
+        "Aspect": "财产处理",
+        "Opinion": "没收",
+        "Sentiment": "negative",
+        "Rationale": "对某种行为不满"
+    },
+    {
+        "sentence": "都是我连累的。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "责任归属",
+        "Opinion": "自责",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的行为导致了不良后果"
+    },
+    {
+        "sentence": "爸真像妈妈说的那么严重吗？",
+        "Holder": "5",
+        "Target": "妈妈的描述",
+        "Aspect": "严重性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对妈妈的描述感到不确定"
+    },
+    {
+        "sentence": "你妈本来就爱小题大做，无事生非，甭听她的。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "行为方式",
+        "Opinion": "批评",
+        "Sentiment": "negative",
+        "Rationale": "认为妈妈总是夸大事实"
+    },
+    {
+        "sentence": "妈您这是要斩尽杀绝，不要",
+        "Holder": "4",
+        "Target": "妈妈的行为",
+        "Aspect": "处理方式",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "认为妈妈的处理方式过于极端"
+    },
+    {
+        "sentence": "什么什么什么，就不要啊，为了你们的牙齿，别怪妈狠心。",
+        "Holder": "1",
+        "Target": "孩子们的牙齿健康",
+        "Aspect": "饮食控制的必要性",
+        "Opinion": "需要控制饮食",
+        "Sentiment": "negative",
+        "Rationale": "担心孩子们的牙齿健康"
+    },
+    {
+        "sentence": "您这要扔啊",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "食物处理方式",
+        "Opinion": "质疑扔掉食物",
+        "Sentiment": "negative",
+        "Rationale": "觉得扔掉食物是浪费的行为"
+    },
+    {
+        "sentence": "我跟你爸爸挣钱多不容易啊，怎么能扔啊，哪能那么浪费呀，告你们限量供应，一天只许吃一点。",
+        "Holder": "1",
+        "Target": "孩子们的食物消费",
+        "Aspect": "食物的节约和限量",
+        "Opinion": "反对浪费，支持限量",
+        "Sentiment": "negative",
+        "Rationale": "挣钱不易，觉得扔掉食物是极大的浪费"
+    },
+    {
+        "sentence": "又回到了旧社会了",
+        "Holder": "3",
+        "Target": "1的限量供应政策",
+        "Aspect": "生活水平的倒退",
+        "Opinion": "感觉像回到了旧社会",
+        "Sentiment": "negative",
+        "Rationale": "限量供应让人感觉生活质量下降，像回到了物资匮乏的旧社会"
+    },
+    {
+        "sentence": "夏东海有意见？",
+        "Holder": "2",
+        "Target": "3的态度",
+        "Aspect": "对限量供应的接受度",
+        "Opinion": "询问是否有意见",
+        "Sentiment": "neutral",
+        "Rationale": "想知道3对限量供应的具体看法"
+    },
+    {
+        "sentence": "没意见。",
+        "Holder": "3",
+        "Target": "当前话题",
+        "Aspect": "态度",
+        "Opinion": "无异议",
+        "Sentiment": "neutral",
+        "Rationale": "没有对当前话题表示反对或支持"
+    },
+    {
+        "sentence": "妈，我的生活不能没有果冻。",
+        "Holder": "2",
+        "Target": "果冻",
+        "Aspect": "生活重要性",
+        "Opinion": "果冻对生活很重要",
+        "Sentiment": "positive",
+        "Rationale": "认为果冻在生活中不可或缺"
+    },
+    {
+        "sentence": "我的生活不能失去薯片。",
+        "Holder": "4",
+        "Target": "薯片",
+        "Aspect": "生活重要性",
+        "Opinion": "薯片对生活很重要",
+        "Sentiment": "positive",
+        "Rationale": "认为薯片在生活中不可或缺"
+    },
+    {
+        "sentence": "妈，我的生活不能牛肉干",
+        "Holder": "5",
+        "Target": "牛肉干",
+        "Aspect": "生活重要性",
+        "Opinion": "牛肉干对生活很重要",
+        "Sentiment": "positive",
+        "Rationale": "认为牛肉干在生活中不可或缺"
+    },
+    {
+        "sentence": "还有我的剧本",
+        "Holder": "3",
+        "Target": "剧本",
+        "Aspect": "生活重要性",
+        "Opinion": "剧本对生活很重要",
+        "Sentiment": "positive",
+        "Rationale": "认为剧本在生活中不可或缺"
+    },
+    {
+        "sentence": "哎哎哎，你等会儿，夏东海什么意思？",
+        "Holder": "2",
+        "Target": "夏东海",
+        "Aspect": "说话意图",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "2没有明白夏东海的话中含义"
+    },
+    {
+        "sentence": "什么叫还有你的剧本啊？",
+        "Holder": "4",
+        "Target": "夏东海的剧本",
+        "Aspect": "剧本归属",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "4对夏东海提到剧本的归属感到疑惑"
+    },
+    {
+        "sentence": "因为它是造成我牙疼的凶手。",
+        "Holder": "3",
+        "Target": "剧本",
+        "Aspect": "牙疼原因",
+        "Opinion": "剧本是原因",
+        "Sentiment": "negative",
+        "Rationale": "3认为剧本是导致自己牙疼的原因"
+    },
+    {
+        "sentence": "我正式通知你，夏东海先生，你可以不工作，但是不可以这种理由不工作。你那个后槽牙反正也没什么太大用，明天到我们医院赶紧拔了去，省者老出毛病。",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "工作态度和牙疼处理",
+        "Opinion": "不支持不工作，建议拔牙",
+        "Sentiment": "neutral",
+        "Rationale": "1认为夏东海不应该牙疼不工作，并且建议拔牙解决问题"
+    },
+    {
+        "sentence": "我才不呢。",
+        "Holder": "3",
+        "Target": "拔牙建议",
+        "Aspect": "是否接受建议",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "3不愿意接受拔牙的建议"
+    },
+    {
+        "sentence": "为什么啊？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "1对3的行为感到困惑"
+    },
+    {
+        "sentence": "你甭管",
+        "Holder": "3",
+        "Target": "1的询问",
+        "Aspect": "回应态度",
+        "Opinion": "拒绝解释",
+        "Sentiment": "negative",
+        "Rationale": "3不想解释自己的行为"
+    },
+    {
+        "sentence": "夏东海你给我站住",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为要求",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "1对3的行为感到不满"
+    },
+    {
+        "sentence": "你怎么这样？怎么跟小孩似的，有病干嘛不去看。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "批评",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的行为不合理，像小孩子一样"
+    },
+    {
+        "sentence": "谁说我有病了？我身体好着呢，就是有点牙疼。",
+        "Holder": "3",
+        "Target": "1的批评",
+        "Aspect": "健康状况",
+        "Opinion": "反驳",
+        "Sentiment": "negative",
+        "Rationale": "3对1的批评感到不满"
+    },
+    {
+        "sentence": "你瞧瞧瞧，这还叫没病呢？你没听人老百姓老说呀？牙疼不算病，疼起来真要命。",
+        "Holder": "1",
+        "Target": "牙疼",
+        "Aspect": "病情的严重性",
+        "Opinion": "牙疼很严重",
+        "Sentiment": "negative",
+        "Rationale": "牙疼虽然常被认为不算大病，但疼起来非常难受"
+    },
+    {
+        "sentence": "我告诉你，牙疼你必须得马上治。",
+        "Holder": "1",
+        "Target": "牙疼",
+        "Aspect": "治疗的紧迫性",
+        "Opinion": "需要立即治疗",
+        "Sentiment": "positive",
+        "Rationale": "牙疼如果不及时治疗会引发更多健康问题"
+    },
+    {
+        "sentence": "为什么",
+        "Holder": "3",
+        "Target": "牙疼需要治疗的原因",
+        "Aspect": "原因的合理性",
+        "Opinion": "质疑需要治疗的原因",
+        "Sentiment": "neutral",
+        "Rationale": "对牙疼需要立即治疗的原因感到不解"
+    },
+    {
+        "sentence": "因为什么？因为你牙不好，你肯定就吃不好，你肯定就消化不好。消化不好你肯定就肠胃不好，肠胃不好肯定就营养不良",
+        "Holder": "1",
+        "Target": "牙疼",
+        "Aspect": "对健康的影响",
+        "Opinion": "牙疼影响整体健康",
+        "Sentiment": "negative",
+        "Rationale": "牙疼会导致饮食和消化问题，进而影响肠胃和营养状况"
+    },
+    {
+        "sentence": "好了好了，梅梅别说了。",
+        "Holder": "3",
+        "Target": "1的劝说",
+        "Aspect": "劝说的接受度",
+        "Opinion": "不想继续听",
+        "Sentiment": "negative",
+        "Rationale": "对1的反复劝说感到不耐烦"
+    },
+    {
+        "sentence": "你说的这些我都明白",
+        "Holder": "3",
+        "Target": "1的观点",
+        "Aspect": "理解程度",
+        "Opinion": "理解",
+        "Sentiment": "neutral",
+        "Rationale": "3表示理解1的观点"
+    },
+    {
+        "sentence": "还不去看呢？你瞧瞧你。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行动的合理性",
+        "Opinion": "批评不去看牙医",
+        "Sentiment": "negative",
+        "Rationale": "1认为3应该去看牙医但未去"
+    },
+    {
+        "sentence": "你不知道。打小我就害怕拔牙，我一看见那牙科大夫我就害怕。尤其一想起来他们拔牙拿那镊子钳子，尤其那电钻",
+        "Holder": "3",
+        "Target": "拔牙",
+        "Aspect": "恐惧感",
+        "Opinion": "非常害怕",
+        "Sentiment": "negative",
+        "Rationale": "3从小对拔牙和牙科工具感到恐惧"
+    },
+    {
+        "sentence": "现在有个镜子，这应该给你照照，看看你自个什么样，哪像个男子汉大丈夫，俩儿子都比你强，拔个牙你怕什么。",
+        "Holder": "1",
+        "Target": "3的勇气",
+        "Aspect": "男子气概",
+        "Opinion": "缺乏勇气",
+        "Sentiment": "negative",
+        "Rationale": "1认为3作为男子汉不应该害怕拔牙"
+    },
+    {
+        "sentence": "是，我知道不应该怕，可是我就是克服不了这心理障碍。",
+        "Holder": "3",
+        "Target": "自己的心理",
+        "Aspect": "心理障碍",
+        "Opinion": "无法克服",
+        "Sentiment": "negative",
+        "Rationale": "3知道自己应该勇敢但无法克服恐惧"
+    },
+    {
+        "sentence": "那你也得克服一回，拿出点勇气来啊。拔了牙好了，哪都不疼了，多好。",
+        "Holder": "1",
+        "Target": "3的勇气",
+        "Aspect": "克服恐惧",
+        "Opinion": "需要拿出勇气",
+        "Sentiment": "positive",
+        "Rationale": "1认为拔牙后疼痛会消失，生活会变得更好"
+    },
+    {
+        "sentence": "是，可是这勇气不是需要酝酿吗？你得给我点时间呀。",
+        "Holder": "3",
+        "Target": "酝酿勇气",
+        "Aspect": "时间需求",
+        "Opinion": "需要时间",
+        "Sentiment": "neutral",
+        "Rationale": "3认为勇气需要时间来酝酿"
+    },
+    {
+        "sentence": "酝酿 40 多年了。不给时间了。",
+        "Holder": "1",
+        "Target": "3的酝酿时间",
+        "Aspect": "时间长度",
+        "Opinion": "时间已足够",
+        "Sentiment": "negative",
+        "Rationale": "1认为3已经酝酿了40多年，时间已经足够长"
+    },
+    {
+        "sentence": "走走走，我陪你看去。",
+        "Holder": "1",
+        "Target": "陪3去看牙",
+        "Aspect": "陪伴支持",
+        "Opinion": "愿意陪伴",
+        "Sentiment": "positive",
+        "Rationale": "1愿意亲自陪伴3去看牙"
+    },
+    {
+        "sentence": "唉呀，好了好了，你放心，在我有生之年，我八成也许可能我就给拔了。",
+        "Holder": "3",
+        "Target": "拔牙决定",
+        "Aspect": "决心程度",
+        "Opinion": "可能拔牙",
+        "Sentiment": "ambiguous",
+        "Rationale": "3虽然表示可能会拔牙，但语气中带有不确定性和拖延"
+    },
+    {
+        "sentence": "哎呦，你真是",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "3的行为让1感到困扰"
+    },
+    {
+        "sentence": "真是我什么都干不下去呀。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "干扰",
+        "Opinion": "无法集中",
+        "Sentiment": "negative",
+        "Rationale": "3的干扰导致1无法集中精力做事"
+    },
+    {
+        "sentence": "好了好了",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "情绪安抚",
+        "Opinion": "试图平息",
+        "Sentiment": "neutral",
+        "Rationale": "3意识到1的不满"
+    },
+    {
+        "sentence": "大白天的你们三个怎么看上电视了？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "3认为大白天的看电视不合理"
+    },
+    {
+        "sentence": "嗯，脾气这么暴躁，是不是剧本还没有写完呀？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "情绪状态",
+        "Opinion": "推测原因",
+        "Sentiment": "negative",
+        "Rationale": "2观察到3的暴躁情绪，推测是剧本没写完"
+    },
+    {
+        "sentence": "嗯，快写完了。",
+        "Holder": "3",
+        "Target": "写作任务",
+        "Aspect": "完成进度",
+        "Opinion": "即将完成",
+        "Sentiment": "positive",
+        "Rationale": "写作任务即将完成"
+    },
+    {
+        "sentence": "哎，痛苦的日子就要过去了，我的暴脾气可能也快好了。",
+        "Holder": "3",
+        "Target": "痛苦的日子",
+        "Aspect": "时间流逝",
+        "Opinion": "即将结束",
+        "Sentiment": "positive",
+        "Rationale": "痛苦的日子即将结束"
+    },
+    {
+        "sentence": "呦呦，妈回来啦。",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "回家",
+        "Opinion": "回来了",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈回来了"
+    },
+    {
+        "sentence": "是这个吗？",
+        "Holder": "5",
+        "Target": "某物",
+        "Aspect": "确认",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "不确定是否是某物"
+    },
+    {
+        "sentence": "唉呦爸，你快看我妈这买什么东西啦？",
+        "Holder": "5",
+        "Target": "妈妈买的东西",
+        "Aspect": "物品内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "好奇妈妈买了什么"
+    },
+    {
+        "sentence": "切，别胡说，什么呀？就买这个是看牙的器械，是我从医院借的",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "内容的真实性",
+        "Opinion": "否认胡说",
+        "Sentiment": "negative",
+        "Rationale": "对方的话被认为是胡说"
+    }
+]

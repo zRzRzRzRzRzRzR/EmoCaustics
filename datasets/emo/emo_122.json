@@ -1,0 +1,150 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "研讨会开场与嘉宾介绍",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "热情介绍嘉宾并展示观众基础数据",
+            "source_id": "2,3,4,6"
+          }
+        ]
+      },
+      {
+        "event": "封神故事传播渠道分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "发现影视作品是主要传播途径",
+            "source_id": "2,3,4,6"
+          }
+        ]
+      },
+      {
+        "event": "名场面讨论引导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过互动挖掘经典场景价值",
+            "source_id": "3,4,5,6,7"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "封神三部曲创作阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "从童年情结到类型片探索的职业路径",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调父子关系重构故事的情感内核",
+            "source_id": "1,7"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "封神演义文学价值阐释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证其在中国小说史的特殊地位",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "电影历史真实性探讨",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可服化道营造的历史氛围",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观分析艺术演绎与史实关系",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "童年阅读记忆重构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "描述市井阅读体验",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "雷震子场景的跨维度震撼",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "文化传承责任阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调教育载体与民族精神传承",
+            "source_id": "1,2"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "剧本改编理念说明",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过人伦冲突建立现代共鸣",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "赞赏比干挖心的创新改编",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "神话世界观解构",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "阐释中国式宗教伦理表达",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

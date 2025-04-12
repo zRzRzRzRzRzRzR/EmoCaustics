@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "芝芝，哎？你怎么来了？",
+        "Holder": "1",
+        "Target": "芝芝的到来",
+        "Aspect": "意外性",
+        "Opinion": "感到意外",
+        "Sentiment": "neutral",
+        "Rationale": "芝芝的到来出乎意料"
+    },
+    {
+        "sentence": "来找世辉啊？他今天没来，你们俩昨天聊的怎么样？",
+        "Holder": "1",
+        "Target": "芝芝的目的",
+        "Aspect": "寻找世辉",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "关心芝芝和世辉的互动"
+    },
+    {
+        "sentence": "我不是来找他的，我是来找你的。",
+        "Holder": "2",
+        "Target": "自己的目的",
+        "Aspect": "寻找对象",
+        "Opinion": "明确来找1",
+        "Sentiment": "neutral",
+        "Rationale": "需要找1谈事情"
+    },
+    {
+        "sentence": "黄振华，她是你妹，所以你包庇她袒护她，我可以理解。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "包庇袒护",
+        "Opinion": "可以理解",
+        "Sentiment": "neutral",
+        "Rationale": "知道芝芝是1的妹妹"
+    },
+    {
+        "sentence": "芝芝，我承认这事儿我有责任。当初是我把她招到这个建筑院来实习的，也是我安排老周在工作上给玫瑰点指导。但是我那还不是因为我知道你们俩谈了这么多年恋爱，我也知道你们今年我结婚了，我才放心把我妹交给他的，谁知道他动了这歪心眼儿的？",
+        "Holder": "1",
+        "Target": "自己的责任",
+        "Aspect": "安排实习和指导",
+        "Opinion": "承认有责任",
+        "Sentiment": "negative",
+        "Rationale": "自己的安排导致了不良后果"
+    },
+    {
+        "sentence": "我保证我妹没有要跟你争的意思，因为她压根就看不上周世辉。",
+        "Holder": "1",
+        "Target": "妹妹的态度",
+        "Aspect": "对周世辉的看法",
+        "Opinion": "妹妹看不上周世辉",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在解释妹妹对周世辉的态度"
+    },
+    {
+        "sentence": "那他为什么不明确的拒绝呢？嗯？",
+        "Holder": "2",
+        "Target": "妹妹的行为",
+        "Aspect": "拒绝的明确性",
+        "Opinion": "妹妹没有明确拒绝",
+        "Sentiment": "negative",
+        "Rationale": "说话人2对妹妹没有明确拒绝感到疑惑和不满"
+    },
+    {
+        "sentence": "昨天不都跟你说了吗，她拒绝了。",
+        "Holder": "1",
+        "Target": "妹妹的行为",
+        "Aspect": "拒绝的事实",
+        "Opinion": "妹妹已经拒绝",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述事实"
+    },
+    {
+        "sentence": "你妹叫黄亦玫是吧？",
+        "Holder": "2",
+        "Target": "妹妹的名字",
+        "Aspect": "确认信息",
+        "Opinion": "确认妹妹的名字",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在确认信息"
+    },
+    {
+        "sentence": "对，小名叫玫瑰。",
+        "Holder": "1",
+        "Target": "妹妹的名字",
+        "Aspect": "提供信息",
+        "Opinion": "妹妹的小名是玫瑰",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在提供信息"
+    },
+    {
+        "sentence": "啊，玫瑰，美院的学生？没有毕业？",
+        "Holder": "2",
+        "Target": "玫瑰",
+        "Aspect": "学生身份",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对玫瑰的学生身份和毕业情况有疑问"
+    },
+    {
+        "sentence": "啊，对，怎么了？",
+        "Holder": "1",
+        "Target": "玫瑰的学生身份",
+        "Aspect": "确认",
+        "Opinion": "确认事实",
+        "Sentiment": "neutral",
+        "Rationale": "对玫瑰的学生身份进行确认"
+    },
+    {
+        "sentence": "你说如果学校的领导和老师知道她在外面当小三儿去勾引别人的男朋友，不对，是未婚夫。那你觉得学校会怎么处理她呢？",
+        "Holder": "2",
+        "Target": "玫瑰的行为",
+        "Aspect": "道德问题",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为玫瑰的行为不道德，可能会受到学校的惩罚"
+    },
+    {
+        "sentence": "你这样会毁了她前程的！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对玫瑰的影响",
+        "Opinion": "担忧",
+        "Sentiment": "negative",
+        "Rationale": "担心2的行为会毁了玫瑰的前程"
+    },
+    {
+        "sentence": "那你有没有想过会毁了我啊？",
+        "Holder": "2",
+        "Target": "1的担忧",
+        "Aspect": "对自己影响",
+        "Opinion": "反问",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的处境也被忽视"
+    },
+    {
+        "sentence": "根儿上是周世辉的问题。",
+        "Holder": "1",
+        "Target": "周世辉",
+        "Aspect": "问题归属",
+        "Opinion": "问题在周世辉",
+        "Sentiment": "negative",
+        "Rationale": "认为问题出在周世辉身上"
+    },
+    {
+        "sentence": "根儿上是你的问题，是你没弄明白好吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "问题理解",
+        "Opinion": "1没有理解问题",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1没有正确理解问题，所以用质问的语气表达不满"
+    },
+    {
+        "sentence": "就算我不安排周世辉带我妹妹，也会有别人带吧。",
+        "Holder": "1",
+        "Target": "别人",
+        "Aspect": "替代性",
+        "Opinion": "即使我不安排，也会有其他人安排",
+        "Sentiment": "neutral",
+        "Rationale": "因为1在解释即使自己不安排，也会有其他人安排，所以语气平和"
+    },
+    {
+        "sentence": "如果你不安排你妹妹在周世辉旁边的话",
+        "Holder": "2",
+        "Target": "1的安排",
+        "Aspect": "安排的合理性",
+        "Opinion": "问题出在1的安排上",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为问题的根源在于1的安排，所以语气中带有指责"
+    },
+    {
+        "sentence": "那你这么说，就是因为我妹长得好看了？我妹长得好看，那是天生老天爷给的。",
+        "Holder": "1",
+        "Target": "妹妹的外貌",
+        "Aspect": "外貌的成因",
+        "Opinion": "外貌是天生的",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释妹妹外貌的原因"
+    },
+    {
+        "sentence": "我去，她还敢来！",
+        "Holder": "2",
+        "Target": "妹妹的到来",
+        "Aspect": "到来的合理性",
+        "Opinion": "不应该来",
+        "Sentiment": "negative",
+        "Rationale": "2对妹妹的到来感到不满"
+    },
+    {
+        "sentence": "不是，你。",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "误解的内容",
+        "Opinion": "纠正误解",
+        "Sentiment": "neutral",
+        "Rationale": "1在纠正2的误解"
+    },
+    {
+        "sentence": "长得好看，是呢，我让大家看她长得有多好看！",
+        "Holder": "2",
+        "Target": "妹妹的外貌",
+        "Aspect": "外貌的评价",
+        "Opinion": "外貌好看",
+        "Sentiment": "ambiguous",
+        "Rationale": "2在强调妹妹的外貌好看，但语气中带有讽刺"
+    },
+    {
+        "sentence": "哎？我哥到底忙什么呢？",
+        "Holder": "3",
+        "Target": "哥哥的状态",
+        "Aspect": "忙碌的原因",
+        "Opinion": "不清楚原因",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问哥哥的忙碌原因"
+    },
+    {
+        "sentence": "没忙什么，就来一客户嘛，这他开会呢。咱别打扰人家是不是？",
+        "Holder": "4",
+        "Target": "客户开会",
+        "Aspect": "不打扰的必要性",
+        "Opinion": "应该不打扰",
+        "Sentiment": "neutral",
+        "Rationale": "客户正在开会"
+    },
+    {
+        "sentence": "黄亦玫，亦玫，玫，你真不能上去，你上去就完了！",
+        "Holder": "4",
+        "Target": "黄亦玫上楼",
+        "Aspect": "上楼的后果",
+        "Opinion": "上去会有严重后果",
+        "Sentiment": "negative",
+        "Rationale": "认为黄亦玫上楼会导致不好的结果"
+    },
+    {
+        "sentence": "玫瑰，你都被开除了，你快走，你别。你干什么？",
+        "Holder": "1",
+        "Target": "黄亦玫被开除",
+        "Aspect": "离开的必要性",
+        "Opinion": "应该离开",
+        "Sentiment": "negative",
+        "Rationale": "黄亦玫已经被开除"
+    },
+    {
+        "sentence": "这狐狸精，看我打不打得死你！",
+        "Holder": "2",
+        "Target": "黄亦玫",
+        "Aspect": "对黄亦玫的评价",
+        "Opinion": "极度厌恶",
+        "Sentiment": "negative",
+        "Rationale": "对黄亦玫有极大的负面评价"
+    },
+    {
+        "sentence": "造谣、诽谤、打人、污蔑都是犯法，想打我可以，我一定会把你送上法庭！",
+        "Holder": "3",
+        "Target": "2的威胁",
+        "Aspect": "法律后果",
+        "Opinion": "坚决维权",
+        "Sentiment": "negative",
+        "Rationale": "面对2的威胁，感到愤怒和不满"
+    },
+    {
+        "sentence": "你要想解决问题的话，对面有家咖啡厅，我请你。",
+        "Holder": "3",
+        "Target": "解决问题的方式",
+        "Aspect": "提出解决方案",
+        "Opinion": "邀请去咖啡厅",
+        "Sentiment": "neutral",
+        "Rationale": "想通过邀请去咖啡厅来解决问题"
+    },
+    {
+        "sentence": "不行去！去什么去。",
+        "Holder": "1",
+        "Target": "3的邀请",
+        "Aspect": "接受邀请的意愿",
+        "Opinion": "拒绝去咖啡厅",
+        "Sentiment": "negative",
+        "Rationale": "不想去咖啡厅解决问题"
+    },
+    {
+        "sentence": "你别管！你不是把我开除了吗？",
+        "Holder": "3",
+        "Target": "1的干涉",
+        "Aspect": "干涉的合理性",
+        "Opinion": "认为1无权干涉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己已经被开除"
+    },
+    {
+        "sentence": "你别碰我！还有你！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "身体接触的合理性",
+        "Opinion": "反对身体接触",
+        "Sentiment": "negative",
+        "Rationale": "不喜欢被触碰"
+    },
+    {
+        "sentence": "哎，玫瑰！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "称呼2为玫瑰",
+        "Sentiment": "neutral",
+        "Rationale": "想引起2的注意"
+    },
+    {
+        "sentence": "你为什么还要他？",
+        "Holder": "3",
+        "Target": "2的选择",
+        "Aspect": "选择的合理性",
+        "Opinion": "质疑选择",
+        "Sentiment": "ambiguous",
+        "Rationale": "3不理解2为什么还要他"
+    },
+    {
+        "sentence": "我还要得回来吗？",
+        "Holder": "2",
+        "Target": "自己的选择",
+        "Aspect": "选择的可行性",
+        "Opinion": "不确定能否要回",
+        "Sentiment": "doubt",
+        "Rationale": "2对是否还能要回他感到不确定"
+    },
+    {
+        "sentence": "哎呀，我又不跟你抢。",
+        "Holder": "3",
+        "Target": "2的担忧",
+        "Aspect": "竞争关系",
+        "Opinion": "没有竞争意图",
+        "Sentiment": "neutral",
+        "Rationale": "3想澄清自己没有与2竞争的意图"
+    },
+    {
+        "sentence": "他作为我领导，作为我师父，甚至作为我朋友，我觉得都挺好的，但是我不喜欢他呀。他不懂玩儿，不看书，也不看电影。他甚至以为波提切力是那个什么男装品牌，可笑不？",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "个人喜好和知识水平",
+        "Opinion": "不喜欢且认为可笑",
+        "Sentiment": "negative",
+        "Rationale": "3觉得他在个人喜好和知识水平方面与自己不符"
+    },
+    {
+        "sentence": "那怎么了？这恰恰就说明他可靠，是一个可以好好过日子的男人。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "可靠性和生活态度",
+        "Opinion": "认为可靠",
+        "Sentiment": "positive",
+        "Rationale": "2认为他的生活方式和知识水平正说明了他的可靠"
+    },
+    {
+        "sentence": "你现在还觉得他可靠吗？你这条手链他也送给过我，我没要。他送你手链的时候，你是不是觉得他开窍了？",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "可靠性",
+        "Opinion": "怀疑其可靠性",
+        "Sentiment": "negative",
+        "Rationale": "他送同样的手链给多个人"
+    },
+    {
+        "sentence": "你已经赢了，你至于现在还要来羞辱我吗？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为动机",
+        "Opinion": "认为3在羞辱自己",
+        "Sentiment": "negative",
+        "Rationale": "3的提问带有讽刺意味"
+    },
+    {
+        "sentence": "我又不跟你抢，我羞辱你干什么？我只是不明白了，他都这么对你了，你还要他干嘛？",
+        "Holder": "3",
+        "Target": "2的选择",
+        "Aspect": "感情选择的合理性",
+        "Opinion": "不理解2的选择",
+        "Sentiment": "negative",
+        "Rationale": "他觉得2在感情中受到不公正对待"
+    },
+    {
+        "sentence": "我们有7年的感情，我们已经在一起7年了，好吗？",
+        "Holder": "2",
+        "Target": "自己的感情",
+        "Aspect": "感情的时长",
+        "Opinion": "强调感情的深厚",
+        "Sentiment": "positive",
+        "Rationale": "有7年的感情基础"
+    },
+    {
+        "sentence": "7年了，你就要后半辈子一直忍气吞声陪他过呀？我跟你说，我也是觉得很奇怪，你知道吗？我妈昨天打我一巴掌，凭什么呀，我招谁惹谁了？",
+        "Holder": "3",
+        "Target": "2的未来选择",
+        "Aspect": "未来生活的预期",
+        "Opinion": "不认同2的未来选择",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的未来选择会带来不幸福"
+    },
+    {
+        "sentence": "不好意思啊，我就是想说他都这么对你了，你确定你还想要他，真的吗？",
+        "Holder": "3",
+        "Target": "2的感情选择",
+        "Aspect": "对伴侣的依赖程度",
+        "Opinion": "质疑2对伴侣的依赖",
+        "Sentiment": "negative",
+        "Rationale": "3认为2的伴侣对其不好"
+    },
+    {
+        "sentence": "你长得好看，工作也好，你完全可以为自己活。",
+        "Holder": "3",
+        "Target": "2的个人条件",
+        "Aspect": "外貌和职业",
+        "Opinion": "条件优秀",
+        "Sentiment": "positive",
+        "Rationale": "因为3认为2的外貌和职业都很出色，所以鼓励2应该为自己而活"
+    },
+    {
+        "sentence": "感情的事不是你说的那么简单的。",
+        "Holder": "2",
+        "Target": "3的感情观点",
+        "Aspect": "感情复杂性",
+        "Opinion": "感情复杂",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为感情涉及多方面因素，不是简单的爱与不爱的问题，所以对3的简化观点表示不认同"
+    },
+    {
+        "sentence": "感情很简单，爱就在一起，不爱就分开。",
+        "Holder": "3",
+        "Target": "感情处理方式",
+        "Aspect": "感情决策的简单性",
+        "Opinion": "感情处理应直接",
+        "Sentiment": "positive",
+        "Rationale": "因为3认为感情应该直接简单，不爱就分开，这样对双方都好"
+    },
+    {
+        "sentence": "你不会理解的，也可能像你这样的女孩子，一辈子都不会受感情的苦。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "感情经历",
+        "Opinion": "3不会受感情之苦",
+        "Sentiment": "negative",
+        "Rationale": "2认为3无法理解自己的感情经历，并且认为3一生都不会经历感情上的痛苦"
+    },
+    {
+        "sentence": "听说人在难过的时候吃甜的不会发胖。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "情绪调节方式",
+        "Opinion": "吃甜食缓解难过",
+        "Sentiment": "neutral",
+        "Rationale": "3在尝试用一种轻松的方式转移话题，并且表达了一种普遍的说法"
+    }
+]

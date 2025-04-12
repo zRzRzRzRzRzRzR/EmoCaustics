@@ -1,0 +1,72 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "假新闻时代的挑战",
+        "emotions": [
+          {"state": "negative", "reason": "假新闻泛滥威胁信息真实性", "source_id": "2"},
+          {"state": "negative", "reason": "社交媒体算法加剧信息两极分化", "source_id": "4"},
+          {"state": "positive", "reason": "支持技术手段纠正错误信息", "source_id": "1"},
+          {"state": "neutral", "reason": "威权政权能快速改变环境问题", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "媒体信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "揭露卢旺达性别平等排名虚假性", "source_id": "3"},
+          {"state": "negative", "reason": "威权政权操控西方媒体策略", "source_id": "1"},
+          {"state": "positive", "reason": "强调新闻机构自我监管责任", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "新闻客观性争议",
+        "emotions": [
+          {"state": "negative", "reason": "党派化侵蚀新闻信任", "source_id": "1"},
+          {"state": "negative", "reason": "平台监管存在权力滥用风险", "source_id": "4"},
+          {"state": "neutral", "reason": "数字新闻改变重要性感知方式", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "社会信任崩塌",
+        "emotions": [
+          {"state": "negative", "reason": "全球化加剧社会矛盾", "source_id": "4"},
+          {"state": "negative", "reason": "选民对政治体系失去信任", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "新闻行业变革观察",
+        "emotions": [
+          {"state": "positive", "reason": "肯定新闻民主化技术进步", "source_id": "1"},
+          {"state": "neutral", "reason": "俄罗斯利用媒体颠覆西方假设", "source_id": "1"},
+          {"state": "negative", "reason": "英国媒体存在隐性利益输送", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "国际媒体策略分析",
+        "emotions": [
+          {"state": "positive", "reason": "世界杯改变对俄罗斯认知", "source_id": "1"},
+          {"state": "neutral", "reason": "西欧球迷参与度反常下降", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "信息素养困境",
+        "emotions": [
+          {"state": "negative", "reason": "高学历人群缺乏事实辨别力", "source_id": "1"},
+          {"state": "ambiguous", "reason": "平台监管责任归属未明", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

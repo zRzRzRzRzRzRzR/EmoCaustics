@@ -1,0 +1,84 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "身份确认与重逢",
+        "emotions": [
+          {"state": "neutral", "reason": "不确定护士长身份", "source_id": "2"},
+          {"state": "positive", "reason": "主动帮忙拿菜建立关系", "source_id": "2"},
+          {"state": "neutral", "reason": "讨论家庭成员结构", "source_id": "2,3,4"}
+        ]
+      },
+      {
+        "event": "家庭聚餐准备",
+        "emotions": [
+          {"state": "positive", "reason": "热情参与烹饪并分配任务", "source_id": "2,3,4"},
+          {"state": "negative", "reason": "发现砂锅被擅自拿走", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "人际距离认知转变",
+        "emotions": [
+          {"state": "positive", "reason": "接受人际边界理论", "source_id": "4"},
+          {"state": "neutral", "reason": "决定实践分居改善婚姻", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "意外接待访客",
+        "emotions": [
+          {"state": "neutral", "reason": "初遇病友身份混淆", "source_id": "1"},
+          {"state": "positive", "reason": "被称赞子女教育成果", "source_id": "1"},
+          {"state": "negative", "reason": "私人物品频繁被借用", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "价值观冲突处理",
+        "emotions": [
+          {"state": "neutral", "reason": "讨论大杂院文化影响", "source_id": "4"},
+          {"state": "ambiguous", "reason": "对亲密邻里关系矛盾态度", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "学习观念碰撞",
+        "emotions": [
+          {"state": "negative", "reason": "被误解学习方式", "source_id": "5"},
+          {"state": "positive", "reason": "教导目标导向学习法", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "家庭隐私维护",
+        "emotions": [
+          {"state": "negative", "reason": "反对物品随意共享", "source_id": "1,4"},
+          {"state": "positive", "reason": "支持建立人际边界", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "邻里关系重塑",
+        "emotions": [
+          {"state": "neutral", "reason": "观察过度亲密行为", "source_id": "1"},
+          {"state": "positive", "reason": "提出人际距离理论", "source_id": "1"},
+          {"state": "neutral", "reason": "见证理论实践效果", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "公益行为再认知",
+        "emotions": [
+          {"state": "negative", "reason": "质疑物品挪用正当性", "source_id": "1"},
+          {"state": "positive", "reason": "理解公益捐赠本质", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

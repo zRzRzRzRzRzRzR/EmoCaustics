@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作行程冲突与权力博弈",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "试图用权力施压要求同行",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "质疑对方公事公办原则的真实性",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "探究对方工作模式细节",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "用前任案例施加心理压力",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "权力对抗与自我辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "强硬拒绝工作安排",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指责对方缺乏职业尊重",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "展示消息灵通优势",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调工作原则正当性",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "标榜服务宗旨反击质疑",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "承认错误并反将一军",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

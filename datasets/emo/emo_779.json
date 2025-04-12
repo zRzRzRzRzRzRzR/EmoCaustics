@@ -1,0 +1,47 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "经济条件与爱情观的冲突",
+        "emotions": [
+          {"state": "positive", "reason": "鼓励积极生活态度", "source_id": "3"},
+          {"state": "neutral", "reason": "接受他人停留行为", "source_id": "3"},
+          {"state": "negative", "reason": "担忧经济条件影响爱情", "source_id": "2,3"},
+          {"state": "negative", "reason": "感到城市孤独感", "source_id": "3"},
+          {"state": "neutral", "reason": "强调生命独立性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "沟通立场冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "被指责极致化问题", "source_id": "3"},
+          {"state": "negative", "reason": "观点被多次打断", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "价值观输出争议",
+        "emotions": [
+          {"state": "negative", "reason": "对穷人群体负面评价", "source_id": "1,3"},
+          {"state": "negative", "reason": "观点被质疑合理性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "情感价值批判",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝接受建议", "source_id": "1"},
+          {"state": "negative", "reason": "遭遇极端化质疑", "source_id": "1"},
+          {"state": "neutral", "reason": "提出替代思考方向", "source_id": "1"},
+          {"state": "negative", "reason": "反对歧视性文章标题", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

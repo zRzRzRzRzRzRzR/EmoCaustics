@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "职业选择与责任冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑教育资格和职业选择合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳对方指责并表达无奈",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "经济压力与家庭矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑对方经济要求与住房期望",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "因眼疾问题感到被迫承担责任",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "创作挫折与自尊受损",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "小说被退稿且建议被否定",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "目标明确性受到质疑",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "人际边界与沟通破裂",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释对方处境原因",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被指责过度要求导致冲突升级",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

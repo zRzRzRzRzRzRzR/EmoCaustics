@@ -1,0 +1,407 @@
+[
+    {
+        "sentence": "这怎么弄啊？",
+        "Holder": "2",
+        "Target": "当前问题",
+        "Aspect": "解决问题的方法",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不知道如何解决问题"
+    },
+    {
+        "sentence": "您这急的",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "急切",
+        "Sentiment": "neutral",
+        "Rationale": "看到2表现出急切的样子"
+    },
+    {
+        "sentence": "哎呦，刘梅，可急死我了",
+        "Holder": "2",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "焦急",
+        "Sentiment": "negative",
+        "Rationale": "遇到了让自己焦急的事情"
+    },
+    {
+        "sentence": "怎么啦？",
+        "Holder": "1",
+        "Target": "2的情况",
+        "Aspect": "问题原因",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2为何焦急"
+    },
+    {
+        "sentence": "家门钥匙又丢了，走，上我们家待去",
+        "Holder": "2",
+        "Target": "家门钥匙",
+        "Aspect": "物品丢失",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "家门钥匙丢失导致无法进门"
+    },
+    {
+        "sentence": "哎呦，什么家门钥匙啊？这事更严重。这事怎么啦？你知不知道咱小区今天要办一个青少年心理咨询的活动啊？我。",
+        "Holder": "1",
+        "Target": "青少年心理咨询活动",
+        "Aspect": "活动的举办情况",
+        "Opinion": "活动很重要",
+        "Sentiment": "negative",
+        "Rationale": "家门钥匙丢失已经很麻烦，现在又提到重要的活动可能出问题"
+    },
+    {
+        "sentence": "知道，前几天不是把告示都贴出来。",
+        "Holder": "2",
+        "Target": "青少年心理咨询活动",
+        "Aspect": "活动的宣传",
+        "Opinion": "已经宣传到位",
+        "Sentiment": "neutral",
+        "Rationale": "告示已经贴出"
+    },
+    {
+        "sentence": "贴告示了，可这事黄了呀。",
+        "Holder": "1",
+        "Target": "青少年心理咨询活动",
+        "Aspect": "活动的进行",
+        "Opinion": "活动取消了",
+        "Sentiment": "negative",
+        "Rationale": "虽然贴了告示但活动还是取消了"
+    },
+    {
+        "sentence": "别黄了，挺好的，我还说今天早点下班，去看看吧。",
+        "Holder": "2",
+        "Target": "青少年心理咨询活动",
+        "Aspect": "活动的意义",
+        "Opinion": "活动有意义",
+        "Sentiment": "positive",
+        "Rationale": "认为活动很好，自己还计划去看"
+    },
+    {
+        "sentence": "呦，我约了一个心理医生，可是刚才给我打电话了，一出门就让狗给咬了，这不上医院了嘛。你说都知道根节上，我上哪找人去？我这急火了都。",
+        "Holder": "1",
+        "Target": "心理医生",
+        "Aspect": "医生的到场情况",
+        "Opinion": "医生无法到场",
+        "Sentiment": "negative",
+        "Rationale": "约好的心理医生被狗咬伤无法到场，导致活动无法顺利进行"
+    },
+    {
+        "sentence": "哎哎，胖婶过来，我认识一个人就住咱小区，绝对这活他能胜任。",
+        "Holder": "1",
+        "Target": "住在小区的人",
+        "Aspect": "胜任能力",
+        "Opinion": "能胜任",
+        "Sentiment": "positive",
+        "Rationale": "对这个人有信心，认为他能够胜任工作"
+    },
+    {
+        "sentence": "咱小区有这么一心理医生姓什么叫什么呀？我在居委会，我怎么不知道有这么一人。",
+        "Holder": "2",
+        "Target": "小区心理医生",
+        "Aspect": "存在与否",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "作为居委会成员却不知道这个人的存在"
+    },
+    {
+        "sentence": "哼，这人人送外号，知心大姐，姓夏名东海。",
+        "Holder": "1",
+        "Target": "小区心理医生",
+        "Aspect": "外号",
+        "Opinion": "知心大姐",
+        "Sentiment": "positive",
+        "Rationale": "对这个人有亲切感和认可"
+    },
+    {
+        "sentence": "你直接说是你老公不就得了吗？他行吗？",
+        "Holder": "2",
+        "Target": "小区心理医生",
+        "Aspect": "身份和能力",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "怀疑这个人是否真的有能力胜任，并且质疑其身份"
+    },
+    {
+        "sentence": "啊，当然行了。",
+        "Holder": "3",
+        "Target": "小区心理医生",
+        "Aspect": "胜任能力",
+        "Opinion": "肯定",
+        "Sentiment": "positive",
+        "Rationale": "对这个人有信心，认为他确实有能力胜任"
+    },
+    {
+        "sentence": "亲爱的知心大姐，你是最可爱的人。哈哈哈，真行，我什么时候成最可爱的人了？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "被称赞的合理性",
+        "Opinion": "质疑被称赞",
+        "Sentiment": "ambiguous",
+        "Rationale": "被突然称赞为最可爱的人，感到意外和不解"
+    },
+    {
+        "sentence": "回来了，这什么呀？",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "情况的理解",
+        "Opinion": "不清楚状况",
+        "Sentiment": "neutral",
+        "Rationale": "刚回来对当前情况不了解"
+    },
+    {
+        "sentence": "您什么时候成大姐啦？不是，大姐，您先看着，我开门去。",
+        "Holder": "3",
+        "Target": "1的身份",
+        "Aspect": "称呼的变化",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式调侃对方的身份变化"
+    },
+    {
+        "sentence": "哈哈，少贫嘴",
+        "Holder": "3",
+        "Target": "3自己",
+        "Aspect": "回应方式",
+        "Opinion": "轻松回应",
+        "Sentiment": "positive",
+        "Rationale": "对方用幽默的方式调侃"
+    },
+    {
+        "sentence": "回来了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "状态告知",
+        "Opinion": "告知",
+        "Sentiment": "neutral",
+        "Rationale": "回到家中"
+    },
+    {
+        "sentence": "看看那些都是群众来信啊，我可没跟您吹牛啊。",
+        "Holder": "1",
+        "Target": "群众来信",
+        "Aspect": "信件的真实性",
+        "Opinion": "强调真实性",
+        "Sentiment": "positive",
+        "Rationale": "想要证明自己所言非虚"
+    },
+    {
+        "sentence": "是吗？哎呦，我瞅瞅，我看看。唉呦，看来我还是真找对人了",
+        "Holder": "3",
+        "Target": "找对人",
+        "Aspect": "选择的正确性",
+        "Opinion": "找对了人",
+        "Sentiment": "positive",
+        "Rationale": "发现对方确实是合适的人选"
+    },
+    {
+        "sentence": "找对什么人啊？",
+        "Holder": "2",
+        "Target": "找对人",
+        "Aspect": "选择的背景",
+        "Opinion": "不清楚找对人的具体含义",
+        "Sentiment": "neutral",
+        "Rationale": "对3的话感到疑惑"
+    },
+    {
+        "sentence": "咱小区啊，今天下午要在花园里举办那个青少年心理咨询，可是那个心理医生呢，一出门让狗给咬了，没人了，我就临时推荐你去了。",
+        "Holder": "1",
+        "Target": "推荐3去心理咨询",
+        "Aspect": "推荐的合理性",
+        "Opinion": "临时推荐",
+        "Sentiment": "neutral",
+        "Rationale": "心理医生无法到场"
+    },
+    {
+        "sentence": "对，推荐你。",
+        "Holder": "3",
+        "Target": "推荐3去心理咨询",
+        "Aspect": "推荐的确认",
+        "Opinion": "确认推荐",
+        "Sentiment": "neutral",
+        "Rationale": "确认了1的推荐"
+    },
+    {
+        "sentence": "我可不行，真的，这一点准备没有，我怎么能胜任",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "胜任能力",
+        "Opinion": "无法胜任",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己没有准备，无法胜任心理咨询的工作"
+    },
+    {
+        "sentence": "嗨，夏东海你就别客气了，你那么大学问，那么能干，你第一也为公益事业做点贡献。第二呢，你也算是为今后写东西揽点素材，一举两得的事，不是吗？",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "参与公益事业的合理性",
+        "Opinion": "支持参与公益事业",
+        "Sentiment": "positive",
+        "Rationale": "认为夏东海有能力和学问，参与公益事业既能贡献社会又能积累写作素材"
+    },
+    {
+        "sentence": "真是的，就这事您还用准备啊",
+        "Holder": "2",
+        "Target": "夏东海的准备行为",
+        "Aspect": "准备工作的必要性",
+        "Opinion": "认为不需要准备",
+        "Sentiment": "negative",
+        "Rationale": "觉得夏东海的能力足够应对这件事"
+    },
+    {
+        "sentence": "真是，甭说你这么大学问了，就我在你身边被熏了这么长时间，我都快成半拉心理医生了。我去都成",
+        "Holder": "4",
+        "Target": "自己的能力",
+        "Aspect": "能力提升",
+        "Opinion": "认为自己有能力参与",
+        "Sentiment": "positive",
+        "Rationale": "长期受夏东海的影响，自认为能力有所提升"
+    },
+    {
+        "sentence": "您和我爸一块去啊，夫妻搭档嘛。",
+        "Holder": "3",
+        "Target": "夏东海和妻子的合作",
+        "Aspect": "合作方式",
+        "Opinion": "支持夫妻合作",
+        "Sentiment": "positive",
+        "Rationale": "认为夫妻合作会更加默契"
+    },
+    {
+        "sentence": "别让人瞎起哄啊。胖婶，真的，你说要让我帮着写点东西，这还行，这去咨询，这跟人说我这真不行，真的",
+        "Holder": "1",
+        "Target": "自己参与咨询的能力",
+        "Aspect": "能力匹配",
+        "Opinion": "认为自己不适合咨询",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己没有足够的能力去进行咨询工作"
+    },
+    {
+        "sentence": "怕什么呀？会写就会说，俗话说了艺高人胆大吗？你要是真害怕，让刘梅陪着你，给你壮壮胆。",
+        "Holder": "4",
+        "Target": "说话人",
+        "Aspect": "勇气",
+        "Opinion": "鼓励",
+        "Sentiment": "positive",
+        "Rationale": "认为会写就会说，并且有刘梅陪伴可以增加勇气"
+    },
+    {
+        "sentence": "对，我也去，我也给你壮壮胆。",
+        "Holder": "4",
+        "Target": "说话人",
+        "Aspect": "勇气",
+        "Opinion": "支持",
+        "Sentiment": "positive",
+        "Rationale": "愿意一起去并给予支持"
+    },
+    {
+        "sentence": "哎，心理咨询了，白咨询，不要钱了啊。有病看病没病解闷",
+        "Holder": "3",
+        "Target": "心理咨询",
+        "Aspect": "价值",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为心理咨询没有实际价值"
+    },
+    {
+        "sentence": "干嘛呀，卖白萝卜呢",
+        "Holder": "2",
+        "Target": "说话人3",
+        "Aspect": "言辞",
+        "Opinion": "调侃",
+        "Sentiment": "neutral",
+        "Rationale": "用卖白萝卜来调侃说话人3的言辞"
+    },
+    {
+        "sentence": "干嘛呀？夏东海人孩子帮你做的广告。",
+        "Holder": "4",
+        "Target": "说话人2",
+        "Aspect": "行为",
+        "Opinion": "解释",
+        "Sentiment": "neutral",
+        "Rationale": "解释夏东海孩子帮忙做广告的行为"
+    },
+    {
+        "sentence": "都俩小时没人了，吆喝吆喝嘛。",
+        "Holder": "4",
+        "Target": "活动情况",
+        "Aspect": "参与人数",
+        "Opinion": "人数少",
+        "Sentiment": "negative",
+        "Rationale": "活动已经进行了两个小时却没有人参与"
+    },
+    {
+        "sentence": "哎，心理咨询",
+        "Holder": "3",
+        "Target": "心理咨询",
+        "Aspect": "话题引入",
+        "Opinion": "提及心理咨询",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地提及心理咨询话题"
+    },
+    {
+        "sentence": "你再在这瞎起哄，我让你回家待着去。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "起哄",
+        "Opinion": "反对起哄",
+        "Sentiment": "negative",
+        "Rationale": "4在活动现场瞎起哄"
+    },
+    {
+        "sentence": "闭上你的嘴，去那边坐着去。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "说话",
+        "Opinion": "要求闭嘴",
+        "Sentiment": "negative",
+        "Rationale": "4继续说话且不受控制"
+    },
+    {
+        "sentence": "哎哎，不过夏东海这事真挺怪的，一般这种免费的活动都应该人满为患。前几天有人上这卖那个抽那个手指手血测血糖的，那一切免费测试，那家伙人挤的，哎， 4 单元那张奶奶一天抽了 20 多回，血糖测试倒没低，把血压都给抽低了。哎，你说今天怎么回事？",
+        "Holder": "4",
+        "Target": "活动情况",
+        "Aspect": "参与人数和活动效果",
+        "Opinion": "感到奇怪",
+        "Sentiment": "negative",
+        "Rationale": "通常免费活动应该人满为患，但今天却没有人，且之前的免费测试活动效果不佳"
+    },
+    {
+        "sentence": "那谁知道？我知道，一般人家推销产品的人都站在路边，哎，等人一过来叭就拦过来了，这说一通。等把您聊的不好意思了，您就该买了。",
+        "Holder": "2",
+        "Target": "推销方式",
+        "Aspect": "推销行为的常见做法",
+        "Opinion": "描述常见推销行为",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述一种常见的推销行为，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你什么意思？你让你爸站路边拉客去。",
+        "Holder": "3",
+        "Target": "2的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "质疑建议",
+        "Sentiment": "negative",
+        "Rationale": "3认为2的建议不合理且带有贬低意味"
+    },
+    {
+        "sentence": "就是，出什么馊主意呢？我不去，没人来我就回家去。",
+        "Holder": "4",
+        "Target": "2的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "反对建议",
+        "Sentiment": "negative",
+        "Rationale": "4认为2的建议不切实际且带有贬义"
+    },
+    {
+        "sentence": "您不去，我去。",
+        "Holder": "2",
+        "Target": "自己去推销",
+        "Aspect": "主动承担",
+        "Opinion": "愿意自己去",
+        "Sentiment": "positive",
+        "Rationale": "2愿意主动承担推销的任务，表现出积极的态度"
+    }
+]

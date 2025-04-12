@@ -1,0 +1,123 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "2018年中期选举与民主党的战略定位",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "关注选举结果对党内意识形态光谱的影响",
+            "source_id": "2,3,4"
+          }
+        ]
+      },
+      {
+        "event": "进步派政策对选举格局的重塑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "质疑拜登政策的实质性进步",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "性骚扰指控对竞选伦理的冲击",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指控引发的道德困境与党派双重标准",
+            "source_id": "3,4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "历史视角下的选举周期规律",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析特朗普的党内控制力与历史相似性",
+            "source_id": "1,3"
+          },
+          {
+            "state": "negative",
+            "reason": "对邮寄投票争议可能破坏选举公正性的担忧",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "拜登的渐进主义执政哲学",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "评估政策可行性与社会接受度的平衡",
+            "source_id": "3,4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "新生代政治力量的崛起路径",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解析正义民主党人与传统建制派的互动模式",
+            "source_id": "1,4"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定虚拟竞选在疫情背景下的创新价值",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "身份政治在副总统人选中的体现",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "权衡族裔代表性与选举地理学的复杂关系",
+            "source_id": "2,4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "党内整合机制的有效性验证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "桑德斯快速归队体现的团结效率",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "进步派主张成功融入主流政纲",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "危机管理能力的公共展示",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过疫情响应策略建立领导形象",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

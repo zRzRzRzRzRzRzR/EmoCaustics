@@ -1,0 +1,82 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "质疑阳哥的鉴宝能力",
+        "emotions": [
+          {"state": "negative", "reason": "怀疑阳哥仅靠运气", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑宋老板用人标准", "source_id": "2"},
+          {"state": "ambiguous", "reason": "发现齐家大小姐身份", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "维护阳哥的鉴宝资格",
+        "emotions": [
+          {"state": "positive", "reason": "自信看人眼光", "source_id": "2"},
+          {"state": "neutral", "reason": "支持陈阳入场", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "齐家信物认证事件",
+        "emotions": [
+          {"state": "neutral", "reason": "主持伴手礼流程", "source_id": "3"},
+          {"state": "positive", "reason": "赞赏陈阳鉴宝能力", "source_id": "5"},
+          {"state": "negative", "reason": "婚姻提议被拒绝", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "鉴宝资格争夺战",
+        "emotions": [
+          {"state": "negative", "reason": "被6/7贬低身份", "source_id": "6,7"},
+          {"state": "positive", "reason": "发现齐家信物", "source_id": "8"},
+          {"state": "neutral", "reason": "处理婚姻提议", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "贬低陈阳事件链",
+        "emotions": [
+          {"state": "negative", "reason": "质疑陈阳能力/诋毁信物价值/威胁家庭背景", "source_id": "5,7,1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "鉴宝大会冲突升级",
+        "emotions": [
+          {"state": "negative", "reason": "贬低陈阳身份/威胁齐家关系", "source_id": "5,8"},
+          {"state": "neutral", "reason": "畏惧齐家权势", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "权威认证与秩序维护",
+        "emotions": [
+          {"state": "neutral", "reason": "宣布鉴宝规则", "source_id": "8"},
+          {"state": "positive", "reason": "确认信物价值", "source_id": "5"},
+          {"state": "negative", "reason": "处理闹事者", "source_id": "6,7"}
+        ]
+      }
+    ]
+  }
+}

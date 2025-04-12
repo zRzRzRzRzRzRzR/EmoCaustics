@@ -1,0 +1,48 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "机场争吵与情感误解",
+        "emotions": [
+          {"state": "neutral", "reason": "解释情绪不佳原因", "source_id": "2"},
+          {"state": "negative", "reason": "被指责言语过重", "source_id": "2"},
+          {"state": "doubt", "reason": "对表演描述产生质疑", "source_id": "2"},
+          {"state": "negative", "reason": "反复被质疑言语真实性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "表演内容争议",
+        "emotions": [
+          {"state": "neutral", "reason": "询问表演关注度", "source_id": "2"},
+          {"state": "negative", "reason": "否认双人舞亲密动作", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "食物需求冲突",
+        "emotions": [
+          {"state": "negative", "reason": "不满间接表达方式", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感忽视累积",
+        "emotions": [
+          {"state": "negative", "reason": "被拒绝关心（机场/用餐）", "source_id": "1"},
+          {"state": "positive", "reason": "主动调解情绪", "source_id": "1"},
+          {"state": "negative", "reason": "认为问题未根本解决", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "事实确认矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "确认表演细节", "source_id": "1"},
+          {"state": "negative", "reason": "坚持言语冲突存在", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑对方澄清真实性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

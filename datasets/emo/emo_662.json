@@ -1,0 +1,137 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "爱情本质的哲学辩论",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调爱情的无条件性构建人类尊严",
+            "source_id": "3,4,5,6"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑类比酒文化时的反驳",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "区分微观关系与宏观历史作用",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "必需品标准的攻防战",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "将爱情与哲学类比论证精神必需性",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑举证不充分时的防御",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "解构爱情必要性论证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "通过粮食类比进行逻辑测试",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "指出标准矛盾与举证缺陷",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "用酒文化反证凝聚作用",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "具体案例挑战",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "用PUA案例质疑无条件性",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "探讨标准适用边界",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "生存必需性辩论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "区分生理必需与精神必需",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑逻辑一致性时的防御",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "人性尊严保卫战",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证爱情作为人性底线",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑历史案例时的反驳",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "社会认同起源论",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用种族通婚论证爱情突破性",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "区分具体情感与社会建构",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

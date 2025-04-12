@@ -1,0 +1,596 @@
+[
+    {
+        "sentence": "爸，你怎么穿着喇叭衣服了？",
+        "Holder": "1",
+        "Target": "2的穿着",
+        "Aspect": "衣服的选择",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "看到父亲穿了不常见的喇叭衣服"
+    },
+    {
+        "sentence": "因为实在没有别的衣服可以怀旧了。",
+        "Holder": "2",
+        "Target": "自己的衣服",
+        "Aspect": "衣服的怀旧性",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "没有其他可以怀旧的衣物"
+    },
+    {
+        "sentence": "你们怎么都这样了呢？",
+        "Holder": "4",
+        "Target": "家人",
+        "Aspect": "行为表现",
+        "Opinion": "不解",
+        "Sentiment": "negative",
+        "Rationale": "不理解家人为何都穿成这样"
+    },
+    {
+        "sentence": "嗯，是这样。明明，哎，我们家人呐，艺术细胞它都比较活跃，所以一听说你拍这个我们马上进入状态，",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "艺术细胞",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "认为家人艺术细胞活跃"
+    },
+    {
+        "sentence": "你们这些都不是我要拍的。",
+        "Holder": "4",
+        "Target": "家人的表现",
+        "Aspect": "拍摄内容",
+        "Opinion": "不符合要求",
+        "Sentiment": "negative",
+        "Rationale": "家人的表现不符合自己的拍摄要求"
+    },
+    {
+        "sentence": "明明你夏叔叔说了说要拍这个必须得有特别好的主题，要不然你得不了奖，是不是？夏东海？",
+        "Holder": "3",
+        "Target": "夏叔叔的意见",
+        "Aspect": "拍摄主题的重要性",
+        "Opinion": "必须有好的主题才能得奖",
+        "Sentiment": "neutral",
+        "Rationale": "夏叔叔强调了好的主题对得奖的重要性"
+    },
+    {
+        "sentence": "没错，这方面我可有经验，一定要听我的。",
+        "Holder": "2",
+        "Target": "自己的经验",
+        "Aspect": "经验的可信度",
+        "Opinion": "自己的经验值得听从",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己在这方面有丰富的经验"
+    },
+    {
+        "sentence": "谁说我要去得奖了？我这都是拍给我爸看的。",
+        "Holder": "4",
+        "Target": "拍摄目的",
+        "Aspect": "拍摄动机",
+        "Opinion": "拍摄是为了给父亲看",
+        "Sentiment": "neutral",
+        "Rationale": "4的拍摄目的并不是为了得奖，而是为了给父亲看"
+    },
+    {
+        "sentence": "你爸当评委啦？",
+        "Holder": "1",
+        "Target": "4的父亲",
+        "Aspect": "父亲的职业",
+        "Opinion": "猜测父亲是评委",
+        "Sentiment": "neutral",
+        "Rationale": "1听到4说拍摄是为了给父亲看"
+    },
+    {
+        "sentence": "小雪，你到底怎么跟人家说的嘛？",
+        "Holder": "4",
+        "Target": "小雪的说法",
+        "Aspect": "沟通内容",
+        "Opinion": "质疑小雪的表述",
+        "Sentiment": "neutral",
+        "Rationale": "4对小雪如何向别人描述自己的拍摄目的感到疑惑"
+    },
+    {
+        "sentence": "我再说一遍，我拍 DV 呢是为了给我爸看的，我是想让他看看什么是完美生活，要不然我爸还老以为幸福家庭就是给孩子发钱呢。",
+        "Holder": "4",
+        "Target": "拍DV的目的",
+        "Aspect": "目的的合理性",
+        "Opinion": "展示完美生活",
+        "Sentiment": "neutral",
+        "Rationale": "想通过拍DV展示完美生活给父亲看"
+    },
+    {
+        "sentence": "这绝对就是幸福家庭啊。",
+        "Holder": "1",
+        "Target": "幸福家庭的定义",
+        "Aspect": "家庭的幸福程度",
+        "Opinion": "认同是幸福家庭",
+        "Sentiment": "positive",
+        "Rationale": "认为当前家庭状态就是幸福"
+    },
+    {
+        "sentence": "明明我现在才明白，感觉你为了拍我们家的事儿，是打算弄一个科教片，为了教育你爸。",
+        "Holder": "3",
+        "Target": "4的拍DV行为",
+        "Aspect": "行为的动机",
+        "Opinion": "认为是教育目的",
+        "Sentiment": "neutral",
+        "Rationale": "理解了4拍DV的真正动机"
+    },
+    {
+        "sentence": "对，我要拍的就是你们幸福快乐的日常生活，我不需要你们演。",
+        "Holder": "4",
+        "Target": "拍DV的内容",
+        "Aspect": "内容的真实性",
+        "Opinion": "记录真实生活",
+        "Sentiment": "neutral",
+        "Rationale": "强调记录真实生活"
+    },
+    {
+        "sentence": "嗯，不好意思哈，我没弄懂，还误导了大家。",
+        "Holder": "6",
+        "Target": "自己的理解",
+        "Aspect": "理解的准确性",
+        "Opinion": "承认误解",
+        "Sentiment": "negative",
+        "Rationale": "自己没弄懂导致误导了大家"
+    },
+    {
+        "sentence": "瞧瞧咱家这一个个的，还以为自己要参加金鸡奖大赛。",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "自我认知",
+        "Opinion": "过于自信",
+        "Sentiment": "negative",
+        "Rationale": "家人表现得过于自信，仿佛要参加金鸡奖大赛"
+    },
+    {
+        "sentence": "回屋换衣服去",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "着装",
+        "Opinion": "需要更换",
+        "Sentiment": "neutral",
+        "Rationale": "家人需要换衣服以符合拍摄要求"
+    },
+    {
+        "sentence": "我的创意劲使得有点大，哈哈哈",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "创意",
+        "Opinion": "创意过剩",
+        "Sentiment": "positive",
+        "Rationale": "自己感到创意过剩"
+    },
+    {
+        "sentence": "闹了半天，是纪录片啊真没劲",
+        "Holder": "1",
+        "Target": "拍摄内容",
+        "Aspect": "趣味性",
+        "Opinion": "缺乏趣味",
+        "Sentiment": "negative",
+        "Rationale": "发现拍摄内容是纪录片，感到缺乏趣味"
+    },
+    {
+        "sentence": "宣布一件事，今天明明姐就要来实地拍摄了，所以你们必须在饭桌上。",
+        "Holder": "6",
+        "Target": "家人",
+        "Aspect": "拍摄安排",
+        "Opinion": "必须在场",
+        "Sentiment": "neutral",
+        "Rationale": "明明姐要来实地拍摄，家人必须在场"
+    },
+    {
+        "sentence": "今天晚上就来，那我可来不及准备。",
+        "Holder": "1",
+        "Target": "今晚的到来",
+        "Aspect": "准备时间",
+        "Opinion": "来不及准备",
+        "Sentiment": "negative",
+        "Rationale": "突然通知今晚要来"
+    },
+    {
+        "sentence": "少废话，我告诉你们，明明可是我最好的朋友，你们俩必须表现好点，我让你们俩表现的好点，听见没有啊？",
+        "Holder": "6",
+        "Target": "1和5的表现",
+        "Aspect": "表现的要求",
+        "Opinion": "必须表现好",
+        "Sentiment": "negative",
+        "Rationale": "明明是6最好的朋友"
+    },
+    {
+        "sentence": "你们俩只有表现的特别幸福才能启发明明他爸",
+        "Holder": "6",
+        "Target": "1和5的表现",
+        "Aspect": "表现的效果",
+        "Opinion": "需要特别幸福",
+        "Sentiment": "neutral",
+        "Rationale": "希望通过1和5的幸福表现来启发明明的爸爸"
+    },
+    {
+        "sentence": "这你要跟她妈说去",
+        "Holder": "1",
+        "Target": "6的要求",
+        "Aspect": "责任归属",
+        "Opinion": "应该跟妈妈说",
+        "Sentiment": "neutral",
+        "Rationale": "1认为这件事应该由6去跟明明的妈妈沟通"
+    },
+    {
+        "sentence": "对，你得跟妈说",
+        "Holder": "5",
+        "Target": "6的要求",
+        "Aspect": "责任归属",
+        "Opinion": "应该跟妈妈说",
+        "Sentiment": "neutral",
+        "Rationale": "5同意1的观点，认为6应该去跟明明的妈妈沟通"
+    },
+    {
+        "sentence": "你让他多给我们俩准备点好吃的，我们自然就会心花怒放。",
+        "Holder": "5",
+        "Target": "好吃的食物",
+        "Aspect": "食物的数量和种类",
+        "Opinion": "希望有更多好吃的",
+        "Sentiment": "positive",
+        "Rationale": "有更多好吃的食物"
+    },
+    {
+        "sentence": "幸福的笑容就会挂在脸上。",
+        "Holder": "1",
+        "Target": "好吃的食物",
+        "Aspect": "食物带来的幸福感",
+        "Opinion": "食物让人幸福",
+        "Sentiment": "positive",
+        "Rationale": "有好吃的食物"
+    },
+    {
+        "sentence": "天上飞的，地上跑的，水里游的，简直就是浓缩版的满汉全席",
+        "Holder": "1",
+        "Target": "食物种类",
+        "Aspect": "食物的丰富多样性",
+        "Opinion": "食物种类丰富",
+        "Sentiment": "positive",
+        "Rationale": "食物种类丰富多样"
+    },
+    {
+        "sentence": "我好幸福啊。",
+        "Holder": "1",
+        "Target": "当前状态",
+        "Aspect": "个人感受",
+        "Opinion": "感到幸福",
+        "Sentiment": "positive",
+        "Rationale": "享受到丰富多样的美食"
+    },
+    {
+        "sentence": "嘿，这孩子一见着好吃的就觉着幸福。你这境界也忒低了吧你。",
+        "Holder": "3",
+        "Target": "1的幸福标准",
+        "Aspect": "幸福感的来源",
+        "Opinion": "幸福标准低",
+        "Sentiment": "negative",
+        "Rationale": "认为1的幸福标准仅仅来源于食物"
+    },
+    {
+        "sentence": "你没看。明明姐家什么好吃的都有，可她依然觉得不幸福，知道为什么吗？跟你说你也不懂，这问题有点深刻",
+        "Holder": "2",
+        "Target": "明明姐",
+        "Aspect": "幸福感",
+        "Opinion": "不幸福",
+        "Sentiment": "neutral",
+        "Rationale": "明明姐家条件很好但依然不幸福"
+    },
+    {
+        "sentence": "唉，怎么样？",
+        "Holder": "3",
+        "Target": "情况",
+        "Aspect": "询问",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "3只是在进行普通的询问，没有表达任何情感"
+    },
+    {
+        "sentence": "明明姐说让咱先吃，他说他待会慢慢的推门进来，把镜头自然切入，不告诉咱们就拍啊",
+        "Holder": "6",
+        "Target": "明明姐的计划",
+        "Aspect": "拍摄方式",
+        "Opinion": "自然切入",
+        "Sentiment": "neutral",
+        "Rationale": "6在陈述明明姐的计划，没有表达个人情感"
+    },
+    {
+        "sentence": "那样才显得自然呢。是不是夏东海？",
+        "Holder": "3",
+        "Target": "拍摄方式",
+        "Aspect": "自然性",
+        "Opinion": "显得自然",
+        "Sentiment": "positive",
+        "Rationale": "3认为明明姐的拍摄方式能显得更自然"
+    },
+    {
+        "sentence": "没错哎。",
+        "Holder": "2",
+        "Target": "拍摄内容",
+        "Aspect": "内容确认",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "对拍摄内容的确认表示认同"
+    },
+    {
+        "sentence": "哎哎，我告诉你们，咱们今天拍的可是幸福家庭的科教片。",
+        "Holder": "3",
+        "Target": "拍摄内容",
+        "Aspect": "内容说明",
+        "Opinion": "强调幸福家庭主题",
+        "Sentiment": "positive",
+        "Rationale": "强调今天的拍摄主题是幸福家庭"
+    },
+    {
+        "sentence": "嗯，所以一定要体现出一种幸福的气氛来。",
+        "Holder": "2",
+        "Target": "拍摄气氛",
+        "Aspect": "气氛要求",
+        "Opinion": "需要体现幸福",
+        "Sentiment": "positive",
+        "Rationale": "强调需要体现幸福的气氛"
+    },
+    {
+        "sentence": "对，必须和谐温馨",
+        "Holder": "3",
+        "Target": "拍摄气氛",
+        "Aspect": "气氛要求",
+        "Opinion": "必须和谐温馨",
+        "Sentiment": "positive",
+        "Rationale": "强调拍摄气氛必须和谐温馨"
+    },
+    {
+        "sentence": "要互敬互爱、互凉互让，表现完美的气氛。",
+        "Holder": "3",
+        "Target": "拍摄表现",
+        "Aspect": "行为要求",
+        "Opinion": "互敬互爱、互凉互让",
+        "Sentiment": "positive",
+        "Rationale": "强调需要表现出互敬互爱、互凉互让的完美气氛"
+    },
+    {
+        "sentence": "脑子里想这么多，还能吃的香吗？",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "思考与食欲的关系",
+        "Opinion": "思考多影响食欲",
+        "Sentiment": "neutral",
+        "Rationale": "1认为刘星脑子里想太多事情"
+    },
+    {
+        "sentence": "我告诉你刘星，你可对着门，待会门一推开，镜头正冲着你，你可不许胡说八道",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "说话内容",
+        "Opinion": "要求刘星不要乱说话",
+        "Sentiment": "negative",
+        "Rationale": "3担心刘星在镜头前说错话"
+    },
+    {
+        "sentence": "我感觉到门好像已经慢慢被推开了。",
+        "Holder": "2",
+        "Target": "门",
+        "Aspect": "门的动静",
+        "Opinion": "门正在被推开",
+        "Sentiment": "neutral",
+        "Rationale": "2感觉到门的动静"
+    },
+    {
+        "sentence": "亲爱的老公，亲爱的孩子们，在这万家灯火的时刻，我们幸福家庭的温馨晚餐可以开始了",
+        "Holder": "3",
+        "Target": "家庭",
+        "Aspect": "晚餐氛围",
+        "Opinion": "温馨幸福",
+        "Sentiment": "positive",
+        "Rationale": "3希望大家感受到家庭的温暖和幸福"
+    },
+    {
+        "sentence": "皎洁的月光为我们照明，听悦耳的蛙鸣为我们奏乐",
+        "Holder": "2",
+        "Target": "自然环境",
+        "Aspect": "氛围",
+        "Opinion": "美好和谐",
+        "Sentiment": "positive",
+        "Rationale": "2感受到月光和蛙鸣带来的美好氛围"
+    },
+    {
+        "sentence": "哇哦，好开心呐，我们全家人都健康快乐地坐在这里，牙好胃口就好，心情更好",
+        "Holder": "6",
+        "Target": "全家人",
+        "Aspect": "健康状况",
+        "Opinion": "健康快乐",
+        "Sentiment": "positive",
+        "Rationale": "全家人都健康快乐"
+    },
+    {
+        "sentence": "好好幸福哦。",
+        "Holder": "5",
+        "Target": "全家人",
+        "Aspect": "幸福感",
+        "Opinion": "幸福",
+        "Sentiment": "positive",
+        "Rationale": "感受到全家人健康快乐的氛围"
+    },
+    {
+        "sentence": "是啊，一个牙疼都没有，当然幸福了",
+        "Holder": "1",
+        "Target": "全家人",
+        "Aspect": "健康状况",
+        "Opinion": "没有牙疼",
+        "Sentiment": "positive",
+        "Rationale": "全家人都没有牙疼"
+    },
+    {
+        "sentence": "对不起啊，明明这段你还是把他删了得了，他刚才这话不好",
+        "Holder": "3",
+        "Target": "某段对话",
+        "Aspect": "对话内容",
+        "Opinion": "不好",
+        "Sentiment": "negative",
+        "Rationale": "觉得某段对话内容不好"
+    },
+    {
+        "sentence": "重新开始啊。",
+        "Holder": "3",
+        "Target": "对话",
+        "Aspect": "对话进程",
+        "Opinion": "重新开始",
+        "Sentiment": "neutral",
+        "Rationale": "觉得之前的对话不合适"
+    },
+    {
+        "sentence": "今天为了我辛苦工作的爱人和我辛苦学习的孩子们，我作为家庭主妇，我特意烹制了独特配方、美味又可口的小肉饼。",
+        "Holder": "3",
+        "Target": "爱人和孩子们",
+        "Aspect": "烹制食物的用心",
+        "Opinion": "特意烹制美味小肉饼",
+        "Sentiment": "positive",
+        "Rationale": "为了辛苦的家人特意烹制美食"
+    },
+    {
+        "sentence": "辛苦的女主人，让我们感谢一下妈妈。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "家庭主妇的付出",
+        "Opinion": "感谢妈妈",
+        "Sentiment": "positive",
+        "Rationale": "认可3的辛苦付出"
+    },
+    {
+        "sentence": "不要客气。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "对感谢的回应",
+        "Opinion": "不需要客气",
+        "Sentiment": "neutral",
+        "Rationale": "认为家人的感谢是理所应当的"
+    },
+    {
+        "sentence": "停，你们平时是这样吃饭的吗？",
+        "Holder": "4",
+        "Target": "3和2",
+        "Aspect": "吃饭的方式",
+        "Opinion": "质疑吃饭方式",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们的吃饭方式不正常"
+    },
+    {
+        "sentence": "哼，要是这样的话我牙早掉光了啊。",
+        "Holder": "1",
+        "Target": "3和2",
+        "Aspect": "吃饭的方式",
+        "Opinion": "认为吃饭方式不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们的吃饭方式会损害牙齿"
+    },
+    {
+        "sentence": "我们就是想让那个拍摄效果更好一点哈。",
+        "Holder": "6",
+        "Target": "拍摄效果",
+        "Aspect": "效果提升",
+        "Opinion": "希望更好",
+        "Sentiment": "positive",
+        "Rationale": "6希望拍摄效果更好"
+    },
+    {
+        "sentence": "对对对，因为一想突出这个幸福和谐的气氛，我们这个温馨的话就有点情不自禁往外冒",
+        "Holder": "3",
+        "Target": "幸福和谐气氛",
+        "Aspect": "气氛营造",
+        "Opinion": "情不自禁",
+        "Sentiment": "positive",
+        "Rationale": "3希望突出幸福和谐的气氛"
+    },
+    {
+        "sentence": "感激之情也冒出来了啊。所以鼓掌就变得很自然。",
+        "Holder": "2",
+        "Target": "感激之情",
+        "Aspect": "情感表达",
+        "Opinion": "自然",
+        "Sentiment": "positive",
+        "Rationale": "2感到感激"
+    },
+    {
+        "sentence": "反正我觉得在自己家吃饭鼓掌挺傻的。",
+        "Holder": "1",
+        "Target": "在家吃饭鼓掌",
+        "Aspect": "行为合理性",
+        "Opinion": "觉得傻",
+        "Sentiment": "negative",
+        "Rationale": "认为在家吃饭鼓掌没有意义"
+    },
+    {
+        "sentence": "你怎么老接入不了角色呢？长大以后你还想不想当演员？",
+        "Holder": "3",
+        "Target": "1的角色扮演",
+        "Aspect": "角色投入",
+        "Opinion": "无法投入角色",
+        "Sentiment": "negative",
+        "Rationale": "1无法很好地投入角色"
+    },
+    {
+        "sentence": "真是你还想不想当演员？",
+        "Holder": "3",
+        "Target": "1的职业规划",
+        "Aspect": "职业意愿",
+        "Opinion": "质疑是否想当演员",
+        "Sentiment": "negative",
+        "Rationale": "1在角色扮演上的表现不佳"
+    },
+    {
+        "sentence": "阿姨要不这样吧，我把前边那些都给抹了，你们直接从吃饭开始。",
+        "Holder": "4",
+        "Target": "之前的表演",
+        "Aspect": "表演内容",
+        "Opinion": "建议从吃饭开始",
+        "Sentiment": "neutral",
+        "Rationale": "想简化表演内容"
+    },
+    {
+        "sentence": "太棒了，我早就想吃了。",
+        "Holder": "1",
+        "Target": "4的建议",
+        "Aspect": "建议的接受度",
+        "Opinion": "非常支持",
+        "Sentiment": "positive",
+        "Rationale": "1早就想吃东西"
+    },
+    {
+        "sentence": "注意你的吃相",
+        "Holder": "3",
+        "Target": "2的吃相",
+        "Aspect": "吃相的得体性",
+        "Opinion": "需要改进",
+        "Sentiment": "neutral",
+        "Rationale": "3注意到2的吃相不够得体"
+    },
+    {
+        "sentence": "要有镜头意识",
+        "Holder": "2",
+        "Target": "自己的表现",
+        "Aspect": "镜头前的表现",
+        "Opinion": "需要保持良好形象",
+        "Sentiment": "neutral",
+        "Rationale": "2意识到在镜头前需要保持良好形象"
+    },
+    {
+        "sentence": "可以开始了吗？",
+        "Holder": "4",
+        "Target": "活动的开始",
+        "Aspect": "活动的准备情况",
+        "Opinion": "询问是否准备好",
+        "Sentiment": "neutral",
+        "Rationale": "4想知道是否可以开始活动"
+    },
+    {
+        "sentence": "哈，再不吃就有点凉了",
+        "Holder": "1",
+        "Target": "食物的温度",
+        "Aspect": "食物的适口性",
+        "Opinion": "食物快凉了",
+        "Sentiment": "neutral",
+        "Rationale": "1注意到食物快凉了"
+    }
+]

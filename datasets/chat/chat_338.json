@@ -1,0 +1,245 @@
+[
+    {
+        "sentence": "是赵德浩吗？搜查令给我。",
+        "Holder": "2",
+        "Target": "赵德浩",
+        "Aspect": "身份确认",
+        "Opinion": "要求确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "需要进行身份确认以便执行任务"
+    },
+    {
+        "sentence": "进来你们这是干什么？这不私闯民宅吗？怎么来这么多人呢？我这有什么好搜查的，你们是哪个单位的？你们不能欺负到我平头老百姓的头上，",
+        "Holder": "1",
+        "Target": "搜查行为",
+        "Aspect": "合法性和合理性",
+        "Opinion": "质疑搜查的合法性",
+        "Sentiment": "negative",
+        "Rationale": "突然有很多人进入家中，感觉自己的权益被侵犯"
+    },
+    {
+        "sentence": "小老百姓我们还真不敢欺负。我们是最高人民检察院反贪总局的，就是专门抓贪官的，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份和职责",
+        "Opinion": "表明身份和职责",
+        "Sentiment": "neutral",
+        "Rationale": "需要让对方了解自己的身份和来意"
+    },
+    {
+        "sentence": "你们抓贪官怎么会抓到我这儿来，有哪个贪官能住在我这里的地方？",
+        "Holder": "1",
+        "Target": "搜查对象",
+        "Aspect": "合理性",
+        "Opinion": "质疑搜查对象的合理性",
+        "Sentiment": "negative",
+        "Rationale": "认为自己不可能是贪官，感觉被误搜"
+    },
+    {
+        "sentence": "我这是个老楼，连个电梯都没有，如果贪官住在这种地方，说实话老百姓非得放炮仗去，你是。",
+        "Holder": "1",
+        "Target": "老楼",
+        "Aspect": "居住条件",
+        "Opinion": "条件差",
+        "Sentiment": "negative",
+        "Rationale": "老楼没有电梯，居住条件差"
+    },
+    {
+        "sentence": "光吃的这一碗炸酱面就把晚饭给对付了。",
+        "Holder": "2",
+        "Target": "晚饭",
+        "Aspect": "饮食简单",
+        "Opinion": "简单对付",
+        "Sentiment": "neutral",
+        "Rationale": "晚饭只吃了一碗炸酱面"
+    },
+    {
+        "sentence": "中国的老百姓不都是这么过日子的吗？",
+        "Holder": "1",
+        "Target": "中国老百姓",
+        "Aspect": "生活方式",
+        "Opinion": "普遍简单",
+        "Sentiment": "neutral",
+        "Rationale": "认为中国老百姓普遍过着简单的生活"
+    },
+    {
+        "sentence": "你可不是老百姓，你是处长。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份",
+        "Opinion": "处长身份",
+        "Sentiment": "neutral",
+        "Rationale": "指出1的身份是处长"
+    },
+    {
+        "sentence": "处长算个屁在北京，一板砖下去能砸倒一大片。",
+        "Holder": "1",
+        "Target": "处长",
+        "Aspect": "身份地位",
+        "Opinion": "地位不高",
+        "Sentiment": "negative",
+        "Rationale": "认为在北京处长身份不值一提"
+    },
+    {
+        "sentence": "你这个处长不一样，权力大，我都听人说了，拿个部长跟你换你都不换。",
+        "Holder": "1",
+        "Target": "处长",
+        "Aspect": "权力大小",
+        "Opinion": "权力大",
+        "Sentiment": "positive",
+        "Rationale": "听说处长权力很大，甚至不愿意用部长职位交换"
+    },
+    {
+        "sentence": "权力大小那都是为人民服务，有权就可以任性了，我不是说你你的思想觉悟这是有待提高。",
+        "Holder": "2",
+        "Target": "1的思想觉悟",
+        "Aspect": "对权力的理解",
+        "Opinion": "思想觉悟有待提高",
+        "Sentiment": "negative",
+        "Rationale": "1认为有权就可以任性，显示出对权力理解的偏差"
+    },
+    {
+        "sentence": "有权不能任性，但可以谋私是吧？",
+        "Holder": "1",
+        "Target": "权力的使用",
+        "Aspect": "权力与私利的关系",
+        "Opinion": "可以谋私",
+        "Sentiment": "negative",
+        "Rationale": "1质疑2的权力使用方式，暗示2可能利用权力谋私"
+    },
+    {
+        "sentence": "我说你们怀疑我到底有啥根据，有权利就可以腐败，跟你们说实话，我在的位置嫉妒我的人很多，想看我出洋相的人也很正常，今天我的情况你们都看到了，我劝你们别再瞎操心了，赶紧回去吃饭。",
+        "Holder": "3",
+        "Target": "对自己的怀疑",
+        "Aspect": "怀疑的合理性",
+        "Opinion": "无根据的怀疑",
+        "Sentiment": "negative",
+        "Rationale": "3认为别人对自己的怀疑没有根据，且自己处于被嫉妒的位置"
+    },
+    {
+        "sentence": "在书柜里找到的存折加起来一共是125万六千零一十。",
+        "Holder": "2",
+        "Target": "存折金额",
+        "Aspect": "金额的具体数值",
+        "Opinion": "金额巨大",
+        "Sentiment": "neutral",
+        "Rationale": "2只是陈述了找到的存折金额，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "欧元还是美元人民币，",
+        "Holder": "1",
+        "Target": "存款类型",
+        "Aspect": "存款货币选择",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问存款的货币类型，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "我说同志我总不至于连这点存款都不敢有吧，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "存款的合理性",
+        "Opinion": "有存款是合理的",
+        "Sentiment": "positive",
+        "Rationale": "强调自己有存款是合理的，表现出对自己经济状况的自信"
+    },
+    {
+        "sentence": "不至于这些钱还没我家多。",
+        "Holder": "2",
+        "Target": "1的存款",
+        "Aspect": "存款数量",
+        "Opinion": "存款数量少",
+        "Sentiment": "negative",
+        "Rationale": "认为1的存款数量少，带有一定的轻视意味"
+    },
+    {
+        "sentence": "没有同志我觉得你们应该是搞错了，打铁还得自身硬，党和人民能把这样的重任交给我，你说我能辜负党和人民吗？",
+        "Holder": "1",
+        "Target": "调查结果",
+        "Aspect": "调查的准确性",
+        "Opinion": "调查有误",
+        "Sentiment": "negative",
+        "Rationale": "认为调查结果有误，并且强调自己的忠诚和能力"
+    },
+    {
+        "sentence": "正因为我这个人原则性很强，所以才会经常遭到这样的重伤。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "原则性强",
+        "Opinion": "原则性强导致被误解",
+        "Sentiment": "negative",
+        "Rationale": "原则性强反而遭到误解和重伤，感到委屈和不平"
+    },
+    {
+        "sentence": "不会是我们真搞错了，查到廉政劳模家了，集合都去楼下等我。",
+        "Holder": "2",
+        "Target": "调查对象",
+        "Aspect": "调查对象的身份",
+        "Opinion": "可能是廉政劳模",
+        "Sentiment": "neutral",
+        "Rationale": "意识到可能搞错了对象，需要进一步确认"
+    },
+    {
+        "sentence": "诸位慢走不送了，",
+        "Holder": "1",
+        "Target": "送别",
+        "Aspect": "送别的态度",
+        "Opinion": "不送",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1表示不需要送别"
+    },
+    {
+        "sentence": "赵处长真的不送，",
+        "Holder": "2",
+        "Target": "赵处长",
+        "Aspect": "送别的决定",
+        "Opinion": "不送",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2确认赵处长的决定"
+    },
+    {
+        "sentence": "我们面条还没吃完，",
+        "Holder": "1",
+        "Target": "面条",
+        "Aspect": "进食状态",
+        "Opinion": "未吃完",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1说明面条未吃完的事实"
+    },
+    {
+        "sentence": "等你把这面汤喝了，",
+        "Holder": "2",
+        "Target": "面汤",
+        "Aspect": "饮用状态",
+        "Opinion": "未喝",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2提到面汤未喝"
+    },
+    {
+        "sentence": "你非得让我送，你干什么。",
+        "Holder": "1",
+        "Target": "送别",
+        "Aspect": "行为要求",
+        "Opinion": "不情愿",
+        "Sentiment": "negative",
+        "Rationale": "说话人1对送别的要求表示不情愿"
+    },
+    {
+        "sentence": "什么都没查出来，心情不好，再说你送我们又怎么了，当了大处长连客人都不送了",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "送客的礼节",
+        "Opinion": "应该送客",
+        "Sentiment": "negative",
+        "Rationale": "什么都没查出来导致心情不好，再加上认为1作为处长却不送客"
+    },
+    {
+        "sentence": "走走就再见",
+        "Holder": "1",
+        "Target": "送客行为",
+        "Aspect": "送客的简洁性",
+        "Opinion": "简单告别",
+        "Sentiment": "neutral",
+        "Rationale": "认为送客不需要复杂的形式"
+    }
+]

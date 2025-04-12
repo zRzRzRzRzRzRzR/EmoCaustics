@@ -1,0 +1,135 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "外卖决策与设备电量争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问点外卖需求",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被指责不考虑他人需求",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释手机充电状态",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑设备管理能力",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "设备功能必要性争论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "手机价值被贬低",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调防水功能必要性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "个人习惯被否定",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "信任危机与关系认知",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "诚实度受质疑",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被认定行为模式僵化",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "发现对方认知缺失",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主动终止冲突",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感忽视指控",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "感受未被重视",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "认为对方言行矛盾",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑设备管理可信度",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "消费观念冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为铺张浪费",
+            "source_id": "1"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "质疑功能必要性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "否定对方思维逻辑",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "冲突收尾与妥协",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "接受终止争吵",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "执行共同决策",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭聚餐中的关系冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "调解家庭成员矛盾", "source_id": "2,3,4"},
+          {"state": "negative", "reason": "处理子女间激烈争执", "source_id": "4"},
+          {"state": "neutral", "reason": "试图维持餐桌秩序", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "兄妹情感界限争议",
+        "emotions": [
+          {"state": "negative", "reason": "子女否定家庭关系纽带", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑子女情感表达方式", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "恋爱关系受干涉事件",
+        "emotions": [
+          {"state": "negative", "reason": "恋爱选择被兄长质疑", "source_id": "3,4"},
+          {"state": "positive", "reason": "坚持生活自主权", "source_id": "2"},
+          {"state": "negative", "reason": "隐私权被过度干涉", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭边界认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "否认法律亲属关系", "source_id": "3,4"},
+          {"state": "positive", "reason": "强调独立生活能力", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方情感介入事件",
+        "emotions": [
+          {"state": "negative", "reason": "揭露他人不良动机", "source_id": "2"},
+          {"state": "negative", "reason": "支持分手决定", "source_id": "4"},
+          {"state": "positive", "reason": "表达关心意图", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "婚恋观价值冲突",
+        "emotions": [
+          {"state": "negative", "reason": "质疑伴侣成熟度", "source_id": "2"},
+          {"state": "negative", "reason": "主张终止恋爱关系", "source_id": "2"},
+          {"state": "negative", "reason": "遭遇关系否定", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭身份认同危机",
+        "emotions": [
+          {"state": "negative", "reason": "被否认亲属关系", "source_id": "2"},
+          {"state": "neutral", "reason": "主动退出冲突现场", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

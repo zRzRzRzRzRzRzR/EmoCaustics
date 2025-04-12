@@ -1,0 +1,61 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "周世辉悔婚事件引发家庭冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被指责介入他人婚姻", "source_id": "2,3"},
+          {"state": "neutral", "reason": "解释普通朋友关系", "source_id": "3"},
+          {"state": "negative", "reason": "遭受人格侮辱", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "周旋于悔婚事件各方矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "担保周世辉无外遇", "source_id": "3"},
+          {"state": "negative", "reason": "处理失控的家庭冲突", "source_id": "1,3,4"},
+          {"state": "neutral", "reason": "尝试调解双方矛盾", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "未婚夫悔婚事件冲击",
+        "emotions": [
+          {"state": "negative", "reason": "发现未婚夫精神出轨", "source_id": "1"},
+          {"state": "negative", "reason": "质疑黄家教育方式", "source_id": "4"},
+          {"state": "negative", "reason": "遭受信任体系崩塌", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭名誉维护事件",
+        "emotions": [
+          {"state": "neutral", "reason": "询问事件缘由", "source_id": "1"},
+          {"state": "negative", "reason": "质疑女儿行为规范", "source_id": "1"},
+          {"state": "negative", "reason": "应对家庭名誉危机", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "第三方调解介入",
+        "emotions": [
+          {"state": "neutral", "reason": "尝试缓和冲突氛围", "source_id": "3"},
+          {"state": "positive", "reason": "提供中立调解方案", "source_id": "2,3"}
+        ]
+      }
+    ]
+  }
+}

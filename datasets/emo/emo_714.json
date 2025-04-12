@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "新赛制引入与辩论开场",
+        "emotions": [
+          {"state": "positive", "reason": "介绍哲理辩赛制的创新意义", "source_id": "1"},
+          {"state": "positive", "reason": "强调题目质量与深度交流价值", "source_id": "1"},
+          {"state": "neutral", "reason": "处理质询环节规则说明", "source_id": "3,5"}
+        ]
+      },
+      {
+        "event": "评委投票机制强调",
+        "emotions": [
+          {"state": "neutral", "reason": "明确评委责任与投票公正性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "真爱本质的批判性解构",
+        "emotions": [
+          {"state": "negative", "reason": "质疑真爱概念的哲学虚无性", "source_id": "3,5"},
+          {"state": "positive", "reason": "用幽默化解质询压力", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "真爱工具性的逻辑挑战",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑自足性与永恒性矛盾", "source_id": "5"},
+          {"state": "negative", "reason": "反驳真爱定义的现实适用性", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "世俗与真爱的辩证冲突",
+        "emotions": [
+          {"state": "ambiguous", "reason": "探讨物质条件与爱的兼容性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "真爱实践的现实辩护",
+        "emotions": [
+          {"state": "positive", "reason": "强调自由意志超越工具性", "source_id": "2"},
+          {"state": "neutral", "reason": "应对世俗案例的质询挑战", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "真爱形而上学的哲学建构",
+        "emotions": [
+          {"state": "positive", "reason": "论证真爱作为自足性存在", "source_id": "3"},
+          {"state": "neutral", "reason": "回应共同体理念的追问", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "票数统计的中立观察",
+        "emotions": [
+          {"state": "neutral", "reason": "客观描述投票环节状态", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

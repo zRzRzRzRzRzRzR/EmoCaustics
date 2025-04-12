@@ -1,0 +1,89 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "学术研讨会开幕主持",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "荣幸主持国际级学术会议",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "感动于专家牺牲休息时间参会",
+            "source_id": "3,4"
+          }
+        ]
+      },
+      {
+        "event": "领导致辞总结",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "高度评价周书记教育战略布局",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "教育战略部署讲话",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调创新人才培养国家战略",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定北京中学示范引领作用",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "教育改革主题报告",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "展示连续三年藤校录取成果",
+            "source_id": "self"
+          },
+          {
+            "state": "neutral",
+            "reason": "解析双减政策系统改革需求",
+            "source_id": "self"
+          },
+          {
+            "state": "negative",
+            "reason": "反思当前教育强制手段弊端",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "提出文化建构核心解决方案",
+            "source_id": "self"
+          }
+        ]
+      },
+      {
+        "event": "学校发展成果汇报",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "感恩政府八年持续支持",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

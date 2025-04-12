@@ -1,0 +1,245 @@
+[
+    {
+        "sentence": "一人一半有意见吗。",
+        "Holder": "1",
+        "Target": "分钱方式",
+        "Aspect": "公平性",
+        "Opinion": "询问意见",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2对分钱方式的意见"
+    },
+    {
+        "sentence": "你弟肖旭从咱俩这儿一共拿了9回钱，说是借但一次没还这事你记得吗？9次一共拿了20,100块钱，没错吧？",
+        "Holder": "1",
+        "Target": "肖旭借钱",
+        "Aspect": "还款情况",
+        "Opinion": "未还款",
+        "Sentiment": "negative",
+        "Rationale": "肖旭多次借钱未还"
+    },
+    {
+        "sentence": "不用看了，你帮老师记得没有错，",
+        "Holder": "2",
+        "Target": "1的记忆",
+        "Aspect": "准确性",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "2认可1的记忆是准确的"
+    },
+    {
+        "sentence": "你不用这么阴阳怪气的，他是你弟，不是我让他来借钱的对吧？",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "说话方式",
+        "Opinion": "不应阴阳怪气",
+        "Sentiment": "negative",
+        "Rationale": "2的阴阳怪气让1感到不舒服"
+    },
+    {
+        "sentence": "没错，是我有这么个弟弟，我认了有什么可说的算我的是吧？。",
+        "Holder": "2",
+        "Target": "弟弟的问题",
+        "Aspect": "责任归属",
+        "Opinion": "自己承担责任",
+        "Sentiment": "negative",
+        "Rationale": "1提到弟弟的问题，2感到被指责"
+    },
+    {
+        "sentence": "好好说话行吗。",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "沟通态度",
+        "Opinion": "希望好好说话",
+        "Sentiment": "neutral",
+        "Rationale": "1希望对话能平和进行"
+    },
+    {
+        "sentence": "行王一诺。",
+        "Holder": "2",
+        "Target": "1的请求",
+        "Aspect": "回应态度",
+        "Opinion": "同意好好说话",
+        "Sentiment": "neutral",
+        "Rationale": "2同意1的请求"
+    },
+    {
+        "sentence": "我跟你好好说话，咱们算是吧，那咱好好算一算。去年你爸你妈去新马泰，机票住宿都是我出的，我还给了他们3万块钱，我妈去过新马泰吗？我给我妈了吗？",
+        "Holder": "2",
+        "Target": "1的父母",
+        "Aspect": "经济支持",
+        "Opinion": "自己付出较多",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己对1的父母付出很多但没有得到相应回报"
+    },
+    {
+        "sentence": "吵吵这个事",
+        "Holder": "1",
+        "Target": "2的话题",
+        "Aspect": "话题选择",
+        "Opinion": "不想讨论",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2提起的话题会引起争执"
+    },
+    {
+        "sentence": "节假日生日我给我妈800块钱，我给你爸你妈1000。",
+        "Holder": "2",
+        "Target": "给父母的钱",
+        "Aspect": "金额分配",
+        "Opinion": "合理分配",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在描述自己给双方父母的金额分配情况，没有明确情感倾向"
+    },
+    {
+        "sentence": "是我让你给你妈800的吗？是我说的必须给我妈1000吗。",
+        "Holder": "1",
+        "Target": "给父母的钱",
+        "Aspect": "金额要求的合理性",
+        "Opinion": "质疑对方的金额要求",
+        "Sentiment": "negative",
+        "Rationale": "说话人1质疑对方对金额的要求，表达不满"
+    },
+    {
+        "sentence": "800我活该我贱，我哥愿意给的。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "自我评价",
+        "Opinion": "自责和无奈",
+        "Sentiment": "negative",
+        "Rationale": "说话人2用贬低自己的词语表达自责和无奈"
+    },
+    {
+        "sentence": "没有说非要给婆婆800，给我妈1000对吧？你那房子装修我爸妈没给你3万块钱没揣兜儿里吗。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "经济支持和合理性",
+        "Opinion": "指出对方的经济支持",
+        "Sentiment": "negative",
+        "Rationale": "说话人1在对话中用讽刺的语气指出对方在经济支持上的双重标准，表达不满"
+    },
+    {
+        "sentence": "行王一诺，你说的都对好吧？你说的对行行，算吧算吧你不记小本本吗对吧？你也没打算好好过。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话态度",
+        "Opinion": "消极应对",
+        "Sentiment": "negative",
+        "Rationale": "说话人2用敷衍的语气表达对对方观点的无奈接受，显示出消极的情绪。"
+    },
+    {
+        "sentence": "肖路我们今天能坐在这么算是，我没有打算好好过日子是吗？你自己干的那些恶心的事儿，你真是屎不臭，你非要挑起来臭。",
+        "Holder": "1",
+        "Target": "肖路的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "肖路的行为恶心",
+        "Sentiment": "negative",
+        "Rationale": "肖路做了恶心的事情并且故意挑起争端"
+    },
+    {
+        "sentence": "对你都是香的，你拉屎拉身上都不臭。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "1的指责不公正",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的指责过于夸张和不合理"
+    },
+    {
+        "sentence": "我屎拉身上了是吧？对我屎就是拉身上了，我为了给你生个孩子我屎拉身上了，我屎拉身上让你伺候那一回，你嫌弃的表情我记你一辈子小鹿。",
+        "Holder": "1",
+        "Target": "肖路的反应",
+        "Aspect": "对1的付出和态度",
+        "Opinion": "肖路嫌弃和不领情",
+        "Sentiment": "negative",
+        "Rationale": "为肖路生孩子时受到嫌弃"
+    },
+    {
+        "sentence": "你跟我说这种话，你他妈也算个人，你。",
+        "Holder": "1",
+        "Target": "肖路的言语",
+        "Aspect": "言语的侮辱性",
+        "Opinion": "肖路的言语不人道",
+        "Sentiment": "negative",
+        "Rationale": "肖路说出侮辱性的话"
+    },
+    {
+        "sentence": "嘴给我放干净点。",
+        "Holder": "2",
+        "Target": "1的言语",
+        "Aspect": "言语的文明程度",
+        "Opinion": "1的言语不文明",
+        "Sentiment": "negative",
+        "Rationale": "1说出不文明的话"
+    },
+    {
+        "sentence": "我嘴怎么不干净了，我今天就骂你了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言语的清洁度",
+        "Opinion": "认为自己言语干净",
+        "Sentiment": "negative",
+        "Rationale": "被指责嘴不干净"
+    },
+    {
+        "sentence": "简直是泼妇你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为举止",
+        "Opinion": "认为对方是泼妇",
+        "Sentiment": "negative",
+        "Rationale": "对方言语激烈"
+    },
+    {
+        "sentence": "我当然是泼妇了，你有本事跟人去睡，你们就是一帮烂货。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为道德",
+        "Opinion": "认为对方行为不检点",
+        "Sentiment": "negative",
+        "Rationale": "被骂为泼妇"
+    },
+    {
+        "sentence": "我就喜欢在外面睡",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "生活方式",
+        "Opinion": "喜欢在外面睡觉",
+        "Sentiment": "neutral",
+        "Rationale": "对方指责自己的生活方式"
+    },
+    {
+        "sentence": "你就是烂人。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "人品",
+        "Opinion": "认为对方人品差",
+        "Sentiment": "negative",
+        "Rationale": "对方的生活方式不符合自己的价值观"
+    },
+    {
+        "sentence": "就是不想回家怎么了？",
+        "Holder": "说话人1",
+        "Target": "回家",
+        "Aspect": "回家的意愿",
+        "Opinion": "不想回家",
+        "Sentiment": "negative",
+        "Rationale": "对家里某些人或事感到不满"
+    },
+    {
+        "sentence": "我就不想看见你，我第一天加班看你眼前脊梁骨跟他唧唧歪歪，我就恶心死人，",
+        "Holder": "说话人1",
+        "Target": "你",
+        "Aspect": "行为表现",
+        "Opinion": "恶心",
+        "Sentiment": "negative",
+        "Rationale": "看到对方与他人的不当行为"
+    },
+    {
+        "sentence": "家家过户，你爱你谁跟谁睡，这样都会瞧你。你再给我滚，滚滚别再来我们家，你去死你。",
+        "Holder": "说话人1",
+        "Target": "你",
+        "Aspect": "行为和态度",
+        "Opinion": "厌恶并驱赶",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为和态度极度不满"
+    }
+]

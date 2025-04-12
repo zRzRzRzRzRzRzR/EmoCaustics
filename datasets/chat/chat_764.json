@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "事到如今还这么刁玩，难道真的想尝尝我悬镜司的手段吗。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的态度",
+        "Opinion": "刁玩",
+        "Sentiment": "negative",
+        "Rationale": "2在当前情况下仍然表现得刁玩"
+    },
+    {
+        "sentence": "我身子这么差，一点都不想尝试你悬镜司的手段，夏大人你就别费心了，魏征都已经出城一整天了，茫茫江湖你上哪去找还是死了这条心。",
+        "Holder": "2",
+        "Target": "1的威胁",
+        "Aspect": "威胁的可行性",
+        "Opinion": "不担心",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己的身体状况差且魏征已经出城"
+    },
+    {
+        "sentence": "你到京城来到底想要得到什么？是位极人臣的富贵，睥睨天下的权力，还是万世流芳的名声。",
+        "Holder": "1",
+        "Target": "2的目的",
+        "Aspect": "目的的性质",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2来京城的目的不清楚"
+    },
+    {
+        "sentence": "是补药。",
+        "Holder": "2",
+        "Target": "自己的目的",
+        "Aspect": "目的的具体内容",
+        "Opinion": "寻求补药",
+        "Sentiment": "neutral",
+        "Rationale": "2直接回答了自己的目的是为了补药"
+    },
+    {
+        "sentence": "我自己吃行吗？",
+        "Holder": "说话人",
+        "Target": "自己吃饭",
+        "Aspect": "吃饭方式",
+        "Opinion": "询问是否可以自己吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "询问是否可以自己吃饭"
+    },
+    {
+        "sentence": "咱们都斯文点，",
+        "Holder": "说话人",
+        "Target": "所有人",
+        "Aspect": "行为举止",
+        "Opinion": "希望大家举止斯文",
+        "Sentiment": "neutral",
+        "Rationale": "希望大家在吃饭时举止斯文"
+    },
+    {
+        "sentence": "大人没有说真话，不过没关系，我只是随便问问，其实我心里什么都明白，",
+        "Holder": "说话人",
+        "Target": "大人",
+        "Aspect": "诚实度",
+        "Opinion": "认为大人没有说真话但自己理解",
+        "Sentiment": "neutral",
+        "Rationale": "知道大人没有说真话但表示理解"
+    },
+    {
+        "sentence": "说话人1 03:11",
+        "Holder": "说话人1",
+        "Target": "对话内容",
+        "Aspect": "时间标记",
+        "Opinion": "标记对话时间",
+        "Sentiment": "neutral",
+        "Rationale": "只是标记了对话时间"
+    },
+    {
+        "sentence": "说说看",
+        "Holder": "说话人1",
+        "Target": "对话内容",
+        "Aspect": "请求说明",
+        "Opinion": "希望对方进一步说明",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方进一步说明情况"
+    }
+]

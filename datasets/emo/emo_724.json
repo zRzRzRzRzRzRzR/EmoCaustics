@@ -1,0 +1,56 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "食物分配争议",
+        "emotions": [
+          {"state": "negative", "reason": "未分到食物并被质疑行为", "source_id": "2"},
+          {"state": "neutral", "reason": "解释搅动食物行为", "source_id": "2"},
+          {"state": "positive", "reason": "强调使用新筷子", "source_id": "2"},
+          {"state": "negative", "reason": "被联合针对及自尊受损", "source_id": "2,3,4"}
+        ]
+      },
+      {
+        "event": "人际关系破裂",
+        "emotions": [
+          {"state": "negative", "reason": "被要求还钱及关系决裂", "source_id": "3"},
+          {"state": "negative", "reason": "座位冲突引发情绪对立", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "泡面争夺事件",
+        "emotions": [
+          {"state": "negative", "reason": "食物被搅坏无法食用", "source_id": "1"},
+          {"state": "neutral", "reason": "尝试缓解激烈情绪", "source_id": "1"},
+          {"state": "negative", "reason": "持续行为冲突未解决", "source_id": "1,3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方介入冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "询问解决进度", "source_id": "1,2"},
+          {"state": "negative", "reason": "建议被拒及卷入纠纷", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "衣物损坏纠纷",
+        "emotions": [
+          {"state": "negative", "reason": "新衣物被弄脏未道歉", "source_id": "1"},
+          {"state": "negative", "reason": "价值对比引发自尊受损", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

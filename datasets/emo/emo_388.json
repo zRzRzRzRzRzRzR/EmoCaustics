@@ -1,0 +1,153 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "野蛮父亲作文素材收集",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "父亲打针方式引发疼痛，被调侃野蛮",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "利用家庭互动获取作文素材",
+            "source_id": "2,3"
+          },
+          {
+            "state": "negative",
+            "reason": "创作遇到瓶颈需要冲突素材",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭暴力认知冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "将打闹行为视为亲密互动",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释需求频率仅为偶尔",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "前妻借款交涉",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出借款需求",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "被拒绝借款并质疑关系",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "强调往日情感纽带",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "家庭角色定位冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被明确界定为外人",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "试图证明父亲价值",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "子女异常行为应对",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "发现异常受虐倾向",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "用幽默化解冲突",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释家庭暴力界限",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "家庭财政处理争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑演双簧欺骗",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调紧急借款合理性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "前夫关系处理",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝借款并划清界限",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "维护现有家庭和谐",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "子女教育方式观察",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "日常活动陈述",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧异常行为影响",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

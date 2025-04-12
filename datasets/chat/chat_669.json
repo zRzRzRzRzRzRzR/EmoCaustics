@@ -1,0 +1,902 @@
+[
+    {
+        "sentence": "叔叔，你回来了，快，婶婶在打牌呢。",
+        "Holder": "1",
+        "Target": "婶婶",
+        "Aspect": "打牌行为",
+        "Opinion": "描述现状",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观描述婶婶在打牌的现状"
+    },
+    {
+        "sentence": "老公，你听我解释，我，我知道我错了，我，我不敢了，我下次真的不敢了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "赌博行为",
+        "Opinion": "认错并承诺改正",
+        "Sentiment": "negative",
+        "Rationale": "知道自己赌博犯错并导致严重后果"
+    },
+    {
+        "sentence": "你给我闭嘴，我创业的时候你就迷恋赌博，把所有的资金都输光，害的我到处借钱为你还赌债。你忘了你是怎么跟我发誓保证不在赌博的？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "赌博行为及其后果",
+        "Opinion": "强烈谴责",
+        "Sentiment": "negative",
+        "Rationale": "2的赌博行为导致3创业资金损失并背负债务"
+    },
+    {
+        "sentence": "我不敢了，我下次不敢了。老公，我不敢了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "赌博行为",
+        "Opinion": "再次认错并承诺改正",
+        "Sentiment": "negative",
+        "Rationale": "再次面对3的指责"
+    },
+    {
+        "sentence": "爸你就原谅妈妈这次",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "赌博行为",
+        "Opinion": "请求原谅",
+        "Sentiment": "positive",
+        "Rationale": "希望家庭和睦"
+    },
+    {
+        "sentence": "叔叔不要原谅他。婶婶经常你不在家的时候还在打牌",
+        "Holder": "1",
+        "Target": "婶婶",
+        "Aspect": "打牌行为",
+        "Opinion": "不应该原谅",
+        "Sentiment": "negative",
+        "Rationale": "婶婶在叔叔不在家时打牌"
+    },
+    {
+        "sentence": "不要乱讲",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为1的言论不真实"
+    },
+    {
+        "sentence": "老公，我错了。我知道我错了，我真的不敢了。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的正确性",
+        "Opinion": "认错",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误"
+    },
+    {
+        "sentence": "不敢。好，我会让你永远不敢。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的改正",
+        "Opinion": "严厉警告",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为感到不满"
+    },
+    {
+        "sentence": "我下次再也不敢打牌了，我不打麻将了，你饶过我",
+        "Holder": "2",
+        "Target": "自己的打牌行为",
+        "Aspect": "行为的改正",
+        "Opinion": "承诺改正",
+        "Sentiment": "negative",
+        "Rationale": "害怕惩罚"
+    },
+    {
+        "sentence": "你说过的，你再让我抓到你赌博，就让我剁了你的手。",
+        "Holder": "3",
+        "Target": "2的赌博行为",
+        "Aspect": "行为的严重性",
+        "Opinion": "严厉惩罚",
+        "Sentiment": "negative",
+        "Rationale": "2再次赌博违反了之前的承诺"
+    },
+    {
+        "sentence": "不要不要。",
+        "Holder": "2",
+        "Target": "3的威胁",
+        "Aspect": "威胁的严重性",
+        "Opinion": "恐惧和拒绝",
+        "Sentiment": "negative",
+        "Rationale": "3的威胁涉及到身体伤害"
+    },
+    {
+        "sentence": "叔叔，菜刀",
+        "Holder": "1",
+        "Target": "3的威胁",
+        "Aspect": "威胁的执行",
+        "Opinion": "支持或顺从",
+        "Sentiment": "neutral",
+        "Rationale": "1只是简单地回应了3的要求，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "你取那么多钱干什么啊？",
+        "Holder": "3",
+        "Target": "2取钱行为",
+        "Aspect": "取钱的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2取了大量现金，3怀疑其用途不正当"
+    },
+    {
+        "sentence": "啊是你向品如要钱去还你赌债是不是？你这个女人怎么就赌性不改呀？",
+        "Holder": "3",
+        "Target": "2的赌债问题",
+        "Aspect": "行为的改正",
+        "Opinion": "无法改正",
+        "Sentiment": "negative",
+        "Rationale": "2再次赌博向他人要钱，3认为2无法改正赌博的习惯"
+    },
+    {
+        "sentence": "不要啊，老公，你再给我一次机会，你下次抓到我再砍我的手，求求你了，你饶了我，给我一次机会。",
+        "Holder": "2",
+        "Target": "老公",
+        "Aspect": "给予机会",
+        "Opinion": "请求再给一次机会",
+        "Sentiment": "negative",
+        "Rationale": "害怕被惩罚"
+    },
+    {
+        "sentence": "叔叔不要相信他，婶婶每次说话都不算数。",
+        "Holder": "1",
+        "Target": "婶婶",
+        "Aspect": "信用",
+        "Opinion": "说话不算数",
+        "Sentiment": "negative",
+        "Rationale": "婶婶多次失信"
+    },
+    {
+        "sentence": "你好，我叫Jennifer。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "自我介绍",
+        "Opinion": "友好介绍",
+        "Sentiment": "neutral",
+        "Rationale": "正在进行自我介绍"
+    },
+    {
+        "sentence": "贱货？怎么会有人姓贱，叫贱货。",
+        "Holder": "1",
+        "Target": "Jennifer",
+        "Aspect": "姓名",
+        "Opinion": "侮辱性称呼",
+        "Sentiment": "negative",
+        "Rationale": "对Jennifer的名字产生误解"
+    },
+    {
+        "sentence": "你说什么？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "言语内容",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1的言语感到困惑"
+    },
+    {
+        "sentence": "大姐",
+        "Holder": "5",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是普通的称呼，没有表达出特别的情感"
+    },
+    {
+        "sentence": "我不是姓贱，我姓艾。",
+        "Holder": "4",
+        "Target": "自己的姓氏",
+        "Aspect": "姓氏的正确性",
+        "Opinion": "纠正姓氏",
+        "Sentiment": "negative",
+        "Rationale": "被误称为不雅的姓氏"
+    },
+    {
+        "sentence": "姓爱？爱贱货？",
+        "Holder": "1",
+        "Target": "4的姓氏",
+        "Aspect": "姓氏的含义",
+        "Opinion": "调侃",
+        "Sentiment": "negative",
+        "Rationale": "故意曲解和调侃别人的姓氏"
+    },
+    {
+        "sentence": "你们在干嘛？你在欺负品如。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "对待品如的态度",
+        "Opinion": "认为在欺负",
+        "Sentiment": "negative",
+        "Rationale": "看到4的行为认为是在欺负品如"
+    },
+    {
+        "sentence": "我打你。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为威胁",
+        "Opinion": "威胁要打",
+        "Sentiment": "negative",
+        "Rationale": "对4的行为感到极度不满"
+    },
+    {
+        "sentence": "你打我？",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "行为",
+        "Opinion": "质疑被打",
+        "Sentiment": "negative",
+        "Rationale": "1感到自己可能被6打了"
+    },
+    {
+        "sentence": "艾丽，你敢打我大姐？",
+        "Holder": "6",
+        "Target": "艾丽",
+        "Aspect": "行为",
+        "Opinion": "质疑艾丽打大姐",
+        "Sentiment": "negative",
+        "Rationale": "6认为艾丽打了她的大姐"
+    },
+    {
+        "sentence": "别打。别打了。",
+        "Holder": "2",
+        "Target": "所有人",
+        "Aspect": "行为",
+        "Opinion": "要求停止打斗",
+        "Sentiment": "negative",
+        "Rationale": "2看到打斗的情况"
+    },
+    {
+        "sentence": "你敢打我",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "行为",
+        "Opinion": "再次质疑被打",
+        "Sentiment": "negative",
+        "Rationale": "1再次确认自己被6打了"
+    },
+    {
+        "sentence": "宝莲，你不要打了？不要打了，不要打了。",
+        "Holder": "2",
+        "Target": "宝莲",
+        "Aspect": "行为",
+        "Opinion": "强烈要求停止打斗",
+        "Sentiment": "negative",
+        "Rationale": "2看到宝莲参与打斗"
+    },
+    {
+        "sentence": "你敢打我，你敢打我",
+        "Holder": "5",
+        "Target": "2的行为",
+        "Aspect": "暴力行为",
+        "Opinion": "反对被打",
+        "Sentiment": "negative",
+        "Rationale": "被2打"
+    },
+    {
+        "sentence": "不要打啦",
+        "Holder": "2",
+        "Target": "5的行为",
+        "Aspect": "暴力行为",
+        "Opinion": "反对打人",
+        "Sentiment": "negative",
+        "Rationale": "看到5被打"
+    },
+    {
+        "sentence": "以后别赖我们家装好人了，没人吃你这一套。",
+        "Holder": "6",
+        "Target": "5的行为",
+        "Aspect": "虚伪表现",
+        "Opinion": "反对虚伪",
+        "Sentiment": "negative",
+        "Rationale": "觉得5在家装好人"
+    },
+    {
+        "sentence": "对，告诉你，以后不要让我再看到你这个坏女人，不让我见你一次，打你一次。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "人品",
+        "Opinion": "认为5是坏女人",
+        "Sentiment": "negative",
+        "Rationale": "觉得5欺负品如"
+    },
+    {
+        "sentence": "哼，让你再欺负品如对，品如不好。",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "对待品如的态度",
+        "Opinion": "反对欺负品如",
+        "Sentiment": "negative",
+        "Rationale": "觉得5欺负品如"
+    },
+    {
+        "sentence": "大姐，不要跟这种人啰嗦",
+        "Holder": "6",
+        "Target": "大姐",
+        "Aspect": "与人的交流方式",
+        "Opinion": "不要啰嗦",
+        "Sentiment": "negative",
+        "Rationale": "认为大姐与不值得的人交流是浪费时间"
+    },
+    {
+        "sentence": "带着你的破鞋给我滚。",
+        "Holder": "6",
+        "Target": "大姐",
+        "Aspect": "大姐的行为",
+        "Opinion": "让其离开",
+        "Sentiment": "negative",
+        "Rationale": "对大姐的行为或态度极为不满"
+    },
+    {
+        "sentence": "你们看",
+        "Holder": "1",
+        "Target": "大家",
+        "Aspect": "注意力的引导",
+        "Opinion": "引起注意",
+        "Sentiment": "neutral",
+        "Rationale": "想要让大家注意到某事"
+    },
+    {
+        "sentence": "贱货的脸没有了",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "外貌变化",
+        "Opinion": "脸没有了",
+        "Sentiment": "negative",
+        "Rationale": "对某人极度厌恶"
+    },
+    {
+        "sentence": "谁干的这事？",
+        "Holder": "7",
+        "Target": "某事",
+        "Aspect": "责任归属",
+        "Opinion": "询问责任人",
+        "Sentiment": "neutral",
+        "Rationale": "对发生的事情感到疑惑"
+    },
+    {
+        "sentence": "我想了半天，一定是你自己弄的，因为你不够漂亮，所以就把它弄坏了，对不对？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "外貌与行为",
+        "Opinion": "4因为外貌不够漂亮而弄坏东西",
+        "Sentiment": "negative",
+        "Rationale": "1认为4的外貌不够漂亮是弄坏东西的原因"
+    },
+    {
+        "sentence": "干什么，疯了？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "1的行为不正常",
+        "Sentiment": "negative",
+        "Rationale": "4觉得1的指责毫无根据且过分"
+    },
+    {
+        "sentence": "你有病啊",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "精神状态",
+        "Opinion": "1的精神状态有问题",
+        "Sentiment": "negative",
+        "Rationale": "4认为1的指责完全不合理"
+    },
+    {
+        "sentence": "这里是品如的房间，不许你们在品如房间里面干奇怪的事儿。分开",
+        "Holder": "1",
+        "Target": "4和其他人",
+        "Aspect": "行为规范",
+        "Opinion": "不允许在品如房间做奇怪的事",
+        "Sentiment": "negative",
+        "Rationale": "1认为4和其他人在品如房间做奇怪的事"
+    },
+    {
+        "sentence": "不要闹了",
+        "Holder": "7",
+        "Target": "1和4",
+        "Aspect": "行为状态",
+        "Opinion": "停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "7希望平息1和4之间的争吵"
+    },
+    {
+        "sentence": "你们要是再这样，我就拿院子里的水枪滋你们。",
+        "Holder": "1",
+        "Target": "4和7的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对当前行为",
+        "Sentiment": "negative",
+        "Rationale": "4和7的行为让1感到不满"
+    },
+    {
+        "sentence": "你多大了？你进别人房间不让敲门吗？告诉你，从今天开始这就是我的房间，以后进来之前一定要敲门。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "进门礼仪",
+        "Opinion": "要求敲门",
+        "Sentiment": "negative",
+        "Rationale": "1不敲门就进入房间，侵犯了4的隐私"
+    },
+    {
+        "sentence": "这里是厕所吗？我从来不会敲门，冲完水了，好舒服。我要出去了。",
+        "Holder": "1",
+        "Target": "4的要求",
+        "Aspect": "敲门必要性",
+        "Opinion": "不认同敲门",
+        "Sentiment": "positive",
+        "Rationale": "1认为房间不是厕所，不需要敲门"
+    },
+    {
+        "sentence": "你",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "未明确",
+        "Sentiment": "ambiguous",
+        "Rationale": "4的话未说完，无法确定具体情感"
+    },
+    {
+        "sentence": "好了好了",
+        "Holder": "7",
+        "Target": "1和4的争执",
+        "Aspect": "争执的解决",
+        "Opinion": "希望停止争执",
+        "Sentiment": "neutral",
+        "Rationale": "7希望平息1和4之间的争执"
+    },
+    {
+        "sentence": "换锁换锁啊",
+        "Holder": "4",
+        "Target": "锁",
+        "Aspect": "安全性",
+        "Opinion": "需要更换",
+        "Sentiment": "neutral",
+        "Rationale": "锁可能存在安全隐患"
+    },
+    {
+        "sentence": "好好好马上换",
+        "Holder": "7",
+        "Target": "锁",
+        "Aspect": "更换的及时性",
+        "Opinion": "立即更换",
+        "Sentiment": "positive",
+        "Rationale": "同意并承诺迅速更换锁"
+    },
+    {
+        "sentence": "装什么电影明星耍酷",
+        "Holder": "1",
+        "Target": "7",
+        "Aspect": "行为态度",
+        "Opinion": "装模作样",
+        "Sentiment": "negative",
+        "Rationale": "认为7的行为像是在模仿电影明星，显得不真实"
+    },
+    {
+        "sentence": "干什么拿过来。",
+        "Holder": "7",
+        "Target": "锁",
+        "Aspect": "行动要求",
+        "Opinion": "要求立即行动",
+        "Sentiment": "neutral",
+        "Rationale": "需要马上处理锁的问题"
+    },
+    {
+        "sentence": "这脸是怎么回事啊？眼角被指甲刷伤啦，是艾丽吗？",
+        "Holder": "2",
+        "Target": "7",
+        "Aspect": "面部状况",
+        "Opinion": "怀疑受伤原因",
+        "Sentiment": "neutral",
+        "Rationale": "看到7的眼角有伤"
+    },
+    {
+        "sentence": "没事没事哈。",
+        "Holder": "7",
+        "Target": "当前情况",
+        "Aspect": "态度",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "对当前情况没有特别的情绪波动"
+    },
+    {
+        "sentence": "没有，昨晚我帮他擦乳液的时候不小心抓伤了。",
+        "Holder": "4",
+        "Target": "抓伤事件",
+        "Aspect": "原因",
+        "Opinion": "解释原因",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释抓伤的原因"
+    },
+    {
+        "sentence": "你撒谎不打草稿啊",
+        "Holder": "7",
+        "Target": "4的解释",
+        "Aspect": "真实性",
+        "Opinion": "认为撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为4的解释不真实"
+    },
+    {
+        "sentence": "走了",
+        "Holder": "7",
+        "Target": "当前对话",
+        "Aspect": "结束",
+        "Opinion": "结束对话",
+        "Sentiment": "neutral",
+        "Rationale": "不想继续当前对话"
+    },
+    {
+        "sentence": "你撒谎。",
+        "Holder": "1",
+        "Target": "4的解释",
+        "Aspect": "真实性",
+        "Opinion": "认为撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为4的解释不真实"
+    },
+    {
+        "sentence": "你这个女人怎么那么恶毒啊？你怎么可以抓伤自己的老公啊？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "行为",
+        "Opinion": "恶毒",
+        "Sentiment": "negative",
+        "Rationale": "认为4的行为恶毒且抓伤了自己的老公"
+    },
+    {
+        "sentence": "你知不知道你住在谁的屋檐下，吃谁家的饭？要不是当初我帮你进得了洪家大门吗？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "依赖关系",
+        "Opinion": "依赖2的帮助",
+        "Sentiment": "negative",
+        "Rationale": "4住在2的家中并依赖2的帮助"
+    },
+    {
+        "sentence": "那谢谢你了，我还跟客人有预约。等我回来的时候你再骂吧。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "回应",
+        "Opinion": "礼貌回应",
+        "Sentiment": "neutral",
+        "Rationale": "4礼貌地回应2的指责，并表示有其他事务需要处理"
+    },
+    {
+        "sentence": "气死我了，这个女人当初让我给她拿钱投资的时候有那张笑脸，现在怎么翻脸不认人了？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "态度变化",
+        "Opinion": "翻脸不认人",
+        "Sentiment": "negative",
+        "Rationale": "4在需要钱时态度友好，现在却翻脸不认人"
+    },
+    {
+        "sentence": "太现实了，这个贱货",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "性格评价",
+        "Opinion": "现实",
+        "Sentiment": "negative",
+        "Rationale": "认为4过于现实且不念旧情"
+    },
+    {
+        "sentence": "贱货",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "人格",
+        "Opinion": "贬低",
+        "Sentiment": "negative",
+        "Rationale": "1对4的行为或性格不满"
+    },
+    {
+        "sentence": "我真的没有，就算你们不认我这个媳妇也不能纵容你儿子为了别的女人打我。",
+        "Holder": "4",
+        "Target": "1的家庭",
+        "Aspect": "家庭关系",
+        "Opinion": "不被认可且受委屈",
+        "Sentiment": "negative",
+        "Rationale": "4感到自己不被1的家庭认可，并且受到了不公正的对待"
+    },
+    {
+        "sentence": "你撒谎，你这个坏女人。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "诚信",
+        "Opinion": "指责撒谎",
+        "Sentiment": "negative",
+        "Rationale": "1认为4在撒谎，并且对4的品行有负面评价"
+    },
+    {
+        "sentence": "我识字的，我看过了，你用这个手机打给品如哥哥了是吧？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "通讯行为",
+        "Opinion": "怀疑通话",
+        "Sentiment": "negative",
+        "Rationale": "1通过查看手机记录怀疑4与品如哥哥有联系"
+    },
+    {
+        "sentence": "林一德是你的帮凶，你够歹毒的。",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "人际关系",
+        "Opinion": "指责为帮凶",
+        "Sentiment": "negative",
+        "Rationale": "7认为林一德帮助4做了坏事"
+    },
+    {
+        "sentence": "人变成鬼魂，不但漂亮，也变得很会说话。",
+        "Holder": "1",
+        "Target": "鬼魂",
+        "Aspect": "外貌和口才",
+        "Opinion": "漂亮且会说话",
+        "Sentiment": "positive",
+        "Rationale": "认为鬼魂变得漂亮且会说话"
+    },
+    {
+        "sentence": "我知道了，你脸上这颗小小的痣已经藏着天大的秘密",
+        "Holder": "1",
+        "Target": "痣",
+        "Aspect": "隐藏的秘密",
+        "Opinion": "藏有重大秘密",
+        "Sentiment": "neutral",
+        "Rationale": "发现痣中隐藏的秘密"
+    },
+    {
+        "sentence": "为什么要骂我的品如啊。",
+        "Holder": "1",
+        "Target": "品如",
+        "Aspect": "被骂的原因",
+        "Opinion": "不应该被骂",
+        "Sentiment": "negative",
+        "Rationale": "不明白为什么品如被骂"
+    },
+    {
+        "sentence": "你干什么呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为感到不解和不满"
+    },
+    {
+        "sentence": "婶婶，叔叔做了什么事情？你这么凶啊",
+        "Holder": "1",
+        "Target": "叔叔的行为",
+        "Aspect": "行为导致的态度",
+        "Opinion": "导致婶婶变凶",
+        "Sentiment": "negative",
+        "Rationale": "不明白叔叔做了什么让婶婶变得凶"
+    },
+    {
+        "sentence": "以前都是叔叔骂你的，你现在换了房子，怎么换婶婶骂叔叔了？好奇怪",
+        "Holder": "1",
+        "Target": "家庭关系变化",
+        "Aspect": "家庭成员间的互动",
+        "Opinion": "感到奇怪",
+        "Sentiment": "ambiguous",
+        "Rationale": "以前是叔叔骂对方，现在换了房子后变成婶婶骂叔叔"
+    },
+    {
+        "sentence": "啊啊啊啊啊啊啊啊",
+        "Holder": "2",
+        "Target": "对话内容",
+        "Aspect": "情绪反应",
+        "Opinion": "情绪激动",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方提到家庭关系的变化"
+    },
+    {
+        "sentence": "那个智障的女孩，真的是，敏敏吗？你是不是弄错了？",
+        "Holder": "8",
+        "Target": "敏敏的身份",
+        "Aspect": "智力状况",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对方提到敏敏是智障"
+    },
+    {
+        "sentence": "珊珊，你怎么这么说呢？她是你姐姐，她因为小的时候疏于照顾，所以脑子烧坏了。",
+        "Holder": "2",
+        "Target": "敏敏的状况",
+        "Aspect": "智力受损原因",
+        "Opinion": "解释原因",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释敏敏智力受损的原因"
+    },
+    {
+        "sentence": "所以我就要跟这个智障的当姐妹吗？我才不要呢。",
+        "Holder": "8",
+        "Target": "与敏敏的关系",
+        "Aspect": "是否接受",
+        "Opinion": "不接受",
+        "Sentiment": "negative",
+        "Rationale": "敏敏是智障"
+    },
+    {
+        "sentence": "珊珊，你怎么能这么说？",
+        "Holder": "2",
+        "Target": "珊珊",
+        "Aspect": "说话方式",
+        "Opinion": "不应该这么说",
+        "Sentiment": "negative",
+        "Rationale": "珊珊的说话方式让2感到不妥"
+    },
+    {
+        "sentence": "我怎么啦？你让我怎么说呀？他还记得你跟品如的事情，就说明她是选择性的智障。",
+        "Holder": "8",
+        "Target": "珊珊",
+        "Aspect": "记忆和评价",
+        "Opinion": "珊珊的记忆和评价有问题",
+        "Sentiment": "negative",
+        "Rationale": "8认为珊珊的记忆和评价有问题"
+    },
+    {
+        "sentence": "喂，你说谁智障？",
+        "Holder": "1",
+        "Target": "8",
+        "Aspect": "言语攻击",
+        "Opinion": "对8的言语感到不满",
+        "Sentiment": "negative",
+        "Rationale": "1对8的言语感到不满"
+    },
+    {
+        "sentence": "说你呢",
+        "Holder": "8",
+        "Target": "1",
+        "Aspect": "言语指向",
+        "Opinion": "直接指向1",
+        "Sentiment": "neutral",
+        "Rationale": "8直接指向1"
+    },
+    {
+        "sentence": "我，我要不是听说你是我珊珊妹妹，我才不跟你客气呢。",
+        "Holder": "1",
+        "Target": "8",
+        "Aspect": "关系和态度",
+        "Opinion": "因关系而客气",
+        "Sentiment": "neutral",
+        "Rationale": "1知道8是珊珊的妹妹"
+    },
+    {
+        "sentence": "我婶婶常说，不要拿客气当福气，我要不是看在妈妈的份上，你以为我喜欢你？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对2的态度",
+        "Opinion": "不喜欢2",
+        "Sentiment": "negative",
+        "Rationale": "觉得2把客气当成福气，并且如果不是妈妈的关系，根本不会喜欢2"
+    },
+    {
+        "sentence": "好了好了",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话的态度",
+        "Opinion": "缓和气氛",
+        "Sentiment": "neutral",
+        "Rationale": "1表达了不满"
+    },
+    {
+        "sentence": "我看你妈妈走出去了，我才溜进来的。怎么样？我这个主意不错吧。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行动的机智性",
+        "Opinion": "认为主意不错",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己趁妈妈走出去时溜进来是个聪明的做法"
+    },
+    {
+        "sentence": "什么？",
+        "Holder": "7",
+        "Target": "4的行为",
+        "Aspect": "行为的理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对4的行为感到疑惑和不理解"
+    },
+    {
+        "sentence": "你的主意很好，我事情进行的也很顺利，我自己弄的去让那个林品如来承担后果",
+        "Holder": "5",
+        "Target": "4的主意",
+        "Aspect": "主意的有效性",
+        "Opinion": "认为主意很好",
+        "Sentiment": "positive",
+        "Rationale": "觉得4的主意让自己事情顺利进行，并且能让林品如承担后果"
+    },
+    {
+        "sentence": "你可不能有这种想法，你做的没有错，千万不能让林品如知道是我教你的，否则他一定会重重的反击我们的。",
+        "Holder": "4",
+        "Target": "林品如",
+        "Aspect": "对林品如的防范",
+        "Opinion": "不能让林品如知道真相",
+        "Sentiment": "negative",
+        "Rationale": "担心林品如知道真相后会进行反击"
+    },
+    {
+        "sentence": "你放心吧，现在她在我妈妈心目中好女儿的形象已经彻底的没了。",
+        "Holder": "5",
+        "Target": "林品如",
+        "Aspect": "在妈妈心中的形象",
+        "Opinion": "形象已经毁了",
+        "Sentiment": "positive",
+        "Rationale": "林品如在妈妈心中的形象已经毁了"
+    },
+    {
+        "sentence": "我妈妈现在可讨厌他了，恨她恨得要死，他这辈子都别想成为我妈妈的媳妇",
+        "Holder": "4",
+        "Target": "林品如",
+        "Aspect": "妈妈对林品如的态度",
+        "Opinion": "极度讨厌",
+        "Sentiment": "negative",
+        "Rationale": "妈妈对林品如的极度讨厌"
+    },
+    {
+        "sentence": "我帮了你的忙，你拿什么来报答？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "回报",
+        "Opinion": "要求回报",
+        "Sentiment": "neutral",
+        "Rationale": "帮了忙"
+    },
+    {
+        "sentence": "我已经把妈妈给林品如如那张支票，偷偷的给你赎回了你的房产了，你还不满足啊？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "对4的帮助",
+        "Opinion": "已经提供了很大帮助",
+        "Sentiment": "negative",
+        "Rationale": "已经提供了很大帮助但对方还不满足"
+    },
+    {
+        "sentence": "嗯？我的手机怎么会有这段录音？",
+        "Holder": "1",
+        "Target": "手机录音",
+        "Aspect": "录音的来源",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现自己的手机有不明录音"
+    },
+    {
+        "sentence": "这两个死丫头联合起来整我们品如",
+        "Holder": "9",
+        "Target": "两个丫头",
+        "Aspect": "行为动机",
+        "Opinion": "联合整人",
+        "Sentiment": "negative",
+        "Rationale": "认为两个丫头联合起来对付品如"
+    },
+    {
+        "sentence": "老婆，好像平常我们都很照顾宝莲，今天是托她了福，才让品如的冤屈给洗清了。",
+        "Holder": "3",
+        "Target": "宝莲",
+        "Aspect": "对品如的帮助",
+        "Opinion": "感激",
+        "Sentiment": "positive",
+        "Rationale": "宝莲的帮助让品如的冤屈得以洗清"
+    },
+    {
+        "sentence": "珊珊你太坏了，恶毒的坏女人。",
+        "Holder": "1",
+        "Target": "珊珊",
+        "Aspect": "性格",
+        "Opinion": "恶毒",
+        "Sentiment": "negative",
+        "Rationale": "认为珊珊的行为恶毒"
+    },
+    {
+        "sentence": "我没有你这个妹妹",
+        "Holder": "1",
+        "Target": "珊珊",
+        "Aspect": "亲属关系",
+        "Opinion": "断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "对珊珊的行为极度失望"
+    }
+]

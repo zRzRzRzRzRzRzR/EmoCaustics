@@ -1,0 +1,209 @@
+[
+    {
+        "sentence": "一个叫牛牛的，他欺负我打我的头踹我的屁股，",
+        "Holder": "1",
+        "Target": "牛牛",
+        "Aspect": "行为",
+        "Opinion": "欺负",
+        "Sentiment": "negative",
+        "Rationale": "牛牛打了1的头并踹了1的屁股"
+    },
+    {
+        "sentence": "咱小区竟然有人打我弟，走走咱俩现在找他去，",
+        "Holder": "2",
+        "Target": "牛牛",
+        "Aspect": "行为",
+        "Opinion": "愤怒",
+        "Sentiment": "negative",
+        "Rationale": "有人打了2的弟弟"
+    },
+    {
+        "sentence": "你们冷静点，",
+        "Holder": "3",
+        "Target": "1和2",
+        "Aspect": "情绪",
+        "Opinion": "需要冷静",
+        "Sentiment": "neutral",
+        "Rationale": "1和2情绪激动"
+    },
+    {
+        "sentence": "现在爸爸妈妈都没在家，对，现在正是我做哥哥发挥作用的时候，各办出警，你们别拦着我那个叫牛牛的，以后再也不敢对咱们牛了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "责任",
+        "Opinion": "保护弟弟",
+        "Sentiment": "positive",
+        "Rationale": "爸爸妈妈不在家，2觉得自己作为哥哥应该保护弟弟"
+    },
+    {
+        "sentence": "还对我道对不起，还向我鞠了一个100度的大躬，太爽了我怎么样？",
+        "Holder": "1",
+        "Target": "对方的道歉行为",
+        "Aspect": "道歉的方式",
+        "Opinion": "感到满意",
+        "Sentiment": "positive",
+        "Rationale": "对方以非常诚恳的方式道歉"
+    },
+    {
+        "sentence": "这时候哥哥还是比姐姐强，我为有你这样的哥哥而自豪",
+        "Holder": "2",
+        "Target": "哥哥",
+        "Aspect": "能力比较",
+        "Opinion": "哥哥更强",
+        "Sentiment": "positive",
+        "Rationale": "认为哥哥在此时表现得更出色"
+    },
+    {
+        "sentence": "你怎么了？欺负我，是谁？吃了熊心豹子胆，喝了虎骨汤了，敢欺负我姐姐。",
+        "Holder": "2",
+        "Target": "欺负姐姐的人",
+        "Aspect": "行为",
+        "Opinion": "强烈不满",
+        "Sentiment": "negative",
+        "Rationale": "有人敢欺负自己的姐姐"
+    },
+    {
+        "sentence": "我的弟弟我刘星到底答应不答应我，这就去给他报仇得了。你这胳膊还没他手腕粗，还要去报仇，我还是拿上小雪。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "报仇的能力",
+        "Opinion": "刘星能力不足",
+        "Sentiment": "negative",
+        "Rationale": "认为刘星身体瘦弱，不适合去报仇"
+    },
+    {
+        "sentence": "刘星你这怎么回事",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "对刘星的行为感到不解"
+    },
+    {
+        "sentence": "跟人打架，小雨被一流氓欺负了，我跟他下楼给他报仇去。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "被欺负",
+        "Opinion": "要报仇",
+        "Sentiment": "negative",
+        "Rationale": "小雨被流氓欺负"
+    },
+    {
+        "sentence": "真的你怎么报的仇，我拿着双截棍我就下来了，正好碰见小流氓了，我就趁着我的。",
+        "Holder": "1",
+        "Target": "小流氓",
+        "Aspect": "报仇方式",
+        "Opinion": "用双截棍",
+        "Sentiment": "positive",
+        "Rationale": "碰见了欺负小雨的小流氓"
+    },
+    {
+        "sentence": "你们猜怎么着，",
+        "Holder": "2",
+        "Target": "事件结果",
+        "Aspect": "悬念",
+        "Opinion": "引发猜测",
+        "Sentiment": "neutral",
+        "Rationale": "想要引发听众的猜测"
+    },
+    {
+        "sentence": "摔一大马趴，不是。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "摔倒",
+        "Opinion": "摔倒",
+        "Sentiment": "negative",
+        "Rationale": "1在报仇过程中摔倒了"
+    },
+    {
+        "sentence": "那家伙转身就跑，我就在后面追我追，后来就是一场恶战，我们打得昏天黑地，日夜无关。",
+        "Holder": "1",
+        "Target": "小流氓",
+        "Aspect": "逃跑和战斗",
+        "Opinion": "激烈战斗",
+        "Sentiment": "negative",
+        "Rationale": "小流氓逃跑后发生激烈战斗"
+    },
+    {
+        "sentence": "怎么着了？昏天黑地，日月无光，你都打趴下了，浑身酸疼，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "战斗结果",
+        "Opinion": "打趴下但酸疼",
+        "Sentiment": "negative",
+        "Rationale": "虽然打趴下了对方，但自己浑身酸疼"
+    },
+    {
+        "sentence": "刘星你还疼吗？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "身体状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "关心1的身体状况"
+    },
+    {
+        "sentence": "我第一次听见小雪对我这么温柔的说，我不疼我一点都不疼，不过下一次我一定要把我们班同学全叫上去找那小子算账",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "关心和决心",
+        "Opinion": "不疼且要报仇",
+        "Sentiment": "positive",
+        "Rationale": "第一次听到小雪的温柔关心"
+    },
+    {
+        "sentence": "我们是来给夏雪道歉的，",
+        "Holder": "5",
+        "Target": "夏雪",
+        "Aspect": "道歉",
+        "Opinion": "需要道歉",
+        "Sentiment": "neutral",
+        "Rationale": "之前的行为需要向夏雪道歉"
+    },
+    {
+        "sentence": "快进来。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "进入",
+        "Opinion": "邀请进入",
+        "Sentiment": "positive",
+        "Rationale": "看到对方来道歉表示友好"
+    },
+    {
+        "sentence": "小姑娘对不起，",
+        "Holder": "5",
+        "Target": "夏雪",
+        "Aspect": "道歉",
+        "Opinion": "表达歉意",
+        "Sentiment": "neutral",
+        "Rationale": "之前的行为对夏雪造成了影响"
+    },
+    {
+        "sentence": "没事，就一场误会，别往心里去，不过你这伤这是怎么弄的？",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "误会和伤势",
+        "Opinion": "认为没事但关心伤势",
+        "Sentiment": "neutral",
+        "Rationale": "认为之前的冲突是误会"
+    },
+    {
+        "sentence": "他拿双截棍打的",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "伤势原因",
+        "Opinion": "说明伤势原因",
+        "Sentiment": "negative",
+        "Rationale": "被双截棍打伤"
+    },
+    {
+        "sentence": "不打不相识。",
+        "Holder": "1",
+        "Target": "相识的方式",
+        "Aspect": "相识过程的特殊性",
+        "Opinion": "通过冲突相识",
+        "Sentiment": "neutral",
+        "Rationale": "通过冲突的方式相识"
+    }
+]

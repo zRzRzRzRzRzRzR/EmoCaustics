@@ -1,0 +1,524 @@
+[
+    {
+        "sentence": "陈志平，你想打开声音已经最小了，已经调到最小了，真的没有办法再小。",
+        "Holder": "1",
+        "Target": "声音大小",
+        "Aspect": "音量调整的极限",
+        "Opinion": "已经调到最小",
+        "Sentiment": "neutral",
+        "Rationale": "已经将音量调到最小"
+    },
+    {
+        "sentence": "但是我们听得还是很清楚，而且我们戴耳塞也能听得见，这是最小的声音。",
+        "Holder": "2",
+        "Target": "声音大小",
+        "Aspect": "音量的实际感受",
+        "Opinion": "声音仍然清晰",
+        "Sentiment": "negative",
+        "Rationale": "即使戴耳塞也能听见声音"
+    },
+    {
+        "sentence": "大周末的不让人家玩玩啦。",
+        "Holder": "3",
+        "Target": "玩游戏权利",
+        "Aspect": "游戏时间的合理性",
+        "Opinion": "支持玩游戏",
+        "Sentiment": "negative",
+        "Rationale": "到了周末不让玩游戏"
+    },
+    {
+        "sentence": "周末没让你不玩啊。那我们现在都睡觉了。",
+        "Holder": "2",
+        "Target": "玩游戏权利",
+        "Aspect": "游戏时间的合理性",
+        "Opinion": "没有阻止玩游戏",
+        "Sentiment": "neutral",
+        "Rationale": "并没有阻止对方玩游戏，只是说明自己需要睡觉"
+    },
+    {
+        "sentence": "可是现在是，可是我的声音已经很小了，这已经是最小的声音了，我没有办法再调了，我已经很小了。",
+        "Holder": "1",
+        "Target": "声音大小",
+        "Aspect": "音量调整的极限",
+        "Opinion": "已经调到最小",
+        "Sentiment": "neutral",
+        "Rationale": "已经将音量调到最小"
+    },
+    {
+        "sentence": "那你出去打吧。",
+        "Holder": "2",
+        "Target": "3的游戏行为",
+        "Aspect": "游戏地点的选择",
+        "Opinion": "建议出去打",
+        "Sentiment": "neutral",
+        "Rationale": "觉得宿舍内打游戏可能影响他人"
+    },
+    {
+        "sentence": "怎么宿舍是你家的呀？大周末的还不让别人玩玩呢？",
+        "Holder": "3",
+        "Target": "2的建议",
+        "Aspect": "宿舍使用权",
+        "Opinion": "反对出去打",
+        "Sentiment": "negative",
+        "Rationale": "觉得周末在宿舍玩游戏是合理的权利"
+    },
+    {
+        "sentence": "周丽，只有你说话了。怎么我不能说话？不是你一个人的，怎么不能聊天？你一个人的吗？你真的，怎么哪都有你的？你算什么老几啊？",
+        "Holder": "4",
+        "Target": "3的言论",
+        "Aspect": "话语权",
+        "Opinion": "质疑3的独占性",
+        "Sentiment": "negative",
+        "Rationale": "觉得3过于强势且独占话语权"
+    },
+    {
+        "sentence": "跟你说话了怎么不跟我说话？怎么了？我就说怎么了？",
+        "Holder": "3",
+        "Target": "4的质疑",
+        "Aspect": "对话的公平性",
+        "Opinion": "要求公平对话",
+        "Sentiment": "negative",
+        "Rationale": "觉得4没有回应自己的话且质疑自己"
+    },
+    {
+        "sentence": "不是关你什么事？你他什么人啊？",
+        "Holder": "2",
+        "Target": "3的回应",
+        "Aspect": "干涉的合理性",
+        "Opinion": "认为3多管闲事",
+        "Sentiment": "negative",
+        "Rationale": "觉得3不应该干涉自己和4的对话"
+    },
+    {
+        "sentence": "我们在说他，我们说他，我们都插嘴了，这都是你家的呀。",
+        "Holder": "4",
+        "Target": "插嘴行为",
+        "Aspect": "插嘴的合理性",
+        "Opinion": "认为插嘴合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得在讨论中被插嘴是不公平的"
+    },
+    {
+        "sentence": "等一下你打游戏能不能小点声？我跟你说。",
+        "Holder": "2",
+        "Target": "游戏音量",
+        "Aspect": "音量大小",
+        "Opinion": "要求减小音量",
+        "Sentiment": "neutral",
+        "Rationale": "觉得游戏音量太大影响了他人"
+    },
+    {
+        "sentence": "我听你们的了，我已经很小声，这已经是最小声了，没有办法再小声了。",
+        "Holder": "1",
+        "Target": "自己的音量",
+        "Aspect": "音量调整",
+        "Opinion": "已经尽力减小音量",
+        "Sentiment": "neutral",
+        "Rationale": "已经按照要求调整到最小音量"
+    },
+    {
+        "sentence": "最小声。",
+        "Holder": "4",
+        "Target": "1的音量",
+        "Aspect": "音量大小",
+        "Opinion": "确认音量已最小",
+        "Sentiment": "neutral",
+        "Rationale": "确认音量已经是最小"
+    },
+    {
+        "sentence": "周一跟周五都随你俩愿。你们拿上枪，还不乐意了？周末人家人玩都不行。",
+        "Holder": "3",
+        "Target": "周末玩游戏的权利",
+        "Aspect": "游戏时间的合理性",
+        "Opinion": "支持周末玩游戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得在周末被限制玩游戏是不公平的"
+    },
+    {
+        "sentence": "周末没让你不玩，不是你玩笑，昨天晚上，我是在昨天晚上你们 12 点。",
+        "Holder": "4",
+        "Target": "1和2的游戏时间",
+        "Aspect": "时间选择的合理性",
+        "Opinion": "不应该在深夜玩游戏",
+        "Sentiment": "negative",
+        "Rationale": "1和2在深夜12点玩游戏影响到了自己休息"
+    },
+    {
+        "sentence": "的时候在刷视频，哈哈大笑的时候我们都没有说什么呀？为什么角色互换你们就不愿意了？",
+        "Holder": "1",
+        "Target": "4的抱怨",
+        "Aspect": "抱怨的合理性",
+        "Opinion": "认为4的抱怨不公平",
+        "Sentiment": "negative",
+        "Rationale": "自己以前在刷视频时没有受到抱怨，而现在是4在抱怨"
+    },
+    {
+        "sentence": "那就是吵起来的。大姐我说的好，在那打电话，谁说话？",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为4在无理取闹",
+        "Sentiment": "negative",
+        "Rationale": "4在打电话时也吵到了别人，但却反过来指责别人"
+    },
+    {
+        "sentence": "谁玩谁说话，没有说话没点逼数啊，有意思。",
+        "Holder": "4",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "认为2的指责没有道理",
+        "Sentiment": "negative",
+        "Rationale": "自己并没有说话却被指责"
+    },
+    {
+        "sentence": "唉呦，真是。",
+        "Holder": "2",
+        "Target": "4的反应",
+        "Aspect": "反应的态度",
+        "Opinion": "对4的反应感到无奈",
+        "Sentiment": "negative",
+        "Rationale": "4的反应让自己感到无法沟通"
+    },
+    {
+        "sentence": "我们宿舍又不止我们几个人。",
+        "Holder": "1",
+        "Target": "宿舍人数",
+        "Aspect": "宿舍环境的共享性",
+        "Opinion": "宿舍有多人",
+        "Sentiment": "neutral",
+        "Rationale": "宿舍有多人居住"
+    },
+    {
+        "sentence": "是我们说的话吗？",
+        "Holder": "3",
+        "Target": "说话内容",
+        "Aspect": "说话对象的指向性",
+        "Opinion": "质疑说话对象",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定对方是否在指自己"
+    },
+    {
+        "sentence": "大哥，现在是周末，你在看几点啊。跟你有什么关呀？那你能不能别他们有谁呀？",
+        "Holder": "4",
+        "Target": "3的时间观念",
+        "Aspect": "时间与行为的关联",
+        "Opinion": "认为时间与3无关",
+        "Sentiment": "negative",
+        "Rationale": "认为3在周末不应该干涉自己的行为"
+    },
+    {
+        "sentence": "能不能正大光明说你嚷什么呢？你家属老鼠的，自己心里清楚，有本事正大光明说来。",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为的正当性",
+        "Opinion": "要求4正大光明",
+        "Sentiment": "negative",
+        "Rationale": "认为4的行为不光明磊落"
+    },
+    {
+        "sentence": "每天下午你们回来的时候，人谁也把两个窗户把门都开，然后声音放到最大，吵我们睡觉的时候我们也没说什么。怎么到了现在我们声音稍微有点声音，你们就觉得震耳欲聋了呢。怎么，你们怎么以前没考虑过我不？",
+        "Holder": "1",
+        "Target": "3和4的行为",
+        "Aspect": "声音大小的双重标准",
+        "Opinion": "认为对方双重标准",
+        "Sentiment": "negative",
+        "Rationale": "对方以前吵到自己时自己没抱怨，现在自己稍微有点声音就被抱怨"
+    },
+    {
+        "sentence": "我没考虑你们的，你们考虑我们声音还放音，你说几点就几点，我们还没考虑。",
+        "Holder": "4",
+        "Target": "对方的声音",
+        "Aspect": "声音控制的合理性",
+        "Opinion": "对方不考虑自己",
+        "Sentiment": "negative",
+        "Rationale": "对方只考虑自己的声音而不考虑自己的感受"
+    },
+    {
+        "sentence": "我身体不好，我早点睡觉，怎么了？你们就不能体谅一下我吗？",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "体谅他人",
+        "Opinion": "希望被体谅",
+        "Sentiment": "negative",
+        "Rationale": "自己身体不好需要早点休息，但对方不体谅"
+    },
+    {
+        "sentence": "我们体谅你多久了？",
+        "Holder": "4",
+        "Target": "2的要求",
+        "Aspect": "体谅的时长",
+        "Opinion": "已经体谅很久",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己已经体谅对方很久了，但对方仍然不满足"
+    },
+    {
+        "sentence": "周一周五是随着你们吗？周末怎么还不能放松一下玩游戏？怎么的？现在几点？",
+        "Holder": "3",
+        "Target": "2的要求",
+        "Aspect": "周末放松的权利",
+        "Opinion": "支持周末放松",
+        "Sentiment": "negative",
+        "Rationale": "觉得周末应该放松一下玩游戏，但对方不让自己玩"
+    },
+    {
+        "sentence": "10 点多。怎么不让玩游戏啊？谁要是你们要出去玩，要不你就回去呗。你们回去呗啊。我想起来你们没架调，是吧？",
+        "Holder": "4",
+        "Target": "2的要求",
+        "Aspect": "游戏时间的合理性",
+        "Opinion": "支持玩游戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得10点多还不让玩游戏不合理，且对方不体谅自己"
+    },
+    {
+        "sentence": "哈哈哈，笑死了，我们回去干你什么事啊？",
+        "Holder": "2",
+        "Target": "4的质疑",
+        "Aspect": "行为的关联性",
+        "Opinion": "与自己无关",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方的问题与自己无关"
+    },
+    {
+        "sentence": "有啥回事？是来生回来说，老铁，你们不能把气撒在我们身上。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "情绪的合理性",
+        "Opinion": "不应撒气",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方把气撒在自己身上不合理"
+    },
+    {
+        "sentence": "我们又没有惹你们。",
+        "Holder": "1",
+        "Target": "4的指责",
+        "Aspect": "行为的合理性",
+        "Opinion": "没有惹事",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己没有做错事"
+    },
+    {
+        "sentence": "我们现在就问你能不能不打了？我们要睡觉。你们在扯什么别的话题？",
+        "Holder": "2",
+        "Target": "3的游戏行为",
+        "Aspect": "行为的干扰性",
+        "Opinion": "希望停止游戏",
+        "Sentiment": "negative",
+        "Rationale": "游戏声音影响了自己睡觉"
+    },
+    {
+        "sentence": "就是说我们就现在就偏打这个游戏不可了，不能打，凭什么不能打？",
+        "Holder": "3",
+        "Target": "2的要求",
+        "Aspect": "游戏权利的合理性",
+        "Opinion": "坚持打游戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己的游戏权利被限制"
+    },
+    {
+        "sentence": "所以又不是你们自己的，所以不是也不是。",
+        "Holder": "4",
+        "Target": "物品所有权",
+        "Aspect": "所有权的归属",
+        "Opinion": "不是他们的",
+        "Sentiment": "neutral",
+        "Rationale": "讨论的物品不属于他们"
+    },
+    {
+        "sentence": "对呀，也不是你们的，你们爱睡觉，睡呗，我们爱打游戏，打呗，以前都笑你们，怎么都你们伤脸是吧？",
+        "Holder": "3",
+        "Target": "生活习惯",
+        "Aspect": "各自的生活选择",
+        "Opinion": "各自有各自的生活习惯",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方以前嘲笑自己，现在却反过来指责"
+    },
+    {
+        "sentence": "不能小眼行吗？什么时候向着我们了？",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "对2的支持",
+        "Opinion": "从未得到支持",
+        "Sentiment": "negative",
+        "Rationale": "觉得3从未站在自己这边"
+    },
+    {
+        "sentence": "你说周一到周五是不是？你们说几点睡觉就几点睡觉？我们说过什么了？你们说不说话就不说话了吧？",
+        "Holder": "3",
+        "Target": "2和4的作息要求",
+        "Aspect": "作息时间的合理性",
+        "Opinion": "一直遵守对方的要求",
+        "Sentiment": "negative",
+        "Rationale": "觉得在作息时间上一直迁就对方，但对方却不理解"
+    },
+    {
+        "sentence": "我们说什么了？",
+        "Holder": "5",
+        "Target": "之前的对话内容",
+        "Aspect": "对话的理解",
+        "Opinion": "不清楚对方在说什么",
+        "Sentiment": "neutral",
+        "Rationale": "对之前的对话内容不清楚"
+    },
+    {
+        "sentence": "到周末了不让人家玩游戏了？你不住在你们家的是吗？",
+        "Holder": "4",
+        "Target": "2的限制",
+        "Aspect": "游戏时间的合理性",
+        "Opinion": "反对限制游戏",
+        "Sentiment": "negative",
+        "Rationale": "到了周末却被限制玩游戏"
+    },
+    {
+        "sentence": "没让你们不玩啊。",
+        "Holder": "2",
+        "Target": "4的指责",
+        "Aspect": "是否限制游戏",
+        "Opinion": "没有限制游戏",
+        "Sentiment": "neutral",
+        "Rationale": "确实没有明确禁止玩游戏"
+    },
+    {
+        "sentence": "那你这刚刚说的什么呀？你们不说不玩，我说了小点声累，小点声不说话。",
+        "Holder": "4",
+        "Target": "2的言论",
+        "Aspect": "言论的明确性",
+        "Opinion": "认为2的言论矛盾",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的言论前后矛盾"
+    },
+    {
+        "sentence": "行了，你真能他妈能扯你那个嗓门，怎么不去大喇叭呀？",
+        "Holder": "2",
+        "Target": "4的嗓门",
+        "Aspect": "说话音量",
+        "Opinion": "认为4说话声音大",
+        "Sentiment": "negative",
+        "Rationale": "觉得4说话声音太大"
+    },
+    {
+        "sentence": "我大喇叭我也在你家大喇叭。",
+        "Holder": "4",
+        "Target": "2的指责",
+        "Aspect": "音量问题",
+        "Opinion": "反驳2的指责",
+        "Sentiment": "negative",
+        "Rationale": "被指责声音大而感到委屈"
+    },
+    {
+        "sentence": "己所不欲勿施于人，你们不知道吗？小孩子都知道，到底你们不知道吗？你们抄我们的时候怎么不想想。",
+        "Holder": "1",
+        "Target": "对方的行为",
+        "Aspect": "道德原则",
+        "Opinion": "对方不遵守道德原则",
+        "Sentiment": "negative",
+        "Rationale": "对方抄袭自己的时候没有考虑道德原则"
+    },
+    {
+        "sentence": "就允许你们占理是吗？",
+        "Holder": "3",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "质疑1的指责",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的指责不公平"
+    },
+    {
+        "sentence": "以前的时候你们抄就行，到我们抄就不行了，他真不要脸，再见什么深海就给你弄什么手操，素，咱没素，咱不要和他吵了，真是没素质。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "双重标准和素质",
+        "Opinion": "1双重标准且没素质",
+        "Sentiment": "negative",
+        "Rationale": "觉得1以前抄袭时没有被指责，现在却指责自己"
+    },
+    {
+        "sentence": "不是，这他妈都怪你，真搞，睡觉了，我们打的有理怎么了？",
+        "Holder": "4",
+        "Target": "2的指责",
+        "Aspect": "责任归属",
+        "Opinion": "认为是2的责任",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的指责不合理且影响了自己的休息"
+    },
+    {
+        "sentence": "那我一开始跟你好好说了，让你觉得我也调小声了呀。",
+        "Holder": "2",
+        "Target": "4的指责",
+        "Aspect": "沟通和音量调整",
+        "Opinion": "自己已经尽力沟通和调整",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己已经尽力沟通并调整音量"
+    },
+    {
+        "sentence": "所以说你爱他怎么的？",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "对他人情感的态度",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "4对3的情感态度表示质疑"
+    },
+    {
+        "sentence": "你让人家去死怎么的？打个游戏成死刑了，不让人打就死活不让人打，是吗？",
+        "Holder": "3",
+        "Target": "4的限制",
+        "Aspect": "游戏权利的限制",
+        "Opinion": "反对限制",
+        "Sentiment": "negative",
+        "Rationale": "3觉得4的限制过于严苛"
+    },
+    {
+        "sentence": "到一个宿舍的，我可没这么说。我可没这么说。",
+        "Holder": "2",
+        "Target": "3的指责",
+        "Aspect": "言语的真实性",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "2否认自己说过让3去死的话"
+    },
+    {
+        "sentence": "一个宿舍的都不能体，互相体谅吗？人家打个游戏怎么了？",
+        "Holder": "3",
+        "Target": "2的不体谅",
+        "Aspect": "互相体谅",
+        "Opinion": "要求体谅",
+        "Sentiment": "negative",
+        "Rationale": "3觉得2不体谅自己打游戏"
+    },
+    {
+        "sentence": "没事不让打呀，我把静怡打了最小声。",
+        "Holder": "2",
+        "Target": "3的抱怨",
+        "Aspect": "音量调整",
+        "Opinion": "已经调整",
+        "Sentiment": "neutral",
+        "Rationale": "2已经将音量调到最小"
+    },
+    {
+        "sentence": "出去打最小声了。",
+        "Holder": "4",
+        "Target": "打电话的音量",
+        "Aspect": "音量大小",
+        "Opinion": "已经调到最小声",
+        "Sentiment": "neutral",
+        "Rationale": "已经将音量调到最小"
+    },
+    {
+        "sentence": "我们已经如你所愿最小声了，还想怎么样？静音，你们以前吵的时候我们说过你什么吗？",
+        "Holder": "3",
+        "Target": "4的音量要求",
+        "Aspect": "音量调整的合理性",
+        "Opinion": "已经满足要求",
+        "Sentiment": "negative",
+        "Rationale": "已经按照要求调到最小声却还被要求"
+    },
+    {
+        "sentence": "我的朋友在给我打电话，我戴不了耳机，我已经调到最小声了。",
+        "Holder": "1",
+        "Target": "打电话的音量",
+        "Aspect": "音量调整的合理性",
+        "Opinion": "已经尽力调小",
+        "Sentiment": "neutral",
+        "Rationale": "已经尽力调小音量以减少干扰"
+    }
+]

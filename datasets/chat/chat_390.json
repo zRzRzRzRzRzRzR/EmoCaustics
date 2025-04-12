@@ -1,0 +1,164 @@
+[
+    {
+        "sentence": "但是我还是想说一下，你不能说话，说了也会被剪掉。",
+        "Holder": "1",
+        "Target": "说话权利",
+        "Aspect": "发言的限制",
+        "Opinion": "不能说话",
+        "Sentiment": "negative",
+        "Rationale": "说话会被剪掉"
+    },
+    {
+        "sentence": "剪掉没关系，但是其实他可以再我们把他招到之后，你再去挖他去，其实他现在在这才能选择你的权益是不能发言。我这样说不公平吗？",
+        "Holder": "1",
+        "Target": "发言权利",
+        "Aspect": "发言的公平性",
+        "Opinion": "不公平",
+        "Sentiment": "negative",
+        "Rationale": "在他看来，当前的发言限制是不公平的"
+    },
+    {
+        "sentence": "公平很公平",
+        "Holder": "1",
+        "Target": "发言权利",
+        "Aspect": "发言的公平性",
+        "Opinion": "公平",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的说法是公平的"
+    },
+    {
+        "sentence": "我觉得一个很大的问题，但是。这个本质是在于罗明有没有权利给他发offer。",
+        "Holder": "2",
+        "Target": "罗明的权利",
+        "Aspect": "发offer的权利",
+        "Opinion": "有问题",
+        "Sentiment": "negative",
+        "Rationale": "对罗明是否有权发offer存在疑问"
+    },
+    {
+        "sentence": "我们是想说能不能让选手说一句话，他现在有权利跟他的老板问一句话，你能不能给我开1万？",
+        "Holder": "2",
+        "Target": "选手的发言权利",
+        "Aspect": "发言的权利",
+        "Opinion": "应该有发言权",
+        "Sentiment": "positive",
+        "Rationale": "认为选手应该有权利发言"
+    },
+    {
+        "sentence": "不可以，这叫什么事儿？",
+        "Holder": "1",
+        "Target": "选手的发言要求",
+        "Aspect": "发言的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为选手的发言要求不合理"
+    },
+    {
+        "sentence": "不是因为他是在敲诈，刚才你自己在敲诈，",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "敲诈行为",
+        "Opinion": "3在敲诈",
+        "Sentiment": "negative",
+        "Rationale": "2认为3刚才的行为是在敲诈"
+    },
+    {
+        "sentence": "但是我觉得罗敏现在已经开始跃跃欲试，想要摆好了，要被敲诈，该给他个面子。",
+        "Holder": "3",
+        "Target": "罗敏",
+        "Aspect": "行为动机",
+        "Opinion": "罗敏准备被敲诈",
+        "Sentiment": "neutral",
+        "Rationale": "3认为罗敏已经准备好接受敲诈"
+    },
+    {
+        "sentence": "如果李倩是正式工作，他没法给他看offer，因为他是正式的工作，因为他是实习生，所以他是可以给他发入职的邀请的。",
+        "Holder": "2",
+        "Target": "李倩",
+        "Aspect": "工作状态",
+        "Opinion": "李倩是实习生",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释李倩作为实习生可以收到入职邀请的原因"
+    },
+    {
+        "sentence": "他问题在这儿，",
+        "Holder": "2",
+        "Target": "李倩",
+        "Aspect": "问题所在",
+        "Opinion": "问题在于实习身份",
+        "Sentiment": "neutral",
+        "Rationale": "2在指出李倩的问题所在"
+    },
+    {
+        "sentence": "牧野你要怎样？我觉得涂磊的你要怎样，是因为。",
+        "Holder": "3",
+        "Target": "牧野",
+        "Aspect": "行为意图",
+        "Opinion": "质疑牧野的意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在质疑牧野的行为意图，但没有明确表达自己的情感"
+    },
+    {
+        "sentence": "他是实习生你要怎样，要不你来做好，做了你来做没问题，我都不公平你来做。",
+        "Holder": "1",
+        "Target": "实习生",
+        "Aspect": "工作分配",
+        "Opinion": "认为分配不公",
+        "Sentiment": "negative",
+        "Rationale": "觉得实习生的工作分配不公平"
+    },
+    {
+        "sentence": "他可以给他发。",
+        "Holder": "2",
+        "Target": "实习生",
+        "Aspect": "任务分配",
+        "Opinion": "认为可以分配任务",
+        "Sentiment": "neutral",
+        "Rationale": "认为实习生有能力完成任务"
+    },
+    {
+        "sentence": "那可以你来做，我认为不可以行不行？要不要不录两个版本，你录个版本我录个版本。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "任务执行",
+        "Opinion": "提议共同完成任务",
+        "Sentiment": "negative",
+        "Rationale": "对2的提议不满"
+    },
+    {
+        "sentence": "ok看你的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "任务决策",
+        "Opinion": "同意1的提议",
+        "Sentiment": "neutral",
+        "Rationale": "愿意接受1的提议"
+    },
+    {
+        "sentence": "你觉得涂磊说的。",
+        "Holder": "3",
+        "Target": "涂磊的观点",
+        "Aspect": "观点认同",
+        "Opinion": "询问他人意见",
+        "Sentiment": "neutral",
+        "Rationale": "想了解他人对涂磊观点的看法"
+    },
+    {
+        "sentence": "我觉得我说的相对算公平，如果你有机会，如果他还想回到老东家，他完全可以谢谢再见我回去，但如果老东家跟现东家现在的老板都在说你给1,000万我就去，不给我就到这两家成什么了？拍卖会。",
+        "Holder": "4",
+        "Target": "自己的言论",
+        "Aspect": "公平性",
+        "Opinion": "相对公平",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己所说的话是客观公正的"
+    },
+    {
+        "sentence": "我觉得我说的相对算公平，如果你有机会，如果他还想回到老东家，他完全可以谢谢再见我回去，但如果老东家跟现东家现在的老板都在说你给1,000万我就去，不给我就到这两家成什么了？拍卖会。",
+        "Holder": "4",
+        "Target": "球员转会行为",
+        "Aspect": "转会动机",
+        "Opinion": "像拍卖会",
+        "Sentiment": "negative",
+        "Rationale": "球员转会过程中只看金钱而不考虑其他因素"
+    }
+]

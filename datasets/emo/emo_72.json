@@ -1,0 +1,64 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "研讨会开幕式主持",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对上午研讨成果表示肯定，对下午议程充满期待",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职业经历回顾与专业分享",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "回忆中原制药厂工作经历",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "感恩专业实践带来的成长，展示微生物应用成就",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "发酵中药知识体系构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "系统阐述发酵原理与产业应用前景",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "发酵技术工具性探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出发酵必要性的基础问题",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "强调工具属性与应用潜力",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

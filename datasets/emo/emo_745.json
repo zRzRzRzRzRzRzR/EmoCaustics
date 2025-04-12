@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "寻找达康书记并传达老书记的关心",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "通过守株待兔的方式寻找达康书记",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "感激李哥记得生活细节并关心老书记",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提及赵总的饮料偏好和老爷子情绪问题",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "提及嫂子被拘事件引发担忧",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "传达老爷子对达康书记的信任要求",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "处理离婚事宜与情绪建议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "建议与欧阳菁切割并传达离婚要求",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调正确面对欧阳菁结果",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "应对询问与情绪反馈",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "被比喻为兔子和讨论老书记健康",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "质疑嫂子被拘消息来源",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "确认行为与想法一致",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "回应已离婚并接受建议",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

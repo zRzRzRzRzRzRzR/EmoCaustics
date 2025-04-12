@@ -1,0 +1,46 @@
+{
+  "3": {
+    "events": [
+      {
+        "event": "花船存在与安全机制讨论",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "对花船存在传闻表示怀疑",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "认可花船机动性带来的安全性优势",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "举报系统失效经历",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认举报行为客观存在",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "举报信被截获与自身受刑双重打击",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "皇权申诉渠道评估",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑皇帝接触民间诉求的可能性",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

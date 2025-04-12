@@ -1,0 +1,443 @@
+[
+    {
+        "sentence": "你不觉得咱们俩跟以前不一样吗？",
+        "Holder": "1",
+        "Target": "咱们俩的关系",
+        "Aspect": "关系的改变",
+        "Opinion": "关系不一样",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人1感受到关系的变化，但不确定对方是否也有同感"
+    },
+    {
+        "sentence": "咱们俩都很久没有说过真心话了。",
+        "Holder": "1",
+        "Target": "咱们俩的沟通",
+        "Aspect": "沟通的真实性",
+        "Opinion": "缺乏真心话",
+        "Sentiment": "negative",
+        "Rationale": "很久没有进行真诚的沟通"
+    },
+    {
+        "sentence": "我去休养，你去上学，3个月没见正常。",
+        "Holder": "2",
+        "Target": "咱们俩的分离",
+        "Aspect": "分离的合理性",
+        "Opinion": "分离是正常的",
+        "Sentiment": "neutral",
+        "Rationale": "3个月的分离是由于各自的生活安排"
+    },
+    {
+        "sentence": "你知道我说的不是这个。",
+        "Holder": "1",
+        "Target": "咱们俩的问题",
+        "Aspect": "问题的本质",
+        "Opinion": "问题不在于分离",
+        "Sentiment": "negative",
+        "Rationale": "对方没有理解自己真正想表达的问题"
+    },
+    {
+        "sentence": "我受伤了，你提前从福州回来，我心里特别感动。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "关心的表现",
+        "Opinion": "感到感动",
+        "Sentiment": "positive",
+        "Rationale": "在自己受伤时对方提前回来照顾"
+    },
+    {
+        "sentence": "如果咱俩位置对调，你也会这样做的。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的一致性",
+        "Opinion": "1也会这样做",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1在相同情况下会有相同的行为"
+    },
+    {
+        "sentence": "咱们俩小的时候，有一天晚上月亮特别圆。就跟今天的月亮差不多，那天晚上咱们俩有个约定。",
+        "Holder": "1",
+        "Target": "童年回忆",
+        "Aspect": "约定的情景",
+        "Opinion": "月亮特别圆",
+        "Sentiment": "positive",
+        "Rationale": "1回忆起童年美好的夜晚和约定"
+    },
+    {
+        "sentence": "矛盾不回避，吵架不过夜，永远是朋友。",
+        "Holder": "2",
+        "Target": "朋友关系",
+        "Aspect": "处理矛盾的方式",
+        "Opinion": "不回避矛盾，不过夜吵架",
+        "Sentiment": "positive",
+        "Rationale": "2强调朋友间应坦诚面对矛盾"
+    },
+    {
+        "sentence": "你还记得啊。",
+        "Holder": "1",
+        "Target": "2的记忆",
+        "Aspect": "记忆的准确性",
+        "Opinion": "2记得约定",
+        "Sentiment": "positive",
+        "Rationale": "1发现2还记得童年时的约定"
+    },
+    {
+        "sentence": "我丁格尔在水镇的童年和少年，别人不了解你还不清楚？",
+        "Holder": "2",
+        "Target": "1的了解",
+        "Aspect": "对2的熟悉程度",
+        "Opinion": "1很清楚2的过去",
+        "Sentiment": "positive",
+        "Rationale": "2认为1对自己过去的了解很深"
+    },
+    {
+        "sentence": "虽然确实是有好多事情我都希望他没有发生过，我这辈子也不愿意再回忆起。",
+        "Holder": "2",
+        "Target": "过去的事情",
+        "Aspect": "回忆的意愿",
+        "Opinion": "不愿意回忆",
+        "Sentiment": "negative",
+        "Rationale": "那些事情给2带来了不愉快的经历"
+    },
+    {
+        "sentence": "但就那天晚上那个月亮，还有我们，还有我们说过的话，我想我这辈子都不会忘。",
+        "Holder": "2",
+        "Target": "那天晚上的经历",
+        "Aspect": "记忆的深刻性",
+        "Opinion": "永远不会忘记",
+        "Sentiment": "positive",
+        "Rationale": "那天晚上的经历对2来说非常特别和美好"
+    },
+    {
+        "sentence": "丁毛丫，那个时候你还叫丁毛丫，我还是喜欢你这个名字。",
+        "Holder": "1",
+        "Target": "丁毛丫这个名字",
+        "Aspect": "名字的喜好",
+        "Opinion": "喜欢这个名字",
+        "Sentiment": "positive",
+        "Rationale": "1对丁毛丫这个名字有特别的情感和回忆"
+    },
+    {
+        "sentence": "多土啊。",
+        "Holder": "2",
+        "Target": "丁毛丫这个名字",
+        "Aspect": "名字的土气",
+        "Opinion": "觉得名字土",
+        "Sentiment": "negative",
+        "Rationale": "2认为丁毛丫这个名字听起来比较土气"
+    },
+    {
+        "sentence": "我喜欢。",
+        "Holder": "1",
+        "Target": "丁毛丫这个名字",
+        "Aspect": "名字的喜好",
+        "Opinion": "喜欢这个名字",
+        "Sentiment": "positive",
+        "Rationale": "1对丁毛丫这个名字有特别的情感和回忆"
+    },
+    {
+        "sentence": "我们确实很久没有这样了。",
+        "Holder": "2",
+        "Target": "见面频率",
+        "Aspect": "时间间隔",
+        "Opinion": "很久没见",
+        "Sentiment": "neutral",
+        "Rationale": "意识到很久没有见面"
+    },
+    {
+        "sentence": "我想你了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "思念",
+        "Opinion": "想念",
+        "Sentiment": "positive",
+        "Rationale": "长时间没见"
+    },
+    {
+        "sentence": "我也是。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "思念",
+        "Opinion": "想念",
+        "Sentiment": "positive",
+        "Rationale": "同样长时间没见"
+    },
+    {
+        "sentence": "为什么不接我电话？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "接电话",
+        "Opinion": "未接电话",
+        "Sentiment": "negative",
+        "Rationale": "对方没有接电话"
+    },
+    {
+        "sentence": "电话丢了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "电话状况",
+        "Opinion": "电话丢失",
+        "Sentiment": "negative",
+        "Rationale": "电话丢失导致无法接听"
+    },
+    {
+        "sentence": "信呢，为什么不看？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "看信的行为",
+        "Opinion": "应该看信",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道2为什么没有看信"
+    },
+    {
+        "sentence": "觉得对不起你。出了点事儿，我把你留给我的钱都花了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "花掉的钱",
+        "Opinion": "感到内疚",
+        "Sentiment": "negative",
+        "Rationale": "2花掉了1留给他的钱"
+    },
+    {
+        "sentence": "我知道你的钱丢了，这些钱本来就是留给你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "钱的用途",
+        "Opinion": "理解并支持",
+        "Sentiment": "positive",
+        "Rationale": "1理解2的困境，并表示钱本来就是给2的"
+    },
+    {
+        "sentence": "你存这里所有的钱，8000块，都用了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "花掉的钱的数额",
+        "Opinion": "全部花掉",
+        "Sentiment": "negative",
+        "Rationale": "2花掉了1存的所有钱，感到更加内疚和不安"
+    },
+    {
+        "sentence": "8000块钱！你把这么多钱都花哪儿去了？你怎么了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "花钱的用途和原因",
+        "Opinion": "震惊和不解",
+        "Sentiment": "negative",
+        "Rationale": "1对2花掉如此大额的钱感到震惊和疑惑"
+    },
+    {
+        "sentence": "我，你就别问了，我会想办法尽快还给你的。",
+        "Holder": "2",
+        "Target": "还钱",
+        "Aspect": "还钱的承诺",
+        "Opinion": "承诺尽快还钱",
+        "Sentiment": "neutral",
+        "Rationale": "2承诺会尽快还钱"
+    },
+    {
+        "sentence": "你知道我不是这个意思，我不是想让你还钱，你到底怎么了？你是不是什么事瞒着我？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "怀疑有隐瞒",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2有事情瞒着自己"
+    },
+    {
+        "sentence": "你说呀！",
+        "Holder": "1",
+        "Target": "2的回答",
+        "Aspect": "回答的及时性",
+        "Opinion": "催促回答",
+        "Sentiment": "negative",
+        "Rationale": "1急于知道真相"
+    },
+    {
+        "sentence": "我被骗了，我借了高利贷。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "遭遇的困境",
+        "Opinion": "承认被骗",
+        "Sentiment": "negative",
+        "Rationale": "2承认自己被骗并借了高利贷"
+    },
+    {
+        "sentence": "高利贷！",
+        "Holder": "1",
+        "Target": "2的困境",
+        "Aspect": "困境的严重性",
+        "Opinion": "震惊",
+        "Sentiment": "negative",
+        "Rationale": "1听到2借了高利贷"
+    },
+    {
+        "sentence": "你别喊行不行？",
+        "Holder": "2",
+        "Target": "1的喊叫行为",
+        "Aspect": "说话方式",
+        "Opinion": "希望停止喊叫",
+        "Sentiment": "negative",
+        "Rationale": "1的喊叫让2感到不舒服"
+    },
+    {
+        "sentence": "我要有办法，我就不借了，好吗？",
+        "Holder": "2",
+        "Target": "借高利贷的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "无奈之举",
+        "Sentiment": "negative",
+        "Rationale": "2没有其他办法只能借高利贷"
+    },
+    {
+        "sentence": "你怎么能借高利贷呢？怎么能没有办法呢？你有我呀，你咬我这朋是干什么的！",
+        "Holder": "1",
+        "Target": "2借高利贷的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不应该借高利贷",
+        "Sentiment": "negative",
+        "Rationale": "1认为2不应该借高利贷而应该找自己帮忙"
+    },
+    {
+        "sentence": "我不想再麻烦你了！",
+        "Holder": "2",
+        "Target": "向1求助的行为",
+        "Aspect": "求助意愿",
+        "Opinion": "不想再麻烦",
+        "Sentiment": "negative",
+        "Rationale": "2不想再给1添麻烦"
+    },
+    {
+        "sentence": "你，你真的是太糊涂了。",
+        "Holder": "1",
+        "Target": "2的行为和决定",
+        "Aspect": "决策合理性",
+        "Opinion": "认为2糊涂",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为和决定不明智"
+    },
+    {
+        "sentence": "你干什么事你都不能借高利贷，你知道有多少人都折在高利贷这件事情上面吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "借贷选择",
+        "Opinion": "反对借高利贷",
+        "Sentiment": "negative",
+        "Rationale": "担心2借高利贷会陷入困境"
+    },
+    {
+        "sentence": "你能不能不要再教训我了，事儿已经出了，你还想在我的伤口上再撒把盐吗？",
+        "Holder": "2",
+        "Target": "1的教训",
+        "Aspect": "说话方式",
+        "Opinion": "反感教训",
+        "Sentiment": "negative",
+        "Rationale": "已经犯错且感到痛苦"
+    },
+    {
+        "sentence": "报警。我跟你一起去报警。",
+        "Holder": "1",
+        "Target": "当前问题",
+        "Aspect": "解决方法",
+        "Opinion": "建议报警",
+        "Sentiment": "neutral",
+        "Rationale": "想帮助2解决问题"
+    },
+    {
+        "sentence": "你好烦啊！",
+        "Holder": "2",
+        "Target": "1的建议",
+        "Aspect": "接受度",
+        "Opinion": "觉得烦",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的建议不切实际且频繁"
+    },
+    {
+        "sentence": "人跑了，能报我就报了！",
+        "Holder": "2",
+        "Target": "报警的可行性",
+        "Aspect": "实际情况",
+        "Opinion": "无法报警",
+        "Sentiment": "negative",
+        "Rationale": "借款人已经逃跑，无法报警"
+    },
+    {
+        "sentence": "不提了，不提钱了。什么丢了，高利贷，都过去了。",
+        "Holder": "1",
+        "Target": "金钱问题",
+        "Aspect": "财务状况",
+        "Opinion": "不想再提",
+        "Sentiment": "negative",
+        "Rationale": "过去的金钱问题带来了不愉快的回忆"
+    },
+    {
+        "sentence": "破财免灾。对不起，我嘴欠，我又提了，我再也不提了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "言行",
+        "Opinion": "自责",
+        "Sentiment": "negative",
+        "Rationale": "再次提及不想谈论的金钱问题，感到自责和懊悔"
+    },
+    {
+        "sentence": "不嘴欠就不是你刘小怜了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性格特点",
+        "Opinion": "嘴欠是1的特点",
+        "Sentiment": "neutral",
+        "Rationale": "认为1的性格中包含嘴欠的特点"
+    },
+    {
+        "sentence": "说说你吧，现在全院上下可都是你的故事。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "知名度",
+        "Opinion": "1的故事广为人知",
+        "Sentiment": "neutral",
+        "Rationale": "1的故事在全院上下广为人知"
+    },
+    {
+        "sentence": "哎呀，我有什么故事啊？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "故事",
+        "Opinion": "否认有故事",
+        "Sentiment": "ambiguous",
+        "Rationale": "对2所说的故事感到疑惑和不解"
+    },
+    {
+        "sentence": "你现在可是我们附属医院的名人，大家都在议论你，说你刘小怜是深入虎穴的女英雄。",
+        "Holder": "2",
+        "Target": "刘小怜",
+        "Aspect": "名声和勇气",
+        "Opinion": "是名人，女英雄",
+        "Sentiment": "positive",
+        "Rationale": "刘小怜被大家议论为深入虎穴的女英雄"
+    },
+    {
+        "sentence": "哈哈哈，你好了，你别损我了。",
+        "Holder": "1",
+        "Target": "2的评价",
+        "Aspect": "评价的真实性",
+        "Opinion": "认为是夸张",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2的评价过于夸张"
+    },
+    {
+        "sentence": "你以为英雄好当啊？我那是被逼的。我跟你说，我快怕死了。",
+        "Holder": "1",
+        "Target": "英雄称号",
+        "Aspect": "成为英雄的过程",
+        "Opinion": "是被逼的，很害怕",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己成为英雄是被迫的且过程中非常害怕"
+    },
+    {
+        "sentence": "刘小怜，你胆儿可真够大的，要不说你运气好呢。",
+        "Holder": "2",
+        "Target": "刘小怜",
+        "Aspect": "胆量和运气",
+        "Opinion": "胆大，运气好",
+        "Sentiment": "positive",
+        "Rationale": "2认为刘小怜在危险情况下表现出色且运气好"
+    }
+]

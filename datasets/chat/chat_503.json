@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "我告诉你们情况紧急",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "紧急程度",
+        "Opinion": "情况紧急",
+        "Sentiment": "negative",
+        "Rationale": "当前情况非常紧急"
+    },
+    {
+        "sentence": "形势严峻",
+        "Holder": "2",
+        "Target": "当前形势",
+        "Aspect": "严峻程度",
+        "Opinion": "形势严峻",
+        "Sentiment": "negative",
+        "Rationale": "当前形势非常严峻"
+    },
+    {
+        "sentence": "实力悬殊",
+        "Holder": "3",
+        "Target": "双方实力",
+        "Aspect": "实力对比",
+        "Opinion": "实力悬殊",
+        "Sentiment": "negative",
+        "Rationale": "双方实力差距很大"
+    },
+    {
+        "sentence": "不战而败。",
+        "Holder": "2",
+        "Target": "战斗结果",
+        "Aspect": "战斗结果预测",
+        "Opinion": "不战而败",
+        "Sentiment": "negative",
+        "Rationale": "预计战斗结果会是不战而败"
+    },
+    {
+        "sentence": "你说什么？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语理解",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "没听清楚或不理解2的话"
+    },
+    {
+        "sentence": "不是不是，我说妈现在真有点鬼迷心窍。",
+        "Holder": "2",
+        "Target": "妈",
+        "Aspect": "判断力",
+        "Opinion": "鬼迷心窍",
+        "Sentiment": "negative",
+        "Rationale": "认为妈的判断力受到了外界不良影响"
+    },
+    {
+        "sentence": "唉，看来不采取点什么措施，恐怕是来不及啦。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "紧迫性",
+        "Opinion": "需要采取措施",
+        "Sentiment": "negative",
+        "Rationale": "觉得情况紧急，不采取措施会错过时机"
+    },
+    {
+        "sentence": "没错，你看见美国佬把咱妈给忽悠的",
+        "Holder": "3",
+        "Target": "美国佬",
+        "Aspect": "影响力",
+        "Opinion": "忽悠咱妈",
+        "Sentiment": "negative",
+        "Rationale": "看到美国佬对妈产生了不良影响"
+    },
+    {
+        "sentence": "刘星，现在你的态度转变的不错。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "态度转变",
+        "Opinion": "高水平",
+        "Sentiment": "positive",
+        "Rationale": "刘星的态度有了显著的积极变化"
+    },
+    {
+        "sentence": "那当然，舍得一身寡也得让妈留在家",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "决心",
+        "Opinion": "坚定",
+        "Sentiment": "positive",
+        "Rationale": "对让妈留在家的事情有强烈的决心"
+    },
+    {
+        "sentence": "不过咱得先跟爸商量一下",
+        "Holder": "1",
+        "Target": "商量事宜",
+        "Aspect": "决策的合理性",
+        "Opinion": "需要商量",
+        "Sentiment": "neutral",
+        "Rationale": "需要尊重家长的意见"
+    },
+    {
+        "sentence": "我回来了",
+        "Holder": "4",
+        "Target": "回家",
+        "Aspect": "归来的事实",
+        "Opinion": "陈述事实",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己回家的状态"
+    },
+    {
+        "sentence": "怎么回事啊？夏东海。怎么回事啊？这个家怎么这样了？",
+        "Holder": "4",
+        "Target": "家庭状况",
+        "Aspect": "家庭环境的异常",
+        "Opinion": "感到困惑",
+        "Sentiment": "negative",
+        "Rationale": "回家后发现家里的状况与预期不符"
+    },
+    {
+        "sentence": "嗨，别慌，别慌，什么事都没发生啊。这是你那俩宝贝儿子说是要演习。",
+        "Holder": "5",
+        "Target": "家庭状况",
+        "Aspect": "状况的解释",
+        "Opinion": "安抚情绪",
+        "Sentiment": "positive",
+        "Rationale": "想要安抚4的紧张情绪"
+    },
+    {
+        "sentence": "他们说这不是你要去美国了吗啊？要提前适应一下家里没有你的日子，说是先热身。",
+        "Holder": "5",
+        "Target": "演习原因",
+        "Aspect": "演习的合理性",
+        "Opinion": "解释原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地转述孩子们的理由"
+    },
+    {
+        "sentence": "有这么热身的吗？好家伙，合着我不在家就这样，这叫什么演习呀？",
+        "Holder": "4",
+        "Target": "演习",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得演习在自己不在家时进行不合理"
+    },
+    {
+        "sentence": "要不然怎么说家中不可一日无妻呢。",
+        "Holder": "5",
+        "Target": "家庭",
+        "Aspect": "重要性",
+        "Opinion": "妻子重要",
+        "Sentiment": "positive",
+        "Rationale": "认为妻子对家庭的重要性"
+    },
+    {
+        "sentence": "一个宝盖里面一个女。",
+        "Holder": "4",
+        "Target": "安字",
+        "Aspect": "结构组成",
+        "Opinion": "宝盖代表家，女代表女人",
+        "Sentiment": "neutral",
+        "Rationale": "这是对汉字结构的客观描述"
+    },
+    {
+        "sentence": "嗯，没错，那宝盖就是代表家的意思。家中没女人怎么能安呢？",
+        "Holder": "5",
+        "Target": "家庭",
+        "Aspect": "安宁",
+        "Opinion": "需要女人",
+        "Sentiment": "positive",
+        "Rationale": "认为女人对家庭安宁至关重要"
+    },
+    {
+        "sentence": "我也得适应一下家中没有女人的日子。",
+        "Holder": "5",
+        "Target": "个人生活",
+        "Aspect": "适应",
+        "Opinion": "需要适应",
+        "Sentiment": "neutral",
+        "Rationale": "提到需要适应新情况，但没有明显情感倾向"
+    },
+    {
+        "sentence": "小雨你吃吧",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "进食",
+        "Opinion": "建议进食",
+        "Sentiment": "neutral",
+        "Rationale": "这是一句普通的建议，没有明显的情感倾向"
+    },
+    {
+        "sentence": "刘星，你吃吧。",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "吃饭",
+        "Opinion": "让刘星吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "3在礼貌地让刘星吃饭"
+    },
+    {
+        "sentence": "小雪还是你吃吧。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "吃饭",
+        "Opinion": "让小雪吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1在礼貌地让小雪吃饭"
+    },
+    {
+        "sentence": "小雨还是你吃吧。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "吃饭",
+        "Opinion": "让小雨吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "2在礼貌地让小雨吃饭"
+    },
+    {
+        "sentence": "快点，你吃吧",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "吃饭",
+        "Opinion": "催促刘星吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1在催促刘星吃饭，但语气并不强烈"
+    },
+    {
+        "sentence": "干嘛呀？你们 仨干嘛呀？",
+        "Holder": "4",
+        "Target": "3、1、2",
+        "Aspect": "行为",
+        "Opinion": "不理解他们的行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "4不明白为什么大家都在互相让饭"
+    },
+    {
+        "sentence": "盘子里不是有的是吗？什么？你吃来回折腾什么呀？这有病",
+        "Holder": "4",
+        "Target": "1的吃法",
+        "Aspect": "吃的行为",
+        "Opinion": "认为1吃法不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的吃法来回折腾不正常"
+    },
+    {
+        "sentence": "现在还有能让着吃，可明天，后天以后呢？",
+        "Holder": "1",
+        "Target": "食物的可持续性",
+        "Aspect": "食物的未来供应",
+        "Opinion": "担心未来食物不足",
+        "Sentiment": "negative",
+        "Rationale": "担心未来食物供应不足"
+    },
+    {
+        "sentence": "以后就连一口也没有了。如果我们还想再吃顿饱饭的话，只有在梦里吃了。",
+        "Holder": "2",
+        "Target": "食物的稀缺性",
+        "Aspect": "未来的食物情况",
+        "Opinion": "认为未来食物将极度匮乏",
+        "Sentiment": "negative",
+        "Rationale": "认为未来食物将极度匮乏"
+    },
+    {
+        "sentence": "对，小雨你现在年纪还小，正在长身体的时候，还是你吃吧，我们以后再也不和你抢。",
+        "Holder": "1",
+        "Target": "小雨的食物分配",
+        "Aspect": "食物分配的合理性",
+        "Opinion": "支持小雨多吃",
+        "Sentiment": "positive",
+        "Rationale": "考虑到小雨正在长身体需要更多营养"
+    },
+    {
+        "sentence": "想抢也抢不了呀。小雨，还是你吃",
+        "Holder": "2",
+        "Target": "食物的争夺",
+        "Aspect": "食物争夺的可能性",
+        "Opinion": "认为无法争夺食物",
+        "Sentiment": "neutral",
+        "Rationale": "认为未来食物匮乏到无法争夺"
+    },
+    {
+        "sentence": "你们别闹的跟孤儿院似的，行不行啊？妈妈走了不是还有爸爸照顾你们的吗？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "行为表现",
+        "Opinion": "过于吵闹",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们的行为像孤儿院一样吵闹"
+    },
+    {
+        "sentence": "对我们来说爸爸只意味着方便面，榨菜",
+        "Holder": "2",
+        "Target": "爸爸",
+        "Aspect": "照顾方式",
+        "Opinion": "单一且不充分",
+        "Sentiment": "negative",
+        "Rationale": "爸爸的照顾仅限于提供方便面和榨菜，缺乏全面的关怀"
+    },
+    {
+        "sentence": "哎呀，行了行了，冰箱里还有个酱肘子，我给你们热热去吧。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "生活照顾",
+        "Opinion": "提供更好的食物",
+        "Sentiment": "positive",
+        "Rationale": "想通过提供更好的食物来改善他们的生活"
+    },
+    {
+        "sentence": "干嘛呢？夏东海。哎哎哎，怎么回事？你怎么把烟给捡起来了？好不容易戒的。",
+        "Holder": "4",
+        "Target": "夏东海",
+        "Aspect": "戒烟行为",
+        "Opinion": "不应该复吸",
+        "Sentiment": "negative",
+        "Rationale": "夏东海好不容易戒了烟却又复吸"
+    },
+    {
+        "sentence": "我现在不抽烟不行了，我现在大脑一片空白，什么思路都没有。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "工作状态",
+        "Opinion": "需要依赖抽烟来思考",
+        "Sentiment": "negative",
+        "Rationale": "感到工作压力大，思路不清"
+    },
+    {
+        "sentence": "唉呦，没思路就不写了，甭写了，休息啊。",
+        "Holder": "4",
+        "Target": "写作",
+        "Aspect": "写作的可行性",
+        "Opinion": "放弃写作",
+        "Sentiment": "negative",
+        "Rationale": "缺乏写作思路"
+    },
+    {
+        "sentence": "那哪行，不写怎么挣钱吃饭？",
+        "Holder": "5",
+        "Target": "写作",
+        "Aspect": "写作的经济意义",
+        "Opinion": "必须写作",
+        "Sentiment": "negative",
+        "Rationale": "不写作就无法挣钱维持生活"
+    },
+    {
+        "sentence": "说什么呢？你身体重要还是挣钱重要啊？",
+        "Holder": "4",
+        "Target": "5的观点",
+        "Aspect": "健康与金钱的权衡",
+        "Opinion": "健康更重要",
+        "Sentiment": "negative",
+        "Rationale": "认为健康比金钱更重要"
+    },
+    {
+        "sentence": "身体算什么呀？真的，你看我也算是一个堂堂男子汉吗？我这一站一米八多，往秤上一站 200 多斤的人，你说我即便成就不了什么大业，我起码我也得养家糊口吧？要不然我算什么男人？我整个我就一行尸走肉",
+        "Holder": "6",
+        "Target": "自身",
+        "Aspect": "作为男人的责任",
+        "Opinion": "必须养家糊口",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己作为男人有养家糊口的责任"
+    },
+    {
+        "sentence": "夏东海，怎么了你？",
+        "Holder": "4",
+        "Target": "6",
+        "Aspect": "6的情绪状态",
+        "Opinion": "关心6",
+        "Sentiment": "neutral",
+        "Rationale": "注意到6的情绪低落"
+    },
+    {
+        "sentence": "我没怎么，真的。我就突然觉得我变得异常清醒。我觉得我特对不起你说我，我怎么就那么懒惰，那么自私，那么不求上进，没有责任心，这么好的媳妇还得背井离乡去美国赚钱回来养家，我算什么男人？",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "个人品质",
+        "Opinion": "懒惰、自私、不求上进、没有责任心",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己对不起媳妇，认为自己有很多负面品质"
+    },
+    {
+        "sentence": "哎呦，夏东海你别那么说行吗？我求求你了，没人说你什么自私。没有什么没有责任心，真的，我觉得你是一个挺有责任心的男人。你别这么说自个好吗？你是不是不愿意让我去美国呀？",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "个人品质",
+        "Opinion": "有责任心",
+        "Sentiment": "positive",
+        "Rationale": "认为5是一个有责任心的男人，不希望他这样贬低自己"
+    },
+    {
+        "sentence": "绝没那意思",
+        "Holder": "5",
+        "Target": "4的去美国",
+        "Aspect": "态度",
+        "Opinion": "支持",
+        "Sentiment": "neutral",
+        "Rationale": "要澄清自己没有不愿意让4去美国的意思"
+    },
+    {
+        "sentence": "夏东海你要是不愿意让我去，我就不去了。",
+        "Holder": "4",
+        "Target": "5的态度",
+        "Aspect": "去美国的决定",
+        "Opinion": "愿意听从5的意见",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定5是否真的愿意让自己去美国"
+    },
+    {
+        "sentence": "不不不。你还是去吧，你都答应人李先生了，你要不去人家得多伤心，再说我觉得李先生人也挺好，长得也挺帅，又能有钱。",
+        "Holder": "5",
+        "Target": "4的去美国",
+        "Aspect": "决定的合理性",
+        "Opinion": "应该去",
+        "Sentiment": "positive",
+        "Rationale": "觉得4已经答应了李先生，不去会让对方伤心，且认为李先生人好"
+    },
+    {
+        "sentence": "你这是什么话啊？",
+        "Holder": "4",
+        "Target": "5的话语",
+        "Aspect": "话语的合理性",
+        "Opinion": "质疑话语",
+        "Sentiment": "negative",
+        "Rationale": "5的话语让4感到被误解"
+    },
+    {
+        "sentence": "不会是怀疑我们俩之间有什么关系吧？",
+        "Holder": "4",
+        "Target": "5的怀疑",
+        "Aspect": "关系的纯洁性",
+        "Opinion": "否认关系",
+        "Sentiment": "negative",
+        "Rationale": "4觉得5的怀疑是对自己人品的质疑"
+    },
+    {
+        "sentence": "不不。你说我这么大的一个人，我心眼怎么可能那么小呢，我绝对的相信你。我，我还不了解你吗？你这么正派，我对你百分之百信任，我就是觉得我太不是男人了",
+        "Holder": "5",
+        "Target": "4的人品",
+        "Aspect": "信任度",
+        "Opinion": "完全信任",
+        "Sentiment": "positive",
+        "Rationale": "5对4的人品有绝对的信任"
+    },
+    {
+        "sentence": "刘星，给我买包烟去，便宜的啊",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "买烟的要求",
+        "Opinion": "要求买便宜烟",
+        "Sentiment": "neutral",
+        "Rationale": "5只是提出了一个日常的需求"
+    }
+]

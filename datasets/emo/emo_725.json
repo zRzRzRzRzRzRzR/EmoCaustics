@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "幽默互动与家庭调侃",
+        "emotions": [
+          {"state": "positive", "reason": "用成龙鼻子特点调侃", "source_id": "2"},
+          {"state": "neutral", "reason": "讨论恐怖笑声来源", "source_id": "4"},
+          {"state": "positive", "reason": "自称行为艺术家吸引注意", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "剧本演出冲突",
+        "emotions": [
+          {"state": "negative", "reason": "表演被批评为笨猪", "source_id": "4"},
+          {"state": "negative", "reason": "因讽刺愤而离场", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭庆祝活动",
+        "emotions": [
+          {"state": "positive", "reason": "参与导演世家调侃", "source_id": "2,4"},
+          {"state": "positive", "reason": "庆祝小帅获奖演出", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "剧本创作波折",
+        "emotions": [
+          {"state": "positive", "reason": "自信角马爱情剧本质量", "source_id": "6"},
+          {"state": "negative", "reason": "剧本因三角恋被毙", "source_id": "6"},
+          {"state": "positive", "reason": "修改后获学校采用", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "情绪宣泄与反思",
+        "emotions": [
+          {"state": "negative", "reason": "打沙袋发泄被制止", "source_id": "2"},
+          {"state": "neutral", "reason": "接受温和发泄建议", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "导演职责挑战",
+        "emotions": [
+          {"state": "positive", "reason": "被任命为汇演导演", "source_id": "3"},
+          {"state": "negative", "reason": "演员表演不符合预期", "source_id": "1"},
+          {"state": "negative", "reason": "排练冲突导致人员离场", "source_id": "1,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭关系协调",
+        "emotions": [
+          {"state": "negative", "reason": "质疑夏东海教育影响", "source_id": "3"},
+          {"state": "positive", "reason": "引导温和情绪处理方式", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

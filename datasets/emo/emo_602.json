@@ -1,0 +1,94 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "主动表达爱意的合理性辩论",
+        "emotions": [
+          {"state": "positive", "reason": "强调主动表达可获得主动权", "source_id": "2,3"},
+          {"state": "neutral", "reason": "承认缺乏恋爱经验", "source_id": "4"},
+          {"state": "positive", "reason": "支持舔狗行为的灵活性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "感情机会错失案例讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "描述未告白导致错过机会", "source_id": "2"},
+          {"state": "positive", "reason": "支持情感实践的开放性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感策略批判",
+        "emotions": [
+          {"state": "negative", "reason": "质疑恋爱经验缺乏", "source_id": "1"},
+          {"state": "neutral", "reason": "分析被动策略优势", "source_id": "3"},
+          {"state": "negative", "reason": "指责他人行为不道德", "source_id": "8"}
+        ]
+      },
+      {
+        "event": "关系本质探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "论证感情基础必要性", "source_id": "3"},
+          {"state": "negative", "reason": "贬低他人关系质量", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "主动权理论构建",
+        "emotions": [
+          {"state": "neutral", "reason": "区分情感表达顺序", "source_id": "1"},
+          {"state": "negative", "reason": "强调被动策略优势", "source_id": "8"},
+          {"state": "neutral", "reason": "解释主动权保留机制", "source_id": "8"}
+        ]
+      },
+      {
+        "event": "社交风险预警",
+        "emotions": [
+          {"state": "negative", "reason": "警告关系破裂风险", "source_id": "8"},
+          {"state": "neutral", "reason": "评估低概率可能性", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "道德边界争论",
+        "emotions": [
+          {"state": "negative", "reason": "谴责情感操控行为", "source_id": "2"},
+          {"state": "positive", "reason": "提倡实践经验积累", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "情感支配权主张",
+        "emotions": [
+          {"state": "positive", "reason": "主张高位表达策略", "source_id": "1"},
+          {"state": "negative", "reason": "预警关系失衡风险", "source_id": "8"},
+          {"state": "positive", "reason": "维护自我价值认知", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "主动策略可行性辩论",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑被动策略有效性", "source_id": "3"},
+          {"state": "positive", "reason": "论证主动表达优势", "source_id": "3"},
+          {"state": "neutral", "reason": "探讨关系修复可能", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

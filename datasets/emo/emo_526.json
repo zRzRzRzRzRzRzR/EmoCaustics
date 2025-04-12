@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "亲子关系真相揭露",
+        "emotions": [
+          {"state": "neutral", "reason": "等待DNA鉴定结果确认血缘关系", "source_id": "2"},
+          {"state": "positive", "reason": "确认血缘后接受生母并承诺赡养", "source_id": "2"},
+          {"state": "neutral", "reason": "主动揭露血型矛盾引发真相", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "调换孩子阴谋败露",
+        "emotions": [
+          {"state": "negative", "reason": "坚持主张亲子关系时的焦虑", "source_id": "3,5"},
+          {"state": "negative", "reason": "DNA结果不符引发的恐慌", "source_id": "3"},
+          {"state": "negative", "reason": "虐待亲生子真相曝光后的绝望", "source_id": "3,5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭保卫战",
+        "emotions": [
+          {"state": "negative", "reason": "强烈否认调换孩子的愤怒", "source_id": "2,5"},
+          {"state": "negative", "reason": "发现财产转移的震惊", "source_id": "5"},
+          {"state": "negative", "reason": "系统报复后的决绝态度", "source_id": "2,5,6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "伦理道德观察",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对突发事件的难以置信", "source_id": "2"},
+          {"state": "negative", "reason": "质疑曾倩动机的批判态度", "source_id": "2"},
+          {"state": "negative", "reason": "对方黎遭遇的深度同情", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "赘婿阴谋破产",
+        "emotions": [
+          {"state": "negative", "reason": "转移财产时的强势态度", "source_id": "3"},
+          {"state": "negative", "reason": "发现账户被清空的恐慌", "source_id": "3"},
+          {"state": "negative", "reason": "哀求原谅的绝望表现", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "身份认知危机",
+        "emotions": [
+          {"state": "negative", "reason": "担心经济来源的恐慌", "source_id": "3"},
+          {"state": "negative", "reason": "残疾身份确认后的怨恨", "source_id": "2,5"}
+        ]
+      }
+    ]
+  }
+}

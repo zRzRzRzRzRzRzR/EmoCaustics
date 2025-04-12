@@ -1,0 +1,650 @@
+[
+    {
+        "sentence": "宋老板，我阳哥只不过就蒙对了一回，你竟然让他来替你出席鉴宝大会？",
+        "Holder": "1",
+        "Target": "阳哥",
+        "Aspect": "鉴宝能力",
+        "Opinion": "怀疑阳哥的能力",
+        "Sentiment": "negative",
+        "Rationale": "认为阳哥只是偶然蒙对"
+    },
+    {
+        "sentence": "糖豆兄弟，我看古董看错过，我看人从来没有走眼过！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "看人能力",
+        "Opinion": "自信看人准确",
+        "Sentiment": "positive",
+        "Rationale": "对自己看人的能力非常有信心"
+    },
+    {
+        "sentence": "真的假的？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对2的自信言论感到意外"
+    },
+    {
+        "sentence": "我阳哥什么时候练成火眼金睛了？",
+        "Holder": "1",
+        "Target": "阳哥",
+        "Aspect": "鉴宝能力",
+        "Opinion": "质疑阳哥的能力",
+        "Sentiment": "negative",
+        "Rationale": "不相信阳哥具备高超的鉴宝能力"
+    },
+    {
+        "sentence": "各位宾客们，这里是鉴宝大会为大家准备的伴手礼，请大家随意挑选。",
+        "Holder": "3",
+        "Target": "伴手礼",
+        "Aspect": "伴手礼的准备",
+        "Opinion": "请大家随意挑选",
+        "Sentiment": "positive",
+        "Rationale": "为大家准备了丰富的伴手礼"
+    },
+    {
+        "sentence": "快看这个碗，真正雍正年间的碗。",
+        "Holder": "4",
+        "Target": "碗",
+        "Aspect": "碗的年代",
+        "Opinion": "真正雍正年间",
+        "Sentiment": "positive",
+        "Rationale": "发现了真正雍正年间的碗"
+    },
+    {
+        "sentence": "好家伙，拿古董当伴手礼，这也太夸张了吧。",
+        "Holder": "4",
+        "Target": "伴手礼",
+        "Aspect": "伴手礼的价值",
+        "Opinion": "太夸张",
+        "Sentiment": "negative",
+        "Rationale": "觉得用古董作为伴手礼过于奢侈"
+    },
+    {
+        "sentence": "这可是真宝贝啊。",
+        "Holder": "4",
+        "Target": "碗",
+        "Aspect": "碗的价值",
+        "Opinion": "真宝贝",
+        "Sentiment": "positive",
+        "Rationale": "确认了碗的真实价值"
+    },
+    {
+        "sentence": "都是些半真半假，迷人眼球的货色罢了。",
+        "Holder": "5",
+        "Target": "伴手礼",
+        "Aspect": "伴手礼的真实性",
+        "Opinion": "半真半假",
+        "Sentiment": "negative",
+        "Rationale": "认为这些伴手礼并非全真，有迷惑性"
+    },
+    {
+        "sentence": "我看这次主办方不只是送伴手礼这么简单。",
+        "Holder": "5",
+        "Target": "主办方",
+        "Aspect": "活动意图",
+        "Opinion": "有更深意图",
+        "Sentiment": "neutral",
+        "Rationale": "主办方送的伴手礼可能有其他目的"
+    },
+    {
+        "sentence": "陈老弟，你的意思，这是个关卡？",
+        "Holder": "2",
+        "Target": "活动",
+        "Aspect": "活动性质",
+        "Opinion": "可能是关卡",
+        "Sentiment": "neutral",
+        "Rationale": "对5的推测表示疑问"
+    },
+    {
+        "sentence": "没错，辨别眼力的关卡。",
+        "Holder": "5",
+        "Target": "活动",
+        "Aspect": "活动目的",
+        "Opinion": "辨别眼力",
+        "Sentiment": "neutral",
+        "Rationale": "确认活动是为了辨别眼力"
+    },
+    {
+        "sentence": "这位小姐，你确定这个也是伴手礼？",
+        "Holder": "5",
+        "Target": "小姐的判断",
+        "Aspect": "物品性质",
+        "Opinion": "怀疑是否为伴手礼",
+        "Sentiment": "neutral",
+        "Rationale": "对小姐的判断表示疑问"
+    },
+    {
+        "sentence": "这位先生，这里面的物件都是伴手礼。",
+        "Holder": "3",
+        "Target": "物件",
+        "Aspect": "物件的性质",
+        "Opinion": "都是伴手礼",
+        "Sentiment": "neutral",
+        "Rationale": "3在客观地介绍物件性质"
+    },
+    {
+        "sentence": "既然如此，那我就不客气了。",
+        "Holder": "5",
+        "Target": "物件",
+        "Aspect": "物件的获取",
+        "Opinion": "不客气地接受",
+        "Sentiment": "positive",
+        "Rationale": "5认为物件是伴手礼"
+    },
+    {
+        "sentence": "还真是扶不上墙的蠢货，这么多宝贝竟然挑了一件最便宜的垃圾。",
+        "Holder": "6",
+        "Target": "5的选择",
+        "Aspect": "选择的合理性",
+        "Opinion": "选择不合理",
+        "Sentiment": "negative",
+        "Rationale": "6认为5挑了一件最便宜的垃圾"
+    },
+    {
+        "sentence": "果然，在垃圾眼里什么都是垃圾。",
+        "Holder": "5",
+        "Target": "6的评价",
+        "Aspect": "评价的合理性",
+        "Opinion": "评价不合理",
+        "Sentiment": "negative",
+        "Rationale": "5认为6的评价不公正"
+    },
+    {
+        "sentence": "陈阳，一个外行来这儿凑什么热闹？这可是鉴宝大会，也是你这种档次该来的吗？",
+        "Holder": "6",
+        "Target": "陈阳",
+        "Aspect": "参与鉴宝大会的资格",
+        "Opinion": "不配参加",
+        "Sentiment": "negative",
+        "Rationale": "认为陈阳是外行，不配参加鉴宝大会"
+    },
+    {
+        "sentence": "娜娜，你跟这臭小子认识啊？",
+        "Holder": "7",
+        "Target": "陈阳",
+        "Aspect": "与娜娜的关系",
+        "Opinion": "质疑认识",
+        "Sentiment": "negative",
+        "Rationale": "对陈阳的轻蔑态度"
+    },
+    {
+        "sentence": "他呀，就是我那连3万块钱彩礼都拿不出来的废物未婚夫。",
+        "Holder": "6",
+        "Target": "陈阳",
+        "Aspect": "经济能力",
+        "Opinion": "无能",
+        "Sentiment": "negative",
+        "Rationale": "陈阳拿不出彩礼"
+    },
+    {
+        "sentence": "我说呢，那天平白无故坏我好事，原来是娶不起娜娜，专门来找我茬来了。",
+        "Holder": "7",
+        "Target": "陈阳",
+        "Aspect": "动机",
+        "Opinion": "故意捣乱",
+        "Sentiment": "negative",
+        "Rationale": "认为陈阳是娶不起娜娜而故意找麻烦"
+    },
+    {
+        "sentence": "你口中的好事就是逼着宋老板买下你的赝品，然后给你的小三儿买新饰品啊？",
+        "Holder": "5",
+        "Target": "7",
+        "Aspect": "行为动机",
+        "Opinion": "揭露虚伪",
+        "Sentiment": "negative",
+        "Rationale": "揭露了对方逼迫宋老板买赝品并给小三买饰品的丑陋行为"
+    },
+    {
+        "sentence": "我的事还轮不着你在这指指点点！",
+        "Holder": "7",
+        "Target": "说话人 6",
+        "Aspect": "干涉他人事务",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "说话人 6 对说话人 7 的事务进行指责"
+    },
+    {
+        "sentence": "倒是你，下三滥的臭虫，也敢来鉴宝大会！简直是拉低了我们的档次。",
+        "Holder": "7",
+        "Target": "说话人 6",
+        "Aspect": "身份和资格",
+        "Opinion": "贬低对方",
+        "Sentiment": "negative",
+        "Rationale": "说话人 7 认为说话人 6 的身份不配参加鉴宝大会"
+    },
+    {
+        "sentence": "你再说一遍你？",
+        "Holder": "1",
+        "Target": "说话人 7",
+        "Aspect": "言语挑衅",
+        "Opinion": "质疑对方",
+        "Sentiment": "negative",
+        "Rationale": "说话人 7 的言语冒犯了说话人 1"
+    },
+    {
+        "sentence": "哼，糖豆，你爸妈可还在赵科长手底下干活呢。你这动手之前呀，先动动你那小脑瓜儿吧！",
+        "Holder": "6",
+        "Target": "说话人 1",
+        "Aspect": "家庭背景和行动后果",
+        "Opinion": "警告对方",
+        "Sentiment": "negative",
+        "Rationale": "说话人 6 提及说话人 1 的家庭背景来威胁对方"
+    },
+    {
+        "sentence": "我呸！要是没我阳哥养你，哪有你今天？",
+        "Holder": "1",
+        "Target": "说话人 6",
+        "Aspect": "依赖关系",
+        "Opinion": "贬低对方",
+        "Sentiment": "negative",
+        "Rationale": "说话人 1 认为说话人 6 依赖其阳哥"
+    },
+    {
+        "sentence": "哈哈哈，要是没有陈阳拖累我，我早飞黄腾达了！",
+        "Holder": "6",
+        "Target": "陈阳",
+        "Aspect": "拖累",
+        "Opinion": "认为陈阳拖累了自己",
+        "Sentiment": "negative",
+        "Rationale": "觉得陈阳拖累了自己"
+    },
+    {
+        "sentence": "我看呀，还是拿着你那破烂赶紧滚吧，省的臭了我们。",
+        "Holder": "6",
+        "Target": "对方",
+        "Aspect": "物品的价值",
+        "Opinion": "认为对方的物品是破烂",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的物品没有价值"
+    },
+    {
+        "sentence": "鉴宝大会马上开始，各位稍安勿躁。",
+        "Holder": "8",
+        "Target": "鉴宝大会",
+        "Aspect": "开始时间",
+        "Opinion": "即将开始",
+        "Sentiment": "neutral",
+        "Rationale": "鉴宝大会即将开始"
+    },
+    {
+        "sentence": "竟然是齐家的总管天骄大人亲自举行开幕式。",
+        "Holder": "4",
+        "Target": "天骄大人",
+        "Aspect": "身份",
+        "Opinion": "惊讶于天骄大人的亲自出席",
+        "Sentiment": "positive",
+        "Rationale": "没想到天骄大人会亲自出席"
+    },
+    {
+        "sentence": "齐家可是拥有着全国一半的财富，号称齐半城。",
+        "Holder": "7",
+        "Target": "齐家",
+        "Aspect": "财富",
+        "Opinion": "齐家非常富有",
+        "Sentiment": "neutral",
+        "Rationale": "齐家确实拥有大量财富"
+    },
+    {
+        "sentence": "没想到能在这儿见到天骄大人，要是能跟天骄大人说句话，那真太荣幸了。",
+        "Holder": "6",
+        "Target": "天骄大人",
+        "Aspect": "见面的荣幸",
+        "Opinion": "感到荣幸",
+        "Sentiment": "positive",
+        "Rationale": "意外见到天骄大人"
+    },
+    {
+        "sentence": "鉴宝大会入场费2万元。",
+        "Holder": "8",
+        "Target": "鉴宝大会",
+        "Aspect": "入场费",
+        "Opinion": "费用为2万元",
+        "Sentiment": "neutral",
+        "Rationale": "客观陈述鉴宝大会的入场费用"
+    },
+    {
+        "sentence": "门票2万，你们这些垃圾怕是一辈子都挣不着2万吧，嗯？",
+        "Holder": "7",
+        "Target": "其他人",
+        "Aspect": "经济能力",
+        "Opinion": "贬低他人经济能力",
+        "Sentiment": "negative",
+        "Rationale": "用侮辱性语言贬低他人的经济能力"
+    },
+    {
+        "sentence": "阳哥，咱哪儿来那么多钱？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "经济状况",
+        "Opinion": "缺乏资金",
+        "Sentiment": "negative",
+        "Rationale": "自己没有足够的资金"
+    },
+    {
+        "sentence": "没钱？没钱就赶紧滚出去呀。鉴宝大会也是你们这种废物能够进来的吗？",
+        "Holder": "6",
+        "Target": "其他人",
+        "Aspect": "资格",
+        "Opinion": "不配参加",
+        "Sentiment": "negative",
+        "Rationale": "认为其他人没有资格参加鉴宝大会"
+    },
+    {
+        "sentence": "咳咳，在方才的伴手礼中，我们藏纳了一件齐家信物，持有齐家信物的人便可自由出入。",
+        "Holder": "8",
+        "Target": "齐家信物",
+        "Aspect": "信物的功能",
+        "Opinion": "持有信物可自由出入",
+        "Sentiment": "neutral",
+        "Rationale": "8在介绍信物的功能"
+    },
+    {
+        "sentence": "宋老板，我先进去了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "进入的行为",
+        "Opinion": "准备进入",
+        "Sentiment": "neutral",
+        "Rationale": "5表示要进入"
+    },
+    {
+        "sentence": "陈阳，你疯了吗？",
+        "Holder": "6",
+        "Target": "陈阳",
+        "Aspect": "行为合理性",
+        "Opinion": "认为陈阳行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "6认为陈阳的行为不理智"
+    },
+    {
+        "sentence": "就你挑这个破烂，还说什么齐家信物，怎么可能呢？",
+        "Holder": "6",
+        "Target": "陈阳挑选的物品",
+        "Aspect": "物品的价值",
+        "Opinion": "认为物品无价值",
+        "Sentiment": "negative",
+        "Rationale": "6认为陈阳挑选的物品毫无价值"
+    },
+    {
+        "sentence": "天骄大人，赶紧把这几个垃圾赶出去吧，别让一颗老鼠屎坏了一锅汤哟！",
+        "Holder": "7",
+        "Target": "陈阳等人",
+        "Aspect": "在场合理性",
+        "Opinion": "认为他们不应在场",
+        "Sentiment": "negative",
+        "Rationale": "7认为陈阳等人的存在破坏了整体氛围"
+    },
+    {
+        "sentence": "该被赶出去的那个人是你才对吧。",
+        "Holder": "8",
+        "Target": "7",
+        "Aspect": "应被赶出去的人",
+        "Opinion": "7应该被赶出去",
+        "Sentiment": "negative",
+        "Rationale": "8认为7才是应该被赶出去的人"
+    },
+    {
+        "sentence": "您这话什么意思啊？",
+        "Holder": "7",
+        "Target": "8的话",
+        "Aspect": "话的含义",
+        "Opinion": "不理解8的话",
+        "Sentiment": "neutral",
+        "Rationale": "7不明白8的话是什么意思"
+    },
+    {
+        "sentence": "没错，这位先生所挑选的手镯便是我们齐家家传的天竺活佛鸡血藤！",
+        "Holder": "8",
+        "Target": "手镯",
+        "Aspect": "手镯的来历",
+        "Opinion": "手镯是齐家家传宝物",
+        "Sentiment": "positive",
+        "Rationale": "8确认手镯是齐家的传家宝"
+    },
+    {
+        "sentence": "啊？这就是传说中齐家的传家宝？是当年如来佛的亲传信物？",
+        "Holder": "4",
+        "Target": "手镯",
+        "Aspect": "手镯的传说",
+        "Opinion": "手镯是如来佛的信物",
+        "Sentiment": "ambiguous",
+        "Rationale": "4对手镯的传说感到惊讶和好奇"
+    },
+    {
+        "sentence": "怎么可能呢？这不就是一个破烂木头镯子吗？",
+        "Holder": "6",
+        "Target": "手镯",
+        "Aspect": "手镯的价值",
+        "Opinion": "手镯是破烂木头",
+        "Sentiment": "negative",
+        "Rationale": "6认为手镯只是一个破烂的木头镯子"
+    },
+    {
+        "sentence": "你竟然敢说齐家的家传宝是块破木头？",
+        "Holder": "8",
+        "Target": "齐家的家传宝",
+        "Aspect": "价值",
+        "Opinion": "不应该是破木头",
+        "Sentiment": "negative",
+        "Rationale": "对方贬低了齐家家传宝的价值"
+    },
+    {
+        "sentence": "这不就是一个破烂木头吗？一个破烂东西还敢装宝贝？他老娘偏不信这个邪了！",
+        "Holder": "6",
+        "Target": "齐家的家传宝",
+        "Aspect": "价值",
+        "Opinion": "认为是破烂木头",
+        "Sentiment": "negative",
+        "Rationale": "认为齐家家传宝不值钱"
+    },
+    {
+        "sentence": "你给我！",
+        "Holder": "6",
+        "Target": "无特定对象",
+        "Aspect": "无特定方面",
+        "Opinion": "要求归还或停止",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为或言语让其感到愤怒"
+    },
+    {
+        "sentence": "朱科长，他竟然敢打我！",
+        "Holder": "6",
+        "Target": "8",
+        "Aspect": "行为",
+        "Opinion": "对方打了自己",
+        "Sentiment": "negative",
+        "Rationale": "对方动手打人"
+    },
+    {
+        "sentence": "闭嘴吧！",
+        "Holder": "7",
+        "Target": "6",
+        "Aspect": "言语",
+        "Opinion": "要求停止说话",
+        "Sentiment": "negative",
+        "Rationale": "对方持续的抱怨和告状让自己感到厌烦"
+    },
+    {
+        "sentence": "你个败家娘们，你敢招惹齐家？不想活了！",
+        "Holder": "7",
+        "Target": "8",
+        "Aspect": "行为",
+        "Opinion": "招惹齐家",
+        "Sentiment": "negative",
+        "Rationale": "因为说话人7认为8招惹了齐家，这种行为非常不明智，可能会带来严重后果，所以表现出强烈的愤怒和不满"
+    },
+    {
+        "sentence": "持有齐家信物者，便是我们齐家的贵宾！",
+        "Holder": "8",
+        "Target": "齐家信物持有者",
+        "Aspect": "身份",
+        "Opinion": "是贵宾",
+        "Sentiment": "positive",
+        "Rationale": "因为持有齐家信物，按照齐家的规矩，这样的人会被视为贵宾，所以8表达了对这一身份的肯定和尊重"
+    },
+    {
+        "sentence": "他是个屁的贵宾，不过就是老娘不要的废物罢了。",
+        "Holder": "6",
+        "Target": "他",
+        "Aspect": "价值",
+        "Opinion": "无价值",
+        "Sentiment": "negative",
+        "Rationale": "因为6认为他是无用的废物，所以用极其贬低的语言来表达自己的轻蔑和不屑"
+    },
+    {
+        "sentence": "齐家动动手指头我们就得消失。",
+        "Holder": "7",
+        "Target": "齐家",
+        "Aspect": "齐家的影响力",
+        "Opinion": "齐家权力巨大",
+        "Sentiment": "negative",
+        "Rationale": "齐家具有极大的权力，轻易就能让他们消失"
+    },
+    {
+        "sentence": "天骄大人，我们错了，你原谅我们吧。",
+        "Holder": "7",
+        "Target": "天骄大人",
+        "Aspect": "请求原谅",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "知道自己做错了事，害怕受到惩罚"
+    },
+    {
+        "sentence": "你们两个要是还想继续参加鉴宝大会的话，就立马给这位先生道歉！",
+        "Holder": "8",
+        "Target": "说话人 7 和另一位",
+        "Aspect": "道歉的要求",
+        "Opinion": "必须道歉",
+        "Sentiment": "negative",
+        "Rationale": "如果不道歉就无法继续参加鉴宝大会"
+    },
+    {
+        "sentence": "给他道个屁道个屁！",
+        "Holder": "6",
+        "Target": "道歉的要求",
+        "Aspect": "拒绝道歉",
+        "Opinion": "坚决不道歉",
+        "Sentiment": "negative",
+        "Rationale": "对道歉的要求感到愤怒和不服"
+    },
+    {
+        "sentence": "不知道这位先生怎么称呼啊？",
+        "Holder": "8",
+        "Target": "5",
+        "Aspect": "称呼",
+        "Opinion": "询问称呼",
+        "Sentiment": "neutral",
+        "Rationale": "只是礼貌地询问对方的称呼"
+    },
+    {
+        "sentence": "我叫陈阳。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "自我介绍",
+        "Opinion": "提供姓名",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地自我介绍"
+    },
+    {
+        "sentence": "陈先生好眼力，竟然能从众花中寻得珍宝。",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "眼力",
+        "Opinion": "赞赏",
+        "Sentiment": "positive",
+        "Rationale": "对陈先生的眼力表示赞赏"
+    },
+    {
+        "sentence": "不知陈先生可有婚配？",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "婚姻状况",
+        "Opinion": "询问婚姻状况",
+        "Sentiment": "neutral",
+        "Rationale": "只是好奇地询问对方的婚姻状况"
+    },
+    {
+        "sentence": "这位小姐，你。",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "称呼与回应",
+        "Opinion": "略显尴尬的回应",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方突然询问婚姻状况，感到有些尴尬"
+    },
+    {
+        "sentence": "对了，我差点忘了，您还有一个没有解决的未婚妻。",
+        "Holder": "3",
+        "Target": "未婚妻问题",
+        "Aspect": "未婚妻的存在",
+        "Opinion": "未婚妻未解决",
+        "Sentiment": "neutral",
+        "Rationale": "提到一个未解决的事实"
+    },
+    {
+        "sentence": "不如这样，我不要那3万块钱彩礼，你娶我怎么样？",
+        "Holder": "3",
+        "Target": "婚姻提议",
+        "Aspect": "彩礼和婚姻",
+        "Opinion": "放弃彩礼求婚",
+        "Sentiment": "positive",
+        "Rationale": "提出放弃彩礼来求婚"
+    },
+    {
+        "sentence": "不好意思啊，我已经有想娶的人了。",
+        "Holder": "5",
+        "Target": "婚姻选择",
+        "Aspect": "已有心仪对象",
+        "Opinion": "已有想娶的人",
+        "Sentiment": "negative",
+        "Rationale": "已经有心仪对象"
+    },
+    {
+        "sentence": "大小姐别闹了，准备入场了。",
+        "Holder": "8",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为在闹",
+        "Sentiment": "negative",
+        "Rationale": "认为3在无理取闹"
+    },
+    {
+        "sentence": "真没意思。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "趣味性",
+        "Opinion": "觉得无趣",
+        "Sentiment": "negative",
+        "Rationale": "被拒绝且被催促"
+    },
+    {
+        "sentence": "没想到那个美女竟然是齐家大小姐！",
+        "Holder": "1",
+        "Target": "那个美女",
+        "Aspect": "身份",
+        "Opinion": "惊讶于身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现美女的真实身份是齐家大小姐"
+    },
+    {
+        "sentence": "阳哥，你这艳福不浅啊，哈哈哈。",
+        "Holder": "1",
+        "Target": "阳哥",
+        "Aspect": "艳福",
+        "Opinion": "艳福不浅",
+        "Sentiment": "positive",
+        "Rationale": "阳哥与美女有接触"
+    },
+    {
+        "sentence": "去！你回去可不敢跟子薇胡说。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "言论",
+        "Opinion": "不要胡说",
+        "Sentiment": "negative",
+        "Rationale": "担心1回去后会跟子薇乱说"
+    }
+]

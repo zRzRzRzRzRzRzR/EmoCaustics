@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "生日礼物准备引发的家庭互动",
+        "emotions": [
+          {"state": "positive", "reason": "调侃2藏礼物的方式", "source_id": "2"},
+          {"state": "negative", "reason": "发现礼物被提前暴露", "source_id": "2"},
+          {"state": "positive", "reason": "认可孩子的用心准备", "source_id": "3,4,5"}
+        ]
+      },
+      {
+        "event": "家庭成员行为管理冲突",
+        "emotions": [
+          {"state": "negative", "reason": "反对4用窗帘做裙子", "source_id": "4"},
+          {"state": "neutral", "reason": "妥协并建议买布料", "source_id": "4"},
+          {"state": "negative", "reason": "制止5的恶作剧行为", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "生日惊喜揭晓过程",
+        "emotions": [
+          {"state": "positive", "reason": "期待看到礼物", "source_id": "2"},
+          {"state": "negative", "reason": "被拒绝即时查看礼物", "source_id": "2"},
+          {"state": "positive", "reason": "最终获得情感满足", "source_id": "2,3,4,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "策划生日惊喜被破坏",
+        "emotions": [
+          {"state": "negative", "reason": "惊喜计划被1提前发现", "source_id": "1"},
+          {"state": "positive", "reason": "成功完成礼物组装", "source_id": "3"},
+          {"state": "ambiguous", "reason": "暗示对1反应的期待", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭日常事务协调",
+        "emotions": [
+          {"state": "neutral", "reason": "处理3的礼物请求", "source_id": "3"},
+          {"state": "positive", "reason": "成功修复洋娃娃", "source_id": "3"},
+          {"state": "neutral", "reason": "安排家庭用餐时间", "source_id": "1,3,4,5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "礼物准备与社交关系处理",
+        "emotions": [
+          {"state": "positive", "reason": "成功准备教师节礼物", "source_id": "2"},
+          {"state": "negative", "reason": "礼物被4误毁", "source_id": "4"},
+          {"state": "positive", "reason": "及时完成转学礼物", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "手工制作引发的矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "自制裙子被批评", "source_id": "1"},
+          {"state": "negative", "reason": "修改后效果仍不理想", "source_id": "1"},
+          {"state": "neutral", "reason": "接受购买建议", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "童真行为引发的管教",
+        "emotions": [
+          {"state": "positive", "reason": "创意使用毛巾被", "source_id": "1"},
+          {"state": "negative", "reason": "被制止恶作剧", "source_id": "1"},
+          {"state": "neutral", "reason": "完成国际礼物寄送", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

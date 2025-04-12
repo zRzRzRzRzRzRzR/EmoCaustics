@@ -1,0 +1,82 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "内衣秀观看体验争议",
+        "emotions": [
+          {"state": "positive", "reason": "高度评价内衣秀的劲爆程度", "source_id": "1"},
+          {"state": "negative", "reason": "质疑第二场内衣秀的变化价值", "source_id": "3"},
+          {"state": "neutral", "reason": "解释自己首次观看的客观事实", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "团队界限冲突与道歉危机",
+        "emotions": [
+          {"state": "positive", "reason": "坚持三人团队共同行动", "source_id": "2"},
+          {"state": "negative", "reason": "被划清界限后产生孤立感", "source_id": "2,3"},
+          {"state": "negative", "reason": "尝试突破物理界限时产生挫败感", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "卡门道歉法实践",
+        "emotions": [
+          {"state": "positive", "reason": "自信新型道歉方式有效性", "source_id": "1"},
+          {"state": "negative", "reason": "身体受困与心理压力双重打击", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "友情承诺与责任承担",
+        "emotions": [
+          {"state": "positive", "reason": "强调兄弟情谊永恒性", "source_id": "1,3"},
+          {"state": "negative", "reason": "自责引发连锁负面效应", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "团队决策与界限管理",
+        "emotions": [
+          {"state": "neutral", "reason": "建议选择性参与活动", "source_id": "2"},
+          {"state": "negative", "reason": "对1的非常规行为产生质疑", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "社交边界维护",
+        "emotions": [
+          {"state": "negative", "reason": "感知团队排斥行为", "source_id": "1,2,3"},
+          {"state": "neutral", "reason": "采取物理隔离手段", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "突发状况观察",
+        "emotions": [
+          {"state": "neutral", "reason": "客观记录异常现象", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "问题解决参与",
+        "emotions": [
+          {"state": "neutral", "reason": "提供技术性解决方案", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "反驳辩方观点与教育方式争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "首尔姐案例脱离真实贫困群体困境",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑'家贫'作为教育前提的合理性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "贫困童年经历的心理创伤",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "罐头价格等同饭钱/长期消费恐惧/贫穷思维固化",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "家庭情感教育缺陷",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "经济抱怨引发债务式亲情/过早懂事压抑童真",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "社会痛苦认知批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "社会强加快乐面具/痛苦表达受阻",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "痛苦作为成长裂痕的价值确认",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "关键话题沟通范式辩论",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "职业告知与心理承受的伦理困境",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "隐瞒行为造成代际信任危机",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "坦诚对话构建亲子认知同频",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭沟通模式解构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "'牺牲剧本'加剧情感疏离",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "共享欲望实现代际情绪共鸣",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "群体关系认知探索",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "归属感概念的本质追问",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "快乐终端化导致的体验缺失",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "辛苦历程构建的真实快乐认知",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "回答我几个问题，你对夏天心动了吗？",
+        "Holder": "1",
+        "Target": "夏天",
+        "Aspect": "情感反应",
+        "Opinion": "询问是否心动",
+        "Sentiment": "neutral",
+        "Rationale": "1只是单纯地询问2对夏天的感受"
+    },
+    {
+        "sentence": "那比心动还麻烦。",
+        "Holder": "1",
+        "Target": "心烦情绪",
+        "Aspect": "情绪影响",
+        "Opinion": "心烦比心动更麻烦",
+        "Sentiment": "negative",
+        "Rationale": "1认为心烦情绪比心动更难以处理"
+    },
+    {
+        "sentence": "你的这种情绪就会像毒素一样在你的身体里，你得把它排出去。",
+        "Holder": "1",
+        "Target": "心烦情绪",
+        "Aspect": "情绪影响",
+        "Opinion": "心烦情绪像毒素需要排出",
+        "Sentiment": "negative",
+        "Rationale": "1将心烦情绪比喻为毒素，认为其对2有害"
+    },
+    {
+        "sentence": "那我怎么排出去啊？",
+        "Holder": "2",
+        "Target": "心烦情绪",
+        "Aspect": "解决方法",
+        "Opinion": "询问如何排解心烦",
+        "Sentiment": "neutral",
+        "Rationale": "2在寻求解决心烦情绪的方法"
+    },
+    {
+        "sentence": "最直接的方法就是找上门去啊。",
+        "Holder": "1",
+        "Target": "找上门的方法",
+        "Aspect": "方法的直接性",
+        "Opinion": "找上门是最直接的",
+        "Sentiment": "neutral",
+        "Rationale": "1在提出一个直接解决问题的方法"
+    },
+    {
+        "sentence": "格尔你别损我了。我凭什么去找他呀？",
+        "Holder": "2",
+        "Target": "1的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "不认同找上门",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的建议是在损他"
+    },
+    {
+        "sentence": "你说凭什么，难不成你还怕被关在门外啊？",
+        "Holder": "1",
+        "Target": "2的顾虑",
+        "Aspect": "顾虑的合理性",
+        "Opinion": "认为2的顾虑不合理",
+        "Sentiment": "neutral",
+        "Rationale": "1在质疑2的顾虑"
+    },
+    {
+        "sentence": "我不是这个意思。",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "误解的内容",
+        "Opinion": "澄清自己的意思",
+        "Sentiment": "neutral",
+        "Rationale": "2在澄清1的误解"
+    },
+    {
+        "sentence": "知道郝主任为什么变了吗？",
+        "Holder": "1",
+        "Target": "郝主任的变化",
+        "Aspect": "变化的原因",
+        "Opinion": "询问变化原因",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问一个具体的问题"
+    },
+    {
+        "sentence": "不知道。",
+        "Holder": "2",
+        "Target": "恋爱情况",
+        "Aspect": "知情程度",
+        "Opinion": "不知情",
+        "Sentiment": "neutral",
+        "Rationale": "对恋爱情况确实不了解"
+    },
+    {
+        "sentence": "别人不知道你都应该知道，因为你跟她一样，你们俩都找到恋爱的感觉了。",
+        "Holder": "1",
+        "Target": "2的恋爱情况",
+        "Aspect": "知情责任",
+        "Opinion": "应该知情",
+        "Sentiment": "positive",
+        "Rationale": "认为2和刘小怜有相似的经历"
+    },
+    {
+        "sentence": "郝主任跟谁恋爱了？",
+        "Holder": "2",
+        "Target": "郝主任的恋爱对象",
+        "Aspect": "具体对象",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对郝主任的恋爱对象确实不清楚"
+    },
+    {
+        "sentence": "刘小怜，你能不能动动你的脑子，你说他跟谁？",
+        "Holder": "1",
+        "Target": "2的思考能力",
+        "Aspect": "思考能力",
+        "Opinion": "需要思考",
+        "Sentiment": "negative",
+        "Rationale": "认为2没有认真思考"
+    },
+    {
+        "sentence": "不会吧。",
+        "Holder": "2",
+        "Target": "郝主任和刘小怜的恋爱情况",
+        "Aspect": "可能性",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对郝主任和刘小怜恋爱的消息感到意外"
+    },
+    {
+        "sentence": "你今天这样有点吓人啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为表现",
+        "Opinion": "吓人",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让2感到不安"
+    },
+    {
+        "sentence": "你刚才说你心烦，其实是恼火，夏天忽然失踪，电话不通，好不容易找着人了吧，他还含糊其词，什么都不说。",
+        "Holder": "1",
+        "Target": "夏天",
+        "Aspect": "行为和沟通",
+        "Opinion": "恼火",
+        "Sentiment": "negative",
+        "Rationale": "夏天突然失踪且电话不通，找到后又不说清楚"
+    },
+    {
+        "sentence": "他不说肯定有他的道理。",
+        "Holder": "2",
+        "Target": "夏天的沉默",
+        "Aspect": "沉默的原因",
+        "Opinion": "有道理",
+        "Sentiment": "neutral",
+        "Rationale": "认为夏天不说话可能有他的理由"
+    },
+    {
+        "sentence": "这事儿你可以接受，但是他去福州的事儿就不一样了。你想要一个解释，对吗？你知道他去福州？",
+        "Holder": "1",
+        "Target": "夏天去福州",
+        "Aspect": "行为的合理性",
+        "Opinion": "需要解释",
+        "Sentiment": "doubt",
+        "Rationale": "认为夏天去福州的事情需要解释"
+    },
+    {
+        "sentence": "嗯，我知道。",
+        "Holder": "2",
+        "Target": "夏天去福州",
+        "Aspect": "知情情况",
+        "Opinion": "知道",
+        "Sentiment": "neutral",
+        "Rationale": "确实知道夏天去福州的事情"
+    },
+    {
+        "sentence": "他事先没有告诉你，事后他也不主动提起，你问他，他也什么都不说。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "沟通方式",
+        "Opinion": "不主动沟通",
+        "Sentiment": "negative",
+        "Rationale": "他没有事先告知，事后也不主动说明"
+    },
+    {
+        "sentence": "你什么都知道啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "信息了解程度",
+        "Opinion": "质疑1的了解程度",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对1所掌握的信息感到惊讶和怀疑"
+    },
+    {
+        "sentence": "我知道他是去福州找你的。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "行动目的",
+        "Opinion": "知道他的行动目的",
+        "Sentiment": "neutral",
+        "Rationale": "2陈述了一个已知的事实"
+    },
+    {
+        "sentence": "聪明一回。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "智力表现",
+        "Opinion": "认可2的聪明",
+        "Sentiment": "positive",
+        "Rationale": "1认为2这次表现得聪明"
+    },
+    {
+        "sentence": "他喜欢你，你也喜欢他？",
+        "Holder": "2",
+        "Target": "1和他",
+        "Aspect": "感情关系",
+        "Opinion": "询问感情状态",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对1和他之间的感情关系不确定"
+    },
+    {
+        "sentence": "你们俩打算什么时候告诉我啊？",
+        "Holder": "2",
+        "Target": "1和丁格尔",
+        "Aspect": "告知时间",
+        "Opinion": "希望尽快告知",
+        "Sentiment": "neutral",
+        "Rationale": "2想知道某些信息，但没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "丁格尔，我是认真的，你不要再笑了，你要再笑，我真的生气了！",
+        "Holder": "2",
+        "Target": "丁格尔",
+        "Aspect": "态度认真性",
+        "Opinion": "要求停止笑",
+        "Sentiment": "negative",
+        "Rationale": "丁格尔的笑让2感到不被重视"
+    },
+    {
+        "sentence": "他特意来福州找我，是为了你。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "来福州的目的",
+        "Opinion": "为了2而来",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他对你的心意从开始到现在就没有变过，只是他不知道该怎么办。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "心意和行动",
+        "Opinion": "心意不变但不知所措",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释他的心理状态，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你跟吴楠分手那会儿，他就想向你表白，可是他又怕有乘人之危的嫌疑，也怕你拒绝他。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "表白犹豫的原因",
+        "Opinion": "担心乘人之危和被拒绝",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释他的犹豫原因，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他也觉得当时的他还不够好。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "自我评价",
+        "Opinion": "不够好",
+        "Sentiment": "negative",
+        "Rationale": "他对自己当时的状况不满意"
+    },
+    {
+        "sentence": "真的假的？",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对1的话感到不确定"
+    },
+    {
+        "sentence": "丁格尔，你能不能不要再拿这件事情开玩笑！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "开玩笑的频率",
+        "Opinion": "停止开玩笑",
+        "Sentiment": "negative",
+        "Rationale": "1多次拿这件事情开玩笑"
+    },
+    {
+        "sentence": "你刚才也拿这件事情跟我开玩笑了，你说我们俩是不是在一起了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "开玩笑的内容",
+        "Opinion": "同样开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "指出2也开过类似的玩笑"
+    },
+    {
+        "sentence": "我，我凭什么看上他呀？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "看上他的理由",
+        "Opinion": "没有理由看上他",
+        "Sentiment": "negative",
+        "Rationale": "觉得没有理由看上他"
+    },
+    {
+        "sentence": "是我想多了？",
+        "Holder": "2",
+        "Target": "自己的想法",
+        "Aspect": "想法的正确性",
+        "Opinion": "怀疑自己的想法",
+        "Sentiment": "doubt",
+        "Rationale": "不确定自己的想法是否正确"
+    },
+    {
+        "sentence": "哎呀，我都不知道你哪句是真的，哪句是假的。",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "难以分辨真假",
+        "Sentiment": "negative",
+        "Rationale": "难以分辨1的话哪句是真哪句是假"
+    },
+    {
+        "sentence": "他专程来福州找我，是想要个主意，问我应该怎么办。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "来找1的目的",
+        "Opinion": "寻求建议",
+        "Sentiment": "neutral",
+        "Rationale": "描述了他来找1的目的"
+    },
+    {
+        "sentence": "我说好马不吃回头草，要不然你俩还是算了吧。",
+        "Holder": "1",
+        "Target": "他和1的关系",
+        "Aspect": "关系的建议",
+        "Opinion": "建议放弃",
+        "Sentiment": "neutral",
+        "Rationale": "给出了一个中肯的建议"
+    },
+    {
+        "sentence": "刘小怜现在呀确确实实喜欢真正的城里人，喜欢文明，喜欢浪漫，你夏天好像是差点劲儿。",
+        "Holder": "1",
+        "Target": "刘小怜",
+        "Aspect": "喜好",
+        "Opinion": "喜欢城里人、文明、浪漫",
+        "Sentiment": "positive",
+        "Rationale": "刘小怜喜欢城里人、文明和浪漫"
+    },
+    {
+        "sentence": "你夏天好像是差点劲儿。",
+        "Holder": "1",
+        "Target": "夏天",
+        "Aspect": "能力或魅力",
+        "Opinion": "差点劲儿",
+        "Sentiment": "negative",
+        "Rationale": "认为夏天在某些方面不够出色"
+    },
+    {
+        "sentence": "你真这么说的？",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对1的话感到意外和不相信"
+    },
+    {
+        "sentence": "哎呀，你怎么能这么说呢！",
+        "Holder": "2",
+        "Target": "1的话",
+        "Aspect": "合理性",
+        "Opinion": "不应该这么说",
+        "Sentiment": "negative",
+        "Rationale": "认为1的话不合理且带有贬义"
+    },
+    {
+        "sentence": "对呀，我怎么能这么说呢？我这不是为了逗你玩儿吗？",
+        "Holder": "1",
+        "Target": "自己的话",
+        "Aspect": "意图",
+        "Opinion": "为了逗乐",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己是为了逗乐而说的"
+    },
+    {
+        "sentence": "丁格尔，你。哎呀你到底怎么回事！我真的你弄糊涂了！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "让人糊涂",
+        "Sentiment": "negative",
+        "Rationale": "1的行为和话语让人感到困惑"
+    },
+    {
+        "sentence": "我跟他说，如果你真的喜欢她，就去表白吧。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "情感表达",
+        "Opinion": "建议表白",
+        "Sentiment": "neutral",
+        "Rationale": "1在给出建议"
+    },
+    {
+        "sentence": "干嘛去啊？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "行动意图",
+        "Opinion": "询问意图",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问对方的意图"
+    },
+    {
+        "sentence": "听你的，表白！",
+        "Holder": "2",
+        "Target": "1的建议",
+        "Aspect": "行动决策",
+        "Opinion": "接受建议",
+        "Sentiment": "positive",
+        "Rationale": "2决定按照1的建议去表白"
+    }
+]

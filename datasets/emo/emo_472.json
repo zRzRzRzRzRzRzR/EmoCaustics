@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "教育原则冲突与责任归因",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责2纵容孩子、质疑其经济能力、揭露2原生家庭矛盾",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "对2的质问表示困惑",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "家庭作息管理",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "不满3晚归影响作息",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育理念对抗与心理剖析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对过度教育压力、指控1推卸责任、自承妥协让步",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭日常互动",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "常规归家行为",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

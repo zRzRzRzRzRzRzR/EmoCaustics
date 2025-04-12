@@ -1,0 +1,41 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "商业合作矛盾激化",
+        "emotions": [
+          {"state": "neutral", "reason": "声明商人身份定位", "source_id": "1"},
+          {"state": "negative", "reason": "被拒绝商业合作+被质疑利用老书记旗号", "source_id": "2"},
+          {"state": "neutral", "reason": "提出补偿要求", "source_id": "2"},
+          {"state": "negative", "reason": "面子受损+道德质疑", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "陈清泉事件斡旋",
+        "emotions": [
+          {"state": "neutral", "reason": "请求释放陈清泉", "source_id": "2"},
+          {"state": "negative", "reason": "请求被拒绝且决策已定", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "拆除纠纷处理",
+        "emotions": [
+          {"state": "negative", "reason": "认定美食城污染需拆除", "source_id": "1"},
+          {"state": "negative", "reason": "指责1导致老爷子住院", "source_id": "1"},
+          {"state": "positive", "reason": "肯定拆除决策公正性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "权力边界争议",
+        "emotions": [
+          {"state": "negative", "reason": "批评1越权干预政务", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝补偿协商请求", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

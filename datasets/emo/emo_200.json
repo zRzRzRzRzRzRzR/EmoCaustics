@@ -1,0 +1,78 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "咨询费用争议",
+        "emotions": [
+          {"state": "neutral", "reason": "确认免费咨询性质", "source_id": "1"},
+          {"state": "positive", "reason": "主动强调服务公益性", "source_id": "1"},
+          {"state": "negative", "reason": "对报酬要求感到不合理", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "行为意图误解",
+        "emotions": [
+          {"state": "negative", "reason": "误判物理攻击威胁", "source_id": "2"},
+          {"state": "neutral", "reason": "澄清游戏行为本质", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭问题调解",
+        "emotions": [
+          {"state": "negative", "reason": "担忧青少年心理状态", "source_id": "2"},
+          {"state": "positive", "reason": "见证家庭和解过程", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "经济价值冲突",
+        "emotions": [
+          {"state": "ambiguous", "reason": "质疑免费服务动机", "source_id": "1"},
+          {"state": "negative", "reason": "需求未获经济满足", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "自我价值认知",
+        "emotions": [
+          {"state": "negative", "reason": "自责学费滥用行为", "source_id": "4"},
+          {"state": "positive", "reason": "获得家庭情感支持", "source_id": "4,6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "亲子关系修复",
+        "emotions": [
+          {"state": "positive", "reason": "实施宽容教育策略", "source_id": "2"},
+          {"state": "positive", "reason": "见证行为改善承诺", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "教育模式改革",
+        "emotions": [
+          {"state": "positive", "reason": "采用非暴力管教方式", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "社会认可事件",
+        "emotions": [
+          {"state": "positive", "reason": "筹备荣誉表彰仪式", "source_id": "1"},
+          {"state": "negative", "reason": "发生物品准备失误", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

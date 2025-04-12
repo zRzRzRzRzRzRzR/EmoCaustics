@@ -1,0 +1,48 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "礼物赠送与意图质疑",
+        "emotions": [
+          {"state": "positive", "reason": "赠送土特产", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑贿赂意图", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "西服定制与灌醉争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指责故意灌醉量尺寸", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "违法指控与关系破裂",
+        "emotions": [
+          {"state": "negative", "reason": "指控偷税行贿", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "贵重礼物收受争议",
+        "emotions": [
+          {"state": "negative", "reason": "质疑中华烟茅台酒意图", "source_id": "1"},
+          {"state": "neutral", "reason": "同意保留部分礼物", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "量身定做西服真相",
+        "emotions": [
+          {"state": "negative", "reason": "发现被灌醉量尺寸", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "违法指控应对",
+        "emotions": [
+          {"state": "negative", "reason": "被指控偷税行贿", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

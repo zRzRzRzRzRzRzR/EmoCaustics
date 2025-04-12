@@ -1,0 +1,56 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "性别气质与社会压力下的生存困境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "叶志勇因性别气质被打压选择自杀；生存困难案例引发共鸣",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑与主流一致即可省力的逻辑",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "智慧选择与自我实现的可能",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "否定鼓励极端对抗的立场",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张智慧周旋实现自我选择；强调方法论可行性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "人生阶段与自我认同的冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认心理障碍的客观存在",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "无法继续迎合社会标准的挫败感",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "通过选择定义自我的价值主张",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

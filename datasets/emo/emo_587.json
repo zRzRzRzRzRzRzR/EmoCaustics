@@ -1,0 +1,156 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "案件法律框架陈述",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观描述职业安全案件的核心法律争议",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "司法管辖权争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释《行政程序法》的司法裁量权",
+            "source_id": "3,4,5"
+          },
+          {
+            "state": "positive",
+            "reason": "引用Grubbs案件支持多元管辖权",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "反对立即撤销安全规定引发混乱",
+            "source_id": "3,5"
+          }
+        ]
+      },
+      {
+        "event": "法律救济方案辩论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出部分撤销与平衡裁定方案",
+            "source_id": "3,5"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑答辩方选择性操作法律条款",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "程序正当性质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑律师团队延迟提出管辖缺陷",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "要求解释救济措施未实施原因",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "宪法救济权审查",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "探讨国会权力与司法救济关系",
+            "source_id": "5,6"
+          },
+          {
+            "state": "negative",
+            "reason": "反对缺乏事实基础的规则撤销",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "法律术语司法解释",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质询'撤销'术语的多重法律含义",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对法院规则解释一致性存疑",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "救济措施可行性评估",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "探讨全新审查标准差异",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑普遍禁令适用边界",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "宪法第三条适用争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调伤害与救济比例原则",
+            "source_id": "3,5"
+          },
+          {
+            "state": "negative",
+            "reason": "反对缺乏事实依据的规则废除",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "补救裁量权界定",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用东湾案例支持灵活救济",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

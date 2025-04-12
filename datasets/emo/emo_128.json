@@ -1,0 +1,90 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学前教育质量评价体系构建论坛开幕",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调评估指南对改革的指导作用，介绍权威专家阵容",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "学术报告总结与启示",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "高度评价冯晓霞对过程质量核心地位的阐释",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育过程质量核心地位论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "系统论证教育过程对儿童发展的直接影响，引用OECD等国际研究成果",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "结构质量局限性分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观分析硬件设施和师资条件对质量的间接作用机制",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "评估方式科学化改革",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判直接测试儿童能力导致的教育目标偏移风险",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导增值性评价和班级观察的常态化实施",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "师幼互动质量提升路径",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出共同思考理论框架，结合CLASS评估系统实践案例",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "幼儿园自我评估机制建设",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "论证外部评估与日常教研结合的可行性方案",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调教师专业自主权对质量持续改进的决定作用",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

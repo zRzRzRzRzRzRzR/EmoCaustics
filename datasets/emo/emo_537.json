@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "新冠疫情对毕业生就业的双重影响",
+        "emotions": [
+          {"state": "negative", "reason": "疫情导致制造业停滞和经济影响", "source_id": "1"},
+          {"state": "neutral", "reason": "分析影响的两面性特征", "source_id": "1"},
+          {"state": "positive", "reason": "国家疫情控制和就业率稳定预期", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "专业与社会需求契合度探讨",
+        "emotions": [
+          {"state": "positive", "reason": "强调不同专业的社会价值", "source_id": "3"},
+          {"state": "neutral", "reason": "回应学科分类的客观分析", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "产业结构升级的就业效应辩论",
+        "emotions": [
+          {"state": "positive", "reason": "新岗位创造与历史经验验证", "source_id": "3,7"},
+          {"state": "positive", "reason": "劳动密集型产业转型案例佐证", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "研究生扩招政策有效性质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "提出数量与质量的比例问题", "source_id": "2"},
+          {"state": "negative", "reason": "学历优势稀释的长期担忧", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "高等教育扩张的负面效应论证",
+        "emotions": [
+          {"state": "negative", "reason": "供需失衡与技能错配数据支撑", "source_id": "5"},
+          {"state": "negative", "reason": "社会保障体系缺失的脆弱性", "source_id": "5,8"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "高端人才缺口论辩",
+        "emotions": [
+          {"state": "positive", "reason": "企业发展需求与长期视角论证", "source_id": "4"},
+          {"state": "positive", "reason": "大学培养机制有效性辩护", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "就业竞争数据实证分析",
+        "emotions": [
+          {"state": "positive", "reason": "提供具体企业院校数据支撑", "source_id": "3,9"}
+        ]
+      }
+    ]
+  }
+}

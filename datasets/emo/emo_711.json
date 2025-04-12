@@ -1,0 +1,46 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "报名未成功的责任争执",
+        "emotions": [
+          {"state": "neutral", "reason": "询问错过报名原因", "source_id": "2"},
+          {"state": "negative", "reason": "被指睡觉导致错过报名", "source_id": "2"},
+          {"state": "negative", "reason": "指出对方拍照导致共同错过", "source_id": "2"},
+          {"state": "negative", "reason": "无法共同报名的规则限制", "source_id": "2"},
+          {"state": "neutral", "reason": "放弃报名的最终决定", "source_id": "2"},
+          {"state": "positive", "reason": "坚持自身言论正确性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "沟通冲突升级",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑表达能力", "source_id": "2"},
+          {"state": "negative", "reason": "被指责阴阳怪气", "source_id": "2"},
+          {"state": "negative", "reason": "自嘲应对负面评价", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "责任归属的认知差异",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述未接电话事实", "source_id": "1"},
+          {"state": "negative", "reason": "被多次归咎拍照安排", "source_id": "1"},
+          {"state": "negative", "reason": "质疑对方表述矛盾", "source_id": "1"},
+          {"state": "neutral", "reason": "确认报名自主可能性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "负面评价的相互指摘",
+        "emotions": [
+          {"state": "negative", "reason": "被归咎粉丝负面评价", "source_id": "1"},
+          {"state": "negative", "reason": "被指刁蛮任性质疑", "source_id": "1"},
+          {"state": "neutral", "reason": "澄清言论指向性要求", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

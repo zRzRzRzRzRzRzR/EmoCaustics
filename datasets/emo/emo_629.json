@@ -1,0 +1,84 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "老年代步车生产端规范争议",
+        "emotions": [
+          {"state": "neutral", "reason": "主张规范应从源头抓起", "source_id": "6"},
+          {"state": "positive", "reason": "支持逐步完善引导购买规范车辆", "source_id": "1"},
+          {"state": "neutral", "reason": "认同风险长期存在需循序渐进", "source_id": "6,5"}
+        ]
+      },
+      {
+        "event": "老年人补偿措施优先级讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "主张优先解决生产端问题", "source_id": "6"},
+          {"state": "neutral", "reason": "强调政策推进需考虑实效性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "代步车乱象根源治理方案",
+        "emotions": [
+          {"state": "negative", "reason": "批评生产端监管缺失", "source_id": "3"},
+          {"state": "positive", "reason": "提出厂家回收补贴方案", "source_id": "6"},
+          {"state": "neutral", "reason": "认同快速见效原则", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "政策宣传有效性争议",
+        "emotions": [
+          {"state": "neutral", "reason": "主张媒体社区双轨宣传", "source_id": "3"},
+          {"state": "neutral", "reason": "强调宣传需结合具体对策", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "老年人核心需求定位分歧",
+        "emotions": [
+          {"state": "negative", "reason": "质疑乱象对策忽视根本需求", "source_id": "6"},
+          {"state": "positive", "reason": "强调保险服务保障作用", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "监管体系完善路径讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "建议政府加强服务监管", "source_id": "6"},
+          {"state": "neutral", "reason": "支持生产规范优先策略", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "代步车问题解决方案时效性评估",
+        "emotions": [
+          {"state": "positive", "reason": "认可源头治理效率", "source_id": "6"},
+          {"state": "neutral", "reason": "提醒关注弱势群体权益", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "现存代步车处置矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "主张优先补偿现有用户", "source_id": "6"},
+          {"state": "neutral", "reason": "强调问题复杂需系统解决", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

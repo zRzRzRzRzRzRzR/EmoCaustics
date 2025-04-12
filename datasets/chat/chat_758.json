@@ -1,0 +1,200 @@
+[
+    {
+        "sentence": "刘新建你给我坐下。",
+        "Holder": "1",
+        "Target": "刘新建",
+        "Aspect": "行为要求",
+        "Opinion": "要求坐下",
+        "Sentiment": "neutral",
+        "Rationale": "需要与刘新建进行单独谈话"
+    },
+    {
+        "sentence": "别过来，我就跳下去！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为反应",
+        "Opinion": "拒绝配合",
+        "Sentiment": "negative",
+        "Rationale": "因为刘新建感到被逼迫，所以用跳楼来威胁，拒绝配合对方的要求"
+    },
+    {
+        "sentence": "你们出去，我和刘总单独谈谈。",
+        "Holder": "1",
+        "Target": "其他人",
+        "Aspect": "谈话安排",
+        "Opinion": "需要单独谈话",
+        "Sentiment": "neutral",
+        "Rationale": "因为需要私密空间进行严肃谈话，所以要求其他人离开"
+    },
+    {
+        "sentence": "刘总在部队当过侦察员，还救过火场里的孩子，立过三等功。",
+        "Holder": "1",
+        "Target": "刘新建",
+        "Aspect": "背景介绍",
+        "Opinion": "强调过去的功绩",
+        "Sentiment": "positive",
+        "Rationale": "因为提及刘新建过去的英勇事迹，所以语气中带有赞扬的意味"
+    },
+    {
+        "sentence": "但你今天如果拒捕自杀，这脸可就丢大了。",
+        "Holder": "1",
+        "Target": "刘新建",
+        "Aspect": "行为后果",
+        "Opinion": "警告后果严重",
+        "Sentiment": "negative",
+        "Rationale": "因为指出刘新建如果拒捕自杀将名誉扫地，所以语气严厉，带有警告意味"
+    },
+    {
+        "sentence": "你如何面对你地下的长辈？",
+        "Holder": "1",
+        "Target": "刘新建",
+        "Aspect": "道德责任",
+        "Opinion": "质疑其道德担当",
+        "Sentiment": "negative",
+        "Rationale": "因为质问刘新建如何面对已故长辈，所以语气中带有责备和质疑"
+    },
+    {
+        "sentence": "侯县长没少调查我，",
+        "Holder": "1",
+        "Target": "侯县长",
+        "Aspect": "调查行为",
+        "Opinion": "调查频繁",
+        "Sentiment": "neutral",
+        "Rationale": "提到侯县长进行了多次调查"
+    },
+    {
+        "sentence": "你的案子不做调查那是我的失职。",
+        "Holder": "2",
+        "Target": "案子",
+        "Aspect": "调查的必要性",
+        "Opinion": "必须调查",
+        "Sentiment": "neutral",
+        "Rationale": "认为不调查案子是失职"
+    },
+    {
+        "sentence": "我知道你侯亮平你是个狠角色，可你别忘了，我刘新建也不是吃干饭的，没那么简单，",
+        "Holder": "1",
+        "Target": "侯亮平",
+        "Aspect": "性格和能力",
+        "Opinion": "狠角色但自己也不简单",
+        "Sentiment": "negative",
+        "Rationale": "认为对方是狠角色，但强调自己也不弱"
+    },
+    {
+        "sentence": "我建议你想跳就跳，不跳就给我回来，不过我让你跳之前好好想一想，这么跳值不值得？",
+        "Holder": "2",
+        "Target": "刘新建",
+        "Aspect": "决策的合理性",
+        "Opinion": "建议三思",
+        "Sentiment": "neutral",
+        "Rationale": "建议对方在做出决定前深思熟虑"
+    },
+    {
+        "sentence": "我讲义气怎么了？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "讲义气的品质",
+        "Opinion": "坚持讲义气",
+        "Sentiment": "positive",
+        "Rationale": "强调自己讲义气并反问"
+    },
+    {
+        "sentence": "我敢打赌，你只要跳了人还没落地，你就会后悔，袁总。",
+        "Holder": "1",
+        "Target": "袁总",
+        "Aspect": "跳楼的决定",
+        "Opinion": "会后悔",
+        "Sentiment": "negative",
+        "Rationale": "认为跳楼是错误的决定"
+    },
+    {
+        "sentence": "我知道你是老革命的后代，要面子，可这么跳下去就有面子了吗？",
+        "Holder": "1",
+        "Target": "袁总",
+        "Aspect": "跳楼的面子问题",
+        "Opinion": "跳楼没有面子",
+        "Sentiment": "negative",
+        "Rationale": "跳楼不符合老革命后代的身份"
+    },
+    {
+        "sentence": "你爷爷在地下会骂死你，他老人家当年可是打鬼子牺牲的，还有你老荆州最大民族资本家的大传统，生长在金窝，银窝可是视金钱如粪土。",
+        "Holder": "1",
+        "Target": "袁总",
+        "Aspect": "家族传统和荣誉",
+        "Opinion": "跳楼违背家族传统",
+        "Sentiment": "negative",
+        "Rationale": "袁总的家族有光荣传统，跳楼行为会玷污家族荣誉"
+    },
+    {
+        "sentence": "据资料记载，当年荆州党组织的经费都是你姥姥提，你想想你要是这么跳下去死了，你如何面对你姥姥。和你爷爷？",
+        "Holder": "1",
+        "Target": "袁总",
+        "Aspect": "对家族长辈的责任",
+        "Opinion": "无法面对长辈",
+        "Sentiment": "negative",
+        "Rationale": "跳楼会导致无法面对为革命做出贡献的长辈"
+    },
+    {
+        "sentence": "我知道他们是党员，你也是党员，你对比一下你走到今天这一步和他们差了些什么？差的是信仰，因为。",
+        "Holder": "1",
+        "Target": "袁总",
+        "Aspect": "信仰的缺失",
+        "Opinion": "缺乏信仰",
+        "Sentiment": "negative",
+        "Rationale": "袁总的行为显示出缺乏信仰"
+    },
+    {
+        "sentence": "失去了信仰，放屁。",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "信仰的缺失",
+        "Opinion": "不同意失去信仰的说法",
+        "Sentiment": "negative",
+        "Rationale": "对1的观点感到不满和愤怒"
+    },
+    {
+        "sentence": "你才失去信仰了。你知道吗？新中国国家是谁打下来的？是我爷爷我姥姥他们那一辈无产阶级革命家抛头颅洒热血换来的，不是你是坐享其成者，你没资格说你是共产党人吗？你能背得了共产党宣言吗？",
+        "Holder": "1",
+        "Target": "2的信仰",
+        "Aspect": "信仰的坚定性",
+        "Opinion": "2失去信仰",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有为新中国付出努力，只是坐享其成"
+    },
+    {
+        "sentence": "刘总你还能背得了。",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "对共产党宣言的熟悉程度",
+        "Opinion": "质疑1的能力",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的提问，试图通过反问来转移话题"
+    },
+    {
+        "sentence": "共产党宣言请假，一个共产主义的幽灵在欧洲大地上徘徊，为了剿灭这个神圣的幽灵，一切旧势力都团结起来了。教皇沙皇梅特涅吉国，法国的激进派德国的警察都团结起来了，全天津失去的是枷锁，得到的是整个世界。",
+        "Holder": "1",
+        "Target": "共产党宣言",
+        "Aspect": "宣言的内容和意义",
+        "Opinion": "宣言的伟大意义",
+        "Sentiment": "positive",
+        "Rationale": "1通过引用共产党宣言的内容，表达了对共产主义理想的崇敬"
+    },
+    {
+        "sentence": "无产者，你得到了什么。失去的将是整个人生。",
+        "Holder": "2",
+        "Target": "无产者的境遇",
+        "Aspect": "无产者的得失",
+        "Opinion": "无产者失去人生",
+        "Sentiment": "negative",
+        "Rationale": "2认为无产者在革命中失去了很多，甚至整个人生"
+    },
+    {
+        "sentence": "侯亮平你凭什么抓我？你知道我是谁吗？你会后悔吗？侯亮平。",
+        "Holder": "2",
+        "Target": "侯亮平的行为",
+        "Aspect": "抓捕的合理性",
+        "Opinion": "质疑侯亮平的抓捕",
+        "Sentiment": "negative",
+        "Rationale": "2认为侯亮平没有理由抓自己，并且威胁侯亮平会后悔"
+    }
+]

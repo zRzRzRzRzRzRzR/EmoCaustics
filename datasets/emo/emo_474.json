@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "物品归属争议解决",
+        "emotions": [
+          {"state": "negative", "reason": "反对不合理要求", "source_id": "2"},
+          {"state": "positive", "reason": "通过幽默化解矛盾并主动提供帮助", "source_id": "1"},
+          {"state": "positive", "reason": "主张物品所有权合理性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭形象讨论",
+        "emotions": [
+          {"state": "positive", "reason": "对自身形象的满意", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "父女关系修复",
+        "emotions": [
+          {"state": "neutral", "reason": "关心父亲行踪", "source_id": "5"},
+          {"state": "negative", "reason": "对父亲形象的失望", "source_id": "5"},
+          {"state": "positive", "reason": "主动照顾父亲饮食", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "经济观念转变",
+        "emotions": [
+          {"state": "neutral", "reason": "主张食物节约", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "心理疏导与信息传递",
+        "emotions": [
+          {"state": "positive", "reason": "提出心情调节建议", "source_id": "2"},
+          {"state": "neutral", "reason": "执行信息传递职责", "source_id": "2,5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人际关系协调",
+        "emotions": [
+          {"state": "negative", "reason": "对老戴失联的责问", "source_id": "5"},
+          {"state": "positive", "reason": "组织家庭聚餐促进和谐", "source_id": "2,5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "信任危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "被误解逃避责任", "source_id": "4,6"},
+          {"state": "positive", "reason": "澄清真相恢复信任", "source_id": "4,6"},
+          {"state": "positive", "reason": "认可女儿成长", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "突发事件应对",
+        "emotions": [
+          {"state": "positive", "reason": "主动承担开门任务", "source_id": "6"},
+          {"state": "neutral", "reason": "确认人员身份", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

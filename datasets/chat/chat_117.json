@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "怎么是你这个臭保安，你来干什么？谁让你进来的？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份和出现",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "2对1的身份和突然出现感到不满"
+    },
+    {
+        "sentence": "美女，我过来是你去挪车的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "来意",
+        "Opinion": "解释",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己来的原因"
+    },
+    {
+        "sentence": "你这个臭保安有完没完啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "不耐烦",
+        "Sentiment": "negative",
+        "Rationale": "2对1的行为感到不耐烦"
+    },
+    {
+        "sentence": "为了这么小的一件事情追到这里，没完没了，没看到我现在手气正顺吗？。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为和当前状态",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "2认为1为小事打扰到自己当前的状态"
+    },
+    {
+        "sentence": "美女，有个小孩子被困在了大火里面，你要是不愿去挪，你可以把钥匙给我，我去帮你挪。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "救助行为",
+        "Opinion": "请求帮助",
+        "Sentiment": "positive",
+        "Rationale": "急于救助被困的小孩"
+    },
+    {
+        "sentence": "你说着火就着火了？",
+        "Holder": "2",
+        "Target": "1的描述",
+        "Aspect": "事件真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对1描述的火灾情况感到怀疑"
+    },
+    {
+        "sentence": "还要拿走我的车钥匙，哼，谁知道你心里想的是什么。",
+        "Holder": "2",
+        "Target": "1的请求",
+        "Aspect": "动机",
+        "Opinion": "不信任",
+        "Sentiment": "negative",
+        "Rationale": "担心1的真实动机"
+    },
+    {
+        "sentence": "要是你把我的车磕坏了，你个穷鬼赔得起吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "经济能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "担心车被损坏且1无力赔偿"
+    },
+    {
+        "sentence": "我说的都是真的！现在小孩的处境十分危险！",
+        "Holder": "1",
+        "Target": "2的怀疑",
+        "Aspect": "事件紧急性",
+        "Opinion": "强调真实性",
+        "Sentiment": "positive",
+        "Rationale": "急于消除2的怀疑以救助小孩"
+    },
+    {
+        "sentence": "你要是不信，走，你给我去看看，走！",
+        "Holder": "1",
+        "Target": "2的怀疑",
+        "Aspect": "信任问题",
+        "Opinion": "要求验证",
+        "Sentiment": "negative",
+        "Rationale": "1对2的怀疑感到不满"
+    },
+    {
+        "sentence": "你什么态度啊！",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "交流方式",
+        "Opinion": "态度不好",
+        "Sentiment": "negative",
+        "Rationale": "1的语气急促且带有命令性"
+    },
+    {
+        "sentence": "谁让你碰我车的，赶紧给我滚开！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "触碰车辆",
+        "Opinion": "不允许触碰",
+        "Sentiment": "negative",
+        "Rationale": "1认为2无权触碰自己的车"
+    },
+    {
+        "sentence": "你就是这个车的车主啊？",
+        "Holder": "3",
+        "Target": "1的身份",
+        "Aspect": "车主身份",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "3对1是否是车主有疑问"
+    },
+    {
+        "sentence": "是啊，怎么了？",
+        "Holder": "2",
+        "Target": "3的疑问",
+        "Aspect": "车主身份",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "2对3的疑问感到不解"
+    },
+    {
+        "sentence": "你还有脸问怎么了，没看到着火了吗？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "对火灾的忽视",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "4在火灾情况下还问怎么了，显得对紧急情况不重视"
+    },
+    {
+        "sentence": "要出了什么问题，你负得了这个责任吗？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "责任承担",
+        "Opinion": "无法承担责任",
+        "Sentiment": "negative",
+        "Rationale": "3认为4无法承担可能出现的严重后果"
+    },
+    {
+        "sentence": "美女，你不要生气。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "情绪控制",
+        "Opinion": "希望3冷静",
+        "Sentiment": "neutral",
+        "Rationale": "1看到3情绪激动"
+    },
+    {
+        "sentence": "现在火势越来越大，要不然你先把车挪走，剩下的事情，我们之后再说。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "应急处理",
+        "Opinion": "建议先挪车",
+        "Sentiment": "neutral",
+        "Rationale": "火势紧急，1建议先处理紧急情况"
+    },
+    {
+        "sentence": "你这个臭保安怎么回事！连人乱动我的车，你为什么不管？",
+        "Holder": "2",
+        "Target": "保安",
+        "Aspect": "职责履行",
+        "Opinion": "失职",
+        "Sentiment": "negative",
+        "Rationale": "2认为保安没有阻止别人动自己的车"
+    },
+    {
+        "sentence": "再说了，这可是我刚刚买的新车，你知道它值多少钱吗？",
+        "Holder": "2",
+        "Target": "新车",
+        "Aspect": "车的价值",
+        "Opinion": "新车很贵重",
+        "Sentiment": "positive",
+        "Rationale": "刚刚买了新车，对其价值非常看重"
+    },
+    {
+        "sentence": "这辆车就算它再值钱，那也抵不过一条人命！",
+        "Holder": "3",
+        "Target": "新车",
+        "Aspect": "车的价值与人命的比较",
+        "Opinion": "人命更重要",
+        "Sentiment": "negative",
+        "Rationale": "认为人命比物质价值更重要"
+    },
+    {
+        "sentence": "我现在命令你立刻把你的车弄走！不要耽误我们救火！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "需要立即行动",
+        "Sentiment": "negative",
+        "Rationale": "火势紧急需要立即处理"
+    },
+    {
+        "sentence": "队长不好了，火势又加重了。张哥他们进去，可火势太大他们无法出来，咱们不能再拖了！",
+        "Holder": "4",
+        "Target": "火势",
+        "Aspect": "火势的严重性",
+        "Opinion": "火势严重",
+        "Sentiment": "negative",
+        "Rationale": "火势加重，救援人员被困"
+    },
+    {
+        "sentence": "你到底闹够了没有，那可是一条人命啊！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "对生命的态度",
+        "Opinion": "生命至上",
+        "Sentiment": "negative",
+        "Rationale": "2的拖延可能危及人命"
+    },
+    {
+        "sentence": "是呀，我说这位女士，这火灾猛如虎，晚一分钟就要出大事啊！",
+        "Holder": "5",
+        "Target": "火灾",
+        "Aspect": "火灾的严重性",
+        "Opinion": "火灾非常危险",
+        "Sentiment": "negative",
+        "Rationale": "火灾的破坏性极大，时间紧迫"
+    },
+    {
+        "sentence": "我求你行行好，赶紧把车挪了吧！",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "挪车的紧迫性",
+        "Opinion": "请求尽快挪车",
+        "Sentiment": "negative",
+        "Rationale": "火灾紧急需要通路"
+    },
+    {
+        "sentence": "你给我闭嘴！",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "说话的态度",
+        "Opinion": "要求对方停止说话",
+        "Sentiment": "negative",
+        "Rationale": "被4的急切请求打断或感到不耐烦"
+    },
+    {
+        "sentence": "等等，这着火的房子是几栋几零几？",
+        "Holder": "2",
+        "Target": "火灾现场",
+        "Aspect": "火灾的具体位置",
+        "Opinion": "询问火灾具体位置",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解火灾的具体位置以便采取行动"
+    },
+    {
+        "sentence": "吓我一跳，我还以为是我家呢。",
+        "Holder": "2",
+        "Target": "地址",
+        "Aspect": "地址的相似性",
+        "Opinion": "误以为是自家",
+        "Sentiment": "negative",
+        "Rationale": "误以为是自己家而受到惊吓"
+    },
+    {
+        "sentence": "你这个女人也太蛮不讲理了！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "认为对方不讲理",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为不合理"
+    },
+    {
+        "sentence": "大伙不要管她，我们一起把车挪走！",
+        "Holder": "1",
+        "Target": "大家",
+        "Aspect": "行动建议",
+        "Opinion": "建议一起挪车",
+        "Sentiment": "positive",
+        "Rationale": "希望大家一起解决问题"
+    },
+    {
+        "sentence": "谁让你动我车的！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "动车的权限",
+        "Opinion": "反对动车",
+        "Sentiment": "negative",
+        "Rationale": "对方未经允许动自己的车"
+    },
+    {
+        "sentence": "你这人怎么这样，挪车救人你知不知道啊！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "挪车救人的态度",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "4没有及时挪车救人"
+    },
+    {
+        "sentence": "队长不好了，二次爆炸了，有两个队员已经死了，而且现场勘查，孩子已经吸入太多浓烟，可能有窒息的危险。车子什么时候才能进啊？",
+        "Holder": "4",
+        "Target": "救援情况",
+        "Aspect": "救援进展",
+        "Opinion": "紧急且危险",
+        "Sentiment": "negative",
+        "Rationale": "现场发生二次爆炸且有人员伤亡，孩子也有窒息危险"
+    },
+    {
+        "sentence": "马上进入，马上进入！",
+        "Holder": "3",
+        "Target": "救援行动",
+        "Aspect": "救援速度",
+        "Opinion": "立即行动",
+        "Sentiment": "positive",
+        "Rationale": "情况紧急需要立即救援"
+    },
+    {
+        "sentence": "你听见没有？已经二次爆炸了，现在不是一条人命，是好几条人命，你到底要闹到什么时候！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "对紧急情况的理解",
+        "Opinion": "缺乏理解",
+        "Sentiment": "negative",
+        "Rationale": "1没有意识到情况的严重性还在闹"
+    },
+    {
+        "sentence": "给我滚开，贱女人！",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "对1的态度",
+        "Opinion": "极度厌恶",
+        "Sentiment": "negative",
+        "Rationale": "5对1的行为和态度感到极度不满"
+    },
+    {
+        "sentence": "你个老东西，你敢打我！",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "行为",
+        "Opinion": "愤怒被打",
+        "Sentiment": "negative",
+        "Rationale": "被5打"
+    },
+    {
+        "sentence": "我打你怎么了，啊？",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "不认为打人有错",
+        "Sentiment": "negative",
+        "Rationale": "认为自己打人没错"
+    },
+    {
+        "sentence": "你来打我试试，我往地下一躺，完事儿！",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "应对策略",
+        "Opinion": "威胁反击",
+        "Sentiment": "negative",
+        "Rationale": "想通过威胁让对方不敢还手"
+    },
+    {
+        "sentence": "你什么你？看你是个年轻人，也是上过学的，你怎么一点公德心都没有！",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "公德心",
+        "Opinion": "缺乏公德心",
+        "Sentiment": "negative",
+        "Rationale": "认为2作为年轻人和受过教育的人应该有公德心，但实际表现却相反"
+    },
+    {
+        "sentence": "占了消防通道，让你挪车，你还不挪，满嘴的脏话，一点素质都没有！",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "行为和素质",
+        "Opinion": "对方行为不当且素质低",
+        "Sentiment": "negative",
+        "Rationale": "对方占用消防通道且不听劝阻还口出脏话"
+    },
+    {
+        "sentence": "再叫信不信我抽你！",
+        "Holder": "5",
+        "Target": "对方",
+        "Aspect": "威胁",
+        "Opinion": "威胁对方",
+        "Sentiment": "negative",
+        "Rationale": "对方不听劝阻且态度恶劣"
+    },
+    {
+        "sentence": "就是！胡搅蛮缠，自己做错事还蛮不讲理。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "行为和态度",
+        "Opinion": "对方胡搅蛮缠且不讲理",
+        "Sentiment": "negative",
+        "Rationale": "对方不仅占用消防通道还态度恶劣"
+    },
+    {
+        "sentence": "你们这些人，你们敢这么对我！",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行为",
+        "Opinion": "对方行为过分",
+        "Sentiment": "negative",
+        "Rationale": "对方不仅占用消防通道还态度恶劣"
+    },
+    {
+        "sentence": "大家不要管她，挪车！",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "行为",
+        "Opinion": "对方行为不当",
+        "Sentiment": "negative",
+        "Rationale": "对方占用消防通道且态度恶劣"
+    },
+    {
+        "sentence": "挪车，来！",
+        "Holder": "1",
+        "Target": "挪车行为",
+        "Aspect": "行动指令",
+        "Opinion": "要求挪车",
+        "Sentiment": "neutral",
+        "Rationale": "需要挪车"
+    }
+]

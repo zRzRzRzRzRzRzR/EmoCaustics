@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭经济压力与父亲健康危机",
+        "emotions": [
+          {"state": "negative", "reason": "担忧父亲情绪与健康问题", "source_id": "3"},
+          {"state": "neutral", "reason": "讨论经济与精神负担平衡", "source_id": "3,2"},
+          {"state": "positive", "reason": "提出用精神力量对抗物质竞争", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "子女抚养权争夺战",
+        "emotions": [
+          {"state": "negative", "reason": "焦虑Merry用物质手段争夺孩子", "source_id": "6"},
+          {"state": "positive", "reason": "制定精神对抗策略", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭忠诚度抉择",
+        "emotions": [
+          {"state": "positive", "reason": "坚定支持困境中的父亲", "source_id": "1"},
+          {"state": "negative", "reason": "指责弟弟物质主义倾向", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "物质诱惑与亲情矛盾",
+        "emotions": [
+          {"state": "positive", "reason": "向往豪华物质生活", "source_id": "1"},
+          {"state": "neutral", "reason": "权衡减轻负担的利弊", "source_id": "1,2"},
+          {"state": "negative", "reason": "被指责嫌贫爱富", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭危机调解",
+        "emotions": [
+          {"state": "neutral", "reason": "主持家庭会议寻求解决方案", "source_id": "1,2,3"},
+          {"state": "positive", "reason": "感动于家庭成员的真诚表态", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "物质竞争应对策略",
+        "emotions": [
+          {"state": "negative", "reason": "反感Merry的物质攻势", "source_id": "1"},
+          {"state": "positive", "reason": "决心双线应对竞争", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

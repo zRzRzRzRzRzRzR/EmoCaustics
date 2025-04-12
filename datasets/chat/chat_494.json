@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "我都得收拾完了，您快点啊",
+        "Holder": "1",
+        "Target": "2的行动速度",
+        "Aspect": "行动的及时性",
+        "Opinion": "希望加快速度",
+        "Sentiment": "negative",
+        "Rationale": "1已经收拾完了而2还没有准备好"
+    },
+    {
+        "sentence": "知道了，催劲儿的。",
+        "Holder": "2",
+        "Target": "1的催促",
+        "Aspect": "催促的态度",
+        "Opinion": "感到被催促",
+        "Sentiment": "negative",
+        "Rationale": "被1催促感到有些不满"
+    },
+    {
+        "sentence": "干什么呀？他那么着急。",
+        "Holder": "3",
+        "Target": "1的着急",
+        "Aspect": "情绪的合理性",
+        "Opinion": "不理解为什么着急",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1为什么那么着急"
+    },
+    {
+        "sentence": "哼，让我带他上商店买旅游鞋去。",
+        "Holder": "2",
+        "Target": "买鞋的任务",
+        "Aspect": "任务的安排",
+        "Opinion": "不太情愿",
+        "Sentiment": "negative",
+        "Rationale": "被安排带1去买鞋，感到有些不情愿"
+    },
+    {
+        "sentence": "买旅游鞋，他原来那双穿坏了。",
+        "Holder": "3",
+        "Target": "1的鞋",
+        "Aspect": "鞋的状况",
+        "Opinion": "鞋坏了需要买新的",
+        "Sentiment": "neutral",
+        "Rationale": "了解到1的鞋坏了需要买新的"
+    },
+    {
+        "sentence": "坏到没坏，丢一只。",
+        "Holder": "2",
+        "Target": "鞋子",
+        "Aspect": "丢失情况",
+        "Opinion": "丢了一只",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了鞋子丢了一只的事实，没有表现出明显的情绪"
+    },
+    {
+        "sentence": "丢了一只。这可是新鲜事啊，我没听说过鞋有丢一只的。",
+        "Holder": "3",
+        "Target": "鞋子丢失",
+        "Aspect": "丢失的罕见性",
+        "Opinion": "很罕见",
+        "Sentiment": "positive",
+        "Rationale": "觉得鞋子丢一只是一件罕见且有趣的事情"
+    },
+    {
+        "sentence": "嘿，你怎么没听说过啊，有个别同志那袜子可总是丢一只的。",
+        "Holder": "2",
+        "Target": "袜子丢失",
+        "Aspect": "丢失的常见性",
+        "Opinion": "并不罕见",
+        "Sentiment": "positive",
+        "Rationale": "用袜子丢一只的常见情况来反驳对方"
+    },
+    {
+        "sentence": "袜子和旅游鞋两码事。唉，他没告诉你他丢哪了。",
+        "Holder": "3",
+        "Target": "丢失物品的类型",
+        "Aspect": "丢失情况的对比",
+        "Opinion": "不同类型不能类比",
+        "Sentiment": "negative",
+        "Rationale": "认为袜子和鞋子丢失的情况不能相提并论，且对没有被告知丢失地点感到不满"
+    },
+    {
+        "sentence": "丢哪了？我们要知道丢哪了。那叫丢吗？拿回来不就完了吗？",
+        "Holder": "2",
+        "Target": "丢失地点",
+        "Aspect": "丢失的定义",
+        "Opinion": "应该找回",
+        "Sentiment": "negative",
+        "Rationale": "对丢失地点不清楚且认为应该找回鞋子"
+    },
+    {
+        "sentence": "他什么时候丢的啊？前天我觉得他那鞋特臭，我就给拿在阳台上说晾晾，结果晚上到那一看剩一只了。你说这小偷也真够可以的，偷一只怎么穿呢？",
+        "Holder": "3",
+        "Target": "小偷",
+        "Aspect": "偷窃行为",
+        "Opinion": "小偷行为荒谬",
+        "Sentiment": "negative",
+        "Rationale": "小偷只偷了一只鞋，这种行为显得非常不合理和荒谬"
+    },
+    {
+        "sentence": "而且他偷什么不行，非偷一只旅游鞋，就他那鞋，我估计捡破烂的都不一定要吧，臭的",
+        "Holder": "3",
+        "Target": "小偷的选择",
+        "Aspect": "偷窃物品的价值",
+        "Opinion": "物品无价值",
+        "Sentiment": "negative",
+        "Rationale": "小偷选择偷窃的鞋不仅臭且无价值，显得非常愚蠢"
+    },
+    {
+        "sentence": "哎哎，我忽然想起一事儿来，你还记不记得一个多月以前，咱们一块儿逛商场，刘星看上了一双新款的旅游鞋。",
+        "Holder": "3",
+        "Target": "刘星的喜好",
+        "Aspect": "购物经历",
+        "Opinion": "回忆起相关事件",
+        "Sentiment": "neutral",
+        "Rationale": "突然想起与刘星相关的购物经历"
+    },
+    {
+        "sentence": "唉是哈，他一直想管咱要，咱一直没给买。那你那意思是说这事是他设计的",
+        "Holder": "2",
+        "Target": "刘星的行为",
+        "Aspect": "购物请求",
+        "Opinion": "怀疑刘星设计",
+        "Sentiment": "neutral",
+        "Rationale": "刘星一直想要买鞋但未如愿"
+    },
+    {
+        "sentence": "哇，你们太厉害了。",
+        "Holder": "4",
+        "Target": "3和2的推理",
+        "Aspect": "推理能力",
+        "Opinion": "赞赏",
+        "Sentiment": "positive",
+        "Rationale": "对3和2的推理能力感到惊讶和佩服"
+    },
+    {
+        "sentence": "嗯，什么意思啊？",
+        "Holder": "3",
+        "Target": "4的话",
+        "Aspect": "话语的清晰度",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "3没有听懂4的话"
+    },
+    {
+        "sentence": "本来刘星让我保密，没想到你们居然猜出来了",
+        "Holder": "4",
+        "Target": "刘星的保密要求",
+        "Aspect": "保密的效果",
+        "Opinion": "意外被猜出",
+        "Sentiment": "ambiguous",
+        "Rationale": "4本以为能保密，但被猜出后感到意外"
+    },
+    {
+        "sentence": "刘星，刘星",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "提及刘星",
+        "Opinion": "重复提及",
+        "Sentiment": "neutral",
+        "Rationale": "2只是重复刘星的名字，没有表达明确情感"
+    },
+    {
+        "sentence": "你也有等不及的时候啊，走吧",
+        "Holder": "1",
+        "Target": "2的急切",
+        "Aspect": "等待的耐心",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "1调侃2也有急切的时候"
+    },
+    {
+        "sentence": "我等不及要打你",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行动的急切",
+        "Opinion": "想要打人",
+        "Sentiment": "negative",
+        "Rationale": "2表达出急切想要打1的冲动"
+    },
+    {
+        "sentence": "刘星，走，踢球去，人都等着你呢",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "参与踢球",
+        "Opinion": "期待刘星参与",
+        "Sentiment": "positive",
+        "Rationale": "大家都等着刘星一起踢球"
+    },
+    {
+        "sentence": "不去了",
+        "Holder": "1",
+        "Target": "踢球活动",
+        "Aspect": "参与意愿",
+        "Opinion": "拒绝参与",
+        "Sentiment": "negative",
+        "Rationale": "某种原因不想去踢球"
+    },
+    {
+        "sentence": "怎么了？这不是平常最爱踢球吗？",
+        "Holder": "5",
+        "Target": "刘星的兴趣",
+        "Aspect": "踢球的喜爱程度",
+        "Opinion": "刘星平时喜欢踢球",
+        "Sentiment": "neutral",
+        "Rationale": "刘星平时喜欢踢球"
+    },
+    {
+        "sentence": "别问了",
+        "Holder": "1",
+        "Target": "5的提问",
+        "Aspect": "回答意愿",
+        "Opinion": "不想解释",
+        "Sentiment": "negative",
+        "Rationale": "不想解释不去踢球的原因"
+    },
+    {
+        "sentence": "是不是阴谋没有得逞？",
+        "Holder": "5",
+        "Target": "刘星的行为动机",
+        "Aspect": "行为背后的原因",
+        "Opinion": "怀疑有阴谋",
+        "Sentiment": "ambiguous",
+        "Rationale": "刘星突然不去踢球且不愿解释"
+    },
+    {
+        "sentence": "说什么呢？我就是想帮我妈多干点活。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "帮助母亲干活",
+        "Opinion": "想多干活",
+        "Sentiment": "neutral",
+        "Rationale": "1表达了自己想帮母亲干活的意愿"
+    },
+    {
+        "sentence": "哈哈哈，别唱高调了，瞧你那眼睛肿的，流了多少泪啊",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "1的真实意图",
+        "Opinion": "认为1在唱高调",
+        "Sentiment": "negative",
+        "Rationale": "5看到1眼睛肿了，认为1并不是真心想干活而是在装模作样"
+    },
+    {
+        "sentence": "看着点，一千多块呢",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "物品的价值",
+        "Opinion": "提醒注意价值",
+        "Sentiment": "neutral",
+        "Rationale": "5提醒1注意物品的价值"
+    },
+    {
+        "sentence": "这怎么啦？",
+        "Holder": "1",
+        "Target": "5的提醒",
+        "Aspect": "物品的价值",
+        "Opinion": "不解",
+        "Sentiment": "neutral",
+        "Rationale": "1对5的提醒感到不解"
+    },
+    {
+        "sentence": "你这是嫉妒",
+        "Holder": "6",
+        "Target": "5",
+        "Aspect": "5的心态",
+        "Opinion": "认为5嫉妒",
+        "Sentiment": "negative",
+        "Rationale": "6认为5对1的讽刺是出于嫉妒心理"
+    },
+    {
+        "sentence": "谁嫉妒啦，不就是一双鞋吗。牛什么呀？臭鞋。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "对鞋的态度",
+        "Opinion": "认为5过于炫耀",
+        "Sentiment": "negative",
+        "Rationale": "1觉得5在炫耀一双鞋"
+    },
+    {
+        "sentence": "你买不成鞋你跟我急什么呀？其实刚才夏雨都跟我说了，你妈罚你拖一个礼拜地。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "情绪反应的原因",
+        "Opinion": "认为1的情绪是无理的",
+        "Sentiment": "negative",
+        "Rationale": "5知道1被罚拖地，认为1的情绪不应该发泄在自己身上"
+    },
+    {
+        "sentence": "坏就坏他身上了",
+        "Holder": "1",
+        "Target": "夏雨",
+        "Aspect": "责任归属",
+        "Opinion": "认为是夏雨的错",
+        "Sentiment": "negative",
+        "Rationale": "1觉得夏雨告状导致自己被罚"
+    },
+    {
+        "sentence": "要我说全怪你。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "责任归属",
+        "Opinion": "认为责任在1",
+        "Sentiment": "negative",
+        "Rationale": "5认为1的行为导致了自己被罚"
+    },
+    {
+        "sentence": "怎么全怪我呀？",
+        "Holder": "1",
+        "Target": "5的观点",
+        "Aspect": "责任归属",
+        "Opinion": "认为自己不应全责",
+        "Sentiment": "negative",
+        "Rationale": "1觉得5的指责不公平"
+    },
+    {
+        "sentence": "谁让你考虑问题不充分啊，我当初就跟你说这招实在是太危险，你不听啊？",
+        "Holder": "5",
+        "Target": "1的决策",
+        "Aspect": "决策的合理性",
+        "Opinion": "考虑不充分且危险",
+        "Sentiment": "negative",
+        "Rationale": "1没有听取5的警告，导致现在的问题"
+    },
+    {
+        "sentence": "现在说什么都晚了，你回家吧",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "解决问题的可能性",
+        "Opinion": "无法挽回",
+        "Sentiment": "negative",
+        "Rationale": "事情已经发生，无法改变现状"
+    },
+    {
+        "sentence": "我给你出一招",
+        "Holder": "6",
+        "Target": "解决方案",
+        "Aspect": "提出建议",
+        "Opinion": "提供帮助",
+        "Sentiment": "neutral",
+        "Rationale": "6只是提出一个建议，没有明显的情感倾向"
+    },
+    {
+        "sentence": "又是什么昏招诶？",
+        "Holder": "1",
+        "Target": "6的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "不看好",
+        "Sentiment": "negative",
+        "Rationale": "1认为6的建议不切实际"
+    },
+    {
+        "sentence": "外出旅游",
+        "Holder": "6",
+        "Target": "解决问题的方法",
+        "Aspect": "建议的具体内容",
+        "Opinion": "外出放松",
+        "Sentiment": "positive",
+        "Rationale": "6认为外出旅游可以缓解当前的压力和问题"
+    },
+    {
+        "sentence": "是，您这倒不是昏招，蠢招",
+        "Holder": "1",
+        "Target": "5的策略",
+        "Aspect": "策略的合理性",
+        "Opinion": "认为是蠢招",
+        "Sentiment": "negative",
+        "Rationale": "1认为5的策略不合理"
+    },
+    {
+        "sentence": "怎么能叫蠢招呢？你不信，你看我这鞋、这裤子、这衣服，哪不是名牌啊？这是什么呀？这就是这招的胜利果实，懂吗？",
+        "Holder": "5",
+        "Target": "自己的策略",
+        "Aspect": "策略的成果",
+        "Opinion": "认为是胜利果实",
+        "Sentiment": "positive",
+        "Rationale": "5展示了自己的名牌服饰作为策略成功的证据"
+    },
+    {
+        "sentence": "妈，我告诉您一件秘密",
+        "Holder": "4",
+        "Target": "秘密",
+        "Aspect": "秘密的内容",
+        "Opinion": "有重要信息",
+        "Sentiment": "neutral",
+        "Rationale": "4要分享一个秘密"
+    },
+    {
+        "sentence": "什么秘密？",
+        "Holder": "2",
+        "Target": "秘密",
+        "Aspect": "秘密的内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "2对4提到的秘密感到好奇"
+    },
+    {
+        "sentence": "反了他啦",
+        "Holder": "2",
+        "Target": "某人的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为某人的行为超出了合理范围"
+    },
+    {
+        "sentence": "那还用说，粉碎他的阴谋",
+        "Holder": "3",
+        "Target": "阴谋",
+        "Aspect": "应对策略",
+        "Opinion": "坚决反对",
+        "Sentiment": "negative",
+        "Rationale": "3认为对方的计划是阴谋"
+    },
+    {
+        "sentence": "依我对他的了解来分析他。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "了解程度",
+        "Opinion": "有信心分析",
+        "Sentiment": "neutral",
+        "Rationale": "对自己了解对方的能力有信心"
+    },
+    {
+        "sentence": "下一步他会干什么呀？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "下一步行动",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "对对方的下一步行动有疑问"
+    }
+]

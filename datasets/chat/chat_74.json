@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "哎呦，明明姐",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "亲切",
+        "Sentiment": "positive",
+        "Rationale": "用亲切的称呼叫对方"
+    },
+    {
+        "sentence": "那个东西都送人了，还往回要，是挺没劲的哈。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "不支持",
+        "Sentiment": "negative",
+        "Rationale": "觉得送出去的东西再要回不合理"
+    },
+    {
+        "sentence": "当然不行",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "可行性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的要求不合理"
+    },
+    {
+        "sentence": "骗你的，当然不是啦哈哈哈，我还帮你往里边下载了好多歌呢，特好听",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "友好",
+        "Sentiment": "positive",
+        "Rationale": "用开玩笑的方式缓解气氛并提供了帮助"
+    },
+    {
+        "sentence": "谢什么呀？",
+        "Holder": "1",
+        "Target": "感谢行为",
+        "Aspect": "感谢的必要性",
+        "Opinion": "不需要感谢",
+        "Sentiment": "neutral",
+        "Rationale": "认为要回自己的东西是理所当然的"
+    },
+    {
+        "sentence": "要回自己东西这不是天经地义嘛不客气不客气，哈哈哈。",
+        "Holder": "1",
+        "Target": "要回东西的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "天经地义",
+        "Sentiment": "positive",
+        "Rationale": "认为要回自己的东西是理所当然的"
+    },
+    {
+        "sentence": "噢，对了，那这个快译通也还给你吧",
+        "Holder": "3",
+        "Target": "快译通",
+        "Aspect": "物品归还",
+        "Opinion": "归还物品",
+        "Sentiment": "neutral",
+        "Rationale": "想起了需要归还的物品"
+    },
+    {
+        "sentence": "谢谢哈。",
+        "Holder": "2",
+        "Target": "3的归还行为",
+        "Aspect": "行为的感激",
+        "Opinion": "表示感谢",
+        "Sentiment": "positive",
+        "Rationale": "3归还了物品"
+    },
+    {
+        "sentence": "别闷在家里还出来散散心嘛，看看这些花花草草，心情肯定就会好啦",
+        "Holder": "3",
+        "Target": "2的心情",
+        "Aspect": "心情调节",
+        "Opinion": "建议散心",
+        "Sentiment": "positive",
+        "Rationale": "认为外出散心有助于改善心情"
+    },
+    {
+        "sentence": "都是灰的。",
+        "Holder": "2",
+        "Target": "环境",
+        "Aspect": "颜色",
+        "Opinion": "灰色",
+        "Sentiment": "neutral",
+        "Rationale": "描述环境颜色为灰色"
+    },
+    {
+        "sentence": "那咱先坐下来啊。",
+        "Holder": "3",
+        "Target": "行动",
+        "Aspect": "建议",
+        "Opinion": "建议坐下",
+        "Sentiment": "neutral",
+        "Rationale": "提出一个中性的建议"
+    },
+    {
+        "sentence": "哎，你看那边有一只小狗，哈哈哈哈",
+        "Holder": "2",
+        "Target": "小狗",
+        "Aspect": "存在",
+        "Opinion": "发现小狗",
+        "Sentiment": "positive",
+        "Rationale": "发现了一只小狗"
+    },
+    {
+        "sentence": "我找着了",
+        "Holder": "1",
+        "Target": "某物",
+        "Aspect": "找到",
+        "Opinion": "找到了",
+        "Sentiment": "positive",
+        "Rationale": "找到了某物"
+    },
+    {
+        "sentence": "找着什么了",
+        "Holder": "3",
+        "Target": "1找到的物品",
+        "Aspect": "内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "好奇1找到了什么"
+    },
+    {
+        "sentence": "鼠标说看你爸了",
+        "Holder": "1",
+        "Target": "鼠标",
+        "Aspect": "信息传递",
+        "Opinion": "传达信息",
+        "Sentiment": "neutral",
+        "Rationale": "1只是转述鼠标的话，没有表达个人情感"
+    },
+    {
+        "sentence": "在前门楼子地铁站的地下通道里",
+        "Holder": "1",
+        "Target": "地点",
+        "Aspect": "具体位置",
+        "Opinion": "描述位置",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在描述一个具体的地点，没有表达个人情感"
+    },
+    {
+        "sentence": "明明姐！",
+        "Holder": "3",
+        "Target": "明明",
+        "Aspect": "称呼",
+        "Opinion": "亲切",
+        "Sentiment": "positive",
+        "Rationale": "3用亲切的称呼呼唤明明，显示出对明明的亲近和关心"
+    },
+    {
+        "sentence": "诶，这都几点了，明明怎么还不回来？",
+        "Holder": "4",
+        "Target": "明明",
+        "Aspect": "回家时间",
+        "Opinion": "担心",
+        "Sentiment": "negative",
+        "Rationale": "因为4对明明迟迟未归感到担心，这种担忧情绪导致语气中带有负面情感。"
+    },
+    {
+        "sentence": "估计是父女重逢，抱头痛哭呢。",
+        "Holder": "3",
+        "Target": "父女重逢",
+        "Aspect": "情感表现",
+        "Opinion": "抱头痛哭",
+        "Sentiment": "neutral",
+        "Rationale": "3在描述一个可能的场景，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我来我来，我开，",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "行动",
+        "Opinion": "主动参与",
+        "Sentiment": "positive",
+        "Rationale": "6表现出积极的参与意愿"
+    },
+    {
+        "sentence": "这不是老戴吗",
+        "Holder": "6",
+        "Target": "老戴",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "6在确认一个人的身份，没有明显的情感倾向"
+    },
+    {
+        "sentence": "唉，你们干嘛都这么看着我？",
+        "Holder": "5",
+        "Target": "其他人",
+        "Aspect": "目光",
+        "Opinion": "不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "5对其他人注视自己的行为感到不解"
+    },
+    {
+        "sentence": "老戴，你上哪去了？你说你这几天活不见人死不见尸的。",
+        "Holder": "4",
+        "Target": "老戴",
+        "Aspect": "行踪",
+        "Opinion": "责问",
+        "Sentiment": "negative",
+        "Rationale": "4对老戴几天不见的行为感到不满和担忧"
+    },
+    {
+        "sentence": "别提了。唉，刚才我回家去啊，看到我们家里乱七八糟的，那明明哪去了？",
+        "Holder": "5",
+        "Target": "家里状况",
+        "Aspect": "家庭环境的整洁",
+        "Opinion": "家里很乱",
+        "Sentiment": "negative",
+        "Rationale": "回家看到家里乱七八糟"
+    },
+    {
+        "sentence": "你真行，老戴你再怎么着得跟人孩子打个招呼啊。你说你就是躲债，你也不能这样。",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "对待孩子的态度",
+        "Opinion": "不负责任",
+        "Sentiment": "negative",
+        "Rationale": "5没有跟孩子打招呼就离开"
+    },
+    {
+        "sentence": "我躲债，我躲谁的债。",
+        "Holder": "5",
+        "Target": "4的指责",
+        "Aspect": "躲债的指控",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "被误解为躲债感到冤枉"
+    },
+    {
+        "sentence": "我们都知道了，没关系，白手起家从头再来嘛。",
+        "Holder": "6",
+        "Target": "5的情况",
+        "Aspect": "对困境的态度",
+        "Opinion": "鼓励和支持",
+        "Sentiment": "positive",
+        "Rationale": "理解5的困境并给予鼓励"
+    },
+    {
+        "sentence": "什么？我怎么听不懂啊？你们这。",
+        "Holder": "5",
+        "Target": "对话内容",
+        "Aspect": "内容的理解",
+        "Opinion": "听不懂",
+        "Sentiment": "negative",
+        "Rationale": "对话内容混乱"
+    },
+    {
+        "sentence": "明明姐去您公司了，他们都跟他说了您的公司倒闭了",
+        "Holder": "3",
+        "Target": "5的公司状况",
+        "Aspect": "公司状态",
+        "Opinion": "公司倒闭",
+        "Sentiment": "negative",
+        "Rationale": "得知5的公司倒闭"
+    },
+    {
+        "sentence": "这都哪跟哪，我是被人家给骗了，跟公安去追这骗子去了，200多万哪，现在案子破了，钱也追回来了。",
+        "Holder": "5",
+        "Target": "自己的经历",
+        "Aspect": "被骗和追回钱款",
+        "Opinion": "成功追回钱款",
+        "Sentiment": "positive",
+        "Rationale": "成功追回被骗的钱款"
+    },
+    {
+        "sentence": "真是的，你真行。但你干嘛不给人孩子打个电话呀？人明明多着急呀。",
+        "Holder": "4",
+        "Target": "5的行为",
+        "Aspect": "未及时通知",
+        "Opinion": "应该通知",
+        "Sentiment": "negative",
+        "Rationale": "5没有及时通知明明"
+    },
+    {
+        "sentence": "我这是三天三夜没合眼了，飞车追踪一千多公里，这手机早就没电了。",
+        "Holder": "5",
+        "Target": "自己的行为",
+        "Aspect": "未及时通知的原因",
+        "Opinion": "因为忙碌和手机没电",
+        "Sentiment": "neutral",
+        "Rationale": "忙于追回钱款且手机没电"
+    },
+    {
+        "sentence": "您可把明明姐可坑苦了。",
+        "Holder": "3",
+        "Target": "明明姐",
+        "Aspect": "受到的待遇",
+        "Opinion": "被坑苦了",
+        "Sentiment": "negative",
+        "Rationale": "明明姐受到了不公正的待遇"
+    },
+    {
+        "sentence": "唉，回来了回来了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "归来的状态",
+        "Opinion": "回来了",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己回来了的事实"
+    },
+    {
+        "sentence": "明明姐，你爸来了。",
+        "Holder": "3",
+        "Target": "明明姐",
+        "Aspect": "父亲的出现",
+        "Opinion": "你爸来了",
+        "Sentiment": "neutral",
+        "Rationale": "只是通知明明姐她父亲来了"
+    },
+    {
+        "sentence": "爸爸你这几天上哪去了？",
+        "Holder": "2",
+        "Target": "爸爸",
+        "Aspect": "行踪",
+        "Opinion": "询问行踪",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问爸爸的行踪"
+    },
+    {
+        "sentence": "哈哈，爸爸让你受委屈了。",
+        "Holder": "5",
+        "Target": "明明姐",
+        "Aspect": "受到的委屈",
+        "Opinion": "受委屈了",
+        "Sentiment": "negative",
+        "Rationale": "爸爸的行为让明明姐受到了委屈"
+    },
+    {
+        "sentence": "你也不打个电话回来",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "打电话的频率",
+        "Opinion": "应该打电话",
+        "Sentiment": "negative",
+        "Rationale": "1没有按时打电话回来"
+    },
+    {
+        "sentence": "爸，您好歹注意一下形象行吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "形象注意",
+        "Opinion": "需要注意形象",
+        "Sentiment": "negative",
+        "Rationale": "1没有注意形象"
+    },
+    {
+        "sentence": "怎么说也是一戴总",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份地位",
+        "Opinion": "身份重要",
+        "Sentiment": "neutral",
+        "Rationale": "1的身份是戴总"
+    },
+    {
+        "sentence": "你别说，你爸现在这样还真有点以假乱真。",
+        "Holder": "1",
+        "Target": "1自己",
+        "Aspect": "形象真实性",
+        "Opinion": "形象逼真",
+        "Sentiment": "positive",
+        "Rationale": "1的形象看起来很逼真"
+    },
+    {
+        "sentence": "你说什么？",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "话语内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "5没有听清楚1说的话"
+    },
+    {
+        "sentence": "刚才流星带我去那个前门楼子那地下通道找您，那儿有一个拉二胡卖唱的，现在这样跟他还挺像哈哈哈。",
+        "Holder": "2",
+        "Target": "拉二胡卖唱的人",
+        "Aspect": "外貌或行为相似度",
+        "Opinion": "相似",
+        "Sentiment": "positive",
+        "Rationale": "发现某人的外貌或行为与拉二胡卖唱的人相似"
+    },
+    {
+        "sentence": "我就是真破产了也不至于到地下通道去拉二胡。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "生活状况",
+        "Opinion": "不会沦落到拉二胡",
+        "Sentiment": "negative",
+        "Rationale": "提到自己即使破产也不会到地下通道拉二胡"
+    },
+    {
+        "sentence": "没错因为你不是不会拉嘛",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "拉二胡的能力",
+        "Opinion": "不会拉二胡",
+        "Sentiment": "neutral",
+        "Rationale": "指出5不会拉二胡"
+    },
+    {
+        "sentence": "哎呦，老爸您饿了吧？",
+        "Holder": "2",
+        "Target": "老爸",
+        "Aspect": "饥饿状态",
+        "Opinion": "可能饿了",
+        "Sentiment": "neutral",
+        "Rationale": "关心老爸的饮食状况"
+    },
+    {
+        "sentence": "我刚才买了俩馒头，本来想今天晚上吃的，你先吃。",
+        "Holder": "2",
+        "Target": "老爸",
+        "Aspect": "饮食安排",
+        "Opinion": "让老爸先吃",
+        "Sentiment": "positive",
+        "Rationale": "考虑到老爸的饥饿"
+    },
+    {
+        "sentence": "别别别，我呀，炒几个好菜，咱们今天晚上好好聚聚餐。",
+        "Holder": "4",
+        "Target": "聚餐",
+        "Aspect": "聚餐的提议",
+        "Opinion": "提议聚餐",
+        "Sentiment": "positive",
+        "Rationale": "提议大家聚餐，表现出对聚会的期待和热情"
+    },
+    {
+        "sentence": "别扔，一个馒头 3 毛钱呢，留着明天还能吃。",
+        "Holder": "2",
+        "Target": "馒头",
+        "Aspect": "食物的节约",
+        "Opinion": "反对扔掉馒头",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到馒头的价值和实用性"
+    },
+    {
+        "sentence": "我发现你什么时候开始懂事了",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "行为的变化",
+        "Opinion": "认为2变得懂事",
+        "Sentiment": "positive",
+        "Rationale": "观察到2开始节约食物，表现出成熟的行为"
+    }
+]

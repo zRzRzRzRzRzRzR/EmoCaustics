@@ -1,0 +1,109 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "主持辩论流程与结果",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观推进辩论流程",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "享受思想激荡过程",
+            "source_id": "2,3"
+          },
+          {
+            "state": "positive",
+            "reason": "宣布公正比赛结果",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "极端言论的历史隐喻",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判希特勒自杀导致神话化",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "分析言论限制的双面性",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "偏见与自由的辩证关系",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反驳群体刻板印象的伤害性",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "主张承认偏见的表达自由",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "极端言论的社会影响",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭示极端观点的传播优势与群体极化现象",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "批判放任极端言论导致伤害扩大",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "言论自由边界争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主张行为控制优先于思想改造",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "反对以事实名义传播伤害性刻板印象",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "现实案例的情感投射",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "职场女性被传统观念压制案例",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调技术障碍不应阻碍管制方向",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

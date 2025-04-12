@@ -1,0 +1,62 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "单身夜派对筹备冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "接受另找搭档的建议", "source_id": "2"},
+          {"state": "ambiguous", "reason": "对告别单身感到复杂情绪", "source_id": "1"},
+          {"state": "negative", "reason": "担忧派对活动内容", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "单身夜派对主导权争夺",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑通知不及时", "source_id": "1"},
+          {"state": "positive", "reason": "成功说服众人参与", "source_id": "1,3,4,5"},
+          {"state": "positive", "reason": "展示详细活动计划", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "吕子乔关联事件处理",
+        "emotions": [
+          {"state": "negative", "reason": "多次应对寻人引发的麻烦", "source_id": "6,7"},
+          {"state": "positive", "reason": "认可与子乔的亲属关系", "source_id": "6"},
+          {"state": "negative", "reason": "被迫处理子乔的账单问题", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "第三方冲突协调",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑3对子乔的态度", "source_id": "3"},
+          {"state": "neutral", "reason": "观察处理寻人事件", "source_id": "3,6"},
+          {"state": "positive", "reason": "最终提供住宿帮助", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "寻人引发的连锁反应",
+        "emotions": [
+          {"state": "neutral", "reason": "按姐姐建议寻找子乔", "source_id": "self"},
+          {"state": "positive", "reason": "自愿承担子乔债务", "source_id": "3"},
+          {"state": "ambiguous", "reason": "面临突发住宿危机", "source_id": "3,4"}
+        ]
+      }
+    ]
+  }
+}

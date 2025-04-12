@@ -1,0 +1,515 @@
+[
+    {
+        "sentence": "我以后不要送你们的礼物了！",
+        "Holder": "1",
+        "Target": "送礼物",
+        "Aspect": "送礼物的意愿",
+        "Opinion": "不再送礼物",
+        "Sentiment": "negative",
+        "Rationale": "之前送的礼物没有得到预期的感激"
+    },
+    {
+        "sentence": "那还是不行的，我们还想要！",
+        "Holder": "2",
+        "Target": "1的礼物",
+        "Aspect": "对礼物的需求",
+        "Opinion": "希望继续收到礼物",
+        "Sentiment": "positive",
+        "Rationale": "喜欢1送的礼物"
+    },
+    {
+        "sentence": "我不是之前去玩回去工作，给你们都带了香皂嘛？",
+        "Holder": "1",
+        "Target": "香皂礼物",
+        "Aspect": "礼物的来源",
+        "Opinion": "特意带回的礼物",
+        "Sentiment": "neutral",
+        "Rationale": "提到之前送香皂的事实"
+    },
+    {
+        "sentence": "那香皂我收了，30还是40，你还跟我说特别贵手工的。",
+        "Holder": "3",
+        "Target": "香皂礼物",
+        "Aspect": "礼物的价值和真实性",
+        "Opinion": "对礼物的质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对香皂的价格和手工真实性有疑问"
+    },
+    {
+        "sentence": "没有，真的手工的嘛。然后我这一次我就特意什么都没有给你们带。",
+        "Holder": "1",
+        "Target": "香皂礼物",
+        "Aspect": "礼物的真实性",
+        "Opinion": "强调手工真实性",
+        "Sentiment": "negative",
+        "Rationale": "被质疑礼物的真实性"
+    },
+    {
+        "sentence": "但是送肥皂这个寓意不好啊。",
+        "Holder": "3",
+        "Target": "送肥皂",
+        "Aspect": "寓意",
+        "Opinion": "不好",
+        "Sentiment": "negative",
+        "Rationale": "送肥皂在文化中有负面寓意"
+    },
+    {
+        "sentence": "为什么？",
+        "Holder": "2",
+        "Target": "送肥皂的寓意",
+        "Aspect": "原因",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对送肥皂的负面寓意不了解"
+    },
+    {
+        "sentence": "先听我说完！",
+        "Holder": "1",
+        "Target": "对话进程",
+        "Aspect": "打断",
+        "Opinion": "要求继续发言",
+        "Sentiment": "neutral",
+        "Rationale": "被打断想要继续表达观点"
+    },
+    {
+        "sentence": "我觉得你们没意识到这个变化。",
+        "Holder": "1",
+        "Target": "2和3",
+        "Aspect": "变化的认识",
+        "Opinion": "没意识到",
+        "Sentiment": "neutral",
+        "Rationale": "认为对方没有注意到某些变化"
+    },
+    {
+        "sentence": "什么变化？",
+        "Holder": "2",
+        "Target": "变化",
+        "Aspect": "具体内容",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚1所指的变化是什么"
+    },
+    {
+        "sentence": "就是我这一次什么都没有给你们带。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "带东西的行为",
+        "Opinion": "没有带东西",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实，没有带东西"
+    },
+    {
+        "sentence": "那你找找你的问题，为什么不给我们带？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "带东西的责任",
+        "Opinion": "应该带东西",
+        "Sentiment": "negative",
+        "Rationale": "2认为1应该带东西却没有带"
+    },
+    {
+        "sentence": "就是我想让你们意识到中间的变化。",
+        "Holder": "1",
+        "Target": "大家",
+        "Aspect": "对变化的意识",
+        "Opinion": "希望大家意识到变化",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的行为动机"
+    },
+    {
+        "sentence": "不是，你没有意识到吗？哪怕你没有带，大家也没有发现有什么区别。那东西可能还浪费我垃圾桶的一个地方。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "带东西的必要性",
+        "Opinion": "带的东西不重要",
+        "Sentiment": "negative",
+        "Rationale": "4认为1带的东西不重要，甚至可能造成麻烦"
+    },
+    {
+        "sentence": "我没有收到香皂。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "收到的东西",
+        "Opinion": "没有收到香皂",
+        "Sentiment": "neutral",
+        "Rationale": "4在陈述一个事实，没有收到香皂"
+    },
+    {
+        "sentence": "你没有收到香皂？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "收到香皂的情况",
+        "Opinion": "怀疑未收到",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问4是否收到香皂"
+    },
+    {
+        "sentence": "那就是她送给你的其他东西你都丢了？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "其他礼物的处理情况",
+        "Opinion": "质疑丢失",
+        "Sentiment": "negative",
+        "Rationale": "3认为4可能丢失了其他礼物"
+    },
+    {
+        "sentence": "没有，我没有收到香皂。",
+        "Holder": "4",
+        "Target": "香皂",
+        "Aspect": "收到的实际情况",
+        "Opinion": "确实未收到",
+        "Sentiment": "neutral",
+        "Rationale": "4在陈述自己确实没有收到香皂的事实"
+    },
+    {
+        "sentence": "不可能。",
+        "Holder": "1",
+        "Target": "4的说法",
+        "Aspect": "说法的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1认为4的说法不可信"
+    },
+    {
+        "sentence": "真的没有收到香皂。",
+        "Holder": "4",
+        "Target": "香皂",
+        "Aspect": "收到的实际情况",
+        "Opinion": "确实未收到",
+        "Sentiment": "neutral",
+        "Rationale": "4再次强调自己确实没有收到香皂"
+    },
+    {
+        "sentence": "啊，对，我也没有收到。",
+        "Holder": "2",
+        "Target": "收到物品",
+        "Aspect": "物品接收情况",
+        "Opinion": "没有收到",
+        "Sentiment": "neutral",
+        "Rationale": "自己没有收到预期的物品"
+    },
+    {
+        "sentence": "那就我收到了？",
+        "Holder": "3",
+        "Target": "收到物品",
+        "Aspect": "物品接收情况",
+        "Opinion": "疑问是否自己收到",
+        "Sentiment": "ambiguous",
+        "Rationale": "其他人都没有收到"
+    },
+    {
+        "sentence": "还有呢还有呢？",
+        "Holder": "2",
+        "Target": "其他物品",
+        "Aspect": "物品接收情况",
+        "Opinion": "询问其他物品情况",
+        "Sentiment": "neutral",
+        "Rationale": "想了解除了已确认的物品外还有哪些物品未收到"
+    },
+    {
+        "sentence": "真的没有收到香皂。",
+        "Holder": "4",
+        "Target": "香皂",
+        "Aspect": "物品接收情况",
+        "Opinion": "没有收到香皂",
+        "Sentiment": "neutral",
+        "Rationale": "确实没有收到香皂"
+    },
+    {
+        "sentence": "还有呢？",
+        "Holder": "1",
+        "Target": "其他物品",
+        "Aspect": "物品接收情况",
+        "Opinion": "询问其他物品情况",
+        "Sentiment": "neutral",
+        "Rationale": "想了解除了已确认的物品外还有哪些物品未收到"
+    },
+    {
+        "sentence": "但我不想给你们了，为什么，凭什么，欠你们的？",
+        "Holder": "1",
+        "Target": "3和4的要求",
+        "Aspect": "给予的合理性",
+        "Opinion": "不愿意给予",
+        "Sentiment": "negative",
+        "Rationale": "感觉被强迫给予"
+    },
+    {
+        "sentence": "那为什么你区别对待呢，你这个人？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对待的公平性",
+        "Opinion": "质疑区别对待",
+        "Sentiment": "negative",
+        "Rationale": "感觉被不公平对待"
+    },
+    {
+        "sentence": "只是让你知道。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "信息告知",
+        "Opinion": "单纯告知",
+        "Sentiment": "neutral",
+        "Rationale": "只是传达信息，没有表达情感"
+    },
+    {
+        "sentence": "你让我说！",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "发言权",
+        "Opinion": "要求发言",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被忽视"
+    },
+    {
+        "sentence": "我可生气了，还有你的份儿，就是你。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "责任归属",
+        "Opinion": "指责1",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为导致了自己的不满"
+    },
+    {
+        "sentence": "我也有一个事情要控诉！你给我买个沐浴露，一直说说说。我给你买了演唱会的票，我也没找你要钱啊？",
+        "Holder": "5",
+        "Target": "1的行为",
+        "Aspect": "经济付出与回报",
+        "Opinion": "认为自己付出更多",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己为1买了演唱会票却没有要钱，而1却一直催促买沐浴露"
+    },
+    {
+        "sentence": "你不是准备找我要钱吗？我所有的钱都在你那儿！",
+        "Holder": "1",
+        "Target": "5的指控",
+        "Aspect": "经济管理",
+        "Opinion": "钱在5那里",
+        "Sentiment": "negative",
+        "Rationale": "所有的钱都在5那里，感觉被误解为准备要钱"
+    },
+    {
+        "sentence": "你好意思了？",
+        "Holder": "5",
+        "Target": "1的态度",
+        "Aspect": "行为合理性",
+        "Opinion": "认为1不应该这样",
+        "Sentiment": "negative",
+        "Rationale": "1在钱的问题上表现得理直气壮"
+    },
+    {
+        "sentence": "那天别人找我借钱，一个大半夜的我又不好吵你。人家找我借钱，我没办法，我自己去借钱去借给人家钱，你知道吗？太惨了，我真的。",
+        "Holder": "1",
+        "Target": "自己的处境",
+        "Aspect": "借钱经历",
+        "Opinion": "自己很惨",
+        "Sentiment": "negative",
+        "Rationale": "在大半夜被借钱且无法吵醒5，只能自己去借钱"
+    },
+    {
+        "sentence": "你闭嘴。",
+        "Holder": "5",
+        "Target": "1的诉说",
+        "Aspect": "对话态度",
+        "Opinion": "不想听1解释",
+        "Sentiment": "negative",
+        "Rationale": "对1的解释感到不耐烦"
+    },
+    {
+        "sentence": "你知道吧？昨天刘姝闲不是胃疼吗，我跟她说什么胃药的事情，你知道她来句什么？哼呵，你最近好的跟段艺璇穿一条裤子的？",
+        "Holder": "5",
+        "Target": "刘姝闲",
+        "Aspect": "对话内容",
+        "Opinion": "不满刘姝闲的回应",
+        "Sentiment": "negative",
+        "Rationale": "刘姝闲的回答带有讽刺意味，暗示5和段艺璇关系过于亲密"
+    },
+    {
+        "sentence": "你有意见啊？",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "对话态度",
+        "Opinion": "质疑5的态度",
+        "Sentiment": "negative",
+        "Rationale": "1认为5在抱怨刘姝闲时带有负面情绪"
+    },
+    {
+        "sentence": "没有啊！",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "对话态度",
+        "Opinion": "否认有意见",
+        "Sentiment": "neutral",
+        "Rationale": "4确实没有对5的抱怨表示意见"
+    },
+    {
+        "sentence": "那你啰里巴嗦？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "对话方式",
+        "Opinion": "认为4啰嗦",
+        "Sentiment": "negative",
+        "Rationale": "1觉得4虽然没有意见，但之前的发言显得啰嗦"
+    },
+    {
+        "sentence": "点她一下。",
+        "Holder": "4",
+        "Target": "刘姝闲",
+        "Aspect": "对话目的",
+        "Opinion": "提醒刘姝闲",
+        "Sentiment": "neutral",
+        "Rationale": "4只是想通过提及刘姝闲来提醒她，没有明显的情绪波动"
+    },
+    {
+        "sentence": "没有，你知道吗？她打个小算盘，我跟她一直说要出国玩嘛，然后出国玩，我一直以为就是可能大家出去玩AA嘛，你知道吗？就是酒店也好。",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "出国玩的费用安排",
+        "Opinion": "以为是AA制",
+        "Sentiment": "negative",
+        "Rationale": "说话人1原本以为出国玩是大家AA制分担费用，但后来发现对方有不同的说辞"
+    },
+    {
+        "sentence": "然后她跟别人的说辞都说段艺璇全包吃包住。",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "对别人的说辞",
+        "Opinion": "全包吃包住",
+        "Sentiment": "negative",
+        "Rationale": "对方对外宣称是全包吃包住，与原本的AA制预期不符"
+    },
+    {
+        "sentence": "对吧，我那天突然听到，我懵了。",
+        "Holder": "1",
+        "Target": "自己的发现",
+        "Aspect": "情绪反应",
+        "Opinion": "感到震惊",
+        "Sentiment": "negative",
+        "Rationale": "突然听到与自己预期不符的消息"
+    },
+    {
+        "sentence": "乱讲。刚你跟我说的，包吃包住。",
+        "Holder": "5",
+        "Target": "1的说法",
+        "Aspect": "对说法的质疑",
+        "Opinion": "认为是乱讲",
+        "Sentiment": "negative",
+        "Rationale": "5认为1的说法不符合事实"
+    },
+    {
+        "sentence": "你知道吗？上次送她生日礼物的时候，我觉得我要送她点实际的，就说我带你吃日料。",
+        "Holder": "3",
+        "Target": "她",
+        "Aspect": "送生日礼物的选择",
+        "Opinion": "选择实际的礼物",
+        "Sentiment": "positive",
+        "Rationale": "3认为送实际的礼物更合适"
+    },
+    {
+        "sentence": "你带她去吃日料？天哪，那我呢？",
+        "Holder": "1",
+        "Target": "3带她吃日料",
+        "Aspect": "被考虑的公平性",
+        "Opinion": "感到被忽视",
+        "Sentiment": "negative",
+        "Rationale": "3带她去吃日料而没有考虑自己"
+    },
+    {
+        "sentence": "是生日礼物。",
+        "Holder": "3",
+        "Target": "带她吃日料",
+        "Aspect": "行为的原因",
+        "Opinion": "解释为生日礼物",
+        "Sentiment": "neutral",
+        "Rationale": "解释了带她去吃日料的原因是生日礼物"
+    },
+    {
+        "sentence": "然后她还说，哎，没事，青玉雯刘姝闲走，一起去吃。哇，结果我他妈的花了1000块钱！我请她一个人，我就花几百块钱。",
+        "Holder": "3",
+        "Target": "请客吃饭的费用",
+        "Aspect": "费用的合理性",
+        "Opinion": "费用过高",
+        "Sentiment": "negative",
+        "Rationale": "原本只想请她一个人却变成请多人，导致花费超出预期"
+    },
+    {
+        "sentence": "那我过生日呢？",
+        "Holder": "1",
+        "Target": "自己的生日",
+        "Aspect": "被重视的程度",
+        "Opinion": "期待被重视",
+        "Sentiment": "negative",
+        "Rationale": "自己的生日没有被同样重视"
+    },
+    {
+        "sentence": "而且我觉得你的生日礼物是最难买的，你知道吗？",
+        "Holder": "5",
+        "Target": "1的生日礼物",
+        "Aspect": "礼物的选择难度",
+        "Opinion": "难以选择",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的生日礼物难以选择"
+    },
+    {
+        "sentence": "因为你属于那种不会被那种身外之物所迷惑，给你买个什么你都会掉啊问题是。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "对物质的看法",
+        "Opinion": "1不会被物质迷惑",
+        "Sentiment": "neutral",
+        "Rationale": "5在描述1对物质的态度，没有明显的情感倾向"
+    },
+    {
+        "sentence": "没有，为了你，今天为了你，我今天开始爱上奢侈品。从今天开始，我就是被奢侈品迷了双眼的女人。",
+        "Holder": "1",
+        "Target": "奢侈品",
+        "Aspect": "态度变化",
+        "Opinion": "开始爱上奢侈品",
+        "Sentiment": "positive",
+        "Rationale": "1为了5改变了对奢侈品的态度，表现出积极的情感"
+    },
+    {
+        "sentence": "这个项链我告诉你就很不错。",
+        "Holder": "1",
+        "Target": "项链",
+        "Aspect": "品质",
+        "Opinion": "很不错",
+        "Sentiment": "positive",
+        "Rationale": "1对项链的评价很高，表现出积极的情感"
+    },
+    {
+        "sentence": "先来一个。",
+        "Holder": "1",
+        "Target": "A货",
+        "Aspect": "选择",
+        "Opinion": "接受",
+        "Sentiment": "neutral",
+        "Rationale": "因为只是简单地表达了一个选择，没有明显的情感倾向，所以情绪是中立的。"
+    },
+    {
+        "sentence": "那我下去给你一个，反正都是A货，没关系。",
+        "Holder": "5",
+        "Target": "A货",
+        "Aspect": "质量",
+        "Opinion": "虽然不是真品但可以接受",
+        "Sentiment": "neutral",
+        "Rationale": "因为提到的是A货，但态度是随意的，表示对此并不介意。"
+    },
+    {
+        "sentence": "你原来喜欢A货啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "喜好",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "因为2只是提出一个关于1喜好的问题，没有表现出明显的情感倾向。"
+    },
+    {
+        "sentence": "是因为买不起真的啊！",
+        "Holder": "5",
+        "Target": "买不起真货",
+        "Aspect": "经济原因",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "5强调了自己买不起真货，透露出一种无奈和自嘲的情绪。"
+    }
+]

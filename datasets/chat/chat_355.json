@@ -1,0 +1,101 @@
+[
+    {
+        "sentence": "党和人民就没有赋予我们这样的权利，",
+        "Holder": "1",
+        "Target": "权利",
+        "Aspect": "权利的赋予",
+        "Opinion": "没有赋予",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述一个事实，即党和人民没有赋予某种权利"
+    },
+    {
+        "sentence": "市委书记李达康是想把我往死里整，他当面就发话，要把我清除出公安队伍。",
+        "Holder": "2",
+        "Target": "李达康",
+        "Aspect": "对待方式",
+        "Opinion": "想把我往死里整",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为李达康对他有敌意，并且要将其清除出公安队伍"
+    },
+    {
+        "sentence": "给碗饭吃可以，千万别让他砸了我们的锅，",
+        "Holder": "3",
+        "Target": "李达康",
+        "Aspect": "行为影响",
+        "Opinion": "别让他砸了我们的锅",
+        "Sentiment": "negative",
+        "Rationale": "说话人3担心李达康的行为会影响到他们的利益"
+    },
+    {
+        "sentence": "如果换作我来处理，恐怕就不是让你脱警服那么简单了，党和人民的干部怎么能做出这种没有底线的事情，你以为你是谁，你是达康书记，你还是主管政法的育良书记，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为底线",
+        "Opinion": "没有底线",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为2的行为超出了底线，并且对其身份和职位提出质疑"
+    },
+    {
+        "sentence": "就算你是育良书记，你是达康书记，你也没有这种权利知道吗？胡作非为。",
+        "Holder": "1",
+        "Target": "育良书记、达康书记",
+        "Aspect": "权利范围",
+        "Opinion": "无权胡作非为",
+        "Sentiment": "negative",
+        "Rationale": "认为对方超越了自己的权限范围进行不当行为"
+    },
+    {
+        "sentence": "监视一位省委常委市委书记，你知不知道你这么做就是违反了国家的我随时随刻可以把你抓起来。",
+        "Holder": "1",
+        "Target": "监视行为",
+        "Aspect": "合法性",
+        "Opinion": "违反国家规定",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为违反了国家法律"
+    },
+    {
+        "sentence": "你们市里面光明区分局有一个局长叫程度对吧？对这个同志我们想把他调到省厅里，",
+        "Holder": "1",
+        "Target": "程度",
+        "Aspect": "工作调动",
+        "Opinion": "建议调动",
+        "Sentiment": "neutral",
+        "Rationale": "提出了一个工作调动的建议"
+    },
+    {
+        "sentence": "我建议你跟省厅慎重考虑一下，这样安排合适。",
+        "Holder": "1",
+        "Target": "工作调动安排",
+        "Aspect": "合理性",
+        "Opinion": "需要慎重考虑",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方认真考虑建议"
+    },
+    {
+        "sentence": "合不合适不是你们市里面说了算的。",
+        "Holder": "4",
+        "Target": "市里面的决定",
+        "Aspect": "决策权",
+        "Opinion": "市里面无权决定",
+        "Sentiment": "negative",
+        "Rationale": "认为市里面没有最终决策权"
+    },
+    {
+        "sentence": "这个人我要定了，如果达康书记有什么想法，你让他直接来找我就这样。",
+        "Holder": "1",
+        "Target": "人员调动",
+        "Aspect": "决心",
+        "Opinion": "坚决要人",
+        "Sentiment": "positive",
+        "Rationale": "对人员调动的决心坚定"
+    },
+    {
+        "sentence": "齐厅长要把程度调到省厅做办公室副主任。",
+        "Holder": "4",
+        "Target": "程度",
+        "Aspect": "职位调动",
+        "Opinion": "调到省厅",
+        "Sentiment": "neutral",
+        "Rationale": "传达了一个职位调动的信息"
+    }
+]

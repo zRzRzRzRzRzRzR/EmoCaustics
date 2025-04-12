@@ -1,0 +1,326 @@
+[
+    {
+        "sentence": "正好大家都在来先好好喝一顿，谁先喝趴下了，谁买单，",
+        "Holder": "2",
+        "Target": "聚会喝酒",
+        "Aspect": "喝酒的规则",
+        "Opinion": "提议先喝酒",
+        "Sentiment": "positive",
+        "Rationale": "大家都在场"
+    },
+    {
+        "sentence": "别着急，别着急一会有话，说人还没齐。",
+        "Holder": "1",
+        "Target": "聚会安排",
+        "Aspect": "聚会的时机",
+        "Opinion": "等人齐再说",
+        "Sentiment": "neutral",
+        "Rationale": "人还没齐"
+    },
+    {
+        "sentence": "朱小姐。",
+        "Holder": "1",
+        "Target": "朱小姐",
+        "Aspect": "称呼",
+        "Opinion": "称呼朱小姐",
+        "Sentiment": "neutral",
+        "Rationale": "需要叫朱小姐"
+    },
+    {
+        "sentence": "你还来你",
+        "Holder": "4",
+        "Target": "朱小姐",
+        "Aspect": "朱小姐的到来",
+        "Opinion": "质疑朱小姐的到来",
+        "Sentiment": "ambiguous",
+        "Rationale": "对朱小姐的到来感到意外或不解"
+    },
+    {
+        "sentence": "我请的老雷，",
+        "Holder": "1",
+        "Target": "老雷",
+        "Aspect": "邀请",
+        "Opinion": "邀请了老雷",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述自己邀请了老雷"
+    },
+    {
+        "sentence": "我请人家来的，",
+        "Holder": "1",
+        "Target": "老雷",
+        "Aspect": "邀请",
+        "Opinion": "强调了邀请",
+        "Sentiment": "neutral",
+        "Rationale": "1在强调是自己邀请老雷来的"
+    },
+    {
+        "sentence": "你没说你请了这么多人，",
+        "Holder": "4",
+        "Target": "1的邀请",
+        "Aspect": "邀请的人数",
+        "Opinion": "人数多",
+        "Sentiment": "negative",
+        "Rationale": "4觉得1请了很多人但没提前告知"
+    },
+    {
+        "sentence": "人再多也没关系，肖路不是在吗？",
+        "Holder": "1",
+        "Target": "人数多",
+        "Aspect": "人数的合理性",
+        "Opinion": "人数多没关系",
+        "Sentiment": "positive",
+        "Rationale": "1认为即使人多了肖路也在"
+    },
+    {
+        "sentence": "方一诺？",
+        "Holder": "2",
+        "Target": "方一诺",
+        "Aspect": "提及",
+        "Opinion": "提及方一诺",
+        "Sentiment": "neutral",
+        "Rationale": "2只是提及方一诺的名字，没有表达出明显的情感"
+    },
+    {
+        "sentence": "你真行，来坐坐我这儿",
+        "Holder": "3",
+        "Target": "方一诺",
+        "Aspect": "能力或行为",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "3对方一诺表示认可并邀请她坐过来"
+    },
+    {
+        "sentence": "用不着就坐这儿。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "坐下的必要性",
+        "Opinion": "不需要坐下",
+        "Sentiment": "neutral",
+        "Rationale": "认为1不需要特意坐下"
+    },
+    {
+        "sentence": "坐，你不来方老师有话都不说，人来了，有什么话快说别。",
+        "Holder": "1",
+        "Target": "2的到来",
+        "Aspect": "说话的时机",
+        "Opinion": "催促说话",
+        "Sentiment": "neutral",
+        "Rationale": "2的到来让方老师有话要说"
+    },
+    {
+        "sentence": "憋着，上回我闺女周岁宴让大伙看笑话，今天这第一杯给大伙赔个不是。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "道歉的原因",
+        "Opinion": "为之前的笑话道歉",
+        "Sentiment": "negative",
+        "Rationale": "之前闺女周岁宴让大家看笑话"
+    },
+    {
+        "sentence": "我跟肖璐一路走过来，大伙都看在眼里，除了朱小姐所以我们离婚了，我也想让大家见证一下全学全有远点。",
+        "Holder": "1",
+        "Target": "与肖璐的关系",
+        "Aspect": "离婚的原因",
+        "Opinion": "离婚是无奈的选择",
+        "Sentiment": "negative",
+        "Rationale": "与肖璐的关系中出现了朱小姐的介入"
+    },
+    {
+        "sentence": "来谢谢大家来参加肖璐跟方一诺的离婚宴。",
+        "Holder": "2",
+        "Target": "大家",
+        "Aspect": "参加离婚宴",
+        "Opinion": "感谢大家的到来",
+        "Sentiment": "positive",
+        "Rationale": "大家来参加离婚宴"
+    },
+    {
+        "sentence": "谢谢来叔叔碰一碗。",
+        "Holder": "1",
+        "Target": "来叔叔",
+        "Aspect": "敬酒",
+        "Opinion": "表示感谢",
+        "Sentiment": "positive",
+        "Rationale": "来叔叔的到来和支持"
+    },
+    {
+        "sentence": "肖路我觉得人贵在体面，没必要扯得这么难看，好聚好散以后就别出现在我生活里了，好和好也别嫁。",
+        "Holder": "1",
+        "Target": "肖路",
+        "Aspect": "分手方式",
+        "Opinion": "好聚好散",
+        "Sentiment": "negative",
+        "Rationale": "觉得肖路的行为不够体面"
+    },
+    {
+        "sentence": "方一诺你不觉得你这话可笑，我是荷荷的亲爸，我能不能见他？你说了不算，",
+        "Holder": "2",
+        "Target": "方一诺的话",
+        "Aspect": "话语合理性",
+        "Opinion": "可笑",
+        "Sentiment": "negative",
+        "Rationale": "方一诺的话否定了自己作为父亲的权利"
+    },
+    {
+        "sentence": "你试试看，我说的算不算，你试试看，你见不见得到他，而且我还跟你说他不跟你姓了，他跟我姓方，从此以后你跟荷荷没有任何关系",
+        "Holder": "1",
+        "Target": "肖路的权利",
+        "Aspect": "父子关系",
+        "Opinion": "断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "要彻底断绝肖路与荷荷的关系"
+    },
+    {
+        "sentence": "方一诺你今天把大家叫来不就为了要羞辱我吗？行，方老师只要你高兴就好，我今天也表个态，是我追的朱珠跟她没什么关系，有什么都冲我来吧，以后荷荷不管姓什么，他身体流着也是我肖路的血",
+        "Holder": "2",
+        "Target": "方一诺的行为",
+        "Aspect": "动机",
+        "Opinion": "羞辱",
+        "Sentiment": "negative",
+        "Rationale": "认为方一诺召集大家是为了羞辱自己"
+    },
+    {
+        "sentence": "我跟你说一次记清楚了，我不让你见荷荷这个事情不是跟你商量，是通知你，我不会让孩子知道有一个你这样的爹，有一个在他还没有出生就不想要他的爹，有一个在他过周岁宴的时候干出龌龊事的爹，你我不会让你再见到荷荷听懂了吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "见荷荷的权利",
+        "Opinion": "禁止2见荷荷",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在荷荷出生前和周岁宴时行为不端"
+    },
+    {
+        "sentence": "你也给我听清楚，我见他你说了不算？有法律。",
+        "Holder": "2",
+        "Target": "1的禁止",
+        "Aspect": "法律权利",
+        "Opinion": "主张法律权利",
+        "Sentiment": "negative",
+        "Rationale": "2认为1无权单方面禁止自己见孩子"
+    },
+    {
+        "sentence": "法律让你跟别的女人睡在一起了吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "道德合法性",
+        "Opinion": "质疑2的道德",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不道德"
+    },
+    {
+        "sentence": "我们这跟孩子有什么关系？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "相关性",
+        "Opinion": "认为与孩子无关",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的指责与孩子无关"
+    },
+    {
+        "sentence": "你没有资格提孩子",
+        "Holder": "3",
+        "Target": "说话人1",
+        "Aspect": "提孩子的资格",
+        "Opinion": "没有资格",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人1没有资格提及孩子"
+    },
+    {
+        "sentence": "荷荷是无辜的，没有。",
+        "Holder": "1",
+        "Target": "荷荷",
+        "Aspect": "是否无辜",
+        "Opinion": "无辜",
+        "Sentiment": "positive",
+        "Rationale": "认为荷荷没有做错任何事情"
+    },
+    {
+        "sentence": "没有资格提孩子",
+        "Holder": "3",
+        "Target": "说话人1",
+        "Aspect": "提孩子的资格",
+        "Opinion": "没有资格",
+        "Sentiment": "negative",
+        "Rationale": "再次强调说话人1没有资格提及孩子"
+    },
+    {
+        "sentence": "肖路少说两句",
+        "Holder": "5",
+        "Target": "肖路",
+        "Aspect": "说话的多少",
+        "Opinion": "少说",
+        "Sentiment": "neutral",
+        "Rationale": "希望肖路减少发言以避免冲突"
+    },
+    {
+        "sentence": "方老师我觉得你说话就不讲。",
+        "Holder": "2",
+        "Target": "方老师",
+        "Aspect": "说话的方式",
+        "Opinion": "不讲道理",
+        "Sentiment": "negative",
+        "Rationale": "认为方老师说话不讲道理"
+    },
+    {
+        "sentence": "你们的婚姻出问题不是我安排的,",
+        "Holder": "5",
+        "Target": "婚姻问题",
+        "Aspect": "问题原因",
+        "Opinion": "否认安排",
+        "Sentiment": "neutral",
+        "Rationale": "5在澄清自己没有安排婚姻问题"
+    },
+    {
+        "sentence": "我婚姻出没出问题，轮不到你来说,",
+        "Holder": "1",
+        "Target": "5的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "1认为5无权评论自己的婚姻问题"
+    },
+    {
+        "sentence": "你闹到我孩子周岁宴上，我这辈子都记得。",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "强烈不满",
+        "Sentiment": "negative",
+        "Rationale": "5在孩子周岁宴上闹事，给1留下了深刻的负面印象"
+    },
+    {
+        "sentence": "方老师",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "礼貌称呼",
+        "Sentiment": "neutral",
+        "Rationale": "6在礼貌地称呼2"
+    },
+    {
+        "sentence": "我女儿做错了事情，我代她向你道歉，你给我听好了，你离我女儿远一点",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "与女儿的距离",
+        "Opinion": "要求远离女儿",
+        "Sentiment": "negative",
+        "Rationale": "女儿做错了事情，担心4会对女儿产生不良影响"
+    },
+    {
+        "sentence": "离我女儿远一点",
+        "Holder": "4",
+        "Target": "1的女儿",
+        "Aspect": "与1的女儿的距离",
+        "Opinion": "要求远离",
+        "Sentiment": "negative",
+        "Rationale": "1的要求让4感到被冒犯和不满"
+    },
+    {
+        "sentence": "我不是你妈，我没有几个儿子，我没养过这样的人不要脸的东西。要气死我，你拿把刀好不好？直接照着。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "对1的指责",
+        "Opinion": "强烈不满和愤怒",
+        "Sentiment": "negative",
+        "Rationale": "1的要求让4感到极度不满和被侮辱"
+    }
+]

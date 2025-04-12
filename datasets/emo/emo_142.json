@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "主持辩论流程与规则",
+        "emotions": [
+          {"state": "neutral", "reason": "客观陈述辩论规则", "source_id": "1"},
+          {"state": "negative", "reason": "自嘲说话方式生硬", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "武术信仰的实践与传承",
+        "emotions": [
+          {"state": "positive", "reason": "强调武术普及的重要性", "source_id": "3,4"},
+          {"state": "negative", "reason": "批评无字经实用性不足", "source_id": "3"},
+          {"state": "positive", "reason": "通过行动证明信仰价值", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "情感信任的实证过程",
+        "emotions": [
+          {"state": "neutral", "reason": "分析信任建立的复杂性", "source_id": "3"},
+          {"state": "positive", "reason": "主张用长期行动证明情感", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "理性证明的局限性探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "解构数学公理基础", "source_id": "3"},
+          {"state": "positive", "reason": "强调情感关怀超越理性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "科学共同体的认知范式",
+        "emotions": [
+          {"state": "negative", "reason": "批判民科沟通方式", "source_id": "3"},
+          {"state": "positive", "reason": "提出范式转换说服策略", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

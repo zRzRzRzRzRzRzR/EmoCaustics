@@ -1,0 +1,173 @@
+[
+    {
+        "sentence": "你能不能让我把话说完？你别听那个孙父随便说两句你就胡思乱想，行吗？",
+        "Holder": "1",
+        "Target": "2的倾听态度",
+        "Aspect": "倾听的耐心",
+        "Opinion": "希望被倾听",
+        "Sentiment": "negative",
+        "Rationale": "2没有耐心听完1的话"
+    },
+    {
+        "sentence": "孙父总是没跟你打好配合，是不是？行。你打算怎么演？我演什么？你不演，那你认了。",
+        "Holder": "2",
+        "Target": "孙父的配合",
+        "Aspect": "配合的默契",
+        "Opinion": "认为孙父不配合",
+        "Sentiment": "negative",
+        "Rationale": "孙父总是不配合1"
+    },
+    {
+        "sentence": "我认什么？我什么都没干。我认什么？我跟你说了，我喝多了什么都不知道，你懂吗？你。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的认知",
+        "Opinion": "否认有不当行为",
+        "Sentiment": "negative",
+        "Rationale": "2怀疑1的行为"
+    },
+    {
+        "sentence": "喝多了，那你跟他发生什么你都不记得了，是吧？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的记忆",
+        "Opinion": "怀疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "1喝多了不记得发生的事情"
+    },
+    {
+        "sentence": "我喝成那样我能发生什么？我真的回去有衣服都没脱，我起来还是这样，你给我打电话，我醒过来就我自己在房间，就。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "强调自己没有发生什么",
+        "Sentiment": "negative",
+        "Rationale": "2的怀疑让1感到被误解"
+    },
+    {
+        "sentence": "你自己在房间，那你现在怎么说都行。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的自由度",
+        "Opinion": "可以随意说",
+        "Sentiment": "neutral",
+        "Rationale": "2在房间里"
+    },
+    {
+        "sentence": "你要实在不相信我给露娜打电话。",
+        "Holder": "2",
+        "Target": "1的信任",
+        "Aspect": "信任的验证方式",
+        "Opinion": "通过打电话验证",
+        "Sentiment": "doubt",
+        "Rationale": "2觉得1不相信自己"
+    },
+    {
+        "sentence": "你别再提这个人的名字了，行吗？我不想听你们俩之间的事儿。",
+        "Holder": "1",
+        "Target": "露娜的名字",
+        "Aspect": "提及的合理性",
+        "Opinion": "不应该提及",
+        "Sentiment": "negative",
+        "Rationale": "1不想听到关于露娜和2之间的事情"
+    },
+    {
+        "sentence": "周放，我们有点最起码的信任，行，给我点信任，行吗？",
+        "Holder": "2",
+        "Target": "1的信任",
+        "Aspect": "信任的缺乏",
+        "Opinion": "需要基本的信任",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1缺乏对自己最基本的信任"
+    },
+    {
+        "sentence": "行，那咱们学会换位思考，如果说有一天把你的事放在我身上，我跟哪个男人在酒店被拍了，你相信吗？你信不信？",
+        "Holder": "1",
+        "Target": "2的信任",
+        "Aspect": "换位思考的合理性",
+        "Opinion": "质疑对方的信任",
+        "Sentiment": "doubt",
+        "Rationale": "1通过换位思考的方式质疑2是否会在类似情况下相信自己"
+    },
+    {
+        "sentence": "我不信他这事我没法解释，我怎么解释呢？我只能让你信任我，新闻放在那，你让我解释不清楚，我自己都不信，但是让我怎么办？如果我跟露娜还有什么问题的话，如果我们有什么事的话，那还有，那肯定。",
+        "Holder": "2",
+        "Target": "解释事情的能力",
+        "Aspect": "事情的合理性",
+        "Opinion": "无法解释",
+        "Sentiment": "negative",
+        "Rationale": "事情复杂且新闻证据确凿，自己也无法相信"
+    },
+    {
+        "sentence": "就没有我了呗？现在站你旁边的人肯定不是我，对吧？我不是那个意思，你就是这个意思，你就我没有这么说，你想这么说，我。",
+        "Holder": "1",
+        "Target": "2的立场",
+        "Aspect": "对话中的误解",
+        "Opinion": "被误解",
+        "Sentiment": "negative",
+        "Rationale": "感觉被对方误解，且对方坚持己见"
+    },
+    {
+        "sentence": "没有这么说，你被瞎闹好。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "对话的真实性",
+        "Opinion": "否认说过的话",
+        "Sentiment": "negative",
+        "Rationale": "被误解为在瞎闹"
+    },
+    {
+        "sentence": "吗？现在做错事情的事，你怎么成我瞎闹了。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "责任的归属",
+        "Opinion": "否认瞎闹",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被错误地指责为瞎闹"
+    },
+    {
+        "sentence": "出发了。我和之后还有很长的路要走，如果我们连这点信任都不能给对方的话，那我们后面怎么相处？",
+        "Holder": "2",
+        "Target": "双方的信任",
+        "Aspect": "未来的相处",
+        "Opinion": "需要信任",
+        "Sentiment": "neutral",
+        "Rationale": "认识到信任对未来的相处至关重要"
+    },
+    {
+        "sentence": "那就分吧。",
+        "Holder": "1",
+        "Target": "分手",
+        "Aspect": "关系结束",
+        "Opinion": "同意分手",
+        "Sentiment": "negative",
+        "Rationale": "对话中提到了分手"
+    },
+    {
+        "sentence": "我没说要分手，不是那个意思。",
+        "Holder": "2",
+        "Target": "分手",
+        "Aspect": "意图澄清",
+        "Opinion": "否认提出分手",
+        "Sentiment": "negative",
+        "Rationale": "被误解为提出分手"
+    },
+    {
+        "sentence": "我想分手，我们俩根本就不是一路上的人。那实在太复杂了，新闻都在那，你让我怎么信你？",
+        "Holder": "1",
+        "Target": "关系",
+        "Aspect": "合适性",
+        "Opinion": "认为不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得两人不合适且外界信息复杂"
+    },
+    {
+        "sentence": "我怎么秀我都不信。",
+        "Holder": "2",
+        "Target": "信任",
+        "Aspect": "可信度",
+        "Opinion": "无法信任",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为和外界信息导致信任缺失"
+    }
+]

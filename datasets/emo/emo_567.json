@@ -1,0 +1,104 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "萨尔瓦多比特币政策实施与全球影响",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观陈述政策事实与辩论进展",
+            "source_id": "2,3"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对加密货币服务假设提出根本质疑",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "引导讨论转向问答环节",
+            "source_id": "2,3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "比特币实际应用与自由金融主张",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "展示萨尔瓦多居民储蓄行为改变与资金流入本地经济",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批评ICO诈骗与监管制度低效",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "强调比特币抗通胀特性与个人资产配置",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "加密货币匿名性争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反驳非法用途数据与指控CIA背景偏见",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "提出自由转账对威权政权民众的经济解放",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "加密货币服务根本性缺陷分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出经济贫困与技术方案错配",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示监管合规与匿名性矛盾",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "列举代币诈骗案例说明高风险性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "萨尔瓦多政策风险预警",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评缺乏民主协商的激进实验",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "警示主权货币与加密共存的监管困境",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

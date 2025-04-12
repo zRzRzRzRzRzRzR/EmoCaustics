@@ -1,0 +1,803 @@
+[
+    {
+        "sentence": "小颜，你怎么在这儿？",
+        "Holder": "1",
+        "Target": "2的位置",
+        "Aspect": "出现的原因",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "看到2出现在意料之外的地方"
+    },
+    {
+        "sentence": "你来这儿干嘛？穿着这样勾引谁呢？不会是对我爸旧情难忘吧？",
+        "Holder": "2",
+        "Target": "1的动机",
+        "Aspect": "行为目的",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对1的穿着和行为动机产生怀疑"
+    },
+    {
+        "sentence": "严颜，我好歹是你妈，你说话别那么难听。",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "言语的礼貌",
+        "Opinion": "要求尊重",
+        "Sentiment": "negative",
+        "Rationale": "2的言语不礼貌"
+    },
+    {
+        "sentence": "哦，我知道了，爸爸的公司今天开业，你是跑来蹭饭的？",
+        "Holder": "2",
+        "Target": "1的动机",
+        "Aspect": "行为目的",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "认为1是为了蹭饭而来"
+    },
+    {
+        "sentence": "你爸公司开业？",
+        "Holder": "1",
+        "Target": "2的陈述",
+        "Aspect": "信息的真实性",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "对2提到的信息感到意外"
+    },
+    {
+        "sentence": "装什么呀？你不就是知道这是我爸的公司才过来的吗？",
+        "Holder": "2",
+        "Target": "1的行为动机",
+        "Aspect": "动机的真实性",
+        "Opinion": "怀疑1的动机不纯",
+        "Sentiment": "negative",
+        "Rationale": "2认为1是因知道公司是2爸的才来"
+    },
+    {
+        "sentence": "小颜，你是不是搞错了？",
+        "Holder": "1",
+        "Target": "2的指控",
+        "Aspect": "指控的准确性",
+        "Opinion": "质疑2的指控",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的指控表示怀疑"
+    },
+    {
+        "sentence": "不相信呐。我爸自从离开你以后，鸿运当头。你看到了，他的公司马上开业，待会儿他就过来参加开业仪式了。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "事实的陈述",
+        "Opinion": "强调事实的正确性",
+        "Sentiment": "positive",
+        "Rationale": "2在回应1的质疑时，强调了自己父亲的成就"
+    },
+    {
+        "sentence": "小颜，我劝你还是打个电话再问一下你爸，你确定这是他的公司？",
+        "Holder": "1",
+        "Target": "2的确认",
+        "Aspect": "信息的准确性",
+        "Opinion": "建议核实信息",
+        "Sentiment": "neutral",
+        "Rationale": "1建议2再次确认信息，以确保准确性"
+    },
+    {
+        "sentence": "你这是嫉妒了？知道我跟我爸离开你以后过这么好，后悔了？",
+        "Holder": "2",
+        "Target": "1的情感",
+        "Aspect": "嫉妒和后悔",
+        "Opinion": "认为1嫉妒且后悔",
+        "Sentiment": "negative",
+        "Rationale": "2认为1因自己过得好而嫉妒"
+    },
+    {
+        "sentence": "我可以为任何人后悔，却唯独不可能因为你们两个后悔。",
+        "Holder": "1",
+        "Target": "2和3",
+        "Aspect": "后悔的可能性",
+        "Opinion": "不可能后悔",
+        "Sentiment": "negative",
+        "Rationale": "对2和3的行为或态度极度失望"
+    },
+    {
+        "sentence": "你也就嘴上硬气了，1个40周岁的老女人离了婚什么都不是。不过啊看在我们母女一场的份上，待会儿会赏你一个馒头的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "个人价值",
+        "Opinion": "贬低对方价值",
+        "Sentiment": "negative",
+        "Rationale": "对1的现状和离婚状态进行嘲讽"
+    },
+    {
+        "sentence": "小颜，我劝你还是打个电话再找你爸问清楚，否则你一会儿丢脸的可能是你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为建议",
+        "Opinion": "建议核实信息",
+        "Sentiment": "neutral",
+        "Rationale": "担心2的行为可能导致尴尬"
+    },
+    {
+        "sentence": "你什么意思呀？今天我爸的公司开业，他肯定在忙着准备开业词呢，你以为都跟你一样无所事事？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为评价",
+        "Opinion": "认为1无所事事",
+        "Sentiment": "negative",
+        "Rationale": "认为1不理解自己父亲的忙碌"
+    },
+    {
+        "sentence": "他严大勇要是能开公司，我李红今天跪着从这儿爬出去。",
+        "Holder": "1",
+        "Target": "2的父亲",
+        "Aspect": "开公司的能力",
+        "Opinion": "极度怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对2的父亲开公司的能力极度不信任"
+    },
+    {
+        "sentence": "这可是你说的啊。大家都过来看啊，这个女人是我妈，婚内出轨，被我爸甩了以后，竟然还有脸跑到我爸公司的开业仪式上闹事儿！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "道德品行",
+        "Opinion": "1婚内出轨且无耻",
+        "Sentiment": "negative",
+        "Rationale": "认为1在婚内出轨且在被甩后还去公司闹事"
+    },
+    {
+        "sentence": "你胡说什么呢？我什么时候出轨了？",
+        "Holder": "1",
+        "Target": "2的指控",
+        "Aspect": "指控的真实性",
+        "Opinion": "否认出轨",
+        "Sentiment": "negative",
+        "Rationale": "被2无端指控出轨"
+    },
+    {
+        "sentence": "这是我爸的公司，各位应该都是我爸请来的朋友吧。那我可要提醒你们了，这个女人心思歹毒，最见不得别人好，连我这个亲生女儿都不放过。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性格品行",
+        "Opinion": "1心思歹毒",
+        "Sentiment": "negative",
+        "Rationale": "认为1心思歹毒且对亲生女儿都不好"
+    },
+    {
+        "sentence": "大家不要听她胡说，我李红行的正坐的端，我可以为我说过的每一句话负法律责任，我从来就没有做过什么对不起他们父女俩的事，是她在污蔑我。",
+        "Holder": "1",
+        "Target": "2的指控",
+        "Aspect": "自身品行",
+        "Opinion": "自己品行端正",
+        "Sentiment": "negative",
+        "Rationale": "被2污蔑且自己确实没有做错事"
+    },
+    {
+        "sentence": "各位，她刚才可是说了，等到我爸上台了以后，她要像狗一样跪着爬出去，大家可都得过来看看。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为态度",
+        "Opinion": "1会做出丢人行为",
+        "Sentiment": "negative",
+        "Rationale": "认为1会做出丢人的行为"
+    },
+    {
+        "sentence": "你到底想干什么？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "意图",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1对2的行为感到困惑和不解"
+    },
+    {
+        "sentence": "呦，生气了？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "调侃",
+        "Sentiment": "neutral",
+        "Rationale": "2察觉到1的情绪变化，但以一种轻松的语气回应"
+    },
+    {
+        "sentence": "严颜，今天对我很重要，我不想跟你计较，你赶紧离开这儿。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为要求",
+        "Opinion": "要求离开",
+        "Sentiment": "negative",
+        "Rationale": "1认为今天对自己很重要，不想与2发生冲突"
+    },
+    {
+        "sentence": "你说什么？让我走，该离开的是你好不好？你是以什么身份站在这里的？前妻还是被丈夫的女儿抛弃的怨妇？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份质疑",
+        "Opinion": "质疑身份",
+        "Sentiment": "negative",
+        "Rationale": "2对1的离开要求感到不满，并用尖锐的言语质疑1的身份和地位"
+    },
+    {
+        "sentence": "首先，离开你们父女俩，我一点也不觉得可惜，尤其是你。其次，这个公司是我的，和她严大勇没有一点关系。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "情感和所有权",
+        "Opinion": "不在意离开，强调所有权",
+        "Sentiment": "negative",
+        "Rationale": "1对2的质疑和攻击感到愤怒"
+    },
+    {
+        "sentence": "哼，李红啊，你不会是得了妄想症吧？你跟我爸已经离婚了，你们两个没有任何关系。我，才是我爸唯一的亲人和继承人，想跟我抢，做梦吧你。",
+        "Holder": "2",
+        "Target": "李红",
+        "Aspect": "与父亲的关系",
+        "Opinion": "李红无权争夺",
+        "Sentiment": "negative",
+        "Rationale": "认为李红与自己父亲已经离婚，无权干涉自己和父亲的关系"
+    },
+    {
+        "sentence": "我需要抢吗？好啊，你非要说这公司是你爸的，那他人呢？",
+        "Holder": "1",
+        "Target": "公司所有权",
+        "Aspect": "公司归属",
+        "Opinion": "质疑公司归属",
+        "Sentiment": "negative",
+        "Rationale": "对方声称公司是其父亲的，但实际控制人不在场"
+    },
+    {
+        "sentence": "他现在可是严总，你以为跟以前一样想见就能见呀？等着吧，我现在给他打电话。现在走么还来得及啊，等到我爸上台了，你这老脸可就丢尽了。",
+        "Holder": "2",
+        "Target": "李红",
+        "Aspect": "见面的可能性",
+        "Opinion": "见面困难",
+        "Sentiment": "negative",
+        "Rationale": "认为李红无法轻易见到父亲"
+    },
+    {
+        "sentence": "是吗？这就用不着你操心了。",
+        "Holder": "1",
+        "Target": "2的关心",
+        "Aspect": "是否需要关心",
+        "Opinion": "不需要对方关心",
+        "Sentiment": "negative",
+        "Rationale": "对方的话语带有挑衅和威胁"
+    },
+    {
+        "sentence": "你就嘴硬吧，待会儿你想走你都走不了。",
+        "Holder": "2",
+        "Target": "李红的立场",
+        "Aspect": "李红的去留",
+        "Opinion": "认为李红无法轻易离开",
+        "Sentiment": "negative",
+        "Rationale": "认为李红在面对即将到来的局面时无法轻易脱身"
+    },
+    {
+        "sentence": "你又干什么？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1对2的行为感到不解和不满"
+    },
+    {
+        "sentence": "是我问你想干什么吧，知不知道今天是什么日子？你能不能别捣乱了！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为1在捣乱",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在不重要的日子捣乱"
+    },
+    {
+        "sentence": "我捣什么乱了？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "否认捣乱",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己被冤枉"
+    },
+    {
+        "sentence": "这是我爸的公司，只有我爸有资格上台揭幕，你算什么东西啊？",
+        "Holder": "2",
+        "Target": "1的身份",
+        "Aspect": "身份资格",
+        "Opinion": "认为1无资格",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有资格参与公司揭幕"
+    },
+    {
+        "sentence": "严颜，我之前以为你只是任性，没想到你是真的蠢。",
+        "Holder": "1",
+        "Target": "2的智商",
+        "Aspect": "智商评价",
+        "Opinion": "认为2愚蠢",
+        "Sentiment": "negative",
+        "Rationale": "1对2的行为和言语感到失望"
+    },
+    {
+        "sentence": "你说什么呢？别以为你生了我就能对我指手画脚，没工作又没人要，有什么资格说我？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "反对指责",
+        "Sentiment": "negative",
+        "Rationale": "认为1没有资格对自己进行指责"
+    },
+    {
+        "sentence": "好啊，既然你认定这公司是你爸的，让他在哪呢？",
+        "Holder": "1",
+        "Target": "2的公司归属观念",
+        "Aspect": "公司归属的合理性",
+        "Opinion": "质疑2的观念",
+        "Sentiment": "negative",
+        "Rationale": "2认为公司是自己的，但实际控制人不在"
+    },
+    {
+        "sentence": "我已经给他打过电话了，他说马上就到，这会儿应该是在路上耽误了。李红，你还有完没完，你信不信我找人把你丢出去啊？",
+        "Holder": "2",
+        "Target": "1的纠缠",
+        "Aspect": "纠缠的合理性",
+        "Opinion": "反对纠缠",
+        "Sentiment": "negative",
+        "Rationale": "1不停地纠缠，让自己感到厌烦和愤怒"
+    },
+    {
+        "sentence": "小颜，今天对我真的很重要，你赶紧放开！",
+        "Holder": "1",
+        "Target": "2的阻拦",
+        "Aspect": "阻拦的影响",
+        "Opinion": "要求放开",
+        "Sentiment": "negative",
+        "Rationale": "2的阻拦影响了自己重要的事情"
+    },
+    {
+        "sentence": "我就不放。就算我爸现在不在也轮不到你上台，要上也是我上。",
+        "Holder": "2",
+        "Target": "1的上台权利",
+        "Aspect": "上台的合理性",
+        "Opinion": "反对1上台",
+        "Sentiment": "negative",
+        "Rationale": "认为即使父亲不在，也轮不到1上台"
+    },
+    {
+        "sentence": "你凭什么上？",
+        "Holder": "1",
+        "Target": "2的上场资格",
+        "Aspect": "上场理由",
+        "Opinion": "质疑上场资格",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有合理的上场理由"
+    },
+    {
+        "sentence": "就凭我是我爸这辈子唯一的女儿啊，这家公司早晚是我的。",
+        "Holder": "2",
+        "Target": "自己的上场资格",
+        "Aspect": "身份和继承权",
+        "Opinion": "认为自己有资格",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己是父亲的唯一女儿且公司未来属于她"
+    },
+    {
+        "sentence": "你干什么，别闹了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2在胡闹",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的行为不合适且在胡闹"
+    },
+    {
+        "sentence": "放开。你给我闭嘴。不好意思啊，各位，我妈和我爸离婚以后受了点刺激，脑子不太清楚，让各位见笑了。我爸爸应该马上就到了，为了不耽误吉时，由我来为大家揭幕。",
+        "Holder": "2",
+        "Target": "1的行为和自己的行为",
+        "Aspect": "行为控制和个人解释",
+        "Opinion": "要求1停止干涉并解释自己的行为",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的干涉不合理且需要向众人解释自己的行为"
+    },
+    {
+        "sentence": "你得寸进尺是不是！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为1得寸进尺",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在不断地提出过分要求"
+    },
+    {
+        "sentence": "你没有资格揭这块红布。",
+        "Holder": "1",
+        "Target": "2的资格",
+        "Aspect": "资格的合法性",
+        "Opinion": "2没有资格",
+        "Sentiment": "negative",
+        "Rationale": "认为2没有权利干涉这件事"
+    },
+    {
+        "sentence": "我没资格，怎么着，你有啊？",
+        "Holder": "2",
+        "Target": "1的资格",
+        "Aspect": "资格的质疑",
+        "Opinion": "质疑1的资格",
+        "Sentiment": "negative",
+        "Rationale": "被质疑没有资格而感到不服气"
+    },
+    {
+        "sentence": "我已经说的很清楚了，这家公司和严大勇没有关系！",
+        "Holder": "1",
+        "Target": "公司和严大勇的关系",
+        "Aspect": "关系的明确性",
+        "Opinion": "公司和严大勇无关",
+        "Sentiment": "neutral",
+        "Rationale": "想要明确表达事实"
+    },
+    {
+        "sentence": "我看你就是后悔了吧。你以前觉得我爸就是一个废物，离婚了以后，我爸发达了，想回来争财产。告诉你，趁早断了这个念头！",
+        "Holder": "2",
+        "Target": "1的动机",
+        "Aspect": "动机的猜测",
+        "Opinion": "认为1后悔且想争财产",
+        "Sentiment": "negative",
+        "Rationale": "觉得1对过去的判断后悔，现在想争财产"
+    },
+    {
+        "sentence": "严大勇有什么财产啊？我没猜错的话，你俩现在住的房子连租金都是你出的吧。那钱还是你之前考上大学我给你的奖励金。",
+        "Holder": "1",
+        "Target": "严大勇",
+        "Aspect": "财产状况",
+        "Opinion": "质疑财产来源",
+        "Sentiment": "negative",
+        "Rationale": "怀疑严大勇的财产来源，并且认为房子租金是自己出的"
+    },
+    {
+        "sentence": "是又怎么样？别以为你给我两个臭钱就了不起了，我现在已经不上学了，很快就会接手我爸的公司，当最年轻的企业家！",
+        "Holder": "2",
+        "Target": "1的奖励金",
+        "Aspect": "金钱的价值",
+        "Opinion": "轻视奖励金",
+        "Sentiment": "negative",
+        "Rationale": "认为1给的钱不重要，并且自己有更好的未来前景"
+    },
+    {
+        "sentence": "当然是我啊。这个女人就是骗子，见不得前夫和女儿过得好，故意来搅局的。",
+        "Holder": "2",
+        "Target": "某个女人",
+        "Aspect": "人品和行为",
+        "Opinion": "认为她是骗子",
+        "Sentiment": "negative",
+        "Rationale": "认为这个女人故意搅局，见不得前夫和女儿过得好"
+    },
+    {
+        "sentence": "严颜，你别太过分了，就算我们签了断亲协议，我好歹也生你养你这么多年。",
+        "Holder": "1",
+        "Target": "严颜",
+        "Aspect": "亲情和养育之恩",
+        "Opinion": "强调养育之恩",
+        "Sentiment": "negative",
+        "Rationale": "严颜对自己不尊重，忘记了养育之恩"
+    },
+    {
+        "sentence": "无所谓啊，我现在只有一个爸爸，你谁呀？我认谁也不认你。我就揭了，你能怎么样？",
+        "Holder": "2",
+        "Target": "1的亲情要求",
+        "Aspect": "亲情关系的认可",
+        "Opinion": "不认可亲情关系",
+        "Sentiment": "negative",
+        "Rationale": "坚决不认可与1的亲情关系，并且表现出对抗的态度"
+    },
+    {
+        "sentence": "你要不要回头看看上面写着什么？",
+        "Holder": "1",
+        "Target": "2的看法",
+        "Aspect": "对文字内容的认知",
+        "Opinion": "2应该看清楚",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能够确认事实"
+    },
+    {
+        "sentence": "能写什么呀。这是我爸的公司啊，凭什么写你的名字啊？",
+        "Holder": "2",
+        "Target": "公司的归属",
+        "Aspect": "名字的合理性",
+        "Opinion": "公司应属于自己父亲",
+        "Sentiment": "negative",
+        "Rationale": "2认为公司是父亲的，不应该写1的名字"
+    },
+    {
+        "sentence": "你是瞎吗？上面清清楚楚写着我的名字，还说是你爸的公司！",
+        "Holder": "1",
+        "Target": "2的视力",
+        "Aspect": "对事实的确认",
+        "Opinion": "2没有看清事实",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有看清事实且坚持错误观点"
+    },
+    {
+        "sentence": "不应该呀，我爸给我的是个地址没错。",
+        "Holder": "2",
+        "Target": "地址的准确性",
+        "Aspect": "信息的正确性",
+        "Opinion": "地址是正确的",
+        "Sentiment": "neutral",
+        "Rationale": "2认为父亲给的地址没有问题"
+    },
+    {
+        "sentence": "你现在相信了吧，跟我道歉，这件事情我就不跟你计较。",
+        "Holder": "1",
+        "Target": "2的道歉",
+        "Aspect": "态度的转变",
+        "Opinion": "2应该道歉",
+        "Sentiment": "positive",
+        "Rationale": "1认为2已经认识到错误"
+    },
+    {
+        "sentence": "吃错药了吧你，让我跟你道歉？我爸不可能骗我的，肯定是你在捣鬼。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "道歉的合理性",
+        "Opinion": "认为4在捣鬼",
+        "Sentiment": "negative",
+        "Rationale": "2认为4在捣鬼"
+    },
+    {
+        "sentence": "租这房子的时候，从头到尾都是红姐和我谈的，没有别人。",
+        "Holder": "4",
+        "Target": "租房过程",
+        "Aspect": "参与人员",
+        "Opinion": "只有红姐参与",
+        "Sentiment": "neutral",
+        "Rationale": "4在陈述事实"
+    },
+    {
+        "sentence": "是呀，来我公司谈项目一直都是红姐一个人。",
+        "Holder": "3",
+        "Target": "谈项目过程",
+        "Aspect": "参与人员",
+        "Opinion": "只有红姐参与",
+        "Sentiment": "neutral",
+        "Rationale": "3在确认4的说法"
+    },
+    {
+        "sentence": "不可能吧。你们确定是她？",
+        "Holder": "2",
+        "Target": "红姐的参与",
+        "Aspect": "确定性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "2对红姐的参与表示怀疑"
+    },
+    {
+        "sentence": "当然了，红姐这样的女强人可不多，我才不会认错呢。",
+        "Holder": "4",
+        "Target": "红姐",
+        "Aspect": "身份特征",
+        "Opinion": "红姐是女强人",
+        "Sentiment": "positive",
+        "Rationale": "4对红姐的特征有信心"
+    },
+    {
+        "sentence": "就是，我一个堂堂的公司老板，会分不清男的女的？",
+        "Holder": "3",
+        "Target": "自己的能力",
+        "Aspect": "性别辨识能力",
+        "Opinion": "自信能分清",
+        "Sentiment": "positive",
+        "Rationale": "自己是公司老板，对自己能力有自信"
+    },
+    {
+        "sentence": "哦，我知道了，你肯定是跟我爸说什么了，你最会挑拨离间了，肯定是你骗我爸把公司给了你。你怎么这么歹毒啊，你害我还不够。你现在居然在骗我爸的公司！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "挑拨离间和欺骗",
+        "Opinion": "认为3歹毒且有害",
+        "Sentiment": "negative",
+        "Rationale": "认为3通过挑拨离间骗取了公司"
+    },
+    {
+        "sentence": "你口口声声说我歹毒，我到底害你什么了？你从小到大遇到事情，哪一次不是我陪着你？你每次生病了，都是我送你去医院的。你爸他管过你吗？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "对2的照顾和支持",
+        "Opinion": "自己一直支持2",
+        "Sentiment": "negative",
+        "Rationale": "感到被误解和冤枉"
+    },
+    {
+        "sentence": "你得了吧你，你做的这些天下的妈妈都会做到，你还感觉自己伟大上了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对1的付出的评价",
+        "Opinion": "认为1的付出普通",
+        "Sentiment": "negative",
+        "Rationale": "认为1的付出不值一提"
+    },
+    {
+        "sentence": "好啊，这就是我生的好女儿。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对2的失望",
+        "Opinion": "对2的表现失望",
+        "Sentiment": "negative",
+        "Rationale": "对2的不理解和指责感到失望"
+    },
+    {
+        "sentence": "我告诉你，就算你用手段把公司骗到手也没用，因为我不同意。有什么好笑的？我告诉你，这件事情我不同意，他就是无效的。等我爸来了，我就告诉他，让你把公司还给他。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "公司所有权",
+        "Opinion": "1的行为无效",
+        "Sentiment": "negative",
+        "Rationale": "2认为1用不正当手段获取公司所有权，并且自己坚决反对"
+    },
+    {
+        "sentence": "既然你认定这公司是你爸的，有什么证据吗？",
+        "Holder": "1",
+        "Target": "2的认定",
+        "Aspect": "公司所有权的证据",
+        "Opinion": "要求提供证据",
+        "Sentiment": "neutral",
+        "Rationale": "1需要确认2的认定是否有依据"
+    },
+    {
+        "sentence": "哎呦，大家听听啊，我在自己家的公司还要自证?我就是最好的证据。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "自证必要性",
+        "Opinion": "无需自证",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己在自家公司无需自证，觉得1的要求不合理"
+    },
+    {
+        "sentence": "既然你拿不出证据，但我有证据可以证明公司是我的。",
+        "Holder": "1",
+        "Target": "公司所有权",
+        "Aspect": "证据",
+        "Opinion": "公司属于自己",
+        "Sentiment": "positive",
+        "Rationale": "1有证据证明公司所有权"
+    },
+    {
+        "sentence": "你又要耍什么花招啊？不会是想拖延时间吧？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑1有不良动机",
+        "Sentiment": "negative",
+        "Rationale": "2认为1可能在使用手段拖延时间"
+    },
+    {
+        "sentence": "你看清楚了，这是公司的营业执照上面写的是谁的名字。",
+        "Holder": "1",
+        "Target": "营业执照",
+        "Aspect": "名字的真实性",
+        "Opinion": "需要确认",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认营业执照上的名字"
+    },
+    {
+        "sentence": "假的吧这是？",
+        "Holder": "2",
+        "Target": "营业执照",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对营业执照的真实性表示怀疑"
+    },
+    {
+        "sentence": "这是公司银行的账户信息，公司注册资金是我出的。",
+        "Holder": "1",
+        "Target": "公司银行账户信息",
+        "Aspect": "资金来源",
+        "Opinion": "确认资金来源",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清公司注册资金的来源"
+    },
+    {
+        "sentence": "你要是还不相信，可以到网上去查一下，或者回家问问你觉得无所不能的爸！",
+        "Holder": "1",
+        "Target": "2的怀疑",
+        "Aspect": "验证方式",
+        "Opinion": "建议验证",
+        "Sentiment": "negative",
+        "Rationale": "对2的怀疑感到不满"
+    },
+    {
+        "sentence": "不可能，这肯定是伪造的。我现在就找我爸问清楚。",
+        "Holder": "2",
+        "Target": "文件或信息",
+        "Aspect": "真实性",
+        "Opinion": "认为是伪造的",
+        "Sentiment": "negative",
+        "Rationale": "怀疑文件或信息的真实性"
+    },
+    {
+        "sentence": "怎么，你爸没接电话？",
+        "Holder": "1",
+        "Target": "2的父亲",
+        "Aspect": "接电话的情况",
+        "Opinion": "推测没接电话",
+        "Sentiment": "neutral",
+        "Rationale": "询问2的父亲是否接电话"
+    },
+    {
+        "sentence": "他，肯定是没听到。",
+        "Holder": "2",
+        "Target": "2的父亲",
+        "Aspect": "接电话的原因",
+        "Opinion": "推测没听到",
+        "Sentiment": "neutral",
+        "Rationale": "认为父亲没接电话是没听到"
+    },
+    {
+        "sentence": "严颜，你之前说借了200万给你爸创业，我劝你还是问问你爸那钱到底是花去哪了。",
+        "Holder": "1",
+        "Target": "2的父亲",
+        "Aspect": "资金使用情况",
+        "Opinion": "建议询问资金去向",
+        "Sentiment": "neutral",
+        "Rationale": "关心资金的使用情况"
+    },
+    {
+        "sentence": "你什么意思啊？我爸还能骗我啊。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "父亲的可信度",
+        "Opinion": "认为父亲不会骗自己",
+        "Sentiment": "negative",
+        "Rationale": "对1的质疑感到不满"
+    },
+    {
+        "sentence": "他有没有骗你，你回去问问不就知道了吗？",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "是否欺骗",
+        "Opinion": "建议询问",
+        "Sentiment": "neutral",
+        "Rationale": "1建议2回去确认事实"
+    },
+    {
+        "sentence": "就算这家公司是你的，你哪来那么多钱？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "资金来源",
+        "Opinion": "质疑资金来源",
+        "Sentiment": "negative",
+        "Rationale": "2怀疑1的资金来源不明"
+    },
+    {
+        "sentence": "这就不用你管了，我的事情和你没有关系。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "干涉程度",
+        "Opinion": "拒绝干涉",
+        "Sentiment": "negative",
+        "Rationale": "1认为2干涉了自己的私事"
+    },
+    {
+        "sentence": "你不会真的傍上大款了吧，谁呀，能看上你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "个人关系",
+        "Opinion": "讽刺关系",
+        "Sentiment": "negative",
+        "Rationale": "2用讽刺的语气质疑1的个人关系"
+    },
+    {
+        "sentence": "那200万不是你从正规途径借的吧，我劝你最好还是问问你爸花去哪了。否则，等要债的上门当心把自己套进去。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "借款途径",
+        "Opinion": "怀疑借款途径",
+        "Sentiment": "negative",
+        "Rationale": "1怀疑2的借款途径不正规，并警告可能的后果"
+    },
+    {
+        "sentence": "少操心了，等我把这件事情搞清楚，我看你还能嚣张到什么时候。",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "对方的嚣张态度",
+        "Opinion": "对方嚣张",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己感到不满"
+    }
+]

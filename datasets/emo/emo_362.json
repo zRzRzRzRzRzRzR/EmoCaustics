@@ -1,0 +1,143 @@
+{
+  "3": {
+    "events": [
+      {
+        "event": "辩论流程主持",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "按既定程序宣布各环节",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "核心立论阐述",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "系统论证金钱的腐蚀作用",
+            "source_id": "5,8,6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "根本立场反驳",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "全面否定金钱本源罪恶说",
+            "source_id": "4,7,9"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "逻辑体系解构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拆解对方论证方法论缺陷",
+            "source_id": "9,7"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观分析货币工具属性",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "历史实证展开",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "多文明衰落例证分析",
+            "source_id": "5,8"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "范畴边界攻防",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑论证覆盖全面性",
+            "source_id": "4,7"
+          },
+          {
+            "state": "doubt",
+            "reason": "要求解释非经济性恶行",
+            "source_id": "9"
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "现实维度延伸",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "当代社会问题溯源",
+            "source_id": "5,6"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "总结价值升华",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "痛陈金钱异化现象",
+            "source_id": "5,6,8"
+          },
+          {
+            "state": "positive",
+            "reason": "呼吁人性良知觉醒",
+            "source_id": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "events": [
+      {
+        "event": "论证框架批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露立论前提谬误",
+            "source_id": "4,7"
+          }
+        ]
+      }
+    ]
+  }
+}

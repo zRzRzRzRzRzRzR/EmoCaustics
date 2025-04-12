@@ -1,0 +1,45 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "侯亮平诬陷案调查结果",
+        "emotions": [
+          {"state": "neutral", "reason": "确认侯亮平被诬陷的事实", "source_id": "2"},
+          {"state": "negative", "reason": "对举报人动机的质疑", "source_id": "2"},
+          {"state": "positive", "reason": "案件查清后的欣慰", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "肖钢玉责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "被误认为与肖钢玉同责", "source_id": "2"},
+          {"state": "neutral", "reason": "接受事件已处理完毕", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "侯亮平职务恢复决策",
+        "emotions": [
+          {"state": "neutral", "reason": "请示沙书记的流程化决策", "source_id": "2"},
+          {"state": "neutral", "reason": "最终同意留任的理性判断", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "案件调查过程汇报",
+        "emotions": [
+          {"state": "neutral", "reason": "客观陈述调查进展", "source_id": "1"},
+          {"state": "ambiguous", "reason": "保密措施与证人获取的矛盾", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "决策权归属讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "移交决策权至省委的立场", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

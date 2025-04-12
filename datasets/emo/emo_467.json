@@ -1,0 +1,67 @@
+{
+  "4": {
+    "events": [
+      {
+        "event": "爱情本质的哲学辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "提出美的主观客观性问题", "source_id": "7"},
+          {"state": "positive", "reason": "强调瞬间感受的真实性", "source_id": "4"},
+          {"state": "neutral", "reason": "探讨结婚后爱情状态", "source_id": "7"},
+          {"state": "negative", "reason": "质疑永恒爱情的真实性", "source_id": "7"}
+        ]
+      },
+      {
+        "event": "杨绛案例的深度剖析",
+        "emotions": [
+          {"state": "neutral", "reason": "对历史人物情感状态的客观探讨", "source_id": "7"},
+          {"state": "positive", "reason": "提出瞬间延续性理论", "source_id": "4"},
+          {"state": "doubt", "reason": "质疑晚年读书的浪漫性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "爱情定义的解构挑战",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨瞬间与永恒关系", "source_id": "4"},
+          {"state": "negative", "reason": "反对文字游戏式论证", "source_id": "8"},
+          {"state": "positive", "reason": "强调坚守的价值", "source_id": "7"},
+          {"state": "doubt", "reason": "质疑瞬间判断标准", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "现实案例的情感映射",
+        "emotions": [
+          {"state": "neutral", "reason": "分析外公外婆案例", "source_id": "8"},
+          {"state": "negative", "reason": "否定平淡日子的爱情属性", "source_id": "8"},
+          {"state": "ambiguous", "reason": "讨论回忆的美化机制", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "爱情要素的系统论证",
+        "emotions": [
+          {"state": "neutral", "reason": "解析亲密与激情要素", "source_id": "4"},
+          {"state": "negative", "reason": "反驳永恒期待论", "source_id": "7"},
+          {"state": "positive", "reason": "强调过程体验价值", "source_id": "8"},
+          {"state": "doubt", "reason": "质疑浪漫定义标准", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程控制",
+        "emotions": [
+          {"state": "neutral", "reason": "执行主持职责", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

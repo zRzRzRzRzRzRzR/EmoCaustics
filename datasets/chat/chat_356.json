@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "对，你不是说有什么情况要汇报吗？说。",
+        "Holder": "1",
+        "Target": "2的汇报",
+        "Aspect": "汇报的及时性",
+        "Opinion": "要求立即汇报",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2是否有情况需要汇报"
+    },
+    {
+        "sentence": "反正该发生的事情已经发生了，也不在乎这一部分。",
+        "Holder": "2",
+        "Target": "已发生的事情",
+        "Aspect": "事情的影响",
+        "Opinion": "事情已无法改变",
+        "Sentiment": "neutral",
+        "Rationale": "2认为已经发生的事情无法改变"
+    },
+    {
+        "sentence": "今儿会所就不去了，有什么话就车上说可。",
+        "Holder": "1",
+        "Target": "会所行程",
+        "Aspect": "行程的安排",
+        "Opinion": "取消会所行程",
+        "Sentiment": "neutral",
+        "Rationale": "1决定不在会所讨论事情"
+    },
+    {
+        "sentence": "会所那边我已经都安排好了，就。",
+        "Holder": "2",
+        "Target": "会所安排",
+        "Aspect": "安排的完成度",
+        "Opinion": "已经安排妥当",
+        "Sentiment": "neutral",
+        "Rationale": "2已经完成了会所的安排"
+    },
+    {
+        "sentence": "因为你安排了，所以就更不能去了。",
+        "Holder": "2",
+        "Target": "安排",
+        "Aspect": "安排的合理性",
+        "Opinion": "不能去",
+        "Sentiment": "negative",
+        "Rationale": "对方的安排导致自己无法前往"
+    },
+    {
+        "sentence": "咱们去哪。",
+        "Holder": "1",
+        "Target": "目的地",
+        "Aspect": "行程安排",
+        "Opinion": "询问目的地",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解具体的行程安排"
+    },
+    {
+        "sentence": "先上环球路，到地方我再告诉。",
+        "Holder": "1",
+        "Target": "行程安排",
+        "Aspect": "具体路线",
+        "Opinion": "先走环球路",
+        "Sentiment": "neutral",
+        "Rationale": "需要先走环球路再到目的地"
+    },
+    {
+        "sentence": "你您警惕性够高的，你别忘了我是您的学生，",
+        "Holder": "2",
+        "Target": "1的警惕性",
+        "Aspect": "对待学生的态度",
+        "Opinion": "警惕性高",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方表现出较高的警惕性，但自己是对方的学生"
+    },
+    {
+        "sentence": "教出你这样的学生，我这老师就更不懂书生气了，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "学生的表现",
+        "Opinion": "不懂书生气",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方是自己的学生，但表现出不符合书生气的行为"
+    },
+    {
+        "sentence": "所以我安排的地方您不去，我的车您也不坐，您就不怕我身上有录音器材",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对安排的接受度",
+        "Opinion": "不接受安排",
+        "Sentiment": "negative",
+        "Rationale": "2不接受1的安排并且怀疑1身上有录音器材"
+    },
+    {
+        "sentence": "我车上安装了反监听设备，不信你试试。",
+        "Holder": "2",
+        "Target": "1的怀疑",
+        "Aspect": "车上的安全性",
+        "Opinion": "车上有反监听设备",
+        "Sentiment": "neutral",
+        "Rationale": "2想证明自己的车是安全的"
+    },
+    {
+        "sentence": "我可真服了您了，您比我公安厅长还厉害。",
+        "Holder": "1",
+        "Target": "2的能力",
+        "Aspect": "防范能力",
+        "Opinion": "2非常厉害",
+        "Sentiment": "positive",
+        "Rationale": "1认为2的防范能力很强"
+    },
+    {
+        "sentence": "虽说我过去是你的老师，可这些年你真的教会了我不少东西，比如说怎么防范小人和坏人",
+        "Holder": "1",
+        "Target": "2的教导",
+        "Aspect": "人生经验",
+        "Opinion": "2教会了1很多",
+        "Sentiment": "positive",
+        "Rationale": "1认为2在防范方面教会了自己很多"
+    },
+    {
+        "sentence": "您是不是觉得我就是一个小人？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "个人品质",
+        "Opinion": "被误解为小人",
+        "Sentiment": "negative",
+        "Rationale": "感到自己被误解为小人"
+    },
+    {
+        "sentence": "我特别想跟您聊得透彻一些。",
+        "Holder": "2",
+        "Target": "对话",
+        "Aspect": "对话深度",
+        "Opinion": "希望深入交流",
+        "Sentiment": "positive",
+        "Rationale": "希望消除误解"
+    },
+    {
+        "sentence": "我真的不是小人，我就是一个从农村里边上的普普通通的平平凡凡的人，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "个人背景",
+        "Opinion": "强调平凡出身",
+        "Sentiment": "neutral",
+        "Rationale": "想澄清自己的身份和背景"
+    },
+    {
+        "sentence": "你不平凡，祁同伟你现在是省公安厅厅长，还差点成了我推荐的副省长，你平反吗？",
+        "Holder": "1",
+        "Target": "祁同伟",
+        "Aspect": "职位和成就",
+        "Opinion": "认为其不平凡",
+        "Sentiment": "negative",
+        "Rationale": "对祁同伟的职位和行为有质疑"
+    },
+    {
+        "sentence": "如果沙尔间书记不来，如果您当上了省委书记，这一切的确是有可能，",
+        "Holder": "2",
+        "Target": "假设情况",
+        "Aspect": "职位可能性",
+        "Opinion": "承认可能性",
+        "Sentiment": "neutral",
+        "Rationale": "客观分析假设情况"
+    },
+    {
+        "sentence": "幸亏我没当上省委书记，你没能如愿，如果你真当上了副省长，那汉东的老百姓真要遭殃了。",
+        "Holder": "1",
+        "Target": "祁同伟",
+        "Aspect": "对民众的影响",
+        "Opinion": "认为其当副省长会带来负面影响",
+        "Sentiment": "negative",
+        "Rationale": "认为祁同伟当副省长会对民众不利"
+    },
+    {
+        "sentence": "你那位学弟侯亮平还说起过，自从你当上了省公安厅厅长之后，你把你那些七大姑八大姨都安排到来了，有些事情你是不是做的太过分了，一个大字不识的农民居然被你安排做了协警去看管什么停车场，有这事吗？",
+        "Holder": "1",
+        "Target": "祁同伟的行为",
+        "Aspect": "职务安排的合理性",
+        "Opinion": "认为其行为过分",
+        "Sentiment": "negative",
+        "Rationale": "质疑祁同伟利用职权安排亲属"
+    },
+    {
+        "sentence": "老师其实在中国就是这么一个人情社会，您想想我上来了，我能不管我下边那些个乡亲们吗？",
+        "Holder": "2",
+        "Target": "中国社会",
+        "Aspect": "人情关系",
+        "Opinion": "人情社会",
+        "Sentiment": "neutral",
+        "Rationale": "在中国社会人情关系普遍存在"
+    },
+    {
+        "sentence": "一人得道鸡犬升天，在你身上。算是应验了，你下边。是不是还打算把你们村里的野狗都安排到公安局当警犬，也吃上一份皇粮，想吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "利用职权",
+        "Opinion": "讽刺利用职权",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为说话人2利用职权为乡亲谋利"
+    },
+    {
+        "sentence": "您开玩笑，",
+        "Holder": "2",
+        "Target": "1的话语",
+        "Aspect": "话语性质",
+        "Opinion": "认为是玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2认为说话人1的话是玩笑"
+    },
+    {
+        "sentence": "你看我像跟你开玩笑吗？",
+        "Holder": "1",
+        "Target": "对方的态度",
+        "Aspect": "是否认真",
+        "Opinion": "自己不是开玩笑",
+        "Sentiment": "negative",
+        "Rationale": "对方可能误解了自己的认真态度"
+    },
+    {
+        "sentence": "你让我太失望了。",
+        "Holder": "1",
+        "Target": "对方的行为",
+        "Aspect": "期望与现实的差距",
+        "Opinion": "对方让自己失望",
+        "Sentiment": "negative",
+        "Rationale": "对方的言行没有达到自己的期望"
+    }
+]

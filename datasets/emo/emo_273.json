@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "APA条款解释争议",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑立法方式的合理性", "source_id": "2"},
+          {"state": "negative", "reason": "认为国会立法方式僵化", "source_id": "2"},
+          {"state": "neutral", "reason": "探讨具体案例处理方式", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "法院救济措施争议",
+        "emotions": [
+          {"state": "neutral", "reason": "询问救济措施来源", "source_id": "2"},
+          {"state": "neutral", "reason": "分析民权案件先例", "source_id": "5,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "法律条款解释论证",
+        "emotions": [
+          {"state": "neutral", "reason": "解释APA立法平衡原则", "source_id": "1,3"},
+          {"state": "positive", "reason": "引用具体案例支持观点", "source_id": "5"},
+          {"state": "neutral", "reason": "回应定制原则质疑", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "宪法原则探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑国会权力边界", "source_id": "5"},
+          {"state": "negative", "reason": "认为救济措施越权", "source_id": "5"},
+          {"state": "neutral", "reason": "讨论民权案件适用性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "法律适用性质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "询问条款背景依据", "source_id": "2"},
+          {"state": "neutral", "reason": "探讨宪法回避原则", "source_id": "5"},
+          {"state": "negative", "reason": "质疑裁决范围合理性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "宪法框架辩护",
+        "emotions": [
+          {"state": "positive", "reason": "论证国会授权合法性", "source_id": "3,4"},
+          {"state": "neutral", "reason": "解释定制原则例外", "source_id": "1"},
+          {"state": "positive", "reason": "引用历史判例支持立场", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "最终反驳论证",
+        "emotions": [
+          {"state": "negative", "reason": "批驳被告方法理依据", "source_id": "2,5"},
+          {"state": "positive", "reason": "强调司法裁量灵活性", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

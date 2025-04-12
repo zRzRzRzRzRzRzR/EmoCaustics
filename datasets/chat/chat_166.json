@@ -1,0 +1,524 @@
+[
+    {
+        "sentence": "快坐下消消气。",
+        "Holder": "1",
+        "Target": "3的情绪",
+        "Aspect": "情绪平复",
+        "Opinion": "建议平复情绪",
+        "Sentiment": "neutral",
+        "Rationale": "看到3很生气"
+    },
+    {
+        "sentence": "妈，这老板娘平时挺讲道理的呀。",
+        "Holder": "2",
+        "Target": "老板娘",
+        "Aspect": "讲道理",
+        "Opinion": "认为老板娘讲道理",
+        "Sentiment": "positive",
+        "Rationale": "平时觉得老板娘讲道理"
+    },
+    {
+        "sentence": "你再叫他老板娘，我抽你啊！",
+        "Holder": "3",
+        "Target": "2的称呼",
+        "Aspect": "称呼的合理性",
+        "Opinion": "反对称呼老板娘",
+        "Sentiment": "negative",
+        "Rationale": "对老板娘有强烈不满"
+    },
+    {
+        "sentence": "妈，她到底说什么了把您气成这样？",
+        "Holder": "1",
+        "Target": "老板娘的话",
+        "Aspect": "话语内容",
+        "Opinion": "想知道具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "看到3非常生气"
+    },
+    {
+        "sentence": "感谢你们呢，一个个都离了，遗传了我的好基因。",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "家庭状况",
+        "Opinion": "讽刺家人离婚",
+        "Sentiment": "negative",
+        "Rationale": "对家庭状况不满"
+    },
+    {
+        "sentence": "让人指着鼻子的骂我！",
+        "Holder": "3",
+        "Target": "别人",
+        "Aspect": "对待方式",
+        "Opinion": "被骂",
+        "Sentiment": "negative",
+        "Rationale": "被人指着鼻子骂"
+    },
+    {
+        "sentence": "岂有此理！",
+        "Holder": "1",
+        "Target": "别人的行为",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为别人的行为完全不合理"
+    },
+    {
+        "sentence": "这种话她也说得出口？",
+        "Holder": "1",
+        "Target": "别人的话语",
+        "Aspect": "适当性",
+        "Opinion": "不适当",
+        "Sentiment": "negative",
+        "Rationale": "觉得别人的话语非常不适当"
+    },
+    {
+        "sentence": "不行，我找她问清楚去。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行动决定",
+        "Opinion": "要问清楚",
+        "Sentiment": "negative",
+        "Rationale": "对别人的行为感到不满和疑惑"
+    },
+    {
+        "sentence": "哎呀，罗文惠，别跟着捣乱了。",
+        "Holder": "4",
+        "Target": "罗文惠",
+        "Aspect": "行为",
+        "Opinion": "捣乱",
+        "Sentiment": "negative",
+        "Rationale": "觉得罗文惠的行为是在捣乱"
+    },
+    {
+        "sentence": "浩东他妈有时候说话是难听，但也不至于平白无骂人啊。",
+        "Holder": "4",
+        "Target": "浩东他妈",
+        "Aspect": "说话方式",
+        "Opinion": "说话难听但不会无故骂人",
+        "Sentiment": "neutral",
+        "Rationale": "提到浩东他妈说话难听但不会无故骂人"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "3",
+        "Target": "4的话",
+        "Aspect": "话语意图",
+        "Opinion": "质疑意图",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的话有指责的意味"
+    },
+    {
+        "sentence": "照你这意思是我的不对喽？",
+        "Holder": "3",
+        "Target": "4的观点",
+        "Aspect": "责任归属",
+        "Opinion": "认为被指责",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的话暗示是自己不对"
+    },
+    {
+        "sentence": "不是，我这不是了解一下情况嘛。",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "行为目的",
+        "Opinion": "解释为了解情况",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己只是想了解情况"
+    },
+    {
+        "sentence": "你了解情况你去审她呀！",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为4应该亲自去了解",
+        "Sentiment": "negative",
+        "Rationale": "觉得4只是嘴上说说而不实际行动"
+    },
+    {
+        "sentence": "离了婚了，你这胳膊肘还往外拐。",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "对家庭的支持",
+        "Opinion": "不支持家庭",
+        "Sentiment": "negative",
+        "Rationale": "4在离婚后仍然偏向外人"
+    },
+    {
+        "sentence": "妈，你要这么说话的话，我就直接问了啊？",
+        "Holder": "4",
+        "Target": "3的说话方式",
+        "Aspect": "沟通方式",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "3的说话方式让4感到不舒服"
+    },
+    {
+        "sentence": "我就不信你没说什么难听的话。",
+        "Holder": "4",
+        "Target": "3的言论",
+        "Aspect": "言论内容",
+        "Opinion": "怀疑有负面言论",
+        "Sentiment": "negative",
+        "Rationale": "4怀疑3说了难听的话"
+    },
+    {
+        "sentence": "我说了。",
+        "Holder": "3",
+        "Target": "自己的言论",
+        "Aspect": "言论真实性",
+        "Opinion": "承认说过",
+        "Sentiment": "neutral",
+        "Rationale": "3直接承认自己说过难听的话"
+    },
+    {
+        "sentence": "她都找上门来了，说我们家二婚遗传，说我们家晦气，我就不能说他克夫了？",
+        "Holder": "3",
+        "Target": "对方的言论",
+        "Aspect": "言论内容",
+        "Opinion": "反击对方",
+        "Sentiment": "negative",
+        "Rationale": "对方说3的家庭不好"
+    },
+    {
+        "sentence": "妈，你看你说的这是什么话呀？",
+        "Holder": "4",
+        "Target": "妈妈的话",
+        "Aspect": "话语的合理性",
+        "Opinion": "不认同妈妈的话",
+        "Sentiment": "negative",
+        "Rationale": "觉得妈妈说的话不合理"
+    },
+    {
+        "sentence": "我就知道你们俩。",
+        "Holder": "4",
+        "Target": "父母",
+        "Aspect": "行为模式",
+        "Opinion": "了解父母的行为",
+        "Sentiment": "neutral",
+        "Rationale": "对父母的行为模式有一定的了解"
+    },
+    {
+        "sentence": "你知道什么呀，你敢说出来吗？",
+        "Holder": "3",
+        "Target": "4的认知",
+        "Aspect": "认知的准确性",
+        "Opinion": "质疑4的认知",
+        "Sentiment": "negative",
+        "Rationale": "怀疑4对事情的了解不够准确"
+    },
+    {
+        "sentence": "你让我说的啊。",
+        "Holder": "4",
+        "Target": "3的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "指出是3的要求",
+        "Sentiment": "neutral",
+        "Rationale": "3之前要求4说出来"
+    },
+    {
+        "sentence": "我让你说的！",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "强调自己的要求",
+        "Sentiment": "negative",
+        "Rationale": "觉得4没有按照自己的要求去做"
+    },
+    {
+        "sentence": "就你们俩就当着那么多街坊的面吵架，不觉得丢人啊？",
+        "Holder": "4",
+        "Target": "3和吵架行为",
+        "Aspect": "吵架的场合",
+        "Opinion": "觉得丢人",
+        "Sentiment": "negative",
+        "Rationale": "当着许多街坊的面吵架，有失体面"
+    },
+    {
+        "sentence": "呦，你还说我丢人？",
+        "Holder": "3",
+        "Target": "4的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "反问丢人",
+        "Sentiment": "negative",
+        "Rationale": "自己被指责丢人，感到不服气和愤怒"
+    },
+    {
+        "sentence": "我骂她，也就是在好运街上丢人。你呢？你丢人就丢到电视上去了！全蓉城的人都知道了！",
+        "Holder": "3",
+        "Target": "4的丢人行为",
+        "Aspect": "丢人的范围",
+        "Opinion": "4丢人范围更大",
+        "Sentiment": "negative",
+        "Rationale": "4的丢人行为被更多人知道"
+    },
+    {
+        "sentence": "我离婚不是错误，没什么可丢人的。",
+        "Holder": "4",
+        "Target": "自己的离婚",
+        "Aspect": "离婚的性质",
+        "Opinion": "离婚不是错误",
+        "Sentiment": "positive",
+        "Rationale": "认为离婚不是错误"
+    },
+    {
+        "sentence": "退一步讲，如果你觉得我离婚给大家造成了伤害，那责任也在我呀，对吧？你应该来骂我，不应该骂别人呀！",
+        "Holder": "4",
+        "Target": "3的指责对象",
+        "Aspect": "指责对象的合理性",
+        "Opinion": "责任在自己",
+        "Sentiment": "neutral",
+        "Rationale": "认为如果离婚造成伤害责任在自己"
+    },
+    {
+        "sentence": "郝有嘉！",
+        "Holder": "3",
+        "Target": "郝有嘉",
+        "Aspect": "称呼",
+        "Opinion": "直接呼唤",
+        "Sentiment": "neutral",
+        "Rationale": "只是直接呼唤名字，没有表现出明显的情感"
+    },
+    {
+        "sentence": "哎！妈妈妈，消消气消消气。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "情绪安抚",
+        "Opinion": "请求冷静",
+        "Sentiment": "positive",
+        "Rationale": "1试图安抚3的情绪，表现出关心和缓和的态度"
+    },
+    {
+        "sentence": "有嘉你少说两句吧！",
+        "Holder": "1",
+        "Target": "郝有嘉",
+        "Aspect": "言语控制",
+        "Opinion": "建议少说话",
+        "Sentiment": "neutral",
+        "Rationale": "1只是建议郝有嘉少说话，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "妈，她不是这个意思啊，不是这意思。",
+        "Holder": "1",
+        "Target": "郝有嘉",
+        "Aspect": "意思解释",
+        "Opinion": "澄清误解",
+        "Sentiment": "positive",
+        "Rationale": "1试图为郝有嘉澄清误解，表现出理解和维护的态度"
+    },
+    {
+        "sentence": "姐，你快回屋吧。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为建议",
+        "Opinion": "建议回屋",
+        "Sentiment": "neutral",
+        "Rationale": "2只是建议1回屋，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "哎，我话还没说完呢。",
+        "Holder": "4",
+        "Target": "3的打断",
+        "Aspect": "对话的完整性",
+        "Opinion": "希望说完话",
+        "Sentiment": "negative",
+        "Rationale": "被3打断话没说完"
+    },
+    {
+        "sentence": "你让她说！",
+        "Holder": "3",
+        "Target": "4的表达权利",
+        "Aspect": "对话的公平性",
+        "Opinion": "支持4说话",
+        "Sentiment": "positive",
+        "Rationale": "认为4有权利表达"
+    },
+    {
+        "sentence": "还跟我讲道理？你那前婆婆都打上门来了，你现在反过来教训我啊你？",
+        "Holder": "3",
+        "Target": "4的讲道理",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为4不该讲道理",
+        "Sentiment": "negative",
+        "Rationale": "前婆婆打上门来，3认为4在这种情况下讲道理是不合适的"
+    },
+    {
+        "sentence": "不是！那你也不能说那么难听的话啊！",
+        "Holder": "4",
+        "Target": "3的言辞",
+        "Aspect": "言辞的适当性",
+        "Opinion": "认为3言辞不当",
+        "Sentiment": "negative",
+        "Rationale": "3说了难听的话"
+    },
+    {
+        "sentence": "她守寡一辈子了，对浩东她爸很有感情，你跟她说什么，你说人家克夫！你这不是在人伤口上撒盐吗？",
+        "Holder": "4",
+        "Target": "3的言辞",
+        "Aspect": "言辞的敏感性",
+        "Opinion": "认为3言辞伤人",
+        "Sentiment": "negative",
+        "Rationale": "3的言辞触及了前婆婆的伤痛"
+    },
+    {
+        "sentence": "我就落下你这么几句话呢？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "对话内容",
+        "Opinion": "质疑对方的言辞",
+        "Sentiment": "negative",
+        "Rationale": "对方说了几句让自己不满的话"
+    },
+    {
+        "sentence": "这家里就你会讲道理，就你有知识，你最会讲大道理！",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "讲道理的能力",
+        "Opinion": "讽刺对方",
+        "Sentiment": "negative",
+        "Rationale": "对方总是讲大道理，让自己感到厌烦"
+    },
+    {
+        "sentence": "哎呀，你给我放开！",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "身体接触",
+        "Opinion": "要求对方松开",
+        "Sentiment": "negative",
+        "Rationale": "对方抓住自己不放，感到不舒服和愤怒"
+    },
+    {
+        "sentence": "哎呀你也放开我。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "身体接触",
+        "Opinion": "要求对方松开",
+        "Sentiment": "negative",
+        "Rationale": "被对方抓住不放，感到不舒服和愤怒"
+    },
+    {
+        "sentence": "我告诉你，我这一辈子我就想有一个不离婚的孩子，你们倒是给我争气呀！",
+        "Holder": "3",
+        "Target": "孩子们",
+        "Aspect": "婚姻状况",
+        "Opinion": "希望孩子婚姻稳定",
+        "Sentiment": "negative",
+        "Rationale": "孩子们婚姻不稳定，让自己感到失望和焦虑"
+    },
+    {
+        "sentence": "谁敢拿这事儿来说我，我咒他八辈祖宗！",
+        "Holder": "3",
+        "Target": "拿事儿说3的人",
+        "Aspect": "对3的评价",
+        "Opinion": "强烈不满",
+        "Sentiment": "negative",
+        "Rationale": "有人拿某事指责3"
+    },
+    {
+        "sentence": "妈，您别生气了。",
+        "Holder": "2",
+        "Target": "3的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望3冷静",
+        "Sentiment": "neutral",
+        "Rationale": "看到3非常生气"
+    },
+    {
+        "sentence": "二姐说的是吵架不好，又没有。",
+        "Holder": "2",
+        "Target": "二姐的话",
+        "Aspect": "吵架的合理性",
+        "Opinion": "认为吵架不好",
+        "Sentiment": "neutral",
+        "Rationale": "二姐只是说吵架不好，并没有指责3"
+    },
+    {
+        "sentence": "哎呀，我听得出来！",
+        "Holder": "3",
+        "Target": "二姐的话",
+        "Aspect": "话中含义",
+        "Opinion": "认为有指责意味",
+        "Sentiment": "negative",
+        "Rationale": "3觉得二姐的话中有指责的意味"
+    },
+    {
+        "sentence": "你还帮她说话！你也滚出去！",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "支持二姐",
+        "Opinion": "反对2帮二姐",
+        "Sentiment": "negative",
+        "Rationale": "2帮二姐说话，3觉得2也在反对自己"
+    },
+    {
+        "sentence": "妈，你别在乎她们说。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "对他人的看法",
+        "Opinion": "不要在乎他人",
+        "Sentiment": "positive",
+        "Rationale": "1希望妈妈不要被他人的话影响"
+    },
+    {
+        "sentence": "你也滚出去！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "在场",
+        "Opinion": "要求离开",
+        "Sentiment": "negative",
+        "Rationale": "3对当前的情况感到愤怒"
+    },
+    {
+        "sentence": "没一个让我省心的。",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "行为表现",
+        "Opinion": "都不省心",
+        "Sentiment": "negative",
+        "Rationale": "3觉得大家的行为让他感到烦恼"
+    },
+    {
+        "sentence": "哎呀，这头本来就疼的要命，你们说话声音那么大，能不能让人好好睡个觉了？",
+        "Holder": "5",
+        "Target": "大家",
+        "Aspect": "说话声音",
+        "Opinion": "声音太大",
+        "Sentiment": "negative",
+        "Rationale": "5头疼且需要休息，但大家的声音太大影响了他"
+    },
+    {
+        "sentence": "还有你，你们四个都给我滚出去！",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "在场",
+        "Opinion": "要求离开",
+        "Sentiment": "negative",
+        "Rationale": "3对大家的行为感到极度不满"
+    },
+    {
+        "sentence": "妈我这酒刚醒，你又招谁惹谁了我？",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "刚醒酒就发现3在招惹别人"
+    },
+    {
+        "sentence": "不是，说听不清我说话呀？都给我滚出去！",
+        "Holder": "3",
+        "Target": "5的理解能力",
+        "Aspect": "沟通的清晰度",
+        "Opinion": "认为听不清",
+        "Sentiment": "negative",
+        "Rationale": "觉得5听不清自己的话"
+    },
+    {
+        "sentence": "走走走。",
+        "Holder": "5",
+        "Target": "3的要求",
+        "Aspect": "离开的意愿",
+        "Opinion": "同意离开",
+        "Sentiment": "neutral",
+        "Rationale": "3要求离开"
+    }
+]

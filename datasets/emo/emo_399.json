@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "木板踢击表演争议",
+        "emotions": [
+          {"state": "doubt", "reason": "担心父亲表演的安全性", "source_id": "2"},
+          {"state": "positive", "reason":  "主动安排同学观看表演", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑父亲能力真实性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "父亲能力比较竞争",
+        "emotions": [
+          {"state": "positive", "reason": "夸耀父亲劈石头能力", "source_id": "3"},
+          {"state": "negative", "reason":  "质疑同学姓氏不匹配", "source_id": "3"},
+          {"state": "positive", "reason":  "最终获得同学认可", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "表演能力展示与危机",
+        "emotions": [
+          {"state": "negative", "reason":  "批评儿子危险行为", "source_id": "1"},
+          {"state": "positive", "reason":  "成功展示踢板技术", "source_id": "1"},
+          {"state": "negative", "reason":  "被要求现场劈石头的压力", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "单挑事件应对策略",
+        "emotions": [
+          {"state": "negative", "reason":  "被迫接受挑战的焦虑", "source_id": "1"},
+          {"state": "positive", "reason":  "用幽默化解对抗局面", "source_id": "4"},
+          {"state": "neutral", "reason":  "通过推手维持表面平衡", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "父亲崇拜心理波动",
+        "emotions": [
+          {"state": "positive", "reason":  "首次认可父亲能力", "source_id": "2"},
+          {"state": "negative", "reason":  "发现表演用道具造假", "source_id": "4"},
+          {"state": "neutral", "reason":  "接受父亲形象包装", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭危机干预管理",
+        "emotions": [
+          {"state": "negative", "reason":  "反对危险表演行为", "source_id": "1"},
+          {"state": "positive", "reason":  "配合丈夫化解危机", "source_id": "2"},
+          {"state": "neutral", "reason":  "默认家庭形象维护", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "夫妻育儿理念碰撞",
+        "emotions": [
+          {"state": "negative", "reason":  "质疑丈夫教育方式", "source_id": "2"},
+          {"state": "positive", "reason":  "共同维护父亲形象", "source_id": "1"},
+          {"state": "neutral", "reason":  "接受家庭教育分工", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

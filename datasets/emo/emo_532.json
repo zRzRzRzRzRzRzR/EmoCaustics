@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "断肢箱失踪与于曼的嫌疑",
+        "emotions": [
+          {"state": "negative", "reason": "发现红药水痕迹并质疑于曼触碰箱子", "source_id": "5"},
+          {"state": "doubt", "reason": "质疑于曼关于箱子重量的解释", "source_id": "3"},
+          {"state": "negative", "reason": "指控于曼阻挠医疗队救援并藏匿断肢", "source_id": "5,3"}
+        ]
+      },
+      {
+        "event": "家庭信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "因长期未被婆婆接受感到孤立", "source_id": "5"},
+          {"state": "neutral", "reason": "试图平衡母亲与妻子的矛盾", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "信任抉择与行动协调",
+        "emotions": [
+          {"state": "neutral", "reason": "请求他人送妻子就医并承诺继续搜查", "source_id": "3,4"},
+          {"state": "positive", "reason": "最终选择相信于曼的辩解", "source_id": "5"},
+          {"state": "negative", "reason": "确认妻子涉案后的震惊与质问", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "罪证分析与对峙",
+        "emotions": [
+          {"state": "neutral", "reason": "通过药水痕迹与箱子重量进行物证分析", "source_id": "1,5"},
+          {"state": "negative", "reason": "指控于曼涉嫌犯罪并要求报警", "source_id": "5"},
+          {"state": "neutral", "reason": "寻求第三方验证物证细节", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "身体危机与自证清白",
+        "emotions": [
+          {"state": "negative", "reason": "因孕吐和见血导致身体不适", "source_id": "1"},
+          {"state": "negative", "reason": "被连续质疑后情绪崩溃", "source_id": "1,3"},
+          {"state": "negative", "reason": "通过夫妻关系恳求阻止报警", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

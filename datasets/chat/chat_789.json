@@ -1,0 +1,110 @@
+[
+    {
+        "sentence": "妈这眼瞅过年了，你赶紧给我安排相亲，",
+        "Holder": "1",
+        "Target": "相亲安排",
+        "Aspect": "时间紧迫性",
+        "Opinion": "需要尽快安排",
+        "Sentiment": "neutral",
+        "Rationale": "快到过年了"
+    },
+    {
+        "sentence": "我上午不刚给你安排一个吗？",
+        "Holder": "2",
+        "Target": "相亲安排",
+        "Aspect": "安排频率",
+        "Opinion": "已经安排过",
+        "Sentiment": "neutral",
+        "Rationale": "上午已经安排过相亲"
+    },
+    {
+        "sentence": "咱找对象得找个会过日子的，将来得结婚不行，",
+        "Holder": "1",
+        "Target": "找对象标准",
+        "Aspect": "生活能力",
+        "Opinion": "需要会过日子",
+        "Sentiment": "neutral",
+        "Rationale": "希望未来的伴侣有生活能力"
+    },
+    {
+        "sentence": "你相亲也太频了，等回家再说，",
+        "Holder": "2",
+        "Target": "相亲频率",
+        "Aspect": "频率合理性",
+        "Opinion": "频率过高",
+        "Sentiment": "neutral",
+        "Rationale": "觉得相亲频率太高"
+    },
+    {
+        "sentence": "你发朋友圈你咋不给我发朋友圈，你在同学群里边那么多同学群，你艾特所有人，人多力量大大家一起扫。",
+        "Holder": "1",
+        "Target": "2的朋友圈行为",
+        "Aspect": "朋友圈的发布对象",
+        "Opinion": "应该给自己发朋友圈",
+        "Sentiment": "negative",
+        "Rationale": "2在朋友圈和同学群里广泛发布信息却不给自己发"
+    },
+    {
+        "sentence": "你要脸不我要对象，别逼我了，你要对象自己找去。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "找对象的责任",
+        "Opinion": "自己找对象",
+        "Sentiment": "negative",
+        "Rationale": "1的要求让自己感到压力和不满"
+    },
+    {
+        "sentence": "我那不找不着吗。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "找对象的能力",
+        "Opinion": "找不到对象",
+        "Sentiment": "negative",
+        "Rationale": "自己确实找不到对象"
+    },
+    {
+        "sentence": "你要能找着你就处，你要找不着你就给我单着，听懂吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "找对象的态度",
+        "Opinion": "自己负责找对象",
+        "Sentiment": "negative",
+        "Rationale": "1总是依赖别人找对象"
+    },
+    {
+        "sentence": "过年亲戚来到家都得问你咋没对象怎么办？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "亲戚的询问",
+        "Opinion": "担心亲戚的询问",
+        "Sentiment": "negative",
+        "Rationale": "过年时亲戚会问及自己没有对象的问题"
+    },
+    {
+        "sentence": "我看谁敢问。",
+        "Holder": "1",
+        "Target": "提问者",
+        "Aspect": "提问的勇气",
+        "Opinion": "无人敢问",
+        "Sentiment": "negative",
+        "Rationale": "说话人1对提问者表现出强烈的威慑态度"
+    },
+    {
+        "sentence": "行，我错了不催你了，我都给你。",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "催促的行为",
+        "Opinion": "认错并妥协",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2选择了妥协并认错"
+    },
+    {
+        "sentence": "还打不了你",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "打人的能力",
+        "Opinion": "无法打人",
+        "Sentiment": "negative",
+        "Rationale": "说话人1对说话人2表现出一种无奈和愤怒"
+    }
+]

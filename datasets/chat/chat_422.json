@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "小雨，那么恶心的东西你也吃。",
+        "Holder": "1",
+        "Target": "小雨的食物选择",
+        "Aspect": "食物的恶心程度",
+        "Opinion": "东西恶心",
+        "Sentiment": "negative",
+        "Rationale": "认为小雨吃的东西很恶心"
+    },
+    {
+        "sentence": "我没吃",
+        "Holder": "2",
+        "Target": "自己的食物选择",
+        "Aspect": "是否吃了恶心东西",
+        "Opinion": "没有吃",
+        "Sentiment": "neutral",
+        "Rationale": "自己确实没有吃"
+    },
+    {
+        "sentence": "你把牛肉全都给吃了。",
+        "Holder": "1",
+        "Target": "小雨的食物选择",
+        "Aspect": "牛肉的消耗",
+        "Opinion": "全都吃了",
+        "Sentiment": "negative",
+        "Rationale": "小雨把牛肉都吃了"
+    },
+    {
+        "sentence": "你说的对，这东西太恶心，没法吃，只有牛肉能吃。",
+        "Holder": "2",
+        "Target": "食物的恶心程度",
+        "Aspect": "食物的可食性",
+        "Opinion": "东西恶心，牛肉能吃",
+        "Sentiment": "negative",
+        "Rationale": "认同东西恶心，只有牛肉能吃"
+    },
+    {
+        "sentence": "你手里拿的什么东西啊？",
+        "Holder": "1",
+        "Target": "小雨手里的东西",
+        "Aspect": "东西的性质",
+        "Opinion": "不清楚是什么",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚小雨手里拿的是什么"
+    },
+    {
+        "sentence": "没有，你给我看看。",
+        "Holder": "1",
+        "Target": "牛肉",
+        "Aspect": "牛肉的存在",
+        "Opinion": "要求确认",
+        "Sentiment": "neutral",
+        "Rationale": "1只是要求2确认牛肉的情况，没有表现出明显的情感"
+    },
+    {
+        "sentence": "牛肉。你不是说你把牛肉给吃了吗？怎么还有？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "牛肉的食用情况",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1发现牛肉还在，而2之前说已经吃了"
+    },
+    {
+        "sentence": "我想回屋吃",
+        "Holder": "2",
+        "Target": "牛肉",
+        "Aspect": "食用地点",
+        "Opinion": "想回屋吃",
+        "Sentiment": "neutral",
+        "Rationale": "2只是表达了自己想回屋吃牛肉的想法，没有表现出明显的情感"
+    },
+    {
+        "sentence": "知道有一句话吗？要想人不知除非己莫为。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为诚信",
+        "Opinion": "提醒",
+        "Sentiment": "negative",
+        "Rationale": "1引用谚语来提醒2不要做隐瞒的事情，暗示2的行为有问题"
+    },
+    {
+        "sentence": "我什么都没干。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "没有做任何事",
+        "Sentiment": "neutral",
+        "Rationale": "自己确实没有做任何事"
+    },
+    {
+        "sentence": "你偷牛肉了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "怀疑偷牛肉",
+        "Sentiment": "doubt",
+        "Rationale": "最近家里丢东西"
+    },
+    {
+        "sentence": "这不算",
+        "Holder": "2",
+        "Target": "偷牛肉的指控",
+        "Aspect": "行为的严重性",
+        "Opinion": "不认为偷牛肉是严重的事",
+        "Sentiment": "neutral",
+        "Rationale": "不认为偷牛肉是严重的事"
+    },
+    {
+        "sentence": "咱家最近可老丢东西啊。是不是你偷的",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "怀疑偷东西",
+        "Sentiment": "negative",
+        "Rationale": "家里频繁丢东西"
+    },
+    {
+        "sentence": "小黄鱼可不是我偷的了。",
+        "Holder": "2",
+        "Target": "小黄鱼的失窃",
+        "Aspect": "行为的责任",
+        "Opinion": "否认偷小黄鱼",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑偷东西感到冤枉"
+    },
+    {
+        "sentence": "你不光偷了牛肉，你还偷了小黄鱼",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "偷窃行为",
+        "Opinion": "2偷了牛肉和小黄鱼",
+        "Sentiment": "negative",
+        "Rationale": "1认为2偷了牛肉和小黄鱼"
+    },
+    {
+        "sentence": "我没有。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "偷窃行为",
+        "Opinion": "否认偷窃",
+        "Sentiment": "negative",
+        "Rationale": "2被1指责偷窃"
+    },
+    {
+        "sentence": "好，你不告诉我，对吧？那我就告诉朵朵，说你是个小偷。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "诚实与信誉",
+        "Opinion": "2不诚实",
+        "Sentiment": "negative",
+        "Rationale": "2不愿意承认偷窃"
+    },
+    {
+        "sentence": "大姐。哎呀，我跟你说还不行吗？嗯，只不过你得替我保密。好，我在帮助一个 80 多岁的老奶奶。嗯，那个老奶奶特别爱吃肉，就像牛肉、鱼肉，反正他特别爱吃肉，我这就是要去给老奶奶送肉。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为动机",
+        "Opinion": "帮助老奶奶",
+        "Sentiment": "neutral",
+        "Rationale": "2解释了自己的行为动机是为了帮助老奶奶"
+    },
+    {
+        "sentence": "爱吃肉的老奶奶",
+        "Holder": "1",
+        "Target": "老奶奶",
+        "Aspect": "饮食习惯",
+        "Opinion": "老奶奶爱吃肉",
+        "Sentiment": "neutral",
+        "Rationale": "1在回应2的解释"
+    },
+    {
+        "sentence": "一定要给我保密，这要是让爸妈知道老奶奶什么都吃不上啦。真的，那我现在就去给老奶奶送。谢谢姐姐，谢谢姐姐。",
+        "Holder": "2",
+        "Target": "保密",
+        "Aspect": "信息保密的重要性",
+        "Opinion": "必须保密",
+        "Sentiment": "positive",
+        "Rationale": "担心爸妈知道后会影响老奶奶的生活"
+    },
+    {
+        "sentence": "爱吃肉的老奶奶，哼，胃口真好",
+        "Holder": "1",
+        "Target": "老奶奶",
+        "Aspect": "饮食习惯",
+        "Opinion": "胃口好",
+        "Sentiment": "ambiguous",
+        "Rationale": "提到老奶奶爱吃肉，语气中带有一些调侃"
+    },
+    {
+        "sentence": "小雪，我有点事儿，正准备跟你聊聊。来来来，坐。",
+        "Holder": "3",
+        "Target": "小雪",
+        "Aspect": "交流的必要性",
+        "Opinion": "需要聊聊",
+        "Sentiment": "neutral",
+        "Rationale": "有事需要和小雪交流"
+    },
+    {
+        "sentence": "什么事儿啊？",
+        "Holder": "1",
+        "Target": "事情",
+        "Aspect": "事情的内容",
+        "Opinion": "询问内容",
+        "Sentiment": "neutral",
+        "Rationale": "好奇3要谈的事情"
+    },
+    {
+        "sentence": "也没什么大事，哈哈哈。就是我想跟你说一说这个创意行为和公共秩序的事。",
+        "Holder": "3",
+        "Target": "创意行为和公共秩序",
+        "Aspect": "话题内容",
+        "Opinion": "不是大事",
+        "Sentiment": "positive",
+        "Rationale": "认为要谈的事情不是大事"
+    },
+    {
+        "sentence": "什么意思？",
+        "Holder": "1",
+        "Target": "3的话",
+        "Aspect": "话语的明确性",
+        "Opinion": "不明确",
+        "Sentiment": "neutral",
+        "Rationale": "1没有理解3的话的意思"
+    },
+    {
+        "sentence": "意思就是说，呵呵，现在有那么一些人为了追求这个创意行为，刻意的做一些惊世骇俗的事情。",
+        "Holder": "3",
+        "Target": "某些人",
+        "Aspect": "创意行为的方式",
+        "Opinion": "刻意追求惊世骇俗",
+        "Sentiment": "negative",
+        "Rationale": "3认为这些人为了创意而刻意做惊世骇俗的事情"
+    },
+    {
+        "sentence": "您干脆就直说得了。",
+        "Holder": "1",
+        "Target": "3的表达方式",
+        "Aspect": "表达的直接性",
+        "Opinion": "希望直接表达",
+        "Sentiment": "neutral",
+        "Rationale": "1希望3能直接说明"
+    },
+    {
+        "sentence": "我要说在平安大道上你把垃圾桶摆成 SOS 图案的事。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "3认为1在平安大道上摆垃圾桶成SOS图案是不合理的行为"
+    },
+    {
+        "sentence": "你，你怎么知道的？",
+        "Holder": "1",
+        "Target": "3的消息来源",
+        "Aspect": "消息的获取方式",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对3如何知道自己在平安大道上摆垃圾桶的事情感到惊讶"
+    },
+    {
+        "sentence": "对啊，我，我怎么知道的？",
+        "Holder": "3",
+        "Target": "信息的来源",
+        "Aspect": "知情的原因",
+        "Opinion": "不知道原因",
+        "Sentiment": "neutral",
+        "Rationale": "对话中3对于自己如何知道信息感到困惑"
+    },
+    {
+        "sentence": "是她告诉你的，对吧？",
+        "Holder": "1",
+        "Target": "信息的来源",
+        "Aspect": "信息的传递者",
+        "Opinion": "认为是她告诉的",
+        "Sentiment": "doubt",
+        "Rationale": "1怀疑信息是由某个人告诉3的"
+    },
+    {
+        "sentence": "她是谁？",
+        "Holder": "3",
+        "Target": "信息的传递者",
+        "Aspect": "身份",
+        "Opinion": "不知道她是谁",
+        "Sentiment": "neutral",
+        "Rationale": "3对提到的‘她’的身份不清楚"
+    },
+    {
+        "sentence": "她答应要给我保密的，怎么又告诉你了呀？",
+        "Holder": "1",
+        "Target": "信息的传递者",
+        "Aspect": "保密的承诺",
+        "Opinion": "认为她违背了承诺",
+        "Sentiment": "negative",
+        "Rationale": "她答应了保密却告诉了3"
+    },
+    {
+        "sentence": "行了行了，咱先不讨论他是谁的问题，现在要讨论的是你的问题。",
+        "Holder": "3",
+        "Target": "对话的主题",
+        "Aspect": "讨论的焦点",
+        "Opinion": "应该讨论1的问题",
+        "Sentiment": "neutral",
+        "Rationale": "3希望将对话焦点转移到1的问题上"
+    },
+    {
+        "sentence": "当然这个搬垃圾桶这不是什么大问题，把垃圾桶摆成 SOS 图案，这也不算什么问题哎。关键是你居然把这个事情当成一件壮举引以为豪，还听说跟一帮同学喝二锅头，这可就是大问题了啊。",
+        "Holder": "3",
+        "Target": "搬垃圾桶和摆SOS图案",
+        "Aspect": "行为的合理性",
+        "Opinion": "不算大问题",
+        "Sentiment": "negative",
+        "Rationale": "3认为搬垃圾桶和摆SOS图案本身不是大问题，但将其当成壮举并喝酒庆祝是不合理的行为"
+    },
+    {
+        "sentence": "我不跟你说了。",
+        "Holder": "1",
+        "Target": "对话",
+        "Aspect": "对话的继续",
+        "Opinion": "不想继续",
+        "Sentiment": "negative",
+        "Rationale": "1不想继续与3讨论这个话题，可能是感到无奈或不满"
+    },
+    {
+        "sentence": "哎哎哎，小雪，你不说也不行。",
+        "Holder": "3",
+        "Target": "1的沉默",
+        "Aspect": "对话的必要性",
+        "Opinion": "需要继续对话",
+        "Sentiment": "negative",
+        "Rationale": "因为3认为1的沉默不能解决问题，需要继续沟通，所以表现出急切和不满。"
+    },
+    {
+        "sentence": "你是不是把我的秘密告诉他了？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "保密性",
+        "Opinion": "怀疑泄密",
+        "Sentiment": "negative",
+        "Rationale": "因为1怀疑3泄露了自己的秘密，所以感到愤怒和失望。"
+    },
+    {
+        "sentence": "我再也不和你一起过什么妇女节了，你让我太失望了。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "信任和期望",
+        "Opinion": "极度失望",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为3泄露了自己的秘密，破坏了彼此的信任，所以感到极度失望，并表示不再与3共度妇女节，以此表达对3行为的不满和失望。"
+    },
+    {
+        "sentence": "你怎么跟她说的呀？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "对话内容",
+        "Opinion": "询问对话内容",
+        "Sentiment": "neutral",
+        "Rationale": "因为4对3与他人的对话内容感到好奇，所以平静地询问"
+    },
+    {
+        "sentence": "我没说是你告诉我的",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "信息来源",
+        "Opinion": "否认提及4",
+        "Sentiment": "neutral",
+        "Rationale": "因为3在解释自己没有提及4，所以平静地陈述事实"
+    },
+    {
+        "sentence": "这怎么了？怎么弄成这样了？",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "状况询问",
+        "Opinion": "对现状的困惑",
+        "Sentiment": "neutral",
+        "Rationale": "因为1对当前的情况感到不解，所以语气中带有困惑"
+    },
+    {
+        "sentence": "我，我去帮老奶奶打架了",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "帮助老奶奶",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己在帮助老奶奶"
+    },
+    {
+        "sentence": "你忘了，就是我上次跟你说那个特别爱吃肉的老奶奶，她儿子跟他抢肉吃，我训子那臭小子一顿。",
+        "Holder": "2",
+        "Target": "老奶奶的儿子",
+        "Aspect": "行为",
+        "Opinion": "训斥",
+        "Sentiment": "negative",
+        "Rationale": "老奶奶的儿子抢肉吃"
+    },
+    {
+        "sentence": "你打人了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "打人",
+        "Sentiment": "negative",
+        "Rationale": "听说2打人了"
+    },
+    {
+        "sentence": "我这是见义勇为路见不平拔刀相助。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为动机",
+        "Opinion": "见义勇为",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己是在见义勇为"
+    },
+    {
+        "sentence": "要是让老爸知道了。",
+        "Holder": "1",
+        "Target": "老爸",
+        "Aspect": "可能的反应",
+        "Opinion": "担心",
+        "Sentiment": "negative",
+        "Rationale": "担心老爸知道后会生气"
+    },
+    {
+        "sentence": "诶，你答应过我的，你要给我保密，不能让爸妈知道。老奶奶特别可怜，都 80 多岁了，总饿着肚子，身体也不好，还得老跟别人打架呢。",
+        "Holder": "2",
+        "Target": "保密承诺",
+        "Aspect": "保密的必要性",
+        "Opinion": "需要保密",
+        "Sentiment": "negative",
+        "Rationale": "担心老奶奶的情况被爸妈知道后会引发更多问题"
+    },
+    {
+        "sentence": "干嘛要打架呀？",
+        "Holder": "1",
+        "Target": "老奶奶打架",
+        "Aspect": "打架的原因",
+        "Opinion": "不理解打架原因",
+        "Sentiment": "neutral",
+        "Rationale": "对老奶奶打架的原因感到困惑"
+    },
+    {
+        "sentence": "她又吃饭，年纪又大，又打不过别人。",
+        "Holder": "2",
+        "Target": "老奶奶",
+        "Aspect": "打架的劣势",
+        "Opinion": "老奶奶处于劣势",
+        "Sentiment": "negative",
+        "Rationale": "老奶奶年纪大且体力不足"
+    },
+    {
+        "sentence": "你不是说她还有一个儿子吗？那她儿子给他打。",
+        "Holder": "1",
+        "Target": "老奶奶的儿子",
+        "Aspect": "儿子的责任",
+        "Opinion": "儿子应该保护母亲",
+        "Sentiment": "neutral",
+        "Rationale": "认为儿子有责任保护母亲"
+    },
+    {
+        "sentence": "他的儿子最坏了，老和她抢吃的，还老欺负她呢。不跟你说了，我得去回家找件兵器。我看这就不错",
+        "Holder": "2",
+        "Target": "老奶奶的儿子",
+        "Aspect": "儿子的行为",
+        "Opinion": "儿子行为恶劣",
+        "Sentiment": "negative",
+        "Rationale": "老奶奶的儿子不仅不保护她，反而欺负她"
+    },
+    {
+        "sentence": "小雨小雨，你给我回来。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "行为",
+        "Opinion": "要求回来",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在呼唤小雨回来"
+    }
+]

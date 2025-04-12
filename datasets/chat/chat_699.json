@@ -1,0 +1,686 @@
+[
+    {
+        "sentence": "把我的调料水给你。",
+        "Holder": "1",
+        "Target": "调料水",
+        "Aspect": "分享行为",
+        "Opinion": "愿意分享",
+        "Sentiment": "positive",
+        "Rationale": "愿意将自己的调料水分享给对方"
+    },
+    {
+        "sentence": "拿走，我这有一大碗，不需要。",
+        "Holder": "2",
+        "Target": "调料水",
+        "Aspect": "需求",
+        "Opinion": "不需要",
+        "Sentiment": "negative",
+        "Rationale": "自己已经有足够的调料水"
+    },
+    {
+        "sentence": "还有三个泡椒。",
+        "Holder": "1",
+        "Target": "泡椒",
+        "Aspect": "附加分享",
+        "Opinion": "愿意分享",
+        "Sentiment": "positive",
+        "Rationale": "愿意额外分享泡椒"
+    },
+    {
+        "sentence": "不需要！我有！哪有那种吃剩的一点调料水给人家的？",
+        "Holder": "2",
+        "Target": "调料水",
+        "Aspect": "分享的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为对方分享的是吃剩的调料水，觉得不礼貌"
+    },
+    {
+        "sentence": "啥呀？你不是最喜欢喝这个吗？",
+        "Holder": "1",
+        "Target": "2的喜好",
+        "Aspect": "喜好",
+        "Opinion": "喜欢",
+        "Sentiment": "neutral",
+        "Rationale": "记得对方喜欢喝调料水"
+    },
+    {
+        "sentence": "我喜欢喝汤你就剩一点角角给我？",
+        "Holder": "2",
+        "Target": "1的分享行为",
+        "Aspect": "分享的量",
+        "Opinion": "太少",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方只分享了一点剩下的调料水，感到不满"
+    },
+    {
+        "sentence": "我那个是汤呀！",
+        "Holder": "1",
+        "Target": "调料水",
+        "Aspect": "性质",
+        "Opinion": "是汤",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己的调料水是汤"
+    },
+    {
+        "sentence": "你先把汤倒给我，而不吃完了剩的一点渣渣给我，剩的汤给我。",
+        "Holder": "2",
+        "Target": "1的分享行为",
+        "Aspect": "分享的方式",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为对方应该先倒汤而不是分享剩下的渣渣"
+    },
+    {
+        "sentence": "有什么不一样吗？有什么不一样的？",
+        "Holder": "1",
+        "Target": "汤和渣渣的区别",
+        "Aspect": "区别",
+        "Opinion": "无区别",
+        "Sentiment": "neutral",
+        "Rationale": "不理解对方为何区分汤和渣渣"
+    },
+    {
+        "sentence": "不礼貌啊！",
+        "Holder": "2",
+        "Target": "1的分享行为",
+        "Aspect": "礼貌",
+        "Opinion": "不礼貌",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为不礼貌"
+    },
+    {
+        "sentence": "平时吃你的剩饭吃少了吗？你天天都不吃那个福鼎肉片里的肉片，我都是我给你吃了的。",
+        "Holder": "1",
+        "Target": "2的剩饭",
+        "Aspect": "剩饭的处理",
+        "Opinion": "自己吃了2的剩饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己经常吃2的剩饭"
+    },
+    {
+        "sentence": "但是我后面买我就会先给你。",
+        "Holder": "2",
+        "Target": "自己的购买行为",
+        "Aspect": "食物分配",
+        "Opinion": "会先给1",
+        "Sentiment": "positive",
+        "Rationale": "表示以后会先考虑1"
+    },
+    {
+        "sentence": "没有。",
+        "Holder": "1",
+        "Target": "2的承诺",
+        "Aspect": "承诺的实现",
+        "Opinion": "否认2的承诺",
+        "Sentiment": "negative",
+        "Rationale": "认为2没有履行承诺"
+    },
+    {
+        "sentence": "哦，我就买过两次。",
+        "Holder": "2",
+        "Target": "自己的购买次数",
+        "Aspect": "购买频率",
+        "Opinion": "只买过两次",
+        "Sentiment": "neutral",
+        "Rationale": "陈述事实"
+    },
+    {
+        "sentence": "没有给我啊。就是你吃剩了，然后我就吃了。",
+        "Holder": "1",
+        "Target": "2的剩饭",
+        "Aspect": "剩饭的处理",
+        "Opinion": "自己吃了2的剩饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己总是吃2的剩饭"
+    },
+    {
+        "sentence": "我说了，我不要，你还倒进来。因为我已经有这么大碗了，你让我喝了，明天肿死是吧？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "食物分配",
+        "Opinion": "反对1的行为",
+        "Sentiment": "negative",
+        "Rationale": "1不顾自己的反对继续倒食物"
+    },
+    {
+        "sentence": "你明天要干什么吗？",
+        "Holder": "1",
+        "Target": "2的明天计划",
+        "Aspect": "活动安排",
+        "Opinion": "询问2的计划",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问"
+    },
+    {
+        "sentence": "哦，我明天不干么，我明天不公演啊。哦，我明天不拍档。",
+        "Holder": "2",
+        "Target": "自己的明天计划",
+        "Aspect": "活动安排",
+        "Opinion": "没有特别安排",
+        "Sentiment": "neutral",
+        "Rationale": "陈述自己的计划"
+    },
+    {
+        "sentence": "对啊。",
+        "Holder": "1",
+        "Target": "2的计划",
+        "Aspect": "活动安排",
+        "Opinion": "认同2的计划",
+        "Sentiment": "neutral",
+        "Rationale": "认同2的计划"
+    },
+    {
+        "sentence": "哎呀。",
+        "Holder": "2",
+        "Target": "对话内容",
+        "Aspect": "对话的感慨",
+        "Opinion": "表达无奈",
+        "Sentiment": "ambiguous",
+        "Rationale": "对话中有些无奈和不满"
+    },
+    {
+        "sentence": "在这里装。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "装模作样",
+        "Opinion": "认为2在装",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在故意装模作样"
+    },
+    {
+        "sentence": "那你拍档加油哦。",
+        "Holder": "2",
+        "Target": "1的拍档",
+        "Aspect": "鼓励",
+        "Opinion": "鼓励1的拍档",
+        "Sentiment": "positive",
+        "Rationale": "2希望1的拍档能加油"
+    },
+    {
+        "sentence": "真无语，在这里装。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "装模作样",
+        "Opinion": "认为2在装",
+        "Sentiment": "negative",
+        "Rationale": "1再次觉得2在装模作样"
+    },
+    {
+        "sentence": "我说了不要汤，你非要给我放。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "放汤",
+        "Opinion": "不需要汤",
+        "Sentiment": "negative",
+        "Rationale": "2明确表示不需要汤但1还是放了"
+    },
+    {
+        "sentence": "哇，你平时喝的你都不够喝。",
+        "Holder": "1",
+        "Target": "2的喝汤习惯",
+        "Aspect": "喝汤量",
+        "Opinion": "2平时喝得多",
+        "Sentiment": "neutral",
+        "Rationale": "1指出2平时喝汤很多"
+    },
+    {
+        "sentence": "我是不够，但是今天我要的大碗汤，我当然不需要，你还给我加。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "加汤",
+        "Opinion": "不需要加汤",
+        "Sentiment": "negative",
+        "Rationale": "2今天点了大碗汤不需要额外加汤，但1还是加了"
+    },
+    {
+        "sentence": "平时你喝完自己的还要喝我的。",
+        "Holder": "1",
+        "Target": "2的喝汤习惯",
+        "Aspect": "喝汤行为",
+        "Opinion": "2喝1的汤",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2平时喝完自己的汤还会喝1的"
+    },
+    {
+        "sentence": "那不是你给我的剩的吗？",
+        "Holder": "2",
+        "Target": "1的汤",
+        "Aspect": "汤的归属",
+        "Opinion": "认为是1给的剩汤",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得喝的是1给的剩汤"
+    },
+    {
+        "sentence": "啊？",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "理解",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的解释感到困惑"
+    },
+    {
+        "sentence": "又开始了。好了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "争论",
+        "Opinion": "认为1又开始争论",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1又开始无谓的争论"
+    },
+    {
+        "sentence": "你真的无语。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "无语",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到无法理解"
+    },
+    {
+        "sentence": "快去排练，快去排练，一会儿明天翻车了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "排练",
+        "Opinion": "需要立即排练",
+        "Sentiment": "positive",
+        "Rationale": "担心明天排练出差错"
+    },
+    {
+        "sentence": "那你倒出来呗。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行动",
+        "Opinion": "让2先行动",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2可以先行动"
+    },
+    {
+        "sentence": "一会翻车了。",
+        "Holder": "2",
+        "Target": "排练",
+        "Aspect": "结果",
+        "Opinion": "担心失败",
+        "Sentiment": "negative",
+        "Rationale": "担心排练失败"
+    },
+    {
+        "sentence": "你倒出来呗。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行动",
+        "Opinion": "让2先行动",
+        "Sentiment": "neutral",
+        "Rationale": "1再次认为2可以先行动"
+    },
+    {
+        "sentence": "你快去排你快去排你快去排你快去排。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "排练",
+        "Opinion": "急切催促",
+        "Sentiment": "positive",
+        "Rationale": "2非常担心排练进度"
+    },
+    {
+        "sentence": "真的是。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "1对2的催促感到无奈"
+    },
+    {
+        "sentence": "你快去排你快去排。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "排练",
+        "Opinion": "急切催促",
+        "Sentiment": "positive",
+        "Rationale": "2继续担心排练进度"
+    },
+    {
+        "sentence": "不识好歹。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "不领情",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的催促是不理解自己的情况"
+    },
+    {
+        "sentence": "玲玲在等你，等你10分钟了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "等待",
+        "Opinion": "有人在等待",
+        "Sentiment": "neutral",
+        "Rationale": "玲玲已经在等待1"
+    },
+    {
+        "sentence": "我真的对你无语杨媛媛。真的，你很过分，把人家好心当作驴肝肺。",
+        "Holder": "1",
+        "Target": "杨媛媛",
+        "Aspect": "对好心的态度",
+        "Opinion": "不领情",
+        "Sentiment": "negative",
+        "Rationale": "杨媛媛没有领情，反而误解了好意"
+    },
+    {
+        "sentence": "我说不要，你非要给我，这就不叫好心了好吗？就是不要了，你还给我，我觉得我没有错呀，我都说了不要，你还往里使劲往里倒。但是我说我不要，你为什么要倒呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "给予的行为",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "1不顾2的拒绝强行给予"
+    },
+    {
+        "sentence": "因为你之前一直都喝。",
+        "Holder": "1",
+        "Target": "2的喝饮料习惯",
+        "Aspect": "习惯",
+        "Opinion": "一直喝",
+        "Sentiment": "neutral",
+        "Rationale": "2之前一直有喝饮料的习惯"
+    },
+    {
+        "sentence": "我之前是一直喝，但我刚刚是不是跟你说的不要，你还往里倒？我刚说不要，你就给我倒进来。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "给予的行为",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "1没有听取2的拒绝继续倒饮料"
+    },
+    {
+        "sentence": "那你喝不完，我把它扔了，你如果还想喝怎么办呢？谁知道你呢？",
+        "Holder": "1",
+        "Target": "2的需求",
+        "Aspect": "需求的不可预测性",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "1不确定2是否会改变主意"
+    },
+    {
+        "sentence": "我说不要1我不想喝！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "给予的行为",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "1不顾2的明确拒绝继续倒饮料"
+    },
+    {
+        "sentence": "你平时饭量那么大，谁知道呢？",
+        "Holder": "1",
+        "Target": "2的饭量",
+        "Aspect": "饭量大小",
+        "Opinion": "大",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2平时饭量大"
+    },
+    {
+        "sentence": "我饭量哪里大？我还没你吃的多好吗？",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "饭量大小",
+        "Opinion": "不大",
+        "Sentiment": "negative",
+        "Rationale": "1误解了2的饭量"
+    },
+    {
+        "sentence": "我天哪，杨媛媛，你又开始了。",
+        "Holder": "1",
+        "Target": "杨媛媛的行为",
+        "Aspect": "争论的开始",
+        "Opinion": "又开始争论",
+        "Sentiment": "negative",
+        "Rationale": "杨媛媛再次开始争论"
+    },
+    {
+        "sentence": "我马上臭脸了哈。",
+        "Holder": "2",
+        "Target": "自己的情绪",
+        "Aspect": "情绪变化",
+        "Opinion": "即将生气",
+        "Sentiment": "negative",
+        "Rationale": "1的行为和言语让2感到不满"
+    },
+    {
+        "sentence": "你每次打开手机就是另外一个人。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为表现",
+        "Opinion": "行为不一致",
+        "Sentiment": "negative",
+        "Rationale": "觉得2在手机前后的表现不一致"
+    },
+    {
+        "sentence": "谁是另外一个人了？我的天哪，那不是你吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份认定",
+        "Opinion": "认为是1自己",
+        "Sentiment": "negative",
+        "Rationale": "被误解为另外一个人"
+    },
+    {
+        "sentence": "天哪。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "反应",
+        "Opinion": "惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "对2的回答感到意外"
+    },
+    {
+        "sentence": "好了好了，你快走吧，你不要在我直播间抢镜了啊。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为要求",
+        "Opinion": "要求离开",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在直播间抢镜"
+    },
+    {
+        "sentence": "我都没有露出来，我抢什么？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为辩解",
+        "Opinion": "没有抢镜",
+        "Sentiment": "negative",
+        "Rationale": "被误解为抢镜"
+    },
+    {
+        "sentence": "你的声音露出来了。好了好了好了，我们就不要吵了，你要你要么就过来亲我一口，要么你就你就走。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为建议",
+        "Opinion": "要么亲一口要么离开",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的声音影响了直播"
+    },
+    {
+        "sentence": "我为什么要亲你？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为质疑",
+        "Opinion": "拒绝亲一口",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的要求不合理"
+    },
+    {
+        "sentence": "因为我们直播间只能就是要给他们美好的一面，你知道吧？不要吵不要吵，我们要相亲相爱。",
+        "Holder": "2",
+        "Target": "直播间观众",
+        "Aspect": "直播内容要求",
+        "Opinion": "保持美好形象",
+        "Sentiment": "positive",
+        "Rationale": "希望给观众展示美好的一面"
+    },
+    {
+        "sentence": "那不行，你给我道歉。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "道歉要求",
+        "Opinion": "要求道歉",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的行为不合理"
+    },
+    {
+        "sentence": "你看你这个女人，平时这的不讲理！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性格评价",
+        "Opinion": "不讲理",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的要求不合理"
+    },
+    {
+        "sentence": "然后我再给你道歉就好了。",
+        "Holder": "1",
+        "Target": "道歉",
+        "Aspect": "道歉的必要性",
+        "Opinion": "认为道歉可以解决问题",
+        "Sentiment": "neutral",
+        "Rationale": "1认为通过道歉可以平息争议"
+    },
+    {
+        "sentence": "我说了不要，你强行给我的，我还要给你道歉，我真是太惨了。你先这样吧，这样你先给我道歉，然后我再给你道歉。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为1的行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "1强行给2东西并且要求2道歉"
+    },
+    {
+        "sentence": "难道不是你喜欢喝我才给你的吗？",
+        "Holder": "1",
+        "Target": "2的喜好",
+        "Aspect": "给予东西的原因",
+        "Opinion": "认为2喜欢才给",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己是基于2的喜好才给东西"
+    },
+    {
+        "sentence": "可是我刚刚说我不要，你要给我。就像你平时吃东西，刚刚我给你那个奶茶喝，你说你不要，但你平时也选喝，对不对？我刚刚给你说你不要的话，我就收回来了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "给予东西的时机",
+        "Opinion": "认为1不顾自己意愿",
+        "Sentiment": "negative",
+        "Rationale": "1在2明确表示不要的情况下仍坚持给"
+    },
+    {
+        "sentence": "我也没说什么呀，后来你再给我我就喝了呀。",
+        "Holder": "1",
+        "Target": "自己的反应",
+        "Aspect": "接受东西的态度",
+        "Opinion": "认为自己接受东西合理",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己后来接受了东西"
+    },
+    {
+        "sentence": "对呀，但是你跟我第二倒，我还是不要，你还要往里面倒。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "给予东西的方式",
+        "Opinion": "认为1过于坚持",
+        "Sentiment": "negative",
+        "Rationale": "1在2多次拒绝后仍坚持倒东西"
+    },
+    {
+        "sentence": "而且我也没怪你什么的，你也是喝完剩了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "喝东西的结果",
+        "Opinion": "认为2也有同样行为",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2也有喝不完的情况"
+    },
+    {
+        "sentence": "你再讲？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "质疑1的说法",
+        "Sentiment": "negative",
+        "Rationale": "2对1的解释感到不满"
+    },
+    {
+        "sentence": "你也是喝完剩一半给我的，我怎么没说你呢？你偏要说这么一嘴。不是啊，你平时不直播的时候你不是这样的啊。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的双重标准",
+        "Opinion": "认为2有双重标准",
+        "Sentiment": "negative",
+        "Rationale": "1认为2对自己和1有不同的标准"
+    },
+    {
+        "sentence": "我怎么不是，我就是不想喝，我今天真不想喝。我知道你说我平时肯定吃的很多也喝很多，但是我不想喝呀。我真的不想喝。",
+        "Holder": "2",
+        "Target": "自己的意愿",
+        "Aspect": "喝东西的意愿",
+        "Opinion": "坚决不想喝",
+        "Sentiment": "negative",
+        "Rationale": "2多次强调自己不想喝却被误解"
+    },
+    {
+        "sentence": "你开直播间还怪人家。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "开直播间",
+        "Opinion": "2在怪1",
+        "Sentiment": "negative",
+        "Rationale": "1认为2开直播间却反过来责怪自己"
+    },
+    {
+        "sentence": "我没怪你啊，我都说了。你先给我道歉，我再给你道。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "道歉顺序",
+        "Opinion": "要求1先道歉",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1应该先道歉"
+    },
+    {
+        "sentence": "为什么？我是为你好的呀。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "动机",
+        "Opinion": "为2好",
+        "Sentiment": "positive",
+        "Rationale": "1认为自己是在为2好"
+    },
+    {
+        "sentence": "但是别人不要，你强行给别人，就相当于你不是为别人好。你要首先你要讲礼貌，要尊重别人，别人答应你才能倒，但是你就是没有尊重我。你快去吧，好，对不起对不起，我求求你，你快点走，玲玲在等你，对不起，都是我的错，我都说错了，我就应该接受你这一片汤。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "尊重和礼貌",
+        "Opinion": "1没有尊重2",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有尊重自己"
+    },
+    {
+        "sentence": "怎么就我是这样子？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为方式",
+        "Opinion": "自己被误解",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己被误解"
+    },
+    {
+        "sentence": "对呀，我都说了，不要了，就别说了，就不要再扯，你还要跟我扯，我都让你快去排练了，你还要在这扯，我要直播了，这样可以了不？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话继续",
+        "Opinion": "希望1停止纠缠",
+        "Sentiment": "negative",
+        "Rationale": "2希望1停止纠缠自己"
+    }
+]

@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "孤独感与环境对比引发的情绪波动",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "外部环境热闹反衬孤独感/被质疑孤独合理性/歌曲强化悲伤情绪",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受保持社交距离的决定",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "肢体接触与行为意图的认知冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "误解肢体动作为攻击/认为行为幼稚/指责对方越界",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "第三方提及引发的猜疑与关系界定",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释队友身份/否认特殊对应关系",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑过度联想/终止沟通的挫败感",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "社交互动中的认知差异处理",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调陪伴存在的客观事实",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被持续否定观点/行为遭误解",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "边界感争议与自我保护机制",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释肢体语言动机",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被要求道歉的抗拒/寻求第三方评判",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "信息不对称导致的关系猜忌",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "确认第三方身份",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被暗示情感投射的不满",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

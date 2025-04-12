@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "时尚的社会功能探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "发起关于时尚文化表达的讨论", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑时尚对年轻人的潜在伤害", "source_id": "1"},
+          {"state": "positive", "reason": "认可合作带来的创意价值", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "城市文化对比分析",
+        "emotions": [
+          {"state": "neutral", "reason": "客观比较伦敦纽约时尚差异", "source_id": "1"},
+          {"state": "positive", "reason": "赞赏两地青年文化活力", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "技术对时尚产业冲击",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对数字技术既恐惧又接受", "source_id": "2"},
+          {"state": "positive", "reason": "发现社交媒体连接价值", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "创作自由与文化挪用",
+        "emotions": [
+          {"state": "neutral", "reason": "反思文化挪用争议事件", "source_id": "2"},
+          {"state": "positive", "reason": "坚持创意不受限理念", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "自我价值认知危机",
+        "emotions": [
+          {"state": "negative", "reason": "依赖外界评价的焦虑", "source_id": "2"},
+          {"state": "neutral", "reason": "接受心理治疗后的认知", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "时尚教育理念演变",
+        "emotions": [
+          {"state": "negative", "reason": "担忧现代教育速度过快", "source_id": "3"},
+          {"state": "positive", "reason": "强调实践经验重要性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "可持续时尚实践",
+        "emotions": [
+          {"state": "positive", "reason": "认可行业环保意识提升", "source_id": "3"},
+          {"state": "ambiguous", "reason": "认知产业本质矛盾", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "创意工作者心理剖析",
+        "emotions": [
+          {"state": "negative", "reason": "童年自卑心理影响", "source_id": "3"},
+          {"state": "positive", "reason": "转化不安全感为动力", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

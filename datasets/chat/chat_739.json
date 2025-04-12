@@ -1,0 +1,119 @@
+[
+    {
+        "sentence": "赵处长真是舍不得跟你分开，要不跟我们上车一起去下个点，",
+        "Holder": "1",
+        "Target": "赵处长",
+        "Aspect": "与说话人2的关系",
+        "Opinion": "舍不得分开",
+        "Sentiment": "positive",
+        "Rationale": "赵处长对说话人2有不舍的情感"
+    },
+    {
+        "sentence": "你干什么我告诉你我哪都不去了，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行动意愿",
+        "Opinion": "拒绝前往",
+        "Sentiment": "negative",
+        "Rationale": "说话人2不愿意前往下一个地点"
+    },
+    {
+        "sentence": "你必须去好戏才演了，第一场不是第二场的搜查令，你办公室。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "参与任务的必要性",
+        "Opinion": "必须参与",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1认为说话人2必须参与接下来的任务"
+    },
+    {
+        "sentence": "你想没想到过这个时候去我办公室会给我造成什么样的影响？你以为我办公室是自由市场，可以随便出入，",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "对办公室的尊重",
+        "Opinion": "缺乏考虑",
+        "Sentiment": "negative",
+        "Rationale": "说话人1没有考虑到去办公室的时间会对说话人2造成影响"
+    },
+    {
+        "sentence": "赵处长的办公室当然不能随便出，外省的副省长要见你也得站一个多小时。",
+        "Holder": "2",
+        "Target": "赵处长的办公室",
+        "Aspect": "办公室的进出规定",
+        "Opinion": "不能随便出",
+        "Sentiment": "neutral",
+        "Rationale": "赵处长的办公室有严格的进出规定"
+    },
+    {
+        "sentence": "李峰你这个同志消息倒是蛮灵通的，你认识丁副市长。",
+        "Holder": "2",
+        "Target": "李峰",
+        "Aspect": "消息灵通程度",
+        "Opinion": "消息灵通",
+        "Sentiment": "positive",
+        "Rationale": "李峰对丁副市长的信息了解较多"
+    },
+    {
+        "sentence": "相当的熟，丁一直埋怨你不够朋友，打电话不接，发短信不回，你办公室三次站了腿都疼了才能见到你老人家。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "待人接物的方式",
+        "Opinion": "不够朋友",
+        "Sentiment": "negative",
+        "Rationale": "丁副市长多次联系不上2，并且见面困难"
+    },
+    {
+        "sentence": "我这个人办事是讲究公事公办，好，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "办事原则",
+        "Opinion": "公事公办",
+        "Sentiment": "neutral",
+        "Rationale": "2坚持公事公办的原则"
+    },
+    {
+        "sentence": "公事公办是吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "办事原则",
+        "Opinion": "公事公办",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的公事公办原则有所质疑"
+    },
+    {
+        "sentence": "能不能满足我一下好奇心？你是怎么收费的？",
+        "Holder": "1",
+        "Target": "2的收费方式",
+        "Aspect": "收费情况",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的收费方式感到好奇"
+    },
+    {
+        "sentence": "收费收什么费？我们这是为人民服务的，",
+        "Holder": "2",
+        "Target": "自己的工作性质",
+        "Aspect": "服务性质",
+        "Opinion": "为人民服务",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己的工作是为人民服务"
+    },
+    {
+        "sentence": "我就问我看到你在这儿你就触景生情，你的前任也在办公室被我们反贪局的同志带走，他就明码标价，一个项目50万到150万，短短4年这位贪官贪了8,200万，你说他黑不黑？",
+        "Holder": "1",
+        "Target": "前任贪官",
+        "Aspect": "贪腐行为",
+        "Opinion": "贪腐严重",
+        "Sentiment": "negative",
+        "Rationale": "1提到前任贪官的严重贪腐行为"
+    },
+    {
+        "sentence": "郝处长你说的没错，确实是太黑了，我们已经根据同志的犯罪事实拍了一个警示片，让全处的同志都好好接受沉重的教训，如果你要是感兴趣的话，我可以送一套给你。",
+        "Holder": "2",
+        "Target": "前任贪官",
+        "Aspect": "贪腐行为的严重性",
+        "Opinion": "贪腐严重",
+        "Sentiment": "negative",
+        "Rationale": "2认同1对前任贪官贪腐行为的指责"
+    }
+]

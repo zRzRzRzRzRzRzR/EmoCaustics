@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "这是？我送给的晚凝的钻戒。",
+        "Holder": "1",
+        "Target": "钻戒",
+        "Aspect": "归属",
+        "Opinion": "送给晚凝",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认戒指的归属"
+    },
+    {
+        "sentence": "司寒哥哥，你那么在意这个戒指干什么啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对戒指的在意程度",
+        "Opinion": "过于在意",
+        "Sentiment": "ambiguous",
+        "Rationale": "不理解1为什么那么在意戒指"
+    },
+    {
+        "sentence": "这个戒指怎么会在这儿！",
+        "Holder": "1",
+        "Target": "戒指",
+        "Aspect": "位置",
+        "Opinion": "不应该在这里",
+        "Sentiment": "negative",
+        "Rationale": "发现戒指出现在不应该出现的地方"
+    },
+    {
+        "sentence": "这是我从那个贱女人手上扒下来的。",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "行为",
+        "Opinion": "贬低",
+        "Sentiment": "negative",
+        "Rationale": "对晚凝有负面情绪"
+    },
+    {
+        "sentence": "晚凝，晚凝！",
+        "Holder": "1",
+        "Target": "晚凝",
+        "Aspect": "呼唤",
+        "Opinion": "急切",
+        "Sentiment": "negative",
+        "Rationale": "对戒指的出现感到震惊和担忧"
+    },
+    {
+        "sentence": "司寒哥哥，你怎么了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情绪状态",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "因为2对1的情绪状态感到好奇，所以用中立的语气询问"
+    },
+    {
+        "sentence": "这个屋子里的人呢？",
+        "Holder": "1",
+        "Target": "屋子里的人",
+        "Aspect": "存在与否",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "因为1对屋子里是否有人感到疑惑，所以用中立的语气提问"
+    },
+    {
+        "sentence": "什么人啊？这除了刚才那个整容女就没有别人了。",
+        "Holder": "2",
+        "Target": "整容女",
+        "Aspect": "存在与否",
+        "Opinion": "只有整容女",
+        "Sentiment": "neutral",
+        "Rationale": "因为2在描述现场情况，客观陈述只有整容女在场，所以语气中立"
+    },
+    {
+        "sentence": "你给我说清楚那个整容女是怎么回事！",
+        "Holder": "1",
+        "Target": "整容女",
+        "Aspect": "事情经过",
+        "Opinion": "要求解释",
+        "Sentiment": "negative",
+        "Rationale": "因为1对整容女的身份和目的感到怀疑和不满，所以语气强硬地要求解释"
+    },
+    {
+        "sentence": "谁让她整容成我的样子来勾引你，想取代我在你心中的位置，结果被我识破了。",
+        "Holder": "2",
+        "Target": "整容女",
+        "Aspect": "行为动机",
+        "Opinion": "整容女别有用心",
+        "Sentiment": "negative",
+        "Rationale": "2认为整容女故意整容成自己的样子来接近1"
+    },
+    {
+        "sentence": "你的意思是，她跟你长得很像？",
+        "Holder": "1",
+        "Target": "2的外貌",
+        "Aspect": "外貌相似度",
+        "Opinion": "怀疑相似",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2的外貌是否相似"
+    },
+    {
+        "sentence": "难道，是？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份猜测",
+        "Opinion": "怀疑身份",
+        "Sentiment": "neutral",
+        "Rationale": "1在猜测2的身份"
+    },
+    {
+        "sentence": "司寒哥哥！",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "称呼",
+        "Opinion": "亲昵称呼",
+        "Sentiment": "neutral",
+        "Rationale": "2在亲昵地称呼某人"
+    },
+    {
+        "sentence": "司寒哥哥你去哪！",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "行踪询问",
+        "Opinion": "关心行踪",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问司寒的行踪"
+    },
+    {
+        "sentence": "司寒哥哥，你小心点，这个整容女可吓人了。",
+        "Holder": "2",
+        "Target": "整容女",
+        "Aspect": "危险性",
+        "Opinion": "认为对方危险",
+        "Sentiment": "negative",
+        "Rationale": "认为整容女具有威胁性"
+    },
+    {
+        "sentence": "厉总，我们几个身上的伤都是她弄的！",
+        "Holder": "3",
+        "Target": "整容女",
+        "Aspect": "伤害行为",
+        "Opinion": "指责对方造成伤害",
+        "Sentiment": "negative",
+        "Rationale": "整容女对他们造成了伤害"
+    },
+    {
+        "sentence": "厉总，您身份尊贵，要是她把您伤到了怎么办啊。",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "安全",
+        "Opinion": "担心厉总的安全",
+        "Sentiment": "negative",
+        "Rationale": "担心整容女会对厉总造成伤害"
+    },
+    {
+        "sentence": "而且她身上的伤口恶心死了，把这儿都弄脏了。",
+        "Holder": "5",
+        "Target": "她身上的伤口",
+        "Aspect": "外观和影响",
+        "Opinion": "恶心且弄脏了地方",
+        "Sentiment": "negative",
+        "Rationale": "看到伤口感到恶心，并且认为伤口弄脏了环境"
+    },
+    {
+        "sentence": "她身上的伤口是你们弄的？",
+        "Holder": "1",
+        "Target": "她身上的伤口",
+        "Aspect": "伤口的来源",
+        "Opinion": "怀疑是5和3弄的",
+        "Sentiment": "doubt",
+        "Rationale": "1对伤口的来源感到疑惑"
+    },
+    {
+        "sentence": "没错呀，就是我们弄的。",
+        "Holder": "3",
+        "Target": "她身上的伤口",
+        "Aspect": "伤口的来源",
+        "Opinion": "承认是自己弄的",
+        "Sentiment": "neutral",
+        "Rationale": "3直接承认了事实，没有表现出特别的情感"
+    },
+    {
+        "sentence": "谁让她整容成我的模样来勾引你，就该让她吃点苦头！",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "整容和勾引行为",
+        "Opinion": "认为她应该受到惩罚",
+        "Sentiment": "negative",
+        "Rationale": "2认为她的整容和勾引行为是不对的"
+    },
+    {
+        "sentence": "厉总，对这个贱人就不能心软，把她活埋了都便宜她了。",
+        "Holder": "4",
+        "Target": "贱人",
+        "Aspect": "对待方式",
+        "Opinion": "不能心软，应严厉惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对这个人极度厌恶，认为她罪有应得"
+    },
+    {
+        "sentence": "没错，就应该直接毁了她这张狐狸精的脸，让他再也勾引不了男人！",
+        "Holder": "5",
+        "Target": "狐狸精",
+        "Aspect": "外貌和行为的惩罚",
+        "Opinion": "应毁容以防止其勾引男人",
+        "Sentiment": "negative",
+        "Rationale": "对这个人的行为极度不满，认为她利用外貌勾引男人"
+    },
+    {
+        "sentence": "司寒哥哥，我知道你肯定可生气了。",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "情绪状态",
+        "Opinion": "司寒非常生气",
+        "Sentiment": "negative",
+        "Rationale": "认为司寒对当前的情况感到极度愤怒"
+    },
+    {
+        "sentence": "你们还愣着干什么，还不赶紧给我把这个贱人活埋了，别让他脏了我司寒哥哥的眼！",
+        "Holder": "2",
+        "Target": "贱人",
+        "Aspect": "处理方式",
+        "Opinion": "应立即活埋",
+        "Sentiment": "negative",
+        "Rationale": "对这个人的极度厌恶，认为她不配存在于司寒的视线中"
+    },
+    {
+        "sentence": "许曼曼，谁给你的胆子动她的！",
+        "Holder": "1",
+        "Target": "许曼曼",
+        "Aspect": "行为合法性",
+        "Opinion": "不应该动她",
+        "Sentiment": "negative",
+        "Rationale": "许曼曼未经允许动了别人"
+    },
+    {
+        "sentence": "立刻联系医生。",
+        "Holder": "1",
+        "Target": "医生",
+        "Aspect": "紧急处理",
+        "Opinion": "需要医生",
+        "Sentiment": "neutral",
+        "Rationale": "需要紧急处理伤者"
+    },
+    {
+        "sentence": "司寒哥哥，你什么意思？",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "行为意图",
+        "Opinion": "不理解意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "2不清楚司寒为什么要送人去医院"
+    },
+    {
+        "sentence": "你为什么还要送这个贱人去医院？",
+        "Holder": "2",
+        "Target": "贱人",
+        "Aspect": "医疗待遇",
+        "Opinion": "不应该送医院",
+        "Sentiment": "negative",
+        "Rationale": "2认为这个女人不值得同情"
+    },
+    {
+        "sentence": "是啊，厉总，你当着曼曼姐的面，你这样对别的女人，你有没有考虑过她的感受啊？",
+        "Holder": "3",
+        "Target": "厉总",
+        "Aspect": "行为考虑",
+        "Opinion": "未考虑曼曼感受",
+        "Sentiment": "negative",
+        "Rationale": "厉总在曼曼面前对别的女人好，忽视了曼曼的感受"
+    },
+    {
+        "sentence": "厉总，像她这样知三当三的人，就应该丢到山里喂狼！不能便宜她！",
+        "Holder": "4",
+        "Target": "她",
+        "Aspect": "道德品行",
+        "Opinion": "应该受到严厉惩罚",
+        "Sentiment": "negative",
+        "Rationale": "她认为这个人道德败坏，做了不道德的事情"
+    },
+    {
+        "sentence": "厉总，曼曼姐身上可是被这个女人弄了好几道伤，你看看呀。",
+        "Holder": "5",
+        "Target": "这个女人",
+        "Aspect": "伤害行为",
+        "Opinion": "造成了伤害",
+        "Sentiment": "negative",
+        "Rationale": "这个女人对曼曼姐造成了身体伤害"
+    },
+    {
+        "sentence": "阿凝，你醒醒啊。",
+        "Holder": "1",
+        "Target": "阿凝",
+        "Aspect": "清醒状态",
+        "Opinion": "需要清醒",
+        "Sentiment": "neutral",
+        "Rationale": "阿凝目前可能处于不清醒的状态"
+    },
+    {
+        "sentence": "司寒哥哥，你清醒一点，我才是你的爱人呀。你那么关心这个贱人有没有考虑过我的感受！",
+        "Holder": "2",
+        "Target": "司寒哥哥",
+        "Aspect": "情感关注",
+        "Opinion": "应该关注自己",
+        "Sentiment": "negative",
+        "Rationale": "司寒哥哥对其他人过于关心而忽略了自己的感受"
+    },
+    {
+        "sentence": "厉总，这个贱人特意整成曼曼姐的样子，就是为了勾引你，你可千万别上当了！",
+        "Holder": "3",
+        "Target": "这个贱人",
+        "Aspect": "目的动机",
+        "Opinion": "别有用心",
+        "Sentiment": "negative",
+        "Rationale": "她认为这个人故意整容成曼曼姐的样子来勾引厉总"
+    },
+    {
+        "sentence": "厉总，你可千万不要被她欺骗，都是她自找的！",
+        "Holder": "4",
+        "Target": "她",
+        "Aspect": "行为动机",
+        "Opinion": "她自找的",
+        "Sentiment": "negative",
+        "Rationale": "认为她自找麻烦"
+    },
+    {
+        "sentence": "司寒哥哥，你让开，我要让人断了她的四肢，把她卖到缅北去。",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "惩罚方式",
+        "Opinion": "极端惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对她极度愤怒"
+    },
+    {
+        "sentence": "阿凝，你放心，今天伤害你的人，我会让他们一个一个的付出代价。",
+        "Holder": "1",
+        "Target": "伤害阿凝的人",
+        "Aspect": "报复",
+        "Opinion": "让他们付出代价",
+        "Sentiment": "negative",
+        "Rationale": "对阿凝受到的伤害感到愤怒"
+    },
+    {
+        "sentence": "司寒哥哥，你难道要抛弃我吗？",
+        "Holder": "2",
+        "Target": "司寒",
+        "Aspect": "忠诚",
+        "Opinion": "担心被抛弃",
+        "Sentiment": "negative",
+        "Rationale": "担心司寒不再支持自己"
+    },
+    {
+        "sentence": "啊，曼曼姐，李总这么在乎你，他肯定是跟你开玩笑的啊。",
+        "Holder": "3",
+        "Target": "李总",
+        "Aspect": "行为意图",
+        "Opinion": "开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "认为李总的行为是开玩笑"
+    },
+    {
+        "sentence": "就是啊，曼曼姐，他怎么可能为了她责怪你呢？",
+        "Holder": "4",
+        "Target": "曼曼姐",
+        "Aspect": "被责怪的可能性",
+        "Opinion": "不可能被责怪",
+        "Sentiment": "positive",
+        "Rationale": "认为曼曼姐没有做错事"
+    },
+    {
+        "sentence": "你们到底对她做了什么！",
+        "Holder": "1",
+        "Target": "4、3、2、5",
+        "Aspect": "对她的行为",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "对其他人对待她的方式感到震惊和不解"
+    },
+    {
+        "sentence": "是她自己不要脸，故意要整容成曼曼姐的样子想上位，所以我们就扒光了她，让她长长记性！",
+        "Holder": "3",
+        "Target": "她",
+        "Aspect": "行为动机和后果",
+        "Opinion": "她自作自受",
+        "Sentiment": "negative",
+        "Rationale": "认为她故意整容并想上位"
+    },
+    {
+        "sentence": "谁让这个贱人说我是她的替身，我就给她灌酒，把她弄哑了。",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "言语和行为",
+        "Opinion": "对她进行惩罚",
+        "Sentiment": "negative",
+        "Rationale": "她称自己是替身而感到愤怒和被冒犯"
+    },
+    {
+        "sentence": "没错，这个贱人终究只是冒牌货。",
+        "Holder": "5",
+        "Target": "她",
+        "Aspect": "身份真实性",
+        "Opinion": "她是冒牌货",
+        "Sentiment": "negative",
+        "Rationale": "她被认为是冒牌货而感到鄙视和轻蔑"
+    },
+    {
+        "sentence": "厉总，你不要为了她伤了曼曼姐的心啊。",
+        "Holder": "5",
+        "Target": "厉总的行为",
+        "Aspect": "对曼曼姐的影响",
+        "Opinion": "不要伤害曼曼姐",
+        "Sentiment": "negative",
+        "Rationale": "担心厉总的行为会伤害到曼曼姐的心"
+    },
+    {
+        "sentence": "司寒哥哥，你都已经有我了，就没有必要去养这种下贱的冒牌货。",
+        "Holder": "2",
+        "Target": "司寒哥哥的行为",
+        "Aspect": "对其他女性的态度",
+        "Opinion": "不应该养冒牌货",
+        "Sentiment": "negative",
+        "Rationale": "司寒哥哥已经有了自己，却还去养其他女性"
+    },
+    {
+        "sentence": "这一次我就原谅你了，以后我们好好在一起。",
+        "Holder": "2",
+        "Target": "司寒哥哥的错误",
+        "Aspect": "原谅与未来关系",
+        "Opinion": "选择原谅并希望好好在一起",
+        "Sentiment": "positive",
+        "Rationale": "决定原谅司寒哥哥的错误"
+    }
+]

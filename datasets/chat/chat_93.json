@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "我不就是稍微的比划了那么一下吗？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的严重性",
+        "Opinion": "行为轻微",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己只是稍微比划了一下"
+    },
+    {
+        "sentence": "还用小水果刀，你差点把老师的耳朵给削下来，刘星",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的危险性",
+        "Opinion": "行为危险",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为差点造成严重后果"
+    },
+    {
+        "sentence": "真的啊？",
+        "Holder": "3",
+        "Target": "2的描述",
+        "Aspect": "描述的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "3对2的描述感到惊讶和不确定"
+    },
+    {
+        "sentence": "你问问他。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "确有其事",
+        "Sentiment": "neutral",
+        "Rationale": "2希望3向1确认事情的真实性"
+    },
+    {
+        "sentence": "爸，没我妈说那么邪乎，离老师那耳朵还两尺多呢。我们那老师是一语文老师，告诉我妈时候肯定有文学加工，你别听他的。",
+        "Holder": "1",
+        "Target": "2的描述",
+        "Aspect": "描述的夸张性",
+        "Opinion": "描述夸张",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的描述过于夸张且有文学加工"
+    },
+    {
+        "sentence": "妈正在气头上，您别拱火了，我可全指着您了",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "避免激化矛盾",
+        "Opinion": "希望2不要激化矛盾",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈已经在生气"
+    },
+    {
+        "sentence": "给我站一边去，反了天了你，你还居然敢拿小刀扎老师耳朵，我觉得应该把他关厕所里，去。",
+        "Holder": "3",
+        "Target": "刘星的行为",
+        "Aspect": "行为的严重性",
+        "Opinion": "刘星的行为非常严重",
+        "Sentiment": "negative",
+        "Rationale": "刘星拿小刀扎老师耳朵的行为非常恶劣"
+    },
+    {
+        "sentence": "爸，你也太狠了点了吧。",
+        "Holder": "1",
+        "Target": "3的惩罚方式",
+        "Aspect": "惩罚的严厉程度",
+        "Opinion": "3的惩罚过于严厉",
+        "Sentiment": "negative",
+        "Rationale": "3提出将刘星关在厕所里的惩罚过于严厉"
+    },
+    {
+        "sentence": "这还算狠啊，我告诉你，有人乱扔香蕉皮砸我脑袋我忍了。你居然敢拿小刀去扎老师耳了。老婆，你为什么没说揍他？",
+        "Holder": "3",
+        "Target": "刘星的行为",
+        "Aspect": "行为的严重性",
+        "Opinion": "刘星的行为无法容忍",
+        "Sentiment": "negative",
+        "Rationale": "刘星拿小刀扎老师耳朵的行为比乱扔香蕉皮砸脑袋更严重"
+    },
+    {
+        "sentence": "我揍你。给我过来。拦住他",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "行为威胁",
+        "Opinion": "要揍对方",
+        "Sentiment": "negative",
+        "Rationale": "对方可能做了让自己不满的事情"
+    },
+    {
+        "sentence": "你们以多欺少",
+        "Holder": "1",
+        "Target": "2和其他人",
+        "Aspect": "行为公平性",
+        "Opinion": "认为对方以多欺少",
+        "Sentiment": "negative",
+        "Rationale": "看到对方人多势众欺负少数人"
+    },
+    {
+        "sentence": "妈妈她把小雨当人质啦。",
+        "Holder": "6",
+        "Target": "她",
+        "Aspect": "行为合理性",
+        "Opinion": "认为她把小雨当人质",
+        "Sentiment": "negative",
+        "Rationale": "她把小雨当人质，这种行为不合理且危险"
+    },
+    {
+        "sentence": "不能这样，不能真打，吓唬吓唬行了",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为限度",
+        "Opinion": "反对真打，建议吓唬",
+        "Sentiment": "neutral",
+        "Rationale": "认为真打会出问题"
+    },
+    {
+        "sentence": "哈哈哈哈哈哈哈",
+        "Holder": "5",
+        "Target": "当前情况",
+        "Aspect": "情绪反应",
+        "Opinion": "感到好笑",
+        "Sentiment": "positive",
+        "Rationale": "看到当前的情况觉得滑稽或有趣"
+    },
+    {
+        "sentence": "乐什么乐？有什么可乐的？",
+        "Holder": "4",
+        "Target": "5的乐观态度",
+        "Aspect": "乐观的合理性",
+        "Opinion": "质疑乐观",
+        "Sentiment": "negative",
+        "Rationale": "不理解5为何感到快乐"
+    },
+    {
+        "sentence": "这就是你给我树立的幸福样板，我要说你脑子进水，这忒俗，我看你脑袋是进汽水了",
+        "Holder": "5",
+        "Target": "4的幸福观",
+        "Aspect": "幸福观的合理性",
+        "Opinion": "认为4的幸福观俗气",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的幸福观很俗气"
+    },
+    {
+        "sentence": "您讽刺我",
+        "Holder": "4",
+        "Target": "5的言论",
+        "Aspect": "言论的性质",
+        "Opinion": "认为5在讽刺",
+        "Sentiment": "negative",
+        "Rationale": "感受到5的言论带有讽刺意味"
+    },
+    {
+        "sentence": "你说咱们家什么时候打过群架，你还不知足？",
+        "Holder": "5",
+        "Target": "4的满意度",
+        "Aspect": "家庭和谐的认知",
+        "Opinion": "认为4不知足",
+        "Sentiment": "negative",
+        "Rationale": "觉得家庭没有大问题而4却不知足"
+    },
+    {
+        "sentence": "那反正咱家的生活有问题。",
+        "Holder": "4",
+        "Target": "家庭生活",
+        "Aspect": "生活的质量",
+        "Opinion": "认为家庭生活有问题",
+        "Sentiment": "negative",
+        "Rationale": "觉得家庭生活存在不足"
+    },
+    {
+        "sentence": "我跟你说，咱们家跟他家一比，咱们家得说是模范家庭。",
+        "Holder": "5",
+        "Target": "咱们家",
+        "Aspect": "家庭表现",
+        "Opinion": "咱们家是模范家庭",
+        "Sentiment": "positive",
+        "Rationale": "5认为咱们家比他家表现好"
+    },
+    {
+        "sentence": "你胡说八道。",
+        "Holder": "4",
+        "Target": "5的观点",
+        "Aspect": "观点的真实性",
+        "Opinion": "5的观点不真实",
+        "Sentiment": "negative",
+        "Rationale": "4认为5的说法不真实"
+    },
+    {
+        "sentence": "你胡说。怎么着？你想教育我？你还嫩点？",
+        "Holder": "5",
+        "Target": "4的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "4的指责不合理",
+        "Sentiment": "negative",
+        "Rationale": "5认为4的指责没有根据"
+    },
+    {
+        "sentence": "你讨厌，讨厌，讨厌",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "个人感受",
+        "Opinion": "5让人讨厌",
+        "Sentiment": "negative",
+        "Rationale": "4对5的行为和言论感到极度不满"
+    },
+    {
+        "sentence": "再说，我跟你说，你要再说我可学刘梅教育刘星那样的收拾你",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "言行约束",
+        "Opinion": "威胁要收拾",
+        "Sentiment": "negative",
+        "Rationale": "4的言行让5感到不满"
+    },
+    {
+        "sentence": "你回来，你。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "行为要求",
+        "Opinion": "要求回来",
+        "Sentiment": "neutral",
+        "Rationale": "5希望4回到自己身边"
+    },
+    {
+        "sentence": "拿着呀，就知道在那傻笑",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "行为表现",
+        "Opinion": "批评傻笑",
+        "Sentiment": "negative",
+        "Rationale": "2认为某人只知道傻笑而不做事"
+    },
+    {
+        "sentence": "哎，来了。谁呀？",
+        "Holder": "2",
+        "Target": "来人",
+        "Aspect": "身份询问",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "2对来人的身份不清楚"
+    },
+    {
+        "sentence": "明明来来来，咱他们都看电视呢。刘星，给姐姐拿个橘子吃，可甜了那橘子。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "拿橘子",
+        "Opinion": "橘子很甜",
+        "Sentiment": "positive",
+        "Rationale": "想分享好吃的橘子"
+    },
+    {
+        "sentence": "哎哎，梅梅，你看这孩子多像流星啊。你看那傻样",
+        "Holder": "3",
+        "Target": "这孩子",
+        "Aspect": "外貌",
+        "Opinion": "像流星",
+        "Sentiment": "positive",
+        "Rationale": "觉得孩子像流星"
+    },
+    {
+        "sentence": "什么啊一点都不像，比咱家流星差远",
+        "Holder": "2",
+        "Target": "这孩子",
+        "Aspect": "外貌",
+        "Opinion": "不像流星",
+        "Sentiment": "negative",
+        "Rationale": "认为孩子不像流星"
+    },
+    {
+        "sentence": "就是流星多机灵。",
+        "Holder": "6",
+        "Target": "流星",
+        "Aspect": "性格",
+        "Opinion": "机灵",
+        "Sentiment": "positive",
+        "Rationale": "觉得流星很机灵"
+    },
+    {
+        "sentence": "对呀，流星多可爱呀。",
+        "Holder": "7",
+        "Target": "刘星",
+        "Aspect": "性格",
+        "Opinion": "可爱",
+        "Sentiment": "positive",
+        "Rationale": "说话者认为刘星很可爱"
+    },
+    {
+        "sentence": "你们在说什么呢？",
+        "Holder": "4",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "因为说话者只是询问对话内容，没有表达明显的情感倾向，所以情绪是中立的。"
+    },
+    {
+        "sentence": "我们只是给刘星一个正确的评价，这孩子确实很可爱。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "性格",
+        "Opinion": "可爱",
+        "Sentiment": "positive",
+        "Rationale": "因为说话者认同刘星的可爱，所以给出了积极的评价。"
+    },
+    {
+        "sentence": "那件事已经过去了，我们已经达成共识了。",
+        "Holder": "1",
+        "Target": "the matter",
+        "Aspect": "resolution status",
+        "Opinion": "resolved",
+        "Sentiment": "neutral",
+        "Rationale": "因为说话者提到事情已经解决，所以情绪是平和的。"
+    },
+    {
+        "sentence": "不是吧？",
+        "Holder": "2",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "因为这句话只是对前面内容的简单回应，没有表达出明显的情感倾向。"
+    },
+    {
+        "sentence": "那你们都把我给搞糊涂了，你们现在是不是在演戏啊？",
+        "Holder": "4",
+        "Target": "2和3的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "怀疑在演戏",
+        "Sentiment": "ambiguous",
+        "Rationale": "2和3的行为前后不一致，让人难以判断真实性"
+    },
+    {
+        "sentence": "不，不是啊，摄像头已经被我偷偷拆掉了。",
+        "Holder": "2",
+        "Target": "摄像头的状态",
+        "Aspect": "摄像头的存在",
+        "Opinion": "已经拆掉",
+        "Sentiment": "neutral",
+        "Rationale": "解释了摄像头已经被拆掉"
+    },
+    {
+        "sentence": "那你们家这一会鸡飞狗跳，一会又亲密成这样，到底哪个才是真的呀？",
+        "Holder": "4",
+        "Target": "2和3的家庭状态",
+        "Aspect": "家庭氛围的真实性",
+        "Opinion": "难以判断真实性",
+        "Sentiment": "ambiguous",
+        "Rationale": "2和3的家庭氛围变化太快，难以判断哪个是真实的"
+    },
+    {
+        "sentence": "这么跟你说吧，全是真的，这就是我们家的幸福生活，是不是夏东海？",
+        "Holder": "2",
+        "Target": "家庭生活",
+        "Aspect": "生活的真实性",
+        "Opinion": "全是真的",
+        "Sentiment": "positive",
+        "Rationale": "强调所有表现都是真实的家庭生活"
+    },
+    {
+        "sentence": "你认为真实生活是什么呀？真实的生活就是高高兴兴肯定是真的，吵架也是真的。",
+        "Holder": "2",
+        "Target": "真实生活",
+        "Aspect": "生活的本质",
+        "Opinion": "生活包含喜怒哀乐",
+        "Sentiment": "neutral",
+        "Rationale": "2在探讨生活的多面性"
+    },
+    {
+        "sentence": "对，哎，刘梅看见我家明明了没有",
+        "Holder": "5",
+        "Target": "刘梅",
+        "Aspect": "是否看见明明",
+        "Opinion": "询问是否看见",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问一个具体的情况"
+    },
+    {
+        "sentence": "明明，还在跟老爸赌气呢。",
+        "Holder": "5",
+        "Target": "明明",
+        "Aspect": "情绪状态",
+        "Opinion": "正在赌气",
+        "Sentiment": "negative",
+        "Rationale": "明明还在跟老爸赌气"
+    },
+    {
+        "sentence": "她正在思考呢。",
+        "Holder": "6",
+        "Target": "明明",
+        "Aspect": "当前状态",
+        "Opinion": "正在思考",
+        "Sentiment": "neutral",
+        "Rationale": "6在描述明明的当前状态"
+    },
+    {
+        "sentence": "对对对，他正在想刚才我老爸和他说的那些话。",
+        "Holder": "1",
+        "Target": "明明",
+        "Aspect": "思考内容",
+        "Opinion": "思考老爸的话",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认明明的思考内容"
+    },
+    {
+        "sentence": "老夏，刚才你跟明明说什么来着？",
+        "Holder": "5",
+        "Target": "夏东海和明明的对话内容",
+        "Aspect": "对话内容",
+        "Opinion": "询问对话内容",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问对话内容，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "这么跟你说吧。简单的说，夏东海是想告诉明明，生活不光是甜的，也有苦的、辣的、咸的。总而言之，生活甜酸苦辣咸五味俱全，是不是这意思？",
+        "Holder": "2",
+        "Target": "夏东海的观点",
+        "Aspect": "生活的多样性",
+        "Opinion": "生活五味俱全",
+        "Sentiment": "neutral",
+        "Rationale": "只是在解释夏东海的观点，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "没错，总结得很好。",
+        "Holder": "1",
+        "Target": "2的总结",
+        "Aspect": "总结的准确性",
+        "Opinion": "总结得好",
+        "Sentiment": "positive",
+        "Rationale": "认可2的总结准确"
+    },
+    {
+        "sentence": "这就是嘛，这生活哪能光有甜没有辣呢？是不是？明明，别再跟老爸赌气了，我看来咱们俩还得好好的沟通沟通。",
+        "Holder": "5",
+        "Target": "生活的多样性",
+        "Aspect": "生活的现实性",
+        "Opinion": "生活应有多种味道",
+        "Sentiment": "positive",
+        "Rationale": "认为生活应该多样化，并且希望通过沟通解决问题"
+    },
+    {
+        "sentence": "基于多次与您沟通无效，我决定不再跟你沟通了，不过我小人不计大人过，原谅你这一次",
+        "Holder": "4",
+        "Target": "与5的沟通",
+        "Aspect": "沟通的有效性",
+        "Opinion": "沟通无效",
+        "Sentiment": "negative",
+        "Rationale": "多次沟通无效，感到失望和无奈"
+    }
+]

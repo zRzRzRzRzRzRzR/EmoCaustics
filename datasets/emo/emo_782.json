@@ -1,0 +1,50 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "养老项目成本挑战",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "养老产品不可持续、石家庄项目利润率低、养老服务设施用地存在风险、住宅用地价格过高",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "成本构成分析（硬件、运营、间接成本）",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "建筑成本处于低位、设计力量显著提升空间利用效率",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "运营模式创新与验证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "共享空间策略实现价格突破、规模性项目通过实践检验、中低端市场定位清晰",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "人工成本存在规模效应降低可能",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "居家养老缺乏盈利模式、24小时响应服务成本不可持续",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

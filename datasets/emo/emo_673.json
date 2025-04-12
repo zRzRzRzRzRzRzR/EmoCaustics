@@ -1,0 +1,98 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "互相指责行为不端",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责对方仗势欺人、道德绑架、质疑资格",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "不畏惧对方骂大街行为",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "深夜噪音纠纷",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指责半夜制造敲打声",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "邻里长期冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "玻璃被砸、垃圾倾倒、晒床单引发恐惧",
+            "source_id": "1,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "用佛教音乐应对噪音",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "物业沟通失效",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "保安偷听、居委会不作为、反复申诉无效",
+            "source_id": "3,4"
+          },
+          {
+            "state": "negative",
+            "reason": "精神压力导致神经衰弱",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "旁观者反应",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对冲突采取轻松态度",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "询问具体楼号信息",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "信息确认",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提供客观楼号数据",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "通信受阻与行程延误",
+        "emotions": [
+          {"state": "negative", "reason": "高铁途中因睡着错过联络时机|海边信号差无法发送消息", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑行程安排合理性", "source_id": "2"},
+          {"state": "neutral", "reason": "提议使用固定电话联系", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "性别角色争议",
+        "emotions": [
+          {"state": "neutral", "reason": "强调自身女性身份", "source_id": "1"},
+          {"state": "negative", "reason": "反对性别能力质疑", "source_id": "2"},
+          {"state": "positive", "reason": "主张女性能力优越性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "突发行程争议",
+        "emotions": [
+          {"state": "neutral", "reason": "要求表达观点", "source_id": "2"},
+          {"state": "negative", "reason": "行程安排引发担忧", "source_id": "1"},
+          {"state": "negative", "reason": "反对挂帅行为合理性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "能力认可争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑独立性", "source_id": "1"},
+          {"state": "positive", "reason": "强调自身能力优势", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方仲裁介入",
+        "emotions": [
+          {"state": "neutral", "reason": "评估通信问题合理性", "source_id": "3"},
+          {"state": "neutral", "reason": "提出替代解决方案", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

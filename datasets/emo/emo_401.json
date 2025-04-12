@@ -1,0 +1,55 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "口服液争执与欺诈指控",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指控口服液为欺诈行为并拒绝服用",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被指责虚伪且教育方式不实际",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "孩子未来规划冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对将个人期望强加于孩子",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "坚持孩子应有自主选择权",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育方式分歧与虚伪指责",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评1的教育方式缺乏实际作用",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧孩子因教育方式无法考上大学",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,533 @@
+[
+    {
+        "sentence": "妈，你打苏诚做什么？",
+        "Holder": "1",
+        "Target": "打苏诚的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑打人",
+        "Sentiment": "negative",
+        "Rationale": "不理解母亲打苏诚的原因"
+    },
+    {
+        "sentence": "这一巴掌是替我可怜的念念打的。苏诚，你再婚之后，于曼一直不肯接受念念！你知道她过的什么日子吗？啊？你女儿连吃口爱吃的水果都要躲着于曼偷偷的吃。妈也有责任，为了你的婚姻幸福，让我的孙女活活的受委屈。",
+        "Holder": "2",
+        "Target": "苏诚的行为",
+        "Aspect": "对女儿的责任",
+        "Opinion": "指责苏诚忽视女儿",
+        "Sentiment": "negative",
+        "Rationale": "苏诚再婚后忽视了女儿的感受，导致女儿受委屈"
+    },
+    {
+        "sentence": "这是你女儿写的的日记，你看着吧。",
+        "Holder": "2",
+        "Target": "苏诚",
+        "Aspect": "女儿的情况",
+        "Opinion": "提供证据",
+        "Sentiment": "neutral",
+        "Rationale": "要通过日记让苏诚了解女儿的真实情况"
+    },
+    {
+        "sentence": "念念，我的女儿啊！我都做了什么！",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "对女儿的责任",
+        "Opinion": "自责",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己对女儿的忽视，感到内疚和自责"
+    },
+    {
+        "sentence": "苏诚，你重组家庭没有错。你错就错在不该伤害你的女儿呀！",
+        "Holder": "2",
+        "Target": "苏诚",
+        "Aspect": "对女儿的责任",
+        "Opinion": "指责苏诚伤害女儿",
+        "Sentiment": "negative",
+        "Rationale": "苏诚在重组家庭的过程中忽视了女儿的感受"
+    },
+    {
+        "sentence": "妈，你怎么能这么说呢？",
+        "Holder": "1",
+        "Target": "母亲的说法",
+        "Aspect": "说话的方式",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "母亲的说法让1感到不理解和不满"
+    },
+    {
+        "sentence": "苏诚，我肚子真的好疼啊，你快送我去医院好不好？",
+        "Holder": "1",
+        "Target": "苏诚",
+        "Aspect": "求助的紧迫性",
+        "Opinion": "急需帮助",
+        "Sentiment": "negative",
+        "Rationale": "肚子疼得厉害，急需苏诚的帮助"
+    },
+    {
+        "sentence": "说啊！放我女儿的断肢箱在哪？你告诉我！",
+        "Holder": "3",
+        "Target": "苏诚",
+        "Aspect": "信息的提供",
+        "Opinion": "要求告知",
+        "Sentiment": "negative",
+        "Rationale": "3急于知道女儿断肢箱的位置，苏诚没有回应"
+    },
+    {
+        "sentence": "放开我！苏诚，你干什么？",
+        "Holder": "1",
+        "Target": "苏诚的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "苏诚的行为让1感到不适和困惑"
+    },
+    {
+        "sentence": "我说让你告诉我，听到了没有？",
+        "Holder": "3",
+        "Target": "苏诚",
+        "Aspect": "信息的获取",
+        "Opinion": "强烈要求",
+        "Sentiment": "negative",
+        "Rationale": "苏诚没有回应3的要求，3感到被忽视和急切"
+    },
+    {
+        "sentence": "我不知道，我真的不知道。",
+        "Holder": "1",
+        "Target": "问题答案",
+        "Aspect": "知情情况",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "确实不知道问题的答案"
+    },
+    {
+        "sentence": "好，你不说是吧？那我等督察处的人来，好好的审问你！",
+        "Holder": "3",
+        "Target": "1的回答",
+        "Aspect": "合作态度",
+        "Opinion": "不满意",
+        "Sentiment": "negative",
+        "Rationale": "1不提供答案"
+    },
+    {
+        "sentence": "苏诚，我是你的妻子，我肚子里怀着你的骨肉，你不能这么对我，你不能这么对我！",
+        "Holder": "3",
+        "Target": "苏诚（1）的行为",
+        "Aspect": "对待方式",
+        "Opinion": "不应该这样对待",
+        "Sentiment": "negative",
+        "Rationale": "作为妻子和孕妇，感到被不公平对待"
+    },
+    {
+        "sentence": "督察过来起码要半个小时，来不及了！",
+        "Holder": "4",
+        "Target": "督察到来的时间",
+        "Aspect": "时间紧迫性",
+        "Opinion": "时间不够",
+        "Sentiment": "negative",
+        "Rationale": "督察到来的时间过长，无法及时解决问题"
+    },
+    {
+        "sentence": "我再问你一次，放我女儿断肢的箱子在哪？",
+        "Holder": "3",
+        "Target": "箱子的位置",
+        "Aspect": "信息获取",
+        "Opinion": "需要知道",
+        "Sentiment": "negative",
+        "Rationale": "急于找到女儿的断肢"
+    },
+    {
+        "sentence": "我真的不知道，我真不知道。",
+        "Holder": "1",
+        "Target": "藏箱子的位置",
+        "Aspect": "知情情况",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "确实不知道藏箱子的位置"
+    },
+    {
+        "sentence": "说！藏我女儿的箱子在哪？说！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "提供信息",
+        "Opinion": "要求说出藏箱子的位置",
+        "Sentiment": "negative",
+        "Rationale": "急于找到女儿的箱子而对方却不肯说出"
+    },
+    {
+        "sentence": "你干什么？你要干什么啊苏诚？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "被3的激烈行为吓到"
+    },
+    {
+        "sentence": "苏总，你这是要做什么？快放开啊！",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "要求停止行为",
+        "Sentiment": "negative",
+        "Rationale": "看到3的行为过于激烈，担心出事"
+    },
+    {
+        "sentence": "都别过来！",
+        "Holder": "3",
+        "Target": "其他人",
+        "Aspect": "接近行为",
+        "Opinion": "阻止接近",
+        "Sentiment": "negative",
+        "Rationale": "不想被打扰或阻止自己的行为"
+    },
+    {
+        "sentence": "我告诉你，我女儿如果残疾了，我一定拉着你陪葬！告诉我，说啊！断肢箱在哪！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "责任追究",
+        "Opinion": "要追究责任",
+        "Sentiment": "negative",
+        "Rationale": "担心女儿残疾，认为是1的责任"
+    },
+    {
+        "sentence": "箱子，箱子被我扔进垃圾桶里面去了。",
+        "Holder": "1",
+        "Target": "断肢箱",
+        "Aspect": "处理方式",
+        "Opinion": "扔进垃圾桶",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实，没有明显的情感波动"
+    },
+    {
+        "sentence": "督察同志，就是她，企图害死我孙女。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "动机",
+        "Opinion": "企图害死孙女",
+        "Sentiment": "negative",
+        "Rationale": "认为1有恶意动机"
+    },
+    {
+        "sentence": "妈，你怎么能胡说呢？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言论真实性",
+        "Opinion": "认为是胡说",
+        "Sentiment": "negative",
+        "Rationale": "被误解且被指责"
+    },
+    {
+        "sentence": "督察同志，我从来没有想过害死苏念，我只是看到她的手臂被扔到垃圾桶，瞒报了而已。这也犯法吗？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为动机",
+        "Opinion": "没有害死意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "试图解释自己的行为，但不确定是否会得到理解"
+    },
+    {
+        "sentence": "你刚才可不是这么说的！你那会说是你把那念念的手臂丢到垃圾桶了！",
+        "Holder": "2",
+        "Target": "1的陈述",
+        "Aspect": "陈述的一致性",
+        "Opinion": "前后矛盾",
+        "Sentiment": "negative",
+        "Rationale": "1之前的说法与现在的说法不一致"
+    },
+    {
+        "sentence": "我那是说错了。我只是上完厕所，看到垃圾桶旁边有个箱子了而已。",
+        "Holder": "1",
+        "Target": "自己的陈述",
+        "Aspect": "陈述的准确性",
+        "Opinion": "承认错误",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己之前的说法有误"
+    },
+    {
+        "sentence": "如果你没有碰，你手上怎么会有红药水？督察都站在你面前了，你还在撒谎！",
+        "Holder": "2",
+        "Target": "1的解释",
+        "Aspect": "解释的可信度",
+        "Opinion": "认为在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "1手上有红药水且督察在场"
+    },
+    {
+        "sentence": "是，我是碰了箱子，这才沾染上了红药水。而且你们都知道呀，那个箱子很重，我一个孕妇，我怎么，怎么可能提得起来？",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "强调无力提起箱子",
+        "Sentiment": "neutral",
+        "Rationale": "自己是孕妇，确实无力提起重箱子"
+    },
+    {
+        "sentence": "那箱子大概多重？",
+        "Holder": "6",
+        "Target": "箱子的重量",
+        "Aspect": "重量的具体信息",
+        "Opinion": "询问重量",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解箱子的重量以判断1的说法"
+    },
+    {
+        "sentence": "大概有40斤吧。",
+        "Holder": "2",
+        "Target": "箱子重量",
+        "Aspect": "重量估计",
+        "Opinion": "约40斤",
+        "Sentiment": "neutral",
+        "Rationale": "只是对箱子重量进行客观估计"
+    },
+    {
+        "sentence": "于曼一个孕妇，确实没办法一个人把箱子搬到垃圾桶。",
+        "Holder": "6",
+        "Target": "于曼",
+        "Aspect": "搬运能力",
+        "Opinion": "无法独自搬运",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述于曼作为孕妇的体力限制"
+    },
+    {
+        "sentence": "她搬不动，不代表她没有同伙呀？施工队的人，有她的帮凶！",
+        "Holder": "2",
+        "Target": "于曼",
+        "Aspect": "是否有帮凶",
+        "Opinion": "有帮凶",
+        "Sentiment": "negative",
+        "Rationale": "怀疑于曼有同伙帮助"
+    },
+    {
+        "sentence": "说！你的帮凶是谁？",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "帮凶身份",
+        "Opinion": "要求揭露",
+        "Sentiment": "negative",
+        "Rationale": "迫切想知道帮凶的身份"
+    },
+    {
+        "sentence": "督察同志，我妈是胡说的！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言论真实性",
+        "Opinion": "胡说",
+        "Sentiment": "negative",
+        "Rationale": "认为母亲的说法不真实"
+    },
+    {
+        "sentence": "整个施工队上下全是我丈夫的人，他们怎么可能听从我的安排呢？",
+        "Holder": "1",
+        "Target": "施工队",
+        "Aspect": "听从安排的可能性",
+        "Opinion": "不可能听从",
+        "Sentiment": "negative",
+        "Rationale": "施工队全是丈夫的人"
+    },
+    {
+        "sentence": "就是！你这么太太胡说什么呢？我们可不干违法的事情！你可不能诬陷我们！",
+        "Holder": "5",
+        "Target": "1的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "认为是诬陷",
+        "Sentiment": "negative",
+        "Rationale": "认为1的言论是诬陷"
+    },
+    {
+        "sentence": "这栋大楼正在装修，最不缺少的就是监控，我已经让我的秘书带着监控文件赶过来了。",
+        "Holder": "3",
+        "Target": "监控文件",
+        "Aspect": "监控的存在",
+        "Opinion": "监控充足",
+        "Sentiment": "positive",
+        "Rationale": "有足够的监控"
+    },
+    {
+        "sentence": "于曼，到时候是不是你故意丢了念念的断臂，还有同伙是谁，一查便知。",
+        "Holder": "3",
+        "Target": "于曼的行为",
+        "Aspect": "行为的故意性",
+        "Opinion": "怀疑是故意",
+        "Sentiment": "negative",
+        "Rationale": "怀疑于曼故意丢失断臂"
+    },
+    {
+        "sentence": "监控文件我带来了。",
+        "Holder": "7",
+        "Target": "监控文件",
+        "Aspect": "文件携带",
+        "Opinion": "已带来",
+        "Sentiment": "neutral",
+        "Rationale": "7只是陈述自己带来了监控文件"
+    },
+    {
+        "sentence": "调出箱子丢失时间段的监控。",
+        "Holder": "6",
+        "Target": "监控",
+        "Aspect": "时间段选择",
+        "Opinion": "需要调出特定时间段",
+        "Sentiment": "neutral",
+        "Rationale": "6在提出具体的工作要求"
+    },
+    {
+        "sentence": "于曼，如果你现在能主动承认错误，看在以往的情分上，我或许会对你网开一面。",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "错误承认",
+        "Opinion": "希望于曼承认错误",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在给于曼一个机会，但同时带有一定的威胁意味"
+    },
+    {
+        "sentence": "我没有，我只是看到箱子在垃圾桶里而已。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为解释",
+        "Opinion": "否认错误",
+        "Sentiment": "negative",
+        "Rationale": "1被怀疑并需要解释自己的行为"
+    },
+    {
+        "sentence": "你这监控什么都没拍到啊，确定时间段正确吗？",
+        "Holder": "6",
+        "Target": "监控",
+        "Aspect": "监控效果",
+        "Opinion": "质疑监控效果",
+        "Sentiment": "negative",
+        "Rationale": "监控没有拍到预期的内容"
+    },
+    {
+        "sentence": "没错，就是这个时间段，但确实什么都没有拍到。",
+        "Holder": "7",
+        "Target": "监控",
+        "Aspect": "监控效果",
+        "Opinion": "确认无拍摄内容",
+        "Sentiment": "neutral",
+        "Rationale": "7确认了监控时间段但确实没有拍到内容"
+    },
+    {
+        "sentence": "怎么会这样？",
+        "Holder": "3",
+        "Target": "监控",
+        "Aspect": "监控效果",
+        "Opinion": "不解",
+        "Sentiment": "negative",
+        "Rationale": "监控没有拍到预期的内容"
+    },
+    {
+        "sentence": "这栋大楼的设计是我们共同参与的，什么地方有监控，你应该都一清二楚，所以是你故意避开了监控！",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "行为动机",
+        "Opinion": "指责故意避开监控",
+        "Sentiment": "negative",
+        "Rationale": "3认为6对大楼设计了解，却未被监控拍到"
+    },
+    {
+        "sentence": "于曼，我真的没想到，你居然有这么深的心机，甚至把手伸向了我的公司。",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "心机",
+        "Opinion": "心机深",
+        "Sentiment": "negative",
+        "Rationale": "发现于曼有深的心机并涉及公司事务"
+    },
+    {
+        "sentence": "想来电闸断电的事情，也是你的手笔吧？",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "电闸断电事件",
+        "Opinion": "怀疑于曼所为",
+        "Sentiment": "negative",
+        "Rationale": "怀疑于曼故意断电阻碍救援"
+    },
+    {
+        "sentence": "我没有！",
+        "Holder": "1",
+        "Target": "电闸断电事件",
+        "Aspect": "自身清白",
+        "Opinion": "否认指控",
+        "Sentiment": "negative",
+        "Rationale": "被误解和指控"
+    },
+    {
+        "sentence": "张特助给我查！",
+        "Holder": "3",
+        "Target": "张特助",
+        "Aspect": "调查要求",
+        "Opinion": "要求调查",
+        "Sentiment": "negative",
+        "Rationale": "对事件真相的迫切需求和对 于曼的怀疑"
+    },
+    {
+        "sentence": "电闸的上方就有监控，既然查不到你丢了断臂，我就不信，还查不到谁故意拉断了电闸，阻碍我们救念念。",
+        "Holder": "3",
+        "Target": "电闸断电事件",
+        "Aspect": "调查决心",
+        "Opinion": "坚信能查清真相",
+        "Sentiment": "negative",
+        "Rationale": "坚信监控能提供证据且对阻碍救援行为愤怒"
+    },
+    {
+        "sentence": "苏诚，你看看我，你看看我肚子里怀了你的孩子。我拿孩子发誓，我从来都没有想要过苏念的性命，我现在肚子里怀了你的骨肉，你就看在孩子的面子上，你再相信我一次好不好？",
+        "Holder": "1",
+        "Target": "苏诚的信任",
+        "Aspect": "对孩子的重视",
+        "Opinion": "请求再次相信",
+        "Sentiment": "negative",
+        "Rationale": "苏诚不相信她"
+    },
+    {
+        "sentence": "我不会再相信你了。",
+        "Holder": "3",
+        "Target": "1的陈述",
+        "Aspect": "信任",
+        "Opinion": "不再相信",
+        "Sentiment": "negative",
+        "Rationale": "之前的事件让他失去了信任"
+    },
+    {
+        "sentence": "张特助，查快点！",
+        "Holder": "3",
+        "Target": "张特助的调查",
+        "Aspect": "调查速度",
+        "Opinion": "要求加快",
+        "Sentiment": "neutral",
+        "Rationale": "急于了解真相"
+    },
+    {
+        "sentence": "老公，我们是夫妻啊，你为什么不相信我？你一定要相信我，求求你。",
+        "Holder": "1",
+        "Target": "苏诚的信任",
+        "Aspect": "夫妻关系",
+        "Opinion": "请求相信",
+        "Sentiment": "negative",
+        "Rationale": "作为夫妻却不被信任"
+    },
+    {
+        "sentence": "从你差点致我女儿残疾的那一刻开始，我们就不再是夫妻了。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对女儿的伤害的影响",
+        "Opinion": "无法容忍",
+        "Sentiment": "negative",
+        "Rationale": "1的行为差点导致女儿残疾"
+    },
+    {
+        "sentence": "我真的不明白，念念还那么小，她到底怎么得罪你了，你能下此狠手啊？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对女儿的伤害动机",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "3无法理解1为何对年幼的女儿下手"
+    },
+    {
+        "sentence": "好，我承认，是我。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "责任承认",
+        "Opinion": "承认错误",
+        "Sentiment": "neutral",
+        "Rationale": "1承认了自己的行为"
+    }
+]

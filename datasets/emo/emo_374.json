@@ -1,0 +1,115 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分类阐述选项标准及选择逻辑",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调第六项举措的基层动员能力",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "否定后续发展类选项成效",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调前期制度保障的核心作用",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分阶段对比择优选择策略",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "面试流程控制",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "执行标准化考试流程管理",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统化分类论证选项优势",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "强调第三项举措的双重效益",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "多维度论证136选项的根源性价值",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "个人陈述阶段",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "基于流程阶段划分的针对性选择",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  }
+}

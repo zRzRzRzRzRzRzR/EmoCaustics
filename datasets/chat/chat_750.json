@@ -1,0 +1,92 @@
+[
+    {
+        "sentence": "也得尊重老同志，再说了老书记还在副国级任上得了高书记。",
+        "Holder": "2",
+        "Target": "老同志",
+        "Aspect": "尊重",
+        "Opinion": "需要尊重",
+        "Sentiment": "neutral",
+        "Rationale": "提到需要尊重老同志"
+    },
+    {
+        "sentence": "您也不是不知道，我们老爷子那副国级他是一虚职没实权，不像您堂堂省委副书记还兼着政法委书记，也就您一句话分分钟就把那侯亮平踢开了，",
+        "Holder": "2",
+        "Target": "省委副书记",
+        "Aspect": "权力对比",
+        "Opinion": "强调权力差异",
+        "Sentiment": "negative",
+        "Rationale": "对比中强调了对方权力的优越性，暗示不满"
+    },
+    {
+        "sentence": "这什么话我凭什么一脚把侯亮平踢开，",
+        "Holder": "1",
+        "Target": "侯亮平",
+        "Aspect": "职责权限",
+        "Opinion": "明确职责",
+        "Sentiment": "neutral",
+        "Rationale": "强调自身职责范围，不涉及情感倾向"
+    },
+    {
+        "sentence": "老人家，我们家老爷子也在在做工作，希望您也能帮忙给做点工作，毕竟当年美食城是您批的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "请求帮助",
+        "Opinion": "希望得到支持",
+        "Sentiment": "neutral",
+        "Rationale": "提到过去的合作，希望延续支持"
+    },
+    {
+        "sentence": "这话千万别这么说了，当年真的是没有环保意识，现在想想这项目还真是不该批，",
+        "Holder": "1",
+        "Target": "美食城项目",
+        "Aspect": "环保意识",
+        "Opinion": "后悔批准",
+        "Sentiment": "negative",
+        "Rationale": "反思过去决策的不足，认识到环保重要性"
+    },
+    {
+        "sentence": "还是那句话就没什么对错了，因为当时大家都那么干，我们这老爷子已经表态了，拆美食城坚决拆，坚决响应国家环保政策，真的唯一的问题就是拆迁补偿，信义实在是低了",
+        "Holder": "1",
+        "Target": "拆迁补偿",
+        "Aspect": "补偿的合理性",
+        "Opinion": "补偿低",
+        "Sentiment": "negative",
+        "Rationale": "拆迁补偿的信义低"
+    },
+    {
+        "sentence": "这么多年美食城也赚了不少了，咱们也退一步行不行？就别再为这种事儿给我给你父亲添任何麻烦了，行不行？",
+        "Holder": "1",
+        "Target": "美食城",
+        "Aspect": "经济收益",
+        "Opinion": "已经赚了不少",
+        "Sentiment": "neutral",
+        "Rationale": "美食城已经赚了不少"
+    },
+    {
+        "sentence": "是看明白了，你是什么忙也不想帮，当然了这不是我们蔡老爷子在汉中的时候，更不是当年在吕州把李达康也赶走，您推到省委常委的位子。",
+        "Holder": "2",
+        "Target": "1的帮助态度",
+        "Aspect": "帮助意愿",
+        "Opinion": "不想帮忙",
+        "Sentiment": "negative",
+        "Rationale": "觉得1不想帮忙"
+    },
+    {
+        "sentence": "瑞龙，你要这么说咱就没法聊了。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "无法继续对话",
+        "Sentiment": "negative",
+        "Rationale": "2的言论让对话无法继续"
+    },
+    {
+        "sentence": "不高书记您别生气，我顺口这么一说，您别生气行不行？",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望1别生气",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己的言论可能让1生气"
+    }
+]

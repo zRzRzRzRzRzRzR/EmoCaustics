@@ -1,0 +1,605 @@
+[
+    {
+        "sentence": "反正我不是不喜欢吃最高的韩国料理，我应该为了安置全世界的汉口料，",
+        "Holder": "1",
+        "Target": "韩国料理",
+        "Aspect": "个人喜好",
+        "Opinion": "不是不喜欢",
+        "Sentiment": "neutral",
+        "Rationale": "表达了对韩国料理的中立态度"
+    },
+    {
+        "sentence": "你以前是受了太多委屈，你用勺子或者用接着。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "过去经历",
+        "Opinion": "受了太多委屈",
+        "Sentiment": "negative",
+        "Rationale": "提到对方过去受了太多委屈"
+    },
+    {
+        "sentence": "我中午就不要闹了一次，然后你就一直在那吐槽了，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为反应",
+        "Opinion": "一直在吐槽",
+        "Sentiment": "negative",
+        "Rationale": "对方一直在吐槽"
+    },
+    {
+        "sentence": "不吐槽了，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为改变",
+        "Opinion": "停止吐槽",
+        "Sentiment": "neutral",
+        "Rationale": "决定停止吐槽"
+    },
+    {
+        "sentence": "你和你师兄没出去吃过。",
+        "Holder": "1",
+        "Target": "2和师兄",
+        "Aspect": "外出就餐经历",
+        "Opinion": "没有出去吃过",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "饭可以看到的。",
+        "Holder": "2",
+        "Target": "饭",
+        "Aspect": "可见性",
+        "Opinion": "可以看到",
+        "Sentiment": "neutral",
+        "Rationale": "饭是可见的"
+    },
+    {
+        "sentence": "你没过去吃过饭去过那时候知道那只是我没发现，我没有知道你们去吃啥饭，我也跟你一起去，然后就一直吐槽了，",
+        "Holder": "1",
+        "Target": "2的吃饭行为",
+        "Aspect": "知情与否",
+        "Opinion": "不知道吃什么饭",
+        "Sentiment": "negative",
+        "Rationale": "不知道2去吃什么饭"
+    },
+    {
+        "sentence": "你不加进去了，因为我7万块钱也不知道，谁知对有些我应该说一下，我先聊一下，然后到最后把大家看一下。然后谁知然后用不需要去以外给我配合一下，谁知他说了谁知好了吗？谁知你。",
+        "Holder": "2",
+        "Target": "1的参与",
+        "Aspect": "参与与否",
+        "Opinion": "不需要1参与",
+        "Sentiment": "ambiguous",
+        "Rationale": "对7万块钱的事情不清楚"
+    },
+    {
+        "sentence": "就是这事儿没做过，",
+        "Holder": "1",
+        "Target": "这件事",
+        "Aspect": "经验",
+        "Opinion": "没做过",
+        "Sentiment": "neutral",
+        "Rationale": "确实没做过这件事"
+    },
+    {
+        "sentence": "没有过去了。",
+        "Holder": "2",
+        "Target": "过去的行为",
+        "Aspect": "是否发生",
+        "Opinion": "没有过去",
+        "Sentiment": "neutral",
+        "Rationale": "确实没有过去的行为"
+    },
+    {
+        "sentence": "你就反复提反复提，然后提了让你自己又不高兴，",
+        "Holder": "1",
+        "Target": "说话人2的行为",
+        "Aspect": "反复提及话题",
+        "Opinion": "反复提及让自己不高兴",
+        "Sentiment": "negative",
+        "Rationale": "说话人2反复提及某个话题，导致自己感到不高兴"
+    },
+    {
+        "sentence": "但是我估计也不是一个我们把你告诉我这一点就是我们最后的情况。好好谢谢。好的，你要说吗？你是吗？你要是打的那个样子不一样不要了，",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "对情况的估计",
+        "Opinion": "情况不明朗",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前情况的理解不够清晰"
+    },
+    {
+        "sentence": "你说我。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "要求对方表达",
+        "Opinion": "要求对方说话",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方表达意见"
+    },
+    {
+        "sentence": "没什么可说的，对你说的对。",
+        "Holder": "2",
+        "Target": "说话人1的观点",
+        "Aspect": "对观点的认同",
+        "Opinion": "认同对方观点",
+        "Sentiment": "neutral",
+        "Rationale": "认为说话人1的观点正确"
+    },
+    {
+        "sentence": "你有什么想法，你就说你就老是那啥憋心里，然后又不说，",
+        "Holder": "1",
+        "Target": "说话人2的行为",
+        "Aspect": "表达想法的方式",
+        "Opinion": "不直接表达想法",
+        "Sentiment": "negative",
+        "Rationale": "说话人2总是把想法憋在心里不说"
+    },
+    {
+        "sentence": "我没憋心里，我该说的都说了。我是觉得很好玩，但我也确实如果你觉得我不应该一直提起来这个话的话，确实应该不应该提了，对。你说的对。",
+        "Holder": "2",
+        "Target": "提起话题的行为",
+        "Aspect": "话题提起的合理性",
+        "Opinion": "认为应该停止提起",
+        "Sentiment": "neutral",
+        "Rationale": "对方认为不应该一直提起这个话题"
+    },
+    {
+        "sentence": "不用他提是你可以提，但是你不是真的觉得他好。",
+        "Holder": "1",
+        "Target": "2的提起话题",
+        "Aspect": "对话题的真实看法",
+        "Opinion": "认为2不是真的觉得好",
+        "Sentiment": "negative",
+        "Rationale": "认为2提起话题并非真心觉得好"
+    },
+    {
+        "sentence": "我是真的觉得好玩，",
+        "Holder": "2",
+        "Target": "话题",
+        "Aspect": "话题的趣味性",
+        "Opinion": "真的觉得好玩",
+        "Sentiment": "positive",
+        "Rationale": "真心觉得话题有趣"
+    },
+    {
+        "sentence": "你就可以随便提了，",
+        "Holder": "1",
+        "Target": "2的提起话题",
+        "Aspect": "话题提起的自由度",
+        "Opinion": "可以随便提",
+        "Sentiment": "neutral",
+        "Rationale": "认为2有权利提起话题"
+    },
+    {
+        "sentence": "我还是不提了，",
+        "Holder": "2",
+        "Target": "提起话题的行为",
+        "Aspect": "话题提起的决定",
+        "Opinion": "决定不提",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到对方的意见"
+    },
+    {
+        "sentence": "对吧？你看你只要知道你的物质自己的物质的好玩，如果你真的觉得好玩的话，你不会是这个反应我无所谓，你你提多少遍我都无所谓，",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "对提物质的态度",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "认为只要2觉得好玩就可以随意提"
+    },
+    {
+        "sentence": "你提。",
+        "Holder": "2",
+        "Target": "提物质",
+        "Aspect": "提物质的行为",
+        "Opinion": "继续提",
+        "Sentiment": "neutral",
+        "Rationale": "对话中只是简单的回应"
+    },
+    {
+        "sentence": "一万遍我都无所谓，因为你只要觉得好玩，你想怎么提怎么提，但是你提完之后你自己会生气，",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "提物质后的情绪",
+        "Opinion": "2会生气",
+        "Sentiment": "neutral",
+        "Rationale": "认为2提物质后会生气"
+    },
+    {
+        "sentence": "我没有生气。",
+        "Holder": "2",
+        "Target": "自己的情绪",
+        "Aspect": "是否生气",
+        "Opinion": "没有生气",
+        "Sentiment": "neutral",
+        "Rationale": "否认自己生气的情绪"
+    },
+    {
+        "sentence": "那就行，你想怎么开玩笑就怎么开玩笑。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "开玩笑的自由",
+        "Opinion": "允许随意开玩笑",
+        "Sentiment": "positive",
+        "Rationale": "2表示没有生气"
+    },
+    {
+        "sentence": "我。",
+        "Holder": "2",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的自我指代"
+    },
+    {
+        "sentence": "关心的不是说你提这件事情本身，而是你听完之后你自己的情绪，",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪反应",
+        "Opinion": "关心情绪",
+        "Sentiment": "neutral",
+        "Rationale": "关注的是对方听完事情后的情绪变化"
+    },
+    {
+        "sentence": "我真的没有生气，",
+        "Holder": "2",
+        "Target": "自己的情绪",
+        "Aspect": "是否生气",
+        "Opinion": "没有生气",
+        "Sentiment": "neutral",
+        "Rationale": "想澄清自己没有生气"
+    },
+    {
+        "sentence": "你就一就在那里。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为表现",
+        "Opinion": "停留在原地",
+        "Sentiment": "neutral",
+        "Rationale": "描述对方的行为状态"
+    },
+    {
+        "sentence": "是你我提完之后我就说你看你又这样了，你的反应是让我觉得你反感，",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "反应态度",
+        "Opinion": "觉得反感",
+        "Sentiment": "negative",
+        "Rationale": "对方的反应让自己感觉到被反感"
+    },
+    {
+        "sentence": "我没有，你只要不生气你很好提到。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "希望2不生气",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2在提到某事时不要生气"
+    },
+    {
+        "sentence": "没有，你让我感觉是这样，",
+        "Holder": "2",
+        "Target": "1的感受",
+        "Aspect": "感受的准确性",
+        "Opinion": "1的感受有误",
+        "Sentiment": "negative",
+        "Rationale": "2认为1对他的情绪理解有误"
+    },
+    {
+        "sentence": "我反感是因为你提起来，然后你的情绪就可能不对。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪的合理性",
+        "Opinion": "2的情绪可能不对",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在提起某事时情绪可能不合适"
+    },
+    {
+        "sentence": "不是你以为我的情绪不对，但我其实真的没有，",
+        "Holder": "2",
+        "Target": "1的判断",
+        "Aspect": "情绪判断的准确性",
+        "Opinion": "1的判断错误",
+        "Sentiment": "negative",
+        "Rationale": "2认为1误解了他的情绪"
+    },
+    {
+        "sentence": "我就不用再纠结这一块。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪的调整",
+        "Opinion": "不再纠结",
+        "Sentiment": "positive",
+        "Rationale": "1决定不再纠结于这个问题"
+    },
+    {
+        "sentence": "就像我昨天提起这件事情的时候，我是真的觉得很好玩，然后你自己在那想想，觉得我会很在意，",
+        "Holder": "2",
+        "Target": "1的想法",
+        "Aspect": "对事情的看法",
+        "Opinion": "觉得好玩",
+        "Sentiment": "positive",
+        "Rationale": "自己提起事情时觉得好玩"
+    },
+    {
+        "sentence": "你就把它当做一件本来就很好玩的事情，而且那个时候才我多大，我刚上应该是刚上大学不对。大二大。",
+        "Holder": "1",
+        "Target": "事情的看法",
+        "Aspect": "事情的有趣性",
+        "Opinion": "认为事情本身好玩",
+        "Sentiment": "neutral",
+        "Rationale": "回忆起当时的情况"
+    },
+    {
+        "sentence": "三，对又怎么了，对无所谓对。然后你要回来自己给他那一块，谁知谁知谁知看到了吗？我还是这样。大了是吧？大二大三怎么了？谈恋爱那也是正常的，而且大家谈的都很认真，又有什么关系？对，是你一直以为觉得我会在意这件事情，",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "对恋爱看法",
+        "Opinion": "认为恋爱正常",
+        "Sentiment": "negative",
+        "Rationale": "1一直误解自己会在意恋爱的事情"
+    },
+    {
+        "sentence": "我就是怕你心情不好了，既然没有的话，你就随便。",
+        "Holder": "1",
+        "Target": "2的心情",
+        "Aspect": "对2情绪的关心",
+        "Opinion": "希望2心情好",
+        "Sentiment": "neutral",
+        "Rationale": "担心2的心情"
+    },
+    {
+        "sentence": "对我一直在说我没有，然后你就一直觉得我有。",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "对2情绪的判断",
+        "Opinion": "认为自己没有情绪问题",
+        "Sentiment": "negative",
+        "Rationale": "1一直误解自己有情绪问题"
+    },
+    {
+        "sentence": "因为你说你没有女人都这样，因为你说你没有，其实你心里在生气，我是怕你这么想，",
+        "Holder": "1",
+        "Target": "2的想法",
+        "Aspect": "对女性看法的误解",
+        "Opinion": "认为2在生气",
+        "Sentiment": "negative",
+        "Rationale": "1认为2心里在生气"
+    },
+    {
+        "sentence": "我一直可能你太多你就接触过太多的人，所以你觉得女生都会这样。",
+        "Holder": "2",
+        "Target": "1的看法",
+        "Aspect": "对女性看法的形成原因",
+        "Opinion": "认为1接触过太多人",
+        "Sentiment": "neutral",
+        "Rationale": "2解释1的看法是由于接触过太多人"
+    },
+    {
+        "sentence": "我们讨论这件事本身不会引起这样的反应，如果因为我心里一点都没有感觉你好，我没有反感，然后你就因为这件事情，然后因为我们俩经常讨论一个想想假如这个是别人的八卦，你觉得我们俩在讨论的时候会是这样的状态吗？你就是一个强行强迫自己表现出毫不在乎的样子，我看不出来咱俩就相处工作。",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "讨论时的态度",
+        "Opinion": "认为2强行表现不在乎",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在讨论时强行表现不在乎"
+    },
+    {
+        "sentence": "是我的哪个。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "具体行为的表现",
+        "Opinion": "询问具体行为",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问具体行为"
+    },
+    {
+        "sentence": "你没有，如果你真的是抽离出来的表现，我能感觉到的。",
+        "Holder": "1",
+        "Target": "2的表现",
+        "Aspect": "抽离出来的真实性",
+        "Opinion": "认为2没有真正抽离",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有真正抽离出来"
+    },
+    {
+        "sentence": "反正我觉得我没有在意，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "对八卦的态度",
+        "Opinion": "不在意",
+        "Sentiment": "neutral",
+        "Rationale": "自己主观上认为对八卦并不在意"
+    },
+    {
+        "sentence": "因为你不是一个抽离出来，然后再讨论别人八卦的感觉。如果你真的不在意，就好像我说某某明星怎么样，咱俩就会笑着说，对吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对八卦的态度",
+        "Opinion": "不够抽离",
+        "Sentiment": "positive",
+        "Rationale": "认为2没有完全抽离出八卦讨论"
+    },
+    {
+        "sentence": "学习完了还有一个不够的概念，。",
+        "Holder": "2",
+        "Target": "学习",
+        "Aspect": "学习的完整性",
+        "Opinion": "不够",
+        "Sentiment": "neutral",
+        "Rationale": "提到学习完后还有不够的概念"
+    },
+    {
+        "sentence": "还有如果你真的处理出来看这件事情的话，你你不会表现出一种无所谓的态度，而是你会表现出一种很好笑很好玩很搞笑很好玩，真正对他很好笑的态度。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对事情的态度",
+        "Opinion": "应表现出更好笑的态度",
+        "Sentiment": "positive",
+        "Rationale": "认为2应该以更轻松好笑的态度看待事情"
+    },
+    {
+        "sentence": "谁知行，也许你说的是对的，",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "可能是对的",
+        "Sentiment": "neutral",
+        "Rationale": "对1的观点表示认同但又不完全确定"
+    },
+    {
+        "sentence": "反而过去确实待在过去，你有什么办法吗？",
+        "Holder": "1",
+        "Target": "过去的事情",
+        "Aspect": "对过去的处理",
+        "Opinion": "无能为力",
+        "Sentiment": "neutral",
+        "Rationale": "过去的事情已经发生无法改变"
+    },
+    {
+        "sentence": "或者会有不同的意见。",
+        "Holder": "2",
+        "Target": "意见",
+        "Aspect": "意见的多样性",
+        "Opinion": "可能存在不同意见",
+        "Sentiment": "neutral",
+        "Rationale": "每个人对事情可能有不同的看法"
+    },
+    {
+        "sentence": "我懂这种感觉，你知道为什么我一直不想让你说这件事吗？因为我特别了解这种感觉，你不要着急反驳我，你提起来了，然后当时你可能有一阶段突然觉得很好笑，有一阶段你又很在意，你会始终在那种情绪里导致你一直把这件事情当成一个。",
+        "Holder": "1",
+        "Target": "说话人2的情绪",
+        "Aspect": "情绪的反复",
+        "Opinion": "理解并担心情绪反复",
+        "Sentiment": "positive",
+        "Rationale": "理解对方情绪的反复无常"
+    },
+    {
+        "sentence": "谁知到你怎么想的。",
+        "Holder": "2",
+        "Target": "说话人1的想法",
+        "Aspect": "对想法的理解",
+        "Opinion": "不清楚对方的想法",
+        "Sentiment": "neutral",
+        "Rationale": "不知道对方的具体想法"
+    },
+    {
+        "sentence": "在这种感觉里反复横跳，所以说你把它提起来，除非你一直能提你提起来这件事情的时候，你已经感觉他完全就是一个很搞笑的事情，你反复提无所谓，但是现在你明显就是没有，",
+        "Holder": "1",
+        "Target": "说话人2的情绪处理",
+        "Aspect": "情绪的稳定性",
+        "Opinion": "认为对方情绪不稳定",
+        "Sentiment": "negative",
+        "Rationale": "对方在情绪中反复横跳，未能稳定处理"
+    },
+    {
+        "sentence": "我觉得比较好。",
+        "Holder": "2",
+        "Target": "某件事情",
+        "Aspect": "评价",
+        "Opinion": "比较好",
+        "Sentiment": "positive",
+        "Rationale": "对某件事情持正面评价"
+    },
+    {
+        "sentence": "你还是属于那种我想起来觉得这件事情我是他小时候或者说是过去的一件很有一个比较好笑的感情经历，如果你能有完全这种感觉的话，你随便提又不会，你自己又不会感觉情绪不好或者啥的。",
+        "Holder": "1",
+        "Target": "2的感情经历",
+        "Aspect": "回忆的情感体验",
+        "Opinion": "好笑且不会引起负面情绪",
+        "Sentiment": "positive",
+        "Rationale": "认为回忆中的感情经历是轻松好笑的"
+    },
+    {
+        "sentence": "喝一口你看吗？",
+        "Holder": "2",
+        "Target": "喝一口的建议",
+        "Aspect": "建议的提出",
+        "Opinion": "询问意见",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个简单的建议"
+    },
+    {
+        "sentence": "你一脸就是一脸的不保险，你觉得我能看不出来吗？",
+        "Holder": "1",
+        "Target": "2的表情",
+        "Aspect": "表情的含义",
+        "Opinion": "不保险",
+        "Sentiment": "negative",
+        "Rationale": "认为对方表情显示出不安"
+    },
+    {
+        "sentence": "我说你看看你要不要？你已经是因为不高兴了，",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "不高兴",
+        "Sentiment": "negative",
+        "Rationale": "观察到对方已经表现出不高兴的情绪"
+    },
+    {
+        "sentence": "那是为什么要。",
+        "Holder": "1",
+        "Target": "原因",
+        "Aspect": "行为的合理性",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "对某个行为的原因感到困惑"
+    },
+    {
+        "sentence": "吃东西。行，本来我就没有在意，然后你就一直说你在意。",
+        "Holder": "2",
+        "Target": "1的在意",
+        "Aspect": "在意的表达",
+        "Opinion": "自己不在意",
+        "Sentiment": "negative",
+        "Rationale": "自己本不在意却被对方反复说成在意"
+    },
+    {
+        "sentence": "那不是，我没有一直说你在意，是你的脸，",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "表达的准确性",
+        "Opinion": "否认一直说对方在意",
+        "Sentiment": "negative",
+        "Rationale": "被误解为一直说对方在意"
+    },
+    {
+        "sentence": "我不可能。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "行为的可能性",
+        "Opinion": "否认可能性",
+        "Sentiment": "negative",
+        "Rationale": "对方对自己的指责感到不合理"
+    },
+    {
+        "sentence": "识别不了你的情绪的。你这就是悖论，因为你你觉得我看你的脸，我一眼能辨别不出你的情绪吗？就我们俩在这么近距离的相处中，你觉得现实吗？如果你真的不在意，你现在也不会这种状态，",
+        "Holder": "1",
+        "Target": "2的情绪表达",
+        "Aspect": "情绪的可识别性",
+        "Opinion": "认为能识别情绪",
+        "Sentiment": "negative",
+        "Rationale": "认为对方情绪是可识别的却被否认"
+    },
+    {
+        "sentence": "数据还有什么东西，",
+        "Holder": "2",
+        "Target": "数据",
+        "Aspect": "数据的完整性",
+        "Opinion": "询问数据内容",
+        "Sentiment": "neutral",
+        "Rationale": "对数据内容有疑问"
+    },
+    {
+        "sentence": "你就会觉得你这个人怎么这么烦，然后你就会觉得很好笑，而不是一直板着个脸。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的态度",
+        "Opinion": "觉得烦但也可笑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方的行为让人感到烦恼但同时也有点好笑"
+    }
+]

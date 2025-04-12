@@ -1,0 +1,45 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "权力对抗与规则改变",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责对方过于卑微且质疑严总权威",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "回避直接冲突并简化回应",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "系统性揭露权力压迫，采取法律威胁手段",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "权力对抗与规则改变",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "无法理解对方话语中的潜台词",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "对异常言行产生戒备与否定",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

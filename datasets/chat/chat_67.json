@@ -1,0 +1,902 @@
+[
+    {
+        "sentence": "对对对，今天我暗恋一个人，也能暗恋一辈子。永远期待他喜欢上我的那一刻，我多么的爽，这时候就你们永恒的美，对不对？",
+        "Holder": "5",
+        "Target": "暗恋",
+        "Aspect": "暗恋的持久性",
+        "Opinion": "能暗恋一辈子",
+        "Sentiment": "positive",
+        "Rationale": "对暗恋对象的期待和对爱情的美好幻想"
+    },
+    {
+        "sentence": "在这种永恒里您就是收获了爱情的美，因为在这种永恒里面，您学会了等待，学会了爱，学会了包容，这才是爱情最美的极致所在。谢谢。",
+        "Holder": "6",
+        "Target": "爱情",
+        "Aspect": "爱情的美好",
+        "Opinion": "学会了等待、爱、包容",
+        "Sentiment": "positive",
+        "Rationale": "在永恒的等待中学会了爱情中的重要品质"
+    },
+    {
+        "sentence": "今天我想得到的那个东西，不管你现在有没有得到那个东西，所以你会觉得美，但是今天你能感受到真正感受到美到底是什么",
+        "Holder": "5",
+        "Target": "美的感受",
+        "Aspect": "美的本质",
+        "Opinion": "不管是否得到都能感受到美",
+        "Sentiment": "neutral",
+        "Rationale": "讨论美的本质"
+    },
+    {
+        "sentence": "好都没有。今天我们说，比如说一个爱情故事很美，是由于它本身美，还是因为它流传了 2, 000 年？",
+        "Holder": "4",
+        "Target": "爱情故事",
+        "Aspect": "美的原因",
+        "Opinion": "质疑美的原因",
+        "Sentiment": "neutral",
+        "Rationale": "对爱情故事美的原因提出疑问"
+    },
+    {
+        "sentence": "两个都美，对不对？所以今天只要我能够永恒的去期待一件事情，这个东西给我美的感觉，它就是美。",
+        "Holder": "4",
+        "Target": "美的感觉",
+        "Aspect": "美的定义",
+        "Opinion": "期待带来的美感",
+        "Sentiment": "positive",
+        "Rationale": "认为永恒的期待能带来美的感觉"
+    },
+    {
+        "sentence": "这也算是美的一种，叫做忍耐",
+        "Holder": "7",
+        "Target": "美",
+        "Aspect": "美的定义",
+        "Opinion": "忍耐是美的一种",
+        "Sentiment": "positive",
+        "Rationale": "将忍耐视为美的一种表现"
+    },
+    {
+        "sentence": "好，所以今天当一件不美的东西的时候，我把它包装成了美，是不是这个时候就美？",
+        "Holder": "4",
+        "Target": "不美的东西",
+        "Aspect": "美的转变",
+        "Opinion": "包装后变美",
+        "Sentiment": "ambiguous",
+        "Rationale": "对包装是否能真正改变美的本质存在疑问"
+    },
+    {
+        "sentence": "有些时候这种包装是瞬间带来。",
+        "Holder": "7",
+        "Target": "包装",
+        "Aspect": "效果持续性",
+        "Opinion": "包装效果短暂",
+        "Sentiment": "neutral",
+        "Rationale": "指出包装效果只是瞬间的"
+    },
+    {
+        "sentence": "你回答我就好了。",
+        "Holder": "4",
+        "Target": "7的回答",
+        "Aspect": "回答的直接性",
+        "Opinion": "希望直接回答",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到直接的回答"
+    },
+    {
+        "sentence": "时间能够考验",
+        "Holder": "7",
+        "Target": "时间",
+        "Aspect": "考验作用",
+        "Opinion": "时间能检验",
+        "Sentiment": "positive",
+        "Rationale": "认为时间能够检验事物的真实性"
+    },
+    {
+        "sentence": "好，那我给你举个例子。对，举个例子，今天有了火灾，然后消防员去救火的时候很壮美，体现了这个世界很美。",
+        "Holder": "4",
+        "Target": "火灾和消防员",
+        "Aspect": "美的体现",
+        "Opinion": "壮美",
+        "Sentiment": "positive",
+        "Rationale": "消防员在火灾中救火的场景让人感到壮美"
+    },
+    {
+        "sentence": "你想火灾当然不美，你想说明什么？",
+        "Holder": "7",
+        "Target": "火灾",
+        "Aspect": "美的评价",
+        "Opinion": "不美",
+        "Sentiment": "negative",
+        "Rationale": "火灾本身是一种破坏性事件"
+    },
+    {
+        "sentence": "对，所以说今天一件东西它本身美和我觉得以及我包装出来的回忆美是两码事情，对不对",
+        "Holder": "4",
+        "Target": "美的认知",
+        "Aspect": "美的主观性和客观性",
+        "Opinion": "两者不同",
+        "Sentiment": "neutral",
+        "Rationale": "认为事物的客观美和主观回忆中的美是不同的概念"
+    },
+    {
+        "sentence": "而且瞬间更容易被包装",
+        "Holder": "7",
+        "Target": "瞬间的美",
+        "Aspect": "包装的难易程度",
+        "Opinion": "容易包装",
+        "Sentiment": "neutral",
+        "Rationale": "瞬间的事件更容易被赋予主观意义"
+    },
+    {
+        "sentence": "不对，这是因为瞬间是我切身能够体验到的感受，所以它是真实的，而不是臆想出来的，",
+        "Holder": "4",
+        "Target": "瞬间的感受",
+        "Aspect": "真实性和主观性",
+        "Opinion": "真实",
+        "Sentiment": "positive",
+        "Rationale": "认为瞬间的感受是切身体验到的"
+    },
+    {
+        "sentence": "所以你的意思是因为瞬间我们得不到，所以他就不能是瞬间",
+        "Holder": "7",
+        "Target": "瞬间的定义",
+        "Aspect": "瞬间存在的条件",
+        "Opinion": "得不到则不成立",
+        "Sentiment": "neutral",
+        "Rationale": "讨论的是瞬间是否存在的问题"
+    },
+    {
+        "sentence": "好，下面一个问题都没有。今天如果说我这个其回忆本身，我可以把它包装成一个很美的东西，对不对？因为我可以从中提炼出来经验、教训魔力，所以我整个的过程很美，但是我当时受的那个魔力美不美？",
+        "Holder": "4",
+        "Target": "回忆",
+        "Aspect": "回忆的美化",
+        "Opinion": "回忆可以美化",
+        "Sentiment": "positive",
+        "Rationale": "可以通过回忆提炼出经验和教训"
+    },
+    {
+        "sentence": "当时受的魔力要看你怎么理解。",
+        "Holder": "7",
+        "Target": "当时的魔力",
+        "Aspect": "魔力的理解",
+        "Opinion": "理解因人而异",
+        "Sentiment": "neutral",
+        "Rationale": "魔力的理解主观性较强"
+    },
+    {
+        "sentence": "对，所以说都没有。今天我掉进了臭水沟，我现在回忆起来这叫童真的美，但是我掉进臭水沟，美不美？不美好，再来问你今天爱情区别与亲情和友情，它的本质区别是什么。",
+        "Holder": "4",
+        "Target": "掉进臭水沟的经历",
+        "Aspect": "经历的美好与否",
+        "Opinion": "当时不美好，回忆可美化",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然当时经历不美好，但回忆时可以赋予其美好意义"
+    },
+    {
+        "sentence": "每个人有不同的理解。",
+        "Holder": "7",
+        "Target": "爱情与亲情友情的区别",
+        "Aspect": "本质区别的理解",
+        "Opinion": "理解因人而异",
+        "Sentiment": "neutral",
+        "Rationale": "每个人对爱情、亲情和友情的理解不同"
+    },
+    {
+        "sentence": "告诉我那个核心的是什么。",
+        "Holder": "4",
+        "Target": "核心",
+        "Aspect": "定义",
+        "Opinion": "想知道",
+        "Sentiment": "neutral",
+        "Rationale": "对核心概念感兴趣"
+    },
+    {
+        "sentence": "核心的，反正肯定不是瞬间，是时间的魔力和沉淀。",
+        "Holder": "7",
+        "Target": "核心",
+        "Aspect": "特性",
+        "Opinion": "需要时间和沉淀",
+        "Sentiment": "neutral",
+        "Rationale": "认为核心不是瞬间形成的"
+    },
+    {
+        "sentence": "时间的魔力和时间。所以我今天只要跟我的友人在一起，携手过 50 年，我们也经历了考验和磨难，我们也很伟大，我们是不是爱情之美？",
+        "Holder": "4",
+        "Target": "爱情之美",
+        "Aspect": "定义",
+        "Opinion": "认为长期陪伴是爱情之美",
+        "Sentiment": "positive",
+        "Rationale": "认为长期的陪伴和经历考验是伟大的"
+    },
+    {
+        "sentence": "那我反问您一下，如果说您跟你有人说噢，你好帅，你就陷入爱情了吗？",
+        "Holder": "7",
+        "Target": "爱情",
+        "Aspect": "定义",
+        "Opinion": "质疑简单的赞美是否等于爱情",
+        "Sentiment": "neutral",
+        "Rationale": "想通过反问来引导对方思考爱情的真正含义"
+    },
+    {
+        "sentence": "不要答非所问，所以说这个时候如果我们两个之间有亲密，我们之间也有承诺，我们之间是有伴之爱，哪里体现爱情之美？你回答我",
+        "Holder": "4",
+        "Target": "爱情之美",
+        "Aspect": "体现",
+        "Opinion": "认为亲密和承诺是爱情之美",
+        "Sentiment": "positive",
+        "Rationale": "认为亲密和承诺是爱情的重要体现"
+    },
+    {
+        "sentence": "所以您想要说明的是不是你和他之间感觉怦然心动？",
+        "Holder": "7",
+        "Target": "4和他之间的关系",
+        "Aspect": "情感体验",
+        "Opinion": "怦然心动",
+        "Sentiment": "neutral",
+        "Rationale": "7在询问4的情感体验"
+    },
+    {
+        "sentence": "所以说都要被我今天体现的这些人性之美、陪伴之美，在其他事情上都可以体现。我们相守扶在古道上面也很美，这个东西是其他的美，你要跟我论证是专属于爱情美，不然跟其他有什么区别所在？谢。",
+        "Holder": "4",
+        "Target": "人性之美、陪伴之美",
+        "Aspect": "美的普遍性",
+        "Opinion": "美的普遍存在",
+        "Sentiment": "positive",
+        "Rationale": "4认为美不仅限于爱情"
+    },
+    {
+        "sentence": "前面我想问一下，您方今天说因为爱情中的瞬间是自己的瞬间的是不是",
+        "Holder": "7",
+        "Target": "爱情中的瞬间",
+        "Aspect": "瞬间归属",
+        "Opinion": "属于自己的瞬间",
+        "Sentiment": "neutral",
+        "Rationale": "7在确认4的观点"
+    },
+    {
+        "sentence": "我来给你解释一下这个瞬间包含亲密和畸形的两种结合，亲密包含了我们亲密情感的共振，很亲密的不只是自己，是一种温暖。",
+        "Holder": "4",
+        "Target": "爱情中的瞬间",
+        "Aspect": "瞬间的内涵",
+        "Opinion": "包含亲密和畸形",
+        "Sentiment": "positive",
+        "Rationale": "4在详细解释自己的观点"
+    },
+    {
+        "sentence": "温暖加激情。",
+        "Holder": "4",
+        "Target": "爱情中的瞬间",
+        "Aspect": "情感成分",
+        "Opinion": "温暖和激情",
+        "Sentiment": "positive",
+        "Rationale": "4强调了爱情中的积极情感成分"
+    },
+    {
+        "sentence": "换句话说，如果说在结婚之后，两个人可能不是年轻人的浪漫，他们两个彼此携手，他们有没有爱情？",
+        "Holder": "7",
+        "Target": "结婚后的爱情",
+        "Aspect": "爱情的定义",
+        "Opinion": "质疑结婚后是否有爱情",
+        "Sentiment": "neutral",
+        "Rationale": "探讨结婚后是否还存在爱情"
+    },
+    {
+        "sentence": "如果他们两个之间还能够感受到刚刚那两个元素，他们之间就有爱情",
+        "Holder": "4",
+        "Target": "结婚后的爱情",
+        "Aspect": "爱情的判断标准",
+        "Opinion": "有特定元素就有爱情",
+        "Sentiment": "positive",
+        "Rationale": "认为只要存在特定元素就能证明爱情存在"
+    },
+    {
+        "sentence": "觉得他有爱情到这里就可以了。如果他们过平常日子，您认为爱情已经死。",
+        "Holder": "7",
+        "Target": "结婚后的爱情",
+        "Aspect": "爱情的持久性",
+        "Opinion": "日常生活中的爱情可能消失",
+        "Sentiment": "negative",
+        "Rationale": "认为日常生活中的平淡会导致爱情消失"
+    },
+    {
+        "sentence": "可以是没有",
+        "Holder": "4",
+        "Target": "结婚后的爱情",
+        "Aspect": "爱情的持久性",
+        "Opinion": "同意爱情可能消失",
+        "Sentiment": "neutral",
+        "Rationale": "认同日常生活中爱情可能消失的观点"
+    },
+    {
+        "sentence": "所以爱情是属于年轻人",
+        "Holder": "7",
+        "Target": "爱情",
+        "Aspect": "爱情的归属",
+        "Opinion": "爱情专属年轻人",
+        "Sentiment": "negative",
+        "Rationale": "认为结婚后的爱情会消失"
+    },
+    {
+        "sentence": "不对，爱情是属于这两个元素存在的时刻，爱情等一下让我解释一下这句话",
+        "Holder": "4",
+        "Target": "爱情",
+        "Aspect": "爱情的存在时刻",
+        "Opinion": "爱情属于特定元素存在的时刻",
+        "Sentiment": "neutral",
+        "Rationale": "4在解释自己对爱情的看法"
+    },
+    {
+        "sentence": "OK，杨绛和钱钟书有没有爱情？",
+        "Holder": "7",
+        "Target": "杨绛和钱钟书",
+        "Aspect": "是否存在爱情",
+        "Opinion": "疑问是否存在爱情",
+        "Sentiment": "neutral",
+        "Rationale": "7在提问关于杨绛和钱钟书的爱情"
+    },
+    {
+        "sentence": "这个我没有办法判断。",
+        "Holder": "4",
+        "Target": "杨绛和钱钟书的爱情",
+        "Aspect": "爱情的存在",
+        "Opinion": "无法判断",
+        "Sentiment": "neutral",
+        "Rationale": "4认为自己无法判断杨绛和钱钟书是否有爱情"
+    },
+    {
+        "sentence": "没有办法哈哈哈，杨绛写我和钱钟书的爱情，这个叫爱情，还叫亲情。",
+        "Holder": "7",
+        "Target": "杨绛和钱钟书的爱情",
+        "Aspect": "爱情的定义",
+        "Opinion": "爱情与亲情难以区分",
+        "Sentiment": "ambiguous",
+        "Rationale": "7提到杨绛写的爱情可能既是爱情也是亲情"
+    },
+    {
+        "sentence": "这个东西我跟你讲，好不好？这个东西是爱情，分不清爱情他们这时候永恒的。但是我们今天讨论的是爱情之美，它来源于它的瞬间还是永恒",
+        "Holder": "4",
+        "Target": "爱情",
+        "Aspect": "爱情的本质和美",
+        "Opinion": "爱情之美来源于瞬间或永恒",
+        "Sentiment": "neutral",
+        "Rationale": "4在讨论爱情的本质和美的来源"
+    },
+    {
+        "sentence": "我给你回答一下那个杨绛的例子吧，可以吗？",
+        "Holder": "4",
+        "Target": "杨绛的例子",
+        "Aspect": "回答的意愿",
+        "Opinion": "愿意回答",
+        "Sentiment": "neutral",
+        "Rationale": "因为4号说话人主动提出要解释杨绛的例子，所以语气是中性的，没有表现出明显的情绪。"
+    },
+    {
+        "sentence": "不是因为他们两个在一起50年，他们就漂亮。",
+        "Holder": "7",
+        "Target": "他们两个相伴50年",
+        "Aspect": "美丽的理由",
+        "Opinion": "质疑",
+        "Sentiment": "doubtful",
+        "Rationale": "因为7号发言人质疑了他们美丽的理由，仅仅是因为他们在一起的时间长。"
+    },
+    {
+        "sentence": "而是因为美延续了50年",
+        "Holder": "4",
+        "Target": "美",
+        "Aspect": "延续性",
+        "Opinion": "美可以持续很长时间",
+        "Sentiment": "positive",
+        "Rationale": "因为说话者认为美可以超越时间，持续很长时间，所以语气是积极的。"
+    },
+    {
+        "sentence": "哪个瞬间能延续50年？",
+        "Holder": "7",
+        "Target": "瞬间",
+        "Aspect": "持续性",
+        "Opinion": "瞬间无法持续",
+        "Sentiment": "doubtful",
+        "Rationale": "因为7号发言人认为一个短暂的瞬间不可能持续那么长时间，所以表现出怀疑的态度。"
+    },
+    {
+        "sentence": "不是你说什么意思。",
+        "Holder": "4",
+        "Target": "7的表述",
+        "Aspect": "表述的清晰度",
+        "Opinion": "不明确",
+        "Sentiment": "ambiguous",
+        "Rationale": "4没有理解7的意思"
+    },
+    {
+        "sentence": "因为我大概跟你说一遍，杨绛和钱钟书哪一个瞬间使他们坚守这个瞬间坚持了50年",
+        "Holder": "7",
+        "Target": "杨绛和钱钟书的关系",
+        "Aspect": "坚守瞬间的理由",
+        "Opinion": "有特定瞬间",
+        "Sentiment": "neutral",
+        "Rationale": "7在解释一个具体的问题"
+    },
+    {
+        "sentence": "没有关系，可以有很多的瞬间嗯。",
+        "Holder": "4",
+        "Target": "杨绛和钱钟书的关系",
+        "Aspect": "坚守瞬间的多样性",
+        "Opinion": "存在多个瞬间",
+        "Sentiment": "neutral",
+        "Rationale": "4认为可以有很多个瞬间"
+    },
+    {
+        "sentence": "哪一个瞬间？",
+        "Holder": "4",
+        "Target": "杨绛和钱钟书的关系",
+        "Aspect": "具体的瞬间",
+        "Opinion": "询问具体瞬间",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问具体的信息"
+    },
+    {
+        "sentence": "因为他们之间能够在瞬间感到美，并且能够通过制造浪漫和惊喜，让这些瞬间可以有一个下一个阶段的爆发。",
+        "Holder": "4",
+        "Target": "杨绛和钱钟书的关系",
+        "Aspect": "瞬间的重要性",
+        "Opinion": "瞬间具有延续性",
+        "Sentiment": "positive",
+        "Rationale": "4认为这些瞬间能够带来美好的延续"
+    },
+    {
+        "sentence": "他们两个在晚年的时候就读书了，有什么好浪漫？",
+        "Holder": "7",
+        "Target": "晚年读书",
+        "Aspect": "浪漫性",
+        "Opinion": "不浪漫",
+        "Sentiment": "negative",
+        "Rationale": "认为晚年读书缺乏浪漫元素"
+    },
+    {
+        "sentence": "哈哈哈，发表老年人浪漫你不懂。哈哈哈，你也可以。",
+        "Holder": "4",
+        "Target": "7的观点",
+        "Aspect": "对老年人浪漫的理解",
+        "Opinion": "7不懂",
+        "Sentiment": "positive",
+        "Rationale": "觉得7不理解老年人浪漫"
+    },
+    {
+        "sentence": "这么理解。所以您方认为爱情约等于浪漫和刺激，对不对？",
+        "Holder": "7",
+        "Target": "4的观点",
+        "Aspect": "爱情的定义",
+        "Opinion": "爱情等于浪漫和刺激",
+        "Sentiment": "neutral",
+        "Rationale": "试图确认4对爱情的看法"
+    },
+    {
+        "sentence": "是浪漫的核心本质在于亲密和畸形组成的浪漫美。",
+        "Holder": "4",
+        "Target": "浪漫",
+        "Aspect": "核心本质",
+        "Opinion": "亲密和畸形组成",
+        "Sentiment": "positive",
+        "Rationale": "对浪漫有深入的理解和积极的评价"
+    },
+    {
+        "sentence": "所以说其实所有的东西只要他能理解，他叫浪漫",
+        "Holder": "7",
+        "Target": "浪漫的定义",
+        "Aspect": "理解与浪漫的关系",
+        "Opinion": "理解即浪漫",
+        "Sentiment": "neutral",
+        "Rationale": "提出对浪漫的广义理解"
+    },
+    {
+        "sentence": "成年人结婚很浪漫的。",
+        "Holder": "4",
+        "Target": "成年人结婚",
+        "Aspect": "浪漫程度",
+        "Opinion": "很浪漫",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人认为成年人结婚是一件很浪漫的事情，所以用积极的情绪去描述它。"
+    },
+    {
+        "sentence": "好，时间到，谢谢。接下来我们有请正方三辩进行盘问。",
+        "Holder": "1",
+        "Target": "正方三辩",
+        "Aspect": "盘问环节",
+        "Opinion": "进行盘问",
+        "Sentiment": "neutral",
+        "Rationale": "主持人按照辩论流程宣布正方三辩进行盘问，属于中性陈述，没有明显的情感倾向。"
+    },
+    {
+        "sentence": "这个问题我问了你三四遍了，我问你，我今天希望和女朋友永远在一起，我对这种永恒的期待，是不是等于永恒?",
+        "Holder": "8",
+        "Target": "永恒的概念",
+        "Aspect": "对永恒的理解",
+        "Opinion": "质疑对永恒的理解",
+        "Sentiment": "neutral",
+        "Rationale": "说话者通过反复提问，试图探讨对永恒这一概念的理解，问题本身没有明显的情感色彩。"
+    },
+    {
+        "sentence": "你的意思是不是两个人在一起就快乐?",
+        "Holder": "9",
+        "Target": "两人在一起的快乐",
+        "Aspect": "快乐的来源",
+        "Opinion": "两人在一起就能带来快乐",
+        "Sentiment": "neutral",
+        "Rationale": "由于说话者只是在进行逻辑推理，没有表达出明显的正面或负面情感，因此判断为中性。"
+    },
+    {
+        "sentence": "我想说明的是，无论追求什么，过程中的体验和思考都是有价值的。",
+        "Holder": "8",
+        "Target": "追求过程中的价值",
+        "Aspect": "过程的价值",
+        "Opinion": "过程中的体验和思考是有价值的",
+        "Sentiment": "positive",
+        "Rationale": "因为说话者认为无论追求什么，过程中的体验和思考本身就具有积极的意义。"
+    },
+    {
+        "sentence": "如果今天我们认定爱情之美，意味着我们正常时间需要抵抗自己的心性，这个时候愿意付出这个为了什么？因为他的美更有价值，对不对？",
+        "Holder": "9",
+        "Target": "爱情之美",
+        "Aspect": "爱情的价值",
+        "Opinion": "爱情之美在于其价值",
+        "Sentiment": "neutral",
+        "Rationale": "因为讨论爱情的价值，所以保持中立的态度探讨"
+    },
+    {
+        "sentence": "没问题，所以你方不能论证今天我所追求的，追求过程中的感受等同于目标属性。",
+        "Holder": "8",
+        "Target": "爱情追求",
+        "Aspect": "追求过程中的感受与目标属性",
+        "Opinion": "追求过程中的感受不等于目标属性",
+        "Sentiment": "neutral",
+        "Rationale": "因为8号强调追求过程中的感受与目标属性的不同，所以用中立的语气表达观点"
+    },
+    {
+        "sentence": "那叫更美的爱情",
+        "Holder": "7",
+        "Target": "爱情",
+        "Aspect": "爱情的美好",
+        "Opinion": "经历考验的爱情更美",
+        "Sentiment": "positive",
+        "Rationale": "7号认为经历考验后的爱情更加美好"
+    },
+    {
+        "sentence": "所以说您方觉得，极致也可以美，爱的永久也可以美，所以我们瞬间也可以美，你方永恒也可以美，你方怎么比较出来更美？",
+        "Holder": "8",
+        "Target": "美的定义",
+        "Aspect": "美的比较",
+        "Opinion": "质疑美的比较标准",
+        "Sentiment": "neutral",
+        "Rationale": "8在探讨不同情境下的美的定义"
+    },
+    {
+        "sentence": "我们认为这种坚守是更好",
+        "Holder": "7",
+        "Target": "坚守",
+        "Aspect": "价值判断",
+        "Opinion": "坚守更好",
+        "Sentiment": "positive",
+        "Rationale": "7认为坚守具有更高的价值"
+    },
+    {
+        "sentence": "给你讲清楚了，今天有今天，友情也有美，心情也有美，人性之美也有美，他可不是爱情独有的美好。今天问你，我如果说一对夫妻，他们经历了一些磨难，最后他们老死，您刚是不是觉得把他们拉出来，再经历一些磨难，他的爱情会更美？",
+        "Holder": "8",
+        "Target": "爱情的独特性",
+        "Aspect": "美的多样性",
+        "Opinion": "美不仅限于爱情",
+        "Sentiment": "neutral",
+        "Rationale": "8在阐述美的多样性，不局限于爱情"
+    },
+    {
+        "sentence": "不能把他们拿来再经历一些瞬间，对不对？",
+        "Holder": "9",
+        "Target": "夫妻的经历",
+        "Aspect": "经历的重复性",
+        "Opinion": "反对重复经历",
+        "Sentiment": "neutral",
+        "Rationale": "9认为不应重复夫妻的经历"
+    },
+    {
+        "sentence": "好的时间到，谢谢。接下来有请反方 3 辩盘问正方三四辩之间任意辩手时间同样为 2 分钟。",
+        "Holder": "1",
+        "Target": "辩论时间",
+        "Aspect": "时间控制",
+        "Opinion": "时间结束",
+        "Sentiment": "neutral",
+        "Rationale": "1在履行主持职责，控制辩论时间"
+    },
+    {
+        "sentence": "我想请问你一个问题，您方今天是不是想说，因为瞬间它能够让你感受到爱永恒，你不知道它是个什么东西，所以你觉得永恒它不能体现。",
+        "Holder": "7",
+        "Target": "瞬间与永恒的关系",
+        "Aspect": "爱的感受",
+        "Opinion": "瞬间能感受爱永恒",
+        "Sentiment": "neutral",
+        "Rationale": "7在探讨瞬间是否能体现永恒的爱"
+    },
+    {
+        "sentence": "不是因为今天瞬间的时候我们确认它是爱情之美，而有这个地方有很多很多种，就是。",
+        "Holder": "8",
+        "Target": "瞬间与爱情的关系",
+        "Aspect": "爱情之美的确认",
+        "Opinion": "瞬间确认爱情之美",
+        "Sentiment": "neutral",
+        "Rationale": "8在解释瞬间确认爱情之美的观点"
+    },
+    {
+        "sentence": "瞬间它能确认你有爱情，但是永恒。因为你没体验过，所以你不知道",
+        "Holder": "7",
+        "Target": "永恒的爱情",
+        "Aspect": "体验的缺失",
+        "Opinion": "未体验过永恒",
+        "Sentiment": "neutral",
+        "Rationale": "7在指出对方没有体验过永恒的爱情"
+    },
+    {
+        "sentence": "哈哈哈，不是我永恒，我没有体验到，所以你们还想论证，我期待，我想拥有就等于那个目标。",
+        "Holder": "8",
+        "Target": "对永恒的期待",
+        "Aspect": "体验与期待的关系",
+        "Opinion": "期待拥有永恒",
+        "Sentiment": "positive",
+        "Rationale": "8在表达对永恒的期待和愿望"
+    },
+    {
+        "sentence": "OK，我继续问你，我外公和外婆相守了50年，我能不能感受他们之间永恒的美？是不是爱情也通过永恒体现出来了？",
+        "Holder": "7",
+        "Target": "外公外婆的爱情",
+        "Aspect": "永恒的体现",
+        "Opinion": "爱情通过永恒体现",
+        "Sentiment": "neutral",
+        "Rationale": "7在用外公外婆的例子探讨爱情是否通过永恒体现"
+    },
+    {
+        "sentence": "是美，你方得论证是爱情之美啊。",
+        "Holder": "8",
+        "Target": "论证内容",
+        "Aspect": "论证的主题",
+        "Opinion": "应该是爱情之美",
+        "Sentiment": "neutral",
+        "Rationale": "8在陈述自己方的论证主题"
+    },
+    {
+        "sentence": "你告诉我他们俩是亲情之美，是不是。",
+        "Holder": "7",
+        "Target": "他们俩的关系",
+        "Aspect": "关系的性质",
+        "Opinion": "可能是亲情之美",
+        "Sentiment": "neutral",
+        "Rationale": "7在询问对方观点"
+    },
+    {
+        "sentence": "不有可能？有爱情？有可能。",
+        "Holder": "8",
+        "Target": "他们俩的关系",
+        "Aspect": "关系的性质",
+        "Opinion": "有可能是爱情",
+        "Sentiment": "neutral",
+        "Rationale": "8在回应对方的疑问，表示可能性"
+    },
+    {
+        "sentence": "所以你方今天你不要做的一个游戏是文字游戏，是不是说这两段感情你可以说他是亲情，也可以说他是爱情，没有问题，你不能说他只叫亲情",
+        "Holder": "7",
+        "Target": "8的论证方式",
+        "Aspect": "论证的合理性",
+        "Opinion": "不应进行文字游戏",
+        "Sentiment": "negative",
+        "Rationale": "7认为8的论证方式不合理"
+    },
+    {
+        "sentence": "所以这个时候你要给我指出来这个东西是爱情独有的美才是。这是您发要论证的",
+        "Holder": "4",
+        "Target": "8的论证内容",
+        "Aspect": "论证的具体要求",
+        "Opinion": "需要指出爱情独有的美",
+        "Sentiment": "neutral",
+        "Rationale": "4在明确论证的要求"
+    },
+    {
+        "sentence": "那你给我区分一下我怦然心动的瞬间到底是爱情还是冲动和误会。",
+        "Holder": "7",
+        "Target": "怦然心动的瞬间",
+        "Aspect": "情感本质",
+        "Opinion": "怀疑是冲动或误会",
+        "Sentiment": "ambiguous",
+        "Rationale": "对怦然心动的瞬间是否为爱情感到不确定"
+    },
+    {
+        "sentence": "今天爱情之美的瞬在于瞬间。什么意思？是亲密加亲情，亲密可能朋友之间。",
+        "Holder": "8",
+        "Target": "爱情之美的瞬间",
+        "Aspect": "爱情定义",
+        "Opinion": "爱情包含亲密和亲情",
+        "Sentiment": "neutral",
+        "Rationale": "客观解释爱情的构成元素"
+    },
+    {
+        "sentence": "两者的结合，你突然感受到亲密的激情，是不是就等于爱情？",
+        "Holder": "7",
+        "Target": "亲密的激情",
+        "Aspect": "爱情判断",
+        "Opinion": "质疑亲密激情等于爱情",
+        "Sentiment": "doubt",
+        "Rationale": "对亲密激情是否等同于爱情存在疑问"
+    },
+    {
+        "sentence": "这个亲密和激情是属于爱情三要素中的两个元素，这个东西不是只有一秒钟。",
+        "Holder": "4",
+        "Target": "爱情三要素",
+        "Aspect": "爱情要素的持久性",
+        "Opinion": "亲密和激情是爱情的持久要素",
+        "Sentiment": "neutral",
+        "Rationale": "客观解释爱情要素的持久性"
+    },
+    {
+        "sentence": "随便什么时候谁给你列出了爱情符合某几种元素就叫爱情。谁给你的这个定义",
+        "Holder": "7",
+        "Target": "爱情定义",
+        "Aspect": "定义的合理性",
+        "Opinion": "质疑爱情定义的来源",
+        "Sentiment": "negative",
+        "Rationale": "对爱情定义的来源感到怀疑和不认同"
+    },
+    {
+        "sentence": "自己的定义，人家打，所",
+        "Holder": "4",
+        "Target": "爱情定义",
+        "Aspect": "个人理解",
+        "Opinion": "个人定义",
+        "Sentiment": "neutral",
+        "Rationale": "因为4号说话者只是在陈述自己对爱情的定义，没有明显的情感倾向，所以情绪是中立的"
+    },
+    {
+        "sentence": "认为，哈哈哈，所以你认为符合这个的就是爱情，不符合这个就不是爱情",
+        "Holder": "7",
+        "Target": "爱情定义",
+        "Aspect": "爱情的标准",
+        "Opinion": "有明确标准",
+        "Sentiment": "positive",
+        "Rationale": "7号说话者用幽默的方式表达了对爱情定义的明确看法"
+    },
+    {
+        "sentence": "不是今天亲密加剧情，这能体现爱情的极致浪漫美吗？",
+        "Holder": "8",
+        "Target": "爱情表现",
+        "Aspect": "浪漫体现",
+        "Opinion": "质疑",
+        "Sentiment": "doubtful",
+        "Rationale": "因为8号说话者对爱情的表现形式提出质疑，认为亲密和剧情不足以表现爱情的极致浪漫，所以表现出怀疑的态度"
+    },
+    {
+        "sentence": "这就是爱情之间的美。两个人之间暧昧，也有你说的那种亲密剧情",
+        "Holder": "7",
+        "Target": "爱情之美",
+        "Aspect": "暧昧与亲密",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "因为7号说话者认为两个人之间的暧昧和亲密剧情是爱情中的美，所以表现出肯定和欣赏的情绪"
+    },
+    {
+        "sentence": "只有亲昵才是信任，是心灵的互动",
+        "Holder": "8",
+        "Target": "爱情表现",
+        "Aspect": "信任与互动",
+        "Opinion": "强调",
+        "Sentiment": "positive",
+        "Rationale": "因为8号说话者强调亲昵是爱情中信任和心灵互动的体现，所以表现出积极肯定的态度"
+    },
+    {
+        "sentence": "嗯，接下来有请正方三辩论下来，小结时间为1分30秒，有请。",
+        "Holder": "1",
+        "Target": "正方三辩",
+        "Aspect": "辩论小结",
+        "Opinion": "邀请进行小结",
+        "Sentiment": "neutral",
+        "Rationale": "主持人按照流程邀请正方三辩进行小结"
+    },
+    {
+        "sentence": "各位好，先解释一下亲密和亲情是什么东西啊？今天亲密是什么？我们朋友之间也有亲密，他们是亲密，是一种温暖的感觉，是互相的信任，是心灵的沟通，是一种情感的共鸣。朋友之间也可以有这种激情，是一种来电的感觉。它来源于外表魅力和内在魅力的吸引，就是说我和一个人来电，您告诉我今天朋友之间有没有来那种互相的那种两个人之间的来电",
+        "Holder": "8",
+        "Target": "亲密和亲情",
+        "Aspect": "定义和区别",
+        "Opinion": "亲密是温暖和信任，亲情是来电感觉",
+        "Sentiment": "neutral",
+        "Rationale": "8在解释亲密和亲情的定义和区别"
+    },
+    {
+        "sentence": "今天两个人之间如果说他们有一些暧昧关系，或者说的简单一点就是一夜情之类的，您能告诉我他们之间有那种温暖的感觉，有那种想要一起陪伴的感觉吗？所以我们发现今天爱情之美。什么爱情之美？是亲密家子情，您方不要把只谈机密，那是友情，今天不要去谈积极，那是一夜情，对不对吧？所以我们看到今天林方跟我们论证的是纪念爱情，什么叫情之美？灾与永恒，就叫我对于这个美的期待，我根本就不知道它美不美，所以我永远在期待它，那我想得到一个东西就能讲我想得到的东西就是美的吗？所以说这是不对的。",
+        "Holder": "8",
+        "Target": "爱情之美",
+        "Aspect": "爱情定义和误解",
+        "Opinion": "爱情之美不是简单的期待和得到",
+        "Sentiment": "negative",
+        "Rationale": "8认为对方对爱情之美的理解有误"
+    },
+    {
+        "sentence": "在第二个，一般跟我讲现在要忍耐、要磨练，要我们要克服一切阻碍。所以说当我老了的时候，我回忆，我勇斗小三、我智斗小三，我勇斗家暴，都是美的，所以我在上大学的时候回忆我高三那么辛苦也都是美的，所以我在现在长大了之后，我回忆我小的时候，我小学被欺负，我初中被老师逼，我高中高考失利，我还能是美的吗？因为我现在活得好好的，我现在活得很快乐，所以说您方期待的美，那不是美，今天您方回忆的美，它也不是美的本质。谢谢。",
+        "Holder": "8",
+        "Target": "对美的理解和回忆",
+        "Aspect": "美的本质",
+        "Opinion": "真正的美不是简单的回忆和忍耐",
+        "Sentiment": "negative",
+        "Rationale": "8认为对方对美的理解过于片面"
+    },
+    {
+        "sentence": "感谢正方三辩，接下来有请反方三辩为我们带来小结，时间同样为1分30秒，有请。",
+        "Holder": "1",
+        "Target": "反方三辩",
+        "Aspect": "辩论小结",
+        "Opinion": "邀请进行小结",
+        "Sentiment": "neutral",
+        "Rationale": "主持人按照流程邀请反方三辩进行小结"
+    },
+    {
+        "sentence": "好，那各位大家好，他们告诉我们什么瞬间当中你可以确认爱情，你的确有过爱情，所以爱情的特殊性在于那个瞬间。",
+        "Holder": "7",
+        "Target": "爱情",
+        "Aspect": "确认的瞬间",
+        "Opinion": "特殊性在于瞬间",
+        "Sentiment": "neutral",
+        "Rationale": "7在探讨爱情的特殊性"
+    },
+    {
+        "sentence": "那么我想问一下各位，你在和朋友突然之间有人欺负我朋友，我要给你两肋插刀，这种刺激是不是告诉我友情之美在于这个刺激他到底有没有给你两肋插刀不重要，他跟你两肋插刀了多久不重要，在那个字迹出现的时候，我们两个是友情。",
+        "Holder": "7",
+        "Target": "友情",
+        "Aspect": "友情的体现",
+        "Opinion": "友情之美在于关键时刻的支持",
+        "Sentiment": "neutral",
+        "Rationale": "7在探讨友情的本质"
+    },
+    {
+        "sentence": "那么我再问这种确认的爱情，你怎么判断他是冲动还是误会？",
+        "Holder": "7",
+        "Target": "确认的爱情",
+        "Aspect": "判断标准",
+        "Opinion": "需要区分冲动和误会",
+        "Sentiment": "neutral",
+        "Rationale": "7在提出一个需要思考的问题"
+    },
+    {
+        "sentence": "各位，我不知道在座有多少和所谓的你，所谓的心爱的人达成过那种默契和来电，你确定那是爱情吗",
+        "Holder": "7",
+        "Target": "默契和来电",
+        "Aspect": "是否是爱情",
+        "Opinion": "需要确认是否是爱情",
+        "Sentiment": "neutral",
+        "Rationale": "7在探讨如何确认爱情"
+    },
+    {
+        "sentence": "如果那是暧昧，你怎么办？再去想，如果按照对方毕业我告诉我们的逻辑，他们想要切割一个什么，我们说长长久久，以子携手，白头偕老，这不叫爱情，我们又不叫亲情。",
+        "Holder": "7",
+        "Target": "暧昧",
+        "Aspect": "处理方式",
+        "Opinion": "需要重新思考定义",
+        "Sentiment": "neutral",
+        "Rationale": "7在探讨暧昧与爱情的关系"
+    },
+    {
+        "sentence": "可是各位，这种东西只是看云芳说了，我认为这个世界上纯粹的亲情一定是带有血缘关系的。",
+        "Holder": "7",
+        "Target": "亲情",
+        "Aspect": "纯粹性",
+        "Opinion": "亲情需有血缘关系",
+        "Sentiment": "neutral",
+        "Rationale": "7在表达对亲情的看法"
+    },
+    {
+        "sentence": "这个世界上两个陌生人在一起，他们靠什么产生这种类似于亲情这么伟大的情感？靠的就是爱情。",
+        "Holder": "7",
+        "Target": "爱情",
+        "Aspect": "产生伟大情感的基础",
+        "Opinion": "爱情是基础",
+        "Sentiment": "positive",
+        "Rationale": "7强调爱情的重要性"
+    },
+    {
+        "sentence": "如果您认为平平淡淡的日子就不叫爱情，叫亲情的话，那么各位，这个世界上只要结婚开始过平淡日子，或者谈了 2 年恋爱，各位谈过恋爱的人都应该知道，都叫平平淡淡，你们拥有的不叫爱情。谢谢。",
+        "Holder": "7",
+        "Target": "平淡日子",
+        "Aspect": "是否是爱情",
+        "Opinion": "平淡日子不叫爱情",
+        "Sentiment": "negative",
+        "Rationale": "7认为平淡日子不应被定义为爱情"
+    }
+]

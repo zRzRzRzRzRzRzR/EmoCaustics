@@ -1,0 +1,74 @@
+{
+  "3": {
+    "events": [
+      {
+        "event": "努力的价值论证",
+        "emotions": [
+          {"state": "positive", "reason": "坚持努力建构人生意义", "source_id": "3"},
+          {"state": "negative", "reason": "批判功利主义异化劳动本质", "source_id": "3"},
+          {"state": "positive", "reason": "提出劳动回归本质价值", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "科学范式革命讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "分析历史科学家的局限性", "source_id": "3"},
+          {"state": "positive", "reason": "强调突破性创新的必要性", "source_id": "3,5"},
+          {"state": "negative", "reason": "反驳对方线性发展史观", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "成功定义攻防战",
+        "emotions": [
+          {"state": "negative", "reason": "质疑反方主观成功标准", "source_id": "5"},
+          {"state": "positive", "reason": "主张多元成功价值观", "source_id": "3"},
+          {"state": "doubt", "reason": "挑战永动机案例适用性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "成功标准重构",
+        "emotions": [
+          {"state": "neutral", "reason": "质询成功定义边界", "source_id": "3"},
+          {"state": "positive", "reason": "提出多维成功判准", "source_id": "5"},
+          {"state": "negative", "reason": "批判对方叙事绑架", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "路径转换论证",
+        "emotions": [
+          {"state": "neutral", "reason": "分析资源分配合理性", "source_id": "3"},
+          {"state": "positive", "reason": "倡导有效努力策略", "source_id": "5"},
+          {"state": "negative", "reason": "反对无效努力持续性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "痛苦循环解析",
+        "emotions": [
+          {"state": "negative", "reason": "描述寻亲者心理创伤", "source_id": "6"},
+          {"state": "positive", "reason": "建议破除我执方法论", "source_id": "6"},
+          {"state": "neutral", "reason": "平衡现实与理想冲突", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "叙事框架解构",
+        "emotions": [
+          {"state": "negative", "reason": "揭露对方偷换概念", "source_id": "3"},
+          {"state": "positive", "reason": "构建新价值坐标系", "source_id": "8"},
+          {"state": "neutral", "reason": "调和目标与路径矛盾", "source_id": "3,5"}
+        ]
+      }
+    ]
+  }
+}

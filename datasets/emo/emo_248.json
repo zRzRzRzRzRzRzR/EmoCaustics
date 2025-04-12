@@ -1,0 +1,67 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭冲突调解介入",
+        "emotions": [
+          {"state": "neutral", "reason": "主动安抚母亲情绪", "source_id": "3"},
+          {"state": "negative", "reason": "对家庭争吵感到困扰", "source_id": "3,4"},
+          {"state": "positive", "reason": "维护妹妹解释立场", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "第三方立场表达",
+        "emotions": [
+          {"state": "positive", "reason": "客观评价老板娘性格", "source_id": "3"},
+          {"state": "neutral", "reason": "试图缓和紧张气氛", "source_id": "3"},
+          {"state": "negative", "reason": "被母亲误解立场", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭名誉捍卫战",
+        "emotions": [
+          {"state": "negative", "reason": "被外人侮辱家庭/子女婚姻失败/子女不省心", "source_id": "老板娘,4,5"},
+          {"state": "negative", "reason": "子女不认同处理方式", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "代际观念冲突",
+        "emotions": [
+          {"state": "negative", "reason": "子女公开场合丢脸/不认同现代婚恋观", "source_id": "4"},
+          {"state": "negative", "reason": "子女集体反抗权威", "source_id": "1,2,4,5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "理性沟通尝试",
+        "emotions": [
+          {"state": "neutral", "reason": "了解冲突细节/主张自我责任", "source_id": "3"},
+          {"state": "negative", "reason": "母亲言语攻击/沟通失效", "source_id": "3"},
+          {"state": "positive", "reason": "坚持离婚正当性", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "被动卷入冲突",
+        "emotions": [
+          {"state": "negative", "reason": "生理不适与情绪压力", "source_id": "3"},
+          {"state": "neutral", "reason": "服从驱逐指令", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

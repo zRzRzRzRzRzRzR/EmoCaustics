@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "财务审查与廉洁性质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "要求说明工资卡明细", "source_id": "2"},
+          {"state": "negative", "reason": "发现丁义珍项目违规操作", "source_id": "2"},
+          {"state": "neutral", "reason": "确认项目未批事实", "source_id": "2"},
+          {"state": "negative", "reason": "被指控诬陷丁义珍", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "调查策略调整",
+        "emotions": [
+          {"state": "neutral", "reason": "提出更换谈话地点", "source_id": "2"},
+          {"state": "positive", "reason": "称赞对方表演能力", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "资产核查冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "配合展示银行账户", "source_id": "1"},
+          {"state": "negative", "reason": "私房钱被强制查扣", "source_id": "1"},
+          {"state": "negative", "reason": "项目审批问题被揭露", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "行贿指控攻防",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑指控真实性", "source_id": "1"},
+          {"state": "negative", "reason": "被录音证据锁定", "source_id": "1"},
+          {"state": "negative", "reason": "威胁法律追责", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "政治名誉保卫战",
+        "emotions": [
+          {"state": "negative", "reason": "抗议调查方式不当", "source_id": "1"},
+          {"state": "negative", "reason": "认为政治生命受威胁", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "环境感知介入",
+        "emotions": [
+          {"state": "neutral", "reason": "对场所产生熟悉感", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

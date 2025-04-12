@@ -1,0 +1,102 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "公开宣布恋爱关系引发的家庭冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "自豪介绍狂野男孩为男友",
+            "source_id": "4"
+          },
+          {
+            "state": "doubt",
+            "reason": "因家人沉默质疑男友接受度",
+            "source_id": "4,5"
+          },
+          {
+            "state": "negative",
+            "reason": "反对父亲干涉社交自由，揭露家庭创伤",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "调解家庭矛盾与提供建议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对4的暴力倾向表示担忧",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "认可4的智慧与解决问题能力",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "应对突如其来的家庭压力",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主动退出紧张场景回避冲突",
+            "source_id": "4,1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "处理女儿早恋引发的代际冲突",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "初次听到男友关系时的震惊",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "反对女儿择偶标准与沟通方式",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受建议调整冲突处理策略",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "旁观家庭矛盾并参与互动",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "确认恋爱关系的基本事实",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "表达对浪漫行为的支持",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

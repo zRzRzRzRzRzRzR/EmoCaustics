@@ -1,0 +1,668 @@
+[
+    {
+        "sentence": "不是，我跟你说，一个是你，一个是胡晓慧。你们俩是那种不管送你什么饰品类的东西，你们都会让送的那个人，这辈子再也见不到它们，就完全没有看到你们有戴过这种感觉。",
+        "Holder": "1",
+        "Target": "2和胡晓慧",
+        "Aspect": "饰品的使用",
+        "Opinion": "不戴饰品",
+        "Sentiment": "negative",
+        "Rationale": "送给2和胡晓慧的饰品从未见他们戴过"
+    },
+    {
+        "sentence": "我可以戴啊，就是你今天送我一个，你想要我什么时候戴我就什么时候戴。",
+        "Holder": "2",
+        "Target": "1的期望",
+        "Aspect": "饰品佩戴时间",
+        "Opinion": "愿意按1的要求戴",
+        "Sentiment": "positive",
+        "Rationale": "愿意满足1的要求"
+    },
+    {
+        "sentence": "不不不。",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "解释的合理性",
+        "Opinion": "不接受解释",
+        "Sentiment": "negative",
+        "Rationale": "认为2的解释不够合理"
+    },
+    {
+        "sentence": "我还不是怕丢！",
+        "Holder": "2",
+        "Target": "不戴饰品的原因",
+        "Aspect": "饰品的保管",
+        "Opinion": "担心丢失",
+        "Sentiment": "neutral",
+        "Rationale": "担心饰品丢失"
+    },
+    {
+        "sentence": "我不管你什么原因，反正我再也没有见到过。",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "解释的接受度",
+        "Opinion": "不接受任何解释",
+        "Sentiment": "negative",
+        "Rationale": "无论什么原因都没有见到2戴饰品"
+    },
+    {
+        "sentence": "不，是因为珍贵，就是因为珍贵，所以我怕丢，所以放在那收着了。",
+        "Holder": "2",
+        "Target": "物品",
+        "Aspect": "物品的珍贵性",
+        "Opinion": "物品很珍贵",
+        "Sentiment": "neutral",
+        "Rationale": "物品很珍贵"
+    },
+    {
+        "sentence": "那来，那你给我讲一下他到底在哪里？",
+        "Holder": "1",
+        "Target": "物品位置",
+        "Aspect": "物品的具体位置",
+        "Opinion": "询问物品位置",
+        "Sentiment": "neutral",
+        "Rationale": "想知道物品的具体位置"
+    },
+    {
+        "sentence": "在我房间啊。",
+        "Holder": "2",
+        "Target": "物品位置",
+        "Aspect": "物品的具体位置",
+        "Opinion": "物品在房间",
+        "Sentiment": "neutral",
+        "Rationale": "物品确实在房间"
+    },
+    {
+        "sentence": "骗子。我觉得像你们这种人只适合送卫生纸，早晚会用到的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "诚信与人格",
+        "Opinion": "认为2是骗子",
+        "Sentiment": "negative",
+        "Rationale": "认为2在撒谎"
+    },
+    {
+        "sentence": "不是，你送了我什么？你今天去我房间看一下那一些东西，里面有你送的东西吗？你就说！",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "礼物和指责的真实性",
+        "Opinion": "否认1的指责",
+        "Sentiment": "negative",
+        "Rationale": "被1错误指责"
+    },
+    {
+        "sentence": "你的意思是说我没送过你东西，对吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "送礼物",
+        "Opinion": "质疑未送礼物",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在暗示自己没送过礼物"
+    },
+    {
+        "sentence": "你没送过我可以让我收藏的东西。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "送礼物",
+        "Opinion": "未收到可收藏的礼物",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1没有送过值得收藏的礼物"
+    },
+    {
+        "sentence": "你说的啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "确认话语",
+        "Opinion": "确认2的说法",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认2的话"
+    },
+    {
+        "sentence": "孙子我找着我就！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "威胁",
+        "Opinion": "威胁找麻烦",
+        "Sentiment": "negative",
+        "Rationale": "1对2的话感到极度不满"
+    },
+    {
+        "sentence": "等一下，我想一下。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "思考时间",
+        "Opinion": "需要时间思考",
+        "Sentiment": "neutral",
+        "Rationale": "需要时间进行思考"
+    },
+    {
+        "sentence": "你们注意一下素质好吗？",
+        "Holder": "3",
+        "Target": "2和1",
+        "Aspect": "行为素质",
+        "Opinion": "要求注意素质",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的行为素质不够"
+    },
+    {
+        "sentence": "我想一下。没有！真的没有！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "思考结果",
+        "Opinion": "否认有某事",
+        "Sentiment": "negative",
+        "Rationale": "被质疑而急于否认"
+    },
+    {
+        "sentence": "姐，你今天晚上去我那找。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "见面安排",
+        "Opinion": "邀请见面",
+        "Sentiment": "neutral",
+        "Rationale": "需要与1见面"
+    },
+    {
+        "sentence": "但是你说的什么类型的东西？单纯首饰，对不对？",
+        "Holder": "2",
+        "Target": "1的描述",
+        "Aspect": "物品类型",
+        "Opinion": "询问是否为首饰",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行信息确认，没有表达出明显的情感"
+    },
+    {
+        "sentence": "不是啊。收藏类的东西啊。",
+        "Holder": "1",
+        "Target": "物品类型",
+        "Aspect": "物品分类",
+        "Opinion": "是收藏品",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行信息纠正，没有表达出明显的情感"
+    },
+    {
+        "sentence": "就是有价值收藏，我怕他丢，我才收起来的呀。",
+        "Holder": "2",
+        "Target": "收藏品",
+        "Aspect": "收藏品的价值和保管",
+        "Opinion": "有价值且需要保管",
+        "Sentiment": "neutral",
+        "Rationale": "解释了收藏品的价值和保管原因，没有表达出明显的情感"
+    },
+    {
+        "sentence": "那你说什么样的东西，你怕他丢？",
+        "Holder": "1",
+        "Target": "2的担忧",
+        "Aspect": "物品的具体类型",
+        "Opinion": "询问具体物品",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行进一步的询问，没有表达出明显的情感"
+    },
+    {
+        "sentence": "就是我怕他丢的东西。你送我吃的，我当然我会吃那过期就吃掉了呀。对呀，不然你送我什么呀？",
+        "Holder": "2",
+        "Target": "送的食物",
+        "Aspect": "食物的接受和处理",
+        "Opinion": "会吃掉送的食物",
+        "Sentiment": "neutral",
+        "Rationale": "接受了别人送的食物，并且会吃掉"
+    },
+    {
+        "sentence": "下一个人讲吧。",
+        "Holder": "1",
+        "Target": "话题转换",
+        "Aspect": "对话流程",
+        "Opinion": "希望转换话题",
+        "Sentiment": "neutral",
+        "Rationale": "希望话题继续进行"
+    },
+    {
+        "sentence": "你说嘛哎呦喂！",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "对话回应",
+        "Opinion": "催促对方说话",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方继续说话"
+    },
+    {
+        "sentence": "对你来说什么东西算你不怕丢的东西？",
+        "Holder": "1",
+        "Target": "2的物品观念",
+        "Aspect": "不怕丢失的物品",
+        "Opinion": "询问对方观点",
+        "Sentiment": "neutral",
+        "Rationale": "好奇对方对不怕丢失的物品的看法"
+    },
+    {
+        "sentence": "我最不怕丢的东西是我这个人。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "个人价值",
+        "Opinion": "认为自身最重要",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的价值高于任何物品"
+    },
+    {
+        "sentence": "那你的意思是其他所有东西你都怕丢？",
+        "Holder": "1",
+        "Target": "2的物品管理态度",
+        "Aspect": "对物品丢失的担忧",
+        "Opinion": "认为2对所有物品都怕丢",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2的态度"
+    },
+    {
+        "sentence": "不对！哎呀，你把我绕进去了，你想说什么嘛？",
+        "Holder": "2",
+        "Target": "1的提问方式",
+        "Aspect": "提问的清晰度",
+        "Opinion": "认为1的提问让人困惑",
+        "Sentiment": "negative",
+        "Rationale": "2感到被1的问题绕晕了"
+    },
+    {
+        "sentence": "我就是想说。你猜？我已经忘却了我这个吵架开始的初衷。",
+        "Holder": "1",
+        "Target": "吵架的初衷",
+        "Aspect": "吵架原因的明确性",
+        "Opinion": "已经忘记吵架的初衷",
+        "Sentiment": "ambiguous",
+        "Rationale": "1自己也不清楚吵架的初衷了"
+    },
+    {
+        "sentence": "那我能不能加一句？",
+        "Holder": "4",
+        "Target": "参与对话的权利",
+        "Aspect": "发言的许可",
+        "Opinion": "希望加入对话",
+        "Sentiment": "neutral",
+        "Rationale": "4在请求发言许可"
+    },
+    {
+        "sentence": "我在胡晓慧生日的时候给她买了双鞋，我今天听到她在楼下说，我用一双鞋换了一盘眼影，你们看好看吗？",
+        "Holder": "4",
+        "Target": "胡晓慧",
+        "Aspect": "礼物交换",
+        "Opinion": "鞋换眼影",
+        "Sentiment": "neutral",
+        "Rationale": "4只是陈述了胡晓慧用鞋换眼影的事实，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "对，你知道吗？她是这样的，她还跟我说，那双鞋特别贵，要多少多少钱，几位数。",
+        "Holder": "3",
+        "Target": "胡晓慧",
+        "Aspect": "鞋的价格",
+        "Opinion": "鞋很贵",
+        "Sentiment": "neutral",
+        "Rationale": "3只是转述了胡晓慧关于鞋价格的说法，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "是那双吗？是那双吗？",
+        "Holder": "2",
+        "Target": "鞋",
+        "Aspect": "鞋的确认",
+        "Opinion": "询问是否是那双鞋",
+        "Sentiment": "neutral",
+        "Rationale": "2只是在进行确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "是那双吗？",
+        "Holder": "3",
+        "Target": "鞋",
+        "Aspect": "鞋的确认",
+        "Opinion": "询问是否是那双鞋",
+        "Sentiment": "neutral",
+        "Rationale": "3只是在进行确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "是你那双吗？",
+        "Holder": "2",
+        "Target": "鞋",
+        "Aspect": "鞋的归属",
+        "Opinion": "询问是否是4的鞋",
+        "Sentiment": "neutral",
+        "Rationale": "2只是在进行确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "就是那双，好几位数。",
+        "Holder": "4",
+        "Target": "那双鞋",
+        "Aspect": "价格",
+        "Opinion": "价格昂贵",
+        "Sentiment": "neutral",
+        "Rationale": "提到鞋的价格是好几位数"
+    },
+    {
+        "sentence": "是送给菌菇的那双吗？",
+        "Holder": "1",
+        "Target": "那双鞋",
+        "Aspect": "赠送对象",
+        "Opinion": "疑问是否送给菌菇",
+        "Sentiment": "neutral",
+        "Rationale": "询问鞋是否是送给菌菇的"
+    },
+    {
+        "sentence": "不是，送给胡晓慧的那双。",
+        "Holder": "4",
+        "Target": "那双鞋",
+        "Aspect": "赠送对象",
+        "Opinion": "送给胡晓慧",
+        "Sentiment": "neutral",
+        "Rationale": "明确指出鞋是送给胡晓慧的"
+    },
+    {
+        "sentence": "不是，我说是胡晓慧送给菌菇的那双吗？",
+        "Holder": "1",
+        "Target": "那双鞋",
+        "Aspect": "赠送关系",
+        "Opinion": "疑问是否是胡晓慧送给菌菇",
+        "Sentiment": "neutral",
+        "Rationale": "再次澄清询问鞋是否是胡晓慧送给菌菇的"
+    },
+    {
+        "sentence": "他还送给菌菇了？",
+        "Holder": "4",
+        "Target": "赠送行为",
+        "Aspect": "赠送对象",
+        "Opinion": "惊讶他还送给菌菇",
+        "Sentiment": "ambiguous",
+        "Rationale": "对鞋还送给菌菇表示惊讶"
+    },
+    {
+        "sentence": "我不知道我不知道，我只是问一下是不是。",
+        "Holder": "1",
+        "Target": "询问的内容",
+        "Aspect": "信息的确定性",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行询问，并没有表达出明确的情感倾向"
+    },
+    {
+        "sentence": "她是不是拿去闲鱼上面卖啊？然后没卖出去，没有人愿意要那双鞋，她就拿去换一款眼影？她说，就是那个眼影也好丑，怎么办？早知道把那个鞋。",
+        "Holder": "3",
+        "Target": "她的行为",
+        "Aspect": "物品的处理方式",
+        "Opinion": "对处理方式不满",
+        "Sentiment": "negative",
+        "Rationale": "她对她在闲鱼上卖鞋未果后换来的眼影不满意，觉得眼影丑"
+    },
+    {
+        "sentence": "哦，就是那盒，她说里面有十几个没有一个用得上的眼影吗？",
+        "Holder": "5",
+        "Target": "那盒眼影",
+        "Aspect": "眼影的实用性",
+        "Opinion": "不实用",
+        "Sentiment": "negative",
+        "Rationale": "那盒眼影里没有一个用得上的"
+    },
+    {
+        "sentence": "那是一款礼物啊。",
+        "Holder": "5",
+        "Target": "那盒眼影",
+        "Aspect": "眼影的来源",
+        "Opinion": "是礼物",
+        "Sentiment": "neutral",
+        "Rationale": "5只是陈述了眼影是礼物的信息，没有表达出明确的情感倾向"
+    },
+    {
+        "sentence": "你应该感到开心，起码有眼影留下来了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "情绪反应",
+        "Opinion": "应该开心",
+        "Sentiment": "positive",
+        "Rationale": "有眼影留下来"
+    },
+    {
+        "sentence": "跟他有什么关系？沈小爱送了我一个粉饼，我本来有两个正在用的粉饼，沈小爱送我那个粉饼之后立马就把我那两个粉饼弄丢了！",
+        "Holder": "2",
+        "Target": "沈小爱",
+        "Aspect": "礼物的影响",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "沈小爱送的粉饼导致自己原有的粉饼丢失"
+    },
+    {
+        "sentence": "这就是地位的不同，你知道吗？",
+        "Holder": "5",
+        "Target": "2和沈小爱",
+        "Aspect": "地位差异",
+        "Opinion": "地位不同",
+        "Sentiment": "neutral",
+        "Rationale": "观察到2和沈小爱之间的互动"
+    },
+    {
+        "sentence": "看到没？",
+        "Holder": "2",
+        "Target": "5的观点",
+        "Aspect": "认同",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "5的观点与自己感受相符"
+    },
+    {
+        "sentence": "啊？我可想说一句话，我真。",
+        "Holder": "3",
+        "Target": "对话内容",
+        "Aspect": "表达意愿",
+        "Opinion": "想表达",
+        "Sentiment": "neutral",
+        "Rationale": "对话内容引发了自己的想法"
+    },
+    {
+        "sentence": "你是不是把我鞋换眼影了？",
+        "Holder": "4",
+        "Target": "6的行为",
+        "Aspect": "鞋和眼影的替换",
+        "Opinion": "怀疑被替换",
+        "Sentiment": "negative",
+        "Rationale": "发现自己的鞋可能被换成了眼影"
+    },
+    {
+        "sentence": "我没有！",
+        "Holder": "6",
+        "Target": "4的怀疑",
+        "Aspect": "行为的真实性",
+        "Opinion": "否认替换",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑做了自己没做过的事"
+    },
+    {
+        "sentence": "你说没穿过那双鞋！",
+        "Holder": "4",
+        "Target": "6的说法",
+        "Aspect": "鞋的使用情况",
+        "Opinion": "质疑6的说法",
+        "Sentiment": "negative",
+        "Rationale": "6之前说没穿过那双鞋，现在却否认替换"
+    },
+    {
+        "sentence": "我挂的是其他的，我没有挂你的！",
+        "Holder": "6",
+        "Target": "4的指控",
+        "Aspect": "挂物品的行为",
+        "Opinion": "澄清自己的行为",
+        "Sentiment": "negative",
+        "Rationale": "被误解和指控"
+    },
+    {
+        "sentence": "你换了啥呀？",
+        "Holder": "5",
+        "Target": "6的行为",
+        "Aspect": "替换的物品",
+        "Opinion": "询问替换内容",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚发生了什么"
+    },
+    {
+        "sentence": "你用这双鞋换了其他的没有换眼影？",
+        "Holder": "4",
+        "Target": "6的换物行为",
+        "Aspect": "换物的具体物品",
+        "Opinion": "询问是否用鞋换眼影",
+        "Sentiment": "neutral",
+        "Rationale": "4只是在进行信息确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "不是！我用其他的的鞋换的眼影，不是用你的鞋！",
+        "Holder": "6",
+        "Target": "4的疑问",
+        "Aspect": "换物的具体物品",
+        "Opinion": "否认用4的鞋换眼影",
+        "Sentiment": "negative",
+        "Rationale": "6对4的误解感到不满"
+    },
+    {
+        "sentence": "那她那双鞋现在在哪里？",
+        "Holder": "1",
+        "Target": "鞋子的去向",
+        "Aspect": "物品的位置",
+        "Opinion": "询问鞋子的当前位置",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行信息确认，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "送给菌菇了吗？",
+        "Holder": "4",
+        "Target": "鞋子的去向",
+        "Aspect": "物品的处置方式",
+        "Opinion": "猜测鞋子是否被送给菌菇",
+        "Sentiment": "neutral",
+        "Rationale": "4只是在进行信息猜测，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "是不是在阳台上？",
+        "Holder": "1",
+        "Target": "物品位置",
+        "Aspect": "物品存放地点",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问物品的具体位置"
+    },
+    {
+        "sentence": "没有！我送给菌菇的是我自己买给自己的！",
+        "Holder": "6",
+        "Target": "礼物归属",
+        "Aspect": "礼物的来源",
+        "Opinion": "礼物是自购",
+        "Sentiment": "negative",
+        "Rationale": "6强调礼物是自己买的，表示对1的误解感到不满"
+    },
+    {
+        "sentence": "那她送你那双鞋现在在哪里？",
+        "Holder": "1",
+        "Target": "鞋子位置",
+        "Aspect": "物品存放地点",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "1在继续询问鞋子的具体位置"
+    },
+    {
+        "sentence": "我保存下来，天天给他烧香。我不敢穿，你知道吗？但是我太感动了，你知道吧？",
+        "Holder": "6",
+        "Target": "鞋子处理方式",
+        "Aspect": "对礼物的态度",
+        "Opinion": "珍惜并感动",
+        "Sentiment": "positive",
+        "Rationale": "6对收到的鞋子非常珍惜并感动"
+    },
+    {
+        "sentence": "不，你要这样，不是我过生日，就是她单纯去泰国，不是给我们带那个眼影啊什么的东西吗？用到空壳！",
+        "Holder": "2",
+        "Target": "礼物使用情况",
+        "Aspect": "礼物的实用性",
+        "Opinion": "使用到空壳",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述礼物的使用情况，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我都没有用到空壳，你怎么用的？你这么不爱惜他？虽然他只有20块钱。",
+        "Holder": "1",
+        "Target": "6的使用方式",
+        "Aspect": "对物品的爱惜程度",
+        "Opinion": "6不爱惜物品",
+        "Sentiment": "negative",
+        "Rationale": "1认为6没有好好使用物品"
+    },
+    {
+        "sentence": "什么眼影？",
+        "Holder": "6",
+        "Target": "眼影",
+        "Aspect": "物品的识别",
+        "Opinion": "不清楚是什么",
+        "Sentiment": "neutral",
+        "Rationale": "6对提到的物品不清楚"
+    },
+    {
+        "sentence": "我去！我还以为很贵来着，我还把我原来的扔了。",
+        "Holder": "2",
+        "Target": "眼影的价格",
+        "Aspect": "价格的预期",
+        "Opinion": "以为很贵",
+        "Sentiment": "negative",
+        "Rationale": "2误以为眼影很贵而扔掉了原来的"
+    },
+    {
+        "sentence": "什么？我过生日的时候，你送了我一瓶香水，说我这个巨贵，超级贵。结果别人跟我说，你这个香水也就100多块钱吧。",
+        "Holder": "6",
+        "Target": "2送的香水",
+        "Aspect": "香水的价格",
+        "Opinion": "价格并不高",
+        "Sentiment": "negative",
+        "Rationale": "6发现2送的香水价格并不如所说的那么高"
+    },
+    {
+        "sentence": "那有100多块钱？",
+        "Holder": "2",
+        "Target": "香水的价格",
+        "Aspect": "价格的疑问",
+        "Opinion": "质疑价格",
+        "Sentiment": "neutral",
+        "Rationale": "2对香水的价格表示怀疑"
+    },
+    {
+        "sentence": "我还搁那儿吃糗呢！",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "尴尬的情况",
+        "Opinion": "感到尴尬",
+        "Sentiment": "negative",
+        "Rationale": "自己在某种情况下出了糗"
+    },
+    {
+        "sentence": "没有！没有，这个真要说。我那会儿给她挑香水，但是挑成了男士的。我是不是为了那个我还给你又买了一瓶女士的？",
+        "Holder": "2",
+        "Target": "挑香水的行为",
+        "Aspect": "选择的准确性",
+        "Opinion": "挑错了香水",
+        "Sentiment": "negative",
+        "Rationale": "挑错了香水需要重新购买"
+    },
+    {
+        "sentence": "你这花我多少钱买两瓶香水？",
+        "Holder": "2",
+        "Target": "购买香水的花费",
+        "Aspect": "花费金额",
+        "Opinion": "关注花费",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问花费金额"
+    },
+    {
+        "sentence": "我以后再也不会送你礼物，你把这件衣服还给我。我跟你说那件衣服还想自己留着呢！我以后不要送你们的礼物了！",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "送礼物的行为",
+        "Opinion": "不再送礼物",
+        "Sentiment": "negative",
+        "Rationale": "对方没有珍惜送的礼物"
+    },
+    {
+        "sentence": "那还是不行的，我们还想要！",
+        "Holder": "4",
+        "Target": "礼物",
+        "Aspect": "接受礼物",
+        "Opinion": "希望继续收到礼物",
+        "Sentiment": "positive",
+        "Rationale": "喜欢收到礼物"
+    }
+]

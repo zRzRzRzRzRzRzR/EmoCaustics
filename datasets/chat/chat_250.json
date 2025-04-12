@@ -1,0 +1,254 @@
+[
+    {
+        "sentence": "你是无敌吗？我是无敌啊。这是你的私人物品，请您收好。为什么呀？你被强制休假了？强制休假没有人通知我，我昨天画了图纸，才画了一半啊。稍后您会收到邮件。",
+        "Holder": "1",
+        "Target": "2的强制休假",
+        "Aspect": "休假通知的合理性",
+        "Opinion": "不满未提前通知",
+        "Sentiment": "negative",
+        "Rationale": "突然被强制休假且未提前通知"
+    },
+    {
+        "sentence": "怎么回事？生日前几天跟客户吃饭喝多了，吐槽了继续公司啊。可他都工作 10 年了。",
+        "Holder": "2",
+        "Target": "公司处理方式",
+        "Aspect": "处理方式的合理性",
+        "Opinion": "认为处理不公",
+        "Sentiment": "negative",
+        "Rationale": "自己因吐槽公司被处理，但认为工作了10年应有情面"
+    },
+    {
+        "sentence": "王姓文化，哪有什么情面管你干了 10 年还 20 年，只要对公司不利，立马卷铺盖卷走人。你早点知道也好，以后处处小心点，咱们的老板就是魔鬼无情冷血。",
+        "Holder": "1",
+        "Target": "公司文化",
+        "Aspect": "公司文化的冷酷",
+        "Opinion": "认为公司文化无情",
+        "Sentiment": "negative",
+        "Rationale": "公司对员工无情面可言，只要对公司不利就解雇"
+    },
+    {
+        "sentence": "汤经理，我问你个事是不是要。",
+        "Holder": "2",
+        "Target": "1的跳槽计划",
+        "Aspect": "询问跳槽的可能性",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对1的跳槽计划感到好奇"
+    },
+    {
+        "sentence": "我是打算要跳槽了，有没有兴趣跟我闯荡一下？昨天。",
+        "Holder": "1",
+        "Target": "自己的跳槽计划",
+        "Aspect": "跳槽的邀请",
+        "Opinion": "邀请2一起跳槽",
+        "Sentiment": "positive",
+        "Rationale": "自己打算跳槽，希望2也能加入"
+    },
+    {
+        "sentence": "周琴和 Dolly 收到了调令，今天早上一个去了西安的金色名门项目，一个去了武汉。那怎么了？之前销售部所有杨科的亲信都被分别调到了不同的地方，现在杨科是光杆司令，那杨科现在还没来公司呢？杨总好。",
+        "Holder": "2",
+        "Target": "杨科",
+        "Aspect": "工作调动",
+        "Opinion": "杨科被架空",
+        "Sentiment": "neutral",
+        "Rationale": "杨科的亲信被调走，导致他成了光杆司令"
+    },
+    {
+        "sentence": "叶敬天干的漂亮。怎么了？给我加薪升职留着我就是想毁了我呗。你早就知道我联系过猎头，打算离开京岩，是吧？",
+        "Holder": "1",
+        "Target": "叶敬天",
+        "Aspect": "加薪升职的真实意图",
+        "Opinion": "怀疑被陷害",
+        "Sentiment": "negative",
+        "Rationale": "怀疑加薪升职是为了毁掉自己，并且知道自己的离职计划"
+    },
+    {
+        "sentence": "你离开不离开经验不重要，关键是你要带走 4 个人。我这样做是为了保护集团，有错吗？",
+        "Holder": "3",
+        "Target": "1的离职计划",
+        "Aspect": "离职对集团的影响",
+        "Opinion": "保护集团",
+        "Sentiment": "neutral",
+        "Rationale": "认为1离职会带走关键人员，影响集团利益"
+    },
+    {
+        "sentence": "对，就花点钱呗，花点钱把我闲置起来，把我的人再分散开，轻轻松松就可以踢我出局了。老叶，我杨科对晶妍有什么贡献？不了了？你这么对我，外面小的可都看着。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "对待自己的方式",
+        "Opinion": "被边缘化",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被花钱闲置并边缘化"
+    },
+    {
+        "sentence": "你对经验贡献很大，而且你能力很强，所以我不能把你培养成我的对手。",
+        "Holder": "3",
+        "Target": "1的能力",
+        "Aspect": "对1的评价",
+        "Opinion": "能力强",
+        "Sentiment": "neutral",
+        "Rationale": "认为1能力强，可能会成为对手"
+    },
+    {
+        "sentence": "你喊我要学一招心狠手辣商业手段，我现在就辞职。",
+        "Holder": "1",
+        "Target": "商业手段",
+        "Aspect": "学习要求",
+        "Opinion": "拒绝学习",
+        "Sentiment": "negative",
+        "Rationale": "被要求学习不认同的商业手段"
+    },
+    {
+        "sentence": "唉，你还是等公司解聘你吧，这样你可以得到一笔钱。",
+        "Holder": "3",
+        "Target": "1的辞职决定",
+        "Aspect": "辞职方式",
+        "Opinion": "建议等待解聘",
+        "Sentiment": "neutral",
+        "Rationale": "认为等待解聘可以获得经济补偿"
+    },
+    {
+        "sentence": "你几把巴。",
+        "Holder": "1",
+        "Target": "3的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对3的建议感到不满"
+    },
+    {
+        "sentence": "欧阳，你这突然间什么。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为突然性",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1突然间的行为感到不解"
+    },
+    {
+        "sentence": "情况？我离开经验了，跟我走吧。你来，青年是我招进来的，我走得问你一句，想好砸给我。",
+        "Holder": "1",
+        "Target": "2的跟随决定",
+        "Aspect": "跟随的合理性",
+        "Opinion": "邀请跟随",
+        "Sentiment": "positive",
+        "Rationale": "希望2跟随自己并认为有责任询问"
+    },
+    {
+        "sentence": "叶总为什么非要把杨科逼走。",
+        "Holder": "2",
+        "Target": "叶总",
+        "Aspect": "对待杨科的方式",
+        "Opinion": "逼走杨科",
+        "Sentiment": "negative",
+        "Rationale": "叶总逼走杨科的行为让人不解"
+    },
+    {
+        "sentence": "他联系猎头想跳槽这事儿你不是不知道吧？可是。",
+        "Holder": "3",
+        "Target": "杨科",
+        "Aspect": "跳槽行为",
+        "Opinion": "联系猎头想跳槽",
+        "Sentiment": "neutral",
+        "Rationale": "提到杨科联系猎头是想跳槽的事实"
+    },
+    {
+        "sentence": "找一下猎头，了解一下行情，这个是很正常的事情。",
+        "Holder": "2",
+        "Target": "找猎头了解行情",
+        "Aspect": "行为的合理性",
+        "Opinion": "很正常",
+        "Sentiment": "positive",
+        "Rationale": "认为找猎头了解行情是正常的行为"
+    },
+    {
+        "sentence": "不正常在我这就不正常。",
+        "Holder": "3",
+        "Target": "找猎头了解行情",
+        "Aspect": "行为的合理性",
+        "Opinion": "不正常",
+        "Sentiment": "negative",
+        "Rationale": "个人认为找猎头了解行情是不正常的行为"
+    },
+    {
+        "sentence": "有没有可能让你说。",
+        "Holder": "2",
+        "Target": "3的观点",
+        "Aspect": "表达的合理性",
+        "Opinion": "希望对方解释",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方进一步解释其观点"
+    },
+    {
+        "sentence": "惊研的李昂啊。嗯，他现在是叶谨言的心头小尖尖，范金刚会走，他都未必会走。我觉得叶谨言把他当儿子培养，未来继承人那种，他会失望的，但你现在想让他离开青岩太大了。",
+        "Holder": "1",
+        "Target": "李昂",
+        "Aspect": "李昂在叶谨言心中的地位",
+        "Opinion": "李昂被视为叶谨言的重点培养对象",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1客观描述了李昂在叶谨言心中的重要地位，并未带有明显的情感倾向"
+    },
+    {
+        "sentence": "我从来不做容易的事情。这个项目李昂最合适。",
+        "Holder": "2",
+        "Target": "李昂",
+        "Aspect": "项目适合度",
+        "Opinion": "李昂最适合这个项目",
+        "Sentiment": "positive",
+        "Rationale": "说话人2表达了对李昂能力的肯定，认为他最适合这个项目"
+    },
+    {
+        "sentence": "可我觉得你搞不定。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "项目处理能力",
+        "Opinion": "2无法搞定这个项目",
+        "Sentiment": "negative",
+        "Rationale": "说话人1对说话人2的能力表示怀疑，认为他无法处理好这个项目"
+    },
+    {
+        "sentence": "人才是用抢的，人才就是钱。我们办公区不太大，为了表示对你的诚意，我们就租下。",
+        "Holder": "2",
+        "Target": "人才",
+        "Aspect": "人才的重要性",
+        "Opinion": "人才至关重要，愿意为人才投入",
+        "Sentiment": "positive",
+        "Rationale": "说话人2强调人才的重要性，并愿意为人才做出实际投入"
+    },
+    {
+        "sentence": "了这块区域，里昂工作室明天就可以成立，上海最后一个城中村交给你负责，就等你了，等你。",
+        "Holder": "1",
+        "Target": "李昂",
+        "Aspect": "项目责任",
+        "Opinion": "期待李昂负责上海最后一个城中村项目",
+        "Sentiment": "positive",
+        "Rationale": "说话人1表达了对李昂负责新项目的期待和重视"
+    },
+    {
+        "sentence": "好消息，随时欢迎。",
+        "Holder": "2",
+        "Target": "欢迎态度",
+        "Aspect": "态度的友好性",
+        "Opinion": "表示欢迎",
+        "Sentiment": "positive",
+        "Rationale": "传达了积极友好的欢迎信息"
+    },
+    {
+        "sentence": "海洋这一走，老叶是四面出路，读书计划就算是要流畅，弄到这个事儿还被人逼宫，那老叶又。",
+        "Holder": "1",
+        "Target": "老叶的处境",
+        "Aspect": "处境的复杂性",
+        "Opinion": "处境艰难",
+        "Sentiment": "negative",
+        "Rationale": "提到老叶面临多方压力和逼宫的情况"
+    },
+    {
+        "sentence": "对不起李阳，你走吧。谢谢叶总。嗯，不用再见叶总再见。不是我们这是在搞慈善嘛，说走就可以走，我一定弄清楚。你弄清楚有什么用啊？你可以不清楚，但我必须得弄清楚。我当然清楚，这一个个走的都是人家的原因吗？有没有我的？",
+        "Holder": "3",
+        "Target": "人员离开的原因",
+        "Aspect": "原因的探究",
+        "Opinion": "需要弄清楚原因",
+        "Sentiment": "ambiguous",
+        "Rationale": "3在对话中既表现出对离开者的理解和感谢，又表现出对原因的疑惑和探究"
+    }
+]

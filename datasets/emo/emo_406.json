@@ -1,0 +1,84 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "杨大花的突然回归引发混乱",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对突然出现的身份不明者产生疑惑", "source_id": "5"},
+          {"state": "positive", "reason": "主动分享乐队成就并关心朋友", "source_id": "4,6"},
+          {"state": "negative", "reason": "被质疑与陈军何的关系", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "陈军何的争议行为引发质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "解释手套给予行为", "source_id": "5"},
+          {"state": "negative", "reason": "被要求远离陈军何", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "家庭冲突与逃避行为",
+        "emotions": [
+          {"state": "negative", "reason": "被父母责备基因问题", "source_id": "7"},
+          {"state": "negative", "reason": "选择躲避家庭矛盾", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "处理突发社交危机",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑2的异常行为", "source_id": "2"},
+          {"state": "positive", "reason": "成功化解身份确认危机", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "身份验证与关系重建",
+        "emotions": [
+          {"state": "neutral", "reason": "系统化验证身份信息", "source_id": "2"},
+          {"state": "ambiguous", "reason": "发现陈军何的异常关注", "source_id": "6"},
+          {"state": "negative", "reason": "对陈军何产生负面评价", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "情感介入与团队协调",
+        "emotions": [
+          {"state": "positive", "reason": "主动提供保暖帮助", "source_id": "5"},
+          {"state": "neutral", "reason": "完成交通协调任务", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "学业问责与家庭责任",
+        "emotions": [
+          {"state": "negative", "reason": "对物理考试成绩不满", "source_id": "2"},
+          {"state": "positive", "reason": "接受做饭请求缓解矛盾", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "家务协调与效率管理",
+        "emotions": [
+          {"state": "negative", "reason": "抱怨大扫除效率低下", "source_id": "7"},
+          {"state": "neutral", "reason": "指导饺子制作流程", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "设计教育转型与产业适应性挑战",
+        "emotions": [
+          {"state": "neutral", "reason": "分析大湾区设计教育现状与转型必要性", "source_id": "2"},
+          {"state": "negative", "reason": "指出大湾区高校资源分布不均问题", "source_id": "1"},
+          {"state": "positive", "reason": "支持建立跨院校教育联盟", "source_id": "2,4"}
+        ]
+      },
+      {
+        "event": "复合型人才培养路径争议",
+        "emotions": [
+          {"state": "negative", "reason": "质疑研究型与应用型人才兼容性", "source_id": "3"},
+          {"state": "neutral", "reason": "探讨项目制博士培养可行性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "学生就业压力传导机制",
+        "emotions": [
+          {"state": "negative", "reason": "披露13%签约率导致的考核压力", "source_id": "1"},
+          {"state": "positive", "reason": "肯定项目实践经验提升就业竞争力", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "教育联盟构建倡议",
+        "emotions": [
+          {"state": "positive", "reason": "推动湾区院校资源整合平台建设", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "沉浸式教育模式创新",
+        "emotions": [
+          {"state": "neutral", "reason": "提出8小时项目制深度学习方案", "source_id": "1"},
+          {"state": "neutral", "reason": "强调批判性思维培养重要性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "跨学科师资结构优化",
+        "emotions": [
+          {"state": "positive", "reason": "展示数学/计算机背景教师转型成果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "实战型人才培育生态构建",
+        "emotions": [
+          {"state": "positive", "reason": "列举深圳消费电子产业协同案例", "source_id": "1"},
+          {"state": "negative", "reason": "指出传统支柱产业薪资吸引力不足", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "湾区教育国际化对标",
+        "emotions": [
+          {"state": "positive", "reason": "类比旧金山湾区产学研网络模式", "source_id": "1"},
+          {"state": "ambiguous", "reason": "质疑现有院校协作机制有效性", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "文物瓶子的归属争议",
+        "emotions": [
+          {"state": "positive", "reason": "对瓶子的品质和价值表示赞赏", "source_id": "2,3"},
+          {"state": "negative", "reason": "被拒绝赠送爷爷的文物", "source_id": "2"},
+          {"state": "neutral", "reason": "承诺保障文物安全", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "艺术创作的价值认同",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑浪费纸张", "source_id": "3"},
+          {"state": "positive", "reason": "确认画作文物属性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "人际关系的态度转变",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑对方反常的夸奖行为", "source_id": "4"},
+          {"state": "neutral", "reason": "接受无特殊目的的交流", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家族文物的守护责任",
+        "emotions": [
+          {"state": "negative", "reason": "担心文物安全", "source_id": "1"},
+          {"state": "neutral", "reason": "接受安全保障承诺", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "文物鉴定的专业判断",
+        "emotions": [
+          {"state": "positive", "reason": "确认瓷器年代特征", "source_id": "1"},
+          {"state": "negative", "reason": "被催促归还文物", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "艺术评价的态度转变",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对画作真实性的惊讶", "source_id": "1"},
+          {"state": "positive", "reason": "高度评价画作质量", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

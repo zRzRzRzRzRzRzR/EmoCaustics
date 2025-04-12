@@ -1,0 +1,89 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论主题引导与提问",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "介绍元宇宙自由主题并控制流程",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑庄子式自由与元宇宙必要性",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对自由层次划分提出根本性质疑",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "元宇宙技术突破自由限制",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过感官延伸重构物理边界与能力限制",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "去中心化经济模式打破资本垄断",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "自由本质哲学论证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统梳理自由四重枷锁理论框架",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "元宇宙经济控制批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason":揭示付费机制强化阶级差异",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "内在探索与外在宇宙失衡",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "论证感官刺激导致探索动力丧失",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "理性消解风险预警",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑沉浸体验破坏道德自律",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

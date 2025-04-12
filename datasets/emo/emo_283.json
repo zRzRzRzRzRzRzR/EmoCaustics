@@ -1,0 +1,93 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "周敏打麻将引发家庭矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "发现妻子未履行育儿责任、质疑撒谎、反对娱乐活动、指责造成严重后果",
+            "source_id": "2,3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "要求处理紧急状况",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "消防通道停车事件升级",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出违规停车导致火灾、动手打人、接受离婚提议",
+            "source_id": "2,3,4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭责任冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释娱乐需求、质疑指控来源",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被当众指责、遭受家暴、提出离婚",
+            "source_id": "1,3,4"
+          }
+        ]
+      },
+      {
+        "event": "婚姻关系破裂",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "长期经济压力爆发、最终同意离婚",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方介入家庭纠纷",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为丈夫反应过度、谴责家暴行为、建议离婚",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "淡化消防通道影响",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "女性权益维护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责丈夫心胸狭窄、支持娱乐权利、否定男性权威",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

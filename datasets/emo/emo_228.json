@@ -1,0 +1,79 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关键证据的发现与验证",
+        "emotions": [
+          {"state": "neutral", "reason": "完成查找任务", "source_id": "1"},
+          {"state": "neutral", "reason": "确认刘大强身份", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "监控记录丢失事件",
+        "emotions": [
+          {"state": "negative", "reason": "女儿救援受阻", "source_id": "3,6"},
+          {"state": "positive", "reason": "发现行车记录仪证据", "source_id": "5"},
+          {"state": "negative", "reason": "遭遇3的阻挠", "source_id": "3"},
+          {"state": "positive", "reason": "确认女儿重要性", "source_id": "2"},
+          {"state": "doubt", "reason": "通讯录搜索异常", "source_id": "3"},
+          {"state": "positive", "reason": "母亲提供解决方案", "source_id": "5"},
+          {"state": "negative", "reason": "确认3与6的合谋", "source_id": "3,6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "责任推诿与对抗",
+        "emotions": [
+          {"state": "negative", "reason": "被2暴力对待", "source_id": "2"},
+          {"state": "negative", "reason": "被指控阻挠救援", "source_id": "2,5"},
+          {"state": "negative", "reason": "通讯录谎言被揭穿", "source_id": "2"},
+          {"state": "neutral", "reason": "解释注册错误", "source_id": "4"},
+          {"state": "negative", "reason": "面临逮捕", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "执法调查过程",
+        "emotions": [
+          {"state": "neutral", "reason": "执行调查程序", "source_id": "2"},
+          {"state": "negative", "reason": "发现3的欺骗行为", "source_id": "3"},
+          {"state": "neutral", "reason": "启动正式调查", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "真相追查行动",
+        "emotions": [
+          {"state": "ambiguous", "reason": "证据不足的怀疑", "source_id": "3"},
+          {"state": "negative", "reason": "确认6的串通行为", "source_id": "6"},
+          {"state": "positive", "reason": "提出关键验证方法", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "施工安全责任争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指控故意断电", "source_id": "2,5"},
+          {"state": "neutral", "reason": "解释安全考量", "source_id": "4"},
+          {"state": "negative", "reason": "被揭穿身份伪装", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

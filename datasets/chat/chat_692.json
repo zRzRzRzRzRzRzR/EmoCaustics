@@ -1,0 +1,1046 @@
+[
+    {
+        "sentence": "今天请县长来就是要当面为六爷讨回这个公道，如果真的是黄某指使，我就像六爷一样当众剖腹自杀，不但自杀还请县长您当我的介错人砍下我人头高，挂艳阳楼顶，万一不是我，那就是辱我名声，欺骗县长，你们自裁，要么三命抵一命，要么随时告发我，我随时死。",
+        "Holder": "1",
+        "Target": "黄某",
+        "Aspect": "指使与否",
+        "Opinion": "要求公正",
+        "Sentiment": "negative",
+        "Rationale": "怀疑黄某指使且要求公正"
+    },
+    {
+        "sentence": "黄老爷我听说自裁用短刀，长刀归介错人，",
+        "Holder": "3",
+        "Target": "自裁方式",
+        "Aspect": "自裁工具",
+        "Opinion": "说明自裁工具",
+        "Sentiment": "neutral",
+        "Rationale": "提及自裁工具的常识"
+    },
+    {
+        "sentence": "是吗？果然在行。县长随时可以当我的介错人。马县长，请！",
+        "Holder": "1",
+        "Target": "3的自裁工具说明",
+        "Aspect": "专业程度",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "认可3对自裁工具的说明"
+    },
+    {
+        "sentence": "马某人这个县长买来的。买官就是为了挣钱，而且马某人不喜欢挣穷人的钱，",
+        "Holder": "3",
+        "Target": "马县长",
+        "Aspect": "买官目的",
+        "Opinion": "揭露买官",
+        "Sentiment": "negative",
+        "Rationale": "揭露马县长买官且只为挣钱"
+    },
+    {
+        "sentence": "你想挣谁的钱，",
+        "Holder": "1",
+        "Target": "马县长的挣钱对象",
+        "Aspect": "挣钱目标",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "质疑马县长挣钱的对象"
+    },
+    {
+        "sentence": "谁有钱就挣谁的。",
+        "Holder": "3",
+        "Target": "挣钱对象",
+        "Aspect": "挣钱的原则",
+        "Opinion": "选择有钱的人",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在表达一种务实的挣钱原则"
+    },
+    {
+        "sentence": "谁有钱。",
+        "Holder": "1",
+        "Target": "有钱的人",
+        "Aspect": "询问",
+        "Opinion": "询问有钱的人",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在简单地询问"
+    },
+    {
+        "sentence": "你有钱。",
+        "Holder": "3",
+        "Target": "说话人1",
+        "Aspect": "经济状况",
+        "Opinion": "认为说话人1有钱",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在陈述一个事实或假设"
+    },
+    {
+        "sentence": "爽快，县长看上什么了？随便打。",
+        "Holder": "1",
+        "Target": "县长",
+        "Aspect": "选择物品的态度",
+        "Opinion": "认为县长爽快",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为县长在选物品时很爽快"
+    },
+    {
+        "sentence": "哈哈，我不是土匪，我是县长，县长挣钱得讲究个名正言顺才是。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "身份和挣钱方式",
+        "Opinion": "强调自己是县长，挣钱要名正言顺",
+        "Sentiment": "positive",
+        "Rationale": "说话人3在强调自己的正当身份和合理的挣钱方式"
+    },
+    {
+        "sentence": "说得好我们鹅城有两大家族，都是把人卖到阿麦瑞卡，修铁路挣的都是美元。",
+        "Holder": "1",
+        "Target": "鹅城两大家族",
+        "Aspect": "经济活动",
+        "Opinion": "挣钱方式",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "还说dollar是，",
+        "Holder": "3",
+        "Target": "dollar",
+        "Aspect": "定义",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "3对dollar的定义有疑问，但没有明确表达情感"
+    },
+    {
+        "sentence": "nonono，dollar是美国人用的钱，到了uknow?",
+        "Holder": "1",
+        "Target": "dollar",
+        "Aspect": "定义",
+        "Opinion": "纠正",
+        "Sentiment": "neutral",
+        "Rationale": "1在纠正3对dollar的定义，但没有明显的情感倾向"
+    },
+    {
+        "sentence": "dollar？到了。黄老爷一来，钱就到了，咱们喝一杯。",
+        "Holder": "5",
+        "Target": "黄老爷",
+        "Aspect": "经济影响力",
+        "Opinion": "钱随人至",
+        "Sentiment": "positive",
+        "Rationale": "5认为黄老爷一来钱就到，表现出对黄老爷经济实力的认可"
+    },
+    {
+        "sentence": "黄老爷客气了，整个南国谁不知道？在鹅城，你黄四郎是老大",
+        "Holder": "3",
+        "Target": "黄老爷",
+        "Aspect": "地位",
+        "Opinion": "地位高",
+        "Sentiment": "positive",
+        "Rationale": "3认可黄老爷在鹅城和南国的地位"
+    },
+    {
+        "sentence": "老大往往是空架子，每天眼一睁几百人吃喝拉撒都要等着我伺候，真正落到我嘴里的能有几口？如果县长真的急着挣钱，我倒是有个好去处。",
+        "Holder": "1",
+        "Target": "老大（县长）",
+        "Aspect": "工作负担与回报",
+        "Opinion": "工作繁重但回报少",
+        "Sentiment": "negative",
+        "Rationale": "每天要伺候几百人的生活琐事，但实际得到的回报却很少"
+    },
+    {
+        "sentence": "请讲。",
+        "Holder": "3",
+        "Target": "1的建议",
+        "Aspect": "请求详细说明",
+        "Opinion": "请求更多信息",
+        "Sentiment": "neutral",
+        "Rationale": "对1提到的‘好去处’感兴趣"
+    },
+    {
+        "sentence": "张麻子。",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "提及人物",
+        "Opinion": "提及人物",
+        "Sentiment": "neutral",
+        "Rationale": "要介绍一个可能的机会"
+    },
+    {
+        "sentence": "张麻子",
+        "Holder": "3",
+        "Target": "张麻子",
+        "Aspect": "重复确认",
+        "Opinion": "重复确认",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认1提到的名字"
+    },
+    {
+        "sentence": "对张麻子",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "确认人物",
+        "Opinion": "确认人物",
+        "Sentiment": "neutral",
+        "Rationale": "要确认之前提到的张麻子"
+    },
+    {
+        "sentence": "那么张麻子是跟我们有关系，还是跟钱有关系。",
+        "Holder": "3",
+        "Target": "张麻子",
+        "Aspect": "关系",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "对张麻子与我们的关系以及与钱的关系不清楚"
+    },
+    {
+        "sentence": "都有关系？",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "关系",
+        "Opinion": "可能都有",
+        "Sentiment": "ambiguous",
+        "Rationale": "对张麻子与我们和钱的关系不确定"
+    },
+    {
+        "sentence": "莫非他在俄城。",
+        "Holder": "3",
+        "Target": "张麻子",
+        "Aspect": "位置",
+        "Opinion": "可能在俄城",
+        "Sentiment": "ambiguous",
+        "Rationale": "对张麻子的具体位置不确定"
+    },
+    {
+        "sentence": "在也不在。",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "位置",
+        "Opinion": "模糊不清",
+        "Sentiment": "ambiguous",
+        "Rationale": "对张麻子是否在俄城无法明确回答"
+    },
+    {
+        "sentence": "黄老爷这话，还挺有玄机。",
+        "Holder": "5",
+        "Target": "黄老爷的话",
+        "Aspect": "含义",
+        "Opinion": "有深意",
+        "Sentiment": "neutral",
+        "Rationale": "觉得黄老爷的话不直接明了，似乎隐藏有更深的意思"
+    },
+    {
+        "sentence": "这小子到底在哪儿呢？听黄爷给咱们聊聊。",
+        "Holder": "3",
+        "Target": "小子",
+        "Aspect": "位置",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对某人的位置不清楚"
+    },
+    {
+        "sentence": "此人盘踞鹅城周边交通咽喉，明白吗？",
+        "Holder": "1",
+        "Target": "此人",
+        "Aspect": "位置",
+        "Opinion": "盘踞交通咽喉",
+        "Sentiment": "neutral",
+        "Rationale": "描述某人的位置信息"
+    },
+    {
+        "sentence": "不明白。",
+        "Holder": "5",
+        "Target": "1的描述",
+        "Aspect": "理解程度",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "对1的描述没有理解"
+    },
+    {
+        "sentence": "我是做什么生意的，明白吗？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "生意类型",
+        "Opinion": "需要确认理解",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认对方是否理解自己的生意类型"
+    },
+    {
+        "sentence": "不明白。",
+        "Holder": "3",
+        "Target": "1的描述",
+        "Aspect": "理解程度",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "对1的描述没有理解"
+    },
+    {
+        "sentence": "小半个民国的烟土都是黄老爷您在贩卖",
+        "Holder": "5",
+        "Target": "黄老爷",
+        "Aspect": "烟土贩卖",
+        "Opinion": "黄老爷贩卖大量烟土",
+        "Sentiment": "neutral",
+        "Rationale": "5在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "错！我不过是给刘都统当跑腿的，而且只是其中一条腿，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "角色定位",
+        "Opinion": "只是跑腿的",
+        "Sentiment": "negative",
+        "Rationale": "1在反驳5的指控，强调自己的角色不重要"
+    },
+    {
+        "sentence": "那么刘都统到底有几条腿？",
+        "Holder": "3",
+        "Target": "刘都统",
+        "Aspect": "跑腿人数",
+        "Opinion": "询问跑腿人数",
+        "Sentiment": "neutral",
+        "Rationale": "3在提问，没有明显的情感倾向"
+    },
+    {
+        "sentence": "三条！黄老爷还是条对大腿，",
+        "Holder": "5",
+        "Target": "黄老爷",
+        "Aspect": "重要性",
+        "Opinion": "黄老爷是重要的一条腿",
+        "Sentiment": "positive",
+        "Rationale": "5在强调黄老爷的重要性"
+    },
+    {
+        "sentence": "可是我这条腿，断了！",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "当前状态",
+        "Opinion": "自己的角色已经失效",
+        "Sentiment": "negative",
+        "Rationale": "1在表达自己的角色已经不再起作用"
+    },
+    {
+        "sentence": "怎么断的？",
+        "Holder": "5",
+        "Target": "货物断供原因",
+        "Aspect": "断供的具体情况",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "想了解货物断供的具体原因"
+    },
+    {
+        "sentence": "我的货，十回有八回被张麻子劫走了，你想想，赚了多少钱。",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "货物被劫情况",
+        "Opinion": "张麻子频繁劫货",
+        "Sentiment": "negative",
+        "Rationale": "货物频繁被张麻子劫走"
+    },
+    {
+        "sentence": "张麻子很富有？还有这种事儿？",
+        "Holder": "5",
+        "Target": "张麻子",
+        "Aspect": "张麻子的财富状况",
+        "Opinion": "质疑张麻子的富有",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到张麻子频繁劫货的情况"
+    },
+    {
+        "sentence": "如果你们可以去剿匪的话，钱要多少有多少。",
+        "Holder": "1",
+        "Target": "剿匪行动",
+        "Aspect": "剿匪的经济收益",
+        "Opinion": "剿匪能带来大量财富",
+        "Sentiment": "positive",
+        "Rationale": "认为剿匪能解决货物被劫的问题并带来财富"
+    },
+    {
+        "sentence": "我们没胆子剿匪，但是借剿匪之名敛财的胆子还是有，而且很大，",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "剿匪与敛财的勇气",
+        "Opinion": "敢借剿匪之名敛财",
+        "Sentiment": "negative",
+        "Rationale": "自己没有勇气去剿匪，但敢借剿匪之名敛财"
+    },
+    {
+        "sentence": "那就不要怪我，就怪你们没出息。不过我还可以帮你们一个忙，我出钱当诱饵，我出多少两个大家族必须出多少",
+        "Holder": "1",
+        "Target": "大家族",
+        "Aspect": "出息和能力",
+        "Opinion": "大家族没出息",
+        "Sentiment": "negative",
+        "Rationale": "认为大家族没有能力解决问题"
+    },
+    {
+        "sentence": "就等您这句话足够您出80万。",
+        "Holder": "5",
+        "Target": "1的出资",
+        "Aspect": "出资额度",
+        "Opinion": "80万足够",
+        "Sentiment": "neutral",
+        "Rationale": "认为80万已经足够作为诱饵"
+    },
+    {
+        "sentence": "no, 我出180万。出的多挣得多！",
+        "Holder": "1",
+        "Target": "自己的出资",
+        "Aspect": "出资额度",
+        "Opinion": "出得多挣得多",
+        "Sentiment": "positive",
+        "Rationale": "认为出资越多回报越多"
+    },
+    {
+        "sentence": "明白。事成之后一百八十万如数奉还，咱们分两大家族那点钱。",
+        "Holder": "5",
+        "Target": "事成后的分配",
+        "Aspect": "资金归还和分配",
+        "Opinion": "如数奉还并分钱",
+        "Sentiment": "neutral",
+        "Rationale": "对事成后的资金处理有明确计划"
+    },
+    {
+        "sentence": "180万不用还，不就是剿匪吗？剿咱们把张麻子劫走的那点钱全拿回来还给黄老爷，到那个时候这180万就是九牛身上的一根毛，您还在意吗？不？就是个小小的张麻子吗？办他",
+        "Holder": "3",
+        "Target": "180万的归还",
+        "Aspect": "资金归还的必要性",
+        "Opinion": "不用还",
+        "Sentiment": "positive",
+        "Rationale": "认为剿匪后能拿回更多钱"
+    },
+    {
+        "sentence": "硬！",
+        "Holder": "1",
+        "Target": "硬度",
+        "Aspect": "硬度评价",
+        "Opinion": "非常硬",
+        "Sentiment": "neutral",
+        "Rationale": "1在表达对某物硬度的评价"
+    },
+    {
+        "sentence": "硬吗？",
+        "Holder": "3",
+        "Target": "硬度",
+        "Aspect": "硬度确认",
+        "Opinion": "询问硬度",
+        "Sentiment": "neutral",
+        "Rationale": "3对1的评价有疑问"
+    },
+    {
+        "sentence": "够硬！",
+        "Holder": "1",
+        "Target": "硬度",
+        "Aspect": "硬度再次确认",
+        "Opinion": "确实够硬",
+        "Sentiment": "neutral",
+        "Rationale": "1再次强调硬度"
+    },
+    {
+        "sentence": "硬不硬以后再说。我脑子里想的只有一件事，替黄老爷把这条腿接上。一个张麻子也太嚣张了，欺负到黄哥头上来不答应喝酒！",
+        "Holder": "3",
+        "Target": "黄老爷",
+        "Aspect": "腿部伤势",
+        "Opinion": "需要接腿",
+        "Sentiment": "negative",
+        "Rationale": "张麻子的嚣张行为导致黄老爷受伤"
+    },
+    {
+        "sentence": "我以为酒一口一口喝，路一步一步走，步子迈大了，咔容易扯着蛋。应该先把刀儿分清楚再说接腿的事儿。",
+        "Holder": "5",
+        "Target": "处理顺序",
+        "Aspect": "行动步骤",
+        "Opinion": "先分清刀再接腿",
+        "Sentiment": "neutral",
+        "Rationale": "5认为应该按步骤行事"
+    },
+    {
+        "sentence": "你还聊刀了是吧？不聊接腿，你们俩聊。",
+        "Holder": "3",
+        "Target": "1和5的聊天内容",
+        "Aspect": "聊天话题的选择",
+        "Opinion": "不满聊天内容",
+        "Sentiment": "negative",
+        "Rationale": "3认为1和5聊的话题不符合预期"
+    },
+    {
+        "sentence": "师爷你定。",
+        "Holder": "1",
+        "Target": "聊天话题的决定权",
+        "Aspect": "决策权归属",
+        "Opinion": "尊重他人决定",
+        "Sentiment": "neutral",
+        "Rationale": "1愿意将决定权交给师爷"
+    },
+    {
+        "sentence": "先聊叨唠，叨唠，到时候按照惯例37分。",
+        "Holder": "5",
+        "Target": "聊天话题和分成",
+        "Aspect": "话题和利益分配",
+        "Opinion": "按惯例处理",
+        "Sentiment": "neutral",
+        "Rationale": "5按照惯例提出话题和分成方案"
+    },
+    {
+        "sentence": "你也太不仗义了。黄老爷为这事忙前忙后你就分人家三成，怎么也得对半分",
+        "Holder": "3",
+        "Target": "5的分成方案",
+        "Aspect": "分成比例的公平性",
+        "Opinion": "认为分成不公",
+        "Sentiment": "negative",
+        "Rationale": "3认为5提出的分成方案对黄老爷不公平"
+    },
+    {
+        "sentence": "我错了。",
+        "Holder": "5",
+        "Target": "自己的分成方案",
+        "Aspect": "方案的合理性",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "5意识到自己的分成方案确实不合理"
+    },
+    {
+        "sentence": "你太错了。",
+        "Holder": "3",
+        "Target": "1的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "错误",
+        "Sentiment": "negative",
+        "Rationale": "认为1的观点完全错误"
+    },
+    {
+        "sentence": "师爷我们还是听县长的，对半分。如果真有胆子剿匪两大家族的刀了，就值一根毛。",
+        "Holder": "1",
+        "Target": "县长的提议",
+        "Aspect": "提议的合理性",
+        "Opinion": "支持县长提议",
+        "Sentiment": "neutral",
+        "Rationale": "认为县长的提议是合理的"
+    },
+    {
+        "sentence": "一根毛！",
+        "Holder": "3",
+        "Target": "1的比喻",
+        "Aspect": "比喻的恰当性",
+        "Opinion": "不恰当",
+        "Sentiment": "negative",
+        "Rationale": "认为1的比喻过于夸张且不恰当"
+    },
+    {
+        "sentence": "哪是一根一。",
+        "Holder": "5",
+        "Target": "3的回应",
+        "Aspect": "回应的准确性",
+        "Opinion": "纠正",
+        "Sentiment": "neutral",
+        "Rationale": "3的回应有误"
+    },
+    {
+        "sentence": "胆子你是有的，本事呢？我凭什么相信你能剿了张麻子？",
+        "Holder": "1",
+        "Target": "3的能力",
+        "Aspect": "剿匪的能力",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对3是否有能力剿匪持怀疑态度"
+    },
+    {
+        "sentence": "黄老爷荣兄弟问你个问题，张麻子能劫你的货，为什么不能进你的家？",
+        "Holder": "3",
+        "Target": "张麻子",
+        "Aspect": "能力范围",
+        "Opinion": "质疑张麻子的能力",
+        "Sentiment": "doubt",
+        "Rationale": "张麻子能劫货却不能进家"
+    },
+    {
+        "sentence": "我这碉楼固若金汤，易守难攻他进不来。",
+        "Holder": "1",
+        "Target": "碉楼",
+        "Aspect": "防御能力",
+        "Opinion": "碉楼防御坚固",
+        "Sentiment": "positive",
+        "Rationale": "碉楼设计坚固，易守难攻"
+    },
+    {
+        "sentence": "那你怎么就真的相信只有我跟师爷进了你的碉楼。",
+        "Holder": "3",
+        "Target": "1的信任",
+        "Aspect": "信任的合理性",
+        "Opinion": "质疑1的信任",
+        "Sentiment": "doubt",
+        "Rationale": "怀疑还有其他人进入碉楼"
+    },
+    {
+        "sentence": "说让咱们撤。",
+        "Holder": "6",
+        "Target": "撤",
+        "Aspect": "行动指令",
+        "Opinion": "传达撤退指令",
+        "Sentiment": "neutral",
+        "Rationale": "接到了撤退的指令"
+    },
+    {
+        "sentence": "撤？那撤吗？",
+        "Holder": "7",
+        "Target": "撤退指令",
+        "Aspect": "指令的执行",
+        "Opinion": "犹豫是否撤退",
+        "Sentiment": "ambiguous",
+        "Rationale": "对撤退指令的合理性不确定"
+    },
+    {
+        "sentence": "撤！",
+        "Holder": "8",
+        "Target": "当前行动",
+        "Aspect": "行动指令",
+        "Opinion": "撤退",
+        "Sentiment": "neutral",
+        "Rationale": "需要迅速撤离当前地点"
+    },
+    {
+        "sentence": "听见了吧。",
+        "Holder": "3",
+        "Target": "8的指令",
+        "Aspect": "指令传达",
+        "Opinion": "确认听到",
+        "Sentiment": "neutral",
+        "Rationale": "确认对方是否听到指令"
+    },
+    {
+        "sentence": "听见了",
+        "Holder": "1",
+        "Target": "8的指令",
+        "Aspect": "指令接收",
+        "Opinion": "已听到",
+        "Sentiment": "neutral",
+        "Rationale": "确实听到了指令"
+    },
+    {
+        "sentence": "张麻子进不来的地方，我能进来，张麻子不想死的时候，我能让他死，",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "能力展示",
+        "Opinion": "有能力",
+        "Sentiment": "positive",
+        "Rationale": "展示了自己超越张麻子的能力"
+    },
+    {
+        "sentence": "又死一个！",
+        "Holder": "5",
+        "Target": "某人",
+        "Aspect": "死亡情况",
+        "Opinion": "有人死亡",
+        "Sentiment": "negative",
+        "Rationale": "得知又有人死亡"
+    },
+    {
+        "sentence": "你们可以把我供出来吗，不要委屈自己.马县长我早看出你非等闲之辈，",
+        "Holder": "1",
+        "Target": "马县长",
+        "Aspect": "能力与身份",
+        "Opinion": "认为马县长不平凡",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认为马县长有能力剿匪，且看出其不平凡"
+    },
+    {
+        "sentence": "不敢当。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "对赞誉的反应",
+        "Opinion": "谦虚",
+        "Sentiment": "neutral",
+        "Rationale": "马县长在面对赞誉时表现出谦虚的态度"
+    },
+    {
+        "sentence": "不过，有胆子剿匪的人，九死一生，",
+        "Holder": "1",
+        "Target": "剿匪的人",
+        "Aspect": "风险与勇气",
+        "Opinion": "认为剿匪风险大",
+        "Sentiment": "negative",
+        "Rationale": "说话人1提到剿匪的风险极高"
+    },
+    {
+        "sentence": "何以见得？",
+        "Holder": "3",
+        "Target": "说话人1的观点",
+        "Aspect": "证据与理由",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "马县长对说话人1的观点提出质疑"
+    },
+    {
+        "sentence": "张麻子非同凡人，20年前我们有过一面之缘。",
+        "Holder": "1",
+        "Target": "张麻子",
+        "Aspect": "能力与经历",
+        "Opinion": "认为张麻子不平凡",
+        "Sentiment": "positive",
+        "Rationale": "说话人1提到与张麻子的过往经历，并认为其不平凡"
+    },
+    {
+        "sentence": "竟有如此的缘分。那么，缘从何起？",
+        "Holder": "3",
+        "Target": "缘分",
+        "Aspect": "缘分的来源",
+        "Opinion": "好奇缘分的起因",
+        "Sentiment": "neutral",
+        "Rationale": "对缘分的起因感到好奇"
+    },
+    {
+        "sentence": "灯火阑珊，他蓦然回首，而我却隐藏在灯影里，",
+        "Holder": "1",
+        "Target": "相遇情景",
+        "Aspect": "相遇的描述",
+        "Opinion": "描述相遇的情景",
+        "Sentiment": "neutral",
+        "Rationale": "描述一个具体的相遇情景"
+    },
+    {
+        "sentence": "一个在明处，一个在暗处，",
+        "Holder": "5",
+        "Target": "相遇情景",
+        "Aspect": "位置对比",
+        "Opinion": "明暗对比",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述两人位置的对比"
+    },
+    {
+        "sentence": "安静一点",
+        "Holder": "1",
+        "Target": "环境",
+        "Aspect": "声音大小",
+        "Opinion": "希望环境安静",
+        "Sentiment": "neutral",
+        "Rationale": "希望环境更安静"
+    },
+    {
+        "sentence": "那么彼时彼刻。",
+        "Holder": "3",
+        "Target": "彼时彼刻",
+        "Aspect": "时间的描述",
+        "Opinion": "思考彼时彼刻的情景",
+        "Sentiment": "neutral",
+        "Rationale": "对彼时彼刻的情景进行思考"
+    },
+    {
+        "sentence": "恰如此时此刻。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "相似性",
+        "Opinion": "非常相似",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在描述当前情况与某个特定时刻的相似性"
+    },
+    {
+        "sentence": "竟能如此相像。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "相似性",
+        "Opinion": "非常相似",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3在确认当前情况与某个特定时刻的相似性"
+    },
+    {
+        "sentence": "像，很像不过你比他缺了一样东西，",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "相似性及差异",
+        "Opinion": "相似但有缺失",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在指出3与某人的相似性但同时存在某种缺失"
+    },
+    {
+        "sentence": "不会是脸上的麻子吧",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "外貌特征",
+        "Opinion": "可能是麻子",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人3在猜测自己可能缺失的东西是脸上的麻子"
+    },
+    {
+        "sentence": "当然不是。",
+        "Holder": "1",
+        "Target": "3的猜测",
+        "Aspect": "正确性",
+        "Opinion": "不正确",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在否定3的猜测"
+    },
+    {
+        "sentence": "那么是什么呢？",
+        "Holder": "3",
+        "Target": "话题内容",
+        "Aspect": "话题的明确性",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "对话中需要明确对方所提及的内容"
+    },
+    {
+        "sentence": "你不会装糊涂。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "装糊涂的能力",
+        "Opinion": "缺乏装糊涂的能力",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个关于3的事实"
+    },
+    {
+        "sentence": "准。大哥我还在娘胎里的时候，算命先生就指着我娘的肚子说这孩子将来最大的缺点就是不会装糊涂，我还能改吗？改不了，",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "不会装糊涂的特质",
+        "Opinion": "无法改变",
+        "Sentiment": "negative",
+        "Rationale": "自认为不会装糊涂是天生且无法改变的缺点"
+    },
+    {
+        "sentence": "天生的，你看看这位师爷就是装糊涂的高手刀了，把钱说成刀，刀了。是什么dollar",
+        "Holder": "1",
+        "Target": "师爷",
+        "Aspect": "装糊涂的能力",
+        "Opinion": "装糊涂的高手",
+        "Sentiment": "positive",
+        "Rationale": "1认为师爷能够巧妙地装糊涂"
+    },
+    {
+        "sentence": "us dollar。",
+        "Holder": "5",
+        "Target": "dollar",
+        "Aspect": "货币种类",
+        "Opinion": "指明是美元",
+        "Sentiment": "neutral",
+        "Rationale": "5在对话中只是客观地指出货币种类"
+    },
+    {
+        "sentence": "你看你看装！糊涂的天才！师爷，敬你的。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "智慧和态度",
+        "Opinion": "装糊涂且聪明",
+        "Sentiment": "positive",
+        "Rationale": "1认为5表面上装糊涂但实际上很聪明"
+    },
+    {
+        "sentence": "谢黄老爷颂扬，容老弟就真的糊涂一回，剿匪成功之后追回的烟土，我们只要两成就够。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "回应和分成要求",
+        "Opinion": "感谢并接受少量分成",
+        "Sentiment": "positive",
+        "Rationale": "5感谢1的赞扬并提出了一个相对合理的分成要求"
+    },
+    {
+        "sentence": "不行对半开！为表诚意，预祝剿匪凯旋，180万马上送来！",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "分成比例和诚意",
+        "Opinion": "要求对半分成并展示诚意",
+        "Sentiment": "positive",
+        "Rationale": "1希望以更高的分成比例和立即送钱的行动来表达诚意"
+    },
+    {
+        "sentence": "无功不受禄，现在收钱太早。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "收钱的时机",
+        "Opinion": "认为现在收钱不合适",
+        "Sentiment": "neutral",
+        "Rationale": "3认为在没有实际成果之前收钱不合适"
+    },
+    {
+        "sentence": "黛玉，晴雯",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "ambiguous",
+        "Rationale": "1突然提到两个人名，没有明确的情感和评价对象"
+    },
+    {
+        "sentence": "大哥，美女我也不能要。",
+        "Holder": "3",
+        "Target": "美女",
+        "Aspect": "选择",
+        "Opinion": "不能要",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3认为自己不能接受美女"
+    },
+    {
+        "sentence": "美女不要，钱你也不要，你要什么。",
+        "Holder": "5",
+        "Target": "3的选择",
+        "Aspect": "需求",
+        "Opinion": "不清楚3要什么",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5对3的选择感到困惑"
+    },
+    {
+        "sentence": "腿。",
+        "Holder": "3",
+        "Target": "腿",
+        "Aspect": "选择",
+        "Opinion": "要腿",
+        "Sentiment": "neutral",
+        "Rationale": "说话人3选择了腿"
+    },
+    {
+        "sentence": "什么腿？",
+        "Holder": "5",
+        "Target": "3的选择",
+        "Aspect": "具体内容",
+        "Opinion": "不清楚具体是什么腿",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5对3所说的腿感到困惑"
+    },
+    {
+        "sentence": "江湖豪情侠胆柔肠之大腿。哥！",
+        "Holder": "3",
+        "Target": "腿",
+        "Aspect": "具体描述",
+        "Opinion": "江湖豪情侠胆柔肠之大腿",
+        "Sentiment": "positive",
+        "Rationale": "说话人3用夸张和幽默的方式描述了自己想要的腿"
+    },
+    {
+        "sentence": "弟！",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的称呼，没有表达出明显的情感"
+    },
+    {
+        "sentence": "你的腿就是我的腿你的腿，就是我的命，有道是江湖，本无路，有了腿便有了路。",
+        "Holder": "3",
+        "Target": "腿",
+        "Aspect": "重要性",
+        "Opinion": "腿非常重要",
+        "Sentiment": "positive",
+        "Rationale": "强调了腿对于行走和生存的重要性"
+    },
+    {
+        "sentence": "明白。",
+        "Holder": "1",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的表示理解，没有表达出明显的情感"
+    },
+    {
+        "sentence": "我也明白。",
+        "Holder": "5",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的表示理解，没有表达出明显的情感"
+    },
+    {
+        "sentence": "该死的东西，",
+        "Holder": "1",
+        "Target": "某物",
+        "Aspect": "评价",
+        "Opinion": "非常讨厌",
+        "Sentiment": "negative",
+        "Rationale": "使用了‘该死’这样的负面词汇"
+    },
+    {
+        "sentence": "花有重开日，人无再少年。姑娘如花似玉，大哥怒不得。",
+        "Holder": "3",
+        "Target": "姑娘",
+        "Aspect": "外貌",
+        "Opinion": "如花似玉",
+        "Sentiment": "positive",
+        "Rationale": "姑娘的外貌非常美丽"
+    },
+    {
+        "sentence": "黄老爷，放松点。",
+        "Holder": "5",
+        "Target": "黄老爷",
+        "Aspect": "情绪状态",
+        "Opinion": "需要放松",
+        "Sentiment": "neutral",
+        "Rationale": "看到黄老爷可能有些紧张或生气"
+    },
+    {
+        "sentence": "哈哈，相见恨晚，姑娘钻石一并送上",
+        "Holder": "1",
+        "Target": "姑娘",
+        "Aspect": "礼物",
+        "Opinion": "送上钻石",
+        "Sentiment": "positive",
+        "Rationale": "觉得与姑娘相见恨晚"
+    },
+    {
+        "sentence": "我带夫人来的，再收姑娘不方便，",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "行为合理性",
+        "Opinion": "收礼不方便",
+        "Sentiment": "neutral",
+        "Rationale": "带着夫人不便再接受其他女性的礼物"
+    },
+    {
+        "sentence": "那钻石送夫人，",
+        "Holder": "1",
+        "Target": "夫人",
+        "Aspect": "礼物",
+        "Opinion": "送钻石",
+        "Sentiment": "positive",
+        "Rationale": "考虑到对方的夫人"
+    },
+    {
+        "sentence": "好我先替他收着。不是黛玉和晴雯吗？怎么就来了一只女子。",
+        "Holder": "5",
+        "Target": "来的人",
+        "Aspect": "身份",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "预期是黛玉和晴雯，但实际只来了一只女子"
+    },
+    {
+        "sentence": "莫非她就叫黛玉，晴雯",
+        "Holder": "3",
+        "Target": "来的人",
+        "Aspect": "名字",
+        "Opinion": "猜测",
+        "Sentiment": "neutral",
+        "Rationale": "对来的人的名字不确定"
+    },
+    {
+        "sentence": "说你不会装糊涂，起了个东洋名字，黛玉晴雯子。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "名字的合理性",
+        "Opinion": "批评",
+        "Sentiment": "negative",
+        "Rationale": "认为5起的东洋名字不合理"
+    },
+    {
+        "sentence": "全死了",
+        "Holder": "5",
+        "Target": "黛玉和晴雯",
+        "Aspect": "状态",
+        "Opinion": "死亡",
+        "Sentiment": "negativenegative",
+        "Rationale": "提到黛玉和晴雯都死了"
+    },
+    {
+        "sentence": "师爷，高！县长，硬！",
+        "Holder": "1",
+        "Target": "师爷和县长",
+        "Aspect": "能力",
+        "Opinion": "赞扬",
+        "Sentiment": "positive",
+        "Rationale": "认为师爷和县长能力强"
+    },
+    {
+        "sentence": "黄老爷又高又硬",
+        "Holder": "3",
+        "Target": "黄老爷",
+        "Aspect": "身材特征",
+        "Opinion": "高且硬",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观描述黄老爷的身材特征，没有明显的情感倾向"
+    }
+]

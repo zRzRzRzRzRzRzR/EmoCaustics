@@ -1,0 +1,53 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论赛主持与议题引导",
+        "emotions": [
+          {"state": "neutral", "reason": "介绍辩题流程", "source_id": "1"},
+          {"state": "positive", "reason": "高度评价悬疑师兄的辩论价值", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑社会控制言论边界的必要性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "偏见本质的多维度论证",
+        "emotions": [
+          {"state": "negative", "reason": "个人风格被误解为故弄玄虚", "source_id": "1"},
+          {"state": "positive", "reason": "主张正能量偏见的社会价值", "source_id": "2"},
+          {"state": "negative", "reason": "反对设立偏见审查委员会", "source_id": "3"},
+          {"state": "positive", "reason": "强调人性光明面汇聚机制", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "极端言论案例剖析",
+        "emotions": [
+          {"state": "negative", "reason": "分析主老师言论的悲哀本质", "source_id": "3"},
+          {"state": "positive", "reason": "肯定负面案例的教育意义", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "网络言论的集体影响",
+        "emotions": [
+          {"state": "negative", "reason": "揭示零距离传播的恶意放大效应", "source_id": "3"},
+          {"state": "negative", "reason": "批判浅层案例分析的局限性", "source_id": "2"},
+          {"state": "negative", "reason": "强调极端言论扩散危害性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "言论自由边界重构",
+        "emotions": [
+          {"state": "positive", "reason": "主张宣扬性表达的权利限制", "source_id": "3"},
+          {"state": "neutral", "reason": "类比个体与集体行为差异", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

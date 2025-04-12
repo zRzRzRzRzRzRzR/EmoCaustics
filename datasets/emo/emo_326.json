@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭经济与购房争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑2的工作忙碌真实性及经济独立性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "认为2未将家人视为共同家庭成员",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧林小月冻结股份的后果",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "对服务费用合理性提出质疑",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "信任危机与情感矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因房产证加名问题感到被排斥",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "解释保护2的初始动机",
+            "source_id": "self"
+          },
+          {
+            "state": "negative",
+            "reason": "自责未能获得理解支持",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭目标与价值观冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "为共同生活目标付出努力",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "对1隐瞒王东亮事件感到被欺骗",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调林小月的知情权重要性",
+            "source_id": "self"
+          }
+        ]
+      },
+      {
+        "event": "经济独立与服务争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝支付额外服务费用",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "支持当事人自主决策原则",
+            "source_id": "self"
+          },
+          {
+            "state": "negative",
+            "reason": "对深夜工作要求感到不满",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

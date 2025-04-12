@@ -1,0 +1,569 @@
+[
+    {
+        "sentence": "我不想进牢子啊！",
+        "Holder": "1",
+        "Target": "进牢子",
+        "Aspect": "个人意愿",
+        "Opinion": "不想进牢子",
+        "Sentiment": "negative",
+        "Rationale": "害怕失去自由和面对牢狱之苦"
+    },
+    {
+        "sentence": "于曼，怎么办？这些可都是你让我。",
+        "Holder": "1",
+        "Target": "于曼",
+        "Aspect": "责任归属",
+        "Opinion": "认为是于曼的责任",
+        "Sentiment": "negative",
+        "Rationale": "认为是于曼让自己陷入困境"
+    },
+    {
+        "sentence": "你不想进牢子，我更不想！",
+        "Holder": "2",
+        "Target": "进牢子",
+        "Aspect": "个人意愿",
+        "Opinion": "更不想进牢子",
+        "Sentiment": "negative",
+        "Rationale": "同样害怕失去自由和面对牢狱之苦"
+    },
+    {
+        "sentence": "督察同志，这两个人的关系可不一般，一定要好好排查一下。",
+        "Holder": "3",
+        "Target": "1和2的关系",
+        "Aspect": "关系特殊性",
+        "Opinion": "关系不一般",
+        "Sentiment": "neutral",
+        "Rationale": "观察到1和2之间的特殊关系"
+    },
+    {
+        "sentence": "这个你放心，一定给你一个满意的答案。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "承诺",
+        "Opinion": "会给出满意答案",
+        "Sentiment": "positive",
+        "Rationale": "4想要安抚3的情绪"
+    },
+    {
+        "sentence": "于曼，至于你，我已经让律师拟好了合同，我不想再跟你有任何瓜葛了，我们之间结束了。",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "关系结束",
+        "Opinion": "坚决结束关系",
+        "Sentiment": "negative",
+        "Rationale": "3已经决定彻底断绝与于曼的关系"
+    },
+    {
+        "sentence": "苏诚，你怀疑我，调查我，我都能理解，但是你不能跟我离婚啊！我肚子里怀着是你的骨肉，难道你也不要他了吗？他还这么小，他还没有来到这个世界上，他不能没有爸爸！",
+        "Holder": "2",
+        "Target": "苏诚",
+        "Aspect": "离婚决定",
+        "Opinion": "反对离婚",
+        "Sentiment": "negative",
+        "Rationale": "2怀着孩子却面临离婚"
+    },
+    {
+        "sentence": "我们之间离婚的事情，没有任何商量的余地。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "离婚决定",
+        "Opinion": "坚决离婚",
+        "Sentiment": "negative",
+        "Rationale": "3已经下定决心离婚"
+    },
+    {
+        "sentence": "从你想要伤害念念的那一刻起，你就应该知道我们之间完了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "关系破裂的原因",
+        "Opinion": "因伤害行为导致关系破裂",
+        "Sentiment": "negative",
+        "Rationale": "2曾经试图伤害念念"
+    },
+    {
+        "sentence": "至于你肚子里的孩子，如果你决定要生下来，我一定会跟你争夺抚养权，因为我不希望他被你教养歪了。如果你选择不生，我也尊重你的选择。",
+        "Holder": "3",
+        "Target": "孩子",
+        "Aspect": "抚养权",
+        "Opinion": "争夺抚养权",
+        "Sentiment": "negative",
+        "Rationale": "担心孩子被错误教养"
+    },
+    {
+        "sentence": "苏诚，我错了，我承认是我一时鬼迷心窍，我瞒报了念念手臂的位置，我该死，但是我从来都没有想过要害念念。我这么做的一切，都是因为我太爱你了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "错误行为",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "自己犯了错误并感到内疚"
+    },
+    {
+        "sentence": "苏诚，求求你，我求求你原谅我，你给我一次机会，我一定把念念当成自己的亲生孩子来疼爱。你相信我！",
+        "Holder": "2",
+        "Target": "苏诚",
+        "Aspect": "原谅",
+        "Opinion": "请求原谅",
+        "Sentiment": "negative",
+        "Rationale": "希望得到原谅并有机会改正"
+    },
+    {
+        "sentence": "我呸！你当初跟苏诚结婚的时候，对我保证过什么？你说被念念视如己出，你口口声声说，不想害念念，但你却三番五次阻止我去救人！我这辈子最后悔的事，就是让你这个毒妇进了我苏家的门！",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "承诺与行为",
+        "Opinion": "指责不守承诺",
+        "Sentiment": "negative",
+        "Rationale": "2的行为违背了当初的承诺"
+    },
+    {
+        "sentence": "妈，妈！你听我说，我说的一切的真的，你相信我。是因为我真的动了胎气，所以我才不让你下车。我没有想到你会跳车。妈，我以为你犯了病，我是真的，我是真的为了你好！",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "解释行为",
+        "Opinion": "辩解",
+        "Sentiment": "negative",
+        "Rationale": "希望得到理解并解释自己的行为"
+    },
+    {
+        "sentence": "你到现在还在撒谎！",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "诚实",
+        "Opinion": "3在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "5认为3一直在撒谎"
+    },
+    {
+        "sentence": "哎，妈，你别激动。妈，没有必要动怒。现在我们只需要等督察的调查结果就行了。",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "情绪控制",
+        "Opinion": "应该冷静等待调查结果",
+        "Sentiment": "neutral",
+        "Rationale": "因为3认为等待调查结果是最合理的做法，所以保持中立的态度劝解5"
+    },
+    {
+        "sentence": "督察同志，不好意思，把他们带走吧。",
+        "Holder": "3",
+        "Target": "督察",
+        "Aspect": "请求行动",
+        "Opinion": "请求带走相关人员",
+        "Sentiment": "neutral",
+        "Rationale": "因为3希望事情能够得到妥善处理，所以礼貌地请求督察采取行动"
+    },
+    {
+        "sentence": "不，苏诚，你难道真的这么狠心吗？就不担心肚子里的亲生骨肉出了这么三长两短？",
+        "Holder": "2",
+        "Target": "苏诚",
+        "Aspect": "对亲生骨肉的关心",
+        "Opinion": "狠心",
+        "Sentiment": "negative",
+        "Rationale": "苏诚对肚子里的亲生骨肉不关心"
+    },
+    {
+        "sentence": "于曼，直到现在你还在拿肚子里的孩子威胁我。我告诉你，现在已经不管用了，无论发生什么，你必须要接受调查！你也必须从苏家净身出户。",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "威胁手段的有效性",
+        "Opinion": "无效",
+        "Sentiment": "negative",
+        "Rationale": "于曼一直用孩子威胁，但现在已经不管用"
+    },
+    {
+        "sentence": "你们放开我！",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "negative",
+        "Rationale": "被束缚或限制自由"
+    },
+    {
+        "sentence": "于曼！你不是说哪怕是东窗事发了，也能用你肚子里的孩子来威胁苏总吗？怎么他压根儿都不在乎你和你肚子里的孩子？",
+        "Holder": "1",
+        "Target": "于曼",
+        "Aspect": "威胁手段的有效性",
+        "Opinion": "无效",
+        "Sentiment": "negative",
+        "Rationale": "苏总不在乎于曼和孩子"
+    },
+    {
+        "sentence": "蠢货闭嘴！",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "言语行为",
+        "Opinion": "对方言语不当",
+        "Sentiment": "negative",
+        "Rationale": "对方言语不当"
+    },
+    {
+        "sentence": "你胡说八道什么？",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "言语内容",
+        "Opinion": "对方言语不实",
+        "Sentiment": "negative",
+        "Rationale": "对方言语不实"
+    },
+    {
+        "sentence": "刘大强，你刚刚说什么？再说一遍。",
+        "Holder": "4",
+        "Target": "2的言语",
+        "Aspect": "言语内容",
+        "Opinion": "要求重复言语",
+        "Sentiment": "neutral",
+        "Rationale": "没听清楚对方的言语"
+    },
+    {
+        "sentence": "我说！我来说。都是刘大强，他威胁我，他威胁我这么做的。",
+        "Holder": "2",
+        "Target": "刘大强",
+        "Aspect": "行为动机",
+        "Opinion": "被刘大强威胁",
+        "Sentiment": "negative",
+        "Rationale": "被刘大强威胁"
+    },
+    {
+        "sentence": "他说如果我不去害念念，他就会要了我的命。我也是没有办法了，才按照他说的去做。他都是为了报复苏诚！都是他，是他威胁我的，跟我没有任何关系！",
+        "Holder": "2",
+        "Target": "刘大强",
+        "Aspect": "行为动机",
+        "Opinion": "被刘大强威胁",
+        "Sentiment": "negative",
+        "Rationale": "刘大强威胁要命"
+    },
+    {
+        "sentence": "你这个恶毒的贱女人！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "人品",
+        "Opinion": "恶毒",
+        "Sentiment": "negative",
+        "Rationale": "1认为4想要害苏念并且撒谎"
+    },
+    {
+        "sentence": "干什么？",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "4不清楚1为何突然发怒"
+    },
+    {
+        "sentence": "明明是你想要害苏念，让我帮着你，你怎么敢撒谎，推到我身上？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "责任归属",
+        "Opinion": "4撒谎",
+        "Sentiment": "negative",
+        "Rationale": "1认为4想要害苏念并且把责任推给自己"
+    },
+    {
+        "sentence": "你敢打我？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不敢置信",
+        "Sentiment": "negative",
+        "Rationale": "2没想到1会动手打自己"
+    },
+    {
+        "sentence": "明明是你记恨苏诚，你说他之前骂你工作不认真，说要开除你，所以你就要报复苏念。和我有什么关系？",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "动机",
+        "Opinion": "4记恨苏诚",
+        "Sentiment": "negative",
+        "Rationale": "2认为4记恨苏诚而报复苏念，和自己无关"
+    },
+    {
+        "sentence": "你这婊子想让我当你的背锅侠？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "责任推卸",
+        "Opinion": "指责4推卸责任",
+        "Sentiment": "negative",
+        "Rationale": "认为4试图让自己承担不应有的责任"
+    },
+    {
+        "sentence": "当初怎么就信了你的邪？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "信任问题",
+        "Opinion": "后悔信任4",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己当初错误地信任了4"
+    },
+    {
+        "sentence": "老子他妈的弄死你！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "威胁",
+        "Opinion": "强烈威胁4",
+        "Sentiment": "negative",
+        "Rationale": "对4的行为极度愤怒"
+    },
+    {
+        "sentence": "你这到底怎么回事？说！",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行为原因",
+        "Opinion": "要求解释",
+        "Sentiment": "negative",
+        "Rationale": "对1的突然暴怒感到困惑和不满"
+    },
+    {
+        "sentence": "是她，是她逼我的！",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "逼迫行为",
+        "Opinion": "被逼迫",
+        "Sentiment": "negative",
+        "Rationale": "被她逼迫做某事"
+    },
+    {
+        "sentence": "她现在可是老板娘！她说的话我敢不做吗？",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "地位和权力",
+        "Opinion": "不得不服从",
+        "Sentiment": "negative",
+        "Rationale": "她是老板娘，地位高权力大"
+    },
+    {
+        "sentence": "再说了，我也没有理由我要害苏念，我根本就不认识她。",
+        "Holder": "1",
+        "Target": "苏念",
+        "Aspect": "动机和关系",
+        "Opinion": "无动机且不认识",
+        "Sentiment": "neutral",
+        "Rationale": "没有动机且不认识苏念"
+    },
+    {
+        "sentence": "你给我闭嘴！以为长个狗嘴，就能随便咬人了吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "言语攻击",
+        "Opinion": "指责对方乱说话",
+        "Sentiment": "negative",
+        "Rationale": "认为1在无端指责和攻击"
+    },
+    {
+        "sentence": "你说是他指使你的，有证据吗？",
+        "Holder": "3",
+        "Target": "1的指控",
+        "Aspect": "证据的可靠性",
+        "Opinion": "怀疑",
+        "Sentiment": "neutral",
+        "Rationale": "3需要确认1的指控是否有依据"
+    },
+    {
+        "sentence": "监控，你们可以去查监控！",
+        "Holder": "1",
+        "Target": "指控的证据",
+        "Aspect": "证据的存在",
+        "Opinion": "有证据",
+        "Sentiment": "positive",
+        "Rationale": "1认为监控可以作为证据支持自己的指控"
+    },
+    {
+        "sentence": "可是监控已经被人清除干净了，查不了监控。",
+        "Holder": "6",
+        "Target": "监控证据",
+        "Aspect": "证据的可查性",
+        "Opinion": "无法查证",
+        "Sentiment": "negative",
+        "Rationale": "监控被清除导致无法查证"
+    },
+    {
+        "sentence": "这个贱人想让我去删监控，还好我留了心眼，没敢动备份。否则，真是有口难言，被这贱人害惨了！",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "行为的险恶",
+        "Opinion": "险恶",
+        "Sentiment": "negative",
+        "Rationale": "1差点被某人陷害"
+    },
+    {
+        "sentence": "监控备份在哪里？交出来。",
+        "Holder": "3",
+        "Target": "监控备份",
+        "Aspect": "备份的位置",
+        "Opinion": "要求交出",
+        "Sentiment": "neutral",
+        "Rationale": "3需要监控备份来查证事实"
+    },
+    {
+        "sentence": "那边墙缝里，有个U盘，我偷偷藏那了，你们去拿！",
+        "Holder": "1",
+        "Target": "U盘",
+        "Aspect": "U盘的隐藏位置",
+        "Opinion": "已经藏好",
+        "Sentiment": "neutral",
+        "Rationale": "1告诉其他人U盘的隐藏位置"
+    },
+    {
+        "sentence": "找到了。",
+        "Holder": "4",
+        "Target": "U盘",
+        "Aspect": "U盘的寻找结果",
+        "Opinion": "找到",
+        "Sentiment": "positive",
+        "Rationale": "4成功找到了U盘"
+    },
+    {
+        "sentence": "U盘里监控记录了她指使我拉断电闸，还有今早她联系我，让我不要管苏念死活的证据！",
+        "Holder": "1",
+        "Target": "U盘内容",
+        "Aspect": "证据内容",
+        "Opinion": "包含重要证据",
+        "Sentiment": "negative",
+        "Rationale": "1提到U盘中有不利于某人的证据"
+    },
+    {
+        "sentence": "你说什么？你说她让你不要管苏念的死活？",
+        "Holder": "3",
+        "Target": "1的陈述",
+        "Aspect": "陈述的内容",
+        "Opinion": "震惊",
+        "Sentiment": "negative",
+        "Rationale": "3听到1说有人让1不要管苏念的死活"
+    },
+    {
+        "sentence": "把你知道的都说出来，敢说一句谎话，不会放过你！",
+        "Holder": "3",
+        "Target": "1的诚实",
+        "Aspect": "说出真相的要求",
+        "Opinion": "要求完全诚实",
+        "Sentiment": "negative",
+        "Rationale": "怀疑1可能说谎"
+    },
+    {
+        "sentence": "好，我说。",
+        "Holder": "1",
+        "Target": "3的要求",
+        "Aspect": "回应态度",
+        "Opinion": "同意说出真相",
+        "Sentiment": "neutral",
+        "Rationale": "面对3的威胁，选择顺从以避免进一步的冲突"
+    },
+    {
+        "sentence": "今天早上我刚到工地，就接到了于曼发给我的信息。",
+        "Holder": "1",
+        "Target": "于曼的信息",
+        "Aspect": "信息接收时间",
+        "Opinion": "信息是早上收到的",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是一个客观事实"
+    },
+    {
+        "sentence": "事情就是这样，监控里也拍到了！我当时那个时间点收到的短信，而且她发给我的短信，我都留着，就是这个贱人逼我这么做的！",
+        "Holder": "1",
+        "Target": "于曼的行为",
+        "Aspect": "逼迫的指控",
+        "Opinion": "于曼是逼迫者",
+        "Sentiment": "negative",
+        "Rationale": "认为于曼是逼迫自己做事的罪魁祸首"
+    },
+    {
+        "sentence": "我只是一个来讨生活的包工头，那没有她的授意，我怎么敢有胆做这种事？",
+        "Holder": "1",
+        "Target": "自己的行为动机",
+        "Aspect": "行为合理性",
+        "Opinion": "行为受于曼指使",
+        "Sentiment": "negative",
+        "Rationale": "强调自己不敢主动做这种事，认为是于曼的指使导致自己不得不做"
+    },
+    {
+        "sentence": "你这个畜生！",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "个人品行",
+        "Opinion": "品行恶劣",
+        "Sentiment": "negative",
+        "Rationale": "3认为4的行为极其恶劣"
+    },
+    {
+        "sentence": "你明明知道苏念在上面，你居然敢阻拦医疗队！",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "行为合理性",
+        "Opinion": "阻拦医疗队不合理",
+        "Sentiment": "negative",
+        "Rationale": "4明知苏念在上面却阻拦医疗队"
+    },
+    {
+        "sentence": "冷静，冷静。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "情绪控制",
+        "Opinion": "建议冷静",
+        "Sentiment": "neutral",
+        "Rationale": "4希望3能冷静下来"
+    },
+    {
+        "sentence": "我告诉你，你们俩都是差点害死我女儿的凶手！",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "责任归属",
+        "Opinion": "认为是凶手",
+        "Sentiment": "negative",
+        "Rationale": "3认为4的行为差点导致女儿死亡"
+    },
+    {
+        "sentence": "我发誓，我一定让你们俩付出代价！等着吃官司吧。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "法律后果",
+        "Opinion": "要追究法律责任",
+        "Sentiment": "negative",
+        "Rationale": "3决心要让4承担法律责任"
+    },
+    {
+        "sentence": "老太太，我知道你心善，我是钱迷心窍了，我上有老下有小，全家指着我吃饭呢。你能不能给苏总求情，让他放过我？要算账你们找于曼呐，别找我！",
+        "Holder": "1",
+        "Target": "苏总",
+        "Aspect": "求情",
+        "Opinion": "请求放过",
+        "Sentiment": "negative",
+        "Rationale": "说话人意识到自己的错误，但希望通过求情来避免责任"
+    },
+    {
+        "sentence": "念念在医院抢救，如果换做你的孩子躺在医院，你能原谅这个恶人吗？",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "原谅",
+        "Opinion": "不能原谅",
+        "Sentiment": "negative",
+        "Rationale": "说话人的孩子正在医院抢救，情绪激动，无法原谅造成这种情况的人"
+    },
+    {
+        "sentence": "确实如刘大强所言，我查看短信，是于曼先提出的。",
+        "Holder": "4",
+        "Target": "于曼",
+        "Aspect": "责任",
+        "Opinion": "于曼先提出",
+        "Sentiment": "neutral",
+        "Rationale": "说话人通过查看短信确认了事实"
+    },
+    {
+        "sentence": "并且我刚刚查看监控，电闸也是于曼授意刘大强关的。",
+        "Holder": "4",
+        "Target": "于曼",
+        "Aspect": "责任",
+        "Opinion": "于曼授意",
+        "Sentiment": "neutral",
+        "Rationale": "说话人通过监控确认了事实"
+    },
+    {
+        "sentence": "是我又怎么样？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "责任",
+        "Opinion": "无所谓",
+        "Sentiment": "negative",
+        "Rationale": "说话人被指责，表现出一种抵触和无奈的情绪"
+    }
+]

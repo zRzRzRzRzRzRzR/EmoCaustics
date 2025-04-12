@@ -1,0 +1,104 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于家庭边界与KPI合理性的辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为对方混淆视听，将不相关的问题引入讨论",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对全职儿女供需关系的质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "对供需匹配概念的理解需求",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑父母单方面付费的公平性",
+            "source_id": "3"
+          },
+          {
+            "state": "doubt",
+            "reason": "怀疑家庭管理技能的职业适用性",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "反对将家庭关系与职场混为一谈",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "关于家庭KPI合理性的争论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为父母要求子女结婚生子是越界",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "认可亲情关系无需全职标签",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "阐释全职儿女的独特价值",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞赏深度提问并解释情感供需关系",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出家庭内循环GDP新计算模型",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "反思大城市打拼的经济负担",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调消费升级带来的家庭关系改善",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "职业技能可迁移性的论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "类比恋爱经验说明技能普适性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张明确边界促进健康家庭关系",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

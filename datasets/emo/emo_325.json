@@ -1,0 +1,37 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "信任危机与沟通破裂",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑酒后行为真实性", "source_id": "2"},
+          {"state": "doubt", "reason": "质疑对方换位思考的可能性", "source_id": "2"},
+          {"state": "negative", "reason": "决定结束关系并提出分手", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "第三方介入冲突",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝讨论第三方人物", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "信任验证与关系维护",
+        "emotions": [
+          {"state": "negative", "reason": "无法获得基本信任", "source_id": "1"},
+          {"state": "negative", "reason": "被误解分手意图", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "事实核查争议",
+        "emotions": [
+          {"state": "doubt", "reason": "提议通过第三方验证事实", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

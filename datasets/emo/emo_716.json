@@ -1,0 +1,53 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "排位结果与游戏表现争议",
+        "emotions": [
+          {"state": "negative", "reason": "排位下降引发挫败感", "source_id": "6"},
+          {"state": "negative", "reason": "对方玩家水平差异质疑", "source_id": "3"},
+          {"state": "ambiguous", "reason": "被调侃直播标题含义", "source_id": "6"},
+          {"state": "negative", "reason": "技能效果与助攻价值争议", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "团队策略协调冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "无人机启动需求", "source_id": "6"},
+          {"state": "negative", "reason": "闪光弹误伤责任归属", "source_id": "6"},
+          {"state": "positive", "reason": "探索神秘地点的兴趣", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "战术执行与责任划分",
+        "emotions": [
+          {"state": "negative", "reason": "闪光弹使用效果不满", "source_id": "2"},
+          {"state": "positive", "reason": "认同飞哥战术理念", "source_id": "2"},
+          {"state": "neutral", "reason": "确认团队经济状况", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "游戏环境应对策略",
+        "emotions": [
+          {"state": "negative", "reason": "被敌人假烟战术困扰", "source_id": "2"},
+          {"state": "negative", "reason": "角色死亡责任认定", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "游戏行为解释",
+        "emotions": [
+          {"state": "neutral", "reason": "跑动射击策略说明", "source_id": "2"},
+          {"state": "negative", "reason": "被错误指控发言否认", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

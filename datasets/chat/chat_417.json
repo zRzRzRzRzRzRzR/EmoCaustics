@@ -1,0 +1,533 @@
+[
+    {
+        "sentence": "明明姐让我跟你说那件文物可是宝贝，千万小心点。",
+        "Holder": "1",
+        "Target": "文物",
+        "Aspect": "文物的价值",
+        "Opinion": "文物是宝贝",
+        "Sentiment": "positive",
+        "Rationale": "文物被描述为宝贝，具有重要价值"
+    },
+    {
+        "sentence": "没事，要是万一坏了的话我再去捡呗。",
+        "Holder": "2",
+        "Target": "文物",
+        "Aspect": "文物的损坏可能性",
+        "Opinion": "不担心损坏",
+        "Sentiment": "neutral",
+        "Rationale": "认为即使文物损坏也可以再找到"
+    },
+    {
+        "sentence": "还能再捡着啊？你在哪捡着的？",
+        "Holder": "1",
+        "Target": "文物的再获取可能性",
+        "Aspect": "文物的获取地点",
+        "Opinion": "怀疑能否再捡到",
+        "Sentiment": "doubt",
+        "Rationale": "对能否再次找到文物表示怀疑"
+    },
+    {
+        "sentence": "荒郊野岭呗",
+        "Holder": "2",
+        "Target": "文物的获取地点",
+        "Aspect": "地点的描述",
+        "Opinion": "地点偏僻",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述了文物获取的地点，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "什么时候",
+        "Holder": "2",
+        "Target": "时间",
+        "Aspect": "具体时间",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解具体的时间信息"
+    },
+    {
+        "sentence": "具体点",
+        "Holder": "2",
+        "Target": "时间",
+        "Aspect": "具体时间",
+        "Opinion": "需要更具体的时间",
+        "Sentiment": "neutral",
+        "Rationale": "需要更详细的时间信息"
+    },
+    {
+        "sentence": "我这个具体，这个地儿的名我倒是不知道，是不是明明让你来问我的",
+        "Holder": "1",
+        "Target": "地点名称",
+        "Aspect": "地点的明确性",
+        "Opinion": "不知道地点名称",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚具体的地点名称"
+    },
+    {
+        "sentence": "哪是她呀？",
+        "Holder": "2",
+        "Target": "询问对象",
+        "Aspect": "对象的身份",
+        "Opinion": "质疑对象的身份",
+        "Sentiment": "doubt",
+        "Rationale": "对对方的身份产生疑问"
+    },
+    {
+        "sentence": "既然不是她，哼，那我就没有时间和你聊了，我要开始创作了",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "对话的必要性",
+        "Opinion": "没有必要继续对话",
+        "Sentiment": "negative",
+        "Rationale": "对话对象不是预期的人"
+    },
+    {
+        "sentence": "看来刘星你识破了我的意图",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "意图的识破",
+        "Opinion": "意图被识破",
+        "Sentiment": "neutral",
+        "Rationale": "4的意图被1识破"
+    },
+    {
+        "sentence": "他是不会轻易交代的",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "交代的意愿",
+        "Opinion": "不愿意交代",
+        "Sentiment": "negative",
+        "Rationale": "1认为他不会轻易透露信息"
+    },
+    {
+        "sentence": "那怎么办呢？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "解决问题的方法",
+        "Opinion": "困惑于如何解决问题",
+        "Sentiment": "neutral",
+        "Rationale": "因为4对当前情况感到困惑，不知道如何解决问题，所以表现出一种寻求帮助的态度"
+    },
+    {
+        "sentence": "如果真如他所说，可能会有重大考古发现，那我的作业就太棒了",
+        "Holder": "4",
+        "Target": "可能的考古发现",
+        "Aspect": "作业的质量",
+        "Opinion": "期待通过重大发现提升作业质量",
+        "Sentiment": "positive",
+        "Rationale": "因为4期待通过重大发现来提升自己的作业水平，所以表现出积极的情绪"
+    },
+    {
+        "sentence": "行，那我就忍辱负重求他一回。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "求人的态度",
+        "Opinion": "忍辱负重",
+        "Sentiment": "negative",
+        "Rationale": "需要求人而感到屈辱"
+    },
+    {
+        "sentence": "要上钩了，哈哈哈。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "求人的结果",
+        "Opinion": "即将成功",
+        "Sentiment": "positive",
+        "Rationale": "看到对方即将答应自己的要求"
+    },
+    {
+        "sentence": "刘星啊。那个你这幅画吧，其实仔细看还是画的不错。",
+        "Holder": "2",
+        "Target": "刘星的画",
+        "Aspect": "画的质量",
+        "Opinion": "不错",
+        "Sentiment": "positive",
+        "Rationale": "仔细看了刘星的画后觉得画得不错"
+    },
+    {
+        "sentence": "某些人不是还说可惜了这张纸吗？",
+        "Holder": "4",
+        "Target": "某些人",
+        "Aspect": "对画的态度",
+        "Opinion": "可惜了纸",
+        "Sentiment": "negative",
+        "Rationale": "之前有人认为画得不好浪费了纸"
+    },
+    {
+        "sentence": "看你真是一点幽默感都没有。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "幽默感",
+        "Opinion": "没有幽默感",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方缺乏幽默感"
+    },
+    {
+        "sentence": "是，您这是黑色幽默吧？",
+        "Holder": "4",
+        "Target": "2的话语",
+        "Aspect": "话语的幽默性",
+        "Opinion": "认为是黑色幽默",
+        "Sentiment": "ambiguous",
+        "Rationale": "4对2的话语感到不解，不确定是否真的是幽默"
+    },
+    {
+        "sentence": "那个你这画真的画得很好。",
+        "Holder": "4",
+        "Target": "2的画作",
+        "Aspect": "画作的质量",
+        "Opinion": "画得很好",
+        "Sentiment": "positive",
+        "Rationale": "4认为2的画作质量很高"
+    },
+    {
+        "sentence": "送我吧？",
+        "Holder": "4",
+        "Target": "2的画作",
+        "Aspect": "画作的所有权",
+        "Opinion": "希望得到画作",
+        "Sentiment": "neutral",
+        "Rationale": "4希望得到2的画作"
+    },
+    {
+        "sentence": "不成，我这张画是要拿去参加展览的。",
+        "Holder": "2",
+        "Target": "4的请求",
+        "Aspect": "请求的可行性",
+        "Opinion": "不能送",
+        "Sentiment": "negative",
+        "Rationale": "2的画作有特定的用途，不能送给4"
+    },
+    {
+        "sentence": "那个你能送我一张这个画的照片吗？",
+        "Holder": "4",
+        "Target": "2的画作照片",
+        "Aspect": "照片的所有权",
+        "Opinion": "希望得到照片",
+        "Sentiment": "neutral",
+        "Rationale": "4在无法得到原画的情况下，退而求其次希望得到照片"
+    },
+    {
+        "sentence": "那倒是可以啊，需要我的签名吗？",
+        "Holder": "4",
+        "Target": "签名请求",
+        "Aspect": "签名的可能性",
+        "Opinion": "愿意签名",
+        "Sentiment": "positive",
+        "Rationale": "愿意提供签名"
+    },
+    {
+        "sentence": "大艺术家肯签名啊。那最好了，简直是太好了，太肉麻了。",
+        "Holder": "4",
+        "Target": "4的签名",
+        "Aspect": "签名的价值",
+        "Opinion": "非常高兴",
+        "Sentiment": "positive",
+        "Rationale": "对方愿意签名，感到非常满意和兴奋"
+    },
+    {
+        "sentence": "我以前对你态度不是特别好，你不会介意吧？",
+        "Holder": "2",
+        "Target": "2以前的态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "担心对方介意",
+        "Sentiment": "doubt",
+        "Rationale": "以前对对方态度不好，担心对方会介意"
+    },
+    {
+        "sentence": "当然不介意了，我不和你这种人一般见识。你到底有什么事儿赶紧说吧，别老拐弯抹角啦。",
+        "Holder": "4",
+        "Target": "2的道歉",
+        "Aspect": "对道歉的反应",
+        "Opinion": "不介意但催促",
+        "Sentiment": "neutral",
+        "Rationale": "虽然不介意对方以前的态度，但希望对方直接说明来意"
+    },
+    {
+        "sentence": "那瓶子真是你捡的？",
+        "Holder": "2",
+        "Target": "瓶子的来源",
+        "Aspect": "真实性的疑问",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "对瓶子的来源感到怀疑"
+    },
+    {
+        "sentence": "这瓶子当然是我捡的，喜欢呀，我可以考虑考虑送给你。",
+        "Holder": "4",
+        "Target": "瓶子",
+        "Aspect": "瓶子的来源",
+        "Opinion": "愿意赠送",
+        "Sentiment": "positive",
+        "Rationale": "说话人4愿意考虑将捡到的瓶子送给对方"
+    },
+    {
+        "sentence": "不是诶。就是问问是哪儿捡的。",
+        "Holder": "2",
+        "Target": "瓶子的来源",
+        "Aspect": "瓶子的捡拾地点",
+        "Opinion": "单纯询问",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2只是单纯地询问瓶子的捡拾地点"
+    },
+    {
+        "sentence": "那可远了去了。",
+        "Holder": "1",
+        "Target": "瓶子的捡拾地点",
+        "Aspect": "地点的远近",
+        "Opinion": "地点很远",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1描述瓶子的捡拾地点很远"
+    },
+    {
+        "sentence": "会不会是人家藏那儿的呀？",
+        "Holder": "2",
+        "Target": "瓶子的来源",
+        "Aspect": "瓶子的归属",
+        "Opinion": "怀疑是他人藏的",
+        "Sentiment": "doubt",
+        "Rationale": "说话人2怀疑瓶子可能是别人藏在那里的"
+    },
+    {
+        "sentence": "不会，绝对不会的，我去那地儿荒郊野岭，一个人都没有啊。",
+        "Holder": "1",
+        "Target": "瓶子的来源",
+        "Aspect": "瓶子的归属",
+        "Opinion": "肯定不是他人藏的",
+        "Sentiment": "positive",
+        "Rationale": "说话人1非常肯定瓶子不是别人藏的"
+    },
+    {
+        "sentence": "你确定一个人都没有？",
+        "Holder": "4",
+        "Target": "人数确认",
+        "Aspect": "人员存在与否",
+        "Opinion": "怀疑无人",
+        "Sentiment": "doubt",
+        "Rationale": "对现场是否真的没有人的情况存在疑问"
+    },
+    {
+        "sentence": "那地儿具体在哪儿啊？",
+        "Holder": "4",
+        "Target": "地点信息",
+        "Aspect": "具体位置",
+        "Opinion": "需要明确位置",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解具体地点以便进一步行动"
+    },
+    {
+        "sentence": "笑什么呀？",
+        "Holder": "2",
+        "Target": "4的笑",
+        "Aspect": "笑的原因",
+        "Opinion": "不解",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白4为什么笑"
+    },
+    {
+        "sentence": "是不是根据这个线索还会找到新的考古发现呢。",
+        "Holder": "4",
+        "Target": "线索价值",
+        "Aspect": "潜在发现",
+        "Opinion": "期待新发现",
+        "Sentiment": "positive",
+        "Rationale": "认为这个线索可能带来新的考古发现"
+    },
+    {
+        "sentence": "如果要是真的有，那就算是我们共同发现的。",
+        "Holder": "1",
+        "Target": "发现归属",
+        "Aspect": "共同发现",
+        "Opinion": "认为是共同成果",
+        "Sentiment": "positive",
+        "Rationale": "认为如果真的有发现，那么应该是大家共同努力的结果"
+    },
+    {
+        "sentence": "可惜我不感兴趣哈。这个功劳还是到你们俩身上",
+        "Holder": "2",
+        "Target": "功劳归属",
+        "Aspect": "兴趣与功劳",
+        "Opinion": "不感兴趣，功劳归对方",
+        "Sentiment": "neutral",
+        "Rationale": "对某事不感兴趣"
+    },
+    {
+        "sentence": "刘星，你真是太慷慨了，对吧？那个赶紧告诉我们在哪捡的。",
+        "Holder": "4",
+        "Target": "刘星的慷慨",
+        "Aspect": "行为评价",
+        "Opinion": "认为刘星慷慨",
+        "Sentiment": "positive",
+        "Rationale": "刘星愿意分享信息"
+    },
+    {
+        "sentence": "唉，告诉你们当然可以哈，不过我有个条件。你说我老画这些东西太枯燥了，我想画画活物",
+        "Holder": "2",
+        "Target": "分享信息",
+        "Aspect": "条件与兴趣",
+        "Opinion": "愿意分享但有条件",
+        "Sentiment": "neutral",
+        "Rationale": "愿意分享但希望满足自己的兴趣"
+    },
+    {
+        "sentence": "画活物？我给你逮去什么小猫小狗、兔子耗子，没问题。",
+        "Holder": "4",
+        "Target": "2的兴趣",
+        "Aspect": "满足需求",
+        "Opinion": "愿意满足对方需求",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助对方满足兴趣"
+    },
+    {
+        "sentence": "对，我想画你",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "绘画对象",
+        "Opinion": "想画",
+        "Sentiment": "positive",
+        "Rationale": "对2有兴趣"
+    },
+    {
+        "sentence": "哈哈，刘星，嗯，我可是个大活人。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "绘画对象的性质",
+        "Opinion": "自己是活人",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己是活人"
+    },
+    {
+        "sentence": "不帮忙，不帮忙算了",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "帮忙的态度",
+        "Opinion": "不帮忙",
+        "Sentiment": "negative",
+        "Rationale": "2似乎不愿意帮忙"
+    },
+    {
+        "sentence": "不不，也没说不帮忙吗？不就是给你当模特吗？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "帮忙的态度",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "positive",
+        "Rationale": "澄清自己愿意帮忙"
+    },
+    {
+        "sentence": "哎，刘星，我和明明姐一块",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "参与活动的人员",
+        "Opinion": "和明明姐一起",
+        "Sentiment": "neutral",
+        "Rationale": "说明自己会和其他人一起"
+    },
+    {
+        "sentence": "我今天不画你，我就画他一人，靠边",
+        "Holder": "2",
+        "Target": "绘画对象",
+        "Aspect": "选择绘画对象",
+        "Opinion": "选择画他",
+        "Sentiment": "neutral",
+        "Rationale": "决定只画他一个人"
+    },
+    {
+        "sentence": "首先我要跟你说，我今天画的不是一个作业，而是一个作品",
+        "Holder": "2",
+        "Target": "作品性质",
+        "Aspect": "作品性质",
+        "Opinion": "是一个作品而非作业",
+        "Sentiment": "neutral",
+        "Rationale": "因为强调自己画的是作品而非作业，所以语气平和，情感中立"
+    },
+    {
+        "sentence": "那算了",
+        "Holder": "4",
+        "Target": "摆造型",
+        "Aspect": "是否继续摆造型",
+        "Opinion": "放弃摆造型",
+        "Sentiment": "negative",
+        "Rationale": "对方的要求可能过于繁琐或难以满足"
+    },
+    {
+        "sentence": "那你说怎么摆？",
+        "Holder": "2",
+        "Target": "摆造型",
+        "Aspect": "摆造型的具体要求",
+        "Opinion": "询问具体要求",
+        "Sentiment": "neutral",
+        "Rationale": "需要明确对方的具体要求"
+    },
+    {
+        "sentence": "你先多摆几个造型，我从中挑一个",
+        "Holder": "1",
+        "Target": "摆造型",
+        "Aspect": "摆造型的数量和选择",
+        "Opinion": "要求多摆几个造型以便选择",
+        "Sentiment": "neutral",
+        "Rationale": "希望通过多个选项来选择最合适的"
+    },
+    {
+        "sentence": "刘星，你也太过分了吧你",
+        "Holder": "2",
+        "Target": "刘星的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "认为要求过分",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的要求不合理且过于苛刻"
+    },
+    {
+        "sentence": "要不你也来试试？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "参与摆造型",
+        "Opinion": "建议对方也尝试",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方能理解自己的难处"
+    },
+    {
+        "sentence": "你不会做是吧？成，我来教你。教你该会了吧。",
+        "Holder": "2",
+        "Target": "3的能力",
+        "Aspect": "是否会做某事",
+        "Opinion": "3不会做",
+        "Sentiment": "negative",
+        "Rationale": "2认为3不会做某事"
+    },
+    {
+        "sentence": "看好了",
+        "Holder": "2",
+        "Target": "3的学习态度",
+        "Aspect": "是否认真观察",
+        "Opinion": "要求3认真看",
+        "Sentiment": "neutral",
+        "Rationale": "2在教3做事"
+    },
+    {
+        "sentence": "快点跟着学呀。",
+        "Holder": "2",
+        "Target": "3的学习速度",
+        "Aspect": "学习的积极性",
+        "Opinion": "要求3加快学习",
+        "Sentiment": "neutral",
+        "Rationale": "2希望3能快点学会"
+    },
+    {
+        "sentence": "诶，对了诶，你借我那瓶子，真是你爷爷的。",
+        "Holder": "3",
+        "Target": "瓶子的归属",
+        "Aspect": "瓶子的来源",
+        "Opinion": "瓶子是爷爷的",
+        "Sentiment": "positive",
+        "Rationale": "3确认了瓶子的归属"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "3",
+        "Target": "2的状态",
+        "Aspect": "2的情绪或行为",
+        "Opinion": "询问2的情况",
+        "Sentiment": "neutral",
+        "Rationale": "3不清楚2为什么这么说"
+    }
+]

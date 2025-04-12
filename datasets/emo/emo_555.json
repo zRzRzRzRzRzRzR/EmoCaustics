@@ -1,0 +1,75 @@
+{
+  "2": {
+    "events": [
+      {
+        "event": "纪念逝者的歌曲创作与公开",
+        "emotions": [
+          {"state": "neutral", "reason": "创作关于去世女孩的歌曲", "source_id": "2"},
+          {"state": "positive", "reason": "家人支持公开并获认可", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "乐队成员磨合与形象调整",
+        "emotions": [
+          {"state": "positive", "reason": "服装改变带来新鲜感", "source_id": "2"},
+          {"state": "negative", "reason": "伦敦面试过程不顺利", "source_id": "3"},
+          {"state": "positive", "reason": "与Jay的直觉合作成功", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "重要巡演里程碑",
+        "emotions": [
+          {"state": "positive", "reason": "克罗克公园历史性演出", "source_id": "7"},
+          {"state": "positive", "reason": "观众合唱带来的职业认同", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "私人歌曲的公众化决策",
+        "emotions": [
+          {"state": "neutral", "reason": "最初拒绝谈论歌曲", "source_id": "3"},
+          {"state": "positive", "reason": "家属鼓励促成公开决定", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "创意视频制作过程",
+        "emotions": [
+          {"state": "neutral", "reason": "对怪物创意的初始怀疑", "source_id": "3"},
+          {"state": "positive", "reason": "成片效果超出预期", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "乐队成员选拔经历",
+        "emotions": [
+          {"state": "positive", "reason": "即兴演奏产生化学效应", "source_id": "2"},
+          {"state": "positive", "reason": "未经考核直接签约Jay", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "国际巡演突破性体验",
+        "emotions": [
+          {"state": "positive", "reason": "阿姆斯特丹首次爆满演出", "source_id": "5"},
+          {"state": "positive", "reason": "小型俱乐部到竞技场过渡", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "职业生涯关键节点",
+        "emotions": [
+          {"state": "positive", "reason": "克罗克公园求婚仪式", "source_id": "7"},
+          {"state": "positive", "reason": "与艾德·希兰同台演出", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

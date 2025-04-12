@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "保送资格取消与纪律冲突",
+        "emotions": [
+          {"state": "negative", "reason": "因司马一上课睡觉被公开批评", "source_id": "2"},
+          {"state": "negative", "reason": "保送资格被取消且受到权威压制", "source_id": "2,3"},
+          {"state": "negative", "reason": "被质疑带早读的权限和工作效率", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教师权威维护与责任冲突",
+        "emotions": [
+          {"state": "negative", "reason": "批评司马一违反纪律并取消其保送资格", "source_id": "1"},
+          {"state": "positive", "reason": "强调对学生的责任感", "source_id": "1"},
+          {"state": "neutral", "reason": "接受协助批改试卷的安排", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "工作协助与人际矛盾",
+        "emotions": [
+          {"state": "positive", "reason": "主动提出帮助批改试卷", "source_id": "2"},
+          {"state": "negative", "reason": "质疑2的能力并否定其责任感", "source_id": "2"},
+          {"state": "neutral", "reason": "协调工作分配并表达效率担忧", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "举报行为溯源",
+        "emotions": [
+          {"state": "negative", "reason": "确认针对司马一的举报行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "举报动机质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑举报行为的针对性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "策略建议提出",
+        "emotions": [
+          {"state": "neutral", "reason": "提出解决方案但未具体实施", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

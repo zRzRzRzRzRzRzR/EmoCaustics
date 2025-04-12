@@ -1,0 +1,132 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "正方立论：顺境更有利于社会化与自我实现",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过菲尔普斯和博尔特案例强调顺境资源丰富的优势",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被反方四辩（8）质疑循环论证时情绪波动",
+            "source_id": "8"
+          },
+          {
+            "state": "neutral",
+            "reason": "回应质询时强调目标与成长的非绝对关联",
+            "source_id": "8,5"
+          }
+        ]
+      },
+      {
+        "event": "质询环节：定义澄清与逻辑反驳",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "被反方四辩（8）追问成长定义时表现出困惑",
+            "source_id": "8"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认逆境中经验存在的客观性",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "反方立论：逆境激发潜能与人格完满化",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "直接批判正方定义存在循环论证",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过水手和博尔特案例强调逆境的激励作用",
+            "source_id": "5"
+          }
+        ]
+      },
+      {
+        "event": "案例攻防：李广与霍去病的对比",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "以李广逆境中积累军事能力为证",
+            "source_id": "3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认目标设定对顺逆境界定的影响",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "质询核心：拆解成长与成就的关联",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "直接指正方混淆成就与成长概念",
+            "source_id": "1"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "追问未达成目标但获得经验是否算成长",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反驳环节：目标设定与顺逆境的相对性",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评反方用李广案例忽视天赋因素",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "通过钱钟书案例强调顺境对创作的支撑作用",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "立论深化：成长与成就的本质差异",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判正方将资源多等同于成长优势",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过莎士比亚案例说明逆境对创作深度的影响",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

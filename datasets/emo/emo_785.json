@@ -1,0 +1,91 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "职场罚款争议",
+        "emotions": [
+          {"state": "negative", "reason": "因迟到被罚款200元", "source_id": "2"},
+          {"state": "negative", "reason": "质疑加班与罚款政策不公", "source_id": "3"},
+          {"state": "negative", "reason": "被指责随意对待工作", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "住宿问题处理",
+        "emotions": [
+          {"state": "neutral", "reason": "询问新租房屋情况", "source_id": "9"},
+          {"state": "negative", "reason": "要求员工搬离公司住宿", "source_id": "9"},
+          {"state": "negative", "reason": "批评人事总监关怀不足", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职场规则执行",
+        "emotions": [
+          {"state": "neutral", "reason": "执行公司迟到罚款制度", "source_id": "1"},
+          {"state": "negative", "reason": "质疑应届生工作态度", "source_id": "1,3"},
+          {"state": "positive", "reason": "认可学校领导公平性", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "劳动权益争议",
+        "emotions": [
+          {"state": "negative", "reason": "抗议加班无薪与罚款失衡", "source_id": "2"},
+          {"state": "neutral", "reason": "参与职场规则讨论", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "情绪表达与质疑",
+        "emotions": [
+          {"state": "negative", "reason": "因迟到自我否定", "source_id": "1"},
+          {"state": "negative", "reason": "质疑关系户职位合理性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "职场适应冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "解释职场规矩", "source_id": "1"},
+          {"state": "neutral", "reason": "承诺发工资后搬离", "source_id": "1"},
+          {"state": "negative", "reason": "被批评新人关怀不足", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "租房合同纠纷",
+        "emotions": [
+          {"state": "neutral", "reason": "强调合同未到期事实", "source_id": "1"},
+          {"state": "neutral", "reason": "要求归还押金", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "生活状况沟通",
+        "emotions": [
+          {"state": "positive", "reason": "展示良好居住环境", "source_id": "1"},
+          {"state": "neutral", "reason": "回应押金争议", "source_id": "8"},
+          {"state": "ambiguous", "reason": "描述社会困难与温暖并存", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

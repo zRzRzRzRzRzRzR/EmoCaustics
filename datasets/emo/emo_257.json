@@ -1,0 +1,45 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "身份关系揭露冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被3指责感情不忠", "source_id": "3"},
+          {"state": "ambiguous", "reason": "发现2与3的兄妹关系", "source_id": "2"},
+          {"state": "neutral", "reason": "确认3的亲属身份", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "感情承诺危机",
+        "emotions": [
+          {"state": "negative", "reason": "被要求解释婚外关系", "source_id": "2"},
+          {"state": "neutral", "reason": "试图平衡家庭与感情", "source_id": "2"},
+          {"state": "negative", "reason": "无法兑现结婚承诺", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感信任崩塌",
+        "emotions": [
+          {"state": "negative", "reason": "发现1遗忘重要承诺", "source_id": "1"},
+          {"state": "negative", "reason": "被要求暂时分开", "source_id": "1"},
+          {"state": "negative", "reason": "最终拒绝复合请求", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "亲属保护冲突",
+        "emotions": [
+          {"state": "negative", "reason": "发现1与妹妹的婚外情", "source_id": "1"},
+          {"state": "negative", "reason": "被妹妹要求停止干涉", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

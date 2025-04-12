@@ -1,0 +1,134 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程管理",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持流程推进、时间控制及阶段转换",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "全球化经济效应论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用新加坡发展实例论证全球化优势/使用世贸组织原则反驳对手/提出非洲国家主动参与现象",
+            "source_id": "3,4,6"
+          }
+        ]
+      },
+      {
+        "event": "技术转移与可持续发展",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调技术引进必要性/主张开放市场促进增长",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "全球化剥削性批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露跨国企业双重标准/列举韩国经济衰退案例/指出印尼失业率攀升现象",
+            "source_id": "2,5,7"
+          }
+        ]
+      },
+      {
+        "event": "经济主权丧失论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "分析非洲债务陷阱/对比外资投入与资源损失数据",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "发展自主性辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑技术转移实质效果/分析产业转移的污染后果",
+            "source_id": "2,5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "逻辑矛盾批驳",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出反方经济轴心论矛盾/揭露损人利己逻辑缺陷",
+            "source_id": "3,4"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "社会代价揭露",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "描述工人恶劣工作环境/分析粮食危机形成机制",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "战略框架构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出风险机会并存论/建立四大要素发展模型",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "辩论质量评估",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析策略应用差异/评价数据运用效果/指出逻辑建构问题",
+            "source_id": "10"
+          }
+        ]
+      }
+    ]
+  }
+}

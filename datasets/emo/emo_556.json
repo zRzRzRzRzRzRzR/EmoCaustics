@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭矛盾与责任归属",
+        "emotions": [
+          {"state": "negative", "reason": "指控被苏家逼迫行为", "source_id": "2,3"},
+          {"state": "negative", "reason": "否认苏念的存在价值", "source_id": "3"},
+          {"state": "neutral", "reason": "解释赶走苏念的动机", "source_id": "2"},
+          {"state": "positive", "reason": "承认苏诚判断正确", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "怀孕真相与威胁揭露",
+        "emotions": [
+          {"state": "negative", "reason": "指控刘大强强奸行为", "source_id": "5"},
+          {"state": "positive", "reason": "因真相大白感到解脱", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "武器威胁与最终和解",
+        "emotions": [
+          {"state": "negative", "reason": "要求接听电话的对抗态度", "source_id": "2"},
+          {"state": "neutral", "reason": "同意看望苏念的条件", "source_id": "3,4"},
+          {"state": "positive", "reason": "主动放下武器的妥协", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "亲子关系质疑",
+        "emotions": [
+          {"state": "doubt", "reason": "发现怀孕时间矛盾", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑孩子血缘关系", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "危机处理与沟通",
+        "emotions": [
+          {"state": "neutral", "reason": "持续建议冷静对话", "source_id": "1"},
+          {"state": "negative", "reason": "反对1接触苏醒者", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "承诺履行监督",
+        "emotions": [
+          {"state": "negative", "reason": "揭发经济依赖背景", "source_id": "1"},
+          {"state": "neutral", "reason": "提出武器交换条件", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "现场调解与安全保障",
+        "emotions": [
+          {"state": "neutral", "reason": "建议理性沟通", "source_id": "1"},
+          {"state": "neutral", "reason": "提出安全保障条件", "source_id": "1"},
+          {"state": "negative", "reason": "决定抓捕嫌疑人", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "亲子关系否认",
+        "emotions": [
+          {"state": "negative", "reason": "紧急撇清血缘关系", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

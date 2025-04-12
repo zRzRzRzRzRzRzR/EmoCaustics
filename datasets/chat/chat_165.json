@@ -1,0 +1,614 @@
+[
+    {
+        "sentence": "杨媛媛，吃饭。",
+        "Holder": "1",
+        "Target": "杨媛媛",
+        "Aspect": "吃饭",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "关心杨媛媛的饮食"
+    },
+    {
+        "sentence": "明天体检8点，不是不能吃东西了？",
+        "Holder": "2",
+        "Target": "体检规定",
+        "Aspect": "饮食限制",
+        "Opinion": "质疑饮食限制",
+        "Sentiment": "neutral",
+        "Rationale": "明天体检有饮食限制"
+    },
+    {
+        "sentence": "那你今天一天都没吃啊。",
+        "Holder": "1",
+        "Target": "杨媛媛",
+        "Aspect": "饮食状况",
+        "Opinion": "惊讶没吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "得知杨媛媛一天没吃饭"
+    },
+    {
+        "sentence": "我不想吃，你把它吃了吧。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "饮食意愿",
+        "Opinion": "拒绝吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "明天体检不能吃东西"
+    },
+    {
+        "sentence": "我真不想吃，我不舒服。",
+        "Holder": "2",
+        "Target": "吃饭",
+        "Aspect": "食欲",
+        "Opinion": "不想吃",
+        "Sentiment": "negative",
+        "Rationale": "身体不舒服"
+    },
+    {
+        "sentence": "你有事吗？",
+        "Holder": "1",
+        "Target": "2的身体状况",
+        "Aspect": "是否有事",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "听到2说不舒服"
+    },
+    {
+        "sentence": "你就两碗饭，你吃得完的。",
+        "Holder": "2",
+        "Target": "1的饭量",
+        "Aspect": "饭量大小",
+        "Opinion": "吃得完",
+        "Sentiment": "neutral",
+        "Rationale": "认为1的饭量足够大"
+    },
+    {
+        "sentence": "我这一份我都吃不完。",
+        "Holder": "1",
+        "Target": "自己的饭量",
+        "Aspect": "饭量大小",
+        "Opinion": "吃不完",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己吃不完一份饭"
+    },
+    {
+        "sentence": "你早说你不吃，我就不点两碗饭了，为什么不早说？",
+        "Holder": "1",
+        "Target": "2的沟通",
+        "Aspect": "及时告知",
+        "Opinion": "没有及时告知",
+        "Sentiment": "negative",
+        "Rationale": "2没有提前说不吃，导致1点了多余的饭"
+    },
+    {
+        "sentence": "快点吃好吗？不要再做事这个样子。",
+        "Holder": "1",
+        "Target": "2的吃饭速度",
+        "Aspect": "吃饭的态度",
+        "Opinion": "希望快点吃",
+        "Sentiment": "negative",
+        "Rationale": "2吃饭太慢"
+    },
+    {
+        "sentence": "你当我是猪吗？这么多。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "饭量的合理性",
+        "Opinion": "认为饭量太多",
+        "Sentiment": "negative",
+        "Rationale": "1要求2吃很多饭"
+    },
+    {
+        "sentence": "这眼神有点凶。",
+        "Holder": "2",
+        "Target": "1的眼神",
+        "Aspect": "眼神的温和度",
+        "Opinion": "认为眼神凶",
+        "Sentiment": "negative",
+        "Rationale": "1的眼神让2感到不舒服"
+    },
+    {
+        "sentence": "你吃过分了哈，你自己舀那么点儿。",
+        "Holder": "2",
+        "Target": "1的饭量",
+        "Aspect": "饭量的合理性",
+        "Opinion": "认为1吃得少",
+        "Sentiment": "negative",
+        "Rationale": "1自己吃得少却要求2吃得多"
+    },
+    {
+        "sentence": "不吃饭就是该凶啊，我做的不对吗？",
+        "Holder": "1",
+        "Target": "自己的态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "认为凶是合理的",
+        "Sentiment": "negative",
+        "Rationale": "1认为不吃饭就应该凶"
+    },
+    {
+        "sentence": "你之前你也不吃饭。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "吃饭频率",
+        "Opinion": "1之前不吃饭",
+        "Sentiment": "negative",
+        "Rationale": "2认为1之前不吃饭"
+    },
+    {
+        "sentence": "我可是要吃的，我只是不吃宵夜而已。",
+        "Holder": "1",
+        "Target": "自己的饮食习惯",
+        "Aspect": "吃饭时间",
+        "Opinion": "正常吃饭但不吃宵夜",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的饮食习惯"
+    },
+    {
+        "sentence": "你之前减肥时候你也没吃，骗子。",
+        "Holder": "2",
+        "Target": "1的减肥行为",
+        "Aspect": "饮食真实性",
+        "Opinion": "1在减肥时不吃饭",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在减肥时不吃饭且撒谎"
+    },
+    {
+        "sentence": "我自己很注意的，我每天都会吃饱的，再怎么饭都要吃的。",
+        "Holder": "1",
+        "Target": "自己的饮食管理",
+        "Aspect": "饮食注意程度",
+        "Opinion": "每天都会吃饱",
+        "Sentiment": "positive",
+        "Rationale": "1在强调自己注意饮食且每天吃饱"
+    },
+    {
+        "sentence": "我哪吃的了这么多？",
+        "Holder": "2",
+        "Target": "自己的饭量",
+        "Aspect": "饭量大小",
+        "Opinion": "吃不了这么多",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己吃不了这么多饭"
+    },
+    {
+        "sentence": "吃多少舀多少，吃不完算了。",
+        "Holder": "1",
+        "Target": "吃饭行为",
+        "Aspect": "食物取用",
+        "Opinion": "适量取食",
+        "Sentiment": "neutral",
+        "Rationale": "提倡节约食物"
+    },
+    {
+        "sentence": "你一天没吃饭，就吃这一顿，还不吃？",
+        "Holder": "1",
+        "Target": "2的吃饭情况",
+        "Aspect": "饮食频率",
+        "Opinion": "应该吃饭",
+        "Sentiment": "negative",
+        "Rationale": "担心2长时间未进食会影响健康"
+    },
+    {
+        "sentence": "我就像妈一样。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "角色扮演",
+        "Opinion": "像母亲一样关心",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己在照顾对方时像母亲一样"
+    },
+    {
+        "sentence": "哼，到底谁像妈？",
+        "Holder": "2",
+        "Target": "1的角色扮演",
+        "Aspect": "角色认同",
+        "Opinion": "质疑1的说法",
+        "Sentiment": "negative",
+        "Rationale": "对1自称像母亲的说法感到不满"
+    },
+    {
+        "sentence": "哼，平时是谁，谁叫你吃饭？我可比你会吃多了。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "吃饭的频率和方式",
+        "Opinion": "自己更会吃",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己在吃饭方面比1更懂得享受和安排"
+    },
+    {
+        "sentence": "会吃，你确实会吃，你今天怎么不吃？",
+        "Holder": "1",
+        "Target": "2的饮食习惯",
+        "Aspect": "今天的吃饭情况",
+        "Opinion": "2今天没吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "观察到2今天没有吃饭"
+    },
+    {
+        "sentence": "我就今天而已，你经常不吃饭，我天天追着你吃饭好吗？你别在那里颠倒黑白。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "吃饭的频率和责任",
+        "Opinion": "1经常不吃饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得1经常不吃饭且对自己今天的例外情况被指责感到不公平"
+    },
+    {
+        "sentence": "乱讲。你没有证据。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的真实性",
+        "Opinion": "2的指责无证据",
+        "Sentiment": "negative",
+        "Rationale": "认为2的指责没有事实依据"
+    },
+    {
+        "sentence": "我没证据，你就今天直播刚好拍到了证据，你叫我吃饭你。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "证据的存在",
+        "Opinion": "有证据证明1叫自己吃饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的指责不公正且自己有证据反驳"
+    },
+    {
+        "sentence": "我平时会让你这样吗？我天天吃。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "饮食频率",
+        "Opinion": "自己经常吃饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己经常吃饭而对方不吃饭"
+    },
+    {
+        "sentence": "每次都是我叫你吃饭。",
+        "Holder": "2",
+        "Target": "1的饮食习惯",
+        "Aspect": "吃饭的主动性",
+        "Opinion": "自己总是叫对方吃饭",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己总是提醒对方吃饭而对方不配合"
+    },
+    {
+        "sentence": "粉丝的眼睛都是雪亮的，他们能看出来，看你的身材都能看出来到底谁不吃饭，谁在饿。",
+        "Holder": "2",
+        "Target": "1的身材",
+        "Aspect": "身材与健康的关系",
+        "Opinion": "身材能反映饮食习惯",
+        "Sentiment": "negative",
+        "Rationale": "认为粉丝能通过身材看出对方不吃饭"
+    },
+    {
+        "sentence": "我的身材怎么了？我的身材很健康啊。",
+        "Holder": "1",
+        "Target": "自己的身材",
+        "Aspect": "身材的健康状况",
+        "Opinion": "自己的身材健康",
+        "Sentiment": "positive",
+        "Rationale": "对自己的身材有自信"
+    },
+    {
+        "sentence": "健康屁，你现在瘦的都跟猴一样。",
+        "Holder": "2",
+        "Target": "1的身材",
+        "Aspect": "身材的瘦弱程度",
+        "Opinion": "对方身材过于瘦弱",
+        "Sentiment": "negative",
+        "Rationale": "认为对方身材过于瘦弱"
+    },
+    {
+        "sentence": "你才是猴，你是猪。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "外貌或行为",
+        "Opinion": "2像猴和猪",
+        "Sentiment": "negative",
+        "Rationale": "1用贬义词形容2"
+    },
+    {
+        "sentence": "那我就不该吃，我不配，我是猪。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "自我评价",
+        "Opinion": "认为自己不配吃饭",
+        "Sentiment": "negative",
+        "Rationale": "2被1贬低后自我否定"
+    },
+    {
+        "sentence": "猪也要吃。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "吃饭的权利",
+        "Opinion": "即使是猪也要吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1在回应2的自我否定"
+    },
+    {
+        "sentence": "我都比你舀的多。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "吃饭的量",
+        "Opinion": "自己吃的比1多",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述一个事实"
+    },
+    {
+        "sentence": "天哪，你拿过来。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "食物的分配",
+        "Opinion": "让2把食物拿过来",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的食物量有反应"
+    },
+    {
+        "sentence": "舀满了好吧。",
+        "Holder": "2",
+        "Target": "舀的量",
+        "Aspect": "量的多少",
+        "Opinion": "已经足够",
+        "Sentiment": "neutral",
+        "Rationale": "已经舀满了"
+    },
+    {
+        "sentence": "你说这比我的多？",
+        "Holder": "1",
+        "Target": "2的舀的量",
+        "Aspect": "量的比较",
+        "Opinion": "怀疑比自己的多",
+        "Sentiment": "doubt",
+        "Rationale": "不确定2的量是否比自己多"
+    },
+    {
+        "sentence": "是呀，你这个就只有3分之1。",
+        "Holder": "2",
+        "Target": "1的舀的量",
+        "Aspect": "量的多少",
+        "Opinion": "1的量少",
+        "Sentiment": "neutral",
+        "Rationale": "客观指出1的量只有3分之1"
+    },
+    {
+        "sentence": "我刚刚这样的。",
+        "Holder": "1",
+        "Target": "自己的舀的量",
+        "Aspect": "量的变化",
+        "Opinion": "之前也是这样",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己之前的量也是这样"
+    },
+    {
+        "sentence": "就是仗着今天直播就假装吃很多。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "1假装吃很多",
+        "Sentiment": "negative",
+        "Rationale": "认为1在直播时故意假装吃很多"
+    },
+    {
+        "sentence": "我平时吃的也多啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "饮食习惯",
+        "Opinion": "吃的多",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述自己的饮食习惯"
+    },
+    {
+        "sentence": "你平时都不吃饭好吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "饮食习惯",
+        "Opinion": "不吃饭",
+        "Sentiment": "negative",
+        "Rationale": "2认为1平时不吃饭"
+    },
+    {
+        "sentence": "那我吃菜啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "饮食习惯",
+        "Opinion": "吃菜",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的饮食习惯"
+    },
+    {
+        "sentence": "你平时吃饭了吗？你也没吃啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "饮食习惯",
+        "Opinion": "2也没吃饭",
+        "Sentiment": "negative",
+        "Rationale": "1在反问2的饮食习惯，暗示2也没吃饭"
+    },
+    {
+        "sentence": "只要有什么吃的我就吃了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "饮食习惯",
+        "Opinion": "不挑食",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的饮食习惯，表示自己不挑食"
+    },
+    {
+        "sentence": "屁，你从来不吃饭！",
+        "Holder": "1",
+        "Target": "2的饮食习惯",
+        "Aspect": "是否吃饭",
+        "Opinion": "2从不吃饭",
+        "Sentiment": "negative",
+        "Rationale": "1认为2从不吃饭"
+    },
+    {
+        "sentence": "我除了那个我什么都吃啊。",
+        "Holder": "2",
+        "Target": "自己的饮食习惯",
+        "Aspect": "饮食范围",
+        "Opinion": "除了特定食物外什么都吃",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的饮食习惯"
+    },
+    {
+        "sentence": "我也是啊，我只是不吃米饭而已啊。",
+        "Holder": "1",
+        "Target": "自己的饮食习惯",
+        "Aspect": "饮食范围",
+        "Opinion": "除了米饭外什么都吃",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的饮食习惯"
+    },
+    {
+        "sentence": "太过分了，你在乱说。",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "2在乱说",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的言论不真实"
+    },
+    {
+        "sentence": "你过分，你说我不吃饭，你过分。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "1的指责过分",
+        "Sentiment": "negative",
+        "Rationale": "1错误地指责2不吃饭"
+    },
+    {
+        "sentence": "你确实没吃饭啊。",
+        "Holder": "1",
+        "Target": "2的吃饭情况",
+        "Aspect": "是否吃饭",
+        "Opinion": "确认没吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认2是否吃饭的事实"
+    },
+    {
+        "sentence": "吃东西，我们说东西好了，到底你吃的东西多，还是我吃的东西多呢？明明我比你能吃。",
+        "Holder": "2",
+        "Target": "吃的量",
+        "Aspect": "吃的多少",
+        "Opinion": "自己吃的多",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己平时吃的比1多"
+    },
+    {
+        "sentence": "哦，不管平时怎么样，你今天没吃，你今天比我吃的少。",
+        "Holder": "1",
+        "Target": "今天的饭量",
+        "Aspect": "今天的吃饭情况",
+        "Opinion": "2今天吃的少",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述今天2的饭量比自己少的事实"
+    },
+    {
+        "sentence": "就一天而已，就一天！",
+        "Holder": "2",
+        "Target": "今天的饭量",
+        "Aspect": "饭量少的影响",
+        "Opinion": "一天的饭量少不重要",
+        "Sentiment": "negative",
+        "Rationale": "2觉得一天的饭量少不应该被强调"
+    },
+    {
+        "sentence": "那平时我也没饿着自己啊。",
+        "Holder": "1",
+        "Target": "平时的饭量",
+        "Aspect": "平时的吃饭情况",
+        "Opinion": "平时没有饿着自己",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己平时吃饭的情况"
+    },
+    {
+        "sentence": "我吃不下，你硬叫我吃。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "吃饭的强迫性",
+        "Opinion": "不想被强迫吃饭",
+        "Sentiment": "negative",
+        "Rationale": "被强迫吃饭感到不舒服"
+    },
+    {
+        "sentence": "我真的有好好吃。",
+        "Holder": "1",
+        "Target": "自己的吃饭行为",
+        "Aspect": "吃饭的努力程度",
+        "Opinion": "已经尽力吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "想证明自己有努力吃饭"
+    },
+    {
+        "sentence": "只是我胃口确实比你小，就我吃不了了，我就不吃了，然后就没吃完，你就会叫我再吃，那些你叫我再吃的，我就没有吃，你就说我不吃饭。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "吃饭量的合理性",
+        "Opinion": "解释自己吃不下的原因",
+        "Sentiment": "negative",
+        "Rationale": "被误解为不吃饭感到委屈"
+    },
+    {
+        "sentence": "天地良心，就算我们这房间装了个摄像头，我都可以证明自己。",
+        "Holder": "1",
+        "Target": "自己的清白",
+        "Aspect": "证明方式",
+        "Opinion": "可以通过摄像头证明",
+        "Sentiment": "positive",
+        "Rationale": "相信自己能够通过摄像头证明清白"
+    },
+    {
+        "sentence": "算了算了，懒得跟你扯。",
+        "Holder": "2",
+        "Target": "与1的争论",
+        "Aspect": "争论的意愿",
+        "Opinion": "不想继续争论",
+        "Sentiment": "negative",
+        "Rationale": "觉得与1的争论没有意义且浪费时间"
+    },
+    {
+        "sentence": "我也懒得。",
+        "Holder": "1",
+        "Target": "与2的争论",
+        "Aspect": "争论的意愿",
+        "Opinion": "也不想继续争论",
+        "Sentiment": "negative",
+        "Rationale": "觉得与2的争论没有意义且浪费时间"
+    },
+    {
+        "sentence": "下次装个摄像头。",
+        "Holder": "2",
+        "Target": "房间监控",
+        "Aspect": "监控设备的安装",
+        "Opinion": "建议安装摄像头",
+        "Sentiment": "neutral",
+        "Rationale": "觉得摄像头可以解决争论"
+    },
+    {
+        "sentence": "以后我每天直播吃饭，看谁不吃好吧，有没有这个本事？没本事，你没本事。",
+        "Holder": "1",
+        "Target": "2的能力",
+        "Aspect": "吃饭的能力",
+        "Opinion": "质疑2的能力",
+        "Sentiment": "negative",
+        "Rationale": "对2的能力表示怀疑"
+    },
+    {
+        "sentence": "这段时间不行，这段时间。明显我这段时间有事要做，你让我直播吃饭？",
+        "Holder": "2",
+        "Target": "直播吃饭的要求",
+        "Aspect": "时间安排的合理性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "在这段时间内有重要的事情要做"
+    },
+    {
+        "sentence": "有事就不吃饭吗？",
+        "Holder": "1",
+        "Target": "2的时间安排",
+        "Aspect": "吃饭的必要性",
+        "Opinion": "质疑不吃饭的合理性",
+        "Sentiment": "neutral",
+        "Rationale": "认为即使有事也应该吃饭"
+    }
+]

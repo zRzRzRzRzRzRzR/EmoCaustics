@@ -1,0 +1,515 @@
+[
+    {
+        "sentence": "五楼六楼已经全面搜查过了，没有人。",
+        "Holder": "3",
+        "Target": "五楼六楼",
+        "Aspect": "搜查结果",
+        "Opinion": "没有人",
+        "Sentiment": "neutral",
+        "Rationale": "3报告了搜查结果"
+    },
+    {
+        "sentence": "其余楼层也搜索过了，根本没有人。",
+        "Holder": "4",
+        "Target": "其余楼层",
+        "Aspect": "搜查结果",
+        "Opinion": "没有人",
+        "Sentiment": "neutral",
+        "Rationale": "4报告了搜查结果"
+    },
+    {
+        "sentence": "到底怎么回事儿？到底是谁，偷偷拿走了念念的断肢箱？",
+        "Holder": "2",
+        "Target": "断肢箱失踪事件",
+        "Aspect": "事件原因和责任人",
+        "Opinion": "疑惑和质问",
+        "Sentiment": "negative",
+        "Rationale": "2对断肢箱失踪感到困惑和不满"
+    },
+    {
+        "sentence": "等等，于曼怎么不见了啊？",
+        "Holder": "1",
+        "Target": "于曼",
+        "Aspect": "于曼的位置",
+        "Opinion": "找不到于曼",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然发现于曼不在"
+    },
+    {
+        "sentence": "对啊，曼曼去哪了？好久没见到他了。",
+        "Holder": "2",
+        "Target": "曼曼",
+        "Aspect": "曼曼的位置",
+        "Opinion": "长时间未见曼曼",
+        "Sentiment": "ambiguous",
+        "Rationale": "已经有一段时间没有见到曼曼"
+    },
+    {
+        "sentence": "苏诚，我在这儿。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "自己的位置",
+        "Opinion": "告知自己在场",
+        "Sentiment": "neutral",
+        "Rationale": "听到别人在找自己"
+    },
+    {
+        "sentence": "曼曼，你去哪了？",
+        "Holder": "2",
+        "Target": "曼曼",
+        "Aspect": "曼曼的去向",
+        "Opinion": "询问曼曼的去向",
+        "Sentiment": "neutral",
+        "Rationale": "想知道曼曼去了哪里"
+    },
+    {
+        "sentence": "我肚子有点不舒服，刚刚见了血又有点恶心，就去厕所吐了一下。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "身体不适",
+        "Sentiment": "negative",
+        "Rationale": "肚子不舒服并且出现见血和恶心的症状"
+    },
+    {
+        "sentence": "红药水？你刚才是不是碰过装有念念断肢的箱子了？",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "是否触碰箱子",
+        "Opinion": "怀疑触碰",
+        "Sentiment": "neutral",
+        "Rationale": "发现药水痕迹"
+    },
+    {
+        "sentence": "妈，你胡说什么？",
+        "Holder": "5",
+        "Target": "1的质疑",
+        "Aspect": "质疑的合理性",
+        "Opinion": "认为质疑无理",
+        "Sentiment": "negative",
+        "Rationale": "被误解而感到生气"
+    },
+    {
+        "sentence": "方才救治念念时，不小心打翻了红药水，药水洒在了箱子的把手上。你如果没有碰过，你手上的药水怎么解释？",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "药水痕迹的解释",
+        "Opinion": "要求解释",
+        "Sentiment": "neutral",
+        "Rationale": "发现药水痕迹与5有关"
+    },
+    {
+        "sentence": "是红药水，没错。",
+        "Holder": "3",
+        "Target": "药水种类",
+        "Aspect": "确认药水",
+        "Opinion": "确认是红药水",
+        "Sentiment": "neutral",
+        "Rationale": "确认药水种类"
+    },
+    {
+        "sentence": "曼曼，你还有什么要说的吗？",
+        "Holder": "2",
+        "Target": "曼曼",
+        "Aspect": "是否有更多解释",
+        "Opinion": "询问是否有更多解释",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问曼曼是否有更多要说的"
+    },
+    {
+        "sentence": "苏诚，连你也不相信我吗？我只是不小心碰到了红药水而已。",
+        "Holder": "5",
+        "Target": "苏诚",
+        "Aspect": "信任",
+        "Opinion": "希望被信任",
+        "Sentiment": "negative",
+        "Rationale": "5感到连苏诚也不相信自己"
+    },
+    {
+        "sentence": "不小心？",
+        "Holder": "1",
+        "Target": "5的解释",
+        "Aspect": "解释的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "1对5的解释表示怀疑"
+    },
+    {
+        "sentence": "苏诚，是她！肯定是她把念念的断肢藏起来了，你要是放她走，我们肯定就找不到了呀。",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "藏匿断肢的嫌疑",
+        "Opinion": "认为5有嫌疑",
+        "Sentiment": "negative",
+        "Rationale": "1坚信5藏匿了念念的断肢"
+    },
+    {
+        "sentence": "妈，你为什么一定要冤枉我呢？我就是刚才不小心蹭到了红药水而已。念念是您的孙女，我也是您的儿媳妇儿啊，而且我肚子里怀的还是你们苏家的骨肉。",
+        "Holder": "5",
+        "Target": "1的指责",
+        "Aspect": "被冤枉的感受",
+        "Opinion": "感到被冤枉",
+        "Sentiment": "negative",
+        "Rationale": "5觉得自己被1冤枉，而且强调了与苏家的关系"
+    },
+    {
+        "sentence": "老公，妈不相信我，连你也不相信我吗？",
+        "Holder": "5",
+        "Target": "1的信任",
+        "Aspect": "信任的缺失",
+        "Opinion": "不被信任",
+        "Sentiment": "negative",
+        "Rationale": "感到自己不被家人信任"
+    },
+    {
+        "sentence": "苏诚，我肚子疼，我感觉我好像动了胎气了。我想去医院可以吗？",
+        "Holder": "5",
+        "Target": "自己的身体状况",
+        "Aspect": "身体状况的担忧",
+        "Opinion": "需要去医院",
+        "Sentiment": "negative",
+        "Rationale": "感到身体不适，担心动了胎气"
+    },
+    {
+        "sentence": "你干什么？",
+        "Holder": "5",
+        "Target": "2的行为",
+        "Aspect": "行为的疑问",
+        "Opinion": "不明所以",
+        "Sentiment": "negative",
+        "Rationale": "不清楚对方的行为意图"
+    },
+    {
+        "sentence": "帮你检查啊。",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "检查",
+        "Opinion": "愿意帮助",
+        "Sentiment": "positive",
+        "Rationale": "3主动提出帮助5进行检查"
+    },
+    {
+        "sentence": "你又不是妇产科医生，帮我检查什么？",
+        "Holder": "5",
+        "Target": "3",
+        "Aspect": "检查资格",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "5认为3没有妇产科医生的资格"
+    },
+    {
+        "sentence": "老公，你能不能送我去医院呀？",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "送医请求",
+        "Opinion": "请求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "5需要去医院"
+    },
+    {
+        "sentence": "大夫，不好意思啊，我要找我女儿的断肢箱，能不能麻烦你送我太太去医院？麻烦您了，谢谢啊。",
+        "Holder": "2",
+        "Target": "大夫",
+        "Aspect": "送医请求",
+        "Opinion": "请求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "2需要找女儿的断肢箱并请求大夫送太太去医院"
+    },
+    {
+        "sentence": "不许走。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "离开行为",
+        "Opinion": "禁止",
+        "Sentiment": "negative",
+        "Rationale": "1不允许2离开"
+    },
+    {
+        "sentence": "苏诚，念念的断肢肯定是被她藏起来了，你要是放她走，我们肯定找不到了呀！",
+        "Holder": "1",
+        "Target": "念念",
+        "Aspect": "断肢的藏匿",
+        "Opinion": "断肢被藏",
+        "Sentiment": "negative",
+        "Rationale": "认为念念藏起了断肢，担心放她走后找不到"
+    },
+    {
+        "sentence": "妈，你是要害死我肚子里的孩子吗？",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "对胎儿的影响",
+        "Opinion": "担心胎儿安全",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为可能危及到自己的孩子"
+    },
+    {
+        "sentence": "苏诚，我嫁给你两年了，你妈到现在都没有接受我。我是你的妻子，在这个家，我除了你，我没有任何别的依靠了。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "家庭接纳",
+        "Opinion": "未被接受",
+        "Sentiment": "negative",
+        "Rationale": "嫁入家庭两年仍未被婆婆接受，感到孤独和无助"
+    },
+    {
+        "sentence": "妈，我只是想送曼曼去医院，您放心，我不走，我留下来陪你找断肢箱。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行动解释",
+        "Opinion": "解释行动合理性",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己的行为以安抚1的情绪"
+    },
+    {
+        "sentence": "不可以！苏诚，于曼就是凶手，你这是放虎飞山呐，苏诚！你这两年被这个女人用猪油蒙了心。就刚才我给医疗队打电话，让他们来救念念，是她让施工队把医疗队挡在了楼下。如果你不来，念念就死了呀！苏诚，你到底要执迷不悟到什么时候呀？",
+        "Holder": "1",
+        "Target": "于曼",
+        "Aspect": "是否为凶手",
+        "Opinion": "于曼是凶手",
+        "Sentiment": "negative",
+        "Rationale": "1认为于曼故意阻挠医疗队救援念念，导致念念生命危险"
+    },
+    {
+        "sentence": "苏诚，你能不能相信我？我是真的不知道念念在这里，我以为妈只是犯了病而已。我在楼下的时候，我就开始恶心想吐，我去完厕所回来，我就看到那个蓝色的箱子在那儿，而且那个蓝色箱子那么重，我怎么可能会去拿呢？",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "是否知情",
+        "Opinion": "不知情",
+        "Sentiment": "negative",
+        "Rationale": "5被怀疑是凶手，感到冤枉和委屈"
+    },
+    {
+        "sentence": "妈，我相信曼曼。",
+        "Holder": "2",
+        "Target": "于曼",
+        "Aspect": "可信度",
+        "Opinion": "相信于曼",
+        "Sentiment": "positive",
+        "Rationale": "2选择相信于曼"
+    },
+    {
+        "sentence": "大夫，实在不好意思，麻烦您先送我太太去医院好吗？谢谢。",
+        "Holder": "2",
+        "Target": "大夫",
+        "Aspect": "请求帮助",
+        "Opinion": "请求送太太去医院",
+        "Sentiment": "neutral",
+        "Rationale": "2需要大夫帮助送太太去医院"
+    },
+    {
+        "sentence": "念念的书包！你们在做什么？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "对书包的处理",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "看到4在处理念念的书包，感到不解和不满"
+    },
+    {
+        "sentence": "啊，清理干净，毕竟这里要施工。",
+        "Holder": "4",
+        "Target": "书包的处理",
+        "Aspect": "清理的必要性",
+        "Opinion": "需要清理",
+        "Sentiment": "neutral",
+        "Rationale": "施工需要清理现场"
+    },
+    {
+        "sentence": "妈，我觉得您和曼曼之间肯定是有什么误会。妈，当务之急，我们先把曼曼送去医院啊。念念的断肢，我再陪您去找，否则咱们都干站在这里也没有什么意义啊。",
+        "Holder": "2",
+        "Target": "1和曼曼的关系",
+        "Aspect": "误会的存在",
+        "Opinion": "存在误会",
+        "Sentiment": "neutral",
+        "Rationale": "认为1和曼曼之间存在误会"
+    },
+    {
+        "sentence": "要什么用？于曼就是凶手，她知道断肢在哪里！",
+        "Holder": "1",
+        "Target": "曼曼",
+        "Aspect": "曼曼的嫌疑",
+        "Opinion": "曼曼是凶手",
+        "Sentiment": "negative",
+        "Rationale": "坚信曼曼是凶手且知道断肢位置"
+    },
+    {
+        "sentence": "奶奶，您别着急。",
+        "Holder": "3",
+        "Target": "1的情绪",
+        "Aspect": "情绪的稳定性",
+        "Opinion": "需要冷静",
+        "Sentiment": "neutral",
+        "Rationale": "看到1情绪激动"
+    },
+    {
+        "sentence": "于小姐，念念在抢救的时候，你在哪？",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "在场情况",
+        "Opinion": "质疑5不在场",
+        "Sentiment": "negative",
+        "Rationale": "3怀疑5在关键时刻不在场"
+    },
+    {
+        "sentence": "我都说过很多次了，我看见血我就恶心，我直接就去了厕所。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "对血的反应",
+        "Opinion": "解释自己离开的原因",
+        "Sentiment": "neutral",
+        "Rationale": "5在解释自己离开的原因"
+    },
+    {
+        "sentence": "所以你根本就没有看见装残肢箱子对吗？",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "是否看见箱子",
+        "Opinion": "质疑5没有看见箱子",
+        "Sentiment": "negative",
+        "Rationale": "3继续质疑5没有看见关键证据"
+    },
+    {
+        "sentence": "对呀。那么血腥，我怎么会去看呢？更别提去拿了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "对血腥场景的反应",
+        "Opinion": "强调自己不会去看",
+        "Sentiment": "neutral",
+        "Rationale": "5在强调自己不会去看血腥场景"
+    },
+    {
+        "sentence": "那你怎么知道箱子是蓝色的？",
+        "Holder": "3",
+        "Target": "5",
+        "Aspect": "箱子颜色的知情情况",
+        "Opinion": "质疑5如何知道箱子颜色",
+        "Sentiment": "negative",
+        "Rationale": "3对5如何知道箱子颜色表示怀疑"
+    },
+    {
+        "sentence": "我就瞟了几眼，我肯定记得颜色，你不能因为这个来怀疑我吧？",
+        "Holder": "5",
+        "Target": "3的怀疑",
+        "Aspect": "记忆的准确性",
+        "Opinion": "记得颜色",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑只瞟了几眼就不记得颜色"
+    },
+    {
+        "sentence": "苏先生，您觉得呢？",
+        "Holder": "3",
+        "Target": "5的辩解",
+        "Aspect": "意见的合理性",
+        "Opinion": "寻求第三方意见",
+        "Sentiment": "neutral",
+        "Rationale": "需要第三方意见来验证5的说法"
+    },
+    {
+        "sentence": "曼曼说的也不无道理，空间那么小，注意到箱子的颜色也并不奇怪。",
+        "Holder": "2",
+        "Target": "5的辩解",
+        "Aspect": "辩解的合理性",
+        "Opinion": "支持5的说法",
+        "Sentiment": "positive",
+        "Rationale": "认为在空间小的情况下注意到颜色是合理的"
+    },
+    {
+        "sentence": "苏先生，您还记得箱子大小吗？",
+        "Holder": "3",
+        "Target": "2的记忆",
+        "Aspect": "记忆的细节",
+        "Opinion": "询问箱子大小",
+        "Sentiment": "neutral",
+        "Rationale": "需要进一步确认细节"
+    },
+    {
+        "sentence": "大概20寸左右，不是很大。",
+        "Holder": "2",
+        "Target": "箱子大小",
+        "Aspect": "大小的描述",
+        "Opinion": "箱子不大",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述箱子的大小"
+    },
+    {
+        "sentence": "大概有多重呢？看上去大概10斤左右，应该不重。",
+        "Holder": "3",
+        "Target": "箱子",
+        "Aspect": "重量",
+        "Opinion": "大概10斤左右，不重",
+        "Sentiment": "neutral",
+        "Rationale": "只是根据外观猜测重量"
+    },
+    {
+        "sentence": "里面是冷冻仪，重达40斤。如果没有亲手提过的话，你怎么知道箱子很重？",
+        "Holder": "3",
+        "Target": "箱子",
+        "Aspect": "重量",
+        "Opinion": "重达40斤",
+        "Sentiment": "negative",
+        "Rationale": "对方没有亲手提过箱子却下结论"
+    },
+    {
+        "sentence": "于曼，你还有什么话好说？你手上沾满了红药水，你还知道箱子的重量，你怎么解释？",
+        "Holder": "1",
+        "Target": "5（于曼）",
+        "Aspect": "行为解释",
+        "Opinion": "需要解释",
+        "Sentiment": "negative",
+        "Rationale": "于曼手上有红药水且知道箱子重量，显得可疑"
+    },
+    {
+        "sentence": "真的是你？",
+        "Holder": "2",
+        "Target": "3的身份",
+        "Aspect": "身份确认",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对3的身份感到不确定"
+    },
+    {
+        "sentence": "于曼涉嫌残害未成年少女，报警。",
+        "Holder": "3",
+        "Target": "于曼",
+        "Aspect": "犯罪行为",
+        "Opinion": "指控",
+        "Sentiment": "negative",
+        "Rationale": "3认为于曼涉嫌犯罪"
+    },
+    {
+        "sentence": "不要报警！",
+        "Holder": "5",
+        "Target": "报警行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "5担心报警会带来不利后果"
+    },
+    {
+        "sentence": "苏诚，我可是你的妻子啊，不要报警，我求求你了，不要报警好不好？",
+        "Holder": "5",
+        "Target": "苏诚",
+        "Aspect": "夫妻关系",
+        "Opinion": "恳求",
+        "Sentiment": "negative",
+        "Rationale": "5希望通过夫妻关系来劝阻苏诚报警"
+    },
+    {
+        "sentence": "居然真的是你？到底为什么，箱子在哪？告诉我。",
+        "Holder": "2",
+        "Target": "3的身份和箱子位置",
+        "Aspect": "身份确认和物品位置",
+        "Opinion": "震惊和质问",
+        "Sentiment": "negative",
+        "Rationale": "2确认了3的身份并急于知道箱子位置"
+    },
+    {
+        "sentence": "不是，你为什么会一个医生的一面之词来怀疑我啊？",
+        "Holder": "5",
+        "Target": "2的怀疑",
+        "Aspect": "怀疑的依据",
+        "Opinion": "不应仅凭医生的话怀疑",
+        "Sentiment": "negative",
+        "Rationale": "2仅凭医生的一面之词就怀疑5"
+    }
+]

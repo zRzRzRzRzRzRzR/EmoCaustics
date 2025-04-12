@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "怀孕消息与职场反应",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述怀孕事实", "source_id": "1"},
+          {"state": "negative", "reason": "被李总开除的突然决定", "source_id": "5"},
+          {"state": "doubt", "reason": "质疑解雇决定的合理性", "source_id": "5"},
+          {"state": "positive", "reason": "澄清误会并维护信任", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "误会解除与形象维护",
+        "emotions": [
+          {"state": "positive", "reason": "主动解释误会并认可老板", "source_id": "2"},
+          {"state": "negative", "reason": "担心信任的人被误解", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "怀孕消息处理与职场警告",
+        "emotions": [
+          {"state": "positive", "reason": "认为怀孕是好事", "source_id": "2"},
+          {"state": "negative", "reason": "警告李总的潜在负面反应", "source_id": "4"},
+          {"state": "neutral", "reason": "指导新人职场经验", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "对厉总认知转变",
+        "emotions": [
+          {"state": "positive", "reason": "误会解除后重新评价厉总", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "执行解雇决策",
+        "emotions": [
+          {"state": "negative", "reason": "直接宣布解雇决定", "source_id": "4"},
+          {"state": "neutral", "reason": "接受补偿方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "迟到危机与职业转折",
+        "emotions": [
+          {"state": "negative", "reason": "因迟到面临解雇", "source_id": "4"},
+          {"state": "neutral", "reason": "获得工作推荐与补偿承诺", "source_id": "5"},
+          {"state": "positive", "reason": "认可同事的善良品质", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "批判管理层行为",
+        "emotions": [
+          {"state": "negative", "reason": "谴责李总对待孕妇的态度", "source_id": "4"},
+          {"state": "negative", "reason": "拒绝与特定对象交流", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

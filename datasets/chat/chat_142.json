@@ -1,0 +1,623 @@
+[
+    {
+        "sentence": "怎么不去店里啊，还把我约到这儿来？",
+        "Holder": "1",
+        "Target": "约见地点",
+        "Aspect": "地点选择的合理性",
+        "Opinion": "质疑地点选择",
+        "Sentiment": "negative",
+        "Rationale": "被约到不熟悉或不方便的地方"
+    },
+    {
+        "sentence": "我正忙着呢，找我有什么事？",
+        "Holder": "1",
+        "Target": "2的约见",
+        "Aspect": "约见的时机",
+        "Opinion": "认为时机不当",
+        "Sentiment": "negative",
+        "Rationale": "自己正在忙"
+    },
+    {
+        "sentence": "你说呢？",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "提问的合理性",
+        "Opinion": "反问对方",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方的问题显得多余"
+    },
+    {
+        "sentence": "有事说事啊，说完了我还得回去做生意呢。",
+        "Holder": "1",
+        "Target": "2的谈话",
+        "Aspect": "谈话的效率",
+        "Opinion": "希望快速结束",
+        "Sentiment": "negative",
+        "Rationale": "急于回去做生意"
+    },
+    {
+        "sentence": "你还有心情做生意呢？我那咖啡屋关门一直关到现在了。",
+        "Holder": "2",
+        "Target": "1的生意",
+        "Aspect": "生意的持续性",
+        "Opinion": "质疑对方的心情",
+        "Sentiment": "negative",
+        "Rationale": "自己的咖啡屋关门，心情不好"
+    },
+    {
+        "sentence": "我做生意是为了讨生活。哪像你呀？一年赔上好几十万的房租，照样吃香的喝辣的，我哪能跟你比呀？",
+        "Holder": "1",
+        "Target": "2的生活状况",
+        "Aspect": "经济状况和生活水平",
+        "Opinion": "无法与2相比",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己做生意辛苦讨生活，而2即使赔钱也能过得很好"
+    },
+    {
+        "sentence": "那你是比不上，我们家门风清正，三代清清白白，没有一个离婚的。到了彭浩东这儿，破了规矩，当然了，也感谢们。不过你们家吧，对这事儿习以为常，见怪不怪了。",
+        "Holder": "2",
+        "Target": "1的家庭状况",
+        "Aspect": "家庭风气和离婚态度",
+        "Opinion": "1的家庭对离婚习以为常",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的家庭对离婚态度随意，破坏了传统家风"
+    },
+    {
+        "sentence": "说什么呢？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论内容",
+        "Opinion": "不理解或不认同",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的言论感到困惑或不认同"
+    },
+    {
+        "sentence": "我说你们家拿离婚这事儿不当回事儿，我不行。",
+        "Holder": "2",
+        "Target": "1的家庭态度",
+        "Aspect": "对离婚的态度",
+        "Opinion": "1的家庭对离婚态度轻率",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的家庭对离婚不够重视，与自己家庭的严肃态度形成对比"
+    },
+    {
+        "sentence": "离了婚满城风雨的，你们连句道歉的话都没有，就这么黑不提白不提的了？",
+        "Holder": "2",
+        "Target": "1的家庭行为",
+        "Aspect": "离婚后的处理方式",
+        "Opinion": "1的家庭没有道歉",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的家庭在离婚后没有进行应有的道歉和解释"
+    },
+    {
+        "sentence": "我凭什么给你道歉啊？",
+        "Holder": "1",
+        "Target": "道歉的要求",
+        "Aspect": "道歉的合理性",
+        "Opinion": "不认为自己需要道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为自己没有做错事"
+    },
+    {
+        "sentence": "我儿子一不家暴，二不出轨，是你女儿非要离婚的，你凭什么不给我道歉啊？",
+        "Holder": "2",
+        "Target": "1的道歉",
+        "Aspect": "离婚原因的责任",
+        "Opinion": "认为1的女儿应承担责任",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的儿子没有过错，是1的女儿非要离婚"
+    },
+    {
+        "sentence": "找茬是吧，还打上门来了，你以为我怕你啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为动机和态度",
+        "Opinion": "认为2在找茬",
+        "Sentiment": "negative",
+        "Rationale": "认为2故意来找麻烦并且态度强硬"
+    },
+    {
+        "sentence": "我怕你我就不来了！",
+        "Holder": "2",
+        "Target": "1的威胁",
+        "Aspect": "勇气和决心",
+        "Opinion": "不害怕1",
+        "Sentiment": "negative",
+        "Rationale": "认为自己有理且不怕1"
+    },
+    {
+        "sentence": "都因为你女儿，我儿子才被离了婚。被离婚，你知道吗？被离婚。整天吃不下，睡不着，背后还得被人指指点点的。",
+        "Holder": "2",
+        "Target": "1的女儿",
+        "Aspect": "离婚的影响",
+        "Opinion": "认为1的女儿导致儿子离婚",
+        "Sentiment": "negative",
+        "Rationale": "认为1的女儿是离婚的主要原因，导致儿子生活痛苦"
+    },
+    {
+        "sentence": "我告诉你，我儿子要是过不好，郝有嘉也别想过好，你们一家人也别想有安稳的日子！",
+        "Holder": "2",
+        "Target": "郝有嘉及其家人",
+        "Aspect": "生活安稳",
+        "Opinion": "威胁不让过好",
+        "Sentiment": "negative",
+        "Rationale": "认为儿子过得不好是郝有嘉及其家人的责任"
+    },
+    {
+        "sentence": "你说话讲点道理行不行啊？",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "合理性",
+        "Opinion": "要求讲道理",
+        "Sentiment": "negative",
+        "Rationale": "2的说话方式不合理且带有威胁"
+    },
+    {
+        "sentence": "这离婚是两个人的事情，一个巴掌拍不响！这离婚得两个人同意吧？他们俩自己都同意了，你跑到我这儿来闹，你算哪根葱啊？",
+        "Holder": "1",
+        "Target": "2的干涉行为",
+        "Aspect": "合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "离婚是双方同意的事情，2却无理取闹地干涉"
+    },
+    {
+        "sentence": "我跟你讲，你动动脑子啊，别胡说八道的！",
+        "Holder": "1",
+        "Target": "2的思维逻辑",
+        "Aspect": "合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "2的言论毫无逻辑且胡说八道"
+    },
+    {
+        "sentence": "我脑子清醒的很！",
+        "Holder": "2",
+        "Target": "自己的思维状态",
+        "Aspect": "清醒程度",
+        "Opinion": "认为自己清醒",
+        "Sentiment": "positive",
+        "Rationale": "被质疑思维不清醒"
+    },
+    {
+        "sentence": "有其母，必有其女。郝有嘉都是跟你学的，你说你教点什么不好啊？非得教他离婚？离婚这个家风，你们还要发扬光大，代代相传吗？",
+        "Holder": "2",
+        "Target": "1的教育方式",
+        "Aspect": "教育内容的选择",
+        "Opinion": "批评教育离婚",
+        "Sentiment": "negative",
+        "Rationale": "认为1教给郝有嘉离婚的行为不当"
+    },
+    {
+        "sentence": "你说的这是人话吗？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "质疑言论",
+        "Sentiment": "negative",
+        "Rationale": "2的言论过于刻薄和不合理"
+    },
+    {
+        "sentence": "谁家拿离婚当家风啊？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "反驳指责",
+        "Sentiment": "negative",
+        "Rationale": "2的指责毫无根据且荒谬"
+    },
+    {
+        "sentence": "你们家！你和全哥就是二婚吧？你们家四个孩子全离了吧？这叫遗传，遗传你懂吧？",
+        "Holder": "2",
+        "Target": "1的家庭情况",
+        "Aspect": "家庭婚姻状况",
+        "Opinion": "指责家庭离婚",
+        "Sentiment": "negative",
+        "Rationale": "认为1的家庭离婚情况是遗传的"
+    },
+    {
+        "sentence": "也不知道我们这个彭浩东到底错了哪根筋，看上了你们家的女儿？那郝有嘉那臭脾气哪儿好了？当初我就看她不顺眼！",
+        "Holder": "2",
+        "Target": "郝有嘉",
+        "Aspect": "个人品质",
+        "Opinion": "贬低郝有嘉",
+        "Sentiment": "negative",
+        "Rationale": "对郝有嘉的脾气和行为不满"
+    },
+    {
+        "sentence": "陈雪燕！",
+        "Holder": "1",
+        "Target": "陈雪燕",
+        "Aspect": "称呼",
+        "Opinion": "直接呼唤",
+        "Sentiment": "neutral",
+        "Rationale": "只是直接呼唤名字，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你别太过分啊！",
+        "Holder": "1",
+        "Target": "陈雪燕的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为过分",
+        "Sentiment": "negative",
+        "Rationale": "认为陈雪燕的行为超出了合理范围"
+    },
+    {
+        "sentence": "我怎么过分了？",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "行为合理性",
+        "Opinion": "否认过分",
+        "Sentiment": "negative",
+        "Rationale": "被指责过分但认为自己没有问题"
+    },
+    {
+        "sentence": "我这是在帮你，帮你知道吧？我帮你分析分析你们一家的问题。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为动机",
+        "Opinion": "认为是帮助",
+        "Sentiment": "positive",
+        "Rationale": "认为自己是在帮助对方分析问题"
+    },
+    {
+        "sentence": "别拍了！",
+        "Holder": "1",
+        "Target": "2的拍摄行为",
+        "Aspect": "拍摄行为的合理性",
+        "Opinion": "反对拍摄",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的拍摄行为不合适"
+    },
+    {
+        "sentence": "拍什么拍呀？放起来！",
+        "Holder": "2",
+        "Target": "1的反对",
+        "Aspect": "反对的合理性",
+        "Opinion": "反对拍摄",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的反对没有道理"
+    },
+    {
+        "sentence": "不是，我帮你分析分析你们一家六口的问题到底出在哪儿。",
+        "Holder": "2",
+        "Target": "1的家庭问题",
+        "Aspect": "问题分析",
+        "Opinion": "愿意帮助分析",
+        "Sentiment": "neutral",
+        "Rationale": "2想要帮助1分析家庭问题"
+    },
+    {
+        "sentence": "我怎么就跟你们成了亲家了？当初我就应该坚决的反对这门亲事！",
+        "Holder": "2",
+        "Target": "亲事",
+        "Aspect": "亲事的合理性",
+        "Opinion": "反对亲事",
+        "Sentiment": "negative",
+        "Rationale": "2对成为亲家感到后悔"
+    },
+    {
+        "sentence": "你以为我愿意跟你当亲家呢？要不是看在浩东的份儿上，我能忍你这么些年？我还告诉你，我当年也反对这门亲事！",
+        "Holder": "1",
+        "Target": "亲事",
+        "Aspect": "亲事的合理性",
+        "Opinion": "反对亲事",
+        "Sentiment": "negative",
+        "Rationale": "1也对成为亲家感到不满，但为了浩东忍受多年"
+    },
+    {
+        "sentence": "你忍我什么了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "忍耐的原因",
+        "Opinion": "质疑忍耐",
+        "Sentiment": "negative",
+        "Rationale": "感到被误解或不公平对待"
+    },
+    {
+        "sentence": "我真是替浩东惋惜。我们家女儿呢已经在你们家吃了一遍苦了，哎呀，我倒是想看看谁会到你们家吃二遍苦，受二茬罪。有你这样的婆婆，谁会把女儿嫁到你们家啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "家庭环境和待遇",
+        "Opinion": "对家庭环境不满",
+        "Sentiment": "negative",
+        "Rationale": "认为女儿在对方家庭受到了不好的待遇"
+    },
+    {
+        "sentence": "你等着，我找着好的给你报喜。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "未来的回应",
+        "Opinion": "自信能找到好对象",
+        "Sentiment": "positive",
+        "Rationale": "相信自己能找到好对象"
+    },
+    {
+        "sentence": "哎呀，我等着呢。",
+        "Holder": "1",
+        "Target": "2的回应",
+        "Aspect": "等待的态度",
+        "Opinion": "期待结果",
+        "Sentiment": "neutral",
+        "Rationale": "对对方的话持观望态度"
+    },
+    {
+        "sentence": "啊，等着吧。",
+        "Holder": "2",
+        "Target": "1的期待",
+        "Aspect": "回应的态度",
+        "Opinion": "让对方等待",
+        "Sentiment": "neutral",
+        "Rationale": "对对方的期待没有特别的情绪"
+    },
+    {
+        "sentence": "你别太得意了，也不知道你这是哪儿来的这份自信啊？一天到晚的，哎呦看不上这个瞧不着那个的，你以为你那叫眼光高啊？你那叫眼睛长错地方了！你那眼睛啊长在天灵盖儿上了，你也不怕下雨漏水。",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "自信和态度",
+        "Opinion": "过于自信且态度傲慢",
+        "Sentiment": "negative",
+        "Rationale": "1认为2过于自信且态度傲慢"
+    },
+    {
+        "sentence": "你才怕漏水呢！",
+        "Holder": "2",
+        "Target": "1的讽刺",
+        "Aspect": "反击",
+        "Opinion": "不服气",
+        "Sentiment": "negative",
+        "Rationale": "2对1的讽刺感到不满"
+    },
+    {
+        "sentence": "你闭嘴吧你！",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论控制",
+        "Opinion": "要求停止言论",
+        "Sentiment": "negative",
+        "Rationale": "1对2的反击感到不满"
+    },
+    {
+        "sentence": "你闭嘴吧！",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论控制",
+        "Opinion": "要求停止言论",
+        "Sentiment": "negative",
+        "Rationale": "2对1的言论感到不满"
+    },
+    {
+        "sentence": "你还敢说我们家家风不正？我们家不就是离了婚吗？伤和气呀。",
+        "Holder": "1",
+        "Target": "2的评价",
+        "Aspect": "家风评价",
+        "Opinion": "反驳家风不正的说法",
+        "Sentiment": "negative",
+        "Rationale": "1对2关于家风的评价感到不满"
+    },
+    {
+        "sentence": "哪像你呀？哎呦，你可真牛啊你！40多岁了，老公就没了，你那叫什么你知道吗？你那叫命硬，你克夫！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "个人命运",
+        "Opinion": "命硬克夫",
+        "Sentiment": "negative",
+        "Rationale": "1用贬低和诅咒的言语攻击2的个人命运"
+    },
+    {
+        "sentence": "怎么着？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "回应态度",
+        "Opinion": "挑衅",
+        "Sentiment": "negative",
+        "Rationale": "1用挑衅的语气回应2"
+    },
+    {
+        "sentence": "骂人不揭短，打人不打脸！你，你说的这是人话吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "言行合理性",
+        "Opinion": "言行不当",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的言辞极其不当，侮辱性强"
+    },
+    {
+        "sentence": "是你先不说人话的！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言行顺序",
+        "Opinion": "对方先挑衅",
+        "Sentiment": "negative",
+        "Rationale": "1认为2先有不妥的言行"
+    },
+    {
+        "sentence": "你，我陈雪燕一辈子清清白白的，你，你必须给我道歉！要不然我去公安局，我举报你！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "道歉的必要性",
+        "Opinion": "要求1道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为1诬陷了自己"
+    },
+    {
+        "sentence": "快快快，你快去快去，你告我什么呀，你告？",
+        "Holder": "1",
+        "Target": "2的举报威胁",
+        "Aspect": "举报的合理性",
+        "Opinion": "质疑2的举报内容",
+        "Sentiment": "negative",
+        "Rationale": "认为2的举报没有根据"
+    },
+    {
+        "sentence": "告你诬陷，诬陷，你诬蔑我！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "诬陷的指控",
+        "Opinion": "认为1在诬陷自己",
+        "Sentiment": "negative",
+        "Rationale": "坚信自己被1诬陷"
+    },
+    {
+        "sentence": "你才污蔑我呢，你先道歉，你说我们家女儿的，还说我们家全家。你要道歉，也是你先道歉！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "道歉的先后顺序",
+        "Opinion": "认为2应先道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为2先对自家女儿和家人进行诽谤"
+    },
+    {
+        "sentence": "你必须给我道歉！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "道歉的必要性",
+        "Opinion": "坚决要求1道歉",
+        "Sentiment": "negative",
+        "Rationale": "坚持认为1对自己进行了诬陷"
+    },
+    {
+        "sentence": "你凭什么不道歉呀？你说的那叫人话吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言语行为",
+        "Opinion": "不道歉且言语不当",
+        "Sentiment": "negative",
+        "Rationale": "对方没有道歉且言语不当"
+    },
+    {
+        "sentence": "你说的才不是人话呢！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "言语行为",
+        "Opinion": "言语不当",
+        "Sentiment": "negative",
+        "Rationale": "对方言语冒犯"
+    },
+    {
+        "sentence": "闭嘴吧你！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言语行为",
+        "Opinion": "要求对方停止说话",
+        "Sentiment": "negative",
+        "Rationale": "对方言语冒犯"
+    },
+    {
+        "sentence": "你还好意思？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "对方行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己感到不满"
+    },
+    {
+        "sentence": "好了好了，不要吵了。",
+        "Holder": "3",
+        "Target": "1,2",
+        "Aspect": "争吵行为",
+        "Opinion": "停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "争吵无益"
+    },
+    {
+        "sentence": "告你，我就告你！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "行为",
+        "Opinion": "要告发",
+        "Sentiment": "negative",
+        "Rationale": "3的行为让2感到不满"
+    },
+    {
+        "sentence": "消消气。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "情绪",
+        "Opinion": "劝解",
+        "Sentiment": "neutral",
+        "Rationale": "看到2非常生气"
+    },
+    {
+        "sentence": "消什么气啊？她不道歉，这气就消不了！",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "道歉",
+        "Opinion": "要求道歉",
+        "Sentiment": "negative",
+        "Rationale": "她没有道歉"
+    },
+    {
+        "sentence": "你给我躲开吧你！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "要求躲避",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到不满"
+    },
+    {
+        "sentence": "你要冲我来，还反了你了？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "指责",
+        "Sentiment": "negative",
+        "Rationale": "2的态度让1感到被冒犯"
+    },
+    {
+        "sentence": "我就冲你来！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "行为指向",
+        "Opinion": "针对3",
+        "Sentiment": "negative",
+        "Rationale": "2对3有不满"
+    },
+    {
+        "sentence": "给我道歉！道歉！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "道歉要求",
+        "Opinion": "要求道歉",
+        "Sentiment": "negative",
+        "Rationale": "2认为3做错了事"
+    },
+    {
+        "sentence": "不要吵了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "争吵行为",
+        "Opinion": "停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "3希望平息争吵"
+    },
+    {
+        "sentence": "你好意思啊",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不合理"
+    },
+    {
+        "sentence": "你好意思啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑1的行为",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的指责不公正"
+    },
+    {
+        "sentence": "好了，别吵了。",
+        "Holder": "3",
+        "Target": "争吵",
+        "Aspect": "争吵的停止",
+        "Opinion": "希望停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "希望恢复安静的环境"
+    }
+]

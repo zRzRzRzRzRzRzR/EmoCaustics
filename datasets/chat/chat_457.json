@@ -1,0 +1,407 @@
+[
+    {
+        "sentence": "所以你的背景就是今天这个前辈，前段时间那大爷。",
+        "Holder": "1",
+        "Target": "2的背景",
+        "Aspect": "身份确认",
+        "Opinion": "认为是前辈和大爷",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2的背景"
+    },
+    {
+        "sentence": "自己，大爷。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份确认",
+        "Opinion": "确认是大爷",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的询问"
+    },
+    {
+        "sentence": "这不是我大爷，我认识我大爷。",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "否认是大爷",
+        "Sentiment": "neutral",
+        "Rationale": "1在澄清2不是他的大爷"
+    },
+    {
+        "sentence": "没完了，是吧？如果上去我们一晚上都在开会，这是所有的会议资料。这是我拉他办公室。",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "提问的持续性",
+        "Opinion": "认为提问没完没了",
+        "Sentiment": "negative",
+        "Rationale": "1的连续提问让2感到不耐烦"
+    },
+    {
+        "sentence": "应该是洗不清。",
+        "Holder": "1",
+        "Target": "2的情况",
+        "Aspect": "情况解释",
+        "Opinion": "认为情况复杂",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2的情况难以解释清楚"
+    },
+    {
+        "sentence": "你不已经。这是他一天的药，这是他晚上喝的咖啡，这是他的晚饭跟夜宵。你给我过来。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "要求1过来",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有注意到自己的辛苦和付出"
+    },
+    {
+        "sentence": "你冷静点行吗？咱慢慢说。感觉痛到不能。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望2冷静",
+        "Sentiment": "neutral",
+        "Rationale": "1看到2情绪激动"
+    },
+    {
+        "sentence": "这是我加班的资料，这是从晚上 9 点到凌晨1点的历史记录，你看看每一分每一秒我都在做什么？",
+        "Holder": "2",
+        "Target": "自己的工作",
+        "Aspect": "工作努力程度",
+        "Opinion": "展示自己的努力",
+        "Sentiment": "negative",
+        "Rationale": "2感到自己的努力没有被认可"
+    },
+    {
+        "sentence": "我们目前我不理解的是我也在上班，你也在上班，但是为什么我在上班的时候能把工作全都完成，而你为什么天天都要加班呢？我们俩不。",
+        "Holder": "1",
+        "Target": "2的工作效率",
+        "Aspect": "工作完成情况",
+        "Opinion": "质疑2的工作效率",
+        "Sentiment": "neutral",
+        "Rationale": "1不理解为什么2总是需要加班"
+    },
+    {
+        "sentence": "一样，我每天坐在这十几个小时，我有加不完的班，我有干不完的活，我当炮灰，当人肉快递，当救火队员，我每天被刁难被呼来喝去。每天上班的时候我都要小心翼翼，我生怕我自己出一点差错，我害怕我不努力我就会被裁掉。抱歉，所有人都在怀疑我走后门有背景，我没有想到连你也这么想。",
+        "Holder": "2",
+        "Target": "自己的工作状况",
+        "Aspect": "工作压力和误解",
+        "Opinion": "表达自己的辛苦和委屈",
+        "Sentiment": "negative",
+        "Rationale": "2感到自己工作辛苦且被误解"
+    },
+    {
+        "sentence": "那你要我怎么想？以你的学历背景，你知道别人在背后是怎么议论你的吗？我每次给你打电话你都在忙，我不知道你在忙什么。",
+        "Holder": "1",
+        "Target": "2的忙碌",
+        "Aspect": "忙碌的原因",
+        "Opinion": "质疑忙碌的真实性",
+        "Sentiment": "negative",
+        "Rationale": "1对2的忙碌感到疑惑，且认为2没有时间陪伴自己"
+    },
+    {
+        "sentence": "那你现在知道我在忙什么了吗？我估计因为我想在北京有一个家，我想在北京跟你有一个家，我得混出个样子来，我不想让你到时候后悔觉得我当时为什么没有跟那个北京女孩见上一面。",
+        "Holder": "2",
+        "Target": "自己的忙碌",
+        "Aspect": "忙碌的目的",
+        "Opinion": "为了在北京建立家庭",
+        "Sentiment": "positive",
+        "Rationale": "2希望通过努力在北京建立家庭"
+    },
+    {
+        "sentence": "什么北京女孩拖到哪跟哪啊？我们马上就在北京买房了，我们就有家了呀。",
+        "Holder": "1",
+        "Target": "北京女孩的话题",
+        "Aspect": "买房和建立家庭的紧迫性",
+        "Opinion": "认为买房就能解决家庭问题",
+        "Sentiment": "negative",
+        "Rationale": "1认为买房就能解决所有问题，对2提到的北京女孩感到不满"
+    },
+    {
+        "sentence": "那是你爸妈掏的钱，那是你爸妈出的首付。",
+        "Holder": "2",
+        "Target": "买房的资金来源",
+        "Aspect": "经济独立性",
+        "Opinion": "强调买房资金来自1的父母",
+        "Sentiment": "negative",
+        "Rationale": "2认为买房资金来自1的父母，自己没有经济独立性"
+    },
+    {
+        "sentence": "你说到底还是没把我和我父母当成你的家人，对吗？我都不知道你为什么会这么想。我也不知道你为什么会这么想真爱的。好了，他你有时间跟我谈吗？你忙吗？你的时间用来工作，用来学英文。你要忙，你要在北京扎根的。",
+        "Holder": "1",
+        "Target": "2的家庭观念",
+        "Aspect": "对家人的认同",
+        "Opinion": "认为2没有把1及其父母当家人",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2没有把其及其父母当家人，且2总是忙于工作和学习"
+    },
+    {
+        "sentence": "谢迪亚。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是叫了对方的名字，没有表达任何情感"
+    },
+    {
+        "sentence": "我觉得我们都需要冷静了，我们怎么你少喝点咖啡。不管对人，你这就是爱慕虚人，我。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为和态度",
+        "Opinion": "需要冷静，少喝咖啡，爱慕虚荣",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方行为不冷静且爱慕虚荣"
+    },
+    {
+        "sentence": "花的每一分钱，我刷的每一张卡都是我的钱，我没有在你的房产证上加我的名字，我。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "经济独立和房产问题",
+        "Opinion": "强调经济独立，未加名",
+        "Sentiment": "negative",
+        "Rationale": "感到在经济和房产问题上被误解或不被认可"
+    },
+    {
+        "sentence": "要给你写，是你不让的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "房产证加名问题",
+        "Opinion": "曾提议加名但被拒绝",
+        "Sentiment": "negative",
+        "Rationale": "对方拒绝加名提议"
+    },
+    {
+        "sentence": "我不减，我就是想跟你过好日子，我这么拼了命的。我跟你去探房，我去买房。我是不是想跟你过好日子？我是不是想跟你有一个家？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "生活态度和愿望",
+        "Opinion": "努力过好日子，想有个家",
+        "Sentiment": "positive",
+        "Rationale": "强调自己为共同生活努力"
+    },
+    {
+        "sentence": "咱俩就算真的有一个家，早晚也得删。",
+        "Holder": "1",
+        "Target": "家庭关系",
+        "Aspect": "关系的持久性",
+        "Opinion": "关系不稳定",
+        "Sentiment": "negative",
+        "Rationale": "认为即使有家庭关系最终也会结束"
+    },
+    {
+        "sentence": "你喝多了，你刚才说的每一个词、每一句话我就当没听见啊。我等你救醒了我再跟你。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的可信度",
+        "Opinion": "不予理会",
+        "Sentiment": "neutral",
+        "Rationale": "认为1喝多了说的話不可信"
+    },
+    {
+        "sentence": "说，你听见了我说的每一句话、每一个字你都听见了。对不起，我有些爱我就是太累了。都怎么了？事情不像你想的那样，情况也没严重到我要利用到你的。",
+        "Holder": "1",
+        "Target": "自己的状态",
+        "Aspect": "情感和疲惫",
+        "Opinion": "感到疲惫和被误解",
+        "Sentiment": "negative",
+        "Rationale": "感到疲惫且认为自己被误解"
+    },
+    {
+        "sentence": "不严重，你为什么要瞒着我？你明明知道王东亮的底气，为什么还装作一无所知？我现在觉得我就像个小丑。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "隐瞒和知情",
+        "Opinion": "被隐瞒和被轻视",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被隐瞒且被轻视"
+    },
+    {
+        "sentence": "是，我是认识王东亮，可是那天进到包房之前，我怎么知道王东亮在那包房里边？我想保护你，我怕你受到欺负，因为那个时候我已经喜欢上你了。",
+        "Holder": "1",
+        "Target": "认识王东亮的事实",
+        "Aspect": "知情和保护动机",
+        "Opinion": "出于保护的目的",
+        "Sentiment": "positive",
+        "Rationale": "解释自己认识王东亮但不知其在包房，且出于保护2的目的"
+    },
+    {
+        "sentence": "这里面有你的功劳。有的，因为我爱你，我要知道我爱的人是什么样的，你一直上纲上线，对了，我就是上纲上线。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对1的评价",
+        "Opinion": "认为1有功劳但上纲上线",
+        "Sentiment": "ambiguous",
+        "Rationale": "2一方面承认1的功劳，另一方面又指责1上纲上线"
+    },
+    {
+        "sentence": "有必要这样吗？我们事实复杂，人心复杂，这个案子都很复杂，背后我不认残，我怕你趟这趟浑水。可是我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的必要性",
+        "Opinion": "认为2的行为不必要",
+        "Sentiment": "negative",
+        "Rationale": "1认为事情复杂且担心2陷入麻烦"
+    },
+    {
+        "sentence": "已经趟了，我必须告诉林小月，王东亮在跟他离婚之前，已经完成了 3, 000 万人民币的 a 轮融资，他有这个知情权，但。",
+        "Holder": "2",
+        "Target": "林小月的知情权",
+        "Aspect": "知情权的合理性",
+        "Opinion": "支持林小月有知情权",
+        "Sentiment": "positive",
+        "Rationale": "2认为林小月有权知道真相"
+    },
+    {
+        "sentence": "就为了这个知情权，林小月有可能向银行要求冻结股份。",
+        "Holder": "1",
+        "Target": "林小月的可能行为",
+        "Aspect": "行为的后果",
+        "Opinion": "担心林小月的行为带来负面后果",
+        "Sentiment": "negative",
+        "Rationale": "1担心林小月的行为会导致股份冻结"
+    },
+    {
+        "sentence": "他有这个权利。",
+        "Holder": "2",
+        "Target": "林小月的权利",
+        "Aspect": "权利的正当性",
+        "Opinion": "认为林小月有权利",
+        "Sentiment": "positive",
+        "Rationale": "2认为林小月有权采取行动"
+    },
+    {
+        "sentence": "还是绝不过这组你考虑过吗？抱歉。",
+        "Holder": "1",
+        "Target": "2的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "质疑决定",
+        "Sentiment": "neutral",
+        "Rationale": "对2的决定表示疑问"
+    },
+    {
+        "sentence": "我冷避冷，我会告诉他所有的后果，我会让当事人自己做全。",
+        "Holder": "2",
+        "Target": "当事人的选择",
+        "Aspect": "选择的自主性",
+        "Opinion": "支持自主选择",
+        "Sentiment": "neutral",
+        "Rationale": "强调让当事人自己做决定"
+    },
+    {
+        "sentence": "衡，我也是你的当事人。也许真的是在我女儿这几年没给我提过什么要求，每当谁怪谁才苛刻，我们却有不懂的自责，好几次也都想算呀。",
+        "Holder": "1",
+        "Target": "自己的处境",
+        "Aspect": "处境的艰难",
+        "Opinion": "表达无奈",
+        "Sentiment": "negative",
+        "Rationale": "提到自己多年未提要求且感到自责"
+    },
+    {
+        "sentence": "是不能结婚了是吗？",
+        "Holder": "2",
+        "Target": "1的情况",
+        "Aspect": "婚姻状况",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1的婚姻状况表示疑问"
+    },
+    {
+        "sentence": "谁家走开了。",
+        "Holder": "1",
+        "Target": "家庭状况",
+        "Aspect": "家庭成员的离开",
+        "Opinion": "陈述",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "要么按下单的费用休，要么您走人。你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "费用问题",
+        "Opinion": "坚持按费用处理",
+        "Sentiment": "negative",
+        "Rationale": "对方没有按照约定的费用处理"
+    },
+    {
+        "sentence": "看等你大晚的天。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "时间问题",
+        "Opinion": "指出时间已晚",
+        "Sentiment": "neutral",
+        "Rationale": "时间已经很晚"
+    },
+    {
+        "sentence": "我不加。我为什么要加呀？就是因为你跟我说过，不要正，要感恩。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "额外费用",
+        "Opinion": "拒绝加钱",
+        "Sentiment": "negative",
+        "Rationale": "对方之前说过不要加钱，现在却要求加钱"
+    },
+    {
+        "sentence": "我没有全国弱国，无家可归，你应该改变我背上。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "责任归属",
+        "Opinion": "认为对方应承担责任",
+        "Sentiment": "negative",
+        "Rationale": "对方没有履行承诺"
+    },
+    {
+        "sentence": "说好的 24 小时上门服务，现在来索要上门服务费了，我不给，我为什么给啊？所有人都要做好自己分内的事情，这个社会才会有序良性的运转。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "服务费用",
+        "Opinion": "拒绝支付额外费用",
+        "Sentiment": "negative",
+        "Rationale": "对方没有履行之前的承诺，现在却索要额外费用"
+    },
+    {
+        "sentence": "不好意思。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "道歉",
+        "Sentiment": "neutral",
+        "Rationale": "1意识到可能有些冒犯或打扰到对方"
+    },
+    {
+        "sentence": "我挣钱也不努力，我挣 200 块也很辛苦。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "挣钱努力程度",
+        "Opinion": "挣钱辛苦",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己挣钱不多且很辛苦"
+    },
+    {
+        "sentence": "算了算了，我先给你休走吧。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "处理方式",
+        "Opinion": "放弃争论",
+        "Sentiment": "neutral",
+        "Rationale": "1觉得继续争论无意义"
+    },
+    {
+        "sentence": "我们怎么我现在不想说我们。",
+        "Holder": "2",
+        "Target": "我们",
+        "Aspect": "话题讨论",
+        "Opinion": "不想讨论",
+        "Sentiment": "negative",
+        "Rationale": "2不想继续讨论关于‘我们’的话题"
+    },
+    {
+        "sentence": "怎么被动的哭笑着，不管对的错的，至少最后现实都输了。对那情绪热情。",
+        "Holder": "1",
+        "Target": "现实",
+        "Aspect": "情绪反应",
+        "Opinion": "现实总是让人无奈",
+        "Sentiment": "negative",
+        "Rationale": "1觉得无论对错，现实总是让人无奈"
+    }
+]

@@ -1,0 +1,632 @@
+[
+    {
+        "sentence": "阿离是我的亲妹妹，长这么大，我都没舍得动她一根手指头，你把她打成这个样子，怎么打的？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对阿离的伤害",
+        "Opinion": "2打了阿离",
+        "Sentiment": "negative",
+        "Rationale": "1非常疼爱自己的妹妹，看到妹妹被2打成这样"
+    },
+    {
+        "sentence": "我没有。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "是否打了阿离",
+        "Opinion": "否认打了阿离",
+        "Sentiment": "negative",
+        "Rationale": "2被1指责打了阿离，感到被冤枉"
+    },
+    {
+        "sentence": "是这样吗？",
+        "Holder": "1",
+        "Target": "2的否认",
+        "Aspect": "2的诚实度",
+        "Opinion": "怀疑2的说法",
+        "Sentiment": "doubt",
+        "Rationale": "1听到2的否认，但仍然怀疑2是否在说实话"
+    },
+    {
+        "sentence": "不是我，不是我。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "是否打了阿离",
+        "Opinion": "再次否认打了阿离",
+        "Sentiment": "negative",
+        "Rationale": "2再次被1质疑，感到更加被冤枉和无奈"
+    },
+    {
+        "sentence": "是这样吗！",
+        "Holder": "1",
+        "Target": "2的否认",
+        "Aspect": "2的诚实度",
+        "Opinion": "强烈怀疑2的说法",
+        "Sentiment": "negative",
+        "Rationale": "1对2的多次否认感到更加怀疑和不满"
+    },
+    {
+        "sentence": "我没有，我真的没有。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "否认行为",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑做了某些事情"
+    },
+    {
+        "sentence": "那还是这样那样都打过！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的多样性",
+        "Opinion": "指责多种行为",
+        "Sentiment": "negative",
+        "Rationale": "认为2有多种不当行为"
+    },
+    {
+        "sentence": "那就是这样了？",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "解释的合理性",
+        "Opinion": "质疑解释",
+        "Sentiment": "doubt",
+        "Rationale": "对2的解释感到怀疑"
+    },
+    {
+        "sentence": "啊，我不是，我真没有出来啊。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "再次否认行为",
+        "Sentiment": "negative",
+        "Rationale": "被持续怀疑"
+    },
+    {
+        "sentence": "苏芮芮，我跟你在一起这么久了，你在我面前一天到晚还装的一副楚楚可怜，清纯，善良。没想到你背地里是这种蛇蝎心肠的女人！",
+        "Holder": "1",
+        "Target": "2的性格",
+        "Aspect": "性格的真实性",
+        "Opinion": "认为2表里不一",
+        "Sentiment": "negative",
+        "Rationale": "发现2的真实性格与表面不符"
+    },
+    {
+        "sentence": "云骁，你误会了，我从头到尾都没有见过阿离啊。",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "是否见过",
+        "Opinion": "没有见过",
+        "Sentiment": "negative",
+        "Rationale": "被误会与阿离有关"
+    },
+    {
+        "sentence": "她的伤，跟我没有任何关系啊！",
+        "Holder": "2",
+        "Target": "阿离的伤",
+        "Aspect": "关系的有无",
+        "Opinion": "没有关系",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑与阿离的伤有关"
+    },
+    {
+        "sentence": "你还在骗我。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "诚实度",
+        "Opinion": "在骗人",
+        "Sentiment": "negative",
+        "Rationale": "认为2在撒谎"
+    },
+    {
+        "sentence": "那只高跟鞋就是我送给她的最好的礼物。",
+        "Holder": "1",
+        "Target": "高跟鞋",
+        "Aspect": "礼物的意义",
+        "Opinion": "最好的礼物",
+        "Sentiment": "positive",
+        "Rationale": "提到的高跟鞋是精心挑选的礼物"
+    },
+    {
+        "sentence": "你当时跟我打视频的时候，那个女人应该就是阿离吧。",
+        "Holder": "1",
+        "Target": "视频中的女人",
+        "Aspect": "身份",
+        "Opinion": "是阿离",
+        "Sentiment": "negative",
+        "Rationale": "怀疑视频中的女人是阿离"
+    },
+    {
+        "sentence": "你那个时候就已经在糟践她了，对吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对待阿离的态度",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "negative",
+        "Rationale": "1怀疑2在某个时间点对阿离不好"
+    },
+    {
+        "sentence": "不是，不是，云骁，我们在一起三年的感情，难道连这点信任都没有吗？",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "信任问题",
+        "Opinion": "希望得到信任",
+        "Sentiment": "negative",
+        "Rationale": "2感到自己被1怀疑"
+    },
+    {
+        "sentence": "你，你可以问宴会厅的任何一个人，我从头到尾都没有见过阿离啊。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "与阿离的接触",
+        "Opinion": "否认见过阿离",
+        "Sentiment": "neutral",
+        "Rationale": "1在澄清自己没有见过阿离"
+    },
+    {
+        "sentence": "没见过，那我来问问，今天伤害我妹妹的罪魁祸首到底是谁？",
+        "Holder": "1",
+        "Target": "伤害阿离的人",
+        "Aspect": "责任归属",
+        "Opinion": "追究责任",
+        "Sentiment": "negative",
+        "Rationale": "1的妹妹阿离受到了伤害"
+    },
+    {
+        "sentence": "我希望你们如实回答。",
+        "Holder": "1",
+        "Target": "2和其他人",
+        "Aspect": "回答的真实性",
+        "Opinion": "要求如实回答",
+        "Sentiment": "neutral",
+        "Rationale": "1希望得到真相"
+    },
+    {
+        "sentence": "如果等我自己问出了凶手，那我对你们每一个人都不会客气。",
+        "Holder": "1",
+        "Target": "凶手",
+        "Aspect": "调查过程",
+        "Opinion": "自己会严厉对待",
+        "Sentiment": "negative",
+        "Rationale": "自己要亲自找出凶手"
+    },
+    {
+        "sentence": "你放心，这一屋子的人都是帮凶，他们不敢承认。",
+        "Holder": "3",
+        "Target": "这一屋子的人",
+        "Aspect": "是否为帮凶",
+        "Opinion": "都是帮凶",
+        "Sentiment": "negative",
+        "Rationale": "认为这一屋子的人都是帮凶"
+    },
+    {
+        "sentence": "我知道是谁干的，我有证据，我有监控！",
+        "Holder": "4",
+        "Target": "凶手",
+        "Aspect": "证据",
+        "Opinion": "有确凿证据",
+        "Sentiment": "positive",
+        "Rationale": "有监控和证据在手"
+    },
+    {
+        "sentence": "阿离，你身体好些了吗？你嗓子恢复了吗？",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "身体状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "关心4的身体状况"
+    },
+    {
+        "sentence": "嗯，哥，医生已经检查过了，我身体并无大碍，包括声带已经恢复了。",
+        "Holder": "4",
+        "Target": "自己的身体",
+        "Aspect": "健康状况",
+        "Opinion": "已经恢复",
+        "Sentiment": "positive",
+        "Rationale": "医生检查后确认身体无大碍"
+    },
+    {
+        "sentence": "那就好，我们家阿离啊福大命大。",
+        "Holder": "1",
+        "Target": "阿离",
+        "Aspect": "命运",
+        "Opinion": "福大命大",
+        "Sentiment": "positive",
+        "Rationale": "阿离经历了某些困难但最终平安无事"
+    },
+    {
+        "sentence": "接下来我们就该秋后算账了。",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "责任追究",
+        "Opinion": "需要算账",
+        "Sentiment": "negative",
+        "Rationale": "之前的事情需要解决和追究责任"
+    },
+    {
+        "sentence": "你们刚刚口口声声说，没见过二小姐，那现在她已经恢复了，我们是不是该当面对峙了？",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "诚实度",
+        "Opinion": "质疑对方的说法",
+        "Sentiment": "negative",
+        "Rationale": "对方之前的说法与现在的情况不符"
+    },
+    {
+        "sentence": "来人，放监控。",
+        "Holder": "4",
+        "Target": "监控",
+        "Aspect": "证据提供",
+        "Opinion": "需要查看监控",
+        "Sentiment": "neutral",
+        "Rationale": "需要通过监控来确认事实"
+    },
+    {
+        "sentence": "苏芮芮，你还有什么好狡辩的！",
+        "Holder": "1",
+        "Target": "苏芮芮",
+        "Aspect": "辩解",
+        "Opinion": "认为对方无理辩解",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮之前的说法不实，现在证据面前无法继续辩解"
+    },
+    {
+        "sentence": "阿离，是嫂子错了，真的是嫂子错了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "错误的认识",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己误会了阿离"
+    },
+    {
+        "sentence": "是我看到那张照片，鬼迷心窍的误以为你是小三，是嫂子糊涂呀。",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "身份的误解",
+        "Opinion": "误认为小三",
+        "Sentiment": "negative",
+        "Rationale": "看到照片后产生了误解"
+    },
+    {
+        "sentence": "阿离，你再给我一次机会好不好？",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "给予机会",
+        "Opinion": "请求原谅",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到阿离的谅解"
+    },
+    {
+        "sentence": "我真的不知道你是云骁的亲妹妹。",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "身份的认知",
+        "Opinion": "不知情",
+        "Sentiment": "neutral",
+        "Rationale": "确实不知道阿离的真实身份"
+    },
+    {
+        "sentence": "我以为亲兄妹就应该是一个姓，是我孤陋寡闻，是我鬼迷心窍呀。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "认知的局限性",
+        "Opinion": "承认无知",
+        "Sentiment": "negative",
+        "Rationale": "自己的错误认知导致了误会"
+    },
+    {
+        "sentence": "我，我居然对你做出这种事情，是我该死，是我该死！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为的严重性",
+        "Opinion": "极度自责",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己做出了严重伤害对方的事情"
+    },
+    {
+        "sentence": "阿离，千错万错都是我的错，你想怎么打我都行，你，你原谅我好吗？",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "请求原谅",
+        "Opinion": "恳求原谅",
+        "Sentiment": "negative",
+        "Rationale": "知道自己犯了严重的错误"
+    },
+    {
+        "sentence": "苏芮芮，收起你那假惺惺的眼泪吧。",
+        "Holder": "4",
+        "Target": "苏芮芮（2）",
+        "Aspect": "道歉的真诚性",
+        "Opinion": "认为道歉不真诚",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮的道歉是虚伪的"
+    },
+    {
+        "sentence": "今天要不是我福大命大从那儿逃了出来，你恐怕这辈子都不会忏悔吧？",
+        "Holder": "4",
+        "Target": "苏芮芮（2）",
+        "Aspect": "忏悔的动机",
+        "Opinion": "认为对方不会主动忏悔",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮只有在事情败露后才会忏悔"
+    },
+    {
+        "sentence": "不是的，阿离，我一直听云骁提起过你，我知道你是裴家的掌上明珠，从小就是裴氏集团的继承人，我一直很仰慕你的才华的，你不信的话，你可以问我爸妈！",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "对阿离的认知和态度",
+        "Opinion": "仰慕阿离",
+        "Sentiment": "positive",
+        "Rationale": "一直仰慕阿离的才华和背景"
+    },
+    {
+        "sentence": "是啊，阿离，芮芮一直很喜欢你，很期待和你见面呀。",
+        "Holder": "3",
+        "Target": "阿离",
+        "Aspect": "芮芮对阿离的感情",
+        "Opinion": "芮芮很喜欢阿离",
+        "Sentiment": "positive",
+        "Rationale": "芮芮对阿离有很深的喜欢和期待"
+    },
+    {
+        "sentence": "孙芮芮，我说过会后悔的。",
+        "Holder": "4",
+        "Target": "孙芮芮",
+        "Aspect": "对孙芮芮的预言",
+        "Opinion": "孙芮芮会后悔",
+        "Sentiment": "negative",
+        "Rationale": "4认为孙芮芮的行为会导致后悔"
+    },
+    {
+        "sentence": "你还不知道吧，你亲手打碎那价值一个亿的花瓶，是我准备送给你的见面礼。",
+        "Holder": "4",
+        "Target": "孙芮芮",
+        "Aspect": "花瓶的价值和意义",
+        "Opinion": "花瓶是贵重的见面礼",
+        "Sentiment": "negative",
+        "Rationale": "孙芮芮打碎了贵重的见面礼"
+    },
+    {
+        "sentence": "什么？这一个亿的花瓶竟然是送给我的？",
+        "Holder": "2",
+        "Target": "花瓶",
+        "Aspect": "花瓶的赠送对象",
+        "Opinion": "花瓶是送给2的",
+        "Sentiment": "ambiguous",
+        "Rationale": "2惊讶于花瓶的价值和赠送对象是自己"
+    },
+    {
+        "sentence": "我真的是鬼迷心窍，居然砸碎了这么贵的花瓶。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "砸碎花瓶的行为",
+        "Opinion": "自己行为愚蠢",
+        "Sentiment": "negative",
+        "Rationale": "2意识到自己砸碎了价值极高的花瓶"
+    },
+    {
+        "sentence": "阿离，是我瞎了眼，我砸碎了你送我的见面礼，还对你造成这么大的伤害，都是我的错，你原谅我好吗，你再给我一次机会行不行？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "道歉和请求原谅",
+        "Opinion": "承认错误并请求原谅",
+        "Sentiment": "negative",
+        "Rationale": "自己砸碎了礼物并对4造成了伤害"
+    },
+    {
+        "sentence": "你轻飘飘的一句道歉，就想获得我的原谅吗？",
+        "Holder": "4",
+        "Target": "2的道歉",
+        "Aspect": "道歉的诚意",
+        "Opinion": "认为道歉不够真诚",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的道歉太轻率，没有表现出足够的诚意"
+    },
+    {
+        "sentence": "我告诉你，不可能！",
+        "Holder": "4",
+        "Target": "2的请求",
+        "Aspect": "是否原谅",
+        "Opinion": "坚决不原谅",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为极度失望和愤怒"
+    },
+    {
+        "sentence": "从今天开始，你和我们裴家再无瓜葛！",
+        "Holder": "4",
+        "Target": "2与裴家的关系",
+        "Aspect": "关系断绝",
+        "Opinion": "断绝关系",
+        "Sentiment": "negative",
+        "Rationale": "对2的失望和愤怒达到极点"
+    },
+    {
+        "sentence": "你损坏的所有财物必须尽数偿还。当然，包括这场婚礼的全部开销，全部。",
+        "Holder": "4",
+        "Target": "2的赔偿责任",
+        "Aspect": "财物赔偿",
+        "Opinion": "要求全部赔偿",
+        "Sentiment": "negative",
+        "Rationale": "2损坏了财物并造成了经济损失"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "2",
+        "Target": "1的话语",
+        "Aspect": "话语意图",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "不理解1的话语意图"
+    },
+    {
+        "sentence": "我可是裴云骁名门正娶的老婆，我们早就是合法夫妻了，你凭什么让我跟裴家割席！",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "婚姻关系的合法性",
+        "Opinion": "反对割席",
+        "Sentiment": "negative",
+        "Rationale": "认为自己是合法夫妻，不应被要求割席"
+    },
+    {
+        "sentence": "苏芮芮，你欺辱我妹妹，败坏她的名声，还把她打成了重伤，像你这种蛇蝎心肠的女人，根本就不配进我们裴家的门！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "道德品行",
+        "Opinion": "不配进裴家",
+        "Sentiment": "negative",
+        "Rationale": "2欺辱并重伤了1的妹妹"
+    },
+    {
+        "sentence": "从今天开始，我正式宣布今天的婚礼作废！",
+        "Holder": "1",
+        "Target": "婚礼",
+        "Aspect": "婚礼的有效性",
+        "Opinion": "作废婚礼",
+        "Sentiment": "negative",
+        "Rationale": "2的行为导致婚礼无法继续"
+    },
+    {
+        "sentence": "苏芮芮，你就等着签字离婚吧。",
+        "Holder": "1",
+        "Target": "2的婚姻",
+        "Aspect": "婚姻的持续性",
+        "Opinion": "要求离婚",
+        "Sentiment": "negative",
+        "Rationale": "2的行为导致婚姻无法维持"
+    },
+    {
+        "sentence": "云骁，你什么意思呀？你难道忘了当年是谁舍命救你的吗？你难道忘了当年你出车祸，是谁背着你走了十里的山路？又是谁衣不解带的在医院照顾了你三个月！",
+        "Holder": "2",
+        "Target": "云骁",
+        "Aspect": "对救命之恩的忘却",
+        "Opinion": "云骁忘记了救命之恩",
+        "Sentiment": "negative",
+        "Rationale": "云骁似乎忘记了当年苏芮芮对他的救命之恩"
+    },
+    {
+        "sentence": "你堂堂裴氏集团总裁，难道要恩将仇报吗！",
+        "Holder": "2",
+        "Target": "云骁",
+        "Aspect": "恩将仇报的行为",
+        "Opinion": "云骁可能恩将仇报",
+        "Sentiment": "negative",
+        "Rationale": "云骁作为裴氏集团总裁，却可能对有救命之恩的苏芮芮恩将仇报"
+    },
+    {
+        "sentence": "天哪，苏芮芮竟然对裴总有救命之恩啊，难怪两个人能走到结婚这一步。",
+        "Holder": "5",
+        "Target": "苏芮芮",
+        "Aspect": "对云骁的救命之恩",
+        "Opinion": "苏芮芮对云骁有救命之恩",
+        "Sentiment": "neutral",
+        "Rationale": "得知苏芮芮对云骁有救命之恩"
+    },
+    {
+        "sentence": "裴总若是当众休妻，那岂不是落人口舌。",
+        "Holder": "5",
+        "Target": "云骁",
+        "Aspect": "休妻的行为",
+        "Opinion": "休妻会落人口舌",
+        "Sentiment": "negative",
+        "Rationale": "云骁如果当众休妻，会被人指责"
+    },
+    {
+        "sentence": "人家好好的黄花大闺女为了救你连清白都搭上了，要是离婚了，怎么对得起苏家呀？",
+        "Holder": "5",
+        "Target": "云骁",
+        "Aspect": "对苏芮芮的亏欠",
+        "Opinion": "离婚对不起苏家",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮为了救云骁付出了巨大代价，如果离婚会对不起苏家"
+    },
+    {
+        "sentence": "有钱人真是忘恩负义！",
+        "Holder": "5",
+        "Target": "有钱人",
+        "Aspect": "道德品质",
+        "Opinion": "忘恩负义",
+        "Sentiment": "negative",
+        "Rationale": "认为有钱人忘记了别人的恩情"
+    },
+    {
+        "sentence": "好女婿，我们家芮芮当初救你只是出于心善。结婚，可是你亲口提的，说是要报答我们苏家救命之恩，你总不能当着全城的面儿毁约吧？",
+        "Holder": "3",
+        "Target": "云骁",
+        "Aspect": "信守承诺",
+        "Opinion": "应该履行承诺",
+        "Sentiment": "negative",
+        "Rationale": "云骁当初承诺结婚以报恩，现在却可能毁约"
+    },
+    {
+        "sentence": "云骁，这且不说芮芮和你有三年的感情，付出了三年的青春，那女儿家的清白传出去，她以后怎么嫁人呢？",
+        "Holder": "3",
+        "Target": "云骁",
+        "Aspect": "对芮芮的责任",
+        "Opinion": "应该考虑芮芮的未来",
+        "Sentiment": "negative",
+        "Rationale": "云骁的行为可能影响到芮芮的未来"
+    },
+    {
+        "sentence": "云骁，你当年可是信誓旦旦说要娶我的，难道你现在要言而无信了吗？",
+        "Holder": "2",
+        "Target": "云骁",
+        "Aspect": "信守承诺",
+        "Opinion": "应该履行承诺",
+        "Sentiment": "negative",
+        "Rationale": "云骁当年承诺娶她，现在却可能反悔"
+    },
+    {
+        "sentence": "阿离，我承认是我的愚蠢和无知伤害到了你，我可以承担所有的医疗费用，亲自当牛做马的照顾你，直到你彻底痊愈为止。但是我跟你哥哥真的是真心相爱呀。你能不能帮我劝劝你哥哥，不要跟我分手？",
+        "Holder": "2",
+        "Target": "阿离",
+        "Aspect": "请求原谅和支持",
+        "Opinion": "希望得到理解和帮助",
+        "Sentiment": "negative",
+        "Rationale": "自己之前的错误行为伤害了阿离，现在希望得到原谅和支持"
+    },
+    {
+        "sentence": "哥，要不然再给苏芮芮一次机会吧，毕竟悔婚这件事传出去对你名声也不好。",
+        "Holder": "4",
+        "Target": "苏芮芮",
+        "Aspect": "悔婚事件的影响",
+        "Opinion": "再给机会",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到悔婚事件对名声的影响"
+    },
+    {
+        "sentence": "阿离，你不要被这种人的话蒙骗。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "对苏芮芮的看法",
+        "Opinion": "不要被蒙骗",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮的话不可信"
+    },
+    {
+        "sentence": "她既然能对伤害你的话无口否认，那就能对当年的事情弄虚作假。",
+        "Holder": "1",
+        "Target": "苏芮芮",
+        "Aspect": "诚信问题",
+        "Opinion": "能弄虚作假",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮对伤害4的话无口否认"
+    },
+    {
+        "sentence": "裴云骁，你什么意思啊？难道我救你这件事情还能造假不成！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对救人的真实性",
+        "Opinion": "不能造假",
+        "Sentiment": "negative",
+        "Rationale": "1质疑救人的真实性"
+    },
+    {
+        "sentence": "苏芮芮，像你这种蛇蝎心肠的女人，你什么事情干不出来？",
+        "Holder": "1",
+        "Target": "苏芮芮",
+        "Aspect": "性格评价",
+        "Opinion": "蛇蝎心肠",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮性格恶劣"
+    }
+]

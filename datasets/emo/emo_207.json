@@ -1,0 +1,137 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论中阐述独立与依赖的关系",
+        "emotions": [
+          {"state": "neutral", "reason": "用故事引导听众思考", "source_id": "1"},
+          {"state": "positive", "reason": "强调独立对生活复杂性的必要性", "source_id": "1"},
+          {"state": "neutral", "reason": "质疑独立与隔绝的定义差异", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑经济依赖破坏感情相互性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "个人生活案例佐证独立价值观",
+        "emotions": [
+          {"state": "neutral", "reason": "描述女友职场选择自由", "source_id": "1"},
+          {"state": "neutral", "reason": "探讨共同奋斗中的分歧处理", "source_id": "2"},
+          {"state": "positive", "reason": "提出支持伴侣出国深造的积极规划", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "反驳对方辩手的独立观点",
+        "emotions": [
+          {"state": "negative", "reason": "质疑独立与感情共存的矛盾性", "source_id": "1"},
+          {"state": "neutral", "reason": "强调经济独立与感情分离的重要性", "source_id": "1"},
+          {"state": "positive", "reason": "主张单身时自我提升的价值", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "深度依赖关系的辩护",
+        "emotions": [
+          {"state": "positive", "reason": "描述支持伴侣职业发展的决策", "source_id": "2"},
+          {"state": "neutral", "reason": "解释共同体提供人生底气的逻辑", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "质疑依赖与独立的边界",
+        "emotions": [
+          {"state": "negative", "reason": "认为依赖阻碍个人成长", "source_id": "4"},
+          {"state": "neutral", "reason": "探讨辩论能力与情感支持的关系", "source_id": "4"},
+          {"state": "positive", "reason": "主张依赖促进自我价值认知", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "婚姻经济独立性的探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑共同财产制度的必要性", "source_id": "4"},
+          {"state": "negative", "reason": "反对将经济与情感混为一谈", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "自我成长与导师依赖的冲突",
+        "emotions": [
+          {"state": "negative", "reason": "回忆过度依赖导师导致的不自信", "source_id": "4"},
+          {"state": "positive", "reason": "展示突破依赖后的自我认同", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "多边关系合理性的辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "解释经济透明度的积极意义", "source_id": "3"},
+          {"state": "negative", "reason": "反对情感关系中的绝对排他性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "独立概念的多维度解析",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方定义导致概念混乱", "source_id": "6"},
+          {"state": "positive", "reason": "强调精神独立的核心价值", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "感情中独立状态的实践案例",
+        "emotions": [
+          {"state": "positive", "reason": "描述母亲培养独立性的教育方式", "source_id": "5"},
+          {"state": "neutral", "reason": "分析社会关系中独立性的光谱", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "共同体价值的重申",
+        "emotions": [
+          {"state": "positive", "reason": "强调依赖带来的协同效应", "source_id": "5"},
+          {"state": "neutral", "reason": "区分浅层与深层依赖的差异", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "情感必要性的根本性质疑",
+        "emotions": [
+          {"state": "negative", "reason": "质疑依赖带来的痛苦本质", "source_id": "8"},
+          {"state": "ambiguous", "reason": "困惑于独立与羁绊的边界", "source_id": "8"}
+        ]
+      },
+      {
+        "event": "深度依赖的情感价值辩护",
+        "emotions": [
+          {"state": "positive", "reason": "描述共同未来想象的美好", "source_id": "7"},
+          {"state": "negative", "reason": "痛陈依赖破裂带来的创伤", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "精神独立的行为化阐释",
+        "emotions": [
+          {"state": "positive", "reason": "定义判断力独立的核心标准", "source_id": "8"},
+          {"state": "neutral", "reason": "举例说明家庭决策中的独立实践", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

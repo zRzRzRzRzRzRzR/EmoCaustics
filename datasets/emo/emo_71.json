@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "教育集团成就展示与愿景阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "展示国内最大规模教育集团的自豪感",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调立达教育体系的社会价值",
+            "source_id": "1,3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观分析教育环境双刃剑效应",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "教育变革路径探索",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出协同创新解决方案的积极性",
+            "source_id": "1,2"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认教育效能转型的现实困难",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "个人教育理念阐释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "感恩教育与家庭支持的深切情感",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导教育幸福力的理想追求",
+            "source_id": "1,3"
+          }
+        ]
+      },
+      {
+        "event": "教育协同发展倡议",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "呼吁多方协作的强烈使命感",
+            "source_id": "1,2,3"
+          }
+        ]
+      }
+    ]
+  }
+}

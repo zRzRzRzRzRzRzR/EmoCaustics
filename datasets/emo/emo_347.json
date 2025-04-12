@@ -1,0 +1,86 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "中国足球历史成就与现状对比",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "回顾80年代亚洲杯亚军、汉城奥运会胜利、2002年世界杯表现",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "当前亚洲排名下滑至14-15位，联赛竞争力不足，青少年基础薄弱",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "分析体制更迭导致技术传统丢失（1.0到3.0版本演变）",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "足球管理体制改革探索",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "职业联赛封闭性导致竞争力下降，青训体系断层",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "引进西班牙/日本教练团队，建设10个专业足球场",
+            "source_id": "1,3"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对三大球特殊政策与举国体制3.0实施效果存疑",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "国际化战略实施成效",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析英格兰/西班牙训练时长数据（3760 vs 8500小时）",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "浙江绿城梯队引进11名日本教练，俱乐部技术总监国际化",
+            "source_id": "3,4"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑德国培训必要性 vs 上海本地培训可行性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "足球发展顶层设计",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提出「六更方针」（更团结/开放/勇气）与管办分离改革",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "20年更换12任足协主席导致政策连续性缺失",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "引用法国足协主席评价「伟大国家需要匹配的足球水平」",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

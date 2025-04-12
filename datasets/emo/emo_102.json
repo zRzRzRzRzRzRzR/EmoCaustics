@@ -1,0 +1,62 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "假妈计划失败引发冲突",
+        "emotions": [
+          {"state": "negative", "reason": "计划被揭穿导致混乱", "source_id": "3,2"},
+          {"state": "negative", "reason": "保送资格被取消", "source_id": "5"},
+          {"state": "neutral", "reason": "决定独立离家出走", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭矛盾全面爆发",
+        "emotions": [
+          {"state": "negative", "reason": "对母亲酗酒解决问题的不满", "source_id": "3"},
+          {"state": "negative", "reason": "质问父亲下落被回避", "source_id": "3"},
+          {"state": "negative", "reason": "否定亲子关系的存在价值", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "母女信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "女儿雇假妈的背叛感", "source_id": "1"},
+          {"state": "neutral", "reason": "试图用喝酒解决保送问题", "source_id": "1"},
+          {"state": "negative", "reason": "被指责毁掉女儿人生", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "亲子关系破裂",
+        "emotions": [
+          {"state": "negative", "reason": "互相否定母女身份", "source_id": "1"},
+          {"state": "neutral", "reason": "收到女儿离别信", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "保送资格通知",
+        "emotions": [
+          {"state": "negative", "reason": "传达负面消息的责任", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "离家出走推波助澜",
+        "emotions": [
+          {"state": "negative", "reason": "指出逃避现实的后果", "source_id": "3"},
+          {"state": "neutral", "reason": "引用青春完整性理论", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

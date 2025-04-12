@@ -1,0 +1,551 @@
+[
+    {
+        "sentence": "你怎么又喝可乐？放下！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "喝可乐的行为",
+        "Opinion": "不应该喝可乐",
+        "Sentiment": "negative",
+        "Rationale": "1认为2不应该喝可乐"
+    },
+    {
+        "sentence": "我跟你说话呢，谁让你喝的？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "喝可乐的许可",
+        "Opinion": "没有得到许可",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有得到许可就喝可乐"
+    },
+    {
+        "sentence": "你们怎么能让他喝可乐呢？",
+        "Holder": "1",
+        "Target": "其他人",
+        "Aspect": "对2的监管",
+        "Opinion": "监管不力",
+        "Sentiment": "negative",
+        "Rationale": "1认为其他人没有阻止2喝可乐"
+    },
+    {
+        "sentence": "你怎么说话呢？小汐给你看孩子当免费保姆，你还说三道四的！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "说话的态度",
+        "Opinion": "态度不好",
+        "Sentiment": "negative",
+        "Rationale": "2认为1对帮忙看孩子的小汐态度不好"
+    },
+    {
+        "sentence": "自己赖人家家不走还有理了！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为1赖在别人家不走还理直气壮"
+    },
+    {
+        "sentence": "你别说了。",
+        "Holder": "3",
+        "Target": "1的言论",
+        "Aspect": "言论的持续性",
+        "Opinion": "停止言论",
+        "Sentiment": "negative",
+        "Rationale": "3不想再听1继续说下去"
+    },
+    {
+        "sentence": "行，我马上搬。",
+        "Holder": "1",
+        "Target": "搬离的决定",
+        "Aspect": "行动的迅速性",
+        "Opinion": "同意搬离",
+        "Sentiment": "neutral",
+        "Rationale": "1接受了3的要求"
+    },
+    {
+        "sentence": "哎，你别躲。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的逃避性",
+        "Opinion": "反对躲避",
+        "Sentiment": "negative",
+        "Rationale": "2觉得3在逃避对话"
+    },
+    {
+        "sentence": "你不敢跟我说话啊。",
+        "Holder": "2",
+        "Target": "3的勇气",
+        "Aspect": "对话的勇气",
+        "Opinion": "质疑勇气",
+        "Sentiment": "negative",
+        "Rationale": "2认为3不敢与自己对话"
+    },
+    {
+        "sentence": "你等一下。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是让对方稍等，没有表达出明显的情感"
+    },
+    {
+        "sentence": "沈瀚洋，你是不是该睡觉了？",
+        "Holder": "3",
+        "Target": "沈瀚洋",
+        "Aspect": "作息时间",
+        "Opinion": "该睡觉了",
+        "Sentiment": "neutral",
+        "Rationale": "关心对方的作息时间"
+    },
+    {
+        "sentence": "洗漱去。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "个人卫生",
+        "Opinion": "需要洗漱",
+        "Sentiment": "neutral",
+        "Rationale": "到了洗漱的时间"
+    },
+    {
+        "sentence": "你把车借我一下吧。太晚了，甘粹回去我不放心，我去送她一下。",
+        "Holder": "3",
+        "Target": "车",
+        "Aspect": "借用",
+        "Opinion": "需要借用",
+        "Sentiment": "neutral",
+        "Rationale": "担心甘粹的安全"
+    },
+    {
+        "sentence": "我不回去！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "是否回去",
+        "Opinion": "不回去",
+        "Sentiment": "negative",
+        "Rationale": "对回去有抵触情绪"
+    },
+    {
+        "sentence": "那你干嘛啊？",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "不理解2的行为动机"
+    },
+    {
+        "sentence": "她被开除了，你知道吗？",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "工作状态",
+        "Opinion": "被开除",
+        "Sentiment": "negative",
+        "Rationale": "得知她被开除的消息"
+    },
+    {
+        "sentence": "别说了，跟我回去。",
+        "Holder": "3",
+        "Target": "2的话题",
+        "Aspect": "话题的适宜性",
+        "Opinion": "停止讨论",
+        "Sentiment": "negative",
+        "Rationale": "不想继续讨论这个令人不快的话题"
+    },
+    {
+        "sentence": "就是因为你那前女友，你们俩分手，为什么让小汐背黑锅啊？你还是不是个男人，有没有一点担当了？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "责任担当",
+        "Opinion": "缺乏担当",
+        "Sentiment": "negative",
+        "Rationale": "认为3没有承担应有的责任，反而让小汐背黑锅"
+    },
+    {
+        "sentence": "没有牙膏了。",
+        "Holder": "4",
+        "Target": "牙膏",
+        "Aspect": "物品状态",
+        "Opinion": "用完了",
+        "Sentiment": "neutral",
+        "Rationale": "发现牙膏用完了"
+    },
+    {
+        "sentence": "在柜子里呢，你自己找去！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "寻找物品的态度",
+        "Opinion": "应该自己找",
+        "Sentiment": "negative",
+        "Rationale": "觉得4应该自己去找物品"
+    },
+    {
+        "sentence": "找不着。",
+        "Holder": "4",
+        "Target": "物品位置",
+        "Aspect": "寻找物品的结果",
+        "Opinion": "找不到",
+        "Sentiment": "negative",
+        "Rationale": "找不到物品"
+    },
+    {
+        "sentence": "我话没说完，那你别逃避啊。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话的态度",
+        "Opinion": "认为1在逃避",
+        "Sentiment": "negative",
+        "Rationale": "觉得1没有听完自己的话就打断"
+    },
+    {
+        "sentence": "我没有逃避啊。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "对话的态度",
+        "Opinion": "否认逃避",
+        "Sentiment": "negative",
+        "Rationale": "被2指责逃避"
+    },
+    {
+        "sentence": "瀚洋，不许玩！",
+        "Holder": "1",
+        "Target": "瀚洋",
+        "Aspect": "玩耍的许可",
+        "Opinion": "禁止玩耍",
+        "Sentiment": "negative",
+        "Rationale": "认为瀚洋不应该在这个时候玩耍"
+    },
+    {
+        "sentence": "你妈妈特意给我打电话，不让你玩ipad，马上回去睡觉！",
+        "Holder": "1",
+        "Target": "4的ipad使用",
+        "Aspect": "ipad使用时间",
+        "Opinion": "禁止使用ipad",
+        "Sentiment": "negative",
+        "Rationale": "妈妈特意打电话要求不让4玩ipad"
+    },
+    {
+        "sentence": "你说的10点睡觉，姐姐可以作证！",
+        "Holder": "4",
+        "Target": "1的睡觉时间要求",
+        "Aspect": "睡觉时间的约定",
+        "Opinion": "遵守约定",
+        "Sentiment": "positive",
+        "Rationale": "4认为自己遵守了10点睡觉的约定"
+    },
+    {
+        "sentence": "你还给我，我要玩！我的！",
+        "Holder": "4",
+        "Target": "ipad的所有权",
+        "Aspect": "ipad的使用权",
+        "Opinion": "要求归还ipad",
+        "Sentiment": "negative",
+        "Rationale": "1拿走了4的ipad"
+    },
+    {
+        "sentence": "放手，把平板给我！",
+        "Holder": "1",
+        "Target": "4的ipad持有",
+        "Aspect": "ipad的控制权",
+        "Opinion": "要求交出ipad",
+        "Sentiment": "negative",
+        "Rationale": "1需要强制执行不让4玩ipad的要求"
+    },
+    {
+        "sentence": "你说话不算话，我不喜欢和你待在一起！谁都不喜欢和你待在一起！",
+        "Holder": "4",
+        "Target": "1的信用",
+        "Aspect": "信用和相处",
+        "Opinion": "不信任且不喜欢",
+        "Sentiment": "negative",
+        "Rationale": "1没有遵守之前的约定"
+    },
+    {
+        "sentence": "你不好，小雨姐姐也不好！",
+        "Holder": "4",
+        "Target": "说话人 1和小雨姐姐",
+        "Aspect": "行为评价",
+        "Opinion": "都不好",
+        "Sentiment": "negative",
+        "Rationale": "说话人 4 认为说话人 1和小雨姐姐的行为都不好"
+    },
+    {
+        "sentence": "这话谁跟你说的？",
+        "Holder": "1",
+        "Target": "说话人 4 的言论来源",
+        "Aspect": "信息来源",
+        "Opinion": "质疑来源",
+        "Sentiment": "neutral",
+        "Rationale": "说话人 1 对说话人 4 的言论来源感到好奇"
+    },
+    {
+        "sentence": "瀚洋说的对，说的特别棒！",
+        "Holder": "2",
+        "Target": "瀚洋的言论",
+        "Aspect": "言论评价",
+        "Opinion": "认同并赞赏",
+        "Sentiment": "positive",
+        "Rationale": "说话人 2 认为瀚洋的言论正确且有理"
+    },
+    {
+        "sentence": "你别闹了。",
+        "Holder": "3",
+        "Target": "说话人 4 的行为",
+        "Aspect": "行为劝阻",
+        "Opinion": "希望停止",
+        "Sentiment": "neutral",
+        "Rationale": "说话人 3 认为说话人 4 的行为不妥"
+    },
+    {
+        "sentence": "这是我的东西，你凭什么抢我的东西！",
+        "Holder": "4",
+        "Target": "他人行为",
+        "Aspect": "物品归属",
+        "Opinion": "维护自己的权利",
+        "Sentiment": "negative",
+        "Rationale": "说话人 4 认为自己的东西被他人抢走"
+    },
+    {
+        "sentence": "就凭我是你哥！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "身份权威",
+        "Opinion": "以哥哥身份要求",
+        "Sentiment": "neutral",
+        "Rationale": "1以哥哥的身份来要求4"
+    },
+    {
+        "sentence": "你不是说你不是我哥吗，你没有权利管我！",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "身份质疑",
+        "Opinion": "否认1的权威",
+        "Sentiment": "negative",
+        "Rationale": "4不认可1的哥哥身份"
+    },
+    {
+        "sentence": "我看今天我有没有这个权利。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "权利主张",
+        "Opinion": "坚持有权管束",
+        "Sentiment": "neutral",
+        "Rationale": "1在面对4的质疑时，依然坚持自己的权利"
+    },
+    {
+        "sentence": "我不进去，不要！",
+        "Holder": "4",
+        "Target": "1的要求",
+        "Aspect": "行为抗拒",
+        "Opinion": "拒绝服从",
+        "Sentiment": "negative",
+        "Rationale": "4不愿意按照1的要求去做"
+    },
+    {
+        "sentence": "进去！好好在里面反省十分钟！",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为要求",
+        "Opinion": "要求反省",
+        "Sentiment": "neutral",
+        "Rationale": "1希望4能够反省自己的行为"
+    },
+    {
+        "sentence": "不是，你干什么呀？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "不理解1的行为动机"
+    },
+    {
+        "sentence": "我管我弟弟用管吗？",
+        "Holder": "1",
+        "Target": "管弟弟的权利",
+        "Aspect": "管教的合理性",
+        "Opinion": "认为自己有权利管教",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己有责任管教弟弟"
+    },
+    {
+        "sentence": "你有本事别拿孩子撒气啊。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对待孩子的态度",
+        "Opinion": "反对拿孩子撒气",
+        "Sentiment": "negative",
+        "Rationale": "认为1不应该对孩子发泄情绪"
+    },
+    {
+        "sentence": "你冲小孩撒什么火，你真是。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "对待孩子的态度",
+        "Opinion": "反对冲孩子发火",
+        "Sentiment": "negative",
+        "Rationale": "认为1不应该对孩子发火"
+    },
+    {
+        "sentence": "这种男人，你就不要管他，应该让他赶紧走，也不见心不烦。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "处理方式",
+        "Opinion": "建议让1离开",
+        "Sentiment": "negative",
+        "Rationale": "认为1的行为让人烦心"
+    },
+    {
+        "sentence": "我告诉你说话注意一点啊，你不要在一个孩子面前说这样话！",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "说话的场合和内容",
+        "Opinion": "需要注意言辞",
+        "Sentiment": "negative",
+        "Rationale": "2在孩子面前说了不适当的话"
+    },
+    {
+        "sentence": "我们愿意怎么说就怎么说，你管得着嘛？",
+        "Holder": "2",
+        "Target": "1的干涉",
+        "Aspect": "说话自由的合理性",
+        "Opinion": "反对干涉",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己的说话自由被1干涉"
+    },
+    {
+        "sentence": "好了好了好了，别吵了，好好的吵什么吵啊！",
+        "Holder": "3",
+        "Target": "1和2的争吵",
+        "Aspect": "争吵的合理性",
+        "Opinion": "反对争吵",
+        "Sentiment": "negative",
+        "Rationale": "1和2的争吵影响了氛围"
+    },
+    {
+        "sentence": "别弹了，别弹了！",
+        "Holder": "3",
+        "Target": "弹奏行为",
+        "Aspect": "弹奏的时机",
+        "Opinion": "停止弹奏",
+        "Sentiment": "negative",
+        "Rationale": "弹奏的声音打扰了当前的气氛"
+    },
+    {
+        "sentence": "钥匙给我。",
+        "Holder": "3",
+        "Target": "钥匙",
+        "Aspect": "钥匙的持有",
+        "Opinion": "需要钥匙",
+        "Sentiment": "neutral",
+        "Rationale": "3需要使用钥匙"
+    },
+    {
+        "sentence": "你干嘛啊你要？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1对3的行为感到困惑和不解"
+    },
+    {
+        "sentence": "以后永远不要碰我的钢琴！",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为限制",
+        "Opinion": "禁止触碰",
+        "Sentiment": "negative",
+        "Rationale": "3对1触碰自己钢琴的行为感到愤怒"
+    },
+    {
+        "sentence": "你干什么啊你？只是弹个钢琴，你至于吗？",
+        "Holder": "1",
+        "Target": "3的反应",
+        "Aspect": "反应过度",
+        "Opinion": "认为反应过度",
+        "Sentiment": "negative",
+        "Rationale": "1认为3对弹钢琴的反应过于激烈"
+    },
+    {
+        "sentence": "谁让他碰我东西了！",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "强烈反对",
+        "Sentiment": "negative",
+        "Rationale": "3认为1未经允许触碰自己的物品"
+    },
+    {
+        "sentence": "祝各位晚安。",
+        "Holder": "4",
+        "Target": "各位",
+        "Aspect": "晚安祝福",
+        "Opinion": "祝福晚安",
+        "Sentiment": "positive",
+        "Rationale": "4在向其他人表达晚安的祝福"
+    },
+    {
+        "sentence": "甘粹说的是真的吗？",
+        "Holder": "1",
+        "Target": "甘粹的话",
+        "Aspect": "真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "1对甘粹所说的话的真实性表示怀疑"
+    },
+    {
+        "sentence": "什么事儿啊？",
+        "Holder": "3",
+        "Target": "1的问题",
+        "Aspect": "内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "3对1所提的问题内容不清楚"
+    },
+    {
+        "sentence": "你工作的事儿，是小雨吗？",
+        "Holder": "1",
+        "Target": "3的工作问题",
+        "Aspect": "涉及人物",
+        "Opinion": "猜测",
+        "Sentiment": "doubt",
+        "Rationale": "1对3的工作问题是否涉及小雨表示猜测"
+    },
+    {
+        "sentence": "哎，这事儿都过去了，别提了。",
+        "Holder": "3",
+        "Target": "过去的事情",
+        "Aspect": "事情的影响",
+        "Opinion": "事情已过去",
+        "Sentiment": "neutral",
+        "Rationale": "认为事情已经过去"
+    },
+    {
+        "sentence": "对，我忘了。工作还是她介绍的。",
+        "Holder": "1",
+        "Target": "工作介绍",
+        "Aspect": "工作的来源",
+        "Opinion": "忘记提及",
+        "Sentiment": "neutral",
+        "Rationale": "忘记提及工作是她介绍的"
+    },
+    {
+        "sentence": "对，还有一件事儿。我不知道你家还有钢琴，对不起啊。",
+        "Holder": "1",
+        "Target": "家中有钢琴",
+        "Aspect": "对家中物品的了解",
+        "Opinion": "不知道",
+        "Sentiment": "negative",
+        "Rationale": "不知道家中有钢琴"
+    },
+    {
+        "sentence": "还有瀚洋也不该进去，给你添麻烦了。",
+        "Holder": "1",
+        "Target": "瀚洋进入",
+        "Aspect": "行为的合理性",
+        "Opinion": "不该进去",
+        "Sentiment": "negative",
+        "Rationale": "瀚洋不该进去给对方添麻烦"
+    }
+]

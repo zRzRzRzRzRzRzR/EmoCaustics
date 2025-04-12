@@ -1,0 +1,67 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "新同学转入班级事件",
+        "emotions": [
+          {"state": "positive", "reason": "宣布高材生加入班级", "source_id": "3"},
+          {"state": "neutral", "reason": "维持课堂秩序要求专注", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "课堂答案确认流程",
+        "emotions": [
+          {"state": "positive", "reason": "确认学生答案正确性", "source_id": "3,5"},
+          {"state": "neutral", "reason": "查找并核对最终答案", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "新生背景质疑事件",
+        "emotions": [
+          {"state": "ambiguous", "reason": "质疑高材生转学动机", "source_id": "3"},
+          {"state": "negative", "reason": "认为新生态度不真诚", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "课堂答案争议事件",
+        "emotions": [
+          {"state": "negative", "reason": "发现解题过程矛盾", "source_id": "3,5"},
+          {"state": "ambiguous", "reason": "察觉答案不一致现象", "source_id": "3,5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "转学适应过程",
+        "emotions": [
+          {"state": "negative", "reason": "被迫转入新环境的不满", "source_id": "2"},
+          {"state": "neutral", "reason": "配合课堂教学活动", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "课堂表现证明",
+        "emotions": [
+          {"state": "positive", "reason": "正确解答获得认可", "source_id": "1"},
+          {"state": "neutral", "reason": "参与常规教学流程", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "课堂问题解决参与",
+        "emotions": [
+          {"state": "neutral", "reason": "提供数学问题解答", "source_id": "1"},
+          {"state": "neutral", "reason": "推进解题流程确认", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

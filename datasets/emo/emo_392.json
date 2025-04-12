@@ -1,0 +1,132 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "牛奶过量引发的尿裤子事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被迫多喝半杯牛奶导致课堂失禁",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "足球鞋被倒牛奶面临比赛危机",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "获得姥姥庇护避免冲突",
+            "source_id": "5"
+          }
+        ]
+      },
+      {
+        "event": "牛奶所有权争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "澄清杯中牛奶非自己所有",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑牛奶倒鞋的合理性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "牛奶强制管理",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "坚持每日定量牛奶摄入",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "发现牛奶被倒入水池浪费",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "调整惩罚为豆浆替代方案",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "创造性牛奶管理",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用孔融让梨典故合理化倒奶行为",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "足球赛大胜归因于牛奶精神加成",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "鞋内倒奶事件处理",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认倒奶事实但强调正向结果",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "育儿理念冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张孩子自主解决矛盾",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "支持足球赛胜利奖励机制",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "跨代干预事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责父母监护失职",
+            "source_id": "2,4"
+          },
+          {
+            "state": "positive",
+            "reason": "建立临时庇护机制保护小雨",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

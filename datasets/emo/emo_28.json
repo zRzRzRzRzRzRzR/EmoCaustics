@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论细节真实性争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "质疑虚构细节的连贯真实性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "指出对方使用刮胡刀代替醒目的不协调性",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对语言描述消除虚构的辩证性质疑",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "武侠文化共鸣探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "探讨武功定义的扩展可能性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "承认语言描述具象化的现实意义",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "文化符号有效性论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调武侠词汇的集体认知价值",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "重新定义武功为表达技巧",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "辩论规则质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对质询环节的计时规则",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "保持对话推进的礼仪性回应",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

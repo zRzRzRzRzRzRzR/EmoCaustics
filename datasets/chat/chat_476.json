@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "爸爸最近工作非常不顺利，心情不好，属于咱们家的弱势个体，比较不幸。",
+        "Holder": "1",
+        "Target": "爸爸",
+        "Aspect": "工作情况",
+        "Opinion": "不顺利",
+        "Sentiment": "negative",
+        "Rationale": "爸爸工作不顺利"
+    },
+    {
+        "sentence": "哼，我觉得他现在是咱们家目前为止最幸福的人了。你想啊，不上班也不上学，天天在家闲呆着。",
+        "Holder": "2",
+        "Target": "爸爸",
+        "Aspect": "生活状态",
+        "Opinion": "最幸福",
+        "Sentiment": "positive",
+        "Rationale": "爸爸不上班也不上学"
+    },
+    {
+        "sentence": "你懂什么呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "理解能力",
+        "Opinion": "不懂",
+        "Sentiment": "negative",
+        "Rationale": "2对爸爸的生活状态有误解"
+    },
+    {
+        "sentence": "我告诉你，让大人在家闲待着比让他上班上学难受多了一点，就不懂得大人的艰辛。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对大人生活的理解",
+        "Opinion": "不懂艰辛",
+        "Sentiment": "negative",
+        "Rationale": "2不理解大人闲待在家中的难受"
+    },
+    {
+        "sentence": "我说啊。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "3只是开始说话，没有表达具体观点"
+    },
+    {
+        "sentence": "什么，你说什么夏东海。",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "说话内容",
+        "Opinion": "没听清楚",
+        "Sentiment": "neutral",
+        "Rationale": "没听清楚夏东海说的话"
+    },
+    {
+        "sentence": "我说什么时候开饭？我饿了。",
+        "Holder": "3",
+        "Target": "开饭时间",
+        "Aspect": "等待时间",
+        "Opinion": "希望快点开饭",
+        "Sentiment": "negative",
+        "Rationale": "感到饥饿"
+    },
+    {
+        "sentence": "哦，我这就做呢，马上就做好啊",
+        "Holder": "1",
+        "Target": "做饭进度",
+        "Aspect": "完成时间",
+        "Opinion": "即将完成",
+        "Sentiment": "positive",
+        "Rationale": "即将完成做饭"
+    },
+    {
+        "sentence": "怎么样宝贝今天玩得开心吗？",
+        "Holder": "7",
+        "Target": "宝贝",
+        "Aspect": "玩耍体验",
+        "Opinion": "关心是否开心",
+        "Sentiment": "positive",
+        "Rationale": "关心宝贝的玩耍体验"
+    },
+    {
+        "sentence": "哎呀，太棒了。",
+        "Holder": "5",
+        "Target": "今天的玩耍",
+        "Aspect": "整体感受",
+        "Opinion": "非常开心",
+        "Sentiment": "positive",
+        "Rationale": "对今天的玩耍非常满意"
+    },
+    {
+        "sentence": "嗯，还行，就是星期天人有点多。",
+        "Holder": "6",
+        "Target": "星期天",
+        "Aspect": "人流量",
+        "Opinion": "人有点多",
+        "Sentiment": "neutral",
+        "Rationale": "星期天人流量大"
+    },
+    {
+        "sentence": "让老爸平常日子带咱们去，反正他有的是时间啊。",
+        "Holder": "5",
+        "Target": "老爸",
+        "Aspect": "时间安排",
+        "Opinion": "有时间",
+        "Sentiment": "positive",
+        "Rationale": "认为老爸平时有空闲时间"
+    },
+    {
+        "sentence": "老爸有时间可不一定有心情",
+        "Holder": "6",
+        "Target": "老爸",
+        "Aspect": "心情状态",
+        "Opinion": "不一定有心情",
+        "Sentiment": "neutral",
+        "Rationale": "即使有时间，心情也可能不好"
+    },
+    {
+        "sentence": "因为他光吃饭不挣钱",
+        "Holder": "5",
+        "Target": "老爸",
+        "Aspect": "经济状况",
+        "Opinion": "不挣钱",
+        "Sentiment": "negative",
+        "Rationale": "认为老爸只吃饭不挣钱"
+    },
+    {
+        "sentence": "孩子们，告诉妈妈，你们的爸爸怎么了？",
+        "Holder": "7",
+        "Target": "爸爸",
+        "Aspect": "状况",
+        "Opinion": "询问状况",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚爸爸的具体情况"
+    },
+    {
+        "sentence": "嗯，没什么呀，他挺好的。真的挺好。",
+        "Holder": "6",
+        "Target": "他",
+        "Aspect": "整体表现",
+        "Opinion": "挺好的",
+        "Sentiment": "positive",
+        "Rationale": "认为他的表现令人满意"
+    },
+    {
+        "sentence": "对，他挺好的。天天在家闲呢，也不用上班，也不用上学，哎，幸福死了。",
+        "Holder": "5",
+        "Target": "他",
+        "Aspect": "生活状态",
+        "Opinion": "幸福死了",
+        "Sentiment": "positive",
+        "Rationale": "他不用上班也不用上学，生活轻松"
+    },
+    {
+        "sentence": "听说你失业啦，",
+        "Holder": "7",
+        "Target": "3",
+        "Aspect": "就业状态",
+        "Opinion": "失业",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述听说的事实，没有表达出特别的情感"
+    },
+    {
+        "sentence": "嗯，算是吧。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "就业状态",
+        "Opinion": "算是失业",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认自己失业的事实，没有表达出特别的情感"
+    },
+    {
+        "sentence": "其实我就是想休息休息调整，重新选择一个更好的，然后东山再起嘛。",
+        "Holder": "3",
+        "Target": "自己的未来计划",
+        "Aspect": "重新开始的决心",
+        "Opinion": "希望重新开始",
+        "Sentiment": "positive",
+        "Rationale": "对自己未来的计划充满希望"
+    },
+    {
+        "sentence": "东山再起？那你什么时候起来呀？",
+        "Holder": "7",
+        "Target": "3的未来计划",
+        "Aspect": "计划的实施时间",
+        "Opinion": "质疑实施时间",
+        "Sentiment": "ambiguous",
+        "Rationale": "对3的计划的具体实施时间不清楚"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "3",
+        "Target": "7的提问",
+        "Aspect": "提问的意图",
+        "Opinion": "不理解意图",
+        "Sentiment": "negative",
+        "Rationale": "不明白7提问的具体意图"
+    },
+    {
+        "sentence": "我就是想帮你吗？",
+        "Holder": "7",
+        "Target": "自己的意图",
+        "Aspect": "帮助的意愿",
+        "Opinion": "表示愿意帮助",
+        "Sentiment": "positive",
+        "Rationale": "想表达自己愿意帮助3的意愿"
+    },
+    {
+        "sentence": "谢谢。给你打工不可能",
+        "Holder": "3",
+        "Target": "7的帮助提议",
+        "Aspect": "接受帮助的条件",
+        "Opinion": "不接受打工条件",
+        "Sentiment": "neutral",
+        "Rationale": "感谢7的好意但不愿意接受打工的条件"
+    },
+    {
+        "sentence": "雇你打工我也没想过，我就是想减轻你的负担吗？你说你现在不挣钱，你拿什么来抚养孩子们呢？你现在把那抚养权交给我，我也高兴，你也减轻负担",
+        "Holder": "7",
+        "Target": "3的抚养权问题",
+        "Aspect": "抚养权的合理性",
+        "Opinion": "支持抚养权转移",
+        "Sentiment": "positive",
+        "Rationale": "7认为3没有经济能力抚养孩子"
+    },
+    {
+        "sentence": "这叫乘人之危，你知道吗？我现在终于明白你的意思了，把孩子的抚养权交给你，做梦。",
+        "Holder": "3",
+        "Target": "7的提议",
+        "Aspect": "提议的合理性",
+        "Opinion": "反对抚养权转移",
+        "Sentiment": "negative",
+        "Rationale": "3认为7的提议是在趁人之危"
+    },
+    {
+        "sentence": "你不要那么激动嘛，你现实一点嘛，你想一想刘梅一个人的工资，现在要养你们一家五口人，眼看着你们家的生活水平就要从康退回到温饱，宝贝们的心灵将会蒙上多么大的阴影。",
+        "Holder": "7",
+        "Target": "3的家庭经济状况",
+        "Aspect": "经济状况对孩子的影响",
+        "Opinion": "经济状况不佳影响孩子",
+        "Sentiment": "negative",
+        "Rationale": "7认为3的家庭经济状况不佳会给孩子带来负面影响"
+    },
+    {
+        "sentence": "不可能，他们很幸福。",
+        "Holder": "3",
+        "Target": "孩子们的幸福状况",
+        "Aspect": "孩子们的幸福感",
+        "Opinion": "孩子们很幸福",
+        "Sentiment": "positive",
+        "Rationale": "3坚信孩子们在当前家庭环境中是幸福的"
+    },
+    {
+        "sentence": "怎么可能幸福呢？他们没钱怎么过上幸福快乐的生活呢？",
+        "Holder": "7",
+        "Target": "孩子们的幸福状况",
+        "Aspect": "经济状况对幸福的影响",
+        "Opinion": "经济条件影响幸福感",
+        "Sentiment": "negative",
+        "Rationale": "7认为没有经济基础就无法保障幸福生活"
+    },
+    {
+        "sentence": "那是你的观点。",
+        "Holder": "3",
+        "Target": "观点",
+        "Aspect": "观点的归属",
+        "Opinion": "认为是对方的观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是指出对方的观点，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我告诉你，我们全家穷得集体啃一根鸭脖子也是幸福的",
+        "Holder": "3",
+        "Target": "家庭生活",
+        "Aspect": "幸福感",
+        "Opinion": "即使贫穷也感到幸福",
+        "Sentiment": "positive",
+        "Rationale": "强调即使在贫困的情况下也能感到幸福"
+    },
+    {
+        "sentence": "没有那么粗的鸭脖子",
+        "Holder": "7",
+        "Target": "鸭脖子",
+        "Aspect": "粗细",
+        "Opinion": "鸭脖子不够粗",
+        "Sentiment": "neutral",
+        "Rationale": "只是对鸭脖子粗细的事实描述，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "我说的是长度，长鸭脖",
+        "Holder": "3",
+        "Target": "鸭脖子",
+        "Aspect": "长度",
+        "Opinion": "鸭脖子是长的",
+        "Sentiment": "neutral",
+        "Rationale": "只是澄清鸭脖子的长度问题，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "夏东海",
+        "Holder": "7",
+        "Target": "夏东海",
+        "Aspect": "提及",
+        "Opinion": "提及夏东海",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及一个名字，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "行了，不用说了，这事没商量。",
+        "Holder": "3",
+        "Target": "当前讨论的事情",
+        "Aspect": "讨论的可行性",
+        "Opinion": "没有商量的余地",
+        "Sentiment": "negative",
+        "Rationale": "3认为事情已经没有讨论的必要"
+    },
+    {
+        "sentence": "哎，你再考虑考虑吗？",
+        "Holder": "7",
+        "Target": "3的决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "希望重新考虑",
+        "Sentiment": "neutral",
+        "Rationale": "7希望3能重新考虑决定"
+    },
+    {
+        "sentence": "不用考虑，咱俩谈话到此结束，你请走吧。",
+        "Holder": "3",
+        "Target": "7的请求",
+        "Aspect": "请求的接受度",
+        "Opinion": "拒绝请求",
+        "Sentiment": "negative",
+        "Rationale": "3坚决不愿意再讨论"
+    },
+    {
+        "sentence": "可是你并不能代表孩子们的意愿，我要跟我的宝贝们单独谈一谈",
+        "Holder": "7",
+        "Target": "3的代表性",
+        "Aspect": "代表权的合理性",
+        "Opinion": "3不能代表孩子们",
+        "Sentiment": "negative",
+        "Rationale": "7认为3不能代表孩子们的意愿"
+    },
+    {
+        "sentence": "我帮您讲。",
+        "Holder": "2",
+        "Target": "7的请求",
+        "Aspect": "请求的支持",
+        "Opinion": "愿意帮助",
+        "Sentiment": "positive",
+        "Rationale": "2愿意帮助7与孩子们沟通"
+    },
+    {
+        "sentence": "小雨小雪，你们的妈妈要和你们单独谈一谈，快出来。",
+        "Holder": "1",
+        "Target": "小雨小雪",
+        "Aspect": "与妈妈的谈话",
+        "Opinion": "需要单独谈话",
+        "Sentiment": "neutral",
+        "Rationale": "需要传达重要信息"
+    },
+    {
+        "sentence": "哈喽，宝贝呀。",
+        "Holder": "7",
+        "Target": "小雨小雪",
+        "Aspect": "问候",
+        "Opinion": "亲切问候",
+        "Sentiment": "positive",
+        "Rationale": "用亲昵的称呼表达关心"
+    },
+    {
+        "sentence": "哈哈哈，宝贝，你们来啦，妈妈要走了，送送妈妈好不好？你们不介意？",
+        "Holder": "7",
+        "Target": "小雨小雪",
+        "Aspect": "请求送行",
+        "Opinion": "希望孩子们送行",
+        "Sentiment": "positive",
+        "Rationale": "希望得到孩子们的陪伴"
+    },
+    {
+        "sentence": "我不介意",
+        "Holder": "1",
+        "Target": "7的请求",
+        "Aspect": "对请求的态度",
+        "Opinion": "同意送行",
+        "Sentiment": "neutral",
+        "Rationale": "没有反对意见"
+    },
+    {
+        "sentence": "好，走走。",
+        "Holder": "7",
+        "Target": "小雨小雪",
+        "Aspect": "行动指令",
+        "Opinion": "开始行动",
+        "Sentiment": "neutral",
+        "Rationale": "要开始送行"
+    }
+]

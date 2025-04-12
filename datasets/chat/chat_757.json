@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "现在已经有未婚夫了，你打算怎么着？不可能让她结婚，你要怎么着，你要让她分手跟我在一起，凭什么？",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "对未婚妻的态度",
+        "Opinion": "反对她结婚",
+        "Sentiment": "negative",
+        "Rationale": "说话人2要让未婚妻结婚，而说话人1认为这不合理"
+    },
+    {
+        "sentence": "本来就是她根本就没跟我分手，然后悄悄跑掉的，",
+        "Holder": "1",
+        "Target": "未婚妻",
+        "Aspect": "分手的正当性",
+        "Opinion": "认为没有分手",
+        "Sentiment": "negative",
+        "Rationale": "未婚妻没有正式分手就离开"
+    },
+    {
+        "sentence": "他就是要跟别人结婚，你能怎么样？",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "对未婚妻结婚的态度",
+        "Opinion": "认为无法阻止",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2认为说话人1无法改变未婚妻的决定"
+    },
+    {
+        "sentence": "他不让我好过好过我也不会让他好过。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "对对方的报复",
+        "Opinion": "要报复对方",
+        "Sentiment": "negative",
+        "Rationale": "说话人2的行为让说话人1不好过"
+    },
+    {
+        "sentence": "你说不让他好过，你指的是什么？你已经是在媒体上威胁他人生命安全了。",
+        "Holder": "2",
+        "Target": "说话人1",
+        "Aspect": "威胁行为",
+        "Opinion": "认为威胁不合理",
+        "Sentiment": "negative",
+        "Rationale": "说话人1在媒体上威胁他人生命安全"
+    },
+    {
+        "sentence": "我想问你你所指的不让她好过什么意思？",
+        "Holder": "1",
+        "Target": "2的言论",
+        "Aspect": "言论的含义",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "1不清楚2所说的‘不让她好过’具体指什么"
+    },
+    {
+        "sentence": "反正就是不可能让她结婚.",
+        "Holder": "2",
+        "Target": "她的婚姻",
+        "Aspect": "婚姻的可能性",
+        "Opinion": "反对结婚",
+        "Sentiment": "negative",
+        "Rationale": "2坚决反对她的婚姻"
+    },
+    {
+        "sentence": "你怎么让她不结婚，她今天就得去注册，你能怎么样？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "阻止婚姻的能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1认为2无法阻止她的婚姻"
+    },
+    {
+        "sentence": "今天到这个舞台来了就好好谈问题，别跟我来混的，来混的就直接去公安局，我们这是讲道理的地方，又耍无赖有什么劲",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "谈话的诚意",
+        "Opinion": "要求讲道理",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在谈话中不真诚，像是在胡搅蛮缠"
+    },
+    {
+        "sentence": "我不是无赖，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "个人品行",
+        "Opinion": "否认无赖",
+        "Sentiment": "negative",
+        "Rationale": "2被1指责为无赖"
+    },
+    {
+        "sentence": "本来就是事实，她悄悄离开我走的知道吧",
+        "Holder": "2",
+        "Target": "她的行为",
+        "Aspect": "离开的方式",
+        "Opinion": "认为她悄悄离开",
+        "Sentiment": "negative",
+        "Rationale": "2觉得她悄悄离开是事实"
+    },
+    {
+        "sentence": "是你的问题",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "问题归属",
+        "Opinion": "问题在2",
+        "Sentiment": "negative",
+        "Rationale": "1认为当前的问题是2造成的"
+    },
+    {
+        "sentence": "怎么是我的",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "问题归属",
+        "Opinion": "问题不在自己",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己不应该被指责"
+    },
+    {
+        "sentence": "人家想要结婚是人家的法律赋予人家的权利，我。",
+        "Holder": "2",
+        "Target": "结婚权利",
+        "Aspect": "法律赋予的权利",
+        "Opinion": "支持结婚权利",
+        "Sentiment": "positive",
+        "Rationale": "2认为结婚是法律赋予的权利"
+    },
+    {
+        "sentence": "不喜欢当时就不应该跟我好知道吗？现在把我现在想甩就甩，怎么可能现在就想。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对待关系的态度",
+        "Opinion": "反对随意甩掉",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2在关系中不负责任，随意甩掉自己"
+    },
+    {
+        "sentence": "把你甩了，又怎么地。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "结束关系的态度",
+        "Opinion": "无所谓甩掉",
+        "Sentiment": "negative",
+        "Rationale": "2对结束关系持无所谓的态度"
+    },
+    {
+        "sentence": "甩到也经过同意才行，甩了还要经过你示意哪条法律规定的。",
+        "Holder": "4",
+        "Target": "甩到行为",
+        "Aspect": "同意的必要性",
+        "Opinion": "需要经过同意",
+        "Sentiment": "negative",
+        "Rationale": "对方认为甩到行为需要经过同意，但对方没有提供法律依据"
+    }
+]

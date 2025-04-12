@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "悬镜司的威胁与回应",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "以悬镜司手段威胁对方",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "质疑对方来京城的真实目的",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "日常互动与信息确认",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "标记对话时间并请求说明",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对抗威胁与目的揭示",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝威胁并强调魏征已出城",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "明确回答来京目的为补药",
+            "source_id": "self"
+          }
+        ]
+      },
+      {
+        "event": "行为规范与隐含态度",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "要求举止斯文并暗示看穿谎言",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

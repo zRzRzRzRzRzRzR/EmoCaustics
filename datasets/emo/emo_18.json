@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "教育理念冲突升级",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责2对孩子的溺爱行为，质疑2的养孩子计划可行性，批评2缺乏对孩子的了解",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "现实责任认知分歧",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑2承担养育责任的经济能力，担忧2的教育方式影响孩子独立",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "教育自主权主张",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对1的严苛教育标准，批评1情绪失控和缺乏自我反省，担忧1导致亲子疏远",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "成长方向认知冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为1的教育方式会造成孩子迷茫，指责1忽视孩子感受",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

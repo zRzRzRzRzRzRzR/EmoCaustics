@@ -1,0 +1,49 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "福尔摩星身份认同与推理展示",
+        "emotions": [
+          {"state": "positive", "reason": "坚持新名字并自豪介绍研究", "source_id": "4,2"},
+          {"state": "neutral", "reason": "承诺未来展示推理能力", "source_id": "4"},
+          {"state": "neutral", "reason": "解释母亲行为逻辑", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对推理挑战的参与态度",
+        "emotions": [
+          {"state": "positive", "reason": "期待立即展示推理能力", "source_id": "1"},
+          {"state": "negative", "reason": "反感被提及个人行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭互动与逻辑挑战",
+        "emotions": [
+          {"state": "negative", "reason": "认为对方有意刁难", "source_id": "1"},
+          {"state": "neutral", "reason": "提出白菜购买问题", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑推理证据可靠性", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "质疑与家庭观察",
+        "emotions": [
+          {"state": "negative", "reason": "质疑推理证据与展示延迟", "source_id": "1"},
+          {"state": "doubt", "reason": "怀疑行为观察准确性", "source_id": "1"},
+          {"state": "neutral", "reason": "确认母亲回家时间规律", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

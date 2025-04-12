@@ -1,0 +1,353 @@
+[
+    {
+        "sentence": "你好代驾，不好意思久等了。",
+        "Holder": "1",
+        "Target": "代驾",
+        "Aspect": "等待时间",
+        "Opinion": "久等",
+        "Sentiment": "neutral",
+        "Rationale": "意识到让代驾等待"
+    },
+    {
+        "sentence": "李宗恒，",
+        "Holder": "2",
+        "Target": "李宗恒",
+        "Aspect": "称呼",
+        "Opinion": "称呼对方",
+        "Sentiment": "neutral",
+        "Rationale": "要开始对话"
+    },
+    {
+        "sentence": "分手以后，我每天都很难受，我真的付出了很大的代价。",
+        "Holder": "2",
+        "Target": "分手",
+        "Aspect": "个人感受",
+        "Opinion": "难受",
+        "Sentiment": "negative",
+        "Rationale": "分手后感到痛苦和付出代价"
+    },
+    {
+        "sentence": "我成为了代驾。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "职业身份",
+        "Opinion": "成为代驾",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己成为代驾的事实"
+    },
+    {
+        "sentence": "李宗恒你。",
+        "Holder": "2",
+        "Target": "李宗恒",
+        "Aspect": "称呼",
+        "Opinion": "称呼李宗恒",
+        "Sentiment": "neutral",
+        "Rationale": "只是叫了一下李宗恒的名字"
+    },
+    {
+        "sentence": "放下了吗？",
+        "Holder": "1",
+        "Target": "物品",
+        "Aspect": "放置状态",
+        "Opinion": "询问是否放下",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问物品是否被放下"
+    },
+    {
+        "sentence": "这就是男人说放下就放下，心真大。",
+        "Holder": "2",
+        "Target": "男人",
+        "Aspect": "心胸",
+        "Opinion": "心大",
+        "Sentiment": "positive",
+        "Rationale": "认为男人能够轻易放下事情，表现出心胸宽广"
+    },
+    {
+        "sentence": "是你后备箱大，再放俩也能放下。",
+        "Holder": "1",
+        "Target": "后备箱",
+        "Aspect": "容量",
+        "Opinion": "容量大",
+        "Sentiment": "positive",
+        "Rationale": "认为后备箱容量很大，能够放下很多东西"
+    },
+    {
+        "sentence": "咱们准备怎么走",
+        "Holder": "1",
+        "Target": "行程",
+        "Aspect": "安排",
+        "Opinion": "询问安排",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问接下来的行程安排"
+    },
+    {
+        "sentence": "走你的阳关道，我过我的独木桥，",
+        "Holder": "2",
+        "Target": "各自的道路选择",
+        "Aspect": "道路选择的独立性",
+        "Opinion": "各自独立选择",
+        "Sentiment": "neutral",
+        "Rationale": "表达了各自选择不同道路的态度"
+    },
+    {
+        "sentence": "阳关道。",
+        "Holder": "1",
+        "Target": "阳关道",
+        "Aspect": "道路的选择",
+        "Opinion": "选择阳关道",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地重复了‘阳关道’，没有表达出明显的情感"
+    },
+    {
+        "sentence": "出发，全程1829公里，大约需要19小时36分到。",
+        "Holder": "3",
+        "Target": "行程",
+        "Aspect": "行程的距离和时间",
+        "Opinion": "行程较长",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地描述了行程的距离和时间，没有表达出明显的情感"
+    },
+    {
+        "sentence": "湖北，这一趟可不少挣。",
+        "Holder": "1",
+        "Target": "湖北之行",
+        "Aspect": "收入",
+        "Opinion": "收入不少",
+        "Sentiment": "positive",
+        "Rationale": "提到这一趟可以挣不少钱"
+    },
+    {
+        "sentence": "去幸福小区我真是醉了。",
+        "Holder": "2",
+        "Target": "去幸福小区",
+        "Aspect": "心情",
+        "Opinion": "感到无奈",
+        "Sentiment": "negative",
+        "Rationale": "去幸福小区让说话人感到无奈和不满"
+    },
+    {
+        "sentence": "你肯定醉了，你不醉你叫代驾干啥？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "是否醉酒",
+        "Opinion": "认为2醉酒",
+        "Sentiment": "negative",
+        "Rationale": "1认为2叫代驾是醉酒"
+    },
+    {
+        "sentence": "你怎么话那么多，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "话多",
+        "Opinion": "认为1话多",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1说话太多"
+    },
+    {
+        "sentence": "不是咱俩都分手了，我话多点能咋的，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "分手后的行为",
+        "Opinion": "认为分手后说话多没关系",
+        "Sentiment": "negative",
+        "Rationale": "1觉得分手后自己说话多不应该被指责"
+    },
+    {
+        "sentence": "我投诉你，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "服务态度",
+        "Opinion": "要投诉1",
+        "Sentiment": "negative",
+        "Rationale": "2对1的服务态度不满意"
+    },
+    {
+        "sentence": "我就话少点安静服务。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "服务态度",
+        "Opinion": "愿意减少说话",
+        "Sentiment": "neutral",
+        "Rationale": "1为了避免投诉，决定减少说话"
+    },
+    {
+        "sentence": "到了给你停车位里了。",
+        "Holder": "5",
+        "Target": "停车位",
+        "Aspect": "停车位置",
+        "Opinion": "已经到达",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一个事实"
+    },
+    {
+        "sentence": "我真的不甘心，我们就这么结束了。",
+        "Holder": "2",
+        "Target": "关系结束",
+        "Aspect": "关系的结束方式",
+        "Opinion": "不甘心",
+        "Sentiment": "negative",
+        "Rationale": "觉得关系结束得突然且不甘心"
+    },
+    {
+        "sentence": "我也不甘心这才跑几公里两公里，我还得去酒吧等下一单，",
+        "Holder": "1",
+        "Target": "工作情况",
+        "Aspect": "工作量和安排",
+        "Opinion": "不甘心",
+        "Sentiment": "negative",
+        "Rationale": "觉得工作量不大却要继续工作"
+    },
+    {
+        "sentence": "下一单有新货了，我要死掉了，",
+        "Holder": "2",
+        "Target": "下一单工作",
+        "Aspect": "工作压力",
+        "Opinion": "压力大",
+        "Sentiment": "negative",
+        "Rationale": "新货的到来增加了工作压力"
+    },
+    {
+        "sentence": "你钥匙没掉在这里。",
+        "Holder": "1",
+        "Target": "钥匙",
+        "Aspect": "钥匙的位置",
+        "Opinion": "没有掉在这里",
+        "Sentiment": "neutral",
+        "Rationale": "只是提醒对方钥匙的位置"
+    },
+    {
+        "sentence": "对不起有用吗。",
+        "Holder": "2",
+        "Target": "道歉",
+        "Aspect": "道歉的有效性",
+        "Opinion": "质疑道歉的作用",
+        "Sentiment": "negative",
+        "Rationale": "认为道歉无法弥补已经造成的伤害"
+    },
+    {
+        "sentence": "我给你钱，",
+        "Holder": "1",
+        "Target": "赔偿方式",
+        "Aspect": "金钱赔偿的可行性",
+        "Opinion": "提出金钱赔偿",
+        "Sentiment": "neutral",
+        "Rationale": "想通过金钱来弥补过错"
+    },
+    {
+        "sentence": "钱能弥补我心中的伤痕吗？。",
+        "Holder": "2",
+        "Target": "金钱赔偿",
+        "Aspect": "心理伤害的弥补",
+        "Opinion": "金钱无法弥补心理伤害",
+        "Sentiment": "negative",
+        "Rationale": "认为金钱无法抚平心理上的创伤"
+    },
+    {
+        "sentence": "但能弥补你车上的刮痕，我把你车后面给刮了一下，下地库那时候。",
+        "Holder": "1",
+        "Target": "车上的刮痕",
+        "Aspect": "物理损害的赔偿",
+        "Opinion": "金钱可以弥补物理损害",
+        "Sentiment": "neutral",
+        "Rationale": "想通过金钱来修复车上的刮痕"
+    },
+    {
+        "sentence": "过去了，我们回去。",
+        "Holder": "2",
+        "Target": "事件处理",
+        "Aspect": "事件的结束",
+        "Opinion": "决定不再追究",
+        "Sentiment": "neutral",
+        "Rationale": "决定不再继续争执"
+    },
+    {
+        "sentence": "你能不能别任性了，咱俩都分手了，回不去了。",
+        "Holder": "1",
+        "Target": "2的任性",
+        "Aspect": "分手的现实",
+        "Opinion": "无法复合",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为分手已成定局"
+    },
+    {
+        "sentence": "必须得回去，我包落饭店了。",
+        "Holder": "2",
+        "Target": "回去的必要性",
+        "Aspect": "物品遗失",
+        "Opinion": "必须回去",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2的包遗失在饭店"
+    },
+    {
+        "sentence": "回去吧农导航去恋爱脑餐厅，",
+        "Holder": "1",
+        "Target": "回去的路线",
+        "Aspect": "导航设置",
+        "Opinion": "建议使用导航",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在提供回去的建议"
+    },
+    {
+        "sentence": "李宗恒你怎么对我车这么熟悉呢？",
+        "Holder": "2",
+        "Target": "1对车的熟悉度",
+        "Aspect": "车的熟悉程度",
+        "Opinion": "感到惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2对说话人1对其车的熟悉程度感到意外"
+    },
+    {
+        "sentence": "因为这是我当年给你买的车，你当时纠结SUV和轿车，我就选你买这个未来，本来是想跟你有个未来，没想到我的未来属于你了，",
+        "Holder": "1",
+        "Target": "车的购买背景",
+        "Aspect": "情感寄托",
+        "Opinion": "情感投入",
+        "Sentiment": "negative",
+        "Rationale": "说话人1回忆起买车时的情感寄托和现实的落差"
+    },
+    {
+        "sentence": "你对未来有什么打算吗。",
+        "Holder": "2",
+        "Target": "1的未来规划",
+        "Aspect": "未来打算",
+        "Opinion": "询问未来打算",
+        "Sentiment": "neutral",
+        "Rationale": "2只是单纯地询问1的未来规划"
+    },
+    {
+        "sentence": "我打算把我的未来要回来，",
+        "Holder": "1",
+        "Target": "自己的未来",
+        "Aspect": "未来掌控",
+        "Opinion": "要回自己的未来",
+        "Sentiment": "positive",
+        "Rationale": "1表达了对未来的积极态度和决心"
+    },
+    {
+        "sentence": "阳阳祝你幸福，这一单的钱我就不要了，",
+        "Holder": "1",
+        "Target": "2的幸福",
+        "Aspect": "祝福和放弃金钱",
+        "Opinion": "祝福并放弃金钱",
+        "Sentiment": "positive",
+        "Rationale": "1祝福2幸福并主动放弃金钱，表现出善意和宽容"
+    },
+    {
+        "sentence": "钱我正常给我彻底放下了，同样的地方我不会跌倒两次了，",
+        "Holder": "2",
+        "Target": "自己的态度",
+        "Aspect": "金钱和教训",
+        "Opinion": "放下金钱和吸取教训",
+        "Sentiment": "positive",
+        "Rationale": "2表示已经放下金钱并决心不再犯同样的错误"
+    },
+    {
+        "sentence": "但同样的地方我刮了两次，因为你家地库入口。",
+        "Holder": "1",
+        "Target": "地库入口",
+        "Aspect": "地库入口的设计或位置",
+        "Opinion": "导致刮车",
+        "Sentiment": "negative",
+        "Rationale": "地库入口的设计或位置不合理，导致车辆多次刮伤"
+    }
+]

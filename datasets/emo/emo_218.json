@@ -1,0 +1,122 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "提出跨物种比较的度量标准",
+        "emotions": [
+          {"state": "neutral", "reason": "解释不同物种不可比较的基本逻辑", "source_id": "1"},
+          {"state": "neutral", "reason": "主张通过寻找共同尺度实现可比性", "source_id": "1"},
+          {"state": "positive", "reason": "强调人类在时空维度上的技术突破", "source_id": "1"},
+          {"state": "positive", "reason": "论证语言文字赋予的时间突破能力", "source_id": "1"},
+          {"state": "positive", "reason": "提出哲学思考突破命运束缚", "source_id": "1"},
+          {"state": "negative", "reason": "发现观点缺乏认同时的挫败感", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "回应逻辑质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "澄清比较对象包含所有物种", "source_id": "2"},
+          {"state": "neutral", "reason": "强调抗争命运的主体性差异", "source_id": "3"},
+          {"state": "positive", "reason": "用基因传承与文化进化反驳质疑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "质疑比较逻辑的合理性",
+        "emotions": [
+          {"state": "neutral", "reason": "要求明确比较标准的适用范围", "source_id": "1"},
+          {"state": "doubt", "reason": "指出循环论证的逻辑漏洞", "source_id": "1"},
+          {"state": "negative", "reason": "批评人类中心主义的傲慢", "source_id": "1,4"},
+          {"state": "neutral", "reason": "提出思维模式决定论", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "论证弱者思维必要性",
+        "emotions": [
+          {"state": "negative", "reason": "列举历史强者思维的灾难案例", "source_id": "3"},
+          {"state": "positive", "reason": "强调审慎态度对文明发展的重要性", "source_id": "4"},
+          {"state": "neutral", "reason": "区分事实强弱与认知强弱", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "质疑比较标准与历史教训",
+        "emotions": [
+          {"state": "neutral", "reason": "指出颜值体重的不可比性", "source_id": "1"},
+          {"state": "negative", "reason": "批判哲学标准的虚伪性", "source_id": "1"},
+          {"state": "negative", "reason": "引用清朝闭关锁国案例", "source_id": "4"},
+          {"state": "neutral", "reason": "提出生存能力作为普适标准", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "反驳文化传承优势论",
+        "emotions": [
+          {"state": "negative", "reason": "用蟑螂基因传承反证", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑时间维度比较的意义", "source_id": "4"},
+          {"state": "negative", "reason": "指出人类寿命劣势", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "解构强弱认知体系",
+        "emotions": [
+          {"state": "negative", "reason": "揭示自我预设的矛盾性", "source_id": "3"},
+          {"state": "positive", "reason": "强调反思能力的独立性", "source_id": "2"},
+          {"state": "neutral", "reason": "分析客体一致性原理", "source_id": "5"},
+          {"state": "positive", "reason": "论证主体意识的不可替代性", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "哲学维度论证人类特性",
+        "emotions": [
+          {"state": "positive", "reason": "对比新旧神学体系差异", "source_id": "2"},
+          {"state": "positive", "reason": "阐释存在主义价值主张", "source_id": "5"},
+          {"state": "negative", "reason": "批判集体无意识现象", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "维护主体性论证框架",
+        "emotions": [
+          {"state": "positive", "reason": "强调反思能力非弱者专利", "source_id": "2"},
+          {"state": "negative", "reason": "批评对方标准自相矛盾", "source_id": "3"},
+          {"state": "neutral", "reason": "解构思维模式设定权", "source_id": "2"},
+          {"state": "positive", "reason": "重申文化进化独特性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "挑战人类优越性叙事",
+        "emotions": [
+          {"state": "negative", "reason": "用蟑螂生存能力反证", "source_id": "1"},
+          {"state": "negative", "reason": "质疑哲学维度比较的公平性", "source_id": "1"},
+          {"state": "neutral", "reason": "提出自然中心主义视角", "source_id": "2"},
+          {"state": "doubt", "reason": "追问石头寿命比较意义", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "解构技术优势论",
+        "emotions": [
+          {"state": "negative", "reason": "对比乌龟自然生存优势", "source_id": "1"},
+          {"state": "ambiguous", "reason": "质疑文化传承的实质价值", "source_id": "4"},
+          {"state": "negative", "reason": "强调海啸警示作用", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

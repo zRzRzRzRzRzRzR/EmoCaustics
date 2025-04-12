@@ -1,0 +1,47 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "职业选择冲突",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝考公务员并坚持记者理想", "source_id": "2"},
+          {"state": "positive", "reason": "列举学术与工作成就自证能力", "source_id": "1"},
+          {"state": "negative", "reason": "揭露长期被否定导致的叛逆行为", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "高考成绩隐瞒",
+        "emotions": [
+          {"state": "negative", "reason": "故意少填答题卡对抗期望", "source_id": "2"},
+          {"state": "negative", "reason": "坚持独立人生规划的决心", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "日常否定与反抗",
+        "emotions": [
+          {"state": "negative", "reason": "穿着/点菜/评价等多方面被否定", "source_id": "2"},
+          {"state": "negative", "reason": "拒绝形式化关心的态度", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职业规划干预",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑备考公务员的真实性", "source_id": "1"},
+          {"state": "negative", "reason": "否定北京发展竞争力", "source_id": "1"},
+          {"state": "negative", "reason": "强调高考失利佐证判断", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "教育方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "强调物质付出与精神否定的关联", "source_id": "1"},
+          {"state": "negative", "reason": "面对女儿彻底反抗的无奈", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

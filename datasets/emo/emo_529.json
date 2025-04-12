@@ -1,0 +1,42 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "情绪冲突的升级与反复讨论",
+        "emotions": [
+          {"state": "negative", "reason": "不理解2的行为并表达愤怒", "source_id": "2"},
+          {"state": "neutral", "reason": "确认哄2的具体方式", "source_id": "2"},
+          {"state": "positive", "reason": "承诺改进占有欲问题", "source_id": "2"},
+          {"state": "neutral", "reason": "多次强调言论真实性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "承诺与违约的循环",
+        "emotions": [
+          {"state": "negative", "reason": "被指责违反停止讨论约定", "source_id": "2"},
+          {"state": "neutral", "reason": "最终终止话题讨论", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情绪安抚与对抗的拉锯战",
+        "emotions": [
+          {"state": "negative", "reason": "对1持续负面情绪的应对", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑1的承诺真实性", "source_id": "1"},
+          {"state": "negative", "reason": "对重复讨论的极度抗拒", "source_id": "1"},
+          {"state": "neutral", "reason": "接受最终解决方案", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "互动模式的自我反思",
+        "emotions": [
+          {"state": "negative", "reason": "对无效沟通的挫败感", "source_id": "1"},
+          {"state": "neutral", "reason": "确认对话终止状态", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

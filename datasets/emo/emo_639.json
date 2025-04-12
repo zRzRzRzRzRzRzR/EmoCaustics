@@ -1,0 +1,146 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "相亲模式的优势论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调相亲的坦诚交流与共同目标",
+            "source_id": "2,5"
+          },
+          {
+            "state": "neutral",
+            "reason": "回应关于日久生情的质疑",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "相亲市场功利性批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露物质化筛选机制",
+            "source_id": "1,7"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认高端相亲存在匹配属性",
+            "source_id": "5"
+          }
+        ]
+      },
+      {
+        "event": "婚姻本质的价值观冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调爱情作为婚姻基石",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑综合评分制度的有效性",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "情感经历实证分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "多次一见钟情失败经历",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "支持理性匹配的婚姻模式",
+            "source_id": "7"
+          }
+        ]
+      },
+      {
+        "event": "中介机构作用辩论",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可信息验证功能",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇特殊案例的不可靠性",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "现代婚姻观重构",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张人格匹配优于激情",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认历史婚姻观差异",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "一见钟情实证辩护",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "七年稳定婚姻案例举证",
+            "source_id": "5"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑日久生情理论普适性",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "婚姻自主权宣言",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调选择自由的价值",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露相亲市场年龄歧视",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

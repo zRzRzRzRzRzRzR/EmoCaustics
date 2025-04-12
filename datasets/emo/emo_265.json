@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "国际干预与种族灭绝的关联性分析",
+        "emotions": [
+          {"state": "negative", "reason": "越南战争接近种族灭绝的残酷性", "source_id": "1"},
+          {"state": "negative", "reason": "联合国系统功能失调导致预防失败", "source_id": "5,3"},
+          {"state": "neutral", "reason": "人类恶倾向的系统性本质", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "教育与暴行的悖论关系",
+        "emotions": [
+          {"state": "negative", "reason": "高等教育者实施系统性屠杀", "source_id": "1"},
+          {"state": "neutral", "reason": "心理学实验揭示人性潜在恶倾向", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "卢旺达幸存者的身份重构",
+        "emotions": [
+          {"state": "negative", "reason": "家族灭绝带来的永久创伤", "source_id": "2"},
+          {"state": "positive", "reason": "姑妈提供的生存支撑", "source_id": "2"},
+          {"state": "negative", "reason": "殖民历史遗留的系统性暴力", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "缅甸暴行的道德困境",
+        "emotions": [
+          {"state": "positive", "reason": "公开反对本国种族清洗", "source_id": "3"},
+          {"state": "negative", "reason": "生命威胁迫使流亡", "source_id": "3"},
+          {"state": "neutral", "reason": "学术立场与生存现实的冲突", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "国际体系的根本缺陷",
+        "emotions": [
+          {"state": "negative", "reason": "安理会常任理事国利益优先", "source_id": "5"},
+          {"state": "neutral", "reason": "社交媒体作为新型抗争工具", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "种族灭绝记忆的实体化见证",
+        "emotions": [
+          {"state": "negative", "reason": "卢旺达遗骸未获安葬的冲击", "source_id": "4"},
+          {"state": "positive", "reason": "NGO行动带来的改变希望", "source_id": "4"},
+          {"state": "neutral", "reason": "纪念日象征意义的重新诠释", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "战争罪审判的制度性实践",
+        "emotions": [
+          {"state": "positive", "reason": "成功建立五个国际法庭", "source_id": "5"},
+          {"state": "negative", "reason": "DNA证据揭示的系统性失效", "source_id": "5"},
+          {"state": "neutral", "reason": "暴行预防机制的不完美演进", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "我几乎干遍了汉中所有地胜线的，最后进了城市场。我工作固定，经常会调来调去，所以你让你得出国，我没有，你也没支持。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对出国支持的态度",
+        "Opinion": "没有支持",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己工作辛苦且经常调动，但2没有支持其出国"
+    },
+    {
+        "sentence": "话说回来，女儿的学费你又掏了手。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对女儿学费的承担",
+        "Opinion": "1承担了学费",
+        "Sentiment": "neutral",
+        "Rationale": "2指出1为女儿支付了学费"
+    },
+    {
+        "sentence": "我每个月的工资奖金额都给了你，你那点工资够女儿在国外上学吗？怎么还有你吗？我的工资跟你有什么。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "经济支持",
+        "Opinion": "1提供了主要经济支持",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己提供了大部分经济支持，但2的工资不足以支持女儿留学"
+    },
+    {
+        "sentence": "关系啊？你好意思说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "关系的合理性",
+        "Opinion": "1不应该提及关系",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在提及关系时显得不合适"
+    },
+    {
+        "sentence": "你让我说什么？你说你让我做什么？你让我拿人民给我的权利做违法事，哼，哪位？你想知道李达康书立的政治智慧，那不是什么人可以轻易的去评贵金书记刚刚到，无利于团队的话一定不要说起点。这么说你说怎么使我就怎么使我妹妹那个付出啊？付处处长。切婷，你今天是给我一个惊喜，哈哈哈。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对2的要求和指责",
+        "Opinion": "2的要求不合理",
+        "Sentiment": "negative",
+        "Rationale": "1认为2要求其做违法的事，并且对2的指责感到不满和讽刺"
+    },
+    {
+        "sentence": "小姨夫给我改的，这才叫劳。",
+        "Holder": "2",
+        "Target": "小姨夫的修改",
+        "Aspect": "修改的质量",
+        "Opinion": "高质量修改",
+        "Sentiment": "positive",
+        "Rationale": "小姨夫的修改让说话人2感到满意"
+    },
+    {
+        "sentence": "陆亦可。看来你小姨夫还是有点水。是小杰老师吧。不知道把我点想象力。再给你个机会，中学教师。",
+        "Holder": "1",
+        "Target": "小姨夫",
+        "Aspect": "能力和身份",
+        "Opinion": "有一定能力",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1认为小姨夫有一定能力，但并未表现出强烈的情感"
+    },
+    {
+        "sentence": "大学老师。你的大学老师？",
+        "Holder": "2",
+        "Target": "小姨夫的身份",
+        "Aspect": "职业身份",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "说话人2对小姨夫是否是大学老师表示怀疑"
+    },
+    {
+        "sentence": "开什么玩笑，还教我的。",
+        "Holder": "1",
+        "Target": "小姨夫教过自己",
+        "Aspect": "教育经历",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为小姨夫不可能教过自己"
+    },
+    {
+        "sentence": "高玉良不是你大学老师，他没。",
+        "Holder": "2",
+        "Target": "高玉良",
+        "Aspect": "是否是大学老师",
+        "Opinion": "否定",
+        "Sentiment": "negative",
+        "Rationale": "说话人2明确指出高玉良不是说话人1的大学老师"
+    },
+    {
+        "sentence": "教过你变成孩子哦。高宇他们数据是你小心。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "教育方式",
+        "Opinion": "提醒小心",
+        "Sentiment": "neutral",
+        "Rationale": "1在提醒2小心处理数据"
+    },
+    {
+        "sentence": "对啊，我是正常大学毕业的，跟你们汉大帮算得清楚。",
+        "Holder": "2",
+        "Target": "汉大帮",
+        "Aspect": "教育背景",
+        "Opinion": "强调自身学历",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己的学历背景，试图证明自己的能力"
+    },
+    {
+        "sentence": "看来我得曾经认识过。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "过去认识",
+        "Opinion": "表示曾经认识",
+        "Sentiment": "neutral",
+        "Rationale": "1在回忆过去是否认识2"
+    },
+    {
+        "sentence": "他们家。我很少去，我妈不让我去，哼。能不能不说了？不能说了，这么多给了有意思。",
+        "Holder": "2",
+        "Target": "他们家",
+        "Aspect": "访问频率",
+        "Opinion": "不愿意谈论",
+        "Sentiment": "negative",
+        "Rationale": "2不愿意继续谈论关于他们家的话题，并且感到不耐烦"
+    },
+    {
+        "sentence": "吗？能说明白，收敛一下可以不说了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "话题控制",
+        "Opinion": "建议收敛",
+        "Sentiment": "neutral",
+        "Rationale": "1在建议2收敛话题"
+    },
+    {
+        "sentence": "可以回答。我估计他肾虚该结束，行吗？好的，没问题。",
+        "Holder": "1",
+        "Target": "回答问题",
+        "Aspect": "回答的可行性",
+        "Opinion": "可以回答",
+        "Sentiment": "positive",
+        "Rationale": "认为可以回答问题，并且对结束活动没有异议"
+    },
+    {
+        "sentence": "亮平，是这样的，家里有人送来了一些螃蟹。",
+        "Holder": "2",
+        "Target": "螃蟹",
+        "Aspect": "螃蟹的来源",
+        "Opinion": "家里有人送来",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述家里有人送来螃蟹的事实"
+    }
+]

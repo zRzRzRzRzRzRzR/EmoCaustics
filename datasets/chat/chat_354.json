@@ -1,0 +1,74 @@
+[
+    {
+        "sentence": "妈学校让交书本费，",
+        "Holder": "1",
+        "Target": "学校要求",
+        "Aspect": "交书本费",
+        "Opinion": "需要交费",
+        "Sentiment": "neutral",
+        "Rationale": "学校要求交书本费"
+    },
+    {
+        "sentence": "你问问你同学都交了吗？",
+        "Holder": "2",
+        "Target": "1的同学",
+        "Aspect": "交书本费的情况",
+        "Opinion": "需要确认",
+        "Sentiment": "neutral",
+        "Rationale": "想确认其他同学的交费情况"
+    },
+    {
+        "sentence": "书本费有什么好问的都要交的。",
+        "Holder": "1",
+        "Target": "交书本费的要求",
+        "Aspect": "交费的必要性",
+        "Opinion": "所有人都需要交",
+        "Sentiment": "negative",
+        "Rationale": "认为交书本费是理所当然的"
+    },
+    {
+        "sentence": "你问问别人怎么交的",
+        "Holder": "2",
+        "Target": "1的同学",
+        "Aspect": "交费方式",
+        "Opinion": "需要了解",
+        "Sentiment": "neutral",
+        "Rationale": "想了解其他同学的交费方式"
+    },
+    {
+        "sentence": "群里老师说得很明白了，赶紧交了你去问问，问过了就是那样交的，赶紧交了",
+        "Holder": "2",
+        "Target": "作业提交",
+        "Aspect": "提交的明确性",
+        "Opinion": "按老师要求提交",
+        "Sentiment": "neutral",
+        "Rationale": "老师已经在群里说得很明白"
+    },
+    {
+        "sentence": "你真问了谁问？问了几个人，你说话是不是问的你宿舍那几个人，你是不是没问哪？",
+        "Holder": "1",
+        "Target": "2的询问过程",
+        "Aspect": "询问的全面性",
+        "Opinion": "怀疑2没有充分询问",
+        "Sentiment": "negative",
+        "Rationale": "怀疑2没有问足够的人"
+    },
+    {
+        "sentence": "我问了行了行了不教了行了别叨叨了",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "回应的态度",
+        "Opinion": "不耐烦",
+        "Sentiment": "negative",
+        "Rationale": "被1连续质疑感到不耐烦"
+    },
+    {
+        "sentence": "怎么急成这样，你这脾气怎么那么怪，你能不能懂点事？",
+        "Holder": "1",
+        "Target": "2的脾气",
+        "Aspect": "脾气的合理性",
+        "Opinion": "认为2脾气不好",
+        "Sentiment": "negative",
+        "Rationale": "2突然变得急躁"
+    }
+]

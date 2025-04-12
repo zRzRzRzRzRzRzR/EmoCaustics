@@ -1,0 +1,110 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于‘行吗’语气的争论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "多次强调‘行吗’听起来很凶，质疑2的语气",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "发现‘行吗’能制造高人一等的效果并决定学习",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受2的要求并解释行为目的",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "态度问题的互相指责",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被2指责态度嚣张且急于离开",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "对2的指责感到意外并进行澄清",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "调侃与幽默互动",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用‘忍者神猪’调侃2的性格特点",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "讨论火腿味道时的理性分析",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "翻旧账冲突与情绪爆发",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "强烈反对翻旧账并威胁对方",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "对1的反复质疑感到极度烦躁",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "自我肯定忍耐力时产生短暂积极情绪",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "态度认知分歧",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为1态度不屑且行为动机不良",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "不确定自己是否表现出冷漠态度",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "沟通模式调整",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对1突然转换话题感到无奈",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受1的最终妥协并结束争论",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

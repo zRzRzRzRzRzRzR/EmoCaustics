@@ -1,0 +1,114 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "阻止上网的经济手段博弈",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "身份证被藏导致计划受阻",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出扫脸验证破解身份证限制",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "资金被转移无法支付费用",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑私房钱存放位置",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "社交计划破坏与反制",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "哥们被设计去相亲",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "成功改变张博对螺蛳粉的喜好",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "身份反转战术对决",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被误认为李宗恒本尊",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "揭穿对方身份猜测",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "系统性阻挠计划实施",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功转移资金并喷洒臭味香水",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "闺蜜被提前破坏相亲可能性",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "雇佣专业摄影师反制拍照需求",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "多重身份博弈",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被识破杨小艺真实身份",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "第三方介入终结对抗",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "利用张博媳妇解决拍照危机",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认接受经济收买的事实",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

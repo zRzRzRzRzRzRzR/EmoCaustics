@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "博士录取与保密争议",
+        "emotions": [
+          {"state": "neutral", "reason": "发现学校信件", "source_id": "2"},
+          {"state": "positive", "reason": "祝贺胡一菲考博成功", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑情绪真实性", "source_id": "2"},
+          {"state": "ambiguous", "reason": "发现聚会表面和谐下的矛盾", "source_id": "7,8"}
+        ]
+      },
+      {
+        "event": "沈临风入住引发的社交矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "接受沈临风入住安排", "source_id": "2"},
+          {"state": "positive", "reason": "参与庆祝晚餐筹备", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "博士学业突破与社会压力",
+        "emotions": [
+          {"state": "positive", "reason": "成功考取博士学位", "source_id": "self"},
+          {"state": "negative", "reason": "担忧曾小贤恶意炒作", "source_id": "6"},
+          {"state": "neutral", "reason": "宣布学术成就与感情状况", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "沈临风品行调查行动",
+        "emotions": [
+          {"state": "negative", "reason": "发现沈临风偷瞄异性", "source_id": "7"},
+          {"state": "positive", "reason": "设计醉酒测试方案", "source_id": "self"},
+          {"state": "doubt", "reason": "醉酒测试未获证据", "source_id": "8"},
+          {"state": "negative", "reason": "确认沈临风流成性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "情感矛盾与社交压力",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对女博士社会评价的复杂认知", "source_id": "2"},
+          {"state": "negative", "reason": "被要求参与三陪服务", "source_id": "3"},
+          {"state": "neutral", "reason": "拒绝租借女友方案", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "感情关系维护危机",
+        "emotions": [
+          {"state": "positive", "reason": "组织博士庆祝晚宴", "source_id": "2"},
+          {"state": "negative", "reason": "被羽墨持续灌酒试探", "source_id": "4"},
+          {"state": "neutral", "reason": "应对感情状态质询", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "道德监督与证据收集",
+        "emotions": [
+          {"state": "negative", "reason": "发现沈临风行为不端", "source_id": "7"},
+          {"state": "doubt", "reason": "缺乏实质性证据", "source_id": "4"},
+          {"state": "positive", "reason": "协助完成醉酒测试", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,560 @@
+[
+    {
+        "sentence": "小雨，快快快，有了重大的线索，我和你妈翻箱斗贵，终于把你妈小学的毕业照给找出来了。唉，你们眼神好，看看哪个像。",
+        "Holder": "2",
+        "Target": "毕业照",
+        "Aspect": "寻找过程",
+        "Opinion": "找到了重要的线索",
+        "Sentiment": "positive",
+        "Rationale": "成功找到了重要的毕业照"
+    },
+    {
+        "sentence": "那时候怎么那么傻呀？这帮孩子",
+        "Holder": "1",
+        "Target": "毕业照中的孩子",
+        "Aspect": "外貌",
+        "Opinion": "看起来很傻",
+        "Sentiment": "negative",
+        "Rationale": "看到小时候的照片觉得样子很傻"
+    },
+    {
+        "sentence": "嘿嘿，说什么呢？不许攻击我可爱的童年。",
+        "Holder": "3",
+        "Target": "自己的童年",
+        "Aspect": "可爱程度",
+        "Opinion": "认为自己的童年很可爱",
+        "Sentiment": "positive",
+        "Rationale": "听到别人说自己童年傻"
+    },
+    {
+        "sentence": "就是乱说。哎，你看看我说这个像你妈，她非说这个像。你们看看。",
+        "Holder": "2",
+        "Target": "照片中的人",
+        "Aspect": "相似度",
+        "Opinion": "有不同的看法",
+        "Sentiment": "neutral",
+        "Rationale": "对照片中人物的相似度有不同意见"
+    },
+    {
+        "sentence": "我觉得是第一排的第一个。",
+        "Holder": "1",
+        "Target": "照片中的人",
+        "Aspect": "位置",
+        "Opinion": "认为第一排第一个像",
+        "Sentiment": "neutral",
+        "Rationale": "根据自己的判断给出了意见"
+    },
+    {
+        "sentence": "切，说什么呢？第一排都是女生，你看不出来？",
+        "Holder": "3",
+        "Target": "1的观察",
+        "Aspect": "观察的准确性",
+        "Opinion": "认为1观察错误",
+        "Sentiment": "negative",
+        "Rationale": "3认为1没有看出第一排都是女生"
+    },
+    {
+        "sentence": "我觉得应该是第二排第二个",
+        "Holder": "1",
+        "Target": "座位位置",
+        "Aspect": "位置的判断",
+        "Opinion": "认为是第二排第二个",
+        "Sentiment": "neutral",
+        "Rationale": "1根据自己的观察提出了一个位置判断"
+    },
+    {
+        "sentence": "我觉得应该是第三排第三个哎",
+        "Holder": "4",
+        "Target": "座位位置",
+        "Aspect": "位置的判断",
+        "Opinion": "认为是第三排第三个",
+        "Sentiment": "neutral",
+        "Rationale": "4根据自己的观察提出了一个位置判断"
+    },
+    {
+        "sentence": "应该是第四排的最后俩。",
+        "Holder": "5",
+        "Target": "座位位置",
+        "Aspect": "位置的判断",
+        "Opinion": "认为是第四排最后两个",
+        "Sentiment": "neutral",
+        "Rationale": "5根据自己的观察提出了一个位置判断"
+    },
+    {
+        "sentence": "嗯，我看看。哎，你还别说，他们说这几个还真挺像。",
+        "Holder": "2",
+        "Target": "其他人的判断",
+        "Aspect": "判断的相似性",
+        "Opinion": "认为其他人说的有道理",
+        "Sentiment": "positive",
+        "Rationale": "2在查看后认为其他人提到的位置确实相似"
+    },
+    {
+        "sentence": "得了吧，你。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "因为3对2的观点或行为表示不满，所以用不客气的语气表达不认同"
+    },
+    {
+        "sentence": "什么真挺像？第一排第一个，第二排第二个，第三排第四个，这也就没有八排，有八排就是第八个，你没听出来他们在胡闹吗？",
+        "Holder": "3",
+        "Target": "其他人",
+        "Aspect": "行为",
+        "Opinion": "认为在胡闹",
+        "Sentiment": "negative",
+        "Rationale": "因为3认为其他人描述的顺序没有逻辑，所以觉得他们是在胡闹"
+    },
+    {
+        "sentence": "真没胡闹，我觉得他们说的这几个人真的挺靠谱。",
+        "Holder": "2",
+        "Target": "其他人",
+        "Aspect": "观点",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "因为2相信其他人说的内容，所以表达出认同的态度"
+    },
+    {
+        "sentence": "你赶紧联系这六个嫌疑人吧，肯定有一个是这孩子。",
+        "Holder": "5",
+        "Target": "嫌疑人",
+        "Aspect": "身份",
+        "Opinion": "确定",
+        "Sentiment": "positive",
+        "Rationale": "因为5相信在这六个人中一定能找到目标，所以语气肯定地建议采取行动"
+    },
+    {
+        "sentence": "这第二排第二个，这孩子姓什么叫什么来着？",
+        "Holder": "3",
+        "Target": "某个孩子",
+        "Aspect": "信息",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "因为3想确认某个孩子的具体信息，所以提出询问"
+    },
+    {
+        "sentence": "哎呀，这还用想啊？",
+        "Holder": "1",
+        "Target": "思考的必要性",
+        "Aspect": "是否需要思考",
+        "Opinion": "不需要思考",
+        "Sentiment": "negative",
+        "Rationale": "认为问题很简单，不需要思考"
+    },
+    {
+        "sentence": "废话，我上个世纪小学毕业，不得想啊？",
+        "Holder": "3",
+        "Target": "自己的思考能力",
+        "Aspect": "学历与思考的关系",
+        "Opinion": "需要思考",
+        "Sentiment": "negative",
+        "Rationale": "被质疑思考能力，且提到自己的学历"
+    },
+    {
+        "sentence": "哼，好好想都不一定想得出来，就你妈这脑子。",
+        "Holder": "2",
+        "Target": "3的思考能力",
+        "Aspect": "思考能力的高低",
+        "Opinion": "思考能力差",
+        "Sentiment": "negative",
+        "Rationale": "认为3的思考能力差"
+    },
+    {
+        "sentence": "累死了。",
+        "Holder": "1",
+        "Target": "自己的状态",
+        "Aspect": "疲劳程度",
+        "Opinion": "非常累",
+        "Sentiment": "negative",
+        "Rationale": "感到非常疲劳"
+    },
+    {
+        "sentence": "没有功劳只有苦劳。",
+        "Holder": "4",
+        "Target": "自己的付出",
+        "Aspect": "付出与回报的关系",
+        "Opinion": "付出多回报少",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的付出没有得到应有的回报"
+    },
+    {
+        "sentence": "哎哎哎，你们仨跑哪去了？这一整天的，害的我和你妈在这担心啊",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "行踪",
+        "Opinion": "担心",
+        "Sentiment": "negative",
+        "Rationale": "不知道5的行踪，整日未归"
+    },
+    {
+        "sentence": "累死了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "非常累",
+        "Sentiment": "negative",
+        "Rationale": "一天的活动导致身体疲惫"
+    },
+    {
+        "sentence": "嘿嘿，是干什么去了，累成这样。",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "活动内容",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "看到5非常累"
+    },
+    {
+        "sentence": "我们本来是应该受到表扬的，只不过是没成功而已。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "应得的评价",
+        "Opinion": "应受表扬",
+        "Sentiment": "negative",
+        "Rationale": "虽然努力但未成功"
+    },
+    {
+        "sentence": "就算没有成功，那总该受点表扬吧？可是还没表扬我们，您知道我们去哪了吗？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "应得的评价",
+        "Opinion": "应受表扬",
+        "Sentiment": "negative",
+        "Rationale": "努力了却没有得到预期的表扬"
+    },
+    {
+        "sentence": "去哪了啊？",
+        "Holder": "2",
+        "Target": "4的位置",
+        "Aspect": "位置信息",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "2不知道4去了哪里"
+    },
+    {
+        "sentence": "我们去了老妈的母校。我们本来是想查询一下老妈当年那些同学的资料，帮老妈找一下那些同学的地址。",
+        "Holder": "4",
+        "Target": "去老妈母校的目的",
+        "Aspect": "行动目的",
+        "Opinion": "查询资料",
+        "Sentiment": "neutral",
+        "Rationale": "4在解释自己去老妈母校的原因"
+    },
+    {
+        "sentence": "对，要么呢？就是找到老妈的班主任问一问。",
+        "Holder": "4",
+        "Target": "询问班主任的计划",
+        "Aspect": "行动计划",
+        "Opinion": "询问班主任",
+        "Sentiment": "neutral",
+        "Rationale": "4在说明另一个可能的行动计划"
+    },
+    {
+        "sentence": "甭问，那班主任肯定早退休了。找不着人吗。",
+        "Holder": "2",
+        "Target": "班主任的状态",
+        "Aspect": "班主任的可联系性",
+        "Opinion": "认为找不到",
+        "Sentiment": "negative",
+        "Rationale": "2认为班主任已经退休"
+    },
+    {
+        "sentence": "那不是应该一会儿就回来了，怎么这么晚啊？",
+        "Holder": "2",
+        "Target": "4的返回时间",
+        "Aspect": "时间预期",
+        "Opinion": "认为应该早回",
+        "Sentiment": "negative",
+        "Rationale": "2预期4应该很快回来，但实际却很晚"
+    },
+    {
+        "sentence": "我们触景生情，我们就想了，如果我们长大了，我们班主任不在了怎么办",
+        "Holder": "4",
+        "Target": "班主任",
+        "Aspect": "班主任的存在",
+        "Opinion": "担忧班主任不在",
+        "Sentiment": "negative",
+        "Rationale": "想到班主任可能不在"
+    },
+    {
+        "sentence": "于是我们就去了我们的母校看了一看。我去完了小学母校以后，又去了中学母校。",
+        "Holder": "1",
+        "Target": "母校",
+        "Aspect": "回访母校",
+        "Opinion": "怀念母校",
+        "Sentiment": "positive",
+        "Rationale": "回访母校勾起美好回忆"
+    },
+    {
+        "sentence": "对，我也跟他们去看了看他们的。",
+        "Holder": "4",
+        "Target": "他们的母校",
+        "Aspect": "回访母校",
+        "Opinion": "参与回访",
+        "Sentiment": "positive",
+        "Rationale": "参与了回访活动"
+    },
+    {
+        "sentence": "应该去小雨的幼儿园看一看，不过美国太远了，我们就没有去。",
+        "Holder": "1",
+        "Target": "小雨的幼儿园",
+        "Aspect": "回访幼儿园的可行性",
+        "Opinion": "未能回访",
+        "Sentiment": "neutral",
+        "Rationale": "距离太远无法回访"
+    },
+    {
+        "sentence": "爸您什么时候再带我去啊？",
+        "Holder": "5",
+        "Target": "父亲",
+        "Aspect": "再次回访",
+        "Opinion": "期待回访",
+        "Sentiment": "positive",
+        "Rationale": "期待和父亲再次回访"
+    },
+    {
+        "sentence": "以后再说。",
+        "Holder": "2",
+        "Target": "当前话题",
+        "Aspect": "讨论的时机",
+        "Opinion": "推迟讨论",
+        "Sentiment": "neutral",
+        "Rationale": "决定将话题延后讨论"
+    },
+    {
+        "sentence": "白跑了一天，很遗憾嘞。",
+        "Holder": "5",
+        "Target": "一天的行程",
+        "Aspect": "行程的成效",
+        "Opinion": "没有成果",
+        "Sentiment": "negative",
+        "Rationale": "一天的行程没有取得预期成果"
+    },
+    {
+        "sentence": "告诉一个让你们不遗憾的消息。好，你妈妈的事情有了很大的进展。",
+        "Holder": "2",
+        "Target": "妈妈的事情",
+        "Aspect": "事情的进展",
+        "Opinion": "有很大进展",
+        "Sentiment": "positive",
+        "Rationale": "提供了好消息且事情有了进展"
+    },
+    {
+        "sentence": "你们就知道舍近求远，忘了吧，你妈有一个老同学，就是我们的邻居。",
+        "Holder": "2",
+        "Target": "1和5的行为",
+        "Aspect": "处理问题的方法",
+        "Opinion": "舍近求远",
+        "Sentiment": "negative",
+        "Rationale": "认为1和5没有选择最便捷的方法解决问题"
+    },
+    {
+        "sentence": "咦，刘梅。你够开放",
+        "Holder": "6",
+        "Target": "刘梅",
+        "Aspect": "性格",
+        "Opinion": "开放",
+        "Sentiment": "ambiguous",
+        "Rationale": "用‘够开放’来形容刘梅，语气中带有一定的调侃和不确定的意味"
+    },
+    {
+        "sentence": "打小就跟男同学偷着照相。",
+        "Holder": "6",
+        "Target": "刘梅",
+        "Aspect": "行为",
+        "Opinion": "不检点",
+        "Sentiment": "negative",
+        "Rationale": "提到刘梅小时候与男同学偷着照相，暗示其行为不检点"
+    },
+    {
+        "sentence": "别胡说八道了，快帮我看看这孩子到底叫什么来着？谁来着我都忘了",
+        "Holder": "2",
+        "Target": "6的说法",
+        "Aspect": "言论的真实性",
+        "Opinion": "不真实",
+        "Sentiment": "negative",
+        "Rationale": "认为6的说法是胡说八道，并且急于寻求帮助"
+    },
+    {
+        "sentence": "诶我认出来了。",
+        "Holder": "6",
+        "Target": "认出某人",
+        "Aspect": "识别能力",
+        "Opinion": "成功认出",
+        "Sentiment": "positive",
+        "Rationale": "成功认出了某人"
+    },
+    {
+        "sentence": "真的啊？谁呀？他是。",
+        "Holder": "2",
+        "Target": "认出某人",
+        "Aspect": "好奇心",
+        "Opinion": "想知道是谁",
+        "Sentiment": "neutral",
+        "Rationale": "听到对方认出某人"
+    },
+    {
+        "sentence": "我认出你来了。",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "识别能力",
+        "Opinion": "成功认出",
+        "Sentiment": "positive",
+        "Rationale": "成功认出了对方"
+    },
+    {
+        "sentence": "快帮我看看这在这里面",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "位置确认",
+        "Opinion": "需要帮助",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认某人的位置"
+    },
+    {
+        "sentence": "这脑瓜挺圆的，这谁呢？",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "外貌特征",
+        "Opinion": "脑瓜圆",
+        "Sentiment": "neutral",
+        "Rationale": "描述了某人的外貌特征，但没有明确情感表达"
+    },
+    {
+        "sentence": "这个这个，这是王强。",
+        "Holder": "6",
+        "Target": "王强",
+        "Aspect": "身份确认",
+        "Opinion": "确认是王强",
+        "Sentiment": "neutral",
+        "Rationale": "只是在进行身份确认"
+    },
+    {
+        "sentence": "对了，这孩子叫王强，我想起来了，当时在咱们班男生里头他个最高。",
+        "Holder": "2",
+        "Target": "王强",
+        "Aspect": "身高",
+        "Opinion": "当时是班里最高的",
+        "Sentiment": "positive",
+        "Rationale": "回忆起王强当时的身高优势"
+    },
+    {
+        "sentence": "是那时候他是最高，可去年我见了你猜怎么着啊？他才到我这儿。真的，小学毕业以后就没长。",
+        "Holder": "6",
+        "Target": "王强",
+        "Aspect": "身高变化",
+        "Opinion": "小学毕业后没长高",
+        "Sentiment": "neutral",
+        "Rationale": "描述了王强的身高变化，但没有明显的情感倾向"
+    },
+    {
+        "sentence": "那就是个小孩子，你要他联系方式没有？怎么找他呀？",
+        "Holder": "2",
+        "Target": "王强",
+        "Aspect": "联系方式",
+        "Opinion": "需要联系方式",
+        "Sentiment": "neutral",
+        "Rationale": "询问联系方式，属于正常的信息需求"
+    },
+    {
+        "sentence": "我有，但我得回家给你翻。",
+        "Holder": "6",
+        "Target": "王强的联系方式",
+        "Aspect": "获取方式",
+        "Opinion": "需要回家查找",
+        "Sentiment": "neutral",
+        "Rationale": "需要回家查找联系方式，属于正常的操作流程"
+    },
+    {
+        "sentence": "赶紧拿去，快点。",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "催促",
+        "Sentiment": "neutral",
+        "Rationale": "需要尽快处理事情"
+    },
+    {
+        "sentence": "哎，你怎么谢我呀？",
+        "Holder": "6",
+        "Target": "2",
+        "Aspect": "感谢的方式",
+        "Opinion": "期待感谢",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己有帮助"
+    },
+    {
+        "sentence": "谢什么谢，还没找着呢。",
+        "Holder": "2",
+        "Target": "6的期待",
+        "Aspect": "感谢的必要性",
+        "Opinion": "不需要感谢",
+        "Sentiment": "negative",
+        "Rationale": "事情还没解决"
+    },
+    {
+        "sentence": "我这不是自夸啊，刘梅这回要真找对了人，我是不是得立头功。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "贡献的大小",
+        "Opinion": "认为自己有功",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己在事情中起了关键作用"
+    },
+    {
+        "sentence": "得了，还立头功，我可听她说这寄照片的不是王强。现在跟刘梅联系的那姓李。",
+        "Holder": "2",
+        "Target": "6的自夸",
+        "Aspect": "贡献的真实性",
+        "Opinion": "质疑6的贡献",
+        "Sentiment": "negative",
+        "Rationale": "得知事情的关键信息与6所说不符"
+    },
+    {
+        "sentence": "得先找到王同学才能找到李同学",
+        "Holder": "1",
+        "Target": "找人的顺序",
+        "Aspect": "找人的逻辑",
+        "Opinion": "先找王同学",
+        "Sentiment": "neutral",
+        "Rationale": "找人的顺序是基于逻辑推理的"
+    },
+    {
+        "sentence": "所以这功劳还是戴叔叔的唉。",
+        "Holder": "1",
+        "Target": "功劳归属",
+        "Aspect": "功劳的认定",
+        "Opinion": "功劳属于戴叔叔",
+        "Sentiment": "neutral",
+        "Rationale": "认可戴叔叔在找人之中的贡献"
+    },
+    {
+        "sentence": "你看这孩子多会说话。",
+        "Holder": "6",
+        "Target": "说话人1的表达",
+        "Aspect": "说话的技巧",
+        "Opinion": "说话得体",
+        "Sentiment": "positive",
+        "Rationale": "说话人1的表达让人感到满意"
+    },
+    {
+        "sentence": "回来了，我这鞋太磨脚了，难受死。",
+        "Holder": "2",
+        "Target": "鞋子",
+        "Aspect": "鞋子的舒适度",
+        "Opinion": "鞋子不舒适",
+        "Sentiment": "negative",
+        "Rationale": "鞋子磨脚导致不舒服"
+    },
+    {
+        "sentence": "怎么样，找着没有。",
+        "Holder": "6",
+        "Target": "找人的结果",
+        "Aspect": "找人的进展",
+        "Opinion": "询问进展",
+        "Sentiment": "neutral",
+        "Rationale": "关心找人的结果"
+    }
+]

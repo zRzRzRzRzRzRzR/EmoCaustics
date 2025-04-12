@@ -1,0 +1,100 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "欧阳菁法律审判处理请求",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "通过高育良寻求法律宽大处理",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "山水集团股份与高小琴地位讨论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对公安扫黄行为损害利益的不满",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "确认股份存在时间及保密性",
+            "source_id": "2,1"
+          },
+          {
+            "state": "negative",
+            "reason": "强调高小琴不从事低级工作",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "大风厂股权纠纷与政府承诺争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责政府不履行承诺及重复收费",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "个人行为规范争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对行为约束建议的抵触",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "欧阳菁案件立场表态",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "坚持法律审判原则",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "改革开放成果与个人贡献讨论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑个人成果未被认可",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "股份控制权与商业机密质询",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "核实股份比例及控制权",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "行为规范与法律意识提醒",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调守法原则",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

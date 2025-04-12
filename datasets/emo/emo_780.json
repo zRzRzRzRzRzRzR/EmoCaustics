@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "盆景直播销售潜力讨论",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "朋友盆景直播单场销售额达50万",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "客观陈述直播在线人数仅十几人",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "抖音用户基础分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可抖音用户覆盖面与流量规模",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "直播互动中的情绪反应",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为对方表达过于激动且缺乏深度",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧低在线人数影响主播积极性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "抢购现象的经济分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "描述价格飙升带来的刺激感",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "从经济学角度解释商品稀缺性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

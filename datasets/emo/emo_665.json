@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "身份误认与家庭冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑美容中心唯一性", "source_id": "2"},
+          {"state": "doubt", "reason": "发现与已故儿媳相似特征", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇身份欺骗与家庭对抗", "source_id": "2,7"},
+          {"state": "ambiguous", "reason": "最终确认品如身份", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭地位争夺",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝承认新媳妇身份", "source_id": "7"},
+          {"state": "neutral", "reason": "试图调解家庭矛盾", "source_id": "6"},
+          {"state": "negative", "reason": "发现儿媳隐藏复仇动机", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "身份伪装与复仇计划",
+        "emotions": [
+          {"state": "ambiguous", "reason": "应对频繁身份质疑", "source_id": "1,3"},
+          {"state": "positive", "reason": "成功通过过敏测试", "source_id": "1"},
+          {"state": "negative", "reason": "揭露五年家庭压迫历史", "source_id": "1,7"}
+        ]
+      },
+      {
+        "event": "家庭权力重构",
+        "emotions": [
+          {"state": "neutral", "reason": "争取尚恩抚养权", "source_id": "1"},
+          {"state": "positive", "reason": "建立新家庭地位", "source_id": "6"},
+          {"state": "negative", "reason": "遭遇暴力对抗", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "家庭价值观冲突",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝接纳新成员", "source_id": "2"},
+          {"state": "negative", "reason": "质疑婚姻稳定性", "source_id": "6"},
+          {"state": "neutral", "reason": "接受现实妥协", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "礼物欺诈事件",
+        "emotions": [
+          {"state": "neutral", "reason": "解释高仿珠宝合理性", "source_id": "1"},
+          {"state": "positive", "reason": "获得专业认可", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "身份怀疑与验证",
+        "emotions": [
+          {"state": "ambiguous", "reason": "发现行为异常", "source_id": "2"},
+          {"state": "neutral", "reason": "协助过敏测试", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

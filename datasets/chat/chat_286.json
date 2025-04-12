@@ -1,0 +1,929 @@
+[
+    {
+        "sentence": "你想打不过手枪，你说被抓timing，",
+        "Holder": "1",
+        "Target": "2的游戏表现",
+        "Aspect": "游戏策略",
+        "Opinion": "认为2的策略有问题",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在游戏中没有正确应对敌人的攻击"
+    },
+    {
+        "sentence": "我在看。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "当前动作",
+        "Opinion": "正在观察",
+        "Sentiment": "neutral",
+        "Rationale": "2正在观察游戏情况"
+    },
+    {
+        "sentence": "你知道他不在a我看你为什么还要。",
+        "Holder": "1",
+        "Target": "2的游戏行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在明知敌人不在的情况下还采取不必要的行动"
+    },
+    {
+        "sentence": "我看a包的。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为目的",
+        "Opinion": "解释自己的行为",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己观察a包的原因"
+    },
+    {
+        "sentence": "你知道他要来抓你。",
+        "Holder": "1",
+        "Target": "2的游戏意识",
+        "Aspect": "预判能力",
+        "Opinion": "认为2应该知道敌人的动向",
+        "Sentiment": "negative",
+        "Rationale": "1认为2应该提前预判到敌人的行动"
+    },
+    {
+        "sentence": "正面没人帮我看，我再看a包啊。",
+        "Holder": "2",
+        "Target": "看正面",
+        "Aspect": "需要帮助",
+        "Opinion": "需要有人帮忙",
+        "Sentiment": "neutral",
+        "Rationale": "没有人帮忙看正面"
+    },
+    {
+        "sentence": "正面没人帮你看，他直勾勾的过来。",
+        "Holder": "1",
+        "Target": "看正面",
+        "Aspect": "他人行为",
+        "Opinion": "他人直接过来",
+        "Sentiment": "neutral",
+        "Rationale": "描述他人直勾勾地过来"
+    },
+    {
+        "sentence": "你帮我看正面，你再看a小，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "帮忙看正面",
+        "Opinion": "请求帮忙",
+        "Sentiment": "neutral",
+        "Rationale": "请求1帮忙看正面"
+    },
+    {
+        "sentence": "对吧？我也懒得掰扯，你懒得给你纠正了，你都是对的哥，你都是对的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "争论的态度",
+        "Opinion": "懒得争论",
+        "Sentiment": "negative",
+        "Rationale": "懒得和2争论"
+    },
+    {
+        "sentence": "你才是对的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对错判断",
+        "Opinion": "认为1是对的",
+        "Sentiment": "neutral",
+        "Rationale": "回应1的说法，认为1是对的"
+    },
+    {
+        "sentence": "你说的都对的。",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "认同",
+        "Sentiment": "positive",
+        "Rationale": "认同对方所说的内容"
+    },
+    {
+        "sentence": "你说的都是对的我摄像头能看一包点没进，a包没进。",
+        "Holder": "2",
+        "Target": "自己的观察",
+        "Aspect": "观察的准确性",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述自己通过摄像头看到的情况"
+    },
+    {
+        "sentence": "完了他捡枪了，不会出事。",
+        "Holder": "3",
+        "Target": "对方的行动",
+        "Aspect": "行动的安全性",
+        "Opinion": "担忧",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方捡起枪支，存在潜在风险"
+    },
+    {
+        "sentence": "往他们家走。",
+        "Holder": "1",
+        "Target": "行动方向",
+        "Aspect": "行动的指示",
+        "Opinion": "指示",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地指示行动方向"
+    },
+    {
+        "sentence": "一边说一边没电，一边一个夹屁股。",
+        "Holder": "2",
+        "Target": "当前状况",
+        "Aspect": "状况的描述",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "同时面临多个不利情况（没电和身体不适）"
+    },
+    {
+        "sentence": "别说话别说。哥们你现在你刚刚那个时候跟我说，只会干扰我兄弟打完再说。",
+        "Holder": "1",
+        "Target": "2的说话行为",
+        "Aspect": "说话的时机",
+        "Opinion": "干扰兄弟",
+        "Sentiment": "negative",
+        "Rationale": "2在关键时刻说话，干扰了1的兄弟打游戏"
+    },
+    {
+        "sentence": "不是我没打之前我没死之前，我一直在说你们俩一个看屁股，一个看a小，",
+        "Holder": "2",
+        "Target": "1和兄弟的防守位置",
+        "Aspect": "防守策略",
+        "Opinion": "位置分配不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为1和兄弟的防守位置不合理"
+    },
+    {
+        "sentence": "跟你刚刚那个时候跟我说不搭嘎兄弟，我差点听不到他脚步。",
+        "Holder": "1",
+        "Target": "2的说话内容",
+        "Aspect": "说话的相关性",
+        "Opinion": "不相关",
+        "Sentiment": "negative",
+        "Rationale": "2说的内容与当前情况不相关，导致1差点听不到敌人的脚步声"
+    },
+    {
+        "sentence": "为啥不来正面呢？",
+        "Holder": "2",
+        "Target": "1和兄弟的战术选择",
+        "Aspect": "战术合理性",
+        "Opinion": "质疑不正面应对",
+        "Sentiment": "doubt",
+        "Rationale": "2不理解为什么1和兄弟不选择正面应对"
+    },
+    {
+        "sentence": "为啥你死了之后要说话。哥们，我知道他的位置了兄弟，我要听他的消息，为啥提前将来。",
+        "Holder": "1",
+        "Target": "2的说话时机",
+        "Aspect": "说话的时机",
+        "Opinion": "不应该在死后说话",
+        "Sentiment": "negative",
+        "Rationale": "2在死后还说话，影响了1获取敌人位置的情报"
+    },
+    {
+        "sentence": "知道为他位置知道的位置为什么不来帮我，",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "帮助的缺失",
+        "Opinion": "应该来帮忙",
+        "Sentiment": "negative",
+        "Rationale": "3知道位置却没有来帮忙"
+    },
+    {
+        "sentence": "我觉得是不是最大的问题，兄弟。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "问题的严重性",
+        "Opinion": "可能是最大问题",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前情况不确定"
+    },
+    {
+        "sentence": "你没打过他，不是我没打过他哥们，你跟他一对一，他是左轮兄弟。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "战斗能力",
+        "Opinion": "2没打过对方",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述事实"
+    },
+    {
+        "sentence": "被抓timing了，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "战斗时机",
+        "Opinion": "被抓到时机",
+        "Sentiment": "negative",
+        "Rationale": "自己被抓到不利的时机"
+    },
+    {
+        "sentence": "我感觉是保安的问题，",
+        "Holder": "3",
+        "Target": "保安",
+        "Aspect": "问题的责任",
+        "Opinion": "保安有问题",
+        "Sentiment": "negative",
+        "Rationale": "认为保安存在问题"
+    },
+    {
+        "sentence": "你为什么不来帮我？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "帮助的缺失",
+        "Opinion": "需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "1没有来帮助2"
+    },
+    {
+        "sentence": "你为什么要干扰我？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "干扰的合理性",
+        "Opinion": "不应该干扰",
+        "Sentiment": "negative",
+        "Rationale": "2在1需要专注时进行干扰"
+    },
+    {
+        "sentence": "你为什么不来帮我呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "帮助的缺失",
+        "Opinion": "需要帮助",
+        "Sentiment": "negative",
+        "Rationale": "1再次没有来帮助2"
+    },
+    {
+        "sentence": "你一打一打不过走了，你问我为什么不来帮你，",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "战斗能力",
+        "Opinion": "2战斗能力不足",
+        "Sentiment": "negative",
+        "Rationale": "2在战斗中失败并离开"
+    },
+    {
+        "sentence": "你被抓timing的。我是被抓timing，我看摄像头timing。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "被抓的时机",
+        "Opinion": "解释被抓原因",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己被抓的原因"
+    },
+    {
+        "sentence": "我爷爷我错了爷爷，我的问题。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "问题归属",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己的错误"
+    },
+    {
+        "sentence": "我绊线抓不到，人没法帮你接了。",
+        "Holder": "2",
+        "Target": "接球任务",
+        "Aspect": "任务完成情况",
+        "Opinion": "无法完成",
+        "Sentiment": "neutral",
+        "Rationale": "客观原因导致无法完成任务"
+    },
+    {
+        "sentence": "我去前面接，",
+        "Holder": "3",
+        "Target": "接球任务",
+        "Aspect": "任务承担",
+        "Opinion": "愿意承担",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助解决问题"
+    },
+    {
+        "sentence": "别说哥们，别说他一会是你的问题，哥们他要跟你理论了，",
+        "Holder": "1",
+        "Target": "问题归属",
+        "Aspect": "责任划分",
+        "Opinion": "提醒责任",
+        "Sentiment": "neutral",
+        "Rationale": "担心对方会承担责任"
+    },
+    {
+        "sentence": "第一把是不是你的问题，是不是？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "问题归属",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "对1的责任有疑问"
+    },
+    {
+        "sentence": "那是不是我打赢残局了哥们那。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "游戏表现",
+        "Opinion": "打赢残局",
+        "Sentiment": "positive",
+        "Rationale": "认为自己打赢了残局"
+    },
+    {
+        "sentence": "是不是？你的问题。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "问题归属",
+        "Opinion": "问题在1",
+        "Sentiment": "negative",
+        "Rationale": "认为问题出在1身上"
+    },
+    {
+        "sentence": "你没问题了，少爷就你没问题，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "问题归属",
+        "Opinion": "2没有问题",
+        "Sentiment": "neutral",
+        "Rationale": "认为2没有问题"
+    },
+    {
+        "sentence": "我的问题我的问题。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "问题归属",
+        "Opinion": "承认问题在自己",
+        "Sentiment": "negative",
+        "Rationale": "2在对话中连续承认问题在自己，表现出一种自责或无奈的情绪"
+    },
+    {
+        "sentence": "原来是我们4个人的问题，我说你没问题，少爷你。",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "问题范围",
+        "Opinion": "问题涉及所有人",
+        "Sentiment": "negative",
+        "Rationale": "1认为问题出在所有人身上，包括自己在内"
+    },
+    {
+        "sentence": "才是少爷，你才是少爷，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份称呼",
+        "Opinion": "反驳对方称呼",
+        "Sentiment": "negative",
+        "Rationale": "对方称呼自己为少爷，感到被误解或不尊重"
+    },
+    {
+        "sentence": "你自己什么样你最清楚，懒得跟你掰。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "自我认知",
+        "Opinion": "认为对方不了解自己",
+        "Sentiment": "negative",
+        "Rationale": "对方对自己的认知有误，感到厌烦"
+    },
+    {
+        "sentence": "扯，什么叫我微小半天一点，你们不提问，我的照也行，又要说话又不让说话是吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "沟通方式",
+        "Opinion": "认为对方双重标准",
+        "Sentiment": "negative",
+        "Rationale": "对方在沟通中表现出双重标准，让自己感到困惑和不满"
+    },
+    {
+        "sentence": "对报半天点队友不来，回来了你给队友报点，队友只是没来，这不妨碍你长枪打不过手枪，你说被抓出来，你知道他不在a你为什么还要你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "游戏策略",
+        "Opinion": "质疑对方的游戏表现",
+        "Sentiment": "negative",
+        "Rationale": "对方在游戏中表现不佳，感到不满"
+    },
+    {
+        "sentence": "我知道，他要来。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "游戏预测",
+        "Opinion": "坚持自己的判断",
+        "Sentiment": "neutral",
+        "Rationale": "对方质疑自己的判断，但自己确信对方的行动"
+    },
+    {
+        "sentence": "他要来抓你为什么才。",
+        "Holder": "1",
+        "Target": "2的处境",
+        "Aspect": "被抓的风险",
+        "Opinion": "疑问为什么才被抓",
+        "Sentiment": "neutral",
+        "Rationale": "1对2为何会被抓感到好奇"
+    },
+    {
+        "sentence": "看一下正面没人帮我看，我再看看a包啊。",
+        "Holder": "2",
+        "Target": "自己的观察",
+        "Aspect": "观察的安全性",
+        "Opinion": "需要确认安全",
+        "Sentiment": "neutral",
+        "Rationale": "2需要确保周围没有危险"
+    },
+    {
+        "sentence": "正面没人帮你看，他直勾勾的，我可以抱。",
+        "Holder": "1",
+        "Target": "2的观察",
+        "Aspect": "观察的安全性",
+        "Opinion": "可以帮忙",
+        "Sentiment": "positive",
+        "Rationale": "1认为自己可以帮忙确保安全"
+    },
+    {
+        "sentence": "起来，你抱我看来你再看一下你看什么？你再看a包。",
+        "Holder": "2",
+        "Target": "1的帮助",
+        "Aspect": "观察的细节",
+        "Opinion": "需要进一步确认",
+        "Sentiment": "neutral",
+        "Rationale": "2需要1进一步确认细节"
+    },
+    {
+        "sentence": "你说话别打结来，我们把我们捋顺了，讲好你说话别打，",
+        "Holder": "1",
+        "Target": "2的表达",
+        "Aspect": "表达的清晰度",
+        "Opinion": "需要清晰表达",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能清晰地表达"
+    },
+    {
+        "sentence": "我再看到a包。",
+        "Holder": "2",
+        "Target": "a包",
+        "Aspect": "观察行为",
+        "Opinion": "需要再看",
+        "Sentiment": "neutral",
+        "Rationale": "需要再次确认a包的情况"
+    },
+    {
+        "sentence": "你都不知道自己的逻辑在哪里，",
+        "Holder": "1",
+        "Target": "2的逻辑",
+        "Aspect": "逻辑清晰度",
+        "Opinion": "逻辑混乱",
+        "Sentiment": "negative",
+        "Rationale": "认为2的逻辑不清晰"
+    },
+    {
+        "sentence": "我再看看那包，",
+        "Holder": "2",
+        "Target": "那包",
+        "Aspect": "观察行为",
+        "Opinion": "需要再看",
+        "Sentiment": "neutral",
+        "Rationale": "需要再次确认那包的情况"
+    },
+    {
+        "sentence": "你再看a包看，你知道他没进a包还剩20秒。",
+        "Holder": "1",
+        "Target": "2的观察行为",
+        "Aspect": "观察的合理性",
+        "Opinion": "观察不合理",
+        "Sentiment": "negative",
+        "Rationale": "2在已知情况下还继续观察a包"
+    },
+    {
+        "sentence": "为什么不讲你为什么在看a小？你为什么一个在看家里一个在a看a小，",
+        "Holder": "2",
+        "Target": "1的提问",
+        "Aspect": "提问的合理性",
+        "Opinion": "质疑提问",
+        "Sentiment": "negative",
+        "Rationale": "1的提问让2感到困惑和不解"
+    },
+    {
+        "sentence": "20秒，你明知道他会从a大来。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "对局势的判断",
+        "Opinion": "3应该知道对方会从a大来",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实"
+    },
+    {
+        "sentence": "来，大家知道我说问题很小。",
+        "Holder": "3",
+        "Target": "问题",
+        "Aspect": "问题的严重性",
+        "Opinion": "问题很小",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释问题的程度"
+    },
+    {
+        "sentence": "为什么打残局的时候。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "打残局时的行为",
+        "Opinion": "质疑3的行为",
+        "Sentiment": "neutral",
+        "Rationale": "1在提出疑问"
+    },
+    {
+        "sentence": "说这样子。",
+        "Holder": "3",
+        "Target": "自己的说法",
+        "Aspect": "说法的内容",
+        "Opinion": "解释自己的说法",
+        "Sentiment": "neutral",
+        "Rationale": "3在回应1的疑问"
+    },
+    {
+        "sentence": "打残局的时候，你要说一些跟场上无关的话题。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "话题的相关性",
+        "Opinion": "3说了无关话题",
+        "Sentiment": "negative",
+        "Rationale": "1认为3在关键时刻说无关话题"
+    },
+    {
+        "sentence": "你为什么在看a小呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "观看a小的原因",
+        "Opinion": "质疑观看a小的合理性",
+        "Sentiment": "neutral",
+        "Rationale": "2不理解1为什么要看a小"
+    },
+    {
+        "sentence": "为什么看a小呢。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "观看a小的原因",
+        "Opinion": "重复疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的疑问进行重复"
+    },
+    {
+        "sentence": "a包没用，你为什么看a小呢？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "观看a小的合理性",
+        "Opinion": "认为a包无用",
+        "Sentiment": "negative",
+        "Rationale": "2认为a包没有用"
+    },
+    {
+        "sentence": "我说了为什么看a小呢，高度集中的情况下，在架着一个位置的时候，有耳朵有时候都听不到。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "观看a小的原因",
+        "Opinion": "解释观看a小的合理性",
+        "Sentiment": "neutral",
+        "Rationale": "1解释了在高度集中的情况下观看a小的必要性"
+    },
+    {
+        "sentence": "都是你听不到的，",
+        "Holder": "2",
+        "Target": "1的听力",
+        "Aspect": "听力问题",
+        "Opinion": "认为1听不到",
+        "Sentiment": "negative",
+        "Rationale": "2认为1听不到"
+    },
+    {
+        "sentence": "如果你因为一个爆点队友没听到你就怨恨队友，然后在队友打残局的时候开麦干扰，人家赢了你还说人家不好。",
+        "Holder": "1",
+        "Target": "队友",
+        "Aspect": "团队合作",
+        "Opinion": "队友有问题",
+        "Sentiment": "negative",
+        "Rationale": "队友没有听到爆点信息，导致说话人感到不满"
+    },
+    {
+        "sentence": "一阵子就回来了。",
+        "Holder": "3",
+        "Target": "队友",
+        "Aspect": "回归时间",
+        "Opinion": "即将回归",
+        "Sentiment": "neutral",
+        "Rationale": "队友只是暂时离开"
+    },
+    {
+        "sentence": "而且觉得自己一点问题都没有。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "自我认知",
+        "Opinion": "无问题",
+        "Sentiment": "negative",
+        "Rationale": "说话人认为对方没有意识到自己的问题"
+    },
+    {
+        "sentence": "你只会抓住一点不放。",
+        "Holder": "1",
+        "Target": "队友",
+        "Aspect": "问题处理",
+        "Opinion": "过于执着",
+        "Sentiment": "negative",
+        "Rationale": "队友只关注某个细节，而忽略了整体情况"
+    },
+    {
+        "sentence": "你是队友的问题还是自己的问题？",
+        "Holder": "2",
+        "Target": "队友和自己",
+        "Aspect": "责任归属",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "2号说话者对责任归属存在疑问"
+    },
+    {
+        "sentence": "我不再小点d。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "音量控制",
+        "Opinion": "不再降低音量",
+        "Sentiment": "neutral",
+        "Rationale": "已经尽力降低音量"
+    },
+    {
+        "sentence": "而且。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是连接词，没有表达具体情感"
+    },
+    {
+        "sentence": "你站的是这里，你甚至不会没看见。",
+        "Holder": "1",
+        "Target": "2的位置",
+        "Aspect": "视线范围",
+        "Opinion": "2应该看见",
+        "Sentiment": "negative",
+        "Rationale": "认为2站在能看见的位置却没看见"
+    },
+    {
+        "sentence": "这是你的问题。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "责任归属",
+        "Opinion": "问题在1",
+        "Sentiment": "negative",
+        "Rationale": "认为1的指责不合理"
+    },
+    {
+        "sentence": "已经把一支线延续到四五支支线了。",
+        "Holder": "1",
+        "Target": "工作进度",
+        "Aspect": "任务复杂性",
+        "Opinion": "任务复杂",
+        "Sentiment": "neutral",
+        "Rationale": "描述了任务的复杂性，但没有表达具体情感"
+    },
+    {
+        "sentence": "你还在跟我说为什么？",
+        "Holder": "3",
+        "Target": "1的解释",
+        "Aspect": "解释的必要性",
+        "Opinion": "不需要解释",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的解释没有意义"
+    },
+    {
+        "sentence": "为什么这样架a小。还被抓timing，你有脑没脑。",
+        "Holder": "1",
+        "Target": "队友的操作",
+        "Aspect": "操作的正确性",
+        "Opinion": "操作错误",
+        "Sentiment": "negative",
+        "Rationale": "队友在架a小的时候被抓timing"
+    },
+    {
+        "sentence": "那么我刚才没我在看。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的描述",
+        "Opinion": "在观看",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己在看的事实"
+    },
+    {
+        "sentence": "对你有脑了，我被抓产品我有脑，队友加a小队友没脑，是不是这个原因？还是终归来说队友有问题。",
+        "Holder": "1",
+        "Target": "队友的能力",
+        "Aspect": "能力的评价",
+        "Opinion": "队友能力不足",
+        "Sentiment": "negative",
+        "Rationale": "觉得队友在关键时刻犯错"
+    },
+    {
+        "sentence": "你也没脑没脑啊。",
+        "Holder": "2",
+        "Target": "1的能力",
+        "Aspect": "能力的评价",
+        "Opinion": "1能力不足",
+        "Sentiment": "negative",
+        "Rationale": "反驳1对队友的指责，认为1也有同样的问题"
+    },
+    {
+        "sentence": "是不是？你书都白读了，只教你ABCD加减乘除，不教你其他理论，我的东西。",
+        "Holder": "1",
+        "Target": "2的教育背景",
+        "Aspect": "知识范围",
+        "Opinion": "书白读了",
+        "Sentiment": "negative",
+        "Rationale": "认为2只学了基础知识和理论，没有学到其他有用的东西"
+    },
+    {
+        "sentence": "能不能别扯其他的，就说现在。",
+        "Holder": "2",
+        "Target": "1的话题",
+        "Aspect": "话题相关性",
+        "Opinion": "不要扯其他",
+        "Sentiment": "negative",
+        "Rationale": "1的话题偏离了当前的讨论焦点"
+    },
+    {
+        "sentence": "我不跟你扯其他的，你这兄弟。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "话题选择",
+        "Opinion": "不扯其他",
+        "Sentiment": "neutral",
+        "Rationale": "回应2的要求，表示自己不会偏离话题"
+    },
+    {
+        "sentence": "我们将的是现在的事情。",
+        "Holder": "2",
+        "Target": "当前讨论",
+        "Aspect": "讨论内容",
+        "Opinion": "讨论现在",
+        "Sentiment": "neutral",
+        "Rationale": "强调当前讨论的焦点是现在的事情"
+    },
+    {
+        "sentence": "我说了我没脑，你有脑吗？你有没有？我没脑你有脑吗？",
+        "Holder": "1",
+        "Target": "2的智力",
+        "Aspect": "智力质疑",
+        "Opinion": "质疑2的智力",
+        "Sentiment": "negative",
+        "Rationale": "感到被2质疑或反驳"
+    },
+    {
+        "sentence": "你有脑你永远不可能就你有脑就你有脑对不对？",
+        "Holder": "2",
+        "Target": "1的智力",
+        "Aspect": "智力评价",
+        "Opinion": "质疑1的智力",
+        "Sentiment": "negative",
+        "Rationale": "2认为1总是自以为是"
+    },
+    {
+        "sentence": "队友哪怕跟你说队友在那一波没脑了，你也不愿意承认自己在下一波的时候没脑，",
+        "Holder": "1",
+        "Target": "2的承认错误态度",
+        "Aspect": "承认错误的意愿",
+        "Opinion": "2不愿意承认错误",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在游戏中不愿意承认自己的失误"
+    },
+    {
+        "sentence": "我终究还是一个原则问题，我就说了原来的事情。然后咱们的纠结点是在哪？我就说了有人。",
+        "Holder": "2",
+        "Target": "争论的焦点",
+        "Aspect": "争论的核心问题",
+        "Opinion": "争论在于原则问题",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释争论的焦点在于原则问题"
+    },
+    {
+        "sentence": "以为自己搞辩论大赛也没有什么变化，不会辩论的说的屁都不是我操。",
+        "Holder": "1",
+        "Target": "2的辩论能力",
+        "Aspect": "辩论能力",
+        "Opinion": "2不会辩论",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在辩论中没有变化，能力不足"
+    },
+    {
+        "sentence": "我就说一点。",
+        "Holder": "2",
+        "Target": "自己的发言",
+        "Aspect": "发言的简洁性",
+        "Opinion": "只说一点",
+        "Sentiment": "neutral",
+        "Rationale": "2只想简洁地表达自己的观点"
+    },
+    {
+        "sentence": "逻辑没有逮着一个问题钻死牛角尖，你哪里人这么爱钻牛角尖的，队友残局打赢了也是队友的错。因为队友不帮你看。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "思考方式",
+        "Opinion": "钻牛角尖",
+        "Sentiment": "negative",
+        "Rationale": "4总是抓住一个问题不放，并且对队友的表现不满"
+    },
+    {
+        "sentence": "你哥哥就给我买一把吗？哥哥。",
+        "Holder": "4",
+        "Target": "哥哥",
+        "Aspect": "购买行为",
+        "Opinion": "期待购买",
+        "Sentiment": "neutral",
+        "Rationale": "4希望哥哥能给自己买一把东西，表现出一种期待的情绪"
+    },
+    {
+        "sentence": "可以可以。",
+        "Holder": "3",
+        "Target": "4的请求",
+        "Aspect": "同意",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "3对4的请求表示同意"
+    },
+    {
+        "sentence": "这么梗以后社会上会有的人去教你。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "行为方式",
+        "Opinion": "过于固执",
+        "Sentiment": "negative",
+        "Rationale": "1认为4的行为方式过于固执"
+    },
+    {
+        "sentence": "东西问你，你慢慢碰。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "处理方式",
+        "Opinion": "慢慢尝试",
+        "Sentiment": "neutral",
+        "Rationale": "2建议4慢慢尝试"
+    },
+    {
+        "sentence": "去，我也懒得掰扯，你懒得给你纠正了。你都是对的哥。",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "2总是对的",
+        "Sentiment": "negative",
+        "Rationale": "觉得与2争论没有意义"
+    },
+    {
+        "sentence": "你说都是对的，你说的都是对的我是错的。",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "评价的公正性",
+        "Opinion": "1认为2总是对的",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的评价不公正"
+    },
+    {
+        "sentence": "我还企图纠正，你都说说都对，你说的对。",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "观点的接受度",
+        "Opinion": "2的观点无法纠正",
+        "Sentiment": "negative",
+        "Rationale": "觉得2坚持己见"
+    },
+    {
+        "sentence": "哪有你对，完了你说的没毛病。",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "1的观点也没错",
+        "Sentiment": "neutral",
+        "Rationale": "承认1的观点也有合理性"
+    },
+    {
+        "sentence": "b通有一个，就一个，",
+        "Holder": "3",
+        "Target": "b通的数量",
+        "Aspect": "数量的准确性",
+        "Opinion": "只有一个b通",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实"
+    },
+    {
+        "sentence": "你自己没一点毛病没有，你说的完全对。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "问题的归属",
+        "Opinion": "3没有问题",
+        "Sentiment": "positive",
+        "Rationale": "2认为3没有问题，并且完全认同3的观点"
+    },
+    {
+        "sentence": "我来拱火了，我来拱火了，我来拱火，我觉得都有问题。",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "问题的归属",
+        "Opinion": "大家都有问题",
+        "Sentiment": "negative",
+        "Rationale": "3认为所有人都存在问题，并且反复强调自己的立场"
+    },
+    {
+        "sentence": "你就别和稀泥了兄弟，谁的问题你自己心里清楚。我把他麦闭了，我好打了，我不跟他掰扯了，我不纠正你，让他觉得他是对的。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "处理问题的方式",
+        "Opinion": "不与3争执",
+        "Sentiment": "neutral",
+        "Rationale": "1选择避免与3争执，选择关闭麦以便继续游戏"
+    }
+]

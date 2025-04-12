@@ -1,0 +1,425 @@
+[
+    {
+        "sentence": "给你们添了不少麻烦，我先干为敬。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "给他人带来的麻烦",
+        "Opinion": "感到抱歉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己给他人带来了麻烦"
+    },
+    {
+        "sentence": "来来，祝贺你。明明祝贺你",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "祝贺",
+        "Opinion": "表示祝贺",
+        "Sentiment": "positive",
+        "Rationale": "对1表示祝贺"
+    },
+    {
+        "sentence": "嗯，你们先吃。接个电话",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "接电话",
+        "Opinion": "需要接电话",
+        "Sentiment": "neutral",
+        "Rationale": "需要接电话"
+    },
+    {
+        "sentence": "吃虾，吃吃菜，吃虾。",
+        "Holder": "2",
+        "Target": "食物",
+        "Aspect": "食物的选择",
+        "Opinion": "推荐吃虾",
+        "Sentiment": "positive",
+        "Rationale": "推荐好吃的食物"
+    },
+    {
+        "sentence": "吃菜，肯定特别好吃啊。",
+        "Holder": "2",
+        "Target": "食物",
+        "Aspect": "食物的美味",
+        "Opinion": "认为食物好吃",
+        "Sentiment": "positive",
+        "Rationale": "认为食物特别好吃"
+    },
+    {
+        "sentence": "这个好吃",
+        "Holder": "5",
+        "Target": "食物",
+        "Aspect": "口感",
+        "Opinion": "好吃",
+        "Sentiment": "positive",
+        "Rationale": "因为对食物的口感表示满意，所以情感是积极的"
+    },
+    {
+        "sentence": "不可能。好了，我马上就到。",
+        "Holder": "1",
+        "Target": "5的评价",
+        "Aspect": "可信度",
+        "Opinion": "怀疑",
+        "Sentiment": "neutral",
+        "Rationale": "因为对5的评价表示怀疑，但没有明显的负面情绪，所以情感是中立的"
+    },
+    {
+        "sentence": "老戴，你去哪里？",
+        "Holder": "3",
+        "Target": "1的行动",
+        "Aspect": "目的",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "因为只是询问1的行动目的，没有表达出具体的情感或评价"
+    },
+    {
+        "sentence": "公司出了点事，我得马上过去一趟，你们先吃。",
+        "Holder": "1",
+        "Target": "公司事务",
+        "Aspect": "紧急性",
+        "Opinion": "需要立即处理",
+        "Sentiment": "neutral",
+        "Rationale": "因为公司出了问题，需要1马上处理，所以1的情感是中立的，专注于解决问题"
+    },
+    {
+        "sentence": "每回都这样。",
+        "Holder": "5",
+        "Target": "每次的情况",
+        "Aspect": "重复性",
+        "Opinion": "总是如此",
+        "Sentiment": "negative",
+        "Rationale": "每次都遇到相同的情况"
+    },
+    {
+        "sentence": "明明这商场如战场，你得理解你爸。",
+        "Holder": "3",
+        "Target": "商场环境",
+        "Aspect": "竞争激烈",
+        "Opinion": "需要理解",
+        "Sentiment": "neutral",
+        "Rationale": "商场环境竞争激烈"
+    },
+    {
+        "sentence": "你们屋头主人家都走了，哪个给钱咯？",
+        "Holder": "6",
+        "Target": "屋头主人",
+        "Aspect": "支付能力",
+        "Opinion": "无人支付",
+        "Sentiment": "negative",
+        "Rationale": "屋头主人都走了，没有人能支付费用"
+    },
+    {
+        "sentence": "我给，哈哈，多少钱呢？",
+        "Holder": "2",
+        "Target": "支付费用",
+        "Aspect": "支付意愿",
+        "Opinion": "愿意支付",
+        "Sentiment": "positive",
+        "Rationale": "愿意承担费用"
+    },
+    {
+        "sentence": "吃饭啦，吃饭啦，吃饭啦",
+        "Holder": "2",
+        "Target": "吃饭",
+        "Aspect": "吃饭的号召",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "快快快。",
+        "Holder": "3",
+        "Target": "吃饭",
+        "Aspect": "吃饭的速度",
+        "Opinion": "催促加快",
+        "Sentiment": "neutral",
+        "Rationale": "听到催促吃饭的声音"
+    },
+    {
+        "sentence": "吃什么呀？吃什么吃什么。",
+        "Holder": "4",
+        "Target": "饭菜",
+        "Aspect": "饭菜的种类",
+        "Opinion": "询问饭菜",
+        "Sentiment": "neutral",
+        "Rationale": "不知道今天吃什么"
+    },
+    {
+        "sentence": "白菜菠菜土豆莴笋",
+        "Holder": "2",
+        "Target": "饭菜",
+        "Aspect": "饭菜的种类",
+        "Opinion": "列举饭菜",
+        "Sentiment": "neutral",
+        "Rationale": "回答4的询问"
+    },
+    {
+        "sentence": "我好怀念昨天那桌子大餐呀，尤其是那大虾。",
+        "Holder": "4",
+        "Target": "昨天的饭菜",
+        "Aspect": "饭菜的质量",
+        "Opinion": "怀念大餐",
+        "Sentiment": "positive",
+        "Rationale": "昨天的饭菜非常美味，特别是大虾"
+    },
+    {
+        "sentence": "别提那顿大虾了，行不行？昨天那顿饭花了咱们家半个月的菜金，你呀，吃几天青菜？",
+        "Holder": "2",
+        "Target": "那顿大虾",
+        "Aspect": "花费",
+        "Opinion": "花费过高",
+        "Sentiment": "negative",
+        "Rationale": "那顿大虾花费了家里半个月的菜金"
+    },
+    {
+        "sentence": "戴叔叔也该回来了，这都快一天啦。",
+        "Holder": "4",
+        "Target": "戴叔叔",
+        "Aspect": "归期",
+        "Opinion": "期待回来",
+        "Sentiment": "neutral",
+        "Rationale": "戴叔叔快一天没回来了"
+    },
+    {
+        "sentence": "嗯，那可没准，这做生意有时候一碰上事儿，十天半个月也可能回不来",
+        "Holder": "3",
+        "Target": "戴叔叔的归期",
+        "Aspect": "不确定性",
+        "Opinion": "归期不确定",
+        "Sentiment": "neutral",
+        "Rationale": "做生意的事情难以预料"
+    },
+    {
+        "sentence": "咱还得吃半个月的清菜啊。",
+        "Holder": "3",
+        "Target": "饮食",
+        "Aspect": "饮食条件",
+        "Opinion": "需要节俭",
+        "Sentiment": "negative",
+        "Rationale": "之前的大虾花费过高"
+    },
+    {
+        "sentence": "吃青菜还不好？你，你就欠青菜，看你上火上的。",
+        "Holder": "2",
+        "Target": "3的饮食习惯",
+        "Aspect": "青菜的摄入",
+        "Opinion": "需要多吃青菜",
+        "Sentiment": "negative",
+        "Rationale": "3上火，2认为这是缺乏青菜摄入导致的"
+    },
+    {
+        "sentence": "我爸来没来您家呀。",
+        "Holder": "5",
+        "Target": "爸爸",
+        "Aspect": "爸爸的位置",
+        "Opinion": "询问爸爸是否在2家",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问爸爸的位置"
+    },
+    {
+        "sentence": "没有，他还没回来呢。",
+        "Holder": "2",
+        "Target": "爸爸",
+        "Aspect": "爸爸的行踪",
+        "Opinion": "爸爸还没回来",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述爸爸还没回来的事实"
+    },
+    {
+        "sentence": "没，公司电话没人接，手机也不开机。",
+        "Holder": "5",
+        "Target": "爸爸",
+        "Aspect": "爸爸的联系方式",
+        "Opinion": "无法联系到爸爸",
+        "Sentiment": "negative",
+        "Rationale": "无法通过电话和手机联系到爸爸"
+    },
+    {
+        "sentence": "哟哟，不会失踪了吧？",
+        "Holder": "4",
+        "Target": "爸爸",
+        "Aspect": "爸爸的行踪",
+        "Opinion": "怀疑失踪",
+        "Sentiment": "negative",
+        "Rationale": "4听到5说无法联系到爸爸，联想到电视上的绑架案"
+    },
+    {
+        "sentence": "昨天我看电视上演有一公司老板被人绑票了",
+        "Holder": "4",
+        "Target": "电视情节",
+        "Aspect": "绑架事件",
+        "Opinion": "联想到现实",
+        "Sentiment": "negative",
+        "Rationale": "4看到电视上的绑架情节，联想到5的爸爸无法联系"
+    },
+    {
+        "sentence": "李明杰，你别听刘星瞎说，戴叔叔肯定没事的",
+        "Holder": "7",
+        "Target": "戴叔叔",
+        "Aspect": "安全状况",
+        "Opinion": "肯定没事",
+        "Sentiment": "positive",
+        "Rationale": "对戴叔叔的信任和对其忙碌工作的理解"
+    },
+    {
+        "sentence": "就是你爸肯定没事的，他多忙，没准他就是一时忙脱不开身。",
+        "Holder": "2",
+        "Target": "戴叔叔",
+        "Aspect": "忙碌状况",
+        "Opinion": "肯定没事",
+        "Sentiment": "positive",
+        "Rationale": "认为戴叔叔忙碌且事务繁多"
+    },
+    {
+        "sentence": "我爸从来都不会无缘无故的消失超过 24 小时。",
+        "Holder": "5",
+        "Target": "爸爸",
+        "Aspect": "行为习惯",
+        "Opinion": "不会无缘无故消失",
+        "Sentiment": "neutral",
+        "Rationale": "对爸爸行为习惯的了解"
+    },
+    {
+        "sentence": "东海，嗯，你说咱是不是应该报警啊？别回头真出什么事，我看有点悬啊。",
+        "Holder": "2",
+        "Target": "报警",
+        "Aspect": "应对措施",
+        "Opinion": "应该报警",
+        "Sentiment": "negative",
+        "Rationale": "担心可能出现的问题"
+    },
+    {
+        "sentence": "肯定没事啊，老戴这会儿肯定是在跟别人谈事儿，太忙了抽不开身儿。",
+        "Holder": "3",
+        "Target": "戴叔叔",
+        "Aspect": "忙碌状况",
+        "Opinion": "肯定没事",
+        "Sentiment": "positive",
+        "Rationale": "对戴叔叔工作繁忙的了解"
+    },
+    {
+        "sentence": "对对对，要不然那么长的购物单哪买得起啊？",
+        "Holder": "4",
+        "Target": "购物单",
+        "Aspect": "购物单的长度",
+        "Opinion": "难以负担",
+        "Sentiment": "negative",
+        "Rationale": "购物单太长导致难以负担"
+    },
+    {
+        "sentence": "你吃饭了吗？明明要不坐下跟我们一块吃吧？",
+        "Holder": "2",
+        "Target": "明明",
+        "Aspect": "用餐情况",
+        "Opinion": "邀请一起吃饭",
+        "Sentiment": "positive",
+        "Rationale": "关心明明的用餐情况"
+    },
+    {
+        "sentence": "你一块吃吧？",
+        "Holder": "3",
+        "Target": "明明",
+        "Aspect": "用餐邀请",
+        "Opinion": "再次邀请",
+        "Sentiment": "positive",
+        "Rationale": "希望明明加入用餐"
+    },
+    {
+        "sentence": "不不不了，家里边一帮同学都等着呢，前天约好了，说开个 party 庆祝我上大学。",
+        "Holder": "5",
+        "Target": "同学聚会",
+        "Aspect": "聚会安排",
+        "Opinion": "已有安排",
+        "Sentiment": "positive",
+        "Rationale": "已经和同学约好庆祝上大学的party"
+    },
+    {
+        "sentence": "正好你去跟同学好好玩，甭担心你爸的事，说不准一会你爸就来了。",
+        "Holder": "2",
+        "Target": "5的担忧",
+        "Aspect": "对父亲情况的担心",
+        "Opinion": "不必担心",
+        "Sentiment": "positive",
+        "Rationale": "认为5的父亲可能会很快到来"
+    },
+    {
+        "sentence": "对，可我爸没给我留钱呢，我怎么买东西，我也不能把同学都轰走，哈哈哈。阿姨，嗯，要不您先借我点，连上昨天的饭钱一起算我爸账上",
+        "Holder": "5",
+        "Target": "借钱",
+        "Aspect": "经济状况",
+        "Opinion": "需要借钱",
+        "Sentiment": "neutral",
+        "Rationale": "父亲没有留钱，导致无法买东西"
+    },
+    {
+        "sentence": "行，你需要多少钱？ 500 块钱左右，夏东海拿 500 块钱。",
+        "Holder": "2",
+        "Target": "借钱",
+        "Aspect": "金额",
+        "Opinion": "同意借钱",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助对方解决经济问题"
+    },
+    {
+        "sentence": "好，咱们大鱼大肉的生活一去不复返了",
+        "Holder": "4",
+        "Target": "生活品质",
+        "Aspect": "饮食水平",
+        "Opinion": "生活品质下降",
+        "Sentiment": "negative",
+        "Rationale": "借钱的举动预示着经济紧张"
+    },
+    {
+        "sentence": "去，别胡说八道，甭听他胡说，哈哈哈，给你这 500 块钱。",
+        "Holder": "2",
+        "Target": "4的言论",
+        "Aspect": "言论合理性",
+        "Opinion": "不认同",
+        "Sentiment": "positive",
+        "Rationale": "不认同4的消极言论，并且愿意借钱"
+    },
+    {
+        "sentence": "唉，谢阿姨，那个要不我算利息给您一天 10 块钱去。",
+        "Holder": "5",
+        "Target": "借钱",
+        "Aspect": "还款方式",
+        "Opinion": "愿意支付利息",
+        "Sentiment": "positive",
+        "Rationale": "感激阿姨的借钱行为，并提出支付利息"
+    },
+    {
+        "sentence": "胡说，这孩子，阿姨哪能要你利息。去去去，快跟同学玩去。",
+        "Holder": "2",
+        "Target": "孩子",
+        "Aspect": "利息问题",
+        "Opinion": "不要利息",
+        "Sentiment": "positive",
+        "Rationale": "阿姨不想让孩子担心利息问题"
+    },
+    {
+        "sentence": "谢谢阿姨，谢谢",
+        "Holder": "5",
+        "Target": "阿姨",
+        "Aspect": "感谢",
+        "Opinion": "表达感谢",
+        "Sentiment": "positive",
+        "Rationale": "阿姨的好意让孩子感到温暖"
+    },
+    {
+        "sentence": "别担心你爸，你爸肯定没事，好好跟同学玩一会爸爸就回来了。",
+        "Holder": "2",
+        "Target": "孩子",
+        "Aspect": "父亲的状况",
+        "Opinion": "父亲没事",
+        "Sentiment": "positive",
+        "Rationale": "想让孩子放心地去玩"
+    },
+    {
+        "sentence": "嗯，哎，我有一个提议，他们家那 party 呢？是咱们家独家赞助的，我觉得咱们家应该选出一个代表去参加，可是我看你们都比较忙，那我就替你们参加了啊哈哈哈哈哈哈。唉，要不还是算了吧",
+        "Holder": "4",
+        "Target": "家庭代表",
+        "Aspect": "参加party",
+        "Opinion": "自己代替参加",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得家里人都忙，自己提出代替参加，但又有些犹豫"
+    }
+]

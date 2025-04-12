@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "法律系统对性暴力受害者的处理不足",
+        "emotions": [
+          {"state": "negative", "reason": "批评法律框架忽视受害者权益", "source_id": "2,4"},
+          {"state": "neutral", "reason": "呼吁多学科合作解决系统性缺陷", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "媒体报道对性别文化的影响",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑媒体关注焦点加剧性别歧视", "source_id": "2"},
+          {"state": "negative", "reason": "揭露广告内容物化女性现象", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "司法系统的道德评判困境",
+        "emotions": [
+          {"state": "negative", "reason": "批判法律政策强化受害者污名化", "source_id": "1,4"},
+          {"state": "positive", "reason": "推动学校必修性别平等课程", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "文化构建与性别歧视的挑战",
+        "emotions": [
+          {"state": "neutral", "reason": "承认改变需要跨代努力", "source_id": "4"},
+          {"state": "positive", "reason": "实施「尊重女性年龄」全国教育项目", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "同伴教育模式的实践成效",
+        "emotions": [
+          {"state": "positive", "reason": "验证学生主导同意文化传播的有效性", "source_id": "3"},
+          {"state": "negative", "reason": "揭露体育联盟对施暴者的包庇现象", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "系统性解决方案的探索",
+        "emotions": [
+          {"state": "positive", "reason": "倡导多领域协同干预策略", "source_id": "4"},
+          {"state": "neutral", "reason": "强调领导者对教育基调的决定作用", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "早期教育在预防暴力中的核心作用",
+        "emotions": [
+          {"state": "negative", "reason": "批判现行法律仅处理后果的局限性", "source_id": "4"},
+          {"state": "positive", "reason": "推广三岁起系统性价值观教育方案", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "文化变革的根本路径",
+        "emotions": [
+          {"state": "negative", "reason": "揭露律师群体深层次歧视心态", "source_id": "4"},
+          {"state": "positive", "reason": "提出删除传统学科推动范式转移", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

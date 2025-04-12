@@ -1,0 +1,72 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "菲菲姑姑MTV选拔失败事件",
+        "emotions": [
+          {"state": "neutral", "reason": "询问3的行程变动", "source_id": "3"},
+          {"state": "positive", "reason": "鼓励菲菲接受挫折", "source_id": "5"},
+          {"state": "negative", "reason": "指责4的叫喊方式不当", "source_id": "4"},
+          {"state": "doubt", "reason": "质疑被指责瞎劝的合理性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "家庭劝说策略调整",
+        "emotions": [
+          {"state": "neutral", "reason": "提出统一劝说方法", "source_id": "2,3,4,5"},
+          {"state": "positive", "reason": "观察到菲菲情绪好转", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "失败认知转变事件",
+        "emotions": [
+          {"state": "negative", "reason": "报告菲菲被刷下结果", "source_id": "5"},
+          {"state": "positive", "reason": "阐述失败教育理念", "source_id": "1,3"},
+          {"state": "negative", "reason": "反驳4的性别观点", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "职业指导干预事件",
+        "emotions": [
+          {"state": "negative", "reason": "批评2的直白表达", "source_id": "2"},
+          {"state": "neutral", "reason": "系统阐述成功条件", "source_id": "5"},
+          {"state": "negative", "reason": "制止4的干扰行为", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "沟通方式冲突事件",
+        "emotions": [
+          {"state": "negative", "reason": "被3批评说话方式", "source_id": "3"},
+          {"state": "negative", "reason": "质疑劝说效果", "source_id": "1,2"},
+          {"state": "positive", "reason": "满意用餐安排", "source_id": "1"},
+          {"state": "negative", "reason": "性别观点冲突", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "自我认知重构事件",
+        "emotions": [
+          {"state": "negative", "reason": "选拔失败后的自我怀疑", "source_id": "1,2,3"},
+          {"state": "ambiguous", "reason": "质疑失败价值", "source_id": "2"},
+          {"state": "positive", "reason": "接受失败教育理念", "source_id": "1,2,3"},
+          {"state": "positive", "reason": "选择娱乐活动", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

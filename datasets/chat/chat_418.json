@@ -1,0 +1,533 @@
+[
+    {
+        "sentence": "有人问你的话，你就说那瓶子是我捡的，尤其是戴明明问你的时候，这样戴明明们就会来求我了。",
+        "Holder": "1",
+        "Target": "戴明明",
+        "Aspect": "瓶子的归属",
+        "Opinion": "瓶子是1捡的",
+        "Sentiment": "positive",
+        "Rationale": "1希望通过这种方式让戴明明来求他"
+    },
+    {
+        "sentence": "为什么呀？",
+        "Holder": "2",
+        "Target": "1的计划",
+        "Aspect": "计划的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚1的计划和目的"
+    },
+    {
+        "sentence": "我要报仇啊。",
+        "Holder": "1",
+        "Target": "戴明明",
+        "Aspect": "报仇的动机",
+        "Opinion": "要报仇",
+        "Sentiment": "negative",
+        "Rationale": "1被戴明明揪了耳朵"
+    },
+    {
+        "sentence": "我知道了，是戴明明揪的你的耳朵，我劝你最好离她远点。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "与戴明明的关系",
+        "Opinion": "建议远离戴明明",
+        "Sentiment": "neutral",
+        "Rationale": "2知道戴明明对1的敌对行为"
+    },
+    {
+        "sentence": "那不行。",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的可行性",
+        "Opinion": "不接受建议",
+        "Sentiment": "negative",
+        "Rationale": "1坚持要报仇，不愿意听从2的建议"
+    },
+    {
+        "sentence": "你不是她的对手，她是你的克星，你每回跟她斗都是你输",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "与某人的竞争能力",
+        "Opinion": "4总是输",
+        "Sentiment": "negative",
+        "Rationale": "2认为4在与某人的竞争中总是失败"
+    },
+    {
+        "sentence": "明明今天我们家有鱼有虾，晚上在我们家吃啊。",
+        "Holder": "4",
+        "Target": "晚餐安排",
+        "Aspect": "晚餐的丰盛程度",
+        "Opinion": "晚餐丰盛",
+        "Sentiment": "positive",
+        "Rationale": "4提到家里有鱼有虾，表现出对晚餐的期待和热情"
+    },
+    {
+        "sentence": "好，谢谢阿姨。",
+        "Holder": "5",
+        "Target": "4的邀请",
+        "Aspect": "邀请的接受",
+        "Opinion": "接受邀请",
+        "Sentiment": "positive",
+        "Rationale": "5接受了4的邀请并表示感谢"
+    },
+    {
+        "sentence": "那个刘星在吗？",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "刘星的存在",
+        "Opinion": "询问刘星是否在场",
+        "Sentiment": "neutral",
+        "Rationale": "5只是简单地询问刘星是否在场，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "他还没回来呢。",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "回来时间",
+        "Opinion": "还没回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "怎么，有事吗？",
+        "Holder": "4",
+        "Target": "对方",
+        "Aspect": "是否有事",
+        "Opinion": "询问是否有事",
+        "Sentiment": "neutral",
+        "Rationale": "只是正常的询问对方是否有事，没有明显的情感倾向"
+    },
+    {
+        "sentence": "出什么事了？",
+        "Holder": "4",
+        "Target": "事情",
+        "Aspect": "事情的性质",
+        "Opinion": "询问事情的性质",
+        "Sentiment": "neutral",
+        "Rationale": "只是正常的询问发生了什么事情，没有明显的情感倾向"
+    },
+    {
+        "sentence": "那个这事可能关系到一批国家文物的命运啊。",
+        "Holder": "5",
+        "Target": "事情",
+        "Aspect": "事情的重要性",
+        "Opinion": "事情很重要",
+        "Sentiment": "negative",
+        "Rationale": "提到的事情关系到国家文物的命运，显得非常严重和紧迫"
+    },
+    {
+        "sentence": "他怎么了？他拿什么了啊？",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "行为",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对情况不了解"
+    },
+    {
+        "sentence": "事情没那么严重，就是阿姨您先坐下，我们都跟你说，告诉你怎么回事。",
+        "Holder": "5",
+        "Target": "事情",
+        "Aspect": "严重性",
+        "Opinion": "不严重",
+        "Sentiment": "positive",
+        "Rationale": "想安抚对方情绪"
+    },
+    {
+        "sentence": "行，回头我肯定把这事给弄清楚",
+        "Holder": "4",
+        "Target": "事情",
+        "Aspect": "处理",
+        "Opinion": "承诺解决",
+        "Sentiment": "positive",
+        "Rationale": "愿意承担责任并解决问题"
+    },
+    {
+        "sentence": "那个阿姨，您一定要让他明白这个问题的严重性，让他迷途知返",
+        "Holder": "5",
+        "Target": "他",
+        "Aspect": "问题认知",
+        "Opinion": "需要明白严重性",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方认识到问题的严重性"
+    },
+    {
+        "sentence": "妈您可得抓紧点时间，这万一要是走漏了风声，让那些文物犯的知道就麻烦啦。国家文物可是件大事，千万不能落入文物贩子手里。",
+        "Holder": "3",
+        "Target": "事情",
+        "Aspect": "紧迫性",
+        "Opinion": "非常紧迫",
+        "Sentiment": "negative",
+        "Rationale": "担心文物安全问题"
+    },
+    {
+        "sentence": "对，那个阿姨，如果到时候刘星态度不好，或者说他已经被别人收买，那我们就要拿起法律的武器来吓唬他。",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "态度和诚信",
+        "Opinion": "需要法律手段",
+        "Sentiment": "negative",
+        "Rationale": "担心刘星态度不好或被收买"
+    },
+    {
+        "sentence": "对，因为倒卖文物是犯法的。",
+        "Holder": "3",
+        "Target": "倒卖文物",
+        "Aspect": "合法性",
+        "Opinion": "犯法",
+        "Sentiment": "negative",
+        "Rationale": "倒卖文物违反法律"
+    },
+    {
+        "sentence": "成，我必须得让他老实坦白交代，必须得把事跟我说清楚。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "坦白交代",
+        "Opinion": "必须坦白",
+        "Sentiment": "negative",
+        "Rationale": "需要刘星坦白交代事情真相"
+    },
+    {
+        "sentence": "你怎么又来了？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "重复性",
+        "Opinion": "质疑重复",
+        "Sentiment": "neutral",
+        "Rationale": "对4的重复行为感到不解"
+    },
+    {
+        "sentence": "刘星过来，过来站着。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "行为要求",
+        "Opinion": "要求过来站着",
+        "Sentiment": "neutral",
+        "Rationale": "需要刘星过来站着以便进行对话"
+    },
+    {
+        "sentence": "你想骗人。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "诚实",
+        "Opinion": "怀疑1不诚实",
+        "Sentiment": "negative",
+        "Rationale": "4认为1有欺骗行为"
+    },
+    {
+        "sentence": "我真没骗您，我最近都是夹着尾巴做人，我们学校老师都以为我病了。",
+        "Holder": "1",
+        "Target": "4的怀疑",
+        "Aspect": "诚实",
+        "Opinion": "自己确实没有骗人",
+        "Sentiment": "negative",
+        "Rationale": "1被4怀疑感到委屈"
+    },
+    {
+        "sentence": "你老实坦白交代那瓶子是怎么回事啊？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "瓶子的真相",
+        "Opinion": "要求1坦白",
+        "Sentiment": "negative",
+        "Rationale": "4对瓶子的真相感到疑惑"
+    },
+    {
+        "sentence": "戴明明你也太狠了吧，咱们这件事情干嘛让我家长知道啊？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "处理方式",
+        "Opinion": "认为4处理方式过狠",
+        "Sentiment": "negative",
+        "Rationale": "1觉得4把事情告诉家长是不合理的"
+    },
+    {
+        "sentence": "这可是大事，关系到国家的利益。",
+        "Holder": "5",
+        "Target": "事件的重要性",
+        "Aspect": "对国家利益的影响",
+        "Opinion": "非常重要",
+        "Sentiment": "positive",
+        "Rationale": "事件对国家利益有重大影响"
+    },
+    {
+        "sentence": "对，我们这么做也是为了挽救你啊。",
+        "Holder": "3",
+        "Target": "行为的目的",
+        "Aspect": "挽救对方",
+        "Opinion": "出于好意",
+        "Sentiment": "positive",
+        "Rationale": "行为是为了挽救对方"
+    },
+    {
+        "sentence": "没错，你现在说还不晚，等出了事就惨了。",
+        "Holder": "5",
+        "Target": "坦白的时机",
+        "Aspect": "及时性",
+        "Opinion": "现在坦白还不晚",
+        "Sentiment": "negative",
+        "Rationale": "担心事情恶化后会带来严重后果"
+    },
+    {
+        "sentence": "我坦白",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "坦白",
+        "Opinion": "决定坦白",
+        "Sentiment": "neutral",
+        "Rationale": "决定坦白"
+    },
+    {
+        "sentence": "那瓶子那不是我捡的。",
+        "Holder": "1",
+        "Target": "瓶子的来源",
+        "Aspect": "真实性",
+        "Opinion": "否认捡到瓶子",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清事实"
+    },
+    {
+        "sentence": "那哪来的？",
+        "Holder": "4",
+        "Target": "物品来源",
+        "Aspect": "物品的来源",
+        "Opinion": "质疑来源",
+        "Sentiment": "neutral",
+        "Rationale": "对物品的来源不清楚"
+    },
+    {
+        "sentence": "是我借的。",
+        "Holder": "1",
+        "Target": "物品来源",
+        "Aspect": "物品的来源",
+        "Opinion": "确认来源",
+        "Sentiment": "neutral",
+        "Rationale": "物品确实是借来的"
+    },
+    {
+        "sentence": "跟谁借的？",
+        "Holder": "4",
+        "Target": "借物品的对象",
+        "Aspect": "借物品的对象",
+        "Opinion": "进一步询问",
+        "Sentiment": "neutral",
+        "Rationale": "需要知道具体的借物品对象"
+    },
+    {
+        "sentence": "鼠标。千真万确，谁骗您谁都是傻子，戴明明有什么话你明着说，别跟我玩阴的。",
+        "Holder": "1",
+        "Target": "借物品的对象",
+        "Aspect": "借物品的对象和对话方式",
+        "Opinion": "强调真实性和要求直接对话",
+        "Sentiment": "negative",
+        "Rationale": "感到对方在怀疑自己，并且不喜欢对方隐晦的对话方式"
+    },
+    {
+        "sentence": "回屋做作业去。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "当前应做的事情",
+        "Opinion": "要求去做作业",
+        "Sentiment": "neutral",
+        "Rationale": "认为1应该去做作业"
+    },
+    {
+        "sentence": "不对，这不是您风格。",
+        "Holder": "1",
+        "Target": "4的风格",
+        "Aspect": "行为一致性",
+        "Opinion": "不符合风格",
+        "Sentiment": "neutral",
+        "Rationale": "1认为4的行为与平时的风格不一致"
+    },
+    {
+        "sentence": "我什么风格呀？",
+        "Holder": "4",
+        "Target": "自己的风格",
+        "Aspect": "风格认知",
+        "Opinion": "询问风格",
+        "Sentiment": "neutral",
+        "Rationale": "4对1的评价感到好奇"
+    },
+    {
+        "sentence": "您真相信我说的话？",
+        "Holder": "1",
+        "Target": "4的信任",
+        "Aspect": "信任程度",
+        "Opinion": "怀疑信任",
+        "Sentiment": "doubt",
+        "Rationale": "1不确定4是否真的相信自己"
+    },
+    {
+        "sentence": "我相信不相信我干嘛要跟你说呀？去去去，回屋去。把鼠标叫来。",
+        "Holder": "4",
+        "Target": "1的提问",
+        "Aspect": "提问合理性",
+        "Opinion": "不认同提问",
+        "Sentiment": "negative",
+        "Rationale": "4觉得1的问题没有必要回答，并且被打扰到"
+    },
+    {
+        "sentence": "阿姨好",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "问候",
+        "Opinion": "礼貌问候",
+        "Sentiment": "positive",
+        "Rationale": "2向4礼貌地打招呼"
+    },
+    {
+        "sentence": "哎，鼠标好，你爸爸还好吧？",
+        "Holder": "4",
+        "Target": "鼠标的爸爸",
+        "Aspect": "健康状况",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问鼠标爸爸的健康状况"
+    },
+    {
+        "sentence": "哎，挺好的",
+        "Holder": "5",
+        "Target": "鼠标的爸爸",
+        "Aspect": "健康状况",
+        "Opinion": "良好",
+        "Sentiment": "positive",
+        "Rationale": "5确认鼠标的爸爸健康状况良好"
+    },
+    {
+        "sentence": "阿姨您找我有什么事？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "找2的目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问4找自己的原因"
+    },
+    {
+        "sentence": "阿姨还真找你有点事。你可必须得实话实说。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "诚实",
+        "Opinion": "要求实话实说",
+        "Sentiment": "neutral",
+        "Rationale": "4要求2必须说实话"
+    },
+    {
+        "sentence": "只要我知道的，我一定实话实说。行。",
+        "Holder": "2",
+        "Target": "4的要求",
+        "Aspect": "诚实",
+        "Opinion": "承诺实话实说",
+        "Sentiment": "positive",
+        "Rationale": "2承诺会说实话"
+    },
+    {
+        "sentence": "刘星画画的那个瓶子是你借给他的吗？",
+        "Holder": "4",
+        "Target": "瓶子",
+        "Aspect": "瓶子的来源",
+        "Opinion": "询问瓶子来源",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问瓶子的来源"
+    },
+    {
+        "sentence": "不是，真的不是",
+        "Holder": "2",
+        "Target": "瓶子",
+        "Aspect": "瓶子的来源",
+        "Opinion": "否认借出瓶子",
+        "Sentiment": "negative",
+        "Rationale": "2被怀疑借出瓶子"
+    },
+    {
+        "sentence": "这事可关系重大啊。",
+        "Holder": "4",
+        "Target": "瓶子事件",
+        "Aspect": "事件的重要性",
+        "Opinion": "强调事件重要性",
+        "Sentiment": "negative",
+        "Rationale": "4认为瓶子事件很重要"
+    },
+    {
+        "sentence": "我还可以跟刘星当面对峙。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "对峙的可能性",
+        "Opinion": "愿意对峙",
+        "Sentiment": "positive",
+        "Rationale": "2愿意通过面对面对峙来证明自己的清白"
+    },
+    {
+        "sentence": "嘿，还挺勇敢的。",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "勇敢",
+        "Opinion": "认为2勇敢",
+        "Sentiment": "positive",
+        "Rationale": "5认为2愿意对峙是勇敢的表现"
+    },
+    {
+        "sentence": "哈，那成，小雪，把刘星叫出来。",
+        "Holder": "4",
+        "Target": "小雪",
+        "Aspect": "叫刘星出来",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "同意小雪叫刘星出来的提议"
+    },
+    {
+        "sentence": "好勒，刘星",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "叫刘星",
+        "Opinion": "答应",
+        "Sentiment": "positive",
+        "Rationale": "答应叫刘星出来"
+    },
+    {
+        "sentence": "嗯，妈，过来这问鼠标那个瓶子是刘星管你借的吗？",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "借瓶子",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问一个事实"
+    },
+    {
+        "sentence": "不是，你实话实说啊",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "借瓶子的事实",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "否认刘星借瓶子的事实"
+    },
+    {
+        "sentence": "明明算你狠",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "行为评价",
+        "Opinion": "认为对方狠",
+        "Sentiment": "negative",
+        "Rationale": "认为对方在行为上很狠"
+    },
+    {
+        "sentence": "刘星，你现在还有什么可说的？",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "刘星的回应",
+        "Opinion": "期待刘星的解释",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问刘星是否有进一步的解释"
+    },
+    {
+        "sentence": "你要再不承认，我们可要找警方介入了。",
+        "Holder": "4",
+        "Target": "刘星的承认",
+        "Aspect": "刘星的责任",
+        "Opinion": "威胁找警方介入",
+        "Sentiment": "negative",
+        "Rationale": "4认为刘星不承认责任"
+    }
+]

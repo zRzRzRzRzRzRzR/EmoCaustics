@@ -1,0 +1,54 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "外出旅游计划争议",
+        "emotions": [
+          {"state": "positive", "reason": "发现外出旅游容易", "source_id": "1"},
+          {"state": "negative", "reason": "抗议家庭不公待遇被惩罚", "source_id": "2"},
+          {"state": "negative", "reason": "购鞋欺骗手段被批评", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "情感归属验证",
+        "emotions": [
+          {"state": "negative", "reason": "感受被家人忽视", "source_id": "2,5"},
+          {"state": "neutral", "reason": "接受隐藏测试方案", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭权威维护",
+        "emotions": [
+          {"state": "negative", "reason": "反对欺骗手段与旅游计划", "source_id": "1"},
+          {"state": "negative", "reason": "实施加罚劳动措施", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "离别情感互动",
+        "emotions": [
+          {"state": "negative", "reason": "无法有效挽留对方", "source_id": "1"},
+          {"state": "neutral", "reason": "共同生活回忆触发不舍", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "关系测试策略实施",
+        "emotions": [
+          {"state": "neutral", "reason": "提出隐藏验证方案", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑旅游计划合理性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

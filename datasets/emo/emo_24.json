@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "抚养权争夺冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被2质疑父亲资格；被3指责失信；被4拒绝协助",
+            "source_id": "2,3,4"
+          }
+        ]
+      },
+      {
+        "event": "离婚文件处理争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "要求4偷取证件引发矛盾；担忧母亲知情后果",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "监护责任指控",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责1未尽监护责任；否定1的父亲资格",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "监护失信事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指控1未履行接送承诺",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "房产证盗窃计划冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "拒绝1的非法要求；强调证件重要性；警告后果严重性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

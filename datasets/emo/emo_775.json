@@ -1,0 +1,117 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "行业趋势分析与合作展望",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "肯定周会长分享的启发性内容并引发深度思考",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调医疗行业向全周期健康管理转变的积极趋势",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "表达对智慧医疗未来合作的强烈期待",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "社交互动与情感联结",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过举杯表达对长久友谊的重视",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "智慧本质的哲学探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观比较中西医体系差异",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "职业身份展示",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "基础性自我介绍",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "市场策略与技术应用",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "强调客户需求研究的重要性",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "认可微软人工机器人的实际应用价值",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "指出智慧医疗市场竞争现状",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "行业环境认知",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "辩证看待当前行业挑战与机遇并存",
+            "source_id": "6"
+          }
+        ]
+      },
+      {
+        "event": "社交网络构建",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调学习机会与缘分价值",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导情感联结与信息互通",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  }
+}

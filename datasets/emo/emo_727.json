@@ -1,0 +1,72 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭安全危机与过度防范",
+        "emotions": [
+          {"state": "negative", "reason": "连喜爱的鸡翅失去食欲", "source_id": "3"},
+          {"state": "ambiguous", "reason": "担忧可能发生的绑架事件", "source_id": "2"},
+          {"state": "neutral", "reason": "主动接听威胁电话", "source_id": "2"},
+          {"state": "positive", "reason": "紧急状态解除后的轻松", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "前夫介入家庭事务",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑前夫来访目的", "source_id": "4"},
+          {"state": "negative", "reason": "反对前夫带走家庭成员", "source_id": "2,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "医患纠纷处理与领导决策",
+        "emotions": [
+          {"state": "neutral", "reason": "接受医院安排的休假", "source_id": "领导"},
+          {"state": "negative", "reason": "被病人家属包围威胁", "source_id": "家属"},
+          {"state": "positive", "reason": "患者苏醒后家属正式道歉", "source_id": "家属"}
+        ]
+      },
+      {
+        "event": "家庭危机教育实施与调整",
+        "emotions": [
+          {"state": "negative", "reason": "强制实施安全警报系统", "source_id": "3"},
+          {"state": "positive", "reason": "解除紧急状态恢复常态", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "护理责任争议与人身安全威胁",
+        "emotions": [
+          {"state": "negative", "reason": "被20多名家属集体指责", "source_id": "家属"},
+          {"state": "ambiguous", "reason": "面对病危通知单的职业道德困境", "source_id": "领导"},
+          {"state": "neutral", "reason": "接受居家避风头安排", "source_id": "领导"}
+        ]
+      },
+      {
+        "event": "家庭关系动态变化",
+        "emotions": [
+          {"state": "negative", "reason": "前夫突然介入家庭事务", "source_id": "4"},
+          {"state": "positive", "reason": "最终化解外部威胁", "source_id": "家属"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "父子关系维护尝试",
+        "emotions": [
+          {"state": "negative", "reason": "被误认为跟踪者", "source_id": "1"},
+          {"state": "neutral", "reason": "解释来访动机", "source_id": "3"},
+          {"state": "positive", "reason": "见证危机解除过程", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

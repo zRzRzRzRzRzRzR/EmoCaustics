@@ -1,0 +1,64 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "处理司马一殴打陈子昂事件",
+        "emotions": [
+          {"state": "neutral", "reason": "询问冲突原因", "source_id": "2"},
+          {"state": "negative", "reason": "赵德柱持续扰乱课堂秩序", "source_id": "6"},
+          {"state": "neutral", "reason": "宣布人事变动决定", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "班级秩序维护",
+        "emotions": [
+          {"state": "negative", "reason": "多次制止赵德柱吵闹行为", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "与司马一冲突事件",
+        "emotions": [
+          {"state": "negative", "reason": "遭受肢体暴力", "source_id": "2"},
+          {"state": "neutral", "reason": "接受职位变动", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "陈子昂目的探究",
+        "emotions": [
+          {"state": "neutral", "reason": "提出分组建议", "source_id": "3"},
+          {"state": "ambiguous", "reason": "怀疑新同学动机", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "人际矛盾调解",
+        "emotions": [
+          {"state": "positive", "reason": "维护陈子昂声誉", "source_id": "5"},
+          {"state": "negative", "reason": "遭受赵德柱言语攻击", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "追责司马一休学事件",
+        "emotions": [
+          {"state": "negative", "reason": "认定陈子昂需负责", "source_id": "4,5"},
+          {"state": "negative", "reason": "与赵德柱激烈争执", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

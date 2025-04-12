@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "关于主动表达爱的讨论",
+        "emotions": [
+          {"state": "positive", "reason": "支持主动表达爱的必要性", "source_id": "1"},
+          {"state": "negative", "reason": "担心双方都不主动导致无果", "source_id": "1"},
+          {"state": "negative", "reason": "质疑3对暧昧关系的处理方式", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "对感情名分的认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "谴责5缺乏感情责任感", "source_id": "5"},
+          {"state": "neutral", "reason": "询问4对感情手段的看法", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感表达的条件限制",
+        "emotions": [
+          {"state": "neutral", "reason": "只在确定对方喜欢时表达", "source_id": "2"},
+          {"state": "negative", "reason": "质疑3暧昧态度的真诚性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "维护暧昧关系的立场",
+        "emotions": [
+          {"state": "neutral", "reason": "主张享受无需责任的暧昧状态", "source_id": "3"},
+          {"state": "negative", "reason": "被4指责缺乏责任感", "source_id": "4"},
+          {"state": "positive", "reason": "分享偶像剧吸引力的观点", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "北芭任务分配争议",
+        "emotions": [
+          {"state": "neutral", "reason": "解释任务特殊性", "source_id": "5"},
+          {"state": "ambiguous", "reason": "被质疑任务分配公平性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "对感情责任的定义",
+        "emotions": [
+          {"state": "negative", "reason": "批判3的暧昧不负责行为", "source_id": "3"},
+          {"state": "neutral", "reason": "承认双方均无责任的状态", "source_id": "3,2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "感情名分主张",
+        "emotions": [
+          {"state": "positive", "reason": "强调感情需要明确名分", "source_id": "5"},
+          {"state": "negative", "reason": "被2质疑情感处理资格", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

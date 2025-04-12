@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "画作签名引发的家庭矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "担心母亲发现签名引发冲突", "source_id": "2,3"},
+          {"state": "neutral", "reason": "试图通过收回画作避免曝光", "source_id": "1"},
+          {"state": "negative", "reason": "被王姐意外公开画作内容", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "应对小区异常关注现象",
+        "emotions": [
+          {"state": "positive", "reason": "引导梅梅接受人气假象", "source_id": "6"},
+          {"state": "neutral", "reason": "虚构明星相似性缓解质疑", "source_id": "6,2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "漫画作品引发的连锁反应",
+        "emotions": [
+          {"state": "negative", "reason": "担忧父亲被母亲责怪", "source_id": "1"},
+          {"state": "neutral", "reason": "配合父亲处理画作曝光", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "异常关注的心理压力",
+        "emotions": [
+          {"state": "negative", "reason": "被小区居民异常注视", "source_id": "1,2"},
+          {"state": "positive", "reason": "接受明星相似性解释", "source_id": "1,2"},
+          {"state": "negative", "reason": "发现画作真实质量", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "漫画传播的推动作用",
+        "emotions": [
+          {"state": "positive", "reason": "主动传播刘星作品", "source_id": "1"},
+          {"state": "neutral", "reason": "配合收回争议画作", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "画作内容意外曝光",
+        "emotions": [
+          {"state": "positive", "reason": "赞赏刘星创作能力", "source_id": "1"},
+          {"state": "neutral", "reason": "无意中推动画作传播", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "杂志公开画作评价",
+        "emotions": [
+          {"state": "positive", "reason": "认可作品传播价值", "source_id": "1"},
+          {"state": "negative", "reason": "质疑画作艺术质量", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "禁地别墅的闯入与处理",
+        "emotions": [
+          {"state": "negative", "reason": "发现2及其他人闯入禁地", "source_id": "2,3,4"},
+          {"state": "positive", "reason": "因曼曼介入缓和情绪", "source_id": "2"},
+          {"state": "negative", "reason": "确认有人试图进入别墅", "source_id": "2"},
+          {"state": "positive", "reason": "认可曼曼的处理方式", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "居住安排的讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "拒绝曼曼入住别墅", "source_id": "2"},
+          {"state": "positive", "reason": "提出同居新方案", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "禁地事件中的自我辩护",
+        "emotions": [
+          {"state": "neutral", "reason": "解释闯入动机", "source_id": "1"},
+          {"state": "negative", "reason": "认错求谅解", "source_id": "1"},
+          {"state": "positive", "reason": "获得情感确认", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "居住方案调整",
+        "emotions": [
+          {"state": "positive", "reason": "提议同居", "source_id": "1"},
+          {"state": "ambiguous", "reason": "对拒绝的困惑", "source_id": "1"},
+          {"state": "positive", "reason": "接受新方案", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "禁地事件的参与处理",
+        "emotions": [
+          {"state": "neutral", "reason": "说明曼曼动机", "source_id": "2"},
+          {"state": "negative", "reason": "请求宽恕", "source_id": "1"},
+          {"state": "positive", "reason": "执行处置命令", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "禁地事件处置过程",
+        "emotions": [
+          {"state": "positive", "reason": "维护曼曼形象", "source_id": "2"},
+          {"state": "negative", "reason": "认错求饶", "source_id": "1"},
+          {"state": "positive", "reason": "执行命令", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "对闯入者的评价",
+        "emotions": [
+          {"state": "negative", "reason": "批评整容女行为", "source_id": "2"},
+          {"state": "positive", "reason": "肯定曼曼警觉性", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

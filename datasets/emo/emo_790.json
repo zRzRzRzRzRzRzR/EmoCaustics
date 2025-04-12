@@ -1,0 +1,88 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "发言权利争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "发言被限制且认为提议不合理",
+            "source_id": "2,3"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑工作分配的公平性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "工作状态争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑罗明发offer的权利",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释实习生工作状态",
+            "source_id": "1,3"
+          }
+        ]
+      },
+      {
+        "event": "任务执行冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "接受任务分配提议",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "敲诈行为指控",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "指出罗敏准备接受敲诈",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "质疑牧野的行为意图",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "球员转会争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "自评言论客观性",
+            "source_id": "self"
+          },
+          {
+            "state": "negative",
+            "reason": "批评转会动机商业化",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  }
+}

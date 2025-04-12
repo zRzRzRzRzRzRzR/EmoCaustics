@@ -1,0 +1,88 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "礼物误送与性别误解",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "误将3的性别记错导致礼物选择错误",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "代际交流与生活建议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "关心3与亲戚的交流内容和感情状态",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "对3提出的生活决策建议保持中立态度",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "代沟导致的社交压力",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为与亲戚存在代沟难以沟通",
+            "source_id": "2,4"
+          }
+        ]
+      },
+      {
+        "event": "礼物选择求助与应对",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主动向4寻求送礼建议",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释送湿巾的实用考虑",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "红包习俗与成长认知",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "以成长为由拒绝红包",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "直率礼物评价",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑3选择的礼物实用性",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

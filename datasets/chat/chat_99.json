@@ -1,0 +1,470 @@
+[
+    {
+        "sentence": "我跟他又没什么关系，你干嘛？",
+        "Holder": "1",
+        "Target": "2的提问",
+        "Aspect": "关系的合理性",
+        "Opinion": "否认有关系",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的提问不合理"
+    },
+    {
+        "sentence": "小点声，你不怕孩子听见呀？",
+        "Holder": "2",
+        "Target": "1的说话声音",
+        "Aspect": "声音的大小",
+        "Opinion": "声音太大",
+        "Sentiment": "neutral",
+        "Rationale": "担心孩子听见"
+    },
+    {
+        "sentence": "什么时候走啊？",
+        "Holder": "3",
+        "Target": "1的离开时间",
+        "Aspect": "离开的时间",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "想知道1的具体离开时间"
+    },
+    {
+        "sentence": "走什么走啊？我今天倒班",
+        "Holder": "1",
+        "Target": "3的提问",
+        "Aspect": "离开的必要性",
+        "Opinion": "不需要离开",
+        "Sentiment": "negative",
+        "Rationale": "1今天需要倒班"
+    },
+    {
+        "sentence": "我是问您什么时候去美国？",
+        "Holder": "3",
+        "Target": "1的出国时间",
+        "Aspect": "出国的时间",
+        "Opinion": "澄清问题",
+        "Sentiment": "neutral",
+        "Rationale": "1误解了3的问题"
+    },
+    {
+        "sentence": "美国没准呢",
+        "Holder": "1",
+        "Target": "美国之行",
+        "Aspect": "确定性与否",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "对美国的行程还没有确定"
+    },
+    {
+        "sentence": "怎么还不定啊？早定早完事，别夜长梦多。",
+        "Holder": "3",
+        "Target": "美国之行的决定",
+        "Aspect": "决策的及时性",
+        "Opinion": "应尽快决定",
+        "Sentiment": "negative",
+        "Rationale": "觉得拖延决定会导致更多问题"
+    },
+    {
+        "sentence": "你什么意思啊？你是不是恨不得妈赶紧消失在茫茫人海当中？",
+        "Holder": "1",
+        "Target": "3的态度",
+        "Aspect": "对母亲的态度",
+        "Opinion": "怀疑对方希望母亲消失",
+        "Sentiment": "negative",
+        "Rationale": "对方催促决定，误以为对方希望母亲离开"
+    },
+    {
+        "sentence": "他连做梦都想跟您一块去美国呢。",
+        "Holder": "4",
+        "Target": "1的想法",
+        "Aspect": "对美国的向往",
+        "Opinion": "非常想去",
+        "Sentiment": "positive",
+        "Rationale": "对方非常希望和母亲一起去美国"
+    },
+    {
+        "sentence": "你妈去美国跟您有什么关系？你美什么呀？",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "与母亲去美国的关系",
+        "Opinion": "无关",
+        "Sentiment": "negative",
+        "Rationale": "认为对方过于激动，觉得去美国与对方无关"
+    },
+    {
+        "sentence": "就兴你们当海归就不让我们当侨胞。妈，我现在越想越不放心了。怎么了？您说您一个中年女士独自一人去那遥远的国度，您说万一再出点什么事，我得多不放心啊？所以我决定我还是跟着您一块去，我得照顾照顾你。",
+        "Holder": "3",
+        "Target": "父母出国",
+        "Aspect": "安全担忧",
+        "Opinion": "不放心",
+        "Sentiment": "negative",
+        "Rationale": "担心母亲独自一人去遥远国度可能会出事"
+    },
+    {
+        "sentence": "这孩子还真是越来越懂事。",
+        "Holder": "1",
+        "Target": "说话人 3",
+        "Aspect": "行为表现",
+        "Opinion": "懂事",
+        "Sentiment": "positive",
+        "Rationale": "说话人 3 表示要照顾母亲，表现出成熟和责任感"
+    },
+    {
+        "sentence": "嗯没看出来，身边再整点美金什么的",
+        "Holder": "2",
+        "Target": "说话人 3",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑动机",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人 3 可能是为了金钱而不是真心照顾母亲"
+    },
+    {
+        "sentence": "我告诉你们，我到美国肯定是个人才。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "自我评价",
+        "Opinion": "自信",
+        "Sentiment": "positive",
+        "Rationale": "对自己在美国的发展充满信心"
+    },
+    {
+        "sentence": "哼哼，美的你，就你是人才，我确实没看出来。",
+        "Holder": "2",
+        "Target": "说话人 3",
+        "Aspect": "自我评价",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "对说话人 3 的自我评价持怀疑态度，认为其过于自信"
+    },
+    {
+        "sentence": "爸，你过来，你过来。",
+        "Holder": "5",
+        "Target": "父亲",
+        "Aspect": "父亲的注意",
+        "Opinion": "需要父亲过来",
+        "Sentiment": "neutral",
+        "Rationale": "需要父亲过来讨论事情"
+    },
+    {
+        "sentence": "哎，您说我和我妈到了美国以后，我是先好好上几天学好呢，还是先打入好莱坞好？你说我要是打入了好莱坞，我是先和成龙合作呢，还是先和施瓦辛格合作呢？",
+        "Holder": "3",
+        "Target": "自己的未来规划",
+        "Aspect": "职业选择的困惑",
+        "Opinion": "犹豫不决",
+        "Sentiment": "ambiguous",
+        "Rationale": "对未来职业选择感到迷茫"
+    },
+    {
+        "sentence": "施瓦辛格当州长了，没法拍了。那看来我也就凑合和斯皮尔伯格拍了，我要是不跟个什么格合作，我心里还真有点别扭。爸，你知道吗？",
+        "Holder": "3",
+        "Target": "合作对象的选择",
+        "Aspect": "合作对象的合适性",
+        "Opinion": "希望与知名人士合作",
+        "Sentiment": "negative",
+        "Rationale": "无法与理想中的施瓦辛格合作"
+    },
+    {
+        "sentence": "别说，没准你还真能和斯皮尔伯格合作啊。",
+        "Holder": "4",
+        "Target": "3的未来合作可能性",
+        "Aspect": "合作前景的乐观",
+        "Opinion": "认为有可能",
+        "Sentiment": "positive",
+        "Rationale": "对3的能力和机遇持乐观态度"
+    },
+    {
+        "sentence": "看出来了吗？小雪都看出来了",
+        "Holder": "3",
+        "Target": "小雪的看法",
+        "Aspect": "对小雪洞察力的认可",
+        "Opinion": "认同小雪的看法",
+        "Sentiment": "positive",
+        "Rationale": "小雪的认可让自己感到高兴"
+    },
+    {
+        "sentence": "你就去演侏罗纪公园 3 里边那个最小的霸王龙。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "角色扮演",
+        "Opinion": "适合演最小的霸王龙",
+        "Sentiment": "ambiguous",
+        "Rationale": "4建议2去演一个特定的角色，但没有明确表达正面或负面的情感"
+    },
+    {
+        "sentence": "你也就只能演动物",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "角色扮演能力",
+        "Opinion": "只能演动物",
+        "Sentiment": "negative",
+        "Rationale": "2认为4的能力有限，只能演动物"
+    },
+    {
+        "sentence": "谁呀，哦兰兰",
+        "Holder": "2",
+        "Target": "兰兰",
+        "Aspect": "身份确认",
+        "Opinion": "认出是兰兰",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认来人的身份，没有明显的情感倾向"
+    },
+    {
+        "sentence": "兰兰来了。",
+        "Holder": "2",
+        "Target": "兰兰",
+        "Aspect": "到来",
+        "Opinion": "兰兰到达",
+        "Sentiment": "neutral",
+        "Rationale": "2只是陈述一个事实，没有表达明显的情感"
+    },
+    {
+        "sentence": "梅姐，哎呦，这大包小包可累死我了。什么呀这是小哥帮忙把这花插上啊。",
+        "Holder": "6",
+        "Target": "梅姐和小哥",
+        "Aspect": "帮忙请求",
+        "Opinion": "需要帮忙插花",
+        "Sentiment": "negative",
+        "Rationale": "6感到携带大包小包非常累"
+    },
+    {
+        "sentence": "什么东西？",
+        "Holder": "1",
+        "Target": "物品",
+        "Aspect": "物品的识别",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "1对6递过来的物品不认识"
+    },
+    {
+        "sentence": "这都是，这个是 15 床，让我亲手交给你的啊。",
+        "Holder": "6",
+        "Target": "物品",
+        "Aspect": "物品的来源",
+        "Opinion": "来自15床",
+        "Sentiment": "neutral",
+        "Rationale": "6只是陈述物品的来源和交付的要求"
+    },
+    {
+        "sentence": "15 床是谁啊？",
+        "Holder": "2",
+        "Target": "15床",
+        "Aspect": "身份的识别",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "2对15床的身份不了解"
+    },
+    {
+        "sentence": "李先生。",
+        "Holder": "6",
+        "Target": "15床",
+        "Aspect": "身份的说明",
+        "Opinion": "是李先生",
+        "Sentiment": "neutral",
+        "Rationale": "6只是简单地说明15床的身份"
+    },
+    {
+        "sentence": "呵，他怎么不送玫瑰啊？",
+        "Holder": "2",
+        "Target": "李先生",
+        "Aspect": "礼物的选择",
+        "Opinion": "应该送玫瑰",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对李先生送的礼物不是玫瑰表示疑问，带有轻微的不满和调侃"
+    },
+    {
+        "sentence": "他说明天送。",
+        "Holder": "6",
+        "Target": "送东西的时间",
+        "Aspect": "时间安排",
+        "Opinion": "明天送",
+        "Sentiment": "neutral",
+        "Rationale": "只是转述了他人的安排"
+    },
+    {
+        "sentence": "梅姐，我告诉你这里头有什么服装了，化妆品了、保健品了，还有一条铂金项链。",
+        "Holder": "6",
+        "Target": "礼物内容",
+        "Aspect": "礼物的种类",
+        "Opinion": "包含多种物品",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地描述礼物内容"
+    },
+    {
+        "sentence": "兰兰，这可不行，你必须给他再拿回去，你跟他说我照顾他是理应当的，这是我的工作，我拿这份工资我可不能要他东西。",
+        "Holder": "1",
+        "Target": "接受礼物",
+        "Aspect": "礼物的合理性",
+        "Opinion": "不能接受",
+        "Sentiment": "negative",
+        "Rationale": "认为接受礼物不符合职业道德"
+    },
+    {
+        "sentence": "人李先生千叮咛万嘱咐，说了这些东西要亲手的交到你手上，我交到你这，我任务完成了，我走了，再见。",
+        "Holder": "6",
+        "Target": "交付礼物的任务",
+        "Aspect": "任务的完成",
+        "Opinion": "任务已完成",
+        "Sentiment": "neutral",
+        "Rationale": "完成了交付礼物的任务"
+    },
+    {
+        "sentence": "哎哎，不是不是",
+        "Holder": "1",
+        "Target": "6的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "不认同6将礼物交给自己的行为"
+    },
+    {
+        "sentence": "行了行了行了，哎，明天你亲手还给人家不得了吗啊？当然了，你要不想还我也没什么意见。对，这花挺香的，真的。",
+        "Holder": "2",
+        "Target": "还花",
+        "Aspect": "还花的必要性",
+        "Opinion": "可以不还",
+        "Sentiment": "neutral",
+        "Rationale": "觉得还花与否都可以接受"
+    },
+    {
+        "sentence": "哎，你什么意思？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语意图",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不明白2的真实意图"
+    },
+    {
+        "sentence": "原来妈去美国就是照顾这个李先生。",
+        "Holder": "3",
+        "Target": "妈去美国的原因",
+        "Aspect": "原因",
+        "Opinion": "照顾李先生",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "你们不知道，这个李先生是一个上了年纪的有病的，被妈妈的医院给照顾好了的，尤其是妈妈亲自给照顾好了的一个华侨男人。",
+        "Holder": "2",
+        "Target": "李先生",
+        "Aspect": "李先生的背景",
+        "Opinion": "需要照顾",
+        "Sentiment": "neutral",
+        "Rationale": "只是解释李先生的情况"
+    },
+    {
+        "sentence": "干嘛还让您去美国给当佣人呀？这还没完没了。",
+        "Holder": "4",
+        "Target": "妈去美国照顾李先生",
+        "Aspect": "照顾的性质",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "觉得妈去美国照顾李先生像当佣人一样"
+    },
+    {
+        "sentence": "小雪，你怎么说话呢？你什么叫佣人呢？",
+        "Holder": "1",
+        "Target": "小雪的称呼",
+        "Aspect": "称呼的恰当性",
+        "Opinion": "不恰当",
+        "Sentiment": "negative",
+        "Rationale": "小雪使用了不恰当的称呼‘佣人’"
+    },
+    {
+        "sentence": "怎么说那么难听啊？",
+        "Holder": "1",
+        "Target": "小雪的言辞",
+        "Aspect": "言辞的难听程度",
+        "Opinion": "难听",
+        "Sentiment": "negative",
+        "Rationale": "小雪的言辞让人感到不舒服"
+    },
+    {
+        "sentence": "我是有身份的，知道吗？我是单位派去的，我的身份是家庭特别护理啊。",
+        "Holder": "1",
+        "Target": "自己的身份",
+        "Aspect": "身份的正当性",
+        "Opinion": "有身份",
+        "Sentiment": "positive",
+        "Rationale": "强调自己的正式身份和职责"
+    },
+    {
+        "sentence": "是够特别的，是不是只有戴上这个才能够护理呀？",
+        "Holder": "4",
+        "Target": "1的身份",
+        "Aspect": "身份的特别性",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "对1强调的身份感到不满"
+    },
+    {
+        "sentence": "真是的妈，这送女朋友才送项链呢。",
+        "Holder": "5",
+        "Target": "项链的赠送对象",
+        "Aspect": "赠送对象的适宜性",
+        "Opinion": "不适宜",
+        "Sentiment": "negative",
+        "Rationale": "认为项链应该送给女朋友而不是其他人"
+    },
+    {
+        "sentence": "我们这个人也是觉得前一段时间妈妈照顾得无微不至，早出晚归的，又那么温柔体贴，为了表示感谢，所以买个礼物来送给你妈，当然这礼物是有点贵重的点。",
+        "Holder": "2",
+        "Target": "妈妈",
+        "Aspect": "照顾和体贴",
+        "Opinion": "无微不至、温柔体贴",
+        "Sentiment": "positive",
+        "Rationale": "妈妈在前一段时间照顾得非常好，表现出极大的关心和体贴"
+    },
+    {
+        "sentence": "你什么意思？夏东海，你这话里话外的，往哪拐啊？你嫌孩子们还想的不够歪是不是？我明天还给他不完了吗？老说你哎",
+        "Holder": "1",
+        "Target": "2的话语",
+        "Aspect": "话语意图",
+        "Opinion": "话里有话、误导孩子",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的话里有隐含的意思，并且可能误导孩子们"
+    },
+    {
+        "sentence": "爸，帮我拧开",
+        "Holder": "3",
+        "Target": "瓶子",
+        "Aspect": "开瓶",
+        "Opinion": "需要帮助",
+        "Sentiment": "neutral",
+        "Rationale": "自己无法拧开瓶子"
+    },
+    {
+        "sentence": "这是你的吗你就拧。这可是李先生送给妈喝的。",
+        "Holder": "4",
+        "Target": "3的行为",
+        "Aspect": "物品归属",
+        "Opinion": "不应该随意拧开",
+        "Sentiment": "negative",
+        "Rationale": "3要拧开的是别人送给妈妈的礼物，觉得3不应该随意动用"
+    },
+    {
+        "sentence": "呦，瞧给妈气的，人家也有钱是吧？哈哈哈，送点东西算什么呀，再说了，是您照顾的好，人才送你东西，不过我觉得他应该送您辆汽车",
+        "Holder": "3",
+        "Target": "礼物",
+        "Aspect": "礼物的价值",
+        "Opinion": "礼物不够贵重",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得送的礼物虽然贵重但还不够表达感激之情"
+    },
+    {
+        "sentence": "别贫行不行？",
+        "Holder": "1",
+        "Target": "3的说话方式",
+        "Aspect": "说话的幽默感",
+        "Opinion": "认为3在贫嘴",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3的说话方式过于幽默且不严肃"
+    },
+    {
+        "sentence": "妈，您去美国干什么去啊？您不是旅游去啦？不是玩去啦，您是当白求恩救死扶伤去了，您说是不是",
+        "Holder": "3",
+        "Target": "1的美国之行",
+        "Aspect": "旅行的目的",
+        "Opinion": "认为1去美国是为了工作而非旅游",
+        "Sentiment": "positive",
+        "Rationale": "3用幽默的方式夸赞1去美国是为了做有意义的工作"
+    }
+]

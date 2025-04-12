@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "地铁情感忽视事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "目睹情侣亲密互动后因2专注手机感到被忽视；下车时被甩开；生病未获关心反被甩脸",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "主动建议改变环境；提出直接沟通解决方案",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "沟通模式冲突事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指责缺乏默契；认为2的期望造成情感压力；因被称流子进行言语反击",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "提议用认错结束争吵；认可给台阶的缓和方式",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感需求未满足事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因身体距离产生孤独感；认为1应主动察觉情绪；对认错诚意存疑",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "通过询问用餐释放和解信号",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "争吵处理方式分歧事件",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为1态度像流子；质疑1争吵时双标行为",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "主动创造台阶缓和关系",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "sentence": "我想问一下 28 楼 7 号楼上住的是哪个灾贼，一早上清晨的在 屋里蹦迪。",
+        "Holder": "1",
+        "Target": "28楼7号住户",
+        "Aspect": "早晨活动",
+        "Opinion": "扰民",
+        "Sentiment": "negative",
+        "Rationale": "早晨在屋里蹦迪影响了别人的休息"
+    },
+    {
+        "sentence": "小声点不行吗，瞌睡都没睡完啊。",
+        "Holder": "1",
+        "Target": "28楼7号住户",
+        "Aspect": "音量控制",
+        "Opinion": "要求减小音量",
+        "Sentiment": "negative",
+        "Rationale": "被吵得无法继续睡觉"
+    },
+    {
+        "sentence": "你动不动就要骂人，谁10 点多 11 点钟还得睡觉",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "沟通方式",
+        "Opinion": "批评骂人",
+        "Sentiment": "negative",
+        "Rationale": "1经常骂人且认为10点多11点钟不需要睡觉"
+    },
+    {
+        "sentence": "你如果说有的动静有的响声，我们大家来说一下都行。你动不动就骂人",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "沟通方式",
+        "Opinion": "建议平和沟通",
+        "Sentiment": "negative",
+        "Rationale": "1总是骂人而不是平和沟通"
+    },
+    {
+        "sentence": "你算个啥子，白天睡懒瞌睡不行啊。就允许你 11 点钟不能睡觉在那吵？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "作息时间和权利",
+        "Opinion": "反驳2的观点",
+        "Sentiment": "negative",
+        "Rationale": "2质疑自己白天睡觉的权利，并且认为11点钟不能睡觉是合理的"
+    },
+    {
+        "sentence": "你跟日本人一样，你要把舌头捏直了再来说，要想沟通我们就大家好好沟通，不沟通就走物业。你算啥？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "沟通方式",
+        "Opinion": "要求对方好好沟通",
+        "Sentiment": "negative",
+        "Rationale": "对方沟通方式不当"
+    },
+    {
+        "sentence": "我舌头咋了，我有抑郁症，你说话别冲",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "说话方式",
+        "Opinion": "要求对方不要冲",
+        "Sentiment": "negative",
+        "Rationale": "2的说话方式让1感到不适"
+    },
+    {
+        "sentence": "有本事下来单挑，不要给我叫",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "解决方式",
+        "Opinion": "要求对方单挑",
+        "Sentiment": "negative",
+        "Rationale": "1感到被冒犯"
+    },
+    {
+        "sentence": "你晓得个锤子啊",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "了解情况",
+        "Opinion": "对方不了解情况",
+        "Sentiment": "negative",
+        "Rationale": "3认为1不了解情况"
+    },
+    {
+        "sentence": "你晓得个锤子啊",
+        "Holder": "3",
+        "Target": "对方的认知",
+        "Aspect": "对方的知识水平",
+        "Opinion": "对方无知",
+        "Sentiment": "negative",
+        "Rationale": "对方被认为对某事一无所知"
+    }
+]

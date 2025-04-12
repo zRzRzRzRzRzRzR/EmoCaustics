@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "体检前的饮食冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "关心2的饮食状况", "source_id": "2"},
+          {"state": "negative", "reason": "因2拒绝进食产生焦虑", "source_id": "2"},
+          {"state": "negative", "reason": "被指责饭量管理不当", "source_id": "2"},
+          {"state": "positive", "reason": "强调自我饮食管理能力", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "饮食习惯互相指责",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑饮食真实性", "source_id": "2"},
+          {"state": "neutral", "reason": "解释饮食习惯差异", "source_id": "2"},
+          {"state": "positive", "reason": "提出直播吃饭解决方案", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "身材评价争议",
+        "emotions": [
+          {"state": "negative", "reason": "被贬低为瘦猴", "source_id": "2"},
+          {"state": "positive", "reason": "反驳身材健康论", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "饮食限制引发的矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "说明体检饮食规定", "source_id": "1"},
+          {"state": "negative", "reason": "身体不适拒绝进食", "source_id": "1"},
+          {"state": "negative", "reason": "被强迫过量进食", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "饮食责任归属争论",
+        "emotions": [
+          {"state": "negative", "reason": "指责1长期不吃饭", "source_id": "1"},
+          {"state": "negative", "reason": "被反指控饮食不规律", "source_id": "1"},
+          {"state": "positive", "reason": "主张自身饮食合理性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "监控设备提议",
+        "emotions": [
+          {"state": "neutral", "reason": "建议安装摄像头取证", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝即时直播吃饭", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

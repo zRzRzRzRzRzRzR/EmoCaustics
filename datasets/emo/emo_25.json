@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "父权结构下的凝视标准",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "凝视标准导致对女性的单一评价; 熊猫堂成员因身材受负面评价; 小腿神经阻断术反映极端凝视危害",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "凝视作为社会权力关系的客观存在",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "性别评价体系差异",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "男性掌握资源而女性受限于生理性评价",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "习惯凝视的合理性辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "要求受害者习惯错误行为本质是压迫",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "女性在凝视下的生存困境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "独居女性安全防护措施反映系统性不安; 男性将凝视视为玩笑的认知差异",
+            "source_id": "1,3"
+          }
+        ]
+      },
+      {
+        "event": "性别平权实现路径",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "彩礼争议显示同态复仇的无效性",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "通过文艺作品重塑个体价值认知",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "黄某指使剖腹赌约",
+        "emotions": [
+          {"state": "negative", "reason": "当众以剖腹自证清白", "source_id": "3"},
+          {"state": "positive", "reason": "认可介错工具知识", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "剿匪合作谈判",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑县长剿匪能力", "source_id": "3"},
+          {"state": "positive", "reason": "展示碉楼防御体系", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "张麻子的威胁与能力质疑",
+        "emotions": [
+          {"state": "positive", "reason": "回忆与张麻子交锋经历", "source_id": "3"},
+          {"state": "negative", "reason": "黛玉晴雯死亡事件", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "剿匪利益分配争议",
+        "emotions": [
+          {"state": "negative", "reason": "反对三七分账方案", "source_id": "5"},
+          {"state": "neutral", "reason": "接受对半分成妥协", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "张麻子能力质疑",
+        "emotions": [
+          {"state": "doubt", "reason": "询问劫货与入侵能力差异", "source_id": "1"},
+          {"state": "positive", "reason": "展示潜入碉楼能力", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "黛玉晴雯命名争议",
+        "emotions": [
+          {"state": "negative", "reason": "被指命名逻辑错误", "source_id": "1"},
+          {"state": "neutral", "reason": "称赞黄老爷硬实力", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "剿匪资金运作方案",
+        "emotions": [
+          {"state": "negative", "reason": "提出借剿匪敛财遭质疑", "source_id": "3"},
+          {"state": "neutral", "reason": "调整分成比例方案", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "黛玉晴雯事件处理",
+        "emotions": [
+          {"state": "negative", "reason": "误称东洋名致角色死亡", "source_id": "1"},
+          {"state": "positive", "reason": "获赞装糊涂能力", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

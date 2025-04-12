@@ -1,0 +1,214 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程控制",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "按规则推进质询和发言环节",
+            "source_id": "3,4,5,6,7,8"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "成魔理论构建",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "阐述人性本源的动物性特征",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "论证贪嗔痴推动文明发展",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "承认互相贪导致博弈痛苦",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "佛魔路线之争",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析生物学角度的成魔合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调动态博弈的历史作用",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "质询框架建立",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "确认双方辩论共识基础",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑贪念作用的普遍性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "指出互相贪导致共同痛苦",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "成佛理论阐释",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "定义魔的本质是偏执",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "分析慕容复等入魔案例",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "提出臣服理念解除痛苦",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "佛学概念澄清",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释色空非绝对虚无",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "说明佛教空性的积极意义",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "成佛实践性质疑",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "要求明确成佛具体标准",
+            "source_id": "4"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑偏执救人的魔性判定",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "魔道优势论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "列举医学发展实证案例",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "批评佛理限制科技进步",
+            "source_id": "4"
+          }
+        ]
+      },
+      {
+        "event": "辩论策略实施",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指摘对方言行矛盾",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "佛理实践辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对无限制医学实验",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "阐释因缘观的非强迫性",
+            "source_id": "6"
+          }
+        ]
+      },
+      {
+        "event": "辩论立场坚守",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "保持佛学辩论风度",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "伦理界限探讨",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑佛理限制医疗发展",
+            "source_id": "7"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "追问神龙尝草行为本质",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  }
+}

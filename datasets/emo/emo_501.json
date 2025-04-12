@@ -1,0 +1,45 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "成才标准定义",
+        "emotions": [
+          {"state": "neutral", "reason": "提出两套评价体系", "source_id": "1"},
+          {"state": "positive", "reason": "引用母亲道德成才观", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "机遇与能力辩证关系",
+        "emotions": [
+          {"state": "positive", "reason": "强调实事带来的时代机遇", "source_id": "2"},
+          {"state": "neutral", "reason": "分析境遇构成要素", "source_id": "2"},
+          {"state": "positive", "reason": "回忆启蒙导师提供的眼界", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "能力本位价值主张",
+        "emotions": [
+          {"state": "positive", "reason": "反驳地域偏见强调自身能力/举例说明道德标准", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "机遇认知突破",
+        "emotions": [
+          {"state": "positive", "reason": "承认香港机会的双重因素/揭示眼界本质依赖", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

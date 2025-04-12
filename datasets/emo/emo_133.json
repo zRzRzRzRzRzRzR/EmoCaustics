@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "语气词系统性研究突破",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出三个系统框架并解释音节/句法/语调特征",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "获得105种语气结构分类并验证功能变异解释方法",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "学术观点传承与发展",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用赵元任等学者理论支撑研究框架",
+            "source_id": "1,3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "修正树体调命名争议保持客观立场",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "韵律块功能验证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "发现音声化对描摹/增情短语的语义破坏",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "证实r韵律块在口语化表达中的打包传递优势",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "方法论创新展示",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "通过多维对比法提升语气词意义解析精度",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认例句分类存在个人语感局限",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

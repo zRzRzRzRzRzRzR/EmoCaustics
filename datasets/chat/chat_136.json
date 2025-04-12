@@ -1,0 +1,659 @@
+[
+    {
+        "sentence": "回来啦。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的问候，没有表达特别的情感"
+    },
+    {
+        "sentence": "呦，回来了。小雪呢？",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问小雪的位置，没有表达特别的情感"
+    },
+    {
+        "sentence": "小雪，来，快点。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "行动速度",
+        "Opinion": "催促",
+        "Sentiment": "neutral",
+        "Rationale": "只是催促小雪快点，没有表达特别的情感"
+    },
+    {
+        "sentence": "你们好。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "问候",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单的问候，没有表达特别的情感"
+    },
+    {
+        "sentence": "欢迎欢迎，热烈欢迎。",
+        "Holder": "4",
+        "Target": "小雪",
+        "Aspect": "欢迎态度",
+        "Opinion": "热情欢迎",
+        "Sentiment": "positive",
+        "Rationale": "对新成员的到来表示热烈的欢迎"
+    },
+    {
+        "sentence": "哎，小雪，这个是你的房间，来，你进来看看。",
+        "Holder": "2",
+        "Target": "小雪的房间",
+        "Aspect": "房间归属",
+        "Opinion": "介绍房间",
+        "Sentiment": "neutral",
+        "Rationale": "向小雪介绍她的房间"
+    },
+    {
+        "sentence": "哦哦，先该吃饭了。",
+        "Holder": "2",
+        "Target": "吃饭时间",
+        "Aspect": "时间安排",
+        "Opinion": "提醒吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "来来来，洗手吧，这是洗手间，你在这儿洗。",
+        "Holder": "2",
+        "Target": "洗手间",
+        "Aspect": "洗手安排",
+        "Opinion": "引导洗手",
+        "Sentiment": "neutral",
+        "Rationale": "引导小雪去洗手"
+    },
+    {
+        "sentence": "让他们先去吧。",
+        "Holder": "3",
+        "Target": "让他们先走",
+        "Aspect": "行动顺序",
+        "Opinion": "同意他们先走",
+        "Sentiment": "neutral",
+        "Rationale": "3认为让他们先走是合理的安排"
+    },
+    {
+        "sentence": "瞧瞧，瞧瞧人姐姐多懂事儿啊。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "懂事程度",
+        "Opinion": "认为3很懂事",
+        "Sentiment": "positive",
+        "Rationale": "2觉得3让他们先走的行为很懂事"
+    },
+    {
+        "sentence": "我习惯用这个，消毒湿纸巾。",
+        "Holder": "3",
+        "Target": "消毒湿纸巾",
+        "Aspect": "使用习惯",
+        "Opinion": "习惯使用消毒湿纸巾",
+        "Sentiment": "neutral",
+        "Rationale": "3习惯使用消毒湿纸巾"
+    },
+    {
+        "sentence": "那你就洗手去吧。洗手去！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "卫生习惯",
+        "Opinion": "要求3去洗手",
+        "Sentiment": "neutral",
+        "Rationale": "2认为洗手更卫生"
+    },
+    {
+        "sentence": "那我帮你把行李拿房间？",
+        "Holder": "2",
+        "Target": "1的行李",
+        "Aspect": "行李搬运",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "positive",
+        "Rationale": "想要帮助1搬运行李"
+    },
+    {
+        "sentence": "好，我来我来，没事。",
+        "Holder": "1",
+        "Target": "行李搬运",
+        "Aspect": "自己处理行李的能力",
+        "Opinion": "自己可以处理",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己可以处理行李"
+    },
+    {
+        "sentence": "来来来，咱俩一块。",
+        "Holder": "2",
+        "Target": "行李搬运",
+        "Aspect": "合作搬运",
+        "Opinion": "建议一起",
+        "Sentiment": "positive",
+        "Rationale": "希望和1一起合作搬运行李"
+    },
+    {
+        "sentence": "小雨，你告诉我，你在这个家好吗？",
+        "Holder": "3",
+        "Target": "5的生活状况",
+        "Aspect": "在家中的感受",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "关心5在家中的生活状况"
+    },
+    {
+        "sentence": "还行吧。",
+        "Holder": "5",
+        "Target": "自己的生活状况",
+        "Aspect": "在家中的感受",
+        "Opinion": "一般",
+        "Sentiment": "neutral",
+        "Rationale": "对在家中的生活感受没有特别强烈的好或坏"
+    },
+    {
+        "sentence": "咱爸娶了后妈以后，你过得好吗？",
+        "Holder": "3",
+        "Target": "5的生活状况",
+        "Aspect": "生活满意度",
+        "Opinion": "关心5的生活",
+        "Sentiment": "neutral",
+        "Rationale": "3关心5在家庭变化后的生活状况"
+    },
+    {
+        "sentence": "嗯，还行。",
+        "Holder": "5",
+        "Target": "自己的生活状况",
+        "Aspect": "生活满意度",
+        "Opinion": "生活尚可",
+        "Sentiment": "neutral",
+        "Rationale": "5认为自己的生活还算过得去"
+    },
+    {
+        "sentence": "你告诉姐姐，咱们姓夏的孩子在这个家里受尊重吗？有人身自由吗？",
+        "Holder": "3",
+        "Target": "姓夏的孩子",
+        "Aspect": "受尊重和人身自由",
+        "Opinion": "质疑受尊重和自由",
+        "Sentiment": "negative",
+        "Rationale": "3担心姓夏的孩子在家里不被尊重和缺乏自由"
+    },
+    {
+        "sentence": "自由嘛，反正晚上不洗脚，绝对绝对不能上床的。",
+        "Holder": "5",
+        "Target": "家庭规则",
+        "Aspect": "生活自由度",
+        "Opinion": "自由受限",
+        "Sentiment": "negative",
+        "Rationale": "5提到家庭中有严格的规则限制自由"
+    },
+    {
+        "sentence": "对了，还有那个叫刘星的孩子，他欺负过你吗？",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "是否欺负5",
+        "Opinion": "怀疑刘星欺负5",
+        "Sentiment": "negative",
+        "Rationale": "3担心刘星会对5不好"
+    },
+    {
+        "sentence": "乖乖女？你放心，我是不会欺负你的，这一点我可以向你保证。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "对待方式",
+        "Opinion": "不会欺负",
+        "Sentiment": "positive",
+        "Rationale": "4想要安慰3，让她放心"
+    },
+    {
+        "sentence": "原来我在这个家的定位就是不受别人欺负呀？那这个生存起点也太低了吧？",
+        "Holder": "3",
+        "Target": "自己在家的定位",
+        "Aspect": "生存起点",
+        "Opinion": "起点低",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己在家中的定位仅仅是避免被欺负，感到不被重视"
+    },
+    {
+        "sentence": "我的猴孩子们开饭啦，猴孩子爸爸饿了。",
+        "Holder": "1",
+        "Target": "孩子们",
+        "Aspect": "吃饭时间",
+        "Opinion": "该吃饭了",
+        "Sentiment": "neutral",
+        "Rationale": "1在通知大家吃饭时间到了"
+    },
+    {
+        "sentence": "开饭啦开饭啦。怎么还站这儿呢？",
+        "Holder": "2",
+        "Target": "大家",
+        "Aspect": "吃饭准备",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "2在催促大家赶紧吃饭"
+    },
+    {
+        "sentence": "来来来，小雪，你坐这儿。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "座位安排",
+        "Opinion": "安排座位",
+        "Sentiment": "positive",
+        "Rationale": "2在友好地安排小雪的座位"
+    },
+    {
+        "sentence": "我就在你旁边。",
+        "Holder": "4",
+        "Target": "位置",
+        "Aspect": "相对位置",
+        "Opinion": "在旁边",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的位置，没有表达出特别的情感"
+    },
+    {
+        "sentence": "去，起来！",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "行为",
+        "Opinion": "要求移动",
+        "Sentiment": "negative",
+        "Rationale": "直接命令对方移动，语气强硬"
+    },
+    {
+        "sentence": "小雨坐这儿。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "位置安排",
+        "Opinion": "指定位置",
+        "Sentiment": "neutral",
+        "Rationale": "只是安排小雨的位置，没有表达出特别的情感"
+    },
+    {
+        "sentence": "你坐那。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "位置安排",
+        "Opinion": "指定位置",
+        "Sentiment": "neutral",
+        "Rationale": "只是指示对方的位置，没有表达出特别的情感"
+    },
+    {
+        "sentence": "我坐这儿。",
+        "Holder": "2",
+        "Target": "自己位置",
+        "Aspect": "位置选择",
+        "Opinion": "选择位置",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的位置选择，没有表达出特别的情感"
+    },
+    {
+        "sentence": "来妈妈坐。",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "座位安排",
+        "Opinion": "邀请妈妈坐下",
+        "Sentiment": "neutral",
+        "Rationale": "这是普通的邀请动作"
+    },
+    {
+        "sentence": "来来来，小雪，看，大虾，多吃点啊。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "饮食建议",
+        "Opinion": "鼓励多吃",
+        "Sentiment": "positive",
+        "Rationale": "希望小雪多吃点"
+    },
+    {
+        "sentence": "但正确的健康观念是让人少吃点。",
+        "Holder": "3",
+        "Target": "健康观念",
+        "Aspect": "饮食建议",
+        "Opinion": "支持少吃",
+        "Sentiment": "neutral",
+        "Rationale": "提到正确的健康观念"
+    },
+    {
+        "sentence": "哎？你这不是今天第一天来吗？这可是妈妈为迎接你专门做的。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "接待准备",
+        "Opinion": "特别准备",
+        "Sentiment": "positive",
+        "Rationale": "特别为对方准备了大餐"
+    },
+    {
+        "sentence": "是刘星的妈妈。",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "身份确认",
+        "Opinion": "澄清身份",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清妈妈的身份"
+    },
+    {
+        "sentence": "呃，来，尝尝我做的茄子。",
+        "Holder": "2",
+        "Target": "自己做的茄子",
+        "Aspect": "食物的邀请",
+        "Opinion": "希望别人尝试",
+        "Sentiment": "positive",
+        "Rationale": "2希望分享自己做的食物"
+    },
+    {
+        "sentence": "我不习惯在别人的帮助下吃饭。",
+        "Holder": "3",
+        "Target": "在别人帮助下吃饭",
+        "Aspect": "饮食习惯",
+        "Opinion": "不习惯",
+        "Sentiment": "neutral",
+        "Rationale": "3有自己的饮食习惯"
+    },
+    {
+        "sentence": "我习惯，来来来，梅梅给我，我太爱吃你做的茄子。",
+        "Holder": "1",
+        "Target": "2做的茄子",
+        "Aspect": "食物的喜爱",
+        "Opinion": "非常爱吃",
+        "Sentiment": "positive",
+        "Rationale": "1非常喜欢2做的茄子"
+    },
+    {
+        "sentence": "呃小雪有很多习惯，以后咱们大家都互相慢慢习惯。",
+        "Holder": "2",
+        "Target": "小雪的习惯",
+        "Aspect": "习惯的适应性",
+        "Opinion": "需要互相适应",
+        "Sentiment": "neutral",
+        "Rationale": "2意识到每个人都有自己的习惯"
+    },
+    {
+        "sentence": "那恐怕得你们习惯我了，反正我是不会习惯别人的。",
+        "Holder": "3",
+        "Target": "他人习惯",
+        "Aspect": "习惯的适应性",
+        "Opinion": "坚持自我",
+        "Sentiment": "neutral",
+        "Rationale": "3认为自己不需要去适应别人"
+    },
+    {
+        "sentence": "咳，吃菜吃菜。",
+        "Holder": "1",
+        "Target": "餐桌礼仪",
+        "Aspect": "饮食行为",
+        "Opinion": "鼓励进食",
+        "Sentiment": "neutral",
+        "Rationale": "1在饭桌上提醒大家吃饭"
+    },
+    {
+        "sentence": "小雨快吃啊。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "饮食行为",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1关心小雨的饮食"
+    },
+    {
+        "sentence": "那个八条腿儿横着走那个熟了没？",
+        "Holder": "5",
+        "Target": "螃蟹",
+        "Aspect": "烹饪状态",
+        "Opinion": "询问是否熟了",
+        "Sentiment": "neutral",
+        "Rationale": "5在询问螃蟹的烹饪状态"
+    },
+    {
+        "sentence": "螃蟹呀？一会儿就熟，再等一会儿。",
+        "Holder": "2",
+        "Target": "螃蟹",
+        "Aspect": "烹饪时间",
+        "Opinion": "还需要等待",
+        "Sentiment": "neutral",
+        "Rationale": "2在告知螃蟹还需要一段时间才能熟"
+    },
+    {
+        "sentence": "对，妈妈一早去买的，都是活的。",
+        "Holder": "1",
+        "Target": "螃蟹",
+        "Aspect": "新鲜度",
+        "Opinion": "螃蟹是新鲜的",
+        "Sentiment": "positive",
+        "Rationale": "1强调螃蟹是妈妈一早买的且都是活的"
+    },
+    {
+        "sentence": "哪儿产的呀？能确定没被污染过吗？螃蟹壳上有没有防伪标志啊？",
+        "Holder": "3",
+        "Target": "螃蟹",
+        "Aspect": "产地和安全性",
+        "Opinion": "对螃蟹的产地和安全性有疑问",
+        "Sentiment": "doubt",
+        "Rationale": "3对螃蟹的产地和是否被污染有疑问"
+    },
+    {
+        "sentence": "我，我一直以为只有正宗的那种大闸蟹，壳上才有标志呢。",
+        "Holder": "2",
+        "Target": "螃蟹的防伪标志",
+        "Aspect": "防伪标志的存在",
+        "Opinion": "认为只有正宗大闸蟹才有标志",
+        "Sentiment": "neutral",
+        "Rationale": "2在表达自己对螃蟹防伪标志的认知"
+    },
+    {
+        "sentence": "我也这样认为的。",
+        "Holder": "1",
+        "Target": "某个观点",
+        "Aspect": "观点的一致性",
+        "Opinion": "同意",
+        "Sentiment": "neutral",
+        "Rationale": "1表示同意某个观点"
+    },
+    {
+        "sentence": "当然，因为你已经没有主见了。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "主见",
+        "Opinion": "缺乏主见",
+        "Sentiment": "negative",
+        "Rationale": "3认为1没有主见"
+    },
+    {
+        "sentence": "哎？我建议为咱们家第一次团圆饭干一杯？",
+        "Holder": "1",
+        "Target": "团圆饭",
+        "Aspect": "庆祝方式",
+        "Opinion": "提议干杯",
+        "Sentiment": "positive",
+        "Rationale": "1提出了一个积极的庆祝建议"
+    },
+    {
+        "sentence": "哎哎哎，我还有个建议，干脆咱们让小雪说几句祝酒词？",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "祝酒词",
+        "Opinion": "建议小雪说祝酒词",
+        "Sentiment": "positive",
+        "Rationale": "提出了一个积极的建议，希望小雪参与"
+    },
+    {
+        "sentence": "可以呀。小雪？",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "祝酒词",
+        "Opinion": "同意小雪说祝酒词",
+        "Sentiment": "positive",
+        "Rationale": "同意了2的建议，表现出支持和积极的态度"
+    },
+    {
+        "sentence": "那我就说了，但不是一般的祝酒词。",
+        "Holder": "3",
+        "Target": "祝酒词",
+        "Aspect": "祝酒词的内容",
+        "Opinion": "特别的祝酒词",
+        "Sentiment": "positive",
+        "Rationale": "小雪表示要说出特别的祝酒词，表现出自信和积极的态度"
+    },
+    {
+        "sentence": "肯定不一般。",
+        "Holder": "2",
+        "Target": "小雪的祝酒词",
+        "Aspect": "祝酒词的内容",
+        "Opinion": "期待特别的祝酒词",
+        "Sentiment": "positive",
+        "Rationale": "对小雪的祝酒词有期待，认为会与众不同"
+    },
+    {
+        "sentence": "哎哎哎，就知道在那儿吃，你看看人小雪，人家作文特别棒，北京市的作文比赛都得过特等奖。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "作文能力",
+        "Opinion": "作文特别棒",
+        "Sentiment": "positive",
+        "Rationale": "小雪在作文比赛中获得特等奖"
+    },
+    {
+        "sentence": "第一，今后在这个家里，我的独立人格必须得到尊重。我有权在衣食住行各方面保持自己的个性，不容置疑。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "独立人格和个性",
+        "Opinion": "必须得到尊重",
+        "Sentiment": "neutral",
+        "Rationale": "3希望在家中保持自己的独立人格和个性"
+    },
+    {
+        "sentence": "第二，不许随便动我的东西，进我的房间，必须先敲门，我不说请进就不能进来。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "个人空间和隐私",
+        "Opinion": "必须得到保护",
+        "Sentiment": "neutral",
+        "Rationale": "3希望保护自己的个人空间和隐私"
+    },
+    {
+        "sentence": "妈，这就是您说的乖乖女呀？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "行为表现",
+        "Opinion": "不符合乖乖女的形象",
+        "Sentiment": "negative",
+        "Rationale": "3提出的要求与乖乖女的形象不符"
+    },
+    {
+        "sentence": "第三，我有权决定自己干什么，不干什么，有权不回答问题。在我保持沉默的时候，请勿打扰。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "自主决定权",
+        "Opinion": "有权自主决定",
+        "Sentiment": "neutral",
+        "Rationale": "3希望保持自己的自主决定权"
+    },
+    {
+        "sentence": "刘梅，那个。",
+        "Holder": "1",
+        "Target": "刘梅",
+        "Aspect": "称呼",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "1只是称呼刘梅并没有表达具体观点"
+    },
+    {
+        "sentence": "我拿鸡蛋汤去。",
+        "Holder": "2",
+        "Target": "鸡蛋汤",
+        "Aspect": "动作",
+        "Opinion": "拿",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个动作"
+    },
+    {
+        "sentence": "我帮帮你？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "帮助",
+        "Opinion": "提供帮助",
+        "Sentiment": "positive",
+        "Rationale": "主动提出帮助"
+    },
+    {
+        "sentence": "啊，不用。",
+        "Holder": "2",
+        "Target": "1的帮助",
+        "Aspect": "接受帮助",
+        "Opinion": "拒绝",
+        "Sentiment": "neutral",
+        "Rationale": "礼貌地拒绝帮助"
+    },
+    {
+        "sentence": "小雪，你到底要干什么啊？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为意图",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方的意图"
+    },
+    {
+        "sentence": "我有权不回答问题。",
+        "Holder": "3",
+        "Target": "回答问题",
+        "Aspect": "权利",
+        "Opinion": "拒绝回答",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己有权利不回答"
+    },
+    {
+        "sentence": "来，快来，汤来了。",
+        "Holder": "2",
+        "Target": "汤",
+        "Aspect": "汤的到来",
+        "Opinion": "汤准备好了",
+        "Sentiment": "positive",
+        "Rationale": "汤已经准备好可以享用"
+    },
+    {
+        "sentence": "哎呀，小雪，我听你爸爸说，你从小就特别爱吃这个西红柿鸡蛋汤。",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "对西红柿鸡蛋汤的喜好",
+        "Opinion": "小雪特别爱吃",
+        "Sentiment": "positive",
+        "Rationale": "提到小雪从小就特别爱吃这个汤"
+    },
+    {
+        "sentence": "对，哎呀，鸡蛋打的有点多，太偏心了啊。",
+        "Holder": "1",
+        "Target": "鸡蛋的量",
+        "Aspect": "鸡蛋的分配",
+        "Opinion": "鸡蛋打多了",
+        "Sentiment": "ambiguous",
+        "Rationale": "鸡蛋打多了显得偏心"
+    },
+    {
+        "sentence": "那是我小时候。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "小时候的喜好",
+        "Opinion": "小时候的喜好",
+        "Sentiment": "neutral",
+        "Rationale": "提到自己小时候的喜好"
+    },
+    {
+        "sentence": "对了，爸爸，咱们好像有好长时间没住在一起了吧？",
+        "Holder": "3",
+        "Target": "家人",
+        "Aspect": "居住情况",
+        "Opinion": "长时间没住在一起",
+        "Sentiment": "ambiguous",
+        "Rationale": "意识到和家人长时间没住在一起"
+    },
+    {
+        "sentence": "对，长大以后的事儿我不太清楚了。",
+        "Holder": "1",
+        "Target": "长大以后的事儿",
+        "Aspect": "了解程度",
+        "Opinion": "不太清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对话中提到对长大以后的事情不了解"
+    }
+]

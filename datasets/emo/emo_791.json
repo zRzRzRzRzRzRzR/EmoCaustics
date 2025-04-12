@@ -1,0 +1,54 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "礼物接受与评价冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指责未拆礼物就嫌弃，认为对方在假装",
+            "source_id": "2,3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "礼物性质争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为礼物恶心且缺乏责任心",
+            "source_id": "1,3"
+          },
+          {
+            "state": "neutral",
+            "reason": "提议冷静处理冲突",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "多方责任冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释礼物用心挑选",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指责双方缺乏责任心，要求转移冲突",
+            "source_id": "1,2"
+          }
+        ]
+      }
+    ]
+  }
+}

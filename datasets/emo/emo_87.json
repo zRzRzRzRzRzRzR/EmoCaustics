@@ -1,0 +1,42 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家法规定引发的出行限制矛盾",
+        "emotions": [
+          {"state": "neutral", "reason": "引用家法第一条解释无法接人", "source_id": "2"},
+          {"state": "negative", "reason": "被指责忘记家法第六条存款限制+副驾专用权争议+被要求禁止与异性交流", "source_id": "2"},
+          {"state": "positive", "reason": "主动提供洗发水帮助", "source_id": "2"},
+          {"state": "negative", "reason": "坚持遵守家法时间限制拒绝出行", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "亲属接待任务执行争议",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方未妥善接待姐姐+误解接人任务", "source_id": "2"},
+          {"state": "neutral", "reason": "解释行李放置导致座位不足", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感关系质疑与规则对抗",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方感情+后悔恋爱决定", "source_id": "1"},
+          {"state": "neutral", "reason": "转移话题询问头发状态+接受洗发需求", "source_id": "1"},
+          {"state": "ambiguous", "reason": "未理解对方发言内容", "source_id": "1"},
+          {"state": "positive", "reason": "宣布废除家规体系", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "形象管理争议",
+        "emotions": [
+          {"state": "neutral", "reason": "自我评价头发状态", "source_id": "1"},
+          {"state": "negative", "reason": "被讽刺头发油腻+被要求洗头", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

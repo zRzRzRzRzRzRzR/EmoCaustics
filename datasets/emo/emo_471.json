@@ -1,0 +1,43 @@
+{
+    "1": {
+        "events": [
+            {
+                "event": "讲课任务分配争议",
+                "emotions": [
+                    {"state": "neutral", "reason": "询问讲课任务分配", "source_id": "2"},
+                    {"state": "negative", "reason": "对推诿式回应感到困惑", "source_id": "2"},
+                    {"state": "neutral", "reason": "表达个人厌恶讲课", "source_id": "1"},
+                    {"state": "positive", "reason": "强调团队合作优势", "source_id": "2"},
+                    {"state": "negative", "reason": "认为功劳分配不公", "source_id": "2"}
+                ]
+            },
+            {
+                "event": "工作态度指责与反讽",
+                "emotions": [
+                    {"state": "negative", "reason": "被质疑迟到与工作态度", "source_id": "2"},
+                    {"state": "negative", "reason": "反讽对方虚伪表现", "source_id": "2"}
+                ]
+            }
+        ]
+    },
+    "2": {
+        "events": [
+            {
+                "event": "责任归属与名誉争端",
+                "emotions": [
+                    {"state": "neutral", "reason": "转嫁讲课责任", "source_id": "1"},
+                    {"state": "negative", "reason": "批评表达方式过激", "source_id": "1"},
+                    {"state": "positive", "reason": "澄清名誉分配事实", "source_id": "1"},
+                    {"state": "negative", "reason": "反驳贬低指控", "source_id": "1"}
+                ]
+            },
+            {
+                "event": "职场纪律冲突",
+                "emotions": [
+                    {"state": "negative", "reason": "指责违反工作纪律", "source_id": "1"},
+                    {"state": "negative", "reason": "否认不当得利指控", "source_id": "1"}
+                ]
+            }
+        ]
+    }
+}

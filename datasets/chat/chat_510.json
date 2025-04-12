@@ -1,0 +1,560 @@
+[
+    {
+        "sentence": "刘星回来",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "要求回来",
+        "Sentiment": "neutral",
+        "Rationale": "1在正常地要求刘星回来"
+    },
+    {
+        "sentence": "让他去",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "允许去",
+        "Sentiment": "neutral",
+        "Rationale": "3在回应1的要求，表示同意刘星去"
+    },
+    {
+        "sentence": "什么事儿这是？",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "情况理解",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对当前情况感到不解"
+    },
+    {
+        "sentence": "唉呦，这位同学，请问你有毛病吗？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2认为4的行为不合理"
+    },
+    {
+        "sentence": "你说什么啊？",
+        "Holder": "4",
+        "Target": "2的话语",
+        "Aspect": "话语理解",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "4没有听懂2的话"
+    },
+    {
+        "sentence": "我说的是这，这有毛病吗？",
+        "Holder": "2",
+        "Target": "自己的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "认为观点没问题",
+        "Sentiment": "doubt",
+        "Rationale": "2对自己的观点不确定是否被接受"
+    },
+    {
+        "sentence": "精神病啊。",
+        "Holder": "4",
+        "Target": "2的观点",
+        "Aspect": "观点的合理性",
+        "Opinion": "认为观点不合理",
+        "Sentiment": "negative",
+        "Rationale": "4认为2的观点毫无道理"
+    },
+    {
+        "sentence": "是是是",
+        "Holder": "2",
+        "Target": "4的指责",
+        "Aspect": "应对指责的态度",
+        "Opinion": "无奈接受",
+        "Sentiment": "neutral",
+        "Rationale": "2面对4的指责选择无奈接受"
+    },
+    {
+        "sentence": "我看你才从精神病院里跑出来的呢。",
+        "Holder": "4",
+        "Target": "2的精神状态",
+        "Aspect": "精神状态的合理性",
+        "Opinion": "认为2精神不正常",
+        "Sentiment": "negative",
+        "Rationale": "4认为2的行为和言论不正常"
+    },
+    {
+        "sentence": "这人真有病",
+        "Holder": "2",
+        "Target": "4的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "认为4的言论过分",
+        "Sentiment": "negative",
+        "Rationale": "2觉得4的言论过于刻薄和不合理"
+    },
+    {
+        "sentence": "小美眉，你有毛病吗？",
+        "Holder": "2",
+        "Target": "小美眉",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑对方行为",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己感到不解和不满"
+    },
+    {
+        "sentence": "哦不懂中国话，咪西咪西，日本话也不懂。",
+        "Holder": "2",
+        "Target": "小美眉",
+        "Aspect": "语言能力",
+        "Opinion": "质疑对方语言能力",
+        "Sentiment": "negative",
+        "Rationale": "对方听不懂自己说的语言"
+    },
+    {
+        "sentence": "前轱辘转后轱辘不转思密达，韩国话也不懂",
+        "Holder": "2",
+        "Target": "小美眉",
+        "Aspect": "语言能力",
+        "Opinion": "继续质疑对方语言能力",
+        "Sentiment": "negative",
+        "Rationale": "对方连韩国话也不懂，进一步加深了失望和不满"
+    },
+    {
+        "sentence": "你那你到底是哪国人啊？",
+        "Holder": "2",
+        "Target": "小美眉",
+        "Aspect": "国籍身份",
+        "Opinion": "质疑对方国籍",
+        "Sentiment": "negative",
+        "Rationale": "对方不懂多国语言，导致对其国籍产生怀疑"
+    },
+    {
+        "sentence": "救命啊",
+        "Holder": "5",
+        "Target": "当前处境",
+        "Aspect": "安全状况",
+        "Opinion": "感到危险",
+        "Sentiment": "negative",
+        "Rationale": "对话中的质问和质疑让自己感到不安和危险"
+    },
+    {
+        "sentence": "干嘛呢你",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1看到2在做他认为不合理的事情"
+    },
+    {
+        "sentence": "我这不是和我爸拉客吗",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "解释行为",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的行为合理性"
+    },
+    {
+        "sentence": "有你这么拉客的吗，去回家做作业去",
+        "Holder": "1",
+        "Target": "2的拉客方式",
+        "Aspect": "拉客方式的合理性",
+        "Opinion": "不认可拉客方式",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的拉客方式不合适"
+    },
+    {
+        "sentence": "哎，小美眉别害怕",
+        "Holder": "1",
+        "Target": "小美眉",
+        "Aspect": "情绪安抚",
+        "Opinion": "安抚情绪",
+        "Sentiment": "positive",
+        "Rationale": "1看到小美眉可能害怕"
+    },
+    {
+        "sentence": "嘿，这孩子，是有点病",
+        "Holder": "1",
+        "Target": "这孩子",
+        "Aspect": "健康状况",
+        "Opinion": "认为有病",
+        "Sentiment": "negative",
+        "Rationale": "1观察到孩子的行为异常"
+    },
+    {
+        "sentence": "怎么了怎么了？那嘴撅得都能挂一暖水瓶了",
+        "Holder": "1",
+        "Target": "3的情绪",
+        "Aspect": "表情",
+        "Opinion": "不高兴",
+        "Sentiment": "neutral",
+        "Rationale": "看到3的表情不高兴"
+    },
+    {
+        "sentence": "我说不来吧，你非说来，这下舒服了，半天了，一个咨询的都没有，连胖婶都走了，就剩我一个人在这晒黄花鱼。",
+        "Holder": "3",
+        "Target": "1的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "1的建议导致3一个人在冷清的场合"
+    },
+    {
+        "sentence": "那谁知道是这情况，我这不是以为你这知心大姐一出席，那还不得人山人海挤着抢着的，谁知道你腕不够",
+        "Holder": "1",
+        "Target": "3的号召力",
+        "Aspect": "预期与现实",
+        "Opinion": "预期过高",
+        "Sentiment": "negative",
+        "Rationale": "1对3的号召力预期过高，结果却不如预期"
+    },
+    {
+        "sentence": "对，我腕不够。你腕够，你有号召力，你一个人在这待着吧。哎哎，你干嘛去啊？我上厕所去",
+        "Holder": "3",
+        "Target": "1的评价",
+        "Aspect": "号召力",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "1的评价让3感到不满"
+    },
+    {
+        "sentence": "上完厕所赶紧回来",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "时间管理",
+        "Opinion": "催促",
+        "Sentiment": "neutral",
+        "Rationale": "1希望3尽快回来"
+    },
+    {
+        "sentence": "上完厕所我还得回家泡杯茶呢。",
+        "Holder": "3",
+        "Target": "回家泡茶",
+        "Aspect": "个人安排",
+        "Opinion": "需要回家泡茶",
+        "Sentiment": "neutral",
+        "Rationale": "3有自己的个人安排"
+    },
+    {
+        "sentence": "泡杯茶赶紧回来啊。有什么了不起的呀？",
+        "Holder": "1",
+        "Target": "3的回家泡茶",
+        "Aspect": "时间紧迫性",
+        "Opinion": "认为3应该快点回来",
+        "Sentiment": "negative",
+        "Rationale": "1觉得3回家泡茶耽误时间"
+    },
+    {
+        "sentence": "以为我不懂啊，白大褂比你穿得多了。",
+        "Holder": "1",
+        "Target": "3的专业知识",
+        "Aspect": "专业经验",
+        "Opinion": "自己更有经验",
+        "Sentiment": "negative",
+        "Rationale": "1觉得自己在专业上有更多经验"
+    },
+    {
+        "sentence": "我就是干这个的唉。哪个当妈的不得是半拉心理咨询医生？",
+        "Holder": "1",
+        "Target": "当妈的角色",
+        "Aspect": "角色能力",
+        "Opinion": "当妈的都有心理咨询能力",
+        "Sentiment": "neutral",
+        "Rationale": "1认为当妈的都需要具备一定的心理咨询能力"
+    },
+    {
+        "sentence": "飞啦飞喽飞啦飞啦去",
+        "Holder": "6",
+        "Target": "无明确对象",
+        "Aspect": "无明确方面",
+        "Opinion": "无明确观点",
+        "Sentiment": "ambiguous",
+        "Rationale": "6的话语没有明确指向和具体内容"
+    },
+    {
+        "sentence": "停，弟弟，全在我脑袋顶上飞呢。",
+        "Holder": "1",
+        "Target": "弟弟",
+        "Aspect": "行为",
+        "Opinion": "行为影响到自己",
+        "Sentiment": "negative",
+        "Rationale": "弟弟的行为让东西飞到脑袋顶上"
+    },
+    {
+        "sentence": "不用谢，这是我该做的，哈哈。",
+        "Holder": "6",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "认为自己的行为是应该的",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己做了应该做的事"
+    },
+    {
+        "sentence": "谁谢你了？",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "感谢",
+        "Opinion": "否认感谢",
+        "Sentiment": "negative",
+        "Rationale": "觉得没有感谢6的必要"
+    },
+    {
+        "sentence": "你就是这咨询的心理医生啊？",
+        "Holder": "6",
+        "Target": "1",
+        "Aspect": "身份",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1的身份感到好奇"
+    },
+    {
+        "sentence": "我是他老婆，你干嘛去啊？",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "身份和行为",
+        "Opinion": "澄清身份并询问行为",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清自己的身份并好奇6的行为"
+    },
+    {
+        "sentence": "他就回家上个厕所，泡杯茶，一会就回来。",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "回来的时间",
+        "Opinion": "很快回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是回家上个厕所和泡杯茶"
+    },
+    {
+        "sentence": "我不想等，他不在那就算了。",
+        "Holder": "6",
+        "Target": "等待",
+        "Aspect": "等待的意愿",
+        "Opinion": "不愿意等待",
+        "Sentiment": "negative",
+        "Rationale": "他不在场"
+    },
+    {
+        "sentence": "哎哎，别别，别走。",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "离开的行为",
+        "Opinion": "希望留下",
+        "Sentiment": "negative",
+        "Rationale": "不想让6离开"
+    },
+    {
+        "sentence": "坐下，我告诉你，在这方面我也相当的有造诣，相当的有知识，我起码得算是一个",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "知识和造诣",
+        "Opinion": "有造诣和知识",
+        "Sentiment": "positive",
+        "Rationale": "想展示自己在某方面的能力和知识"
+    },
+    {
+        "sentence": "你怎么骂人呢？你这孩子，坐下。转过去。不信我治不了你。",
+        "Holder": "1",
+        "Target": "6的行为",
+        "Aspect": "言行举止",
+        "Opinion": "不礼貌",
+        "Sentiment": "negative",
+        "Rationale": "6骂人"
+    },
+    {
+        "sentence": "说，姓什么？",
+        "Holder": "1",
+        "Target": "6的身份",
+        "Aspect": "基本信息",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1需要了解6的基本信息"
+    },
+    {
+        "sentence": "叫什么？",
+        "Holder": "1",
+        "Target": "6的身份",
+        "Aspect": "基本信息",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1需要进一步了解6的姓名"
+    },
+    {
+        "sentence": "李伯特。",
+        "Holder": "6",
+        "Target": "自己的名字",
+        "Aspect": "基本信息",
+        "Opinion": "回答",
+        "Sentiment": "neutral",
+        "Rationale": "1询问名字"
+    },
+    {
+        "sentence": "哈利波特？",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问一个话题"
+    },
+    {
+        "sentence": "你小声点，别让我爸妈听见。",
+        "Holder": "6",
+        "Target": "1的音量",
+        "Aspect": "音量的控制",
+        "Opinion": "需要小声",
+        "Sentiment": "negative",
+        "Rationale": "担心父母听见后会对自己不利"
+    },
+    {
+        "sentence": "你爸你妈听见怎么啦？",
+        "Holder": "1",
+        "Target": "6的父母听见",
+        "Aspect": "听见后的后果",
+        "Opinion": "不理解后果",
+        "Sentiment": "neutral",
+        "Rationale": "对6的情况不了解"
+    },
+    {
+        "sentence": "我是趁他们上班啊偷溜出来了。听见又得把我抓回锁屋里边啊。",
+        "Holder": "6",
+        "Target": "6的行为",
+        "Aspect": "偷溜出来的后果",
+        "Opinion": "会被抓回锁屋里",
+        "Sentiment": "negative",
+        "Rationale": "偷溜出来被发现后会受到惩罚"
+    },
+    {
+        "sentence": "为什么呀？凭什么把你锁屋里边啊？",
+        "Holder": "1",
+        "Target": "6被锁屋里",
+        "Aspect": "锁屋里的合理性",
+        "Opinion": "不理解原因",
+        "Sentiment": "negative",
+        "Rationale": "对6被锁屋里的原因感到不解和不满"
+    },
+    {
+        "sentence": "他们从来都不让我玩，就算放假也把我锁屋里边，从早到晚都让我写作业。",
+        "Holder": "6",
+        "Target": "父母",
+        "Aspect": "娱乐时间的限制",
+        "Opinion": "不让我玩",
+        "Sentiment": "negative",
+        "Rationale": "父母总是限制自己的娱乐时间，即使在放假也不让出去玩"
+    },
+    {
+        "sentence": "那是因为你父母比较望子成龙，希望你将来能上一个名牌大学。",
+        "Holder": "1",
+        "Target": "6的父母",
+        "Aspect": "教育期望",
+        "Opinion": "望子成龙",
+        "Sentiment": "neutral",
+        "Rationale": "1认为6的父母对6有很高的教育期望"
+    },
+    {
+        "sentence": "什么呀，我爸是做买卖的，他一门心思想让我学炒股。",
+        "Holder": "6",
+        "Target": "父亲",
+        "Aspect": "职业期望",
+        "Opinion": "想让我学炒股",
+        "Sentiment": "negative",
+        "Rationale": "父亲对自己的职业期望与自己兴趣不符"
+    },
+    {
+        "sentence": "让你炒股啊？你才多大呀？你炒股。",
+        "Holder": "1",
+        "Target": "6",
+        "Aspect": "年龄与炒股的适宜性",
+        "Opinion": "不适宜炒股",
+        "Sentiment": "ambiguous",
+        "Rationale": "1觉得6的年龄太小，不适合炒股"
+    },
+    {
+        "sentence": "我爸说了，炒股要从娃娃抓起，我一岁的时候他就带我在股市里边泡着。",
+        "Holder": "6",
+        "Target": "父亲",
+        "Aspect": "炒股教育",
+        "Opinion": "从娃娃抓起",
+        "Sentiment": "neutral",
+        "Rationale": "父亲认为炒股需要从小培养"
+    },
+    {
+        "sentence": "一岁，人家股市让你进吗，你一岁能明白什么呀？",
+        "Holder": "1",
+        "Target": "6的股市参与",
+        "Aspect": "年龄与理解能力",
+        "Opinion": "一岁无法理解股市",
+        "Sentiment": "negative",
+        "Rationale": "认为一岁的孩子无法理解复杂的股市操作"
+    },
+    {
+        "sentence": "没关系，我爸说了，那玩意不用明白，凭手气",
+        "Holder": "6",
+        "Target": "股市操作",
+        "Aspect": "操作方式",
+        "Opinion": "凭手气操作",
+        "Sentiment": "neutral",
+        "Rationale": "父亲告诉他股市操作可以凭手气"
+    },
+    {
+        "sentence": "对，我爸买了两个布娃娃，一个是熊，一个是牛，假如说我要是抓熊了，他就买进嗯。嗯，我要是抓牛了他就卖出啊。答对了给一块糖吃。",
+        "Holder": "6",
+        "Target": "股市操作方法",
+        "Aspect": "具体操作方法",
+        "Opinion": "通过抓布娃娃决定买卖",
+        "Sentiment": "neutral",
+        "Rationale": "描述了父亲用布娃娃决定股市操作的方法"
+    },
+    {
+        "sentence": "那要答错了呢。",
+        "Holder": "1",
+        "Target": "6的股市操作结果",
+        "Aspect": "操作后果",
+        "Opinion": "关心答错的结果",
+        "Sentiment": "neutral",
+        "Rationale": "好奇如果操作错误会有什么后果"
+    },
+    {
+        "sentence": "给我一巴掌。我妈就想让我当一钢琴家，三岁的时候就教我弹钢琴，我在前面坐着，她在后边站着。",
+        "Holder": "6",
+        "Target": "母亲的教育方式",
+        "Aspect": "教育方式的不合理",
+        "Opinion": "不满母亲的教育方式",
+        "Sentiment": "negative",
+        "Rationale": "母亲强迫学钢琴且方式严厉"
+    },
+    {
+        "sentence": "什么？她哪会，她是弹棉花监工的。一手拿一鸡汤，一手拎着鸡毛掸子，谈累了给口鸡汤喝，谈错了，给一鸡毛掸子",
+        "Holder": "6",
+        "Target": "母亲的教育方式",
+        "Aspect": "教育方式的粗暴",
+        "Opinion": "对母亲教育方式的讽刺",
+        "Sentiment": "negative",
+        "Rationale": "母亲的教育方式过于粗暴且不合理"
+    },
+    {
+        "sentence": "这叫什么父母，那你得跟他们讲道理。",
+        "Holder": "1",
+        "Target": "6的父母",
+        "Aspect": "教育方式的合理性",
+        "Opinion": "认为父母应该讲道理",
+        "Sentiment": "negative",
+        "Rationale": "认为6的父母教育方式不合理"
+    },
+    {
+        "sentence": "讲了他们不但不听，还骂我",
+        "Holder": "6",
+        "Target": "父母的态度",
+        "Aspect": "沟通效果",
+        "Opinion": "沟通无效且被责骂",
+        "Sentiment": "negative",
+        "Rationale": "尝试沟通却被父母责骂"
+    },
+    {
+        "sentence": "这哪行？",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "可行性",
+        "Opinion": "不可行",
+        "Sentiment": "negative",
+        "Rationale": "当前情况被认为是不合理的"
+    }
+]

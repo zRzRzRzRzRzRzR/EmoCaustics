@@ -1,0 +1,68 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "离婚宴的筹备与冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "邀请老雷并处理聚会人数争议", "source_id": "4"},
+          {"state": "positive", "reason": "认为肖路在场可应对人数问题", "source_id": "2"},
+          {"state": "negative", "reason": "因周岁宴事件公开道歉并宣布离婚", "source_id": "2,5"},
+          {"state": "negative", "reason": "指责肖路不体面且禁止其探视孩子", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "家庭责任声明",
+        "emotions": [
+          {"state": "negative", "reason": "要求4远离女儿并代女道歉", "source_id": "4"},
+          {"state": "positive", "reason": "强调荷荷的无辜性", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "离婚宴冲突激化",
+        "emotions": [
+          {"state": "positive", "reason": "感谢宾客参加离婚宴", "source_id": "1"},
+          {"state": "negative", "reason": "被剥夺探视权及孩子改姓", "source_id": "1"},
+          {"state": "negative", "reason": "认为被当众羞辱并强调血缘关系", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "亲子关系干预",
+        "emotions": [
+          {"state": "positive", "reason": "支持方一诺的座位安排", "source_id": "1"},
+          {"state": "negative", "reason": "否定肖路的父亲资格", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "聚会参与争议",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对朱小姐出现表示困惑", "source_id": "1"},
+          {"state": "negative", "reason": "抗议未提前告知邀请规模", "source_id": "1"},
+          {"state": "negative", "reason": "被要求远离1的女儿", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "婚姻问题澄清",
+        "emotions": [
+          {"state": "neutral", "reason": "否认安排婚姻问题", "source_id": "1"},
+          {"state": "negative", "reason": "被指责破坏周岁宴", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

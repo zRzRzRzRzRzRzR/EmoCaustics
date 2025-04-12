@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "游戏态度冲突与和解",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为游戏成瘾性强且难度过高",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认教学能力不足",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "接受轻松游戏理念",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "游戏技能认知迭代",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指出云玩家属性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "承诺继续学习提升",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "新手体验困境突破",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被质疑游戏动机与承受不当指责",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "成功传达多元游戏理念",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "教学互动优化",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "建立自主学习模式",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "获得游戏探索自由",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

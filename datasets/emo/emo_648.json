@@ -1,0 +1,46 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "元旦文告发布与党内争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "陈述局势严峻性并宣布文告计划",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提出和平协商的具体条件",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "党内对文告内容产生强烈反对",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "总统隐退的战略博弈",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞同隐退以获取美国支援并重组资源",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认党内存在和谈与逼退压力",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露内部权力斗争与自我毁灭隐患",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "疫情引发工作模式变革",
+        "emotions": [
+          {"state": "neutral", "reason": "提出全球疫情对工作体系冲击的讨论议题", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑远程工作能否长期持续", "source_id": "2,3,4"},
+          {"state": "negative", "reason": "担忧低收入群体就业适应性", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "技术驱动的未来工作转型",
+        "emotions": [
+          {"state": "positive", "reason": "认可AI技术在医疗领域的应用潜力", "source_id": "3"},
+          {"state": "neutral", "reason": "探讨自动化与就业市场的平衡关系", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "居家办公的双重影响",
+        "emotions": [
+          {"state": "negative", "reason": "被迫改变工作环境带来的家庭干扰", "source_id": "2"},
+          {"state": "positive", "reason": "发现远程医疗的长期价值", "source_id": "4"},
+          {"state": "ambiguous", "reason": "混合看待办公室存在的必要性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "社会不平等加剧",
+        "emotions": [
+          {"state": "negative", "reason": "揭示数字鸿沟对教育系统的冲击", "source_id": "4"},
+          {"state": "neutral", "reason": "提出机构参与恢复机制的重要性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "组织管理范式转变",
+        "emotions": [
+          {"state": "positive", "reason": "赞赏联合利华的员工目标管理实践", "source_id": "3"},
+          {"state": "ambiguous", "reason": "分析新技术对员工控制权的双重影响", "source_id": "3"},
+          {"state": "neutral", "reason": "强调跨学科团队协调的重要性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "劳动力市场重构",
+        "emotions": [
+          {"state": "neutral", "reason": "评估各行业恢复速度差异", "source_id": "4"},
+          {"state": "negative", "reason": "预测小企业倒闭带来的就业困境", "source_id": "2"},
+          {"state": "positive", "reason": "展望混合工作模式创新可能", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "政策应对方案辩论",
+        "emotions": [
+          {"state": "negative", "reason": "指出UBI方案的高成本障碍", "source_id": "4"},
+          {"state": "neutral", "reason": "对比四天工作制与传统模式利弊", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

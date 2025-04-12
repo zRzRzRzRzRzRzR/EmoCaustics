@@ -1,0 +1,105 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "梦境机器的合理性辩论",
+        "emotions": [
+          {"state": "positive", "reason": "主张思维真实性高于物理世界", "source_id": "2,4,7"},
+          {"state": "neutral", "reason": "承认不同世界存在形式差异", "source_id": "5,6"},
+          {"state": "doubt", "reason": "质疑现实世界唯一性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "自我认知的本质探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "定义自我为思想意识存在", "source_id": "3,4"},
+          {"state": "negative", "reason": "被质疑缺乏现实世界连结", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "反对进入梦境机器的核心论证",
+        "emotions": [
+          {"state": "negative", "reason": "认为等同死亡且丧失社会连结", "source_id": "1,3,5"},
+          {"state": "positive", "reason": "强调现实世界发展可能性", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "自我定义的哲学辩证",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑肉体在自我构成中的必要性", "source_id": "4"},
+          {"state": "neutral", "reason": "接受认知能力作为存在基础", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "幸福本质的重新诠释",
+        "emotions": [
+          {"state": "positive", "reason": "主张追求幸福即生命意义", "source_id": "1"},
+          {"state": "negative", "reason": "反对基因决定论的限制", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人类责任的价值主张",
+        "emotions": [
+          {"state": "negative", "reason": "批判机器导致社会停滞", "source_id": "1,3"},
+          {"state": "positive", "reason": "强调现实进步的重要性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "机器体验的类比质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "类比死亡与天堂的相似性", "source_id": "1"},
+          {"state": "negative", "reason": "指出认知断裂风险", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "超越性价值的哲学探索",
+        "emotions": [
+          {"state": "positive", "reason": "主张遗忘带来的精神自由", "source_id": "1"},
+          {"state": "neutral", "reason": "承认现实世界局限性", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "逻辑矛盾的针对性反驳",
+        "emotions": [
+          {"state": "negative", "reason": "揭露梦境逻辑的不自洽", "source_id": "1,3"},
+          {"state": "positive", "reason": "强调人类独特性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "梦境价值的重新定义",
+        "emotions": [
+          {"state": "neutral", "reason": "分析梦境逻辑的双重性", "source_id": "1"},
+          {"state": "positive", "reason": "肯定想象突破现实限制", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

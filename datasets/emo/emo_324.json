@@ -1,0 +1,120 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "核心论点有效性验证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对方持续回避经济压力与犯罪关联的核心论证",
+            "source_id": "2,4,6"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "概念界定权争夺",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "多次被指责断章取义和偷换概念",
+            "source_id": "3,5,7"
+          },
+          {
+            "state": "doubt",
+            "reason": "对万恶定义标准提出根本性质疑",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "历史实证论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "通过罗马帝国等案例强化立场时遭遇打断",
+            "source_id": "6,8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "现实关联论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "权钱交易等现代案例被质疑以偏概全",
+            "source_id": "2,4"
+          },
+          {
+            "state": "negative",
+            "reason": "日本经济案例引发历史认知冲突",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "反例攻势",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "南京大屠杀等非经济动机案例被消解",
+            "source_id": "5,7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "语义解构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "通过汉字结构分析建立论证基础",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "文字学论证被指机械类比",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "逻辑归谬反击",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对方将动物性等同于恶的论证被瓦解",
+            "source_id": "3,5"
+          },
+          {
+            "state": "doubt",
+            "reason": "要求论证性犯罪与金钱的直接关联",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭教育方式争执",
+        "emotions": [
+          {"state": "negative", "reason": "质疑孩子行为异常", "source_id": "2"},
+          {"state": "positive", "reason": "强调母亲监护责任", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑偷听行为不当", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "婚姻状况讨论",
+        "emotions": [
+          {"state": "negative", "reason": "婚姻危机预警", "source_id": "4"},
+          {"state": "negative", "reason": "质疑专家预言真实性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭秩序管理",
+        "emotions": [
+          {"state": "negative", "reason": "对异常行为影响家庭的不满", "source_id": "6,3"},
+          {"state": "neutral", "reason": "执行既定家庭规则", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "突发避难请求处理",
+        "emotions": [
+          {"state": "neutral", "reason": "应对3号突然造访", "source_id": "3"},
+          {"state": "positive", "reason": "承诺提供庇护支持", "source_id": "2"},
+          {"state": "negative", "reason": "质疑迷信行为合理性", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭日常协调",
+        "emotions": [
+          {"state": "neutral", "reason": "处理6号考试问题", "source_id": "6"},
+          {"state": "neutral", "reason": "转达重要通讯信息", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "个人危机应对",
+        "emotions": [
+          {"state": "negative", "reason": "遭遇多重生活打击", "source_id": "self"},
+          {"state": "negative", "reason": "担心带来负面能量", "source_id": "2"},
+          {"state": "positive", "reason": "获得临时庇护承诺", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "自我隔离实施",
+        "emotions": [
+          {"state": "negative", "reason": "主动切断外界联系", "source_id": "self"},
+          {"state": "ambiguous", "reason": "对庇护效果存疑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭重组建议",
+        "emotions": [
+          {"state": "neutral", "reason": "提出区域调整方案", "source_id": "1"},
+          {"state": "positive", "reason": "获得第三方支持", "source_id": "5"},
+          {"state": "negative", "reason": "遭遇家长强烈反对", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "学业危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "考试成绩意外失利", "source_id": "6"},
+          {"state": "neutral", "reason": "采取逃避应对策略", "source_id": "self"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "学业危机爆发",
+        "emotions": [
+          {"state": "negative", "reason": "考试策略严重失误", "source_id": "4"},
+          {"state": "negative", "reason": "面临家长追责压力", "source_id": "self"}
+        ]
+      }
+    ]
+  }
+}

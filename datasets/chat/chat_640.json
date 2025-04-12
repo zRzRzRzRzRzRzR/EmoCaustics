@@ -1,0 +1,632 @@
+[
+    {
+        "sentence": "妈对我一直有成见，不，是视而不见。我气的，我气得我肚子都快炸了。",
+        "Holder": "1",
+        "Target": "妈妈的态度",
+        "Aspect": "对待方式",
+        "Opinion": "有成见",
+        "Sentiment": "negative",
+        "Rationale": "妈妈对1有成见并且视而不见"
+    },
+    {
+        "sentence": "我有一办法，你就像我这样。",
+        "Holder": "2",
+        "Target": "解决问题的方法",
+        "Aspect": "建议",
+        "Opinion": "提供方法",
+        "Sentiment": "positive",
+        "Rationale": "2想帮助1解决问题"
+    },
+    {
+        "sentence": "干嘛啊？",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "理解",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "1不理解2的建议"
+    },
+    {
+        "sentence": "你忘了？上次我肚胀，爸跟我说，只要我这么撅着就行，你猜怎么着？我放了许多屁就好了。",
+        "Holder": "2",
+        "Target": "解决肚胀的方法",
+        "Aspect": "经验分享",
+        "Opinion": "有效",
+        "Sentiment": "positive",
+        "Rationale": "2通过自己的经验证明了这个方法有效"
+    },
+    {
+        "sentence": "你那气和我这气不一样！",
+        "Holder": "1",
+        "Target": "2的比喻",
+        "Aspect": "适用性",
+        "Opinion": "不适用",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的比喻不适用于自己的情况"
+    },
+    {
+        "sentence": "可以进来吗？",
+        "Holder": "3",
+        "Target": "进入房间",
+        "Aspect": "请求",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问是否可以进入房间"
+    },
+    {
+        "sentence": "不方便！",
+        "Holder": "1",
+        "Target": "3的请求",
+        "Aspect": "回应",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "1认为当前情况不方便让3进入"
+    },
+    {
+        "sentence": "你要尊重我们的隐私！",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "隐私",
+        "Opinion": "要求尊重",
+        "Sentiment": "negative",
+        "Rationale": "2认为3没有尊重他们的隐私"
+    },
+    {
+        "sentence": "这屋子里的气氛好像有点不太对呀。",
+        "Holder": "3",
+        "Target": "房间气氛",
+        "Aspect": "感受",
+        "Opinion": "不对劲",
+        "Sentiment": "neutral",
+        "Rationale": "3感觉到房间里的气氛不对劲"
+    },
+    {
+        "sentence": "那是当然啊，有人欢喜，有人忧啊。",
+        "Holder": "1",
+        "Target": "事情的结果",
+        "Aspect": "结果的多样性",
+        "Opinion": "有人欢喜有人忧",
+        "Sentiment": "neutral",
+        "Rationale": "事情的结果总是多样的，有人满意有人不满意"
+    },
+    {
+        "sentence": "是因为这个吗？",
+        "Holder": "3",
+        "Target": "事情的原因",
+        "Aspect": "原因的确认",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "对事情的原因不确定"
+    },
+    {
+        "sentence": "妈不就给你买一破随身听吗？你臭显摆什么呀？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "显摆的行为",
+        "Opinion": "不应该显摆",
+        "Sentiment": "negative",
+        "Rationale": "觉得3不应该一个破随身听而显摆"
+    },
+    {
+        "sentence": "用这个听音乐的确是美妙啊。",
+        "Holder": "3",
+        "Target": "随身听",
+        "Aspect": "听音乐的体验",
+        "Opinion": "美妙",
+        "Sentiment": "positive",
+        "Rationale": "用随身听听音乐体验很好"
+    },
+    {
+        "sentence": "你不觉得你很庸俗吗？",
+        "Holder": "1",
+        "Target": "3的品味",
+        "Aspect": "品味的高低",
+        "Opinion": "庸俗",
+        "Sentiment": "negative",
+        "Rationale": "认为3的品味低下"
+    },
+    {
+        "sentence": "是吗？",
+        "Holder": "3",
+        "Target": "1的评价",
+        "Aspect": "评价的合理性",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1的评价感到疑惑"
+    },
+    {
+        "sentence": "你简直就是俗不可耐！",
+        "Holder": "1",
+        "Target": "3的品味",
+        "Aspect": "品味的高低",
+        "Opinion": "俗不可耐",
+        "Sentiment": "negative",
+        "Rationale": "极度认为3的品味低下"
+    },
+    {
+        "sentence": "没错，俗不可耐。",
+        "Holder": "2",
+        "Target": "3的品味",
+        "Aspect": "品味的高低",
+        "Opinion": "俗不可耐",
+        "Sentiment": "negative",
+        "Rationale": "认同1的观点，认为3的品味低下"
+    },
+    {
+        "sentence": "得了，我不气你们了，给。",
+        "Holder": "3",
+        "Target": "1和2的态度",
+        "Aspect": "态度的应对",
+        "Opinion": "不再生气",
+        "Sentiment": "neutral",
+        "Rationale": "不想再继续争执"
+    },
+    {
+        "sentence": "你少来这套，我不需要你的可怜。",
+        "Holder": "1",
+        "Target": "3的举动",
+        "Aspect": "举动的意图",
+        "Opinion": "不需要可怜",
+        "Sentiment": "negative",
+        "Rationale": "觉得3的举动是一种可怜，而自己不需要这种可怜"
+    },
+    {
+        "sentence": "我就知道你不会要的。说实话，我觉得这个随身听是应该给你的。我觉得老妈这样对你实在是太不公平了。",
+        "Holder": "3",
+        "Target": "老妈",
+        "Aspect": "对待1的公平性",
+        "Opinion": "不公平",
+        "Sentiment": "negative",
+        "Rationale": "老妈对1的待遇不公正"
+    },
+    {
+        "sentence": "没事，我已经习惯了。",
+        "Holder": "1",
+        "Target": "老妈的不公平对待",
+        "Aspect": "自身适应情况",
+        "Opinion": "已经习惯",
+        "Sentiment": "neutral",
+        "Rationale": "长期受到老妈的不公平对待"
+    },
+    {
+        "sentence": "你怎么不想办法跟老妈好好的沟通一下呢？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "解决问题的方法",
+        "Opinion": "应该沟通",
+        "Sentiment": "positive",
+        "Rationale": "认为沟通是解决问题的好办法"
+    },
+    {
+        "sentence": "我和他沟通？",
+        "Holder": "1",
+        "Target": "与老妈沟通",
+        "Aspect": "沟通的可能性",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "对与老妈沟通的可能性感到怀疑"
+    },
+    {
+        "sentence": "对呀，沟通是解决问题的最好办法。",
+        "Holder": "3",
+        "Target": "沟通",
+        "Aspect": "解决问题的效果",
+        "Opinion": "最好办法",
+        "Sentiment": "positive",
+        "Rationale": "坚信沟通能有效解决问题"
+    },
+    {
+        "sentence": "那是不可能的。",
+        "Holder": "1",
+        "Target": "与老妈沟通",
+        "Aspect": "沟通的可行性",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "认为与老妈沟通根本不可能实现"
+    },
+    {
+        "sentence": "为什么？",
+        "Holder": "3",
+        "Target": "1的观点",
+        "Aspect": "沟通不可能的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "想知道1为什么认为沟通不可能"
+    },
+    {
+        "sentence": "你能想象的出我和妈坐在一起心平气和的谈心的场面吗？",
+        "Holder": "1",
+        "Target": "与老妈谈心",
+        "Aspect": "谈心的可能性",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "认为与老妈心平气和谈心是不可能的场面"
+    },
+    {
+        "sentence": "想象不出来。",
+        "Holder": "3",
+        "Target": "1描述的场面",
+        "Aspect": "场面的可能性",
+        "Opinion": "无法想象",
+        "Sentiment": "neutral",
+        "Rationale": "确实无法想象1和老妈心平气和谈心的场面"
+    },
+    {
+        "sentence": "那不就得了吗？。我是越在这家待着，我越觉的没意思！",
+        "Holder": "1",
+        "Target": "家庭环境",
+        "Aspect": "待在家中的感受",
+        "Opinion": "没意思",
+        "Sentiment": "negative",
+        "Rationale": "在家中感到无聊和压抑"
+    },
+    {
+        "sentence": "刘星你去哪啊？你回来！",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "刘星的行为",
+        "Opinion": "刘星不应该离开",
+        "Sentiment": "negative",
+        "Rationale": "刘星突然离开让3感到担心"
+    },
+    {
+        "sentence": "刘星！",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "刘星的行为",
+        "Opinion": "刘星不应该离开",
+        "Sentiment": "negative",
+        "Rationale": "刘星的突然离开让2感到意外和担心"
+    },
+    {
+        "sentence": "妈，不好了，刘星他出去了！",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "刘星的行为",
+        "Opinion": "刘星离开是不好的",
+        "Sentiment": "negative",
+        "Rationale": "刘星突然离开让3感到不安"
+    },
+    {
+        "sentence": "没事，他不吃晚饭了？",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的饮食",
+        "Opinion": "刘星可能只是不吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "4认为刘星可能只是不想吃饭"
+    },
+    {
+        "sentence": "这么晚了，他能上哪儿去啊，不会出什么事吧？",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "刘星的安全",
+        "Opinion": "担心刘星的安全",
+        "Sentiment": "negative",
+        "Rationale": "刘星晚上外出让5感到担忧"
+    },
+    {
+        "sentence": "哎呀，不会的，那孩子拧着呢，你甭理他，不一定他心里想什么呢。他大晚上出去不是头一回。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的性格",
+        "Opinion": "刘星有自己的想法",
+        "Sentiment": "neutral",
+        "Rationale": "4认为刘星有自己的想法且经常晚上外出"
+    },
+    {
+        "sentence": "可最关键的问题是，刘星说他在这个家里越来越没意思了。",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "刘星对家庭的感觉",
+        "Opinion": "刘星觉得家里没意思",
+        "Sentiment": "negative",
+        "Rationale": "刘星觉得家里没意思让3感到担忧"
+    },
+    {
+        "sentence": "那他想干嘛呀？",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的意图",
+        "Opinion": "不清楚刘星的意图",
+        "Sentiment": "neutral",
+        "Rationale": "4不清楚刘星的具体意图"
+    },
+    {
+        "sentence": "打算离家出走，奔向光明。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "刘星的计划",
+        "Opinion": "刘星打算离家出走",
+        "Sentiment": "negative",
+        "Rationale": "刘星打算离家出走让2感到担忧"
+    },
+    {
+        "sentence": "这孩子开始有自尊心了。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "刘星的心理变化",
+        "Opinion": "刘星有了自尊心",
+        "Sentiment": "neutral",
+        "Rationale": "1认为刘星有了自尊心是成长的表现"
+    },
+    {
+        "sentence": "嗯，没错。",
+        "Holder": "2",
+        "Target": "当前话题",
+        "Aspect": "确认",
+        "Opinion": "同意",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地确认对方的话"
+    },
+    {
+        "sentence": "我先找找他去。刘星，吃饭啦。",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "寻找和叫吃饭",
+        "Opinion": "需要找到刘星并叫他吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "只是日常的叫吃饭行为"
+    },
+    {
+        "sentence": "妈，那边没有。",
+        "Holder": "3",
+        "Target": "刘星的位置",
+        "Aspect": "寻找结果",
+        "Opinion": "刘星不在那边",
+        "Sentiment": "neutral",
+        "Rationale": "只是报告寻找结果"
+    },
+    {
+        "sentence": "怎么回事儿啊他？",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "行为原因",
+        "Opinion": "困惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对刘星的行为感到不解"
+    },
+    {
+        "sentence": "刘星是不是真出走了？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "是否出走",
+        "Opinion": "怀疑出走",
+        "Sentiment": "doubt",
+        "Rationale": "不确定刘星是否真的出走"
+    },
+    {
+        "sentence": "哎呀，不会，他顶多，大不了就是上他爸那去住两天，等把他爸折腾烦了，哼，他也就该回来了。我再找找。哟，老高？怎么了？这是二胖啊，哎呦，他要不出声，我都没听出来，怎么了这是？",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "可能的去向",
+        "Opinion": "认为刘星去了爸爸那里",
+        "Sentiment": "neutral",
+        "Rationale": "对刘星的去向有合理的推测"
+    },
+    {
+        "sentence": "又让上回那几个孩子给打了。",
+        "Holder": "6",
+        "Target": "孩子被打",
+        "Aspect": "被打事件",
+        "Opinion": "孩子被打",
+        "Sentiment": "negative",
+        "Rationale": "孩子被打"
+    },
+    {
+        "sentence": "哎呦，那咱可得跟着小区的这个保安得说说，这孩子都没安全，哪成啊，怎么那么讨厌那些孩子干嘛又打我们孩子呀？这也就是刘星没在边儿上，要是刘星在肯定饶不了他们。",
+        "Holder": "4",
+        "Target": "打人的孩子",
+        "Aspect": "行为评价",
+        "Opinion": "讨厌打人的孩子",
+        "Sentiment": "negative",
+        "Rationale": "自己的孩子被打"
+    },
+    {
+        "sentence": "这几个孩子打我们儿子的时候，刘星就在旁边。",
+        "Holder": "6",
+        "Target": "刘星",
+        "Aspect": "在场情况",
+        "Opinion": "刘星在场",
+        "Sentiment": "negative",
+        "Rationale": "刘星在场却未阻止"
+    },
+    {
+        "sentence": "这不可能啊，你看你，真的？你说这孩子怎么这样啊？我刚才已经把我气坏了，他能站在那看着人挨打，他无动于衷袖手旁观！",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "行为态度",
+        "Opinion": "刘星无动于衷",
+        "Sentiment": "negative",
+        "Rationale": "刘星在场却未帮助"
+    },
+    {
+        "sentence": "那老高不会对咱有什么看法吧？",
+        "Holder": "5",
+        "Target": "老高",
+        "Aspect": "对咱的看法",
+        "Opinion": "担心有看法",
+        "Sentiment": "doubt",
+        "Rationale": "不确定老高是否对咱们有负面看法"
+    },
+    {
+        "sentence": "能没看法吗？当然有看法了，现在已经有看法了，人家说了，就是因为上次他保护了人家孩子，人家没给咱送礼，所以咱们这次就不让咱孩子再保护人家了。人家呢去给咱买礼去了，打算买重礼，再登门致谢。",
+        "Holder": "4",
+        "Target": "老高",
+        "Aspect": "对咱的看法和做法",
+        "Opinion": "确认有看法且描述具体原因",
+        "Sentiment": "negative",
+        "Rationale": "老高对咱们有负面看法并且行为上有所体现"
+    },
+    {
+        "sentence": "这都什么事啊？",
+        "Holder": "5",
+        "Target": "当前情况",
+        "Aspect": "事情的合理性",
+        "Opinion": "觉得事情荒唐",
+        "Sentiment": "negative",
+        "Rationale": "觉得当前的事情不合理且荒唐"
+    },
+    {
+        "sentence": "是啊，气死我了！刘星，站住，坐那，我要跟你谈谈。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的行为",
+        "Opinion": "生气且要谈话",
+        "Sentiment": "negative",
+        "Rationale": "刘星的行为让自己生气"
+    },
+    {
+        "sentence": "我跟你没那么好谈的。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "谈话的态度",
+        "Opinion": "不愿意谈话",
+        "Sentiment": "negative",
+        "Rationale": "对4的谈话态度不满"
+    },
+    {
+        "sentence": "快站住！别拽我！",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "要求停止行为",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让自己不满"
+    },
+    {
+        "sentence": "妈，您这是干什么啊？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "4的行为",
+        "Opinion": "不解和质疑",
+        "Sentiment": "neutral",
+        "Rationale": "不理解4的行为"
+    },
+    {
+        "sentence": "气死我了，我必须得揍他了今天。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "刘星的行为",
+        "Opinion": "极度生气且要惩罚",
+        "Sentiment": "negative",
+        "Rationale": "刘星的行为让自己极度生气"
+    },
+    {
+        "sentence": "我告诉你，你这脾气真得改改了啊，别动不动，跟孩子就亮巴掌。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "4的脾气和行为",
+        "Opinion": "认为需要改脾气",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的脾气暴躁且行为不当"
+    },
+    {
+        "sentence": "对，刘星他得到的不应该是巴掌，应该是掌声。",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "刘星应得的对待",
+        "Opinion": "认为应得表扬",
+        "Sentiment": "positive",
+        "Rationale": "觉得刘星的行为值得肯定"
+    },
+    {
+        "sentence": "还掌声？我还应该表扬他是吧？哎，你们是没见着二胖被打的那样啊，我告诉你们，他要不跟我说话，我都认不出来他是二胖了。像刘星这种行为，他跟打人的人没什么区别，都是坏人。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "与打人者无异",
+        "Sentiment": "negative",
+        "Rationale": "刘星在二胖被打时袖手旁观，导致说话人认为他的行为与打人者无异"
+    },
+    {
+        "sentence": "哎，刘星这次肯定是不对，可是你想想，为什么他这次会袖手旁观啊？上次人家保护了二胖，你对人刘星什么态度？",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "行为动机",
+        "Opinion": "有原因的",
+        "Sentiment": "neutral",
+        "Rationale": "说话人认为刘星这次袖手旁观可能有背后的原因，提醒大家考虑上次刘星保护二胖的行为"
+    },
+    {
+        "sentence": "您不但不应该打他，还应该向他道歉。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "行为",
+        "Opinion": "应该道歉",
+        "Sentiment": "negative",
+        "Rationale": "说话人认为4对刘星的处理方式不当，不仅不应该打他，还应该为此道歉"
+    },
+    {
+        "sentence": "我怎么不让他说了？他不是都说了吗？有一个个头特高的跟你爸差不多的，比你爸矮大半头，还一特壮的什么什么的，我都听了。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "发言机会",
+        "Opinion": "已经让他说了",
+        "Sentiment": "negative",
+        "Rationale": "说话人认为自己已经给了刘星发言的机会，但其他人认为他没有"
+    },
+    {
+        "sentence": "别嘴硬了，你呀真得学会心平气和的和孩子交流，别动不动就亮巴掌，吹胡子瞪眼的。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "交流方式",
+        "Opinion": "需要改进",
+        "Sentiment": "negative",
+        "Rationale": "说话人认为4在与孩子交流时过于粗暴，缺乏耐心"
+    },
+    {
+        "sentence": "妈，我把刘星给押出来了。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "押出",
+        "Sentiment": "neutral",
+        "Rationale": "说话人只是陈述了一个事实，即把刘星押出来了，没有明显的情感倾向"
+    },
+    {
+        "sentence": "来来来，刘星。妈妈要跟你好好谈一谈。",
+        "Holder": "5",
+        "Target": "刘星",
+        "Aspect": "交流",
+        "Opinion": "需要谈话",
+        "Sentiment": "neutral",
+        "Rationale": "说话人打算与刘星进行一次认真的谈话，表现出一种平和的交流态度"
+    },
+    {
+        "sentence": "刘星，上次你做了好事儿，妈没及时表扬你，还冷落了你，对不起啊。但是你今天的做法太让妈失望了，你怎么能眼看着二胖挨打不管呢？你这可不是个好孩子，也不像妈妈的孩子。",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "对刘星行为的评价",
+        "Opinion": "失望",
+        "Sentiment": "negative",
+        "Rationale": "刘星上次做好事没有得到及时表扬还被冷落"
+    },
+    {
+        "sentence": "刘星啊，妈妈说的很对，真正的男子汉遇到这种情况，可一定会挺身而出的。",
+        "Holder": "5",
+        "Target": "刘星的行为",
+        "Aspect": "男子汉应有的行为",
+        "Opinion": "支持妈妈的观点",
+        "Sentiment": "positive",
+        "Rationale": "认为真正的男子汉应该挺身而出"
+    },
+    {
+        "sentence": "其实二胖挨打的时候，我也挺难过的，过后我也特别的后悔。只不过那时候我正和妈赌气呢。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "对二胖挨打的反应",
+        "Opinion": "难过和后悔",
+        "Sentiment": "negative",
+        "Rationale": "看到二胖挨打感到难过，过后又当时和妈妈赌气没有帮忙而感到后悔"
+    },
+    {
+        "sentence": "以后不许跟妈赌气了，你以后有什么想法就跟妈说，妈肯定好好听好吗？那走，咱上二胖家给二胖道个歉好不好？",
+        "Holder": "4",
+        "Target": "刘星的行为",
+        "Aspect": "与妈妈的沟通和道歉",
+        "Opinion": "希望刘星改变",
+        "Sentiment": "positive",
+        "Rationale": "希望刘星不再和自己赌气，能够坦诚沟通"
+    }
+]

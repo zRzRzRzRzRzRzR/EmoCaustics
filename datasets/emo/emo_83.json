@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭冲突与否认诈骗指控",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝儿子干涉个人事务", "source_id": "3"},
+          {"state": "neutral", "reason": "面对警察身份确认的配合态度", "source_id": "2"},
+          {"state": "negative", "reason": "被怀疑诈骗时的强烈否认", "source_id": "2"},
+          {"state": "positive", "reason": "相信黄金投资可靠性", "source_id": "4"},
+          {"state": "negative", "reason": "发现提现异常但坚持操作", "source_id": "4"},
+          {"state": "negative", "reason": "意识到被诈骗后的恐慌", "source_id": "3,2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "执行反诈预警任务",
+        "emotions": [
+          {"state": "neutral", "reason": "例行身份核查与地址确认", "source_id": "3"},
+          {"state": "ambiguous", "reason": "初步怀疑老人涉案", "source_id": "1"},
+          {"state": "neutral", "reason": "科普诈骗防范知识", "source_id": "1"},
+          {"state": "positive", "reason": "承诺挽回受害者损失", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "干预父亲高风险行为",
+        "emotions": [
+          {"state": "negative", "reason": "质疑父亲手机操作", "source_id": "1"},
+          {"state": "negative", "reason": "揭穿黄金投资骗局", "source_id": "1"},
+          {"state": "positive", "reason": "建议寻求警方帮助", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "实施黄金洗钱诈骗",
+        "emotions": [
+          {"state": "negative", "reason": "强调项目保密性避免曝光", "source_id": "1"},
+          {"state": "neutral", "reason": "编造提现失败借口", "source_id": "1"},
+          {"state": "positive", "reason": "虚假承诺投资回报", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "反诈宣传教育",
+        "emotions": [
+          {"state": "positive", "reason": "主动提供反诈材料", "source_id": "1"},
+          {"state": "neutral", "reason": "解析黄金洗钱案例", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

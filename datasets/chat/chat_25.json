@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "妈妈妈，这这这这俩小孩到底是谁呀？穿那么土？长那么难干，傻了吧唧的",
+        "Holder": "1",
+        "Target": "俩小孩",
+        "Aspect": "外貌和穿着",
+        "Opinion": "土气、难看、傻",
+        "Sentiment": "negative",
+        "Rationale": "对俩小孩的外貌和穿着感到不满"
+    },
+    {
+        "sentence": "你谁傻了吧唧的？那女孩就是我小时候",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "言语的合理性",
+        "Opinion": "反驳1的评价",
+        "Sentiment": "negative",
+        "Rationale": "1对小时候的自己进行了贬低"
+    },
+    {
+        "sentence": "你说妈难看了你",
+        "Holder": "4",
+        "Target": "1的评价",
+        "Aspect": "言语的准确性",
+        "Opinion": "指出1的错误",
+        "Sentiment": "neutral",
+        "Rationale": "1的评价不准确"
+    },
+    {
+        "sentence": "我哪知道呀。妈这时候我出生了吗，我哪见过呀。",
+        "Holder": "1",
+        "Target": "自己的认知",
+        "Aspect": "对事件的了解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对事件不了解"
+    },
+    {
+        "sentence": "妈，您旁边这小帅哥是谁啊？",
+        "Holder": "1",
+        "Target": "小帅哥",
+        "Aspect": "外貌",
+        "Opinion": "帅气",
+        "Sentiment": "positive",
+        "Rationale": "对小帅哥的外貌感到满意"
+    },
+    {
+        "sentence": "哈哈，刘星，你刚才还说傻了吧唧的，怎么现在就变成小帅哥啦？",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "外貌变化",
+        "Opinion": "从傻到帅",
+        "Sentiment": "positive",
+        "Rationale": "刘星的外貌从被认为傻变得被认为帅"
+    },
+    {
+        "sentence": "当年能和我妈一块照相的不是帅哥成嘛，是吧？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "外貌评价",
+        "Opinion": "是帅哥",
+        "Sentiment": "positive",
+        "Rationale": "认为能和妈妈一起照相的人一定是帅哥"
+    },
+    {
+        "sentence": "呦，甭管帅不帅，我还真想不起来了，这小男孩他到底是谁。",
+        "Holder": "2",
+        "Target": "小男孩",
+        "Aspect": "身份确认",
+        "Opinion": "不记得",
+        "Sentiment": "neutral",
+        "Rationale": "确实不记得这个小男孩是谁"
+    },
+    {
+        "sentence": "你也不知道啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对小男孩身份的了解",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "发现2也不知道小男孩的身份"
+    },
+    {
+        "sentence": "快点出来，小雪，刘星，小雨",
+        "Holder": "3",
+        "Target": "小雪, 刘星, 小雨",
+        "Aspect": "行动要求",
+        "Opinion": "快点出来",
+        "Sentiment": "neutral",
+        "Rationale": "需要他们快点出来"
+    },
+    {
+        "sentence": "过来，快点快点。",
+        "Holder": "2",
+        "Target": "其他人",
+        "Aspect": "行动速度",
+        "Opinion": "催促",
+        "Sentiment": "neutral",
+        "Rationale": "需要其他人快点过来"
+    },
+    {
+        "sentence": "我和妈妈准备借助一下你们的活跃思维，帮我们分析分析这封信。",
+        "Holder": "3",
+        "Target": "其他人",
+        "Aspect": "思维能力",
+        "Opinion": "期待帮助",
+        "Sentiment": "positive",
+        "Rationale": "希望得到他人的帮助"
+    },
+    {
+        "sentence": "对，给我一点灵感，让我想想这人到底是谁。",
+        "Holder": "2",
+        "Target": "灵感",
+        "Aspect": "思考过程",
+        "Opinion": "需要灵感",
+        "Sentiment": "neutral",
+        "Rationale": "需要灵感来思考问题"
+    },
+    {
+        "sentence": "一天了，都到晚了，您还没想起来呢啊。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "记忆能力",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "2花了很长时间还没想起来"
+    },
+    {
+        "sentence": "就是什么呀？想起来还用叫你们来啊？",
+        "Holder": "3",
+        "Target": "叫人来",
+        "Aspect": "叫人的必要性",
+        "Opinion": "不需要叫人来",
+        "Sentiment": "negative",
+        "Rationale": "觉得事情简单不需要叫人来"
+    },
+    {
+        "sentence": "听好了，亲爱的刘梅同学你好",
+        "Holder": "3",
+        "Target": "刘梅同学",
+        "Aspect": "称呼方式",
+        "Opinion": "友好称呼",
+        "Sentiment": "positive",
+        "Rationale": "使用了亲切的称呼方式"
+    },
+    {
+        "sentence": "我知道了，是我妈同学。",
+        "Holder": "1",
+        "Target": "刘梅同学",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "确认了刘梅同学的身份"
+    },
+    {
+        "sentence": "我还不知道是我同学，我就想知道是哪个同学。",
+        "Holder": "2",
+        "Target": "刘梅同学",
+        "Aspect": "具体身份",
+        "Opinion": "想知道具体身份",
+        "Sentiment": "neutral",
+        "Rationale": "对刘梅同学的具体身份好奇"
+    },
+    {
+        "sentence": "别打岔，爸，您接着念。",
+        "Holder": "1",
+        "Target": "2的打岔",
+        "Aspect": "打断行为",
+        "Opinion": "不希望被打断",
+        "Sentiment": "negative",
+        "Rationale": "被打断感到不耐烦"
+    },
+    {
+        "sentence": "一转眼三十多年过去了，别来无恙吧。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "身体状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "长时间未见"
+    },
+    {
+        "sentence": "什么叫别来无恙啊？",
+        "Holder": "1",
+        "Target": "3的表达",
+        "Aspect": "用词理解",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不理解‘别来无恙’的意思"
+    },
+    {
+        "sentence": "就是拜拜了，不见面以后，你没得什么病吧？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "健康状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "长时间未见"
+    },
+    {
+        "sentence": "妈是没得别的病，就是有点健忘",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "健康状况",
+        "Opinion": "轻微问题",
+        "Sentiment": "neutral",
+        "Rationale": "提到母亲有轻微的健忘问题，但总体健康"
+    },
+    {
+        "sentence": "我费尽周折，千辛万苦终于查到了你现在的住址，真是重力寻你千百度，踏破铁鞋无觅处，回首一望却原来你就在幸福小区楼里住。",
+        "Holder": "3",
+        "Target": "找到1的过程",
+        "Aspect": "寻找的艰辛",
+        "Opinion": "感慨",
+        "Sentiment": "positive",
+        "Rationale": "经过长时间的辛苦寻找终于找到对方"
+    },
+    {
+        "sentence": "这孩子够贫的",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "说话方式",
+        "Opinion": "话多",
+        "Sentiment": "negative",
+        "Rationale": "孩子说话太多，显得啰嗦"
+    },
+    {
+        "sentence": "什么这孩子，怎么说话，没准现在他比咱爸还高大。",
+        "Holder": "1",
+        "Target": "孩子",
+        "Aspect": "身高和说话方式",
+        "Opinion": "可能比咱爸还高大",
+        "Sentiment": "neutral",
+        "Rationale": "认为孩子的身高可能已经超过父亲"
+    },
+    {
+        "sentence": "你还记得当年的火热理想吗？还记得我们那个比海誓山盟还海誓山盟的约定，不久我们就会见面，共同兑现儿时的一个承诺。看到照片你一定知道我是谁",
+        "Holder": "3",
+        "Target": "当年的理想和约定",
+        "Aspect": "记忆和承诺",
+        "Opinion": "期待兑现",
+        "Sentiment": "positive",
+        "Rationale": "回忆起当年的理想和约定，充满期待和激动"
+    },
+    {
+        "sentence": "你不签名我知道你是谁呀。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "身份识别",
+        "Opinion": "需要签名才能知道",
+        "Sentiment": "neutral",
+        "Rationale": "不知道对方是谁"
+    },
+    {
+        "sentence": "你小时候都跟谁有过共同理想？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "共同理想的对象",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想确认对方是否记得当年的共同理想"
+    },
+    {
+        "sentence": "我有共同理想的多了，我先跟我们班李娟，想当小学老师。",
+        "Holder": "2",
+        "Target": "共同理想",
+        "Aspect": "理想的数量和内容",
+        "Opinion": "有很多共同理想",
+        "Sentiment": "neutral",
+        "Rationale": "提到有很多共同理想，但没有表现出特别的情感倾向"
+    },
+    {
+        "sentence": "嗯，想喜欢谁就喜欢谁，想偏向谁就偏向谁。后来我又跟我们班李军有一共同理想。嗯，我们想呢，一块长大了当火车司机，想上哪就上哪，想去多远就去多远，你想吧，一天一变好几个。",
+        "Holder": "2",
+        "Target": "共同理想",
+        "Aspect": "理想的内容和变化",
+        "Opinion": "理想多变且自由",
+        "Sentiment": "positive",
+        "Rationale": "描述了理想的自由和多变，表现出对理想的积极态度"
+    },
+    {
+        "sentence": "嘿，闹了半天，我这毛病是从您这来的",
+        "Holder": "1",
+        "Target": "毛病",
+        "Aspect": "毛病的来源",
+        "Opinion": "毛病来自对方",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的毛病是对方引起的，带有一定的责怪意味"
+    },
+    {
+        "sentence": "那您曾经跟谁约定过什么？总该记得吧？",
+        "Holder": "1",
+        "Target": "曾经的约定",
+        "Aspect": "约定的记忆",
+        "Opinion": "应该记得",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方是否记得曾经的约定，没有表现出特别的情感倾向"
+    },
+    {
+        "sentence": "那你妈可没准也记不住啊。你妈这约定跟那理想一样，今天约这个，明天约那个，她上哪记得住啊？",
+        "Holder": "3",
+        "Target": "你妈的约定",
+        "Aspect": "约定的记忆",
+        "Opinion": "记不住",
+        "Sentiment": "negative",
+        "Rationale": "认为你妈的约定太多且频繁变化，导致记不住，带有一定的批评意味"
+    },
+    {
+        "sentence": "那您答应过别人什么？",
+        "Holder": "1",
+        "Target": "2的承诺",
+        "Aspect": "承诺内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行普通的询问，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "比如说答应谁长大了要嫁给人家。",
+        "Holder": "3",
+        "Target": "2的承诺",
+        "Aspect": "承诺对象",
+        "Opinion": "具体承诺",
+        "Sentiment": "neutral",
+        "Rationale": "3只是提出一个假设性的问题，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "这个我倒没答应过很多人。",
+        "Holder": "2",
+        "Target": "承诺的数量",
+        "Aspect": "承诺的范围",
+        "Opinion": "承诺不多",
+        "Sentiment": "neutral",
+        "Rationale": "因为2在客观陈述事实，没有表现出明显的情感波动，所以情绪是中立的"
+    },
+    {
+        "sentence": "只记得答应过我们院子里的小胖子，他爸妈老吵架，一吵他就哭。",
+        "Holder": "2",
+        "Target": "小胖子的家庭状况",
+        "Aspect": "家庭环境",
+        "Opinion": "家庭不和",
+        "Sentiment": "negative",
+        "Rationale": "因为2描述的是小胖子家庭的负面情况，这种描述自然会带有一些负面情绪"
+    },
+    {
+        "sentence": "我就安慰他说，别哭了，长大了跟我结婚，我保证不跟你打架。",
+        "Holder": "2",
+        "Target": "对小胖子的安慰",
+        "Aspect": "安慰方式",
+        "Opinion": "承诺安慰",
+        "Sentiment": "positive",
+        "Rationale": "因为2是在用积极的方式安慰小胖子，表现出一种善意和关怀"
+    },
+    {
+        "sentence": "肯定是那个小李胖子，等了你30多年。",
+        "Holder": "3",
+        "Target": "小李胖子的等待",
+        "Aspect": "等待时间",
+        "Opinion": "长期等待",
+        "Sentiment": "positive",
+        "Rationale": "因为3在调侃中透露出对小李胖子长期等待的认可，带有一些正面情绪"
+    },
+    {
+        "sentence": "别总往感情上想，也可能是经济问题。",
+        "Holder": "1",
+        "Target": "问题的性质",
+        "Aspect": "问题原因",
+        "Opinion": "可能是经济原因",
+        "Sentiment": "neutral",
+        "Rationale": "因为1在客观地提出另一种可能性，没有明显的情感倾向"
+    },
+    {
+        "sentence": "对，您向没向别人借过钱？",
+        "Holder": "4",
+        "Target": "2的借钱行为",
+        "Aspect": "借钱经历",
+        "Opinion": "询问是否有借钱经历",
+        "Sentiment": "neutral",
+        "Rationale": "4只是在进行一个普通的询问，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "借钱。我小时候可没这毛病。",
+        "Holder": "2",
+        "Target": "自己的借钱行为",
+        "Aspect": "借钱习惯",
+        "Opinion": "否认有借钱习惯",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己小时候没有借钱的习惯，表现出一种自豪和自信的情绪"
+    },
+    {
+        "sentence": "那可不一定，比如说您哪天一出校门看人，别的同学都一人举一根冰棍，您就馋了，您兜里还没钱，指不定管您身边哪个同学借了点钱就买冰棍去了，一直没还上去",
+        "Holder": "1",
+        "Target": "2的借钱行为",
+        "Aspect": "借钱可能性",
+        "Opinion": "认为2可能有借钱行为",
+        "Sentiment": "neutral",
+        "Rationale": "1在描述一种假设的情况，并没有表现出明显的情感倾向"
+    }
+]

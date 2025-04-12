@@ -1,0 +1,41 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "城市公共空间多感官研究现状分析",
+        "emotions": [
+          {"state": "neutral", "reason": "阐述城市开放空间基础功能", "source_id": "1"},
+          {"state": "negative", "reason": "指出当前设计中感官因素考虑不足", "source_id": "1"},
+          {"state": "positive", "reason": "强调嗅听交互研究的创新价值", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "嗅觉环境研究技术突破",
+        "emotions": [
+          {"state": "positive", "reason": "展示嗅觉测量技术进步", "source_id": "1"},
+          {"state": "positive", "reason": "论证嗅觉感知的情感独特性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "感官交互实验成果应用",
+        "emotions": [
+          {"state": "neutral", "reason": "描述实验室控制变量方法", "source_id": "1"},
+          {"state": "positive", "reason": "验证嗅听因素协同设计价值", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "低幸福感群体声景感知研究",
+        "emotions": [
+          {"state": "neutral", "reason": "采用WHO心理健康评估标准", "source_id": "3"},
+          {"state": "neutral", "reason": "发现35.6%亚幸福群体比例", "source_id": "3"},
+          {"state": "neutral", "reason": "揭示年龄与空间偏好相关性", "source_id": "3"},
+          {"state": "neutral", "reason": "验证声学特征驱动空间选择", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

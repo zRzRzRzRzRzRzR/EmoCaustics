@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "恋爱关系中的长期等待与遗憾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "异地导致分手/学业选择牺牲感情/持续性等待消耗情感",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受中国式乖孩子的行为模式",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "技术对记忆与情感的冲击",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "AI无法替代真人情感/过度依赖导致记忆退化/技术反噬风险",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "发现记忆的珍贵性本质",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "记忆存在的普世价值论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调个体记忆的独特性价值",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "普通人记忆留存困境",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "记忆必要性的哲学辩证",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

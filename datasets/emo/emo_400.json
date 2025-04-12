@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "考试成绩真实性争议",
+        "emotions": [
+          {"state": "positive", "reason": "考试得第一被质疑真实性", "source_id": "2"},
+          {"state": "negative", "reason": "因作弊前科遭集体怀疑", "source_id": "2,3"},
+          {"state": "neutral", "reason": "要求提供作弊证据", "source_id": "2"},
+          {"state": "positive", "reason": "通过答题验证能力", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "逃学事件处理",
+        "emotions": [
+          {"state": "neutral", "reason": "解释逃学原因", "source_id": "4"},
+          {"state": "negative", "reason": "被母亲追查逃学去向", "source_id": "2"},
+          {"state": "positive", "reason": "获得父亲理解支持", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女教育方式冲突",
+        "emotions": [
+          {"state": "negative", "reason": "发现考试作弊行为", "source_id": "1"},
+          {"state": "positive", "reason": "主张严格教育制度", "source_id": "3"},
+          {"state": "negative", "reason": "因误判需向子女道歉", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭制度建立过程",
+        "emotions": [
+          {"state": "negative", "reason": "反对物质奖励机制", "source_id": "2"},
+          {"state": "neutral", "reason": "设计验证考试方案", "source_id": "1"},
+          {"state": "positive", "reason": "发现教学关联证据", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "亲子信任关系重建",
+        "emotions": [
+          {"state": "negative", "reason": "被前妻质疑教育方式", "source_id": "2"},
+          {"state": "positive", "reason": "支持儿子证明清白", "source_id": "1"},
+          {"state": "neutral", "reason": "协调家庭矛盾", "source_id": "2,3"}
+        ]
+      }
+    ]
+  }
+}

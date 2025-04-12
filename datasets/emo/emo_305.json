@@ -1,0 +1,81 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "时尚多样性座谈会开场与流程主持",
+        "emotions": [
+          {"state": "neutral", "reason": "介绍座谈会目的和流程", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "多样性讨论引导与议题深化",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑多样性是否属于短期潮流", "source_id": "1"},
+          {"state": "neutral", "reason": "平衡各嘉宾观点进行流程控制", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "诗歌表演阐释多样性本质",
+        "emotions": [
+          {"state": "positive", "reason": "强调多样性是社会的真实反映", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "肤色鞋款商业实践",
+        "emotions": [
+          {"state": "negative", "reason": "反对将肤色视为短期潮流", "source_id": "3"},
+          {"state": "positive", "reason": "坚持多样性商业理念持续发展", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "选美行业改革倡议",
+        "emotions": [
+          {"state": "negative", "reason": "揭露选美行业系统性缺陷", "source_id": "4"},
+          {"state": "positive", "reason": "推动泳装环节取消与领导层改革", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "黑镜项目社会影响",
+        "emotions": [
+          {"state": "positive", "reason": "项目意外获得全球共鸣与媒体关注", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "时尚教育体系革新",
+        "emotions": [
+          {"state": "positive", "reason": "推动管理课程性别平衡与跨文化能力培养", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "非洲设计师职业突破",
+        "emotions": [
+          {"state": "positive", "reason": "突破家庭期待建立监狱职业技能项目", "source_id": "10"}
+        ]
+      }
+    ]
+  }
+}

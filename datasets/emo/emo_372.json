@@ -1,0 +1,79 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "凉粉数量争议",
+        "emotions": [
+          {"state": "negative", "reason": "指控对方未足额支付", "source_id": "2"},
+          {"state": "neutral", "reason": "确认食用数量与支付合理性", "source_id": "2,3"},
+          {"state": "positive", "reason": "确认对方实际消费量后态度缓和", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "公平性追求",
+        "emotions": [
+          {"state": "neutral", "reason": "强调县长需维持公平", "source_id": "2"},
+          {"state": "negative", "reason": "质疑县长儿子行为破坏公平", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "六爷死亡责任归属",
+        "emotions": [
+          {"state": "negative", "reason": "指控他人导致六爷死亡", "source_id": "2,3"},
+          {"state": "neutral", "reason": "接受死亡为赌约结果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "凉粉支付纠纷",
+        "emotions": [
+          {"state": "negative", "reason": "否认超额消费指控", "source_id": "1"},
+          {"state": "positive", "reason": "强调按实际消费支付原则", "source_id": "1"},
+          {"state": "doubt", "reason": "要求验证实际消费量", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "六爷事件立场",
+        "emotions": [
+          {"state": "ambiguous", "reason": "辩解六爷死亡为自杀", "source_id": "1,3"},
+          {"state": "negative", "reason": "承受赌约失败的后果", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "六爷信誉维护",
+        "emotions": [
+          {"state": "negative", "reason": "质疑指控六爷欠款", "source_id": "1"},
+          {"state": "negative", "reason": "反对杀人解决问题", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "杀人行为合理化",
+        "emotions": [
+          {"state": "negative", "reason": "支持通过杀人解决问题", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "凉粉性质探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "探究凉粉物理状态", "source_id": "1"},
+          {"state": "negative", "reason": "恐惧杀人诛心行为", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

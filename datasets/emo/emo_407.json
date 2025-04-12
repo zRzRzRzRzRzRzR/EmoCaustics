@@ -1,0 +1,70 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭聚餐邀请与反应",
+        "emotions": [
+          {"state": "negative", "reason": "未被邀请用餐", "source_id": "2"},
+          {"state": "positive", "reason": "接受用餐邀请", "source_id": "2"},
+          {"state": "negative", "reason": "极度饥饿状态", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "星座信仰转变过程",
+        "emotions": [
+          {"state": "negative", "reason": "自认生活迷失方向", "source_id": "1"},
+          {"state": "positive", "reason": "通过星座重获激情", "source_id": "1"},
+          {"state": "negative", "reason": "违背星座原则的自我否定", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "话剧体验与星座关联",
+        "emotions": [
+          {"state": "positive", "reason": "话剧印证星座准确性", "source_id": "1"},
+          {"state": "negative", "reason": "星座性格不匹配导致悲剧", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "化妆品代言面试结果",
+        "emotions": [
+          {"state": "positive", "reason": "星座预测带来成功自信", "source_id": "1"},
+          {"state": "ambiguous", "reason": "对3号成功消息的震惊", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭成员关系处理",
+        "emotions": [
+          {"state": "positive", "reason": "体贴安排用餐", "source_id": "1"},
+          {"state": "negative", "reason": "认定星座信仰为迷信", "source_id": "1"},
+          {"state": "negative", "reason": "对反复讨论星座的不耐烦", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "重大人生突破事件",
+        "emotions": [
+          {"state": "positive", "reason": "面试成功后的自我肯定", "source_id": "3"},
+          {"state": "positive", "reason": "成功带来的不真实感", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "星座文化批判讨论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑星座书可信度", "source_id": "1"},
+          {"state": "neutral", "reason": "探索话剧真实性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

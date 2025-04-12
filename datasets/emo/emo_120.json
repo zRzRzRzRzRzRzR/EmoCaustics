@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "老照片身份识别争议",
+        "emotions": [
+          {"state": "negative", "reason": "贬低童年形象", "source_id": "2,4"},
+          {"state": "positive", "reason": "发现母亲与帅哥合影", "source_id": "1"},
+          {"state": "neutral", "reason": "确认母亲同学身份", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭经济问题探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "推测经济纠纷可能性", "source_id": "3"},
+          {"state": "positive", "reason": "否定母亲借贷习惯", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "童年承诺追溯",
+        "emotions": [
+          {"state": "neutral", "reason": "回忆多个共同理想", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑承诺真实性", "source_id": "3"},
+          {"state": "positive", "reason": "讲述安慰小胖子经历", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "神秘信件分析",
+        "emotions": [
+          {"state": "positive", "reason": "成功找到收件人地址", "source_id": "3"},
+          {"state": "negative", "reason": "被批评语言冗长", "source_id": "4"},
+          {"state": "neutral", "reason": "询问童年约定细节", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭互动观察",
+        "emotions": [
+          {"state": "neutral", "reason": "指出评价错误", "source_id": "1"},
+          {"state": "negative", "reason": "批评语言风格", "source_id": "3"},
+          {"state": "neutral", "reason": "协助经济问题分析", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

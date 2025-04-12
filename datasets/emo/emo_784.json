@@ -1,0 +1,102 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对一航学长的情感纠结与自我否定",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "因自身普通感到自卑、认为与学长差距过大、担忧感情无望",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受医生建议直接沟通",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "闺蜜相处模式引发的争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被指责伤害闺蜜、遭到情感排斥",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "强调心直口快的性格特质",
+            "source_id": "self"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "情感立场表态与关系维护",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "接受邀约并展现好感",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "指责2伤害闺蜜、否定他人行为习惯",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认可他人真实性格的可爱之处",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "医患关系与情感指导",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "提供病情好转信息、推荐有效产品",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "建议直接沟通解决情感问题",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "长期暗恋的情感突破",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "成功获得学长关注与邀约机会",
+            "source_id": "4"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对快速情感进展产生疑虑",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

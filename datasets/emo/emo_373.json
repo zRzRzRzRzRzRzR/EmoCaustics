@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "宠物饲养的益处与个人选择",
+        "emotions": [
+          {"state": "neutral", "reason": "主持讨论并强调个人选择的重要性", "source_id": "1"},
+          {"state": "positive", "reason": "强调宠物对儿童教育的价值", "source_id": "1"},
+          {"state": "positive", "reason": "分享宠物促进身体活动的具体案例", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭与宠物的情感纽带建立",
+        "emotions": [
+          {"state": "neutral", "reason": "介绍家庭养狗历史", "source_id": "2"},
+          {"state": "positive", "reason": "描述宠物直接情感表达方式", "source_id": "2"},
+          {"state": "positive", "reason": "强调宠物对特殊人群的情感价值", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "宠物饲养的个性化体验",
+        "emotions": [
+          {"state": "neutral", "reason": "提出无孩人群需求分析", "source_id": "3"},
+          {"state": "positive", "reason": "分享养兔子的治愈体验", "source_id": "3"},
+          {"state": "positive", "reason": "强调宠物与自然世界的联系", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "宠物健康管理的专业视角",
+        "emotions": [
+          {"state": "neutral", "reason": "强调宠物环境要求", "source_id": "4"},
+          {"state": "positive", "reason": "列举宠物健康益处", "source_id": "4"},
+          {"state": "neutral", "reason": "提出宠物医疗建议", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

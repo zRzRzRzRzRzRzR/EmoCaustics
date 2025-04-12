@@ -1,0 +1,92 @@
+[
+    {
+        "sentence": "什么二十几层楼只有一个有露台对不对？所以你要爆发肯定的，但是你说销售额，我们有的朋友做盆景直播的，一晚上卖50万很正常，你不用卖几个的，卖个十几二十个就够了。",
+        "Holder": "1",
+        "Target": "盆景直播销售额",
+        "Aspect": "销售数量与销售额的关系",
+        "Opinion": "少量销售也能达到高销售额",
+        "Sentiment": "positive",
+        "Rationale": "有朋友通过盆景直播一晚上能卖50万"
+    },
+    {
+        "sentence": "对抖音的用户人群是非常广的，它用户量也是非常大，",
+        "Holder": "2",
+        "Target": "抖音用户人群",
+        "Aspect": "用户人群的广泛性和用户量",
+        "Opinion": "用户人群广且用户量大",
+        "Sentiment": "positive",
+        "Rationale": "抖音的用户人群广泛且用户量大"
+    },
+    {
+        "sentence": "而且你看他直播就像他说的直播在线十几个人，",
+        "Holder": "1",
+        "Target": "直播在线人数",
+        "Aspect": "在线人数的多少",
+        "Opinion": "在线人数少",
+        "Sentiment": "neutral",
+        "Rationale": "提到直播在线只有十几个人"
+    },
+    {
+        "sentence": "会不会很泄气，那十几个人进来。",
+        "Holder": "2",
+        "Target": "直播在线人数少的情况",
+        "Aspect": "对在线人数少的感受",
+        "Opinion": "可能会感到泄气",
+        "Sentiment": "negative",
+        "Rationale": "直播在线人数少"
+    },
+    {
+        "sentence": "现在新人。",
+        "Holder": "2",
+        "Target": "新人",
+        "Aspect": "现状",
+        "Opinion": "存在新人",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述当前有新人的事实"
+    },
+    {
+        "sentence": "我跟你说你非常激动，都是用外在谈的，对吧？",
+        "Holder": "2",
+        "Target": "你",
+        "Aspect": "表达方式",
+        "Opinion": "激动且外在",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的表达方式过于激动且只关注外在"
+    },
+    {
+        "sentence": "一个盆景上来我们这边也是抢的，对不对？",
+        "Holder": "2",
+        "Target": "盆景",
+        "Aspect": "抢购现象",
+        "Opinion": "普遍抢购",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述盆景被抢购的现象"
+    },
+    {
+        "sentence": "他们拍可以比方说从这三五千开始抢，抢到一两万很正常，你看中了非常刺激的，比你卖9块9不知道刺激多少，",
+        "Holder": "2",
+        "Target": "抢购行为",
+        "Aspect": "价格变化",
+        "Opinion": "价格变化大且刺激",
+        "Sentiment": "positive",
+        "Rationale": "描述了抢购过程中价格的剧烈变化，认为这种变化非常刺激"
+    },
+    {
+        "sentence": "所以我觉得这个就没有声音这么大，就没有什么特别的对错之分对吧？",
+        "Holder": "2",
+        "Target": "抢购行为",
+        "Aspect": "对错判断",
+        "Opinion": "没有特别对错",
+        "Sentiment": "neutral",
+        "Rationale": "认为抢购行为没有特别的对错之分"
+    },
+    {
+        "sentence": "我是学经济的，他是死的吗？二十几层楼只有一个。",
+        "Holder": "2",
+        "Target": "经济现象",
+        "Aspect": "稀缺性",
+        "Opinion": "稀缺",
+        "Sentiment": "neutral",
+        "Rationale": "从经济学的角度描述了物品的稀缺性"
+    }
+]

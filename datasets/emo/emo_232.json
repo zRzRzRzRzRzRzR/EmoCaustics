@@ -1,0 +1,94 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "音乐创作动机与灵感探索",
+        "emotions": [
+          {"state": "neutral", "reason": "询问创作灵感来源", "source_id": "2"},
+          {"state": "neutral", "reason": "探讨专业与业余创作差异", "source_id": "3"},
+          {"state": "neutral", "reason": "关注未来合作方向", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "应对行业评价与粉丝互动",
+        "emotions": [
+          {"state": "neutral", "reason": "处理负面评论的态度探讨", "source_id": "2,4,5"},
+          {"state": "neutral", "reason": "关注现场演出反馈价值", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "创作理念形成过程",
+        "emotions": [
+          {"state": "positive", "reason": "强调情感驱动创作", "source_id": "1"},
+          {"state": "positive", "reason": "肯定真实情感价值", "source_id": "4"},
+          {"state": "neutral", "reason": "接受无意义歌曲存在", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "团队合作模式转型",
+        "emotions": [
+          {"state": "neutral", "reason": "适应多人协作模式", "source_id": "5"},
+          {"state": "positive", "reason": "坚持四人核心创作", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "行业地位认知调整",
+        "emotions": [
+          {"state": "positive", "reason": "保持爱尔兰式谦逊", "source_id": "3"},
+          {"state": "neutral", "reason": "平衡名声与创作关系", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "创作真实性验证",
+        "emotions": [
+          {"state": "positive", "reason": "确认情感驱动理论", "source_id": "2"},
+          {"state": "neutral", "reason": "分析乐器选择本质", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "团队协作机制强化",
+        "emotions": [
+          {"state": "positive", "reason": "建立成员互警机制", "source_id": "2,5"},
+          {"state": "positive", "reason": "优化设备管理策略", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "艺术评价体系重构",
+        "emotions": [
+          {"state": "positive", "reason": "重视粉丝直接反馈", "source_id": "5"},
+          {"state": "neutral", "reason": "理性处理专业评论", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "音乐社区生态建设",
+        "emotions": [
+          {"state": "positive", "reason": "强化爱尔兰互助传统", "source_id": "4"},
+          {"state": "positive", "reason": "维持长期合作关系", "source_id": "2,3,4"}
+        ]
+      },
+      {
+        "event": "创作工具认知进化",
+        "emotions": [
+          {"state": "positive", "reason": "实现设备品牌合作", "source_id": "3,4"},
+          {"state": "neutral", "reason": "平衡新旧设备价值", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "瓶子归属争议",
+        "emotions": [
+          {"state": "positive", "reason": "计划利用瓶子让戴明明求助", "source_id": "1"},
+          {"state": "negative", "reason": "因被戴明明伤害而意图报复", "source_id": "4"},
+          {"state": "negative", "reason": "被母亲怀疑欺骗行为", "source_id": "4,5"},
+          {"state": "neutral", "reason": "坦白瓶子真实来源", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "对峙与坦白",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑母亲是否真正信任自己", "source_id": "4"},
+          {"state": "neutral", "reason": "被迫参与对峙澄清事实", "source_id": "2,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "证词确认过程",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑涉及文物事件", "source_id": "4"},
+          {"state": "positive", "reason": "愿意当面对峙证清白", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "文物危机处理",
+        "emotions": [
+          {"state": "negative", "reason": "担忧文物安全风险", "source_id": "5"},
+          {"state": "positive", "reason": "试图挽救潜在危机", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭教育干预",
+        "emotions": [
+          {"state": "neutral", "reason": "发现异常行为展开调查", "source_id": "5"},
+          {"state": "negative", "reason": "确认孩子涉及敏感事件", "source_id": "1,5"},
+          {"state": "positive", "reason": "通过对话解决家庭危机", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "晚餐社交互动",
+        "emotions": [
+          {"state": "positive", "reason": "热情邀请邻居共进晚餐", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "文物保护行动",
+        "emotions": [
+          {"state": "negative", "reason": "发现文物安全隐患", "source_id": "3"},
+          {"state": "positive", "reason": "协助家庭危机处理", "source_id": "4"},
+          {"state": "neutral", "reason": "推动事实核查流程", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

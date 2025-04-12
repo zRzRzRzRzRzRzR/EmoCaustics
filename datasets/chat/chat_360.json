@@ -1,0 +1,362 @@
+[
+    {
+        "sentence": "小雨给我站住你等着。",
+        "Holder": "3",
+        "Target": "小雨",
+        "Aspect": "行为",
+        "Opinion": "要求停下",
+        "Sentiment": "negative",
+        "Rationale": "对小雨的行为不满或需要与其沟通"
+    },
+    {
+        "sentence": "有什么事找我。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "沟通对象",
+        "Opinion": "要求找自己",
+        "Sentiment": "neutral",
+        "Rationale": "有事需要沟通"
+    },
+    {
+        "sentence": "你什么你戴的那是跟鹦鹉似的给我摘，",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "佩戴物",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "认为1佩戴的东西像鹦鹉，觉得不合适"
+    },
+    {
+        "sentence": "这是道具。",
+        "Holder": "3",
+        "Target": "道具",
+        "Aspect": "物品性质",
+        "Opinion": "说明物品是道具",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观陈述物品的性质"
+    },
+    {
+        "sentence": "你这唱的哪出戏，刘星。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "不理解1的行为"
+    },
+    {
+        "sentence": "不要叫我刘星。我现在叫福尔摩星。",
+        "Holder": "1",
+        "Target": "自己的名字",
+        "Aspect": "名字的更改",
+        "Opinion": "坚持新名字",
+        "Sentiment": "positive",
+        "Rationale": "对自己新名字的认同和自豪"
+    },
+    {
+        "sentence": "这位您唱侦探小说了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为性质",
+        "Opinion": "调侃行为",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的行为有趣"
+    },
+    {
+        "sentence": "本人近日一直在研究侦探学，我的师傅就是大名鼎鼎的福尔摩斯，",
+        "Holder": "1",
+        "Target": "自己的研究",
+        "Aspect": "研究内容",
+        "Opinion": "自豪地介绍",
+        "Sentiment": "positive",
+        "Rationale": "对自己研究的自豪和对师傅的敬仰"
+    },
+    {
+        "sentence": "我说福尔摩星先生您的推理肯定特厉害了，露两手给我们看看。",
+        "Holder": "4",
+        "Target": "福尔摩星先生",
+        "Aspect": "推理能力",
+        "Opinion": "推理能力特厉害",
+        "Sentiment": "positive",
+        "Rationale": "说话人4对福尔摩星先生的推理能力抱有很高的期待"
+    },
+    {
+        "sentence": "以后，你们就会有幸见识到的。",
+        "Holder": "1",
+        "Target": "福尔摩星先生的推理展示",
+        "Aspect": "展示时间",
+        "Opinion": "以后会展示",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1表示未来会有展示的机会"
+    },
+    {
+        "sentence": "别以后。",
+        "Holder": "4",
+        "Target": "福尔摩星先生的推理展示",
+        "Aspect": "展示时间",
+        "Opinion": "希望立即展示",
+        "Sentiment": "negative",
+        "Rationale": "说话人4希望立即看到推理展示，对延迟感到不满"
+    },
+    {
+        "sentence": "现在就给我们推一个怎么样？",
+        "Holder": "2",
+        "Target": "福尔摩星先生的推理展示",
+        "Aspect": "展示时间",
+        "Opinion": "希望立即展示",
+        "Sentiment": "positive",
+        "Rationale": "说话人2也希望能立即看到推理展示，表现出期待和兴奋的情绪"
+    },
+    {
+        "sentence": "以为推理就跟卖狗皮膏药似的，说来就来,",
+        "Holder": "4",
+        "Target": "推理",
+        "Aspect": "推理的随意性",
+        "Opinion": "推理很随意",
+        "Sentiment": "negative",
+        "Rationale": "认为推理被轻视，像卖狗皮膏药一样随意"
+    },
+    {
+        "sentence": "我给你出一个题目怎么样？你给我猜猜看，白菜是在哪个区买的。",
+        "Holder": "3",
+        "Target": "题目",
+        "Aspect": "题目的挑战性",
+        "Opinion": "提出挑战",
+        "Sentiment": "neutral",
+        "Rationale": "想通过出题目来挑战对方"
+    },
+    {
+        "sentence": "对哪个区。",
+        "Holder": "1",
+        "Target": "题目",
+        "Aspect": "题目的具体内容",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "需要明确题目内容"
+    },
+    {
+        "sentence": "想刁难我，我就让你们见识。",
+        "Holder": "3",
+        "Target": "对方的意图",
+        "Aspect": "对方的挑战态度",
+        "Opinion": "认为对方想刁难",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方有意刁难"
+    },
+    {
+        "sentence": "白菜4号把手放下",
+        "Holder": "4",
+        "Target": "白菜4号",
+        "Aspect": "行为要求",
+        "Opinion": "要求放下手",
+        "Sentiment": "neutral",
+        "Rationale": "需要对方放下手"
+    },
+    {
+        "sentence": "白菜早就剁成馅儿了，不过你可以对它进行实地采访。",
+        "Holder": "3",
+        "Target": "白菜",
+        "Aspect": "处理状态",
+        "Opinion": "已经剁成馅儿",
+        "Sentiment": "neutral",
+        "Rationale": "白菜已经处理完毕"
+    },
+    {
+        "sentence": "妈您今天是几点回来的？",
+        "Holder": "4",
+        "Target": "妈",
+        "Aspect": "回家时间",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问具体时间"
+    },
+    {
+        "sentence": "差不多6点。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "回家时间",
+        "Opinion": "大约6点",
+        "Sentiment": "neutral",
+        "Rationale": "只是回答具体时间"
+    },
+    {
+        "sentence": "对白菜和猪肉一块买的，",
+        "Holder": "3",
+        "Target": "白菜和猪肉的购买方式",
+        "Aspect": "购买方式",
+        "Opinion": "一起购买",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了购买方式，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "2",
+        "Target": "3的状态",
+        "Aspect": "疑问",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出疑问，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "答案出来了吗？",
+        "Holder": "3",
+        "Target": "答案",
+        "Aspect": "结果",
+        "Opinion": "期待结果",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问答案是否出来，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "当然答案就是白菜在东区买的，",
+        "Holder": "1",
+        "Target": "白菜的购买地点",
+        "Aspect": "地点",
+        "Opinion": "白菜在东区购买",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "你怎么知道的？",
+        "Holder": "1",
+        "Target": "4的知识来源",
+        "Aspect": "信息的获取方式",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1对4如何得知信息感到好奇"
+    },
+    {
+        "sentence": "这很简单，我师傅说过，这世界上每发生一件事它都有关联，只要你肯用心。",
+        "Holder": "1",
+        "Target": "事件关联性",
+        "Aspect": "事件的理解方式",
+        "Opinion": "事件有内在联系",
+        "Sentiment": "positive",
+        "Rationale": "1相信师傅的话，认为事件之间有联系"
+    },
+    {
+        "sentence": "我记得老妈上次在西区和卖肉的吵了一架，你跟人吵架了，",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "吵架事件",
+        "Opinion": "回忆吵架事件",
+        "Sentiment": "neutral",
+        "Rationale": "1在回忆并提及4的吵架事件"
+    },
+    {
+        "sentence": "他卖我肉都不新鲜了，我跟他退他还不乐意，",
+        "Holder": "4",
+        "Target": "卖肉的人",
+        "Aspect": "肉的新鲜度和态度",
+        "Opinion": "肉不新鲜且态度不好",
+        "Sentiment": "negative",
+        "Rationale": "卖肉的给4不新鲜的肉且拒绝退换"
+    },
+    {
+        "sentence": "我师傅说过有多少种人就有多少种办事的方法，要是小雪的话，她绝对会去那个卖肉地方再去买肉，",
+        "Holder": "1",
+        "Target": "办事方法多样性",
+        "Aspect": "处理问题的方式",
+        "Opinion": "不同人有不同方法",
+        "Sentiment": "positive",
+        "Rationale": "1认同师傅的观点，认为不同人有不同的处理方式"
+    },
+    {
+        "sentence": "你少说我",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的接受度",
+        "Opinion": "不希望被提及",
+        "Sentiment": "negative",
+        "Rationale": "2不喜欢被1提及或评论"
+    },
+    {
+        "sentence": "可是妈妈就不一样了，她宁可多走点路，也不会再见到那个讨厌的卖肉的，",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "对卖肉的态度",
+        "Opinion": "讨厌卖肉的",
+        "Sentiment": "negative",
+        "Rationale": "妈妈对卖肉的有负面印象"
+    },
+    {
+        "sentence": "可是妈妈跟往常一样是6:00准时回的家，这个。",
+        "Holder": "4",
+        "Target": "妈妈",
+        "Aspect": "回家时间",
+        "Opinion": "准时回家",
+        "Sentiment": "neutral",
+        "Rationale": "妈妈按照平时的习惯准时回家"
+    },
+    {
+        "sentence": "问题提得很好，东区路远，妈妈按平常速度回家的话，肯定不会在6点之前回到家，所以他就使劲吸，",
+        "Holder": "1",
+        "Target": "妈妈",
+        "Aspect": "回家速度",
+        "Opinion": "加快速度回家",
+        "Sentiment": "neutral",
+        "Rationale": "东区路远且妈妈需要在6点前回家"
+    },
+    {
+        "sentence": "因为他家里还有一群人等着他吃饭，",
+        "Holder": "3",
+        "Target": "妈妈",
+        "Aspect": "回家原因",
+        "Opinion": "家里有人等吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "家里有人等着吃饭"
+    },
+    {
+        "sentence": "你看见了你有什么证据，你对。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "证据",
+        "Opinion": "质疑对方的证据",
+        "Sentiment": "negative",
+        "Rationale": "对方没有提供足够的证据"
+    },
+    {
+        "sentence": "有什么证据",
+        "Holder": "3",
+        "Target": "1的观察",
+        "Aspect": "证据的可靠性",
+        "Opinion": "质疑证据",
+        "Sentiment": "doubt",
+        "Rationale": "3对1的观察结果表示怀疑"
+    },
+    {
+        "sentence": "因为您的习惯是每天回家先洗手，可是今天不光洗了手，还洗了脸，因为您比平常更累，比平常流的汗更多，所以您要清洗一下。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的原因",
+        "Opinion": "解释行为",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释4洗脸的原因"
+    },
+    {
+        "sentence": "你怎么知道我今天洗了脸了",
+        "Holder": "4",
+        "Target": "1的观察",
+        "Aspect": "观察的准确性",
+        "Opinion": "质疑观察",
+        "Sentiment": "doubt",
+        "Rationale": "4对1的观察结果表示怀疑"
+    },
+    {
+        "sentence": "因为我刚才在卫生间观察到您的洗面奶的盖没有盖，所以您刚刚用完。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的证据",
+        "Opinion": "提供证据",
+        "Sentiment": "neutral",
+        "Rationale": "1在提供观察到的事实作为证据"
+    },
+    {
+        "sentence": "妈你太辛苦了",
+        "Holder": "3",
+        "Target": "4的辛苦",
+        "Aspect": "劳动的付出",
+        "Opinion": "表达关心",
+        "Sentiment": "positive",
+        "Rationale": "3感受到4的辛苦"
+    }
+]

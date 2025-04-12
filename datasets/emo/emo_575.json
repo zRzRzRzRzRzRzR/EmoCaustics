@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "享受忙的必要性论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调享受忙需要学习", "source_id": "1"},
+          {"state": "neutral", "reason": "对比享受闲的天然性", "source_id": "1"},
+          {"state": "positive", "reason": "提出匠人精神方法论", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "亲子教育观念冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑辅导方式不合理", "source_id": "2"},
+          {"state": "positive", "reason": "强调享受亲子时光", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "享受闲的可行性质疑",
+        "emotions": [
+          {"state": "negative", "reason": "反对工作价值带入休闲", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑方法论可操作性", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "社会价值观批判",
+        "emotions": [
+          {"state": "negative", "reason": "反对KPI式人生标准", "source_id": "1"},
+          {"state": "positive", "reason": "倡导闲暇决定独特性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "工作态度连续性论证",
+        "emotions": [
+          {"state": "neutral", "reason": "分析情绪连续性特征", "source_id": "3"},
+          {"state": "positive", "reason": "强调工作态度对幸福感影响", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "工作心态异化自述",
+        "emotions": [
+          {"state": "negative", "reason": "发现用工作标准衡量生活", "source_id": "4"},
+          {"state": "negative", "reason": "群体性困惑的普遍性认知", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "社会文化改良倡议",
+        "emotions": [
+          {"state": "positive", "reason": "提出职场环境优化方案", "source_id": "5"},
+          {"state": "neutral", "reason": "应对可行性质疑", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "时代变迁论证",
+        "emotions": [
+          {"state": "neutral", "reason": "回顾改革开放价值观", "source_id": "7"},
+          {"state": "positive", "reason": "强调休闲制度发展成果", "source_id": "7"},
+          {"state": "negative", "reason": "揭示代际休闲能力断层", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "社会系统优化主张",
+        "emotions": [
+          {"state": "positive", "reason": "倡导社会整体变革", "source_id": "8"},
+          {"state": "negative", "reason": "批判原子化个体困境", "source_id": "8"}
+        ]
+      }
+    ]
+  }
+}

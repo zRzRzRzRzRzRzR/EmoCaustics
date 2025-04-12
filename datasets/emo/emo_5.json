@@ -1,0 +1,35 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "友谊信任危机",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "秘密被用于剧本创作且被塑造成反派",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "主动维持多年友谊并给予选择自由",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "经济纠纷与价值观冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "认为被算计且艺术理想被否定",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

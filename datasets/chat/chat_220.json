@@ -1,0 +1,560 @@
+[
+    {
+        "sentence": "你不是说只爱我吗！你竟然为了这个贱人打我！",
+        "Holder": "1",
+        "Target": "2的爱",
+        "Aspect": "爱的专一性",
+        "Opinion": "2背叛了爱",
+        "Sentiment": "negative",
+        "Rationale": "2违背了只爱1的承诺，并且为了别人打1"
+    },
+    {
+        "sentence": "爱你？你算什么东西，我爱你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的价值",
+        "Opinion": "1没有价值",
+        "Sentiment": "negative",
+        "Rationale": "2认为1不值得爱"
+    },
+    {
+        "sentence": "她宋晚凝才是我厉司寒一生挚爱，是我此生唯一的妻子！",
+        "Holder": "2",
+        "Target": "宋晚凝",
+        "Aspect": "爱的专一性",
+        "Opinion": "宋晚凝是唯一的爱",
+        "Sentiment": "positive",
+        "Rationale": "2对宋晚凝有深厚的感情"
+    },
+    {
+        "sentence": "妻子？没听李总结婚了，哪来的妻子啊？",
+        "Holder": "3",
+        "Target": "2的声明",
+        "Aspect": "声明的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "3没有听说李总结婚的消息"
+    },
+    {
+        "sentence": "不是厉总除了曼曼姐没有别的女人吗？",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "情感关系",
+        "Opinion": "质疑厉总是否有其他女人",
+        "Sentiment": "ambiguous",
+        "Rationale": "对厉总的情感关系存在疑问"
+    },
+    {
+        "sentence": "司寒哥哥，你骗我的，对不对？",
+        "Holder": "1",
+        "Target": "司寒",
+        "Aspect": "诚实",
+        "Opinion": "怀疑司寒在欺骗",
+        "Sentiment": "negative",
+        "Rationale": "怀疑司寒没有说实话"
+    },
+    {
+        "sentence": "你那么爱我，怎么可能会有老婆呢？",
+        "Holder": "1",
+        "Target": "司寒",
+        "Aspect": "情感专一",
+        "Opinion": "认为司寒只爱自己",
+        "Sentiment": "positive",
+        "Rationale": "相信司寒对自己的爱是唯一的"
+    },
+    {
+        "sentence": "厉总他刚刚送了曼曼姐几千万的别墅，他怎么会跟别的女人结婚啊。",
+        "Holder": "3",
+        "Target": "厉总",
+        "Aspect": "情感忠诚",
+        "Opinion": "认为厉总对曼曼姐忠诚",
+        "Sentiment": "positive",
+        "Rationale": "厉总对曼曼姐的大方表现"
+    },
+    {
+        "sentence": "对呀，厉总还为了曼曼姐过生日，还放了满城的烟花呢。",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "情感投入",
+        "Opinion": "认为厉总对曼曼姐非常用心",
+        "Sentiment": "positive",
+        "Rationale": "厉总为曼曼姐过生日所做的浪漫举动"
+    },
+    {
+        "sentence": "而且这小贱人的脸也是按照曼曼姐整的，厉总就是图一时新鲜吧。",
+        "Holder": "3",
+        "Target": "小贱人",
+        "Aspect": "外貌",
+        "Opinion": "模仿曼曼姐",
+        "Sentiment": "negative",
+        "Rationale": "认为小贱人的外貌是模仿曼曼姐，且认为厉总只是图一时新鲜"
+    },
+    {
+        "sentence": "司寒哥哥。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "亲昵",
+        "Sentiment": "neutral",
+        "Rationale": "1用亲昵的称呼叫2"
+    },
+    {
+        "sentence": "你叫我什么？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "称呼",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的称呼感到疑惑"
+    },
+    {
+        "sentence": "司寒哥哥！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "亲昵",
+        "Sentiment": "neutral",
+        "Rationale": "1再次用亲昵的称呼叫2"
+    },
+    {
+        "sentence": "你叫我什么！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "称呼",
+        "Opinion": "强调疑问",
+        "Sentiment": "negative",
+        "Rationale": "2对1的称呼感到不满"
+    },
+    {
+        "sentence": "厉司寒，她只不过是我的替身罢了，死了就死了！",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "身份和重要性",
+        "Opinion": "无足轻重",
+        "Sentiment": "negative",
+        "Rationale": "认为她只是替身"
+    },
+    {
+        "sentence": "你不是最爱我这张脸吗？我嫁给你就是了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "外貌和婚姻",
+        "Opinion": "自信且愿意结婚",
+        "Sentiment": "positive",
+        "Rationale": "认为对方最爱自己的外貌"
+    },
+    {
+        "sentence": "你也配嫁给我？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "婚姻资格",
+        "Opinion": "不配",
+        "Sentiment": "negative",
+        "Rationale": "认为1只是替身"
+    },
+    {
+        "sentence": "我爱的自始至终只有晚凝一个人，而你不过是我用来刺激晚凝的替身罢了！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "感情和身份",
+        "Opinion": "只是替身",
+        "Sentiment": "negative",
+        "Rationale": "只爱晚凝"
+    },
+    {
+        "sentence": "如果不是晚凝一直不愿意嫁给我，我怎么可能找你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "选择1的原因",
+        "Opinion": "因晚凝不愿嫁而选择1",
+        "Sentiment": "negative",
+        "Rationale": "晚凝不愿意嫁给他"
+    },
+    {
+        "sentence": "所以你对我的那些难道都是假的吗？",
+        "Holder": "1",
+        "Target": "2的感情",
+        "Aspect": "感情的真诚性",
+        "Opinion": "怀疑2的感情是假的",
+        "Sentiment": "negative",
+        "Rationale": "2提到是晚凝才选择她"
+    },
+    {
+        "sentence": "如果不是因为你这张脸跟晚凝有几分相似，我都不会多看你一眼。",
+        "Holder": "2",
+        "Target": "1的外貌",
+        "Aspect": "外貌的相似性",
+        "Opinion": "因外貌相似才关注1",
+        "Sentiment": "negative",
+        "Rationale": "1的外貌与晚凝相似"
+    },
+    {
+        "sentence": "所以我就只是供你取乐的玩具吗？",
+        "Holder": "1",
+        "Target": "自己在2心中的地位",
+        "Aspect": "地位的轻视",
+        "Opinion": "感觉自己被当作玩具",
+        "Sentiment": "negative",
+        "Rationale": "2只外貌相似而关注她"
+    },
+    {
+        "sentence": "晚凝才是我的爱人，而你只不过是个工具。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "在2心中的地位",
+        "Opinion": "1只是工具",
+        "Sentiment": "negative",
+        "Rationale": "心中只有晚凝"
+    },
+    {
+        "sentence": "难道这个女人真的是，真是厉总的妻子？",
+        "Holder": "3",
+        "Target": "这个女人",
+        "Aspect": "身份",
+        "Opinion": "怀疑是厉总的妻子",
+        "Sentiment": "ambiguous",
+        "Rationale": "对女人的身份不确定"
+    },
+    {
+        "sentence": "啊？厉总不会找我们算账吧？",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "可能的反应",
+        "Opinion": "担心厉总会找麻烦",
+        "Sentiment": "negative",
+        "Rationale": "担心厉总会对他们采取不利行动"
+    },
+    {
+        "sentence": "刚刚是谁伤害了晚凝？",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "受伤害的情况",
+        "Opinion": "询问伤害者",
+        "Sentiment": "neutral",
+        "Rationale": "需要了解是谁伤害了晚凝"
+    },
+    {
+        "sentence": "那就是你？",
+        "Holder": "2",
+        "Target": "说话人 3",
+        "Aspect": "是否为伤害者",
+        "Opinion": "确认是说话人 3",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人 3是伤害晚凝的人"
+    },
+    {
+        "sentence": "还是你啊？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "身份确认",
+        "Opinion": "质疑身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对3的身份产生疑问"
+    },
+    {
+        "sentence": "不是，不是，厉总，我不知道他是你的妻子啊，我不知道，你放过我们吧！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "知情与否",
+        "Opinion": "不知情",
+        "Sentiment": "negative",
+        "Rationale": "3不知道对方是2的妻子，担心因此受到责罚"
+    },
+    {
+        "sentence": "厉总，你大人不记小人过，就饶了我们吧！",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "请求宽恕",
+        "Opinion": "求饶",
+        "Sentiment": "negative",
+        "Rationale": "4意识到自己可能犯了错误，担心受到严厉的惩罚"
+    },
+    {
+        "sentence": "是啊，厉总，如果不是徐曼曼，我们根本不会来这儿的啊！",
+        "Holder": "3",
+        "Target": "徐曼曼",
+        "Aspect": "责任归属",
+        "Opinion": "归咎于徐曼曼",
+        "Sentiment": "negative",
+        "Rationale": "3认为徐曼曼是导致他们陷入困境的原因"
+    },
+    {
+        "sentence": "徐曼曼，你想怎么死？",
+        "Holder": "2",
+        "Target": "徐曼曼",
+        "Aspect": "威胁",
+        "Opinion": "威胁徐曼曼",
+        "Sentiment": "negative",
+        "Rationale": "2对徐曼曼的行为感到极度愤怒"
+    },
+    {
+        "sentence": "不，不是我，司寒哥哥，都是她们三个！宋晚凝姐姐身上的伤，都是她们三个弄的，和我没有关系！",
+        "Holder": "1",
+        "Target": "宋晚凝姐姐的伤",
+        "Aspect": "责任归属",
+        "Opinion": "与自己无关",
+        "Sentiment": "negative",
+        "Rationale": "被指责为责任人"
+    },
+    {
+        "sentence": "你胡说！",
+        "Holder": "3",
+        "Target": "1的辩解",
+        "Aspect": "真实性",
+        "Opinion": "认为1在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为1的辩解不真实"
+    },
+    {
+        "sentence": "我们明明警告过你，不要接近厉总的别墅，是你自己不听的！",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "警告的遵守",
+        "Opinion": "1没有遵守警告",
+        "Sentiment": "negative",
+        "Rationale": "1没有听从警告"
+    },
+    {
+        "sentence": "而且是你说厉夫人是你的替身，还教唆我们动手的！",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "教唆和指责",
+        "Opinion": "1教唆动手",
+        "Sentiment": "negative",
+        "Rationale": "认为1教唆了不良行为"
+    },
+    {
+        "sentence": "司寒哥哥。",
+        "Holder": "1",
+        "Target": "司寒",
+        "Aspect": "称呼",
+        "Opinion": "寻求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到司寒的支持和理解"
+    },
+    {
+        "sentence": "啊，干什么！",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "突发事件的反应",
+        "Opinion": "感到惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然发生的事情让自己感到意外"
+    },
+    {
+        "sentence": "晚凝，你放心，所有伤害过你的人，我都会让她们付出代价的。",
+        "Holder": "2",
+        "Target": "伤害晚凝的人",
+        "Aspect": "对晚凝的保护",
+        "Opinion": "决心报复",
+        "Sentiment": "negative",
+        "Rationale": "晚凝受到了伤害"
+    },
+    {
+        "sentence": "司寒哥哥，你相信我，真的不是。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "事件的真相",
+        "Opinion": "否认指控",
+        "Sentiment": "negative",
+        "Rationale": "被误解或被指控"
+    },
+    {
+        "sentence": "放心，你们在晚凝身上的所作所为，我会一点一点讨回来。",
+        "Holder": "2",
+        "Target": "对晚凝造成伤害的人",
+        "Aspect": "报复的决心",
+        "Opinion": "坚定报复",
+        "Sentiment": "negative",
+        "Rationale": "晚凝受到了伤害"
+    },
+    {
+        "sentence": "晚凝，没事了。",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "情绪安抚",
+        "Opinion": "安慰",
+        "Sentiment": "positive",
+        "Rationale": "想要让晚凝安心"
+    },
+    {
+        "sentence": "把医生带过来。",
+        "Holder": "2",
+        "Target": "医生",
+        "Aspect": "行动要求",
+        "Opinion": "需要医生",
+        "Sentiment": "neutral",
+        "Rationale": "需要医生来处理某些事情"
+    },
+    {
+        "sentence": "看好她们，她们的账我一笔一笔的算！",
+        "Holder": "2",
+        "Target": "她们",
+        "Aspect": "责任追究",
+        "Opinion": "要追究责任",
+        "Sentiment": "negative",
+        "Rationale": "对她们的行为感到愤怒"
+    },
+    {
+        "sentence": "晚凝，怎么处置她们都由你决定。",
+        "Holder": "2",
+        "Target": "晚凝",
+        "Aspect": "决策权",
+        "Opinion": "交给晚凝决定",
+        "Sentiment": "neutral",
+        "Rationale": "信任晚凝的判断"
+    },
+    {
+        "sentence": "厉太太，我之前不知道你的身份，才对你做出那些错事的，不知者无罪，你就原谅我们好吗？",
+        "Holder": "1",
+        "Target": "厉太太",
+        "Aspect": "请求原谅",
+        "Opinion": "希望得到原谅",
+        "Sentiment": "negative",
+        "Rationale": "之前不知道厉太太的身份而犯错"
+    },
+    {
+        "sentence": "是，是，这些都是误会，我们要是知道您是厉太太，绝对不会动您的！",
+        "Holder": "3",
+        "Target": "厉太太",
+        "Aspect": "解释误会",
+        "Opinion": "认为是误会",
+        "Sentiment": "negative",
+        "Rationale": "意识到之前的错误是由于误会"
+    },
+    {
+        "sentence": "厉总已经折磨我们一个月了，既然您人没事，你就放过我们吧。",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "对待方式",
+        "Opinion": "请求放过",
+        "Sentiment": "negative",
+        "Rationale": "厉总已经折磨他们一个月"
+    },
+    {
+        "sentence": "我一辈子都逃不出这个牢笼，是你们非要闯进来，那就一起留下吧。",
+        "Holder": "5",
+        "Target": "4和其他人",
+        "Aspect": "选择留下",
+        "Opinion": "无奈接受",
+        "Sentiment": "negative",
+        "Rationale": "自己无法逃脱牢笼"
+    },
+    {
+        "sentence": "晚凝，你放心，我会让她们生不如死的。",
+        "Holder": "2",
+        "Target": "4和其他人",
+        "Aspect": "威胁报复",
+        "Opinion": "决心报复",
+        "Sentiment": "negative",
+        "Rationale": "晚凝受到伤害"
+    },
+    {
+        "sentence": "伤了我老婆，你还想好过？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "伤害家人",
+        "Opinion": "不容忍",
+        "Sentiment": "negative",
+        "Rationale": "自己的老婆被伤害"
+    },
+    {
+        "sentence": "我爸是江城督察，你不能杀我！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "身份威胁",
+        "Opinion": "求饶",
+        "Sentiment": "negative",
+        "Rationale": "害怕被杀"
+    },
+    {
+        "sentence": "厉司寒，如果你动了我的话，我爸不会放过你的。",
+        "Holder": "1",
+        "Target": "厉司寒",
+        "Aspect": "威胁",
+        "Opinion": "父亲会报复",
+        "Sentiment": "negative",
+        "Rationale": "担心自己被伤害"
+    },
+    {
+        "sentence": "啊对，对，曼曼姐走了这么久了，她爸肯定派人找她了！",
+        "Holder": "3",
+        "Target": "曼曼姐",
+        "Aspect": "失踪时间",
+        "Opinion": "父亲会寻找",
+        "Sentiment": "neutral",
+        "Rationale": "曼曼姐失踪时间较长"
+    },
+    {
+        "sentence": "江城督察代表的是江城的律法，肯定会来救我们的。",
+        "Holder": "4",
+        "Target": "江城督察",
+        "Aspect": "职责",
+        "Opinion": "会来救援",
+        "Sentiment": "positive",
+        "Rationale": "相信江城督察会履行职责"
+    },
+    {
+        "sentence": "律师就算再厉害，也没办法违反律法吧。",
+        "Holder": "1",
+        "Target": "律师",
+        "Aspect": "能力限制",
+        "Opinion": "无法违反律法",
+        "Sentiment": "neutral",
+        "Rationale": "律师的能力有限，不能超越法律"
+    },
+    {
+        "sentence": "司寒哥哥，是我对不起晚凝姐姐，但是我们已经受了一个月的折磨了，也算是赎罪了，你就放过我们吧。",
+        "Holder": "1",
+        "Target": "司寒哥哥",
+        "Aspect": "请求原谅",
+        "Opinion": "已经赎罪",
+        "Sentiment": "negative",
+        "Rationale": "已经遭受了长时间的折磨"
+    },
+    {
+        "sentence": "是啊，厉总，你为了我们这种小人物，你触犯律法，你不值得的呀。",
+        "Holder": "3",
+        "Target": "厉总",
+        "Aspect": "为小人物触犯律法的价值",
+        "Opinion": "不值得",
+        "Sentiment": "negative",
+        "Rationale": "认为厉总为了小人物触犯律法不值得"
+    },
+    {
+        "sentence": "厉总，你就放过我们吧，我们绝不会把这里的事情给给说出去的。",
+        "Holder": "4",
+        "Target": "厉总",
+        "Aspect": "放过他们的请求",
+        "Opinion": "请求放过",
+        "Sentiment": "negative",
+        "Rationale": "害怕事情被揭露"
+    },
+    {
+        "sentence": "厉总，只要你肯放过我们，我们什么都愿意做！",
+        "Holder": "3",
+        "Target": "厉总",
+        "Aspect": "愿意付出代价以求放过",
+        "Opinion": "愿意做任何事",
+        "Sentiment": "negative",
+        "Rationale": "迫切希望厉总放过"
+    },
+    {
+        "sentence": "思涵哥哥，我不是故意要伤害晚凝姐姐的，是我太爱你了，我才会那样做的。你原谅我好不好？你放我们走吧。",
+        "Holder": "1",
+        "Target": "思涵哥哥",
+        "Aspect": "伤害晚凝姐姐的原因",
+        "Opinion": "请求原谅",
+        "Sentiment": "negative",
+        "Rationale": "出于对思涵哥哥的爱而伤害了晚凝姐姐"
+    },
+    {
+        "sentence": "司寒哥哥，我愿意给晚凝姐姐当小。",
+        "Holder": "1",
+        "Target": "司寒哥哥",
+        "Aspect": "对晚凝姐姐的态度",
+        "Opinion": "愿意当小",
+        "Sentiment": "negative",
+        "Rationale": "希望得到司寒哥哥的原谅"
+    }
+]

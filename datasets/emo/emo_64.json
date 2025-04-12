@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "恋爱选择干涉",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对2对恋爱选择的干涉导致婚姻失败；质疑被打的合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认为刘大海现状良好",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "确认亲子关系；质疑房子历史价值",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "职业选择冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被迫进入国家机关导致职业不满；认为关系破裂源于过度听从",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女人生干预",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指责刘大海品行不端；将职业不满归咎于1自身",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提倡和平相处",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "陈述房屋历史时期；回应亲子关系",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

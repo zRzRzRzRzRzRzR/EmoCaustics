@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "互联网安全立法讨论",
+        "emotions": [
+          {"state": "negative", "reason": "互联网存在威胁、欺凌、虚假新闻", "source_id": "2,3"},
+          {"state": "neutral", "reason": "引导嘉宾讨论匿名性与监管", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "平台责任与用户保护",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨年龄验证与儿童安全措施", "source_id": "3,4"},
+          {"state": "negative", "reason": "时间不足无法回答所有观众问题", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "匿名性争议与技术限制",
+        "emotions": [
+          {"state": "negative", "reason": "反对强制身份验证的数据风险", "source_id": "4"},
+          {"state": "neutral", "reason": "接受技术方案不完美性", "source_id": "2"},
+          {"state": "positive", "reason": "提出教育解决虚假信息", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "平台商业模式批判",
+        "emotions": [
+          {"state": "negative", "reason": "算法促进愤怒与两极分化", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "网络暴力与身份攻击",
+        "emotions": [
+          {"state": "negative", "reason": "个人经历大规模恶意言论攻击", "source_id": "2,4"},
+          {"state": "negative", "reason": "匿名滥用损害政治参与可信度", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "儿童安全与年龄验证",
+        "emotions": [
+          {"state": "negative", "reason": "反对平台放任有害内容传播", "source_id": "3"},
+          {"state": "positive", "reason": "支持立法加强年龄验证", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "平台透明度改革",
+        "emotions": [
+          {"state": "positive", "reason": "主张第三方独立审查机制", "source_id": "4"},
+          {"state": "negative", "reason": "批评推特匿名定义不严谨", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "虚假信息综合治理",
+        "emotions": [
+          {"state": "neutral", "reason": "多因素影响虚假信息传播", "source_id": "2,3"},
+          {"state": "positive", "reason": "支持法律与教育双轨策略", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

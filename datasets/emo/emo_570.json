@@ -1,0 +1,205 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "善良作为社会基础价值的论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调善良是社会底线需求",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出勇气失控的潜在危害",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "论证普通人的行善可行性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示社会撕裂与网络暴力现状",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提出青年教育的关键作用",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "恻隐之心的定义争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释恻隐之心的具体表现",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "通过案例说明道德权衡",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "回应标准模糊性质疑",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "善良标准的质疑与解构",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "询问论证逻辑",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出善心泛滥的潜在问题",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "探讨历史案例的适用性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批判论证方式无效性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "勇气价值的对比论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调勇气对精神困境的突破作用",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "批判道德绑架的负面效应",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导主体性尊重的价值导向",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "国际关系中的道德悖论讨论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析战争情境的道德选择",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "揭示极端情境下的价值冲突",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "提出人类命运共同体概念",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "社会冷漠现象的实证分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭示药物共享实验的失败",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "批判网络暴力普遍性",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "强调道德底线的必要性",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "道德评价体系的解构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出循环论证的逻辑缺陷",
+            "source_id": "6"
+          },
+          {
+            "state": "neutral",
+            "reason": "分析精神内耗的本质",
+            "source_id": "7"
+          },
+          {
+            "state": "positive",
+            "reason": "强调行动导向的实践价值",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "善恶标准化的教育诉求",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭示香港事件的教育缺失",
+            "source_id": "8"
+          },
+          {
+            "state": "positive",
+            "reason": "强调系统化道德教育的必要性",
+            "source_id": "8"
+          },
+          {
+            "state": "negative",
+            "reason": "批判网络暴力中的道德僭越",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  }
+}

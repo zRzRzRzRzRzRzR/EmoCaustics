@@ -1,0 +1,88 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "弟弟被伤害引发的报复行动",
+        "emotions": [
+          {"state": "negative", "reason": "发现弟弟被严重伤害", "source_id": "2"},
+          {"state": "neutral", "reason": "得知齐等闲身份后态度转变", "source_id": "5"},
+          {"state": "negative", "reason": "要求下属处置绑架者", "source_id": "4"}
+        ]
+      },
+      {
+        "event": "权力格局变化应对",
+        "emotions": [
+          {"state": "neutral", "reason": "主动交出白金瀚所有权", "source_id": "5"},
+          {"state": "negative", "reason": "强制要求弟弟道歉", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "遭遇暴力冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被齐等闲暴力对待", "source_id": "5"},
+          {"state": "neutral", "reason": "服从命令释放人质", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "权威地位动摇",
+        "emotions": [
+          {"state": "negative", "reason": "赵黑龙倒戈支持对手", "source_id": "1"},
+          {"state": "negative", "reason": "向氏集团即将倒台的威胁", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人质绑架事件",
+        "emotions": [
+          {"state": "negative", "reason": "绑架行为被当众揭穿", "source_id": "5"},
+          {"state": "negative", "reason": "被迫接受白金瀚转让", "source_id": "1,5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "解救妻子行动",
+        "emotions": [
+          {"state": "ambiguous", "reason": "试探对方处理态度", "source_id": "1"},
+          {"state": "negative", "reason": "强制限制人员离开", "source_id": "4"},
+          {"state": "positive", "reason": "成功解救妻子", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "同伴安全确认",
+        "emotions": [
+          {"state": "positive", "reason": "确认秋梦安全无恙", "source_id": "8"},
+          {"state": "positive", "reason": "认可齐等闲的救援作用", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "危机解除过程",
+        "emotions": [
+          {"state": "positive", "reason": "自身安全得到保障", "source_id": "5"},
+          {"state": "negative", "reason": "拒绝接受过度道歉", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

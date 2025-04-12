@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "误上邮轮要求下船",
+        "emotions": [
+          {"state": "negative", "reason": "因送花误上船且无法下船", "source_id": "2,3"},
+          {"state": "neutral", "reason": "提出使用救生艇替代方案", "source_id": "3"},
+          {"state": "negative", "reason": "被限制行动且无法联系船长", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "家庭沟通界限冲突",
+        "emotions": [
+          {"state": "negative", "reason": "认为被擅自安排上船", "source_id": "3,4"},
+          {"state": "neutral", "reason": "接受消防演习规定", "source_id": "3"},
+          {"state": "negative", "reason": "对强制隔离措施不满", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "处理母亲突发登船事件",
+        "emotions": [
+          {"state": "neutral", "reason": "对母亲意外登船感到困惑", "source_id": "1"},
+          {"state": "negative", "reason": "被母亲当众质疑工作能力", "source_id": "1"},
+          {"state": "negative", "reason": "因安全规定限制母亲自由", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "与室友关系破裂",
+        "emotions": [
+          {"state": "negative", "reason": "质疑4号越界行为", "source_id": "4"},
+          {"state": "negative", "reason": "决定终止共同居住关系", "source_id": "4"},
+          {"state": "negative", "reason": "对4号最后评价感到愤怒", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "安排长辈登船引发争议",
+        "emotions": [
+          {"state": "neutral", "reason": "解释展示工作环境的初衷", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑越界干涉家事", "source_id": "3"},
+          {"state": "positive", "reason": "强调人际互助原则", "source_id": "3"},
+          {"state": "negative", "reason": "最终关系破裂决定搬离", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "执行航运安全规定",
+        "emotions": [
+          {"state": "neutral", "reason": "按章拒绝下船请求", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "处理乘客特殊请求",
+        "emotions": [
+          {"state": "positive", "reason": "引导乘客解决问题", "source_id": "1"},
+          {"state": "neutral", "reason": "强调安全演习必要性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

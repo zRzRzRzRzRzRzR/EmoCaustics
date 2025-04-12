@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "哼，没干嘛，我是怕有人裤子烂了，是否要换条裤子或者再洗洗脸呢？",
+        "Holder": "1",
+        "Target": "2的裤子",
+        "Aspect": "裤子的状态",
+        "Opinion": "可能需要更换或清洗",
+        "Sentiment": "ambiguous",
+        "Rationale": "1不确定2的裤子是否真的有问题"
+    },
+    {
+        "sentence": "没事，一点都不大",
+        "Holder": "2",
+        "Target": "裤子的问题",
+        "Aspect": "问题的严重性",
+        "Opinion": "问题不大",
+        "Sentiment": "positive",
+        "Rationale": "2认为裤子的问题并不严重"
+    },
+    {
+        "sentence": "哈哈哈，我站起来我看看，妈妈刚给买的新裤子，回去肯定得说，你看你这脸脏的，你告诉我你是不是出去打架了？而且是帮老奶奶。",
+        "Holder": "1",
+        "Target": "2的脸和裤子",
+        "Aspect": "脸的清洁度和裤子的状态",
+        "Opinion": "脸脏，裤子新",
+        "Sentiment": "positive",
+        "Rationale": "1觉得2的脸脏但裤子是新买的"
+    },
+    {
+        "sentence": "唉。对，哈哈哈，你怎么知道啊？",
+        "Holder": "2",
+        "Target": "1的猜测",
+        "Aspect": "猜测的准确性",
+        "Opinion": "猜测正确",
+        "Sentiment": "positive",
+        "Rationale": "1的猜测准确"
+    },
+    {
+        "sentence": "哼，我猜的",
+        "Holder": "1",
+        "Target": "自己的猜测",
+        "Aspect": "猜测的方式",
+        "Opinion": "随意猜测",
+        "Sentiment": "neutral",
+        "Rationale": "1只是随意猜测，并没有特别的情感投入"
+    },
+    {
+        "sentence": "不可能。",
+        "Holder": "2",
+        "Target": "某个事件的可能性",
+        "Aspect": "事件的可能性",
+        "Opinion": "否定",
+        "Sentiment": "negative",
+        "Rationale": "对某个事件持完全否定的态度"
+    },
+    {
+        "sentence": "你甭管可能不可能，告诉我那个老奶奶是谁呀？",
+        "Holder": "1",
+        "Target": "老奶奶的身份",
+        "Aspect": "信息的获取",
+        "Opinion": "要求告知",
+        "Sentiment": "neutral",
+        "Rationale": "急于知道老奶奶的身份"
+    },
+    {
+        "sentence": "肯定是我姐告诉你的，还是我姐姐呢，还是三好生呢？还说是跟我保密呢，说话不算数，哼。",
+        "Holder": "2",
+        "Target": "姐姐的行为",
+        "Aspect": "保密和诚信",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "姐姐没有遵守保密承诺"
+    },
+    {
+        "sentence": "小雪，妈妈跟你说话，你怎么不理人呢？",
+        "Holder": "3",
+        "Target": "小雪的行为",
+        "Aspect": "回应的态度",
+        "Opinion": "责备",
+        "Sentiment": "negative",
+        "Rationale": "小雪没有回应自己的话"
+    },
+    {
+        "sentence": "我不想听您说话，您甭说了。",
+        "Holder": "4",
+        "Target": "3的说话",
+        "Aspect": "对话的意愿",
+        "Opinion": "拒绝",
+        "Sentiment": "negative",
+        "Rationale": "不想听对方说话"
+    },
+    {
+        "sentence": "什么叫不想听我说话呀？你可不能这么不懂事，妈妈是为你担心，怕你们年龄小不懂事，做事没深浅，别回头惹出什么麻烦。我不是有意识跟爸爸说的",
+        "Holder": "3",
+        "Target": "4的态度",
+        "Aspect": "理解和接受",
+        "Opinion": "4应该理解",
+        "Sentiment": "negative",
+        "Rationale": "4不想听3说话，3觉得4不懂事"
+    },
+    {
+        "sentence": "行了行了，您甭说了，您不用跟我解释。",
+        "Holder": "4",
+        "Target": "3的解释",
+        "Aspect": "解释的必要性",
+        "Opinion": "不需要解释",
+        "Sentiment": "negative",
+        "Rationale": "4觉得3的解释多余"
+    },
+    {
+        "sentence": "行了行了，先别在这咬牙切齿的了，姐姐说了怎么啦？那也是为你好，走，跟我去看看那个老奶奶去不去。真不去。",
+        "Holder": "1",
+        "Target": "4的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "4应该冷静",
+        "Sentiment": "neutral",
+        "Rationale": "1希望4冷静下来"
+    },
+    {
+        "sentence": "那行，不去也行，但是你以后别想从家里拿东西给老奶奶吃了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "帮助老奶奶的方式",
+        "Opinion": "限制帮助",
+        "Sentiment": "negative",
+        "Rationale": "2不愿意去看老奶奶"
+    },
+    {
+        "sentence": "你怎么这样啊？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "不理解1的行为"
+    },
+    {
+        "sentence": "我哪样了？",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "指责的合理性",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2为何指责"
+    },
+    {
+        "sentence": "爸，给老奶奶拿东西有什么不对。",
+        "Holder": "2",
+        "Target": "给老奶奶拿东西的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "支持",
+        "Sentiment": "positive",
+        "Rationale": "认为给老奶奶拿东西是好事"
+    },
+    {
+        "sentence": "嗯，给老奶奶拿东西吃肯定没不对，而且爸爸支持啊。但是我想问问你，既然是在做好事儿，为什么要瞒着我？快走吧，带我去见见那个老奶奶去。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的透明度",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "虽然支持做好事但不满被隐瞒"
+    },
+    {
+        "sentence": "哎，别别别，爸。",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "不想让1参与"
+    },
+    {
+        "sentence": "老奶奶已经睡觉了",
+        "Holder": "2",
+        "Target": "老奶奶",
+        "Aspect": "睡眠状态",
+        "Opinion": "已经睡觉",
+        "Sentiment": "neutral",
+        "Rationale": "客观陈述老奶奶的睡眠状态"
+    },
+    {
+        "sentence": "再说我没空，我要去惩罚奸细",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "时间安排",
+        "Opinion": "没空",
+        "Sentiment": "negative",
+        "Rationale": "需要去处理惩罚奸细的事情"
+    },
+    {
+        "sentence": "小雨回来",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "位置变化",
+        "Opinion": "回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地要求小雨回来"
+    },
+    {
+        "sentence": "你看看你现在的态度。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对2的态度感到不满"
+    },
+    {
+        "sentence": "反正我够伤心的了，以后我再也不想跟您说什么知心话了。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "情感交流",
+        "Opinion": "不再交流",
+        "Sentiment": "negative",
+        "Rationale": "感到伤心和失望"
+    },
+    {
+        "sentence": "不说拉倒。我还不听呢，我还伤心了",
+        "Holder": "3",
+        "Target": "说话人 4",
+        "Aspect": "沟通态度",
+        "Opinion": "拒绝沟通",
+        "Sentiment": "negative",
+        "Rationale": "对方不愿意继续沟通"
+    },
+    {
+        "sentence": "我再也不相信你",
+        "Holder": "4",
+        "Target": "说话人 3",
+        "Aspect": "信任",
+        "Opinion": "失去信任",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己失望"
+    },
+    {
+        "sentence": "你干什么呀？",
+        "Holder": "4",
+        "Target": "说话人 2",
+        "Aspect": "行为",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "不理解对方的行为"
+    },
+    {
+        "sentence": "你居然向爸妈告密。",
+        "Holder": "2",
+        "Target": "说话人 4",
+        "Aspect": "行为",
+        "Opinion": "告密",
+        "Sentiment": "negative",
+        "Rationale": "对方向父母告密"
+    },
+    {
+        "sentence": "我那是为你好",
+        "Holder": "2",
+        "Target": "说话人 4",
+        "Aspect": "动机",
+        "Opinion": "出于好意",
+        "Sentiment": "positive",
+        "Rationale": "认为自己的行为是为了对方好"
+    },
+    {
+        "sentence": "你讨厌。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "个人感受",
+        "Opinion": "讨厌",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为或言语感到不满"
+    },
+    {
+        "sentence": "你才讨厌",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "个人感受",
+        "Opinion": "讨厌",
+        "Sentiment": "negative",
+        "Rationale": "对4的指责感到不服气"
+    },
+    {
+        "sentence": "爸，咱家要来客人。",
+        "Holder": "4",
+        "Target": "家庭",
+        "Aspect": "客人来访",
+        "Opinion": "通知",
+        "Sentiment": "neutral",
+        "Rationale": "要告知家人有客人来访"
+    },
+    {
+        "sentence": "对小雨说要带老奶奶来咱家做客。",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "客人来访",
+        "Opinion": "通知",
+        "Sentiment": "neutral",
+        "Rationale": "要告知小雨有老奶奶来访"
+    },
+    {
+        "sentence": "哦呦呦，谁呀？",
+        "Holder": "1",
+        "Target": "客人",
+        "Aspect": "客人身份",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对即将来访的客人身份感到好奇"
+    },
+    {
+        "sentence": "收拾好没有啊？",
+        "Holder": "1",
+        "Target": "收拾情况",
+        "Aspect": "收拾进度",
+        "Opinion": "询问是否完成",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问收拾的进度"
+    },
+    {
+        "sentence": "好了好了。",
+        "Holder": "3",
+        "Target": "收拾情况",
+        "Aspect": "收拾进度",
+        "Opinion": "已经完成",
+        "Sentiment": "positive",
+        "Rationale": "3表示已经收拾好了"
+    },
+    {
+        "sentence": "真是哟，小雨怎么抱个猫啊？",
+        "Holder": "1",
+        "Target": "小雨抱猫",
+        "Aspect": "行为合理性",
+        "Opinion": "感到意外",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对小雨抱猫的行为感到意外"
+    },
+    {
+        "sentence": "老奶奶呢。",
+        "Holder": "1",
+        "Target": "老奶奶",
+        "Aspect": "位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问老奶奶的位置"
+    },
+    {
+        "sentence": "这就是我说那老奶奶。",
+        "Holder": "2",
+        "Target": "老奶奶",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "2在确认之前提到的老奶奶"
+    },
+    {
+        "sentence": "老奶奶？",
+        "Holder": "1",
+        "Target": "猫",
+        "Aspect": "称呼",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "听到关于猫的描述感到好奇"
+    },
+    {
+        "sentence": "他已经 10 岁了，书上说猫的一岁等于人的 8 岁，所以他现在已经 80 岁了，而且他还是个母猫，所以他就是老奶奶",
+        "Holder": "2",
+        "Target": "猫",
+        "Aspect": "年龄和性别",
+        "Opinion": "猫是老奶奶",
+        "Sentiment": "neutral",
+        "Rationale": "根据书上所说猫的年龄换算和性别"
+    },
+    {
+        "sentence": "这么个老奶奶呀。嗨，我说你怎么在家里偷小炸鱼。",
+        "Holder": "3",
+        "Target": "猫",
+        "Aspect": "行为",
+        "Opinion": "偷小炸鱼",
+        "Sentiment": "negative",
+        "Rationale": "猫在家里偷吃小炸鱼"
+    },
+    {
+        "sentence": "怪不得你说他老爱打架呢。",
+        "Holder": "1",
+        "Target": "猫",
+        "Aspect": "行为",
+        "Opinion": "爱打架",
+        "Sentiment": "neutral",
+        "Rationale": "听到猫的行为描述"
+    },
+    {
+        "sentence": "这些猫长得真漂亮。哎，干什么呀？",
+        "Holder": "4",
+        "Target": "猫",
+        "Aspect": "外貌",
+        "Opinion": "漂亮",
+        "Sentiment": "positive",
+        "Rationale": "看到猫的外貌觉得很漂亮"
+    },
+    {
+        "sentence": "你不能摸别人全都能摸。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "触摸权限",
+        "Opinion": "4不能摸",
+        "Sentiment": "negative",
+        "Rationale": "2认为4没有资格触摸"
+    },
+    {
+        "sentence": "为什么？",
+        "Holder": "4",
+        "Target": "2的限制",
+        "Aspect": "限制的原因",
+        "Opinion": "不理解限制",
+        "Sentiment": "neutral",
+        "Rationale": "4不清楚为什么自己不能摸"
+    },
+    {
+        "sentence": "因为不配",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "资格",
+        "Opinion": "4不配",
+        "Sentiment": "negative",
+        "Rationale": "2认为4没有资格"
+    },
+    {
+        "sentence": "我那是为你好。",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "行为动机",
+        "Opinion": "出于好意",
+        "Sentiment": "positive",
+        "Rationale": "4认为自己的行为是出于好意"
+    },
+    {
+        "sentence": "哟，小雪，你是为小雨好，妈妈就不是为你好了。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为动机的对比",
+        "Opinion": "4的行为并非唯一好意",
+        "Sentiment": "neutral",
+        "Rationale": "1指出4的行为并非唯一出于好意"
+    },
+    {
+        "sentence": "我宣布我要和我们同学再庆祝一次。您放心吧，我们再也不会干上次那种事了。其实我上次没好意思跟您说。嗯，我们喝完酒的当天是觉得挺舒服的，头也不疼，可第二天的时候我头特别疼。",
+        "Holder": "4",
+        "Target": "再次庆祝",
+        "Aspect": "庆祝的合理性",
+        "Opinion": "保证不再犯错",
+        "Sentiment": "positive",
+        "Rationale": "想要再次庆祝并向家长保证不再犯同样的错误"
+    },
+    {
+        "sentence": "瞧瞧你",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对4之前的行为感到不满"
+    },
+    {
+        "sentence": "我和我们同学商量好了，嗯，以后再也不喝酒了。",
+        "Holder": "4",
+        "Target": "喝酒行为",
+        "Aspect": "行为的改变",
+        "Opinion": "决心不再喝酒",
+        "Sentiment": "positive",
+        "Rationale": "和同学商量后决定不再喝酒"
+    },
+    {
+        "sentence": "哎呦，老奶奶，上哪去啊",
+        "Holder": "1",
+        "Target": "老奶奶的行动",
+        "Aspect": "行动的目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "看到老奶奶出门"
+    }
+]

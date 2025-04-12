@@ -1,0 +1,48 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "食物偷窃与帮助老奶奶的冲突",
+        "emotions": [
+          {"state": "negative", "reason": "发现牛肉未被食用且存在偷窃嫌疑", "source_id": "2"},
+          {"state": "doubt", "reason": "怀疑家庭失窃与2有关", "source_id": "2"},
+          {"state": "negative", "reason": "确认2偷窃牛肉和小黄鱼", "source_id": "2"},
+          {"state": "ambiguous", "reason": "接受帮助老奶奶的解释但存疑", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "创意行为与公共秩序的争议",
+        "emotions": [
+          {"state": "ambiguous", "reason": "惊讶3知晓SOS图案事件", "source_id": "3"},
+          {"state": "negative", "reason": "被批评将行为视为壮举", "source_id": "3"},
+          {"state": "negative", "reason": "认为3违反保密承诺导致失望", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "帮助老奶奶的家庭纠纷",
+        "emotions": [
+          {"state": "neutral", "reason": "解释食物去向的动机", "source_id": "1"},
+          {"state": "negative", "reason": "被持续怀疑偷窃的委屈", "source_id": "1"},
+          {"state": "positive", "reason": "获得保密承诺的安心", "source_id": "1"},
+          {"state": "negative", "reason": "介入老奶奶家庭矛盾的困境", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "教育引导与沟通冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "试图讨论公共秩序问题", "source_id": "1"},
+          {"state": "negative", "reason": "指出创意行为的负面影响", "source_id": "1"},
+          {"state": "negative", "reason": "应对1的抗拒沟通态度", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

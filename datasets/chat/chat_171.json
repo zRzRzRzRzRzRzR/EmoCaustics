@@ -1,0 +1,533 @@
+[
+    {
+        "sentence": "你终于来了。",
+        "Holder": "1",
+        "Target": "2的到来",
+        "Aspect": "到达时间",
+        "Opinion": "迟到",
+        "Sentiment": "negative",
+        "Rationale": "2迟到"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "2",
+        "Target": "1的语气",
+        "Aspect": "语气含义",
+        "Opinion": "疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚1为什么这么说"
+    },
+    {
+        "sentence": "你拿了什么吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "携带物品",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道2是否带了东西"
+    },
+    {
+        "sentence": "我怕没教室。",
+        "Holder": "2",
+        "Target": "教室情况",
+        "Aspect": "教室可用性",
+        "Opinion": "担心",
+        "Sentiment": "negative",
+        "Rationale": "2担心没有教室可用"
+    },
+    {
+        "sentence": "你还知道没教室，你再来晚点教室就有了。明天早上。",
+        "Holder": "1",
+        "Target": "2的迟到",
+        "Aspect": "时间安排",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "2迟到导致没有教室"
+    },
+    {
+        "sentence": "不管多久来都会有人的。",
+        "Holder": "2",
+        "Target": "等待的人",
+        "Aspect": "等待的必要性",
+        "Opinion": "总会有人来",
+        "Sentiment": "neutral",
+        "Rationale": "认为不管等多久都会有人来"
+    },
+    {
+        "sentence": "等明天早上就有了。",
+        "Holder": "1",
+        "Target": "等待的时间",
+        "Aspect": "时间的安排",
+        "Opinion": "明天早上会有",
+        "Sentiment": "neutral",
+        "Rationale": "认为明天早上就能得到所需的东西"
+    },
+    {
+        "sentence": "快点快点dance！",
+        "Holder": "2",
+        "Target": "1的行动",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "需要快点行动",
+        "Sentiment": "positive",
+        "Rationale": "希望对方快点开始跳舞"
+    },
+    {
+        "sentence": "你现在催我？",
+        "Holder": "1",
+        "Target": "2的催促",
+        "Aspect": "催促的合理性",
+        "Opinion": "质疑催促",
+        "Sentiment": "negative",
+        "Rationale": "被突然催促感到意外和不悦"
+    },
+    {
+        "sentence": "跟我说对不起！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "道歉的必要性",
+        "Opinion": "需要道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为让自己不满"
+    },
+    {
+        "sentence": "你不是来等你录音吗？",
+        "Holder": "2",
+        "Target": "1的录音行为",
+        "Aspect": "录音的完成情况",
+        "Opinion": "等待录音",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1是否完成了录音"
+    },
+    {
+        "sentence": "你跟我说对不起！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "道歉的必要性",
+        "Opinion": "要求道歉",
+        "Sentiment": "negative",
+        "Rationale": "1认为2做错了事情"
+    },
+    {
+        "sentence": "你说你录音完了给我发消息你也不给我发。",
+        "Holder": "2",
+        "Target": "1的承诺",
+        "Aspect": "消息发送的及时性",
+        "Opinion": "未收到消息",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有履行承诺发送消息"
+    },
+    {
+        "sentence": "我发了！",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "消息发送的事实",
+        "Opinion": "已经发送",
+        "Sentiment": "positive",
+        "Rationale": "1认为自己已经发送了消息"
+    },
+    {
+        "sentence": "我直播看不见。",
+        "Holder": "2",
+        "Target": "1的消息",
+        "Aspect": "消息的可见性",
+        "Opinion": "未看到消息",
+        "Sentiment": "negative",
+        "Rationale": "2在直播时没有看到1的消息"
+    },
+    {
+        "sentence": "我说让你给我打电话你不打电话给我，我一直在等你的电话。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "是否打电话",
+        "Opinion": "未按约定打电话",
+        "Sentiment": "negative",
+        "Rationale": "1没有按照2的要求打电话"
+    },
+    {
+        "sentence": "你刚前一句说，我让你录完音给我发消息，然后后来就说哎我让你给我打电话。",
+        "Holder": "1",
+        "Target": "2的表述",
+        "Aspect": "表述的一致性",
+        "Opinion": "表述前后矛盾",
+        "Sentiment": "negative",
+        "Rationale": "2前后表述不一致"
+    },
+    {
+        "sentence": "明明就只说的发消息，我马上就发了。然后你没有看到。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "消息发送的及时性",
+        "Opinion": "已按约定发消息",
+        "Sentiment": "negative",
+        "Rationale": "1已经按约定发了消息但2没有看到"
+    },
+    {
+        "sentence": "那你明明知道我在直播，那你就给我打个电话呗。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "是否打电话",
+        "Opinion": "应该打电话",
+        "Sentiment": "negative",
+        "Rationale": "1知道2在直播但没有打电话"
+    },
+    {
+        "sentence": "后来你看到了呀。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "消息接收情况",
+        "Opinion": "2已看到消息",
+        "Sentiment": "neutral",
+        "Rationale": "1指出2后来已经看到了消息"
+    },
+    {
+        "sentence": "我看到我就下了那个时候我！",
+        "Holder": "2",
+        "Target": "1的消息",
+        "Aspect": "消息接收时间",
+        "Opinion": "及时看到",
+        "Sentiment": "neutral",
+        "Rationale": "2表示自己看到消息就立即行动了"
+    },
+    {
+        "sentence": "对呀，你就回复我了呀，然后你就快点过来呀。",
+        "Holder": "1",
+        "Target": "2的回复",
+        "Aspect": "回复速度",
+        "Opinion": "希望快点",
+        "Sentiment": "positive",
+        "Rationale": "1希望2快点过来"
+    },
+    {
+        "sentence": "我下午才看见！",
+        "Holder": "2",
+        "Target": "1的消息",
+        "Aspect": "消息接收时间",
+        "Opinion": "延迟看到",
+        "Sentiment": "negative",
+        "Rationale": "2表示自己下午才看到消息"
+    },
+    {
+        "sentence": "我还说你怎么录这么多。",
+        "Holder": "2",
+        "Target": "1的录音",
+        "Aspect": "录音数量",
+        "Opinion": "数量多",
+        "Sentiment": "neutral",
+        "Rationale": "2只是对1录了很多表示疑问"
+    },
+    {
+        "sentence": "从你刚刚给我在这里说过来到现在已经过去了20分钟了！",
+        "Holder": "1",
+        "Target": "2的到来时间",
+        "Aspect": "时间间隔",
+        "Opinion": "时间过长",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2从说到做到已经过去了20分钟"
+    },
+    {
+        "sentence": "你不是说你饿了吗？我给你买吃的。",
+        "Holder": "2",
+        "Target": "1的饥饿状态",
+        "Aspect": "关心与照顾",
+        "Opinion": "主动提供食物",
+        "Sentiment": "positive",
+        "Rationale": "关心对方饥饿"
+    },
+    {
+        "sentence": "楼下买的！小卖部。",
+        "Holder": "2",
+        "Target": "食物来源",
+        "Aspect": "购买地点",
+        "Opinion": "强调真实性",
+        "Sentiment": "positive",
+        "Rationale": "被质疑"
+    },
+    {
+        "sentence": "少来了，这是昨天晚上点的那个，你以为我不知道？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "食物的新鲜度",
+        "Opinion": "坚持己见",
+        "Sentiment": "negative",
+        "Rationale": "坚信食物是昨天的"
+    },
+    {
+        "sentence": "我自己买的！",
+        "Holder": "2",
+        "Target": "食物来源",
+        "Aspect": "购买者",
+        "Opinion": "再次强调真实性",
+        "Sentiment": "positive",
+        "Rationale": "再次被质疑"
+    },
+    {
+        "sentence": "楼下哪里有？",
+        "Holder": "1",
+        "Target": "楼下的物品",
+        "Aspect": "物品的位置",
+        "Opinion": "不清楚位置",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问物品的位置"
+    },
+    {
+        "sentence": "昨天我们出去买的那个！",
+        "Holder": "1",
+        "Target": "昨天买的物品",
+        "Aspect": "物品的来源",
+        "Opinion": "记得购买",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述昨天购买的物品"
+    },
+    {
+        "sentence": "昨天你有这个吗？",
+        "Holder": "2",
+        "Target": "1的物品",
+        "Aspect": "物品的拥有情况",
+        "Opinion": "质疑拥有",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1是否拥有物品"
+    },
+    {
+        "sentence": "打脸了吧？",
+        "Holder": "2",
+        "Target": "1的陈述",
+        "Aspect": "陈述的真实性",
+        "Opinion": "认为1说错了",
+        "Sentiment": "positive",
+        "Rationale": "2认为1的陈述有误"
+    },
+    {
+        "sentence": "我知道了！",
+        "Holder": "1",
+        "Target": "2的质疑",
+        "Aspect": "对质疑的回应",
+        "Opinion": "接受质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1接受了2的质疑并表示理解"
+    },
+    {
+        "sentence": "你在等外卖，我知道。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "了解情况",
+        "Sentiment": "neutral",
+        "Rationale": "知道2在等外卖"
+    },
+    {
+        "sentence": "但是确实是我新买的，我刚刚买的。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "物品的新旧",
+        "Opinion": "物品是新的",
+        "Sentiment": "neutral",
+        "Rationale": "想解释物品的新旧情况"
+    },
+    {
+        "sentence": "你口水洒我脸上！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让自己感到不适"
+    },
+    {
+        "sentence": "我刚刚新买的，昨天没有这个哈，道歉！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "需要道歉",
+        "Sentiment": "negative",
+        "Rationale": "自己的行为导致了1的不满"
+    },
+    {
+        "sentence": "你给我道歉。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "要求道歉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被冤枉"
+    },
+    {
+        "sentence": "你先给我道歉。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "要求对方先道歉",
+        "Sentiment": "negative",
+        "Rationale": "认为对方也有错"
+    },
+    {
+        "sentence": "你冤枉我，这里面是我刚刚才买的。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "指责的准确性",
+        "Opinion": "认为自己被冤枉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己被错误地指责"
+    },
+    {
+        "sentence": "这是你刚刚等的外卖吧，你是不是在房间里等外卖？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的真实性",
+        "Opinion": "怀疑对方在房间里等外卖",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方的行为不符合所说的情况"
+    },
+    {
+        "sentence": "我外卖八百年前就到了，这就是我刚刚买的！",
+        "Holder": "2",
+        "Target": "外卖送达时间",
+        "Aspect": "送达的及时性",
+        "Opinion": "外卖早已送达",
+        "Sentiment": "negative",
+        "Rationale": "外卖送达时间过长"
+    },
+    {
+        "sentence": "那你为什么这么久才过来？",
+        "Holder": "1",
+        "Target": "2的到达时间",
+        "Aspect": "到达的及时性",
+        "Opinion": "质疑为什么这么久",
+        "Sentiment": "negative",
+        "Rationale": "对方迟到很久"
+    },
+    {
+        "sentence": "我在便利店买东西。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "解释自己在买东西",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己迟到的原因"
+    },
+    {
+        "sentence": "跟我说为什么，你告诉我为什么这么久？",
+        "Holder": "1",
+        "Target": "2的迟到原因",
+        "Aspect": "原因的合理性",
+        "Opinion": "要求解释为什么这么久",
+        "Sentiment": "negative",
+        "Rationale": "对方没有给出合理的解释"
+    },
+    {
+        "sentence": "重要吗？",
+        "Holder": "2",
+        "Target": "1的问题",
+        "Aspect": "问题的必要性",
+        "Opinion": "质疑问题的重要性",
+        "Sentiment": "negative",
+        "Rationale": "对方反复追问感到不耐烦"
+    },
+    {
+        "sentence": "快点练舞吧。",
+        "Holder": "2",
+        "Target": "练舞",
+        "Aspect": "练舞的紧迫性",
+        "Opinion": "需要加快",
+        "Sentiment": "neutral",
+        "Rationale": "需要尽快完成练舞任务"
+    },
+    {
+        "sentence": "重要，重要！",
+        "Holder": "1",
+        "Target": "练舞",
+        "Aspect": "练舞的重要性",
+        "Opinion": "非常重视",
+        "Sentiment": "positive",
+        "Rationale": "强调练舞的重要性"
+    },
+    {
+        "sentence": "快点练舞吧。",
+        "Holder": "2",
+        "Target": "练舞",
+        "Aspect": "练舞的紧迫性",
+        "Opinion": "需要加快",
+        "Sentiment": "neutral",
+        "Rationale": "再次催促练舞"
+    },
+    {
+        "sentence": "大家都以为你是一边修路修过来的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "2的练舞表现",
+        "Opinion": "表现不佳",
+        "Sentiment": "negative",
+        "Rationale": "认为2的练舞表现像是在做其他事情"
+    },
+    {
+        "sentence": "哈哈哈。",
+        "Holder": "2",
+        "Target": "1的评论",
+        "Aspect": "对评论的反应",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "对1的讽刺评论感到好笑"
+    },
+    {
+        "sentence": "你说你怎么过来的？",
+        "Holder": "1",
+        "Target": "2的行程",
+        "Aspect": "行程的合理性",
+        "Opinion": "质疑行程",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道2的具体行程"
+    },
+    {
+        "sentence": "我跟你说我在买东西。",
+        "Holder": "2",
+        "Target": "自己的行程",
+        "Aspect": "行程的具体内容",
+        "Opinion": "在购物",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的行程"
+    },
+    {
+        "sentence": "那为什么这么久？",
+        "Holder": "1",
+        "Target": "2的行程时间",
+        "Aspect": "行程时间的合理性",
+        "Opinion": "时间过长",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行程时间过长"
+    },
+    {
+        "sentence": "我本来想卸个妆我没卸。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "卸妆的决策",
+        "Opinion": "未卸妆",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己未卸妆的原因"
+    },
+    {
+        "sentence": "这没有变啊，你少来。",
+        "Holder": "1",
+        "Target": "2的解释",
+        "Aspect": "解释的真实性",
+        "Opinion": "质疑解释",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的解释不合理"
+    },
+    {
+        "sentence": "你不要骗人，我最讨厌别人骗我。",
+        "Holder": "1",
+        "Target": "别人",
+        "Aspect": "诚信",
+        "Opinion": "讨厌欺骗",
+        "Sentiment": "negative",
+        "Rationale": "1非常不喜欢被欺骗"
+    },
+    {
+        "sentence": "好了，快走，练舞去。",
+        "Holder": "2",
+        "Target": "练舞",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "催促去练舞",
+        "Sentiment": "neutral",
+        "Rationale": "2希望尽快开始练舞"
+    }
+]

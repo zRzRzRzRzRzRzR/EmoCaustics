@@ -1,0 +1,1298 @@
+[
+    {
+        "sentence": "鼠标干嘛呢？干嘛呢？哈哈哈，野蛮，真野蛮。哈哈哈，明明知道我有晕针症，真是扎得还那么深，哈哈哈。哎哎呦，至于吗？怎么不至于，刚才那针是我爸给打的。还亲爸，还不如后爸呢。妈诶，我的野蛮父亲，这题目真刁钻呀。哎呦，哈哈哈，刘江刚才给你打针的不会也是你爸爸吧？瞎说你什么，你。",
+        "Holder": "1",
+        "Target": "父亲",
+        "Aspect": "打针的方式",
+        "Opinion": "过于野蛮",
+        "Sentiment": "negative",
+        "Rationale": "父亲在打针时过于用力且不顾及自己的晕针症"
+    },
+    {
+        "sentence": "以外的高第一来讲会更加坚定在联赛中让这两人首发，大胆看一下这个慢动作。并不用hahaha。不看不看唉。",
+        "Holder": "2",
+        "Target": "联赛首发安排",
+        "Aspect": "决策的合理性",
+        "Opinion": "支持首发",
+        "Sentiment": "neutral",
+        "Rationale": "认为高第一的表现会坚定首发安排"
+    },
+    {
+        "sentence": "好，不喝了啊，哈哈哈，给我看报纸，哈哈哈。优秀诶，哈哈哈。你你你今是怎么了？",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的变化",
+        "Opinion": "感到奇怪",
+        "Sentiment": "ambiguous",
+        "Rationale": "1今天的行为与平时不同"
+    },
+    {
+        "sentence": "爸，这杯子都碎了，看看，都碎了你还不打我？",
+        "Holder": "1",
+        "Target": "父亲",
+        "Aspect": "对碎杯子的反应",
+        "Opinion": "期待惩罚",
+        "Sentiment": "ambiguous",
+        "Rationale": "杯子碎了但父亲没有责备"
+    },
+    {
+        "sentence": "哈哈哈，干嘛打你啊？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "对碎杯子的处理",
+        "Opinion": "不打算责备",
+        "Sentiment": "positive",
+        "Rationale": "认为杯子碎了不是大事"
+    },
+    {
+        "sentence": "唉呦，你要急死我，求您就打我一顿成吗？求您了，打花了算我的，求您了，哈哈哈。诶，怎么换念了？打坏算我了。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "是否打人",
+        "Opinion": "希望被打",
+        "Sentiment": "positive",
+        "Rationale": "觉得被打是一种玩笑和互动"
+    },
+    {
+        "sentence": "什么叫打坏了？算你的呀？我把你打坏了，你妈也不让啊。",
+        "Holder": "3",
+        "Target": "1的请求",
+        "Aspect": "打人的后果",
+        "Opinion": "不能打坏",
+        "Sentiment": "negative",
+        "Rationale": "打坏人会导致严重的后果"
+    },
+    {
+        "sentence": "哈哈哈，你放心，我肯定跟我妈说是我让您打的，哈哈哈。就这啊，打准点，就这一点，使劲，哈哈哈，拿你，哈哈。",
+        "Holder": "1",
+        "Target": "3的顾虑",
+        "Aspect": "打人的责任",
+        "Opinion": "自己承担",
+        "Sentiment": "positive",
+        "Rationale": "觉得打人只是玩笑，自己愿意承担责任"
+    },
+    {
+        "sentence": "你是觉得咱家太好了，什么都有了，就缺点家庭暴力是不是？那是什么呀？",
+        "Holder": "3",
+        "Target": "1的想法",
+        "Aspect": "家庭氛围",
+        "Opinion": "不应有家庭暴力",
+        "Sentiment": "negative",
+        "Rationale": "家庭暴力是不良行为，不应该存在于家庭中"
+    },
+    {
+        "sentence": "就是浑身有点哑啊。",
+        "Holder": "1",
+        "Target": "自身状态",
+        "Aspect": "身体感觉",
+        "Opinion": "感到不舒服",
+        "Sentiment": "negative",
+        "Rationale": "身体感到不适"
+    },
+    {
+        "sentence": "回屋挠挠去呗。我给你挠挠。",
+        "Holder": "3",
+        "Target": "挠痒",
+        "Aspect": "挠痒的方式",
+        "Opinion": "建议挠痒",
+        "Sentiment": "positive",
+        "Rationale": "想要帮助对方缓解痒感"
+    },
+    {
+        "sentence": "哎，你这别挠别挠，哈哈哈，我这都养马，就得打，不能挠。",
+        "Holder": "1",
+        "Target": "挠痒",
+        "Aspect": "挠痒的适宜性",
+        "Opinion": "反对挠痒",
+        "Sentiment": "positive",
+        "Rationale": "觉得养马需要打而不是挠"
+    },
+    {
+        "sentence": "哈哈哈，就得打啊。嗯，那我要是把你打完了以后你是不是觉得挺舒服？",
+        "Holder": "3",
+        "Target": "打",
+        "Aspect": "打后的感受",
+        "Opinion": "打后会舒服",
+        "Sentiment": "positive",
+        "Rationale": "觉得打完后会感到舒服"
+    },
+    {
+        "sentence": "特舒服。",
+        "Holder": "1",
+        "Target": "被打后的感受",
+        "Aspect": "感受的描述",
+        "Opinion": "非常舒服",
+        "Sentiment": "positive",
+        "Rationale": "认同打后会感到舒服的说法"
+    },
+    {
+        "sentence": "嗯，你会觉得非常舒服。嗯，哈哈哈，不用了，刘梅，别叫我妈。刘梅，快快快出来。妈。",
+        "Holder": "3",
+        "Target": "被打后的感受",
+        "Aspect": "感受的确认",
+        "Opinion": "非常舒服",
+        "Sentiment": "positive",
+        "Rationale": "确认对方会感到舒服"
+    },
+    {
+        "sentence": "我正洗衣服呢。",
+        "Holder": "4",
+        "Target": "洗衣服",
+        "Aspect": "当前活动",
+        "Opinion": "正在洗衣服",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己正在进行的日常活动"
+    },
+    {
+        "sentence": "你这儿子可有严重的受虐狂倾向，盲。",
+        "Holder": "3",
+        "Target": "儿子",
+        "Aspect": "性格倾向",
+        "Opinion": "有受虐狂倾向",
+        "Sentiment": "negative",
+        "Rationale": "认为儿子有受虐狂倾向"
+    },
+    {
+        "sentence": "咬受虐狂倾向是每天都需要这种待遇。我就今天一天，不信。",
+        "Holder": "1",
+        "Target": "受虐狂倾向",
+        "Aspect": "频率",
+        "Opinion": "不每天需要",
+        "Sentiment": "doubt",
+        "Rationale": "认为受虐狂倾向不是每天都需要"
+    },
+    {
+        "sentence": "哈哈哈，礼拜天你干嘛呀？赶紧，要不回屋做功课，要么出去玩去，别老在这缠着你爸多大了你往里趟这？",
+        "Holder": "4",
+        "Target": "儿子",
+        "Aspect": "行为建议",
+        "Opinion": "建议做功课或出去玩",
+        "Sentiment": "positive",
+        "Rationale": "希望儿子合理安排时间"
+    },
+    {
+        "sentence": "唉嚯真疼啊，野蛮。哈哈哈，野蛮。",
+        "Holder": "3",
+        "Target": "行为",
+        "Aspect": "疼痛感受",
+        "Opinion": "感到疼痛",
+        "Sentiment": "negative",
+        "Rationale": "感到疼痛"
+    },
+    {
+        "sentence": "小雨长这么大你爸打过你吗？妈？哈哈哈，难怪让他打我，他怎么也不打。哈哈哈，那你那个一桶壶爸爸打过你吗？哈哈哈，没，少挨打，真可怜。哈哈哈，不过倒也没什么。那你爸为什么打你啊？嗯，忘了，就记着当时特爱哭，可是现在让他打我还真难。哈哈哈，看我爸爸多好，从来没打过我。你现在一块跟我享福了吧。切，可是我现在还真有点，生在福中不知福，我认知痒呀，哈哈哈。嘿Lalo。",
+        "Holder": "1",
+        "Target": "爸爸的教育方式",
+        "Aspect": "是否被打",
+        "Opinion": "自己没被打，别人被打",
+        "Sentiment": "positive",
+        "Rationale": "自己的爸爸从来没打过自己，而别人的爸爸打过他们"
+    },
+    {
+        "sentence": "谁呀？哈哈哈，老爸，我。",
+        "Holder": "1",
+        "Target": "身份确认",
+        "Aspect": "对话对象",
+        "Opinion": "确认是老爸",
+        "Sentiment": "positive",
+        "Rationale": "确认了对话对象是自己的老爸"
+    },
+    {
+        "sentence": "好真狭，还是家家啊，真侠。是吗？你。",
+        "Holder": "2",
+        "Target": "1的描述",
+        "Aspect": "性格特点",
+        "Opinion": "认为1性格狭隘",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的性格狭隘"
+    },
+    {
+        "sentence": "妈呢？在家呢？嗯，好。",
+        "Holder": "1",
+        "Target": "妈妈的状态",
+        "Aspect": "是否在家",
+        "Opinion": "妈妈在家",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地询问并确认妈妈在家"
+    },
+    {
+        "sentence": "来告诉我你是怎么想我的啊？",
+        "Holder": "2",
+        "Target": "1对自己的看法",
+        "Aspect": "看法",
+        "Opinion": "想知道1的看法",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯地想知道对方的看法"
+    },
+    {
+        "sentence": "我特想我小时候您打我，哈哈哈，真痛，您再打我一顿。",
+        "Holder": "1",
+        "Target": "小时候被打的经历",
+        "Aspect": "被打的感受",
+        "Opinion": "怀念被打",
+        "Sentiment": "positive",
+        "Rationale": "回忆起小时候被打的经历觉得有趣和怀念"
+    },
+    {
+        "sentence": "你说你这孩子怎么这样啊？你怎么不想有好的地方啊？我带你吃遍了北京城，别人家的孩子都是记吃不记打，你怎么记打不记吃？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对过去的记忆",
+        "Opinion": "应该记住好的事情",
+        "Sentiment": "negative",
+        "Rationale": "觉得1只记住被打的事情而忽略了带他吃遍北京城的好事"
+    },
+    {
+        "sentence": "哈哈哈，我真的。",
+        "Holder": "1",
+        "Target": "自己的感受",
+        "Aspect": "对被打的回忆",
+        "Opinion": "确实怀念",
+        "Sentiment": "positive",
+        "Rationale": "确实怀念小时候被打的经历"
+    },
+    {
+        "sentence": "需要三天不打上房揭瓦。哈哈哈，按说你这岁数不该这样啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不应该这样",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得1的年龄不应该还怀念被打，但同时也带有玩笑的成分"
+    },
+    {
+        "sentence": "我不是就是这会需要吗？不是天天需要，哈哈哈。",
+        "Holder": "1",
+        "Target": "自己的需求",
+        "Aspect": "需求的频率",
+        "Opinion": "偶尔需要",
+        "Sentiment": "positive",
+        "Rationale": "只是偶尔需要被打的感觉，并不是经常"
+    },
+    {
+        "sentence": "可是好好的，我为什么要打你？",
+        "Holder": "2",
+        "Target": "打人行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不应该打人",
+        "Sentiment": "neutral",
+        "Rationale": "没有合理的理由去打人"
+    },
+    {
+        "sentence": "老爸？别问为什么，请快点打我吧，来，哈哈哈。hahahaha。",
+        "Holder": "1",
+        "Target": "被打行为",
+        "Aspect": "行为的接受度",
+        "Opinion": "愿意被打",
+        "Sentiment": "positive",
+        "Rationale": "觉得被打是一种玩笑或亲昵的行为"
+    },
+    {
+        "sentence": "既然你这么要求的话，哈哈哈。哎呦，哈哈哈，我是不会打你的，哈哈哈，别说没原因，就是有原因我也不能打你。现在你不光属于你妈和我，你还属于另一个男人，哈哈哈。",
+        "Holder": "2",
+        "Target": "打人行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不能打人",
+        "Sentiment": "positive",
+        "Rationale": "觉得即使有原因也不能打人，特别是考虑到女儿已经属于另一个男人"
+    },
+    {
+        "sentence": "老婆，你怎么能把那么简单的事搞复杂了呢？哈哈哈，你想我是您亲生的？嗯，该抽就抽，该揍就揍，哈哈哈，该野蛮就野蛮。",
+        "Holder": "1",
+        "Target": "事情的处理方式",
+        "Aspect": "处理的复杂性",
+        "Opinion": "事情被搞复杂了",
+        "Sentiment": "positive",
+        "Rationale": "觉得事情本可以简单处理，却被搞复杂了，但以一种玩笑的口吻表达"
+    },
+    {
+        "sentence": "哦，这么说我以前很野蛮了。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "以前行为野蛮",
+        "Sentiment": "neutral",
+        "Rationale": "根据对方的调侃觉得自己以前的行为可能被认为是野蛮"
+    },
+    {
+        "sentence": "嗯，特野蛮诶，哈哈哈，来来来，来。嗯嗯，抽啊。对对。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为方式",
+        "Opinion": "野蛮",
+        "Sentiment": "positive",
+        "Rationale": "觉得2的行为有趣且夸张"
+    },
+    {
+        "sentence": "哈哈哈，别跟我耍这花招，今天我到这来就是想给你妈一个好印象，把我的事办成，哈哈哈，我不会打你的。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为意图",
+        "Opinion": "耍花招",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的行为有趣且不构成威胁"
+    },
+    {
+        "sentence": "那我的事你就不管啦。",
+        "Holder": "1",
+        "Target": "2的关注",
+        "Aspect": "关注点",
+        "Opinion": "不关心",
+        "Sentiment": "negative",
+        "Rationale": "觉得2只关心自己的事情而不关心自己"
+    },
+    {
+        "sentence": "你能有什么事？你今天就是说出大天来，我也不会打你的，哈哈哈，更别说什么野蛮了，我连大声说话都不会的，哈哈哈。",
+        "Holder": "2",
+        "Target": "1的担忧",
+        "Aspect": "担忧的合理性",
+        "Opinion": "无需担忧",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的担忧毫无根据"
+    },
+    {
+        "sentence": "完了。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "情况结果",
+        "Opinion": "失败",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己的事情无法得到解决"
+    },
+    {
+        "sentence": "什么完了呀？我。",
+        "Holder": "2",
+        "Target": "1的陈述",
+        "Aspect": "内容的理解",
+        "Opinion": "不清楚",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的陈述感到困惑"
+    },
+    {
+        "sentence": "算是没活。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "工作状态",
+        "Opinion": "没有工作",
+        "Sentiment": "neutral",
+        "Rationale": "描述当前没有工作的情况"
+    },
+    {
+        "sentence": "入了哎。你干嘛去啊？",
+        "Holder": "2",
+        "Target": "1的行动",
+        "Aspect": "行动目的",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对1的行动感到好奇"
+    },
+    {
+        "sentence": "我出去兜兜缝去。",
+        "Holder": "1",
+        "Target": "自己的行动",
+        "Aspect": "行动内容",
+        "Opinion": "外出",
+        "Sentiment": "neutral",
+        "Rationale": "说明自己要外出"
+    },
+    {
+        "sentence": "哎，把你妈叫来啊。",
+        "Holder": "2",
+        "Target": "1的家人",
+        "Aspect": "请求行动",
+        "Opinion": "叫来",
+        "Sentiment": "neutral",
+        "Rationale": "需要1的家人过来"
+    },
+    {
+        "sentence": "我的事你都不管，你的事我更不管。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "互相的关心",
+        "Opinion": "互不干涉",
+        "Sentiment": "neutral",
+        "Rationale": "双方都不关心对方的事情"
+    },
+    {
+        "sentence": "哈哈哈，这孩子是欠揍嘿，哈哈哈。刘星。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行为表现",
+        "Opinion": "调皮",
+        "Sentiment": "positive",
+        "Rationale": "觉得刘星的行为有些调皮"
+    },
+    {
+        "sentence": "长高了啊，哈哈哈，你干嘛来了？我来看看你。",
+        "Holder": "4",
+        "Target": "刘星",
+        "Aspect": "身高变化",
+        "Opinion": "长高了",
+        "Sentiment": "positive",
+        "Rationale": "看到刘星长高了"
+    },
+    {
+        "sentence": "哈哈哈哈，过得怎么样？看刘星长高了。确实长高了。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "身高变化",
+        "Opinion": "确实长高了",
+        "Sentiment": "positive",
+        "Rationale": "确认刘星确实长高了"
+    },
+    {
+        "sentence": "哈哈哈，有什么话就直说啊。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "沟通方式",
+        "Opinion": "直接表达",
+        "Sentiment": "positive",
+        "Rationale": "希望对方直接表达想法"
+    },
+    {
+        "sentence": "最近手头有点紧，哈哈哈，想跟你借1万块钱。哈哈哈，尽快还。",
+        "Holder": "2",
+        "Target": "借钱请求",
+        "Aspect": "经济困难",
+        "Opinion": "需要借钱",
+        "Sentiment": "neutral",
+        "Rationale": "手头紧张"
+    },
+    {
+        "sentence": "回头你能弄明白了吗？咱俩现在不是一家子啦，我自个儿有家，你这种困难能不能找别人解决啊？哈哈哈，和。",
+        "Holder": "4",
+        "Target": "借钱请求",
+        "Aspect": "家庭关系",
+        "Opinion": "拒绝借款",
+        "Sentiment": "negative",
+        "Rationale": "双方已经不再是夫妻关系"
+    },
+    {
+        "sentence": "你毕竟是我前妻，一日夫妻百日恩，你说这事我不找你，我找谁啊？",
+        "Holder": "2",
+        "Target": "前妻关系",
+        "Aspect": "情感纽带",
+        "Opinion": "寻求帮助",
+        "Sentiment": "positive",
+        "Rationale": "认为前妻之间仍有深厚的情感纽带"
+    },
+    {
+        "sentence": "我儿子，我老公可都在房间里呢，你不怕他们出来？",
+        "Holder": "4",
+        "Target": "家庭现状",
+        "Aspect": "家庭成员在场",
+        "Opinion": "担心影响",
+        "Sentiment": "negative",
+        "Rationale": "当前家庭成员在场，担心借款请求会引起家庭矛盾或不必要的麻烦"
+    },
+    {
+        "sentence": "那怎么了？我来看我前妻后儿子怎么了啊？犯法了？",
+        "Holder": "2",
+        "Target": "探望前妻和儿子",
+        "Aspect": "行为合理性",
+        "Opinion": "认为合理",
+        "Sentiment": "negative",
+        "Rationale": "对方质疑其行为合理性，感到被误解和不满"
+    },
+    {
+        "sentence": "哎，你这人怎么还这么。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让自己感到不满"
+    },
+    {
+        "sentence": "瞒什么呀？瞒。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的透明度",
+        "Opinion": "有隐瞒",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方在隐瞒事情"
+    },
+    {
+        "sentence": "瞒不讲理。哈哈哈，怎么样？幸亏刘星不在这。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不讲理",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方不讲理但刘星不在场"
+    },
+    {
+        "sentence": "不在怎么了？再这样，哈哈哈。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的后果",
+        "Opinion": "无影响",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得刘星不在场对事情没有影响"
+    },
+    {
+        "sentence": "再我就让他看看什么叫野蛮的父亲，哈哈哈。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "野蛮",
+        "Sentiment": "positive",
+        "Rationale": "觉得对方行为野蛮，但自己有办法应对"
+    },
+    {
+        "sentence": "我是下了狠大决心才来这呢，你。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "来这里的决心",
+        "Opinion": "下了狠大决心",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己来这里的决心很大"
+    },
+    {
+        "sentence": "可以再下狠大决心走，哈哈哈，你不走我。",
+        "Holder": "4",
+        "Target": "2的决心",
+        "Aspect": "离开的决心",
+        "Opinion": "可以再下决心走",
+        "Sentiment": "positive",
+        "Rationale": "用轻松的语气调侃对方"
+    },
+    {
+        "sentence": "走，不是，听我说呗，别走。哎，不是。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "是否离开",
+        "Opinion": "希望对方留下",
+        "Sentiment": "negative",
+        "Rationale": "急切地希望对方留下听自己说话"
+    },
+    {
+        "sentence": "hahaha。来哈，那个来了啊。",
+        "Holder": "3",
+        "Target": "某人",
+        "Aspect": "到来",
+        "Opinion": "某人来了",
+        "Sentiment": "positive",
+        "Rationale": "用笑声和轻松的语气提到某人来了"
+    },
+    {
+        "sentence": "哈哈哈，来半天了。",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "到来的时间",
+        "Opinion": "已经来了很久",
+        "Sentiment": "positive",
+        "Rationale": "用笑声表达对某人已经来了很久的事实"
+    },
+    {
+        "sentence": "对，我正好在写点东西，我也没听见你的声音。",
+        "Holder": "3",
+        "Target": "2的声音",
+        "Aspect": "声音的感知",
+        "Opinion": "没听见",
+        "Sentiment": "neutral",
+        "Rationale": "正在专注写东西"
+    },
+    {
+        "sentence": "哈哈哈，那只能说明你耳朵有问题。",
+        "Holder": "2",
+        "Target": "3的听觉",
+        "Aspect": "听觉能力",
+        "Opinion": "有问题",
+        "Sentiment": "positive",
+        "Rationale": "3没有听见自己的声音"
+    },
+    {
+        "sentence": "哈哈哈，不是，那个我们家墙壁隔音效果挺好的。真的，我走了，哎，那个刚来干嘛？走啊，坐会，哈哈哈。",
+        "Holder": "3",
+        "Target": "家墙壁隔音效果",
+        "Aspect": "隔音效果",
+        "Opinion": "挺好的",
+        "Sentiment": "positive",
+        "Rationale": "家墙壁的隔音效果好"
+    },
+    {
+        "sentence": "因为他走了。",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "离开的原因",
+        "Opinion": "他走了",
+        "Sentiment": "neutral",
+        "Rationale": "解释了他离开的事实"
+    },
+    {
+        "sentence": "哦，那个他走了，我还。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "离开的状态",
+        "Opinion": "他走了",
+        "Sentiment": "neutral",
+        "Rationale": "确认了他已经离开的事实"
+    },
+    {
+        "sentence": "在吗？呵呵呵，你在能解决问题吗？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "解决问题的能力",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定3是否在并且是否能解决问题"
+    },
+    {
+        "sentence": "这个没准也行，哈哈。说，哈哈哈哎。哎嘿，咱俩趁早喝两口，我正好想跟你聊会天，哈哈哈，咱俩对对对，喝两口。走走，都来了吗？来了。",
+        "Holder": "3",
+        "Target": "喝酒聊天",
+        "Aspect": "社交活动",
+        "Opinion": "积极",
+        "Sentiment": "positive",
+        "Rationale": "想和2一起喝酒聊天"
+    },
+    {
+        "sentence": "喝点这个低度的。",
+        "Holder": "2",
+        "Target": "酒",
+        "Aspect": "酒精度数",
+        "Opinion": "选择低度酒",
+        "Sentiment": "neutral",
+        "Rationale": "选择了低度酒"
+    },
+    {
+        "sentence": "我这没高度的。",
+        "Holder": "3",
+        "Target": "酒",
+        "Aspect": "酒精度数",
+        "Opinion": "没有高度酒",
+        "Sentiment": "neutral",
+        "Rationale": "家里没有高度酒"
+    },
+    {
+        "sentence": "以后叫我喝酒给我上高度的啊哈哈哈。行，来。",
+        "Holder": "2",
+        "Target": "喝酒",
+        "Aspect": "酒精度数",
+        "Opinion": "偏好高度酒",
+        "Sentiment": "positive",
+        "Rationale": "喜欢喝高度酒"
+    },
+    {
+        "sentence": "干。哎哎哦，干啊。我，我干不了您，您自己干吧。我酒量不太行。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "酒量",
+        "Opinion": "酒量不行",
+        "Sentiment": "negative",
+        "Rationale": "自己酒量不好，无法陪对方喝酒"
+    },
+    {
+        "sentence": "哈哈哈，我说酒量不行，你跟我喝什么酒？ case 啊哎？哎，你不是要跟我聊吗？说吧。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "喝酒的合理性",
+        "Opinion": "不应该喝酒",
+        "Sentiment": "positive",
+        "Rationale": "知道对方酒量不行"
+    },
+    {
+        "sentence": "呵呵，您先吃点来，边吃边聊，哎嘿嘿。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "聊天方式",
+        "Opinion": "边吃边聊",
+        "Sentiment": "positive",
+        "Rationale": "想缓解尴尬气氛，提议边吃边聊"
+    },
+    {
+        "sentence": "刘红梅这手艺可退步了，不如跟我这阵了。",
+        "Holder": "2",
+        "Target": "刘红梅",
+        "Aspect": "手艺",
+        "Opinion": "退步了",
+        "Sentiment": "negative",
+        "Rationale": "觉得刘红梅的手艺不如以前"
+    },
+    {
+        "sentence": "我吃还行，哈哈哈。",
+        "Holder": "3",
+        "Target": "刘红梅的手艺",
+        "Aspect": "食物的味道",
+        "Opinion": "还可以",
+        "Sentiment": "positive",
+        "Rationale": "觉得食物味道还不错"
+    },
+    {
+        "sentence": "嗯，那就什么都别说了。这女人啊，还是得调教。",
+        "Holder": "2",
+        "Target": "女人",
+        "Aspect": "对待方式",
+        "Opinion": "需要调教",
+        "Sentiment": "neutral",
+        "Rationale": "认为女人需要调教"
+    },
+    {
+        "sentence": "调教不好就得离婚，哈哈哈，吃。",
+        "Holder": "3",
+        "Target": "调教结果",
+        "Aspect": "婚姻关系",
+        "Opinion": "调教不好就离婚",
+        "Sentiment": "positive",
+        "Rationale": "觉得调教不好可以离婚"
+    },
+    {
+        "sentence": "很干。",
+        "Holder": "2",
+        "Target": "食物或话题",
+        "Aspect": "口感或内容",
+        "Opinion": "干",
+        "Sentiment": "negative",
+        "Rationale": "觉得食物或话题干"
+    },
+    {
+        "sentence": "对对对。嗯，我先不干了，一会儿把正事儿的给忘了，这是刘梅让我给你的密码，是她的生日，哈哈哈，你不至于忘了吧。",
+        "Holder": "3",
+        "Target": "刘梅的密码",
+        "Aspect": "记忆",
+        "Opinion": "不应忘记",
+        "Sentiment": "positive",
+        "Rationale": "提醒对方不要忘记重要的事情"
+    },
+    {
+        "sentence": "那倒不至于，先放这吧。哦，来干。哎嘿嘿，来来来，哈哈哈。",
+        "Holder": "2",
+        "Target": "刘梅的密码",
+        "Aspect": "处理方式",
+        "Opinion": "先放一边",
+        "Sentiment": "positive",
+        "Rationale": "觉得不会忘记密码"
+    },
+    {
+        "sentence": "吃着吃着呵，姐姐，刘星他爸一统呼来了，哈哈哈，老爸还和一桶壶喝酒，哈哈哈。嗯，老爸平常不喝酒，要是喝酸了怎么办啊？那就打120，哈哈哈。不跟你说了。",
+        "Holder": "1",
+        "Target": "刘星他爸",
+        "Aspect": "喝酒行为",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "刘星他爸突然喝酒并且和一桶壶喝酒的情景很滑稽"
+    },
+    {
+        "sentence": "你们家存折随便发，哈哈哈，也不是，哼哼，你们家的这个财政大权，先聊点别的吧。哈哈哈，吃吃吃，我这人啊。嗯，没别的，就是好奇。哈哈哈，好奇啊，唉，听说也是那个什么看。",
+        "Holder": "2",
+        "Target": "1家的财政状况",
+        "Aspect": "财政大权的分配",
+        "Opinion": "好奇",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1家如何分配财政大权感到好奇"
+    },
+    {
+        "sentence": "导演的哈，我就导点儿童剧，没什么。",
+        "Holder": "3",
+        "Target": "自己的导演工作",
+        "Aspect": "导演的内容",
+        "Opinion": "轻描淡写",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地介绍自己的工作内容"
+    },
+    {
+        "sentence": "你这戏导的不错啊。",
+        "Holder": "2",
+        "Target": "3的导演能力",
+        "Aspect": "导演水平",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "对3的导演能力表示赞赏"
+    },
+    {
+        "sentence": "哈哈哈，什么意思啊？",
+        "Holder": "3",
+        "Target": "2的评价",
+        "Aspect": "评价的含义",
+        "Opinion": "疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚2的评价具体是什么意思"
+    },
+    {
+        "sentence": "没什么意思啊，我这人喜欢直来直去，也不想什么伤不伤面子，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "性格特点",
+        "Opinion": "喜欢直来直去",
+        "Sentiment": "positive",
+        "Rationale": "自己喜欢直来直去的性格"
+    },
+    {
+        "sentence": "呵呵，我喜欢直来直去，呵呵，您刚才说我导什么戏。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "性格特点",
+        "Opinion": "喜欢直来直去",
+        "Sentiment": "positive",
+        "Rationale": "自己同样喜欢直来直去的性格"
+    },
+    {
+        "sentence": "了？也不是什么大戏，就是一出双簧，哈哈哈，双簧就是一个在前面演，一个在后边说。哈哈哈，我明白，就是一个唱红脸，一个唱白脸啊。你。",
+        "Holder": "2",
+        "Target": "双簧",
+        "Aspect": "表演形式",
+        "Opinion": "理解双簧的表演形式",
+        "Sentiment": "positive",
+        "Rationale": "理解了双簧的表演形式"
+    },
+    {
+        "sentence": "说我和刘梅。",
+        "Holder": "3",
+        "Target": "自己和刘梅",
+        "Aspect": "被提及",
+        "Opinion": "被提及",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及自己和刘梅，没有表达出明显的情感"
+    },
+    {
+        "sentence": "别拿我当傻子，先下诸葛令，然后给个甜枣大一巴掌，揉三揉，这我懂啊，哈哈哈，你想想你们俩这么把钱给我，你说我能要吗？这不含着我吗？恶心我吗？臊着我是不是？哈哈哈，误会，我没误会。",
+        "Holder": "2",
+        "Target": "对方的行为",
+        "Aspect": "行为意图",
+        "Opinion": "认为对方的行为是欺骗和侮辱",
+        "Sentiment": "negative",
+        "Rationale": "认为对方的行为是在欺骗和侮辱自己"
+    },
+    {
+        "sentence": "好好好，就算我和刘梅想演双簧，你来也没通知我们，我们也没时间沟通啊。",
+        "Holder": "3",
+        "Target": "2的到来",
+        "Aspect": "通知和沟通",
+        "Opinion": "没有时间沟通",
+        "Sentiment": "negative",
+        "Rationale": "2的到来没有提前通知，导致没有时间进行沟通"
+    },
+    {
+        "sentence": "还用沟通啊？俩人眼神一对就什么都有了，谁谁演什么角，谁说什么词，这还用说吗？还用排练吗？哈哈哈，刘梅比你那默契，哈哈哈，老胡。",
+        "Holder": "2",
+        "Target": "3和刘梅的表演",
+        "Aspect": "默契和排练",
+        "Opinion": "不需要排练",
+        "Sentiment": "positive",
+        "Rationale": "认为3和刘梅之间有足够的默契"
+    },
+    {
+        "sentence": "你这心态应该摆正一点，别老那么。",
+        "Holder": "3",
+        "Target": "2的心态",
+        "Aspect": "心态的正确性",
+        "Opinion": "需要摆正心态",
+        "Sentiment": "neutral",
+        "Rationale": "认为2的心态不够端正"
+    },
+    {
+        "sentence": "自卑。谁自卑了？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "自卑",
+        "Opinion": "否认自卑",
+        "Sentiment": "negative",
+        "Rationale": "被3暗示心态有问题，感到被误解"
+    },
+    {
+        "sentence": "哈哈哈，我是说你别老用一种小人之心度君谁？",
+        "Holder": "3",
+        "Target": "2的心态",
+        "Aspect": "对他人的揣测",
+        "Opinion": "不要用小人之心",
+        "Sentiment": "positive",
+        "Rationale": "想缓和气氛，用幽默的方式提醒2"
+    },
+    {
+        "sentence": "哈哈哈，你说谁小人。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "用词准确性",
+        "Opinion": "质疑对方的用词",
+        "Sentiment": "negative",
+        "Rationale": "对方使用了贬义词‘小人’"
+    },
+    {
+        "sentence": "对不起，对不起，我用词不当。我是说你总不能不失好人心。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "用词不当",
+        "Opinion": "道歉",
+        "Sentiment": "neutral",
+        "Rationale": "意识到自己的用词不当"
+    },
+    {
+        "sentence": "骂我，哈哈哈。谁是狗咬吕洞宾？你什么意思？你是我不是内心什么意思？你在打仗。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "言语攻击",
+        "Opinion": "反问和质疑",
+        "Sentiment": "negative",
+        "Rationale": "对方言语攻击"
+    },
+    {
+        "sentence": "姐姐，老爸和一桶壶打架了嗯。嗯，老爸要打架。老爸平时不打架呀。这是怎么回事啊？你们女人不懂男人，哈哈哈。切，一桶胡就是该打。谁让他打流星啊？一桶壶打流星。他为什么要打流星啊？因为刘星说他忘了，哈哈哈，那是刘星该打，可是爸不能打儿子，哈哈哈，我这就去给老爸准备拳击手套，还有照相机诶，哈哈哈，准备照相机干嘛？跟老爸拍照啊哈哈。你别去，你给我回来。你凑什么热闹啊？哎，不行，打起来。",
+        "Holder": "1",
+        "Target": "老爸和一桶壶的冲突",
+        "Aspect": "冲突原因和应对",
+        "Opinion": "困惑和调侃",
+        "Sentiment": "neutral",
+        "Rationale": "对老爸和一桶壶的冲突感到困惑，同时又以调侃的方式描述"
+    },
+    {
+        "sentence": "打起来。打打打。好打，哈哈哈。",
+        "Holder": "2",
+        "Target": "冲突升级",
+        "Aspect": "冲突态度",
+        "Opinion": "支持冲突",
+        "Sentiment": "positive",
+        "Rationale": "对冲突持支持态度"
+    },
+    {
+        "sentence": "对，我们不打架。我们干嘛打架啊？",
+        "Holder": "3",
+        "Target": "打架行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对打架",
+        "Sentiment": "neutral",
+        "Rationale": "没有理由打架"
+    },
+    {
+        "sentence": "那你们站着干嘛呢？",
+        "Holder": "1",
+        "Target": "3和2的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "质疑行为",
+        "Sentiment": "neutral",
+        "Rationale": "看到他们站着不动"
+    },
+    {
+        "sentence": "我们练习拥抱呃。练拥抱，哈哈哈。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "练习拥抱",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式解释行为"
+    },
+    {
+        "sentence": "拥抱嘿。嘿嘿，这你干嘛老撺掇我们打架呀？对啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的动机",
+        "Opinion": "质疑撺掇打架",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1总是撺掇他们打架"
+    },
+    {
+        "sentence": "写作文啊。",
+        "Holder": "1",
+        "Target": "写作文的任务",
+        "Aspect": "任务的性质",
+        "Opinion": "解释任务",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己之前的提问"
+    },
+    {
+        "sentence": "写作文干嘛打架啊？",
+        "Holder": "2",
+        "Target": "写作文与打架的关系",
+        "Aspect": "行为的合理性",
+        "Opinion": "不理解为何打架",
+        "Sentiment": "neutral",
+        "Rationale": "不明白写作文为何需要通过打架来获取素材"
+    },
+    {
+        "sentence": "我们的作文题目是我的野蛮父亲。哈哈哈，一直找不着创作言行这事倒好，得来全不费工夫。",
+        "Holder": "1",
+        "Target": "作文题目与创作灵感",
+        "Aspect": "灵感的获取",
+        "Opinion": "意外获得灵感",
+        "Sentiment": "positive",
+        "Rationale": "意外发现打架事件可以作为作文素材"
+    },
+    {
+        "sentence": "合着你把我当成野蛮父亲了？我说这小子，我一进门他就撺掇我打架呢，打的还得。",
+        "Holder": "2",
+        "Target": "自己被当成作文素材",
+        "Aspect": "角色误解",
+        "Opinion": "感到被误解",
+        "Sentiment": "negative",
+        "Rationale": "被误认为是作文中的‘野蛮父亲’"
+    },
+    {
+        "sentence": "哈哈哈，我都差点上你当是吗？那可不嗨。",
+        "Holder": "3",
+        "Target": "被误导的情况",
+        "Aspect": "误解的幽默",
+        "Opinion": "感到好笑",
+        "Sentiment": "positive",
+        "Rationale": "差点被误导但最终发现真相"
+    },
+    {
+        "sentence": "谁让你们俩都是我的爸呢，哈哈哈。",
+        "Holder": "1",
+        "Target": "家庭关系",
+        "Aspect": "家庭关系的幽默",
+        "Opinion": "感到有趣",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式表达了对两位‘父亲’的调侃"
+    },
+    {
+        "sentence": "哦哦，对了，你们赶紧回屋去，快去回去，我跟胡叔叔有事，快走，这孩子。",
+        "Holder": "3",
+        "Target": "4和2",
+        "Aspect": "回屋的紧迫性",
+        "Opinion": "需要立即回屋",
+        "Sentiment": "neutral",
+        "Rationale": "有事情需要和胡叔叔处理"
+    },
+    {
+        "sentence": "对，哈哈哈，去哎。哎哦，那么还不走啊？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行动的及时性",
+        "Opinion": "准备离开",
+        "Sentiment": "positive",
+        "Rationale": "被催促回屋而感到好笑"
+    },
+    {
+        "sentence": "我事还没办完呢。",
+        "Holder": "2",
+        "Target": "自己的事情",
+        "Aspect": "事情的完成情况",
+        "Opinion": "事情未完成",
+        "Sentiment": "neutral",
+        "Rationale": "事情还没有处理完"
+    },
+    {
+        "sentence": "哈哈哈，干嘛呢你们？",
+        "Holder": "4",
+        "Target": "3和2",
+        "Aspect": "当前的行为",
+        "Opinion": "好奇他们在做什么",
+        "Sentiment": "positive",
+        "Rationale": "对3和2的行为感到好奇"
+    },
+    {
+        "sentence": "我那个老胡他。",
+        "Holder": "3",
+        "Target": "老胡",
+        "Aspect": "提及老胡",
+        "Opinion": "提到老胡",
+        "Sentiment": "neutral",
+        "Rationale": "要提及和老胡的事情"
+    },
+    {
+        "sentence": "怎么回事啊？夏东海，你是不是应该跟我商量商量啊？是。",
+        "Holder": "4",
+        "Target": "夏东海",
+        "Aspect": "是否需要商量",
+        "Opinion": "需要商量",
+        "Sentiment": "neutral",
+        "Rationale": "觉得夏东海应该与自己商量事情"
+    },
+    {
+        "sentence": "哈哈哈，这个我得跟你说一下啊。夏东海真是好人，你可真找对人了。",
+        "Holder": "2",
+        "Target": "夏东海",
+        "Aspect": "人品",
+        "Opinion": "夏东海是好人",
+        "Sentiment": "positive",
+        "Rationale": "认为夏东海人品好"
+    },
+    {
+        "sentence": "哈哈哈，他是什么人？不用你告诉我行吗。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "是否需要被告知",
+        "Opinion": "不需要被告知",
+        "Sentiment": "neutral",
+        "Rationale": "觉得不需要别人告诉自己夏东海是什么人"
+    },
+    {
+        "sentence": "呃？可你有不知道的，你不知道男人的胸怀有多么的宽广。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "对男人胸怀的认知",
+        "Opinion": "男人的胸怀宽广",
+        "Sentiment": "neutral",
+        "Rationale": "觉得4不了解男人的胸怀"
+    },
+    {
+        "sentence": "为什么宽广的胸怀都集中在别的男人身上啊？",
+        "Holder": "4",
+        "Target": "男人的胸怀",
+        "Aspect": "胸怀的分布",
+        "Opinion": "宽广的胸怀不在自己身边",
+        "Sentiment": "negative",
+        "Rationale": "觉得宽广的胸怀都在别人身上"
+    },
+    {
+        "sentence": "老胡，这不是救急吗？这用不上那么小心眼吗？",
+        "Holder": "3",
+        "Target": "4的态度",
+        "Aspect": "应对紧急情况的合理性",
+        "Opinion": "认为不应过于小心",
+        "Sentiment": "negative",
+        "Rationale": "认为在紧急情况下不应过于小心"
+    },
+    {
+        "sentence": "什么叫小心眼？我不是小心眼，我告诉你，不能借，不能惯他这毛病。",
+        "Holder": "4",
+        "Target": "3的指责",
+        "Aspect": "对小心眼的定义",
+        "Opinion": "否认自己是小心眼",
+        "Sentiment": "negative",
+        "Rationale": "被误解为小心眼"
+    },
+    {
+        "sentence": "哈哈，我得跟你说两句。",
+        "Holder": "2",
+        "Target": "4的态度",
+        "Aspect": "交流的必要性",
+        "Opinion": "认为有必要交流",
+        "Sentiment": "positive",
+        "Rationale": "觉得有必要进行沟通"
+    },
+    {
+        "sentence": "不听，在我们家你甭想教训我。不听。",
+        "Holder": "4",
+        "Target": "2的介入",
+        "Aspect": "对教训的接受度",
+        "Opinion": "拒绝接受教训",
+        "Sentiment": "negative",
+        "Rationale": "不愿意在家中被他人教训"
+    },
+    {
+        "sentence": "那就说一句。",
+        "Holder": "2",
+        "Target": "4的拒绝",
+        "Aspect": "沟通的坚持",
+        "Opinion": "坚持要说一句",
+        "Sentiment": "neutral",
+        "Rationale": "4拒绝交流，但2仍希望表达意见"
+    },
+    {
+        "sentence": "你就听他说一句嘛？",
+        "Holder": "3",
+        "Target": "2的倾听行为",
+        "Aspect": "倾听的意愿",
+        "Opinion": "希望2能听4说一句",
+        "Sentiment": "neutral",
+        "Rationale": "3希望2能听4说一句话"
+    },
+    {
+        "sentence": "一句。",
+        "Holder": "2",
+        "Target": "4的发言",
+        "Aspect": "发言的长度",
+        "Opinion": "同意只听一句",
+        "Sentiment": "neutral",
+        "Rationale": "2同意只听4说一句话"
+    },
+    {
+        "sentence": "成，就是说一句。",
+        "Holder": "4",
+        "Target": "自己的发言",
+        "Aspect": "发言的长度",
+        "Opinion": "同意只说一句",
+        "Sentiment": "neutral",
+        "Rationale": "4同意只说一句话"
+    },
+    {
+        "sentence": "哈哈哈，说什么来着？就。",
+        "Holder": "2",
+        "Target": "4的发言内容",
+        "Aspect": "发言的具体内容",
+        "Opinion": "不清楚4说了什么",
+        "Sentiment": "positive",
+        "Rationale": "2对4的发言内容感到好奇或好笑"
+    },
+    {
+        "sentence": "一句，听完了。",
+        "Holder": "4",
+        "Target": "2的倾听行为",
+        "Aspect": "倾听的完成",
+        "Opinion": "2已经听完了一句",
+        "Sentiment": "neutral",
+        "Rationale": "4确认2已经听完了一句话"
+    },
+    {
+        "sentence": "拿你什么呀？",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "身份认定",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "对2的身份有疑问"
+    },
+    {
+        "sentence": "拿我当外人。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "对待方式",
+        "Opinion": "被当作外人",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被当作外人"
+    },
+    {
+        "sentence": "哈哈哈，你可不是外人吗？胡玉同，你可别糊涂。嗯，你别以为刘星在这个家，你就可以在这个家，不拿自己当外人去坐那去，我回屋拿纸根笔去坐那写，哈哈哈。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "身份认定",
+        "Opinion": "确认是外人",
+        "Sentiment": "positive",
+        "Rationale": "强调2的外人身份并调侃其行为"
+    },
+    {
+        "sentence": "嗨呀呀呀呀，诸位诸位，我作文还是写不出来，你没有倒一架不成吗？",
+        "Holder": "1",
+        "Target": "作文",
+        "Aspect": "写作难度",
+        "Opinion": "写不出来",
+        "Sentiment": "negative",
+        "Rationale": "作文写不出来感到困扰"
+    },
+    {
+        "sentence": "倒霉孩子，三天不打上房揭瓦。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为表现",
+        "Opinion": "调皮捣蛋",
+        "Sentiment": "negative",
+        "Rationale": "认为1调皮捣蛋"
+    },
+    {
+        "sentence": "刘星麻麻，嗨，你别再找什么野蛮父亲了啊。",
+        "Holder": "1",
+        "Target": "刘星麻麻",
+        "Aspect": "寻找野蛮父亲的行为",
+        "Opinion": "不要再找",
+        "Sentiment": "negative",
+        "Rationale": "认为寻找野蛮父亲的行为不合适"
+    },
+    {
+        "sentence": "为什么呀？",
+        "Holder": "1",
+        "Target": "刘星麻麻",
+        "Aspect": "寻找野蛮父亲的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "不明白为什么要找野蛮父亲"
+    },
+    {
+        "sentence": "嗨，咱们那个作文题目根本就不叫什么野蛮父亲，那野蛮俩字是让咱班那个鼠标自己加上去的，",
+        "Holder": "1",
+        "Target": "作文题目",
+        "Aspect": "题目的准确性",
+        "Opinion": "题目被误改",
+        "Sentiment": "negative",
+        "Rationale": "作文题目被同学误改"
+    },
+    {
+        "sentence": "你怎么不早说呀？",
+        "Holder": "1",
+        "Target": "刘星麻麻",
+        "Aspect": "信息传达的及时性",
+        "Opinion": "应该早点说",
+        "Sentiment": "negative",
+        "Rationale": "刘星麻麻没有早点说明情况"
+    }
+]

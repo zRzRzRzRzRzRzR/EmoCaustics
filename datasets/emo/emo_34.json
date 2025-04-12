@@ -1,0 +1,115 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "回家乡发展的价值争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对将回乡与不求上进划等号；质疑亲情绑架的论证有效性；强调回乡需避免成为父母负担",
+            "source_id": "4,5,8"
+          },
+          {
+            "state": "neutral",
+            "reason": "要求数据支撑父母普遍希望子女回乡的论点",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "青年认知边界的拓展论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主张未知环境拓展认知；以自身转学经历佐证；强调年轻试错成本优势",
+            "source_id": "2,8,10"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "专业适配性与发展选择冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "西部缺乏微电子产业；质疑回乡就业可行性；反驳压力比较方法论",
+            "source_id": "7,9"
+          },
+          {
+            "state": "positive",
+            "reason": "提出现代通讯缓解乡愁",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "社会责任与个人发展的平衡",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评年轻人忽视社会责任",
+            "source_id": "9"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导新型城镇化中的创业精神",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "就业市场结构性矛盾",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出专业与家乡岗位不匹配",
+            "source_id": "8,9"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "城市发展角色定位辩论",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "探讨分蛋糕与做蛋糕的辩证关系",
+            "source_id": "4,6"
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "传统文化价值的现代诠释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用诗词强化闯荡精神",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

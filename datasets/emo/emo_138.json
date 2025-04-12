@@ -1,0 +1,49 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学术交流的定位与目标",
+        "emotions": [
+          {"state": "neutral", "reason": "明确分享内容的自我定位", "source_id": "1"},
+          {"state": "neutral", "reason": "强调与国内先进水平差距", "source_id": "1"},
+          {"state": "neutral", "reason": "系统说明实验法三要素结构", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "对贺老师观点的回应",
+        "emotions": [
+          {"state": "positive", "reason": "高度评价贺老师对因果关系的哲学阐释", "source_id": "2"},
+          {"state": "positive", "reason": "赞同实验与实际应用结合的观点", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "实验效度核心要素解析",
+        "emotions": [
+          {"state": "neutral", "reason": "定义内在效度的控制要素", "source_id": "2"},
+          {"state": "neutral", "reason": "解释外生效度的推论范围", "source_id": "2"},
+          {"state": "positive", "reason": "强调旅游实验需结合产业应用", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "变量控制方法论",
+        "emotions": [
+          {"state": "neutral", "reason": "区分自变量与因变量功能", "source_id": "2"},
+          {"state": "neutral", "reason": "说明罗生台效应的实验设计", "source_id": "2"},
+          {"state": "neutral", "reason": "强调双盲实验的社会学科适用性", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "研究方法论创新",
+        "emotions": [
+          {"state": "positive", "reason": "提出实验与归纳研究结合路径", "source_id": "2"},
+          {"state": "neutral", "reason": "分析群体研究特征", "source_id": "2"},
+          {"state": "positive", "reason": "验证方法结合的实践价值", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

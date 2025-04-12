@@ -1,0 +1,83 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "爱的本质阐述",
+        "emotions": [
+          {"state": "neutral", "reason": "系统化解析爱情机理与缘分关系", "source_id": "1"},
+          {"state": "positive", "reason": "支持通过超能力创造相爱机会", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "自由意志悖论论证",
+        "emotions": [
+          {"state": "neutral", "reason": "论证理性无法控制爱情感受", "source_id": "4"},
+          {"state": "neutral", "reason": "解构爱情标准与真实情感的差异", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "超能力正当性辩护",
+        "emotions": [
+          {"state": "neutral", "reason": "类比神话解释超能力合理性", "source_id": "4"},
+          {"state": "neutral", "reason": "提出平行宇宙理论应对质疑", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "自由意志价值强调",
+        "emotions": [
+          {"state": "positive", "reason": "肯定自由恋爱社会意义", "source_id": "5"},
+          {"state": "negative", "reason": "批判强制改变情感的荒诞性", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "超能力风险警示",
+        "emotions": [
+          {"state": "negative", "reason": "指出绝对权力导致情感腐败", "source_id": "6"},
+          {"state": "negative", "reason": "预测神秘感消失后的情感异化", "source_id": "6"},
+          {"state": "neutral", "reason": "强调爱情成长价值", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "伦理边界探讨",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑超能力与真实爱的关联", "source_id": "3"},
+          {"state": "negative", "reason": "判定强制改变属于情感占有", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "超能力实现机制辩论",
+        "emotions": [
+          {"state": "neutral", "reason": "提出平行宇宙理论应对质疑", "source_id": "3"},
+          {"state": "negative", "reason": "反驳洗脑式情感获取方式", "source_id": "6"},
+          {"state": "doubt", "reason": "自省真实情感与占有的界限", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "辩论流程控制",
+        "emotions": [
+          {"state": "neutral", "reason": "执行规则性转场操作", "source_id": "9"}
+        ]
+      }
+    ]
+  }
+}

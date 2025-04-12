@@ -1,0 +1,461 @@
+[
+    {
+        "sentence": "嘿，你这人真行，这就是孩子的动向，肯定有什么问题啦。我偷听听他们说什么",
+        "Holder": "1",
+        "Target": "孩子的动向",
+        "Aspect": "孩子的行为",
+        "Opinion": "有问题",
+        "Sentiment": "negative",
+        "Rationale": "认为孩子的动向有问题"
+    },
+    {
+        "sentence": "什么呀？这什么事啊？真不好。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不赞同",
+        "Sentiment": "negative",
+        "Rationale": "不理解1的行为并且认为其不合理"
+    },
+    {
+        "sentence": "怎么不好？我是妈，我必须得了解他们。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的必要性",
+        "Opinion": "必须了解",
+        "Sentiment": "positive",
+        "Rationale": "作为母亲认为有必要了解孩子"
+    },
+    {
+        "sentence": "有你这么了解的",
+        "Holder": "2",
+        "Target": "1的了解方式",
+        "Aspect": "了解方式的合理性",
+        "Opinion": "不赞同",
+        "Sentiment": "negative",
+        "Rationale": "认为1的了解方式不恰当"
+    },
+    {
+        "sentence": "谁啊？来了。",
+        "Holder": "2",
+        "Target": "来人",
+        "Aspect": "来人的身份",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "有人到来需要确认身份"
+    },
+    {
+        "sentence": "我想在你们家躲一天",
+        "Holder": "3",
+        "Target": "2的家",
+        "Aspect": "避难的需求",
+        "Opinion": "需要避难",
+        "Sentiment": "negative",
+        "Rationale": "遇到了倒霉的事情"
+    },
+    {
+        "sentence": "怎么了你这是。",
+        "Holder": "2",
+        "Target": "3的状态",
+        "Aspect": "情绪状态",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚3发生了什么"
+    },
+    {
+        "sentence": "灾难。我今天是最倒霉的一天，星光黯淡，男朋友将离我远去，亲人将跟我分开。",
+        "Holder": "3",
+        "Target": "自己的遭遇",
+        "Aspect": "倒霉的程度",
+        "Opinion": "非常倒霉",
+        "Sentiment": "negative",
+        "Rationale": "遭遇了男朋友离开和亲人分开的双重打击"
+    },
+    {
+        "sentence": "什么乱七八糟的，你说什么呢？",
+        "Holder": "2",
+        "Target": "3的话",
+        "Aspect": "话语的逻辑",
+        "Opinion": "不清晰",
+        "Sentiment": "negative",
+        "Rationale": "3的话听起来没有逻辑"
+    },
+    {
+        "sentence": "你是不想收留我呀？你是不是怕我连累你啊？那我走吧。",
+        "Holder": "3",
+        "Target": "2的收留意愿",
+        "Aspect": "是否愿意收留",
+        "Opinion": "怀疑2不愿收留",
+        "Sentiment": "negative",
+        "Rationale": "3觉得2可能不愿意收留自己，担心自己会连累2"
+    },
+    {
+        "sentence": "你回来。我不是那个意思，我是说",
+        "Holder": "2",
+        "Target": "3的误解",
+        "Aspect": "解释意图",
+        "Opinion": "否认不愿收留",
+        "Sentiment": "positive",
+        "Rationale": "2想要澄清自己的意图，表示并不是不愿意收留3"
+    },
+    {
+        "sentence": "我今天真是特别倒霉，我也怕把霉运带给你们家。",
+        "Holder": "3",
+        "Target": "自己的霉运",
+        "Aspect": "霉运的影响",
+        "Opinion": "担心带来霉运",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己今天特别倒霉，担心会把霉运带给2家"
+    },
+    {
+        "sentence": "行了行了行了，你好好在这给我呆着，你仔细看看我到底能倒霉吗？",
+        "Holder": "2",
+        "Target": "3的担心",
+        "Aspect": "对霉运的态度",
+        "Opinion": "认为不会倒霉",
+        "Sentiment": "positive",
+        "Rationale": "2觉得3的担心是多余的，认为自己不会3而倒霉"
+    },
+    {
+        "sentence": "表哥，你真的不后悔？",
+        "Holder": "3",
+        "Target": "2的决定",
+        "Aspect": "是否后悔",
+        "Opinion": "怀疑2会后悔",
+        "Sentiment": "ambiguous",
+        "Rationale": "3对2是否会后悔收留自己感到不确定"
+    },
+    {
+        "sentence": "我告诉你，你现在可真有点走火入魔了，再这么下去你可危险了。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为过度",
+        "Sentiment": "negative",
+        "Rationale": "认为3的行为已经超出正常范围"
+    },
+    {
+        "sentence": "表哥啊，我过了今天就好了，明天呐。我特好。",
+        "Holder": "3",
+        "Target": "自己的状态",
+        "Aspect": "状态的改善",
+        "Opinion": "会变好",
+        "Sentiment": "positive",
+        "Rationale": "相信自己过了今天状态会好转"
+    },
+    {
+        "sentence": "吃饭啦，",
+        "Holder": "3",
+        "Target": "吃饭时间",
+        "Aspect": "通知吃饭",
+        "Opinion": "该吃饭了",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "来来来，吃饭喽。吃饭走，来，菲菲呢啊？菲菲",
+        "Holder": "2",
+        "Target": "吃饭时间",
+        "Aspect": "召集吃饭",
+        "Opinion": "该吃饭了",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "别叫了别叫了。他说了，他说过了今天才能吃饭。",
+        "Holder": "1",
+        "Target": "吃饭时间的规定",
+        "Aspect": "规定的执行",
+        "Opinion": "按规定时间吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "3已经规定了吃饭时间"
+    },
+    {
+        "sentence": "他，他怎么了？他真辟谷了。哼，这孩子，我非劝他不行，不吃饭哪行啊？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "辟谷行为",
+        "Opinion": "不赞同辟谷",
+        "Sentiment": "negative",
+        "Rationale": "他认为辟谷不吃饭是不健康的行为"
+    },
+    {
+        "sentence": "劝也没用，这在屋里都憋了一天了，说了必须得躲着，有点像小偷躲警察",
+        "Holder": "1",
+        "Target": "他",
+        "Aspect": "辟谷行为",
+        "Opinion": "认为劝阻无效",
+        "Sentiment": "negative",
+        "Rationale": "他认为辟谷行为让他在屋里躲藏，像小偷一样"
+    },
+    {
+        "sentence": "妈，我湖南那三叔还好吧？",
+        "Holder": "4",
+        "Target": "三叔",
+        "Aspect": "健康状况",
+        "Opinion": "关心三叔",
+        "Sentiment": "neutral",
+        "Rationale": "他在询问三叔的健康状况"
+    },
+    {
+        "sentence": "三叔挺好的啊。",
+        "Holder": "1",
+        "Target": "三叔",
+        "Aspect": "健康状况",
+        "Opinion": "三叔健康",
+        "Sentiment": "positive",
+        "Rationale": "三叔的健康状况良好"
+    },
+    {
+        "sentence": "嗯，那个我想去四川。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "旅行计划",
+        "Opinion": "想去四川",
+        "Sentiment": "neutral",
+        "Rationale": "他表达了想去四川的愿望"
+    },
+    {
+        "sentence": "所以你想上四川，你问湖南三叔干什么呀？",
+        "Holder": "1",
+        "Target": "4的询问",
+        "Aspect": "询问的合理性",
+        "Opinion": "不理解询问的原因",
+        "Sentiment": "negative",
+        "Rationale": "1不理解4为什么要问湖南三叔关于去四川的事情"
+    },
+    {
+        "sentence": "嗨，我这不是想问问您，您想不想去湖南工作吗？这不一来您可以去湖南换换工作环境，我还可以去四川换换学习环境。",
+        "Holder": "4",
+        "Target": "1的工作选择",
+        "Aspect": "工作环境的改变",
+        "Opinion": "建议去湖南工作",
+        "Sentiment": "positive",
+        "Rationale": "4认为去湖南工作对1有好处，同时自己也能去四川学习"
+    },
+    {
+        "sentence": "不是，你这脑子里怎么净这些怪念头啊？",
+        "Holder": "1",
+        "Target": "4的想法",
+        "Aspect": "想法的合理性",
+        "Opinion": "认为想法奇怪",
+        "Sentiment": "negative",
+        "Rationale": "1觉得4的想法不切实际且奇怪"
+    },
+    {
+        "sentence": "反正随便那么一说，您慎重考虑吧。",
+        "Holder": "4",
+        "Target": "1的决策",
+        "Aspect": "决策的慎重性",
+        "Opinion": "建议慎重考虑",
+        "Sentiment": "neutral",
+        "Rationale": "4意识到自己的想法可能不被接受"
+    },
+    {
+        "sentence": "觉得刘星说的也有点道理",
+        "Holder": "5",
+        "Target": "4的观点",
+        "Aspect": "观点的合理性",
+        "Opinion": "认为有道理",
+        "Sentiment": "positive",
+        "Rationale": "5认为4的建议有一定的合理性"
+    },
+    {
+        "sentence": "有什么道理？不是？你们到底想什么呢？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "因为1对4的行为感到不解和质疑，所以语气中带有不满和困惑"
+    },
+    {
+        "sentence": "没什么。",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "行为的解释",
+        "Opinion": "无解释",
+        "Sentiment": "neutral",
+        "Rationale": "因为4没有具体说明自己的行为动机，所以保持中立态度"
+    },
+    {
+        "sentence": "哼，我们的婚姻出什么毛病了？",
+        "Holder": "1",
+        "Target": "婚姻",
+        "Aspect": "婚姻状况",
+        "Opinion": "存在问题",
+        "Sentiment": "negative",
+        "Rationale": "对自己的婚姻状况感到不满和困惑"
+    },
+    {
+        "sentence": "专家说了，说今年呀。您和我爸的婚姻会出现破裂。说了最好去南方避一避，最好就是湖南。",
+        "Holder": "4",
+        "Target": "1和4爸的婚姻",
+        "Aspect": "婚姻预测",
+        "Opinion": "婚姻可能破裂",
+        "Sentiment": "negative",
+        "Rationale": "专家预测婚姻会出现破裂"
+    },
+    {
+        "sentence": "谁啊？谁啊饭点来。",
+        "Holder": "2",
+        "Target": "来人",
+        "Aspect": "来访时间",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "饭点有人来访打扰了正常用餐"
+    },
+    {
+        "sentence": "来了来了，鼠标啊",
+        "Holder": "2",
+        "Target": "来人",
+        "Aspect": "来人身份",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "确认了来人的身份"
+    },
+    {
+        "sentence": "夏叔叔，我能在你们家躲躲吗啊？",
+        "Holder": "6",
+        "Target": "1家",
+        "Aspect": "避难请求",
+        "Opinion": "请求避难",
+        "Sentiment": "neutral",
+        "Rationale": "有需要避难的情况"
+    },
+    {
+        "sentence": "怎么了你这是？",
+        "Holder": "2",
+        "Target": "6的状态",
+        "Aspect": "行为表现",
+        "Opinion": "感到疑惑",
+        "Sentiment": "neutral",
+        "Rationale": "看到6的行为表现不正常"
+    },
+    {
+        "sentence": "哎呦，都怪流星",
+        "Holder": "6",
+        "Target": "流星",
+        "Aspect": "责任归属",
+        "Opinion": "认为是流星的错",
+        "Sentiment": "negative",
+        "Rationale": "认为是流星导致了当前的问题"
+    },
+    {
+        "sentence": "这怎么闹我家了",
+        "Holder": "1",
+        "Target": "事件发生地点",
+        "Aspect": "事件影响",
+        "Opinion": "对事件发生在自家不满",
+        "Sentiment": "negative",
+        "Rationale": "事件发生在自家，感到被打扰和不满"
+    },
+    {
+        "sentence": "不是跟你道歉了吗？",
+        "Holder": "4",
+        "Target": "道歉行为",
+        "Aspect": "道歉的合理性",
+        "Opinion": "已经道歉",
+        "Sentiment": "neutral",
+        "Rationale": "已经进行了道歉"
+    },
+    {
+        "sentence": "怎么回事？鼠标",
+        "Holder": "2",
+        "Target": "鼠标问题",
+        "Aspect": "问题原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚鼠标出了什么问题"
+    },
+    {
+        "sentence": "刘星说，这一天都是我的幸运日，考试不用复习，结果我三门都不及格。我爸知道了，正他跟撸胳膊挽袖子的时候，我就跑出来了。",
+        "Holder": "6",
+        "Target": "刘星的幸运日",
+        "Aspect": "考试成绩",
+        "Opinion": "考试不及格",
+        "Sentiment": "negative",
+        "Rationale": "刘星认为今天是幸运日却考试不及格，还被父亲发现"
+    },
+    {
+        "sentence": "刘星给我站起来",
+        "Holder": "1",
+        "Target": "刘星",
+        "Aspect": "行为要求",
+        "Opinion": "要求站起来",
+        "Sentiment": "neutral",
+        "Rationale": "1要求刘星站起来"
+    },
+    {
+        "sentence": "这孩子",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行为评价",
+        "Opinion": "无奈的评价",
+        "Sentiment": "neutral",
+        "Rationale": "2对刘星的行为感到无奈"
+    },
+    {
+        "sentence": "喂。哦哦，在，你等一下啊，菲菲你电话。",
+        "Holder": "2",
+        "Target": "菲菲",
+        "Aspect": "电话接听",
+        "Opinion": "通知接电话",
+        "Sentiment": "neutral",
+        "Rationale": "2在通知菲菲接电话"
+    },
+    {
+        "sentence": "哎呦，我不接。我今天要断绝跟外界的一切联系。",
+        "Holder": "3",
+        "Target": "电话接听",
+        "Aspect": "与外界联系",
+        "Opinion": "拒绝接电话",
+        "Sentiment": "negative",
+        "Rationale": "3决定断绝与外界的联系"
+    },
+    {
+        "sentence": "随便。哎，有什么事我给你转告。真的好好谢谢。",
+        "Holder": "2",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人愿意帮忙转告信息，并且表达了感谢，所以情绪是积极的。"
+    },
+    {
+        "sentence": "是小芳的电话",
+        "Holder": "2",
+        "Target": "小芳",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "因为只是提及了是小芳的电话，没有表达出明显的情绪或评价，所以情绪是中立的。"
+    },
+    {
+        "sentence": "我不听我不听",
+        "Holder": "3",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "negative",
+        "Rationale": "因为说话者表现出拒绝听取某些信息的态度，所以情绪是消极的。"
+    },
+    {
+        "sentence": "随你便，他让你去剧组签合同",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "行为指示",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "说话者只是转达了信息，没有表达个人情绪或评价"
+    },
+    {
+        "sentence": "不对，今天不是我的幸运日",
+        "Holder": "3",
+        "Target": "日期",
+        "Aspect": "运气",
+        "Opinion": "不幸",
+        "Sentiment": "negative",
+        "Rationale": "因为说话者认为今天不是自己的幸运日，表达了对当天运势的不满，所以情绪是消极的。"
+    }
+]

@@ -1,0 +1,632 @@
+[
+    {
+        "sentence": "那个你呢，就是A区四层八号病房的病人。今天这个疗程，我会照例问你几个问题。每个问题你都要在三秒钟之内回答我，明白吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "回答问题的要求",
+        "Opinion": "要求快速回答",
+        "Sentiment": "neutral",
+        "Rationale": "1在说明提问的要求"
+    },
+    {
+        "sentence": "许鞍华。你说三秒么，三秒喽。",
+        "Holder": "2",
+        "Target": "回答时间",
+        "Aspect": "时间限制",
+        "Opinion": "接受时间限制",
+        "Sentiment": "neutral",
+        "Rationale": "2接受了1提出的时间限制"
+    },
+    {
+        "sentence": "我都没讲完。其实我想问你。",
+        "Holder": "1",
+        "Target": "2的回答",
+        "Aspect": "回答的时机",
+        "Opinion": "回答过早",
+        "Sentiment": "neutral",
+        "Rationale": "1指出2回答过早，但语气平和"
+    },
+    {
+        "sentence": "许鞍华。每天都问我同一个问题，我就是脑残也不会脑残到这种地步。",
+        "Holder": "2",
+        "Target": "许鞍华",
+        "Aspect": "提问频率",
+        "Opinion": "过于频繁",
+        "Sentiment": "negative",
+        "Rationale": "每天都问同一个问题，显得对方不尊重自己的智商"
+    },
+    {
+        "sentence": "你知不知道许鞍华是女人啊？",
+        "Holder": "1",
+        "Target": "许鞍华",
+        "Aspect": "性别",
+        "Opinion": "是女人",
+        "Sentiment": "neutral",
+        "Rationale": "询问对方是否知道许鞍华的性别"
+    },
+    {
+        "sentence": "大哥，男的女的，我会分不清吗？许鞍华当然是女人了 ，你去问问你妈，她究竟是不是女人？",
+        "Holder": "2",
+        "Target": "许鞍华",
+        "Aspect": "性别",
+        "Opinion": "当然是女人",
+        "Sentiment": "negative",
+        "Rationale": "对方质疑自己连男女都分不清，感到被冒犯"
+    },
+    {
+        "sentence": "那你是男的是女的？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "性别",
+        "Opinion": "询问性别",
+        "Sentiment": "neutral",
+        "Rationale": "对方提到性别问题"
+    },
+    {
+        "sentence": "是女的又怎样？你是不是歧视女人？是不是女人就不能做导演啊？那我做到导演，咬我啊？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性别歧视",
+        "Opinion": "反对性别歧视",
+        "Sentiment": "negative",
+        "Rationale": "对方的问题隐含性别歧视的意味，感到被冒犯和愤怒"
+    },
+    {
+        "sentence": "冷静，冷静。从医学的角度说，男性跟女性的器官是有区别的。",
+        "Holder": "1",
+        "Target": "性别器官差异",
+        "Aspect": "医学角度",
+        "Opinion": "存在区别",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个医学事实"
+    },
+    {
+        "sentence": "啊？怎么冷静？你在用器官威胁我？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的意图",
+        "Opinion": "认为是威胁",
+        "Sentiment": "negative",
+        "Rationale": "2误解了1的意图"
+    },
+    {
+        "sentence": "是这样，我怎么可能用器官威胁你呢？虽然你是脑残，我还是要跟你分析的，因为这个都有医学的跟据和科学的支持的。",
+        "Holder": "1",
+        "Target": "2的误解",
+        "Aspect": "言论的合理性",
+        "Opinion": "澄清并解释",
+        "Sentiment": "negative",
+        "Rationale": "1被误解且用词不当（脑残）"
+    },
+    {
+        "sentence": "科学？你不知道科学破坏了地球上很多东西吗？你还敢用科学来绑架我？好啊，来啊来啊，把我变成生化人是吧？",
+        "Holder": "2",
+        "Target": "科学",
+        "Aspect": "科学的影响",
+        "Opinion": "科学有害",
+        "Sentiment": "negative",
+        "Rationale": "2认为科学带来了负面影响"
+    },
+    {
+        "sentence": "科学呢，还是对人类做了很多贡献，比如说环保，我就非常支持环保，所以大家都必须保护这个地球，我们都要反对战争，反对污染，共同维护世界和平。",
+        "Holder": "1",
+        "Target": "科学",
+        "Aspect": "科学的贡献",
+        "Opinion": "支持科学",
+        "Sentiment": "positive",
+        "Rationale": "1认为科学对人类有积极贡献"
+    },
+    {
+        "sentence": "只会打嘴炮，说的容易，你做得到吗？那你为什么会针对许鞍华呢 ？是不是因为我是导演，女导演？",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "质疑的合理性",
+        "Opinion": "质疑对方做不到",
+        "Sentiment": "negative",
+        "Rationale": "认为对方只会说不会做，并且怀疑对方针对许鞍华是她是女导演"
+    },
+    {
+        "sentence": "不是不是，做哪一行，什么职业，那是第二个问题。我再问你一次，你是？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "需要确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "需要先确认对方的身份"
+    },
+    {
+        "sentence": "张曼玉。",
+        "Holder": "2",
+        "Target": "自己的身份",
+        "Aspect": "身份回答",
+        "Opinion": "自称是张曼玉",
+        "Sentiment": "neutral",
+        "Rationale": "回答自己的身份"
+    },
+    {
+        "sentence": "张曼玉她是个演员，她不是个导演。是，她是个女人。而且我要表明，我不反对张曼玉去做导演。",
+        "Holder": "1",
+        "Target": "张曼玉的职业",
+        "Aspect": "职业和性别",
+        "Opinion": "不反对张曼玉做导演",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清张曼玉的职业和自己的立场"
+    },
+    {
+        "sentence": "你又说职业是下一个问题。你搞清楚到底想问什么没有啊？",
+        "Holder": "2",
+        "Target": "1的问题",
+        "Aspect": "问题的清晰度",
+        "Opinion": "认为问题不清晰",
+        "Sentiment": "negative",
+        "Rationale": "觉得对方的问题混乱不清"
+    },
+    {
+        "sentence": "你是谁？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的身份不清楚"
+    },
+    {
+        "sentence": "嘿嘿，许鞍华。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份",
+        "Opinion": "自称许鞍华",
+        "Sentiment": "positive",
+        "Rationale": "2以幽默的方式回答自己的身份"
+    },
+    {
+        "sentence": "又折腾几个钟头。你还说你脑子没病。什么职业？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不合理且浪费时间"
+    },
+    {
+        "sentence": "哈哈哈哈。我服了你了，哈哈哈。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "应对方式",
+        "Opinion": "无奈接受",
+        "Sentiment": "positive",
+        "Rationale": "2以笑声应对1的质疑，表现出一种无奈但轻松的态度"
+    },
+    {
+        "sentence": "你想干嘛，许女士？",
+        "Holder": "1",
+        "Target": "2的意图",
+        "Aspect": "意图询问",
+        "Opinion": "询问意图",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的意图不清楚"
+    },
+    {
+        "sentence": "许鞍华当然是导演了，难道是跳艳舞的吗？你们医院到底有没有牌照啊？你的医生执照给我看一下。你算哪个，老几啊？你是谁？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身份质疑",
+        "Opinion": "质疑1的身份",
+        "Sentiment": "negative",
+        "Rationale": "2对1的身份表示怀疑"
+    },
+    {
+        "sentence": "我是你的精神科医生。徐女士，你其实得了一种复杂的综合性妄想症，同时还并发了严重的人格分裂。我在这边是想解开你复杂的情绪，我真心希望我能帮你恢复复杂的正常生活。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "病情诊断",
+        "Opinion": "2患有综合性妄想症和人格分裂",
+        "Sentiment": "neutral",
+        "Rationale": "1在客观地描述2的病情"
+    },
+    {
+        "sentence": "你现在看上去就很正常",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "当前状态",
+        "Opinion": "2目前状态正常",
+        "Sentiment": "positive",
+        "Rationale": "1认为2目前状态良好"
+    },
+    {
+        "sentence": "非常感谢。那你现在可以催眠我了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "请求催眠",
+        "Opinion": "请求1进行催眠",
+        "Sentiment": "positive",
+        "Rationale": "2对1表示感谢并请求帮助"
+    },
+    {
+        "sentence": "我的这个部分是没有催眠的。",
+        "Holder": "1",
+        "Target": "催眠",
+        "Aspect": "是否存在催眠",
+        "Opinion": "没有催眠",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述一个事实"
+    },
+    {
+        "sentence": "我祖籍辽宁，26岁在伦敦遇到一位教授，教会我什么叫做爱。",
+        "Holder": "2",
+        "Target": "个人经历",
+        "Aspect": "情感教育",
+        "Opinion": "学会了爱",
+        "Sentiment": "positive",
+        "Rationale": "说话人2在分享一个对自己有积极影响的经历"
+    },
+    {
+        "sentence": "我没有催眠你，你不要借题发挥。而且没人想知道你怎么做爱。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "借题发挥",
+        "Opinion": "反对借题发挥",
+        "Sentiment": "negative",
+        "Rationale": "说话人1觉得对方在借题发挥，并且话题不合适"
+    },
+    {
+        "sentence": "这么人性化的问题，你居然不问？",
+        "Holder": "2",
+        "Target": "1的问题",
+        "Aspect": "问题的合理性",
+        "Opinion": "应该问",
+        "Sentiment": "negative",
+        "Rationale": "说话人2觉得对方没有问一个他认为重要的问题"
+    },
+    {
+        "sentence": "不是，我没有不问你。我只是想再重复多问你一次，你是？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "提问的重复",
+        "Opinion": "需要确认",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在澄清并重复提问"
+    },
+    {
+        "sentence": "林岭东。",
+        "Holder": "2",
+        "Target": "身份",
+        "Aspect": "姓名",
+        "Opinion": "自称林岭东",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地报出自己的名字"
+    },
+    {
+        "sentence": "我是想问你第二个问题。我第二个问题是想问你什么职业，没想问你是谁呀。我顺便想问你，林先生是哪个男人？你先决定自己的性别再说话。",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "性别和职业",
+        "Opinion": "质疑2的性别和职业",
+        "Sentiment": "negative",
+        "Rationale": "对方没有直接回答职业问题，反而自称林岭东"
+    },
+    {
+        "sentence": "那我是杜琪峰。",
+        "Holder": "2",
+        "Target": "身份",
+        "Aspect": "姓名",
+        "Opinion": "自称杜琪峰",
+        "Sentiment": "neutral",
+        "Rationale": "只是再次报出一个名字"
+    },
+    {
+        "sentence": "你没完了是吧?",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "回答问题的方式",
+        "Opinion": "认为2在胡搅蛮缠",
+        "Sentiment": "negative",
+        "Rationale": "2没有正面回答问题，反而不断改变名字"
+    },
+    {
+        "sentence": "你不知道吗？林岭东和杜琪峰是同一个人。",
+        "Holder": "2",
+        "Target": "1的知识",
+        "Aspect": "对人物的了解",
+        "Opinion": "指出林岭东和杜琪峰是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "只是在解释一个事实"
+    },
+    {
+        "sentence": "你不要扯了好不好，怎么又搞出个杜琪峰！林岭东和杜琪峰怎么可能是一个人呢？",
+        "Holder": "1",
+        "Target": "杜琪峰和林岭东的身份",
+        "Aspect": "身份的同一性",
+        "Opinion": "认为不是同一个人",
+        "Sentiment": "negative",
+        "Rationale": "对方将林岭东和杜琪峰混为一谈"
+    },
+    {
+        "sentence": "是同一个人。",
+        "Holder": "2",
+        "Target": "杜琪峰和林岭东的身份",
+        "Aspect": "身份的同一性",
+        "Opinion": "认为是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "坚持自己的观点"
+    },
+    {
+        "sentence": "林岭东和杜琪不是同一个人!",
+        "Holder": "1",
+        "Target": "杜琪峰和林岭东的身份",
+        "Aspect": "身份的同一性",
+        "Opinion": "认为不是同一个人",
+        "Sentiment": "negative",
+        "Rationale": "对方坚持错误观点"
+    },
+    {
+        "sentence": "同一个人。",
+        "Holder": "2",
+        "Target": "杜琪峰和林岭东的身份",
+        "Aspect": "身份的同一性",
+        "Opinion": "认为是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "继续坚持自己的观点"
+    },
+    {
+        "sentence": "不是同一个人!",
+        "Holder": "1",
+        "Target": "杜琪峰和林岭东的身份",
+        "Aspect": "身份的同一性",
+        "Opinion": "认为不是同一个人",
+        "Sentiment": "negative",
+        "Rationale": "对方持续不认同自己的观点"
+    },
+    {
+        "sentence": "不是同一个人。",
+        "Holder": "2",
+        "Target": "人物身份",
+        "Aspect": "身份认定",
+        "Opinion": "否认是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述一个事实"
+    },
+    {
+        "sentence": "打住什么？",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的具体内容",
+        "Opinion": "询问具体要求",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚1具体要求停止什么"
+    },
+    {
+        "sentence": "打住不是同一个人。",
+        "Holder": "1",
+        "Target": "人物身份",
+        "Aspect": "身份认定",
+        "Opinion": "强调不是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "1在强调一个事实"
+    },
+    {
+        "sentence": "打住同一个人。",
+        "Holder": "2",
+        "Target": "人物身份",
+        "Aspect": "身份认定",
+        "Opinion": "坚持是同一个人",
+        "Sentiment": "neutral",
+        "Rationale": "2在坚持自己的观点"
+    },
+    {
+        "sentence": "打住，别反弹回来了，够了！什么职业？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "停止行为",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1感到不适"
+    },
+    {
+        "sentence": "我是杜琪峰，今年15岁。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身份和年龄",
+        "Opinion": "自我介绍",
+        "Sentiment": "neutral",
+        "Rationale": "2在回答1的问题"
+    },
+    {
+        "sentence": "杜琪峰没有恋手癖的。",
+        "Holder": "1",
+        "Target": "杜琪峰",
+        "Aspect": "个人特征",
+        "Opinion": "否认特征",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的说法不符合事实"
+    },
+    {
+        "sentence": "我手上的是奥地利格洛克17手枪。",
+        "Holder": "2",
+        "Target": "手中的物品",
+        "Aspect": "物品性质",
+        "Opinion": "说明物品",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己手中的物品"
+    },
+    {
+        "sentence": "很多规定都是他定的。",
+        "Holder": "3",
+        "Target": "他",
+        "Aspect": "规定的制定者",
+        "Opinion": "指出制定者",
+        "Sentiment": "neutral",
+        "Rationale": "3在说明规定的来源"
+    },
+    {
+        "sentence": "那张医生不会是病人装的吧。",
+        "Holder": "4",
+        "Target": "张医生",
+        "Aspect": "身份真实性",
+        "Opinion": "怀疑是病人伪装",
+        "Sentiment": "doubt",
+        "Rationale": "对张医生的身份产生了怀疑"
+    },
+    {
+        "sentence": "那你的意思是，我们的张医生精神有问题？",
+        "Holder": "3",
+        "Target": "张医生",
+        "Aspect": "精神状态",
+        "Opinion": "质疑精神状态",
+        "Sentiment": "negative",
+        "Rationale": "对方怀疑张医生的身份"
+    },
+    {
+        "sentence": "你说的哪个张医生啊？",
+        "Holder": "4",
+        "Target": "张医生",
+        "Aspect": "具体指代",
+        "Opinion": "询问具体对象",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚对方所指的张医生是哪位"
+    },
+    {
+        "sentence": "站在那有模有样的那位。",
+        "Holder": "3",
+        "Target": "张医生",
+        "Aspect": "外观表现",
+        "Opinion": "描述外观",
+        "Sentiment": "neutral",
+        "Rationale": "需要明确指出张医生的具体位置和状态"
+    },
+    {
+        "sentence": "现在我问你，你到底是谁？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "身份确认",
+        "Opinion": "要求确认身份",
+        "Sentiment": "negative",
+        "Rationale": "对4的身份产生了怀疑"
+    },
+    {
+        "sentence": "好，既然那么执着。我就告诉你，我是林岭东。",
+        "Holder": "1",
+        "Target": "自己的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "自己是林岭东",
+        "Sentiment": "neutral",
+        "Rationale": "对方执着于知道身份"
+    },
+    {
+        "sentence": "装医生搞我？你怎么证明你是他？",
+        "Holder": "2",
+        "Target": "1的身份",
+        "Aspect": "身份的真实性",
+        "Opinion": "怀疑1的身份",
+        "Sentiment": "negative",
+        "Rationale": "怀疑1在冒充医生"
+    },
+    {
+        "sentence": "80年代我刚从加拿大回香港的时候，我什么都不讲，只讲义气。做男人不讲义气，怎么做兄弟？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "个人品质",
+        "Opinion": "重视义气",
+        "Sentiment": "positive",
+        "Rationale": "强调自己重视义气"
+    },
+    {
+        "sentence": "兄弟，你搞什么啊？这是吴宇森啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为1的行为混乱",
+        "Sentiment": "negative",
+        "Rationale": "认为1在混淆人物"
+    },
+    {
+        "sentence": "一样，都是一条硬汉。",
+        "Holder": "1",
+        "Target": "林岭东和吴宇森",
+        "Aspect": "人物特质",
+        "Opinion": "都是硬汉",
+        "Sentiment": "positive",
+        "Rationale": "认为林岭东和吴宇森都有硬汉特质"
+    },
+    {
+        "sentence": "喂，你摸哪呢？别乱搞啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "反对乱摸",
+        "Sentiment": "negative",
+        "Rationale": "对方在不合适的地方乱摸"
+    },
+    {
+        "sentence": "原来你不是精神科医生啊，语无伦次，我都怀疑你很久了，我要揭发你的真实身份！",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份真实性",
+        "Opinion": "怀疑并要揭发",
+        "Sentiment": "negative",
+        "Rationale": "对方言行不符合理智"
+    },
+    {
+        "sentence": "我不知道我是谁，不要动我的书！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对物品的尊重",
+        "Opinion": "反对动书",
+        "Sentiment": "negative",
+        "Rationale": "对方未经允许动自己的书"
+    },
+    {
+        "sentence": "我终于逼出你的真身来了，原形毕露，你就是徐克。",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "真实身份",
+        "Opinion": "确认对方身份",
+        "Sentiment": "positive",
+        "Rationale": "成功揭露对方的真实身份"
+    },
+    {
+        "sentence": "玩的有点兴奋呀。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "情绪状态",
+        "Opinion": "认为对方兴奋",
+        "Sentiment": "neutral",
+        "Rationale": "对方在揭露身份时显得兴奋"
+    },
+    {
+        "sentence": "你看你的胡子跟他一模一样，你就是徐克。你八岁那会儿就不知道怎么跟这个世界沟通了，没人愿意跟你玩，想跟你玩都不知道怎么跟你玩。你就在旁边装用功，装文艺青年，其实也就是看个武侠小说。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "性格和行为",
+        "Opinion": "2小时候不擅长沟通，假装用功和文艺",
+        "Sentiment": "negative",
+        "Rationale": "1认为2小时候不擅长沟通且假装用功和文艺"
+    },
+    {
+        "sentence": "哈哈哈哈。",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "对评价的反应",
+        "Opinion": "觉得好笑",
+        "Sentiment": "positive",
+        "Rationale": "2对1的评价感到好笑"
+    },
+    {
+        "sentence": "回答我，你到底是什么人？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "质疑2的身份",
+        "Sentiment": "doubt",
+        "Rationale": "1对2的真实身份感到疑惑"
+    },
+    {
+        "sentence": "电影人啊，废话。",
+        "Holder": "2",
+        "Target": "自己的身份",
+        "Aspect": "身份的确认",
+        "Opinion": "确认自己是电影人",
+        "Sentiment": "neutral",
+        "Rationale": "2对自己的身份有明确的认知"
+    }
+]

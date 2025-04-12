@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对快乐定义的探讨",
+        "emotions": [
+          {"state": "negative", "reason": "质疑社会将微小愉悦定义为快乐", "source_id": "1"},
+          {"state": "positive", "reason": "强调痛苦是重生的必要过程", "source_id": "1"},
+          {"state": "neutral", "reason": "描述三种人生态度的客观现实", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "社会期待与自我认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "抗拒社会强制的快乐面具", "source_id": "1"},
+          {"state": "ambiguous", "reason": "反思痛苦的可见性与社会接受度", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "现实与期望的落差处理",
+        "emotions": [
+          {"state": "negative", "reason": "承认实际生活未达预期幸福", "source_id": "2"},
+          {"state": "positive", "reason": "通过善行获得真实快乐体验", "source_id": "3"},
+          {"state": "neutral", "reason": "分析快乐本质的主观性特征", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "面对痛苦的解决方式",
+        "emotions": [
+          {"state": "positive", "reason": "强调主动解决问题的重要性", "source_id": "2"},
+          {"state": "negative", "reason": "反思代偿性快乐的虚假本质", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "乐子人现象分析",
+        "emotions": [
+          {"state": "negative", "reason": "批判通过他人不幸获取快乐", "source_id": "3"},
+          {"state": "negative", "reason": "揭露自卑心理驱动机制", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑化学物质与自由意志的关系", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "网络文化心理研究",
+        "emotions": [
+          {"state": "negative", "reason": "分析爽文流行的社会无奈根源", "source_id": "3"},
+          {"state": "neutral", "reason": "客观描述裁员文学传播现象", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+[
+    {
+        "sentence": "我掉进黄河也洗不清了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "清白",
+        "Opinion": "无法洗清",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己无法摆脱嫌疑"
+    },
+    {
+        "sentence": "诶，你这句话还提醒我，我要求警方介入，还我清白",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "清白",
+        "Opinion": "要求警方介入",
+        "Sentiment": "positive",
+        "Rationale": "希望通过警方介入来证明自己的清白"
+    },
+    {
+        "sentence": "明明姐，你就饶了我吧，我服输还不成吗？",
+        "Holder": "1",
+        "Target": "说话人 2",
+        "Aspect": "宽恕",
+        "Opinion": "请求宽恕",
+        "Sentiment": "negative",
+        "Rationale": "感到无法继续争辩"
+    },
+    {
+        "sentence": "你先回屋去啊。",
+        "Holder": "2",
+        "Target": "说话人 1",
+        "Aspect": "行动",
+        "Opinion": "建议回屋",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方先冷静下来"
+    },
+    {
+        "sentence": "没事啦",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "状态",
+        "Opinion": "表示没事",
+        "Sentiment": "neutral",
+        "Rationale": "事情已经暂时平息"
+    },
+    {
+        "sentence": "我让你先回屋考虑考虑。我们也得再考虑考虑。",
+        "Holder": "2",
+        "Target": "考虑决定",
+        "Aspect": "决策的慎重性",
+        "Opinion": "需要进一步考虑",
+        "Sentiment": "neutral",
+        "Rationale": "需要更多时间来做出决定"
+    },
+    {
+        "sentence": "这只是一审。",
+        "Holder": "4",
+        "Target": "审判阶段",
+        "Aspect": "审判的当前阶段",
+        "Opinion": "还在初期阶段",
+        "Sentiment": "neutral",
+        "Rationale": "目前只是初审阶段"
+    },
+    {
+        "sentence": "还得判呐。",
+        "Holder": "1",
+        "Target": "审判结果",
+        "Aspect": "审判的未完成性",
+        "Opinion": "尚未有最终结果",
+        "Sentiment": "neutral",
+        "Rationale": "审判还未结束"
+    },
+    {
+        "sentence": "都过去好几天了，你怎么还垂头丧气的啊？",
+        "Holder": "3",
+        "Target": "1的情绪状态",
+        "Aspect": "情绪的低落",
+        "Opinion": "不应该继续低落",
+        "Sentiment": "negative",
+        "Rationale": "已经过去几天了但1仍然情绪低落"
+    },
+    {
+        "sentence": "越想越生气。",
+        "Holder": "1",
+        "Target": "自己的想法",
+        "Aspect": "情绪的变化",
+        "Opinion": "情绪变得更糟",
+        "Sentiment": "negative",
+        "Rationale": "反复思考导致情绪恶化"
+    },
+    {
+        "sentence": "不想了，不得了吗？",
+        "Holder": "3",
+        "Target": "1的想法",
+        "Aspect": "是否应该继续想",
+        "Opinion": "不应该继续想",
+        "Sentiment": "negative",
+        "Rationale": "觉得1继续想下去没有意义"
+    },
+    {
+        "sentence": "能不想吗？",
+        "Holder": "1",
+        "Target": "自己的想法",
+        "Aspect": "是否能够不想",
+        "Opinion": "不能不想",
+        "Sentiment": "negative",
+        "Rationale": "自己无法控制不去想"
+    },
+    {
+        "sentence": "那你就想点高兴的吧，不过这事也怪你说，你根本就不是明明的对手，还非得拿鸡蛋碰石头，这回长记性了吧。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "1不自量力地去对抗明明"
+    },
+    {
+        "sentence": "我一定要出这口恶气",
+        "Holder": "1",
+        "Target": "自己的决心",
+        "Aspect": "决心的大小",
+        "Opinion": "决心很大",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己受到了不公待遇"
+    },
+    {
+        "sentence": "真是不记打啊你",
+        "Holder": "3",
+        "Target": "1的性格",
+        "Aspect": "是否吸取教训",
+        "Opinion": "不吸取教训",
+        "Sentiment": "negative",
+        "Rationale": "1在经历了失败后仍然不吸取教训"
+    },
+    {
+        "sentence": "哟，刘星还难过呢，想开点，别跟自己过不去，我警告你，我的忍耐是有限度的",
+        "Holder": "2",
+        "Target": "刘星的情绪",
+        "Aspect": "情绪处理",
+        "Opinion": "刘星应该想开点",
+        "Sentiment": "negative",
+        "Rationale": "刘星一直难过，导致2感到不耐烦"
+    },
+    {
+        "sentence": "对了，我还得谢谢你呢",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "感谢的原因",
+        "Opinion": "需要感谢1",
+        "Sentiment": "positive",
+        "Rationale": "2觉得1做了值得感谢的事情"
+    },
+    {
+        "sentence": "谢我什么",
+        "Holder": "1",
+        "Target": "2的感谢",
+        "Aspect": "感谢的具体原因",
+        "Opinion": "不清楚感谢的原因",
+        "Sentiment": "neutral",
+        "Rationale": "1不知道2为什么要感谢自己"
+    },
+    {
+        "sentence": "很快你就会知道的。",
+        "Holder": "2",
+        "Target": "1的疑问",
+        "Aspect": "信息的透露",
+        "Opinion": "暂时不透露信息",
+        "Sentiment": "neutral",
+        "Rationale": "2觉得现在还不是透露信息的时候"
+    },
+    {
+        "sentence": "鼠标，我走了，拜拜。",
+        "Holder": "2",
+        "Target": "离开的行为",
+        "Aspect": "告别",
+        "Opinion": "礼貌告别",
+        "Sentiment": "neutral",
+        "Rationale": "2要离开"
+    },
+    {
+        "sentence": "明明姐再见。",
+        "Holder": "3",
+        "Target": "明明",
+        "Aspect": "告别",
+        "Opinion": "礼貌告别",
+        "Sentiment": "neutral",
+        "Rationale": "只是正常的告别"
+    },
+    {
+        "sentence": "怎么样？嗯，我怎么发现你和戴明明的关系不一般呢？",
+        "Holder": "1",
+        "Target": "3和戴明明的关系",
+        "Aspect": "关系亲密程度",
+        "Opinion": "关系不一般",
+        "Sentiment": "ambiguous",
+        "Rationale": "观察到3和戴明明的关系似乎有所不同"
+    },
+    {
+        "sentence": "没有啊。",
+        "Holder": "3",
+        "Target": "3和戴明明的关系",
+        "Aspect": "关系亲密程度",
+        "Opinion": "否认关系不一般",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地否认"
+    },
+    {
+        "sentence": "鼠标，明明以前根本就不理你。",
+        "Holder": "1",
+        "Target": "3和戴明明的关系",
+        "Aspect": "过去的互动",
+        "Opinion": "以前不理",
+        "Sentiment": "neutral",
+        "Rationale": "陈述过去的事实"
+    },
+    {
+        "sentence": "那不是因为我老跟着你屁股后的嘛",
+        "Holder": "3",
+        "Target": "3和戴明明的关系",
+        "Aspect": "关系变化原因",
+        "Opinion": "因为跟随1",
+        "Sentiment": "neutral",
+        "Rationale": "解释了关系变化的原因"
+    },
+    {
+        "sentence": "现在你也跟我屁股后的呢？",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "跟随行为",
+        "Opinion": "质疑跟随",
+        "Sentiment": "ambiguous",
+        "Rationale": "1不确定3是否在跟随自己"
+    },
+    {
+        "sentence": "那现在不是。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "跟随行为",
+        "Opinion": "否认跟随",
+        "Sentiment": "neutral",
+        "Rationale": "3明确表示自己没有跟随1"
+    },
+    {
+        "sentence": "什么呀？",
+        "Holder": "1",
+        "Target": "3的回答",
+        "Aspect": "回答的明确性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对3的回答感到困惑"
+    },
+    {
+        "sentence": "没什么",
+        "Holder": "3",
+        "Target": "当前话题",
+        "Aspect": "话题重要性",
+        "Opinion": "认为不重要",
+        "Sentiment": "neutral",
+        "Rationale": "3觉得当前话题不重要"
+    },
+    {
+        "sentence": "咱俩可是哥们儿，可是朋友，有事儿你别瞒着我。",
+        "Holder": "1",
+        "Target": "与3的关系",
+        "Aspect": "关系亲密度",
+        "Opinion": "强调亲密",
+        "Sentiment": "positive",
+        "Rationale": "1强调与3的亲密关系，希望3不要隐瞒事情"
+    },
+    {
+        "sentence": "那好，我就跟你实话实说了。",
+        "Holder": "3",
+        "Target": "瓶子的来源",
+        "Aspect": "诚实度",
+        "Opinion": "瓶子是我捡的",
+        "Sentiment": "neutral",
+        "Rationale": "因为要解释瓶子的来源，所以如实告知"
+    },
+    {
+        "sentence": "你捡的？那你怎么说是你爷爷的？",
+        "Holder": "1",
+        "Target": "3关于瓶子来源的说法",
+        "Aspect": "说法的真实性",
+        "Opinion": "质疑3的说法",
+        "Sentiment": "doubt",
+        "Rationale": "因为3之前说瓶子是爷爷的，现在又说捡的，所以感到疑惑"
+    },
+    {
+        "sentence": "我不是怕你不还给我吗？",
+        "Holder": "3",
+        "Target": "1对瓶子的态度",
+        "Aspect": "归还的可靠性",
+        "Opinion": "担心1不归还",
+        "Sentiment": "negative",
+        "Rationale": "因为以前有过类似情况，所以担心1不还瓶子"
+    },
+    {
+        "sentence": "太好了，那你快说那瓶子是在哪里捡到的？",
+        "Holder": "1",
+        "Target": "瓶子的发现地点",
+        "Aspect": "具体位置",
+        "Opinion": "急于知道",
+        "Sentiment": "positive",
+        "Rationale": "因为对瓶子的来源感兴趣，所以迫切想知道具体的发现地点"
+    },
+    {
+        "sentence": "呃...在山里。",
+        "Holder": "3",
+        "Target": "瓶子的发现地点",
+        "Aspect": "具体位置",
+        "Opinion": "简单回答",
+        "Sentiment": "neutral",
+        "Rationale": "因为被问及瓶子的发现地点，所以简要回答在山里"
+    },
+    {
+        "sentence": "具体说说。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "信息分享",
+        "Opinion": "要求具体说明",
+        "Sentiment": "neutral",
+        "Rationale": "1希望了解具体情况"
+    },
+    {
+        "sentence": "我不能说。",
+        "Holder": "3",
+        "Target": "信息保密",
+        "Aspect": "保密承诺",
+        "Opinion": "拒绝透露",
+        "Sentiment": "negative",
+        "Rationale": "3答应了别人保密"
+    },
+    {
+        "sentence": "嘿，咱俩可是朋友，可是哥们。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "友情关系",
+        "Opinion": "强调友情",
+        "Sentiment": "positive",
+        "Rationale": "1希望通过强调友情让3透露信息"
+    },
+    {
+        "sentence": "哎呀，真不行，我都答应明明姐了。",
+        "Holder": "3",
+        "Target": "明明姐",
+        "Aspect": "承诺的遵守",
+        "Opinion": "坚持保密",
+        "Sentiment": "negative",
+        "Rationale": "3已经答应了明明姐保密"
+    },
+    {
+        "sentence": "什么你都告诉他啦。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "信息分享",
+        "Opinion": "质疑透露内容",
+        "Sentiment": "negative",
+        "Rationale": "1得知3已经告诉了别人"
+    },
+    {
+        "sentence": "我也是被逼无奈。唉，再说明明明姐说了，一旦发现文物受到文物局的奖励，功劳是我们仨的。",
+        "Holder": "3",
+        "Target": "文物发现功劳",
+        "Aspect": "功劳分配",
+        "Opinion": "功劳属于三人",
+        "Sentiment": "negative",
+        "Rationale": "被逼无奈且明明姐已经说过功劳分配"
+    },
+    {
+        "sentence": "还有谁哦？",
+        "Holder": "1",
+        "Target": "文物发现功劳",
+        "Aspect": "功劳归属",
+        "Opinion": "询问功劳归属",
+        "Sentiment": "neutral",
+        "Rationale": "对功劳归属不清楚"
+    },
+    {
+        "sentence": "还有夏雪",
+        "Holder": "3",
+        "Target": "文物发现功劳",
+        "Aspect": "功劳归属",
+        "Opinion": "夏雪也有份",
+        "Sentiment": "neutral",
+        "Rationale": "陈述事实"
+    },
+    {
+        "sentence": "如果你告诉了我，那这个功劳不就是咱俩的了吗？",
+        "Holder": "1",
+        "Target": "文物发现功劳",
+        "Aspect": "功劳分配",
+        "Opinion": "功劳应属于两人",
+        "Sentiment": "negative",
+        "Rationale": "认为如果早知道就可以独占功劳"
+    },
+    {
+        "sentence": "可我们已经告诉文物局了，你就承认吧，你又是偷鸡不成反蚀把米",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "行为结果",
+        "Opinion": "1的行为失败",
+        "Sentiment": "negative",
+        "Rationale": "1的行为没有成功反而造成损失"
+    },
+    {
+        "sentence": "没关系，没准你们只是空欢喜一场。",
+        "Holder": "1",
+        "Target": "2和3的期待",
+        "Aspect": "期待的结果",
+        "Opinion": "可能失望",
+        "Sentiment": "ambiguous",
+        "Rationale": "1认为2和3的期待可能不会实现"
+    },
+    {
+        "sentence": "刚才文物局给咱们打了电话，说电视台要采访咱们啊。",
+        "Holder": "2",
+        "Target": "文物局的通知",
+        "Aspect": "采访安排",
+        "Opinion": "兴奋",
+        "Sentiment": "positive",
+        "Rationale": "文物局通知要接受电视台采访"
+    },
+    {
+        "sentence": "这个在鼠标捡到古瓶的不远处，这个文物局又发现了一个古墓，在里面发现了许多的瓷器和铜器。",
+        "Holder": "2",
+        "Target": "文物局的发现",
+        "Aspect": "古墓的发现内容",
+        "Opinion": "重要",
+        "Sentiment": "positive",
+        "Rationale": "文物局在古瓶附近发现了丰富的文物"
+    },
+    {
+        "sentence": "鼠标，那咱赶紧走吧。",
+        "Holder": "2",
+        "Target": "行动",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "需要迅速行动",
+        "Sentiment": "positive",
+        "Rationale": "文物局的发现和电视台的采访都很重要"
+    },
+    {
+        "sentence": "带我一个。",
+        "Holder": "4",
+        "Target": "参与活动",
+        "Aspect": "参与机会",
+        "Opinion": "希望被包括",
+        "Sentiment": "neutral",
+        "Rationale": "希望加入活动"
+    },
+    {
+        "sentence": "我怎么那么倒霉呀？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "运气",
+        "Opinion": "觉得自己倒霉",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己总是遇到不好的事情"
+    }
+]

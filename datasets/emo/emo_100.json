@@ -1,0 +1,71 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "考试作弊请求与冲突升级",
+        "emotions": [
+          {"state": "neutral", "reason": "请求抄袭数学考试答案", "source_id": "1"},
+          {"state": "negative", "reason": "被2贬低学校班级与人后挑衅", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "对马伊娅的群体警示",
+        "emotions": [
+          {"state": "neutral", "reason": "提醒关注马伊娅可疑行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "学校环境批判与考题质疑",
+        "emotions": [
+          {"state": "negative", "reason": "强烈否定学校质量与同学水平", "source_id": "2"},
+          {"state": "doubt", "reason": "发现三角形几何题疑似错误", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "考场秩序维护与答疑",
+        "emotions": [
+          {"state": "neutral", "reason": "执行考试纪律并核查问题题目", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人物背景调查讨论",
+        "emotions": [
+          {"state": "ambiguous", "reason": "质疑凯哥对他人评价的真实性", "source_id": "4"},
+          {"state": "neutral", "reason": "提出探查方案并询问被骂细节", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "身份怀疑与压力爆发",
+        "emotions": [
+          {"state": "negative", "reason": "怀疑某人身份并承受巨大压力", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "冲突记忆提醒",
+        "emotions": [
+          {"state": "negative", "reason": "指认4遗忘被骂经历", "source_id": "6"}
+        ]
+      }
+    ]
+  }
+}

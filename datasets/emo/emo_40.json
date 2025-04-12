@@ -1,0 +1,53 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "经济责任与出国支持争议",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方未支持出国计划|强调自身经济贡献", "source_id": "2"},
+          {"state": "neutral", "reason": "承认承担子女教育费用", "source_id": "2"},
+          {"state": "positive", "reason": "同意结束敏感话题讨论", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "职业伦理与权力使用冲突",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝违法使用职权|讽刺对方要求", "source_id": "2"},
+          {"state": "neutral", "reason": "质疑亲属教学资质", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "教育背景真实性辩论",
+        "emotions": [
+          {"state": "negative", "reason": "否定对方教师身份主张", "source_id": "2"},
+          {"state": "neutral", "reason": "提醒注意数据安全", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭经济分配争议",
+        "emotions": [
+          {"state": "neutral", "reason": "确认经济贡献事实", "source_id": "1"},
+          {"state": "negative", "reason": "反讽关系合理性|回避家庭访问话题", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "学历背景证明",
+        "emotions": [
+          {"state": "positive", "reason": "强调正规教育背景", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑对方教师资质", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭事务处理",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述礼物接收事实", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝深入讨论私事", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

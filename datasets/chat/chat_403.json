@@ -1,0 +1,146 @@
+[
+    {
+        "sentence": "马一啊一会数学考试别忘借我抄一下。",
+        "Holder": "1",
+        "Target": "马一",
+        "Aspect": "考试抄袭",
+        "Opinion": "请求抄袭",
+        "Sentiment": "neutral",
+        "Rationale": "请求马一在考试中帮助抄袭"
+    },
+    {
+        "sentence": "高中考试还抄呢来之前我想到这个学校差，没想到这么差，最差的学校，最差的班级和最差的人",
+        "Holder": "2",
+        "Target": "学校、班级、人",
+        "Aspect": "整体评价",
+        "Opinion": "极度负面评价",
+        "Sentiment": "negative",
+        "Rationale": "对学校、班级和人的极度不满"
+    },
+    {
+        "sentence": "不是你啥意思，咱俩出去练练。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言语挑衅",
+        "Opinion": "不满和挑衅",
+        "Sentiment": "negative",
+        "Rationale": "被2的言语激怒"
+    },
+    {
+        "sentence": "把嘴都闭上，开始考试往后传，来这排队，都自己答自己的。",
+        "Holder": "3",
+        "Target": "所有人",
+        "Aspect": "考试纪律",
+        "Opinion": "要求遵守纪律",
+        "Sentiment": "neutral",
+        "Rationale": "需要维持考试秩序"
+    },
+    {
+        "sentence": "怎么了？子昂",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "状态",
+        "Opinion": "询问状态",
+        "Sentiment": "neutral",
+        "Rationale": "只是关心地询问对方的状态"
+    },
+    {
+        "sentence": "这有道题好像出错了",
+        "Holder": "2",
+        "Target": "题目",
+        "Aspect": "正确性",
+        "Opinion": "题目出错",
+        "Sentiment": "doubt",
+        "Rationale": "怀疑题目有错误"
+    },
+    {
+        "sentence": "我看看哪道题？",
+        "Holder": "3",
+        "Target": "题目",
+        "Aspect": "具体位置",
+        "Opinion": "需要确认",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认具体是哪道题"
+    },
+    {
+        "sentence": "第三大题，第十九题我看看这道题就是在三角形ABC当中，",
+        "Holder": "2",
+        "Target": "题目",
+        "Aspect": "具体内容",
+        "Opinion": "描述题目",
+        "Sentiment": "neutral",
+        "Rationale": "只是在描述题目的具体内容"
+    },
+    {
+        "sentence": "凯哥这么说那人还行，是不是就装点",
+        "Holder": "4",
+        "Target": "那人",
+        "Aspect": "行为表现",
+        "Opinion": "还行",
+        "Sentiment": "ambiguous",
+        "Rationale": "凯哥的评价让4对那人的真实行为产生怀疑"
+    },
+    {
+        "sentence": "你快拉倒，刚骂完你就忘了",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "记忆",
+        "Opinion": "忘记被骂",
+        "Sentiment": "negative",
+        "Rationale": "4忘记了刚刚被骂的事情"
+    },
+    {
+        "sentence": "他骂我啥了",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "骂的内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "4确实不记得被骂的具体内容"
+    },
+    {
+        "sentence": "行了，我感觉这小子还是有问题，我总觉得在哪见过他",
+        "Holder": "5",
+        "Target": "这小子",
+        "Aspect": "行为表现",
+        "Opinion": "有问题",
+        "Sentiment": "negative",
+        "Rationale": "5对这小子有不好的感觉并且觉得似曾相识"
+    },
+    {
+        "sentence": "要不我找个人探探他底",
+        "Holder": "4",
+        "Target": "这小子",
+        "Aspect": "背景调查",
+        "Opinion": "需要探查",
+        "Sentiment": "neutral",
+        "Rationale": "4觉得有必要了解这小子的背景"
+    },
+    {
+        "sentence": "应该你先打听着。",
+        "Holder": "5",
+        "Target": "打听的责任",
+        "Aspect": "责任分配",
+        "Opinion": "应由对方先打听",
+        "Sentiment": "neutral",
+        "Rationale": "认为对方应该先进行打听"
+    },
+    {
+        "sentence": "总之大伙儿最近一定要小心马伊娅，我感觉你最近是不是有点生性多疑了，说那啥是不是他学习比你好，你有压力了，",
+        "Holder": "1",
+        "Target": "马伊娅",
+        "Aspect": "对马伊娅的警惕",
+        "Opinion": "需要小心马伊娅",
+        "Sentiment": "neutral",
+        "Rationale": "认为马伊娅可能带来问题"
+    },
+    {
+        "sentence": "是我快压死了。",
+        "Holder": "5",
+        "Target": "自己的压力",
+        "Aspect": "压力程度",
+        "Opinion": "压力非常大",
+        "Sentiment": "negative",
+        "Rationale": "感到压力巨大"
+    }
+]

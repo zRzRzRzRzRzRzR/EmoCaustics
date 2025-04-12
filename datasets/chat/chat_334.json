@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "你那些小说被退稿了，你努力改，你跟。",
+        "Holder": "1",
+        "Target": "2的小说",
+        "Aspect": "退稿情况",
+        "Opinion": "需要努力改进",
+        "Sentiment": "negative",
+        "Rationale": "2的小说被退稿"
+    },
+    {
+        "sentence": "老子改过，你这有意思吗？我。",
+        "Holder": "2",
+        "Target": "1的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "认为建议无意义",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己的努力被忽视"
+    },
+    {
+        "sentence": "就晒那些书，你看过一本吗？王金星，你想清楚没有，你自己到底要什么？",
+        "Holder": "1",
+        "Target": "2的目标",
+        "Aspect": "目标的明确性",
+        "Opinion": "质疑2的目标不明确",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有明确的目标"
+    },
+    {
+        "sentence": "你一个半途而废的人，你有什么资格教育我，是。",
+        "Holder": "2",
+        "Target": "1的资格",
+        "Aspect": "教育资格",
+        "Opinion": "质疑1的资格",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有坚持到底"
+    },
+    {
+        "sentence": "我不想干设计了吗？我那时候已经没有工作了，我不应该去挣钱吗？谁叫。",
+        "Holder": "1",
+        "Target": "自己的选择",
+        "Aspect": "选择的合理性",
+        "Opinion": "认为自己的选择合理",
+        "Sentiment": "defensive",
+        "Rationale": "1觉得自己当时的选择是无奈之举"
+    },
+    {
+        "sentence": "你挣那么多钱，还是我要住多大的房子，",
+        "Holder": "1",
+        "Target": "2的收入和住房要求",
+        "Aspect": "经济和住房的期望",
+        "Opinion": "质疑对方的要求",
+        "Sentiment": "negative",
+        "Rationale": "对方对收入和住房的要求过高"
+    },
+    {
+        "sentence": "是因为眼睛。",
+        "Holder": "2",
+        "Target": "1的情况",
+        "Aspect": "原因解释",
+        "Opinion": "指出原因",
+        "Sentiment": "neutral",
+        "Rationale": "解释了对方情况的原因"
+    },
+    {
+        "sentence": "干不下去了。王先生你把话说清楚，我怎么绑架你。",
+        "Holder": "1",
+        "Target": "王先生的说法",
+        "Aspect": "话语的合理性",
+        "Opinion": "反驳对方的指责",
+        "Sentiment": "negative",
+        "Rationale": "被误解为绑架"
+    },
+    {
+        "sentence": "了，就因为你的眼睛我连放弃的权利都不能有，不然所有人都觉得我没人送他，对不起.",
+        "Holder": "1",
+        "Target": "2的眼睛问题",
+        "Aspect": "放弃的权利",
+        "Opinion": "感到无奈和委屈",
+        "Sentiment": "negative",
+        "Rationale": "对方的眼疾导致自己无法放弃，担心外界误解"
+    }
+]

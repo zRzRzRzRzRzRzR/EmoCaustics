@@ -1,0 +1,1118 @@
+[
+    {
+        "sentence": "美容中心又不是只有你们一家，怎么会是你？",
+        "Holder": "1",
+        "Target": "美容中心",
+        "Aspect": "唯一性",
+        "Opinion": "不只有一家",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述一个事实，即美容中心不止一家"
+    },
+    {
+        "sentence": "天哪，这不是你死掉的媳妇吗啊？",
+        "Holder": "3",
+        "Target": "高珊珊",
+        "Aspect": "身份",
+        "Opinion": "认为是死掉的媳妇",
+        "Sentiment": "negative",
+        "Rationale": "说话人3用惊讶且不礼貌的方式提到死掉的媳妇"
+    },
+    {
+        "sentence": "我听不懂你们在说些什么？我是本公司的执行长。",
+        "Holder": "2",
+        "Target": "对话内容",
+        "Aspect": "理解程度",
+        "Opinion": "听不懂",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2表示自己听不懂对话内容，并强调自己的身份"
+    },
+    {
+        "sentence": "高珊珊，你不是林品如，你叫高珊珊？",
+        "Holder": "1",
+        "Target": "高珊珊",
+        "Aspect": "身份",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在确认高珊珊的身份"
+    },
+    {
+        "sentence": "林品如，我到底跟这位小姐有多像啊？怎么每个人看到我都会这么惊讶？不久前维纳斯美容中心的艾丽看到我，也把我误认为那位叫品如的小姐了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "相似度",
+        "Opinion": "被误认为林品如",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2对被误认为林品如感到困惑和惊讶"
+    },
+    {
+        "sentence": "你，你跟艾丽见过了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "与艾丽的见面情况",
+        "Opinion": "确认见面",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2是否见过艾丽，没有明显的情感倾向"
+    },
+    {
+        "sentence": "噢，您认识艾丽小姐吗？",
+        "Holder": "2",
+        "Target": "艾丽",
+        "Aspect": "认识情况",
+        "Opinion": "询问认识",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1是否认识艾丽，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "这位就是艾丽的婆婆。",
+        "Holder": "3",
+        "Target": "艾丽的婆婆",
+        "Aspect": "身份介绍",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "3在介绍艾丽的婆婆身份，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "哦，原来是这样啊，那您儿媳妇也是美容师，您怎么会来找我呢？看来我今天一定要为您提供特别服务了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "服务需求",
+        "Opinion": "提供特别服务",
+        "Sentiment": "positive",
+        "Rationale": "2了解到1的儿媳妇是美容师，但仍选择来找自己，表示愿意提供特别服务，显示出积极的服务态度。"
+    },
+    {
+        "sentence": "好的，请稍等一下。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "服务态度",
+        "Opinion": "礼貌回应",
+        "Sentiment": "positive",
+        "Rationale": "2礼貌地回应1的请求，表现出积极的服务态度"
+    },
+    {
+        "sentence": "我看他长得倒是挺像的，可是感觉又完全不一样。她那么美丽，又那么大方，应该不是你那个媳妇吧？",
+        "Holder": "3",
+        "Target": "媳妇",
+        "Aspect": "外貌和气质",
+        "Opinion": "不像",
+        "Sentiment": "neutral",
+        "Rationale": "看到的人和描述的媳妇在外貌和气质上有明显差异"
+    },
+    {
+        "sentence": "是啊，你那媳妇要是看到你就像老鼠见了猫一样浑身发抖，可是一点也不怕你。",
+        "Holder": "4",
+        "Target": "媳妇",
+        "Aspect": "对丈夫的态度",
+        "Opinion": "害怕",
+        "Sentiment": "negative",
+        "Rationale": "媳妇在看到丈夫时表现得非常害怕"
+    },
+    {
+        "sentence": "对啊，我倒觉得你好像有点怕她。",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "对媳妇的态度",
+        "Opinion": "害怕",
+        "Sentiment": "negative",
+        "Rationale": "观察到4在媳妇面前表现得有些害怕"
+    },
+    {
+        "sentence": "请喝水，你还好吗？哇，没事吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "身体状况",
+        "Opinion": "关心",
+        "Sentiment": "positive",
+        "Rationale": "看到1表现出不适"
+    },
+    {
+        "sentence": "我有点不舒服，今天不做了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身体状况",
+        "Opinion": "不适",
+        "Sentiment": "negative",
+        "Rationale": "身体不适"
+    },
+    {
+        "sentence": "哎，凤姐，等等，等等我们。",
+        "Holder": "3",
+        "Target": "凤姐",
+        "Aspect": "等待行为",
+        "Opinion": "请求等待",
+        "Sentiment": "neutral",
+        "Rationale": "希望凤姐能够等待他们"
+    },
+    {
+        "sentence": "哎，凤姐姐，你等一下，你的包。",
+        "Holder": "4",
+        "Target": "凤姐",
+        "Aspect": "遗忘物品",
+        "Opinion": "提醒注意",
+        "Sentiment": "neutral",
+        "Rationale": "看到凤姐遗忘了包"
+    },
+    {
+        "sentence": "亲家，我收了你那么贵重的礼物，我也准备了一份价值不菲的钻石作为回礼，您请收下吧。",
+        "Holder": "1",
+        "Target": "亲家",
+        "Aspect": "礼物回赠",
+        "Opinion": "表达感谢并回礼",
+        "Sentiment": "positive",
+        "Rationale": "收到了贵重的礼物并准备了回礼"
+    },
+    {
+        "sentence": "嗯，确实价值不菲。亲家母，其实你不用这么客气的。",
+        "Holder": "5",
+        "Target": "1的回礼",
+        "Aspect": "礼物的价值",
+        "Opinion": "认为礼物贵重且不必客气",
+        "Sentiment": "positive",
+        "Rationale": "认为回礼价值高且觉得对方不必如此客气"
+    },
+    {
+        "sentence": "要的，这叫礼尚往来。我知道这远远比不过你送给我的那5套珠宝来的贵重，但是我不能只收礼不回礼。",
+        "Holder": "1",
+        "Target": "礼尚往来",
+        "Aspect": "礼物的交换",
+        "Opinion": "坚持回礼",
+        "Sentiment": "positive",
+        "Rationale": "认为礼尚往来是必要的礼仪"
+    },
+    {
+        "sentence": "妈，您误会了，我妈妈送给你的那些珠宝都是高仿的，其实根本不值钱。妈，小心，别呛着。",
+        "Holder": "2",
+        "Target": "珠宝",
+        "Aspect": "珠宝的真实性",
+        "Opinion": "珠宝是高仿的",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清误会并解释珠宝的真实情况"
+    },
+    {
+        "sentence": "你。你是说那些珠宝是假的？",
+        "Holder": "1",
+        "Target": "珠宝",
+        "Aspect": "珠宝的真实性",
+        "Opinion": "珠宝是假的",
+        "Sentiment": "doubt",
+        "Rationale": "听到珠宝是假的感到难以置信"
+    },
+    {
+        "sentence": "不会吧？",
+        "Holder": "1",
+        "Target": "珠宝",
+        "Aspect": "珠宝的真实性",
+        "Opinion": "珠宝可能是真的",
+        "Sentiment": "doubt",
+        "Rationale": "对珠宝的真实性仍然持有怀疑态度"
+    },
+    {
+        "sentence": "珊珊跟世贤没有举办正式婚宴，所以特意给他们准备嫁妆，好像有点说不过去。再说了，亲家财力雄厚，亲家母又戴惯好东西，就算我买再昂贵的礼物可能也配不上亲家嘛。所以我就买了一些高仿的珠宝送礼物戴着玩，礼轻情意重，亲家母，您可别介意啊。",
+        "Holder": "5",
+        "Target": "珠宝",
+        "Aspect": "送礼的合理性",
+        "Opinion": "高仿珠宝作为礼物合理",
+        "Sentiment": "neutral",
+        "Rationale": "考虑到亲家的财力和习惯，认为高仿珠宝作为礼物是合理的"
+    },
+    {
+        "sentence": "我怎么没看出来那些珠宝是假的呢？我还特地选了那么贵重的钻石给她。",
+        "Holder": "1",
+        "Target": "珠宝",
+        "Aspect": "珠宝的辨识度",
+        "Opinion": "未能辨识出珠宝真假",
+        "Sentiment": "negative",
+        "Rationale": "自己未能辨识出珠宝的真假，感到有些失望和困惑"
+    },
+    {
+        "sentence": "亲家母，您对珠宝的认识好像不只一点。看样子还钻研的挺深的啊，这颗钻石质地真不错。亲家母，您真不愧是行家。对了，世贤，你们该交换戒指了。",
+        "Holder": "5",
+        "Target": "亲家母",
+        "Aspect": "珠宝知识",
+        "Opinion": "认识深刻",
+        "Sentiment": "positive",
+        "Rationale": "亲家母对珠宝有深入的了解"
+    },
+    {
+        "sentence": "来，坐下吃饭。",
+        "Holder": "6",
+        "Target": "所有人",
+        "Aspect": "吃饭邀请",
+        "Opinion": "邀请吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "到了吃饭时间"
+    },
+    {
+        "sentence": "爸",
+        "Holder": "2",
+        "Target": "6",
+        "Aspect": "称呼",
+        "Opinion": "称呼父亲",
+        "Sentiment": "neutral",
+        "Rationale": "2在称呼6"
+    },
+    {
+        "sentence": "别这么叫我，我们家不承认你这个媳妇。",
+        "Holder": "7",
+        "Target": "2",
+        "Aspect": "媳妇身份",
+        "Opinion": "不承认",
+        "Sentiment": "negative",
+        "Rationale": "7不认可2作为媳妇的身份"
+    },
+    {
+        "sentence": "老公，说些什么话呀？跟你儿子住在一块的，那就是你的儿媳妇。",
+        "Holder": "1",
+        "Target": "7",
+        "Aspect": "媳妇身份",
+        "Opinion": "应该承认",
+        "Sentiment": "negative",
+        "Rationale": "1认为7不应该不承认2的媳妇身份"
+    },
+    {
+        "sentence": "爸，我已经是这个家的一份子了，请您接纳。",
+        "Holder": "2",
+        "Target": "家庭接纳",
+        "Aspect": "家庭身份的认可",
+        "Opinion": "希望被接纳",
+        "Sentiment": "positive",
+        "Rationale": "2希望被家庭接纳"
+    },
+    {
+        "sentence": "我们家那个儿子，换老婆就像换衣服一样，我要是都接纳，我们家成什么地方了？",
+        "Holder": "7",
+        "Target": "2的家庭地位",
+        "Aspect": "家庭价值观",
+        "Opinion": "不认同频繁更换伴侣",
+        "Sentiment": "negative",
+        "Rationale": "7认为频繁更换伴侣不符合家庭价值观"
+    },
+    {
+        "sentence": "爸，你言重了",
+        "Holder": "6",
+        "Target": "7的言论",
+        "Aspect": "言论的严重性",
+        "Opinion": "认为言论过于严重",
+        "Sentiment": "neutral",
+        "Rationale": "6认为7的言论过于严重"
+    },
+    {
+        "sentence": "不想听可以走，没人留他。",
+        "Holder": "7",
+        "Target": "2的在场",
+        "Aspect": "是否愿意接纳",
+        "Opinion": "不愿意接纳",
+        "Sentiment": "negative",
+        "Rationale": "7不愿意接纳2"
+    },
+    {
+        "sentence": "吃饭吃饭。老公。",
+        "Holder": "1",
+        "Target": "当前情境",
+        "Aspect": "转移话题",
+        "Opinion": "希望转移话题",
+        "Sentiment": "neutral",
+        "Rationale": "1希望通过转移话题缓解紧张气氛"
+    },
+    {
+        "sentence": "哇，吃早餐了。品如的鬼魂，早",
+        "Holder": "8",
+        "Target": "品如",
+        "Aspect": "称呼",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "用幽默的方式称呼品如"
+    },
+    {
+        "sentence": "一大早都说什么话，你不吃饭吗？",
+        "Holder": "1",
+        "Target": "8的话语",
+        "Aspect": "话语的合适性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得8一大早说的话不合适"
+    },
+    {
+        "sentence": "气饱了",
+        "Holder": "7",
+        "Target": "早餐",
+        "Aspect": "情绪状态",
+        "Opinion": "生气",
+        "Sentiment": "negative",
+        "Rationale": "对早餐不满意"
+    },
+    {
+        "sentence": "难吃，你长得像品如怎么做菜这么难吃。",
+        "Holder": "8",
+        "Target": "1的厨艺",
+        "Aspect": "食物的味道",
+        "Opinion": "难吃",
+        "Sentiment": "negative",
+        "Rationale": "觉得1做的菜难吃"
+    },
+    {
+        "sentence": "那是我做的。",
+        "Holder": "1",
+        "Target": "早餐",
+        "Aspect": "制作者",
+        "Opinion": "承认是自己做的",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实"
+    },
+    {
+        "sentence": "你为什么不做啊？",
+        "Holder": "8",
+        "Target": "1",
+        "Aspect": "做家务",
+        "Opinion": "质疑不做",
+        "Sentiment": "negative",
+        "Rationale": "看到1没有做家务"
+    },
+    {
+        "sentence": "珊珊的手是用来画画的，她怎么能做这样的粗活呢？",
+        "Holder": "1",
+        "Target": "珊珊",
+        "Aspect": "手的使用",
+        "Opinion": "不适合做粗活",
+        "Sentiment": "positive",
+        "Rationale": "认为珊珊的手应该用来画画"
+    },
+    {
+        "sentence": "妈，如果妈妈不想做饭的话，以后叫外卖好了。",
+        "Holder": "2",
+        "Target": "妈妈",
+        "Aspect": "做饭的替代方案",
+        "Opinion": "建议叫外卖",
+        "Sentiment": "neutral",
+        "Rationale": "看到妈妈不想做饭"
+    },
+    {
+        "sentence": "天天叫外卖像话吗？还有这家务事谁做啊？",
+        "Holder": "1",
+        "Target": "叫外卖",
+        "Aspect": "外卖的合理性",
+        "Opinion": "不赞同叫外卖",
+        "Sentiment": "negative",
+        "Rationale": "认为天天叫外卖不合理且家务事无人做"
+    },
+    {
+        "sentence": "有阿姨为什么不让阿姨做？",
+        "Holder": "6",
+        "Target": "阿姨",
+        "Aspect": "家务分配",
+        "Opinion": "应该让阿姨做",
+        "Sentiment": "neutral",
+        "Rationale": "有阿姨在家"
+    },
+    {
+        "sentence": "这叫三从四德。你不要以为嫁到我们家来哄住我这个花心的哥哥就没事了",
+        "Holder": "9",
+        "Target": "6",
+        "Aspect": "婚姻态度",
+        "Opinion": "认为6有哄骗行为",
+        "Sentiment": "negative",
+        "Rationale": "9认为6通过婚姻来哄骗自己"
+    },
+    {
+        "sentence": "你再说一遍试试？",
+        "Holder": "6",
+        "Target": "9",
+        "Aspect": "言语挑衅",
+        "Opinion": "对9的言论不满",
+        "Sentiment": "negative",
+        "Rationale": "9的言论带有贬低和质疑"
+    },
+    {
+        "sentence": "我说怎么了？",
+        "Holder": "9",
+        "Target": "6",
+        "Aspect": "言语回应",
+        "Opinion": "对6的反击表示不解",
+        "Sentiment": "neutral",
+        "Rationale": "9对6的愤怒反应感到困惑"
+    },
+    {
+        "sentence": "行了行了，别说了，吃饭吧吃饭。",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "话题转移",
+        "Opinion": "建议停止争论",
+        "Sentiment": "neutral",
+        "Rationale": "1希望缓和气氛，避免进一步争执"
+    },
+    {
+        "sentence": "尚恩，快吃东西吧。",
+        "Holder": "2",
+        "Target": "尚恩",
+        "Aspect": "吃饭",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "2希望尚恩专注于吃饭，避免参与争论"
+    },
+    {
+        "sentence": "尚恩，怎么可以这么没有礼貌，向新妈妈道歉。",
+        "Holder": "6",
+        "Target": "尚恩",
+        "Aspect": "礼貌",
+        "Opinion": "没有礼貌",
+        "Sentiment": "negative",
+        "Rationale": "尚恩的行为被认为没有礼貌"
+    },
+    {
+        "sentence": "她才不是尚恩的妈妈，我也吃饱了。",
+        "Holder": "9",
+        "Target": "新妈妈",
+        "Aspect": "身份认同",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "9不认同新妈妈的身份"
+    },
+    {
+        "sentence": "哎呀，怎么都吃了炸药一样，我去叫尚恩",
+        "Holder": "1",
+        "Target": "所有人",
+        "Aspect": "情绪状态",
+        "Opinion": "情绪激动",
+        "Sentiment": "negative",
+        "Rationale": "大家情绪都很激动，像吃了炸药一样"
+    },
+    {
+        "sentence": "妈，您别把尚恩宠坏了，尚恩肚子饿了自然会来吃饭的，你就随便他吧。",
+        "Holder": "2",
+        "Target": "尚恩",
+        "Aspect": "教育方式",
+        "Opinion": "不应过度宠爱",
+        "Sentiment": "neutral",
+        "Rationale": "2认为过度宠爱尚恩不好"
+    },
+    {
+        "sentence": "你这是什么话呀？尚恩不是你生的，你当然不心疼。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "关心程度",
+        "Opinion": "不心疼尚恩",
+        "Sentiment": "negative",
+        "Rationale": "1认为2对尚恩不够关心"
+    },
+    {
+        "sentence": "从现在开始我就是尚恩的妈妈，所以请放心的把尚恩交给我，不要再插手。",
+        "Holder": "2",
+        "Target": "尚恩的抚养权",
+        "Aspect": "抚养权的归属",
+        "Opinion": "自己有能力抚养",
+        "Sentiment": "positive",
+        "Rationale": "自信能够胜任尚恩的妈妈角色"
+    },
+    {
+        "sentence": "我怎么能放心把尚恩交给你呢？你是他的后妈，珊珊也是为了孩子好，老公去向不明，你还那么悠闲地坐在这吃饭哈。我都怀疑你是不是真的喜欢我们世贤。儿子，你千万不要有什么事，你有事儿，妈妈也活不出来了，我们在这有吃有喝的，你躲到哪去了？怎么会变成这样？",
+        "Holder": "1",
+        "Target": "2的抚养能力",
+        "Aspect": "抚养能力的可信度",
+        "Opinion": "不信任2",
+        "Sentiment": "negative",
+        "Rationale": "对2作为后妈的能力和动机表示怀疑"
+    },
+    {
+        "sentence": "都是那个林品如害的。一开始就贪图我们家财产，勾引我们世闲，进了我们家门，现在，现在她死了，还不放过我们世贤。我们给她到底有什么仇吗？",
+        "Holder": "1",
+        "Target": "林品如",
+        "Aspect": "林品如的行为动机",
+        "Opinion": "认为林品如有害",
+        "Sentiment": "negative",
+        "Rationale": "认为林品如贪图财产并导致家庭问题"
+    },
+    {
+        "sentence": "为什么要骂我的品如啊。",
+        "Holder": "8",
+        "Target": "林品如",
+        "Aspect": "对林品如的评价",
+        "Opinion": "维护林品如",
+        "Sentiment": "negative",
+        "Rationale": "听到别人骂自己关心的人"
+    },
+    {
+        "sentence": "你干什么呢？你看看你弄得到处都是。",
+        "Holder": "1",
+        "Target": "8的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为8的行为不当",
+        "Sentiment": "negative",
+        "Rationale": "看到8弄得一团糟"
+    },
+    {
+        "sentence": "婶婶，对不起，我帮你擦",
+        "Holder": "8",
+        "Target": "婶婶",
+        "Aspect": "帮忙擦东西",
+        "Opinion": "愿意帮忙",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助婶婶擦东西"
+    },
+    {
+        "sentence": "你拿什么东西在擦呀？这不越擦越脏嘛？",
+        "Holder": "1",
+        "Target": "8的擦拭方式",
+        "Aspect": "擦拭效果",
+        "Opinion": "越擦越脏",
+        "Sentiment": "negative",
+        "Rationale": "认为8用的布料不合适"
+    },
+    {
+        "sentence": "不会，这块布比婶婶的嘴巴干净多了。我擦",
+        "Holder": "8",
+        "Target": "擦拭布料",
+        "Aspect": "布料的清洁度",
+        "Opinion": "布料很干净",
+        "Sentiment": "positive",
+        "Rationale": "认为手中的布料比婶婶的嘴巴还干净"
+    },
+    {
+        "sentence": "你自己擦吧你，真是个白痴。",
+        "Holder": "1",
+        "Target": "8",
+        "Aspect": "智力",
+        "Opinion": "认为8是白痴",
+        "Sentiment": "negative",
+        "Rationale": "对8的擦拭方式感到不满"
+    },
+    {
+        "sentence": "婶婶说这块布不干净。刘嫂。",
+        "Holder": "8",
+        "Target": "布料",
+        "Aspect": "布料的清洁度",
+        "Opinion": "布料不干净",
+        "Sentiment": "neutral",
+        "Rationale": "转述婶婶的观点"
+    },
+    {
+        "sentence": "妈，你干嘛什么东西上面都浇蜂蜜啊。妈，你不会是还在怀疑珊珊是品如这件事情吧？我想过了，我觉得这件事情实在是不可能，就算是品如真的活着，她怎么可能愿意再嫁给我大哥这个她恨之入骨的男人啊？",
+        "Holder": "9",
+        "Target": "1的行为",
+        "Aspect": "浇蜂蜜的原因",
+        "Opinion": "怀疑珊珊是品如",
+        "Sentiment": "negative",
+        "Rationale": "不理解妈妈为什么要在东西上浇蜂蜜，并且不认同妈妈怀疑珊珊是品如的想法"
+    },
+    {
+        "sentence": "这你就不知道了，女人为了报仇什么事都干得出来。不管怎么说，我也是想确认一下，你是知道的，品如她蜂蜜过敏。",
+        "Holder": "1",
+        "Target": "珊珊的身份",
+        "Aspect": "报仇的可能性",
+        "Opinion": "怀疑珊珊是品如",
+        "Sentiment": "neutral",
+        "Rationale": "认为女人为了报仇什么事都干得出来，并且品如蜂蜜过敏"
+    },
+    {
+        "sentence": "我记得，所以她以前带蜂蜜的东西从来不敢吃。",
+        "Holder": "9",
+        "Target": "品如的过敏",
+        "Aspect": "对蜂蜜的忌讳",
+        "Opinion": "品如不敢吃蜂蜜",
+        "Sentiment": "neutral",
+        "Rationale": "记得品如对蜂蜜过敏"
+    },
+    {
+        "sentence": "你是不是觉得珊珊也是品如啊？",
+        "Holder": "1",
+        "Target": "9的看法",
+        "Aspect": "对珊珊身份的怀疑",
+        "Opinion": "询问9的看法",
+        "Sentiment": "neutral",
+        "Rationale": "想知道儿子是否也怀疑珊珊是品如"
+    },
+    {
+        "sentence": "我是觉得她有点可疑，但是我实在不想去相信他是品如，不过有一点我倒是非常肯定，这个女人一定有秘密，所以妈妈要确认一下。",
+        "Holder": "9",
+        "Target": "珊珊的身份",
+        "Aspect": "可疑性和秘密",
+        "Opinion": "珊珊有秘密",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得珊珊可疑但不想相信她是品如，同时又肯定她有秘密"
+    },
+    {
+        "sentence": "珊珊，来来来，快坐下啊。坐坐坐，累坏了，妈特意给你兑了一杯蜂蜜水，快喝一点。",
+        "Holder": "1",
+        "Target": "珊珊",
+        "Aspect": "关心和照顾",
+        "Opinion": "关心珊珊",
+        "Sentiment": "positive",
+        "Rationale": "看到珊珊很累"
+    },
+    {
+        "sentence": "妈做了这么多东西，看来很好吃嘛。",
+        "Holder": "2",
+        "Target": "妈妈做的食物",
+        "Aspect": "食物的外观和预期口感",
+        "Opinion": "看起来好吃",
+        "Sentiment": "positive",
+        "Rationale": "看到妈妈做了很多食物，外观诱人"
+    },
+    {
+        "sentence": "最近你为世贤的事那么忙，受累了，所以妈妈慰劳你一下。",
+        "Holder": "1",
+        "Target": "珊珊的努力",
+        "Aspect": "对珊珊的付出和辛苦",
+        "Opinion": "认可和慰劳",
+        "Sentiment": "positive",
+        "Rationale": "知道珊珊为世贤的事很忙很辛苦"
+    },
+    {
+        "sentence": "很好喝啊。哈哈。嗯，妈，我好喜欢蜂蜜的味道，这所有的东西都浇上蜂蜜汁，特别好吃啊。下次我知道怎么做了。",
+        "Holder": "2",
+        "Target": "蜂蜜水和其他食物",
+        "Aspect": "食物的口感和味道",
+        "Opinion": "非常喜欢",
+        "Sentiment": "positive",
+        "Rationale": "蜂蜜水和其他浇上蜂蜜汁的食物特别好吃"
+    },
+    {
+        "sentence": "奶奶。",
+        "Holder": "10",
+        "Target": "奶奶",
+        "Aspect": "称呼",
+        "Opinion": "称呼奶奶",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的称呼奶奶，没有表达出特别的情感"
+    },
+    {
+        "sentence": "唉呦，宝贝，你慢一点呀，乖一点。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "希望2慢一点、乖一点",
+        "Sentiment": "positive",
+        "Rationale": "1关心2的安全和行为"
+    },
+    {
+        "sentence": "尚恩，过来。有好吃的东西来吃一点吧。来。嗯，好吃吗？",
+        "Holder": "2",
+        "Target": "尚恩",
+        "Aspect": "食物",
+        "Opinion": "邀请尚恩吃东西",
+        "Sentiment": "positive",
+        "Rationale": "2希望尚恩能享受美食"
+    },
+    {
+        "sentence": "好吃。",
+        "Holder": "10",
+        "Target": "食物",
+        "Aspect": "味道",
+        "Opinion": "食物好吃",
+        "Sentiment": "positive",
+        "Rationale": "10觉得食物味道好"
+    },
+    {
+        "sentence": "嗯，来喝一口。妈，你真的是为我做的吗？嗯哼，谢谢。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "食物的准备",
+        "Opinion": "感激1为自己准备食物",
+        "Sentiment": "positive",
+        "Rationale": "2感受到1的关爱和付出"
+    },
+    {
+        "sentence": "多吃点",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "饮食",
+        "Opinion": "希望2多吃",
+        "Sentiment": "positive",
+        "Rationale": "1希望2能多吃点以保持健康"
+    },
+    {
+        "sentence": "奶奶，我好痒啊。",
+        "Holder": "10",
+        "Target": "身体不适",
+        "Aspect": "痒感",
+        "Opinion": "感到不适",
+        "Sentiment": "negative",
+        "Rationale": "身体出现痒感"
+    },
+    {
+        "sentence": "痒？来看看。",
+        "Holder": "9",
+        "Target": "痒感问题",
+        "Aspect": "关注和处理",
+        "Opinion": "需要查看",
+        "Sentiment": "neutral",
+        "Rationale": "听到孩子说痒"
+    },
+    {
+        "sentence": "怎么会痒呢？",
+        "Holder": "2",
+        "Target": "痒感原因",
+        "Aspect": "疑问",
+        "Opinion": "不解",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚痒的原因"
+    },
+    {
+        "sentence": "呀妈，起了好多红疹啊。你是不是过敏啊？",
+        "Holder": "9",
+        "Target": "红疹原因",
+        "Aspect": "过敏可能性",
+        "Opinion": "怀疑过敏",
+        "Sentiment": "negative",
+        "Rationale": "看到孩子身上出现红疹"
+    },
+    {
+        "sentence": "这孩子过敏啊",
+        "Holder": "1",
+        "Target": "孩子症状",
+        "Aspect": "过敏",
+        "Opinion": "确认过敏",
+        "Sentiment": "negative",
+        "Rationale": "观察到孩子的症状"
+    },
+    {
+        "sentence": "来，姑姑带你去医院去看看去吧。",
+        "Holder": "9",
+        "Target": "2的健康状况",
+        "Aspect": "关心和建议",
+        "Opinion": "需要去医院检查",
+        "Sentiment": "neutral",
+        "Rationale": "姑姑担心2的健康状况"
+    },
+    {
+        "sentence": "妈，怎么了你没事吧？",
+        "Holder": "2",
+        "Target": "1的健康状况",
+        "Aspect": "关心和询问",
+        "Opinion": "担心1是否有事",
+        "Sentiment": "neutral",
+        "Rationale": "2听到1要去医院，担心1的健康状况"
+    },
+    {
+        "sentence": "没事。",
+        "Holder": "1",
+        "Target": "自己的健康状况",
+        "Aspect": "状态确认",
+        "Opinion": "自己没事",
+        "Sentiment": "neutral",
+        "Rationale": "1想安抚2的担心"
+    },
+    {
+        "sentence": "你还好吧。",
+        "Holder": "1",
+        "Target": "2的健康状况",
+        "Aspect": "关心和确认",
+        "Opinion": "关心2的状况",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认自己没事后，转而关心2的状况，表现出一种平和的关心，情绪中性。"
+    },
+    {
+        "sentence": "我，我很好啊",
+        "Holder": "2",
+        "Target": "自己的健康状况",
+        "Aspect": "状态确认",
+        "Opinion": "自己很好",
+        "Sentiment": "neutral",
+        "Rationale": "2在回应1的关心，确认自己状况良好，情绪平稳。"
+    },
+    {
+        "sentence": "她吃了那么多蜂蜜也没过敏，看来他不是品如。哼，这个艾莉又在骗人。",
+        "Holder": "1",
+        "Target": "艾莉",
+        "Aspect": "是否骗人",
+        "Opinion": "艾莉在骗人",
+        "Sentiment": "negative",
+        "Rationale": "艾莉声称过敏但吃了蜂蜜没事"
+    },
+    {
+        "sentence": "昨天听到你叫世贤去买蜂蜜，我就知道有问题，所以我先去药房买了防过敏的药，看你还有什么花招。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑1有不良动机",
+        "Sentiment": "negative",
+        "Rationale": "听到1叫世贤买蜂蜜觉得有问题"
+    },
+    {
+        "sentence": "妈，早饭做好了吗？我要上班，我先吃了。",
+        "Holder": "2",
+        "Target": "早饭",
+        "Aspect": "准备情况",
+        "Opinion": "询问早饭是否准备好",
+        "Sentiment": "neutral",
+        "Rationale": "要上班"
+    },
+    {
+        "sentence": "来了就吃啊。有钱人家的女儿也是这么不懂规矩啊。我告诉你，嫁进我们家做儿媳妇就是要伺候公婆，这是洪家的规矩。你倒好。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "遵守规矩",
+        "Opinion": "2不懂规矩",
+        "Sentiment": "negative",
+        "Rationale": "认为2作为儿媳妇不遵守伺候公婆的规矩"
+    },
+    {
+        "sentence": "据我所知，你叫你以前那个儿媳妇做了五年的饭，不是吗？这有什么好委屈的？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对待儿媳妇的态度",
+        "Opinion": "1对前儿媳妇要求过高",
+        "Sentiment": "negative",
+        "Rationale": "1对前儿媳妇要求过高而现在却对2有同样要求"
+    },
+    {
+        "sentence": "你说些什么呢啊？什么五年啊？是你给我做了五年饭吗？你有什么资格来数落我娶进来的媳妇？一个不如一个。这个饭我也不想吃了。你这是干什么？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "资格和评价",
+        "Opinion": "质疑2的资格和负面评价媳妇",
+        "Sentiment": "negative",
+        "Rationale": "1认为2没有资格数落他的媳妇，并且对媳妇的评价不满"
+    },
+    {
+        "sentence": "你不是说你不想吃了吗？那我帮你收拾收拾不好吗？",
+        "Holder": "2",
+        "Target": "1的饭",
+        "Aspect": "收拾饭桌的合理性",
+        "Opinion": "认为帮忙收拾是合理的",
+        "Sentiment": "neutral",
+        "Rationale": "1表示不想吃饭，2认为帮忙收拾是合理的举动"
+    },
+    {
+        "sentence": "你太不像话了。你这是干什么呀？你怎么那么没教养？你要不是高虹的女儿，你能嫁接我们家享清福吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为和教养",
+        "Opinion": "认为2没教养且享清福",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为没教养，并且认为2是家庭背景才享清福"
+    },
+    {
+        "sentence": "享清福，我嫁进这个家五年来，从来不知道什么叫享清福。",
+        "Holder": "2",
+        "Target": "享清福的说法",
+        "Aspect": "生活状况",
+        "Opinion": "否认享清福",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己嫁入这个家五年来并没有享受到清福"
+    },
+    {
+        "sentence": "你说什么？什么五年",
+        "Holder": "1",
+        "Target": "2的说法",
+        "Aspect": "时间长度",
+        "Opinion": "质疑2的说法",
+        "Sentiment": "negative",
+        "Rationale": "1对2提到的五年时间感到疑惑和不认同"
+    },
+    {
+        "sentence": "我第一个孩子是因为你死掉的，当初要不是因为你，我的孩子根本不会流掉。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "孩子的流产原因",
+        "Opinion": "认为是1的责任",
+        "Sentiment": "negative",
+        "Rationale": "2认为孩子的流产是由于1的原因导致的"
+    },
+    {
+        "sentence": "什么什么孩子流掉",
+        "Holder": "1",
+        "Target": "2的指控",
+        "Aspect": "对孩子的流产事件",
+        "Opinion": "不清楚情况",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2提到的孩子流产事件感到困惑和不解"
+    },
+    {
+        "sentence": "五年前我怀第一个孩子的时候，难道你忘记那个孩子是怎么死的吗？当时有两个男的来找你，逼你还赌债，我为了帮你挡人，被他推倒的时候不幸流掉的，我为了你牺牲了我的孩子，现在你想不起来了吗？我想妈妈。你早就忘得一干二净了。可我到死都不会忘的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "孩子的流产事件",
+        "Opinion": "1忘记了这件事",
+        "Sentiment": "negative",
+        "Rationale": "2认为1忘记了为了他而牺牲的孩子"
+    },
+    {
+        "sentence": "什么？你到底是谁？",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "对2的身份认知",
+        "Opinion": "不认识2",
+        "Sentiment": "ambiguous",
+        "Rationale": "1对2的身份感到困惑和不解"
+    },
+    {
+        "sentence": "你问我是谁？怎么这么快你就把我给忘记了？你打从心里看不起又那么厌恶的林品如，你忘了吗？你亲手把我轰出这个家，我就是那个被你扫地出门的儿媳妇。林品如。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对2的身份和过去的事件",
+        "Opinion": "1忘记了2的身份和过去的事",
+        "Sentiment": "negative",
+        "Rationale": "2认为1忘记了她的身份和过去被轰出家门的事情"
+    },
+    {
+        "sentence": "你 你真的是品如",
+        "Holder": "1",
+        "Target": "2的身份",
+        "Aspect": "身份确认",
+        "Opinion": "怀疑是品如",
+        "Sentiment": "ambiguous",
+        "Rationale": "对对方的身份产生怀疑"
+    },
+    {
+        "sentence": "你为什么那么讨厌我？我林品如到底哪里对不起你？就算穷也是你的儿媳妇，没有生下孩子也是你的儿媳妇。我恭恭敬敬的服侍家里所有人5 年，难道还不够吗？有哪一天我没有煮好热腾腾的饭菜给你吃？我真的已经尽力了，为什那么残忍地把我撵出去？我那么苦苦地拜托你，哀求，你为什么没把我当成一家人？为什么？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "对待自己的方式",
+        "Opinion": "感到被不公平对待",
+        "Sentiment": "negative",
+        "Rationale": "自己尽心尽力服侍家人却遭到残忍对待"
+    },
+    {
+        "sentence": "你走开，没有，我没有杀死你的孩子。",
+        "Holder": "1",
+        "Target": "2的指控",
+        "Aspect": "对孩子的处理",
+        "Opinion": "否认杀死孩子",
+        "Sentiment": "negative",
+        "Rationale": "被指控杀死孩子感到愤怒和冤枉"
+    },
+    {
+        "sentence": "为什么要跑啊？我肩膀上的伤口是你把碗扔在我的身上的时候留下来的，虽然我的脸改变，个性也变了，但这个疤痕永远不会消除。你没做坏事就站直了，堂堂正正的看这我，堂堂正正的看着我。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对待自己的方式",
+        "Opinion": "指责对方逃避",
+        "Sentiment": "negative",
+        "Rationale": "对方逃避责任且对自己造成伤害"
+    },
+    {
+        "sentence": "放开我。你放开我。你放开我啊。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "身体接触",
+        "Opinion": "要求放开自己",
+        "Sentiment": "negative",
+        "Rationale": "被对方抓住感到不适和愤怒"
+    },
+    {
+        "sentence": "你干什么呀啊？你干什么呀你？",
+        "Holder": "7",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑行为",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让7感到困惑和不解"
+    },
+    {
+        "sentence": "她真的是林品如 品如。",
+        "Holder": "1",
+        "Target": "她",
+        "Aspect": "身份确认",
+        "Opinion": "确认身份",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认她的身份"
+    },
+    {
+        "sentence": "品如？她不是珊珊嘛？你见鬼了，你。",
+        "Holder": "7",
+        "Target": "1的判断",
+        "Aspect": "身份判断",
+        "Opinion": "质疑判断",
+        "Sentiment": "negative",
+        "Rationale": "7认为1的判断错误"
+    },
+    {
+        "sentence": "爸我要离开这里。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "离开决定",
+        "Opinion": "决定离开",
+        "Sentiment": "neutral",
+        "Rationale": "2做出了离开的决定"
+    },
+    {
+        "sentence": "什么？你要离开这个家？你什么意思？",
+        "Holder": "7",
+        "Target": "2的决定",
+        "Aspect": "离开的合理性",
+        "Opinion": "质疑决定",
+        "Sentiment": "negative",
+        "Rationale": "2突然提出要离开家，让7感到意外和困惑"
+    },
+    {
+        "sentence": "和高文彦结婚了还来勾引我们世贤，你想算计我们家什么呀？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为动机",
+        "Opinion": "怀疑2有不良动机",
+        "Sentiment": "negative",
+        "Rationale": "2已经结婚却还来勾引世贤"
+    },
+    {
+        "sentence": "你们洪家早就一文不值。还有什么值得我算计的？",
+        "Holder": "2",
+        "Target": "洪家",
+        "Aspect": "价值",
+        "Opinion": "洪家没有价值",
+        "Sentiment": "negative",
+        "Rationale": "2认为洪家已经没有价值"
+    },
+    {
+        "sentence": "我早就觉得奇怪，你为什么要帮着高虹作恶，显得我终于明白，你帮着高虹搞垮我们洪家那是为了嫁给高文彦，做高虹的儿媳妇，好享受荣华富贵。",
+        "Holder": "7",
+        "Target": "2",
+        "Aspect": "行为动机",
+        "Opinion": "2为了荣华富贵帮高虹",
+        "Sentiment": "negative",
+        "Rationale": "7认为2帮高虹是为了嫁给高文彦享受荣华富贵"
+    },
+    {
+        "sentence": "是不是？你太没良心了？你不管怎么样，你也在我们家待了5年，是不是？你怎么可以把我的世馨害成那个样子呢？我今天这样给你算这个债。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "良心",
+        "Opinion": "2没有良心",
+        "Sentiment": "negative",
+        "Rationale": "2在洪家待了5年却害了世馨"
+    },
+    {
+        "sentence": "住手，我已经不是以前那个委曲求全、打不还手、骂不还口的受气包，你再敢动我，别怪我不客气啊。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "态度变化",
+        "Opinion": "不再委曲求全",
+        "Sentiment": "negative",
+        "Rationale": "2不想再忍受1的指责和攻击"
+    },
+    {
+        "sentence": "你敢这样子态度跟我说话吗啊？",
+        "Holder": "1",
+        "Target": "2的说话态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "态度不恰当",
+        "Sentiment": "negative",
+        "Rationale": "2的说话态度让1感到不被尊重"
+    },
+    {
+        "sentence": "你现在居然可以这样跟我说话了，是不是？",
+        "Holder": "1",
+        "Target": "2的说话方式",
+        "Aspect": "说话方式的改变",
+        "Opinion": "不应该这样说话",
+        "Sentiment": "negative",
+        "Rationale": "2的说话方式发生了让1不满意的改变"
+    },
+    {
+        "sentence": "你，你太不像话了。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "行为不当",
+        "Sentiment": "negative",
+        "Rationale": "2的行为让1觉得不合理"
+    },
+    {
+        "sentence": "你要干什么？你。",
+        "Holder": "1",
+        "Target": "2的意图",
+        "Aspect": "意图的明确性",
+        "Opinion": "意图不明",
+        "Sentiment": "negative",
+        "Rationale": "1不清楚2的意图"
+    }
+]

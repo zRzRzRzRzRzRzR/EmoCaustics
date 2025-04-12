@@ -1,0 +1,128 @@
+[
+    {
+        "sentence": "就多了一个人盯着我，我觉得没有必要，然后。",
+        "Holder": "1",
+        "Target": "多一个人盯着",
+        "Aspect": "必要性",
+        "Opinion": "不必要",
+        "Sentiment": "negative",
+        "Rationale": "觉得多一个人盯着自己是没有必要的"
+    },
+    {
+        "sentence": "别说话，我到的时候我再告诉他就行了，结果我就是从哈尔滨坐高铁，途经秦皇岛的时候，本来打算跟他说一声，然后结果我就睡着，睡着了就没说上，然后我又到新开发的海域叫东戴河，那边比较干净，但是信号特别不好，可能是。",
+        "Holder": "1",
+        "Target": "告知时间",
+        "Aspect": "计划与实际情况",
+        "Opinion": "计划未能实现",
+        "Sentiment": "negative",
+        "Rationale": "计划在途经秦皇岛时告知对方，但因睡着而未能实现"
+    },
+    {
+        "sentence": "听到别说话，然后我发现手机只要走到海边的时候才有信号，当时我拿着手机就已经站到海边了，然后站在冰冷刺骨的海水里边，我在那等信号好不容易有一点点，然后结果还是没发出去，我当时你别说话。",
+        "Holder": "1",
+        "Target": "手机信号",
+        "Aspect": "信号稳定性",
+        "Opinion": "信号差",
+        "Sentiment": "negative",
+        "Rationale": "站在冰冷的海水里等信号却依然发不出去消息"
+    },
+    {
+        "sentence": "你让我说一句，",
+        "Holder": "2",
+        "Target": "发言权",
+        "Aspect": "表达机会",
+        "Opinion": "要求发言",
+        "Sentiment": "neutral",
+        "Rationale": "想要表达自己的观点"
+    },
+    {
+        "sentence": "说什么说我就。",
+        "Holder": "1",
+        "Target": "2的发言要求",
+        "Aspect": "发言合理性",
+        "Opinion": "反对发言",
+        "Sentiment": "negative",
+        "Rationale": "认为2的发言不合理或时机不合适"
+    },
+    {
+        "sentence": "说一句，我来仲裁一下，给他10秒钟来，你这个理由实在太理由了，你说在那边的人他怎么生活没有信号，人家都是。",
+        "Holder": "3",
+        "Target": "1的抱怨",
+        "Aspect": "抱怨合理性",
+        "Opinion": "认为理由充分",
+        "Sentiment": "neutral",
+        "Rationale": "认为1的抱怨有一定道理"
+    },
+    {
+        "sentence": "固定电话，",
+        "Holder": "1",
+        "Target": "海边生活",
+        "Aspect": "通讯方式",
+        "Opinion": "使用固定电话",
+        "Sentiment": "neutral",
+        "Rationale": "提到海边生活的人使用固定电话"
+    },
+    {
+        "sentence": "你还是不想找我，你要想找我的话，你就拿固定电话给我打一个。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "联系方式的偏好",
+        "Opinion": "希望用固定电话联系",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2用固定电话联系"
+    },
+    {
+        "sentence": "这么大一个人能丢了是咋的？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "个人能力",
+        "Opinion": "质疑1的能力",
+        "Sentiment": "negative",
+        "Rationale": "2认为1不应该轻易丢失"
+    },
+    {
+        "sentence": "你毕竟一个女孩子。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "性别角色",
+        "Opinion": "强调性别差异",
+        "Sentiment": "neutral",
+        "Rationale": "1强调自己是女孩子"
+    },
+    {
+        "sentence": "一个女孩怎么了？我一个女孩我比男孩都强，你没没听说过谁穆桂英吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "性别能力",
+        "Opinion": "认为女孩不比男孩差",
+        "Sentiment": "positive",
+        "Rationale": "2认为女孩也能很强"
+    },
+    {
+        "sentence": "你就别拿那些扯，你说走就走5天，你说我们多担心，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2的行为不负责任",
+        "Sentiment": "negative",
+        "Rationale": "2突然离开5天让大家担心"
+    },
+    {
+        "sentence": "你就当我去挂帅了，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "去挂帅",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述自己去挂帅的行为，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "太可气了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为1去挂帅的行为不合理"
+    }
+]

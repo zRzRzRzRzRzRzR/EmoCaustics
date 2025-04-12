@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "这是唱的哪出啊",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "情况的合理性",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前发生的情况感到困惑"
+    },
+    {
+        "sentence": "看见没有？一开门自个就愣愣磕磕，神神经经直往下倒，说我成功了",
+        "Holder": "2",
+        "Target": "说话人 6 的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不正常",
+        "Sentiment": "negative",
+        "Rationale": "看到说话人 6 的行为异常"
+    },
+    {
+        "sentence": "表姑您就静静地享受您成功的滋味吧",
+        "Holder": "4",
+        "Target": "说话人 6 的成功",
+        "Aspect": "成功的感受",
+        "Opinion": "祝福",
+        "Sentiment": "positive",
+        "Rationale": "认可说话人 6 的成功"
+    },
+    {
+        "sentence": "孤独站在这舞台，听到掌声响起来，我的心中有无限感慨",
+        "Holder": "6",
+        "Target": "自己的成功",
+        "Aspect": "成功的感受",
+        "Opinion": "感慨",
+        "Sentiment": "positive",
+        "Rationale": "站在舞台上听到掌声"
+    },
+    {
+        "sentence": "听见没有，她成功了，这就是星座的力量，我终于找到救星了啊哈哈哈。",
+        "Holder": "4",
+        "Target": "说话人 6 的成功",
+        "Aspect": "成功的原因",
+        "Opinion": "归因于星座",
+        "Sentiment": "positive",
+        "Rationale": "认为说话人 6 的成功是星座的力量"
+    },
+    {
+        "sentence": "咦，这孩子怎么一个个都这么神神叨叨的？",
+        "Holder": "2",
+        "Target": "孩子们",
+        "Aspect": "行为表现",
+        "Opinion": "神神叨叨",
+        "Sentiment": "negative",
+        "Rationale": "孩子们的行为表现让他感到不解和不满"
+    },
+    {
+        "sentence": "看什么呢？",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "看到2在观察什么"
+    },
+    {
+        "sentence": "哎呦，你吓死我了，你不敲门吗",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "进门方式",
+        "Opinion": "不敲门吓人",
+        "Sentiment": "negative",
+        "Rationale": "5没有敲门就直接进来"
+    },
+    {
+        "sentence": "切，我看你从来也没这么专注过",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "专注度",
+        "Opinion": "不专注",
+        "Sentiment": "negative",
+        "Rationale": "认为4平时不专注"
+    },
+    {
+        "sentence": "对了，你什么星座的呀？",
+        "Holder": "4",
+        "Target": "5",
+        "Aspect": "星座",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对5的星座感到好奇"
+    },
+    {
+        "sentence": "我是巨蟹",
+        "Holder": "5",
+        "Target": "星座",
+        "Aspect": "星座身份",
+        "Opinion": "自己是巨蟹",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的星座身份"
+    },
+    {
+        "sentence": "我是双鱼，怪不得咱俩关系那么好，我告诉你，这个巨蟹和双鱼天生就有缘分，就像鱼和蟹都生活在海里一样咱俩有共同的语言，有共同的理想，有共同的追求，有共同的意思",
+        "Holder": "4",
+        "Target": "巨蟹和双鱼的关系",
+        "Aspect": "星座相性",
+        "Opinion": "巨蟹和双鱼有缘分",
+        "Sentiment": "positive",
+        "Rationale": "认为巨蟹和双鱼天生有缘分，并且有共同点"
+    },
+    {
+        "sentence": "哎哎，你别说，你对这星座还深有研究。",
+        "Holder": "5",
+        "Target": "4的星座知识",
+        "Aspect": "星座研究的深度",
+        "Opinion": "4对星座有深入研究",
+        "Sentiment": "positive",
+        "Rationale": "认可4对星座的研究深度"
+    },
+    {
+        "sentence": "哎，那是了，我告诉你，这是一门学问。",
+        "Holder": "4",
+        "Target": "星座学",
+        "Aspect": "星座学的价值",
+        "Opinion": "星座学是一门学问",
+        "Sentiment": "positive",
+        "Rationale": "认为星座学有学术价值"
+    },
+    {
+        "sentence": "唉，对了，嗯，这个键盘让我问你，他哪得罪你了？",
+        "Holder": "5",
+        "Target": "键盘",
+        "Aspect": "得罪的原因",
+        "Opinion": "询问得罪原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出疑问，没有明显的情感倾向"
+    },
+    {
+        "sentence": "不会吧？他没得罪你，你怎么不理他呀？",
+        "Holder": "5",
+        "Target": "4的行为",
+        "Aspect": "对待他人的态度",
+        "Opinion": "不理解4的行为",
+        "Sentiment": "ambiguous",
+        "Rationale": "5对4不理他人的行为感到困惑"
+    },
+    {
+        "sentence": "实话跟你说，他是人马座的",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "星座",
+        "Opinion": "他是人马座",
+        "Sentiment": "neutral",
+        "Rationale": "4只是在陈述一个事实，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "可大家以前都关系不错呀。",
+        "Holder": "5",
+        "Target": "大家的关系",
+        "Aspect": "关系的过去状态",
+        "Opinion": "以前关系不错",
+        "Sentiment": "positive",
+        "Rationale": "5提到大家以前关系不错"
+    },
+    {
+        "sentence": "以前呀，我那是交友不慎。我告诉你，你看我这双鱼座，他那人马座，我是水，他是火，水火不相容。",
+        "Holder": "4",
+        "Target": "交友选择",
+        "Aspect": "星座 compatibility",
+        "Opinion": "水火不相容",
+        "Sentiment": "negative",
+        "Rationale": "认为自己的星座与对方的星座不兼容"
+    },
+    {
+        "sentence": "有那么严重吗？",
+        "Holder": "5",
+        "Target": "4的星座观点",
+        "Aspect": "严重性",
+        "Opinion": "质疑严重性",
+        "Sentiment": "neutral",
+        "Rationale": "对4的星座观点感到怀疑"
+    },
+    {
+        "sentence": "当然有了，所以我也没有办法，我只好忍痛割爱，一刀两断。有句俗话说的好，长痛不如短痛。",
+        "Holder": "4",
+        "Target": "断交决定",
+        "Aspect": "决定的合理性",
+        "Opinion": "长痛不如短痛",
+        "Sentiment": "negative",
+        "Rationale": "认为与对方的关系无法调和"
+    },
+    {
+        "sentence": "哎，我说哥们，你怎么突然那么迷信起来了？",
+        "Holder": "5",
+        "Target": "4的迷信行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "突然迷信",
+        "Sentiment": "negative",
+        "Rationale": "觉得4突然变得迷信"
+    },
+    {
+        "sentence": "哼，不是，这怎么叫迷信呀？你不信是吧？得，你坐着，我给你看看你今天的运势不错，你今天运势是 5 颗星，还有意外的收获呢，是吗？",
+        "Holder": "4",
+        "Target": "迷信的质疑",
+        "Aspect": "迷信的定义",
+        "Opinion": "不认为是迷信",
+        "Sentiment": "negative",
+        "Rationale": "被质疑为迷信感到不满"
+    },
+    {
+        "sentence": "对了，今天我爸说他答应给我买一个派克的那钢笔",
+        "Holder": "5",
+        "Target": "爸爸的承诺",
+        "Aspect": "购买钢笔",
+        "Opinion": "爸爸答应买钢笔",
+        "Sentiment": "positive",
+        "Rationale": "爸爸答应买自己想要的派克钢笔"
+    },
+    {
+        "sentence": "灵不灵吧？",
+        "Holder": "4",
+        "Target": "5的爸爸的承诺",
+        "Aspect": "承诺的可靠性",
+        "Opinion": "怀疑承诺的可靠性",
+        "Sentiment": "doubt",
+        "Rationale": "对5的爸爸是否会真的买钢笔存在疑问"
+    },
+    {
+        "sentence": "可是他说明天考试的必须 90分以上",
+        "Holder": "5",
+        "Target": "爸爸的条件",
+        "Aspect": "考试分数要求",
+        "Opinion": "考试需达到90分以上",
+        "Sentiment": "neutral",
+        "Rationale": "爸爸提出了一个具体的条件"
+    },
+    {
+        "sentence": "没问题，你看上面写着明天是你最好的一个日子了，可以说是福星高照。",
+        "Holder": "4",
+        "Target": "5的考试运势",
+        "Aspect": "考试的吉凶",
+        "Opinion": "明天是好运的一天",
+        "Sentiment": "positive",
+        "Rationale": "相信运势预测，认为明天是5的好运日"
+    },
+    {
+        "sentence": "就算作弊也没问题。",
+        "Holder": "5",
+        "Target": "考试作弊",
+        "Aspect": "作弊的可能性",
+        "Opinion": "认为作弊可行",
+        "Sentiment": "ambiguous",
+        "Rationale": "对考试分数有压力，但又相信运势"
+    },
+    {
+        "sentence": "可以呀，又挺漂亮啊，不错哎，这花是你吉祥物吧。这粉色是你今天的吉祥色吧？我都知道，这书上都写的。小雪，我要跟你切磋一件事情。",
+        "Holder": "4",
+        "Target": "花",
+        "Aspect": "外观",
+        "Opinion": "漂亮",
+        "Sentiment": "positive",
+        "Rationale": "对花的外观表示赞赏"
+    },
+    {
+        "sentence": "哟，可以呀，挺傲气啊。哈哈哈，你别以为你这么傲气就能把我惹生气了。我一点都不生气，你知道为什么吗？因为我知道高傲是你们金牛座的本性。哎，我真有一件大事要和你商量。",
+        "Holder": "4",
+        "Target": "7的态度",
+        "Aspect": "傲气",
+        "Opinion": "理解但不认同",
+        "Sentiment": "positive",
+        "Rationale": "虽然指出对方傲气，但表示理解并强调自己不生气"
+    },
+    {
+        "sentence": "嗯，你坐稳了",
+        "Holder": "4",
+        "Target": "7",
+        "Aspect": "情绪准备",
+        "Opinion": "需要稳定情绪",
+        "Sentiment": "neutral",
+        "Rationale": "要告诉重要且可能引起情绪波动的事情"
+    },
+    {
+        "sentence": "到底什么事，你赶紧说吧。",
+        "Holder": "7",
+        "Target": "4",
+        "Aspect": "信息传达",
+        "Opinion": "催促快点说",
+        "Sentiment": "neutral",
+        "Rationale": "急于知道4要说的内容"
+    },
+    {
+        "sentence": "爸妈的婚姻今年要出现危机啦。",
+        "Holder": "4",
+        "Target": "爸妈的婚姻",
+        "Aspect": "婚姻状况",
+        "Opinion": "预测出现危机",
+        "Sentiment": "negative",
+        "Rationale": "根据专家预测和星座分析，认为爸妈的婚姻会出现危机"
+    },
+    {
+        "sentence": "你怎么知道的？你发现什么迹象啦？",
+        "Holder": "7",
+        "Target": "4的观点",
+        "Aspect": "信息来源",
+        "Opinion": "质疑信息的准确性",
+        "Sentiment": "neutral",
+        "Rationale": "对4的预测感到怀疑"
+    },
+    {
+        "sentence": "迹象倒是什么都没发现，不过专家已经预测了，妈是水瓶座，爸是巨蟹座，他们俩天生根本就不般配，知道吗？书上还说了，说这俩星座今年婚姻肯定出现大变故，你说怎么办呀？",
+        "Holder": "4",
+        "Target": "爸妈的婚姻",
+        "Aspect": "星座匹配",
+        "Opinion": "不般配且预测有大变故",
+        "Sentiment": "negative",
+        "Rationale": "专家和书籍的预测让4对爸妈的婚姻感到担忧"
+    },
+    {
+        "sentence": "咱们不能让他们俩的婚姻出现大变故，你说咱们感情处的也比较好了，我都把你当成姐了，都把小雨当成弟弟了",
+        "Holder": "4",
+        "Target": "家庭关系",
+        "Aspect": "亲情维系",
+        "Opinion": "希望维持家庭和谐",
+        "Sentiment": "positive",
+        "Rationale": "珍惜家庭关系和亲情"
+    },
+    {
+        "sentence": "你就别贫了，赶紧看看书里有什么解决方法吧。",
+        "Holder": "7",
+        "Target": "4的行为",
+        "Aspect": "解决问题的态度",
+        "Opinion": "希望4认真寻找解决方法",
+        "Sentiment": "neutral",
+        "Rationale": "7希望4能停止贫嘴并认真寻找解决方法"
+    },
+    {
+        "sentence": "有啊，不过只有一个。",
+        "Holder": "4",
+        "Target": "解决方法",
+        "Aspect": "解决方法的数量",
+        "Opinion": "只有一个解决方法",
+        "Sentiment": "neutral",
+        "Rationale": "4找到了一个解决方法"
+    },
+    {
+        "sentence": "什么呀？",
+        "Holder": "7",
+        "Target": "4的解决方法",
+        "Aspect": "解决方法的细节",
+        "Opinion": "询问解决方法的细节",
+        "Sentiment": "neutral",
+        "Rationale": "7对4提到的解决方法感到好奇"
+    },
+    {
+        "sentence": "让爸妈两地分居，让妈去南方避一避。",
+        "Holder": "4",
+        "Target": "解决方法",
+        "Aspect": "解决方法的建议",
+        "Opinion": "建议让爸妈两地分居",
+        "Sentiment": "neutral",
+        "Rationale": "4提出了一个具体的解决方法"
+    },
+    {
+        "sentence": "怎么才能让妈去南方啊。再说了，妈能相信咱们吗？",
+        "Holder": "7",
+        "Target": "4的解决方法",
+        "Aspect": "解决方法的可行性",
+        "Opinion": "质疑解决方法的可行性",
+        "Sentiment": "doubt",
+        "Rationale": "7对4提出的解决方法的实际操作和母亲是否会相信感到怀疑"
+    },
+    {
+        "sentence": "所以，所以我才找你商量来了嘛。我昨天晚上一夜都没睡",
+        "Holder": "4",
+        "Target": "商量的事情",
+        "Aspect": "商量的必要性",
+        "Opinion": "需要商量",
+        "Sentiment": "negative",
+        "Rationale": "一夜没睡"
+    },
+    {
+        "sentence": "你们干嘛去啊？",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的目的",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "不知道4的行为目的"
+    },
+    {
+        "sentence": "回来了爸",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "行为的状态",
+        "Opinion": "已经回来",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己已经回来"
+    },
+    {
+        "sentence": "嗯，看见没有，这俩孩子现在一天到晚嘀嘀咕咕不知道干嘛呢。",
+        "Holder": "2",
+        "Target": "两个孩子",
+        "Aspect": "行为的不明确性",
+        "Opinion": "不清楚在干嘛",
+        "Sentiment": "negative",
+        "Rationale": "对孩子行为的不了解和担忧"
+    },
+    {
+        "sentence": "总比一见面就掐强多了吧。",
+        "Holder": "1",
+        "Target": "两个孩子",
+        "Aspect": "行为的对比",
+        "Opinion": "现在的行为更好",
+        "Sentiment": "positive",
+        "Rationale": "认为现在的行为比以前见面就吵架好"
+    },
+    {
+        "sentence": "夏东海，刚才路上有件事我忘告你了，今天早晨我给刘星收拾床的时候，发现他枕头边上有一本星座指南。",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "枕头边上的物品",
+        "Opinion": "发现星座指南",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述发现的事实，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "那怎么了？",
+        "Holder": "1",
+        "Target": "2的陈述",
+        "Aspect": "事件的显著性",
+        "Opinion": "询问事件的重要性",
+        "Sentiment": "neutral",
+        "Rationale": "对2的陈述表示疑问，想知道其重要性，但没有表现出明显的情感倾向"
+    }
+]

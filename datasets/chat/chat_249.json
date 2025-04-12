@@ -1,0 +1,164 @@
+[
+    {
+        "sentence": "我几乎干遍了汉中所有地胜线的，最后进了城市场。我工作固定，经常会调来调去，所以你让你得出国，我没有，你也没支持。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对出国支持的态度",
+        "Opinion": "没有支持",
+        "Sentiment": "negative",
+        "Rationale": "自己工作调动频繁且没有得到对方的支持出国"
+    },
+    {
+        "sentence": "话说回来，女儿的学费你又掏了手。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对女儿学费的承担",
+        "Opinion": "1承担了学费",
+        "Sentiment": "neutral",
+        "Rationale": "提到1承担了女儿的学费"
+    },
+    {
+        "sentence": "我每个月的工资奖金额都给了你，你那点工资够女儿在国外上学吗？怎么还有你吗？我的工资跟你有什么。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "经济支持",
+        "Opinion": "自己承担了主要经济责任",
+        "Sentiment": "negative",
+        "Rationale": "自己承担了大部分经济负担，而对方工资不足以支持女儿留学"
+    },
+    {
+        "sentence": "关系啊？你好意思说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对经济关系的质疑",
+        "Opinion": "质疑1的说法",
+        "Sentiment": "negative",
+        "Rationale": "认为1在经济关系上的说法不合理"
+    },
+    {
+        "sentence": "你让我说什么？你说你让我做什么？你让我拿人民给我的权利做违法事，哼，哪位？你想知道李达康书立的政治智慧，那不是什么人可以轻易的去评贵金书记刚刚到，无利于团队的话一定不要说起点。这么说你说怎么使我就怎么使我妹妹那个付出啊？付处处长。切婷，你今天是给我一个惊喜，哈哈哈。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对2的要求和指责",
+        "Opinion": "认为2的要求不合理",
+        "Sentiment": "negative",
+        "Rationale": "2让自己做违法的事且提出不合理要求"
+    },
+    {
+        "sentence": "小姨夫给我改的，这才叫劳。",
+        "Holder": "2",
+        "Target": "小姨夫的修改",
+        "Aspect": "修改的质量",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "认可小姨夫的修改"
+    },
+    {
+        "sentence": "陆亦可。看来你小姨夫还是有点水。是小杰老师吧。不知道把我点想象力。再给你个机会，中学教师。",
+        "Holder": "1",
+        "Target": "小姨夫的能力",
+        "Aspect": "专业水平",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "认可小姨夫的专业水平"
+    },
+    {
+        "sentence": "大学老师。你的大学老师？",
+        "Holder": "2",
+        "Target": "大学老师",
+        "Aspect": "身份质疑",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "对对方提到的大学老师身份表示怀疑"
+    },
+    {
+        "sentence": "开什么玩笑，还教我的。",
+        "Holder": "1",
+        "Target": "对方提到的大学老师",
+        "Aspect": "教学资格",
+        "Opinion": "不认可",
+        "Sentiment": "negative",
+        "Rationale": "认为对方提到的大学老师不具备教自己的资格"
+    },
+    {
+        "sentence": "高玉良不是你大学老师，他没。",
+        "Holder": "2",
+        "Target": "高玉良",
+        "Aspect": "是否为大学老师",
+        "Opinion": "否定",
+        "Sentiment": "negative",
+        "Rationale": "明确指出高玉良不是对方的大学老师"
+    },
+    {
+        "sentence": "教过你变成孩子哦。高宇他们数据是你小心。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "教育方式",
+        "Opinion": "教过变成孩子",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "对啊，我是正常大学毕业的，跟你们汉大帮算得清楚。",
+        "Holder": "2",
+        "Target": "汉大帮",
+        "Aspect": "教育背景",
+        "Opinion": "与汉大帮不同",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己的教育背景与汉大帮不同，表现出一种自豪感"
+    },
+    {
+        "sentence": "看来我得曾经认识过。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "认识程度",
+        "Opinion": "曾经认识",
+        "Sentiment": "neutral",
+        "Rationale": "1在表达对过去认识的推测，没有明显的情感倾向"
+    },
+    {
+        "sentence": "他们家。我很少去，我妈不让我去，哼。能不能不说了？不能说了，这么多给了有意思。",
+        "Holder": "2",
+        "Target": "他们家",
+        "Aspect": "访问频率",
+        "Opinion": "很少去",
+        "Sentiment": "negative",
+        "Rationale": "2提到自己很少去他们家并且被母亲禁止，表现出不满和厌烦"
+    },
+    {
+        "sentence": "吗？能说明白，收敛一下可以不说了。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对话内容",
+        "Opinion": "收敛一下",
+        "Sentiment": "neutral",
+        "Rationale": "1在建议2收敛一下话题，没有明显的情感倾向"
+    },
+    {
+        "sentence": "停动。",
+        "Holder": "2",
+        "Target": "当前活动",
+        "Aspect": "活动状态",
+        "Opinion": "停止",
+        "Sentiment": "neutral",
+        "Rationale": "2需要停止当前活动"
+    },
+    {
+        "sentence": "可以回答。我估计他肾虚该结束，行吗？好的，没问题。",
+        "Holder": "1",
+        "Target": "2的状态",
+        "Aspect": "身体状况",
+        "Opinion": "认为2身体不适",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2可能身体不适需要停止活动"
+    },
+    {
+        "sentence": "亮平，是这样的，家里有人送来了一些螃蟹。",
+        "Holder": "2",
+        "Target": "螃蟹",
+        "Aspect": "来源",
+        "Opinion": "有人送来",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释家里有螃蟹的原因"
+    }
+]

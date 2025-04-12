@@ -1,0 +1,380 @@
+[
+    {
+        "sentence": "现在就毕业。",
+        "Holder": "1",
+        "Target": "毕业时间",
+        "Aspect": "毕业的紧迫性",
+        "Opinion": "立即毕业",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述毕业的时间"
+    },
+    {
+        "sentence": "你什么意思啊？怎么了？你不知道我在生什么气吗？不说了。",
+        "Holder": "2",
+        "Target": "1的言行",
+        "Aspect": "言行的理解",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "觉得1不理解自己的情绪"
+    },
+    {
+        "sentence": "什么意思啊？",
+        "Holder": "1",
+        "Target": "2的言行",
+        "Aspect": "言行的理解",
+        "Opinion": "困惑",
+        "Sentiment": "neutral",
+        "Rationale": "不明白2的意思"
+    },
+    {
+        "sentence": "我就这个意思啊，你自己不懂我什么意思吗？",
+        "Holder": "2",
+        "Target": "1的理解能力",
+        "Aspect": "理解能力",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "觉得1应该理解自己的意思但却没有"
+    },
+    {
+        "sentence": "那你也没有怎么在意过我的感受啊。",
+        "Holder": "1",
+        "Target": "2的关心",
+        "Aspect": "对感受的在意",
+        "Opinion": "不在意",
+        "Sentiment": "negative",
+        "Rationale": "觉得2没有在意自己的感受"
+    },
+    {
+        "sentence": "呵，搞笑。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的可笑性",
+        "Opinion": "可笑",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的言论很可笑"
+    },
+    {
+        "sentence": "点不点外卖？",
+        "Holder": "1",
+        "Target": "外卖",
+        "Aspect": "是否点外卖",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问是否点外卖"
+    },
+    {
+        "sentence": "不吃！点外卖的时候，你有想问我？我刚刚说我想吃外卖的时候，你都没点，你现在肯定你就自己饿了呗，你就点。你只顾着自己想法，我刚刚就在说点外卖，你就一直不点，现在就知道点了呗。",
+        "Holder": "2",
+        "Target": "1的点外卖行为",
+        "Aspect": "考虑他人",
+        "Opinion": "自私",
+        "Sentiment": "negative",
+        "Rationale": "觉得1在点外卖时只考虑自己，不顾及自己的需求"
+    },
+    {
+        "sentence": "刚刚你说不点的是因为我手机没电啊，现在把充好电了呀，刚开机我就你打开了。",
+        "Holder": "1",
+        "Target": "手机电量",
+        "Aspect": "点外卖的原因",
+        "Opinion": "解释原因",
+        "Sentiment": "neutral",
+        "Rationale": "解释了手机没电的原因"
+    },
+    {
+        "sentence": "那你为什么不提前给他充好电呢？为什么就偏偏这个时候没有电了呢，你之前就不好好充好电吗？什么东西你都不提前弄好吗？",
+        "Holder": "2",
+        "Target": "1的手机充电行为",
+        "Aspect": "提前准备",
+        "Opinion": "不提前准备",
+        "Sentiment": "negative",
+        "Rationale": "觉得1没有提前充好电，导致现在的问题"
+    },
+    {
+        "sentence": "也有提前弄好的呀，ipad，ipad在放歌，这只是一个备用机。",
+        "Holder": "1",
+        "Target": "ipad",
+        "Aspect": "设备用途",
+        "Opinion": "ipad是备用机",
+        "Sentiment": "neutral",
+        "Rationale": "只是说明ipad的用途和状态"
+    },
+    {
+        "sentence": "ipad我剪视频的时候，ipad它都它都快没电了，这个是我白天给他充的电。他为什么能放歌，我充的电，真的。",
+        "Holder": "2",
+        "Target": "ipad",
+        "Aspect": "电量使用",
+        "Opinion": "电量不足",
+        "Sentiment": "negative",
+        "Rationale": "自己充电的ipad在剪视频时电量不足，却发现还能放歌"
+    },
+    {
+        "sentence": "我给你的时候，他还有电的呀，他起码有一半以上的电。",
+        "Holder": "1",
+        "Target": "ipad",
+        "Aspect": "电量状态",
+        "Opinion": "电量充足",
+        "Sentiment": "neutral",
+        "Rationale": "相信自己给对方时ipad电量充足"
+    },
+    {
+        "sentence": "我怎么知道，反正我剪的时候就没电了。",
+        "Holder": "2",
+        "Target": "ipad",
+        "Aspect": "电量状态",
+        "Opinion": "电量不足",
+        "Sentiment": "negative",
+        "Rationale": "在使用ipad时发现电量不足"
+    },
+    {
+        "sentence": "剪视频太耗电了。",
+        "Holder": "1",
+        "Target": "剪视频",
+        "Aspect": "耗电量",
+        "Opinion": "耗电大",
+        "Sentiment": "neutral",
+        "Rationale": "剪视频确实耗电"
+    },
+    {
+        "sentence": "你乱说，你肯定没说真话，你说谎。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "诚实度",
+        "Opinion": "认为对方说谎",
+        "Sentiment": "negative",
+        "Rationale": "不相信对方的解释"
+    },
+    {
+        "sentence": "哪有？怎么可能？给你的时候，专门可是看了电，我才给你的。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "电量确认",
+        "Opinion": "确实确认过电量",
+        "Sentiment": "negative",
+        "Rationale": "被质疑说谎"
+    },
+    {
+        "sentence": "我不信，你变了，你已经会说谎话了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "诚实度",
+        "Opinion": "认为对方变得不诚实",
+        "Sentiment": "negative",
+        "Rationale": "认为对方说谎"
+    },
+    {
+        "sentence": "我真的吵不过你一点。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "争论能力",
+        "Opinion": "认为自己争论不过对方",
+        "Sentiment": "negative",
+        "Rationale": "争论中感到无力和挫败"
+    },
+    {
+        "sentence": "你就总是这个样子。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为模式",
+        "Opinion": "认为对方一贯如此",
+        "Sentiment": "negative",
+        "Rationale": "对对方的行为模式感到不满"
+    },
+    {
+        "sentence": "哎呦，你还想摔我手机？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "对手机的威胁",
+        "Opinion": "反对摔手机",
+        "Sentiment": "negative",
+        "Rationale": "2有摔手机的意图"
+    },
+    {
+        "sentence": "你这手机本来也就已经已换过了，又不是全新的。",
+        "Holder": "2",
+        "Target": "1的手机",
+        "Aspect": "手机的新旧程度",
+        "Opinion": "手机不是全新的",
+        "Sentiment": "neutral",
+        "Rationale": "2认为1的手机已经换过"
+    },
+    {
+        "sentence": "换了也换的是原装的啊，3000多块钱，总不能不拿我3000多块钱不当钱吧？",
+        "Holder": "1",
+        "Target": "手机的价值",
+        "Aspect": "手机的昂贵",
+        "Opinion": "重视手机的价值",
+        "Sentiment": "negative",
+        "Rationale": "2轻视了1手机的价值"
+    },
+    {
+        "sentence": "你3000块钱你赚钱这么不容易，你还花这么快，你这个手机换个700块屏就差不多了。这么多，一点都不知道，省着点用钱。",
+        "Holder": "2",
+        "Target": "1的消费习惯",
+        "Aspect": "花钱的速度",
+        "Opinion": "认为1花钱太快",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1花钱大手大脚"
+    },
+    {
+        "sentence": "700块的屏它不防水。",
+        "Holder": "1",
+        "Target": "700块屏幕",
+        "Aspect": "屏幕的防水功能",
+        "Opinion": "不防水",
+        "Sentiment": "neutral",
+        "Rationale": "1指出700块屏幕的缺点"
+    },
+    {
+        "sentence": "铺张浪费，你又不带他游泳，你防什么水啊？",
+        "Holder": "2",
+        "Target": "1的需求",
+        "Aspect": "防水功能的必要性",
+        "Opinion": "认为防水功能不必要",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1不需要防水功能"
+    },
+    {
+        "sentence": "肯定要防水啊。",
+        "Holder": "1",
+        "Target": "防水功能",
+        "Aspect": "防水功能的必要性",
+        "Opinion": "认为防水功能必要",
+        "Sentiment": "neutral",
+        "Rationale": "1坚持认为防水功能重要"
+    },
+    {
+        "sentence": "洗澡？有",
+        "Holder": "2",
+        "Target": "1的使用场景",
+        "Aspect": "使用手机的场景",
+        "Opinion": "质疑洗澡时用手机",
+        "Sentiment": "neutral",
+        "Rationale": "2对1洗澡时用手机感到疑惑"
+    },
+    {
+        "sentence": "对啊。",
+        "Holder": "1",
+        "Target": "使用场景",
+        "Aspect": "洗澡时用手机",
+        "Opinion": "确认洗澡时用手机",
+        "Sentiment": "neutral",
+        "Rationale": "1确认自己在洗澡时用手机"
+    },
+    {
+        "sentence": "你平时不带他碰水，根本就进不了水啊。你带他洗澡，你游泳带他下去吗？你也不带啊。",
+        "Holder": "2",
+        "Target": "1的使用习惯",
+        "Aspect": "手机接触水的频率",
+        "Opinion": "认为手机很少接触水",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1平时不会让手机接触水"
+    },
+    {
+        "sentence": "带啊。",
+        "Holder": "1",
+        "Target": "带某人",
+        "Aspect": "是否带某人",
+        "Opinion": "同意带",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地同意带某人"
+    },
+    {
+        "sentence": "你要防什么水啊？你游泳也带他下水。",
+        "Holder": "2",
+        "Target": "1的防水需求",
+        "Aspect": "防水的原因",
+        "Opinion": "质疑防水需求",
+        "Sentiment": "ambiguous",
+        "Rationale": "不理解1为什么要防水"
+    },
+    {
+        "sentence": "我不会游泳。你看吧，你连我不会游泳，你都不了解！",
+        "Holder": "1",
+        "Target": "2的了解程度",
+        "Aspect": "对1的了解",
+        "Opinion": "2不了解1",
+        "Sentiment": "negative",
+        "Rationale": "觉得2连自己不会游泳都不知道"
+    },
+    {
+        "sentence": "你不游泳，你的手机要游什么泳？",
+        "Holder": "2",
+        "Target": "1的防水理由",
+        "Aspect": "手机的防水需求",
+        "Opinion": "质疑手机的防水需求",
+        "Sentiment": "ambiguous",
+        "Rationale": "不理解1为什么要把手机防水"
+    },
+    {
+        "sentence": "我泡水啊，但是你居然都不知道，我不会游泳？",
+        "Holder": "1",
+        "Target": "2的了解程度",
+        "Aspect": "对1的了解",
+        "Opinion": "2不了解1",
+        "Sentiment": "negative",
+        "Rationale": "觉得2连自己不会游泳都不知道"
+    },
+    {
+        "sentence": "你脑回路就很奇怪。",
+        "Holder": "2",
+        "Target": "1的思维",
+        "Aspect": "思维的合理性",
+        "Opinion": "1的思维奇怪",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的想法不合逻辑"
+    },
+    {
+        "sentence": "你都不知道我不会游泳？",
+        "Holder": "1",
+        "Target": "2的了解程度",
+        "Aspect": "对1的了解",
+        "Opinion": "2不了解1",
+        "Sentiment": "negative",
+        "Rationale": "觉得2连自己不会游泳都不知道"
+    },
+    {
+        "sentence": "我知道啊，我知道啊，我一定要说出来才算我知道吗？我自己知道，我偷偷不说，我也是知道啊，我非要跟你说了，我才是知道吗？我一直知道啊。",
+        "Holder": "2",
+        "Target": "1的质疑",
+        "Aspect": "是否需要表达出来",
+        "Opinion": "不需要说出来也知道",
+        "Sentiment": "negative",
+        "Rationale": "被1反复质疑是否知道"
+    },
+    {
+        "sentence": "好了，不吵了。",
+        "Holder": "1",
+        "Target": "争吵",
+        "Aspect": "是否继续争吵",
+        "Opinion": "停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "决定不再继续争吵"
+    },
+    {
+        "sentence": "好了，不吵了不吵了，就这样吧，我大人不记小人过。",
+        "Holder": "2",
+        "Target": "争吵",
+        "Aspect": "是否继续争吵",
+        "Opinion": "停止争吵",
+        "Sentiment": "neutral",
+        "Rationale": "决定不再继续争吵"
+    },
+    {
+        "sentence": "我放你一马。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "宽容",
+        "Opinion": "决定宽容",
+        "Sentiment": "positive",
+        "Rationale": "决定不对2进行追究"
+    },
+    {
+        "sentence": "哎，点外卖点外卖。",
+        "Holder": "2",
+        "Target": "点外卖",
+        "Aspect": "行动",
+        "Opinion": "催促点外卖",
+        "Sentiment": "neutral",
+        "Rationale": "需要尽快点外卖"
+    }
+]

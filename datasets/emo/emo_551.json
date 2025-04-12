@@ -1,0 +1,110 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "定义爱的本质与自由意志",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨爱的非自由意志属性", "source_id": "1"},
+          {"state": "positive", "reason": "强调爱是自由意志的沉沦", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "支持使用超能力连接缘分",
+        "emotions": [
+          {"state": "positive", "reason": "主张超能力创造相爱机会", "source_id": "1,3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "质疑超能力的道德风险",
+        "emotions": [
+          {"state": "neutral", "reason": "分析超能力机理的不确定性", "source_id": "5"},
+          {"state": "negative", "reason": "反对洗脑式操控与权力腐败", "source_id": "2,4,8"}
+        ]
+      },
+      {
+        "event": "强调爱情的真实性与自由选择",
+        "emotions": [
+          {"state": "negative", "reason": "认为超能力剥夺对方自主权", "source_id": "4,6,8"},
+          {"state": "positive", "reason": "主张爱情需促进个人成长", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "论证超能力与真爱的兼容性",
+        "emotions": [
+          {"state": "positive", "reason": "主张超能力掌握爱情主动权", "source_id": "3"},
+          {"state": "neutral", "reason": "承认相爱后的结果因人而异", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "反驳自由意志对爱的控制",
+        "emotions": [
+          {"state": "neutral", "reason": "区分恋爱自由与情感选择", "source_id": "4"},
+          {"state": "negative", "reason": "批判对方混淆占有欲与爱情", "source_id": "5,8"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "维护自由意志在爱情中的核心地位",
+        "emotions": [
+          {"state": "positive", "reason": "强调自由恋爱反对包办婚姻", "source_id": "4"},
+          {"state": "negative", "reason": "指责超能力抹杀选择自由", "source_id": "2,5,8"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "探讨超能力的作用机制",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑洗脑是否等同真爱", "source_id": "2"},
+          {"state": "negative", "reason": "反对将超能力类比精神操控", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "揭示超能力的伦理困境",
+        "emotions": [
+          {"state": "negative", "reason": "举例未成年人保护问题", "source_id": "7"},
+          {"state": "neutral", "reason": "探讨爱情与法律的关系", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "辩护超能力的合理性",
+        "emotions": [
+          {"state": "positive", "reason": "类比外貌优势论证超能力正当性", "source_id": "7"},
+          {"state": "negative", "reason": "反驳对方偷换概念与滑坡论证", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "批判超能力对爱情本质的破坏",
+        "emotions": [
+          {"state": "negative", "reason": "强调自由选择权的重要性", "source_id": "2,4"},
+          {"state": "neutral", "reason": "区分性关系自主与情感产生", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

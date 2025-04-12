@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家长会的责任逃避与后果担忧",
+        "emotions": [
+          {"state": "negative", "reason": "担心父亲参加家长会暴露自身错误", "source_id": "3"},
+          {"state": "ambiguous", "reason": "用幽默方式掩盖对家长会的恐惧", "source_id": "1"},
+          {"state": "positive", "reason": "通过合作获得父亲支持避免惩罚", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "校园行为问题的连锁反应",
+        "emotions": [
+          {"state": "neutral", "reason": "承认修复被拆椅子的事实", "source_id": "2"},
+          {"state": "negative", "reason": "因撒纸片和打同学被当众揭露", "source_id": "3"},
+          {"state": "positive", "reason": "利用父亲承诺成功化解危机", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "代际教育理念冲突调解",
+        "emotions": [
+          {"state": "negative", "reason": "担忧刘梅暴力教育方式影响家庭和谐", "source_id": "4"},
+          {"state": "positive", "reason": "成功引导夏东海采用温和处理方式", "source_id": "3"},
+          {"state": "neutral", "reason": "接受夏东海与刘星达成的和解方案", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "继父身份的责任实践",
+        "emotions": [
+          {"state": "positive", "reason": "主动承担家长会责任建立亲子信任", "source_id": "1"},
+          {"state": "negative", "reason": "发现刘星行为问题超出预期承受压力", "source_id": "1"},
+          {"state": "ambiguous", "reason": "采用戏剧化方式处理矛盾保持权威", "source_id": "1,4"},
+          {"state": "positive", "reason": "通过合作教育重构家庭关系平衡", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭教育主导权争夺",
+        "emotions": [
+          {"state": "negative", "reason": "对夏东海隐瞒真相感到信任危机", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑夏东海教育方式的实效性", "source_id": "3"},
+          {"state": "neutral", "reason": "接受新式教育理念的有限妥协", "source_id": "2,3"}
+        ]
+      }
+    ]
+  }
+}

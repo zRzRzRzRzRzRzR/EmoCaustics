@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "任性，你还要跟我争。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "争斗行为",
+        "Opinion": "认为2任性且无理",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在无理取闹"
+    },
+    {
+        "sentence": "什么抚养权，你配当父亲吗？奴还。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "抚养权资格",
+        "Opinion": "质疑1的资格",
+        "Sentiment": "negative",
+        "Rationale": "2认为1不配当父亲"
+    },
+    {
+        "sentence": "好意思说，我说好6点来接你人呢。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "守信情况",
+        "Opinion": "1未按时到达",
+        "Sentiment": "negative",
+        "Rationale": "1没有按时来接"
+    },
+    {
+        "sentence": "俊俊从你公司跑出去你都不知道，你还在狡辩，我跟。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "监护责任",
+        "Opinion": "1未尽到责任",
+        "Sentiment": "negative",
+        "Rationale": "1没有注意到俊俊跑出去，还在辩解"
+    },
+    {
+        "sentence": "好我奉陪。",
+        "Holder": "1",
+        "Target": "4的要求",
+        "Aspect": "配合的态度",
+        "Opinion": "愿意配合",
+        "Sentiment": "neutral",
+        "Rationale": "愿意接受4的要求"
+    },
+    {
+        "sentence": "姐你离婚我不反对，但你让我偷户口本偷房产证，你这也太夸张了，那是妈命根子，他没了我都不能没了房子，",
+        "Holder": "4",
+        "Target": "1的要求",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得偷户口本和房产证太过分"
+    },
+    {
+        "sentence": "你想想俊俊是不是姆妈的命争不到俊俊的抚养权，你让姆妈怎么活？",
+        "Holder": "1",
+        "Target": "4的观点",
+        "Aspect": "抚养权的争夺",
+        "Opinion": "强调重要性",
+        "Sentiment": "negative",
+        "Rationale": "担心母亲无法接受失去抚养权"
+    },
+    {
+        "sentence": "再说了，离婚这个事情我现在还不想告诉他们，姆妈的脾气你是了解的，他要是知道了，你就等着原子弹爆炸，",
+        "Holder": "1",
+        "Target": "4的观点",
+        "Aspect": "离婚消息的保密",
+        "Opinion": "需要保密",
+        "Sentiment": "negative",
+        "Rationale": "担心母亲知道后情绪爆发"
+    },
+    {
+        "sentence": "反正这一回但你记住了，事办完了赶紧拿回来，要让咱妈知道了，非得把我撕了。",
+        "Holder": "4",
+        "Target": "1的要求",
+        "Aspect": "行为的后果",
+        "Opinion": "强调后果严重",
+        "Sentiment": "negative",
+        "Rationale": "担心母亲发现后会严厉责罚"
+    }
+]

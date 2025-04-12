@@ -1,0 +1,63 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭责任冲突与教育方式分歧",
+        "emotions": [
+          {"state": "negative", "reason": "被母亲责备教育方式", "source_id": "3"},
+          {"state": "negative", "reason": "认为4不体谅家庭付出", "source_id": "4"},
+          {"state": "neutral", "reason": "接受调解停止争执", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "学习资源分配与责任归属",
+        "emotions": [
+          {"state": "negative", "reason": "本子被3擅自使用", "source_id": "3"},
+          {"state": "negative", "reason": "与4发生言语冲突", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭矛盾调解",
+        "emotions": [
+          {"state": "neutral", "reason": "主动平息1与4的冲突", "source_id": "1,4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "子女教育立场分歧",
+        "emotions": [
+          {"state": "negative", "reason": "指责4对弟弟态度差", "source_id": "4"},
+          {"state": "negative", "reason": "反对1的偏心行为", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭地位认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被1指责不体谅家庭", "source_id": "1"},
+          {"state": "negative", "reason": "认为3存在偏袒行为", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "学校纪律强化执行",
+        "emotions": [
+          {"state": "negative", "reason": "严格执行校牌制度", "source_id": "students"}
+        ]
+      }
+    ]
+  }
+}

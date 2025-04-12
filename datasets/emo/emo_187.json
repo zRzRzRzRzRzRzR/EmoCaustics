@@ -1,0 +1,77 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭讨论出国工作计划",
+        "emotions": [
+          {"state": "ambiguous", "reason": "自嘲健康状况", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑与老华侨的关系动机", "source_id": "6"},
+          {"state": "neutral", "reason": "澄清出国工作目的", "source_id": "6"},
+          {"state": "ambiguous", "reason": "权衡家庭责任与经济压力", "source_id": "2,4,5"}
+        ]
+      },
+      {
+        "event": "经济压力与家庭责任冲突",
+        "emotions": [
+          {"state": "negative", "reason": "心疼丈夫工作辛劳", "source_id": "6"},
+          {"state": "negative", "reason": "请求出国被强硬拒绝", "source_id": "5"},
+          {"state": "positive", "reason": "强调特护工作价值", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "家庭成员角色认知冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被子女视为保姆的失落", "source_id": "2"},
+          {"state": "positive", "reason": "主张个人职业发展权利", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "推动母亲职业发展",
+        "emotions": [
+          {"state": "positive", "reason": "强调出国机会重要性", "source_id": "1"},
+          {"state": "negative", "reason": "批评母亲安于现状", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "反对母亲离开家庭",
+        "emotions": [
+          {"state": "negative", "reason": "担忧生活失去照顾", "source_id": "1"},
+          {"state": "negative", "reason": "坚决阻止母亲出国", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家庭决策立场转变",
+        "emotions": [
+          {"state": "positive", "reason": "支持母亲追求事业", "source_id": "1"},
+          {"state": "neutral", "reason": "解释言论失误", "source_id": "1"},
+          {"state": "negative", "reason": "强硬拒绝母亲请求", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "夫妻关系博弈",
+        "emotions": [
+          {"state": "negative", "reason": "质疑出国工作动机", "source_id": "1"},
+          {"state": "ambiguous", "reason": "调侃特护对象身份", "source_id": "1"},
+          {"state": "positive", "reason": "强调养家责任归属", "source_id": "1"},
+          {"state": "negative", "reason": "拒绝经济补偿方案", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

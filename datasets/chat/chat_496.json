@@ -1,0 +1,506 @@
+[
+    {
+        "sentence": "没干嘛，哈哈哈，就是晚饭吃多了，想运动运动啊哈哈哈。",
+        "Holder": "1",
+        "Target": "晚饭",
+        "Aspect": "饭量",
+        "Opinion": "吃多了",
+        "Sentiment": "positive",
+        "Rationale": "晚饭吃得很满足"
+    },
+    {
+        "sentence": "哼哼，好好运动吧",
+        "Holder": "2",
+        "Target": "1的运动计划",
+        "Aspect": "运动的态度",
+        "Opinion": "支持运动",
+        "Sentiment": "neutral",
+        "Rationale": "对1的运动计划没有特别的情感倾向"
+    },
+    {
+        "sentence": "原来外出旅游也那么容易",
+        "Holder": "1",
+        "Target": "外出旅游",
+        "Aspect": "旅游的难易程度",
+        "Opinion": "容易",
+        "Sentiment": "positive",
+        "Rationale": "发现外出旅游比自己想象的简单"
+    },
+    {
+        "sentence": "哟，你要走啦？",
+        "Holder": "3",
+        "Target": "1的离开",
+        "Aspect": "离开的行为",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "对1的离开感到意外"
+    },
+    {
+        "sentence": "难道你就不想挽留我吗？",
+        "Holder": "1",
+        "Target": "3的态度",
+        "Aspect": "挽留的意愿",
+        "Opinion": "期待挽留",
+        "Sentiment": "ambiguous",
+        "Rationale": "希望得到3的挽留，但不确定3的真实想法"
+    },
+    {
+        "sentence": "我想挽留，就是我留不住。",
+        "Holder": "3",
+        "Target": "挽留",
+        "Aspect": "挽留的能力",
+        "Opinion": "无法挽留",
+        "Sentiment": "negative",
+        "Rationale": "想挽留但无法做到"
+    },
+    {
+        "sentence": "那好吧。嗯，以后多多保重啊。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "未来的关心",
+        "Opinion": "希望对方保重",
+        "Sentiment": "neutral",
+        "Rationale": "接受对方无法挽留的现实"
+    },
+    {
+        "sentence": "嗯，你也多保重，记得多打点电话啊",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "未来的联系",
+        "Opinion": "希望保持联系",
+        "Sentiment": "neutral",
+        "Rationale": "即将分别"
+    },
+    {
+        "sentence": "怎么了？你不走啦？",
+        "Holder": "3",
+        "Target": "1的行动",
+        "Aspect": "是否离开",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "看到对方没有离开"
+    },
+    {
+        "sentence": "不是，我就是想吧大家一块生活那么长时间了，我还想再看你们一眼",
+        "Holder": "1",
+        "Target": "大家",
+        "Aspect": "共同生活的回忆",
+        "Opinion": "不舍",
+        "Sentiment": "negative",
+        "Rationale": "和大家共同生活了很久"
+    },
+    {
+        "sentence": "你挑明了跟他直说不行吗？",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "沟通方式",
+        "Opinion": "建议直接沟通",
+        "Sentiment": "neutral",
+        "Rationale": "4在询问2是否可以直接沟通"
+    },
+    {
+        "sentence": "我告诉你，你不许说话，这事绝对听我的。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "话语权",
+        "Opinion": "要求服从",
+        "Sentiment": "negative",
+        "Rationale": "2要求4不许说话并强调自己的决定权"
+    },
+    {
+        "sentence": "诶，这女的后来跟哪个男的好了？",
+        "Holder": "2",
+        "Target": "某女性",
+        "Aspect": "感情关系",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问某个女性的感情状况"
+    },
+    {
+        "sentence": "哪个女的？",
+        "Holder": "4",
+        "Target": "2的提问",
+        "Aspect": "具体对象",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "4对2提到的女性不清楚"
+    },
+    {
+        "sentence": "梳短头发，这个。跟那大背头好了。后来大背头是不是自杀了？",
+        "Holder": "2",
+        "Target": "大背头",
+        "Aspect": "命运",
+        "Opinion": "自杀",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问大背头的命运，没有明显的情感倾向"
+    },
+    {
+        "sentence": "流星咳嗽了，吃点药",
+        "Holder": "2",
+        "Target": "流星",
+        "Aspect": "健康状况",
+        "Opinion": "需要吃药",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出流星咳嗽需要吃药的建议，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我，我要走了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行动",
+        "Opinion": "要离开",
+        "Sentiment": "neutral",
+        "Rationale": "只是表达自己要离开的意图，没有明显的情感倾向"
+    },
+    {
+        "sentence": "走了干嘛去？",
+        "Holder": "2",
+        "Target": "1的行动",
+        "Aspect": "离开的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问1离开的原因，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你们就不要管。",
+        "Holder": "1",
+        "Target": "2的关心",
+        "Aspect": "干涉程度",
+        "Opinion": "不需要管",
+        "Sentiment": "neutral",
+        "Rationale": "只是表达不需要2干涉的态度，没有明显的情感倾向"
+    },
+    {
+        "sentence": "呦，上哪啊，还带这么一大旅行包，哼，这孩子。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "携带行李的行为",
+        "Opinion": "质疑和不满",
+        "Sentiment": "negative",
+        "Rationale": "看到1带着大旅行包，觉得不寻常"
+    },
+    {
+        "sentence": "既然你们都看出来了。那我也不瞒你们了。",
+        "Holder": "1",
+        "Target": "2和4",
+        "Aspect": "察觉到的情况",
+        "Opinion": "决定坦白",
+        "Sentiment": "neutral",
+        "Rationale": "觉得大家已经看出来了"
+    },
+    {
+        "sentence": "哟，我们看出什么来了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "被察觉的内容",
+        "Opinion": "反问和疑惑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不清楚1所指的‘看出来’是什么"
+    },
+    {
+        "sentence": "我看出来了",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "被察觉的内容",
+        "Opinion": "确认察觉",
+        "Sentiment": "neutral",
+        "Rationale": "确实察觉到了某些情况"
+    },
+    {
+        "sentence": "你看出什么来了？",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "被察觉的内容",
+        "Opinion": "追问和好奇",
+        "Sentiment": "neutral",
+        "Rationale": "想知道4具体察觉到了什么"
+    },
+    {
+        "sentence": "我看出他穿了一件新T恤衫，哈哈哈。",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "服装",
+        "Opinion": "新",
+        "Sentiment": "positive",
+        "Rationale": "因为发现对方穿了新衣服，感到新奇和愉快，所以发出笑声。"
+    },
+    {
+        "sentence": "哟，刘星，你这衣服是新的吗？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "衣服",
+        "Opinion": "新",
+        "Sentiment": "好奇",
+        "Rationale": "因为注意到刘星穿了新衣服，所以好奇地询问。"
+    },
+    {
+        "sentence": "没有，我要去旅行。",
+        "Holder": "1",
+        "Target": "旅行计划",
+        "Aspect": "个人安排",
+        "Opinion": "确实的计划",
+        "Sentiment": "平静",
+        "Rationale": "因为正在陈述自己的真实计划，所以语气平和。"
+    },
+    {
+        "sentence": "不信叫小雨，小雨可以作证，小雨快出来",
+        "Holder": "1",
+        "Target": "小雨",
+        "Aspect": "作证的能力",
+        "Opinion": "小雨能作证",
+        "Sentiment": "neutral",
+        "Rationale": "1希望小雨出来作证以证明自己的说法"
+    },
+    {
+        "sentence": "妈妈问你流星是要外出旅游吗？",
+        "Holder": "2",
+        "Target": "流星",
+        "Aspect": "是否外出旅游",
+        "Opinion": "询问是否旅游",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问流星是否要外出旅游"
+    },
+    {
+        "sentence": "我不知道",
+        "Holder": "3",
+        "Target": "流星是否外出旅游",
+        "Aspect": "知情情况",
+        "Opinion": "不知道",
+        "Sentiment": "neutral",
+        "Rationale": "3确实不知道流星是否要外出旅游"
+    },
+    {
+        "sentence": "你就实话实说",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "诚实",
+        "Opinion": "要求说实话",
+        "Sentiment": "neutral",
+        "Rationale": "1希望3说实话"
+    },
+    {
+        "sentence": "我真的什么都不知道。",
+        "Holder": "3",
+        "Target": "流星是否外出旅游",
+        "Aspect": "知情情况",
+        "Opinion": "确实不知道",
+        "Sentiment": "neutral",
+        "Rationale": "3再次强调自己确实不知道"
+    },
+    {
+        "sentence": "刘星，不是，就算你要外出旅游，你总得有点原因吧。",
+        "Holder": "2",
+        "Target": "刘星外出旅游的原因",
+        "Aspect": "旅游动机",
+        "Opinion": "需要合理原因",
+        "Sentiment": "neutral",
+        "Rationale": "因为2询问1外出旅游的原因，希望了解其动机，所以语气平和，态度中立。"
+    },
+    {
+        "sentence": "因为我要抗议你们对我不公正的待遇。",
+        "Holder": "1",
+        "Target": "家庭待遇",
+        "Aspect": "公平性",
+        "Opinion": "认为自己受到不公正待遇",
+        "Sentiment": "negative",
+        "Rationale": "因为1觉得家庭对他不公平，所以表达出不满和抗议的情绪。"
+    },
+    {
+        "sentence": "咱们怎么对他不公了？",
+        "Holder": "4",
+        "Target": "对1的待遇",
+        "Aspect": "公正性",
+        "Opinion": "认为自己没有不公正",
+        "Sentiment": "neutral",
+        "Rationale": "4对于1的指控感到困惑"
+    },
+    {
+        "sentence": "就说鞋的事吧，就是你们对我的不尊重。",
+        "Holder": "1",
+        "Target": "家庭对1的态度",
+        "Aspect": "尊重",
+        "Opinion": "认为家庭不尊重他",
+        "Sentiment": "negative",
+        "Rationale": "因为1觉得家里不同意买鞋是对他的不尊重，所以感到委屈和不满。"
+    },
+    {
+        "sentence": "既然你提到了，那妈妈就跟你好好谈谈。你要买鞋本身并不过分，但你采取的欺骗手段确实让人难以接受。",
+        "Holder": "2",
+        "Target": "1的购鞋要求",
+        "Aspect": "行为方式",
+        "Opinion": "购鞋合理但手段不当",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1的购鞋需求可以理解，但使用欺骗手段是不对的，所以表现出批评的态度。"
+    },
+    {
+        "sentence": "一条，你不要外出旅游吗？出了这个门就不要再回来了，永远都别回来。",
+        "Holder": "2",
+        "Target": "一条",
+        "Aspect": "外出旅游",
+        "Opinion": "反对外出",
+        "Sentiment": "negative",
+        "Rationale": "对一条的外出旅游行为不满"
+    },
+    {
+        "sentence": "第二，从今天开始加罚一个礼拜的劳动",
+        "Holder": "2",
+        "Target": "一条",
+        "Aspect": "惩罚措施",
+        "Opinion": "加重惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对一条的行为不满"
+    },
+    {
+        "sentence": "刚才让你承认开玩笑多好",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "处理方式",
+        "Opinion": "建议承认开玩笑",
+        "Sentiment": "neutral",
+        "Rationale": "认为承认开玩笑可以缓和气氛"
+    },
+    {
+        "sentence": "不要啊",
+        "Holder": "1",
+        "Target": "2的惩罚决定",
+        "Aspect": "惩罚的合理性",
+        "Opinion": "反对惩罚",
+        "Sentiment": "negative",
+        "Rationale": "认为惩罚过于严厉"
+    },
+    {
+        "sentence": "嘿，这就邪了门了。这招都对我妈很有用啊。",
+        "Holder": "5",
+        "Target": "2的惩罚方式",
+        "Aspect": "惩罚效果",
+        "Opinion": "认为有效",
+        "Sentiment": "ambiguous",
+        "Rationale": "提到同样的方法对母亲有效"
+    },
+    {
+        "sentence": "还是小雨说的对。",
+        "Holder": "1",
+        "Target": "小雨的观点",
+        "Aspect": "观点的正确性",
+        "Opinion": "认同小雨",
+        "Sentiment": "positive",
+        "Rationale": "认为小雨的观点正确"
+    },
+    {
+        "sentence": "小雨他说什么了？",
+        "Holder": "5",
+        "Target": "小雨的话",
+        "Aspect": "内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "5对小雨的话感到好奇"
+    },
+    {
+        "sentence": "不是敌人太狡猾，而是我们太愚蠢。",
+        "Holder": "1",
+        "Target": "失败原因",
+        "Aspect": "责任归属",
+        "Opinion": "自身愚蠢",
+        "Sentiment": "negative",
+        "Rationale": "1认为失败是自身愚蠢"
+    },
+    {
+        "sentence": "肯定是你走漏了消息。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "消息泄露",
+        "Opinion": "1走漏消息",
+        "Sentiment": "negative",
+        "Rationale": "5认为1走漏了消息"
+    },
+    {
+        "sentence": "不可能",
+        "Holder": "1",
+        "Target": "5的指责",
+        "Aspect": "消息泄露的可能性",
+        "Opinion": "否认",
+        "Sentiment": "negative",
+        "Rationale": "1被5指责走漏消息"
+    },
+    {
+        "sentence": "肯定是。",
+        "Holder": "5",
+        "Target": "1",
+        "Aspect": "消息泄露的确定性",
+        "Opinion": "坚持指责",
+        "Sentiment": "negative",
+        "Rationale": "5坚信1走漏了消息"
+    },
+    {
+        "sentence": "你怎么了？嘿，你倒说话呀。",
+        "Holder": "5",
+        "Target": "1的情绪",
+        "Aspect": "1的反应",
+        "Opinion": "关心1",
+        "Sentiment": "neutral",
+        "Rationale": "5注意到1的情绪低落且不说话"
+    },
+    {
+        "sentence": "我现在觉得他们真的不爱我了",
+        "Holder": "1",
+        "Target": "他们",
+        "Aspect": "对1的爱",
+        "Opinion": "觉得不被爱",
+        "Sentiment": "negative",
+        "Rationale": "1感受到被忽视或冷落"
+    },
+    {
+        "sentence": "就因为这事啊，你可以证实一下",
+        "Holder": "5",
+        "Target": "1的感受",
+        "Aspect": "感受的真实性",
+        "Opinion": "建议证实",
+        "Sentiment": "neutral",
+        "Rationale": "5认为1的感受可能需要验证"
+    },
+    {
+        "sentence": "怎么着？是你可以接着外出旅游啊。",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "外出旅游的合理性",
+        "Opinion": "质疑5的行为",
+        "Sentiment": "negative",
+        "Rationale": "1觉得5外出旅游不顾及自己"
+    },
+    {
+        "sentence": "还外出旅游？你上次就把我弄得够惨的了。",
+        "Holder": "1",
+        "Target": "5的旅游行为",
+        "Aspect": "对1的影响",
+        "Opinion": "造成困扰",
+        "Sentiment": "negative",
+        "Rationale": "上次5外出旅游给1带来了不好的经历"
+    },
+    {
+        "sentence": "上次那是上次，这次嘛，虽说是外出旅游，但是你别真的外出啊。",
+        "Holder": "5",
+        "Target": "外出旅游的方式",
+        "Aspect": "旅游行为的合理性",
+        "Opinion": "不赞成真正外出",
+        "Sentiment": "neutral",
+        "Rationale": "因为5认为通过不真正外出的方式可以测试他人是否在乎，所以语气中带有一种策略性的中立态度"
+    },
+    {
+        "sentence": "不外出怎么叫旅游呢？",
+        "Holder": "1",
+        "Target": "旅游的定义",
+        "Aspect": "旅游的基本要求",
+        "Opinion": "外出是旅游的必要条件",
+        "Sentiment": "neutral",
+        "Rationale": "因为1从常规理解出发，认为旅游必然涉及外出，所以提出疑问，语气中立"
+    },
+    {
+        "sentence": "你只有真正留在家里，彻底藏起来，才能看出他们是不是真的在乎你，是不是真的爱你。",
+        "Holder": "5",
+        "Target": "检验关爱的方法",
+        "Aspect": "验证关爱的有效性",
+        "Opinion": "主张通过隐藏自己来测试",
+        "Sentiment": "neutral",
+        "Rationale": "因为5提出了一种非传统的验证关爱的方法，虽然有些极端，但语气中并未表现出明显的情绪倾向"
+    }
+]

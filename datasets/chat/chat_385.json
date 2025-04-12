@@ -1,0 +1,353 @@
+[
+    {
+        "sentence": "不好意思，我迟到了。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "守时",
+        "Opinion": "迟到",
+        "Sentiment": "negative",
+        "Rationale": "自己没有按时到达"
+    },
+    {
+        "sentence": "不用道歉，迟到一分钟罚200，",
+        "Holder": "2",
+        "Target": "1的迟到",
+        "Aspect": "惩罚措施",
+        "Opinion": "罚款200",
+        "Sentiment": "neutral",
+        "Rationale": "公司规定迟到要罚款"
+    },
+    {
+        "sentence": "我们加班两小时没给一分钱加班费，迟到一分钟你扣我们200。不合适。",
+        "Holder": "3",
+        "Target": "公司的规定",
+        "Aspect": "公平性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "加班没有加班费而迟到却被重罚"
+    },
+    {
+        "sentence": "不是说了周一之前给我吗？这都周一下午了才给我，",
+        "Holder": "2",
+        "Target": "1的工作提交",
+        "Aspect": "时间",
+        "Opinion": "延迟提交",
+        "Sentiment": "negative",
+        "Rationale": "工作没有按时提交"
+    },
+    {
+        "sentence": "主管周五下午布置的工作要周一之前交，劳动法是规定周六周日也要工作吗？",
+        "Holder": "1",
+        "Target": "主管的工作安排",
+        "Aspect": "工作时间的合理性",
+        "Opinion": "质疑加班的合法性",
+        "Sentiment": "negative",
+        "Rationale": "主管在周五下午布置工作要求周一前完成，导致需要周末加班"
+    },
+    {
+        "sentence": "你们这些应届生简直是无法无天，我现在就跟厉总说把你们俩都开了，",
+        "Holder": "2",
+        "Target": "应届生",
+        "Aspect": "工作态度",
+        "Opinion": "认为应届生不守规矩",
+        "Sentiment": "negative",
+        "Rationale": "认为应届生不遵守工作安排，表现出无法无天的态度"
+    },
+    {
+        "sentence": "你是来找我的吗？加班你可以申请调休，但没申请你就得准时到，任务不合理你可以拒绝，但是答应了就得完成职场，有职场的规矩，不是你可以随意对待的，",
+        "Holder": "6",
+        "Target": "1的工作态度",
+        "Aspect": "职场规矩",
+        "Opinion": "强调职场规矩的重要性",
+        "Sentiment": "neutral",
+        "Rationale": "需要向1解释职场规矩"
+    },
+    {
+        "sentence": "我没有随意对待，。",
+        "Holder": "1",
+        "Target": "6的指责",
+        "Aspect": "工作态度",
+        "Opinion": "否认随意对待工作",
+        "Sentiment": "negative",
+        "Rationale": "被6指责随意对待工作"
+    },
+    {
+        "sentence": "我明明已经很努力了，",
+        "Holder": "6",
+        "Target": "自己的努力",
+        "Aspect": "努力程度",
+        "Opinion": "已经很努力",
+        "Sentiment": "neutral",
+        "Rationale": "自己在强调已经付出了很多努力"
+    },
+    {
+        "sentence": "我要的不是过程，而是结果，社会跟在学校的时候不一样，",
+        "Holder": "7",
+        "Target": "社会与学校的差异",
+        "Aspect": "结果与过程的重视程度",
+        "Opinion": "重视结果",
+        "Sentiment": "neutral",
+        "Rationale": "认为社会更看重结果而非过程"
+    },
+    {
+        "sentence": "断肠让我再看不到远方，",
+        "Holder": "5",
+        "Target": "自己的心情",
+        "Aspect": "情绪状态",
+        "Opinion": "感到绝望",
+        "Sentiment": "negative",
+        "Rationale": "心情极度低落"
+    },
+    {
+        "sentence": "确实不一样，学校里没有用资历压你。",
+        "Holder": "6",
+        "Target": "学校与社会的差异",
+        "Aspect": "资历的影响",
+        "Opinion": "学校更公平",
+        "Sentiment": "neutral",
+        "Rationale": "认为学校不会用资历压人"
+    },
+    {
+        "sentence": "同事小丁，下楼帮我买个早饭，可是。",
+        "Holder": "1",
+        "Target": "同事小丁",
+        "Aspect": "请求帮助",
+        "Opinion": "需要帮助",
+        "Sentiment": "neutral",
+        "Rationale": "需要同事帮忙买早饭"
+    },
+    {
+        "sentence": "这都快上班了。",
+        "Holder": "6",
+        "Target": "工作时间",
+        "Aspect": "时间紧迫性",
+        "Opinion": "时间紧迫",
+        "Sentiment": "neutral",
+        "Rationale": "快到上班时间了"
+    },
+    {
+        "sentence": "你一个新人干活推三阻四的快点去。",
+        "Holder": "1",
+        "Target": "新人工作态度",
+        "Aspect": "工作积极性",
+        "Opinion": "工作不积极",
+        "Sentiment": "negative",
+        "Rationale": "新人干活不积极"
+    },
+    {
+        "sentence": "对不起我迟到了",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "守时性",
+        "Opinion": "迟到",
+        "Sentiment": "negative",
+        "Rationale": "自己迟到了"
+    },
+    {
+        "sentence": "学校也没有欺软怕硬去看关系的，领导。",
+        "Holder": "2",
+        "Target": "学校领导",
+        "Aspect": "公平性",
+        "Opinion": "没有偏袒",
+        "Sentiment": "positive",
+        "Rationale": "学校领导没有偏袒"
+    },
+    {
+        "sentence": "文件周一之前必须给我，",
+        "Holder": "1",
+        "Target": "文件提交",
+        "Aspect": "截止时间",
+        "Opinion": "必须按时提交",
+        "Sentiment": "neutral",
+        "Rationale": "文件有截止时间要求"
+    },
+    {
+        "sentence": "这不是他负责吗？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "责任归属",
+        "Opinion": "应该是他负责",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问责任的归属"
+    },
+    {
+        "sentence": "人家爸是公司金主，他做合适吗？",
+        "Holder": "5",
+        "Target": "他",
+        "Aspect": "职位合适性",
+        "Opinion": "不适合",
+        "Sentiment": "negative",
+        "Rationale": "5认为他爸是公司金主"
+    },
+    {
+        "sentence": "学校更没有把你半夜赶出去的冲动，",
+        "Holder": "8",
+        "Target": "学校",
+        "Aspect": "行为合理性",
+        "Opinion": "没有赶人的冲动",
+        "Sentiment": "neutral",
+        "Rationale": "8在陈述学校的行为"
+    },
+    {
+        "sentence": "马上收拾东西给我走人，",
+        "Holder": "1",
+        "Target": "对方",
+        "Aspect": "行动要求",
+        "Opinion": "立即离开",
+        "Sentiment": "negative",
+        "Rationale": "1要求对方马上离开"
+    },
+    {
+        "sentence": "房东阿姨我们签的合同是明年，",
+        "Holder": "8",
+        "Target": "合同",
+        "Aspect": "合同期限",
+        "Opinion": "合同未到期",
+        "Sentiment": "neutral",
+        "Rationale": "8在陈述合同的事实"
+    },
+    {
+        "sentence": "你别废话了，我儿子从国外回来了，",
+        "Holder": "1",
+        "Target": "8的废话",
+        "Aspect": "言语的简洁性",
+        "Opinion": "不需要废话",
+        "Sentiment": "negative",
+        "Rationale": "觉得8的废话太多，耽误时间"
+    },
+    {
+        "sentence": "你总得把押金给我，",
+        "Holder": "8",
+        "Target": "押金",
+        "Aspect": "押金的归还",
+        "Opinion": "应该归还押金",
+        "Sentiment": "neutral",
+        "Rationale": "认为押金是应得的"
+    },
+    {
+        "sentence": "我还没跟你要钱，你看看这个墙这个桌子都给我弄坏了要押金没门，",
+        "Holder": "9",
+        "Target": "押金",
+        "Aspect": "押金的合理性",
+        "Opinion": "不应该给押金",
+        "Sentiment": "negative",
+        "Rationale": "墙和桌子被弄坏了"
+    },
+    {
+        "sentence": "十七吃饭了吗",
+        "Holder": "1",
+        "Target": "十七",
+        "Aspect": "吃饭情况",
+        "Opinion": "关心吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "关心十七的生活状况"
+    },
+    {
+        "sentence": "你女儿什么都能落下，唯独吃饭这件事绝对不会落下，一日三餐吃得饱饱的，放心，",
+        "Holder": "9",
+        "Target": "十七",
+        "Aspect": "吃饭习惯",
+        "Opinion": "吃饭规律",
+        "Sentiment": "positive",
+        "Rationale": "十七吃饭很规律"
+    },
+    {
+        "sentence": "你新租的房子怎么样？",
+        "Holder": "1",
+        "Target": "新租的房子",
+        "Aspect": "整体情况",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问"
+    },
+    {
+        "sentence": "大落地窗，大阳台别提多舒服了，",
+        "Holder": "9",
+        "Target": "新租的房子",
+        "Aspect": "居住舒适度",
+        "Opinion": "非常舒适",
+        "Sentiment": "positive",
+        "Rationale": "有落地窗和大阳台"
+    },
+    {
+        "sentence": "注意安全好。",
+        "Holder": "6",
+        "Target": "9",
+        "Aspect": "居住安全",
+        "Opinion": "提醒注意安全",
+        "Sentiment": "neutral",
+        "Rationale": "关心对方的安全"
+    },
+    {
+        "sentence": "你现在住哪儿？",
+        "Holder": "1",
+        "Target": "9",
+        "Aspect": "当前住址",
+        "Opinion": "询问住址",
+        "Sentiment": "neutral",
+        "Rationale": "只是单纯的询问住址"
+    },
+    {
+        "sentence": "我一定会尽快找到房子的，",
+        "Holder": "9",
+        "Target": "自己",
+        "Aspect": "找房子的决心",
+        "Opinion": "决心尽快找到",
+        "Sentiment": "positive",
+        "Rationale": "有信心尽快找到房子"
+    },
+    {
+        "sentence": "公司不能住，人出了问题谁负责？今天你先睡沙发，明天给你把客房收拾出来。",
+        "Holder": "1",
+        "Target": "公司住宿问题",
+        "Aspect": "住宿安排的合理性",
+        "Opinion": "公司不能住",
+        "Sentiment": "negative",
+        "Rationale": "公司不能提供住宿导致员工出现问题无人负责"
+    },
+    {
+        "sentence": "等我发工资就搬走。",
+        "Holder": "6",
+        "Target": "自己的住宿问题",
+        "Aspect": "搬离的时间",
+        "Opinion": "发工资后搬走",
+        "Sentiment": "neutral",
+        "Rationale": "目前没有足够的经济能力搬离"
+    },
+    {
+        "sentence": "你人事总监怎么当的，公司在对新人的关怀上做的太差了。",
+        "Holder": "1",
+        "Target": "人事总监",
+        "Aspect": "对新人的关怀",
+        "Opinion": "关怀不足",
+        "Sentiment": "negative",
+        "Rationale": "作为人事总监没有做好对新人的关怀工作"
+    },
+    {
+        "sentence": "我跟你说你还不信，看见没？这大阳台大沙发，妈，你看这边是酒柜大电视，对还有书。",
+        "Holder": "9",
+        "Target": "居住环境",
+        "Aspect": "居住条件的优越性",
+        "Opinion": "环境优越",
+        "Sentiment": "positive",
+        "Rationale": "展示了良好的居住环境"
+    },
+    {
+        "sentence": "离开学校进了社会会不会很难？",
+        "Holder": "1",
+        "Target": "进入社会",
+        "Aspect": "适应难度",
+        "Opinion": "可能很难",
+        "Sentiment": "doubt",
+        "Rationale": "对进入社会后的生活感到不确定和担忧"
+    },
+    {
+        "sentence": "是很难但是也有很多温暖，",
+        "Holder": "9",
+        "Target": "当前情况",
+        "Aspect": "难易程度和感受",
+        "Opinion": "困难但温暖",
+        "Sentiment": "ambiguous",
+        "Rationale": "虽然面临困难，但同时也感受到了温暖"
+    }
+]

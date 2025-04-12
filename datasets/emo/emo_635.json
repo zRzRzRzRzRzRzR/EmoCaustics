@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "童年锤击事件与悲剧认知",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观描述四岁自残经历",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "被观众嘲笑受伤场景",
+            "source_id": "2,3"
+          },
+          {
+            "state": "neutral",
+            "reason": "通过电影类比认知悲剧独特性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "世界本质的哲学思辨",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "论证世界以喜剧为基底",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "解构悲剧在喜剧框架中的存在价值",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "临终幽默事件",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "以黑色幽默消解死亡沉重",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "世界观多样性阐释",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认不同视角的合理性",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "对世界本质的开放性追问",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

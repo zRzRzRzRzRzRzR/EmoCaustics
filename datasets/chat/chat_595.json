@@ -1,0 +1,443 @@
+[
+    {
+        "sentence": "不啊，但是我觉得有的时候冲动真的是非常恐怖的事情。冲动是魔鬼。",
+        "Holder": "1",
+        "Target": "冲动",
+        "Aspect": "冲动的后果",
+        "Opinion": "冲动很恐怖",
+        "Sentiment": "negative",
+        "Rationale": "冲动会导致严重的后果"
+    },
+    {
+        "sentence": "就是本来两个人可能关系特别好，但是你一大吵大闹，就容易掰了。",
+        "Holder": "1",
+        "Target": "大吵大闹",
+        "Aspect": "对关系的影响",
+        "Opinion": "容易破坏关系",
+        "Sentiment": "negative",
+        "Rationale": "大吵大闹会破坏原本良好的关系"
+    },
+    {
+        "sentence": "吵闹也可以很可爱呀。",
+        "Holder": "2",
+        "Target": "吵闹",
+        "Aspect": "吵闹的表现",
+        "Opinion": "吵闹可以可爱",
+        "Sentiment": "positive",
+        "Rationale": "认为吵闹有时可以表现出可爱的一面"
+    },
+    {
+        "sentence": "那不是吵架，你这是撒娇。",
+        "Holder": "3",
+        "Target": "吵闹",
+        "Aspect": "吵闹的性质",
+        "Opinion": "吵闹是撒娇",
+        "Sentiment": "neutral",
+        "Rationale": "认为对方的吵闹实际上是在撒娇"
+    },
+    {
+        "sentence": "就是如果两个人，又是我很冲动，然后我没有控制好我的情绪，我对你说一些很难过的话，我觉得你半夜的时候一定会想那个人对你说过很难过的话吧。",
+        "Holder": "3",
+        "Target": "冲动",
+        "Aspect": "冲动的影响",
+        "Opinion": "冲动会说难过的话",
+        "Sentiment": "negative",
+        "Rationale": "冲动会导致说出伤害对方的话"
+    },
+    {
+        "sentence": "其实不会，别把自己想的这么重要。",
+        "Holder": "4",
+        "Target": "3的自我认知",
+        "Aspect": "自我重要性",
+        "Opinion": "不要高估自己",
+        "Sentiment": "neutral",
+        "Rationale": "4认为3不应该把自己看得太重要"
+    },
+    {
+        "sentence": "但是我如果想到就是你对我说过很伤人的话，我真的会每夜都想起这句话。",
+        "Holder": "3",
+        "Target": "4的话语",
+        "Aspect": "话语的影响",
+        "Opinion": "话语伤人",
+        "Sentiment": "negative",
+        "Rationale": "3经常回想起4说的伤人的话"
+    },
+    {
+        "sentence": "确实，说者无心听者有意啊。",
+        "Holder": "5",
+        "Target": "4的话语",
+        "Aspect": "话语的影响",
+        "Opinion": "话语影响大",
+        "Sentiment": "neutral",
+        "Rationale": "5认为话语的影响因听者而异"
+    },
+    {
+        "sentence": "那么都是天蝎座吗？这么记仇。",
+        "Holder": "6",
+        "Target": "3的性格",
+        "Aspect": "记仇程度",
+        "Opinion": "容易记仇",
+        "Sentiment": "ambiguous",
+        "Rationale": "6用星座来调侃3记仇"
+    },
+    {
+        "sentence": "我觉得如果就和好了，我就不会想那些伤人的话。",
+        "Holder": "6",
+        "Target": "和好的可能性",
+        "Aspect": "和好的影响",
+        "Opinion": "和好能忘记伤人的话",
+        "Sentiment": "positive",
+        "Rationale": "6认为和好能让自己不再想起伤人的话"
+    },
+    {
+        "sentence": "但是事实上想很多的人还是存在的，你不能否认他不存在，你知道吧？",
+        "Holder": "7",
+        "Target": "想很多的人",
+        "Aspect": "存在性",
+        "Opinion": "确实存在",
+        "Sentiment": "neutral",
+        "Rationale": "7在陈述一个事实，即想很多的人确实存在"
+    },
+    {
+        "sentence": "就是有的人很脆弱啊。",
+        "Holder": "5",
+        "Target": "有的人",
+        "Aspect": "心理状态",
+        "Opinion": "脆弱",
+        "Sentiment": "neutral",
+        "Rationale": "5在描述一种普遍现象，即有些人心理脆弱"
+    },
+    {
+        "sentence": "对啊，就我们很玻璃心啊。",
+        "Holder": "3",
+        "Target": "我们",
+        "Aspect": "心理状态",
+        "Opinion": "玻璃心",
+        "Sentiment": "neutral",
+        "Rationale": "3在认同5的观点，表示自己也是心理脆弱的人"
+    },
+    {
+        "sentence": "谁说大吵大闹的人就不脆弱了？",
+        "Holder": "4",
+        "Target": "大吵大闹的人",
+        "Aspect": "心理状态",
+        "Opinion": "也可能脆弱",
+        "Sentiment": "neutral",
+        "Rationale": "4在质疑一个普遍观点，即大吵大闹的人也可能心理脆弱"
+    },
+    {
+        "sentence": "所以我们现在在说大吵大闹伤害更重啊。",
+        "Holder": "1",
+        "Target": "大吵大闹",
+        "Aspect": "伤害程度",
+        "Opinion": "伤害更重",
+        "Sentiment": "neutral",
+        "Rationale": "1在总结讨论的内容，即大吵大闹的行为伤害更重"
+    },
+    {
+        "sentence": "你们同意了我们的观点。",
+        "Holder": "5",
+        "Target": "3和1的态度",
+        "Aspect": "态度的认同",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "3和1同意了自己的观点"
+    },
+    {
+        "sentence": "所以我们就很玻璃心啊。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "心理状态",
+        "Opinion": "玻璃心",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己容易受伤"
+    },
+    {
+        "sentence": "不能凶我不能骂我，你必须得哄我啊。",
+        "Holder": "3",
+        "Target": "对待方式",
+        "Aspect": "对待的要求",
+        "Opinion": "需要被哄",
+        "Sentiment": "negative",
+        "Rationale": "希望被温柔对待"
+    },
+    {
+        "sentence": "不过，确实你这样大吵大闹人真会很烦，大家都是成年人，你在这吵吵嚷嚷，我只会觉得你真的很烦。",
+        "Holder": "7",
+        "Target": "大吵大闹的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "觉得烦",
+        "Sentiment": "negative",
+        "Rationale": "大吵大闹的行为影响了大家的情绪"
+    },
+    {
+        "sentence": "她们沉默了，我们赢了。",
+        "Holder": "5",
+        "Target": "她们的沉默",
+        "Aspect": "结果",
+        "Opinion": "赢了",
+        "Sentiment": "positive",
+        "Rationale": "她们的沉默意味着我们的胜利"
+    },
+    {
+        "sentence": "但是我觉得大吵大闹是一个感情的宣泄。",
+        "Holder": "8",
+        "Target": "大吵大闹",
+        "Aspect": "行为性质",
+        "Opinion": "感情的宣泄",
+        "Sentiment": "neutral",
+        "Rationale": "认为大吵大闹是情感宣泄的一种方式"
+    },
+    {
+        "sentence": "但如果你冷战，两个人就是根本都不知道事情的矛盾点在哪里，就永远解决不了。",
+        "Holder": "8",
+        "Target": "冷战",
+        "Aspect": "问题解决",
+        "Opinion": "解决不了",
+        "Sentiment": "negative",
+        "Rationale": "冷战导致双方无法了解矛盾点"
+    },
+    {
+        "sentence": "你可以冷战完了沟通。",
+        "Holder": "5",
+        "Target": "冷战后的沟通",
+        "Aspect": "沟通方式",
+        "Opinion": "支持冷战后的沟通",
+        "Sentiment": "neutral",
+        "Rationale": "建议在冷战结束后进行沟通"
+    },
+    {
+        "sentence": "所以你是大吵大闹吗？",
+        "Holder": "3",
+        "Target": "8的行为",
+        "Aspect": "行为方式",
+        "Opinion": "质疑大吵大闹",
+        "Sentiment": "negative",
+        "Rationale": "认为8的行为可能是大吵大闹"
+    },
+    {
+        "sentence": "我冷战。",
+        "Holder": "8",
+        "Target": "自己",
+        "Aspect": "行为方式",
+        "Opinion": "承认冷战",
+        "Sentiment": "neutral",
+        "Rationale": "直接陈述自己的行为"
+    },
+    {
+        "sentence": "而且我觉得冷战就是在等一方低头，但这种是很伤自尊的事情。",
+        "Holder": "6",
+        "Target": "冷战",
+        "Aspect": "冷战的影响",
+        "Opinion": "认为冷战伤自尊",
+        "Sentiment": "negative",
+        "Rationale": "认为冷战会让一方低头，伤害自尊"
+    },
+    {
+        "sentence": "对，就很消耗！",
+        "Holder": "4",
+        "Target": "冷战",
+        "Aspect": "冷战的影响",
+        "Opinion": "认为冷战消耗精力",
+        "Sentiment": "negative",
+        "Rationale": "同意冷战会消耗精力"
+    },
+    {
+        "sentence": "万一两方都不低头的话，那就真的很消耗感情啊。",
+        "Holder": "6",
+        "Target": "双方不低头",
+        "Aspect": "感情消耗",
+        "Opinion": "消耗感情",
+        "Sentiment": "negative",
+        "Rationale": "双方都不愿意妥协，导致感情逐渐被消耗"
+    },
+    {
+        "sentence": "对，这样自我内耗太严重。",
+        "Holder": "2",
+        "Target": "自我内耗",
+        "Aspect": "内耗程度",
+        "Opinion": "内耗严重",
+        "Sentiment": "negative",
+        "Rationale": "双方僵持不下导致自我内耗严重"
+    },
+    {
+        "sentence": "就大吵大闹，可能你当时就已经和好了。",
+        "Holder": "6",
+        "Target": "大吵大闹",
+        "Aspect": "和解可能性",
+        "Opinion": "可能和好",
+        "Sentiment": "ambiguous",
+        "Rationale": "大吵大闹可能会让情绪得到释放，从而迅速和解"
+    },
+    {
+        "sentence": "但是吵架一般你吵不了多久吧。",
+        "Holder": "7",
+        "Target": "吵架持续时间",
+        "Aspect": "时间长短",
+        "Opinion": "吵架时间短",
+        "Sentiment": "neutral",
+        "Rationale": "认为吵架一般不会持续很长时间"
+    },
+    {
+        "sentence": "但是我们现在讨论的不是什么最后结果是好是坏，而是说这个事情他对我们过程当中造成的伤害。",
+        "Holder": "1",
+        "Target": "讨论内容",
+        "Aspect": "讨论焦点",
+        "Opinion": "关注过程伤害",
+        "Sentiment": "negative",
+        "Rationale": "关注的是事情过程中造成的伤害"
+    },
+    {
+        "sentence": "大吵大闹可能只是当下我生气，或者听到了你说话很生气，但是冷战的话可能会把你之前所有的旧账全部翻出来。",
+        "Holder": "2",
+        "Target": "大吵大闹和冷战",
+        "Aspect": "情绪影响",
+        "Opinion": "冷战更严重",
+        "Sentiment": "negative",
+        "Rationale": "冷战会翻出所有旧账"
+    },
+    {
+        "sentence": "大吵大闹也会翻旧账啊，更翻啊。",
+        "Holder": "5",
+        "Target": "大吵大闹",
+        "Aspect": "翻旧账",
+        "Opinion": "大吵大闹也会翻旧账",
+        "Sentiment": "negative",
+        "Rationale": "认为大吵大闹同样会翻旧账"
+    },
+    {
+        "sentence": "但是你吵架的当下，你会忘记掉那些旧账。",
+        "Holder": "2",
+        "Target": "吵架",
+        "Aspect": "记忆影响",
+        "Opinion": "吵架时忘记旧账",
+        "Sentiment": "neutral",
+        "Rationale": "吵架时注意力集中在当下"
+    },
+    {
+        "sentence": "对啊，那就会记住那个说的更伤人的话呀。大吵大闹的时候，你自己都不知道自己在说什么了。你可能就只是为了吵，对吧？",
+        "Holder": "5",
+        "Target": "大吵大闹",
+        "Aspect": "言语伤害",
+        "Opinion": "吵架时言语伤人",
+        "Sentiment": "negative",
+        "Rationale": "大吵大闹时说出伤人的话"
+    },
+    {
+        "sentence": "对，然后人的话就脱口而出。",
+        "Holder": "1",
+        "Target": "说话方式",
+        "Aspect": "说话的即时性",
+        "Opinion": "说话不经思考",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1提到话是脱口而出的"
+    },
+    {
+        "sentence": "我们出结论吧，就是不要吵架，也不要冷战，好吧？",
+        "Holder": "6",
+        "Target": "处理冲突的方式",
+        "Aspect": "冲突解决的合理性",
+        "Opinion": "避免吵架和冷战",
+        "Sentiment": "positive",
+        "Rationale": "说话人6希望以一种平和的方式解决冲突"
+    },
+    {
+        "sentence": "对对对。",
+        "Holder": "2",
+        "Target": "说话人6的建议",
+        "Aspect": "建议的合理性",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "说话人2完全同意说话人6的建议"
+    },
+    {
+        "sentence": "我觉得你们可以举例说服我们，有没有例子？",
+        "Holder": "1",
+        "Target": "说服方式",
+        "Aspect": "举例的说服力",
+        "Opinion": "需要具体例子",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1希望有具体的例子来支持观点"
+    },
+    {
+        "sentence": "我觉得千万不能大闹。因为我印象非常深的，就是在我上学的那个时候，然后我的邻居是一对夫妻，每天哭天喊地大吵，就非常影响我们的学习，所以不能大吵大闹。",
+        "Holder": "3",
+        "Target": "大吵大闹的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "反对大吵大闹",
+        "Sentiment": "negative",
+        "Rationale": "说话人3提到邻居大吵大闹严重影响了自己的学习"
+    },
+    {
+        "sentence": "确实，也比较扰民。",
+        "Holder": "7",
+        "Target": "朋友吵架",
+        "Aspect": "扰民程度",
+        "Opinion": "扰民",
+        "Sentiment": "negative",
+        "Rationale": "朋友吵架会影响到周围的人"
+    },
+    {
+        "sentence": "就比如说你们周围如果有那种朋友，你作为一个中间的那个人，你天天看着你的朋友吵来吵去。",
+        "Holder": "3",
+        "Target": "朋友吵架",
+        "Aspect": "对中间人的影响",
+        "Opinion": "困扰",
+        "Sentiment": "negative",
+        "Rationale": "作为中间人天天看到朋友吵架"
+    },
+    {
+        "sentence": "对，你要想到他人。",
+        "Holder": "5",
+        "Target": "朋友吵架",
+        "Aspect": "考虑他人感受",
+        "Opinion": "应该考虑他人",
+        "Sentiment": "neutral",
+        "Rationale": "提醒要考虑他人感受"
+    },
+    {
+        "sentence": "然后中间的人就会很难过。就是你哄这边吧，那边不高兴，哄那边那边不高兴。",
+        "Holder": "3",
+        "Target": "中间人的处境",
+        "Aspect": "情绪状态",
+        "Opinion": "难过",
+        "Sentiment": "negative",
+        "Rationale": "无论怎么哄都无法让两边都满意"
+    },
+    {
+        "sentence": "主要是最后你都哄好了，结果人家俩又好好的了，然后过两天又吵了又那啥了。",
+        "Holder": "7",
+        "Target": "朋友吵架的反复性",
+        "Aspect": "反复吵架的影响",
+        "Opinion": "反复无常",
+        "Sentiment": "negative",
+        "Rationale": "即使哄好了朋友，他们还是会反复吵架"
+    },
+    {
+        "sentence": "你说你要是冷战吧，反正我就装作我不知道，你就去吵呗，对吧？你要是大吵大闹，你说我就这我这眼睛就长脸上，你说我看也不行，不看也不行，对吧？",
+        "Holder": "3",
+        "Target": "冷战和大吵大闹的行为",
+        "Aspect": "应对方式",
+        "Opinion": "装作不知道",
+        "Sentiment": "negative",
+        "Rationale": "面对冷战和大吵大闹的行为感到无奈和困扰"
+    },
+    {
+        "sentence": "就不要伤害其他人。",
+        "Holder": "5",
+        "Target": "冷战和大吵大闹的行为",
+        "Aspect": "对他人的影响",
+        "Opinion": "不应伤害他人",
+        "Sentiment": "negative",
+        "Rationale": "冷战和大吵大闹的行为会伤害到其他人"
+    },
+    {
+        "sentence": "我觉得娜姐靠她的语速说服了我。",
+        "Holder": "6",
+        "Target": "娜姐",
+        "Aspect": "说服力",
+        "Opinion": "被说服",
+        "Sentiment": "positive",
+        "Rationale": "娜姐的语速快且有说服力"
+    }
+]

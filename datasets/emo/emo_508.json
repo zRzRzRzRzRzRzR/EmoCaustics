@@ -1,0 +1,73 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "任务布置与执行冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "主动要求控制环境光线和动作", "source_id": "2"},
+          {"state": "negative", "reason": "被强制要求执行垃圾处理任务", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇集体针对被迫承担责任", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "现场情况应对",
+        "emotions": [
+          {"state": "positive", "reason": "理解物理例题关联性", "source_id": "2"},
+          {"state": "neutral", "reason": "应对突发父母到访事件", "source_id": "4,5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "活动主导权争夺",
+        "emotions": [
+          {"state": "neutral", "reason": "制定环境布置标准流程", "source_id": "1"},
+          {"state": "positive", "reason": "获得父母认可活动正当性", "source_id": "4,5"}
+        ]
+      },
+      {
+        "event": "突发情况处理",
+        "emotions": [
+          {"state": "ambiguous", "reason": "应对父母意外出现", "source_id": "4,5"},
+          {"state": "positive", "reason": "成功维持活动正常进行", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "群体行为协调",
+        "emotions": [
+          {"state": "negative", "reason": "制止违规行为维持秩序", "source_id": "1"},
+          {"state": "negative", "reason": "发现异常要求紧急处置", "source_id": "1"},
+          {"state": "positive", "reason": "协助化解父母疑虑", "source_id": "4,5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "家庭监管介入",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑子女活动真实性", "source_id": "1"},
+          {"state": "positive", "reason": "提供后勤支持表达关怀", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "家长联合应对",
+        "emotions": [
+          {"state": "neutral", "reason": "配合完成突发情况处理", "source_id": "2"},
+          {"state": "positive", "reason": "认可子女活动正当性", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

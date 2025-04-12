@@ -1,0 +1,35 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "实验设计与实施流程规划",
+        "emotions": [
+          {"state": "neutral", "reason": "系统阐述实验准备流程", "source_id": "1"},
+          {"state": "positive", "reason": "强调随机化分配的科学性", "source_id": "1"},
+          {"state": "negative", "reason": "数据收集时效性压力", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "线上实验的随机优化验证",
+        "emotions": [
+          {"state": "positive", "reason": "展示软件实现的随机优化优势", "source_id": "1"},
+          {"state": "neutral", "reason": "解释实验组结构设计", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "实验结果的实践应用验证",
+        "emotions": [
+          {"state": "positive", "reason": "智能水表节约11%能耗", "source_id": "1"},
+          {"state": "positive", "reason": "缩小餐盘减少20%浪费", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "学术与实践合作价值探讨",
+        "emotions": [
+          {"state": "positive", "reason": "强调业界合作重要性", "source_id": "1"},
+          {"state": "positive", "reason": "展示合作研究成果", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

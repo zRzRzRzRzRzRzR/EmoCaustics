@@ -1,0 +1,308 @@
+[
+    {
+        "sentence": "当你们到处找我的时候，你们谁会想到我在家里？",
+        "Holder": "1",
+        "Target": "其他人",
+        "Aspect": "寻找方式",
+        "Opinion": "没想到在家里",
+        "Sentiment": "negative",
+        "Rationale": "其他人没有考虑到他可能在家里"
+    },
+    {
+        "sentence": "夏东海，你说刘星到底干嘛去了？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行踪",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "不知道刘星的具体行踪"
+    },
+    {
+        "sentence": "没准儿又上哪个同学家去了吧？",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "行踪",
+        "Opinion": "可能在同学家",
+        "Sentiment": "neutral",
+        "Rationale": "推测刘星可能在同学家"
+    },
+    {
+        "sentence": "不会呀，我给好几个同学家都打电话了，人家都说他没去，你说他会不会真的外出旅游了？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行踪",
+        "Opinion": "可能外出旅游",
+        "Sentiment": "neutral",
+        "Rationale": "给多个同学家打电话确认刘星不在"
+    },
+    {
+        "sentence": "应该不会吧，没事，等等看啊，这孩子，等他回来我非揍他不可，气死我了",
+        "Holder": "3",
+        "Target": "刘星",
+        "Aspect": "行为",
+        "Opinion": "需要教训",
+        "Sentiment": "negative",
+        "Rationale": "刘星的行为让人生气"
+    },
+    {
+        "sentence": "对了，我看他那屋那旅行包还在不在。",
+        "Holder": "2",
+        "Target": "旅行包",
+        "Aspect": "存在状态",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问旅行包的状态，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "唉，没事的，你就不能消停会啊。",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "希望停止",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的行为过于频繁或打扰到别人"
+    },
+    {
+        "sentence": "都什么时候了还敢威胁我。唉呦，饿死了。",
+        "Holder": "1",
+        "Target": "威胁行为",
+        "Aspect": "时间合理性",
+        "Opinion": "不合适",
+        "Sentiment": "negative",
+        "Rationale": "在不合适的时间受到威胁，同时感到饥饿"
+    },
+    {
+        "sentence": "扎死我了，怎么办呢",
+        "Holder": "4",
+        "Target": "自身状况",
+        "Aspect": "疼痛感受",
+        "Opinion": "痛苦",
+        "Sentiment": "negative",
+        "Rationale": "感到被扎的疼痛"
+    },
+    {
+        "sentence": "你干嘛去啊？",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为目的",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问4的行为目的，没有表现出明显的情感倾向"
+    },
+    {
+        "sentence": "去一趟，太不放心了。",
+        "Holder": "2",
+        "Target": "去一趟",
+        "Aspect": "安全性",
+        "Opinion": "不放心",
+        "Sentiment": "negative",
+        "Rationale": "担心去一趟的安全性"
+    },
+    {
+        "sentence": "行行行，我陪你一块去。",
+        "Holder": "3",
+        "Target": "2的担忧",
+        "Aspect": "陪伴",
+        "Opinion": "愿意陪伴",
+        "Sentiment": "positive",
+        "Rationale": "理解2的担忧并愿意提供陪伴"
+    },
+    {
+        "sentence": "小雪小雨，小雨在这呢。小雪过来",
+        "Holder": "2",
+        "Target": "小雪",
+        "Aspect": "位置",
+        "Opinion": "需要小雪过来",
+        "Sentiment": "neutral",
+        "Rationale": "需要小雪过来参与接下来的活动"
+    },
+    {
+        "sentence": "咱们得一块去找找流星去啊。",
+        "Holder": "2",
+        "Target": "找流星",
+        "Aspect": "参与性",
+        "Opinion": "需要大家一起",
+        "Sentiment": "positive",
+        "Rationale": "希望大家都参与找流星的活动"
+    },
+    {
+        "sentence": "你上流星学校。小雨，待会你到他的那几个朋友家去看看去，好吗？就在小区里，那几个朋友不许出小区啊。",
+        "Holder": "2",
+        "Target": "小雨",
+        "Aspect": "任务分配",
+        "Opinion": "安排任务",
+        "Sentiment": "neutral",
+        "Rationale": "需要小雨去执行特定的任务"
+    },
+    {
+        "sentence": "哎，走，咱俩上趟个火车站。",
+        "Holder": "2",
+        "Target": "火车站之行",
+        "Aspect": "行动",
+        "Opinion": "需要一起去",
+        "Sentiment": "neutral",
+        "Rationale": "需要和3一起去火车站"
+    },
+    {
+        "sentence": "上火车站干嘛去？",
+        "Holder": "3",
+        "Target": "火车站行程",
+        "Aspect": "行程目的",
+        "Opinion": "询问目的",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问5去火车站的目的"
+    },
+    {
+        "sentence": "马上，我带这个去",
+        "Holder": "4",
+        "Target": "行动",
+        "Aspect": "行动的紧迫性",
+        "Opinion": "立即行动",
+        "Sentiment": "neutral",
+        "Rationale": "4表示会马上行动"
+    },
+    {
+        "sentence": "拿刀干什么呀？赶紧放下快点",
+        "Holder": "5",
+        "Target": "拿刀行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对拿刀",
+        "Sentiment": "negative",
+        "Rationale": "5认为拿刀是不合理且危险的"
+    },
+    {
+        "sentence": "小雪，老爸，老妈，这门怎么打不开了？",
+        "Holder": "3",
+        "Target": "门",
+        "Aspect": "门的开关状态",
+        "Opinion": "门打不开",
+        "Sentiment": "negative",
+        "Rationale": "3遇到了门打不开的问题"
+    },
+    {
+        "sentence": "你别吓我，里边黑着呢，妈。",
+        "Holder": "1",
+        "Target": "环境",
+        "Aspect": "黑暗",
+        "Opinion": "害怕",
+        "Sentiment": "negative",
+        "Rationale": "环境黑暗"
+    },
+    {
+        "sentence": "唉呦，累得我腿都快抽筋。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "身体状态",
+        "Opinion": "累",
+        "Sentiment": "negative",
+        "Rationale": "长时间寻找刘星导致身体疲惫"
+    },
+    {
+        "sentence": "找一宿了，这刘星到底跑哪去了呀？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "行踪",
+        "Opinion": "找不到",
+        "Sentiment": "negative",
+        "Rationale": "找了一整夜还没有找到刘星"
+    },
+    {
+        "sentence": "你说流星要真的有个三长两短，咱们可怎么办呢？",
+        "Holder": "2",
+        "Target": "刘星",
+        "Aspect": "安全",
+        "Opinion": "担忧",
+        "Sentiment": "negative",
+        "Rationale": "担心刘星的安全问题"
+    },
+    {
+        "sentence": "别急别急，我刚才已经报警了，警察一定会帮咱们找着的，你来歇会",
+        "Holder": "3",
+        "Target": "寻找刘星的情况",
+        "Aspect": "解决办法",
+        "Opinion": "有希望",
+        "Sentiment": "positive",
+        "Rationale": "已经报警并且相信警察能找到刘星"
+    },
+    {
+        "sentence": "反正我也睡不着，我再找找去。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "睡眠状态",
+        "Opinion": "无法入睡",
+        "Sentiment": "neutral",
+        "Rationale": "自己无法入睡"
+    },
+    {
+        "sentence": "唉，你等会。你就非要去，我陪你一块去，别回头刘星找不着你，再出点什么问题。小雨，走，一块去。",
+        "Holder": "3",
+        "Target": "2的行动",
+        "Aspect": "安全考虑",
+        "Opinion": "担心出问题",
+        "Sentiment": "positive",
+        "Rationale": "担心2单独行动会出问题"
+    },
+    {
+        "sentence": "我在这呢",
+        "Holder": "1",
+        "Target": "自己的位置",
+        "Aspect": "位置确认",
+        "Opinion": "确认自己在场",
+        "Sentiment": "neutral",
+        "Rationale": "听到别人在找自己"
+    },
+    {
+        "sentence": "刘星在哪呢？",
+        "Holder": "2",
+        "Target": "刘星的位置",
+        "Aspect": "位置询问",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "想知道刘星的位置"
+    },
+    {
+        "sentence": "好像是厨房哪",
+        "Holder": "3",
+        "Target": "刘星的位置",
+        "Aspect": "位置推测",
+        "Opinion": "推测在厨房",
+        "Sentiment": "neutral",
+        "Rationale": "根据一些迹象推测刘星可能在厨房"
+    },
+    {
+        "sentence": "哟，不会在冰箱里吧？",
+        "Holder": "2",
+        "Target": "1的位置",
+        "Aspect": "位置的猜测",
+        "Opinion": "可能在冰箱里",
+        "Sentiment": "ambiguous",
+        "Rationale": "2不确定1的具体位置"
+    },
+    {
+        "sentence": "没有，我在柜子里呢。",
+        "Holder": "1",
+        "Target": "自己的位置",
+        "Aspect": "位置的确认",
+        "Opinion": "在柜子里",
+        "Sentiment": "neutral",
+        "Rationale": "1直接回答了自己的位置"
+    },
+    {
+        "sentence": "刘星，谁给你关这了？你说啊",
+        "Holder": "2",
+        "Target": "1被关的原因",
+        "Aspect": "被关的原因",
+        "Opinion": "需要解释",
+        "Sentiment": "negative",
+        "Rationale": "2对1被关在柜子里感到不解和不满"
+    },
+    {
+        "sentence": "饿死我了",
+        "Holder": "1",
+        "Target": "自己的状态",
+        "Aspect": "饥饿程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "1感到非常饥饿"
+    }
+]

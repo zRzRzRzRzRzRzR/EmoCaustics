@@ -1,0 +1,461 @@
+[
+    {
+        "sentence": "其实如果实在找不到的话，但是。",
+        "Holder": "1",
+        "Target": "找不到的事物",
+        "Aspect": "寻找的可能性",
+        "Opinion": "找不到",
+        "Sentiment": "neutral",
+        "Rationale": "提到了找不到的情况，但没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "那天聊的时候就说想玩一下，我想试一下。对试完了，可是我觉得你心态有问题，你不觉得你心态有问题吗？从那一天就开始，你就一直说，我感觉你并不想让我尝试这个游戏，你给我你从那天跟我讲的话，就是觉得这游戏不好玩，这游戏很难，这游戏很坐牢，你不要来玩。至少在我的角度看来，你给我传达的信息全部都是这样的，但是我其实还是挺想尝试的，因为我觉得看起来真的挺好玩的，我最近晚上都在看什么仇恨机制，什么。",
+        "Holder": "2",
+        "Target": "1的心态",
+        "Aspect": "对游戏的态度",
+        "Opinion": "1不想让2尝试游戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得1一直传达游戏不好玩的信息，阻碍2尝试游戏"
+    },
+    {
+        "sentence": "就是补兵反补啥的，我都在看，可能今天确实。",
+        "Holder": "1",
+        "Target": "游戏技巧",
+        "Aspect": "学习的内容",
+        "Opinion": "在学习游戏技巧",
+        "Sentiment": "neutral",
+        "Rationale": "提到了在学习游戏技巧，但没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "刚刚上，如果你要想玩下去的话，我也可以玩。",
+        "Holder": "2",
+        "Target": "游戏参与",
+        "Aspect": "是否继续玩",
+        "Opinion": "愿意继续玩",
+        "Sentiment": "positive",
+        "Rationale": "表示愿意继续玩游戏"
+    },
+    {
+        "sentence": "主要是我觉得这个游戏属于是那种要么就入坑，狠狠的入，要么就直接千万不要碰，",
+        "Holder": "1",
+        "Target": "游戏",
+        "Aspect": "游戏的投入程度",
+        "Opinion": "要么彻底投入要么不碰",
+        "Sentiment": "neutral",
+        "Rationale": "对游戏的投入程度提出了看法，但没有表现出明显的情绪波动"
+    },
+    {
+        "sentence": "我不知道。",
+        "Holder": "2",
+        "Target": "游戏成瘾性",
+        "Aspect": "对游戏成瘾性的了解",
+        "Opinion": "不了解",
+        "Sentiment": "neutral",
+        "Rationale": "对话刚开始，对游戏成瘾性没有明确看法"
+    },
+    {
+        "sentence": "但是这个游戏对于很多人有很强的成瘾性，",
+        "Holder": "1",
+        "Target": "游戏",
+        "Aspect": "成瘾性",
+        "Opinion": "成瘾性强",
+        "Sentiment": "negative",
+        "Rationale": "认为游戏对很多人有很强的成瘾性"
+    },
+    {
+        "sentence": "我不知道，我其实能够理解你的想法，你是觉得玩这个游戏要想玩的话就要好好学习，不能随便玩，肯定是玩不好的。",
+        "Holder": "2",
+        "Target": "1的想法",
+        "Aspect": "游戏态度",
+        "Opinion": "理解",
+        "Sentiment": "neutral",
+        "Rationale": "理解对方认为玩游戏需要认真对待的观点"
+    },
+    {
+        "sentence": "因为这游戏很难，你如果随便玩玩的话，肯定比什么战斗方块剧场比什么，但是疯狂兔子人要坐牢多了，",
+        "Holder": "1",
+        "Target": "游戏难度",
+        "Aspect": "难度对比",
+        "Opinion": "难度高",
+        "Sentiment": "negative",
+        "Rationale": "认为游戏难度高，随便玩玩无法掌握"
+    },
+    {
+        "sentence": "我知道，但是这个游戏我不一定是你觉得说吐籽儿疯狂剧场，但是这个游戏我自己一个人的时候我也可以练，对吧？我不是觉得说我打的时候一定要你带着我打，但是你给我传递的一个情绪就是觉得这游戏超级坐牢的，你不要玩这个游戏真的非常坐牢，你真的不要玩，很打击新人的这种想法，你知道吗？就是明明我是想玩的，但是不要玩，真的很坐牢，不仅是你坐牢，我也跟着你一起坐牢，大家都很坐牢，真的很不好。",
+        "Holder": "2",
+        "Target": "1的游戏态度",
+        "Aspect": "情绪传递",
+        "Opinion": "负面情绪",
+        "Sentiment": "negative",
+        "Rationale": "对方传递的游戏难度高、不宜玩的情绪影响到了自己"
+    },
+    {
+        "sentence": "你看我我道歉我错了。如果是你自己想玩的话，我就没有什么好说的了。我就怕是你因为我口嗨一句，说什么说说什么，能不能学学Dota二为了联动。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "道歉和游戏选择",
+        "Opinion": "道歉并解释原因",
+        "Sentiment": "neutral",
+        "Rationale": "担心自己的话影响了说话人2的选择"
+    },
+    {
+        "sentence": "我不可能为了联动去学什么游戏，就是你说Dota二，然后我看了看，我觉得挺有意思的，我说可以，",
+        "Holder": "2",
+        "Target": "Dota二",
+        "Aspect": "游戏选择的动机",
+        "Opinion": "觉得游戏有意思",
+        "Sentiment": "positive",
+        "Rationale": "觉得Dota二游戏有意思"
+    },
+    {
+        "sentence": "我也可以和你打，但是我说我说实话，你真的不要指望我能教给你什么东西，",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "游戏技能水平",
+        "Opinion": "不擅长教学",
+        "Sentiment": "negative",
+        "Rationale": "自己不擅长教学"
+    },
+    {
+        "sentence": "从今天的我没有我。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "今天的经历",
+        "Opinion": "没有存在感",
+        "Sentiment": "negative",
+        "Rationale": "今天的经历让自己感到没有存在感"
+    },
+    {
+        "sentence": "今天的经历，你应该能看。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "今天的经历",
+        "Opinion": "应该能理解",
+        "Sentiment": "neutral",
+        "Rationale": "认为说话人2应该能理解今天的经历"
+    },
+    {
+        "sentence": "出来，我也没有全要靠你教我什么，说实话你今天教我什么，你有很多东西跟当前版本也是很不符合的，我很多东西都是我前两天一直在找视频看，包括补刀反补仇恨啥的，信使买东西拉野啥的我都学了，但可能是看视频上手操作是上手操作，可能确实还得练，就是要练，但是我也没有真的觉得你所有的东西都要很详细的教我，我也没有这样想，对。",
+        "Holder": "2",
+        "Target": "1的教学内容",
+        "Aspect": "教学内容的有效性",
+        "Opinion": "教学内容不完全适用",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2认为1的教学内容与当前版本不完全符合，且自己已经通过视频学习了很多"
+    },
+    {
+        "sentence": "是 ok，你要是真的觉得对这个游戏觉得有趣还是不错的，",
+        "Holder": "1",
+        "Target": "2的游戏兴趣",
+        "Aspect": "游戏兴趣的评价",
+        "Opinion": "认为2对游戏有兴趣是好事",
+        "Sentiment": "positive",
+        "Rationale": "说话人1认可2对游戏的兴趣"
+    },
+    {
+        "sentence": "就是这种感觉，但是我觉得我觉得怎么说，你感觉我好像给你很大压力，就是觉得要你教我，要你把所有的东西都教给我，但其实不是的，我只是觉得刚好你是游戏的老玩家，然后我们可以带着直播间的水友们大家一起玩一玩，就是打打没玩过，但是可以上手玩一玩。",
+        "Holder": "2",
+        "Target": "1的感受",
+        "Aspect": "对1的压力感知",
+        "Opinion": "否认给1带来压力",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2解释自己并没有给1带来压力的意图"
+    },
+    {
+        "sentence": "确实是。",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "对2观点的认同",
+        "Opinion": "认同2的观点",
+        "Sentiment": "positive",
+        "Rationale": "说话人1对2的观点表示认同"
+    },
+    {
+        "sentence": "对吧？但我觉得是要有一点好的心态，你不能就觉得坐牢今天肯定是要坐牢的，你不用想新人打肯定是坐牢。可是我们两打前两把打的时候，我感觉也没那么做了，哪怕是打人机又怎么样？打得轻松一点，玄学我其实今天很期待逛一逛Dota的地图的，因为我感觉Dota地图特别好看，它有特别多漂亮的地图，然后里面有很多很好看的场景，其实很想逛，但都没逛到可惜真的很可惜。",
+        "Holder": "2",
+        "Target": "游戏心态",
+        "Aspect": "对游戏心态的看法",
+        "Opinion": "认为应有良好心态",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2强调应有良好心态对待游戏，即使面对困难也不应气馁"
+    },
+    {
+        "sentence": "不是想要逛街，",
+        "Holder": "2",
+        "Target": "逛街",
+        "Aspect": "活动目的",
+        "Opinion": "否认逛街意图",
+        "Sentiment": "neutral",
+        "Rationale": "只是解释自己的行为并非为了逛街"
+    },
+    {
+        "sentence": "什么是逛地图，",
+        "Holder": "1",
+        "Target": "逛地图",
+        "Aspect": "概念理解",
+        "Opinion": "询问定义",
+        "Sentiment": "neutral",
+        "Rationale": "对‘逛地图’这个概念不清楚"
+    },
+    {
+        "sentence": "在走路的时候看看风景，哪怕上线的时候不可以看看风景吗？我们一起从。",
+        "Holder": "2",
+        "Target": "看风景",
+        "Aspect": "活动合理性",
+        "Opinion": "支持看风景",
+        "Sentiment": "positive",
+        "Rationale": "认为在游戏中看风景是合理的活动"
+    },
+    {
+        "sentence": "这游戏有风景",
+        "Holder": "1",
+        "Target": "游戏",
+        "Aspect": "风景存在",
+        "Opinion": "确认有风景",
+        "Sentiment": "neutral",
+        "Rationale": "客观地陈述游戏中有风景的事实"
+    },
+    {
+        "sentence": "这游戏怎么没有风景呢？",
+        "Holder": "2",
+        "Target": "游戏",
+        "Aspect": "风景存在",
+        "Opinion": "质疑无风景",
+        "Sentiment": "negative",
+        "Rationale": "对方认为游戏中有风景而自己不认同"
+    },
+    {
+        "sentence": "好，",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的接受",
+        "Opinion": "同意",
+        "Sentiment": "neutral",
+        "Rationale": "对2的建议没有异议"
+    },
+    {
+        "sentence": "你想从我们从家里走到线上，从线上去拿符那时候去支援队友的时候，不都会走过野区吗？我们去赶路的时候看看风景不也挺好吗？",
+        "Holder": "2",
+        "Target": "游戏中的行走路线",
+        "Aspect": "行走时的体验",
+        "Opinion": "欣赏风景",
+        "Sentiment": "positive",
+        "Rationale": "认为在游戏中行走时欣赏风景是一种愉快的体验"
+    },
+    {
+        "sentence": "行，",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "建议的接受",
+        "Opinion": "同意",
+        "Sentiment": "neutral",
+        "Rationale": "对2的建议没有异议"
+    },
+    {
+        "sentence": "我觉得游戏不仅仅只有对线坐牢刷野，当大爹什么。",
+        "Holder": "2",
+        "Target": "游戏内容",
+        "Aspect": "游戏的多样性",
+        "Opinion": "游戏应有更多乐趣",
+        "Sentiment": "positive",
+        "Rationale": "认为游戏不仅仅是单调的战斗和刷野，还有其他乐趣"
+    },
+    {
+        "sentence": "风风景我大概看过几千几万遍，这是个主要问题，",
+        "Holder": "1",
+        "Target": "游戏中的风景",
+        "Aspect": "风景的新鲜感",
+        "Opinion": "风景已无新鲜感",
+        "Sentiment": "negative",
+        "Rationale": "已经看过无数次相同的风景，感到厌倦"
+    },
+    {
+        "sentence": "但是。",
+        "Holder": "2",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地使用转折词，没有表达具体的情感"
+    },
+    {
+        "sentence": "我当时从来没有想过有看风景这一茬，",
+        "Holder": "1",
+        "Target": "看风景",
+        "Aspect": "考虑范围",
+        "Opinion": "未曾考虑",
+        "Sentiment": "neutral",
+        "Rationale": "当时没有考虑到看风景这个方面"
+    },
+    {
+        "sentence": "但是我觉得不管打多少次游戏是你熟悉的游戏，但是跟不一样的队友跟不一样的人，然后用不一样的英雄走不一样的路，肯定都会有不一样的感受的。我是觉得游戏不只是只有赢或者输，享受这个游戏的过程才是最重要的。",
+        "Holder": "2",
+        "Target": "游戏体验",
+        "Aspect": "游戏过程的多样性",
+        "Opinion": "享受过程最重要",
+        "Sentiment": "positive",
+        "Rationale": "认为游戏过程中有不同的体验和感受"
+    },
+    {
+        "sentence": "你觉得打不过了，如果是非竞技类游戏的话，我会觉得不是只有赢或者但我们。",
+        "Holder": "1",
+        "Target": "非竞技类游戏",
+        "Aspect": "游戏目的",
+        "Opinion": "不只是赢或输",
+        "Sentiment": "neutral",
+        "Rationale": "讨论的是非竞技类游戏的目的"
+    },
+    {
+        "sentence": "打的是人机，我觉得就打人机先慢慢上手，如果你想打英雄联盟啥的，打英雄联盟打大乱斗啥的，就是肯定。",
+        "Holder": "2",
+        "Target": "游戏上手过程",
+        "Aspect": "学习方式",
+        "Opinion": "从人机开始",
+        "Sentiment": "positive",
+        "Rationale": "认为从人机开始是合理的上手方式"
+    },
+    {
+        "sentence": "这游戏再怎么学习对吧？再怎么长进，教的不都是怎么赢吗？",
+        "Holder": "1",
+        "Target": "游戏",
+        "Aspect": "游戏的教育意义",
+        "Opinion": "游戏只教怎么赢",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在探讨游戏的教育意义，认为游戏只教怎么赢"
+    },
+    {
+        "sentence": "是，",
+        "Holder": "2",
+        "Target": "说话人1的观点",
+        "Aspect": "认同",
+        "Opinion": "认同",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2简单回应表示认同"
+    },
+    {
+        "sentence": "但是我觉得很充实的过程，太空狼人杀这种游戏你如果不赢，不想赢就骂你，反而是Dota这种游戏，他要问你为什么一定要赢，我想不明白，",
+        "Holder": "1",
+        "Target": "太空狼人杀和Dota",
+        "Aspect": "游戏的胜负观念",
+        "Opinion": "太空狼人杀强调赢，Dota质疑赢的意义",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人1对两种游戏的不同胜负观念感到困惑"
+    },
+    {
+        "sentence": "但是你不要管他们，这是我们在打游戏，不是他们在打游戏，我知道，",
+        "Holder": "2",
+        "Target": "他人的看法",
+        "Aspect": "游戏的自主性",
+        "Opinion": "不应受他人影响",
+        "Sentiment": "positive",
+        "Rationale": "说话人2认为游戏是自己的事情，不应受他人影响"
+    },
+    {
+        "sentence": "但是我想赢你。",
+        "Holder": "1",
+        "Target": "说话人2",
+        "Aspect": "游戏的胜负",
+        "Opinion": "想赢",
+        "Sentiment": "positive",
+        "Rationale": "说话人1明确表达了对胜利的渴望"
+    },
+    {
+        "sentence": "可以赢。我也有努力在打，我不是说因为我想新人玩这个游戏我就摆烂，我就随便玩，我也没有我很努力的去学习了，但可能打的确实很菜，但是我确实我也想赢，没有人不想赢，想赢是想赢的，但是我不觉得赢就是一切赢所有，对吧？所以说就是赢可以赢，我们当然可以赢，但是不能为了赢有变成非常糟糕的游戏体验或者怎么样，但是糟糕的游戏体验也不能是为了赢，就是因为我打的太菜了，所以有糟糕的游戏体验，这是确实我的能力不足导致的，但是我觉得与此同时我们还能有更多的感受。",
+        "Holder": "2",
+        "Target": "游戏胜利",
+        "Aspect": "游戏态度和体验",
+        "Opinion": "努力但不追求胜利至上",
+        "Sentiment": "neutral",
+        "Rationale": "虽然努力想赢但认为胜利不是唯一重要的事"
+    },
+    {
+        "sentence": "我的想法就是这样，要是输了能找出问题也可以，",
+        "Holder": "1",
+        "Target": "游戏失败",
+        "Aspect": "问题查找",
+        "Opinion": "接受失败并找问题",
+        "Sentiment": "positive",
+        "Rationale": "认为失败后能找到问题是有价值的"
+    },
+    {
+        "sentence": "但输找出问题找啥问题，问题就是我太菜了，我是新手，我太菜了，我不懂刷野节奏，这不是说我觉得不用说没有，这个可以很我是觉得可以，因为我是新手，我菜我当一号位，我刷野节奏确实不好，在该刷的时候时机什么都没掌握好，我觉得其实没有啥好分析的，这样我觉得问题很明显，但是可以稍微注意点别的地方。",
+        "Holder": "2",
+        "Target": "自身游戏能力",
+        "Aspect": "技术和节奏",
+        "Opinion": "承认自己技术差",
+        "Sentiment": "negative",
+        "Rationale": "清楚自己作为新手技术不足"
+    },
+    {
+        "sentence": "行，确实是我被胜利蒙蔽了双眼，",
+        "Holder": "1",
+        "Target": "自身态度",
+        "Aspect": "对胜利的执着",
+        "Opinion": "承认被胜利蒙蔽",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己过于追求胜利而忽视了其他方面"
+    },
+    {
+        "sentence": "你是认真的吗？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "认真程度",
+        "Opinion": "质疑对方的认真性",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定对方是否真的认识到问题"
+    },
+    {
+        "sentence": "是，我觉得有道理，我又没有掉分，打个人机倒是没有必要急。",
+        "Holder": "1",
+        "Target": "打人机的态度",
+        "Aspect": "是否需要急躁",
+        "Opinion": "不需要急躁",
+        "Sentiment": "positive",
+        "Rationale": "觉得打人机没有必要急躁"
+    },
+    {
+        "sentence": "是，",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "认同程度",
+        "Opinion": "认同",
+        "Sentiment": "neutral",
+        "Rationale": "对1的观点表示认同"
+    },
+    {
+        "sentence": "但是我其实也没急，",
+        "Holder": "1",
+        "Target": "自己的态度",
+        "Aspect": "是否急躁",
+        "Opinion": "没有急躁",
+        "Sentiment": "neutral",
+        "Rationale": "自己确实没有急躁"
+    },
+    {
+        "sentence": "有你那一把的时候，你虽然说你感觉没有时候你也不能说急，有时候你吼那么大声干嘛，你确实语气上有点不好，我当时确实我从野区出来我也不知道，我感觉我买了很多装备了我感觉努力刷久很久了，我买了很多装备了，出来准备打架，然后发现打不过，然后你说你刷了这么久，怎么就这么一点装备，然后我当时就觉得我也不知道，但是我真的很努力在刷了，可是我就是刷出了这么多装备。其实我当时会觉得稍微有点委屈，觉得我又确实刷了很久，可是我也不知道我也没学过要怎么刷野，我看的视频学的都是很基础的东西，我也没学到这里，",
+        "Holder": "2",
+        "Target": "1的语气和指责",
+        "Aspect": "语气和指责的合理性",
+        "Opinion": "1的语气不好且指责不合理",
+        "Sentiment": "negative",
+        "Rationale": "自己已经很努力刷装备但还是被指责"
+    },
+    {
+        "sentence": "确实那就继续学习，我们就继续学习，我也得学，如果还要打这个游戏的话，",
+        "Holder": "1",
+        "Target": "学习和提升",
+        "Aspect": "继续学习的必要性",
+        "Opinion": "需要继续学习",
+        "Sentiment": "positive",
+        "Rationale": "认识到需要提升游戏技能"
+    },
+    {
+        "sentence": "确实今天已经暴露出你是云玩家了。",
+        "Holder": "2",
+        "Target": "对方",
+        "Aspect": "游戏水平",
+        "Opinion": "对方是云玩家",
+        "Sentiment": "negative",
+        "Rationale": "对方在游戏中的表现显示出对游戏的不熟悉"
+    }
+]

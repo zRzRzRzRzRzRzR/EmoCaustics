@@ -1,0 +1,59 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "对日久生情机制的深度质疑",
+        "emotions": [
+          {"state": "doubt", "reason": "质疑时间积累与情感产生的必然性", "source_id": "2"},
+          {"state": "negative", "reason": "论证长时间接触仍无法产生感情的极端案例", "source_id": "2,3"},
+          {"state": "neutral", "reason": "提出婚姻价值与时间无关的理论框架", "source_id": "3"},
+          {"state": "positive", "reason": "强调自主选择权对婚姻幸福的决定作用", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "相亲市场价值体系批判",
+        "emotions": [
+          {"state": "negative", "reason": "揭露物质条件主导的匹配机制", "source_id": "3"},
+          {"state": "positive", "reason": "分享相亲过程中遇到的真诚案例", "source_id": "3"},
+          {"state": "negative", "reason": "批判年龄歧视和物化女性现象", "source_id": "3,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感创伤与选择权辩论",
+        "emotions": [
+          {"state": "negative", "reason": "指出深爱带来的痛苦记忆", "source_id": "1"},
+          {"state": "neutral", "reason": "承认婚姻质量与持续时间无关", "source_id": "1"},
+          {"state": "positive", "reason": "肯定痛苦经历对人生意义的塑造", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "现代婚恋观念体系构建",
+        "emotions": [
+          {"state": "neutral", "reason": "解构传统婚姻目的论", "source_id": "1"},
+          {"state": "negative", "reason": "揭示一见钟情背后的心理创伤机制", "source_id": "1,4"},
+          {"state": "positive", "reason": "倡导基于可靠性的理性择偶标准", "source_id": "1"},
+          {"state": "positive", "reason": "提出主动培养爱情能力的新范式", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "情感发生模式的终极论证",
+        "emotions": [
+          {"state": "positive", "reason": "提出直觉与理性结合的最佳情感路径", "source_id": "3"},
+          {"state": "neutral", "reason": "承认不同情感模式的存在合理性", "source_id": "1,3"}
+        ]
+      }
+    ]
+  }
+}

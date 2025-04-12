@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "礼仪课，法国宫廷贵族礼仪，这个法国宫廷贵族礼仪是什么呀？",
+        "Holder": "1",
+        "Target": "法国宫廷贵族礼仪",
+        "Aspect": "礼仪的内容",
+        "Opinion": "不了解",
+        "Sentiment": "neutral",
+        "Rationale": "对法国宫廷贵族礼仪不熟悉"
+    },
+    {
+        "sentence": "就是这样",
+        "Holder": "2",
+        "Target": "法国宫廷贵族礼仪",
+        "Aspect": "礼仪的描述",
+        "Opinion": "简单说明",
+        "Sentiment": "neutral",
+        "Rationale": "认为法国宫廷贵族礼仪不难解释"
+    },
+    {
+        "sentence": "这么复杂呢哎？那你要完不成怎么办？",
+        "Holder": "1",
+        "Target": "法国宫廷贵族礼仪",
+        "Aspect": "礼仪的复杂性",
+        "Opinion": "担心完成不了",
+        "Sentiment": "negative",
+        "Rationale": "觉得礼仪复杂，担心2无法完成"
+    },
+    {
+        "sentence": "那就发吃胡萝卜，妈咪说这样一举两得，还能减肥呢",
+        "Holder": "2",
+        "Target": "完不成礼仪的后果",
+        "Aspect": "后果的处理方式",
+        "Opinion": "接受惩罚并乐观看待",
+        "Sentiment": "positive",
+        "Rationale": "认为吃胡萝卜既能作为惩罚又能减肥"
+    },
+    {
+        "sentence": "哇塞，那你天天都被罚吗？",
+        "Holder": "说话人3",
+        "Sentiment": "negative",
+        "Target": "说话人2的处境",
+        "Aspect": "被罚的频率",
+        "Opinion": "频繁被罚",
+        "Rationale": "因为说话人2表示自己天天被罚，引发说话人3对其处境的同情和负面情绪"
+    },
+    {
+        "sentence": "那你每天都要吃很多胡萝卜了？",
+        "Holder": "说话人1",
+        "Sentiment": "neutral",
+        "Target": "说话人2",
+        "Aspect": "饮食习惯",
+        "Opinion": "需要吃很多胡萝卜",
+        "Rationale": "因为说话人2提到被罚不能吃饭，只能吃胡萝卜，所以说话人1推测其饮食习惯"
+    },
+    {
+        "sentence": "吃完胡萝卜就不能吃饭了，连烤鸭都没有。",
+        "Holder": "说话人2",
+        "Sentiment": "negative",
+        "Target": "自己的饮食状况",
+        "Aspect": "饮食限制",
+        "Opinion": "饮食受限",
+        "Rationale": "因为说话人2表示自己吃完胡萝卜就不能吃饭，也不能吃烤鸭，这表明他的饮食受到很大限制，所以情绪低落"
+    },
+    {
+        "sentence": "哥，姐，救救我吧",
+        "Holder": "说话人2",
+        "Sentiment": "negative",
+        "Target": "说话人1和说话人3",
+        "Aspect": "求助",
+        "Opinion": "迫切需要帮助",
+        "Rationale": "因为说话人2面临饮食限制的困境，感到无奈和迫切需要他人帮助，所以向说话人1和说话人3求助"
+    },
+    {
+        "sentence": "然后我们怎么救你啊？",
+        "Holder": "3",
+        "Target": "2的困境",
+        "Aspect": "救援方法",
+        "Opinion": "寻求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问如何帮助2"
+    },
+    {
+        "sentence": "我不想当富人，我还想当穷人，哪怕是全家啃一个鸭脖子都没关系，我要回家",
+        "Holder": "2",
+        "Target": "自己的生活状态",
+        "Aspect": "生活选择的偏好",
+        "Opinion": "宁愿贫穷也要回家",
+        "Sentiment": "positive",
+        "Rationale": "2表达了对家庭的强烈思念和对简单生活的满足"
+    },
+    {
+        "sentence": "终于回来了，我们家有团圆了。",
+        "Holder": "4",
+        "Target": "2的回归",
+        "Aspect": "家庭团圆",
+        "Opinion": "感到团圆的喜悦",
+        "Sentiment": "positive",
+        "Rationale": "4看到家人回来感到家庭完整"
+    },
+    {
+        "sentence": "别把孩子给摔着，你说这人。",
+        "Holder": "5",
+        "Target": "2的行为",
+        "Aspect": "对孩子的照顾",
+        "Opinion": "担心孩子的安全",
+        "Sentiment": "negative",
+        "Rationale": "5担心2在回家的过程中可能疏忽孩子的安全"
+    },
+    {
+        "sentence": "我就知道你肯定会回来。哎，是不是想爸爸妈妈哥哥姐姐了啊？",
+        "Holder": "5",
+        "Target": "2的归家",
+        "Aspect": "对家人的思念",
+        "Opinion": "预料之中的回归",
+        "Sentiment": "positive",
+        "Rationale": "5预料到2会回来并表达了对家人的思念"
+    },
+    {
+        "sentence": "妈我还没给您拥抱呢。",
+        "Holder": "2",
+        "Target": "拥抱",
+        "Aspect": "亲情表达",
+        "Opinion": "需要拥抱",
+        "Sentiment": "positive",
+        "Rationale": "2想要表达对母亲的亲情"
+    },
+    {
+        "sentence": "还没抱我小胖子呢",
+        "Holder": "4",
+        "Target": "拥抱",
+        "Aspect": "亲情表达",
+        "Opinion": "需要拥抱",
+        "Sentiment": "positive",
+        "Rationale": "4用亲昵的称呼表达对2的亲情"
+    },
+    {
+        "sentence": "哎哎，这几天可明显见胖啊",
+        "Holder": "4",
+        "Target": "2的体重",
+        "Aspect": "体重变化",
+        "Opinion": "明显变胖",
+        "Sentiment": "neutral",
+        "Rationale": "4在客观描述2的体重变化，没有明显的情感倾向"
+    },
+    {
+        "sentence": "别，这可能是妈咪打来的，她让我回去，我不回去",
+        "Holder": "2",
+        "Target": "回家",
+        "Aspect": "是否回家",
+        "Opinion": "不想回家",
+        "Sentiment": "negative",
+        "Rationale": "2提到母亲要求回家但自己不想回去"
+    },
+    {
+        "sentence": "哎呦，marry，你稍等。",
+        "Holder": "4",
+        "Target": "Marry",
+        "Aspect": "等待",
+        "Opinion": "请稍等",
+        "Sentiment": "neutral",
+        "Rationale": "需要让对方稍等"
+    },
+    {
+        "sentence": "是我什么事你说吧。",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "话题",
+        "Opinion": "询问事情",
+        "Sentiment": "neutral",
+        "Rationale": "想知道对方找自己的原因"
+    },
+    {
+        "sentence": "小雨呢让他赶快回家。",
+        "Holder": "5",
+        "Target": "小雨",
+        "Aspect": "回家",
+        "Opinion": "催促回家",
+        "Sentiment": "neutral",
+        "Rationale": "希望小雨尽快回家"
+    },
+    {
+        "sentence": "他在家，你让他上哪去啊？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "小雨的位置",
+        "Opinion": "小雨已经在家",
+        "Sentiment": "neutral",
+        "Rationale": "小雨已经在家里"
+    },
+    {
+        "sentence": "夏东海，你给我听着，我已经为小雨设计好了无限美好的未来，希望不要因为你的愚蠢而断送。",
+        "Holder": "5",
+        "Target": "夏东海",
+        "Aspect": "小雨的未来",
+        "Opinion": "对未来的规划",
+        "Sentiment": "negative",
+        "Rationale": "担心夏东海的行为会破坏自己对小雨的未来规划"
+    },
+    {
+        "sentence": "你说的都是些什么话啊？我是他爸爸，他是我儿子，我就不会给他设计未来。",
+        "Holder": "5",
+        "Target": "6的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "不认同",
+        "Sentiment": "negative",
+        "Rationale": "6的言论质疑了自己作为父亲的角色和做法"
+    },
+    {
+        "sentence": "行了行了行了，你别得意了，你以为儿子真想你吗？",
+        "Holder": "6",
+        "Target": "5的得意",
+        "Aspect": "父子关系的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "认为5对儿子的感情存在误解"
+    },
+    {
+        "sentence": "那他要是不想我，你告诉我是为什么他回来",
+        "Holder": "5",
+        "Target": "儿子的动机",
+        "Aspect": "回家的原因",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对6的质疑感到困惑和不解"
+    },
+    {
+        "sentence": "他因为逃避困难，怕日程表才回到你那去的。你别自作多情了，让小雨来接电话。",
+        "Holder": "6",
+        "Target": "儿子的动机",
+        "Aspect": "回家的真实原因",
+        "Opinion": "揭露",
+        "Sentiment": "negative",
+        "Rationale": "认为5对儿子的感情存在误解"
+    },
+    {
+        "sentence": "小雨，你怎么回事啊？怎么把你妈电话给挂了？",
+        "Holder": "4",
+        "Target": "小雨的行为",
+        "Aspect": "挂电话的原因",
+        "Opinion": "不解",
+        "Sentiment": "negative",
+        "Rationale": "小雨挂断了电话"
+    },
+    {
+        "sentence": "对啊，刚才妈妈在电话里说的日程表是怎么回事。",
+        "Holder": "5",
+        "Target": "日程表",
+        "Aspect": "日程表的说明",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对妈妈提到的日程表不了解"
+    },
+    {
+        "sentence": "是这个",
+        "Holder": "1",
+        "Target": "日程表",
+        "Aspect": "日程表的确认",
+        "Opinion": "确认日程表",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地确认日程表的存在"
+    },
+    {
+        "sentence": "我问你，你回家来是因为想爸爸妈妈，还是因为怕吃苦怕学习才回来？",
+        "Holder": "5",
+        "Target": "2回家的原因",
+        "Aspect": "回家的动机",
+        "Opinion": "质疑动机",
+        "Sentiment": "doubt",
+        "Rationale": "对2回家的真实原因感到怀疑"
+    },
+    {
+        "sentence": "我也说不清楚哎",
+        "Holder": "2",
+        "Target": "自己回家的原因",
+        "Aspect": "回家的动机",
+        "Opinion": "不清楚",
+        "Sentiment": "ambiguous",
+        "Rationale": "自己也不确定回家的真正原因"
+    },
+    {
+        "sentence": "可能两样都有。",
+        "Holder": "3",
+        "Target": "2回家的原因",
+        "Aspect": "回家的动机",
+        "Opinion": "两种原因都有",
+        "Sentiment": "neutral",
+        "Rationale": "认为2回家的原因可能是多方面的"
+    },
+    {
+        "sentence": "没问你。",
+        "Holder": "5",
+        "Target": "4的提问",
+        "Aspect": "提问的合理性",
+        "Opinion": "不需要回答",
+        "Sentiment": "neutral",
+        "Rationale": "5认为4的提问与自己无关"
+    },
+    {
+        "sentence": "你继续说。",
+        "Holder": "4",
+        "Target": "5的发言",
+        "Aspect": "发言的持续性",
+        "Opinion": "支持继续发言",
+        "Sentiment": "neutral",
+        "Rationale": "4希望5继续表达观点"
+    },
+    {
+        "sentence": "爸，你等等。",
+        "Holder": "2",
+        "Target": "4的发言",
+        "Aspect": "发言的暂停",
+        "Opinion": "请求暂停",
+        "Sentiment": "neutral",
+        "Rationale": "2希望4暂时停止发言以便插话"
+    },
+    {
+        "sentence": "你干嘛呀？他那么点一孩子，你非得让他说清楚干什么？有这必要吗？",
+        "Holder": "4",
+        "Target": "2的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "4认为2要求孩子说清楚是不必要的"
+    },
+    {
+        "sentence": "不管怎么说，他已经都回来了，不就完了吗？是为你，为我，还是为什么，怕苦，那么点一孩子，你真是的。",
+        "Holder": "4",
+        "Target": "2的态度",
+        "Aspect": "对孩子要求的合理性",
+        "Opinion": "认为过于严格",
+        "Sentiment": "negative",
+        "Rationale": "4认为2对孩子要求过于严格，不顾及孩子的感受"
+    },
+    {
+        "sentence": "你不明白，这不一样，我是想知道我在他心里到底是什么位置，我算老几啊？",
+        "Holder": "5",
+        "Target": "自己在对方心中的位置",
+        "Aspect": "情感地位",
+        "Opinion": "不确定自己的位置",
+        "Sentiment": "negative",
+        "Rationale": "不确定自己在对方心中的位置"
+    },
+    {
+        "sentence": "爸这是我送给你的礼物。",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "送礼行为",
+        "Opinion": "表达心意",
+        "Sentiment": "positive",
+        "Rationale": "送礼物是为了表达心意"
+    },
+    {
+        "sentence": "我不要你的礼物",
+        "Holder": "5",
+        "Target": "礼物",
+        "Aspect": "接受礼物的意愿",
+        "Opinion": "拒绝礼物",
+        "Sentiment": "negative",
+        "Rationale": "当前情绪不佳"
+    },
+    {
+        "sentence": "他这次去他妈那全都是为了攒够钱买这个礼物。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "买礼物的动机",
+        "Opinion": "用心良苦",
+        "Sentiment": "positive",
+        "Rationale": "2为了买礼物付出了很多努力"
+    },
+    {
+        "sentence": "真是用心良苦。",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "买礼物的努力",
+        "Opinion": "用心良苦",
+        "Sentiment": "positive",
+        "Rationale": "2为了买礼物付出了很多努力"
+    },
+    {
+        "sentence": "真的。来来来，妈妈看看是什么礼物啊？哼哼，你瞧这孩子，真是多懂事啊。哼，人家还给你买礼物呦。我怎么觉得这礼物不像是送给男人，送给爸爸的呀？",
+        "Holder": "4",
+        "Target": "礼物",
+        "Aspect": "礼物的合适性",
+        "Opinion": "礼物不合适",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得礼物不像是送给爸爸的"
+    },
+    {
+        "sentence": "这个本来嘛，后来又",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "礼物的变化",
+        "Opinion": "有变化",
+        "Sentiment": "neutral",
+        "Rationale": "提到了礼物的变化但没有明确表达情感"
+    },
+    {
+        "sentence": "不管怎么说，人家孩子给你买礼物就够不错的了，就说明爸爸在你心目当中特别有地位，对不对？真乖。",
+        "Holder": "4",
+        "Target": "孩子",
+        "Aspect": "孩子的行为",
+        "Opinion": "孩子懂事",
+        "Sentiment": "positive",
+        "Rationale": "孩子给爸爸买礼物，表现出懂事的行为"
+    },
+    {
+        "sentence": "那你回家来不是因为害怕这个日程表的安排是不是？嗯嗯嗯嗯，你回来是因为想爸爸妈妈哥哥姐姐了，对不对？我在你心目里算老大。",
+        "Holder": "5",
+        "Target": "回家原因",
+        "Aspect": "回家的动机",
+        "Opinion": "因为想家人",
+        "Sentiment": "positive",
+        "Rationale": "认为孩子回家是想家人"
+    },
+    {
+        "sentence": "嗯，好。我觉得这个日程表安排不错，明天咱们也按这个日程表安排一下，另外咱们家有胡萝卜",
+        "Holder": "5",
+        "Target": "日程表",
+        "Aspect": "日程表的合理性",
+        "Opinion": "安排不错",
+        "Sentiment": "positive",
+        "Rationale": "觉得日程表安排合理"
+    },
+    {
+        "sentence": "我不要胡萝卜",
+        "Holder": "2",
+        "Target": "胡萝卜",
+        "Aspect": "食物选择",
+        "Opinion": "不喜欢胡萝卜",
+        "Sentiment": "negative",
+        "Rationale": "对胡萝卜有个人口味上的不喜欢"
+    }
+]

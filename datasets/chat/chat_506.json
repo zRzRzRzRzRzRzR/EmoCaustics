@@ -1,0 +1,560 @@
+[
+    {
+        "sentence": "吃饭没有？",
+        "Holder": "1",
+        "Target": "吃饭情况",
+        "Aspect": "是否吃饭",
+        "Opinion": "询问吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "1只是简单地询问2是否吃饭"
+    },
+    {
+        "sentence": "吃啥饭呢？这家里折腾的啊。",
+        "Holder": "2",
+        "Target": "家里情况",
+        "Aspect": "家庭环境的混乱",
+        "Opinion": "家里很乱",
+        "Sentiment": "negative",
+        "Rationale": "家里很乱"
+    },
+    {
+        "sentence": "这这正好，这小雪没在家。",
+        "Holder": "1",
+        "Target": "小雪在家情况",
+        "Aspect": "小雪是否在家",
+        "Opinion": "小雪不在家是好事",
+        "Sentiment": "positive",
+        "Rationale": "小雪不在家"
+    },
+    {
+        "sentence": "小雪在我那。",
+        "Holder": "2",
+        "Target": "小雪的位置",
+        "Aspect": "小雪所在的地方",
+        "Opinion": "小雪在说话人2家",
+        "Sentiment": "neutral",
+        "Rationale": "2只是陈述小雪在自己家的事实"
+    },
+    {
+        "sentence": "在你们家。",
+        "Holder": "1",
+        "Target": "小雪的位置",
+        "Aspect": "小雪在说话人2家",
+        "Opinion": "确认小雪在说话人2家",
+        "Sentiment": "neutral",
+        "Rationale": "1只是确认小雪在2家的事实"
+    },
+    {
+        "sentence": "我就说没事，在老戴那怕什么？",
+        "Holder": "3",
+        "Target": "老戴",
+        "Aspect": "安全性",
+        "Opinion": "认为没事",
+        "Sentiment": "positive",
+        "Rationale": "对老戴有信任感"
+    },
+    {
+        "sentence": "他没告诉你们",
+        "Holder": "2",
+        "Target": "老戴",
+        "Aspect": "信息传递",
+        "Opinion": "没有告知",
+        "Sentiment": "neutral",
+        "Rationale": "老戴没有告诉其他人"
+    },
+    {
+        "sentence": "说好像出去学习是怎么着？",
+        "Holder": "1",
+        "Target": "老戴",
+        "Aspect": "行为目的",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到一些模糊的信息"
+    },
+    {
+        "sentence": "哎，他在你家干嘛呢？和明明玩呢。",
+        "Holder": "3",
+        "Target": "老戴",
+        "Aspect": "行为活动",
+        "Opinion": "在玩耍",
+        "Sentiment": "neutral",
+        "Rationale": "好奇老戴在2家的活动"
+    },
+    {
+        "sentence": "老夏，你说这明明你不知道他怎么想的，非要在家里搞个什么沙龙，叫了一大帮同学，小雪也在",
+        "Holder": "2",
+        "Target": "明明",
+        "Aspect": "行为动机",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "明明在家里搞沙龙叫了很多同学，觉得不理解他的动机"
+    },
+    {
+        "sentence": "什么沙龙啊？",
+        "Holder": "1",
+        "Target": "沙龙",
+        "Aspect": "沙龙的定义",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "对沙龙的概念不清楚"
+    },
+    {
+        "sentence": "就是个聚会嘛。",
+        "Holder": "3",
+        "Target": "沙龙",
+        "Aspect": "沙龙的性质",
+        "Opinion": "聚会",
+        "Sentiment": "neutral",
+        "Rationale": "将沙龙解释为聚会"
+    },
+    {
+        "sentence": "是不是 party？party 好玩吗？走，看看",
+        "Holder": "4",
+        "Target": "沙龙",
+        "Aspect": "沙龙的趣味性",
+        "Opinion": "期待",
+        "Sentiment": "positive",
+        "Rationale": "对party感兴趣"
+    },
+    {
+        "sentence": "谁同意了你们就看看，快快吃饭，吃完饭还得写作业呢，就知道玩，能不能想点学习。",
+        "Holder": "1",
+        "Target": "孩子们的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "反对",
+        "Sentiment": "negative",
+        "Rationale": "孩子们只顾着玩而不顾学习和吃饭"
+    },
+    {
+        "sentence": "行啊，刘梅管教孩子挺严格啊",
+        "Holder": "2",
+        "Target": "刘梅的管教方式",
+        "Aspect": "管教的严格程度",
+        "Opinion": "认可",
+        "Sentiment": "neutral",
+        "Rationale": "认为刘梅管教孩子严格是合理的"
+    },
+    {
+        "sentence": "嗨，这男孩子太淘气，尤其这俩，哪像你们家，明明多好管呢。",
+        "Holder": "1",
+        "Target": "男孩子",
+        "Aspect": "淘气程度",
+        "Opinion": "太淘气",
+        "Sentiment": "negative",
+        "Rationale": "男孩子淘气"
+    },
+    {
+        "sentence": "好管是好管，哎。",
+        "Holder": "2",
+        "Target": "明明",
+        "Aspect": "好管程度",
+        "Opinion": "好管",
+        "Sentiment": "neutral",
+        "Rationale": "虽然认为孩子好管，但语气中带有无奈"
+    },
+    {
+        "sentence": "你们家来那么多孩子，你也不看着点。",
+        "Holder": "3",
+        "Target": "孩子管理",
+        "Aspect": "管理责任",
+        "Opinion": "缺乏管理",
+        "Sentiment": "negative",
+        "Rationale": "认为对方没有看好孩子"
+    },
+    {
+        "sentence": "就是，你就让他们这么折腾，真行你",
+        "Holder": "1",
+        "Target": "孩子管理",
+        "Aspect": "管理方式",
+        "Opinion": "放任",
+        "Sentiment": "negative",
+        "Rationale": "认为对方放任孩子折腾"
+    },
+    {
+        "sentence": "我们家的明明你们又不是不知道，我有什么办法说一不二。",
+        "Holder": "2",
+        "Target": "明明",
+        "Aspect": "听话程度",
+        "Opinion": "不听话",
+        "Sentiment": "negative",
+        "Rationale": "明明不听话"
+    },
+    {
+        "sentence": "你今天是被他轰出来的吧，哈哈哈。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "被轰出来的原因",
+        "Opinion": "被轰出来",
+        "Sentiment": "positive",
+        "Rationale": "1在调侃2被轰出来的情况"
+    },
+    {
+        "sentence": "人家不这么说。人家说什么？说要给他一个自由的空间，这是明智父母的选择。",
+        "Holder": "2",
+        "Target": "父母的选择",
+        "Aspect": "给予自由空间的合理性",
+        "Opinion": "明智的选择",
+        "Sentiment": "positive",
+        "Rationale": "2认为父母给予自由空间是明智的"
+    },
+    {
+        "sentence": "这叫什么理论呢？",
+        "Holder": "1",
+        "Target": "给予自由空间的理论",
+        "Aspect": "理论的合理性",
+        "Opinion": "质疑理论",
+        "Sentiment": "negative",
+        "Rationale": "1对给予自由空间的理论表示质疑"
+    },
+    {
+        "sentence": "现在的孩子都这么想，你看着吧，等小雪他们几个长大了，咱也做好被轰出去的准备吧。",
+        "Holder": "3",
+        "Target": "孩子的想法",
+        "Aspect": "孩子对自由空间的需求",
+        "Opinion": "普遍现象",
+        "Sentiment": "neutral",
+        "Rationale": "3认为孩子需要自由空间是普遍现象"
+    },
+    {
+        "sentence": "哈哈哈，我看今儿这阵势场面小不了，你看上次明明他们聚会。唉，你是最后怎么着了吗？嗯，人家邻居报警了。折腾着差点没把房子给拆了。",
+        "Holder": "2",
+        "Target": "聚会的场面",
+        "Aspect": "聚会的混乱程度",
+        "Opinion": "场面大且混乱",
+        "Sentiment": "positive",
+        "Rationale": "2在描述聚会场面大且混乱的情况"
+    },
+    {
+        "sentence": "我这就叫她回来去。",
+        "Holder": "1",
+        "Target": "小雪",
+        "Aspect": "行动安排",
+        "Opinion": "叫她回来",
+        "Sentiment": "neutral",
+        "Rationale": "需要叫小雪回来"
+    },
+    {
+        "sentence": "嗯，干嘛去啊，人明明好不容易叫一帮同学搞个聚会，你去把小雪叫来，多扫兴啊，快快吃饭啊。",
+        "Holder": "3",
+        "Target": "1的行动",
+        "Aspect": "聚会的氛围",
+        "Opinion": "反对叫小雪回来",
+        "Sentiment": "negative",
+        "Rationale": "觉得叫小雪回来会破坏聚会的氛围"
+    },
+    {
+        "sentence": "哎，要不然这样得了，咱们也去参加他们那party。哎哎，正好咱们也了解了解孩子们现在怎么想的。他们跟咱小时候都不一样了，再说了，咱也让他们知道知道，咱们也不是那种古板的人。我跳舞跳的好着呢。",
+        "Holder": "1",
+        "Target": "参加聚会",
+        "Aspect": "参与意愿",
+        "Opinion": "提议一起去",
+        "Sentiment": "positive",
+        "Rationale": "想了解孩子们的想法并展示自己不古板"
+    },
+    {
+        "sentence": "想法很好。嗯，但是做法有点行不通噢，你以为咱们想去跟人交流交流，人就跟咱们说话了啊？咱们几个都多大岁数了，往那一去，人还不一哄而散啊？",
+        "Holder": "3",
+        "Target": "1的提议",
+        "Aspect": "提议的可行性",
+        "Opinion": "认为不可行",
+        "Sentiment": "negative",
+        "Rationale": "觉得年龄差距会导致交流障碍"
+    },
+    {
+        "sentence": "老夏说的对，要我说咱干脆甭理他们，让随便折腾去，是吧？",
+        "Holder": "2",
+        "Target": "老夏的观点",
+        "Aspect": "处理方式",
+        "Opinion": "支持不理会",
+        "Sentiment": "positive",
+        "Rationale": "认同老夏的观点，认为不需要理会他们"
+    },
+    {
+        "sentence": "吃，来，快吃",
+        "Holder": "3",
+        "Target": "吃饭行为",
+        "Aspect": "催促",
+        "Opinion": "催促吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "看到对方饿了"
+    },
+    {
+        "sentence": "快点，我都饿得不行了。",
+        "Holder": "2",
+        "Target": "吃饭速度",
+        "Aspect": "饥饿程度",
+        "Opinion": "非常饿",
+        "Sentiment": "negative",
+        "Rationale": "饿得不行"
+    },
+    {
+        "sentence": "他走了吗",
+        "Holder": "1",
+        "Target": "他人的状态",
+        "Aspect": "是否离开",
+        "Opinion": "询问状态",
+        "Sentiment": "neutral",
+        "Rationale": "想知道对方是否离开"
+    },
+    {
+        "sentence": "没有。他在那看报纸呢。",
+        "Holder": "3",
+        "Target": "他人的行为",
+        "Aspect": "当前活动",
+        "Opinion": "在看报纸",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述对方正在看报纸"
+    },
+    {
+        "sentence": "嘿，你说这人也真是的，他不去吧，还不让咱们过去。",
+        "Holder": "1",
+        "Target": "某人",
+        "Aspect": "行为合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "某人自己不去还不让别人过去"
+    },
+    {
+        "sentence": "不去就不去呗，反正小雪不是在他们家嘛。",
+        "Holder": "3",
+        "Target": "某人不去",
+        "Aspect": "影响",
+        "Opinion": "无所谓",
+        "Sentiment": "neutral",
+        "Rationale": "小雪已经在他们家"
+    },
+    {
+        "sentence": "你没听老戴说呀？说那次明明就是招一帮同学在他们家玩，好家伙，叮了咣啷折腾的派出所都来人了，女孩子别回头到闹出什么事来，影响多不好啊",
+        "Holder": "1",
+        "Target": "同学聚会",
+        "Aspect": "影响",
+        "Opinion": "负面影响",
+        "Sentiment": "negative",
+        "Rationale": "同学聚会吵闹导致派出所介入，担心女孩子出事"
+    },
+    {
+        "sentence": "你让他们玩去呗",
+        "Holder": "3",
+        "Target": "同学聚会",
+        "Aspect": "态度",
+        "Opinion": "放任",
+        "Sentiment": "neutral",
+        "Rationale": "认为可以让同学们自由玩耍"
+    },
+    {
+        "sentence": "我这不是想进来替你们排忧解难吗？",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "意图",
+        "Opinion": "帮助",
+        "Sentiment": "positive",
+        "Rationale": "想帮助解决别人的问题"
+    },
+    {
+        "sentence": "什么意思啊？哎，你们是不是特想知道小雪他们干什么呀？嗯，又不好意思亲自去看看。",
+        "Holder": "3",
+        "Target": "小雪他们的活动",
+        "Aspect": "好奇心",
+        "Opinion": "想知道但不好意思去看",
+        "Sentiment": "ambiguous",
+        "Rationale": "对别人的活动感到好奇但又不好意思亲自去看"
+    },
+    {
+        "sentence": "对呀，这个任务可以包在我身上，我可以替你们去打入他们的内部。",
+        "Holder": "4",
+        "Target": "任务",
+        "Aspect": "承担任务的意愿",
+        "Opinion": "愿意承担",
+        "Sentiment": "positive",
+        "Rationale": "愿意帮助别人并觉得自己有能力完成任务"
+    },
+    {
+        "sentence": "什么意思啊？你是想给我们当小间谍？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为意图",
+        "Opinion": "质疑是当间谍",
+        "Sentiment": "doubt",
+        "Rationale": "对4提出的帮助行为感到不解和怀疑"
+    },
+    {
+        "sentence": "我可以乔装打扮替你们去侦查。不入虎穴焉得虎子吗？",
+        "Holder": "4",
+        "Target": "侦查任务",
+        "Aspect": "任务执行方式",
+        "Opinion": "愿意乔装侦查",
+        "Sentiment": "positive",
+        "Rationale": "愿意通过乔装打扮来完成任务，表现出一种积极和决心的情绪"
+    },
+    {
+        "sentence": "哼，千万别听他瞎摆活，这小子就是想趁机去玩会，是吧？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "动机",
+        "Opinion": "认为4想趁机去玩",
+        "Sentiment": "negative",
+        "Rationale": "3认为4的提议是为了自己出去玩"
+    },
+    {
+        "sentence": "我身上背着这么重的任务，我哪还有心思玩啊。得，既然你们不信任我，那我就不去。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "信任",
+        "Opinion": "不被信任",
+        "Sentiment": "negative",
+        "Rationale": "4感到自己被3不信任"
+    },
+    {
+        "sentence": "还别走，我觉得这个方法不妨一试，但我告诉你，到了那边侦查完了马上回来向我汇报。",
+        "Holder": "1",
+        "Target": "4的任务执行",
+        "Aspect": "任务要求",
+        "Opinion": "要求严格",
+        "Sentiment": "neutral",
+        "Rationale": "1提出了具体的任务要求和时间限制"
+    },
+    {
+        "sentence": "这事我处理得怎么样？",
+        "Holder": "1",
+        "Target": "自己的处理方式",
+        "Aspect": "处理效果",
+        "Opinion": "寻求反馈",
+        "Sentiment": "neutral",
+        "Rationale": "1在寻求他人对自己处理方式的反馈"
+    },
+    {
+        "sentence": "我不想发表任何意见，反正说了也不算",
+        "Holder": "3",
+        "Target": "自己的意见",
+        "Aspect": "意见的有效性",
+        "Opinion": "认为无效",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己的意见不会被采纳"
+    },
+    {
+        "sentence": "唉呦呵，你这一惊一乍的，你烫着了你",
+        "Holder": "3",
+        "Target": "2的行为",
+        "Aspect": "行为反应",
+        "Opinion": "过于突然",
+        "Sentiment": "negative",
+        "Rationale": "2的行为突然且让人意外"
+    },
+    {
+        "sentence": "真的不错。",
+        "Holder": "2",
+        "Target": "某事物",
+        "Aspect": "评价",
+        "Opinion": "不错",
+        "Sentiment": "positive",
+        "Rationale": "对某事物感到满意"
+    },
+    {
+        "sentence": "什么不错呀？",
+        "Holder": "3",
+        "Target": "2的评价",
+        "Aspect": "评价内容",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚2所评价的具体内容"
+    },
+    {
+        "sentence": "你看这肯定是个商机。",
+        "Holder": "2",
+        "Target": "某事物",
+        "Aspect": "商业价值",
+        "Opinion": "有商机",
+        "Sentiment": "positive",
+        "Rationale": "认为某事物具有商业价值"
+    },
+    {
+        "sentence": "我没听说过报纸里还有商机，我怎么看不出来啊？",
+        "Holder": "3",
+        "Target": "报纸",
+        "Aspect": "商机存在",
+        "Opinion": "看不出来",
+        "Sentiment": "doubt",
+        "Rationale": "对报纸中存在商机的说法感到陌生和不理解"
+    },
+    {
+        "sentence": "跟你说，这字里行间都是钱哪，要不说你这些文人，算了，说了你也不懂。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "对商机的理解",
+        "Opinion": "不懂",
+        "Sentiment": "negative",
+        "Rationale": "认为3作为文人无法理解报纸中的商机"
+    },
+    {
+        "sentence": "你干嘛去？",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行动目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "对2的行动目的感到好奇"
+    },
+    {
+        "sentence": "不如赶紧找人跟他谈谈呢？",
+        "Holder": "2",
+        "Target": "商机",
+        "Aspect": "行动建议",
+        "Opinion": "建议谈商机",
+        "Sentiment": "positive",
+        "Rationale": "认为抓住商机很重要"
+    },
+    {
+        "sentence": "你这就去谈啊",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行动速度",
+        "Opinion": "立即行动",
+        "Sentiment": "neutral",
+        "Rationale": "对2立即行动的建议感到意外"
+    },
+    {
+        "sentence": "哎，老夏有兴趣没有？你要有兴趣的话，嘿，可以入股",
+        "Holder": "2",
+        "Target": "老夏",
+        "Aspect": "入股兴趣",
+        "Opinion": "邀请入股",
+        "Sentiment": "positive",
+        "Rationale": "2希望老夏能参与入股"
+    },
+    {
+        "sentence": "我，我算了，没这脑子，还是你自己发吧。哎，真走啊你。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "入股能力",
+        "Opinion": "认为自己不适合入股",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己没有能力参与入股"
+    },
+    {
+        "sentence": "时间就是金钱呐。",
+        "Holder": "2",
+        "Target": "时间",
+        "Aspect": "时间价值",
+        "Opinion": "时间宝贵",
+        "Sentiment": "positive",
+        "Rationale": "2认为时间非常宝贵"
+    },
+    {
+        "sentence": "老戴走啦。",
+        "Holder": "1",
+        "Target": "老戴",
+        "Aspect": "离开行为",
+        "Opinion": "陈述离开事实",
+        "Sentiment": "neutral",
+        "Rationale": "1只是陈述老戴离开的事实"
+    },
+    {
+        "sentence": "忙着发财去了",
+        "Holder": "3",
+        "Target": "老戴",
+        "Aspect": "离开原因",
+        "Opinion": "认为老戴忙于赚钱",
+        "Sentiment": "neutral",
+        "Rationale": "3只是对老戴离开的原因进行推测"
+    }
+]

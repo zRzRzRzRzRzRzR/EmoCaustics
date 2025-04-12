@@ -1,0 +1,53 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "漫画形象争议事件",
+        "emotions": [
+          {"state": "negative", "reason": "质疑漫画丑化形象", "source_id": "3"},
+          {"state": "negative", "reason": "反对女鬼妖精变形", "source_id": "3"},
+          {"state": "positive", "reason": "提出照片对照方案", "source_id": "1"},
+          {"state": "neutral", "reason": "确认总编身份", "source_id": "4"},
+          {"state": "positive", "reason": "接受丈夫职位任命", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭矛盾调解",
+        "emotions": [
+          {"state": "neutral", "reason": "建议冷静处理争议", "source_id": "1"},
+          {"state": "negative", "reason": "否定照片对照方案", "source_id": "1"},
+          {"state": "positive", "reason": "获得编辑部主任职位", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "漫画创作冲突",
+        "emotions": [
+          {"state": "positive", "reason": "强调漫画艺术特性", "source_id": "1"},
+          {"state": "neutral", "reason": "解释变形合理性", "source_id": "1"},
+          {"state": "negative", "reason": "被忽视创作贡献", "source_id": "4"},
+          {"state": "positive", "reason": "启动家庭合作项目", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "人才招募行动",
+        "emotions": [
+          {"state": "positive", "reason": "专程支付稿酬", "source_id": "3"},
+          {"state": "positive", "reason": "任命夏东海职位", "source_id": "2"},
+          {"state": "positive", "reason": "促成家庭创作合作", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

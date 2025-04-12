@@ -1,0 +1,95 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "工作与爱情的选择困境",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "讨论普通人缺乏对热爱工作的体验",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "用祝英台比喻强调坚持真爱",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批判现实选择对双方的不公平性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "工作本质的批判性思考",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露工作动机的虚伪性",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调喜欢带来创造性价值",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "沟通本质的哲学探讨",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析理解偏差的生物学基础",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "阐述表达的多重美学意义",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "大数据匹配约会的伦理辩论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析具象化带来的认知深化",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张保护现有感情完整性",
+            "source_id": "2"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑表面信任的真实性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "人类探索本能的辩证思考",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "肯定突破宿命的历史意义",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认生活常态的不可逆性",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

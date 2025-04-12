@@ -1,0 +1,758 @@
+[
+    {
+        "sentence": "哎，外面好热闹，显得现在我这更冷清，显得我好孤独，好孤单。",
+        "Holder": "1",
+        "Target": "自己的孤独感",
+        "Aspect": "环境对比",
+        "Opinion": "感到孤独",
+        "Sentiment": "negative",
+        "Rationale": "外面热闹反衬出屋内冷清"
+    },
+    {
+        "sentence": "我回来了。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "归家",
+        "Opinion": "归来",
+        "Sentiment": "neutral",
+        "Rationale": "是正常的回家行为"
+    },
+    {
+        "sentence": "天呐，你不知道我该有多惨！",
+        "Holder": "1",
+        "Target": "自己的处境",
+        "Aspect": "惨状",
+        "Opinion": "非常惨",
+        "Sentiment": "negative",
+        "Rationale": "独自一人的时候外面热闹"
+    },
+    {
+        "sentence": "刚刚在这里一个人，然后外面就非常热闹的在唱生日快乐。",
+        "Holder": "1",
+        "Target": "外面的热闹",
+        "Aspect": "对比",
+        "Opinion": "显得自己孤独",
+        "Sentiment": "negative",
+        "Rationale": "外面热闹反衬出自己孤独"
+    },
+    {
+        "sentence": "我在二楼都听到了，太吵了，整栋楼都能听到他们在唱生日快乐。",
+        "Holder": "2",
+        "Target": "唱歌的声音",
+        "Aspect": "声音的响度",
+        "Opinion": "太吵",
+        "Sentiment": "negative",
+        "Rationale": "声音太大以至于在二楼都能听到"
+    },
+    {
+        "sentence": "显得我好孤独。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "情感状态",
+        "Opinion": "孤独",
+        "Sentiment": "negative",
+        "Rationale": "听到别人热闹的生日歌声，对比自己一个人"
+    },
+    {
+        "sentence": "你不是在直播吗，这么多人陪着你，哪里孤独？",
+        "Holder": "2",
+        "Target": "1的孤独感",
+        "Aspect": "孤独感的合理性",
+        "Opinion": "不孤独",
+        "Sentiment": "positive",
+        "Rationale": "1在直播有很多人陪着"
+    },
+    {
+        "sentence": "翻白眼！",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "反应的态度",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "1对自己的观点表现出不满"
+    },
+    {
+        "sentence": "我当时那种感觉你懂吗？我一个人在这直播，然后外面好热闹。",
+        "Holder": "1",
+        "Target": "自己的感受",
+        "Aspect": "孤独感",
+        "Opinion": "感到孤独",
+        "Sentiment": "negative",
+        "Rationale": "自己一个人在直播而外面很热闹"
+    },
+    {
+        "sentence": "然后你去凑热闹？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "参与热闹",
+        "Opinion": "建议参与",
+        "Sentiment": "neutral",
+        "Rationale": "看到1感到孤独"
+    },
+    {
+        "sentence": "你去跟她们说在干什么？带我一起，我一个人好孤独啊。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "社交互动",
+        "Opinion": "希望一起参与",
+        "Sentiment": "negative",
+        "Rationale": "感到孤独"
+    },
+    {
+        "sentence": "呃，我没有那么社牛。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "社交能力",
+        "Opinion": "社交能力不足",
+        "Sentiment": "neutral",
+        "Rationale": "觉得自己不够社交能力强"
+    },
+    {
+        "sentence": "我正想说我要放首孤单的歌来衬托一下我现在的心情，然后你就回来了。",
+        "Holder": "1",
+        "Target": "心情",
+        "Aspect": "孤独感",
+        "Opinion": "需要衬托",
+        "Sentiment": "negative",
+        "Rationale": "感到孤独"
+    },
+    {
+        "sentence": "累死了。",
+        "Holder": "2",
+        "Target": "自身状态",
+        "Aspect": "疲惫感",
+        "Opinion": "非常累",
+        "Sentiment": "negative",
+        "Rationale": "感到非常疲惫"
+    },
+    {
+        "sentence": "什么啊，这什么歌啊？",
+        "Holder": "2",
+        "Target": "歌曲",
+        "Aspect": "歌曲感受",
+        "Opinion": "不喜欢",
+        "Sentiment": "negative",
+        "Rationale": "对这首歌感到不满"
+    },
+    {
+        "sentence": "太难过了！",
+        "Holder": "1",
+        "Target": "心情",
+        "Aspect": "悲伤感",
+        "Opinion": "非常难过",
+        "Sentiment": "negative",
+        "Rationale": "歌曲让原本就难过的心情更加沉重"
+    },
+    {
+        "sentence": "显得我更惨了！",
+        "Holder": "1",
+        "Target": "自身状态",
+        "Aspect": "悲惨感",
+        "Opinion": "更加悲惨",
+        "Sentiment": "negative",
+        "Rationale": "歌曲强化了孤独感"
+    },
+    {
+        "sentence": "她不懂你的心。",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "理解能力",
+        "Opinion": "不理解1的心",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你还唱起来了，你凭什么啊？",
+        "Holder": "1",
+        "Target": "2的唱歌行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑唱歌的合理性",
+        "Sentiment": "negative",
+        "Rationale": "2在没有征得1同意的情况下唱歌"
+    },
+    {
+        "sentence": "了不起，牛，好，你厉害，你清高，你了不起。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "个人能力与态度",
+        "Opinion": "讽刺2的自以为是",
+        "Sentiment": "negative",
+        "Rationale": "1认为2自视过高"
+    },
+    {
+        "sentence": "怎样啊？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "因为1用质疑的语气询问2，显示出对2的不满和挑衅，所以情绪是负面的"
+    },
+    {
+        "sentence": "你别逼我动手。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为威胁",
+        "Opinion": "警告",
+        "Sentiment": "negative",
+        "Rationale": "因为2感到被1挑衅，所以用威胁的语气表达自己的不满和愤怒。"
+    },
+    {
+        "sentence": "呵，来来来，我看你怎么动手。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为反应",
+        "Opinion": "挑衅",
+        "Sentiment": "negative",
+        "Rationale": "因为1对2的威胁不以为意，反而用挑衅的语气回应，显示出对2的不满和轻蔑"
+    },
+    {
+        "sentence": "你比划什么你？",
+        "Holder": "1",
+        "Target": "2的动作",
+        "Aspect": "动作的合理性",
+        "Opinion": "质疑动作",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的动作不合适"
+    },
+    {
+        "sentence": "我还敢怎么动？我当然是这样动。",
+        "Holder": "2",
+        "Target": "自己的动作",
+        "Aspect": "动作的合理性",
+        "Opinion": "辩解动作",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释自己的动作是合理的"
+    },
+    {
+        "sentence": "你少来，你刚刚不是这样的！",
+        "Holder": "1",
+        "Target": "2的动作",
+        "Aspect": "动作的一致性",
+        "Opinion": "指出不一致",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的动作前后不一致"
+    },
+    {
+        "sentence": "怎么了？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的合理性",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "2不清楚1为何生气"
+    },
+    {
+        "sentence": "你再装？",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "态度的真实性",
+        "Opinion": "质疑真实性",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在装模作样"
+    },
+    {
+        "sentence": "我装什么了？",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "否认装模作样",
+        "Sentiment": "negative",
+        "Rationale": "被质疑装模作样"
+    },
+    {
+        "sentence": "捶背你也不要。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "接受帮助的态度",
+        "Opinion": "对方不领情",
+        "Sentiment": "negative",
+        "Rationale": "好心帮忙却被拒绝"
+    },
+    {
+        "sentence": "真可恶。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为评价",
+        "Opinion": "感到厌恶",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为感到不满"
+    },
+    {
+        "sentence": "你打我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为误解",
+        "Opinion": "认为被攻击",
+        "Sentiment": "negative",
+        "Rationale": "误解2的行为为攻击"
+    },
+    {
+        "sentence": "天哪，我在给你按摩啊。",
+        "Holder": "2",
+        "Target": "1的误解",
+        "Aspect": "行为解释",
+        "Opinion": "解释为按摩",
+        "Sentiment": "negative",
+        "Rationale": "被误解为攻击而感到无奈和委屈"
+    },
+    {
+        "sentence": "没看出来。",
+        "Holder": "1",
+        "Target": "观察力",
+        "Aspect": "识别能力",
+        "Opinion": "未能识别",
+        "Sentiment": "neutral",
+        "Rationale": "1没有识别出某些东西"
+    },
+    {
+        "sentence": "这都看不出来？",
+        "Holder": "2",
+        "Target": "1的观察力",
+        "Aspect": "识别能力",
+        "Opinion": "应该能识别",
+        "Sentiment": "negative",
+        "Rationale": "2认为1应该能识别出来"
+    },
+    {
+        "sentence": "我真是服了。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为不合理"
+    },
+    {
+        "sentence": "我连夜回广州。",
+        "Holder": "1",
+        "Target": "自己的行动",
+        "Aspect": "紧迫性",
+        "Opinion": "需要立即行动",
+        "Sentiment": "neutral",
+        "Rationale": "1决定连夜回广州"
+    },
+    {
+        "sentence": "好好好，广州可没有我这么会按摩的女人。",
+        "Holder": "2",
+        "Target": "自己的按摩技能",
+        "Aspect": "独特性",
+        "Opinion": "独一无二",
+        "Sentiment": "positive",
+        "Rationale": "2认为自己在按摩方面很独特"
+    },
+    {
+        "sentence": "干嘛，什么屁话？",
+        "Holder": "1",
+        "Target": "对方的话语",
+        "Aspect": "话语的合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "对方说的话让说话人感到不满"
+    },
+    {
+        "sentence": "不玩了。",
+        "Holder": "1",
+        "Target": "当前的活动",
+        "Aspect": "活动的参与意愿",
+        "Opinion": "不愿意参与",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为和话语让说话人感到不愉快"
+    },
+    {
+        "sentence": "我发现你好会挑刺啊，我都没有觉得有什么问题，你在这儿唧唧歪歪的。",
+        "Holder": "1",
+        "Target": "对方的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "过于挑剔",
+        "Sentiment": "negative",
+        "Rationale": "对方在说话人看来没有问题的地方挑毛病"
+    },
+    {
+        "sentence": "刚刚我说我要连回广州，你说好好好。",
+        "Holder": "1",
+        "Target": "对方的回应",
+        "Aspect": "回应的态度",
+        "Opinion": "表面上同意",
+        "Sentiment": "neutral",
+        "Rationale": "对方表面上同意说话人的提议，但没有实际反对"
+    },
+    {
+        "sentence": "你很过分。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2的行为过分",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为超出了合理范围"
+    },
+    {
+        "sentence": "那你不回去了？给你飞机取消了！",
+        "Holder": "2",
+        "Target": "1的行程",
+        "Aspect": "行程安排",
+        "Opinion": "威胁取消飞机",
+        "Sentiment": "negative",
+        "Rationale": "2对1的指责感到愤怒"
+    },
+    {
+        "sentence": "放一首疲惫的爱。",
+        "Holder": "1",
+        "Target": "歌曲选择",
+        "Aspect": "歌曲内容",
+        "Opinion": "选择疲惫的爱",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出播放一首歌的要求"
+    },
+    {
+        "sentence": "看看你！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为表现",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为感到不满"
+    },
+    {
+        "sentence": "你干嘛！",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "行为合理性",
+        "Opinion": "不解",
+        "Sentiment": "negative",
+        "Rationale": "不明白1为何突然指责"
+    },
+    {
+        "sentence": "你欺负我！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为性质",
+        "Opinion": "认为被欺负",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的行为是对自己的欺负"
+    },
+    {
+        "sentence": "我干嘛了？我就比了一个小手枪，碰都没有碰到你！",
+        "Holder": "2",
+        "Target": "1的指控",
+        "Aspect": "行为事实",
+        "Opinion": "否认欺负",
+        "Sentiment": "negative",
+        "Rationale": "被误解为欺负人而感到冤枉和生气"
+    },
+    {
+        "sentence": "你比小手枪干嘛？你什么意思？你要枪毙我呗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "质疑和误解",
+        "Sentiment": "negative",
+        "Rationale": "1不理解2比小手枪的行为"
+    },
+    {
+        "sentence": "我天生爱比。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的动机",
+        "Opinion": "喜欢比划",
+        "Sentiment": "neutral",
+        "Rationale": "2解释自己天生喜欢比划"
+    },
+    {
+        "sentence": "你什么意思啊？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的意图",
+        "Opinion": "继续质疑",
+        "Sentiment": "negative",
+        "Rationale": "1仍然不理解2的行为意图"
+    },
+    {
+        "sentence": "我喜欢小手枪，我们这个年纪就爱小手枪知道吗？",
+        "Holder": "2",
+        "Target": "自己的喜好",
+        "Aspect": "喜好的合理性",
+        "Opinion": "喜欢小手枪",
+        "Sentiment": "neutral",
+        "Rationale": "2解释自己喜欢小手枪的原因"
+    },
+    {
+        "sentence": "好幼稚，我们成年人不玩这种。",
+        "Holder": "1",
+        "Target": "2的喜好",
+        "Aspect": "喜好的成熟度",
+        "Opinion": "认为幼稚",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的喜好幼稚，不符合成年人的行为"
+    },
+    {
+        "sentence": "你看，你戳我！你打我！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "肢体接触",
+        "Opinion": "2戳打1",
+        "Sentiment": "negative",
+        "Rationale": "2对1进行了不友好的肢体接触"
+    },
+    {
+        "sentence": "真过分啊！",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "行为评价",
+        "Opinion": "1的指责过分",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被1冤枉了"
+    },
+    {
+        "sentence": "天哪，评评理，有没有人评评理啊！",
+        "Holder": "2",
+        "Target": "当前的状况",
+        "Aspect": "公正性",
+        "Opinion": "需要公正评判",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己被误解，需要别人来评判"
+    },
+    {
+        "sentence": "那你求我原谅你。",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "道歉",
+        "Opinion": "要求2道歉",
+        "Sentiment": "neutral",
+        "Rationale": "1希望2能认识到错误并道歉"
+    },
+    {
+        "sentence": "我干嘛了？你真是。",
+        "Holder": "2",
+        "Target": "1的指责",
+        "Aspect": "行为合理性",
+        "Opinion": "自己没有做错",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己没有做错却被指责"
+    },
+    {
+        "sentence": "你刚刚，你刚刚动手了！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "动手",
+        "Opinion": "指责动手",
+        "Sentiment": "negative",
+        "Rationale": "2刚刚动手了"
+    },
+    {
+        "sentence": "怎么了？怎么了！抓你的手怎么了？你又想告状？",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "告状",
+        "Opinion": "质疑告状",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的反应过度"
+    },
+    {
+        "sentence": "女女授受不亲。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "肢体接触",
+        "Opinion": "反对接触",
+        "Sentiment": "neutral",
+        "Rationale": "2认为女性之间不应有肢体接触"
+    },
+    {
+        "sentence": "好好好，以后我就离你远一点，省得你会觉得我这个人没有边界感。",
+        "Holder": "1",
+        "Target": "2的感受",
+        "Aspect": "边界感",
+        "Opinion": "避免误会",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2对自己有误解"
+    },
+    {
+        "sentence": "特殊对应啊？",
+        "Holder": "2",
+        "Target": "1的回应",
+        "Aspect": "应对方式",
+        "Opinion": "质疑应对",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对1的回应感到不解"
+    },
+    {
+        "sentence": "什么意思？",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语的明确性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "1没有理解2的话的意思"
+    },
+    {
+        "sentence": "意思是你跟所有人都？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的普遍性",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对2的行为是否普遍应用于所有人感到疑惑"
+    },
+    {
+        "sentence": "我说你！要离我远一点，不是特殊对应？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "距离的保持",
+        "Opinion": "要求保持距离",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1离得太近不舒服"
+    },
+    {
+        "sentence": "你是不是跟张书瑀玩了？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "与张书瑀的互动",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "1对2是否与张书瑀玩了感到好奇"
+    },
+    {
+        "sentence": "干嘛？吓我一跳！",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为的突然性",
+        "Opinion": "被吓到",
+        "Sentiment": "negative",
+        "Rationale": "2的突然行为让1感到意外和惊吓"
+    },
+    {
+        "sentence": "什么意思你？",
+        "Holder": "2",
+        "Target": "1的话语",
+        "Aspect": "话语的含义",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "2没有理解1话语的具体含义"
+    },
+    {
+        "sentence": "没事，我就是说你跟张书瑀一样很可爱。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "外貌或性格",
+        "Opinion": "可爱",
+        "Sentiment": "positive",
+        "Rationale": "1认为2和张书瑀一样可爱"
+    },
+    {
+        "sentence": "张书瑀是谁啊？",
+        "Holder": "2",
+        "Target": "张书瑀",
+        "Aspect": "身份",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "2不知道张书瑀是谁"
+    },
+    {
+        "sentence": "张书瑀是我们队的一个成员，是我队友。",
+        "Holder": "1",
+        "Target": "张书瑀",
+        "Aspect": "身份",
+        "Opinion": "队友",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释张书瑀的身份"
+    },
+    {
+        "sentence": "下次了解一下。",
+        "Holder": "1",
+        "Target": "下次了解",
+        "Aspect": "信息的获取",
+        "Opinion": "建议了解",
+        "Sentiment": "neutral",
+        "Rationale": "建议对方下次了解一些信息"
+    },
+    {
+        "sentence": "那个短头发的？",
+        "Holder": "2",
+        "Target": "短头发的人",
+        "Aspect": "身份确认",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "对短头发的人有疑问"
+    },
+    {
+        "sentence": "她怎么了？我忘记了，你刚刚说什么跟张书瑀来着？",
+        "Holder": "2",
+        "Target": "她",
+        "Aspect": "状况询问",
+        "Opinion": "忘记内容",
+        "Sentiment": "neutral",
+        "Rationale": "忘记了对方提到的内容"
+    },
+    {
+        "sentence": "没事儿没什么。你真能想，你想的真多。",
+        "Holder": "1",
+        "Target": "2的想法",
+        "Aspect": "思考的复杂性",
+        "Opinion": "认为想得多",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方思考的问题较多"
+    },
+    {
+        "sentence": "怎么了：怎么了？",
+        "Holder": "2",
+        "Target": "1的状态",
+        "Aspect": "询问原因",
+        "Opinion": "关心",
+        "Sentiment": "neutral",
+        "Rationale": "看到1似乎有些不对劲"
+    },
+    {
+        "sentence": "回答：没事。",
+        "Holder": "1",
+        "Target": "自己的状态",
+        "Aspect": "当前情绪",
+        "Opinion": "否认问题",
+        "Sentiment": "neutral",
+        "Rationale": "不想透露真实情绪"
+    },
+    {
+        "sentence": "回答：怎么会有这么多秘密？这也没事那也没事。",
+        "Holder": "2",
+        "Target": "1的回答",
+        "Aspect": "回答的真实性",
+        "Opinion": "怀疑",
+        "Sentiment": "negative",
+        "Rationale": "1多次回答没事，显得有所隐瞒"
+    },
+    {
+        "sentence": "回答：你是不是吃醋了？",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情感状态",
+        "Opinion": "猜测吃醋",
+        "Sentiment": "neutral",
+        "Rationale": "2表现出对秘密的在意"
+    },
+    {
+        "sentence": "回答：我又不认识。",
+        "Holder": "2",
+        "Target": "1的猜测",
+        "Aspect": "认识与否",
+        "Opinion": "否认吃醋",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己并不认识相关的人"
+    },
+    {
+        "sentence": "是啊，你想太多了！",
+        "Holder": "1",
+        "Target": "2的想法",
+        "Aspect": "想法的合理性",
+        "Opinion": "认为2想得过多",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的想法超出了必要的范围"
+    },
+    {
+        "sentence": "不跟你说了！",
+        "Holder": "1",
+        "Target": "与2的对话",
+        "Aspect": "对话的继续性",
+        "Opinion": "决定终止对话",
+        "Sentiment": "negative",
+        "Rationale": "1觉得与2的对话无法达成共识或感到不耐烦"
+    }
+]

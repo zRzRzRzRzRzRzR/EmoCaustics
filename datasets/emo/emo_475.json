@@ -1,0 +1,97 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭内部冲突与情绪管理",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑插话时机不当", "source_id": "6"},
+          {"state": "negative", "reason": "被要求停止参与并完成作业", "source_id": "6,7"},
+          {"state": "positive", "reason": "试图通过哭泣帮助他人缓解情绪", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "MP3物品归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "反对已赠送物品的索回行为", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "父亲失踪引发的债务危机",
+        "emotions": [
+          {"state": "neutral", "reason": "询问父亲行踪", "source_id": "5"},
+          {"state": "negative", "reason": "被4号极端追债行为冲击", "source_id": "4"},
+          {"state": "neutral", "reason": "转嫁债务处理责任", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "公司财务危机确认",
+        "emotions": [
+          {"state": "negative", "reason": "获知公司濒临倒闭", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "债务追讨行动",
+        "emotions": [
+          {"state": "neutral", "reason": "坚持等待负责人", "source_id": "5"},
+          {"state": "negative", "reason": "对拖延还款产生强烈不满", "source_id": "2,5"},
+          {"state": "negative", "reason": "质疑对方诚信并威胁采取行动", "source_id": "2,5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "应对债务追讨压力",
+        "emotions": [
+          {"state": "neutral", "reason": "说明资金不可获得性", "source_id": "2"},
+          {"state": "neutral", "reason": "建议冷静处理并争取时间", "source_id": "4"},
+          {"state": "negative", "reason": "被质疑诚信时的无力辩解", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "家庭突发事件应对",
+        "emotions": [
+          {"state": "doubt", "reason": "对破产消息的难以置信", "source_id": "7"},
+          {"state": "negative", "reason": "处理1号不合时宜的干预", "source_id": "1"},
+          {"state": "positive", "reason": "提供实质性家庭支持承诺", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "情绪管理引导",
+        "emotions": [
+          {"state": "ambiguous", "reason": "对突发事件的模糊态度", "source_id": "6"},
+          {"state": "negative", "reason": "规范1号公共场合行为", "source_id": "1"},
+          {"state": "positive", "reason": "强调家庭互助的重要性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "MP3物品管理责任",
+        "emotions": [
+          {"state": "neutral", "reason": "回应物品查询请求", "source_id": "3"},
+          {"state": "negative", "reason": "意识到保管失责的自责", "source_id": "3"}
+        ]
+      }
+    ]
+  }
+}

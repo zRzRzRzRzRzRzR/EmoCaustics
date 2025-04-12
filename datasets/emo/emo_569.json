@@ -1,0 +1,90 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "破瓷瓶价值争议事件",
+        "emotions": [
+          {"state": "negative", "reason": "多次否定瓷瓶价值", "source_id": "5,4"},
+          {"state": "positive", "reason": "维护陈阳专业判断", "source_id": "4"},
+          {"state": "neutral", "reason": "调节现场矛盾冲突", "source_id": "5,2"}
+        ]
+      },
+      {
+        "event": "和氏璧归属决策事件",
+        "emotions": [
+          {"state": "negative", "reason": "质疑赠送决定合理性", "source_id": "4"},
+          {"state": "positive", "reason": "支持文物捐献行为", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "交易价格质疑事件",
+        "emotions": [
+          {"state": "negative", "reason": "认为定价不合理", "source_id": "1"},
+          {"state": "neutral", "reason": "接受最终交易结果", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "冲突调解参与事件",
+        "emotions": [
+          {"state": "negative", "reason": "反击王掌柜侮辱", "source_id": "5"},
+          {"state": "positive", "reason": "维护团队声誉", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "鉴宝决策执行事件",
+        "emotions": [
+          {"state": "positive", "reason": "准确识别隐藏文物", "source_id": "7"},
+          {"state": "neutral", "reason": "执行文物捐赠程序", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "专业能力证明事件",
+        "emotions": [
+          {"state": "positive", "reason": "展示文物鉴定技术", "source_id": "7"},
+          {"state": "neutral", "reason": "解释判断依据", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "行业竞争冲突事件",
+        "emotions": [
+          {"state": "negative", "reason": "贬低对手专业能力", "source_id": "1,2"},
+          {"state": "positive", "reason": "最终承认判断失误", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "舆论导向转变事件",
+        "emotions": [
+          {"state": "negative", "reason": "质疑商业信誉", "source_id": "5"},
+          {"state": "positive", "reason": "支持文物捐献决定", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "文物接收处理事件",
+        "emotions": [
+          {"state": "positive", "reason": "确认国宝真实性", "source_id": "4"},
+          {"state": "neutral", "reason": "履行文物保管责任", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "sentence": "你自己的丈夫或者自己的爱人，你总要尊重他说话的权利，就那么一刻都忍不住，闭个嘴就这么难吗？好好聆听别人说话就这么难吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "尊重他人说话的权利",
+        "Opinion": "2不尊重他人说话",
+        "Sentiment": "negative",
+        "Rationale": "2在别人说话时没有保持沉默"
+    },
+    {
+        "sentence": "好了，我也不知道这位嘉宾是谁，反正你说话了我也不说了好吧？你们说。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话的参与",
+        "Opinion": "放弃发言",
+        "Sentiment": "negative",
+        "Rationale": "1的指责让2感到不悦"
+    },
+    {
+        "sentence": "你要是不愿意听我们可以不说没关系的，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对话的继续",
+        "Opinion": "愿意停止对话",
+        "Sentiment": "neutral",
+        "Rationale": "1希望缓和气氛"
+    },
+    {
+        "sentence": "我们不是一定要说的，刚才我跟李老师说了这个美女说话的时候我也说了，我特别愿意听我来，就是要把我的故事说出来，让大家来帮我分析我到底该怎么做，是你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对话的意愿",
+        "Opinion": "愿意分享故事并寻求帮助",
+        "Sentiment": "positive",
+        "Rationale": "2希望通过分享故事获得帮助"
+    },
+    {
+        "sentence": "就听别人说完哪你就听别人说完哪，你不要动不动就打断。",
+        "Holder": "1",
+        "Target": "2的打断行为",
+        "Aspect": "交流礼貌",
+        "Opinion": "不应该打断别人",
+        "Sentiment": "negative",
+        "Rationale": "2在交流中频繁打断别人"
+    },
+    {
+        "sentence": "我们就怎么样了，什么素质问题了，谁有什么素质问题，这不是素质问题，这就是个人家里面的事情。",
+        "Holder": "2",
+        "Target": "1的素质指责",
+        "Aspect": "问题性质",
+        "Opinion": "不是素质问题",
+        "Sentiment": "negative",
+        "Rationale": "2认为1将其行为上升到素质问题是误解"
+    },
+    {
+        "sentence": "又谈到了什么素质问题",
+        "Holder": "2",
+        "Target": "1的素质指责",
+        "Aspect": "话题重复",
+        "Opinion": "不应该再提素质问题",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1反复提及素质问题是无端的指责"
+    },
+    {
+        "sentence": "这我没说了，我离开不至于老杜，因为这是一个互动交流帮忙的节目，如果对方不需要这样的帮助，我何必要坐在这儿，等他们做完了下一场我再来，",
+        "Holder": "1",
+        "Target": "自己的参与",
+        "Aspect": "参与必要性",
+        "Opinion": "需要对方需要帮助才参与",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己的参与需要对方的需求来决定"
+    },
+    {
+        "sentence": "我没素质，我也不需要这样有素质的嘉宾来跟我交流。",
+        "Holder": "2",
+        "Target": "1的素质",
+        "Aspect": "交流需求",
+        "Opinion": "不需要有素质的嘉宾",
+        "Sentiment": "negative",
+        "Rationale": "2对1的素质指责感到不满"
+    }
+]

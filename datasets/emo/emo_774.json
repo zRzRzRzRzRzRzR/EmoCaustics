@@ -1,0 +1,76 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "中小企业融资困境",
+        "emotions": [
+          {"state": "negative", "reason": "融资难融资贵问题突出", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "活动闭幕致辞",
+        "emotions": [
+          {"state": "positive", "reason": "感谢员工并自我激励", "source_id": "2"},
+          {"state": "positive", "reason": "展望未来幸福前景", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "医疗科技化创新讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "引导技术方向讨论", "source_id": "3"},
+          {"state": "ambiguous", "reason": "发现高校技术优势", "source_id": "3"},
+          {"state": "neutral", "reason": "推进会议流程", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "健康产业战略阐述",
+        "emotions": [
+          {"state": "neutral", "reason": "职业板块介绍", "source_id": "4"},
+          {"state": "positive", "reason": "强调三方合作与活动价值", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "智慧医疗产业峰会开场",
+        "emotions": [
+          {"state": "positive", "reason": "倡导健康经济联动发展", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "跨学科背景陈述",
+        "emotions": [
+          {"state": "neutral", "reason": "说明生物材料专业路径", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "AI医疗融合前景分析",
+        "emotions": [
+          {"state": "positive", "reason": "认可AI医疗结合潜力", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

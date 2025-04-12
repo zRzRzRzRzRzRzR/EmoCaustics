@@ -1,0 +1,61 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚礼现场指控与对峙",
+        "emotions": [
+          {"state": "neutral", "reason": "要求林俊凯到场作证", "source_id": "2"},
+          {"state": "positive", "reason": "成功指认苏芮芮男友身份", "source_id": "3"},
+          {"state": "negative", "reason": "揭露苏芮芮婚前出轨证据", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "婚姻信任危机",
+        "emotions": [
+          {"state": "negative", "reason": "被丈夫质疑忠诚度", "source_id": "4"},
+          {"state": "neutral", "reason": "解释与林俊凯关系", "source_id": "3"},
+          {"state": "negative", "reason": "录音证据被公开反驳", "source_id": "1,3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "肇事逃逸事件揭露",
+        "emotions": [
+          {"state": "negative", "reason": "被指控酒驾肇事", "source_id": "4"},
+          {"state": "ambiguous", "reason": "承认肇事但推卸主谋责任", "source_id": "2"},
+          {"state": "negative", "reason": "被当众揭穿谎言", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "离婚决定与事件收尾",
+        "emotions": [
+          {"state": "negative", "reason": "发现妻子策划车祸骗局", "source_id": "1,3"},
+          {"state": "negative", "reason": "三连掌掴宣布离婚", "source_id": "2"},
+          {"state": "neutral", "reason": "遣散宾客处理后续", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "婚礼变故应对",
+        "emotions": [
+          {"state": "negative", "reason": "见证婚礼被毁", "source_id": "2"},
+          {"state": "positive", "reason": "接受兄长道歉与承诺", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

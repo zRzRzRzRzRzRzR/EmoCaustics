@@ -1,0 +1,641 @@
+[
+    {
+        "sentence": "喂，是林俊凯吗？你现在赶紧过来一趟，就在苏芮芮的婚礼现场！",
+        "Holder": "1",
+        "Target": "林俊凯",
+        "Aspect": "到场",
+        "Opinion": "需要立即到场",
+        "Sentiment": "neutral",
+        "Rationale": "需要林俊凯到场证实某些事情"
+    },
+    {
+        "sentence": "怎么，你现在害怕了，刚才污蔑我那股劲去哪儿呢？现在知道后悔了？",
+        "Holder": "1",
+        "Target": "林俊凯",
+        "Aspect": "态度变化",
+        "Opinion": "认为林俊凯害怕和后悔",
+        "Sentiment": "negative",
+        "Rationale": "林俊凯之前污蔑自己，现在可能害怕和后悔"
+    },
+    {
+        "sentence": "裴总，我林俊凯马上就能到，等他到了，就能证实我说的一切都是实情！",
+        "Holder": "1",
+        "Target": "裴总",
+        "Aspect": "证实真相",
+        "Opinion": "自信所言为实",
+        "Sentiment": "positive",
+        "Rationale": "相信林俊凯到场后能证实自己的话"
+    },
+    {
+        "sentence": "不是的，云骁，你宁愿相信一个外人，你也不愿意相信你的妻子吗？",
+        "Holder": "2",
+        "Target": "云骁",
+        "Aspect": "信任选择",
+        "Opinion": "质疑云骁的信任选择",
+        "Sentiment": "negative",
+        "Rationale": "云骁选择相信外人而不是自己的妻子"
+    },
+    {
+        "sentence": "林俊凯。",
+        "Holder": "1",
+        "Target": "林俊凯",
+        "Aspect": "称呼",
+        "Opinion": "直接称呼",
+        "Sentiment": "neutral",
+        "Rationale": "只是直接称呼名字，没有明显的情感表达"
+    },
+    {
+        "sentence": "裴总，你看我没有说谎吧，他就是苏芮芮的男朋友！",
+        "Holder": "1",
+        "Target": "苏芮芮的男朋友",
+        "Aspect": "身份确认",
+        "Opinion": "确认他是苏芮芮的男朋友",
+        "Sentiment": "positive",
+        "Rationale": "1成功指认了对方的身份"
+    },
+    {
+        "sentence": "不！我跟他大学毕业就分手了，再也没有联系过，他不是我的男朋友！",
+        "Holder": "2",
+        "Target": "苏芮芮的男朋友",
+        "Aspect": "身份否认",
+        "Opinion": "否认他是苏芮芮的男朋友",
+        "Sentiment": "negative",
+        "Rationale": "2被错误地指认为别人的男朋友"
+    },
+    {
+        "sentence": "依依，你不是说让我来参加芮芮的婚礼吗？这是什么待客之道啊？",
+        "Holder": "3",
+        "Target": "待客之道",
+        "Aspect": "婚礼的接待方式",
+        "Opinion": "质疑待客之道",
+        "Sentiment": "negative",
+        "Rationale": "3觉得自己没有被妥善接待"
+    },
+    {
+        "sentence": "你也配我来招待你？",
+        "Holder": "4",
+        "Target": "3的资格",
+        "Aspect": "接待资格",
+        "Opinion": "不配被招待",
+        "Sentiment": "negative",
+        "Rationale": "4认为3没有资格被招待"
+    },
+    {
+        "sentence": "你就是林俊凯吧，三年前把我撞了，然后肇事逃逸的那个司机。",
+        "Holder": "4",
+        "Target": "林俊凯",
+        "Aspect": "身份和过去行为",
+        "Opinion": "确认对方是肇事逃逸的司机",
+        "Sentiment": "negative",
+        "Rationale": "4认出了对方是曾经伤害自己的人"
+    },
+    {
+        "sentence": "我没有，你谁呀？我不认识你啊！",
+        "Holder": "3",
+        "Target": "4的身份",
+        "Aspect": "是否认识",
+        "Opinion": "不认识",
+        "Sentiment": "negative",
+        "Rationale": "被误认为认识对方"
+    },
+    {
+        "sentence": "你认识她吗？",
+        "Holder": "4",
+        "Target": "3对前女友的认识",
+        "Aspect": "是否认识",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想确认3是否认识前女友"
+    },
+    {
+        "sentence": "她就是我前女友，我们早就分手了。而且今天是第一次见面。",
+        "Holder": "3",
+        "Target": "前女友的关系",
+        "Aspect": "关系现状",
+        "Opinion": "已分手且初次见面",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清与前女友的关系"
+    },
+    {
+        "sentence": "真不愧是前女友啊，说辞都是一致。",
+        "Holder": "4",
+        "Target": "前女友的说辞",
+        "Aspect": "说辞的一致性",
+        "Opinion": "一致",
+        "Sentiment": "negative",
+        "Rationale": "认为前女友和3的说辞一致"
+    },
+    {
+        "sentence": "你们两个要联合起来，把我当傻子耍是吗？",
+        "Holder": "4",
+        "Target": "3和前女友的行为",
+        "Aspect": "是否联合欺骗",
+        "Opinion": "联合欺骗",
+        "Sentiment": "negative",
+        "Rationale": "觉得被3和前女友联合欺骗"
+    },
+    {
+        "sentence": "裴总，我真的没有骗你啊裴总！",
+        "Holder": "3",
+        "Target": "裴总",
+        "Aspect": "诚实",
+        "Opinion": "没有骗",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑说谎"
+    },
+    {
+        "sentence": "怎么，刚刚还不认识我，现在知道我姓裴了？",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "认识程度",
+        "Opinion": "刚刚不认识",
+        "Sentiment": "negative",
+        "Rationale": "对方之前不认识自己，现在却突然改口"
+    },
+    {
+        "sentence": "裴总，对不起，我不该对您说谎的，我的确听过您的名号，但我没有撞过您，更不敢和您的夫人任何私交的。",
+        "Holder": "3",
+        "Target": "裴总",
+        "Aspect": "说谎和私交",
+        "Opinion": "没有撞过和私交",
+        "Sentiment": "negative",
+        "Rationale": "之前的谎言被揭穿"
+    },
+    {
+        "sentence": "不，裴总，他们两个一直有联系。",
+        "Holder": "1",
+        "Target": "3和裴总夫人",
+        "Aspect": "联系",
+        "Opinion": "一直有联系",
+        "Sentiment": "negative",
+        "Rationale": "揭露了3和裴总夫人之间的联系"
+    },
+    {
+        "sentence": "在婚礼前一天晚上，他们两个还去开了房。",
+        "Holder": "1",
+        "Target": "3和裴总夫人",
+        "Aspect": "行为",
+        "Opinion": "去开房",
+        "Sentiment": "negative",
+        "Rationale": "提供了3和裴总夫人不当行为的证据"
+    },
+    {
+        "sentence": "居然还有这样的女人，真够无耻的。",
+        "Holder": "5",
+        "Target": "这样的女人",
+        "Aspect": "道德品质",
+        "Opinion": "无耻",
+        "Sentiment": "negative",
+        "Rationale": "认为该女人的行为不符合道德标准"
+    },
+    {
+        "sentence": "我这有聊天记录！",
+        "Holder": "1",
+        "Target": "聊天记录",
+        "Aspect": "证据存在",
+        "Opinion": "有证据",
+        "Sentiment": "neutral",
+        "Rationale": "持有相关证据"
+    },
+    {
+        "sentence": "你给我！给我，给我！",
+        "Holder": "2",
+        "Target": "聊天记录",
+        "Aspect": "获取证据",
+        "Opinion": "迫切需要",
+        "Sentiment": "negative",
+        "Rationale": "急于证明自己的清白"
+    },
+    {
+        "sentence": "苏芮芮 ，你竟然在结婚前一天当晚，还和别的男人乱搞，你真是不知廉耻啊！",
+        "Holder": "6",
+        "Target": "苏芮芮",
+        "Aspect": "行为道德",
+        "Opinion": "不知廉耻",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮在结婚前一天还与其他男人有不正当行为"
+    },
+    {
+        "sentence": "没有，阿离，你要相信我呀，我根本不可能做出来这种事情！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为真实性",
+        "Opinion": "否认行为",
+        "Sentiment": "negative",
+        "Rationale": "被误解和指责"
+    },
+    {
+        "sentence": "你还有什么好解释的？",
+        "Holder": "4",
+        "Target": "2的解释",
+        "Aspect": "解释的合理性",
+        "Opinion": "质疑解释",
+        "Sentiment": "negative",
+        "Rationale": "对2的解释持怀疑态度"
+    },
+    {
+        "sentence": "云骁，这都是她编造的聊天记录，我跟林俊凯之间清清白白的，你要相信我。",
+        "Holder": "2",
+        "Target": "聊天记录的真实性",
+        "Aspect": "关系的纯洁性",
+        "Opinion": "否认聊天记录",
+        "Sentiment": "negative",
+        "Rationale": "被指控与林俊凯有不正当关系"
+    },
+    {
+        "sentence": "裴总，这些聊天记录都是真的，都是她亲自发给我的！",
+        "Holder": "1",
+        "Target": "聊天记录的真实性",
+        "Aspect": "信息的来源",
+        "Opinion": "确认聊天记录",
+        "Sentiment": "positive",
+        "Rationale": "确信聊天记录的真实性"
+    },
+    {
+        "sentence": "裴总，我早就跟她断绝联系了，您就算借我十个胆子，我也不敢在您结婚前一天跟您夫人乱搞啊！",
+        "Holder": "3",
+        "Target": "与她的关系",
+        "Aspect": "关系的断绝",
+        "Opinion": "否认不正当关系",
+        "Sentiment": "negative",
+        "Rationale": "被怀疑在关键时刻有不正当行为"
+    },
+    {
+        "sentence": "云骁，我跟林俊凯之间真的是清清白白的。",
+        "Holder": "2",
+        "Target": "与林俊凯的关系",
+        "Aspect": "关系的纯洁性",
+        "Opinion": "再次否认不正当关系",
+        "Sentiment": "negative",
+        "Rationale": "反复被质疑"
+    },
+    {
+        "sentence": "我们在一起三年了，你宁愿相信一个外人，你也不愿意相信我吗？",
+        "Holder": "2",
+        "Target": "4的信任",
+        "Aspect": "信任的选择",
+        "Opinion": "不被信任",
+        "Sentiment": "negative",
+        "Rationale": "在一起多年却未被信任"
+    },
+    {
+        "sentence": "我看你们几个分歧还挺大的，要是被我知道谁在背后撒谎，那就不是坐牢那么简单，我会把那个满嘴谎言的人给抓出来，然后让他遭到全行业的封杀。",
+        "Holder": "4",
+        "Target": "撒谎者",
+        "Aspect": "对撒谎的态度",
+        "Opinion": "严厉惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对撒谎行为极为愤怒"
+    },
+    {
+        "sentence": "我承认我全部都承认！",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "承认错误",
+        "Opinion": "全盘承认",
+        "Sentiment": "negative",
+        "Rationale": "面对压力不得不承认错误"
+    },
+    {
+        "sentence": "当年的肇事者确实是我，但主谋不是！",
+        "Holder": "3",
+        "Target": "肇事者身份",
+        "Aspect": "责任分配",
+        "Opinion": "承认部分责任",
+        "Sentiment": "ambiguous",
+        "Rationale": "承认自己是肇事者但否认是主谋"
+    },
+    {
+        "sentence": "是她，是她策划的一切，是苏芮芮一手策划的！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "策划者身份",
+        "Opinion": "指责苏芮芮",
+        "Sentiment": "negative",
+        "Rationale": "将责任推给别人"
+    },
+    {
+        "sentence": "你！林俊凯，你别在这里胡说八道！",
+        "Holder": "2",
+        "Target": "林俊凯",
+        "Aspect": "言语的真实性",
+        "Opinion": "认为是胡说八道",
+        "Sentiment": "negative",
+        "Rationale": "认为林俊凯在撒谎"
+    },
+    {
+        "sentence": "明明是你酒驾撞伤了人。你为了推卸责任，逼着我去照顾裴云骁，你现在把脏水都泼在我身上了是不是！你还是不是个男人！",
+        "Holder": "2",
+        "Target": "林俊凯",
+        "Aspect": "责任归属",
+        "Opinion": "林俊凯推卸责任",
+        "Sentiment": "negative",
+        "Rationale": "林俊凯把责任推到自己身上"
+    },
+    {
+        "sentence": "你别装了！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "行为的真实性",
+        "Opinion": "认为2在装",
+        "Sentiment": "negative",
+        "Rationale": "认为2在假装无辜"
+    },
+    {
+        "sentence": "当年就是你买通了裴总的一切行程，然后在莽村设下埋伏，故意让我去撞人，最后你再去救他，这样你才如愿嫁入豪门，不是吗！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "事件的策划",
+        "Opinion": "认为2策划了事件",
+        "Sentiment": "negative",
+        "Rationale": "认为2故意策划了事件嫁入豪门"
+    },
+    {
+        "sentence": "云骁，这都是他说的胡话。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "言语的真实性",
+        "Opinion": "认为是胡话",
+        "Sentiment": "negative",
+        "Rationale": "认为3在撒谎"
+    },
+    {
+        "sentence": "三年前，我根本不认识你，可不知道你京海守府的的身份啊。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "认识与否",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释三年前不认识3的情况"
+    },
+    {
+        "sentence": "云骁，我救下你完全是出于本能，没有任何所图！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "救人的动机",
+        "Opinion": "出于本能",
+        "Sentiment": "positive",
+        "Rationale": "2强调自己救人是出于本能而非有所图"
+    },
+    {
+        "sentence": "裴总，我有录音证据！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "证据",
+        "Opinion": "有录音证据",
+        "Sentiment": "neutral",
+        "Rationale": "3在陈述自己有录音证据的事实"
+    },
+    {
+        "sentence": "不可能，我跟他锻炼三年了，他不可能会用我的录音！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "录音使用的可能性",
+        "Opinion": "不可能使用",
+        "Sentiment": "negative",
+        "Rationale": "2认为对方不可能使用自己的录音"
+    },
+    {
+        "sentence": "你给我！",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "录音",
+        "Opinion": "要求归还",
+        "Sentiment": "negative",
+        "Rationale": "2要求3归还录音，语气急切且带有命令"
+    },
+    {
+        "sentence": "放手，放手！",
+        "Holder": "3",
+        "Target": "6的行为",
+        "Aspect": "身体接触",
+        "Opinion": "要求停止",
+        "Sentiment": "negative",
+        "Rationale": "3感到被6的身体接触不舒服或受到限制"
+    },
+    {
+        "sentence": "苏芮芮，这就是你说的，你爱我哥不求所图？",
+        "Holder": "6",
+        "Target": "2的言论",
+        "Aspect": "言论的真实性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "6对2之前所说的不求所图的爱表示怀疑，认为2的行为与言论不符"
+    },
+    {
+        "sentence": "不是的，阿离，你听我解释呀，这都是我喝多了说的玩笑话，我没有出轨，更没有对不起云霄呀。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为的解释",
+        "Opinion": "否认出轨",
+        "Sentiment": "negative",
+        "Rationale": "2被误解并急于解释自己的行为"
+    },
+    {
+        "sentence": "你还有什么好解释的啊！",
+        "Holder": "6",
+        "Target": "2的解释",
+        "Aspect": "解释的可信度",
+        "Opinion": "不信任",
+        "Sentiment": "negative",
+        "Rationale": "6对2的解释持怀疑态度，认为其解释不可信"
+    },
+    {
+        "sentence": "妹妹，这不是真的，这是林俊凯伪造的录音，我根本没有说过这种话呀。",
+        "Holder": "2",
+        "Target": "录音的真实性",
+        "Aspect": "录音的来源",
+        "Opinion": "否认录音真实性",
+        "Sentiment": "negative",
+        "Rationale": "2认为自己被诬陷，情绪是负面的"
+    },
+    {
+        "sentence": "云骁，你相信我，我真的是被冤枉的。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "被冤枉的情况",
+        "Opinion": "自己是被冤枉的",
+        "Sentiment": "negative",
+        "Rationale": "自己被误解并且感到委屈"
+    },
+    {
+        "sentence": "我对你一心一意，从来没有二心啊。",
+        "Holder": "2",
+        "Target": "自己对云骁的感情",
+        "Aspect": "感情的专一性",
+        "Opinion": "对云骁一心一意",
+        "Sentiment": "positive",
+        "Rationale": "自己确实对云骁专一"
+    },
+    {
+        "sentence": "裴总，刚才那句话句句属实，都是苏芮芮亲口说的！",
+        "Holder": "1",
+        "Target": "苏芮芮的话",
+        "Aspect": "话语的真实性",
+        "Opinion": "苏芮芮的话是真实的",
+        "Sentiment": "neutral",
+        "Rationale": "自己在陈述事实"
+    },
+    {
+        "sentence": "她一边设局嫁入裴家，一边和您结婚，还一边和林俊凯勾搭在一起，而且他的第一次根本就不是给了你！",
+        "Holder": "1",
+        "Target": "苏芮芮的行为",
+        "Aspect": "行为的欺骗性",
+        "Opinion": "苏芮芮的行为是欺骗的",
+        "Sentiment": "negative",
+        "Rationale": "揭露了苏芮芮的欺骗行为"
+    },
+    {
+        "sentence": "别给我闭嘴！",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的接受度",
+        "Opinion": "不接受1的言论",
+        "Sentiment": "negative",
+        "Rationale": "不想听到对自己不利的言论"
+    },
+    {
+        "sentence": "这一巴掌我打你不忠不义，设计车祸瞒天过海。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "忠诚与道德",
+        "Opinion": "不忠不义",
+        "Sentiment": "negative",
+        "Rationale": "认为2设计车祸并且欺骗"
+    },
+    {
+        "sentence": "这一巴掌我打你不忠不伦，背叛婚姻脚踏两条船。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "婚姻忠诚",
+        "Opinion": "背叛婚姻",
+        "Sentiment": "negative",
+        "Rationale": "认为2背叛婚姻并且不忠"
+    },
+    {
+        "sentence": "这一巴掌我打你无法无天，欺辱我妹，罔顾人伦！",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "行为道德",
+        "Opinion": "无法无天",
+        "Sentiment": "negative",
+        "Rationale": "认为2欺辱妹妹并且无视人伦道德"
+    },
+    {
+        "sentence": "我没有。",
+        "Holder": "2",
+        "Target": "4的指控",
+        "Aspect": "事实真相",
+        "Opinion": "否认指控",
+        "Sentiment": "negative",
+        "Rationale": "被4严厉指控感到冤枉和委屈"
+    },
+    {
+        "sentence": "苏芮芮，我们离婚吧。",
+        "Holder": "4",
+        "Target": "婚姻关系",
+        "Aspect": "婚姻存续",
+        "Opinion": "提出离婚",
+        "Sentiment": "negative",
+        "Rationale": "对2的种种行为感到失望和无法容忍"
+    },
+    {
+        "sentence": "裴总，我真的不是给你故意戴绿帽子的啊，都是这个贱女人，是她先勾引我的，我对她一点想趣都没有！真的，裴总，你要相信我啊。",
+        "Holder": "3",
+        "Target": "裴总",
+        "Aspect": "忠诚度",
+        "Opinion": "自己没有背叛",
+        "Sentiment": "negative",
+        "Rationale": "被误解为背叛裴总"
+    },
+    {
+        "sentence": "芮芮，你怎么会做出来这种无法无天的事儿？爸平时就是这么教育你的吗？",
+        "Holder": "7",
+        "Target": "芮芮",
+        "Aspect": "行为",
+        "Opinion": "行为不当",
+        "Sentiment": "negative",
+        "Rationale": "芮芮的行为不符合预期和教育"
+    },
+    {
+        "sentence": "裴总，是我管教无方，芮芮心地善良，只是被有心之人利用了，就再给她一次机会吧。",
+        "Holder": "7",
+        "Target": "芮芮",
+        "Aspect": "性格",
+        "Opinion": "芮芮本质善良",
+        "Sentiment": "positive",
+        "Rationale": "认为芮芮本质善良且被利用"
+    },
+    {
+        "sentence": "来人，给我把涉事的人全部带到派出所，牢底坐穿！",
+        "Holder": "4",
+        "Target": "涉事人",
+        "Aspect": "处理方式",
+        "Opinion": "严厉惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对涉事人的行为极度不满"
+    },
+    {
+        "sentence": "我可是你爸啊！",
+        "Holder": "7",
+        "Target": "3",
+        "Aspect": "身份关系",
+        "Opinion": "强调父子关系",
+        "Sentiment": "neutral",
+        "Rationale": "7在强调自己的父亲身份"
+    },
+    {
+        "sentence": "我不是故意的！",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为意图",
+        "Opinion": "否认故意",
+        "Sentiment": "negative",
+        "Rationale": "3被误解或指责"
+    },
+    {
+        "sentence": "我各位亲朋好友，今天大家的热闹都已经看够了，散了吧。",
+        "Holder": "4",
+        "Target": "亲朋好友",
+        "Aspect": "聚会结束",
+        "Opinion": "建议散场",
+        "Sentiment": "neutral",
+        "Rationale": "4认为聚会已经达到高潮"
+    },
+    {
+        "sentence": "妹妹，哥对不起你啊，让你受委屈了，哥带你到医院去做一个全面的检查好不好？",
+        "Holder": "4",
+        "Target": "妹妹",
+        "Aspect": "道歉和关心",
+        "Opinion": "表达歉意和关心",
+        "Sentiment": "negative",
+        "Rationale": "4觉得自己让妹妹受委屈了"
+    },
+    {
+        "sentence": "没事，哥，你已经做的够好了，不用道歉。",
+        "Holder": "6",
+        "Target": "4",
+        "Aspect": "行为评价",
+        "Opinion": "认为4已经做得很好",
+        "Sentiment": "positive",
+        "Rationale": "6认为4已经尽力了"
+    },
+    {
+        "sentence": "就是这么豪华的一场婚礼，说搞砸就搞砸了。",
+        "Holder": "6",
+        "Target": "婚礼",
+        "Aspect": "婚礼的豪华程度",
+        "Opinion": "婚礼搞砸了",
+        "Sentiment": "negative",
+        "Rationale": "原本豪华的婚礼被搞砸"
+    },
+    {
+        "sentence": "放心吧，等你以后结婚的时候，哥帮你办一场更盛大的婚礼，好不好？",
+        "Holder": "4",
+        "Target": "6的婚礼",
+        "Aspect": "婚礼的盛大程度",
+        "Opinion": "承诺办更盛大的婚礼",
+        "Sentiment": "positive",
+        "Rationale": "想要安慰6并承诺未来会办更盛大的婚礼"
+    }
+]

@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "晚宴筹备与调整",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "为高书记定制法式大餐、调整餐点适应其口味",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "反腐行动争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑针对李达康的反腐行动合理性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "内部权力冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑侯亮平在山水集团的调查动机",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "晚宴适应性冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "明确表示不适应法式餐饮",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "派系斗争调解",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "呼吁停止李达康与侯亮平间的冲突",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

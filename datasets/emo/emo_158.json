@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论流程主持",
+        "emotions": [
+          {"state": "neutral", "reason": "按规则推进环节", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "爱情瞬间美论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调瞬间冲击力与突破世俗束缚", "source_id": "3"},
+          {"state": "doubt", "reason": "质疑永恒与美的必然关联", "source_id": "3"},
+          {"state": "negative", "reason": "否定平淡能体现爱情本质", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "永恒爱情价值倡导",
+        "emotions": [
+          {"state": "positive", "reason": "强调安全感与默契积累", "source_id": "2"},
+          {"state": "ambiguous", "reason": "探讨瞬间与永恒的辩证关系", "source_id": "2"},
+          {"state": "negative", "reason": "质疑短暂爱情的完整性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "爱情独特性辨析",
+        "emotions": [
+          {"state": "neutral", "reason": "区分爱情与亲情边界", "source_id": "6"},
+          {"state": "negative", "reason": "否定平淡爱情的特殊性", "source_id": "6"},
+          {"state": "positive", "reason": "强调浪漫瞬间的核心价值", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "永恒爱情实例论证",
+        "emotions": [
+          {"state": "positive", "reason": "引用经典文学佐证永恒美", "source_id": "5"},
+          {"state": "neutral", "reason": "承认瞬间价值但强调永恒期待", "source_id": "5"},
+          {"state": "negative", "reason": "批判纯刺激导向的爱情观", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

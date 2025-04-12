@@ -1,0 +1,78 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭牙齿检查计划",
+        "emotions": [
+          {"state": "neutral", "reason": "询问检查必要性", "source_id": "2"},
+          {"state": "negative", "reason": "拒绝接受检查/质疑母亲专业性", "source_id": "2"},
+          {"state": "positive", "reason": "认可母亲教育成果/主动让位弟弟", "source_id": "2,4"}
+        ]
+      },
+      {
+        "event": "父亲牙齿问题处理",
+        "emotions": [
+          {"state": "neutral", "reason": "关注父亲牙齿状况/建议检查", "source_id": "5"},
+          {"state": "negative", "reason": "目睹父亲剧烈疼痛", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭医疗实践",
+        "emotions": [
+          {"state": "positive", "reason": "展示学习成果/完成子女检查", "source_id": "1,4"},
+          {"state": "negative", "reason": "遭遇丈夫抗拒检查/专业度受质疑", "source_id": "5"},
+          {"state": "neutral", "reason": "角色转换应对质疑", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "专业能力验证",
+        "emotions": [
+          {"state": "positive", "reason": "发现子女牙齿健康", "source_id": "1,4"},
+          {"state": "negative", "reason": "诊断丈夫严重蛀牙", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "剧本创作冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "优先处理工作", "source_id": "2"},
+          {"state": "negative", "reason": "被质疑专业能力/沟通受阻", "source_id": "7"},
+          {"state": "negative", "reason": "身体疼痛与情绪压力叠加", "source_id": "2,7"}
+        ]
+      },
+      {
+        "event": "人际矛盾处理",
+        "emotions": [
+          {"state": "negative", "reason": "被误解自残倾向", "source_id": "7"},
+          {"state": "negative", "reason": "明确表达厌烦情绪", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "创作干预事件",
+        "emotions": [
+          {"state": "negative", "reason": "质疑剧本合理性", "source_id": "5"},
+          {"state": "positive", "reason": "自信解决创作问题", "source_id": "5"},
+          {"state": "negative", "reason": "遭遇暴力抗拒沟通", "source_id": "5"}
+        ]
+      },
+      {
+        "event": "医疗建议冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "建议优先处理健康问题", "source_id": "5"},
+          {"state": "ambiguous", "reason": "调侃式指出心理关联疼痛", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

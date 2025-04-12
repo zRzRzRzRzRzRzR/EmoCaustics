@@ -1,0 +1,479 @@
+[
+    {
+        "sentence": "来人呐，出事了。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "紧急性",
+        "Opinion": "有紧急情况",
+        "Sentiment": "negative",
+        "Rationale": "发现突发情况"
+    },
+    {
+        "sentence": "怎么了，着火了？",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "紧急性",
+        "Opinion": "猜测是火灾",
+        "Sentiment": "negative",
+        "Rationale": "听到紧急呼喊"
+    },
+    {
+        "sentence": "出什么事了，爸爸？",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "紧急性",
+        "Opinion": "询问具体情况",
+        "Sentiment": "negative",
+        "Rationale": "听到紧急呼喊"
+    },
+    {
+        "sentence": "啊？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "紧急性",
+        "Opinion": "表示惊讶",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然听到紧急呼喊"
+    },
+    {
+        "sentence": "我要告诉你们一个好消息！我的一个剧本啊被美国的一家公司看上了，要准备斥巨资打造，并向国外市场发行。",
+        "Holder": "1",
+        "Target": "剧本",
+        "Aspect": "被认可",
+        "Opinion": "剧本被看中",
+        "Sentiment": "positive",
+        "Rationale": "剧本被美国公司看中并准备投资"
+    },
+    {
+        "sentence": "你就要走向世界了！",
+        "Holder": "2",
+        "Target": "1的剧本",
+        "Aspect": "国际影响力",
+        "Opinion": "剧本将走向世界",
+        "Sentiment": "positive",
+        "Rationale": "剧本将被国际市场发行"
+    },
+    {
+        "sentence": "爸爸，你剧本上写的是什么呀？",
+        "Holder": "3",
+        "Target": "1的剧本",
+        "Aspect": "内容",
+        "Opinion": "询问内容",
+        "Sentiment": "neutral",
+        "Rationale": "好奇剧本的内容"
+    },
+    {
+        "sentence": "写的是一个中国兔的故事。",
+        "Holder": "1",
+        "Target": "剧本内容",
+        "Aspect": "主题",
+        "Opinion": "中国兔故事",
+        "Sentiment": "neutral",
+        "Rationale": "介绍剧本的主题"
+    },
+    {
+        "sentence": "这么说，中国兔就要走向世界了。",
+        "Holder": "2",
+        "Target": "中国兔故事",
+        "Aspect": "国际影响力",
+        "Opinion": "中国兔将走向世界",
+        "Sentiment": "positive",
+        "Rationale": "剧本内容是中国兔且将国际发行"
+    },
+    {
+        "sentence": "要不然动画片老是美国兔。",
+        "Holder": "3",
+        "Target": "动画片市场",
+        "Aspect": "多样性",
+        "Opinion": "希望有多样性",
+        "Sentiment": "neutral",
+        "Rationale": "觉得市场上动画片多为美国兔"
+    },
+    {
+        "sentence": "前苏联兔。",
+        "Holder": "5",
+        "Target": "前苏联兔",
+        "Aspect": "称呼",
+        "Opinion": "使用特定称呼",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及一个称呼，没有明显的情感倾向"
+    },
+    {
+        "sentence": "还有韩国的小眯缝眼流氓兔。",
+        "Holder": "4",
+        "Target": "韩国的小眯缝眼流氓兔",
+        "Aspect": "称呼",
+        "Opinion": "使用特定称呼",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及一个称呼，没有明显的情感倾向"
+    },
+    {
+        "sentence": "这么说，你打造的中国兔要是能够走向世界，你就太了不起啦！",
+        "Holder": "2",
+        "Target": "中国兔",
+        "Aspect": "走向世界的可能性",
+        "Opinion": "认为很了不起",
+        "Sentiment": "positive",
+        "Rationale": "认为中国兔走向世界是一件值得称赞的事情"
+    },
+    {
+        "sentence": "在外方强大的资金支持下，这不是没有可能。",
+        "Holder": "1",
+        "Target": "中国兔走向世界",
+        "Aspect": "资金支持",
+        "Opinion": "认为有可能",
+        "Sentiment": "positive",
+        "Rationale": "有外方强大的资金支持"
+    },
+    {
+        "sentence": "那你就是中国兔之父了。到回事。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对中国兔的贡献",
+        "Opinion": "认为是创始人",
+        "Sentiment": "positive",
+        "Rationale": "认为1对中国兔有重大贡献"
+    },
+    {
+        "sentence": "兔爸爸！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "称呼",
+        "Opinion": "亲切称呼",
+        "Sentiment": "positive",
+        "Rationale": "用亲切的称呼来表达对1的认可"
+    },
+    {
+        "sentence": "夏东海你再跟我说说。",
+        "Holder": "2",
+        "Target": "夏东海",
+        "Aspect": "请求说明",
+        "Opinion": "希望了解更多",
+        "Sentiment": "neutral",
+        "Rationale": "只是请求对方说明情况，没有明显的情感倾向"
+    },
+    {
+        "sentence": "说什么 呀？",
+        "Holder": "1",
+        "Target": "2的请求",
+        "Aspect": "内容",
+        "Opinion": "询问具体内容",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方想了解的具体内容，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你再跟我说说到底怎么回事啊。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "请求详细说明",
+        "Opinion": "希望详细了解",
+        "Sentiment": "neutral",
+        "Rationale": "只是希望对方详细说明情况，没有明显的情感倾向"
+    },
+    {
+        "sentence": "想听啊？我告诉你啊，那老外不但选中了我的剧本，还拍板让我做总编导。",
+        "Holder": "1",
+        "Target": "自己的剧本和老外的决定",
+        "Aspect": "被选中及担任总编导",
+        "Opinion": "感到自豪",
+        "Sentiment": "positive",
+        "Rationale": "自己的剧本被选中并且担任总编导"
+    },
+    {
+        "sentence": "真的？我的妈呀，你现在是自编自导，你就差演了？你别说，你要演一兔爸爸还真挺像的。",
+        "Holder": "2",
+        "Target": "1的表演能力",
+        "Aspect": "角色适合度",
+        "Opinion": "适合演兔爸爸",
+        "Sentiment": "positive",
+        "Rationale": "觉得1有能力自编自导且适合演兔爸爸"
+    },
+    {
+        "sentence": "好啊，那我推荐你去演兔妈妈。",
+        "Holder": "1",
+        "Target": "2的表演能力",
+        "Aspect": "角色分配",
+        "Opinion": "适合演兔妈妈",
+        "Sentiment": "positive",
+        "Rationale": "觉得2也适合演戏"
+    },
+    {
+        "sentence": "去，我才不像你们那么会演戏。",
+        "Holder": "2",
+        "Target": "自己的表演能力",
+        "Aspect": "演技水平",
+        "Opinion": "不擅长演戏",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己不如1会演戏"
+    },
+    {
+        "sentence": "谁呀？哎，不过说真的，我这次倒是真体验到了那种千里马遇见伯乐的感觉。",
+        "Holder": "1",
+        "Target": "自己的才华被认可",
+        "Aspect": "才华被赏识",
+        "Opinion": "感受到被赏识",
+        "Sentiment": "positive",
+        "Rationale": "自己的剧本和才华被认可"
+    },
+    {
+        "sentence": "而且人家这伯乐多有眼光！",
+        "Holder": "2",
+        "Target": "伯乐的眼光",
+        "Aspect": "鉴赏能力",
+        "Opinion": "有眼光",
+        "Sentiment": "positive",
+        "Rationale": "认可伯乐对1的赏识"
+    },
+    {
+        "sentence": "没错，他不断看上我的剧本，还特欣赏我本人，还说要来咱们家做客。",
+        "Holder": "1",
+        "Target": "伯乐的评价",
+        "Aspect": "对剧本和本人的欣赏",
+        "Opinion": "高度赞赏",
+        "Sentiment": "positive",
+        "Rationale": "伯乐不仅看上剧本还欣赏自己"
+    },
+    {
+        "sentence": "什么时候啊？",
+        "Holder": "2",
+        "Target": "伯乐来访时间",
+        "Aspect": "时间安排",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "对伯乐来访时间感兴趣"
+    },
+    {
+        "sentence": "大概就最近几天吧。",
+        "Holder": "1",
+        "Target": "伯乐来访时间",
+        "Aspect": "时间安排",
+        "Opinion": "近期来访",
+        "Sentiment": "neutral",
+        "Rationale": "告知伯乐来访的时间"
+    },
+    {
+        "sentence": "我的妈呀，我得去买身衣服去。",
+        "Holder": "2",
+        "Target": "自己的准备",
+        "Aspect": "穿着打扮",
+        "Opinion": "需要买新衣服",
+        "Sentiment": "positive",
+        "Rationale": "伯乐要来访"
+    },
+    {
+        "sentence": "先甭着急买衣服，我觉得你倒是应该买条围裙了。",
+        "Holder": "1",
+        "Target": "2的准备",
+        "Aspect": "穿着打扮",
+        "Opinion": "建议买围裙",
+        "Sentiment": "positive",
+        "Rationale": "觉得2更适合买围裙来迎接伯乐"
+    },
+    {
+        "sentence": "买围裙干嘛呀？",
+        "Holder": "2",
+        "Target": "买围裙",
+        "Aspect": "买围裙的必要性",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "不知道买围裙的具体用途"
+    },
+    {
+        "sentence": "你想想，人大老远的来咱家做客，你是不是得请人吃顿饭，你能不露几手拿手好菜吗？我的老婆大厨。",
+        "Holder": "1",
+        "Target": "请客吃饭",
+        "Aspect": "待客之道",
+        "Opinion": "应该好好招待",
+        "Sentiment": "positive",
+        "Rationale": "认为远道而来的客人应该被好好招待"
+    },
+    {
+        "sentence": "哎呀，美国朋友就要来咱们家了，咱们必须得做好准备，知道吗？必须得让他们看到当代中国家庭的风貌，咱们得为国争光，为你爸爸争光啊。",
+        "Holder": "2",
+        "Target": "美国朋友的来访",
+        "Aspect": "家庭形象和荣誉",
+        "Opinion": "必须做好准备",
+        "Sentiment": "positive",
+        "Rationale": "认为美国朋友的来访是展示家庭和国家形象的机会"
+    },
+    {
+        "sentence": "妈，那个美国老总长得什么样啊？",
+        "Holder": "3",
+        "Target": "美国老总",
+        "Aspect": "外貌",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对即将见面的美国老总的外貌感到好奇"
+    },
+    {
+        "sentence": "长得像克林顿还是布什啊？",
+        "Holder": "4",
+        "Target": "美国老总",
+        "Aspect": "外貌",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对即将见面的美国老总的外貌感到好奇"
+    },
+    {
+        "sentence": "我哪知道，我也没见过。外国人长什么样的都有，那不重要，关键是这位外国朋友，他看中了你爸爸的剧本，给咱们家带来了好运，咱必须得好好招待人家。",
+        "Holder": "2",
+        "Target": "美国老总的外貌",
+        "Aspect": "外貌的重要性",
+        "Opinion": "不重要",
+        "Sentiment": "positive",
+        "Rationale": "认为外貌不重要，重要的是对方带来的好运和机会"
+    },
+    {
+        "sentence": "行，到时候啊咱都给他准备一些鲜花。",
+        "Holder": "3",
+        "Target": "招待方式",
+        "Aspect": "礼物的选择",
+        "Opinion": "准备鲜花",
+        "Sentiment": "positive",
+        "Rationale": "认为准备鲜花是合适的招待方式"
+    },
+    {
+        "sentence": "咱们再给他演几个节目。",
+        "Holder": "4",
+        "Target": "招待方式",
+        "Aspect": "娱乐安排",
+        "Opinion": "表演节目",
+        "Sentiment": "positive",
+        "Rationale": "认为表演节目是合适的招待方式"
+    },
+    {
+        "sentence": "成啊，那太好了。",
+        "Holder": "2",
+        "Target": "招待安排",
+        "Aspect": "整体安排",
+        "Opinion": "满意",
+        "Sentiment": "positive",
+        "Rationale": "对大家的招待安排感到满意"
+    },
+    {
+        "sentence": "老外们明天可就来了，明天的晚餐你可要准备好哦。",
+        "Holder": "1",
+        "Target": "晚餐准备",
+        "Aspect": "准备的重要性",
+        "Opinion": "必须准备好",
+        "Sentiment": "positive",
+        "Rationale": "认为明天的晚餐对招待客人很重要"
+    },
+    {
+        "sentence": "哎呀，你放心，第一道菜就是东波肘子。",
+        "Holder": "2",
+        "Target": "东波肘子",
+        "Aspect": "菜肴选择",
+        "Opinion": "选择东波肘子",
+        "Sentiment": "positive",
+        "Rationale": "选择了具有特色的菜肴"
+    },
+    {
+        "sentence": "胆固醇是不是有点太高了？",
+        "Holder": "1",
+        "Target": "东波肘子",
+        "Aspect": "健康因素",
+        "Opinion": "担心胆固醇高",
+        "Sentiment": "negative",
+        "Rationale": "担心菜肴的胆固醇含量高"
+    },
+    {
+        "sentence": "那有什么办法呀？东坡肘子必须得上，它具有中国特色。",
+        "Holder": "2",
+        "Target": "东波肘子",
+        "Aspect": "菜肴的必要性",
+        "Opinion": "必须上东波肘子",
+        "Sentiment": "positive",
+        "Rationale": "东波肘子具有中国特色"
+    },
+    {
+        "sentence": "美国的猪也有肘子啊。",
+        "Holder": "5",
+        "Target": "东波肘子",
+        "Aspect": "地域差异",
+        "Opinion": "美国也有肘子",
+        "Sentiment": "neutral",
+        "Rationale": "提到美国也有类似的菜肴"
+    },
+    {
+        "sentence": "光有肘子没文化有什么用啊？东坡肘子为什么烂？它有中国传统文化的积淀，懂吗？这怎么样？有没有民族特色？",
+        "Holder": "2",
+        "Target": "东波肘子",
+        "Aspect": "文化价值",
+        "Opinion": "东波肘子有文化积淀",
+        "Sentiment": "positive",
+        "Rationale": "强调东波肘子的文化价值"
+    },
+    {
+        "sentence": "很有特点，穿着好看，我来帮你系上。",
+        "Holder": "1",
+        "Target": "东波肘子的外观",
+        "Aspect": "外观评价",
+        "Opinion": "外观好看",
+        "Sentiment": "positive",
+        "Rationale": "觉得东波肘子的外观有特点且好看"
+    },
+    {
+        "sentence": "得了吧，我现在可不系，回头我系上它，待会儿人家来了，我开门去，人以为我是咱家保姆呢。",
+        "Holder": "2",
+        "Target": "系上东波肘子",
+        "Aspect": "形象顾虑",
+        "Opinion": "担心形象",
+        "Sentiment": "negative",
+        "Rationale": "担心系上东波肘子会被误认为是保姆"
+    },
+    {
+        "sentence": "怎么可能呢？有这么漂亮的保姆吗？",
+        "Holder": "1",
+        "Target": "2的形象",
+        "Aspect": "形象评价",
+        "Opinion": "形象好",
+        "Sentiment": "positive",
+        "Rationale": "认为2的形象很好，不会被误认为是保姆"
+    },
+    {
+        "sentence": "你说那外国老头他会中文吗？",
+        "Holder": "2",
+        "Target": "外国老头",
+        "Aspect": "语言能力",
+        "Opinion": "怀疑语言能力",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定外国老头是否会中文"
+    },
+    {
+        "sentence": "应该会吧，要不然他怎么看得懂我剧本呢？",
+        "Holder": "1",
+        "Target": "外国老头",
+        "Aspect": "语言能力",
+        "Opinion": "认为会中文",
+        "Sentiment": "positive",
+        "Rationale": "外国老头能看懂剧本"
+    },
+    {
+        "sentence": "待会儿等那老头一进门，我能不能跟他拥抱一下，人外国人不兴这个吗？",
+        "Holder": "2",
+        "Target": "老头",
+        "Aspect": "见面礼仪",
+        "Opinion": "想拥抱",
+        "Sentiment": "ambiguous",
+        "Rationale": "不确定外国人的见面礼仪是否允许拥抱"
+    },
+    {
+        "sentence": "我什么时候说人家是一外国老头啊，到目前为止，我跟人家还没见过面呢。",
+        "Holder": "1",
+        "Target": "老头",
+        "Aspect": "身份和国籍",
+        "Opinion": "未见面且未确定国籍",
+        "Sentiment": "neutral",
+        "Rationale": "对方误解了自己的话"
+    },
+    {
+        "sentence": "不过这人把约会地点定在咱们家，这人就说明他挺有个性。",
+        "Holder": "2",
+        "Target": "这人",
+        "Aspect": "约会地点的选择",
+        "Opinion": "有个性",
+        "Sentiment": "positive",
+        "Rationale": "对方选择在自家见面，这种行为被认为是有个性的表现"
+    }
+]

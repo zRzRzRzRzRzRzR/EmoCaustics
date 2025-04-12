@@ -1,0 +1,88 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "强制资金索取与家庭矛盾激化",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "连续三次要求300万未果后情绪升级，指责母亲隐瞒关键信息并破坏父亲事业",
+            "source_id": "2"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "发现母亲重生事实后对事件因果产生认知混乱",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被断绝母女关系后陷入绝望性认错",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "真相认知颠覆",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "被告知古董瓶交易真相时产生强烈质疑",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "亲子关系最终决裂",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被连续指责时保持防御性中立，揭露女儿前世背叛行为",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "基于母性本能实施最终救援",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "正式宣布断绝关系时表现决绝态度",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "环境质量质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "连续两次针对气味和身份发表贬损言论",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "社交关系质疑",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "对李总社交对象产生身份怀疑",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

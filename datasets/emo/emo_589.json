@@ -1,0 +1,87 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "冷战与大吵大闹的沟通方式对比",
+        "emotions": [
+          {"state": "negative", "reason": "冷战导致沟通障碍", "source_id": "3,4,5"},
+          {"state": "negative", "reason": "认为大吵大闹不可取", "source_id": "2,4,6"},
+          {"state": "negative", "reason": "被迫选择冷战策略", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "冷战中的主动与被动解决策略",
+        "emotions": [
+          {"state": "negative", "reason": "冷战引发猜疑消耗", "source_id": "5,7"},
+          {"state": "neutral", "reason": "接受轮流主动模式", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情绪管理方法论探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "强调和平沟通价值", "source_id": "1,6"},
+          {"state": "negative", "reason": "质疑非常规情感表达", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "情感伤害的长期影响",
+        "emotions": [
+          {"state": "negative", "reason": "言语伤害持久性创伤", "source_id": "4,7"},
+          {"state": "neutral", "reason": "采用冷静处理策略", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "沟通方式的道德评判",
+        "emotions": [
+          {"state": "negative", "reason": "坚决否定大吵大闹", "source_id": "1,3,5"},
+          {"state": "positive", "reason": "主张自我情绪调节", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "冷战时效性分析",
+        "emotions": [
+          {"state": "negative", "reason": "质疑冷战解决效果", "source_id": "3,4"},
+          {"state": "ambiguous", "reason": "担忧单方面主动疲劳", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "冲突后遗症认知",
+        "emotions": [
+          {"state": "negative", "reason": "强调心结持续存在", "source_id": "3"},
+          {"state": "neutral", "reason": "支持冷静期必要性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "非常规情感表达主张",
+        "emotions": [
+          {"state": "ambiguous", "reason": "通过争吵释放情感", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇沟通方式否定", "source_id": "2,4"}
+        ]
+      }
+    ]
+  }
+}

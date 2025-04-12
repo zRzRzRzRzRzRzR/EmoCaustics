@@ -1,0 +1,299 @@
+[
+    {
+        "sentence": "丑话说在前面，我需要有足够的家庭地位，",
+        "Holder": "1",
+        "Target": "家庭地位",
+        "Aspect": "家庭地位的必要性",
+        "Opinion": "需要足够的家庭地位",
+        "Sentiment": "neutral",
+        "Rationale": "希望在家庭中有一定的地位"
+    },
+    {
+        "sentence": "第一我要实现财务自由，每个月100块的零花钱，我一分都不能少拿，剩下的工资我会按时上交，",
+        "Holder": "1",
+        "Target": "财务自由",
+        "Aspect": "零花钱的数额",
+        "Opinion": "每月100块零花钱是必要的",
+        "Sentiment": "neutral",
+        "Rationale": "希望实现财务自由"
+    },
+    {
+        "sentence": "寻思给你500。",
+        "Holder": "2",
+        "Target": "1的零花钱要求",
+        "Aspect": "零花钱的数额",
+        "Opinion": "愿意给500块",
+        "Sentiment": "positive",
+        "Rationale": "愿意满足1的需求并且给予更多"
+    },
+    {
+        "sentence": "第二我掌控欲极强，所有家务活都要由我来干，有意见吗？",
+        "Holder": "1",
+        "Target": "家务分工",
+        "Aspect": "掌控欲",
+        "Opinion": "自己应该掌控家务",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己有极强的掌控欲，并且希望所有家务都由自己来干"
+    },
+    {
+        "sentence": "这谁没有意见了？",
+        "Holder": "2",
+        "Target": "1的掌控欲",
+        "Aspect": "家务分工的合理性",
+        "Opinion": "反对1的掌控",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的掌控欲过强，不合理地要求所有家务都由自己干"
+    },
+    {
+        "sentence": "第三我是一家之主，所有的大事儿都要听我的，只有小事儿才能听你的，",
+        "Holder": "1",
+        "Target": "家庭决策权",
+        "Aspect": "决策权的分配",
+        "Opinion": "大事自己决定，小事可以听2的",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己是家之主，有权决定大事"
+    },
+    {
+        "sentence": "啥算大事儿啥算小事儿，",
+        "Holder": "2",
+        "Target": "1的决策权划分",
+        "Aspect": "大事小事的定义",
+        "Opinion": "质疑大事小事的划分标准",
+        "Sentiment": "doubt",
+        "Rationale": "2不清楚1所谓的大事小事的具体划分标准"
+    },
+    {
+        "sentence": "这事儿听你的都听他的，哪是地位，这是地位。我西红柿呢。",
+        "Holder": "1",
+        "Target": "家庭地位",
+        "Aspect": "地位的表现",
+        "Opinion": "强调自己的地位",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己在家庭中的地位应该被重视和认可"
+    },
+    {
+        "sentence": "我西红柿呢。",
+        "Holder": "2",
+        "Target": "西红柿的位置",
+        "Aspect": "物品的位置",
+        "Opinion": "询问西红柿的位置",
+        "Sentiment": "neutral",
+        "Rationale": "2找不到西红柿"
+    },
+    {
+        "sentence": "我给吃了，",
+        "Holder": "1",
+        "Target": "西红柿",
+        "Aspect": "西红柿的使用",
+        "Opinion": "已经吃掉了",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1只是陈述了事实，没有表现出明显的情感变化"
+    },
+    {
+        "sentence": "没有西红柿我怎么做汤，我准备的四菜一汤给你，",
+        "Holder": "1",
+        "Target": "西红柿",
+        "Aspect": "做汤的原料",
+        "Opinion": "需要西红柿",
+        "Sentiment": "negative",
+        "Rationale": "西红柿被吃掉了导致无法做汤"
+    },
+    {
+        "sentence": "我买一个去晚了，",
+        "Holder": "2",
+        "Target": "买西红柿",
+        "Aspect": "时间",
+        "Opinion": "去晚了",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2只是解释了原因，没有表现出明显的情感变化"
+    },
+    {
+        "sentence": "今天你的健康餐没有了，为了惩罚你，我要带你出去吃烤肉，不健康。",
+        "Holder": "1",
+        "Target": "健康餐",
+        "Aspect": "饮食安排",
+        "Opinion": "改为吃烤肉",
+        "Sentiment": "positive",
+        "Rationale": "说话人1决定用吃烤肉的方式来惩罚对方，表现出一种轻松和戏谑的态度"
+    },
+    {
+        "sentence": "我就想吃烤肉，我花了多少，",
+        "Holder": "2",
+        "Target": "烤肉",
+        "Aspect": "饮食偏好",
+        "Opinion": "想吃烤肉",
+        "Sentiment": "positive",
+        "Rationale": "说话人2表达了对吃烤肉的强烈愿望，并且提到了自己的付出"
+    },
+    {
+        "sentence": "我只给你三个小时的时间，别以为我给你买了个包就是原谅你了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "时间和原谅",
+        "Opinion": "有限的时间和未原谅",
+        "Sentiment": "negative",
+        "Rationale": "虽然给2买了包但并未真正原谅"
+    },
+    {
+        "sentence": "你还想怎么样？",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "质疑要求",
+        "Sentiment": "negative",
+        "Rationale": "对1的要求感到不满和不解"
+    },
+    {
+        "sentence": "告诉你今天你的洗脚水会比往常的要热",
+        "Holder": "1",
+        "Target": "2的洗脚水",
+        "Aspect": "水温",
+        "Opinion": "会更热",
+        "Sentiment": "neutral",
+        "Rationale": "只是告知一个事实"
+    },
+    {
+        "sentence": "今天我就不洗脚了，你不用那么累，一会你就先拖地再洗个衣服就行。",
+        "Holder": "2",
+        "Target": "1的家务安排",
+        "Aspect": "家务顺序",
+        "Opinion": "建议先拖地再洗衣服",
+        "Sentiment": "positive",
+        "Rationale": "想减轻1的负担"
+    },
+    {
+        "sentence": "不可能我今天心情好不不可能先拖地再洗衣服，我要先洗衣服再拖地，就是跟你对着干，我。",
+        "Holder": "1",
+        "Target": "2的建议",
+        "Aspect": "家务顺序",
+        "Opinion": "反对建议",
+        "Sentiment": "negative",
+        "Rationale": "心情好但不想按2的建议做"
+    },
+    {
+        "sentence": "不要你要干嘛去，",
+        "Holder": "1",
+        "Target": "2的行动",
+        "Aspect": "行动的目的",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2的行动目的"
+    },
+    {
+        "sentence": "我要跟我哥们喝点酒那。",
+        "Holder": "2",
+        "Target": "自己的计划",
+        "Aspect": "计划的内容",
+        "Opinion": "喝酒",
+        "Sentiment": "positive",
+        "Rationale": "2表达了自己想要和朋友们喝酒的愿望"
+    },
+    {
+        "sentence": "就在家喝，我要。",
+        "Holder": "1",
+        "Target": "2的计划",
+        "Aspect": "计划的地点",
+        "Opinion": "在家喝",
+        "Sentiment": "neutral",
+        "Rationale": "1提出了一个替代方案"
+    },
+    {
+        "sentence": "出去喝，",
+        "Holder": "2",
+        "Target": "自己的计划",
+        "Aspect": "计划的地点",
+        "Opinion": "出去喝",
+        "Sentiment": "positive",
+        "Rationale": "2坚持自己的计划要出去喝酒"
+    },
+    {
+        "sentence": "你再说一遍。",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "话语的重复",
+        "Opinion": "要求重复",
+        "Sentiment": "neutral",
+        "Rationale": "1要求2重复刚才的话"
+    },
+    {
+        "sentence": "听好了，我要跟我哥们出去喝酒，有意见吗？",
+        "Holder": "1",
+        "Target": "出去喝酒",
+        "Aspect": "个人决定",
+        "Opinion": "要求无异议",
+        "Sentiment": "neutral",
+        "Rationale": "1在宣布自己的决定并询问是否有异议"
+    },
+    {
+        "sentence": "我自己在家没意思",
+        "Holder": "2",
+        "Target": "自己在家",
+        "Aspect": "娱乐性",
+        "Opinion": "感到无聊",
+        "Sentiment": "negative",
+        "Rationale": "2独自在家感到无聊"
+    },
+    {
+        "sentence": "怎么没意思，你可以在家看我的手机我再。给你买一个。可以关门了吗？所以我们家必须我说了算都。",
+        "Holder": "1",
+        "Target": "2的无聊感",
+        "Aspect": "解决方案",
+        "Opinion": "提供娱乐方式",
+        "Sentiment": "positive",
+        "Rationale": "1提供了多种解决方案来缓解2的无聊"
+    },
+    {
+        "sentence": "几点了还回来进屋。",
+        "Holder": "2",
+        "Target": "1的回家时间",
+        "Aspect": "时间合理性",
+        "Opinion": "质疑晚归",
+        "Sentiment": "negative",
+        "Rationale": "2对1晚归表示不满"
+    },
+    {
+        "sentence": "再喝10分钟。",
+        "Holder": "1",
+        "Target": "继续喝酒",
+        "Aspect": "时间要求",
+        "Opinion": "短暂延长",
+        "Sentiment": "neutral",
+        "Rationale": "1请求再延长一点时间喝酒"
+    },
+    {
+        "sentence": "我说进屋你听不懂,",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "理解能力",
+        "Opinion": "听不懂",
+        "Sentiment": "negative",
+        "Rationale": "1没有理解2的话"
+    },
+    {
+        "sentence": "我说再喝10分钟最好别惹我。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为要求",
+        "Opinion": "希望不被打扰",
+        "Sentiment": "negative",
+        "Rationale": "1希望再喝10分钟不被打扰"
+    },
+    {
+        "sentence": "我就惹你咋的了，我惹你了。我就惹你了，不拽着我，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为挑衅",
+        "Opinion": "故意惹恼",
+        "Sentiment": "negative",
+        "Rationale": "2故意挑衅1"
+    },
+    {
+        "sentence": "惹不算惹我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为影响",
+        "Opinion": "不算惹",
+        "Sentiment": "neutral",
+        "Rationale": "1认为2的行为并没有真正影响到自己"
+    }
+]

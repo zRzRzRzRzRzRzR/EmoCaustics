@@ -1,0 +1,94 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "打字能力与沟通方式争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑2的打字能力、认为需要请人打字、被2质疑经济能力",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "认同3保护房子的意愿",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "与3发生冲突后要求对方离开",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "成就与经济能力的互相质疑",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可2的成就",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被2讽刺能力和态度",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "打字能力与经济能力争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑1打字能力、被1讽刺经济能力",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "支持3保护房子的行为",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "冲突升级与肢体接触",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被1动手攻击",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "保护房子与身份确认",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "解释保护房子的必要性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "自我否定成就、被1质疑行为合理性",
+            "source_id": "1"
+          },
+          {
+            "state": "ambiguous",
+            "reason": "被质疑文明程度",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

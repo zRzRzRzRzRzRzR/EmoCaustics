@@ -1,0 +1,623 @@
+[
+    {
+        "sentence": "霍总结婚，怎么不邀请我这个前妻观礼啊？",
+        "Holder": "1",
+        "Target": "霍总",
+        "Aspect": "婚礼邀请",
+        "Opinion": "未被邀请",
+        "Sentiment": "negative",
+        "Rationale": "作为前妻未被邀请参加婚礼"
+    },
+    {
+        "sentence": "南溪，你怎么阴魂不散呢？",
+        "Holder": "2",
+        "Target": "南溪",
+        "Aspect": "行为",
+        "Opinion": "纠缠不清",
+        "Sentiment": "negative",
+        "Rationale": "南溪不断出现在不该出现的地方"
+    },
+    {
+        "sentence": "霍总的前妻？她不是南家大小姐吗？她来干什么？",
+        "Holder": "3",
+        "Target": "南溪",
+        "Aspect": "身份和目的",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对南溪的出现感到意外和不解"
+    },
+    {
+        "sentence": "一个坐过牢，腿还残废的女人，居然还敢来这抢亲？南家的脸都被她丢尽了。",
+        "Holder": "3",
+        "Target": "南溪",
+        "Aspect": "行为和家族荣誉",
+        "Opinion": "丢脸",
+        "Sentiment": "negative",
+        "Rationale": "南溪的过去和行为让家族蒙羞"
+    },
+    {
+        "sentence": "你来干什么？",
+        "Holder": "4",
+        "Target": "南溪",
+        "Aspect": "目的",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "对南溪的出现感到疑惑和不欢迎"
+    },
+    {
+        "sentence": "这么大喜的日子，我当然是来送新婚祝福的。怎么，霍先生是不欢迎吗？",
+        "Holder": "1",
+        "Target": "霍先生的态度",
+        "Aspect": "欢迎程度",
+        "Opinion": "质疑不欢迎",
+        "Sentiment": "ambiguous",
+        "Rationale": "1觉得自己是来送祝福的，但霍先生的表现让他感到可能不被欢迎"
+    },
+    {
+        "sentence": "祝福？你这样闯进来打断别人的婚礼，是送祝福的方式吗？送晦气还差不多。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "送祝福的方式",
+        "Opinion": "认为是送晦气",
+        "Sentiment": "negative",
+        "Rationale": "2认为1闯入婚礼并打断仪式是不礼貌的行为"
+    },
+    {
+        "sentence": "叶小姐今天可真美啊，这套婚纱一定价值不菲吧。",
+        "Holder": "1",
+        "Target": "叶小姐的婚纱",
+        "Aspect": "婚纱的价值",
+        "Opinion": "认为价值高",
+        "Sentiment": "positive",
+        "Rationale": "1看到叶小姐的婚纱觉得很美，推测其价值不菲"
+    },
+    {
+        "sentence": "那是自然，我这件婚纱，可是阿峥特意从意大利给我定制的，全球仅此一件，价值连城。",
+        "Holder": "2",
+        "Target": "自己的婚纱",
+        "Aspect": "婚纱的独特性和价值",
+        "Opinion": "强调独特和高价值",
+        "Sentiment": "positive",
+        "Rationale": "2的婚纱是特意定制且全球唯一，感到非常自豪和满意"
+    },
+    {
+        "sentence": "真的，你看你看。",
+        "Holder": "3",
+        "Target": "2的婚纱",
+        "Aspect": "婚纱的独特性",
+        "Opinion": "表示惊叹",
+        "Sentiment": "positive",
+        "Rationale": "3听到2描述婚纱的独特性后感到惊叹和羡慕"
+    },
+    {
+        "sentence": "看你这副鬼样子，恐怕这辈子都穿不上了吧。",
+        "Holder": "2",
+        "Target": "1的外貌",
+        "Aspect": "外貌评价",
+        "Opinion": "外貌不佳",
+        "Sentiment": "negative",
+        "Rationale": "2对1的外貌进行贬低"
+    },
+    {
+        "sentence": "确实可惜了。",
+        "Holder": "1",
+        "Target": "自身情况",
+        "Aspect": "自身评价",
+        "Opinion": "感到遗憾",
+        "Sentiment": "negative",
+        "Rationale": "1对自己的情况感到遗憾"
+    },
+    {
+        "sentence": "什么可惜了，南溪，你少在这阴阳怪气的。",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度评价",
+        "Opinion": "认为1态度不真诚",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的态度不真诚"
+    },
+    {
+        "sentence": "腿都废了，还敢跑到我和阿峥的婚礼上来闹事，你还要不要脸，别逼我把你赶出去！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为评价",
+        "Opinion": "认为1行为不当",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为不合适"
+    },
+    {
+        "sentence": "堂堂叶家千金，为爱当三都没觉得不要脸，我这个前妻只不过想来喝杯喜酒，叶小姐都容不下吗？难道是心虚了？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为评价",
+        "Opinion": "质疑2的行为",
+        "Sentiment": "negative",
+        "Rationale": "1质疑2的行为动机"
+    },
+    {
+        "sentence": "叶小姐是小三儿，真的假的？不会吧。",
+        "Holder": "3",
+        "Target": "叶小姐",
+        "Aspect": "身份的真实性",
+        "Opinion": "怀疑叶小姐是小三",
+        "Sentiment": "ambiguous",
+        "Rationale": "听到关于叶小姐是小三的传闻，但不确定真假"
+    },
+    {
+        "sentence": "南溪，你少在这血口喷人，谁是小三？",
+        "Holder": "2",
+        "Target": "南溪",
+        "Aspect": "言语的公正性",
+        "Opinion": "指责南溪诬陷",
+        "Sentiment": "negative",
+        "Rationale": "南溪无端指责叶小姐是小三"
+    },
+    {
+        "sentence": "早在你们结婚之前，我和阿峥就在一起了，明明是你借着南家的势逼得阿峥娶你，你才是差足我们之间的第三者！",
+        "Holder": "2",
+        "Target": "南溪",
+        "Aspect": "关系的真实性",
+        "Opinion": "认为南溪是第三者",
+        "Sentiment": "negative",
+        "Rationale": "认为自己与阿峥的关系在前，南溪是后来介入者"
+    },
+    {
+        "sentence": "我逼他？",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为的合理性",
+        "Opinion": "否认逼迫",
+        "Sentiment": "negative",
+        "Rationale": "被指责逼迫阿峥结婚，感到委屈和愤怒"
+    },
+    {
+        "sentence": "霍先生，是我逼的你吗？",
+        "Holder": "1",
+        "Target": "霍先生",
+        "Aspect": "行为的真实性",
+        "Opinion": "否认逼迫",
+        "Sentiment": "negative",
+        "Rationale": "被霍先生指责逼迫结婚，感到委屈和需要澄清"
+    },
+    {
+        "sentence": "你少在这装无辜了，要不是你相逼，阿峥和我十几年的感情，他怎么会娶你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "婚姻的合理性",
+        "Opinion": "认为1逼迫阿峥结婚",
+        "Sentiment": "negative",
+        "Rationale": "2认为1逼迫阿峥结婚，破坏了自己和阿峥十几年的感情"
+    },
+    {
+        "sentence": "十几年？霍峥，我跟你结婚三年，怎么都没听你提起过呀。",
+        "Holder": "1",
+        "Target": "霍峥",
+        "Aspect": "过去的感情",
+        "Opinion": "对过去感情不知情",
+        "Sentiment": "ambiguous",
+        "Rationale": "1发现自己对霍峥过去的感情一无所知"
+    },
+    {
+        "sentence": "你算什么东西，凭什么要跟你提？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "知情权",
+        "Opinion": "认为1无权知情",
+        "Sentiment": "negative",
+        "Rationale": "2认为1没有资格知道霍峥的过去"
+    },
+    {
+        "sentence": "她说的都是真的？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言论的真实性",
+        "Opinion": "对2的话表示怀疑",
+        "Sentiment": "doubt",
+        "Rationale": "1对2的指责感到不确定"
+    },
+    {
+        "sentence": "对，我们15年前就已经认识。",
+        "Holder": "4",
+        "Target": "2和1",
+        "Aspect": "相识时间",
+        "Opinion": "确认2的说法",
+        "Sentiment": "neutral",
+        "Rationale": "4在陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "原来十几年前叶小姐就这么心地善良啊，这场婚礼看来是天赐良缘啊。",
+        "Holder": "3",
+        "Target": "叶小姐",
+        "Aspect": "心地善良",
+        "Opinion": "心地善良",
+        "Sentiment": "positive",
+        "Rationale": "叶小姐十几年前就表现出善良的品质"
+    },
+    {
+        "sentence": "你都听清楚了吧？15年前就是这对玉佩，让我和阿峥相识，现在又是这对玉佩促成了我们至今的姻缘。",
+        "Holder": "2",
+        "Target": "玉佩",
+        "Aspect": "姻缘促成",
+        "Opinion": "玉佩促成姻缘",
+        "Sentiment": "positive",
+        "Rationale": "玉佩在15年前让他们相识，现在又促成了姻缘"
+    },
+    {
+        "sentence": "听清楚了，很清楚。",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "理解程度",
+        "Opinion": "完全理解",
+        "Sentiment": "neutral",
+        "Rationale": "已经听清楚并理解了对话内容"
+    },
+    {
+        "sentence": "霍峥，你一直心心念念要找的那个人，就是这一半玉佩的主人。",
+        "Holder": "1",
+        "Target": "霍峥寻找的人",
+        "Aspect": "身份确认",
+        "Opinion": "玉佩主人",
+        "Sentiment": "neutral",
+        "Rationale": "确认了霍峥寻找的人就是玉佩的主人"
+    },
+    {
+        "sentence": "是，是可欣在我最无助的时候帮助了我，所以她有权利要我为她做任何事。",
+        "Holder": "4",
+        "Target": "可欣",
+        "Aspect": "帮助与权利",
+        "Opinion": "可欣有权利要求",
+        "Sentiment": "positive",
+        "Rationale": "可欣在困难时给予了帮助"
+    },
+    {
+        "sentence": "也包括婚内出轨，离婚娶她？",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "婚姻忠诚",
+        "Opinion": "质疑4的忠诚",
+        "Sentiment": "negative",
+        "Rationale": "1质疑4在婚姻中的忠诚度"
+    },
+    {
+        "sentence": "南溪，你别忘了我当初是因为谁才被害的家破人亡，我不报恩难道你要我守着一个仇人过一辈子吗！",
+        "Holder": "4",
+        "Target": "1的质疑",
+        "Aspect": "报恩的合理性",
+        "Opinion": "认为自己有报恩的义务",
+        "Sentiment": "negative",
+        "Rationale": "4觉得自己有报恩的义务，而1的质疑让他感到委屈和愤怒"
+    },
+    {
+        "sentence": "你笑什么？",
+        "Holder": "2",
+        "Target": "1的笑",
+        "Aspect": "笑的原因",
+        "Opinion": "好奇1为什么笑",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的笑感到好奇"
+    },
+    {
+        "sentence": "我笑有人瞎了眼而不自知。",
+        "Holder": "1",
+        "Target": "4的认知",
+        "Aspect": "判断力",
+        "Opinion": "认为4判断错误",
+        "Sentiment": "negative",
+        "Rationale": "1认为4在报恩对象的选择上判断错误"
+    },
+    {
+        "sentence": "霍峥，你就这么确定她就是你要报恩的人？",
+        "Holder": "1",
+        "Target": "4的报恩对象",
+        "Aspect": "报恩对象的确定性",
+        "Opinion": "质疑4的确定",
+        "Sentiment": "negative",
+        "Rationale": "1对4确定的报恩对象表示怀疑"
+    },
+    {
+        "sentence": "你这话是什么意思？",
+        "Holder": "4",
+        "Target": "2的话语",
+        "Aspect": "话语的意图",
+        "Opinion": "质疑话语意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "4不理解2话语的具体意图"
+    },
+    {
+        "sentence": "南溪，你少在这危言耸听，我知道你不甘心看着阿峥娶别人，但是阿峥他根本就不爱你，你又何必死缠烂打，还是赶紧滚吧。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认为4死缠烂打",
+        "Sentiment": "negative",
+        "Rationale": "2认为4不甘心阿峥娶别人而纠缠不清"
+    },
+    {
+        "sentence": "我话还没有说完，为什么要走。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "认为要求不合理",
+        "Sentiment": "negative",
+        "Rationale": "1认为自己的话还没说完就被要求离开"
+    },
+    {
+        "sentence": "既然你不要脸，那就别怪我不客气了。",
+        "Holder": "2",
+        "Target": "4的行为",
+        "Aspect": "行为的道德性",
+        "Opinion": "认为4不要脸",
+        "Sentiment": "negative",
+        "Rationale": "2认为4的行为不要脸"
+    },
+    {
+        "sentence": "来人，给我好好教训教训她，再把她给我赶出去！",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "对待方式",
+        "Opinion": "要教训并赶走4",
+        "Sentiment": "negative",
+        "Rationale": "2对4的行为极度不满"
+    },
+    {
+        "sentence": "你是自己出去呢，还是我找人把你请出去！",
+        "Holder": "4",
+        "Target": "1的在场",
+        "Aspect": "离场的必要性",
+        "Opinion": "要求1离开",
+        "Sentiment": "negative",
+        "Rationale": "4认为1不应该在场"
+    },
+    {
+        "sentence": "我刚才说了，我的话还没说完呢。",
+        "Holder": "1",
+        "Target": "自己的发言",
+        "Aspect": "发言的完整性",
+        "Opinion": "需要说完",
+        "Sentiment": "negative",
+        "Rationale": "1的话被中断"
+    },
+    {
+        "sentence": "而且，我的贺礼还没送呢，我不走。",
+        "Holder": "1",
+        "Target": "自己的贺礼",
+        "Aspect": "贺礼的赠送",
+        "Opinion": "需要送出",
+        "Sentiment": "negative",
+        "Rationale": "1的贺礼还没送出"
+    },
+    {
+        "sentence": "贺礼？谁稀罕你的贺礼。",
+        "Holder": "2",
+        "Target": "1的贺礼",
+        "Aspect": "贺礼的价值",
+        "Opinion": "不稀罕",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的贺礼没有价值"
+    },
+    {
+        "sentence": "你们会喜欢的。",
+        "Holder": "1",
+        "Target": "自己的贺礼",
+        "Aspect": "贺礼的吸引力",
+        "Opinion": "认为会被喜欢",
+        "Sentiment": "positive",
+        "Rationale": "1对自己的贺礼有信心"
+    },
+    {
+        "sentence": "诸位听了这么多，想必对霍先生和叶小姐的爱情感动不已吧。但是这玉佩里面有一个秘密，你们还不知道吧。",
+        "Holder": "1",
+        "Target": "霍先生和叶小姐的爱情",
+        "Aspect": "爱情的感人程度",
+        "Opinion": "感动不已",
+        "Sentiment": "positive",
+        "Rationale": "提及了感人的爱情故事"
+    },
+    {
+        "sentence": "要我说还是你自己坦白呢？",
+        "Holder": "1",
+        "Target": "玉佩的秘密",
+        "Aspect": "坦白的必要性",
+        "Opinion": "建议坦白",
+        "Sentiment": "neutral",
+        "Rationale": "建议对方坦白"
+    },
+    {
+        "sentence": "南溪，你到底想干什么，还给我！",
+        "Holder": "2",
+        "Target": "南溪的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "要求归还",
+        "Sentiment": "negative",
+        "Rationale": "南溪拿走了玉佩"
+    },
+    {
+        "sentence": "阿峥，我的玉佩。",
+        "Holder": "2",
+        "Target": "玉佩的所有权",
+        "Aspect": "物品的归属",
+        "Opinion": "确认归属",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认玉佩的归属"
+    },
+    {
+        "sentence": "南溪，你马上把可欣的玉佩还给她，不然的话我就对你不客气！",
+        "Holder": "4",
+        "Target": "南溪的行为",
+        "Aspect": "行为的正当性",
+        "Opinion": "要求归还",
+        "Sentiment": "negative",
+        "Rationale": "南溪没有归还玉佩"
+    },
+    {
+        "sentence": "她的东西，你怎么就知道这一定是她的东西。",
+        "Holder": "1",
+        "Target": "4的判断",
+        "Aspect": "物品归属的确定性",
+        "Opinion": "质疑归属",
+        "Sentiment": "doubt",
+        "Rationale": "1对4确定的物品归属表示怀疑"
+    },
+    {
+        "sentence": "你什么意思？",
+        "Holder": "4",
+        "Target": "1的质疑",
+        "Aspect": "话语意图",
+        "Opinion": "不明意图",
+        "Sentiment": "ambiguous",
+        "Rationale": "4不清楚1质疑的真正意图"
+    },
+    {
+        "sentence": "南溪，疯了吗？你知不知道这条裙子值多少钱？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "物品价值的认知",
+        "Opinion": "认为1无知",
+        "Sentiment": "negative",
+        "Rationale": "2认为1不了解裙子的价值"
+    },
+    {
+        "sentence": "我不是早就说过了吗？这条婚纱穿在你的身上，可惜了。",
+        "Holder": "1",
+        "Target": "2的穿着",
+        "Aspect": "穿着效果",
+        "Opinion": "认为不合适",
+        "Sentiment": "negative",
+        "Rationale": "1认为婚纱穿在2身上不合适"
+    },
+    {
+        "sentence": "玉佩，这玉佩上面有一个字，还是一个溪字。",
+        "Holder": "3",
+        "Target": "玉佩",
+        "Aspect": "玉佩上的字",
+        "Opinion": "有一个溪字",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观描述玉佩上的字"
+    },
+    {
+        "sentence": "溪，这不是南小姐的名字吗？",
+        "Holder": "3",
+        "Target": "南小姐",
+        "Aspect": "名字",
+        "Opinion": "溪是南小姐的名字",
+        "Sentiment": "neutral",
+        "Rationale": "只是指出溪字与南小姐名字的关联"
+    },
+    {
+        "sentence": "这霍先生和叶小姐的定情信物上，怎么会有他前妻的名字，这是什么操作？这三个人玩什么呢？",
+        "Holder": "3",
+        "Target": "霍先生和叶小姐的定情信物",
+        "Aspect": "信物上的名字",
+        "Opinion": "不应该有前妻的名字",
+        "Sentiment": "negative",
+        "Rationale": "定情信物上出现前妻的名字让人感到困惑和不解"
+    },
+    {
+        "sentence": "怎么可能。",
+        "Holder": "2",
+        "Target": "霍先生和叶小姐的定情信物上的名字",
+        "Aspect": "合理性",
+        "Opinion": "不可能",
+        "Sentiment": "negative",
+        "Rationale": "觉得定情信物上出现前妻的名字不合常理"
+    },
+    {
+        "sentence": "这到底怎么回事？",
+        "Holder": "4",
+        "Target": "当前情况",
+        "Aspect": "事情的真相",
+        "Opinion": "不清楚",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前情况感到困惑和不明"
+    },
+    {
+        "sentence": "怎么回事，你的心里不是已经有答案了吗？",
+        "Holder": "1",
+        "Target": "5的心里答案",
+        "Aspect": "答案的确定性",
+        "Opinion": "认为5已有答案",
+        "Sentiment": "ambiguous",
+        "Rationale": "1质疑5心中已有答案"
+    },
+    {
+        "sentence": "霍峥，这龙凤佩呀，是南溪生日的时候，南伯父送给她的生辰礼物，用的玉料非常特别，遇水就能显字。你现在还有什么疑虑吗？",
+        "Holder": "5",
+        "Target": "龙凤佩",
+        "Aspect": "玉佩的来历和特性",
+        "Opinion": "详细说明玉佩的特别之处",
+        "Sentiment": "neutral",
+        "Rationale": "5在详细介绍玉佩的来历和特性"
+    },
+    {
+        "sentence": "不，不是他们说的那样，他们在撒谎！",
+        "Holder": "2",
+        "Target": "他人的说法",
+        "Aspect": "说法的真实性",
+        "Opinion": "认为他人撒谎",
+        "Sentiment": "negative",
+        "Rationale": "2坚信他人所言不实"
+    },
+    {
+        "sentence": "一定是他们偷偷换掉了这块玉佩，这根本不是我的那块。",
+        "Holder": "2",
+        "Target": "玉佩",
+        "Aspect": "玉佩的真实性",
+        "Opinion": "认为玉佩被替换",
+        "Sentiment": "negative",
+        "Rationale": "2怀疑玉佩被他人替换"
+    },
+    {
+        "sentence": "这块玉佩，到底是不是你的！",
+        "Holder": "4",
+        "Target": "玉佩",
+        "Aspect": "玉佩的归属",
+        "Opinion": "质疑玉佩归属",
+        "Sentiment": "negative",
+        "Rationale": "4对玉佩的归属产生怀疑"
+    },
+    {
+        "sentence": "不是，啊不，是我的，是我的玉佩。",
+        "Holder": "2",
+        "Target": "玉佩",
+        "Aspect": "玉佩的归属",
+        "Opinion": "玉佩是自己的",
+        "Sentiment": "ambiguous",
+        "Rationale": "说话人2在对话中表现出慌乱和不确定"
+    },
+    {
+        "sentence": "你们到底是谁在撒谎。",
+        "Holder": "4",
+        "Target": "2和5",
+        "Aspect": "诚实性",
+        "Opinion": "怀疑有人撒谎",
+        "Sentiment": "negative",
+        "Rationale": "说话人4对其他人的诚实性产生怀疑"
+    },
+    {
+        "sentence": "是你这个歹毒的女人！",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "人品",
+        "Opinion": "认为4是歹毒的",
+        "Sentiment": "negative",
+        "Rationale": "说话人2对4的人品产生强烈不满"
+    },
+    {
+        "sentence": "霍峥，我该说你是可恨呢还是可怜呢？连这个报恩的人都能认错。",
+        "Holder": "5",
+        "Target": "2",
+        "Aspect": "判断力",
+        "Opinion": "认为2判断力差",
+        "Sentiment": "negative",
+        "Rationale": "说话人5认为2连报恩的人都能认错"
+    },
+    {
+        "sentence": "这到底怎么回事啊？不是定情信物吗，怎么成霍总前妻的了？这东西都能搞错，这也太离谱了。",
+        "Holder": "3",
+        "Target": "玉佩的归属",
+        "Aspect": "事件的合理性",
+        "Opinion": "认为事件离谱",
+        "Sentiment": "negative",
+        "Rationale": "说话人3认为玉佩的归属问题非常不合理"
+    }
+]

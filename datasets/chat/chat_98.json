@@ -1,0 +1,434 @@
+[
+    {
+        "sentence": "行了你，嘿嘿，我都快成英国病人了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "健康状况",
+        "Opinion": "自嘲身体不好",
+        "Sentiment": "ambiguous",
+        "Rationale": "用‘英国病人’来自嘲自己的健康状况"
+    },
+    {
+        "sentence": "你别闹了，我走了，姐",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "希望停止闹腾",
+        "Sentiment": "neutral",
+        "Rationale": "想要结束当前的互动"
+    },
+    {
+        "sentence": "拜拜。回去别瞎说",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "言行",
+        "Opinion": "提醒不要乱说",
+        "Sentiment": "neutral",
+        "Rationale": "担心对方回去后乱说话"
+    },
+    {
+        "sentence": "出国工作挣美元，我边上这么大的馅饼",
+        "Holder": "2",
+        "Target": "出国工作机会",
+        "Aspect": "机会的大小",
+        "Opinion": "认为机会很大",
+        "Sentiment": "positive",
+        "Rationale": "把出国工作比作‘大馅饼’"
+    },
+    {
+        "sentence": "怎么回事？你们仨这口气怎么跟兰兰阿姨一样啊？",
+        "Holder": "1",
+        "Target": "2, 3, 4",
+        "Aspect": "说话口气",
+        "Opinion": "像兰兰阿姨",
+        "Sentiment": "negative",
+        "Rationale": "觉得他们的说话口气像兰兰阿姨"
+    },
+    {
+        "sentence": "不是怎么样，你们倒是同意不同意啊？",
+        "Holder": "1",
+        "Target": "2, 3, 4",
+        "Aspect": "态度明确性",
+        "Opinion": "要求明确表态",
+        "Sentiment": "neutral",
+        "Rationale": "需要他们的明确态度"
+    },
+    {
+        "sentence": "当然同意啦",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "态度",
+        "Opinion": "同意",
+        "Sentiment": "positive",
+        "Rationale": "自己已经决定同意"
+    },
+    {
+        "sentence": "我不同意不许您走。",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "行动限制",
+        "Opinion": "不同意离开",
+        "Sentiment": "negative",
+        "Rationale": "不想让1离开"
+    },
+    {
+        "sentence": "小雨，这可是关系老妈前途的大事。妈您必须得走。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "重要性",
+        "Opinion": "必须离开",
+        "Sentiment": "positive",
+        "Rationale": "认为这件事对1的前途非常重要"
+    },
+    {
+        "sentence": "哎，那妈走了，谁照顾咱们呀哎？",
+        "Holder": "4",
+        "Target": "妈妈的离开",
+        "Aspect": "照顾问题",
+        "Opinion": "担心无人照顾",
+        "Sentiment": "negative",
+        "Rationale": "担心妈妈离开后没有人照顾大家"
+    },
+    {
+        "sentence": "这是造福咱们全家的好事，我大力支持你。",
+        "Holder": "5",
+        "Target": "妈妈的离开",
+        "Aspect": "对家庭的影响",
+        "Opinion": "认为是好事",
+        "Sentiment": "positive",
+        "Rationale": "认为妈妈的离开对全家有好处"
+    },
+    {
+        "sentence": "小雨说的对，我走了，谁照顾你们，谁给你们做饭呢？",
+        "Holder": "1",
+        "Target": "自己的离开",
+        "Aspect": "照顾和做饭",
+        "Opinion": "担心无人照顾和做饭",
+        "Sentiment": "negative",
+        "Rationale": "担心自己离开后孩子们没有人照顾和做饭"
+    },
+    {
+        "sentence": "妈，这就是您鼠目寸光了，说您目光怎么就那么短浅呀？您想想您一辈子光给我们当保姆能有多大出息啊？",
+        "Holder": "2",
+        "Target": "妈妈的观点",
+        "Aspect": "人生价值",
+        "Opinion": "认为妈妈目光短浅",
+        "Sentiment": "negative",
+        "Rationale": "认为妈妈只顾着照顾家人而没有追求自己的价值"
+    },
+    {
+        "sentence": "合着我在你们心目中就是你们的保姆？",
+        "Holder": "1",
+        "Target": "自己在孩子们心中的地位",
+        "Aspect": "角色定位",
+        "Opinion": "感到被贬低",
+        "Sentiment": "negative",
+        "Rationale": "感到自己在孩子们心中只是个保姆"
+    },
+    {
+        "sentence": "不是，我不是那意思，我不就一时说漏嘴了吗？",
+        "Holder": "5",
+        "Target": "自己的言论",
+        "Aspect": "言论的准确性",
+        "Opinion": "解释为口误",
+        "Sentiment": "neutral",
+        "Rationale": "想要澄清自己的言论只是口误"
+    },
+    {
+        "sentence": "您是我们妈就更应该去了，我们有一同学还老跟我在那吹。说他妈在日本工作。天天挣日元，一个月挣好几万。本来我还以为多少呢，其实折合人民币和咱爸咱妈挣差不多。",
+        "Holder": "5",
+        "Target": "妈妈的工作选择",
+        "Aspect": "工作机会的比较",
+        "Opinion": "支持妈妈出国工作",
+        "Sentiment": "positive",
+        "Rationale": "认为妈妈出国工作有更好的机会"
+    },
+    {
+        "sentence": "不管你们怎么说，我也不许妈去，绝对不许妈去。",
+        "Holder": "4",
+        "Target": "妈妈出国工作",
+        "Aspect": "家庭情感",
+        "Opinion": "坚决反对",
+        "Sentiment": "negative",
+        "Rationale": "担心妈妈出国会影响家庭情感"
+    },
+    {
+        "sentence": "哎，妈妈妈。你可千万别您千万不要被儿女情长束缚了您迈出国门的脚步，外面的事情很精彩，也很无奈，大不了我们天天下馆子呀。",
+        "Holder": "5",
+        "Target": "妈妈的顾虑",
+        "Aspect": "个人发展",
+        "Opinion": "鼓励妈妈出国",
+        "Sentiment": "positive",
+        "Rationale": "认为妈妈应该追求个人发展"
+    },
+    {
+        "sentence": "你说什么呢你？",
+        "Holder": "1",
+        "Target": "5的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "认为5的言论不合适"
+    },
+    {
+        "sentence": "这好事啊",
+        "Holder": "6",
+        "Target": "1去美国当特护",
+        "Aspect": "事件的性质",
+        "Opinion": "认为是好事",
+        "Sentiment": "positive",
+        "Rationale": "听到1要去美国当特护，觉得这是一个不错的机会"
+    },
+    {
+        "sentence": "我上美国可不是旅游去，也不是度假去，也不是进修去。我去给人当特护去，特护。",
+        "Holder": "1",
+        "Target": "自己去美国的理由",
+        "Aspect": "去美国的目的",
+        "Opinion": "强调是去当特护",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清自己去美国的目的"
+    },
+    {
+        "sentence": "上美国特护谁啊？克林顿啊。",
+        "Holder": "6",
+        "Target": "1的特护对象",
+        "Aspect": "特护对象的身份",
+        "Opinion": "调侃地问是否是克林顿",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的特护对象感到好奇"
+    },
+    {
+        "sentence": "这你贫什么呀？你人克林顿能让我吗，你记得吧？前一段时间我告诉你，我们医院来了一个老华侨，胃出血。",
+        "Holder": "1",
+        "Target": "6的调侃",
+        "Aspect": "调侃的合理性",
+        "Opinion": "认为调侃不合适",
+        "Sentiment": "negative",
+        "Rationale": "觉得6的调侃不合时宜"
+    },
+    {
+        "sentence": "我记得那不是都两个多月前的事了，他还活着呢。",
+        "Holder": "6",
+        "Target": "老华侨的情况",
+        "Aspect": "老华侨的健康状况",
+        "Opinion": "记得老华侨的情况",
+        "Sentiment": "neutral",
+        "Rationale": "回忆起之前提到的事情"
+    },
+    {
+        "sentence": "废话，可不是活着活的好好的，我还告诉你康复了啊。",
+        "Holder": "1",
+        "Target": "康复情况",
+        "Aspect": "健康状况",
+        "Opinion": "已经康复",
+        "Sentiment": "positive",
+        "Rationale": "自己已经康复并且活得很好"
+    },
+    {
+        "sentence": "我记得那会儿你不是说都已经快不行了吗？你们够厉害的，这立大功啊。",
+        "Holder": "6",
+        "Target": "1的康复",
+        "Aspect": "康复效果",
+        "Opinion": "康复效果显著",
+        "Sentiment": "positive",
+        "Rationale": "1从快要不行到完全康复，展现出医院的高超医术"
+    },
+    {
+        "sentence": "那当然了，把老头给乐疯了。好家伙，就觉得我们医院救了他的命，觉得他现在的命是捡来的，送了我们医院一特棒的 CT 机，好几百万呐。当然了，就有一附加条件，就希望我能跟着他一块儿回美国去，再照顾他一段儿时间。",
+        "Holder": "1",
+        "Target": "医院的救治",
+        "Aspect": "救治效果和患者感激",
+        "Opinion": "患者非常感激",
+        "Sentiment": "positive",
+        "Rationale": "患者认为医院救了他的命"
+    },
+    {
+        "sentence": "什么意思？他不都已经康复了吗？还照顾什么呀？合着你们医院现在是准备实行三包送货上门，包修到底啊就是包修到底。干嘛非得是你啊？",
+        "Holder": "6",
+        "Target": "1的额外照顾要求",
+        "Aspect": "照顾的必要性",
+        "Opinion": "质疑照顾的必要性",
+        "Sentiment": "negative",
+        "Rationale": "患者已经康复，却还要求1继续照顾"
+    },
+    {
+        "sentence": "这不是有感情了吗？在一块。",
+        "Holder": "1",
+        "Target": "继续照顾的原因",
+        "Aspect": "感情因素",
+        "Opinion": "因为有感情",
+        "Sentiment": "positive",
+        "Rationale": "与患者建立了感情"
+    },
+    {
+        "sentence": "什么感情啊？",
+        "Holder": "6",
+        "Target": "感情",
+        "Aspect": "感情的类型",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对‘感情’一词的具体含义不清楚"
+    },
+    {
+        "sentence": "你小点声。",
+        "Holder": "1",
+        "Target": "6的声音",
+        "Aspect": "音量",
+        "Opinion": "声音太大",
+        "Sentiment": "negative",
+        "Rationale": "觉得6的声音太大影响了他人"
+    },
+    {
+        "sentence": "什么感情",
+        "Holder": "6",
+        "Target": "感情",
+        "Aspect": "感情的类型",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对‘感情’一词的具体含义不清楚"
+    },
+    {
+        "sentence": "什么感情？也不如那种你想那种脏感情，我照顾人家两个多月，照顾的特别好，人家就觉得我挺体贴的，另外也挺懂得他的生活习惯啦。人家所以才想让我去。",
+        "Holder": "1",
+        "Target": "感情",
+        "Aspect": "感情的纯洁性",
+        "Opinion": "自己的感情是纯洁的",
+        "Sentiment": "positive",
+        "Rationale": "自己付出了很多并得到了对方的认可"
+    },
+    {
+        "sentence": "借口，我告诉你，我可在美国待过，你忘了美国那么发达的一个国家，人连个特护都找不着了",
+        "Holder": "6",
+        "Target": "1的理由",
+        "Aspect": "理由的真实性",
+        "Opinion": "认为是借口",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的理由不成立，并以自己在美国的经历作为反驳依据"
+    },
+    {
+        "sentence": "人家是一个老华侨。人家就觉得我们东方的特护，东方的女人比较温柔体贴，善解人意，人家就愿意让我们照顾他，怎么啦？",
+        "Holder": "1",
+        "Target": "东方特护",
+        "Aspect": "特护的特点",
+        "Opinion": "温柔体贴，善解人意",
+        "Sentiment": "positive",
+        "Rationale": "老华侨认为东方特护具有温柔体贴和善解人意的特点"
+    },
+    {
+        "sentence": "哼，不就是对上眼了呗。多少钱一个月？",
+        "Holder": "6",
+        "Target": "老华侨的选择",
+        "Aspect": "选择的原因",
+        "Opinion": "对上眼",
+        "Sentiment": "negative",
+        "Rationale": "6认为老华侨选择东方特护只是对上眼"
+    },
+    {
+        "sentence": "给我6,000美金呐。一共雇我六六个月，你算算六六3万六呢唉。我再干点别的零工，我怎么这趟去回来也能挣个五六万。",
+        "Holder": "1",
+        "Target": "工作收入",
+        "Aspect": "收入情况",
+        "Opinion": "收入可观",
+        "Sentiment": "positive",
+        "Rationale": "1详细计算了收入情况，显示出对收入的满意"
+    },
+    {
+        "sentence": "他给你 36, 000 美金，我就得同意让我老婆去照顾别的男人，我便宜死他",
+        "Holder": "6",
+        "Target": "1的工作安排",
+        "Aspect": "家庭影响",
+        "Opinion": "不情愿",
+        "Sentiment": "negative",
+        "Rationale": "6认为让妻子去照顾别的男人是对家庭的负面影响"
+    },
+    {
+        "sentence": "还合着你是嫌钱少啊？你觉得多少钱你的能同意我去啊？",
+        "Holder": "1",
+        "Target": "6的反对",
+        "Aspect": "反对的原因",
+        "Opinion": "质疑6的动机",
+        "Sentiment": "negative",
+        "Rationale": "1认为6的反对是出于对金钱的不满"
+    },
+    {
+        "sentence": "30万美金我也不同意。 300 万美金我确实应该考虑一下",
+        "Holder": "6",
+        "Target": "金钱",
+        "Aspect": "金额的合理性",
+        "Opinion": "30万美金不合理，300万美金可以考虑",
+        "Sentiment": "neutral",
+        "Rationale": "30万美金金额较低"
+    },
+    {
+        "sentence": "唉，真的，夏东海我本来其实也不愿意去，真的，我真不觉得美国有什么好的，我都这岁数了，我每天得给他们做饭洗衣服。好，我哪有心思去，可是我一想，我这出去一趟就坚持那么六个月，我能挣那么多钱干嘛不去。",
+        "Holder": "1",
+        "Target": "去美国",
+        "Aspect": "去美国的利弊",
+        "Opinion": "虽然不愿意去，但为了挣钱还是决定去",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得去美国有很多不便"
+    },
+    {
+        "sentence": "行了，挣钱的事跟你没关系，有我呢。",
+        "Holder": "6",
+        "Target": "挣钱",
+        "Aspect": "挣钱的责任",
+        "Opinion": "挣钱是自己的责任",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己应该承担挣钱的责任"
+    },
+    {
+        "sentence": "我看你天天点灯熬油，趴在书房那写东西，写完再让人退稿，真挺心疼。",
+        "Holder": "1",
+        "Target": "6的工作",
+        "Aspect": "工作的辛苦",
+        "Opinion": "心疼6的辛苦",
+        "Sentiment": "negative",
+        "Rationale": "看到6每天辛苦工作却经常被退稿"
+    },
+    {
+        "sentence": "什么意思？退稿怎么了？你这挤对我，你还甭管我退不退稿，这养家糊口就是我第一的事儿。你放心，我保证把你养的白白胖胖。",
+        "Holder": "6",
+        "Target": "1的关心",
+        "Aspect": "对关心的回应",
+        "Opinion": "不接受1的挤对，强调自己会养家糊口",
+        "Sentiment": "positive",
+        "Rationale": "觉得1的关心带有挤对的意味"
+    },
+    {
+        "sentence": "白白胖胖。我还得减肥。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "体型",
+        "Opinion": "需要减肥",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己白白胖胖"
+    },
+    {
+        "sentence": "我求你让我去吧",
+        "Holder": "1",
+        "Target": "5",
+        "Aspect": "请求同意",
+        "Opinion": "请求允许",
+        "Sentiment": "negative",
+        "Rationale": "迫切希望得到5的同意"
+    },
+    {
+        "sentence": "没商量",
+        "Holder": "5",
+        "Target": "1的请求",
+        "Aspect": "是否同意",
+        "Opinion": "坚决不同意",
+        "Sentiment": "negative",
+        "Rationale": "对1的请求没有任何商量的余地"
+    },
+    {
+        "sentence": "嘿，你这人怎么这样？",
+        "Holder": "1",
+        "Target": "5的态度",
+        "Aspect": "待人方式",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "5坚决不同意且态度冷漠"
+    }
+]

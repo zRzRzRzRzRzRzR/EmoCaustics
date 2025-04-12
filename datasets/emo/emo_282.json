@@ -1,0 +1,159 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "历史联合法案对苏格兰的影响分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调《联合法案》带来的自由贸易、资源共享及历史成功",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "指出SNP缺乏独立后福利方案和防卫能力薄弱",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "苏格兰独立经济风险评估",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "警告供应链断裂、财政赤字和货币贬值风险",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定英国疫苗推广和本地大学创新能力",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "脱欧背景下的独立必要性论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调自主决策权与欧盟重新加入机会",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "联合王国文化共同性辩护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判民族主义忽略语言/文化纽带与主权矛盾",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出边界问题和财政赤字的技术性质疑",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "小国独立可行性论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "引用人均GDP数据与欧洲小国成功案例",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "联盟适应性改革倡议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认权力下放缺陷与英格兰角色失衡",
+            "source_id": "5"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定疫苗合作体现的跨国协同效应",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "脱欧后果驱动的独立诉求",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批评渔业受损和欧盟国民待遇恶化",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "主张独立解决边界硬化和贸易壁垒",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "进步联合主义价值观阐释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调福利国家传统与疫情互助精神",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "警告民族主义导致经济孤立",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "权力集中化危机预警",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判上议院扩权和教育机会缩减",
+            "source_id": "8"
+          },
+          {
+            "state": "positive",
+            "reason": "展望苏格兰带动区域关系重构",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  }
+}

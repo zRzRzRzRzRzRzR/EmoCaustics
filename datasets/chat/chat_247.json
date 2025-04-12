@@ -1,0 +1,200 @@
+[
+    {
+        "sentence": "是好久没有喝到董事长亲自泡的茶。",
+        "Holder": "1",
+        "Target": "董事长泡的茶",
+        "Aspect": "茶的稀有性",
+        "Opinion": "很久没喝到",
+        "Sentiment": "positive",
+        "Rationale": "很久没有喝到董事长亲自泡的茶"
+    },
+    {
+        "sentence": "了，尝尝味道怎么样。特意去龙华山取来的。",
+        "Holder": "2",
+        "Target": "茶的味道",
+        "Aspect": "茶的来源和品质",
+        "Opinion": "期待反馈",
+        "Sentiment": "neutral",
+        "Rationale": "特意去龙华山取茶"
+    },
+    {
+        "sentence": "要是能在那旁边搞一块地，建一片中式别墅，那肯定得抢疯了。你呀，心里就想了地，没辙呀，董事长。",
+        "Holder": "1",
+        "Target": "董事长",
+        "Aspect": "对土地的渴望",
+        "Opinion": "认为董事长想买地",
+        "Sentiment": "ambiguous",
+        "Rationale": "觉得董事长心里只想买地"
+    },
+    {
+        "sentence": "那个外地市场考察的怎么样？",
+        "Holder": "2",
+        "Target": "外地市场考察",
+        "Aspect": "考察结果",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "关心外地市场考察的结果"
+    },
+    {
+        "sentence": "已经有眉目了。但是前期投入学浩地产公司是集团的亲儿子，冲爹借钱跟外人借一样的年化率，董事长，您说这合适吗？明天找关键聊了，就等您这句话了。",
+        "Holder": "3",
+        "Target": "学浩地产公司的借款利率",
+        "Aspect": "借款利率的合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "neutral",
+        "Rationale": "学浩地产公司是集团的亲儿子，但借款利率却与外人相同"
+    },
+    {
+        "sentence": "董事长，开会的时间。",
+        "Holder": "2",
+        "Target": "开会时间",
+        "Aspect": "会议安排",
+        "Opinion": "提醒开会",
+        "Sentiment": "neutral",
+        "Rationale": "到了预定的开会时间"
+    },
+    {
+        "sentence": "到今天召集大家开会，主要是通报天科内审的结果。",
+        "Holder": "2",
+        "Target": "天科内审结果",
+        "Aspect": "会议目的",
+        "Opinion": "通报内审结果",
+        "Sentiment": "neutral",
+        "Rationale": "需要向团队成员通报天科内审的结果"
+    },
+    {
+        "sentence": "首先说一说对天科的审计结果，天科商务合约部经理杜波严重违规，已经触犯底线，考虑现在非常时期对他的处分，开除退回挪用的 20 万。",
+        "Holder": "3",
+        "Target": "杜波",
+        "Aspect": "违规行为及处分",
+        "Opinion": "严重违规，需开除并退回挪用资金",
+        "Sentiment": "negative",
+        "Rationale": "杜波严重违规，触犯了底线"
+    },
+    {
+        "sentence": "语音，你有话。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "发言机会",
+        "Opinion": "询问是否有话要说",
+        "Sentiment": "neutral",
+        "Rationale": "看到3可能有话要说"
+    },
+    {
+        "sentence": "说？我疏于管理，还是让董事长操心吧。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "管理能力",
+        "Opinion": "疏于管理",
+        "Sentiment": "negative",
+        "Rationale": "认识到自己管理上的不足"
+    },
+    {
+        "sentence": "你认识到自己的错误就行了，这次我就不处罚你了，如果再有下一回，那我可要加倍处罚了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "错误认识",
+        "Opinion": "宽容但警告",
+        "Sentiment": "neutral",
+        "Rationale": "2已经认识到错误"
+    },
+    {
+        "sentence": "谢董志掌矿，下面再说一说对许峰的违纪行为，处罚者，许峰第一次带队把天科的数据泄露给了天成的缩小，造成了双方在领先国际项目竞标中的纠纷。虽然是内审曲风，违纪行兵必须得到延长。",
+        "Holder": "4",
+        "Target": "许峰",
+        "Aspect": "违纪行为",
+        "Opinion": "必须处罚",
+        "Sentiment": "negative",
+        "Rationale": "许峰的违纪行为造成了严重后果"
+    },
+    {
+        "sentence": "这个许峰泄露数据的过程大家都清楚。说句实在话，他要拿着结算单给我看，我就是看他十天半个月，我也看不出天科的利润率。我认为许峰审计天科的时候他是有功的，是他查出了杜永国挪用公款的证，如果要是因为一个无心之过，就抹杀了人家的功劳，我觉得这不公平，也起到一个不好的事业，要不然以后所有干事的人都会畏手畏脚的，光想着保全自己了，是吧？",
+        "Holder": "3",
+        "Target": "许峰",
+        "Aspect": "功过评价",
+        "Opinion": "功大于过",
+        "Sentiment": "positive",
+        "Rationale": "许峰虽有失误但也有重大贡献"
+    },
+    {
+        "sentence": "是不是就是说以后大家都可以不遵守集团的规定，可以放开手脚乱。",
+        "Holder": "4",
+        "Target": "集团规定",
+        "Aspect": "规定的严肃性",
+        "Opinion": "质疑放松规定",
+        "Sentiment": "negative",
+        "Rationale": "担心放松对许峰的处罚会导致大家不遵守规定"
+    },
+    {
+        "sentence": "来了呗？我就是想说，别因为一个错误就把人家一竿子打死。",
+        "Holder": "1",
+        "Target": "西风",
+        "Aspect": "对待错误的态度",
+        "Opinion": "不应一竿子打死",
+        "Sentiment": "positive",
+        "Rationale": "认为不应该一个错误就彻底否定一个人"
+    },
+    {
+        "sentence": "西风做我的助理做了 4 年了，说句实话，我离不开他。但是现在犯了错误，已经不合适在董事长助理这个岗位上了。那我觉得这就是对他。",
+        "Holder": "2",
+        "Target": "西风",
+        "Aspect": "工作能力和岗位适应性",
+        "Opinion": "不适合继续担任助理",
+        "Sentiment": "negative",
+        "Rationale": "西风犯了错误"
+    },
+    {
+        "sentence": "最大的处罚，但是正好我物业部还缺着经理，要不你把他给我，我来带一下。",
+        "Holder": "1",
+        "Target": "西风",
+        "Aspect": "职业发展机会",
+        "Opinion": "提供新的职位机会",
+        "Sentiment": "positive",
+        "Rationale": "物业部缺经理"
+    },
+    {
+        "sentence": "他？玉林，你愿意给许峰一个改正错误的机会吗？",
+        "Holder": "2",
+        "Target": "许峰",
+        "Aspect": "改正错误的机会",
+        "Opinion": "询问是否给予机会",
+        "Sentiment": "neutral",
+        "Rationale": "不确定玉林是否愿意给许峰机会"
+    },
+    {
+        "sentence": "看英文的，我服从集团领导的一切决定。",
+        "Holder": "3",
+        "Target": "集团领导的决定",
+        "Aspect": "决策服从性",
+        "Opinion": "完全服从",
+        "Sentiment": "neutral",
+        "Rationale": "表示对集团领导决定的服从"
+    },
+    {
+        "sentence": "这场会议实在是精彩。",
+        "Holder": "5",
+        "Target": "会议",
+        "Aspect": "整体表现",
+        "Opinion": "精彩",
+        "Sentiment": "positive",
+        "Rationale": "会议内容丰富且引人入胜"
+    },
+    {
+        "sentence": "会议未开始前董事长的铺垫和会议中董事长和地产经理的配合。",
+        "Holder": "5",
+        "Target": "董事长和地产经理",
+        "Aspect": "会议准备和配合",
+        "Opinion": "铺垫和配合出色",
+        "Sentiment": "positive",
+        "Rationale": "董事长在会议前的铺垫和会议中的默契配合使得会议顺利进行"
+    },
+    {
+        "sentence": "不得不说，董事长的手段也太高明了。",
+        "Holder": "5",
+        "Target": "董事长",
+        "Aspect": "手段",
+        "Opinion": "高明",
+        "Sentiment": "positive",
+        "Rationale": "董事长在会议中的策略和手段展现出高超的智慧和技巧"
+    }
+]

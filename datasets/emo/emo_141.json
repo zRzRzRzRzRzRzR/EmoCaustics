@@ -1,0 +1,94 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "学术报告主持与问答环节管理",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "主持会议流程并协调问答环节",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "跨语言教学因素质疑与验证",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑越南语偏误率高是否与师资力量相关",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "认可研究复杂性与理论价值",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "把字句教学与理论差异分析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "阐述理论研究与教学实践的脱节现象",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "发现教学引导有效性证据",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "揭示学习者结构倾向性规律",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "语言距离参数实证研究",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出语言类型假设后被数据推翻",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "验证语言距离影响机制",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "中介语料库建设与应用验证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "说明语料库动态更新特性",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "标注准确率提升至93%",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "发现标注系统误差问题",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

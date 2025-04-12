@@ -1,0 +1,65 @@
+[
+    {
+        "sentence": "什么，在下听说这一代常出现一种花船，这是真的吗？那是无上义景啊。",
+        "Holder": "3",
+        "Target": "花船",
+        "Aspect": "存在与否",
+        "Opinion": "怀疑存在",
+        "Sentiment": "ambiguous",
+        "Rationale": "只是听说但不确定真实性"
+    },
+    {
+        "sentence": "怎么讲最安全的寻欢作乐。什么人在上面寻欢作乐啊？当然是官员。",
+        "Holder": "3",
+        "Target": "花船",
+        "Aspect": "安全性",
+        "Opinion": "认为安全",
+        "Sentiment": "positive",
+        "Rationale": "花船可以随时开走疏散人员"
+    },
+    {
+        "sentence": "一有风吹草动，船开了就走，随便到哪里依靠岸把人疏散掉，岂不比深宅大院还要安全些？",
+        "Holder": "3",
+        "Target": "花船",
+        "Aspect": "安全性",
+        "Opinion": "比深宅大院安全",
+        "Sentiment": "positive",
+        "Rationale": "花船可以灵活移动和疏散人员"
+    },
+    {
+        "sentence": "离京城这么近，就没人举报，自然有人举报。",
+        "Holder": "3",
+        "Target": "花船",
+        "Aspect": "举报情况",
+        "Opinion": "存在举报",
+        "Sentiment": "neutral",
+        "Rationale": "虽然离京城近但确实有人举报"
+    },
+    {
+        "sentence": "可是举报信每每落到他们手里，谁还敢再试？",
+        "Holder": "3",
+        "Target": "举报信",
+        "Aspect": "处理结果",
+        "Opinion": "举报无效",
+        "Sentiment": "negative",
+        "Rationale": "举报信总是被相关人员截获"
+    },
+    {
+        "sentence": "在下也告过一次，住了 40 天的牢狱，还被打断了一个泪。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "举报后果",
+        "Opinion": "遭受惩罚",
+        "Sentiment": "negative",
+        "Rationale": "自己举报后反而受到惩罚和伤害"
+    },
+    {
+        "sentence": "现在可以直接向皇上举报，皇上日理万机，哪能见到平常百姓的举报线。",
+        "Holder": "3",
+        "Target": "向皇上举报",
+        "Aspect": "可行性",
+        "Opinion": "认为不可行",
+        "Sentiment": "negative",
+        "Rationale": "皇上事务繁忙，普通百姓的举报难以被关注"
+    }
+]

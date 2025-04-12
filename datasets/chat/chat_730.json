@@ -1,0 +1,1460 @@
+[
+    {
+        "sentence": "哼，够勤快的，收拾床底下。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "勤快程度",
+        "Opinion": "勤快",
+        "Sentiment": "positive",
+        "Rationale": "2在收拾床底下，表现出勤快的行为"
+    },
+    {
+        "sentence": "哈哈哈，对了，你看见我这里边有一个。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "看见物品",
+        "Opinion": "询问是否看见",
+        "Sentiment": "neutral",
+        "Rationale": "2在询问1是否看见某个物品"
+    },
+    {
+        "sentence": "算，你肯定没看见。呵呵，你怎么知道我没看见呀？你看见了是一纸盒吗？这么宽，这么长，哈哈哈哎。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "看见物品",
+        "Opinion": "认为2没看见",
+        "Sentiment": "ambiguous",
+        "Rationale": "1在反问2怎么知道他没看见，并且描述了物品的尺寸"
+    },
+    {
+        "sentence": "对。哎，哪呢哪呢？快过来，哈哈。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "寻找物品",
+        "Opinion": "急切寻找",
+        "Sentiment": "positive",
+        "Rationale": "2急切地想让1过来帮忙找物品"
+    },
+    {
+        "sentence": "小雪屋装铅笔头了。",
+        "Holder": "1",
+        "Target": "小雪屋",
+        "Aspect": "用途",
+        "Opinion": "装铅笔头",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述小雪屋的用途"
+    },
+    {
+        "sentence": "哈哈哈，那文具盒不是那个，我说的是一个那个一个首饰盒。",
+        "Holder": "2",
+        "Target": "首饰盒",
+        "Aspect": "物品的辨识",
+        "Opinion": "首饰盒不是文具盒",
+        "Sentiment": "positive",
+        "Rationale": "澄清了物品的误解"
+    },
+    {
+        "sentence": "哈哈哈，首饰盒啊。你卖首饰啦。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "首饰盒的用途",
+        "Opinion": "误以为2在卖首饰",
+        "Sentiment": "positive",
+        "Rationale": "对2的行为感到好奇和有趣"
+    },
+    {
+        "sentence": "我买了一个。",
+        "Holder": "2",
+        "Target": "首饰盒",
+        "Aspect": "购买行为",
+        "Opinion": "购买了首饰盒",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了购买的事实"
+    },
+    {
+        "sentence": "买什么首饰了？买项链了还是买耳环了？打算自个儿戴戴，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的购买物品",
+        "Aspect": "首饰的类型",
+        "Opinion": "好奇2购买的首饰类型",
+        "Sentiment": "positive",
+        "Rationale": "对2购买的首饰感到好奇和有趣"
+    },
+    {
+        "sentence": "什么我自个儿戴，你都说什么呢？嗯，我那个是准备唉。",
+        "Holder": "2",
+        "Target": "1的猜测",
+        "Aspect": "首饰的用途",
+        "Opinion": "否认自用",
+        "Sentiment": "ambiguous",
+        "Rationale": "对1的猜测感到有些无奈和困惑"
+    },
+    {
+        "sentence": "送人呢，哈哈哈。送谁呀？还得藏在床底下，怕人家看见不得人呐。",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "送礼的方式",
+        "Opinion": "觉得送礼方式不正常",
+        "Sentiment": "ambiguous",
+        "Rationale": "礼物要藏在床底下，显得神秘且不正常"
+    },
+    {
+        "sentence": "什么说什么呢，见不得人呐。嗯，是日子还没到呢，到了就见到人。",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "送礼的时间",
+        "Opinion": "时间未到",
+        "Sentiment": "neutral",
+        "Rationale": "送礼的时间还没到"
+    },
+    {
+        "sentence": "了。还有几天呢？还有三天。呵，还三天呢，就把礼物提前买好了，藏床底下啦。你们是怎么认识的？认识多久了？干的，他长什么样啊？你跟他到底想怎么着啊？",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "送礼的时间和方法",
+        "Opinion": "提前准备且藏匿",
+        "Sentiment": "negative",
+        "Rationale": "提前买好礼物并藏匿显得神秘"
+    },
+    {
+        "sentence": "他是谁？",
+        "Holder": "2",
+        "Target": "他",
+        "Aspect": "身份",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚对方在问谁"
+    },
+    {
+        "sentence": "你说他是谁啊？夏东海，你少给我装蒜，你必须得跟我实话实说。你告诉我，哎，这女的到底是谁？你们认识多长时间？",
+        "Holder": "1",
+        "Target": "夏东海",
+        "Aspect": "诚实",
+        "Opinion": "要求说实话",
+        "Sentiment": "negative",
+        "Rationale": "觉得夏东海在隐瞒事实"
+    },
+    {
+        "sentence": "眼睛可够贱，能什么女的呀？那跟哪啊？你说。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "眼神和行为",
+        "Opinion": "不恰当",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的眼神和行为不恰当"
+    },
+    {
+        "sentence": "哈哈哈哈，呵呵笑笑，再笑这嘴都咧到这耳朵根上了。你。",
+        "Holder": "2",
+        "Target": "1的笑容",
+        "Aspect": "笑容的夸张程度",
+        "Opinion": "过于夸张",
+        "Sentiment": "positive",
+        "Rationale": "看到1笑得非常夸张"
+    },
+    {
+        "sentence": "看看，我乐意，我开心、我高兴，我愿意连哪就连哪，管着吧你。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为的自由",
+        "Opinion": "支持自己的行为",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己有权自由选择行为"
+    },
+    {
+        "sentence": "正赖你，本来想过生日的时候给你个惊喜，白浪费我一创意。",
+        "Holder": "2",
+        "Target": "1的反应",
+        "Aspect": "惊喜的失败",
+        "Opinion": "浪费了创意",
+        "Sentiment": "negative",
+        "Rationale": "原本计划的惊喜被1破坏"
+    },
+    {
+        "sentence": "哈哈哈，那活该，谁让你没事给藏床底下的，你想藏得过我的眼睛，哼。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "藏东西的行为",
+        "Opinion": "不值得同情",
+        "Sentiment": "positive",
+        "Rationale": "觉得2藏东西的行为愚蠢"
+    },
+    {
+        "sentence": "嗯，没错，差点还给自己藏出个第三者来。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "差点犯错",
+        "Sentiment": "negative",
+        "Rationale": "差点自己的行为导致出现第三者"
+    },
+    {
+        "sentence": "行了行了行行行，算了，我冤枉你了，行了吧？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "误解",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "意识到自己误解了对方"
+    },
+    {
+        "sentence": "哎呀，你说你也是，你怎么就不想想啊？那可能是我送给你的。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "思考",
+        "Opinion": "缺乏考虑",
+        "Sentiment": "negative",
+        "Rationale": "对方没有考虑到礼物可能是自己送的"
+    },
+    {
+        "sentence": "我想啦，我这不没想出理由来嘛。我整天忙忙叨叨的，我哪记得住我自个生日啊？我。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "记忆力",
+        "Opinion": "记不住",
+        "Sentiment": "negative",
+        "Rationale": "自己工作繁忙导致记不住自己的生日"
+    },
+    {
+        "sentence": "你记不住，可是我记得住。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "记忆力",
+        "Opinion": "记得住",
+        "Sentiment": "positive",
+        "Rationale": "自己记得对方的生日而对方却不记得"
+    },
+    {
+        "sentence": "肖哥，你怎么那么好耶？",
+        "Holder": "1",
+        "Target": "肖哥",
+        "Aspect": "性格",
+        "Opinion": "非常好",
+        "Sentiment": "positive",
+        "Rationale": "感受到肖哥的关心和照顾"
+    },
+    {
+        "sentence": "因为你是我的乖乖嘛。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "关系",
+        "Opinion": "亲密",
+        "Sentiment": "positive",
+        "Rationale": "对1有深厚的感情"
+    },
+    {
+        "sentence": "爸，您说我。",
+        "Holder": "1",
+        "Target": "爸",
+        "Aspect": "关注",
+        "Opinion": "希望被关注",
+        "Sentiment": "neutral",
+        "Rationale": "希望得到父亲的注意和回应"
+    },
+    {
+        "sentence": "还我，我有点事没？没事，你们继续，我一会再来。别别。",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "忙碌",
+        "Opinion": "有事情要处理",
+        "Sentiment": "neutral",
+        "Rationale": "有其他事情需要处理"
+    },
+    {
+        "sentence": "别，哈哈哈，有事你就送，没事。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "态度",
+        "Opinion": "理解和支持",
+        "Sentiment": "positive",
+        "Rationale": "理解3有事情要处理"
+    },
+    {
+        "sentence": "一会您上我屋去一趟。我想行，没问题。哎，那我等着您了。哎，走。",
+        "Holder": "3",
+        "Target": "2的到来",
+        "Aspect": "等待的态度",
+        "Opinion": "期待",
+        "Sentiment": "positive",
+        "Rationale": "3邀请2到自己的房间并表现出积极的等待态度"
+    },
+    {
+        "sentence": "哎，干嘛呀？他这神神秘秘的。",
+        "Holder": "1",
+        "Target": "3的行为",
+        "Aspect": "行为的神秘性",
+        "Opinion": "好奇",
+        "Sentiment": "ambiguous",
+        "Rationale": "1看到3的行为显得神秘"
+    },
+    {
+        "sentence": "怎么了？这小子让我去帮他准备一份。",
+        "Holder": "2",
+        "Target": "3的请求",
+        "Aspect": "请求的内容",
+        "Opinion": "接受",
+        "Sentiment": "neutral",
+        "Rationale": "2接受了3的请求去准备东西"
+    },
+    {
+        "sentence": "礼物。",
+        "Holder": "1",
+        "Target": "3的请求内容",
+        "Aspect": "礼物的准备",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "1确认了2所说的内容是关于礼物的"
+    },
+    {
+        "sentence": "也不知道他要送给谁。",
+        "Holder": "2",
+        "Target": "3的目的",
+        "Aspect": "礼物的接收者",
+        "Opinion": "未知",
+        "Sentiment": "ambiguous",
+        "Rationale": "2不知道3准备的礼物要送给谁"
+    },
+    {
+        "sentence": "呵，这孩子真是越来越懂事了，还知道给他妈送生日礼物。",
+        "Holder": "1",
+        "Target": "孩子",
+        "Aspect": "懂事程度",
+        "Opinion": "越来越懂事",
+        "Sentiment": "positive",
+        "Rationale": "孩子知道给妈妈送生日礼物"
+    },
+    {
+        "sentence": "哎妈，你看我说的没错。",
+        "Holder": "3",
+        "Target": "自己的判断",
+        "Aspect": "判断的正确性",
+        "Opinion": "自己说的是对的",
+        "Sentiment": "positive",
+        "Rationale": "自己的话被验证是正确的"
+    },
+    {
+        "sentence": "吗？呦，哎妈，您来了。",
+        "Holder": "1",
+        "Target": "妈妈的到来",
+        "Aspect": "到来的事实",
+        "Opinion": "惊讶",
+        "Sentiment": "neutral",
+        "Rationale": "突然看到妈妈来了"
+    },
+    {
+        "sentence": "嗯，您说我是从这边捡呢，还是从这边捡？",
+        "Holder": "4",
+        "Target": "捡东西的位置",
+        "Aspect": "选择的困惑",
+        "Opinion": "不确定",
+        "Sentiment": "neutral",
+        "Rationale": "不确定从哪边捡东西更合适"
+    },
+    {
+        "sentence": "我看你哪都别捡了，这是咱家窗帘。我知道你知道诶，你知道你干嘛。",
+        "Holder": "1",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不应该捡",
+        "Sentiment": "negative",
+        "Rationale": "4想要捡的东西其实是家里的窗帘"
+    },
+    {
+        "sentence": "做裙子。",
+        "Holder": "4",
+        "Target": "裙子",
+        "Aspect": "制作方式",
+        "Opinion": "亲手制作",
+        "Sentiment": "neutral",
+        "Rationale": "表达了自己想要亲手做裙子的意愿"
+    },
+    {
+        "sentence": "你没裙子啦？走走走，妈带你出去买条裙子。",
+        "Holder": "1",
+        "Target": "4的裙子",
+        "Aspect": "裙子的数量",
+        "Opinion": "需要购买",
+        "Sentiment": "positive",
+        "Rationale": "关心女儿没有裙子穿"
+    },
+    {
+        "sentence": "买的多没有意义，要自己亲手做一条才行。",
+        "Holder": "4",
+        "Target": "购买裙子",
+        "Aspect": "购买的意义",
+        "Opinion": "无意义",
+        "Sentiment": "neutral",
+        "Rationale": "认为购买的裙子没有亲手做的有意义"
+    },
+    {
+        "sentence": "哎，你就是亲手做，你也不能拿这布置窗帘，走，妈带你出去买块花布去。",
+        "Holder": "1",
+        "Target": "4的制作计划",
+        "Aspect": "材料的适用性",
+        "Opinion": "不适用",
+        "Sentiment": "neutral",
+        "Rationale": "认为女儿选的材料不适合做裙子"
+    },
+    {
+        "sentence": "商场我全都逛遍了，那些花布我都不喜欢，我就觉得这条好看。",
+        "Holder": "4",
+        "Target": "商场的花布",
+        "Aspect": "花布的喜好",
+        "Opinion": "不喜欢",
+        "Sentiment": "negative",
+        "Rationale": "逛遍了商场却找不到喜欢的花布"
+    },
+    {
+        "sentence": "那成，那你就拿这做吧，回头妈再买块花布当窗帘啊。妈你连这都不管？诶诶诶，你干嘛去。",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "对5行为的放任",
+        "Opinion": "不满",
+        "Sentiment": "negative",
+        "Rationale": "5擅自拿东西做东西，而1觉得应该管束"
+    },
+    {
+        "sentence": "我拿流星的毛巾被做一条，是两条花裤衩，哈哈哈。",
+        "Holder": "5",
+        "Target": "流星毛巾被",
+        "Aspect": "使用方式",
+        "Opinion": "搞笑",
+        "Sentiment": "positive",
+        "Rationale": "觉得拿毛巾被做裤衩很有趣"
+    },
+    {
+        "sentence": "我的小祖宗，你不胡闹行不行啊？",
+        "Holder": "1",
+        "Target": "5的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "胡闹",
+        "Sentiment": "negative",
+        "Rationale": "5的行为被认为是胡闹"
+    },
+    {
+        "sentence": "姐姐都胡闹，您怎么就不管他啊？",
+        "Holder": "5",
+        "Target": "4的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "胡闹",
+        "Sentiment": "negative",
+        "Rationale": "觉得4也在胡闹但1不管"
+    },
+    {
+        "sentence": "谁胡闹了？我这在给别人做礼物呢。",
+        "Holder": "4",
+        "Target": "自己的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "认真",
+        "Sentiment": "negative",
+        "Rationale": "被误解为胡闹而感到委屈"
+    },
+    {
+        "sentence": "哈哈哈，如果她不知道这曾经是窗帘的话，那也学会吧。hahaha。",
+        "Holder": "5",
+        "Target": "她",
+        "Aspect": "对窗帘的认知",
+        "Opinion": "她不知道这是窗帘",
+        "Sentiment": "positive",
+        "Rationale": "觉得她不知道这是窗帘这件事有些好笑"
+    },
+    {
+        "sentence": "爸，您可真棒，我这礼物肯定能把人这一根脑。",
+        "Holder": "3",
+        "Target": "爸",
+        "Aspect": "礼物的作用",
+        "Opinion": "礼物能让人印象深刻",
+        "Sentiment": "positive",
+        "Rationale": "认为爸送的礼物很有特色"
+    },
+    {
+        "sentence": "那当然。",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "礼物的质量",
+        "Opinion": "礼物确实很好",
+        "Sentiment": "positive",
+        "Rationale": "对自己的礼物有信心"
+    },
+    {
+        "sentence": "哎哎哎，吃饭啦，我做了一桌子好吃的，快去。",
+        "Holder": "1",
+        "Target": "饭菜",
+        "Aspect": "饭菜的准备",
+        "Opinion": "做了很多好吃的",
+        "Sentiment": "positive",
+        "Rationale": "辛苦准备了一桌好菜"
+    },
+    {
+        "sentence": "爸，要不这样，咱先吃饭，一会回来。",
+        "Holder": "3",
+        "Target": "吃饭时间",
+        "Aspect": "吃饭的安排",
+        "Opinion": "建议先吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "觉得吃饭比较重要"
+    },
+    {
+        "sentence": "再闹啊。好。行，走，吃饭去喽哎。",
+        "Holder": "2",
+        "Target": "吃饭",
+        "Aspect": "吃饭的紧迫性",
+        "Opinion": "催促吃饭",
+        "Sentiment": "positive",
+        "Rationale": "觉得饭已经准备好了"
+    },
+    {
+        "sentence": "你急什么呀。",
+        "Holder": "1",
+        "Target": "2的催促",
+        "Aspect": "催促的合理性",
+        "Opinion": "认为催促不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得2催促得太急"
+    },
+    {
+        "sentence": "不是一桌子好吃的吗？",
+        "Holder": "2",
+        "Target": "饭菜",
+        "Aspect": "饭菜的吸引力",
+        "Opinion": "饭菜很诱人",
+        "Sentiment": "positive",
+        "Rationale": "有一桌子好吃的"
+    },
+    {
+        "sentence": "就馋成这样了，快点给我看看。看什么？你说看什么呀？流星送我的礼物啊。快点。",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "礼物的吸引力",
+        "Opinion": "急于看礼物",
+        "Sentiment": "positive",
+        "Rationale": "流星送的礼物让人好奇和期待"
+    },
+    {
+        "sentence": "过生日的时候再看，都吃饭。",
+        "Holder": "2",
+        "Target": "看礼物的时间",
+        "Aspect": "时间安排的合理性",
+        "Opinion": "应该先吃饭",
+        "Sentiment": "neutral",
+        "Rationale": "觉得应该先吃饭再看礼物"
+    },
+    {
+        "sentence": "去。你现在给我看看，我求求你了，我给你，要不给我看，我真的，我睡不着觉。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "查看礼物的请求",
+        "Opinion": "迫切想看礼物",
+        "Sentiment": "negative",
+        "Rationale": "迫切想看礼物但被拒绝"
+    },
+    {
+        "sentence": "哎呀，多大人啊？把眼睛闭上。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "1的行为",
+        "Opinion": "1表现得不够成熟",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1表现得不够成熟"
+    },
+    {
+        "sentence": "闭上。你先给我看看，我保证过生日的时候假装就从来没看见过的。把眼睛闭上。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "查看礼物的请求",
+        "Opinion": "强烈想看礼物并承诺保密",
+        "Sentiment": "negative",
+        "Rationale": "强烈想看礼物但被拒绝"
+    },
+    {
+        "sentence": "哈哈哈，好吧，这满足了你。哼哼哼噔。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "满足1的请求",
+        "Opinion": "同意让1看礼物",
+        "Sentiment": "positive",
+        "Rationale": "最终同意让1看礼物"
+    },
+    {
+        "sentence": "这礼物也太孩子气了吧？",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "礼物的适合性",
+        "Opinion": "礼物显得幼稚",
+        "Sentiment": "negative",
+        "Rationale": "觉得礼物显得幼稚"
+    },
+    {
+        "sentence": "哈哈哈，孩子送的礼物，当然孩子气了。流星买的是半成品，这不，嗯，让我帮他装好以后准备送给你。",
+        "Holder": "2",
+        "Target": "孩子送的礼物",
+        "Aspect": "礼物的特点",
+        "Opinion": "孩子气",
+        "Sentiment": "positive",
+        "Rationale": "孩子送的礼物具有孩子气的特点"
+    },
+    {
+        "sentence": "嗯，等他送给我以后我就把这个放在咱俩床头柜上，睡完觉我就能看见，这可是孩子送给我的第一个生日礼物。哎，你快给它装上啊。",
+        "Holder": "1",
+        "Target": "孩子送的生日礼物",
+        "Aspect": "礼物的意义",
+        "Opinion": "珍贵",
+        "Sentiment": "positive",
+        "Rationale": "这是孩子送的第一个生日礼物"
+    },
+    {
+        "sentence": "我准备先吃饭去啦嘿。这人够馋的。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "饮食习惯",
+        "Opinion": "馋",
+        "Sentiment": "neutral",
+        "Rationale": "提到自己要先去吃饭，表现出对食物的渴望"
+    },
+    {
+        "sentence": "说吧，是不是你？我什么呀？你跟孩子们说了我哪天的生日，你让孩子们给我准备了一个又一个的礼物，你打算让他们给我一个又一个的惊喜？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "策划惊喜",
+        "Opinion": "怀疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "怀疑2策划了孩子们送礼物的事情"
+    },
+    {
+        "sentence": "我非常想说是我安排的。嗯，可是我这人不能抢功啊，他确实不是我安排的，哈哈哈。嗯，怎么了？有点失望吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对礼物的期待",
+        "Opinion": "失望",
+        "Sentiment": "ambiguous",
+        "Rationale": "2暗示1可能对礼物不是自己安排的感到失望"
+    },
+    {
+        "sentence": "太让我高兴了，哈哈哈。哼，太让我意外了，哈哈哈，太幸福了。",
+        "Holder": "1",
+        "Target": "孩子的行为",
+        "Aspect": "孩子的表现",
+        "Opinion": "感到高兴和意外",
+        "Sentiment": "positive",
+        "Rationale": "孩子记得并准备庆祝自己的生日，这是出乎意料的"
+    },
+    {
+        "sentence": "确实，我也觉得挺意外，你说平时都是我们俩在这绞尽脑汁的想着怎么给他们过生日。嘿，这几个臭小子。",
+        "Holder": "2",
+        "Target": "孩子的行为",
+        "Aspect": "孩子的表现",
+        "Opinion": "感到意外",
+        "Sentiment": "positive",
+        "Rationale": "平时都是父母为孩子过生日，而这次孩子主动为父母准备生日"
+    },
+    {
+        "sentence": "唉，你说谁家不是这样，不是父母给孩子过生日，你要给他过不好还不乐意，唉，还闹，跟欠他们的似的。哪有孩子记得父母的生日，还给父母准备礼物，在孩子看来，父母压根就没生日，都是从石头缝里蹦出来的。瞧瞧咱家这孩子。",
+        "Holder": "1",
+        "Target": "孩子的行为",
+        "Aspect": "孩子的表现",
+        "Opinion": "感到欣慰和自豪",
+        "Sentiment": "positive",
+        "Rationale": "大多数情况下都是父母为孩子过生日，而自己的孩子却记得并准备庆祝父母的生日，这是难得的"
+    },
+    {
+        "sentence": "太懂事了，哼哼哼，都长大了。唉，心里头居然有他爸他妈了，真是。",
+        "Holder": "2",
+        "Target": "孩子的行为",
+        "Aspect": "孩子的成长",
+        "Opinion": "感到欣慰",
+        "Sentiment": "positive",
+        "Rationale": "孩子不仅记得父母的生日，还表现出对父母的关心，显示出他们的成长和懂事"
+    },
+    {
+        "sentence": "哎，可是光有妈妈我没见着有你啊，小雪和流星可是想给我过生日啊。行行行。",
+        "Holder": "1",
+        "Target": "2的参与",
+        "Aspect": "2的参与度",
+        "Opinion": "希望2也参与",
+        "Sentiment": "neutral",
+        "Rationale": "虽然孩子记得并准备庆祝自己的生日，但1希望2也能参与到这个过程中"
+    },
+    {
+        "sentence": "哼，那我也照样替你高兴。嗯，行吗？来来来，让我抱抱。哎呀，我宝贝，哈哈哈。",
+        "Holder": "2",
+        "Target": "对方的好事",
+        "Aspect": "对方的喜悦",
+        "Opinion": "替对方高兴",
+        "Sentiment": "positive",
+        "Rationale": "对方有值得高兴的事情"
+    },
+    {
+        "sentence": "对不起，请打扰一下。",
+        "Holder": "3",
+        "Target": "当前的对话",
+        "Aspect": "礼貌性打断",
+        "Opinion": "需要打断对话",
+        "Sentiment": "neutral",
+        "Rationale": "有事情需要打断当前的对话"
+    },
+    {
+        "sentence": "什么事？没事啊小姐。",
+        "Holder": "2",
+        "Target": "3的打断",
+        "Aspect": "对话的继续",
+        "Opinion": "询问事情",
+        "Sentiment": "neutral",
+        "Rationale": "被3打断对话"
+    },
+    {
+        "sentence": "我啊，下个月想多养 20 块钱买个。",
+        "Holder": "5",
+        "Target": "自己的计划",
+        "Aspect": "购买计划",
+        "Opinion": "打算购买",
+        "Sentiment": "neutral",
+        "Rationale": "有购买计划"
+    },
+    {
+        "sentence": "音乐盒啊。",
+        "Holder": "3",
+        "Target": "5的计划",
+        "Aspect": "购买物品",
+        "Opinion": "确认物品",
+        "Sentiment": "neutral",
+        "Rationale": "听到5的计划"
+    },
+    {
+        "sentence": "哈哈哈，迷你盒干嘛。",
+        "Holder": "2",
+        "Target": "迷你盒",
+        "Aspect": "行为",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "对迷你盒的行为感到好奇"
+    },
+    {
+        "sentence": "呀呃？这可不是我自己玩，我要送给人，哼哼，礼物。",
+        "Holder": "5",
+        "Target": "礼物",
+        "Aspect": "用途",
+        "Opinion": "送人",
+        "Sentiment": "positive",
+        "Rationale": "解释了礼物的用途是送人"
+    },
+    {
+        "sentence": "嘿嘿，不就 20 块钱嘛，小雨爸爸身上没带，一会就给你好吗？谢谢爸爸。",
+        "Holder": "2",
+        "Target": "20块钱",
+        "Aspect": "支付方式",
+        "Opinion": "稍后支付",
+        "Sentiment": "positive",
+        "Rationale": "对20块钱的金额不以为意，并且承诺稍后支付"
+    },
+    {
+        "sentence": "还行，怎么样？快好了，我做不下去了。",
+        "Holder": "1",
+        "Target": "工作进度",
+        "Aspect": "完成情况",
+        "Opinion": "接近完成但困难",
+        "Sentiment": "neutral",
+        "Rationale": "工作接近完成但遇到困难"
+    },
+    {
+        "sentence": "越做越难看。",
+        "Holder": "4",
+        "Target": "工作成果",
+        "Aspect": "外观",
+        "Opinion": "变差",
+        "Sentiment": "negative",
+        "Rationale": "工作成果的外观越来越差"
+    },
+    {
+        "sentence": "我看看没有啊。这不挺好的吗。",
+        "Holder": "1",
+        "Target": "衣服",
+        "Aspect": "整体效果",
+        "Opinion": "挺好的",
+        "Sentiment": "positive",
+        "Rationale": "觉得衣服整体效果不错"
+    },
+    {
+        "sentence": "好什么呀？腰太肥了，怎么收也收。",
+        "Holder": "4",
+        "Target": "衣服",
+        "Aspect": "腰部尺寸",
+        "Opinion": "腰太肥",
+        "Sentiment": "negative",
+        "Rationale": "觉得衣服腰部尺寸太大，无法调整到合适的程度"
+    },
+    {
+        "sentence": "不住。哎呦，没事，我告诉你，穿肥的才舒服呢，谁爱穿那姑在身上的，我最不喜欢啦。",
+        "Holder": "1",
+        "Target": "衣服",
+        "Aspect": "舒适度",
+        "Opinion": "穿肥的才舒服",
+        "Sentiment": "positive",
+        "Rationale": "认为宽松的衣服更舒适"
+    },
+    {
+        "sentence": "下摆太高了，都快成超短裙了。",
+        "Holder": "4",
+        "Target": "衣服",
+        "Aspect": "下摆高度",
+        "Opinion": "下摆太高",
+        "Sentiment": "negative",
+        "Rationale": "觉得衣服下摆太高，接近超短裙的长度"
+    },
+    {
+        "sentence": "哈哈哈，超短裙更凉快。我觉得挺好啊。呵呵，这是袖子吧？",
+        "Holder": "1",
+        "Target": "衣服",
+        "Aspect": "下摆高度",
+        "Opinion": "超短裙更凉快",
+        "Sentiment": "positive",
+        "Rationale": "认为超短裙更凉快"
+    },
+    {
+        "sentence": "一个袖子长，一个袖子短。",
+        "Holder": "4",
+        "Target": "袖子长度",
+        "Aspect": "袖子的对称性",
+        "Opinion": "不对称",
+        "Sentiment": "negative",
+        "Rationale": "袖子长度不一致"
+    },
+    {
+        "sentence": "真的没关系，把这长的也按照这短的一剪，我告诉你不要袖子。我想起来了，我觉得没袖子最舒服了，真的多凉快啊。这样啊，反正。",
+        "Holder": "1",
+        "Target": "袖子长度",
+        "Aspect": "袖子的必要性",
+        "Opinion": "不需要袖子",
+        "Sentiment": "positive",
+        "Rationale": "觉得没有袖子更舒服凉快"
+    },
+    {
+        "sentence": "这个礼物拿不出手了，我干脆自己买一条得了。",
+        "Holder": "4",
+        "Target": "礼物",
+        "Aspect": "礼物的合适性",
+        "Opinion": "不适合作为礼物",
+        "Sentiment": "negative",
+        "Rationale": "袖子长度不一致导致礼物不合适"
+    },
+    {
+        "sentence": "哈哈哈，别胡说，这个多好啊，这毕竟是你自己剪裁自己设计的，这意义可不一样，哈哈哈。诶，要不然这样得了，妈帮着你改改啊。你过来我给你讲。",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "礼物的意义",
+        "Opinion": "有意义",
+        "Sentiment": "positive",
+        "Rationale": "礼物是亲自剪裁设计的"
+    },
+    {
+        "sentence": "啊，您自己赶紧改吧，反正我是没这耐心了。",
+        "Holder": "4",
+        "Target": "修改礼物",
+        "Aspect": "耐心",
+        "Opinion": "没有耐心",
+        "Sentiment": "negative",
+        "Rationale": "对修改礼物感到不耐烦"
+    },
+    {
+        "sentence": "哈哈哈，我告诉你，这衣服其实主要的问题是出在这伽罗上，现在这，哈哈哈我自己剪。",
+        "Holder": "1",
+        "Target": "衣服",
+        "Aspect": "问题原因",
+        "Opinion": "问题在伽罗上",
+        "Sentiment": "positive",
+        "Rationale": "觉得找到了衣服问题的原因并且自己能解决"
+    },
+    {
+        "sentence": "别动。你干嘛呀你去玩一会儿补偿。我跟你说了多少次了，这是爸好不容易才按好的。",
+        "Holder": "3",
+        "Target": "衣服",
+        "Aspect": "保护衣服",
+        "Opinion": "不应该动",
+        "Sentiment": "negative",
+        "Rationale": "爸爸好不容易才按好衣服，担心被弄坏"
+    },
+    {
+        "sentence": "哎呀，我不给他弄坏，我小心。",
+        "Holder": "5",
+        "Target": "衣服",
+        "Aspect": "保护衣服",
+        "Opinion": "会小心处理",
+        "Sentiment": "neutral",
+        "Rationale": "被提醒要小心"
+    },
+    {
+        "sentence": "了不成。跟你说了多少遍了，这是我送给苏婷婷的，别的玩具你都可以随便玩，就是这个洋娃娃你不许动。",
+        "Holder": "3",
+        "Target": "洋娃娃",
+        "Aspect": "使用权限",
+        "Opinion": "不许动",
+        "Sentiment": "negative",
+        "Rationale": "洋娃娃是送给苏婷婷的礼物，担心被弄坏"
+    },
+    {
+        "sentence": "哈哈哈哈，玩。",
+        "Holder": "1",
+        "Target": "洋娃娃",
+        "Aspect": "玩耍",
+        "Opinion": "想玩",
+        "Sentiment": "positive",
+        "Rationale": "觉得可以玩耍"
+    },
+    {
+        "sentence": "这是什么？",
+        "Holder": "1",
+        "Target": "早餐",
+        "Aspect": "内容",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "对早餐内容不清楚"
+    },
+    {
+        "sentence": "亲爱的夫人。嗯，请允许我通知你，这是你今天的早餐，哈哈哈，煮面条和煮鸡蛋。",
+        "Holder": "2",
+        "Target": "早餐",
+        "Aspect": "内容",
+        "Opinion": "介绍",
+        "Sentiment": "positive",
+        "Rationale": "向夫人介绍早餐内容，并且语气轻松愉快"
+    },
+    {
+        "sentence": "小哥你做的对。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "行为",
+        "Opinion": "认可",
+        "Sentiment": "positive",
+        "Rationale": "对2的行为表示认可"
+    },
+    {
+        "sentence": "猜对了，哈哈哈。",
+        "Holder": "2",
+        "Target": "自己的猜测",
+        "Aspect": "准确性",
+        "Opinion": "正确",
+        "Sentiment": "positive",
+        "Rationale": "自己的猜测被证实是正确的"
+    },
+    {
+        "sentence": "太阳大西边出来了。不？",
+        "Holder": "1",
+        "Target": "现象",
+        "Aspect": "异常",
+        "Opinion": "疑问",
+        "Sentiment": "ambiguous",
+        "Rationale": "用夸张的比喻表达对某种现象的疑问"
+    },
+    {
+        "sentence": "太阳还是从东边出来地，哈哈哈，你看看这个鸡蛋，它是红皮的。嗯，按照我们老家的风俗，嗯，在吃之前要把这个鸡蛋这么孤。嘿嘿，就可以去掉所有的灾难，换来我向你夫妻。",
+        "Holder": "2",
+        "Target": "鸡蛋",
+        "Aspect": "鸡蛋的颜色和风俗",
+        "Opinion": "红皮鸡蛋能去除灾难",
+        "Sentiment": "positive",
+        "Rationale": "按照老家风俗红皮鸡蛋能去除灾难"
+    },
+    {
+        "sentence": "哈哈哈，你还一套一套呢。",
+        "Holder": "1",
+        "Target": "2的风俗讲解",
+        "Aspect": "讲解的内容",
+        "Opinion": "觉得有趣",
+        "Sentiment": "positive",
+        "Rationale": "觉得2讲解的风俗有趣且详细"
+    },
+    {
+        "sentence": "还有这个面条。嗯，它也不是一般的面条，哈哈哈，它是由一根面条做成的，叫长寿面。",
+        "Holder": "2",
+        "Target": "面条",
+        "Aspect": "面条的特殊性",
+        "Opinion": "长寿面有特殊意义",
+        "Sentiment": "positive",
+        "Rationale": "长寿面有特殊的寓意"
+    },
+    {
+        "sentence": "好长。",
+        "Holder": "1",
+        "Target": "长寿面",
+        "Aspect": "面条的长度",
+        "Opinion": "面条很长",
+        "Sentiment": "neutral",
+        "Rationale": "观察到长寿面确实很长"
+    },
+    {
+        "sentence": "当然了，长寿面不长怎么行？",
+        "Holder": "2",
+        "Target": "长寿面",
+        "Aspect": "面条的长度",
+        "Opinion": "长寿面应该长",
+        "Sentiment": "positive",
+        "Rationale": "长寿面的寓意是长寿"
+    },
+    {
+        "sentence": "哈哈哈哈，肖哥，你怎么这么好呢？你怎么这么乖呢？你对我怎么这么好呢？",
+        "Holder": "1",
+        "Target": "肖哥",
+        "Aspect": "对1的好",
+        "Opinion": "非常好",
+        "Sentiment": "positive",
+        "Rationale": "肖哥对1非常好"
+    },
+    {
+        "sentence": "哈哈哈，今天是世界上最美丽的老婆大人的生日，我就要让你开开心心。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "生日庆祝",
+        "Opinion": "要让1开心",
+        "Sentiment": "positive",
+        "Rationale": "今天是1的生日"
+    },
+    {
+        "sentence": "我太开心了，我真的很开心。",
+        "Holder": "1",
+        "Target": "2的庆祝",
+        "Aspect": "心情",
+        "Opinion": "非常开心",
+        "Sentiment": "positive",
+        "Rationale": "2的庆祝让1感到非常幸福"
+    },
+    {
+        "sentence": "嗯，这只是每一秒一天开心时刻的一个小小开始。嗯，到了晚上我要给你好好的庆祝庆祝。记得，嘿嘿。现在请允许本人用世界上最美妙、最温柔的、最有磁性的男性声音跟你说一声，哈哈哈，老祝你生日。",
+        "Holder": "2",
+        "Target": "1的生日",
+        "Aspect": "庆祝计划",
+        "Opinion": "要好好庆祝",
+        "Sentiment": "positive",
+        "Rationale": "2计划晚上好好庆祝1的生日"
+    },
+    {
+        "sentence": "爸爸我洋娃娃呢。",
+        "Holder": "3",
+        "Target": "洋娃娃",
+        "Aspect": "洋娃娃的位置",
+        "Opinion": "询问位置",
+        "Sentiment": "neutral",
+        "Rationale": "3找不到自己的洋娃娃"
+    },
+    {
+        "sentence": "那个在这呢，哈哈，看昨天我就给你修好了。",
+        "Holder": "2",
+        "Target": "修理工作",
+        "Aspect": "修理结果",
+        "Opinion": "修好了",
+        "Sentiment": "positive",
+        "Rationale": "成功修好了东西"
+    },
+    {
+        "sentence": "爸你可真棒。",
+        "Holder": "3",
+        "Target": "2的修理能力",
+        "Aspect": "修理技能",
+        "Opinion": "很棒",
+        "Sentiment": "positive",
+        "Rationale": "父亲成功修好了东西"
+    },
+    {
+        "sentence": "哈哈哈，那个现在该送谁就赶紧送吧啊。对呀。",
+        "Holder": "2",
+        "Target": "送东西的任务",
+        "Aspect": "送东西的及时性",
+        "Opinion": "赶紧送",
+        "Sentiment": "neutral",
+        "Rationale": "需要及时完成任务"
+    },
+    {
+        "sentence": "送，快送，送的。",
+        "Holder": "1",
+        "Target": "送东西的任务",
+        "Aspect": "送东西的紧迫性",
+        "Opinion": "快送",
+        "Sentiment": "neutral",
+        "Rationale": "需要尽快送出去"
+    },
+    {
+        "sentence": "对，您说的对，我得赶紧送给苏婷婷去，他肯定特别的开心。",
+        "Holder": "3",
+        "Target": "送东西的任务",
+        "Aspect": "送东西的及时性和对方反应",
+        "Opinion": "赶紧送，对方会开心",
+        "Sentiment": "positive",
+        "Rationale": "相信苏婷婷收到东西会开心"
+    },
+    {
+        "sentence": "哈哈哈，等会儿，那个苏婷婷是谁？",
+        "Holder": "2",
+        "Target": "苏婷婷",
+        "Aspect": "身份",
+        "Opinion": "好奇",
+        "Sentiment": "positive",
+        "Rationale": "对苏婷婷的身份感到好奇"
+    },
+    {
+        "sentence": "苏婷婷坐我旁边一女生，她今天就要转学去南京了，我得赶紧送给她去，哈哈哈哈哈。",
+        "Holder": "3",
+        "Target": "苏婷婷",
+        "Aspect": "转学",
+        "Opinion": "需要送行",
+        "Sentiment": "positive",
+        "Rationale": "苏婷婷要转学"
+    },
+    {
+        "sentence": "小哥怎么送给苏婷婷的？",
+        "Holder": "1",
+        "Target": "送行方式",
+        "Aspect": "具体做法",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "想知道具体的送行方式"
+    },
+    {
+        "sentence": "哈哈哈，没关系没关系。嗯，本来这么孩子吃的东西他就是送给小孩的。",
+        "Holder": "2",
+        "Target": "礼物",
+        "Aspect": "适用对象",
+        "Opinion": "适合小孩",
+        "Sentiment": "positive",
+        "Rationale": "礼物本来就是给小孩的"
+    },
+    {
+        "sentence": "哈哈哈，反正我也不稀罕。嗯，反正还有小雪呢，哈哈哈，就是妈。",
+        "Holder": "1",
+        "Target": "礼物",
+        "Aspect": "个人态度",
+        "Opinion": "不稀罕",
+        "Sentiment": "positive",
+        "Rationale": "自己不稀罕礼物，并且还有小雪"
+    },
+    {
+        "sentence": "来了，哈哈。妈怎么回事啊？您怎么啦？您看您改的改成什么样啦？腰肥的跟麻袋似的，我们周老师怎么穿呀？",
+        "Holder": "4",
+        "Target": "妈妈的修改",
+        "Aspect": "衣服的修改效果",
+        "Opinion": "修改得很差",
+        "Sentiment": "negative",
+        "Rationale": "妈妈把衣服改得腰肥像麻袋，导致无法送给周老师"
+    },
+    {
+        "sentence": "哈哈哈，周老师。",
+        "Holder": "1",
+        "Target": "周老师",
+        "Aspect": "提及",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及周老师，没有表达任何具体的情感"
+    },
+    {
+        "sentence": "周老师是谁。",
+        "Holder": "2",
+        "Target": "周老师",
+        "Aspect": "身份",
+        "Opinion": "询问身份",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问周老师的身份，没有表达任何具体的情感"
+    },
+    {
+        "sentence": "哈哈哈，周老师是我的化学老师，我本来想在教师节那天送给他一个很特别的礼物，没有想到都让你给搞砸了。哈哈哈，算了算了，我不要了，我还是自己买一个吧。",
+        "Holder": "4",
+        "Target": "妈妈的修改",
+        "Aspect": "礼物准备的效果",
+        "Opinion": "礼物被搞砸",
+        "Sentiment": "negative",
+        "Rationale": "妈妈把准备好的礼物搞砸了，导致无法按计划送给周老师"
+    },
+    {
+        "sentence": "哈哈，走给走喽。",
+        "Holder": "1",
+        "Target": "无明确对象",
+        "Aspect": "无明确方面",
+        "Opinion": "无明确观点",
+        "Sentiment": "neutral",
+        "Rationale": "只是随口回应，没有表达任何具体的情感"
+    },
+    {
+        "sentence": "没地址怎么寄啊？",
+        "Holder": "5",
+        "Target": "寄送包裹",
+        "Aspect": "地址的必要性",
+        "Opinion": "需要地址",
+        "Sentiment": "neutral",
+        "Rationale": "不知道地址无法寄送包裹"
+    },
+    {
+        "sentence": "哈哈哈，寄给谁。",
+        "Holder": "1",
+        "Target": "寄送对象",
+        "Aspect": "寄送对象的明确性",
+        "Opinion": "不清楚寄给谁",
+        "Sentiment": "positive",
+        "Rationale": "觉得寄送对象不明确有些好笑"
+    },
+    {
+        "sentence": "这是我美国一个朋友，他叫烫，今天是他 10 岁的生日。嗯，你别给我记丢了啊。",
+        "Holder": "5",
+        "Target": "朋友生日礼物",
+        "Aspect": "寄送的重要性和准确性",
+        "Opinion": "重视寄送",
+        "Sentiment": "neutral",
+        "Rationale": "担心朋友生日礼物寄送出错"
+    },
+    {
+        "sentence": "没关系，倒霉孩子们，出来吃饭了哦。这么多吃都不许吃。哇塞，和妈妈坐下一块吃。",
+        "Holder": "2",
+        "Target": "孩子们",
+        "Aspect": "吃饭的安排",
+        "Opinion": "让孩子们吃饭",
+        "Sentiment": "positive",
+        "Rationale": "看到孩子们不能吃饭觉得可怜"
+    },
+    {
+        "sentence": "饿死了，饿死呀。等什么？有什么可等的？吃不吃？",
+        "Holder": "1",
+        "Target": "吃饭等待",
+        "Aspect": "等待的合理性",
+        "Opinion": "不耐烦等待",
+        "Sentiment": "negative",
+        "Rationale": "非常饿且觉得等待不合理"
+    },
+    {
+        "sentence": "接个电话能把你们几个人累死。",
+        "Holder": "2",
+        "Target": "接电话的行为",
+        "Aspect": "接电话的轻松程度",
+        "Opinion": "接电话不累",
+        "Sentiment": "negative",
+        "Rationale": "认为接电话是轻松的事情，却被夸张成累死"
+    },
+    {
+        "sentence": "姥姥吃饭呢？吃饭全是好吃的，什么面条，有什么好吃的没吃？鸡蛋。要是鹌鹑蛋我倒还能考虑考虑，哈哈哈。什么蛋糕也只能当饭后舔脸吃，哈哈哈。没事哈，又那肚子吃这个诶，对，姥姥，您到底有没有事？没事，我挂了，我还吃饭呢。哈哈哈，成，我跟我妈说，姥姥说祝您生日快乐诶，姥姥说完了，我吃饭了，挂了，吃饭了，哒哒哒哒。嗯，生日。",
+        "Holder": "3",
+        "Target": "姥姥的电话内容",
+        "Aspect": "电话内容的琐碎",
+        "Opinion": "电话内容不重要",
+        "Sentiment": "positive",
+        "Rationale": "觉得电话内容琐碎且不影响自己吃饭"
+    },
+    {
+        "sentence": "妈今天是您生日。没错。",
+        "Holder": "4",
+        "Target": "妈妈的生日",
+        "Aspect": "生日的确认",
+        "Opinion": "确认生日",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "今天就是妈妈的生日。",
+        "Holder": "2",
+        "Target": "妈妈的生日",
+        "Aspect": "生日的确认",
+        "Opinion": "确认生日",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "都怪你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "责任归属",
+        "Opinion": "责怪2",
+        "Sentiment": "negative",
+        "Rationale": "认为2有责任导致某种不好的结果"
+    },
+    {
+        "sentence": "知道你们不说，瞪得我三大眼睛还疼呢。",
+        "Holder": "5",
+        "Target": "瞪眼行为",
+        "Aspect": "眼睛的感受",
+        "Opinion": "感到疼痛",
+        "Sentiment": "negative",
+        "Rationale": "被瞪眼导致眼睛不适"
+    },
+    {
+        "sentence": "哈哈哈，我不好意思嘛，什么礼物都没准备就干瘪瘪的一句话，多难为情啊。",
+        "Holder": "4",
+        "Target": "自己没有准备礼物",
+        "Aspect": "礼物的准备情况",
+        "Opinion": "感到难为情",
+        "Sentiment": "negative",
+        "Rationale": "没有准备礼物"
+    },
+    {
+        "sentence": "那怎么办呀，现在已经晚了，卖蛋糕的地儿早就关门了，要是。",
+        "Holder": "3",
+        "Target": "买蛋糕的情况",
+        "Aspect": "时间紧迫",
+        "Opinion": "无法买到蛋糕",
+        "Sentiment": "negative",
+        "Rationale": "时间已晚，店铺关门"
+    },
+    {
+        "sentence": "有个神仙来帮我们就好了。",
+        "Holder": "5",
+        "Target": "神仙的帮助",
+        "Aspect": "解决问题的愿望",
+        "Opinion": "希望得到帮助",
+        "Sentiment": "neutral",
+        "Rationale": "面临无法解决的问题"
+    },
+    {
+        "sentence": "夏东海，你看我是不是穿这件衣服，配着项链特。",
+        "Holder": "1",
+        "Target": "衣服和项链的搭配",
+        "Aspect": "搭配效果",
+        "Opinion": "询问搭配是否合适",
+        "Sentiment": "neutral",
+        "Rationale": "不确定衣服和项链的搭配效果"
+    },
+    {
+        "sentence": "好看。肯定好看，哈哈哈。",
+        "Holder": "2",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "positive",
+        "Rationale": "对某事感到满意或兴奋"
+    },
+    {
+        "sentence": "呵，今天是人家生日，你就不能捧捧场，看我一眼都不行，干嘛老敷衍我。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "关注和陪伴",
+        "Opinion": "需要更多的关注和陪伴",
+        "Sentiment": "negative",
+        "Rationale": "感觉被忽视和敷衍"
+    },
+    {
+        "sentence": "对对对对，哇塞，这是天女下凡。这是谁呀？我看看。讨厌，我老婆这么漂亮，老婆能否在你生日之际允许我请您跳一支舞。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "外貌和庆祝",
+        "Opinion": "赞美和庆祝",
+        "Sentiment": "positive",
+        "Rationale": "对妻子的外貌和庆祝活动的赞赏"
+    },
+    {
+        "sentence": "还是我老公电视，哈哈，不来。",
+        "Holder": "1",
+        "Target": "电视",
+        "Aspect": "娱乐选择",
+        "Opinion": "选择看电视而不是跳舞",
+        "Sentiment": "neutral",
+        "Rationale": "选择看电视而不是参与庆祝"
+    },
+    {
+        "sentence": "Mai. Ayo juga ya bang. Ayo jelas dulu masuk dulu aku jangan。",
+        "Holder": "3",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "这句话是另一种语言的插入，没有明确的情感或评价对象"
+    },
+    {
+        "sentence": "Jangan lupa jangan jangan.",
+        "Holder": "1",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "这句话是提醒性质的，没有明显的情感倾向"
+    },
+    {
+        "sentence": "Guyon ini loh.",
+        "Holder": "2",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "这句话是随意的评论，没有表达出明显的情感倾向"
+    },
+    {
+        "sentence": "Gudeg gudeg gudeg.",
+        "Holder": "1",
+        "Target": "None",
+        "Aspect": "None",
+        "Opinion": "None",
+        "Sentiment": "neutral",
+        "Rationale": "这句话是重复的词语，没有表达出明显的情感，所以情绪是中立的"
+    },
+    {
+        "sentence": "怎么这么漂亮",
+        "Holder": "1",
+        "Target": "蛋糕",
+        "Aspect": "外观",
+        "Opinion": "非常漂亮",
+        "Sentiment": "positive",
+        "Rationale": "因为说话者对蛋糕的外观表示了惊讶和赞赏，所以情绪是积极的"
+    },
+    {
+        "sentence": "这个蛋糕太有个性了",
+        "Holder": "2",
+        "Target": "蛋糕",
+        "Aspect": "设计",
+        "Opinion": "有个性",
+        "Sentiment": "positive",
+        "Rationale": "因为蛋糕的设计很特别，所以说话者感到惊喜和赞赏"
+    },
+    {
+        "sentence": "哈哈哈，这是我去小卖铺买的蜡烛。",
+        "Holder": "5",
+        "Target": "蜡烛",
+        "Aspect": "购买地点",
+        "Opinion": "自己去买的",
+        "Sentiment": "positive",
+        "Rationale": "自己亲自去小卖铺买了蜡烛"
+    },
+    {
+        "sentence": "也是我插的，这是。",
+        "Holder": "3",
+        "Target": "蜡烛",
+        "Aspect": "插蜡烛的行为",
+        "Opinion": "自己插的",
+        "Sentiment": "positive",
+        "Rationale": "自己参与了插蜡烛的过程"
+    },
+    {
+        "sentence": "我设计制作的。",
+        "Holder": "4",
+        "Target": "蜡烛",
+        "Aspect": "设计和制作",
+        "Opinion": "自己设计制作的",
+        "Sentiment": "positive",
+        "Rationale": "自己设计和制作了蜡烛"
+    },
+    {
+        "sentence": "呵呦，可是我怎么看它也不像一蛋糕啊。",
+        "Holder": "2",
+        "Target": "蜡烛",
+        "Aspect": "外观像蛋糕的程度",
+        "Opinion": "不像蛋糕",
+        "Sentiment": "negative",
+        "Rationale": "觉得蜡烛的外观不像蛋糕"
+    },
+    {
+        "sentence": "呦，你别老那么挑剔行不行啊？这怎么不像蛋糕啊？这蛋，这还真不是蛋糕，这是一馒头啊，哈哈哈。",
+        "Holder": "1",
+        "Target": "2的挑剔",
+        "Aspect": "对蜡烛外观的评价",
+        "Opinion": "不应该挑剔",
+        "Sentiment": "positive",
+        "Rationale": "觉得2对蜡烛外观的挑剔不合理"
+    },
+    {
+        "sentence": "你生日快乐。",
+        "Holder": "4",
+        "Target": "2的生日",
+        "Aspect": "生日祝福",
+        "Opinion": "生日快乐",
+        "Sentiment": "positive",
+        "Rationale": "表达了对对方生日的祝福"
+    },
+    {
+        "sentence": "快乐。祝生日快乐，快乐。祝生日快乐，快乐哦。",
+        "Holder": "2",
+        "Target": "4的祝福",
+        "Aspect": "回应祝福",
+        "Opinion": "感谢并回祝",
+        "Sentiment": "positive",
+        "Rationale": "收到了对方的生日祝福并表示感谢和回祝"
+    }
+]

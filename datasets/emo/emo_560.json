@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "胡梦对桂婆婆手机事件的过度反应",
+        "emotions": [
+          {"state": "negative", "reason": "胡梦对桂婆婆动手机行为持续指责", "source_id": "2"},
+          {"state": "negative", "reason": "指责胡梦说话伤人导致桂婆婆住院", "source_id": "2"},
+          {"state": "neutral", "reason": "接受小叶咬人非故意的解释", "source_id": "2,3"}
+        ]
+      },
+      {
+        "event": "责任归属争论",
+        "emotions": [
+          {"state": "negative", "reason": "被3指责需承担冲突责任", "source_id": "3"},
+          {"state": "neutral", "reason": "询问小叶是否主动挑衅", "source_id": "3"},
+          {"state": "negative", "reason": "否认自身存在打人责任", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "冲突调解过程",
+        "emotions": [
+          {"state": "negative", "reason": "制止1的持续抱怨", "source_id": "1"},
+          {"state": "neutral", "reason": "为小叶咬人行为辩解", "source_id": "1"},
+          {"state": "negative", "reason": "试图阻止3驱赶1的行为", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "立场矛盾爆发",
+        "emotions": [
+          {"state": "negative", "reason": "认定1需承担主要责任", "source_id": "1"},
+          {"state": "negative", "reason": "被1质疑偏向胡梦立场", "source_id": "1"},
+          {"state": "negative", "reason": "要求1离开现场", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "最终调解与信任建立",
+        "emotions": [
+          {"state": "negative", "reason": "对持续混乱局面不满", "source_id": "1,3"},
+          {"state": "positive", "reason": "建立对小叶处理能力的信任", "source_id": "2,3"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "角色与情节核心性辩论",
+        "emotions": [
+          {"state": "positive", "reason": "强调角色对小说本质的体现", "source_id": "2,3,5"},
+          {"state": "negative", "reason": "遭遇快餐文学类比质疑", "source_id": "6"},
+          {"state": "neutral", "reason": "用严肃文学案例回应质疑", "source_id": "7"}
+        ]
+      },
+      {
+        "event": "精彩人生定义争议",
+        "emotions": [
+          {"state": "positive", "reason": "论证安全人生也可精彩", "source_id": "8"},
+          {"state": "negative", "reason": "被质疑精彩标准单一化", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情节核心性论证",
+        "emotions": [
+          {"state": "positive", "reason": "强调历练对精彩的决定性", "source_id": "1,3"},
+          {"state": "neutral", "reason": "回应角色选择权质疑", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "角色决定性辩护",
+        "emotions": [
+          {"state": "negative", "reason": "遭遇情节必要性挑战", "source_id": "5,6"},
+          {"state": "positive", "reason": "用杨过案例巩固论点", "source_id": "1"},
+          {"state": "neutral", "reason": "探讨自由意志与命运关系", "source_id": "8"}
+        ]
+      },
+      {
+        "event": "穿越假设讨论",
+        "emotions": [
+          {"state": "neutral", "reason": "分析不同穿越可能性", "source_id": "4,6"},
+          {"state": "positive", "reason": "强调性格决定经历价值", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "多义性探讨",
+        "emotions": [
+          {"state": "neutral", "reason": "质疑情节单一解读性", "source_id": "5"},
+          {"state": "positive", "reason": "用诗歌案例强调角色投射", "source_id": "3"},
+          {"state": "negative", "reason": "被反驳情节决定论", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "情节普适性论证",
+        "emotions": [
+          {"state": "positive", "reason": "用士兵案例证明历练价值", "source_id": "3"},
+          {"state": "neutral", "reason": "回应角色内核质疑", "source_id": "4"},
+          {"state": "negative", "reason": "遭遇自由意志理论挑战", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "感官精彩主张",
+        "emotions": [
+          {"state": "positive", "reason": "强调剧透破坏性验证理论", "source_id": "3"},
+          {"state": "negative", "reason": "被严肃文学案例反驳", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "文学本质剖析",
+        "emotions": [
+          {"state": "negative", "reason": "批驳电影案例不当类比", "source_id": "8"},
+          {"state": "positive", "reason": "用化石比喻论证角色必需", "source_id": "1"},
+          {"state": "neutral", "reason": "区分快餐与严肃文学", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "命运决定论阐释",
+        "emotions": [
+          {"state": "positive", "reason": "用张无忌案例佐证", "source_id": "3"},
+          {"state": "negative", "reason": "遭遇自由意志挑战", "source_id": "4"},
+          {"state": "neutral", "reason": "解释但尽人事理论", "source_id": "7"}
+        ]
+      }
+    ]
+  }
+}

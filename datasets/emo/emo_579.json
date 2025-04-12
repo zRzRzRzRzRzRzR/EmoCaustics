@@ -1,0 +1,107 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "解构努力与成功的必然联系",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "批判将努力与成功绑定带来的精神枷锁",
+            "source_id": "3,5"
+          },
+          {
+            "state": "positive",
+            "reason": "主张通过解绑实现自我价值重构",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "辩论价值的本质探讨",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑辩论的实际成效与性价比",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "强调表达本身的存在主义价值",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "对反方立场的认知冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反对外部视角的价值评判标准",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "目标选择方法论之争",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指摘对方混淆概念逃避核心矛盾",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "推崇思维转换带来的价值重构",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "现实案例的战术分析",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "肯定反方在具体环节的策略运用",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "神话寓言的现代解构",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "发现古典悲剧的当代应用价值",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "目标虚妄性判定标准",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "强调客观条件的不可逾越性",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

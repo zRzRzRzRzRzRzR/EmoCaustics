@@ -1,0 +1,137 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "组织讨论与质疑政府目标",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "感谢参与者加入重要讨论",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "按流程安排会议环节",
+            "source_id": "1"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑政府消除无家可归目标的现实性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "批判政府政策与紧缩措施",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "政府忽视无家可归问题增长并撤回支持",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "政府目标狭隘导致根本问题未解决",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "肯定地方政府通过法律手段改善住房建设",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "住房危机与政策失效分析",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "住房福利冻结加重租金负担",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "建议解冻福利并实施租金控制",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "社会住房建设水平创历史新低",
+            "source_id": "3"
+          }
+        ]
+      },
+      {
+        "event": "社会污名化现象批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "福利领取者与边缘群体被系统性污名化",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "格伦费尔火灾受害者遭受社会偏见",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "住房机制与社区归属感",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "私人租赁市场租金难以负担",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "社区包容性帮助边缘人群重建生活",
+            "source_id": "4"
+          },
+          {
+            "state": "neutral",
+            "reason": "街头社区感提供替代性归属来源",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "慈善机构运营挑战",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "多样化援助项目取得积极效果",
+            "source_id": "5"
+          },
+          {
+            "state": "negative",
+            "reason": "政府资金使用限制服务效果",
+            "source_id": "5"
+          },
+          {
+            "state": "neutral",
+            "reason": "控制安排提供评估服务效果机会",
+            "source_id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

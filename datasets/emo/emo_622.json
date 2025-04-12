@@ -1,0 +1,65 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "许曼曼的生命威胁与身份求情",
+        "emotions": [
+          {"state": "doubt", "reason": "试图用父亲身份威慑厉司寒", "source_id": "2"},
+          {"state": "negative", "reason": "被厉司寒威胁杀害并恐惧死亡", "source_id": "2,4"},
+          {"state": "ambiguous", "reason": "对厉司寒行为意图的短暂疑惑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "对晚凝的极端复仇行动",
+        "emotions": [
+          {"state": "positive", "reason": "为晚凝复仇的坚定信念", "source_id": "3"},
+          {"state": "negative", "reason": "报复许曼曼及伤害晚凝者", "source_id": "1,3"},
+          {"state": "neutral", "reason": "完成复仇后的无价值感", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "与宋晚凝的情感偏执纠葛",
+        "emotions": [
+          {"state": "positive", "reason": "坚信能通过陪伴获得爱情", "source_id": "3"},
+          {"state": "negative", "reason": "被宋晚凝多次明确拒绝", "source_id": "3"},
+          {"state": "ambiguous", "reason": "混淆梦境与现实的情感投射", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "对抗警方与法律体系",
+        "emotions": [
+          {"state": "negative", "reason": "蔑视法律并武力对抗警方", "source_id": "4"},
+          {"state": "positive", "reason": "成功驱逐警方维持私密空间", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反抗厉司寒的情感控制",
+        "emotions": [
+          {"state": "negative", "reason": "强烈拒绝厉司寒的极端示爱", "source_id": "2"},
+          {"state": "neutral", "reason": "承诺履行法律作证义务", "source_id": "4"},
+          {"state": "negative", "reason": "要求厉司寒承担行为后果", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "警方武力解救行动",
+        "emotions": [
+          {"state": "negative", "reason": "女儿被囚禁与生命威胁", "source_id": "2"},
+          {"state": "neutral", "reason": "试图通过谈判控制局势", "source_id": "2"},
+          {"state": "negative", "reason": "目睹女儿受害后的极端愤怒", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

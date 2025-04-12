@@ -1,0 +1,169 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "父权制压迫与独立女性本质",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出父权制系统性压迫导致女性被污名化，引用波芙娃理论说明独立女性需要改变权利结构",
+            "source_id": "2,3,4"
+          },
+          {
+            "state": "positive",
+            "reason": "强调独立女性理念推动历史变革，从投票权到职场平权的进步",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "独立女性标准争议",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "援引智联招聘数据说明大众对独立女性的主流理解",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "反对将独立女性作为个体评判标准，指出结构性问题根源",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "独立女性概念结构缺陷",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析独立作为不及物动词的语法问题，对比经典权利文本",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "强调词性导致社会对女性主观能动性过度审查",
+            "source_id": "3,6"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "社会关注焦点偏移",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "通过多平台搜索数据证明公众讨论侧重个人选择而非结构压迫",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "强调82.8%受访者认可思想/经济独立的核心标准",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "独立女性叙事客体化",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "指出独立标准导致普通女性被贬低，类比超级残疾人概念",
+            "source_id": "5"
+          },
+          {
+            "state": "neutral",
+            "reason": "主张用解放女性替代叙事，强调结构改革优先",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "话语权争夺与概念异化",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "论证独立女性标准被权力结构反向利用，举证papi酱案例",
+            "source_id": "4"
+          },
+          {
+            "state": "doubt",
+            "reason": "质疑独立女性与平权运动的本质关联",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "宅基地权属与实质平等",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "揭露中国北方农村99%女性无宅基地的结构性问题",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "主张通过独立女性叙事改变法律认知，引用美国平权运动史",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "独立概念实践困境",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "以肖申克案例探讨独立与权利的关系本质",
+            "source_id": "7"
+          },
+          {
+            "state": "negative",
+            "reason": "指出家务劳动价值遮蔽导致独立标准虚化",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "历史维度下的平权路径",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "追溯1893年美国女性律师权案例，强调独立女性运动历史价值",
+            "source_id": "8"
+          },
+          {
+            "state": "negative",
+            "reason": "批评流量导向削弱思辨价值，呼吁关注底层女性需求",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "局势评估与文告发布",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "局势严峻性认知引发压力，文告内容遭到党内反对",
+            "source_id": "1,3,4"
+          },
+          {
+            "state": "neutral",
+            "reason": "提出和平谈判条件作为权宜之计",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "总统隐退的政治博弈",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认为隐退可稳定局面获取美国支持",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "警惕党内势力与外国勾结",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "党内危机与自我定位",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "担忧内部腐败导致政权崩溃",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "需要平衡不同派系诉求",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

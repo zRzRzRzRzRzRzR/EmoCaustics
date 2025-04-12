@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "大会开幕致辞",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "对活动成功表达期望",
+            "source_id": "2,4"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "智慧医疗战略规划阐述",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调智慧医疗赛道重要性",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "展示机构资源优势",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "说明政策关联性",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "政府政策与数据应用讨论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "分析三胎补偿政策影响",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "简述团队工作模式",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "会议流程主持",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "赞赏嘉宾表现",
+            "source_id": "2"
+          },
+          {
+            "state": "neutral",
+            "reason": "推进会议议程",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

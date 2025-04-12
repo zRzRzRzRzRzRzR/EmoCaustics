@@ -1,0 +1,227 @@
+[
+    {
+        "sentence": "同学们把手里的活都停下，我说个事儿，我们班哪转来一位新同学子昂他以720分的优异成绩转入我校，那啥你就先坐第一排。",
+        "Holder": "1",
+        "Target": "子昂",
+        "Aspect": "转入成绩",
+        "Opinion": "720分的优异成绩",
+        "Sentiment": "positive",
+        "Rationale": "子昂以720分的优异成绩转入"
+    },
+    {
+        "sentence": "720的来这儿干啥。",
+        "Holder": "2",
+        "Target": "子昂",
+        "Aspect": "转入原因",
+        "Opinion": "质疑",
+        "Sentiment": "ambiguous",
+        "Rationale": "不明白子昂为何以高分转入"
+    },
+    {
+        "sentence": "希望大家能和子昂和睦相处，下课。",
+        "Holder": "1",
+        "Target": "同学们",
+        "Aspect": "相处态度",
+        "Opinion": "和睦相处",
+        "Sentiment": "positive",
+        "Rationale": "希望班级氛围和谐"
+    },
+    {
+        "sentence": "那啥你之前哪个学校的",
+        "Holder": "2",
+        "Target": "3的教育背景",
+        "Aspect": "学校",
+        "Opinion": "询问学校",
+        "Sentiment": "neutral",
+        "Rationale": "2只是单纯的询问3的学校"
+    },
+    {
+        "sentence": "省一中的",
+        "Holder": "3",
+        "Target": "自己的教育背景",
+        "Aspect": "学校",
+        "Opinion": "省一中",
+        "Sentiment": "neutral",
+        "Rationale": "3只是回答了自己的学校"
+    },
+    {
+        "sentence": "那么好学校，你怎么来晚咱这了，你愿意下放到这",
+        "Holder": "2",
+        "Target": "3的工作选择",
+        "Aspect": "工作地点的合理性",
+        "Opinion": "质疑3的选择",
+        "Sentiment": "ambiguous",
+        "Rationale": "2对3从好学校来到这里表示疑惑"
+    },
+    {
+        "sentence": "你以为我愿意来你们这儿",
+        "Holder": "3",
+        "Target": "自己的工作选择",
+        "Aspect": "工作地点的意愿",
+        "Opinion": "不愿意来",
+        "Sentiment": "negative",
+        "Rationale": "3表达了自己并不愿意来这里"
+    },
+    {
+        "sentence": "真能装的,",
+        "Holder": "2",
+        "Target": "某人",
+        "Aspect": "行为表现",
+        "Opinion": "装模作样",
+        "Sentiment": "negative",
+        "Rationale": "认为某人表现得非常不真实"
+    },
+    {
+        "sentence": "你就说说",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "发言要求",
+        "Opinion": "要求解释",
+        "Sentiment": "neutral",
+        "Rationale": "对2的话语感到疑惑"
+    },
+    {
+        "sentence": "别嘟囔了，上课。今天的题有点难度，大伙跟着认真听,",
+        "Holder": "1",
+        "Target": "学生们",
+        "Aspect": "课堂纪律和学习态度",
+        "Opinion": "要求安静和专注",
+        "Sentiment": "neutral",
+        "Rationale": "课堂需要安静和专注"
+    },
+    {
+        "sentence": "新来的脾气挺大。",
+        "Holder": "2",
+        "Target": "新来的",
+        "Aspect": "性格特点",
+        "Opinion": "脾气大",
+        "Sentiment": "negative",
+        "Rationale": "新来的人表现出易怒和不耐烦"
+    },
+    {
+        "sentence": "来，这道题谁有解题思路？",
+        "Holder": "4",
+        "Target": "解题思路",
+        "Aspect": "问题求解",
+        "Opinion": "寻求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "需要找到解题思路"
+    },
+    {
+        "sentence": "Y等于3/2，x减7/8。",
+        "Holder": "3",
+        "Target": "题目答案",
+        "Aspect": "具体解答",
+        "Opinion": "提供答案",
+        "Sentiment": "neutral",
+        "Rationale": "正在解答题目"
+    },
+    {
+        "sentence": "子昂说的对，有点底子，那么这题一共两小题，第二小题",
+        "Holder": "1",
+        "Target": "子昂的答案",
+        "Aspect": "答案的正确性",
+        "Opinion": "认同答案",
+        "Sentiment": "positive",
+        "Rationale": "子昂的答案正确"
+    },
+    {
+        "sentence": "4/3倍根号13，",
+        "Holder": "5",
+        "Target": "题目答案",
+        "Aspect": "具体解答",
+        "Opinion": "提供答案",
+        "Sentiment": "neutral",
+        "Rationale": "正在解答题目"
+    },
+    {
+        "sentence": "不对劲啊杠上了。",
+        "Holder": "2",
+        "Target": "当前讨论",
+        "Aspect": "讨论的合理性",
+        "Opinion": "认为有误",
+        "Sentiment": "negative",
+        "Rationale": "觉得讨论的方向不对"
+    },
+    {
+        "sentence": "还得是蚂蚁这么的，咱先把底下答案对了，下一题谁知道",
+        "Holder": "5",
+        "Target": "解题过程",
+        "Aspect": "答案确认",
+        "Opinion": "需要确认答案",
+        "Sentiment": "neutral",
+        "Rationale": "需要确保答案的正确性"
+    },
+    {
+        "sentence": "答案是y不等于1/3？",
+        "Holder": "1",
+        "Target": "答案",
+        "Aspect": "答案的具体内容",
+        "Opinion": "提出答案",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认答案是否正确"
+    },
+    {
+        "sentence": "没错，咱们下一题",
+        "Holder": "3",
+        "Target": "答案",
+        "Aspect": "答案的正确性",
+        "Opinion": "确认答案正确",
+        "Sentiment": "positive",
+        "Rationale": "答案被确认是正确的"
+    },
+    {
+        "sentence": "y的值域是8/5~3，",
+        "Holder": "2",
+        "Target": "值域",
+        "Aspect": "值域的范围",
+        "Opinion": "提供值域信息",
+        "Sentiment": "neutral",
+        "Rationale": "需要提供具体的值域信息"
+    },
+    {
+        "sentence": "不这课给他俩上的",
+        "Holder": "1",
+        "Target": "课程参与",
+        "Aspect": "课程的参与对象",
+        "Opinion": "指出课程对象",
+        "Sentiment": "neutral",
+        "Rationale": "需要说明课程的参与对象"
+    },
+    {
+        "sentence": "咱们来看最后一题答案，",
+        "Holder": "3",
+        "Target": "最后一题答案",
+        "Aspect": "查看答案",
+        "Opinion": "需要查看",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认最后一题的答案"
+    },
+    {
+        "sentence": "这把咋不一样？",
+        "Holder": "2",
+        "Target": "答案不一致",
+        "Aspect": "答案的统一性",
+        "Opinion": "答案不一致",
+        "Sentiment": "ambiguous",
+        "Rationale": "发现大家的答案不一致"
+    },
+    {
+        "sentence": "等一下我找一下答案，",
+        "Holder": "1",
+        "Target": "答案查找",
+        "Aspect": "查找答案的行为",
+        "Opinion": "需要查找",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认正确答案"
+    },
+    {
+        "sentence": "找着了这一题答案是。",
+        "Holder": "1",
+        "Target": "最后一题答案",
+        "Aspect": "答案的确认",
+        "Opinion": "找到答案",
+        "Sentiment": "neutral",
+        "Rationale": "找到了正确答案"
+    }
+]

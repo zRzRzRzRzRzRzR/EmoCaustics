@@ -1,0 +1,66 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "会议启动与议程规划",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "热情欢迎参与者并强调会议目标",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "说明合作主持人的缺席安排",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "实验方法核心案例解析",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "客观陈述伽利略/疫苗/双生子实验过程",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调AB测试在商业实践中的量化价值",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "社会科学研究范式突破",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反思人类样本控制的技术困境",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "提出随机化解决方案的有效性",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "实验设计方法论构建",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "系统说明理论梳理到样本选择的标准化流程",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调多方法验证的必要性",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

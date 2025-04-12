@@ -1,0 +1,1415 @@
+[
+    {
+        "sentence": "我打了一打。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行动",
+        "Opinion": "打了一打",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己的行为，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我就算再畜再菜再唐再马我也没摆。不你发我的没用，因为你发我的不能证明我们没开挂，因为我肯定没开。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为和态度",
+        "Opinion": "没有摆烂，没有开挂",
+        "Sentiment": "negative",
+        "Rationale": "被质疑开挂且对方发的证据无效"
+    },
+    {
+        "sentence": "还真是坏了，你说的好像是真的",
+        "Holder": "3",
+        "Target": "2的说法",
+        "Aspect": "真实性",
+        "Opinion": "可能是真的",
+        "Sentiment": "ambiguous",
+        "Rationale": "对方说得很有说服力，但自己还没有完全确信"
+    },
+    {
+        "sentence": "所以说对啊。在你们他妈积分榜上排的靠前都不发，直播间，他妈发我直播间有逼用啊",
+        "Holder": "2",
+        "Target": "积分榜和直播间",
+        "Aspect": "公平性",
+        "Opinion": "不公平",
+        "Sentiment": "negative",
+        "Rationale": "觉得积分榜上靠前的不被质疑，而自己被针对"
+    },
+    {
+        "sentence": "非得发你的。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "被质疑的对象",
+        "Opinion": "针对2",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "兄弟直播间号太长了不发了。",
+        "Holder": "3",
+        "Target": "直播间号",
+        "Aspect": "直播间号的长度",
+        "Opinion": "太长",
+        "Sentiment": "negative",
+        "Rationale": "直播间号太长"
+    },
+    {
+        "sentence": "你的直播间有排面对面看到一声都不敢叫了，",
+        "Holder": "4",
+        "Target": "3的直播间",
+        "Aspect": "直播间的情况",
+        "Opinion": "有排面对面",
+        "Sentiment": "negative",
+        "Rationale": "直播间有排面对面"
+    },
+    {
+        "sentence": "是的。",
+        "Holder": "3",
+        "Target": "4的描述",
+        "Aspect": "直播间的情况",
+        "Opinion": "确认",
+        "Sentiment": "neutral",
+        "Rationale": "只是确认4的描述"
+    },
+    {
+        "sentence": "别叫了，很喜欢Fackel说的一句话，我是烟位。",
+        "Holder": "2",
+        "Target": "叫的行为",
+        "Aspect": "行为的合理性",
+        "Opinion": "不支持叫",
+        "Sentiment": "positive",
+        "Rationale": "喜欢Fackel的话并认同自己是烟位"
+    },
+    {
+        "sentence": "你等一下我因为没垫有人垫底了。",
+        "Holder": "1",
+        "Target": "垫底的情况",
+        "Aspect": "垫底的安排",
+        "Opinion": "没人垫底",
+        "Sentiment": "negative",
+        "Rationale": "没有人垫底"
+    },
+    {
+        "sentence": "你是懂的。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "理解能力",
+        "Opinion": "认为1理解",
+        "Sentiment": "neutral",
+        "Rationale": "3认为1能够理解当前的情况"
+    },
+    {
+        "sentence": "还有一些我烟位这把我没垫，有人是把光荣垫了，道具没给就被套了",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "游戏操作",
+        "Opinion": "自己没垫烟位",
+        "Sentiment": "negative",
+        "Rationale": "1在游戏中没有垫烟位导致被套"
+    },
+    {
+        "sentence": "妈的操是你先狗叫我才不给道具的我开局他妈推黑4个，你说说我没给好。是我没给好，还是有人没对好？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "游戏配合",
+        "Opinion": "认为1先指责自己",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1先指责自己不给道具"
+    },
+    {
+        "sentence": "现在有用吗？他们出来之后等到。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "行动的及时性",
+        "Opinion": "认为现在行动无用",
+        "Sentiment": "negative",
+        "Rationale": "1认为现在讨论已经没有意义"
+    },
+    {
+        "sentence": "对面枪响了，你就被一枪秒了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "游戏表现",
+        "Opinion": "认为1被秒杀",
+        "Sentiment": "negative",
+        "Rationale": "2指出1在游戏中被迅速击杀"
+    },
+    {
+        "sentence": "防守，",
+        "Holder": "4",
+        "Target": "防守策略",
+        "Aspect": "战术选择",
+        "Opinion": "选择防守",
+        "Sentiment": "neutral",
+        "Rationale": "当前情况需要防守"
+    },
+    {
+        "sentence": "你把对面雷纳拉出来打4枪，开第一枪的时候推黑，是不是给他黑了？",
+        "Holder": "1",
+        "Target": "雷纳",
+        "Aspect": "攻击策略",
+        "Opinion": "质疑是否成功黑掉",
+        "Sentiment": "doubt",
+        "Rationale": "不确定对方是否被黑掉"
+    },
+    {
+        "sentence": "如果对面响了一枪，直接预瞄好给你秒了",
+        "Holder": "2",
+        "Target": "对面",
+        "Aspect": "反击策略",
+        "Opinion": "对面会迅速反击",
+        "Sentiment": "neutral",
+        "Rationale": "对面有反击的可能"
+    },
+    {
+        "sentence": "秒勾八，我妈左边贴墙的。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "位置描述",
+        "Opinion": "描述自己的位置",
+        "Sentiment": "neutral",
+        "Rationale": "需要告知队友自己的位置"
+    },
+    {
+        "sentence": "我妈开局先封他妈单向烟，然后他妈推黑就出手了。我他妈逼看我非常确信在小地图我黑出手的时候，对面已经从他妈 A大拉到走廊里边来了。",
+        "Holder": "2",
+        "Target": "对面",
+        "Aspect": "对面的行动",
+        "Opinion": "对面已经移动到走廊",
+        "Sentiment": "negative",
+        "Rationale": "对面已经占据了有利位置"
+    },
+    {
+        "sentence": "走廊里面你妈我还站在马路中间走廊里面是吧？你们今天去好好看回放去。",
+        "Holder": "1",
+        "Target": "2和3的行为",
+        "Aspect": "位置和行为",
+        "Opinion": "质疑对方的行为",
+        "Sentiment": "negative",
+        "Rationale": "1认为2和3在走廊中间的行为不妥"
+    },
+    {
+        "sentence": "顺从我艹你吃屎吧，",
+        "Holder": "2",
+        "Target": "1的要求",
+        "Aspect": "要求的合理性",
+        "Opinion": "极度不满",
+        "Sentiment": "negative",
+        "Rationale": "2对1的要求感到极度不满"
+    },
+    {
+        "sentence": "你凭什么说我是畜生？",
+        "Holder": "3",
+        "Target": "2的言论",
+        "Aspect": "言论的合理性",
+        "Opinion": "反对被骂",
+        "Sentiment": "negative",
+        "Rationale": "3被2称为畜生，感到被侮辱"
+    },
+    {
+        "sentence": "谁是畜生啊",
+        "Holder": "2",
+        "Target": "3的质问",
+        "Aspect": "质问的合理性",
+        "Opinion": "否认指责",
+        "Sentiment": "negative",
+        "Rationale": "2被3质问是否称其为畜生，感到被反击"
+    },
+    {
+        "sentence": "你查我今晚上你查我今晚上战绩，你凭什么说我是畜生？",
+        "Holder": "3",
+        "Target": "2的指责",
+        "Aspect": "指责的依据",
+        "Opinion": "要求对方提供证据",
+        "Sentiment": "negative",
+        "Rationale": "3认为2没有依据地称其为畜生，感到被冤枉"
+    },
+    {
+        "sentence": "不是有一说一小壮的卖人已经成为习惯性的了，操。",
+        "Holder": "2",
+        "Target": "小壮",
+        "Aspect": "卖人行为",
+        "Opinion": "习惯性卖人",
+        "Sentiment": "negative",
+        "Rationale": "小壮多次卖人"
+    },
+    {
+        "sentence": "有一说一我好像前面卖马枪了，你个畜生果然是吃我红利打个侧身没打死。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "游戏表现",
+        "Opinion": "利用自己红利",
+        "Sentiment": "negative",
+        "Rationale": "1认为2利用了自己的优势却未能成功"
+    },
+    {
+        "sentence": "不你那波手枪局真的顶级。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "手枪局表现",
+        "Opinion": "表现顶级",
+        "Sentiment": "positive",
+        "Rationale": "1在手枪局中的表现确实出色"
+    },
+    {
+        "sentence": "我操吃老子红利，我妈猎头秒了两个，又打死个奶妈，最后一个侧身。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "游戏表现",
+        "Opinion": "表现优秀",
+        "Sentiment": "positive",
+        "Rationale": "1在游戏中连续击杀敌人，表现出色"
+    },
+    {
+        "sentence": "我不反驳那波手段局确实畜生，我确实。",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "手枪局表现",
+        "Opinion": "表现畜生",
+        "Sentiment": "negative",
+        "Rationale": "3认为1在手枪局中的表现过于强势"
+    },
+    {
+        "sentence": "也不是打了正面妈都有人，",
+        "Holder": "1",
+        "Target": "战斗情况",
+        "Aspect": "战斗参与人数",
+        "Opinion": "有人参与",
+        "Sentiment": "neutral",
+        "Rationale": "提到战斗中有其他人参与"
+    },
+    {
+        "sentence": "我不反驳，我确实畜了那波不反驳，如何评价后面eco5杀哦不是，4杀，说话。",
+        "Holder": "3",
+        "Target": "自己的表现",
+        "Aspect": "战斗中的表现",
+        "Opinion": "承认错误并询问评价",
+        "Sentiment": "ambiguous",
+        "Rationale": "一方面承认了自己的错误，另一方面又询问他人对自己的评价"
+    },
+    {
+        "sentence": "这要是救主。",
+        "Holder": "1",
+        "Target": "战斗策略",
+        "Aspect": "救援行动",
+        "Opinion": "认为是救援行动",
+        "Sentiment": "neutral",
+        "Rationale": "只是对战斗策略的描述，没有明显的情感倾向"
+    },
+    {
+        "sentence": "如何评价。",
+        "Holder": "3",
+        "Target": "后续表现",
+        "Aspect": "评价",
+        "Opinion": "要求评价",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问他人对自己的评价，没有明显的情感倾向"
+    },
+    {
+        "sentence": "这叫将功补过。",
+        "Holder": "2",
+        "Target": "3的表现",
+        "Aspect": "行为评价",
+        "Opinion": "认为是将功补过",
+        "Sentiment": "positive",
+        "Rationale": "认为3的行为是将功补过，带有一种肯定和赞赏的语气"
+    },
+    {
+        "sentence": "有记录吗？",
+        "Holder": "1",
+        "Target": "记录",
+        "Aspect": "记录的存在",
+        "Opinion": "询问记录",
+        "Sentiment": "neutral",
+        "Rationale": "对是否有记录不确定"
+    },
+    {
+        "sentence": "把得赢啊兄弟，你手枪局当畜生了我超",
+        "Holder": "2",
+        "Target": "手枪局表现",
+        "Aspect": "手枪局表现",
+        "Opinion": "表现不佳",
+        "Sentiment": "negative",
+        "Rationale": "对方在手枪局中的表现不佳"
+    },
+    {
+        "sentence": "后面又有。",
+        "Holder": "3",
+        "Target": "后续情况",
+        "Aspect": "后续情况的存在",
+        "Opinion": "存在后续情况",
+        "Sentiment": "neutral",
+        "Rationale": "提到后面还有情况"
+    },
+    {
+        "sentence": "个说的那。",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话内容的确认",
+        "Opinion": "确认对话内容",
+        "Sentiment": "neutral",
+        "Rationale": "需要对之前的对话内容进行确认"
+    },
+    {
+        "sentence": "一个感觉，",
+        "Holder": "2",
+        "Target": "感觉",
+        "Aspect": "感觉的表达",
+        "Opinion": "表达感觉",
+        "Sentiment": "neutral",
+        "Rationale": "提到‘一个感觉’"
+    },
+    {
+        "sentence": "说你妈。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "言语攻击",
+        "Opinion": "无",
+        "Sentiment": "negative",
+        "Rationale": "对2的行为或言语不满"
+    },
+    {
+        "sentence": "跟我有什么屁事，他赢手枪局他侧身没当畜生，我们我就不用打残局，",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "责任归属",
+        "Opinion": "与自己无关",
+        "Sentiment": "negative",
+        "Rationale": "认为3的指责不合理"
+    },
+    {
+        "sentence": "我不是我问你如果那波Eco是不是不该赢的，我赢了。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "比赛结果",
+        "Opinion": "认为自己该赢",
+        "Sentiment": "neutral",
+        "Rationale": "对比赛结果有疑问"
+    },
+    {
+        "sentence": "我们就直接拿两分就碾过去，我们就拿到13分了，你在说什么？",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "比赛策略",
+        "Opinion": "认为策略正确",
+        "Sentiment": "neutral",
+        "Rationale": "对比赛策略有信心"
+    },
+    {
+        "sentence": "还真是。",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "认同",
+        "Opinion": "同意2的观点",
+        "Sentiment": "neutral",
+        "Rationale": "认同2的说法"
+    },
+    {
+        "sentence": "说有本来的角度。",
+        "Holder": "1",
+        "Target": "事情的角度",
+        "Aspect": "角度的合理性",
+        "Opinion": "存在本来的角度",
+        "Sentiment": "neutral",
+        "Rationale": "只是客观地提到一个角度，没有明显的情感倾向"
+    },
+    {
+        "sentence": "不是对啊妈的逼，你是开启这一切故事的人啊，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "故事的起始",
+        "Opinion": "1是故事的开启者",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "你的意思是你们自己后面差距没赢，自己怪我。",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "责任归属",
+        "Opinion": "2在推卸责任",
+        "Sentiment": "negative",
+        "Rationale": "3认为2在将失败的责任推给自己"
+    },
+    {
+        "sentence": "小壮背锅了。阿你妈没了",
+        "Holder": "4",
+        "Target": "小壮",
+        "Aspect": "责任承担",
+        "Opinion": "小壮承担了不应有的责任",
+        "Sentiment": "negative",
+        "Rationale": "4认为小壮被冤枉了"
+    },
+    {
+        "sentence": "你们死妈了，",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "言语攻击",
+        "Opinion": "4的言语不当",
+        "Sentiment": "negative",
+        "Rationale": "3对4的言语感到极度愤怒和不满"
+    },
+    {
+        "sentence": "阿妈没了",
+        "Holder": "4",
+        "Target": "阿妈",
+        "Aspect": "存在状态",
+        "Opinion": "不在了",
+        "Sentiment": "negative",
+        "Rationale": "提到了阿妈不在了"
+    },
+    {
+        "sentence": "你们死妈了，",
+        "Holder": "3",
+        "Target": "4及其家人",
+        "Aspect": "家庭成员状态",
+        "Opinion": "诅咒对方",
+        "Sentiment": "negative",
+        "Rationale": "使用了诅咒性的言语"
+    },
+    {
+        "sentence": "你妈没了，",
+        "Holder": "4",
+        "Target": "3的妈",
+        "Aspect": "存在状态",
+        "Opinion": "不在了",
+        "Sentiment": "negative",
+        "Rationale": "反击对方的诅咒"
+    },
+    {
+        "sentence": "我话放在这那排在我下面的三个都死妈。",
+        "Holder": "3",
+        "Target": "排在其下的三个人",
+        "Aspect": "家庭成员状态",
+        "Opinion": "诅咒对方",
+        "Sentiment": "negative",
+        "Rationale": "继续使用诅咒性的言语"
+    },
+    {
+        "sentence": "没道理的",
+        "Holder": "1",
+        "Target": "3的言论",
+        "Aspect": "合理性",
+        "Opinion": "不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为3的诅咒言论没有道理"
+    },
+    {
+        "sentence": "排到我前面的三个都死妈",
+        "Holder": "3",
+        "Target": "排在前面的三个人",
+        "Aspect": "道德品质",
+        "Opinion": "诅咒对方",
+        "Sentiment": "negative",
+        "Rationale": "对排在自己前面的人感到不满"
+    },
+    {
+        "sentence": "没道理的，我自己有的。我自己有的",
+        "Holder": "5",
+        "Target": "3的言论",
+        "Aspect": "合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为3的诅咒言论没有道理"
+    },
+    {
+        "sentence": "我不会玩Jett我能评到你不赖了。",
+        "Holder": "4",
+        "Target": "自己的游戏能力",
+        "Aspect": "游戏水平",
+        "Opinion": "自我评价不高",
+        "Sentiment": "neutral",
+        "Rationale": "对自己在游戏中的表现有自知之明"
+    },
+    {
+        "sentence": "有道理的是吧？你先说我死妈的，我现在排到我下面三个 ok都得死妈？",
+        "Holder": "3",
+        "Target": "5的言论",
+        "Aspect": "合理性",
+        "Opinion": "反驳对方",
+        "Sentiment": "negative",
+        "Rationale": "认为5的言论不合理且先被攻击"
+    },
+    {
+        "sentence": "没道理的。",
+        "Holder": "1",
+        "Target": "3的言论",
+        "Aspect": "合理性",
+        "Opinion": "认为不合理",
+        "Sentiment": "negative",
+        "Rationale": "认为3的诅咒言论没有道理"
+    },
+    {
+        "sentence": "完了。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "结果的预期",
+        "Opinion": "情况不妙",
+        "Sentiment": "negative",
+        "Rationale": "当前情况似乎很糟糕"
+    },
+    {
+        "sentence": "你们排我下面的三个都死妈了，",
+        "Holder": "3",
+        "Target": "排位情况",
+        "Aspect": "队友表现",
+        "Opinion": "队友表现差",
+        "Sentiment": "negative",
+        "Rationale": "队友在排位中表现极差"
+    },
+    {
+        "sentence": "我两把加起来死三个是吧？",
+        "Holder": "5",
+        "Target": "自己的表现",
+        "Aspect": "死亡次数",
+        "Opinion": "死亡次数多",
+        "Sentiment": "negative",
+        "Rationale": "自己在游戏中死亡次数较多"
+    },
+    {
+        "sentence": "你们都了，如何评价第一把二十八杀你们妈连你们连杀杀20个都没有，不。",
+        "Holder": "3",
+        "Target": "队友的表现",
+        "Aspect": "击杀数量",
+        "Opinion": "队友击杀数量少",
+        "Sentiment": "negative",
+        "Rationale": "队友在游戏中的击杀数量远低于预期"
+    },
+    {
+        "sentence": "有一说一我觉得那波麦当劳封烟也没问题，不封烟也没问题。",
+        "Holder": "2",
+        "Target": "自己的操作",
+        "Aspect": "封烟决策",
+        "Opinion": "封烟与否均可",
+        "Sentiment": "neutral",
+        "Rationale": "认为自己的操作无论封烟与否都是合理的"
+    },
+    {
+        "sentence": "有没有看到我视角的人看看那是什么高空闪光，这闪你都能吃。",
+        "Holder": "3",
+        "Target": "高空闪光",
+        "Aspect": "闪光的影响",
+        "Opinion": "不应该被闪光影响",
+        "Sentiment": "negative",
+        "Rationale": "说话人2被高空闪光影响"
+    },
+    {
+        "sentence": "你什么高空闪光，他妈塞我嘴里了，高空闪光我操你看我视角吧，你看我视角就知道是个全白",
+        "Holder": "2",
+        "Target": "高空闪光",
+        "Aspect": "闪光的位置和影响",
+        "Opinion": "闪光影响很大",
+        "Sentiment": "negative",
+        "Rationale": "高空闪光直接影响了自己的视线"
+    },
+    {
+        "sentence": "到了md eco局。",
+        "Holder": "1",
+        "Target": "游戏阶段",
+        "Aspect": "当前游戏阶段",
+        "Opinion": "进入eco局",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述当前游戏阶段"
+    },
+    {
+        "sentence": "对这有一说一的，你全白的时候妈是不是在封烟，你不该封你不封烟是不是吃不了了，还是你封烟的问题，结算。",
+        "Holder": "3",
+        "Target": "2的封烟行为",
+        "Aspect": "封烟的合理性",
+        "Opinion": "质疑封烟的合理性",
+        "Sentiment": "negative",
+        "Rationale": "认为说话人2的封烟行为有问题"
+    },
+    {
+        "sentence": "是我如果不封烟确实吃不了了。",
+        "Holder": "2",
+        "Target": "自己的封烟行为",
+        "Aspect": "封烟的必要性",
+        "Opinion": "承认封烟的必要性",
+        "Sentiment": "neutral",
+        "Rationale": "承认自己封烟是为了应对情况"
+    },
+    {
+        "sentence": "你不封烟我们就把我们就赢了，",
+        "Holder": "3",
+        "Target": "封烟策略",
+        "Aspect": "策略的有效性",
+        "Opinion": "不封烟也能赢",
+        "Sentiment": "positive",
+        "Rationale": "认为不封烟也能取得胜利"
+    },
+    {
+        "sentence": "我只能说我们的思路有分歧，没问题，",
+        "Holder": "2",
+        "Target": "思路分歧",
+        "Aspect": "团队策略",
+        "Opinion": "承认分歧",
+        "Sentiment": "neutral",
+        "Rationale": "认识到团队中存在不同的思路"
+    },
+    {
+        "sentence": "一直这样，我一直说补枪就赢了，我就补枪，",
+        "Holder": "3",
+        "Target": "补枪策略",
+        "Aspect": "策略的有效性",
+        "Opinion": "补枪能赢",
+        "Sentiment": "positive",
+        "Rationale": "坚信补枪是获胜的关键"
+    },
+    {
+        "sentence": "如果对面真的蹲在麦当劳里边左架一个右架一个，又在说妈背着两颗烟都准备带进坟墓里吗？但妈没进麦当劳啊。本质上来说你等我封完烟照样可以补枪，但是你不等啊。",
+        "Holder": "2",
+        "Target": "封烟和补枪的时机",
+        "Aspect": "策略的合理性",
+        "Opinion": "封烟后再补枪",
+        "Sentiment": "negative",
+        "Rationale": "认为对方没有按照合理的策略行事"
+    },
+    {
+        "sentence": "很喜欢群里的一句话，刚来谁说谁住谁摆谁混谁厂房都是主角。",
+        "Holder": "5",
+        "Target": "群里的观点",
+        "Aspect": "团队角色",
+        "Opinion": "每个人都是主角",
+        "Sentiment": "positive",
+        "Rationale": "认同群里关于每个人都是重要角色的观点"
+    },
+    {
+        "sentence": "我承认我最后一把买的，",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "游戏行为",
+        "Opinion": "承认购买",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述自己最后一把购买了游戏中的物品"
+    },
+    {
+        "sentence": "我没摆，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "游戏行为",
+        "Opinion": "否认摆烂",
+        "Sentiment": "neutral",
+        "Rationale": "2在澄清自己没有在游戏中摆烂"
+    },
+    {
+        "sentence": "我打了个一打三",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "游戏表现",
+        "Opinion": "描述一打三",
+        "Sentiment": "neutral",
+        "Rationale": "1在描述自己在游戏中的表现"
+    },
+    {
+        "sentence": "你我就算再畜再菜再糖再马，我也没摆。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "游戏态度",
+        "Opinion": "强调没有摆烂",
+        "Sentiment": "negative",
+        "Rationale": "2用贬低自己的词汇来强调自己没有摆烂"
+    },
+    {
+        "sentence": "Ok好好好的好的",
+        "Holder": "3",
+        "Target": "对话内容",
+        "Aspect": "回应态度",
+        "Opinion": "接受或结束话题",
+        "Sentiment": "neutral",
+        "Rationale": "3用连续的‘好’来表示接受或结束当前话题"
+    },
+    {
+        "sentence": "不是见他往他球烟里边飞，我肯定不第一时间打你妈，逼他在球烟里抽烟，我肯定是架后面他出来的队友啊。",
+        "Holder": "2",
+        "Target": "队友的行为",
+        "Aspect": "队友的支持",
+        "Opinion": "会支持队友",
+        "Sentiment": "neutral",
+        "Rationale": "描述的是在特定情况下会支持队友的行为"
+    },
+    {
+        "sentence": "但是那个时候队友该爆闪，为什么队友没爆闪？",
+        "Holder": "5",
+        "Target": "队友",
+        "Aspect": "爆闪行为",
+        "Opinion": "队友应该爆闪",
+        "Sentiment": "doubt",
+        "Rationale": "对队友在特定情况下没有采取预期行动感到疑惑"
+    },
+    {
+        "sentence": "什么时候",
+        "Holder": "3",
+        "Target": "时间点",
+        "Aspect": "具体时间",
+        "Opinion": "询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "对对方提到的时间点不清楚"
+    },
+    {
+        "sentence": "就借他一头扎进球烟的时候，那时候你应该包括他。",
+        "Holder": "5",
+        "Target": "3的行为",
+        "Aspect": "包含队友",
+        "Opinion": "应该包括队友",
+        "Sentiment": "neutral",
+        "Rationale": "指出在特定情况下应该包括队友"
+    },
+    {
+        "sentence": "什么时候啊",
+        "Holder": "3",
+        "Target": "时间点",
+        "Aspect": "具体时间",
+        "Opinion": "再次询问时间",
+        "Sentiment": "neutral",
+        "Rationale": "对对方提到的时间点依然不清楚"
+    },
+    {
+        "sentence": "B点在b点对面进船篷的时候，你人当时在b点那我还打无人机，我妈不打无人机，等他镖扎到我身上给我扎显形了，然后无言你借的妈白打我是吧？你说的不是人话，兄弟。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "团队合作和沟通",
+        "Opinion": "1的行为不合理",
+        "Sentiment": "negative",
+        "Rationale": "1在关键时刻没有配合打无人机，导致2被敌人发现并攻击"
+    },
+    {
+        "sentence": "我操闪电旋风劈来了。",
+        "Holder": "1",
+        "Target": "当前情况",
+        "Aspect": "突发状况",
+        "Opinion": "表达惊讶或无奈",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然遭遇了意料之外的情况"
+    },
+    {
+        "sentence": "那波我接4个那没事了",
+        "Holder": "3",
+        "Target": "自己的表现",
+        "Aspect": "应对能力",
+        "Opinion": "自己能应对",
+        "Sentiment": "positive",
+        "Rationale": "自己能够接住4个敌人"
+    },
+    {
+        "sentence": "不是，我告诉你，如果对面他妈见他进球烟，我妈混烟会发生什么，那他也没死，然后对面队友出来我没子弹了，然后我死，要么要么就是我退回，要么就是我退回超市直接丢失整个妈包点外围的控制权。",
+        "Holder": "2",
+        "Target": "对面的战术",
+        "Aspect": "战术影响",
+        "Opinion": "对面战术导致不利",
+        "Sentiment": "negative",
+        "Rationale": "对面的战术导致自己陷入困境，无法有效应对"
+    },
+    {
+        "sentence": "刚来谁妈没了？",
+        "Holder": "4",
+        "Target": "之前的对话",
+        "Aspect": "信息理解",
+        "Opinion": "询问情况",
+        "Sentiment": "neutral",
+        "Rationale": "对之前的对话内容不理解"
+    },
+    {
+        "sentence": "我妈没了。",
+        "Holder": "2",
+        "Target": "母亲",
+        "Aspect": "存在状态",
+        "Opinion": "母亲去世",
+        "Sentiment": "negative",
+        "Rationale": "母亲去世"
+    },
+    {
+        "sentence": "主播没有一把超过200分的，我刚才还是我帮你画了。",
+        "Holder": "5",
+        "Target": "主播",
+        "Aspect": "游戏表现",
+        "Opinion": "表现不佳",
+        "Sentiment": "negative",
+        "Rationale": "主播在游戏中没有取得好成绩"
+    },
+    {
+        "sentence": "破案了都没妈",
+        "Holder": "1",
+        "Target": "2的母亲",
+        "Aspect": "存在状态",
+        "Opinion": "母亲去世",
+        "Sentiment": "negative",
+        "Rationale": "提到2的母亲去世"
+    },
+    {
+        "sentence": "那没事了。",
+        "Holder": "3",
+        "Target": "当前情况",
+        "Aspect": "问题解决",
+        "Opinion": "问题已解决",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前问题已经解决"
+    },
+    {
+        "sentence": "不是有一说一，不是说谁他妈排在小壮底下三个都死妈了吗？你们两个的妈也没了。",
+        "Holder": "2",
+        "Target": "其他人",
+        "Aspect": "母亲的状况",
+        "Opinion": "母亲去世",
+        "Sentiment": "negative",
+        "Rationale": "提到其他人母亲去世的事情"
+    },
+    {
+        "sentence": "我妈还活着。",
+        "Holder": "3",
+        "Target": "母亲",
+        "Aspect": "生命状态",
+        "Opinion": "母亲还活着",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述母亲还活着的事实"
+    },
+    {
+        "sentence": "我希望。",
+        "Holder": "5",
+        "Target": "3的母亲",
+        "Aspect": "生命状态",
+        "Opinion": "希望3的母亲活着",
+        "Sentiment": "positive",
+        "Rationale": "表达了对3的母亲的良好祝愿"
+    },
+    {
+        "sentence": "我被迫的。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行为动机",
+        "Opinion": "自己是被迫的",
+        "Sentiment": "negative",
+        "Rationale": "感到自己的行为是被迫的"
+    },
+    {
+        "sentence": "7个首杀，你7个首杀也没用，你还是没妈。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "成就与家庭状况",
+        "Opinion": "首杀再多也没用，因为4没有母亲",
+        "Sentiment": "negative",
+        "Rationale": "用4的成就来讽刺其家庭状况"
+    },
+    {
+        "sentence": "我被绑架玩的我被绑架玩的。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "行为原因",
+        "Opinion": "自己是被绑架玩的",
+        "Sentiment": "negative",
+        "Rationale": "强调自己的行为是被绑架所致"
+    },
+    {
+        "sentence": "我7个头。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "头部数量",
+        "Opinion": "有7个头",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述自己有7个头，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我被绑架玩的",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "被绑架的情况",
+        "Opinion": "被绑架是玩",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述自己被绑架是玩的情况，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我7个头",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "头部数量",
+        "Opinion": "有7个头",
+        "Sentiment": "neutral",
+        "Rationale": "再次陈述自己有7个头，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我被绑架玩的，那咱俩妈那咱俩妈都复活了。",
+        "Holder": "4",
+        "Target": "咱俩妈",
+        "Aspect": "复活情况",
+        "Opinion": "咱俩妈都复活了",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述咱俩妈复活的情况，没有明显的情感倾向"
+    },
+    {
+        "sentence": "不你妈死了。",
+        "Holder": "5",
+        "Target": "4的妈妈",
+        "Aspect": "生死状态",
+        "Opinion": "4的妈妈死了",
+        "Sentiment": "negative",
+        "Rationale": "直接指出4的妈妈死了，这种话题通常带有负面情感"
+    },
+    {
+        "sentence": "你妈也那我妈是你妈，",
+        "Holder": "4",
+        "Target": "家庭关系",
+        "Aspect": "母亲的身份",
+        "Opinion": "我妈是你妈",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4在陈述一个事实"
+    },
+    {
+        "sentence": "因为我妈是你妈，",
+        "Holder": "5",
+        "Target": "家庭关系",
+        "Aspect": "母亲的身份",
+        "Opinion": "我妈是你妈",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5在解释一个事实"
+    },
+    {
+        "sentence": "我妈是你妈。",
+        "Holder": "4",
+        "Target": "家庭关系",
+        "Aspect": "母亲的身份",
+        "Opinion": "我妈是你妈",
+        "Sentiment": "neutral",
+        "Rationale": "说话人4再次确认一个事实"
+    },
+    {
+        "sentence": "巧了，我妈也是你妈，我妈是你俩的妈。",
+        "Holder": "2",
+        "Target": "家庭关系",
+        "Aspect": "母亲的身份",
+        "Opinion": "共同的 我妈也是你妈，我妈是你俩的妈",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在陈述一个巧合的事实"
+    },
+    {
+        "sentence": "我不ok我不跟你一个妈。我不ok。",
+        "Holder": "4",
+        "Target": "家庭关系",
+        "Aspect": "母亲的身份认同",
+        "Opinion": "不认同共同的妈",
+        "Sentiment": "negative",
+        "Rationale": "说话人4对与其他人共有同一个母亲的身份感到不满"
+    },
+    {
+        "sentence": "这下全没收了，",
+        "Holder": "3",
+        "Target": "没收物品",
+        "Aspect": "物品处理",
+        "Opinion": "全部没收",
+        "Sentiment": "negative",
+        "Rationale": "自己的物品被全部没收"
+    },
+    {
+        "sentence": "我不ok我是被迫玩的。",
+        "Holder": "4",
+        "Target": "玩游戏",
+        "Aspect": "参与意愿",
+        "Opinion": "被迫参与",
+        "Sentiment": "negative",
+        "Rationale": "自己是被迫参与游戏"
+    },
+    {
+        "sentence": "有一说一我也不想ok，在你妈死了的时候，不是在你们说我死妈的时候，我妈就是你妈在你不说的时候就不是懂吗？",
+        "Holder": "2",
+        "Target": "4的说法",
+        "Aspect": "话语合理性",
+        "Opinion": "反驳4的说法",
+        "Sentiment": "negative",
+        "Rationale": "4的说法让自己感到不合理且被冒犯"
+    },
+    {
+        "sentence": "不是真tm没道理的，你妈强迫我玩一个白毛，我妈杀了个平战绩，还要说我有问题。",
+        "Holder": "4",
+        "Target": "2的指责",
+        "Aspect": "指责合理性",
+        "Opinion": "认为指责不合理",
+        "Sentiment": "negative",
+        "Rationale": "自己被强迫玩游戏且被不合理地指责"
+    },
+    {
+        "sentence": "你那个逼白毛就是妈冲进b点，然后站在包点上一动不动",
+        "Holder": "2",
+        "Target": "4的游戏行为",
+        "Aspect": "游戏表现",
+        "Opinion": "表现不佳",
+        "Sentiment": "negative",
+        "Rationale": "4在游戏中的表现不佳"
+    },
+    {
+        "sentence": "你们逼我玩的，从你们逼我玩这局我就已经不背锅了，懂吗？我是你爹，",
+        "Holder": "4",
+        "Target": "游戏责任",
+        "Aspect": "责任归属",
+        "Opinion": "不承担责任",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己是被逼着玩游戏"
+    },
+    {
+        "sentence": "逮捕了。",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "行为评价",
+        "Opinion": "调侃",
+        "Sentiment": "neutral",
+        "Rationale": "用调侃的语气回应4的言论"
+    },
+    {
+        "sentence": "我400级，我艹。",
+        "Holder": "1",
+        "Target": "自己的游戏等级",
+        "Aspect": "游戏成就",
+        "Opinion": "自豪",
+        "Sentiment": "positive",
+        "Rationale": "达到了400级的高成就"
+    },
+    {
+        "sentence": "23-24-6我k金是正的，",
+        "Holder": "4",
+        "Target": "自己的游戏表现",
+        "Aspect": "游戏成绩",
+        "Opinion": "成绩良好",
+        "Sentiment": "positive",
+        "Rationale": "自己的游戏成绩是正的"
+    },
+    {
+        "sentence": "我肯定也是。",
+        "Holder": "5",
+        "Target": "自己的游戏表现",
+        "Aspect": "游戏成绩",
+        "Opinion": "成绩良好",
+        "Sentiment": "positive",
+        "Rationale": "认同自己的游戏成绩也是正的"
+    },
+    {
+        "sentence": "真的知道。",
+        "Holder": "1",
+        "Target": "对话内容",
+        "Aspect": "对话的理解",
+        "Opinion": "确认理解",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认自己对话内容的理解"
+    },
+    {
+        "sentence": "吧，",
+        "Holder": "4",
+        "Target": "对话内容",
+        "Aspect": "对话的延续",
+        "Opinion": "不确定",
+        "Sentiment": "ambiguous",
+        "Rationale": "4使用‘吧’表示一种不确定的语气"
+    },
+    {
+        "sentence": "我是烟位。而且我说实话14-14我tmd在b点绕后双杀了，不然我们拿不到15:14，虽然最后残局我畜了，但是无所谓的，15:14是我打的，我给送到15对15平也没有问题，本质上还是小壮丢手枪局的问题。",
+        "Holder": "2",
+        "Target": "比赛表现",
+        "Aspect": "个人贡献和责任",
+        "Opinion": "强调个人贡献和他人责任",
+        "Sentiment": "negative",
+        "Rationale": "2在强调自己的贡献并指责小壮的失误"
+    },
+    {
+        "sentence": "ok小壮的问题， ok。",
+        "Holder": "4",
+        "Target": "小壮的责任",
+        "Aspect": "责任的确认",
+        "Opinion": "认可责任",
+        "Sentiment": "neutral",
+        "Rationale": "4在确认小壮的责任"
+    },
+    {
+        "sentence": "我跟你说本质上我们会变成那个比分，都是因为他手枪局测人当畜生兄弟们结束了，有罪结束。",
+        "Holder": "2",
+        "Target": "小壮的表现",
+        "Aspect": "比赛失误",
+        "Opinion": "指责小壮",
+        "Sentiment": "negative",
+        "Rationale": "2认为小壮的失误导致了比赛结果"
+    },
+    {
+        "sentence": "你们死妈了，我草。",
+        "Holder": "3",
+        "Target": "对方",
+        "Aspect": "行为",
+        "Opinion": "极度不满",
+        "Sentiment": "negative",
+        "Rationale": "对方的行为让说话人3感到极度愤怒"
+    },
+    {
+        "sentence": "这才是真正的逆转裁判光头我操有罪！",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "自嘲",
+        "Sentiment": "negative",
+        "Rationale": "自己可能做错了事"
+    },
+    {
+        "sentence": "把我拉了你正面的对马了，你说还是我帮你拉打侧身你他妈马了。,     speaker: 1,     target: 2,     aspect: 协作,     viewpoint: 指责对方不配合,     feeling: negative,     explanation: 因为对方在协作中表现不佳，导致说话人感到不满和愤怒",
+        "Holder": "",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "",
+        "Rationale": ""
+    },
+    {
+        "sentence": "妈今天的分数,     speaker: 3,     target: score,     element: performance,     opinion: concern,     emotion: neutral,     reason: 因为提到了今天的分数，但没有表达明显的情感倾向，所以情绪是中立的   ,     phrase: 他出去还先崩奶妈一枪头,     role: 2,     object: 他,     facet: 行为,     perspective: 描述,     sentiment: neutral,     justification: 因为只是客观描述了一个行为，没有表达明显的情感态度   ,     spoken: 然后他后来一发子弹都没中,     actor: 2,     receiver: 他,     characteristic: 射击准确性,     belief: 表现不佳,     affection: neutral,     foundation: 因为只是陈述了一个事实，没有表达出明显的情感倾向 ```",
+        "Holder": "",
+        "Target": "",
+        "Aspect": "",
+        "Opinion": "",
+        "Sentiment": "",
+        "Rationale": ""
+    },
+    {
+        "sentence": "我就把这奶妈补。",
+        "Holder": "1",
+        "Target": "奶妈角色",
+        "Aspect": "角色选择",
+        "Opinion": "决定补奶妈",
+        "Sentiment": "neutral",
+        "Rationale": "需要填补奶妈角色的空缺"
+    },
+    {
+        "sentence": "分数没我高的人全死妈了，今天得分没我高的人全死妈了，",
+        "Holder": "3",
+        "Target": "得分低的人",
+        "Aspect": "得分表现",
+        "Opinion": "得分低的人应受惩罚",
+        "Sentiment": "negative",
+        "Rationale": "对自己的得分感到自豪，而对得分低的人感到不满"
+    },
+    {
+        "sentence": "你就算得分没你高的人，那你那波手枪局你也跑不了。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "手枪局表现",
+        "Opinion": "3在手枪局也有责任",
+        "Sentiment": "negative",
+        "Rationale": "指出3在手枪局中的失误"
+    },
+    {
+        "sentence": "这样这样咱们折中一下，把我们唯一输的把谁在小庄下面谁死妈了，",
+        "Holder": "4",
+        "Target": "输掉的比赛",
+        "Aspect": "责任归属",
+        "Opinion": "提出折中方案",
+        "Sentiment": "neutral",
+        "Rationale": "想平息争论"
+    },
+    {
+        "sentence": "我他妈垫底。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "得分排名",
+        "Opinion": "自己得分最低",
+        "Sentiment": "negative",
+        "Rationale": "自己在得分中垫底，感到沮丧和愤怒"
+    },
+    {
+        "sentence": "别辩了别辩了。结束了拜拜。我妈就是你妈",
+        "Holder": "2",
+        "Target": "对话",
+        "Aspect": "对话的结束",
+        "Opinion": "结束对话",
+        "Sentiment": "neutral",
+        "Rationale": "想要结束当前的争论"
+    },
+    {
+        "sentence": "我没说你我说东北。",
+        "Holder": "3",
+        "Target": "说话对象",
+        "Aspect": "说话对象的澄清",
+        "Opinion": "澄清对象",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清自己说话的对象不是2而是东北"
+    },
+    {
+        "sentence": "哦那行",
+        "Holder": "2",
+        "Target": "3的澄清",
+        "Aspect": "对澄清的接受",
+        "Opinion": "接受澄清",
+        "Sentiment": "neutral",
+        "Rationale": "接受了3的澄清"
+    },
+    {
+        "sentence": "那就继续干嘛",
+        "Holder": "3",
+        "Target": "对话",
+        "Aspect": "对话的继续",
+        "Opinion": "继续对话",
+        "Sentiment": "neutral",
+        "Rationale": "对话可以继续进行"
+    },
+    {
+        "sentence": "那行，我既然说的那么好，你还骂我。",
+        "Holder": "5",
+        "Target": "3的评价",
+        "Aspect": "评价的合理性",
+        "Opinion": "认为自己被误解",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己说得很好却被3骂"
+    },
+    {
+        "sentence": "妈在微风岛屿是射的什么箭？",
+        "Holder": "2",
+        "Target": "妈",
+        "Aspect": "射箭类型",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2只是单纯的询问问题"
+    },
+    {
+        "sentence": "我说我们妈再说一。",
+        "Holder": "5",
+        "Target": "妈",
+        "Aspect": "说话内容",
+        "Opinion": "重复说明",
+        "Sentiment": "neutral",
+        "Rationale": "5在重复或解释之前的话"
+    },
+    {
+        "sentence": "微风岛屿，我点你没见过你哪来的点。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "对地点的认知",
+        "Opinion": "质疑",
+        "Sentiment": "negative",
+        "Rationale": "1质疑2对微风岛屿的认知"
+    },
+    {
+        "sentence": "我们ABC赢了吗？",
+        "Holder": "2",
+        "Target": "ABC团队",
+        "Aspect": "比赛结果",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2只是单纯的询问比赛结果"
+    },
+    {
+        "sentence": "输的把我输的把谁在小壮下面",
+        "Holder": "4",
+        "Target": "比赛输家",
+        "Aspect": "输家的位置",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "4只是单纯的询问输家的位置"
+    },
+    {
+        "sentence": "我第二还是，三我第二我不是第三，",
+        "Holder": "1",
+        "Target": "排名",
+        "Aspect": "自己的排名",
+        "Opinion": "自己是第二",
+        "Sentiment": "ambiguous",
+        "Rationale": "对排名的表述不清"
+    },
+    {
+        "sentence": "跟我没关系，我得把第二。",
+        "Holder": "3",
+        "Target": "排名",
+        "Aspect": "自己的排名",
+        "Opinion": "自己是第二",
+        "Sentiment": "neutral",
+        "Rationale": "认为排名与自己无关"
+    },
+    {
+        "sentence": "我是唯一一个红绿灯红绿灯，把他们的红绿灯红。",
+        "Holder": "4",
+        "Target": "红绿灯",
+        "Aspect": "红绿灯的状态",
+        "Opinion": "自己是唯一一个红灯",
+        "Sentiment": "neutral",
+        "Rationale": "描述了一个事实"
+    },
+    {
+        "sentence": "拉倒，我就记得ABC有两个人排在我底下，",
+        "Holder": "2",
+        "Target": "排名",
+        "Aspect": "自己的排名",
+        "Opinion": "有两个人排在自己底下",
+        "Sentiment": "negative",
+        "Rationale": "对排名不满"
+    },
+    {
+        "sentence": "跟我没关系，我那把掉包了你吗？莎拉曼达死妈莎拉曼达开的。",
+        "Holder": "3",
+        "Target": "排名",
+        "Aspect": "自己的责任",
+        "Opinion": "与自己无关",
+        "Sentiment": "negative",
+        "Rationale": "被质疑排名问题"
+    },
+    {
+        "sentence": "我第一啊。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "排名",
+        "Opinion": "自己是第一名",
+        "Sentiment": "positive",
+        "Rationale": "自己取得了第一名"
+    },
+    {
+        "sentence": "第一也是你开的，天津服。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "游戏服务器",
+        "Opinion": "4在天津服",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个事实"
+    },
+    {
+        "sentence": "那在我下面的都死妈。",
+        "Holder": "4",
+        "Target": "排名在4下面的人",
+        "Aspect": "排名",
+        "Opinion": "对排名在下面的人的不屑",
+        "Sentiment": "negative",
+        "Rationale": "对排名在下面的人感到不满"
+    },
+    {
+        "sentence": "我被骂挂了。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "被骂",
+        "Opinion": "自己被骂",
+        "Sentiment": "negative",
+        "Rationale": "被骂感到委屈和伤心"
+    },
+    {
+        "sentence": "不是，我不在，我反正在你上面那一把，我tmABC把绝对还真不在你上面。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "排名",
+        "Opinion": "自己在4上面",
+        "Sentiment": "negative",
+        "Rationale": "对4的排名说法不满"
+    },
+    {
+        "sentence": "我被骂挂了我很厉害。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "被骂后的反应",
+        "Opinion": "认为自己厉害",
+        "Sentiment": "ambiguous",
+        "Rationale": "被骂后还能保持自信"
+    },
+    {
+        "sentence": "没关系，我妈就是你妈。",
+        "Holder": "2",
+        "Target": "5",
+        "Aspect": "安慰方式",
+        "Opinion": "表示亲近和支持",
+        "Sentiment": "positive",
+        "Rationale": "想要安慰5"
+    },
+    {
+        "sentence": "我被骂挂了我很厉害。",
+        "Holder": "5",
+        "Target": "自己",
+        "Aspect": "被骂后的反应",
+        "Opinion": "认为自己厉害",
+        "Sentiment": "ambiguous",
+        "Rationale": "再次强调自己被骂后还很厉害"
+    }
+]

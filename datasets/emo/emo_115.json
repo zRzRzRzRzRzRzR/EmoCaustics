@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "清白争议与情绪波动",
+        "emotions": [
+          {"state": "negative", "reason": "无法自证清白，感到委屈", "source_id": "2"},
+          {"state": "positive", "reason": "决定通过法律手段维权", "source_id": "1"},
+          {"state": "negative", "reason": "被迫服输并请求宽恕", "source_id": "2"},
+          {"state": "negative", "reason": "持续思考导致情绪恶化", "source_id": "3"},
+          {"state": "positive", "reason": "决心反抗不公待遇", "source_id": "1"},
+          {"state": "doubt", "reason": "质疑朋友隐瞒信息", "source_id": "3"},
+          {"state": "negative", "reason": "得知功劳被三方分配", "source_id": "3,2"}
+        ]
+      },
+      {
+        "event": "人际关系与信任危机",
+        "emotions": [
+          {"state": "ambiguous", "reason": "怀疑朋友关系异常", "source_id": "3"},
+          {"state": "positive", "reason": "强调友情要求坦诚", "source_id": "1"},
+          {"state": "negative", "reason": "被朋友拒绝信息共享", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "冲突处理与情绪管理",
+        "emotions": [
+          {"state": "neutral", "reason": "建议冷静处理争议", "source_id": "1"},
+          {"state": "positive", "reason": "感谢对方配合", "source_id": "1"},
+          {"state": "negative", "reason": "对持续情绪问题失去耐心", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "文物发现与媒体曝光",
+        "emotions": [
+          {"state": "positive", "reason": "获得官方认可接受采访", "source_id": "3"},
+          {"state": "positive", "reason": "推动团队行动积极性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "信任博弈与信息控制",
+        "emotions": [
+          {"state": "neutral", "reason": "否认关系变化", "source_id": "1"},
+          {"state": "negative", "reason": "因承诺被迫隐瞒真相", "source_id": "2,1"},
+          {"state": "negative", "reason": "被迫透露信息并解释原因", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "功劳分配争议",
+        "emotions": [
+          {"state": "negative", "reason": "被迫接受三方分配方案", "source_id": "2"},
+          {"state": "negative", "reason": "指责朋友行为失败", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "审判进程认知",
+        "emotions": [
+          {"state": "neutral", "reason": "说明审判初期阶段", "source_id": "1"},
+          {"state": "negative", "reason": "感叹自身运气不佳", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

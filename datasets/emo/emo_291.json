@@ -1,0 +1,80 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "消息回复态度的分歧",
+        "emotions": [
+          {"state": "positive", "reason": "理解不回消息行为", "source_id": "2,3"},
+          {"state": "negative", "reason": "被质疑频繁发消息", "source_id": "4"},
+          {"state": "neutral", "reason": "解释发消息动机", "source_id": "1"},
+          {"state": "negative", "reason": "收到不完整消息的焦虑", "source_id": "3"}
+        ]
+      },
+      {
+        "event": "社交媒体分享争议",
+        "emotions": [
+          {"state": "neutral", "reason": "解释抖音误发操作", "source_id": "4"},
+          {"state": "negative", "reason": "收到错误分享内容", "source_id": "4"},
+          {"state": "ambiguous", "reason": "追问信息接收者心理", "source_id": "2,4"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "沟通方式有效性辩论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方解释真实性", "source_id": "1"},
+          {"state": "neutral", "reason": "分析微信与语言差异", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "即时通讯习惯冲突",
+        "emotions": [
+          {"state": "neutral", "reason": "说明有事才发消息", "source_id": "1"},
+          {"state": "positive", "reason": "偏好电话沟通效率", "source_id": "1"},
+          {"state": "neutral", "reason": "澄清打字慢的客观限制", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "信息接收体验矛盾",
+        "emotions": [
+          {"state": "negative", "reason": "遭遇消息轰炸困扰", "source_id": "1"},
+          {"state": "neutral", "reason": "提出直接询问建议", "source_id": "1"},
+          {"state": "neutral", "reason": "确认消息回复原则", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "沟通焦虑共鸣",
+        "emotions": [
+          {"state": "negative", "reason": "体验等待回复的压迫感", "source_id": "1,3"},
+          {"state": "ambiguous", "reason": "发现声音特征异常", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "信息处理方式协调",
+        "emotions": [
+          {"state": "positive", "reason": "认可直接沟通原则", "source_id": "3"},
+          {"state": "neutral", "reason": "说明消息接收延迟", "source_id": "5"}
+        ]
+      }
+    ]
+  }
+}

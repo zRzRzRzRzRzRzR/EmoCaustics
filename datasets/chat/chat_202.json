@@ -1,0 +1,749 @@
+[
+    {
+        "sentence": "我觉得爱要说出口，因为比起找一个爱我的，我更愿意找一个我爱的。",
+        "Holder": "1",
+        "Target": "爱的表达方式",
+        "Aspect": "主动表达爱的合理性",
+        "Opinion": "支持主动表达爱",
+        "Sentiment": "positive",
+        "Rationale": "更愿意找一个自己爱的人"
+    },
+    {
+        "sentence": "这有什么关系吗？",
+        "Holder": "2",
+        "Target": "1的观点",
+        "Aspect": "观点的重要性",
+        "Opinion": "质疑观点的重要性",
+        "Sentiment": "neutral",
+        "Rationale": "不理解1的观点对实际影响"
+    },
+    {
+        "sentence": "就是我爱他，我要先说呀，这样子我就有主动权。",
+        "Holder": "1",
+        "Target": "爱的表达顺序",
+        "Aspect": "主动权的获取",
+        "Opinion": "先说爱有主动权",
+        "Sentiment": "positive",
+        "Rationale": "先表达爱可以获得主动权"
+    },
+    {
+        "sentence": "你不是先说，你是先爱。",
+        "Holder": "3",
+        "Target": "1的行为",
+        "Aspect": "爱的先后顺序",
+        "Opinion": "先爱后说",
+        "Sentiment": "neutral",
+        "Rationale": "指出1是先有爱再有表达"
+    },
+    {
+        "sentence": "没关系，我爱他就可以了啊。",
+        "Holder": "1",
+        "Target": "爱的状态",
+        "Aspect": "爱的满足感",
+        "Opinion": "爱他就足够",
+        "Sentiment": "positive",
+        "Rationale": "认为只要爱他就足够了"
+    },
+    {
+        "sentence": "朋友们，恋爱脑的脑子脑子没长出来呀。",
+        "Holder": "2",
+        "Target": "恋爱脑",
+        "Aspect": "恋爱经验",
+        "Opinion": "缺乏恋爱经验",
+        "Sentiment": "negative",
+        "Rationale": "认为朋友们在恋爱方面缺乏经验"
+    },
+    {
+        "sentence": "我要主动说出口。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "主动性",
+        "Opinion": "决定主动表达",
+        "Sentiment": "positive",
+        "Rationale": "决定要主动表达自己的想法"
+    },
+    {
+        "sentence": "不是，你是不是对张怀瑾你就心虚啊？",
+        "Holder": "4",
+        "Target": "1",
+        "Aspect": "对张怀瑾的态度",
+        "Opinion": "怀疑心虚",
+        "Sentiment": "negative",
+        "Rationale": "怀疑1对张怀瑾心虚"
+    },
+    {
+        "sentence": "也不是，对谁我都没什么经验。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "恋爱经验",
+        "Opinion": "缺乏恋爱经验",
+        "Sentiment": "neutral",
+        "Rationale": "承认自己在恋爱方面缺乏经验"
+    },
+    {
+        "sentence": "那有经验的张怀瑾说一下吧。",
+        "Holder": "5",
+        "Target": "张怀瑾",
+        "Aspect": "恋爱经验",
+        "Opinion": "认为张怀瑾有经验",
+        "Sentiment": "neutral",
+        "Rationale": "认为张怀瑾在恋爱方面有经验"
+    },
+    {
+        "sentence": "你有经验你怎么不说？传授传授经验。",
+        "Holder": "2",
+        "Target": "5的经验分享",
+        "Aspect": "经验传授的主动性",
+        "Opinion": "应该分享经验",
+        "Sentiment": "neutral",
+        "Rationale": "2希望5能分享经验"
+    },
+    {
+        "sentence": "我觉得不应该说出口，因为被我喜欢是你的荣幸。",
+        "Holder": "5",
+        "Target": "表达爱意的方式",
+        "Aspect": "是否应该主动表达",
+        "Opinion": "不应该主动说出口",
+        "Sentiment": "positive",
+        "Rationale": "5认为被自己喜欢是一种荣幸"
+    },
+    {
+        "sentence": "我觉得爱要主动说出口，因为你不主动说出口，对方根本就不知道我爱不爱你，因为我没有说出口而错失了这段感情。所以我就觉得如果我喜欢一个人，我是一定会主动跟他说，我喜欢你的。",
+        "Holder": "4",
+        "Target": "表达爱意的方式",
+        "Aspect": "主动表达的必要性",
+        "Opinion": "应该主动说出口",
+        "Sentiment": "negative",
+        "Rationale": "4曾经没有主动表达爱意而错失感情"
+    },
+    {
+        "sentence": "我觉得一段感情里面谁先说出口，就说明你是爱的更多的那一个。如果你先说出口的话，你就要被对方拿捏。",
+        "Holder": "2",
+        "Target": "表达爱意的时机",
+        "Aspect": "先说出口的后果",
+        "Opinion": "先说出口会被拿捏",
+        "Sentiment": "negative",
+        "Rationale": "2认为先说出口会显得爱得更多，容易被对方控制"
+    },
+    {
+        "sentence": "万一对方是个哑巴怎么办？",
+        "Holder": "1",
+        "Target": "表达爱意的方式",
+        "Aspect": "对方无法回应的情况",
+        "Opinion": "对方可能无法回应",
+        "Sentiment": "ambiguous",
+        "Rationale": "1提出了一个特殊情况，即对方无法回应的情况"
+    },
+    {
+        "sentence": "拿捏它是一个形容词，就是他是哑巴，他也可以拿捏你好吧，他是不是哑巴不重要。",
+        "Holder": "2",
+        "Target": "拿捏",
+        "Aspect": "拿捏的定义",
+        "Opinion": "拿捏与是否哑巴无关",
+        "Sentiment": "neutral",
+        "Rationale": "拿捏的定义与是否哑巴无关"
+    },
+    {
+        "sentence": "我就喜欢拿捏别人的感觉。",
+        "Holder": "5",
+        "Target": "拿捏别人",
+        "Aspect": "个人喜好",
+        "Opinion": "喜欢拿捏别人",
+        "Sentiment": "positive",
+        "Rationale": "表达了对拿捏别人感觉的喜爱"
+    },
+    {
+        "sentence": "我觉得你说的对，因为只要你不说出爱这个字，就是在这段感情里面辗转反侧，彻夜不能眠的就是那个人，你就可以不用承担这段痛苦。",
+        "Holder": "2",
+        "Target": "不说出爱",
+        "Aspect": "感情中的痛苦承担",
+        "Opinion": "不说出爱可以避免痛苦",
+        "Sentiment": "neutral",
+        "Rationale": "分析了不说出爱可以避免痛苦的原因"
+    },
+    {
+        "sentence": "可是你很过分啊，你这样是玩弄感情。",
+        "Holder": "4",
+        "Target": "2的行为",
+        "Aspect": "对感情的态度",
+        "Opinion": "玩弄感情",
+        "Sentiment": "negative",
+        "Rationale": "认为2的行为是玩弄感情"
+    },
+    {
+        "sentence": "谁说是玩弄感情了？",
+        "Holder": "2",
+        "Target": "玩弄感情的说法",
+        "Aspect": "对指责的回应",
+        "Opinion": "否认玩弄感情",
+        "Sentiment": "negative",
+        "Rationale": "被指责玩弄感情而感到不满"
+    },
+    {
+        "sentence": "这叫情趣！",
+        "Holder": "3",
+        "Target": "情趣",
+        "Aspect": "行为的定义",
+        "Opinion": "认为这是情趣",
+        "Sentiment": "positive",
+        "Rationale": "说话人3认为某种行为是有趣且富有情调的"
+    },
+    {
+        "sentence": "撒网是我的本事，入网是你的荣幸！",
+        "Holder": "5",
+        "Target": "撒网行为",
+        "Aspect": "能力与价值",
+        "Opinion": "自豪且认为对方荣幸",
+        "Sentiment": "positive",
+        "Rationale": "说话人5对自己的撒网能力感到自豪，并认为对方被吸引是对方的荣幸"
+    },
+    {
+        "sentence": "我不说，他就要猜，就算他不喜欢我，他都要猜测这个人是不是喜欢我。",
+        "Holder": "5",
+        "Target": "对方的行为",
+        "Aspect": "对方的反应",
+        "Opinion": "对方会猜测",
+        "Sentiment": "neutral",
+        "Rationale": "说话人5描述的是一种客观现象，即对方会进行猜测"
+    },
+    {
+        "sentence": "我觉得这是策略的一种。",
+        "Holder": "6",
+        "Target": "不说爱的方式",
+        "Aspect": "行为的性质",
+        "Opinion": "认为是一种策略",
+        "Sentiment": "neutral",
+        "Rationale": "说话人6客观地评价了这种行为是一种策略，没有明显的情感倾向"
+    },
+    {
+        "sentence": "我觉得爱不能说出口，为什么呢，因为我永远不会给任何人留下吹逼的机会。",
+        "Holder": "6",
+        "Target": "爱的表达方式",
+        "Aspect": "表达的理由",
+        "Opinion": "认为爱不应说出口",
+        "Sentiment": "neutral",
+        "Rationale": "说话人6基于自己的原则和策略认为爱不应说出口，以避免给别人留下吹嘘的机会"
+    },
+    {
+        "sentence": "比如某天你们聊天的时候，你说哎呀，那个谁呀爱我爱的肯定死去活来。",
+        "Holder": "6",
+        "Target": "聊天内容",
+        "Aspect": "聊天内容的描述",
+        "Opinion": "描述夸张",
+        "Sentiment": "neutral",
+        "Rationale": "只是描述一个具体的聊天场景"
+    },
+    {
+        "sentence": "肯定要聊的啊。",
+        "Holder": "3",
+        "Target": "聊天行为",
+        "Aspect": "聊天的必要性",
+        "Opinion": "认为聊天是必要的",
+        "Sentiment": "positive",
+        "Rationale": "认为聊天是正常且必要的社交行为"
+    },
+    {
+        "sentence": "者是一种吹嘘的资本，我觉得不能给别人留下这种把柄。",
+        "Holder": "6",
+        "Target": "吹嘘行为",
+        "Aspect": "行为的后果",
+        "Opinion": "反对吹嘘",
+        "Sentiment": "negative",
+        "Rationale": "认为吹嘘会留下把柄"
+    },
+    {
+        "sentence": "这还不把你给美死啊？",
+        "Holder": "3",
+        "Target": "6的观点",
+        "Aspect": "观点的反应",
+        "Opinion": "讽刺",
+        "Sentiment": "negative",
+        "Rationale": "对6的观点表示不满和讽刺"
+    },
+    {
+        "sentence": "你是个什么东西？真的是！",
+        "Holder": "7",
+        "Target": "6",
+        "Aspect": "个人身份",
+        "Opinion": "质疑身份",
+        "Sentiment": "negative",
+        "Rationale": "对6的行为或态度不满"
+    },
+    {
+        "sentence": "一段感情是两个人的事情，总有一个人要主动，那为什么那个人一定是我呢？我就要当那个被动的人。",
+        "Holder": "6",
+        "Target": "感情中的主动权",
+        "Aspect": "主动与被动的选择",
+        "Opinion": "不愿意总是主动",
+        "Sentiment": "negative",
+        "Rationale": "在感情中总是被要求主动，感到不公平"
+    },
+    {
+        "sentence": "可是也有那种，就比如说我喜欢他，然后我没告诉他，我的好朋友也喜欢他，然后她告白，他们两个在一起了。",
+        "Holder": "1",
+        "Target": "感情中的告白",
+        "Aspect": "告白的时机",
+        "Opinion": "错过告白机会",
+        "Sentiment": "neutral",
+        "Rationale": "自己没有及时告白而错过机会"
+    },
+    {
+        "sentence": "祝福他们俩。",
+        "Holder": "3",
+        "Target": "1的好朋友和喜欢的人",
+        "Aspect": "感情结果",
+        "Opinion": "祝福",
+        "Sentiment": "positive",
+        "Rationale": "看到别人幸福"
+    },
+    {
+        "sentence": "那说明他们俩就是一对狗男女！",
+        "Holder": "2",
+        "Target": "1的好朋友和喜欢的人",
+        "Aspect": "感情关系",
+        "Opinion": "贬低",
+        "Sentiment": "negative",
+        "Rationale": "对他们的感情关系不满"
+    },
+    {
+        "sentence": "倒也不至于狗男女，万一人家暗通款曲，你想过没有，如果他们俩本来就会在一起，那你说出来你是什么？",
+        "Holder": "3",
+        "Target": "2的观点",
+        "Aspect": "对他人关系的看法",
+        "Opinion": "认为可能是误解",
+        "Sentiment": "ambiguous",
+        "Rationale": "考虑到可能存在暗中的感情"
+    },
+    {
+        "sentence": "而且你有没有考虑过一个事情，就是如果你的好朋友跟这个人说了喜欢他，然后他俩在一起了，说明他们俩本来就是互相存在感情的呀。",
+        "Holder": "2",
+        "Target": "3的观点",
+        "Aspect": "对他人关系的看法",
+        "Opinion": "认为存在感情基础",
+        "Sentiment": "neutral",
+        "Rationale": "从好朋友和这个人在一起的事实出发"
+    },
+    {
+        "sentence": "你们有好多的经验。",
+        "Holder": "4",
+        "Target": "2和3",
+        "Aspect": "经验丰富",
+        "Opinion": "认为经验多",
+        "Sentiment": "positive",
+        "Rationale": "觉得2和3在讨论中表现出丰富的经验"
+    },
+    {
+        "sentence": "我们应该去实践一下。",
+        "Holder": "4",
+        "Target": "自己",
+        "Aspect": "实践意愿",
+        "Opinion": "支持实践",
+        "Sentiment": "positive",
+        "Rationale": "觉得通过实践可以获得更多经验"
+    },
+    {
+        "sentence": "我们苏杉杉应该很有经验啊，来说说，来说说你的观点。",
+        "Holder": "4",
+        "Target": "苏杉杉",
+        "Aspect": "经验",
+        "Opinion": "应该很有经验",
+        "Sentiment": "positive",
+        "Rationale": "认为苏杉杉有丰富的经验"
+    },
+    {
+        "sentence": "我觉得刚刚张怀瑾说，你不说你就拿捏了对方，那你怎么拿捏呢？如果对方不喜欢你，你怎么拿捏他呢？",
+        "Holder": "8",
+        "Target": "张怀瑾的观点",
+        "Aspect": "拿捏对方的策略",
+        "Opinion": "质疑",
+        "Sentiment": "doubt",
+        "Rationale": "对张怀瑾提出的拿捏对方的观点感到疑惑"
+    },
+    {
+        "sentence": "如果对方不喜欢你，你说了也没有用啊。",
+        "Holder": "3",
+        "Target": "说话的效果",
+        "Aspect": "对方不喜欢时的情况",
+        "Opinion": "说了也没用",
+        "Sentiment": "negative",
+        "Rationale": "认为对方不喜欢时说话无效"
+    },
+    {
+        "sentence": "如果你说了还是有用的，因为你说了你反而就可以拿捏他。",
+        "Holder": "8",
+        "Target": "说话的效果",
+        "Aspect": "对方不喜欢时的情况",
+        "Opinion": "说了有用",
+        "Sentiment": "positive",
+        "Rationale": "认为即使对方不喜欢，说话也能达到拿捏的效果"
+    },
+    {
+        "sentence": "不会啊，你说了你会不会被变成吹逼的资本啊？",
+        "Holder": "2",
+        "Target": "说话的后果",
+        "Aspect": "被误解的风险",
+        "Opinion": "可能被误解",
+        "Sentiment": "doubt",
+        "Rationale": "担心说话会被误解为吹嘘"
+    },
+    {
+        "sentence": "啊？那你可以掌握主动权嘛。",
+        "Holder": "8",
+        "Target": "主动权",
+        "Aspect": "主动权的掌握",
+        "Opinion": "可以掌握主动权",
+        "Sentiment": "neutral",
+        "Rationale": "8在询问是否可以掌握主动权"
+    },
+    {
+        "sentence": "你说了你就没有主动权了！",
+        "Holder": "3",
+        "Target": "主动权",
+        "Aspect": "主动权的丧失",
+        "Opinion": "说了就没有主动权",
+        "Sentiment": "negative",
+        "Rationale": "3认为一旦说出自己的想法就会失去主动权"
+    },
+    {
+        "sentence": "想主动就主动一下，不想就不主动，那不好吗？",
+        "Holder": "8",
+        "Target": "主动权",
+        "Aspect": "主动权的灵活性",
+        "Opinion": "灵活掌握主动权",
+        "Sentiment": "positive",
+        "Rationale": "8认为可以根据自己的意愿灵活掌握主动权"
+    },
+    {
+        "sentence": "反正他心里知道你喜欢他，但是如果你不说的话，你随时可以主动。",
+        "Holder": "3",
+        "Target": "主动权",
+        "Aspect": "主动权的保留",
+        "Opinion": "不说可以保留主动权",
+        "Sentiment": "neutral",
+        "Rationale": "3在解释不说出喜欢可以保留主动权"
+    },
+    {
+        "sentence": "我知道了，苏杉杉的观点就是当舔狗也需要自由。",
+        "Holder": "2",
+        "Target": "苏杉杉的观点",
+        "Aspect": "舔狗的自由",
+        "Opinion": "舔狗也需要自由",
+        "Sentiment": "ambiguous",
+        "Rationale": "2在总结苏杉杉的观点，带有一定的讽刺意味"
+    },
+    {
+        "sentence": "哎，不是。就是你想起来，你就主动一下，你不想的时候你就不主动，这个人就会说哎这个人怎么这样。",
+        "Holder": "8",
+        "Target": "主动行为",
+        "Aspect": "主动性的稳定性",
+        "Opinion": "不稳定",
+        "Sentiment": "negative",
+        "Rationale": "主动行为不稳定，时有时无"
+    },
+    {
+        "sentence": "那你如果说出来了，你就变成了舔狗。",
+        "Holder": "5",
+        "Target": "主动表达",
+        "Aspect": "表达方式",
+        "Opinion": "成为舔狗",
+        "Sentiment": "negative",
+        "Rationale": "主动表达会被认为是讨好"
+    },
+    {
+        "sentence": "虽然当舔狗怎么样，我开心了舔你一下，不开心我就不舔。",
+        "Holder": "7",
+        "Target": "舔狗行为",
+        "Aspect": "行为选择",
+        "Opinion": "随心情",
+        "Sentiment": "neutral",
+        "Rationale": "行为选择随心情而定"
+    },
+    {
+        "sentence": "舔狗也有舔狗的快乐！",
+        "Holder": "1",
+        "Target": "舔狗",
+        "Aspect": "快乐",
+        "Opinion": "有快乐",
+        "Sentiment": "positive",
+        "Rationale": "认为舔狗也有自己的快乐"
+    },
+    {
+        "sentence": "那如果你是只小狗，开心就招招手，不开心了就把你踢到一边。",
+        "Holder": "5",
+        "Target": "小狗",
+        "Aspect": "对待方式",
+        "Opinion": "随心情变化",
+        "Sentiment": "negative",
+        "Rationale": "对待方式随心情变化，显得不稳定"
+    },
+    {
+        "sentence": "你们两位很有当舔狗的经验，我们都知道，但是你们先别急。",
+        "Holder": "2",
+        "Target": "3和4",
+        "Aspect": "舔狗经验",
+        "Opinion": "有经验",
+        "Sentiment": "positive",
+        "Rationale": "因为2认为3和4在当舔狗方面有经验，所以语气中带有肯定的意味。"
+    },
+    {
+        "sentence": "我们确实不太懂。",
+        "Holder": "3",
+        "Target": "当舔狗的经验",
+        "Aspect": "理解程度",
+        "Opinion": "不懂",
+        "Sentiment": "negative",
+        "Rationale": "因为3承认自己在当舔狗方面缺乏理解，所以表现出负面情绪。"
+    },
+    {
+        "sentence": "不要人身攻击，张怀瑾！",
+        "Holder": "4",
+        "Target": "2",
+        "Aspect": "言论",
+        "Opinion": "反对人身攻击",
+        "Sentiment": "negative",
+        "Rationale": "4认为2的言论构成了人身攻击"
+    },
+    {
+        "sentence": "那我们来谈谈舔狗的好处吧。",
+        "Holder": "5",
+        "Target": "舔狗的好处",
+        "Aspect": "话题转换",
+        "Opinion": "提出讨论",
+        "Sentiment": "neutral",
+        "Rationale": "因为5只是提出了一个新的讨论话题，没有表现出明显的情感倾向。"
+    },
+    {
+        "sentence": "天哪，苏杉杉受伤了。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情感状态",
+        "Opinion": "受伤",
+        "Sentiment": "negative",
+        "Rationale": "2认为1在情感上受到了伤害"
+    },
+    {
+        "sentence": "我说这句话之前没有多想，但是我觉得你在多想啊。",
+        "Holder": "2",
+        "Target": "8的想法",
+        "Aspect": "思考的深度",
+        "Opinion": "8在多想",
+        "Sentiment": "neutral",
+        "Rationale": "2认为自己没有多想，但觉得8在多想"
+    },
+    {
+        "sentence": "没有，但是如果说那个人不喜欢你的话，你跟他表白的话，可能他会注意到你呢，如果在这之前他根本不知道有这个人呢？",
+        "Holder": "8",
+        "Target": "表白的可能性",
+        "Aspect": "引起注意的可能性",
+        "Opinion": "表白可能会引起注意",
+        "Sentiment": "positive",
+        "Rationale": "8认为即使对方不喜欢，表白也可能让对方注意到自己"
+    },
+    {
+        "sentence": "你知道吗，如果那个人不喜欢你，你们就是连朋友都做不成了。",
+        "Holder": "3",
+        "Target": "不喜欢的情况",
+        "Aspect": "友情的影响",
+        "Opinion": "不喜欢会导致无法做朋友",
+        "Sentiment": "negative",
+        "Rationale": "3认为如果对方不喜欢，连朋友都做不成"
+    },
+    {
+        "sentence": "啊？那也不一定啊，那就是强行做朋友嘛。",
+        "Holder": "8",
+        "Target": "3的观点",
+        "Aspect": "友情的可能性",
+        "Opinion": "不一定无法做朋友",
+        "Sentiment": "neutral",
+        "Rationale": "8对3的观点表示怀疑，认为不一定无法做朋友"
+    },
+    {
+        "sentence": "能不能做朋友，你说说为什么不能做朋友？你说，你有故事吗？",
+        "Holder": "8",
+        "Target": "友情的可能性",
+        "Aspect": "无法做朋友的原因",
+        "Opinion": "质疑无法做朋友的原因",
+        "Sentiment": "neutral",
+        "Rationale": "8对无法做朋友的原因表示质疑，想要了解更多"
+    },
+    {
+        "sentence": "因为人家不喜欢你啊。",
+        "Holder": "3",
+        "Target": "8",
+        "Aspect": "别人的喜好",
+        "Opinion": "别人不喜欢8",
+        "Sentiment": "negative",
+        "Rationale": "提到别人不喜欢8"
+    },
+    {
+        "sentence": "你是不是有这种经历？",
+        "Holder": "8",
+        "Target": "3",
+        "Aspect": "经历",
+        "Opinion": "询问3是否有相似经历",
+        "Sentiment": "neutral",
+        "Rationale": "8只是单纯地询问3的经历"
+    },
+    {
+        "sentence": "我不喜欢你就不能做朋友了吗？怎么了？",
+        "Holder": "8",
+        "Target": "3",
+        "Aspect": "做朋友的条件",
+        "Opinion": "质疑不能做朋友的原因",
+        "Sentiment": "negative",
+        "Rationale": "8对不能做朋友的原因感到不解和不满"
+    },
+    {
+        "sentence": "得看人家愿不愿意了这时候，因为你已经没有主动权了。",
+        "Holder": "3",
+        "Target": "8",
+        "Aspect": "主动权",
+        "Opinion": "8没有主动权",
+        "Sentiment": "negative",
+        "Rationale": "3强调8没有主动权"
+    },
+    {
+        "sentence": "那万一人家愿意呢？",
+        "Holder": "8",
+        "Target": "3",
+        "Aspect": "可能性",
+        "Opinion": "提出可能性",
+        "Sentiment": "neutral",
+        "Rationale": "8只是提出一种可能性，并没有明显的情绪倾向"
+    },
+    {
+        "sentence": "那只是个万一。",
+        "Holder": "3",
+        "Target": "情况的可能性",
+        "Aspect": "可能性的评估",
+        "Opinion": "可能性低",
+        "Sentiment": "neutral",
+        "Rationale": "只是提到一种低概率的情况"
+    },
+    {
+        "sentence": "那万一人家不愿意呢？",
+        "Holder": "5",
+        "Target": "他人的意愿",
+        "Aspect": "意愿的不确定性",
+        "Opinion": "担心不愿意",
+        "Sentiment": "doubt",
+        "Rationale": "考虑到他人可能不愿意"
+    },
+    {
+        "sentence": "这说明你还是在赌啊。",
+        "Holder": "2",
+        "Target": "5的行为",
+        "Aspect": "行为的性质",
+        "Opinion": "认为在赌博",
+        "Sentiment": "negative",
+        "Rationale": "认为5的行为具有赌博性质"
+    },
+    {
+        "sentence": "没关系，就是他不愿意，我们就换一个，对吧？反正世界上有这么多人可以舔。",
+        "Holder": "4",
+        "Target": "应对策略",
+        "Aspect": "策略的可行性",
+        "Opinion": "认为有替代方案",
+        "Sentiment": "positive",
+        "Rationale": "有备选方案"
+    },
+    {
+        "sentence": "对对对，是这个样子的！",
+        "Holder": "1",
+        "Target": "4的观点",
+        "Aspect": "观点的认同",
+        "Opinion": "完全同意",
+        "Sentiment": "positive",
+        "Rationale": "完全认同4的观点"
+    },
+    {
+        "sentence": "我知道了，你们的想法是，我是一个高贵的舔狗，我爱舔谁就舔谁，我想舔多久就多久。",
+        "Holder": "3",
+        "Target": "自己的行为",
+        "Aspect": "行为描述",
+        "Opinion": "被误解为高贵的舔狗",
+        "Sentiment": "negative",
+        "Rationale": "感觉自己被误解为高贵的舔狗"
+    },
+    {
+        "sentence": "不是！我是一个没有尊严的舔狗。",
+        "Holder": "5",
+        "Target": "自己的行为",
+        "Aspect": "行为描述",
+        "Opinion": "自认为没有尊严的舔狗",
+        "Sentiment": "negative",
+        "Rationale": "自认为没有尊严的舔狗"
+    },
+    {
+        "sentence": "那是柏欣妤的想法跟我无关！",
+        "Holder": "8",
+        "Target": "柏欣妤的想法",
+        "Aspect": "想法归属",
+        "Opinion": "与自己无关",
+        "Sentiment": "neutral",
+        "Rationale": "认为柏欣妤的想法与自己无关"
+    },
+    {
+        "sentence": "我知道了！这样子她就不是被吹逼的资本了，他就是被说那有个神经病你知道吗？",
+        "Holder": "3",
+        "Target": "柏欣妤",
+        "Aspect": "外界评价",
+        "Opinion": "被认为是神经病",
+        "Sentiment": "negative",
+        "Rationale": "认为柏欣妤被外界误解为神经病"
+    },
+    {
+        "sentence": "你可以不当海王呀，你可以当海狗，对吧？总有一条上钩的鱼嘛。",
+        "Holder": "8",
+        "Target": "3的行为选择",
+        "Aspect": "行为建议",
+        "Opinion": "建议当海狗",
+        "Sentiment": "ambiguous",
+        "Rationale": "提出了一种带有讽刺意味的建议"
+    },
+    {
+        "sentence": "我上次看到一句话，被淹死的往往是会游泳的人。你这只狗万一被淹死了怎么办。",
+        "Holder": "5",
+        "Target": "8",
+        "Aspect": "安全风险",
+        "Opinion": "担心被淹死",
+        "Sentiment": "negative",
+        "Rationale": "担心8会遇到危险"
+    },
+    {
+        "sentence": "啊？怎么叫被淹死呢？",
+        "Holder": "8",
+        "Target": "5的担忧",
+        "Aspect": "对担忧的理解",
+        "Opinion": "不理解",
+        "Sentiment": "neutral",
+        "Rationale": "不明白5的担忧是什么意思"
+    },
+    {
+        "sentence": "就是就是翻车了，你鱼塘里面的所有鱼忽然发现原来她不仅是一个舔狗，她是一个要舔很多人的舔狗，这只狗素质太差了！",
+        "Holder": "2",
+        "Target": "8",
+        "Aspect": "行为素质",
+        "Opinion": "素质差",
+        "Sentiment": "negative",
+        "Rationale": "认为8的行为不道德"
+    },
+    {
+        "sentence": "名声败坏了！",
+        "Holder": "5",
+        "Target": "8",
+        "Aspect": "名声",
+        "Opinion": "名声败坏",
+        "Sentiment": "negative",
+        "Rationale": "认为8的行为导致名声受损"
+    },
+    {
+        "sentence": "那换个塘。",
+        "Holder": "8",
+        "Target": "自己的处境",
+        "Aspect": "应对策略",
+        "Opinion": "换地方",
+        "Sentiment": "neutral",
+        "Rationale": "面对当前的困境，提出换地方的解决方案"
+    }
+]

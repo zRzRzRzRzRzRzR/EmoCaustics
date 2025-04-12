@@ -1,0 +1,290 @@
+[
+    {
+        "sentence": "这肉是不是不太熟，",
+        "Holder": "1",
+        "Target": "肉",
+        "Aspect": "熟度",
+        "Opinion": "不太熟",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在询问肉的熟度"
+    },
+    {
+        "sentence": "咱俩也不太熟，每天睡醒我都看不着，你天亮了你就出门搁外面一玩就是一天我做完饭了，你知道回来吃了，你到底干啥去了？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "日常行为",
+        "Opinion": "不熟悉且不满",
+        "Sentiment": "negative",
+        "Rationale": "说话人2觉得与说话人1不熟悉且对其日常行为不满"
+    },
+    {
+        "sentence": "上班去了你。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "活动",
+        "Opinion": "上班",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在解释自己的行为是去上班"
+    },
+    {
+        "sentence": "啥时候找的工作干？",
+        "Holder": "2",
+        "Target": "1的工作",
+        "Aspect": "工作时间",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在询问说话人1找工作的具体时间"
+    },
+    {
+        "sentence": "三年了，",
+        "Holder": "1",
+        "Target": "时间长度",
+        "Aspect": "时间跨度",
+        "Opinion": "三年",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述了一个时间长度"
+    },
+    {
+        "sentence": "会计啊",
+        "Holder": "2",
+        "Target": "职业",
+        "Aspect": "职业身份",
+        "Opinion": "会计",
+        "Sentiment": "neutral",
+        "Rationale": "只是提及了一个职业身份"
+    },
+    {
+        "sentence": "你还有脸说我我闺蜜都踩着了，你车里这女的谁，你在外面干啥？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "质疑和不信任",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的行为不妥，并且对2车里的女性身份感到怀疑"
+    },
+    {
+        "sentence": "开网约车她是乘客。",
+        "Holder": "2",
+        "Target": "车内女性",
+        "Aspect": "身份说明",
+        "Opinion": "乘客",
+        "Sentiment": "neutral",
+        "Rationale": "2在解释车内女性的身份"
+    },
+    {
+        "sentence": "你开多长时间了？",
+        "Holder": "1",
+        "Target": "2开网约车的时间",
+        "Aspect": "时间长度",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "1只是在进行询问，没有表现出明显的情绪"
+    },
+    {
+        "sentence": "我从18岁开到现在。",
+        "Holder": "2",
+        "Target": "自己的经历",
+        "Aspect": "时间跨度",
+        "Opinion": "长时间从事某事",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2在陈述自己的经历"
+    },
+    {
+        "sentence": "都2年多了。",
+        "Holder": "1",
+        "Target": "说话人2的经历",
+        "Aspect": "时间长度",
+        "Opinion": "时间较长",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在确认时间长度"
+    },
+    {
+        "sentence": "咱俩喝点。",
+        "Holder": "1",
+        "Target": "社交活动",
+        "Aspect": "提议喝酒",
+        "Opinion": "提议放松",
+        "Sentiment": "positive",
+        "Rationale": "说话人1提议喝酒放松"
+    },
+    {
+        "sentence": "我酒精过敏。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "身体条件",
+        "Opinion": "不能喝酒",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2说明自己的身体状况"
+    },
+    {
+        "sentence": "你尝个鱼吃。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "食物推荐",
+        "Opinion": "建议尝鱼",
+        "Sentiment": "neutral",
+        "Rationale": "1只是简单地推荐食物"
+    },
+    {
+        "sentence": "我海鲜过敏你还知道回来，我从昨晚10点一直等你到现在你去哪了？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "等待时间",
+        "Opinion": "等待已久",
+        "Sentiment": "negative",
+        "Rationale": "2等了1很长时间且1没有及时回来"
+    },
+    {
+        "sentence": "我在屋睡觉来着，9点多睡的，没有。",
+        "Holder": "1",
+        "Target": "2的等待",
+        "Aspect": "解释行为",
+        "Opinion": "在睡觉",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的行为"
+    },
+    {
+        "sentence": "我微信给你打这么多语音你也没接，",
+        "Holder": "2",
+        "Target": "1的联系方式",
+        "Aspect": "联系未果",
+        "Opinion": "未接语音",
+        "Sentiment": "negative",
+        "Rationale": "2尝试联系1但未得到回应"
+    },
+    {
+        "sentence": "这也不是我微信你给谁打的，这个是我微信。",
+        "Holder": "1",
+        "Target": "2的联系对象",
+        "Aspect": "微信账号",
+        "Opinion": "账号错误",
+        "Sentiment": "neutral",
+        "Rationale": "1在澄清微信账号的问题"
+    },
+    {
+        "sentence": "我微信给你打这么多语音你也没接，",
+        "Holder": "2",
+        "Target": "1的联系方式",
+        "Aspect": "联系未果",
+        "Opinion": "未接语音",
+        "Sentiment": "negative",
+        "Rationale": "2尝试联系1但未得到回应"
+    },
+    {
+        "sentence": "送错了，没这人。",
+        "Holder": "1",
+        "Target": "快递送达",
+        "Aspect": "送达准确性",
+        "Opinion": "送错了",
+        "Sentiment": "negative",
+        "Rationale": "快递送错了地方"
+    },
+    {
+        "sentence": "我叫啥？",
+        "Holder": "2",
+        "Target": "自己的名字",
+        "Aspect": "身份确认",
+        "Opinion": "询问名字",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认自己的名字"
+    },
+    {
+        "sentence": "你说我记一下。",
+        "Holder": "1",
+        "Target": "2的名字",
+        "Aspect": "记录信息",
+        "Opinion": "准备记录",
+        "Sentiment": "neutral",
+        "Rationale": "需要记录对方的名字"
+    },
+    {
+        "sentence": "杨小弟，",
+        "Holder": "2",
+        "Target": "自己的名字",
+        "Aspect": "名字提供",
+        "Opinion": "提供名字",
+        "Sentiment": "neutral",
+        "Rationale": "需要告知对方自己的名字"
+    },
+    {
+        "sentence": "杨晓丽，我给你快递，这是他问的，",
+        "Holder": "1",
+        "Target": "快递接收人",
+        "Aspect": "名字确认",
+        "Opinion": "确认名字",
+        "Sentiment": "neutral",
+        "Rationale": "需要确认快递接收人的名字"
+    },
+    {
+        "sentence": "这是我买的元气森林衣服。行了，你赶紧送儿子上学去。",
+        "Holder": "2",
+        "Target": "衣服",
+        "Aspect": "购买来源",
+        "Opinion": "自己购买",
+        "Sentiment": "neutral",
+        "Rationale": "2在陈述自己购买的衣服"
+    },
+    {
+        "sentence": "咱俩也没儿子，",
+        "Holder": "1",
+        "Target": "儿子",
+        "Aspect": "存在与否",
+        "Opinion": "没有儿子",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述一个事实"
+    },
+    {
+        "sentence": "那天在那儿看电视，",
+        "Holder": "2",
+        "Target": "活动",
+        "Aspect": "活动内容",
+        "Opinion": "看电视",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述一个日常活动"
+    },
+    {
+        "sentence": "那是我爸，",
+        "Holder": "1",
+        "Target": "人物关系",
+        "Aspect": "身份确认",
+        "Opinion": "是父亲",
+        "Sentiment": "neutral",
+        "Rationale": "1在确认人物身份"
+    },
+    {
+        "sentence": "我寻思儿子笑白头，",
+        "Holder": "3",
+        "Target": "儿子",
+        "Aspect": "情感表达",
+        "Opinion": "儿子让人开心",
+        "Sentiment": "positive",
+        "Rationale": "3提到儿子时带有愉悦的情感"
+    },
+    {
+        "sentence": "你俩熟悉熟悉再处，你这啥玩意",
+        "Holder": "1",
+        "Target": "2和3的关系",
+        "Aspect": "关系的进展",
+        "Opinion": "需要更熟悉",
+        "Sentiment": "negative",
+        "Rationale": "觉得2和3的关系进展太快，不够熟悉"
+    },
+    {
+        "sentence": "张博你真让人看笑话",
+        "Holder": "2",
+        "Target": "张博",
+        "Aspect": "行为表现",
+        "Opinion": "让人笑话",
+        "Sentiment": "negative",
+        "Rationale": "张博的行为让人感到尴尬"
+    },
+    {
+        "sentence": "我叫李宗恒，离婚，咱俩没结婚",
+        "Holder": "3",
+        "Target": "自己和李宗恒的关系",
+        "Aspect": "婚姻状态",
+        "Opinion": "澄清关系",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清自己和李宗恒的婚姻状态"
+    }
+]

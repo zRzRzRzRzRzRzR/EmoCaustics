@@ -1,0 +1,209 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "拥挤的赛道竞争压力",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "赛道拥挤导致内卷加剧，资源分配不均",
+            "source_id": "2,3,4"
+          }
+        ]
+      },
+      {
+        "event": "社会价值体系束缚",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "被迫接受成体系的社会价值观",
+            "source_id": "2,5,6"
+          },
+          {
+            "state": "neutral",
+            "reason": "意识到个人选择与群体标准的分歧",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "人生路径自主性争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "发现大众选择与个人答题卡不匹配",
+            "source_id": "4,7"
+          },
+          {
+            "state": "positive",
+            "reason": "强调自我判断在决策中的核心地位",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "规模效应优势论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "平台经济形成正向循环生态",
+            "source_id": "3,5"
+          },
+          {
+            "state": "negative",
+            "reason": "小众路径缺乏明确方法论支撑",
+            "source_id": "1,8"
+          }
+        ]
+      },
+      {
+        "event": "现实压力与理想冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "承认不同人生阶段的选择成本差异",
+            "source_id": "3,7"
+          },
+          {
+            "state": "negative",
+            "reason": "房贷和育儿带来的长期经济负担",
+            "source_id": "3,5"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "标准化人生批判",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "社会评价体系导致普遍性焦虑",
+            "source_id": "5,6"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导心流理论实现自我驱动",
+            "source_id": "1"
+          }
+        ]
+      },
+      {
+        "event": "代际观念冲突",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "父母影响力随时代变迁减弱",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "优绩主义导致青少年心理危机",
+            "source_id": "5,8"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "生活化决策辩论",
+        "emotions": [
+          {
+            "state": "doubt",
+            "reason": "质疑微信使用场景的竞争性本质",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "强调现实生存压力优先于理想",
+            "source_id": "5,8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "社会评价体系解构",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "儒家思想导致标准化人生困境",
+            "source_id": "6,7"
+          },
+          {
+            "state": "neutral",
+            "reason": "承认文化传统残留的现实影响",
+            "source_id": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "少数群体生存困境",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "性少数群体遭遇系统性排斥",
+            "source_id": "5,8"
+          },
+          {
+            "state": "positive",
+            "reason": "倡导构建包容性社会支持网络",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "圈层化选择理论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出社会分层的相对选择模型",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "揭露优绩主义下的幸存者偏差",
+            "source_id": "5,8"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "个体自主权主张",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调选择权与自我实现的关联",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "批判社会规训导致的自我压抑",
+            "source_id": "5,6"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "人工智能在心理健康治疗中的应用潜力",
+        "emotions": [
+          {"state": "positive", "reason": "介绍专家小组并表达期待", "source_id": "1"},
+          {"state": "neutral", "reason": "询问预测方法和技术挑战", "source_id": "2,3"},
+          {"state": "positive", "reason": "相信监管解决后能推动进展", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "技术挑战与算法偏见",
+        "emotions": [
+          {"state": "neutral", "reason": "探讨数据验证和泛化问题", "source_id": "2"},
+          {"state": "negative", "reason": "关注算法偏见对医疗公平的影响", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "人工智能临床应用的技术障碍",
+        "emotions": [
+          {"state": "negative", "reason": "训练数据偏见导致预测偏差", "source_id": "1,3"},
+          {"state": "negative", "reason": "大脑影像诊断存在伪影干扰", "source_id": "1"},
+          {"state": "neutral", "reason": "强调样本外验证的重要性", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "医疗数据伦理与隐私保护",
+        "emotions": [
+          {"state": "negative", "reason": "数据商业化滥用风险", "source_id": "3"},
+          {"state": "neutral", "reason": "讨论匿名化技术可行性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "个性化数字医疗的实践探索",
+        "emotions": [
+          {"state": "positive", "reason": "Minecraft平台提升儿童表达意愿", "source_id": "1"},
+          {"state": "negative", "reason": "商业解决方案缺乏全面评估", "source_id": "1"},
+          {"state": "neutral", "reason": "强调数字微干预非侵入性原则", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "医疗系统数字化转型",
+        "emotions": [
+          {"state": "positive", "reason": "全民医保系统转向预防医疗", "source_id": "3"},
+          {"state": "positive", "reason": "跨领域数据整合提升诊疗精度", "source_id": "2"},
+          {"state": "neutral", "reason": "分析智能设备普及的技术路径", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

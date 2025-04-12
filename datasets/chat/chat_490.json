@@ -1,0 +1,92 @@
+[
+    {
+        "sentence": "你这孩子就是哄着哄着，连你都为了狗。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "教育方式",
+        "Opinion": "过于宠溺",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2对孩子的教育方式过于宠溺，忽视了原则，所以表现出不满。"
+    },
+    {
+        "sentence": "今天当着孩子的面，我们把话说清楚，从明天开始，喜欢的课就去上，不喜欢的课就不上，考什么大学都行，我养他们一辈子。",
+        "Holder": "2",
+        "Target": "孩子的教育",
+        "Aspect": "教育态度",
+        "Opinion": "放任自流",
+        "Sentiment": "negative",
+        "Rationale": "因为2提出对孩子的教育采取放任自流的态度，忽视了教育的责任，所以表现出不负责任的情绪。"
+    },
+    {
+        "sentence": "30岁的人，你拿什么养他们一辈子？",
+        "Holder": "1",
+        "Target": "2的养孩子计划",
+        "Aspect": "现实可行性",
+        "Opinion": "不现实",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2的计划不现实，无法承担长期的经济责任，所以表现出质疑和不满。"
+    },
+    {
+        "sentence": "你现在是不是已经失去理智了？",
+        "Holder": "2",
+        "Target": "1的情绪状态",
+        "Aspect": "情绪控制",
+        "Opinion": "失去理智",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1在讨论中情绪失控，无法理性交流，所以表现出批评和不满。"
+    },
+    {
+        "sentence": "你把自己的不如意都归咎于父母，却不愿意从自己身上找原因。",
+        "Holder": "2",
+        "Target": "1的心态",
+        "Aspect": "自我反省",
+        "Opinion": "缺乏自我反省",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1不愿意正视自己的问题，将责任推给父母，所以表现出指责和不满。"
+    },
+    {
+        "sentence": "你对孩子的溺爱只会害了他们，让他们无法独立。",
+        "Holder": "1",
+        "Target": "2的教育方式",
+        "Aspect": "独立性培养",
+        "Opinion": "溺爱",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2的溺爱会妨碍孩子的独立性发展，所以表现出担忧和不满。"
+    },
+    {
+        "sentence": "你总是以自己的标准来要求孩子，不考虑他们的感受。",
+        "Holder": "2",
+        "Target": "1的教育方式",
+        "Aspect": "尊重孩子感受",
+        "Opinion": "忽视孩子感受",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1在教育中忽视了孩子的感受，所以表现出不满和批评。"
+    },
+    {
+        "sentence": "你这样下去，只会让孩子越来越疏远你。",
+        "Holder": "2",
+        "Target": "1的教育方式",
+        "Aspect": "亲子关系",
+        "Opinion": "导致疏远",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1的教育方式会导致亲子关系疏远，所以表现出担忧和批评。"
+    },
+    {
+        "sentence": "你根本不了解孩子，只会一味地指责。",
+        "Holder": "1",
+        "Target": "2的教育方式",
+        "Aspect": "了解孩子",
+        "Opinion": "缺乏了解",
+        "Sentiment": "negative",
+        "Rationale": "因为1认为2在教育中缺乏对孩子的了解，所以表现出不满和批评。"
+    },
+    {
+        "sentence": "你这样教育孩子，只会让他们越来越迷茫。",
+        "Holder": "2",
+        "Target": "1的教育方式",
+        "Aspect": "孩子成长方向",
+        "Opinion": "导致迷茫",
+        "Sentiment": "negative",
+        "Rationale": "因为2认为1的教育方式会导致孩子在成长中迷茫，所以表现出担忧和批评。"
+    }
+]

@@ -1,0 +1,58 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "迟到与沟通失误引发的争执",
+        "emotions": [
+          {"state": "negative", "reason": "对方迟到且未及时沟通", "source_id": "2"},
+          {"state": "negative", "reason": "被指责未履行承诺发送消息", "source_id": "2"},
+          {"state": "positive", "reason": "确认自己已发送消息", "source_id": "1"},
+          {"state": "negative", "reason": "被质疑未打电话", "source_id": "2"},
+          {"state": "negative", "reason": "认为对方表述矛盾", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "食物来源真实性的争论",
+        "emotions": [
+          {"state": "negative", "reason": "质疑食物是昨天的", "source_id": "2"},
+          {"state": "neutral", "reason": "接受对方质疑", "source_id": "2"},
+          {"state": "negative", "reason": "被口水洒到", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "催促练舞与时间分配矛盾",
+        "emotions": [
+          {"state": "positive", "reason": "强调练舞重要性", "source_id": "1"},
+          {"state": "negative", "reason": "批评对方表现不佳", "source_id": "2"},
+          {"state": "negative", "reason": "质疑行程时间过长", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "沟通延迟与行为解释",
+        "emotions": [
+          {"state": "negative", "reason": "未收到消息且未被致电", "source_id": "1"},
+          {"state": "neutral", "reason": "解释未卸妆原因", "source_id": "1"},
+          {"state": "neutral", "reason": "说明便利店购物行为", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "食物购买证明与情绪反弹",
+        "emotions": [
+          {"state": "positive", "reason": "强调食物为现购", "source_id": "1"},
+          {"state": "negative", "reason": "被冤枉要求道歉", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "练舞进程的推进",
+        "emotions": [
+          {"state": "neutral", "reason": "反复催促开始练舞", "source_id": "1"},
+          {"state": "positive", "reason": "对讽刺评论感到好笑", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

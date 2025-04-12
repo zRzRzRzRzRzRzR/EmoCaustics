@@ -1,0 +1,75 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "毕业照人物识别争议",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑观察准确性", "source_id": "3"},
+          {"state": "neutral", "reason": "提出多个人选推测", "source_id": "1,4,5"},
+          {"state": "negative", "reason": "未获得预期表扬", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "母校回访行动",
+        "emotions": [
+          {"state": "positive", "reason": "重游母校触发回忆", "source_id": "1"},
+          {"state": "neutral", "reason": "幼儿园距离限制", "source_id": "1"},
+          {"state": "negative", "reason": "行程未达预期成果", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "关键人物线索突破",
+        "emotions": [
+          {"state": "positive", "reason": "发现毕业照线索", "source_id": "2"},
+          {"state": "neutral", "reason": "照片相似度争议", "source_id": "3"},
+          {"state": "positive", "reason": "确认王强身份", "source_id": "6"},
+          {"state": "negative", "reason": "线索有效性存疑", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "子女行踪管理",
+        "emotions": [
+          {"state": "negative", "reason": "担忧子女安全", "source_id": "5"},
+          {"state": "neutral", "reason": "了解行动动机", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "童年形象维护",
+        "emotions": [
+          {"state": "negative", "reason": "童年照片被取笑", "source_id": "1"},
+          {"state": "negative", "reason": "思考能力被质疑", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "调查行动参与",
+        "emotions": [
+          {"state": "negative", "reason": "身体疲劳", "source_id": "5"},
+          {"state": "positive", "reason": "获得关键进展", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "人物关系确认",
+        "emotions": [
+          {"state": "positive", "reason": "成功识别王强", "source_id": "6"},
+          {"state": "negative", "reason": "贡献度受质疑", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

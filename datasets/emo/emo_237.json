@@ -1,0 +1,48 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭责任分工争议",
+        "emotions": [
+          {"state": "neutral", "reason": "重申家庭分工共识", "source_id": "2"},
+          {"state": "negative", "reason": "质疑对方配合度与理解程度", "source_id": "2"},
+          {"state": "negative", "reason": "对迟到行为与面子的关联性不满", "source_id": "2"},
+          {"state": "negative", "reason": "职业压力引发的情绪爆发", "source_id": "2"},
+          {"state": "positive", "reason": "表达改善家庭生活的目标", "source_id": "1"},
+          {"state": "negative", "reason": "对社会比较产生的不满足感", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "价值观冲突与未来规划",
+        "emotions": [
+          {"state": "negative", "reason": "批判书籍内容与女性价值观", "source_id": "2"},
+          {"state": "neutral", "reason": "回避敏感话题避免冲突", "source_id": "2"},
+          {"state": "negative", "reason": "对兴趣班参与度的失望", "source_id": "2"},
+          {"state": "positive", "reason": "主动提供兴趣培养支持", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "情感理解与行为辩解",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑配合度时的自我辩护", "source_id": "1"},
+          {"state": "positive", "reason": "解释美容行为动机", "source_id": "1"},
+          {"state": "negative", "reason": "承认错误后的懊悔", "source_id": "1"},
+          {"state": "positive", "reason": "承诺行为改正", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "生活态度分歧",
+        "emotions": [
+          {"state": "positive", "reason": "表达对现状的满足感", "source_id": "1"},
+          {"state": "negative", "reason": "反对被标签为不上进", "source_id": "1"},
+          {"state": "negative", "reason": "抗拒兴趣培养建议", "source_id": "1"},
+          {"state": "negative", "reason": "对持续施压的抵触", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

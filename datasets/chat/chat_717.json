@@ -1,0 +1,623 @@
+[
+    {
+        "sentence": "兄弟，你明天结婚怎么不早说，你早说明天结婚，",
+        "Holder": "2",
+        "Target": "1的结婚通知",
+        "Aspect": "通知的及时性",
+        "Opinion": "通知太晚",
+        "Sentiment": "negative",
+        "Rationale": "1没有提前通知结婚"
+    },
+    {
+        "sentence": "所以你还是另找搭档，",
+        "Holder": "1",
+        "Target": "2的搭档身份",
+        "Aspect": "搭档的合适性",
+        "Opinion": "需要另找搭档",
+        "Sentiment": "neutral",
+        "Rationale": "2即将结婚"
+    },
+    {
+        "sentence": "我还需要什么狗屁搭档，太无敌了，",
+        "Holder": "2",
+        "Target": "搭档的需求",
+        "Aspect": "搭档的必要性",
+        "Opinion": "不需要搭档",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己很强大"
+    },
+    {
+        "sentence": "这两件事又有什么关系？",
+        "Holder": "3",
+        "Target": "2的言论",
+        "Aspect": "言论的逻辑性",
+        "Opinion": "不理解关系",
+        "Sentiment": "neutral",
+        "Rationale": "不明白2的言论中两件事的联系"
+    },
+    {
+        "sentence": "怎么没有关系，现成的主题摆在我们面前，这是人类20世纪发明马桶以来最伟大的发明，终极单身夜。我是个传统的人，外国人那一套我不行了，恰恰就是为了尊重传统，你知道吗？没有婚前单身夜派对的婚姻是不完整的婚姻也注定将是不幸福的婚姻。",
+        "Holder": "2",
+        "Target": "单身夜派对",
+        "Aspect": "派对的重要性",
+        "Opinion": "派对是必要的",
+        "Sentiment": "positive",
+        "Rationale": "认为单身夜派对是传统且重要的"
+    },
+    {
+        "sentence": "另外我估计你未来的老婆现在应该在召集她的姐妹们筹备她的单身夜派对，",
+        "Holder": "2",
+        "Target": "1的未来老婆",
+        "Aspect": "派对筹备",
+        "Opinion": "正在筹备派对",
+        "Sentiment": "neutral",
+        "Rationale": "推测1的未来老婆在筹备派对"
+    },
+    {
+        "sentence": "我有点想去参加那边的派对，",
+        "Holder": "4",
+        "Target": "参加派对的想法",
+        "Aspect": "参与意愿",
+        "Opinion": "有点想去",
+        "Sentiment": "neutral",
+        "Rationale": "对派对有兴趣，但还没有完全决定"
+    },
+    {
+        "sentence": "我也是。",
+        "Holder": "5",
+        "Target": "参加派对的想法",
+        "Aspect": "参与意愿",
+        "Opinion": "想去",
+        "Sentiment": "neutral",
+        "Rationale": "对派对有兴趣"
+    },
+    {
+        "sentence": "其实让我告别单身，我心情也是挺复杂的，明天就要上路了，珍惜这最后的疯狂美女，我来联系你，只需要整理好着装，",
+        "Holder": "1",
+        "Target": "告别单身的心情",
+        "Aspect": "情感复杂性",
+        "Opinion": "心情复杂",
+        "Sentiment": "ambiguous",
+        "Rationale": "即将告别单身，既有期待又有不舍"
+    },
+    {
+        "sentence": "他还没说要去参加单身派对，",
+        "Holder": "4",
+        "Target": "他参加单身派对的决定",
+        "Aspect": "决定状态",
+        "Opinion": "还没决定",
+        "Sentiment": "neutral",
+        "Rationale": "他还没有明确表示是否参加派对"
+    },
+    {
+        "sentence": "你不会是怕老婆吧.",
+        "Holder": "2",
+        "Target": "4的犹豫",
+        "Aspect": "犹豫原因",
+        "Opinion": "可能是怕老婆",
+        "Sentiment": "doubt",
+        "Rationale": "4没有明确表示参加派对"
+    },
+    {
+        "sentence": "怎么可能，我老婆从来我说一她不敢说二的，但是",
+        "Holder": "1",
+        "Target": "老婆的顺从",
+        "Aspect": "家庭地位",
+        "Opinion": "老婆非常顺从",
+        "Sentiment": "positive",
+        "Rationale": "老婆总是顺从自己的意见"
+    },
+    {
+        "sentence": "没有但是单身就没有但是，聆听一下群众的呼声。单身夜、单身夜。听到没有？全票通过。",
+        "Holder": "2",
+        "Target": "单身夜的活动",
+        "Aspect": "活动的合理性",
+        "Opinion": "支持单身夜活动",
+        "Sentiment": "positive",
+        "Rationale": "大家都支持单身夜活动"
+    },
+    {
+        "sentence": "这也可以，酒吧说什么都有人跟的，",
+        "Holder": "5",
+        "Target": "酒吧的氛围",
+        "Aspect": "跟随潮流",
+        "Opinion": "酒吧里容易跟风",
+        "Sentiment": "neutral",
+        "Rationale": "观察到酒吧里大家容易跟风"
+    },
+    {
+        "sentence": "是吗？你也试试是。",
+        "Holder": "2",
+        "Target": "5的尝试",
+        "Aspect": "尝试的可行性",
+        "Opinion": "建议尝试",
+        "Sentiment": "neutral",
+        "Rationale": "对5的说法感兴趣"
+    },
+    {
+        "sentence": "曾小贤，这是他的电话。",
+        "Holder": "5",
+        "Target": "曾小贤",
+        "Aspect": "联系方式",
+        "Opinion": "提供电话",
+        "Sentiment": "neutral",
+        "Rationale": "需要提供曾小贤的联系方式"
+    },
+    {
+        "sentence": "看到了没有？人心所向，众望所归。",
+        "Holder": "2",
+        "Target": "大众意见",
+        "Aspect": "普遍认可",
+        "Opinion": "大家一致认同",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人提到人心所向，说明大家对某事或某人有高度一致的正面评价，所以情绪是正面的。"
+    },
+    {
+        "sentence": "好吧，我们去哪儿？",
+        "Holder": "1",
+        "Target": "活动地点",
+        "Aspect": "位置选择",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "因为这句话只是在询问接下来的活动地点，没有表达出明显的情感倾向，所以情绪是中立的。"
+    },
+    {
+        "sentence": "放心，我已经订好了位子。",
+        "Holder": "2",
+        "Target": "位子预订",
+        "Aspect": "准备情况",
+        "Opinion": "已完成",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人表示已经完成了位子的预订，显示出对情况的掌控和积极的态度，所以情绪是正面的。"
+    },
+    {
+        "sentence": "什么时候定的位子？",
+        "Holder": "4",
+        "Target": "位子预订时间",
+        "Aspect": "时间",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "这句话只是在询问位子预订的时间，没有表达出明显的情感色彩，所以情绪是中立的。"
+    },
+    {
+        "sentence": "5分钟后在出租车上。",
+        "Holder": "2",
+        "Target": "位子预订",
+        "Aspect": "时间",
+        "Opinion": "迅速完成",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人表示位子的预订是在很短时间内完成的，显示出效率和积极性，所以情绪是正面的。"
+    },
+    {
+        "sentence": "我们先去租车公司，租一辆20米长的加长林肯，然后去戏剧学院，想象一下一辆加长林肯停在校门口的场面，那些刚下课的表演系女生经过，我会上去说，张伟叔叔可以载你一程。",
+        "Holder": "2",
+        "Target": "活动计划",
+        "Aspect": "详细安排",
+        "Opinion": "精心策划",
+        "Sentiment": "positive",
+        "Rationale": "因为说话人详细描述了接下来的活动安排，并且考虑到了细节，显示出对活动的热情和期待，所以情绪是积极的。"
+    },
+    {
+        "sentence": "会不会不太好？",
+        "Holder": "1",
+        "Target": "单身派对活动",
+        "Aspect": "合适性",
+        "Opinion": "担忧",
+        "Sentiment": "negative",
+        "Rationale": "考虑到单身派对活动可能存在不适当的内容"
+    },
+    {
+        "sentence": "今晚是你的单身夜，上帝会原谅你的，何况我还准备了特别的道具。",
+        "Holder": "2",
+        "Target": "1的单身派对",
+        "Aspect": "活动内容",
+        "Opinion": "支持并期待",
+        "Sentiment": "positive",
+        "Rationale": "因为说话者准备了特别的道具，试图让1放心参与，强调活动的正当性和乐趣。"
+    },
+    {
+        "sentence": "我猜一定很下流。",
+        "Holder": "1",
+        "Target": "派对道具",
+        "Aspect": "内容性质",
+        "Opinion": "负面预期",
+        "Sentiment": "negative",
+        "Rationale": "由于对派对道具的负面预期，认为其内容可能不适当，所以表现出负面情绪。"
+    },
+    {
+        "sentence": "让我看看。",
+        "Holder": "5",
+        "Target": "派对道具",
+        "Aspect": "好奇心",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "因为5对派对道具感到好奇，所以想要亲自查看以确认。"
+    },
+    {
+        "sentence": "别小看了飞行棋，想象一下和一群美女一起玩飞行棋是多么享受的事情。",
+        "Holder": "2",
+        "Target": "飞行棋游戏",
+        "Aspect": "娱乐价值",
+        "Opinion": "高度评价",
+        "Sentiment": "positive",
+        "Rationale": "因为将飞行棋与美女相伴的情景联系起来，提升了活动的吸引力。"
+    },
+    {
+        "sentence": "让我下车。",
+        "Holder": "4",
+        "Target": "下车",
+        "Aspect": "行动请求",
+        "Opinion": "希望下车",
+        "Sentiment": "neutral",
+        "Rationale": "表达了希望下车的请求"
+    },
+    {
+        "sentence": "关谷子乔单身夜派对你怎么没去？",
+        "Holder": "3",
+        "Target": "关谷子乔单身夜派对",
+        "Aspect": "参与情况",
+        "Opinion": "询问未参与原因",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问对方为什么没去派对"
+    },
+    {
+        "sentence": "我以前去过下了一个晚上的飞行棋。你在看什么？",
+        "Holder": "4",
+        "Target": "飞行棋活动",
+        "Aspect": "参与经历",
+        "Opinion": "曾经参与",
+        "Sentiment": "neutral",
+        "Rationale": "描述了自己以前的经历并询问对方在看什么"
+    },
+    {
+        "sentence": "电视剧导读，爹娘死了，孩子丢了，婆婆疯了，媳妇儿被糟蹋了，曾小贤又有电视剧追了，古装伦理苦情剧，貂蝉再爱我一次正在拍摄中，这几个造型不错，很有你们日本漫画的风格，",
+        "Holder": "3",
+        "Target": "电视剧",
+        "Aspect": "内容和风格",
+        "Opinion": "内容苦情但造型有漫画风格",
+        "Sentiment": "neutral",
+        "Rationale": "客观描述了电视剧的内容和风格"
+    },
+    {
+        "sentence": "我不明白为什么中国人喜欢把漫画拍成电视剧，",
+        "Holder": "4",
+        "Target": "中国人",
+        "Aspect": "漫画改编电视剧的偏好",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "对中国人喜欢把漫画拍成电视剧的行为表示不理解"
+    },
+    {
+        "sentence": "听说黑猫警长和葫芦兄弟都要拍真人版了，李亚鹏1个人演7个娃，",
+        "Holder": "3",
+        "Target": "黑猫警长和葫芦兄弟真人版",
+        "Aspect": "真人版拍摄",
+        "Opinion": "李亚鹏一人演多个角色",
+        "Sentiment": "neutral",
+        "Rationale": "只是陈述一个听说的事实，没有明显的情感倾向"
+    },
+    {
+        "sentence": "漫画世界跟现实世界是不可能相同的。瞧见那个姑娘，这种感觉就像老漫画里的情节一样，一个水手看见了甲板上的姑娘，然后转身跟他的同伴说，你瞧见那个姑娘没有，总有一天。我要把她取回来，",
+        "Holder": "4",
+        "Target": "漫画世界与现实世界的差异",
+        "Aspect": "现实与漫画的对比",
+        "Opinion": "两者不可能相同",
+        "Sentiment": "neutral",
+        "Rationale": "讨论的是漫画与现实的不同，属于客观陈述"
+    },
+    {
+        "sentence": "总有一天我也要买一套这样的衣服，",
+        "Holder": "3",
+        "Target": "特定衣服",
+        "Aspect": "购买愿望",
+        "Opinion": "希望购买",
+        "Sentiment": "positive",
+        "Rationale": "表达了对未来购买衣服的期望"
+    },
+    {
+        "sentence": "请问吕子乔在这里吗？吕子乔我刚才去了他的公寓，门卫说他可能在这里，你们认识他吗？",
+        "Holder": "6",
+        "Target": "吕子乔",
+        "Aspect": "吕子乔的位置",
+        "Opinion": "寻找吕子乔",
+        "Sentiment": "neutral",
+        "Rationale": "只是询问吕子乔的位置，没有明显的情感倾向"
+    },
+    {
+        "sentence": "当然不认识，从来没听说过，吕子乔从没听说过这么傻的名字，不好意思失陪一下，",
+        "Holder": "3",
+        "Target": "吕子乔的名字",
+        "Aspect": "名字的合理性",
+        "Opinion": "认为名字傻",
+        "Sentiment": "negative",
+        "Rationale": "觉得吕子乔这个名字很傻"
+    },
+    {
+        "sentence": "你为什么说你不认识子乔，",
+        "Holder": "4",
+        "Target": "3的认识情况",
+        "Aspect": "是否认识子乔",
+        "Opinion": "质疑不认识子乔的说法",
+        "Sentiment": "doubt",
+        "Rationale": "觉得3应该认识子乔"
+    },
+    {
+        "sentence": "幸好我冰雪聪明，不然你又给我们找麻烦，什么。",
+        "Holder": "3",
+        "Target": "4的行为",
+        "Aspect": "是否带来麻烦",
+        "Opinion": "认为4会带来麻烦",
+        "Sentiment": "negative",
+        "Rationale": "觉得4的行为可能会引起麻烦"
+    },
+    {
+        "sentence": "麻烦？",
+        "Holder": "4",
+        "Target": "3的说法",
+        "Aspect": "麻烦的定义",
+        "Opinion": "对麻烦一词表示疑问",
+        "Sentiment": "doubt",
+        "Rationale": "不明白3所指的麻烦是什么"
+    },
+    {
+        "sentence": "你想想深更半夜一个妙龄少女奇装异服到酒吧找子乔，看面积看这焦急程度，再看他两眼之间的距离就有结论了。",
+        "Holder": "3",
+        "Target": "妙龄少女",
+        "Aspect": "行为和外表",
+        "Opinion": "认为行为和外表有可疑之处",
+        "Sentiment": "negative",
+        "Rationale": "觉得深更半夜奇装异服到酒吧找人的行为不正常"
+    },
+    {
+        "sentence": "他两眼之间的距离不大啊，",
+        "Holder": "4",
+        "Target": "子乔的外貌",
+        "Aspect": "两眼之间的距离",
+        "Opinion": "认为两眼之间的距离正常",
+        "Sentiment": "neutral",
+        "Rationale": "观察到子乔的两眼之间的距离并不大"
+    },
+    {
+        "sentence": "总之一定确定以及肯定又是哪个被子乔诓骗了感情的无知少女，不是过来寻夫的，就是过来寻仇的，",
+        "Holder": "3",
+        "Target": "子乔的行为",
+        "Aspect": "子乔对少女的影响",
+        "Opinion": "子乔欺骗少女",
+        "Sentiment": "negative",
+        "Rationale": "多次见到类似情况"
+    },
+    {
+        "sentence": "你怎么那么肯定？",
+        "Holder": "4",
+        "Target": "3的判断",
+        "Aspect": "判断的确定性",
+        "Opinion": "质疑3的确定性",
+        "Sentiment": "neutral",
+        "Rationale": "对3的判断表示怀疑"
+    },
+    {
+        "sentence": "两个月来这已经是第四个了。",
+        "Holder": "3",
+        "Target": "类似事件的数量",
+        "Aspect": "事件频率",
+        "Opinion": "事件频繁发生",
+        "Sentiment": "negative",
+        "Rationale": "类似事件频繁发生"
+    },
+    {
+        "sentence": "子乔子乔你在哪儿在哪儿？子乔我找子乔，吕子乔，你给我死出来。",
+        "Holder": "7",
+        "Target": "吕子乔",
+        "Aspect": "寻找吕子乔",
+        "Opinion": "急切寻找吕子乔",
+        "Sentiment": "negative",
+        "Rationale": "迫切需要找到吕子乔"
+    },
+    {
+        "sentence": "如果我们说认识子乔一定会自找麻烦，千万别乱说话，我们刚才头脑风暴了一下，发现你真的不认识吕子乔这个人，你到对面洗脚城找找打扰，",
+        "Holder": "3",
+        "Target": "是否认识子乔",
+        "Aspect": "避免麻烦",
+        "Opinion": "建议不承认认识子乔",
+        "Sentiment": "neutral",
+        "Rationale": "担心承认认识子乔会带来麻烦"
+    },
+    {
+        "sentence": "这是吕子乔先生的账单，他走的时候说算在您这里。",
+        "Holder": "8",
+        "Target": "吕子乔",
+        "Aspect": "账单责任",
+        "Opinion": "账单应由3承担",
+        "Sentiment": "neutral",
+        "Rationale": "吕子乔走时说账单算在3这里"
+    },
+    {
+        "sentence": "你搞错了，我们不认识吕子乔.他欠你们钱，",
+        "Holder": "3",
+        "Target": "吕子乔",
+        "Aspect": "账单责任",
+        "Opinion": "不认识吕子乔，不应承担责任",
+        "Sentiment": "negative",
+        "Rationale": "被误认为认识吕子乔并需承担账单"
+    },
+    {
+        "sentence": "对我认识吕子乔，你把账单给我，我来帮他付。",
+        "Holder": "6",
+        "Target": "吕子乔",
+        "Aspect": "账单责任",
+        "Opinion": "愿意帮吕子乔付账",
+        "Sentiment": "positive",
+        "Rationale": "认识吕子乔并愿意帮助他"
+    },
+    {
+        "sentence": "同样是女人，这个女人怎么能笨成这样？",
+        "Holder": "3",
+        "Target": "6",
+        "Aspect": "智力",
+        "Opinion": "6很笨",
+        "Sentiment": "negative",
+        "Rationale": "6愿意为吕子乔付账，3认为这是不明智的行为"
+    },
+    {
+        "sentence": "同样是女人做人的差距怎么那么大？",
+        "Holder": "7",
+        "Target": "3和6",
+        "Aspect": "做人差距",
+        "Opinion": "3和6做人差距大",
+        "Sentiment": "negative",
+        "Rationale": "看到3和6在处理账单问题上的不同态度"
+    },
+    {
+        "sentence": "我的钱包落在剧组了，要不你先拿去好了，还是我替他付女侠叫唐悠悠。",
+        "Holder": "6",
+        "Target": "钱包",
+        "Aspect": "钱包的位置",
+        "Opinion": "钱包丢失",
+        "Sentiment": "neutral",
+        "Rationale": "钱包丢失在剧组"
+    },
+    {
+        "sentence": "你对子乔还真是一往情深，当然他是我在这个城市里唯一的亲人了，我们感情一直挺好的，亲人子乔都变得成精了，罪过罪过。",
+        "Holder": "3",
+        "Target": "子乔",
+        "Aspect": "与子乔的感情",
+        "Opinion": "感情深厚",
+        "Sentiment": "positive",
+        "Rationale": "子乔是唯一的亲人且感情一直很好"
+    },
+    {
+        "sentence": "你为什么突然来找他？",
+        "Holder": "4",
+        "Target": "6来找子乔的原因",
+        "Aspect": "来找子乔的动机",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "不清楚6突然来找子乔的原因"
+    },
+    {
+        "sentence": "我姐姐说如果遇到困难就来找他，还把他地址给我了，",
+        "Holder": "6",
+        "Target": "来找子乔的原因",
+        "Aspect": "来找子乔的动机",
+        "Opinion": "姐姐的建议",
+        "Sentiment": "neutral",
+        "Rationale": "姐姐建议遇到困难找子乔"
+    },
+    {
+        "sentence": "你姐姐认识他，当然辣手摧了姐妹花，吕子乔，你简直该天打五雷轰。",
+        "Holder": "3",
+        "Target": "子乔",
+        "Aspect": "子乔的行为",
+        "Opinion": "批评子乔",
+        "Sentiment": "negative",
+        "Rationale": "认为子乔对姐妹花不好"
+    },
+    {
+        "sentence": "对了，我想问一下你这个是cosplay。",
+        "Holder": "4",
+        "Target": "3的装扮",
+        "Aspect": "装扮的性质",
+        "Opinion": "询问是否为cosplay",
+        "Sentiment": "neutral",
+        "Rationale": "好奇对方的装扮是否为cosplay"
+    },
+    {
+        "sentence": "其实我是一个演员，你不会演的就是貂蝉再爱我一次事情，是这样的。",
+        "Holder": "3",
+        "Target": "自己的身份",
+        "Aspect": "职业身份",
+        "Opinion": "自己是演员",
+        "Sentiment": "neutral",
+        "Rationale": "需要解释自己的身份和所扮演的角色"
+    },
+    {
+        "sentence": "你又想怎样？",
+        "Holder": "9",
+        "Target": "6的想法",
+        "Aspect": "想法的意图",
+        "Opinion": "质疑对方的意图",
+        "Sentiment": "negative",
+        "Rationale": "对对方频繁提出想法感到不耐烦"
+    },
+    {
+        "sentence": "我有一个想法，我们可以给男主角安排一次前世的邂逅，就是在三国时代，大强是在路上遇到了一个长得非常像他恋人的人",
+        "Holder": "6",
+        "Target": "剧情安排",
+        "Aspect": "剧情创意",
+        "Opinion": "提出前世邂逅的剧情",
+        "Sentiment": "positive",
+        "Rationale": "对剧情有新的创意和想法"
+    },
+    {
+        "sentence": "你这套衣服是服装组偷的，",
+        "Holder": "9",
+        "Target": "3的衣服",
+        "Aspect": "衣服的来源",
+        "Opinion": "怀疑衣服是偷来的",
+        "Sentiment": "negative",
+        "Rationale": "怀疑对方的衣服来源不正当"
+    },
+    {
+        "sentence": "你接下来打算怎么办？要不我们送你回家，",
+        "Holder": "3",
+        "Target": "6的住宿问题",
+        "Aspect": "后续安排",
+        "Opinion": "建议送回家",
+        "Sentiment": "neutral",
+        "Rationale": "关心6的住宿问题"
+    },
+    {
+        "sentence": "我本来以为可以进组就把租的房子退掉了，可是没有想到要是能找到子乔的话，我倒是可以到他那里借住一下，要是找不到，找不到就先找个酒店，",
+        "Holder": "6",
+        "Target": "自己的住宿问题",
+        "Aspect": "住宿安排",
+        "Opinion": "希望借住或住酒店",
+        "Sentiment": "ambiguous",
+        "Rationale": "原本计划进组后退房，但现在情况有变"
+    },
+    {
+        "sentence": "可是你没有手机没有钱包，只有一门火箭筒怎么住酒店？",
+        "Holder": "4",
+        "Target": "6的住宿条件",
+        "Aspect": "现实困难",
+        "Opinion": "质疑住酒店的可行性",
+        "Sentiment": "negative",
+        "Rationale": "6没有手机和钱包，只有火箭筒"
+    },
+    {
+        "sentence": "走进酒店报警，然后他就可以住拘留所了，",
+        "Holder": "3",
+        "Target": "6的住宿问题",
+        "Aspect": "解决方案",
+        "Opinion": "建议报警",
+        "Sentiment": "negative",
+        "Rationale": "6的情况特殊"
+    },
+    {
+        "sentence": "算了，你今天真是住我们的，明天我们帮你找他，",
+        "Holder": "4",
+        "Target": "6的住宿问题",
+        "Aspect": "最终决定",
+        "Opinion": "同意暂住",
+        "Sentiment": "positive",
+        "Rationale": "考虑到6的困境"
+    },
+    {
+        "sentence": "真的吗？太好了，要不你先拿去给你",
+        "Holder": "6",
+        "Target": "对方的提议",
+        "Aspect": "提议的接受",
+        "Opinion": "愿意接受",
+        "Sentiment": "positive",
+        "Rationale": "对方提出了一个让自己感到高兴的提议"
+    },
+    {
+        "sentence": "不用了，这边",
+        "Holder": "4",
+        "Target": "6的提议",
+        "Aspect": "提议的拒绝",
+        "Opinion": "不需要",
+        "Sentiment": "neutral",
+        "Rationale": "自己这边不需要或者已经有安排"
+    }
+]

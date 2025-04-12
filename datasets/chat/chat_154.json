@@ -1,0 +1,389 @@
+[
+    {
+        "sentence": "曼婷，我觉得在家里边男主外，女主内，咱俩是不是说好了？",
+        "Holder": "1",
+        "Target": "家庭分工",
+        "Aspect": "分工的合理性",
+        "Opinion": "男主外女主内",
+        "Sentiment": "neutral",
+        "Rationale": "1在陈述之前达成的共识"
+    },
+    {
+        "sentence": "那为什么你就不能多理解我一点呢？",
+        "Holder": "1",
+        "Target": "2的理解",
+        "Aspect": "理解的程度",
+        "Opinion": "希望更多理解",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2没有足够理解自己"
+    },
+    {
+        "sentence": "我怎么不理解你了？我很配合你了呀。",
+        "Holder": "2",
+        "Target": "自己的理解",
+        "Aspect": "配合的程度",
+        "Opinion": "已经足够理解",
+        "Sentiment": "negative",
+        "Rationale": "2觉得自己已经尽力配合，却被误解"
+    },
+    {
+        "sentence": "你配合我什么了？",
+        "Holder": "1",
+        "Target": "2的配合",
+        "Aspect": "配合的具体表现",
+        "Opinion": "质疑配合程度",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的配合不够"
+    },
+    {
+        "sentence": "你气什么呀？今天也没怎么迟到，不就十分钟吗？我看人家也没怎么着。",
+        "Holder": "2",
+        "Target": "1的生气",
+        "Aspect": "迟到的时间",
+        "Opinion": "迟到时间不长",
+        "Sentiment": "neutral",
+        "Rationale": "认为迟到时间不长且别人也没有在意"
+    },
+    {
+        "sentence": "能不照了吗？出门的时候不就照，回来还照，你照什么？",
+        "Holder": "1",
+        "Target": "2的照镜子行为",
+        "Aspect": "照镜子的频率",
+        "Opinion": "频繁照镜子不合理",
+        "Sentiment": "negative",
+        "Rationale": "觉得2频繁照镜子浪费时间"
+    },
+    {
+        "sentence": "我出门照化妆不是为了给你撑面子吗？我好看一点。",
+        "Holder": "2",
+        "Target": "自己照镜子",
+        "Aspect": "照镜子的目的",
+        "Opinion": "为了给1撑面子",
+        "Sentiment": "positive",
+        "Rationale": "觉得自己照镜子是为了让1有面子"
+    },
+    {
+        "sentence": "那你觉得我今天有面子了吗？你觉得我今天有面子了吗？",
+        "Holder": "1",
+        "Target": "2的照镜子行为",
+        "Aspect": "照镜子的效果",
+        "Opinion": "没有带来面子",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的照镜子行为并没有让自己有面子"
+    },
+    {
+        "sentence": "顾曼婷，你以为我是谁呀？啊？你觉得我有资格迟到吗？",
+        "Holder": "1",
+        "Target": "2的观点",
+        "Aspect": "迟到的合理性",
+        "Opinion": "没有资格迟到",
+        "Sentiment": "negative",
+        "Rationale": "觉得2认为迟到没关系是对自己的不尊重"
+    },
+    {
+        "sentence": "哎，你别生气。",
+        "Holder": "2",
+        "Target": "1的情绪",
+        "Aspect": "情绪控制",
+        "Opinion": "希望1不生气",
+        "Sentiment": "neutral",
+        "Rationale": "2希望缓和气氛"
+    },
+    {
+        "sentence": "不是我生气。",
+        "Holder": "1",
+        "Target": "自己的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "否认生气",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己并没有生气"
+    },
+    {
+        "sentence": "我知道错了。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为正确性",
+        "Opinion": "承认错误",
+        "Sentiment": "negative",
+        "Rationale": "2意识到自己的行为有误"
+    },
+    {
+        "sentence": "顾曼婷！",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "称呼",
+        "Opinion": "强调对方",
+        "Sentiment": "ambiguous",
+        "Rationale": "1直接称呼2的名字，可能是为了引起注意或表达不满"
+    },
+    {
+        "sentence": "不会有下次了。",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "行为改进",
+        "Opinion": "承诺改正",
+        "Sentiment": "positive",
+        "Rationale": "2承诺不再犯同样的错误"
+    },
+    {
+        "sentence": "下次？你刚刚说下次是吗？你认为我还有下次机会吗？",
+        "Holder": "1",
+        "Target": "下次机会",
+        "Aspect": "机会的存在",
+        "Opinion": "怀疑是否有下次机会",
+        "Sentiment": "doubt",
+        "Rationale": "对未来的机会感到不确定"
+    },
+    {
+        "sentence": "你听见今天我一进门的时候，杜总跟我说什么了吧？你看见他那副嘴脸了吧？",
+        "Holder": "1",
+        "Target": "杜总的态度",
+        "Aspect": "杜总的行为和表情",
+        "Opinion": "不满杜总的态度",
+        "Sentiment": "negative",
+        "Rationale": "杜总的态度和行为让自己感到不快"
+    },
+    {
+        "sentence": "我为什么每天陪他们吃饭，陪他们玩，陪他们喝酒？我还得陪他们笑！",
+        "Holder": "1",
+        "Target": "陪客户的行为",
+        "Aspect": "陪客户的必要性",
+        "Opinion": "陪客户是无奈之举",
+        "Sentiment": "negative",
+        "Rationale": "陪客户的行为让自己感到疲惫和无奈"
+    },
+    {
+        "sentence": "为什么？就因为我想多签几个单子，我想多赚点钱，换个更大的房子，让你过更好的生活！",
+        "Holder": "1",
+        "Target": "自己的努力",
+        "Aspect": "努力的目的",
+        "Opinion": "为了家庭更好的生活",
+        "Sentiment": "positive",
+        "Rationale": "自己的努力是为了家庭更好的生活"
+    },
+    {
+        "sentence": "老公我挺知足的，我觉得我们现在过日子过得特别的好。",
+        "Holder": "2",
+        "Target": "当前生活",
+        "Aspect": "生活的满意度",
+        "Opinion": "对当前生活感到满意",
+        "Sentiment": "positive",
+        "Rationale": "对当前的生活状态感到满足"
+    },
+    {
+        "sentence": "我不满足。",
+        "Holder": "1",
+        "Target": "自身现状",
+        "Aspect": "满足感",
+        "Opinion": "不满足",
+        "Sentiment": "negative",
+        "Rationale": "对自己当前的生活或状态感到不满意"
+    },
+    {
+        "sentence": "你看看他们，他们都是过的什么样的日子？",
+        "Holder": "1",
+        "Target": "他人生活",
+        "Aspect": "生活质量",
+        "Opinion": "他人生活更好",
+        "Sentiment": "negative",
+        "Rationale": "看到他人生活比自己好"
+    },
+    {
+        "sentence": "我不行吗？我可以呀。",
+        "Holder": "1",
+        "Target": "自身能力",
+        "Aspect": "能力认可",
+        "Opinion": "认为自己可以",
+        "Sentiment": "positive",
+        "Rationale": "对自己有能力达到某种水平有信心"
+    },
+    {
+        "sentence": "我不要，我现在觉得挺好的，你对我真的很好啦。",
+        "Holder": "2",
+        "Target": "1的关心",
+        "Aspect": "关心程度",
+        "Opinion": "感到满意",
+        "Sentiment": "positive",
+        "Rationale": "感受到1的关心和照顾"
+    },
+    {
+        "sentence": "你说我对你好是吧？",
+        "Holder": "1",
+        "Target": "自身行为",
+        "Aspect": "对2的好",
+        "Opinion": "确认对2的好",
+        "Sentiment": "neutral",
+        "Rationale": "想确认2对自己行为的评价"
+    },
+    {
+        "sentence": "36岁重新出发，你要出发去哪儿啊？这书里写的都什么乱七八糟的。",
+        "Holder": "1",
+        "Target": "书的内容",
+        "Aspect": "内容的合理性",
+        "Opinion": "内容混乱",
+        "Sentiment": "negative",
+        "Rationale": "书里的内容让他觉得没有条理和逻辑"
+    },
+    {
+        "sentence": "曼婷，日子是过给自己看的，你总看她干什么，她应该向你学习。",
+        "Holder": "1",
+        "Target": "曼婷的行为",
+        "Aspect": "关注他人的合理性",
+        "Opinion": "不应过度关注他人",
+        "Sentiment": "neutral",
+        "Rationale": "认为曼婷应该更关注自己的生活而不是别人"
+    },
+    {
+        "sentence": "一女的40多岁了，不结婚不生孩子，她有什么可骄傲的，还出书？",
+        "Holder": "1",
+        "Target": "女性的生活选择",
+        "Aspect": "结婚生子的价值",
+        "Opinion": "不认同其骄傲的理由",
+        "Sentiment": "negative",
+        "Rationale": "不认同女性不结婚不生孩子的生活方式"
+    },
+    {
+        "sentence": "徐浩，你别拿生孩子的事情说我。",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "言论的针对性",
+        "Opinion": "反对被提及生孩子",
+        "Sentiment": "negative",
+        "Rationale": "觉得1的言论触及了她的敏感话题"
+    },
+    {
+        "sentence": "好，我们不说孩子，好，没问题。",
+        "Holder": "1",
+        "Target": "2的抗议",
+        "Aspect": "话题的回避",
+        "Opinion": "同意回避话题",
+        "Sentiment": "neutral",
+        "Rationale": "想避免进一步的争执"
+    },
+    {
+        "sentence": "马术、咖啡培训、红酒培训、高尔夫，我给你报了这么多班，你一个都不去，为什么？",
+        "Holder": "1",
+        "Target": "2的学习态度",
+        "Aspect": "参加培训班的积极性",
+        "Opinion": "不去培训班",
+        "Sentiment": "negative",
+        "Rationale": "2没有参加任何一个培训班"
+    },
+    {
+        "sentence": "不感兴趣啊。",
+        "Holder": "2",
+        "Target": "培训班",
+        "Aspect": "兴趣",
+        "Opinion": "不感兴趣",
+        "Sentiment": "neutral",
+        "Rationale": "2对那些培训班确实没有兴趣"
+    },
+    {
+        "sentence": "那你对什么感兴趣？",
+        "Holder": "1",
+        "Target": "2的兴趣",
+        "Aspect": "兴趣点",
+        "Opinion": "询问兴趣",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道2的兴趣所在"
+    },
+    {
+        "sentence": "就在家呆着、躺着不求上进？",
+        "Holder": "1",
+        "Target": "2的生活方式",
+        "Aspect": "上进心",
+        "Opinion": "不求上进",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在家呆着、躺着是没有上进心的表现"
+    },
+    {
+        "sentence": "我怎么不求上进了？你认识我的时候，我就这样啊。你怎么现在嫌弃我了是吧？",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "对2的态度变化",
+        "Opinion": "被嫌弃",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1现在对自己的态度和以前不同，认为1嫌弃自己"
+    },
+    {
+        "sentence": "我没有嫌弃你。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "态度",
+        "Opinion": "没有嫌弃",
+        "Sentiment": "neutral",
+        "Rationale": "1在澄清自己的态度"
+    },
+    {
+        "sentence": "就是嫌我没事干是吧？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "对2的看法",
+        "Opinion": "认为1嫌弃自己",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的建议是对自己的嫌弃"
+    },
+    {
+        "sentence": "我只是希望你的生活能充实一点，去学学这些不好吗？",
+        "Holder": "1",
+        "Target": "2的生活",
+        "Aspect": "生活的充实度",
+        "Opinion": "希望生活充实",
+        "Sentiment": "positive",
+        "Rationale": "1希望2的生活能更好"
+    },
+    {
+        "sentence": "我就是不感兴趣！我都说了。",
+        "Holder": "2",
+        "Target": "1的建议",
+        "Aspect": "兴趣",
+        "Opinion": "不感兴趣",
+        "Sentiment": "negative",
+        "Rationale": "2对1的建议完全不感兴趣"
+    },
+    {
+        "sentence": "那你对什么感兴趣，你告诉我，我给你安排啊！",
+        "Holder": "1",
+        "Target": "2的兴趣",
+        "Aspect": "兴趣的了解",
+        "Opinion": "愿意了解并安排",
+        "Sentiment": "positive",
+        "Rationale": "1愿意帮助2找到感兴趣的事"
+    },
+    {
+        "sentence": "谁爱学谁学去！",
+        "Holder": "2",
+        "Target": "学习兴趣",
+        "Aspect": "个人意愿",
+        "Opinion": "拒绝学习",
+        "Sentiment": "negative",
+        "Rationale": "对提到的活动没有兴趣"
+    },
+    {
+        "sentence": "插花、瑜伽，什么，你告诉我，只要你说一个，我马上给你办好！",
+        "Holder": "1",
+        "Target": "2的兴趣",
+        "Aspect": "活动选择",
+        "Opinion": "愿意满足",
+        "Sentiment": "positive",
+        "Rationale": "希望满足2的兴趣"
+    },
+    {
+        "sentence": "都说了没兴趣，你怎么没完没了的呀？",
+        "Holder": "2",
+        "Target": "1的提议",
+        "Aspect": "提议的持续性",
+        "Opinion": "反感",
+        "Sentiment": "negative",
+        "Rationale": "1持续提议让2感到困扰"
+    },
+    {
+        "sentence": "你就对川白楼感兴趣，是吗？",
+        "Holder": "1",
+        "Target": "2的兴趣",
+        "Aspect": "特定地点",
+        "Opinion": "猜测",
+        "Sentiment": "neutral",
+        "Rationale": "想确认2的兴趣所在"
+    }
+]

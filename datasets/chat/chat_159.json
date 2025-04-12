@@ -1,0 +1,533 @@
+[
+    {
+        "sentence": "你有没有觉得行吗这个话很凶？",
+        "Holder": "1",
+        "Target": "行吗这句话",
+        "Aspect": "语气",
+        "Opinion": "很凶",
+        "Sentiment": "negative",
+        "Rationale": "觉得‘行吗’这句话的语气听起来很严厉"
+    },
+    {
+        "sentence": "能别翻旧账吗？",
+        "Holder": "2",
+        "Target": "翻旧账的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不应该翻旧账",
+        "Sentiment": "negative",
+        "Rationale": "觉得翻旧账会引发不愉快的回忆"
+    },
+    {
+        "sentence": "我就是觉得行吗这个话很凶。",
+        "Holder": "1",
+        "Target": "行吗这句话",
+        "Aspect": "语气",
+        "Opinion": "很凶",
+        "Sentiment": "negative",
+        "Rationale": "坚持认为‘行吗’这句话的语气很凶"
+    },
+    {
+        "sentence": "别翻旧账了行吗？",
+        "Holder": "2",
+        "Target": "翻旧账的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "不应该翻旧账",
+        "Sentiment": "negative",
+        "Rationale": "再次被要求不翻旧账"
+    },
+    {
+        "sentence": "服了这个话更凶。",
+        "Holder": "1",
+        "Target": "2的话",
+        "Aspect": "语气",
+        "Opinion": "凶",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的话语气凶"
+    },
+    {
+        "sentence": "谁以后在我面前翻旧账我就打死他。",
+        "Holder": "2",
+        "Target": "翻旧账的人",
+        "Aspect": "行为",
+        "Opinion": "强烈反对",
+        "Sentiment": "negative",
+        "Rationale": "极度反感翻旧账的行为"
+    },
+    {
+        "sentence": "我真的是服了。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "情绪表达",
+        "Opinion": "极度无奈",
+        "Sentiment": "negative",
+        "Rationale": "对当前情况感到极度无奈"
+    },
+    {
+        "sentence": "没有，我没有翻旧账。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "行为",
+        "Opinion": "否认翻旧账",
+        "Sentiment": "neutral",
+        "Rationale": "要澄清自己没有翻旧账"
+    },
+    {
+        "sentence": "那你在干嘛？",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "当前活动",
+        "Opinion": "询问",
+        "Sentiment": "neutral",
+        "Rationale": "2只是单纯地询问1在做什么"
+    },
+    {
+        "sentence": "我只是说行吗这两个字很凶。",
+        "Holder": "1",
+        "Target": "2的语气",
+        "Aspect": "语气的凶狠程度",
+        "Opinion": "认为很凶",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2说‘行吗’这两个字时语气很凶"
+    },
+    {
+        "sentence": "不觉得啊。",
+        "Holder": "2",
+        "Target": "1的评价",
+        "Aspect": "语气的凶狠程度",
+        "Opinion": "不认同",
+        "Sentiment": "neutral",
+        "Rationale": "2不认同1的评价"
+    },
+    {
+        "sentence": "你问别人呢？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "询问方式",
+        "Opinion": "质疑",
+        "Sentiment": "neutral",
+        "Rationale": "1在询问2为何不问别人，表现出一种中立的探究态度"
+    },
+    {
+        "sentence": "我去，太凶了。",
+        "Holder": "1",
+        "Target": "2的态度",
+        "Aspect": "语气",
+        "Opinion": "认为凶",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的语气很凶"
+    },
+    {
+        "sentence": "你等着。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "警告",
+        "Opinion": "威胁",
+        "Sentiment": "negative",
+        "Rationale": "2对1的质疑表示不满"
+    },
+    {
+        "sentence": "你是不是不开心了？",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "情绪状态",
+        "Opinion": "猜测不开心",
+        "Sentiment": "neutral",
+        "Rationale": "1观察到2的语气和行为，猜测2可能不开心"
+    },
+    {
+        "sentence": "你没觉得你当时那个态度还挺嚣张的？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的表现",
+        "Opinion": "嚣张",
+        "Sentiment": "negative",
+        "Rationale": "认为1当时的态度显得不尊重人"
+    },
+    {
+        "sentence": "啊？真的吗？我什么态度？",
+        "Holder": "1",
+        "Target": "自己的态度",
+        "Aspect": "态度的认知",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "对2的指责感到意外"
+    },
+    {
+        "sentence": "就是不屑。",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度的具体表现",
+        "Opinion": "不屑",
+        "Sentiment": "negative",
+        "Rationale": "认为1表现出不屑的态度"
+    },
+    {
+        "sentence": "就是想赶紧走。",
+        "Holder": "2",
+        "Target": "1的行为动机",
+        "Aspect": "行为的目的",
+        "Opinion": "急于离开",
+        "Sentiment": "negative",
+        "Rationale": "认为1急于离开显得不重视"
+    },
+    {
+        "sentence": "你不会生气了吧？还是别说话了。",
+        "Holder": "1",
+        "Target": "2的情绪",
+        "Aspect": "是否生气",
+        "Opinion": "担心2生气",
+        "Sentiment": "ambiguous",
+        "Rationale": "1不确定2是否生气"
+    },
+    {
+        "sentence": "没有，你非常沉默。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "沉默",
+        "Opinion": "1很沉默",
+        "Sentiment": "neutral",
+        "Rationale": "2在描述1的行为"
+    },
+    {
+        "sentence": "你能不能改改你这个行吗的口头禅？",
+        "Holder": "1",
+        "Target": "2的口头禅",
+        "Aspect": "口头禅的使用",
+        "Opinion": "希望2改掉口头禅",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的口头禅不合适"
+    },
+    {
+        "sentence": "这是你自己单方面的觉得我语气，就是这俩字你就不喜欢是吧？",
+        "Holder": "2",
+        "Target": "1的看法",
+        "Aspect": "对语气的看法",
+        "Opinion": "认为1的看法主观",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的看法是单方面的"
+    },
+    {
+        "sentence": "也不是。",
+        "Holder": "1",
+        "Target": "2的疑问",
+        "Aspect": "回答的明确性",
+        "Opinion": "否定",
+        "Sentiment": "neutral",
+        "Rationale": "1在否定2的疑问，但没有进一步解释"
+    },
+    {
+        "sentence": "那为什么？",
+        "Holder": "2",
+        "Target": "1的回答",
+        "Aspect": "原因的探究",
+        "Opinion": "疑问",
+        "Sentiment": "neutral",
+        "Rationale": "2对1的回答感到不解"
+    },
+    {
+        "sentence": "我是觉得很有意思。",
+        "Holder": "1",
+        "Target": "自己的感受",
+        "Aspect": "兴趣程度",
+        "Opinion": "觉得有意思",
+        "Sentiment": "positive",
+        "Rationale": "1对某事感到有兴趣"
+    },
+    {
+        "sentence": "就是我的态度很冷漠？",
+        "Holder": "2",
+        "Target": "自己的态度",
+        "Aspect": "态度的表现",
+        "Opinion": "怀疑自己冷漠",
+        "Sentiment": "doubt",
+        "Rationale": "2不确定自己的态度是否冷漠"
+    },
+    {
+        "sentence": "是什么？",
+        "Holder": "2",
+        "Target": "1的言论",
+        "Aspect": "内容理解",
+        "Opinion": "不清楚",
+        "Sentiment": "neutral",
+        "Rationale": "2没有听清楚1的言论"
+    },
+    {
+        "sentence": "我说我是觉得就是这个口头禅很有意思。",
+        "Holder": "1",
+        "Target": "口头禅",
+        "Aspect": "有趣性",
+        "Opinion": "有意思",
+        "Sentiment": "positive",
+        "Rationale": "1觉得这个口头禅能让人感觉高人一等"
+    },
+    {
+        "sentence": "对，就是很会找很会让自己处于一个高人一等的感觉。以后我就要跟你学习。以后我就会这样喊，快点行吗。",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "高人一等的感觉",
+        "Opinion": "值得学习",
+        "Sentiment": "positive",
+        "Rationale": "1认为2的口头禅能让自己显得高人一等"
+    },
+    {
+        "sentence": "我当时因为在生气！",
+        "Holder": "2",
+        "Target": "自己的行为",
+        "Aspect": "情绪状态",
+        "Opinion": "生气",
+        "Sentiment": "negative",
+        "Rationale": "2当时在生气"
+    },
+    {
+        "sentence": "那你应该跟你妈妈这样说，不去行吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "与妈妈的沟通方式",
+        "Opinion": "建议改变沟通方式",
+        "Sentiment": "neutral",
+        "Rationale": "1在提供建议"
+    },
+    {
+        "sentence": "哎，你真的，你烦不烦你？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "觉得1很烦",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的建议让他感到厌烦"
+    },
+    {
+        "sentence": "我看我能忍你到什么时候。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "忍耐力",
+        "Opinion": "忍耐有限",
+        "Sentiment": "negative",
+        "Rationale": "因为2觉得1的建议让他感到厌烦，所以表现出忍耐即将达到极限的情绪。"
+    },
+    {
+        "sentence": "我忍不住了，下一秒就是追杀你！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "情绪爆发",
+        "Opinion": "极度不耐烦",
+        "Sentiment": "negative",
+        "Rationale": "因为2觉得1的建议让他非常烦躁，所以情绪失控，说出威胁的话。"
+    },
+    {
+        "sentence": "我比较能忍，我吃苦耐劳，就是忍者神龟。",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "性格特点",
+        "Opinion": "能忍、吃苦耐劳",
+        "Sentiment": "positive",
+        "Rationale": "2在自我评价中强调了能忍和吃苦耐劳的优点"
+    },
+    {
+        "sentence": "你是忍者神猪。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "性格特点",
+        "Opinion": "调侃",
+        "Sentiment": "positive",
+        "Rationale": "1用幽默的方式调侃2"
+    },
+    {
+        "sentence": "你确定吗？我再给你一次机会！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "话语的准确性",
+        "Opinion": "要求确认",
+        "Sentiment": "ambiguous",
+        "Rationale": "2在询问1是否确定的同时带有一定的威胁语气"
+    },
+    {
+        "sentence": "不是不是不是。",
+        "Holder": "1",
+        "Target": "之前的话语",
+        "Aspect": "话语的准确性",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "1在否认之前的话语，没有表现出明显的情感波动"
+    },
+    {
+        "sentence": "我真的是，你别气死我！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的影响",
+        "Opinion": "感到被气",
+        "Sentiment": "negative",
+        "Rationale": "1的行为让2感到非常生气"
+    },
+    {
+        "sentence": "真的是！再给你最后一次机会。",
+        "Holder": "2",
+        "Target": "1的机会",
+        "Aspect": "机会的给予",
+        "Opinion": "给予最后一次机会",
+        "Sentiment": "negative",
+        "Rationale": "对1的行为已经非常不满"
+    },
+    {
+        "sentence": "别睡行吗？",
+        "Holder": "2",
+        "Target": "1的睡眠",
+        "Aspect": "是否应该睡觉",
+        "Opinion": "反对睡觉",
+        "Sentiment": "negative",
+        "Rationale": "1想要睡觉而2认为现在不应该睡"
+    },
+    {
+        "sentence": "行，你说的都行。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "要求的接受",
+        "Opinion": "完全接受",
+        "Sentiment": "neutral",
+        "Rationale": "1选择顺从2的要求"
+    },
+    {
+        "sentence": "行行行。",
+        "Holder": "2",
+        "Target": "1的回应",
+        "Aspect": "回应的接受",
+        "Opinion": "接受回应",
+        "Sentiment": "neutral",
+        "Rationale": "1答应了2的要求"
+    },
+    {
+        "sentence": "别发神经行吗？",
+        "Holder": "1",
+        "Target": "2的行为",
+        "Aspect": "行为合理性",
+        "Opinion": "认为2行为不正常",
+        "Sentiment": "negative",
+        "Rationale": "1觉得2的行为不正常，像是在发神经"
+    },
+    {
+        "sentence": "我没跟你说话，我在跟你学习。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为目的",
+        "Opinion": "在学习而非对话",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己的行为目的"
+    },
+    {
+        "sentence": "你怎么又凶又嚣张的啊？",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度表现",
+        "Opinion": "认为1凶且嚣张",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的态度很凶且嚣张"
+    },
+    {
+        "sentence": "我在跟别人讲话！",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "行为对象",
+        "Opinion": "在跟别人讲话",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释自己正在跟别人讲话"
+    },
+    {
+        "sentence": "哦，对，那就是又怂，又嚣张，然后嚣张的时候又凶巴巴的。",
+        "Holder": "2",
+        "Target": "1的态度",
+        "Aspect": "态度表现",
+        "Opinion": "认为1又怂又嚣张且凶巴巴",
+        "Sentiment": "negative",
+        "Rationale": "2觉得1的态度多变且负面"
+    },
+    {
+        "sentence": "知道了知道了。",
+        "Holder": "1",
+        "Target": "无",
+        "Aspect": "无",
+        "Opinion": "无",
+        "Sentiment": "neutral",
+        "Rationale": "只是简单地表示理解"
+    },
+    {
+        "sentence": "你那个火腿真的好吃吗？",
+        "Holder": "1",
+        "Target": "2的火腿",
+        "Aspect": "味道",
+        "Opinion": "好奇",
+        "Sentiment": "neutral",
+        "Rationale": "对2的火腿味道感到好奇"
+    },
+    {
+        "sentence": "你说这怎么回呢？",
+        "Holder": "2",
+        "Target": "1的问题",
+        "Aspect": "回答的难度",
+        "Opinion": "难以回答",
+        "Sentiment": "ambiguous",
+        "Rationale": "不知道如何回答1的问题"
+    },
+    {
+        "sentence": "你真是那个！",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "行为",
+        "Opinion": "无奈",
+        "Sentiment": "negative",
+        "Rationale": "1的问题让2感到无奈"
+    },
+    {
+        "sentence": "我也好奇，应该差不多吧，全世界的火腿应该都是一个味道。",
+        "Holder": "1",
+        "Target": "火腿的味道",
+        "Aspect": "普遍性",
+        "Opinion": "认为都差不多",
+        "Sentiment": "neutral",
+        "Rationale": "认为全世界的火腿味道都差不多"
+    },
+    {
+        "sentence": "真是无语，搞笑。",
+        "Holder": "2",
+        "Target": "当前情况",
+        "Aspect": "情况的可笑性",
+        "Opinion": "觉得无语且搞笑",
+        "Sentiment": "ambiguous",
+        "Rationale": "对当前情况感到既无语又觉得好笑"
+    },
+    {
+        "sentence": "笑死你得了。",
+        "Holder": "1",
+        "Target": "2的反应",
+        "Aspect": "反应的夸张性",
+        "Opinion": "认为2的反应过于夸张",
+        "Sentiment": "negative",
+        "Rationale": "觉得2的反应过于夸张"
+    },
+    {
+        "sentence": "我说别人。",
+        "Holder": "1",
+        "Target": "说话对象",
+        "Aspect": "对象的指向",
+        "Opinion": "指向别人",
+        "Sentiment": "neutral",
+        "Rationale": "只是澄清说话对象"
+    },
+    {
+        "sentence": "你滑跪太快了，我都没来得及反应。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "行为的速度",
+        "Opinion": "认为1的行为太快",
+        "Sentiment": "neutral",
+        "Rationale": "觉得1的行为太快导致自己没反应过来"
+    },
+    {
+        "sentence": "哎，见识到了。",
+        "Holder": "2",
+        "Target": "某事件或现象",
+        "Aspect": "了解或体验",
+        "Opinion": "有所了解",
+        "Sentiment": "neutral",
+        "Rationale": "说话人2表示对某事件或现象有了新的了解"
+    }
+]

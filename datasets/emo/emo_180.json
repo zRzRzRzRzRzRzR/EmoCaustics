@@ -1,0 +1,136 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "DV拍摄计划的误解与澄清",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "对父亲穿着产生好奇",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "发现拍摄内容是纪录片",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "享受美食带来的幸福感",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑角色投入能力",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "创意过剩与经验自信",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "无奈于衣物限制",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "自我肯定创作能力",
+            "source_id": "self"
+          },
+          {
+            "state": "positive",
+            "reason": "支持自然拍摄方式",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家庭表演式拍摄的冲突",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "自豪家庭艺术氛围",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "发现表演不自然",
+            "source_id": "4"
+          },
+          {
+            "state": "negative",
+            "reason": "要求重拍尴尬片段",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "纪录片拍摄目的的坚持",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "家人过度表演偏离需求",
+            "source_id": "3,6"
+          },
+          {
+            "state": "neutral",
+            "reason": "调整拍摄方案妥协",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "被动参与家庭表演",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "配合拍摄要求",
+            "source_id": "6"
+          },
+          {
+            "state": "positive",
+            "reason": "享受真实家庭氛围",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "拍摄协调与压力传导",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "强制要求家人配合",
+            "source_id": "1,5"
+          },
+          {
+            "state": "neutral",
+            "reason": "修正拍摄方案",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

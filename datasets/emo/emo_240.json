@@ -1,0 +1,164 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "作者对故事结局的责任论证",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调结局决定作品完整性和读者感受",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "遭遇对手对结局定义的质疑",
+            "source_id": "5,8"
+          },
+          {
+            "state": "positive",
+            "reason": "用学弟案例强化结局对个人成长的意义",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "结局相对价值辩论",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑结局对经典作品的影响力",
+            "source_id": "1,3"
+          },
+          {
+            "state": "neutral",
+            "reason": "用福尔摩斯案例说明过程记忆",
+            "source_id": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "读者视角的结局重要性论证",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "强调未获结局的痛苦经历",
+            "source_id": "2"
+          },
+          {
+            "state": "positive",
+            "reason": "主张开放式结局的合理性",
+            "source_id": "5,8"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "结局完整性辩论",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "用《活着》论证角色对结局的期待",
+            "source_id": "8"
+          },
+          {
+            "state": "neutral",
+            "reason": "回应考试复习的类比质疑",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "过程陪伴价值主张",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "强调故事连续性带来的陪伴感",
+            "source_id": "6"
+          },
+          {
+            "state": "negative",
+            "reason": "质疑回忆终点与结局的关联",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "开放式结局理论阐释",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "定义开放式结局为新型叙事手法",
+            "source_id": "8"
+          },
+          {
+            "state": "positive",
+            "reason": "强调当下作为结局素材的重要性",
+            "source_id": "8"
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "过程核心价值论证",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "提出过程分类理论框架",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "反驳结局决定论时情绪波动",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "用福尔摩斯案例强化陪伴价值",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "结局定义扩展辩论",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "用泰坦尼克号论证倒叙结构",
+            "source_id": "4"
+          },
+          {
+            "state": "positive",
+            "reason": "以盗梦空间说明开放结局魅力",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

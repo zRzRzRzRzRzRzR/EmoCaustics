@@ -1,0 +1,155 @@
+[
+    {
+        "sentence": "我现在是一商人，在商言商，",
+        "Holder": "1",
+        "Target": "自身身份",
+        "Aspect": "职业定位",
+        "Opinion": "强调商人身份",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1在陈述自己的职业身份"
+    },
+    {
+        "sentence": "你找错人了，咱们两个是无商可言，",
+        "Holder": "2",
+        "Target": "与1的关系",
+        "Aspect": "商业合作可能性",
+        "Opinion": "无商业合作可能",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为与1没有商业合作的可能"
+    },
+    {
+        "sentence": "咱们俩无商可言，我跟开发区易学习可有的商量，你知道吗？美食城他非要给我拆了，而且一个电话直接打到我们家老爷子那儿去了，给我们老爷子气得直接住院了，",
+        "Holder": "1",
+        "Target": "易学习",
+        "Aspect": "商业冲突",
+        "Opinion": "对易学习的行为不满",
+        "Sentiment": "negative",
+        "Rationale": "易学习要拆美食城并直接联系老爷子导致其住院"
+    },
+    {
+        "sentence": "那是被你气的。",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "导致老爷子住院的原因",
+        "Opinion": "认为是1的责任",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为老爷子住院是1的行为导致的"
+    },
+    {
+        "sentence": "怎么是我气的是易学习气的，这么多年了一直没提上去，心里有怨气，借这事做文章，所以老爷子希望你能劝劝易学习",
+        "Holder": "1",
+        "Target": "易学习",
+        "Aspect": "职位晋升",
+        "Opinion": "有怨气",
+        "Sentiment": "negative",
+        "Rationale": "易学习多年未获晋升，心里积累怨气"
+    },
+    {
+        "sentence": "我也应该劝劝你，不要拿老书记的旗号做文章，美食城不该拆，美食城还想污染月牙湖，我跟你说句真心话，要是我美食城早就拆了，老书记肯定支持我。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "利用老书记旗号",
+        "Opinion": "反对利用旗号",
+        "Sentiment": "negative",
+        "Rationale": "认为美食城不该拆且会污染环境，且反对利用老书记旗号"
+    },
+    {
+        "sentence": "哥哥我也不跟你吵了，拆行拆就拆，补偿的事，咱们得谈谈我那四五个亿的固定资产，你总得给我个说法",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "补偿问题",
+        "Opinion": "要求补偿",
+        "Sentiment": "neutral",
+        "Rationale": "愿意接受拆除但关心补偿问题"
+    },
+    {
+        "sentence": "我是荆州市委书记，不是吕州州市委书记，你的问题应该到吕州找相关的部门去解决，但是我要提醒你一句，千万不要狮子大开口，你要想一想金山县那些吃盐都要借的，老百姓再看看你现在手上握的那些财富，你真能睡得着觉",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "问题解决途径",
+        "Opinion": "应找相关部门",
+        "Sentiment": "negative",
+        "Rationale": "认为1的问题应找相关部门解决，且提醒1不要过分要求补偿"
+    },
+    {
+        "sentence": "我不偷不抢我正大光明的，我怎么就睡不着觉了",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "自身行为的正当性",
+        "Opinion": "行为正当",
+        "Sentiment": "negative",
+        "Rationale": "被质疑财富来源和道德"
+    },
+    {
+        "sentence": "真的正大光明。",
+        "Holder": "2",
+        "Target": "某事",
+        "Aspect": "公正性",
+        "Opinion": "正大光明",
+        "Sentiment": "positive",
+        "Rationale": "认为某事处理得公正透明"
+    },
+    {
+        "sentence": "大哥我最后再说一句，能不能帮我个小忙。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "请求帮忙",
+        "Opinion": "请求帮助",
+        "Sentiment": "neutral",
+        "Rationale": "需要2的帮助"
+    },
+    {
+        "sentence": "陈清泉放了别再追究了，",
+        "Holder": "1",
+        "Target": "陈清泉",
+        "Aspect": "处理方式",
+        "Opinion": "不再追究",
+        "Sentiment": "neutral",
+        "Rationale": "希望陈清泉的事情不再被追究"
+    },
+    {
+        "sentence": "陈清泉跟你有商务往来，",
+        "Holder": "2",
+        "Target": "陈清泉",
+        "Aspect": "关系",
+        "Opinion": "有商务往来",
+        "Sentiment": "neutral",
+        "Rationale": "提到陈清泉与1有商务往来"
+    },
+    {
+        "sentence": "我不认识这人，是高小琴的人，",
+        "Holder": "1",
+        "Target": "高小琴的人",
+        "Aspect": "是否认识",
+        "Opinion": "不认识",
+        "Sentiment": "neutral",
+        "Rationale": "说话人1确实不认识这个人"
+    },
+    {
+        "sentence": "你管这么宽干嘛？真以天下为己任，",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "管的范围",
+        "Opinion": "管得太宽",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为说话人1管得太多，超出了应有的范围"
+    },
+    {
+        "sentence": "以天下为己任，那是你们的事儿，我就是一商人，在商言商，你们在山水庄园抓走人了，我赵某人很没面子，所以我求求你能不能把人放了。",
+        "Holder": "1",
+        "Target": "自己的身份和行为",
+        "Aspect": "身份和面子",
+        "Opinion": "商人身份，面子受损",
+        "Sentiment": "negative",
+        "Rationale": "说话人1认为自己是商人，面子很重要，而抓走人让他很没面子"
+    },
+    {
+        "sentence": "这事你还真说晚了，是常委已经开过会了，决定双开，",
+        "Holder": "2",
+        "Target": "1的请求",
+        "Aspect": "请求的时机",
+        "Opinion": "说晚了",
+        "Sentiment": "negative",
+        "Rationale": "说话人2认为说话人1的请求来得太晚，已经无法改变决定"
+    }
+]

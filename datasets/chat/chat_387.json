@@ -1,0 +1,245 @@
+[
+    {
+        "sentence": "我下班这么晚，为啥不开车去接我，你是不是不爱我，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "接下班的行为",
+        "Opinion": "应该接下班",
+        "Sentiment": "negative",
+        "Rationale": "下班晚没有被接"
+    },
+    {
+        "sentence": "我没法接你，你忘了家法第一条，晚上9点以后不能出门，咋接你给我叫个车。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "接下班的原因",
+        "Opinion": "无法接下班",
+        "Sentiment": "neutral",
+        "Rationale": "有家法规定不能出门"
+    },
+    {
+        "sentence": "又忘了家法，第六条，我兜里的存款不能超过10块钱，不够，怎么叫车你给我滚，收到。",
+        "Holder": "1",
+        "Target": "家法",
+        "Aspect": "存款限制",
+        "Opinion": "必须遵守",
+        "Sentiment": "negative",
+        "Rationale": "对方忘记了家法中关于存款的限制，导致无法叫车"
+    },
+    {
+        "sentence": "你是真听话，",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "听话程度",
+        "Opinion": "非常听话",
+        "Sentiment": "positive",
+        "Rationale": "对方严格遵守了家法的规定"
+    },
+    {
+        "sentence": "我姐我不让你去车站接我姐去吗？",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "接人任务",
+        "Opinion": "应该去接",
+        "Sentiment": "negative",
+        "Rationale": "对方没有按照要求去接姐姐"
+    },
+    {
+        "sentence": "我见到你姐了，我把这行李都拿回来了。",
+        "Holder": "2",
+        "Target": "1的姐姐",
+        "Aspect": "行李处理",
+        "Opinion": "已经处理",
+        "Sentiment": "neutral",
+        "Rationale": "已经见到了姐姐并处理了行李"
+    },
+    {
+        "sentence": "不是你把我姐拿回来，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "接人任务",
+        "Opinion": "误解任务",
+        "Sentiment": "negative",
+        "Rationale": "对方误解了接人的任务，只拿了行李而没有接人"
+    },
+    {
+        "sentence": "你看看你姐的行李后座后备箱这都放满了，你姐坐不下了，就剩个副驾可以坐了。",
+        "Holder": "2",
+        "Target": "1的姐姐",
+        "Aspect": "座位安排",
+        "Opinion": "没有座位",
+        "Sentiment": "neutral",
+        "Rationale": "行李占据了所有座位，只剩下副驾可以坐"
+    },
+    {
+        "sentence": "宝贝专用副驾只能你来坐，你姐怎么坐？没法坐，",
+        "Holder": "1",
+        "Target": "副驾座位",
+        "Aspect": "座位分配",
+        "Opinion": "专用座位",
+        "Sentiment": "negative",
+        "Rationale": "副驾是专用的，不能让姐姐坐"
+    },
+    {
+        "sentence": "我跟你搞对象我真脑子有病，",
+        "Holder": "2",
+        "Target": "自己",
+        "Aspect": "恋爱决策",
+        "Opinion": "认为自己决策错误",
+        "Sentiment": "negative",
+        "Rationale": "觉得自己和对方搞对象是个错误的决定"
+    },
+    {
+        "sentence": "对你脑子有病，什么第十条外人面前你说的话我只能赞同不许发。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "言行控制",
+        "Opinion": "要求对方在外人面前只能赞同自己",
+        "Sentiment": "negative",
+        "Rationale": "对方在外人面前发表不同意见"
+    },
+    {
+        "sentence": "行了别说了，来咱去吃饭，你看我头发油不油，我看好像不油，你说。说话呀",
+        "Holder": "2",
+        "Target": "头发状态",
+        "Aspect": "头发是否油腻",
+        "Opinion": "认为头发不油",
+        "Sentiment": "neutral",
+        "Rationale": "想转移话题并询问对方意见"
+    },
+    {
+        "sentence": "你以后不许和别的女的说话，",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "与异性交流",
+        "Opinion": "禁止与异性交流",
+        "Sentiment": "negative",
+        "Rationale": "对对方与异性交流感到嫉妒和不安"
+    },
+    {
+        "sentence": "现在可以说。",
+        "Holder": "2",
+        "Target": "与异性交流",
+        "Aspect": "当前交流许可",
+        "Opinion": "允许当前交流",
+        "Sentiment": "neutral",
+        "Rationale": "认为当前情况下可以与异性交流"
+    },
+    {
+        "sentence": "油头大油头油王。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "头发状态",
+        "Opinion": "头发很油",
+        "Sentiment": "negative",
+        "Rationale": "1认为2的头发很油"
+    },
+    {
+        "sentence": "什么，你。",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "话语理解",
+        "Opinion": "不理解",
+        "Sentiment": "ambiguous",
+        "Rationale": "2没有听清楚1的话"
+    },
+    {
+        "sentence": "以后不许撒谎明白吧？我不能撒谎。",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "诚实",
+        "Opinion": "要求诚实",
+        "Sentiment": "negative",
+        "Rationale": "1认为2在撒谎"
+    },
+    {
+        "sentence": "这时候你可以撒谎，你头不油",
+        "Holder": "1",
+        "Target": "2",
+        "Aspect": "头发状态",
+        "Opinion": "讽刺不油",
+        "Sentiment": "negative",
+        "Rationale": "1在讽刺2的头发油"
+    },
+    {
+        "sentence": "我洗个头去行吗？",
+        "Holder": "2",
+        "Target": "1",
+        "Aspect": "头发状态",
+        "Opinion": "愿意改善",
+        "Sentiment": "neutral",
+        "Rationale": "2愿意通过洗头来改善头发状态"
+    },
+    {
+        "sentence": "姐正好家里没有洗发水，我给你。",
+        "Holder": "1",
+        "Target": "洗发水",
+        "Aspect": "提供帮助",
+        "Opinion": "愿意提供",
+        "Sentiment": "positive",
+        "Rationale": "家里正好没有洗发水"
+    },
+    {
+        "sentence": "你不能去，还有不符合你就单独待着，你去了我就跟你姐单独待去了，",
+        "Holder": "2",
+        "Target": "1的行动",
+        "Aspect": "行动的合理性",
+        "Opinion": "反对去",
+        "Sentiment": "negative",
+        "Rationale": "如果1去了，2就会和1的姐姐单独待在一起"
+    },
+    {
+        "sentence": "我去也不行，楼下超市售货员是个女的，",
+        "Holder": "1",
+        "Target": "自己去超市",
+        "Aspect": "行动的可行性",
+        "Opinion": "不可行",
+        "Sentiment": "negative",
+        "Rationale": "楼下超市售货员是女性，可能存在某种不便或顾虑"
+    },
+    {
+        "sentence": "你客气了，我带了。",
+        "Holder": "2",
+        "Target": "洗发水",
+        "Aspect": "携带情况",
+        "Opinion": "已经携带",
+        "Sentiment": "positive",
+        "Rationale": "已经带了洗发水"
+    },
+    {
+        "sentence": "我买不了加法，第六条我个人的存款不行，",
+        "Holder": "1",
+        "Target": "加法",
+        "Aspect": "购买能力",
+        "Opinion": "买不了",
+        "Sentiment": "negative",
+        "Rationale": "个人存款不足"
+    },
+    {
+        "sentence": "我自己买，你今天别去吃饭了，送我俩去，",
+        "Holder": "2",
+        "Target": "1的行动",
+        "Aspect": "任务安排",
+        "Opinion": "要求1送我俩去",
+        "Sentiment": "neutral",
+        "Rationale": "需要1帮忙送人"
+    },
+    {
+        "sentence": "送不了，现在9:10，第一条晚上9点以后我不能出门。",
+        "Holder": "1",
+        "Target": "2的要求",
+        "Aspect": "时间限制",
+        "Opinion": "不能出门",
+        "Sentiment": "negative",
+        "Rationale": "家规规定晚上9点后不能出门"
+    },
+    {
+        "sentence": "所有家规从今天起全部作废，",
+        "Holder": "2",
+        "Target": "家规",
+        "Aspect": "有效性",
+        "Opinion": "作废",
+        "Sentiment": "positive",
+        "Rationale": "想要取消家规的限制"
+    }
+]

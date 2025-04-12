@@ -1,0 +1,121 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "辩论赛主持与流程管理",
+        "emotions": [
+          {"state": "positive", "reason": "对参赛队伍的熟悉度表达肯定", "source_id": "1"},
+          {"state": "neutral", "reason": "客观介绍评委和赛制", "source_id": "1"},
+          {"state": "neutral", "reason": "推进辩论环节流程", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "钱作为万恶之源的核心论点展开",
+        "emotions": [
+          {"state": "negative", "reason": "论证金钱导致贪欲膨胀", "source_id": "2"},
+          {"state": "negative", "reason": "揭露金钱对道德体系的腐蚀", "source_id": "2"},
+          {"state": "negative", "reason": "分析金钱异化人际关系", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "反方核心逻辑建构",
+        "emotions": [
+          {"state": "negative", "reason": "质疑对方概念界定错误", "source_id": "3"},
+          {"state": "negative", "reason": "通过案例反驳全面性覆盖", "source_id": "3"},
+          {"state": "doubt", "reason": "追问校园枪击案关联性", "source_id": "3"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "历史实证与逻辑反击",
+        "emotions": [
+          {"state": "negative", "reason": "用罗马帝国案例佐证论点", "source_id": "4"},
+          {"state": "negative", "reason": "揭露日本经济侵略本质", "source_id": "4"},
+          {"state": "negative", "reason": "批判金钱合法化不道德行为", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "类比归谬与反证策略",
+        "emotions": [
+          {"state": "negative", "reason": "用性侵犯案例解构金钱关联", "source_id": "5"},
+          {"state": "doubt", "reason": "质疑动物性行为等同人类恶行", "source_id": "5"},
+          {"state": "negative", "reason": "反驳万恶之源的全称判断", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "概念界定与攻防转换",
+        "emotions": [
+          {"state": "negative", "reason": "纠正万字语义理解偏差", "source_id": "6"},
+          {"state": "negative", "reason": "论证现代犯罪的经济驱动", "source_id": "6"},
+          {"state": "negative", "reason": "揭露评判标准双重性", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "责任归属与工具理性论证",
+        "emotions": [
+          {"state": "negative", "reason": "批判将工具异化为根源", "source_id": "7"},
+          {"state": "positive", "reason": "强调人类行为的主体责任", "source_id": "7"},
+          {"state": "positive", "reason": "例证史前社会恶行存在", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "赛事文化价值升华",
+        "emotions": [
+          {"state": "positive", "reason": "强调跨文化交流意义", "source_id": "8"},
+          {"state": "positive", "reason": "突出青年思辨价值", "source_id": "8"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "events": [
+      {
+        "event": "总结陈词与价值升华",
+        "emotions": [
+          {"state": "negative", "reason": "系统解构对方论证缺陷", "source_id": "9"},
+          {"state": "neutral", "reason": "提出金钱中性定位方案", "source_id": "9"},
+          {"state": "neutral", "reason": "呼唤人性之光克制物欲", "source_id": "9"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "events": [
+      {
+        "event": "最终反驳与逻辑收束",
+        "emotions": [
+          {"state": "negative", "reason": "指出前提假设错误", "source_id": "10"},
+          {"state": "negative", "reason": "论证善恶本质先验性", "source_id": "10"},
+          {"state": "negative", "reason": "揭露以偏概全谬误", "source_id": "10"}
+        ]
+      }
+    ]
+  }
+}

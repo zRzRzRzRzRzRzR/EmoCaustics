@@ -1,0 +1,36 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "实验研究方法质量提升探讨",
+        "emotions": [
+          {"state": "positive", "reason": "展示神经科学证据的应用潜力", "source_id": "1"},
+          {"state": "negative", "reason": "发现传统问卷在非心智研究中的缺陷", "source_id": "1"},
+          {"state": "positive", "reason": "支持开放科学标准实施", "source_id": "1"},
+          {"state": "neutral", "reason": "解释预注册流程的技术细节", "source_id": "1"},
+          {"state": "negative", "reason": "遭遇审稿流程效率问题", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "学术伦理与数据透明化推进",
+        "emotions": [
+          {"state": "positive", "reason": "强调数据共享必要性", "source_id": "1"},
+          {"state": "neutral", "reason": "处理纵向研究样本脱落问题", "source_id": "1"},
+          {"state": "positive", "reason": "赞赏心理学报审稿公开实践", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "学术会议主持与学者推介",
+        "emotions": [
+          {"state": "positive", "reason": "热情欢迎参会人员", "source_id": "2"},
+          {"state": "positive", "reason": "重点推荐青年学者成就", "source_id": "2"},
+          {"state": "neutral", "reason": "客观陈述议程安排", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

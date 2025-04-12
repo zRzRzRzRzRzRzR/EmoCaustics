@@ -1,0 +1,50 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "婚姻冲突与威胁行为",
+        "emotions": [
+          {"state": "negative", "reason": "反对未婚妻结婚并质疑对方能力", "source_id": "2"},
+          {"state": "negative", "reason": "因被指责无赖而要求讲道理", "source_id": "2"},
+          {"state": "negative", "reason": "认为问题责任在对方", "source_id": "2"}
+        ]
+      },
+      {
+        "event": "关系责任归属争议",
+        "emotions": [
+          {"state": "negative", "reason": "指责对方随意结束关系", "source_id": "2"},
+          {"state": "neutral", "reason": "追问威胁言论的具体含义", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "婚姻权利主张",
+        "emotions": [
+          {"state": "negative", "reason": "坚决阻止未婚妻婚姻", "source_id": "1"},
+          {"state": "positive", "reason": "支持法律赋予的结婚权利", "source_id": "self"},
+          {"state": "negative", "reason": "否认无赖指控并强调事实", "source_id": "1"}
+        ]
+      },
+      {
+        "event": "冲突责任转移",
+        "emotions": [
+          {"state": "negative", "reason": "拒绝承担问题责任", "source_id": "1"},
+          {"state": "negative", "reason": "对结束关系持无所谓态度", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "法律程序质疑",
+        "emotions": [
+          {"state": "negative", "reason": "强调分手需双方同意但缺乏依据", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}

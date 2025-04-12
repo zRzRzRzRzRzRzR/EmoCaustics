@@ -1,0 +1,452 @@
+[
+    {
+        "sentence": "对于不回消息的人有什么感想，我觉得我很能理解啊。",
+        "Holder": "1",
+        "Target": "不回消息的人",
+        "Aspect": "不回消息的行为",
+        "Opinion": "能理解",
+        "Sentiment": "positive",
+        "Rationale": "1能够理解别人不回消息的原因"
+    },
+    {
+        "sentence": "其实我就没有要求你们回消息。",
+        "Holder": "1",
+        "Target": "回消息的要求",
+        "Aspect": "对回消息的期望",
+        "Opinion": "没有要求",
+        "Sentiment": "neutral",
+        "Rationale": "1本身对别人回消息没有强制要求"
+    },
+    {
+        "sentence": "开始狡辩吧。",
+        "Holder": "2",
+        "Target": "1的解释",
+        "Aspect": "解释的真实性",
+        "Opinion": "认为是狡辩",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的解释是在找借口"
+    },
+    {
+        "sentence": "不是狡辩。我是说真的，我感觉我的心里就是这样想的，就我给别人发消息，其实不是特别着急的事的话，我不是一定要马上得到回应的。我只是享受这个我把我觉得好笑的事儿或者说新奇的事儿分享给别人这个过程。我其实根本没有指望过得到你的回应。",
+        "Holder": "1",
+        "Target": "自己的解释",
+        "Aspect": "解释的真实性",
+        "Opinion": "不是狡辩",
+        "Sentiment": "positive",
+        "Rationale": "1真诚地表达了自己的想法和感受"
+    },
+    {
+        "sentence": "不是，问题是在于我一般没什么事的时候不给你发消息，我一般找你就是有事。",
+        "Holder": "2",
+        "Target": "自己发消息的动机",
+        "Aspect": "发消息的原因",
+        "Opinion": "有事才发",
+        "Sentiment": "neutral",
+        "Rationale": "2解释了自己只在有事情时才联系1"
+    },
+    {
+        "sentence": "你，你有什么事啊？",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "发消息的原因",
+        "Opinion": "询问原因",
+        "Sentiment": "neutral",
+        "Rationale": "1想知道3发消息的原因"
+    },
+    {
+        "sentence": "要是没有事的话，也不会发消息，那你这个能理解吗？",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "发消息的合理性",
+        "Opinion": "有理由发消息",
+        "Sentiment": "neutral",
+        "Rationale": "3认为发消息必然有原因"
+    },
+    {
+        "sentence": "不是啊。",
+        "Holder": "1",
+        "Target": "3的解释",
+        "Aspect": "解释的合理性",
+        "Opinion": "不认同解释",
+        "Sentiment": "neutral",
+        "Rationale": "1不认同3的解释"
+    },
+    {
+        "sentence": "我不能理解！我想起来了，你有好几次你给胡晓慧发消息，他没回，你在群里面问谁让胡小慧看一下手机。",
+        "Holder": "4",
+        "Target": "1的行为",
+        "Aspect": "发消息的频率和方式",
+        "Opinion": "不理解",
+        "Sentiment": "negative",
+        "Rationale": "4觉得1频繁发消息且在群里询问不合理"
+    },
+    {
+        "sentence": "对啊，那说明我有事了嘛。",
+        "Holder": "1",
+        "Target": "自己的行为",
+        "Aspect": "发消息的必要性",
+        "Opinion": "有事情才发消息",
+        "Sentiment": "neutral",
+        "Rationale": "1认为自己发消息是有事情"
+    },
+    {
+        "sentence": "那我们找你也有事啊。",
+        "Holder": "4",
+        "Target": "3",
+        "Aspect": "找人的必要性",
+        "Opinion": "有事情需要找3",
+        "Sentiment": "neutral",
+        "Rationale": "4提到找3有事情"
+    },
+    {
+        "sentence": "所以你能理解了吗这种心情？",
+        "Holder": "3",
+        "Target": "4",
+        "Aspect": "理解心情",
+        "Opinion": "希望4能理解",
+        "Sentiment": "neutral",
+        "Rationale": "3在询问4是否能理解自己的心情"
+    },
+    {
+        "sentence": "可是有好几次我找你，真的都找不到你，然后我去找你室友，然后转达给你，就是找你找不到啊。",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "联系方式的便捷性",
+        "Opinion": "找不到3",
+        "Sentiment": "negative",
+        "Rationale": "1多次找不到3，导致沟通不便"
+    },
+    {
+        "sentence": "要不每次都是打电话，直接就是不发消息，我比较喜欢这种快点的。",
+        "Holder": "3",
+        "Target": "联系方式",
+        "Aspect": "沟通效率",
+        "Opinion": "喜欢打电话",
+        "Sentiment": "positive",
+        "Rationale": "3觉得打电话更快捷"
+    },
+    {
+        "sentence": "不是啊，因为胡晓慧，比如假设说你发消息，你是那样只发个老刘。那你让我回你啥呢？",
+        "Holder": "1",
+        "Target": "3的消息内容",
+        "Aspect": "消息的明确性",
+        "Opinion": "消息不明确",
+        "Sentiment": "negative",
+        "Rationale": "3发的消息内容不明确，导致1不知道如何回复"
+    },
+    {
+        "sentence": "不是，我那是打字比较慢。",
+        "Holder": "3",
+        "Target": "打字速度",
+        "Aspect": "打字速度的原因",
+        "Opinion": "打字慢",
+        "Sentiment": "neutral",
+        "Rationale": "解释自己打字慢的原因"
+    },
+    {
+        "sentence": "不是，我是觉得你可以直接发你想要说的事儿。",
+        "Holder": "1",
+        "Target": "3的沟通方式",
+        "Aspect": "沟通的直接性",
+        "Opinion": "建议直接表达",
+        "Sentiment": "neutral",
+        "Rationale": "提出改进沟通方式的建议"
+    },
+    {
+        "sentence": "我跟每个人都是这样啊！",
+        "Holder": "3",
+        "Target": "自己的沟通方式",
+        "Aspect": "沟通的一致性",
+        "Opinion": "一贯如此",
+        "Sentiment": "neutral",
+        "Rationale": "强调自己一贯的沟通方式"
+    },
+    {
+        "sentence": "哎，你知道吗？当我收到老刘，然后下面没下文的时候，我就想到底什么事，我就会很难受，你知道吗？",
+        "Holder": "1",
+        "Target": "3的沟通方式",
+        "Aspect": "信息的不完整性",
+        "Opinion": "感到难受",
+        "Sentiment": "negative",
+        "Rationale": "收到不完整信息导致困惑和难受"
+    },
+    {
+        "sentence": "那你就问他一句什么事嘛。",
+        "Holder": "4",
+        "Target": "1的困惑",
+        "Aspect": "解决问题的方法",
+        "Opinion": "建议直接询问",
+        "Sentiment": "neutral",
+        "Rationale": "提出解决问题的建议"
+    },
+    {
+        "sentence": "可是我不想问，因为我觉得如果我问了，他就会打断他的正在发送的打字。",
+        "Holder": "1",
+        "Target": "提问行为",
+        "Aspect": "对打字的影响",
+        "Opinion": "避免打断",
+        "Sentiment": "neutral",
+        "Rationale": "担心提问会打断对方打字"
+    },
+    {
+        "sentence": "我知道了，他就是那种你给他发一句新的，然后他一定要把之前打的字全删掉，然后再跟你说。",
+        "Holder": "5",
+        "Target": "对方的打字习惯",
+        "Aspect": "打字方式",
+        "Opinion": "理解并描述",
+        "Sentiment": "neutral",
+        "Rationale": "了解对方的打字习惯"
+    },
+    {
+        "sentence": "不是！比如说我只发一个你的名字。",
+        "Holder": "3",
+        "Target": "打字内容",
+        "Aspect": "内容简短",
+        "Opinion": "澄清误解",
+        "Sentiment": "neutral",
+        "Rationale": "需要澄清误解"
+    },
+    {
+        "sentence": "确实，我一般会回一句啥事。",
+        "Holder": "3",
+        "Target": "回复习惯",
+        "Aspect": "回复内容",
+        "Opinion": "确认习惯",
+        "Sentiment": "neutral",
+        "Rationale": "确认自己的回复习惯"
+    },
+    {
+        "sentence": "你不会觉得别人叫你一声，你就会觉得好难受吗？",
+        "Holder": "1",
+        "Target": "别人叫你一声",
+        "Aspect": "感受",
+        "Opinion": "觉得难受",
+        "Sentiment": "negative",
+        "Rationale": "别人叫一声就感觉会有不好的事情发生"
+    },
+    {
+        "sentence": "你叫我一声我就要答应吗？",
+        "Holder": "4",
+        "Target": "叫声回应",
+        "Aspect": "回应的必要性",
+        "Opinion": "不需要答应",
+        "Sentiment": "neutral",
+        "Rationale": "叫声并不一定需要回应"
+    },
+    {
+        "sentence": "不是，但是你就得回呀。是微信而已啊，又不是现实里面。",
+        "Holder": "5",
+        "Target": "叫声回应",
+        "Aspect": "回应的合理性",
+        "Opinion": "应该回应",
+        "Sentiment": "neutral",
+        "Rationale": "是微信上的叫声，不涉及现实接触"
+    },
+    {
+        "sentence": "不是，是因为别人这样发一条消息给我之后，我就会觉得没好事，没好事。",
+        "Holder": "1",
+        "Target": "别人发的消息",
+        "Aspect": "消息内容预期",
+        "Opinion": "预期是坏事",
+        "Sentiment": "negative",
+        "Rationale": "收到消息后总是预期会有不好的事情"
+    },
+    {
+        "sentence": "对对对，一般有什么简单的事就直接说了。",
+        "Holder": "6",
+        "Target": "消息内容",
+        "Aspect": "消息的直接性",
+        "Opinion": "直接说事",
+        "Sentiment": "positive",
+        "Rationale": "认为简单的事应该直接说"
+    },
+    {
+        "sentence": "那我要是这样给你发呢？",
+        "Holder": "3",
+        "Target": "发送方式",
+        "Aspect": "发送方式的可行性",
+        "Opinion": "询问可行性",
+        "Sentiment": "neutral",
+        "Rationale": "只是提出一个假设性的问题"
+    },
+    {
+        "sentence": "那我就等等看你实在是没发过来，我过一会儿再问你。",
+        "Holder": "6",
+        "Target": "等待时间",
+        "Aspect": "等待的合理性",
+        "Opinion": "愿意等待",
+        "Sentiment": "neutral",
+        "Rationale": "表示愿意等待并再次询问"
+    },
+    {
+        "sentence": "我肯定不会让你等很久的。",
+        "Holder": "3",
+        "Target": "等待时间",
+        "Aspect": "等待的时长",
+        "Opinion": "不会让等待太久",
+        "Sentiment": "positive",
+        "Rationale": "承诺不会让对方等待太久"
+    },
+    {
+        "sentence": "我懂这个感觉了，这感觉在微信上面体现不出来，但是在语言上可能体现出来。",
+        "Holder": "2",
+        "Target": "感觉的体现",
+        "Aspect": "微信与语言的差异",
+        "Opinion": "语言更能体现感觉",
+        "Sentiment": "neutral",
+        "Rationale": "指出微信和语言在表达感觉上的差异"
+    },
+    {
+        "sentence": "就感觉没有什么好事儿，你知道吗，很可怕。我特别怕这种等待的时间。",
+        "Holder": "1",
+        "Target": "等待的时间",
+        "Aspect": "等待的感受",
+        "Opinion": "感觉可怕",
+        "Sentiment": "negative",
+        "Rationale": "等待的过程中充满了不确定性和焦虑"
+    },
+    {
+        "sentence": "确实，就是很焦虑，你不知道他到底要干嘛，然后他在那喊你好几声。",
+        "Holder": "5",
+        "Target": "等待的情况",
+        "Aspect": "等待中的焦虑",
+        "Opinion": "感到焦虑",
+        "Sentiment": "negative",
+        "Rationale": "不知道对方的具体意图，并且在等待中被多次呼喊"
+    },
+    {
+        "sentence": "我当时就没听见你回我而已。",
+        "Holder": "6",
+        "Target": "5的呼喊",
+        "Aspect": "回应的情况",
+        "Opinion": "没有听见",
+        "Sentiment": "neutral",
+        "Rationale": "当时没有注意到5的呼喊"
+    },
+    {
+        "sentence": "啊，是你啊？",
+        "Holder": "5",
+        "Target": "6的身份",
+        "Aspect": "身份确认",
+        "Opinion": "惊讶于对方的身份",
+        "Sentiment": "ambiguous",
+        "Rationale": "突然意识到对方是6"
+    },
+    {
+        "sentence": "为什么你的声音这么像男的？",
+        "Holder": "5",
+        "Target": "1的声音",
+        "Aspect": "声音的性别特征",
+        "Opinion": "像男的",
+        "Sentiment": "neutral",
+        "Rationale": "对1的声音特征感到好奇"
+    },
+    {
+        "sentence": "所以我其实平时并不会指望得到别人的回应。我只是分享完了，我这个感觉就已经达到了。",
+        "Holder": "1",
+        "Target": "自己的分享行为",
+        "Aspect": "分享的目的",
+        "Opinion": "不期待回应",
+        "Sentiment": "neutral",
+        "Rationale": "分享的目的只是表达自己"
+    },
+    {
+        "sentence": "而且其实我像抖音分享的话，我是他他有你经常分享上次分享的这种选项，我就直接发过去，我其实都没看里边有谁。",
+        "Holder": "1",
+        "Target": "抖音分享方式",
+        "Aspect": "分享的便捷性",
+        "Opinion": "直接分享",
+        "Sentiment": "neutral",
+        "Rationale": "抖音的分享功能便捷"
+    },
+    {
+        "sentence": "你上次给我分享一个，分享完之后，我就在那皱眉。他说不好意思，分享错了。",
+        "Holder": "4",
+        "Target": "1的分享行为",
+        "Aspect": "分享的准确性",
+        "Opinion": "分享错误",
+        "Sentiment": "negative",
+        "Rationale": "收到了错误的分享内容"
+    },
+    {
+        "sentence": "因为我想发上一条，结果我已经刷到下一条了，然后我才想起来我要分享给大家那个。",
+        "Holder": "1",
+        "Target": "自己的分享错误",
+        "Aspect": "错误的原因",
+        "Opinion": "操作失误",
+        "Sentiment": "neutral",
+        "Rationale": "操作失误导致分享错误"
+    },
+    {
+        "sentence": "我是不是那个艾特你喜欢的人给你生个小狗？",
+        "Holder": "5",
+        "Target": "1的社交媒体行为",
+        "Aspect": "艾特的对象",
+        "Opinion": "艾特喜欢的人",
+        "Sentiment": "neutral",
+        "Rationale": "对1的社交媒体行为感到好奇"
+    },
+    {
+        "sentence": "对！我当时第一想法就是他发错人了。",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "信息发送对象",
+        "Opinion": "发错人",
+        "Sentiment": "neutral",
+        "Rationale": "第一时间认为信息发送错误"
+    },
+    {
+        "sentence": "已知被错发送的一个、两个、三个，请问你真正想要发送的人是谁呢？",
+        "Holder": "5",
+        "Target": "4",
+        "Aspect": "信息发送对象",
+        "Opinion": "询问真正发送对象",
+        "Sentiment": "neutral",
+        "Rationale": "想知道信息原本的接收者"
+    },
+    {
+        "sentence": "没有收到吗？他没有收到！",
+        "Holder": "4",
+        "Target": "他",
+        "Aspect": "信息接收情况",
+        "Opinion": "他没有收到",
+        "Sentiment": "neutral",
+        "Rationale": "确认信息未送达"
+    },
+    {
+        "sentence": "我跟你说，我还发给了我妈。",
+        "Holder": "1",
+        "Target": "自己",
+        "Aspect": "信息发送对象",
+        "Opinion": "发给了妈妈",
+        "Sentiment": "neutral",
+        "Rationale": "提到自己也把信息发给了妈妈"
+    },
+    {
+        "sentence": "所以你思考一下我们收到那条抖音是什么样的心理。",
+        "Holder": "2",
+        "Target": "4",
+        "Aspect": "接收信息后的心理",
+        "Opinion": "需要思考接收者的心理",
+        "Sentiment": "neutral",
+        "Rationale": "希望对方考虑接收信息后的感受"
+    },
+    {
+        "sentence": "所以你思考一下，当我知道你们是收到了这条消息之后，我是什么心理。",
+        "Holder": "1",
+        "Target": "4",
+        "Aspect": "消息回复的态度",
+        "Opinion": "期待回复",
+        "Sentiment": "ambiguous",
+        "Rationale": "1想知道4收到消息后的心理状态"
+    },
+    {
+        "sentence": "所以说到这个已读不回啊。我觉得有事的时候还是得回一下的。",
+        "Holder": "4",
+        "Target": "已读不回的行为",
+        "Aspect": "消息回复的必要性",
+        "Opinion": "应该回复",
+        "Sentiment": "neutral",
+        "Rationale": "4认为在有事情的情况下应该回复消息"
+    }
+]

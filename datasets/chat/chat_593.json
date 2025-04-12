@@ -1,0 +1,632 @@
+[
+    {
+        "sentence": "云骁，我都说了，我和阿离之间是误会，我不知道她是你的亲妹妹啊！",
+        "Holder": "1",
+        "Target": "阿离",
+        "Aspect": "与阿离的关系",
+        "Opinion": "存在误会",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释与阿离之间的误会"
+    },
+    {
+        "sentence": "你的意思是，如果她是一个无权无势的女人，就活该被你欺辱，被你殴打吗！",
+        "Holder": "2",
+        "Target": "1的行为",
+        "Aspect": "对待阿离的方式",
+        "Opinion": "不应欺辱和殴打",
+        "Sentiment": "negative",
+        "Rationale": "2认为1的行为是对阿离的不公正对待"
+    },
+    {
+        "sentence": "不是的，云骁。",
+        "Holder": "1",
+        "Target": "2的指责",
+        "Aspect": "对指责的回应",
+        "Opinion": "否认指责",
+        "Sentiment": "neutral",
+        "Rationale": "1在否认2的指责"
+    },
+    {
+        "sentence": "其实这一切都是林依依造成的！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "事件的起因",
+        "Opinion": "林依依是罪魁祸首",
+        "Sentiment": "negative",
+        "Rationale": "1认为林依依是所有问题的根源"
+    },
+    {
+        "sentence": "是她在公司跟踪偷拍阿离，然后她故意误导我阿离是小三，也是她挑拨离间，说那个别墅是你买来金屋藏娇的，更是她让我砸碎的这个文物花瓶，一切的罪魁祸首，就是林依依！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "林依依的行为",
+        "Opinion": "林依依的行为是恶意的",
+        "Sentiment": "negative",
+        "Rationale": "1列举了林依依的一系列恶意行为"
+    },
+    {
+        "sentence": "苏芮芮，你胡说什么！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "说话内容",
+        "Opinion": "胡说",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮说的话让3觉得是无理取闹"
+    },
+    {
+        "sentence": "明明是你让我们上门打小三，凭什么把锅甩给我！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "责任归属",
+        "Opinion": "苏芮芮应承担责任",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮把责任推给3，而3认为责任在苏芮芮"
+    },
+    {
+        "sentence": "没有你，我根本不可能去帝江庭！",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "去帝江庭的原因",
+        "Opinion": "3是去帝江庭的关键",
+        "Sentiment": "negative",
+        "Rationale": "1认为没有3就不会去帝江庭"
+    },
+    {
+        "sentence": "原来是你在这说我包养小三。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "传言内容",
+        "Opinion": "3传播包养小三的传言",
+        "Sentiment": "negative",
+        "Rationale": "2发现3在传播关于自己的负面传言"
+    },
+    {
+        "sentence": "不是，裴总，不是我！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "传言责任",
+        "Opinion": "否认传播传言",
+        "Sentiment": "negative",
+        "Rationale": "3被2误认为传播传言"
+    },
+    {
+        "sentence": "我真的没有造谣！",
+        "Holder": "3",
+        "Target": "造谣行为",
+        "Aspect": "行为真实性",
+        "Opinion": "否认造谣",
+        "Sentiment": "negative",
+        "Rationale": "被指责造谣"
+    },
+    {
+        "sentence": "不承认是吧。",
+        "Holder": "2",
+        "Target": "3的否认",
+        "Aspect": "态度",
+        "Opinion": "质疑否认",
+        "Sentiment": "negative",
+        "Rationale": "对方否认造谣"
+    },
+    {
+        "sentence": "根据刑法，虐待他人使人重伤，处2年以上7年以下有期徒刑。",
+        "Holder": "2",
+        "Target": "3的行为",
+        "Aspect": "法律后果",
+        "Opinion": "指出法律后果",
+        "Sentiment": "neutral",
+        "Rationale": "客观陈述法律条款"
+    },
+    {
+        "sentence": "林依依，你就等着我的律师函吧",
+        "Holder": "2",
+        "Target": "3（林依依）",
+        "Aspect": "法律行动",
+        "Opinion": "威胁采取法律行动",
+        "Sentiment": "negative",
+        "Rationale": "对方不承认错误"
+    },
+    {
+        "sentence": "裴总，我没有！",
+        "Holder": "3",
+        "Target": "裴总",
+        "Aspect": "行为责任",
+        "Opinion": "否认责任",
+        "Sentiment": "negative",
+        "Rationale": "被裴总怀疑或指责"
+    },
+    {
+        "sentence": "裴子，我真的没有伤害二小姐！",
+        "Holder": "3",
+        "Target": "裴子",
+        "Aspect": "行为责任",
+        "Opinion": "否认伤害",
+        "Sentiment": "negative",
+        "Rationale": "被裴子怀疑或指责伤害二小姐"
+    },
+    {
+        "sentence": "都是苏芮芮，是她教唆我们私闯二小姐的别墅，是她用口红在二小姐脸上刻字，更是她用开水浇坏了二小姐的嗓子！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "行为责任",
+        "Opinion": "指责苏芮芮",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮是真正的罪魁祸首"
+    },
+    {
+        "sentence": "林依依，你少在这里跟我胡说八道！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "言语真实性",
+        "Opinion": "认为林依依在撒谎",
+        "Sentiment": "negative",
+        "Rationale": "认为林依依的话没有根据"
+    },
+    {
+        "sentence": "阿离本来可以澄清自己的身份的，是你，是你一直在这里煽风点火，坚称阿离在说谎！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "行为动机",
+        "Opinion": "指责林依依煽风点火",
+        "Sentiment": "negative",
+        "Rationale": "认为林依依故意搅乱局面"
+    },
+    {
+        "sentence": "要不是你这个罪魁祸首，我根本不可能对他动手！",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "事件责任",
+        "Opinion": "3是罪魁祸首",
+        "Sentiment": "negative",
+        "Rationale": "1认为3是导致自己动手的根本原因"
+    },
+    {
+        "sentence": "苏芮芮，监控视频拍的清清楚楚，动手打人的是你，凭什么推我出去坐牢！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "事件真相",
+        "Opinion": "1是动手打人者",
+        "Sentiment": "negative",
+        "Rationale": "3认为监控视频已经证明1是打人者，却被1推卸责任"
+    },
+    {
+        "sentence": "监控视频它只是拍了一部分。",
+        "Holder": "1",
+        "Target": "监控视频",
+        "Aspect": "视频的完整性",
+        "Opinion": "视频不完整",
+        "Sentiment": "negative",
+        "Rationale": "1认为监控视频没有拍下全部情况"
+    },
+    {
+        "sentence": "你不仅全程参与动手，害拍了阿离的不雅视频传到了网上！",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "行为恶劣性",
+        "Opinion": "3参与动手并传播不雅视频",
+        "Sentiment": "negative",
+        "Rationale": "1认为3不仅参与打人还传播不雅视频"
+    },
+    {
+        "sentence": "我真的是冤枉的！",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "自身清白",
+        "Opinion": "自己是无辜的",
+        "Sentiment": "negative",
+        "Rationale": "3认为自己被1冤枉"
+    },
+    {
+        "sentence": "都是苏芮芮，是她指使我这么做！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "指使行为",
+        "Opinion": "指责苏芮芮",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮指使自己做了不好的事情"
+    },
+    {
+        "sentence": "林依依，你够了！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "行为",
+        "Opinion": "停止指责",
+        "Sentiment": "negative",
+        "Rationale": "林依依的行为让自己感到厌烦"
+    },
+    {
+        "sentence": "你以为你是什么清纯白莲花吗？别以为我不知道你一直觊觎我老公，你嫉妒我嫁给了你高攀不起的男人，所以才故意下套陷害我。",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "动机和性格",
+        "Opinion": "认为林依依虚伪且心怀不轨",
+        "Sentiment": "negative",
+        "Rationale": "认为林依依虚伪且心怀不轨"
+    },
+    {
+        "sentence": "你就是想让我被净身出户！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "目的",
+        "Opinion": "认为林依依想让自己失去一切",
+        "Sentiment": "negative",
+        "Rationale": "认为林依依的目的是让自己失去一切"
+    },
+    {
+        "sentence": "苏芮芮，你胡说什么！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "言论",
+        "Opinion": "认为苏芮芮在胡说",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮的言论让自己感到被误解和冤枉"
+    },
+    {
+        "sentence": "够了！别说了。",
+        "Holder": "2",
+        "Target": "3的言论",
+        "Aspect": "言论的接受度",
+        "Opinion": "不接受",
+        "Sentiment": "negative",
+        "Rationale": "3的言论让2感到不耐烦"
+    },
+    {
+        "sentence": "裴总，我求求你放过我，只要你放过我，我告诉你三年前车祸的全部真相！",
+        "Holder": "3",
+        "Target": "2",
+        "Aspect": "请求放过",
+        "Opinion": "愿意透露真相",
+        "Sentiment": "negative",
+        "Rationale": "3处于被逼迫的境地"
+    },
+    {
+        "sentence": "我真的不是罪魁祸首！",
+        "Holder": "3",
+        "Target": "自己",
+        "Aspect": "罪责归属",
+        "Opinion": "否认罪责",
+        "Sentiment": "negative",
+        "Rationale": "3急于洗脱自己的罪名"
+    },
+    {
+        "sentence": "裴总，是苏芮芮，她是一个心机深重的女人。",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "性格评价",
+        "Opinion": "心机深重",
+        "Sentiment": "negative",
+        "Rationale": "3试图将责任推给苏芮芮"
+    },
+    {
+        "sentence": "三年前的车祸，都是她设的局！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "车祸原因",
+        "Opinion": "认为是1设的局",
+        "Sentiment": "negative",
+        "Rationale": "3认为1是车祸的幕后策划者"
+    },
+    {
+        "sentence": "云骁，你不要听她乱说呀，三年前我只是碰巧救了你，怎么可能有设局？",
+        "Holder": "1",
+        "Target": "3的说法",
+        "Aspect": "车祸真相",
+        "Opinion": "否认设局",
+        "Sentiment": "negative",
+        "Rationale": "1被3指责为设局者"
+    },
+    {
+        "sentence": "裴总，你放过我吧，只要你放过我，我告诉你三年前的全部实情！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "求饶和揭露真相",
+        "Opinion": "愿意揭露真相以换取宽恕",
+        "Sentiment": "negative",
+        "Rationale": "3感到绝望和害怕"
+    },
+    {
+        "sentence": "林依依，你够了！再在这里胡说八道，信不信我让你身败名裂！",
+        "Holder": "1",
+        "Target": "3",
+        "Aspect": "言辞的真实性",
+        "Opinion": "认为3在胡说八道",
+        "Sentiment": "negative",
+        "Rationale": "1认为3的言论毫无根据且对自己造成严重影响"
+    },
+    {
+        "sentence": "反正我烂命一条，有种你就试试！",
+        "Holder": "3",
+        "Target": "1的威胁",
+        "Aspect": "对威胁的态度",
+        "Opinion": "无畏威胁",
+        "Sentiment": "negative",
+        "Rationale": "3已经绝望到无所顾忌"
+    },
+    {
+        "sentence": "苏芮芮，虐待二小姐的人是你，凭什么让我背黑锅？",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "责任归属",
+        "Opinion": "不应承担责任",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮是虐待二小姐的真正责任人，却让自己承担后果"
+    },
+    {
+        "sentence": "我今天就让你身败名裂！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "报复行为",
+        "Opinion": "决心报复",
+        "Sentiment": "negative",
+        "Rationale": "对苏芮芮让自己背黑锅感到极度愤怒"
+    },
+    {
+        "sentence": "好，只要你说出事情的真相，我可以酌情为你减刑。",
+        "Holder": "2",
+        "Target": "3",
+        "Aspect": "减刑条件",
+        "Opinion": "愿意减刑",
+        "Sentiment": "neutral",
+        "Rationale": "希望3说出真相以解决问题"
+    },
+    {
+        "sentence": "林依依，我跟你拼了！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "对抗行为",
+        "Opinion": "决心对抗",
+        "Sentiment": "negative",
+        "Rationale": "对林依依的行为感到极度不满"
+    },
+    {
+        "sentence": "苏芮芮，这还轮不到你放肆！",
+        "Holder": "2",
+        "Target": "苏芮芮",
+        "Aspect": "行为约束",
+        "Opinion": "不应放肆",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮的行为过于放肆，超出了容忍范围"
+    },
+    {
+        "sentence": "给我控制住！",
+        "Holder": "2",
+        "Target": "控制行为",
+        "Aspect": "控制的有效性",
+        "Opinion": "要求控制",
+        "Sentiment": "negative",
+        "Rationale": "需要立即控制住局面"
+    },
+    {
+        "sentence": "啊！放开我！",
+        "Holder": "1",
+        "Target": "控制行为",
+        "Aspect": "控制的合理性",
+        "Opinion": "反对控制",
+        "Sentiment": "negative",
+        "Rationale": "被控制感到不适和恐惧"
+    },
+    {
+        "sentence": "这个女人，她根本不是什么善茬。",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "性格评价",
+        "Opinion": "认为她不好",
+        "Sentiment": "negative",
+        "Rationale": "对苏芮芮的行为和性格有负面看法"
+    },
+    {
+        "sentence": "3年前，撞伤裴总的人就是苏芮芮！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "过去行为",
+        "Opinion": "指责她撞伤人",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮过去的行为造成了严重后果"
+    },
+    {
+        "sentence": "林依依，你给我闭嘴！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "言论控制",
+        "Opinion": "要求停止说话",
+        "Sentiment": "negative",
+        "Rationale": "林依依的话对自己不利"
+    },
+    {
+        "sentence": "放开我！",
+        "Holder": "1",
+        "Target": "束缚",
+        "Aspect": "自由",
+        "Opinion": "要求释放",
+        "Sentiment": "negative",
+        "Rationale": "被束缚住无法自由行动"
+    },
+    {
+        "sentence": "裴总，其实3年前苏芮芮就有男朋友，他们大学的时候就在一起了，直到现在都没分手！",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "恋爱关系",
+        "Opinion": "苏芮芮有男朋友",
+        "Sentiment": "neutral",
+        "Rationale": "陈述一个事实"
+    },
+    {
+        "sentence": "林依依，你少他妈的在这跟我造谣，我根本没有男朋友！",
+        "Holder": "1",
+        "Target": "3的言论",
+        "Aspect": "真实性",
+        "Opinion": "否认有男朋友",
+        "Sentiment": "negative",
+        "Rationale": "被指责造谣且自己的清白被质疑"
+    },
+    {
+        "sentence": "裴总，3年前那个晚上，就是苏芮芮和她男朋友林俊凯喝了酒，开车撞了你。苏芮芮认出你是京海首富，所以就故意救下你，然后假意接近你，目的就是嫁入豪门，然后用你的钱去养其他男人。",
+        "Holder": "3",
+        "Target": "苏芮芮",
+        "Aspect": "动机和行为",
+        "Opinion": "苏芮芮有不良动机",
+        "Sentiment": "negative",
+        "Rationale": "揭露苏芮芮的欺骗行为和对裴总的利用"
+    },
+    {
+        "sentence": "竟然还有这样的人，拿别人的钱养，不要脸！",
+        "Holder": "4",
+        "Target": "苏芮芮",
+        "Aspect": "道德",
+        "Opinion": "苏芮芮行为不道德",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮利用别人钱财养其他男人"
+    },
+    {
+        "sentence": "苏芮芮，你这个不要脸的女人，一边和我哥哥结婚，一边却和别的男人藕断丝连！",
+        "Holder": "5",
+        "Target": "苏芮芮",
+        "Aspect": "忠诚度",
+        "Opinion": "不忠诚",
+        "Sentiment": "negative",
+        "Rationale": "苏芮芮在结婚的同时还与其他男人保持联系"
+    },
+    {
+        "sentence": "不是的。",
+        "Holder": "1",
+        "Target": "5的指责",
+        "Aspect": "事实真相",
+        "Opinion": "否认",
+        "Sentiment": "neutral",
+        "Rationale": "1在否认5的指责"
+    },
+    {
+        "sentence": "苏芮芮，你还真的是打了一手好算盘呢。",
+        "Holder": "2",
+        "Target": "苏芮芮",
+        "Aspect": "行为动机",
+        "Opinion": "算计",
+        "Sentiment": "negative",
+        "Rationale": "认为苏芮芮在利用婚姻达到自己的目的"
+    },
+    {
+        "sentence": "不是，云骁，你不要听这个女人乱说呀。",
+        "Holder": "1",
+        "Target": "5的说法",
+        "Aspect": "可信度",
+        "Opinion": "不可信",
+        "Sentiment": "negative",
+        "Rationale": "1认为5在撒谎"
+    },
+    {
+        "sentence": "三年前，我只是碰巧这过莽村救下了你，撞上你的那个男人，我根本就不认识。",
+        "Holder": "1",
+        "Target": "与男人的关系",
+        "Aspect": "相识过程",
+        "Opinion": "偶然",
+        "Sentiment": "neutral",
+        "Rationale": "1在解释与那个男人的相识是偶然的"
+    },
+    {
+        "sentence": "你不信的话，你可以问我爸妈呀。",
+        "Holder": "1",
+        "Target": "6的信任",
+        "Aspect": "信任的依据",
+        "Opinion": "建议询问父母",
+        "Sentiment": "neutral",
+        "Rationale": "1希望6通过询问父母来确认事实"
+    },
+    {
+        "sentence": "是啊，好女婿，芮芮是我从小看着她长大的，连一只鸡都不敢杀，更别说什么制造车祸了。",
+        "Holder": "6",
+        "Target": "苏芮芮",
+        "Aspect": "性格和能力",
+        "Opinion": "苏芮芮不可能制造车祸",
+        "Sentiment": "positive",
+        "Rationale": "6对苏芮芮非常了解，认为她性格温和"
+    },
+    {
+        "sentence": "云骁啊，芮芮脾气是坏了点，但是她绝对不会做违法犯罪的事啊。你，你又相信她这一次吧。",
+        "Holder": "6",
+        "Target": "苏芮芮",
+        "Aspect": "品德",
+        "Opinion": "苏芮芮不会违法犯罪",
+        "Sentiment": "positive",
+        "Rationale": "6虽然承认苏芮芮脾气不好，但坚信她不会做违法的事"
+    },
+    {
+        "sentence": "不，裴总，我说的都是实情。",
+        "Holder": "3",
+        "Target": "自己的陈述",
+        "Aspect": "真实性",
+        "Opinion": "坚持所言为实",
+        "Sentiment": "neutral",
+        "Rationale": "3坚信自己所说的是事实"
+    },
+    {
+        "sentence": "这一切都是苏芮芮的阴谋，他们苏家人都知道！",
+        "Holder": "3",
+        "Target": "苏芮芮和苏家人",
+        "Aspect": "阴谋",
+        "Opinion": "认为是苏芮芮的阴谋",
+        "Sentiment": "negative",
+        "Rationale": "3认为苏芮芮和苏家人共同策划了阴谋"
+    },
+    {
+        "sentence": "林依依，你污蔑我不成，你还要污蔑我父母，你信不信我撕烂的嘴！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "污蔑行为",
+        "Opinion": "林依依在污蔑",
+        "Sentiment": "negative",
+        "Rationale": "林依依不仅污蔑自己还污蔑父母"
+    },
+    {
+        "sentence": "够了！别在我面前吵了。",
+        "Holder": "2",
+        "Target": "1和林依依的争吵",
+        "Aspect": "争吵行为",
+        "Opinion": "停止争吵",
+        "Sentiment": "negative",
+        "Rationale": "面前的争吵让人烦躁"
+    },
+    {
+        "sentence": "是真是假，把那个男的找过来便知道了。",
+        "Holder": "2",
+        "Target": "事件的真相",
+        "Aspect": "验证方法",
+        "Opinion": "找当事人确认",
+        "Sentiment": "neutral",
+        "Rationale": "希望通过找当事人来确认真相"
+    },
+    {
+        "sentence": "云骁，根本就没有那个男人，你要相信我呀云骁！",
+        "Holder": "1",
+        "Target": "云骁的信任",
+        "Aspect": "事件的真相",
+        "Opinion": "没有那个男人",
+        "Sentiment": "negative",
+        "Rationale": "希望云骁相信自己，但感到不被信任"
+    },
+    {
+        "sentence": "不，裴总，我有林俊凯的联系方式，我现在就能把他叫过来！",
+        "Holder": "3",
+        "Target": "林俊凯的存在",
+        "Aspect": "证据提供",
+        "Opinion": "能找到林俊凯",
+        "Sentiment": "neutral",
+        "Rationale": "有林俊凯的联系方式"
+    },
+    {
+        "sentence": "林依依，你把手机给我！我不会让你得逞的！",
+        "Holder": "1",
+        "Target": "林依依",
+        "Aspect": "手机的控制权",
+        "Opinion": "不让林依依得逞",
+        "Sentiment": "negative",
+        "Rationale": "1认为林依依的行为是不正当的"
+    },
+    {
+        "sentence": "给我滚开！",
+        "Holder": "3",
+        "Target": "1",
+        "Aspect": "身体接触的拒绝",
+        "Opinion": "要求1离开",
+        "Sentiment": "negative",
+        "Rationale": "3感到被1的行为冒犯"
+    }
+]

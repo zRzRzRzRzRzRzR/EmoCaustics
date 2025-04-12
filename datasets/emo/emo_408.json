@@ -1,0 +1,74 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭成员行为观察与态度转变",
+        "emotions": [
+          {"state": "neutral", "reason": "询问事件显著性", "source_id": "2"},
+          {"state": "positive", "reason": "认可子女关系改善", "source_id": "4,7"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "子女异常行为关注",
+        "emotions": [
+          {"state": "negative", "reason": "发现6号异常行为与星座书籍", "source_id": "6,4"},
+          {"state": "neutral", "reason": "陈述客观事实", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "星座信仰与关系判断",
+        "emotions": [
+          {"state": "positive", "reason": "成功预测6号表现并推崇星座", "source_id": "6"},
+          {"state": "negative", "reason": "因星座不合与人马座断交", "source_id": "5"},
+          {"state": "positive", "reason": "发现与5号星座相性契合", "source_id": "5"},
+          {"state": "negative", "reason": "被质疑迷信产生抵触", "source_id": "5"},
+          {"state": "neutral", "reason": "提出父母分居解决方案", "source_id": "7"},
+          {"state": "negative", "reason": "担忧父母婚姻危机", "source_id": "7"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "星座观念冲突与压力应对",
+        "emotions": [
+          {"state": "neutral", "reason": "陈述考试条件与星座身份", "source_id": "4"},
+          {"state": "negative", "reason": "质疑4号迷信行为", "source_id": "4"},
+          {"state": "positive", "reason": "获得考试运势正向预测", "source_id": "4"},
+          {"state": "ambiguous", "reason": "考虑作弊与运势的冲突", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "舞台成功体验",
+        "emotions": [
+          {"state": "positive", "reason": "获得掌声与成就感", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "events": [
+      {
+        "event": "婚姻危机应对策略",
+        "emotions": [
+          {"state": "neutral", "reason": "追问解决方案细节", "source_id": "4"},
+          {"state": "doubt", "reason": "质疑分居方案可行性", "source_id": "4"},
+          {"state": "positive", "reason": "被认可家庭关系价值", "source_id": "4"}
+        ]
+      }
+    ]
+  }
+}

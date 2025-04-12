@@ -1,0 +1,57 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "剧本成功与家庭经济分配",
+        "emotions": [
+          {"state": "positive", "reason": "剧本被采用获得稿酬", "source_id": "1"},
+          {"state": "doubt", "reason": "被质疑资金分配合理性", "source_id": "2"},
+          {"state": "negative", "reason": "面对子女多重需求压力", "source_id": "3,4"}
+        ]
+      },
+      {
+        "event": "家庭投资决策冲突",
+        "emotions": [
+          {"state": "positive", "reason": "支持子女教育投资", "source_id": "3"},
+          {"state": "negative", "reason": "被质疑投资策略有效性", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家庭消费与投资平衡",
+        "emotions": [
+          {"state": "neutral", "reason": "协调家庭成员需求", "source_id": "1"},
+          {"state": "negative", "reason": "资金分配引发争议", "source_id": "3,4"},
+          {"state": "positive", "reason": "支持舞蹈比赛方案", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "学习设备需求博弈",
+        "emotions": [
+          {"state": "neutral", "reason": "提出笔记本电脑需求", "source_id": "1"},
+          {"state": "negative", "reason": "需求优先级被质疑", "source_id": "4"},
+          {"state": "positive", "reason": "主动放弃需求成全家人", "source_id": "1,2"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "技术投资与家庭关系",
+        "emotions": [
+          {"state": "positive", "reason": "争取服务器投资支持", "source_id": "3"},
+          {"state": "neutral", "reason": "协调技术需求与家庭经济", "source_id": "2"},
+          {"state": "ambiguous", "reason": "投资承诺不确定性", "source_id": "1"}
+        ]
+      }
+    ]
+  }
+}

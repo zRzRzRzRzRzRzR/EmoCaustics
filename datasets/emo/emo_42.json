@@ -1,0 +1,99 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "搜查合法性争议",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "质疑多人闯入住宅的合法性",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "强调老楼居住条件差",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "强调存款合理性",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "抗议送客礼节要求",
+            "source_id": "2"
+          }
+        ]
+      },
+      {
+        "event": "权力认知冲突",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "贬低处长社会地位",
+            "source_id": "1"
+          },
+          {
+            "state": "positive",
+            "reason": "承认特殊权力价值",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "被质疑思想觉悟",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "职务调查执行",
+        "emotions": [
+          {
+            "state": "neutral",
+            "reason": "履行身份核验程序",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "发现异常存款金额",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "修正调查方向",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "未达调查预期结果",
+            "source_id": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "廉政身份维护",
+        "emotions": [
+          {
+            "state": "negative",
+            "reason": "反驳无证据指控",
+            "source_id": "2"
+          },
+          {
+            "state": "negative",
+            "reason": "强调原则性遭误解",
+            "source_id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

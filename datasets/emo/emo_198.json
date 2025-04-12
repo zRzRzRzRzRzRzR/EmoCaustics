@@ -1,0 +1,84 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家庭咨询冲突",
+        "emotions": [
+          {"state": "negative", "reason": "与3争执咨询活动效果差", "source_id": "3"},
+          {"state": "neutral", "reason": "安抚小美眉情绪", "source_id": "5"},
+          {"state": "negative", "reason": "被6质疑专业能力", "source_id": "6"},
+          {"state": "positive", "reason": "试图展示心理咨询能力", "source_id": "6"}
+        ]
+      },
+      {
+        "event": "股市教育方式",
+        "emotions": [
+          {"state": "ambiguous", "reason": "质疑6炒股年龄合理性", "source_id": "6"},
+          {"state": "negative", "reason": "发现6父亲教育方式荒谬", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "咨询活动挫败",
+        "emotions": [
+          {"state": "negative", "reason": "活动冷清被1嘲讽", "source_id": "1"},
+          {"state": "negative", "reason": "用讽刺回应1的负面评价", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "父母教育冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被父母长期限制自由", "source_id": "父母"},
+          {"state": "negative", "reason": "父亲强制炒股/母亲体罚教育", "source_id": "父母"},
+          {"state": "negative", "reason": "沟通无效反被责骂", "source_id": "父母"}
+        ]
+      },
+      {
+        "event": "咨询身份质疑",
+        "emotions": [
+          {"state": "neutral", "reason": "确认1的咨询身份", "source_id": "1"},
+          {"state": "negative", "reason": "被1强行控制行动", "source_id": "1"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "跨文化交流冲突",
+        "emotions": [
+          {"state": "negative", "reason": "质疑小美眉语言能力失败", "source_id": "5"},
+          {"state": "neutral", "reason": "接受4的负面评价", "source_id": "4"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "行为合理性争论",
+        "emotions": [
+          {"state": "ambiguous", "reason": "不理解2的质问内容", "source_id": "2"},
+          {"state": "negative", "reason": "认定2精神异常", "source_id": "2"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "event": "安全危机感知",
+        "emotions": [
+          {"state": "negative", "reason": "陷入多方言语冲突现场", "source_id": "2,4"}
+        ]
+      }
+    ]
+  }
+}

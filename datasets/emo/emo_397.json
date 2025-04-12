@@ -1,0 +1,98 @@
+{
+  "1": {
+    "events": [
+      {
+        "event": "家长会责任与后果",
+        "emotions": [
+          {
+            "state": "ambiguous",
+            "reason": "担心家长会后的惩罚",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "被揭露课堂不良行为",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "解释已修复椅子",
+            "source_id": "3"
+          },
+          {
+            "state": "positive",
+            "reason": "用幽默化解紧张氛围",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "家长会责任转移",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "认可3主动参与家长会",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "担忧刘梅的激烈反应",
+            "source_id": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "event": "家长会参与与后果处理",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "主动承担父亲责任",
+            "source_id": "1"
+          },
+          {
+            "state": "negative",
+            "reason": "发现刘星行为问题本质",
+            "source_id": "1"
+          },
+          {
+            "state": "neutral",
+            "reason": "采用苦肉计化解危机",
+            "source_id": "1,4"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "event": "教育期望与现实落差",
+        "emotions": [
+          {
+            "state": "positive",
+            "reason": "误认刘星行为改善",
+            "source_id": "3"
+          },
+          {
+            "state": "negative",
+            "reason": "发现行为真相的失望",
+            "source_id": "3"
+          },
+          {
+            "state": "neutral",
+            "reason": "接受教育方式调整",
+            "source_id": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

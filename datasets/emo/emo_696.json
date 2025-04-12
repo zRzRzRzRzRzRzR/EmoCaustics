@@ -1,0 +1,63 @@
+{
+  "5": {
+    "events": [
+      {
+        "event": "辩论中强调享受忙的重要性",
+        "emotions": [
+          {"state": "positive", "reason": "认为享受忙需要学习并提升效率", "source_id": "5"},
+          {"state": "negative", "reason": "反驳对方对工作价值的否定", "source_id": "2,8"},
+          {"state": "positive", "reason": "提出匠人精神改善工作体验", "source_id": "7"}
+        ]
+      },
+      {
+        "event": "亲子教育观点冲突",
+        "emotions": [
+          {"state": "negative", "reason": "被质疑辅导作业破坏亲子关系", "source_id": "2"},
+          {"state": "ambiguous", "reason": "平衡工作责任与家庭陪伴", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "event": "论证忙闲情绪连续性",
+        "emotions": [
+          {"state": "positive", "reason": "强调工作态度影响生活幸福感", "source_id": "6"},
+          {"state": "negative", "reason": "批评社会过度功利化闲暇", "source_id": "8"},
+          {"state": "neutral", "reason": "承认闲时焦虑源于未完成工作", "source_id": "6"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "events": [
+      {
+        "event": "分享朋友物质成功但精神空虚案例",
+        "emotions": [
+          {"state": "negative", "reason": "描述朋友烘焙失败导致自我怀疑", "source_id": "8"},
+          {"state": "negative", "reason": "反思社会日程对个体的束缚", "source_id": "8,4"}
+        ]
+      },
+      {
+        "event": "质疑前提论逻辑",
+        "emotions": [
+          {"state": "doubt", "reason": "挑战时序价值判断的有效性", "source_id": "6"},
+          {"state": "negative", "reason": "指出正方忽视老年人休闲权利", "source_id": "5"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "event": "解构享受概念",
+        "emotions": [
+          {"state": "negative", "reason": "批判将工作思维带入闲暇", "source_id": "5,7"},
+          {"state": "positive", "reason": "提倡无功利心流体验", "source_id": "2"},
+          {"state": "ambiguous", "reason": "面对胜负压力影响辩论状态", "source_id": "2"}
+        ]
+      }
+    ]
+  }
+}
