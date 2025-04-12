@@ -72,7 +72,7 @@ Second part:
 + Among them, `20` datasets were used to compare different sliding windows and step sizes. These 20 datasets contain more than 100 rounds of dialogue, involving multiple tasks or complex topics, with significant and frequent emotional changes. Their IDs are:
 `chat_207`, `chat_218`, `chat_223`, `chat_235`, `chat_251`, `chat_276`, `chat_313`, `chat_318`, `chat_330`, `chat_338`, `chat_365`, `chat_366`, `chat_367`, `chat_376`, `chat_381`, `chat_387`, `chat_389`, `chat_392`, `chat_394`, `chat_395`
 + Ground truth is provided in the data. However, during the execution process, we will not use GT, but instead use large language models for inference and compare with GT at the end.
-+ In this code repository, you can find the complete `1000` datasets under the `datasets` directory.
++ You can find the complete set of `800` data samples under the `datasets` directory. These samples are non-duplicated and represent the higher-quality selections out of an initial pool of 1000 entries.
 
 # Algorithm Principles 🛎️
 
